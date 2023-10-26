@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 35661,
+    "name": "KAKAO_610_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109241202310985101/KAKAO_610_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109241202310985101/KAKAO_610_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32130,
+      "filename": "KAKAO_610_17.txt",
+      "title": "KAKAO_610_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 437,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 437,
+        "word_size": 141,
+        "text": "1 : 요즘 운동 꾸준히 하고 있냐\n2 : 나 필라테스 계속 하고 있음\n1 : 오 웬일이냐 꾸준히 하게 키키 할만해?\n2 : 키키 힘들어 할 때마다 새롭고 힘들다\n1 : 키키 근력 운동이니까... 헬스와는 또 다른 느낌이긴 하지\n2 : 웅 진짜 남자 회원도 많음\n1 : 남자 회원? 헐 남자랑 같이 수업 들어?\n2 : 응응 좀 뻘쭘할 때도 있긴 함 키키\n1 : 키키 그렇겠다... 나도 운동 시작해야 되는데 뭐하지...\n2 : 러닝해 봐 아니면 댄스 학원 어떰?\n1 : 갑분 댄스? 키키 내가 춤을 춰...?\n2 : 키키 아 상상은 안 되지만 배워봐 봐\n1 : 나한테 댄스를 추천하는 이유는?\n2 : 키키 일단 너에게 유연성이 필요한 것 같고 활동적이잖아\n2 : 너 활동적인 운동 좋아하니까~\n1 : 키키 한번 고려해볼게...\n1 : 그동안은 아침마다 러닝이나 할까\n2 : 웅 러닝보다 좋은 운동 없는 것 같음!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 운동 꾸준히 하고 있냐",
+            "norm_text": "요즘 운동 꾸준히 하고 있냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+운동/NNG+꾸준히/MAG+하/VV+고/EC+있/VX+냐/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 필라테스 계속 하고 있음",
+            "norm_text": "나 필라테스 계속 하고 있음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+필라테스/NNP+계속/NNG+하/XSV+고/EC+있/VX+음/ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 웬일이냐 꾸준히 하게 키키 할만해?",
+            "norm_text": "오 웬일이냐 꾸준히 하게 키키 할만해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+웬일/NNG+이/VCP+냐/EC+꾸준히/MAG+하/VV+게/EC+키/NNG+키/NNG+할/XSV+ETM+만/NNB+해/XSA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 힘들어 할 때마다 새롭고 힘들다",
+            "norm_text": "키키 힘들어 할 때마다 새롭고 힘들다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+힘들/VA+어/EC+할/VX+ETM+때/NNG+마다/JX+새롭/VA+고/EC+힘들/VA+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 근력 운동이니까... 헬스와는 또 다른 느낌이긴 하지",
+            "norm_text": "키키 근력 운동이니까... 헬스와는 또 다른 느낌이긴 하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+근력/NNG+운동/NNG+이/VCP+니까/EC+./SY+./SY+헬스/NNG+와/JKB+는/JX+또/MAG+다른/MM+느낌/NNG+이/VCP+긴/ETN+JX+하/VX+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 웅 진짜 남자 회원도 많음",
+            "norm_text": "웅 진짜 남자 회원도 많음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+진짜/MAG+남자/NNG+회원/NNG+도/JX+많/VA+음/ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 남자 회원? 헐 남자랑 같이 수업 들어?",
+            "norm_text": "남자 회원? 헐 남자랑 같이 수업 들어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+회원/NNG+헐/XSV+ETM+남자/NNG+랑/JKB+같이/MAG+수업/NNG+들/VV+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 좀 뻘쭘할 때도 있긴 함 키키",
+            "norm_text": "응응 좀 뻘쭘할 때도 있긴 함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+좀/MAG+뻘쭘/XR+할/XSA+ETM+때/NNG+도/JX+있/VX+긴/ETN+JX+함/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 그렇겠다... 나도 운동 시작해야 되는데 뭐하지...",
+            "norm_text": "키키 그렇겠다... 나도 운동 시작해야 되는데 뭐하지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+겠/EP+다/EF+./SY+나/NP+도/JX+운동/NNG+시작/NNG+해야/XSV+EC+되/VV+는데/EC+뭐/IC+하/VV+지/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 러닝해 봐 아니면 댄스 학원 어떰?",
+            "norm_text": "러닝해 봐 아니면 댄스 학원 어떰?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "러닝/NNG+해/XSV+EC+봐/VX+EF+아니/VCN+면/EC+댄스/NNG+학원/NNG+어떰/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 갑분 댄스? 키키 내가 춤을 춰...?",
+            "norm_text": "갑분 댄스? 키키 내가 춤을 춰...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "갑/NNG+분/XSN+댄스/NNG+?/SY+키/NNG+키/XSV+ETN+내/NP+가/JKS+춤/NNG+을/JKO+춰/VV+EC+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 아 상상은 안 되지만 배워봐 봐",
+            "norm_text": "키키 아 상상은 안 되지만 배워봐 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/VV+아/EC+상상/NNG+은/JX+안/MAG+되/VV+지만/EC+배워/VV+EC+봐/VX+EC+봐/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나한테 댄스를 추천하는 이유는?",
+            "norm_text": "나한테 댄스를 추천하는 이유는?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+한테/JKB+댄스/NNG+를/JKO+추천/NNG+하/XSV+는/ETM+이유/NNG+는/JX"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 일단 너에게 유연성이 필요한 것 같고 활동적이잖아",
+            "norm_text": "키키 일단 너에게 유연성이 필요한 것 같고 활동적이잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+일단/MAG+너/NP+에게/JKB+유연/XR+성/XSN+이/JKS+필요/NNG+한/XSA+ETM+것/NNB+같/VA+고/EC+활동/NNG+적/XSN+이/VCP+잖아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 너 활동적인 운동 좋아하니까~",
+            "norm_text": "너 활동적인 운동 좋아하니까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+활동/NNG+적/XSN+인/VCP+ETM+운동/NNG+좋/VA+아/EC+하/VV+니까/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 한번 고려해볼게...",
+            "norm_text": "키키 한번 고려해볼게...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+한/MM+번/NNBC+고려/NNG+해/XSV+EC+볼게/VX+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그동안은 아침마다 러닝이나 할까",
+            "norm_text": "그동안은 아침마다 러닝이나 할까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그동안/NNG+은/JX+아침/NNG+마다/JX+러닝/NNG+이나/JX+할까/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 웅 러닝보다 좋은 운동 없는 것 같음!",
+            "norm_text": "웅 러닝보다 좋은 운동 없는 것 같음!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+러닝/NNG+보다/JKB+좋/VA+은/ETM+운동/NNG+없/VA+는/ETM+것/NNB+같/VA+음/ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

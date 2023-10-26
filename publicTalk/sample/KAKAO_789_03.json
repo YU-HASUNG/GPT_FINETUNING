@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 40482,
+    "name": "KAKAO_789_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150315014777/KAKAO_789_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150315014777/KAKAO_789_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38214,
+      "filename": "KAKAO_789_03.txt",
+      "title": "KAKAO_789_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 611,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 611,
+        "word_size": 183,
+        "text": "1 : 나 출,퇴근 할 때 타는 버스 시간 간격이 1시간이다?!\n2 : 1시간...?! 차라리 차를 타고 다니는 게 낫겠다\n1 : 차를 살 돈이 없으니까...\n1 : 1시간은 양반이고 저번에는 80분인가 기다린 적 있어...\n2 : 와 그 정도면 회사를 어떻게 다녔어...\n1 : 기다림의 연속이었지... 키키\n1 : 그냥 포기하고 계속 기다렸어...\n2 : 진짜 대단하다~!\n2 : 그래서 지금은?\n1 : 아직도 다니고 있지~\n1 : 사실 버스를 갈아타도 되긴 해 키키\n2 : 아직도 고생 중이구나...\n2 : 그냥 버스를 갈아타고 다녀 ㅠㅠ\n1 : 그게 굉장히 번거롭더라고...\n1 : 심지어 버스 정류장이 가까운 게 아니어서 힘들어...\n1 : 언니는 집에서 버스 정류장 가까워?\n2 : 나는 집 바로 앞에 버스 정류장 있어!\n1 : 아 진짜? 부럽다 버스 정류장이나 지하철역 가까운 거 너무 부러워\n2 : 어서 이사를 가거나 차를 사거나 둘 중 하나 해야겠다 ㅜ\n1 : 응... 둘 다 현실 가능성이 없어서...\n1 : 그냥 버스 갈아타고 다니는 게 나을듯해...\n2 : 그러게... 아님 회사를 옮기는 건...?\n1 : 회사를...? 그건 생각 안 해봤는데 생각 한 번 해봐야겠다\n2 : 잘 생각해보고 최대한 빨리 이직해 봐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 출,퇴근 할 때 타는 버스 시간 간격이 1시간이다?!",
+            "norm_text": "나 출,퇴근 할 때 타는 버스 시간 간격이 1시간이다?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나출/NNG+,/SC+퇴근/NNG+할/XSV+ETM+때/NNG+타/VV+는/ETM+버스/NNG+시간/NNG+간격/NNG+이/JKS+1/SN+시간/NNG+이/VCP+다/EC+?/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 1시간...?! 차라리 차를 타고 다니는 게 낫겠다",
+            "norm_text": "1시간...?! 차라리 차를 타고 다니는 게 낫겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "1/SN+시간/NNBC+./SY+?/SY+차라리/MAG+차/NNG+를/JKO+타/VV+고/EC+다니/VV+는/ETM+게/NNB+JKS+낫/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 차를 살 돈이 없으니까...",
+            "norm_text": "차를 살 돈이 없으니까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+를/JKO+살/VV+ETM+돈/NNG+이/JKS+없/VA+으니까/EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 1시간은 양반이고 저번에는 80분인가 기다린 적 있어...",
+            "norm_text": "1시간은 양반이고 저번에는 80분인가 기다린 적 있어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "1/SN+시간/NNG+은/JX+양반/NNG+이/VCP+고/EC+저번/NNG+에/JKB+는/JX+80/SN+분/NNBC+인가/VCP+EC+기다린/VV+ETM+적/NNB+있/VA+어/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 와 그 정도면 회사를 어떻게 다녔어...",
+            "norm_text": "와 그 정도면 회사를 어떻게 다녔어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+그/MM+정도/NNG+면/VCP+EC+회사/NNG+를/JKO+어떻게/MAG+다녔/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 기다림의 연속이었지... 키키",
+            "norm_text": "기다림의 연속이었지... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기다림/VV+ETN+의/JKG+연속/NNG+이/VCP+었/EP+지/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그냥 포기하고 계속 기다렸어...",
+            "norm_text": "그냥 포기하고 계속 기다렸어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+포기/NNG+하/XSV+고/EC+계속/MAG+기다렸/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 진짜 대단하다~!",
+            "norm_text": "진짜 대단하다~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "진짜/MAG+대단/XR+하/XSA+다/EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래서 지금은?",
+            "norm_text": "그래서 지금은?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+지금/MAG+은/JX"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아직도 다니고 있지~",
+            "norm_text": "아직도 다니고 있지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+도/JX+다니/VV+고/EC+있/VX+지/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 사실 버스를 갈아타도 되긴 해 키키",
+            "norm_text": "사실 버스를 갈아타도 되긴 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+버스/NNG+를/JKO+갈아타/VV+EC+도/JX+되/VV+긴/ETN+JX+해/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아직도 고생 중이구나...",
+            "norm_text": "아직도 고생 중이구나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+도/JX+고생/NNG+중/NNB+이/VCP+구나/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그냥 버스를 갈아타고 다녀 ㅠㅠ",
+            "norm_text": "그냥 버스를 갈아타고 다녀 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그냥/MAG+버스/NNG+를/JKO+갈아타/VV+고/EC+다녀/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그게 굉장히 번거롭더라고...",
+            "norm_text": "그게 굉장히 번거롭더라고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+굉장히/MAG+번거롭/VA+더라고/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 심지어 버스 정류장이 가까운 게 아니어서 힘들어...",
+            "norm_text": "심지어 버스 정류장이 가까운 게 아니어서 힘들어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "심지어/MAG+버스/NNG+정류장/NNG+이/JKS+가까운/VA+ETM+게/NNB+JKC+아니/VCN+어서/EC+힘들/VA+어/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 언니는 집에서 버스 정류장 가까워?",
+            "norm_text": "언니는 집에서 버스 정류장 가까워?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+집/NNG+에서/JKB+버스/NNG+정류장/NNG+가까워/VA+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나는 집 바로 앞에 버스 정류장 있어!",
+            "norm_text": "나는 집 바로 앞에 버스 정류장 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+집/NNG+바로/MAG+앞/NNG+에/JKB+버스/NNG+정류장/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 진짜? 부럽다 버스 정류장이나 지하철역 가까운 거 너무 부러워",
+            "norm_text": "아 진짜? 부럽다 버스 정류장이나 지하철역 가까운 거 너무 부러워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+부럽/VA+다/EC+버스/NNG+정류장/NNG+이나/JC+지하철역/NNG+가까운/VA+ETM+거/NNB+너무/MAG+부러워/VA+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 어서 이사를 가거나 차를 사거나 둘 중 하나 해야겠다 ㅜ",
+            "norm_text": "어서 이사를 가거나 차를 사거나 둘 중 하나 해야겠다 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "어서/MAG+이사/NNG+를/JKO+가/VV+거나/EC+차/NNG+를/JKO+사/VV+거나/EC+둘/NR+중/NNB+하나/NR+해야/VV+EC+VX+겠/EP+다ㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 응... 둘 다 현실 가능성이 없어서...",
+            "norm_text": "응... 둘 다 현실 가능성이 없어서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+둘/NR+다/MAG+현실/NNG+가능/NNG+성/XSN+이/JKS+없/VA+어서/EC+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그냥 버스 갈아타고 다니는 게 나을듯해...",
+            "norm_text": "그냥 버스 갈아타고 다니는 게 나을듯해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+버스/NNG+갈아타/VV+고/EC+다니/VV+는/ETM+게/NNB+JKS+나을/VA+ETM+듯/NNB+해/XSA+EF+./SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그러게... 아님 회사를 옮기는 건...?",
+            "norm_text": "그러게... 아님 회사를 옮기는 건...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+./SY+아님/MAJ+회사/NNG+를/JKO+옮기/VV+는/ETM+건/NNB+JX+./SY+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 회사를...? 그건 생각 안 해봤는데 생각 한 번 해봐야겠다",
+            "norm_text": "회사를...? 그건 생각 안 해봤는데 생각 한 번 해봐야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "회사/NNG+를/JKO+./SY+./SY+그건/NP+JX+생각/NNG+안/MAG+해/VV+EC+봤/VX+EP+는데/EC+생각/NNG+한번/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 잘 생각해보고 최대한 빨리 이직해 봐",
+            "norm_text": "잘 생각해보고 최대한 빨리 이직해 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "잘/MAG+생각/NNG+해/XSV+EC+보/VX+고/EC+최대한/MAG+빨리/MAG+이직/NNG+해/XSV+EC+봐/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

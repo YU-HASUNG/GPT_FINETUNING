@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 22327,
+    "name": "KAKAO_603_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113305089022/KAKAO_603_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113305089022/KAKAO_603_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30371,
+      "filename": "KAKAO_603_16.txt",
+      "title": "KAKAO_603_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 513,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 513,
+        "word_size": 177,
+        "text": "1 : 뭐야?\n1 : 너 팔이 왜 그래 ?\n2 : 아 이거 ? 키키\n2 : 우리 제주도 갔을 때 다 탔어 ...\n1 : 헐... 피부색 차이가 엄청나네...\n2 : 웅... 키키 햇빛이 너무 세서 선크림을 뚫어버렸어...\n1 : 키키 진짜 까매졌다\n1 : 어쩐다냐 키키\n2 : 겨울 되면 다시 쪼금 하얘지겠지 ~\n1 : 그런가 키키 하긴 나도 그랬었던 거 같아\n2 : 여름엔 살짝 까매지고 겨울엔 하얘지고 ?\n1 : 응응 키키  진짜 햇빛 안 받으면 하얘지는 거 신기해 키키\n2 : 근데 너무 까매진 것 같긴 한데... 미백 시술 받을까?\n1 : 키키 먼 미백 시술이야...\n1 : 저절로 하얘지겠지;\n1 : 그리고 남자가 좀 까무잡잡할 수도 있지 너무 하야면 별로야;\n2 : 농담이야 ~ 키키\n2 : 진지하게 받아들일지 몰랐네~\n1 : 아 난 또~ 키키\n1 : 진짜 하는 말인 줄 알았잖아 ~\n2 : 역시 진지충이구나 너 ~\n2 : 놀리는 재미가 있어 ~\n1 : 아 그만 좀 놀려^^\n1 : 그만 좀 해 ~\n2 : 왜~ 너 놀리는 게 세상에서 제일 재밌어 ~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 뭐야?",
+            "norm_text": "뭐야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 너 팔이 왜 그래 ?",
+            "norm_text": "너 팔이 왜 그래 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+팔/NNG+이/JKS+왜/MAG+그래/VA+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아 이거 ? 키키",
+            "norm_text": "아 이거 ? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+이거/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우리 제주도 갔을 때 다 탔어 ...",
+            "norm_text": "우리 제주도 갔을 때 다 탔어 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+제주/NNP+도/JX+갔/VV+EP+을/ETM+때/NNG+다/MAG+탔/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 헐... 피부색 차이가 엄청나네...",
+            "norm_text": "헐... 피부색 차이가 엄청나네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+피부색/NNG+차이/NNG+가/JKS+엄청나/VA+네/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 웅... 키키 햇빛이 너무 세서 선크림을 뚫어버렸어...",
+            "norm_text": "웅... 키키 햇빛이 너무 세서 선크림을 뚫어버렸어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+./SY+키/NNG+키/NNG+햇빛/NNG+이/JKS+너무/MAG+세/VA+서/EC+선크림/NNG+을/JKO+뚫/VV+어/EC+버렸/VX+EP+어/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 진짜 까매졌다",
+            "norm_text": "키키 진짜 까매졌다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+까매/VA+EC+졌/VX+EP+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어쩐다냐 키키",
+            "norm_text": "어쩐다냐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쩐다냐/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 겨울 되면 다시 쪼금 하얘지겠지 ~",
+            "norm_text": "겨울 되면 다시 쪼금 하얘지겠지 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "겨울/NNG+되/XSV+면/EC+다시/MAG+쪼금/MAG+하얘지/VV+겠/EP+지/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그런가 키키 하긴 나도 그랬었던 거 같아",
+            "norm_text": "그런가 키키 하긴 나도 그랬었던 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+키/NNG+키/NNG+하/XSV+긴/ETN+JX+나/NP+도/JX+그랬었/VV+EP+던/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 여름엔 살짝 까매지고 겨울엔 하얘지고 ?",
+            "norm_text": "여름엔 살짝 까매지고 겨울엔 하얘지고 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+엔/JKB+JX+살짝/MAG+까매지/VV+고/EC+겨울/NNG+엔/JKB+JX+하얘/VA+EC+지/VX+고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응응 키키  진짜 햇빛 안 받으면 하얘지는 거 신기해 키키",
+            "norm_text": "응응 키키  진짜 햇빛 안 받으면 하얘지는 거 신기해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+진짜/MAG+햇빛/NNG+안/MAG+받/VV+으면/EC+하얘지/VV+는/ETM+거/NNB+신기/XR+해/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 근데 너무 까매진 것 같긴 한데... 미백 시술 받을까?",
+            "norm_text": "근데 너무 까매진 것 같긴 한데... 미백 시술 받을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "근데/MAJ+너무/MAG+까매진/VA+EC+VX+ETM+것/NNB+같/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+미백/NNG+시술/NNG+받/VV+을까/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 먼 미백 시술이야...",
+            "norm_text": "키키 먼 미백 시술이야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "키/NNG+키/XSV+ETN+먼/VA+ETM+미백/NNG+시술/NNG+이/VCP+야/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 저절로 하얘지겠지;",
+            "norm_text": "저절로 하얘지겠지;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저절로/MAG+하얘지/VV+겠/EP+지/EC+;/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그리고 남자가 좀 까무잡잡할 수도 있지 너무 하야면 별로야;",
+            "norm_text": "그리고 남자가 좀 까무잡잡할 수도 있지 너무 하야면 별로야;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+남자/NNG+가/JKS+좀/MAG+까무잡잡/XR+할/XSA+ETM+수/NNB+도/JX+있/VA+지/EC+너무/MAG+하/VV+야/EC+면/NNG+별/XSN+로/JKB+야/JX+;/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 농담이야 ~ 키키",
+            "norm_text": "농담이야 ~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "농담/NNG+이/VCP+야/EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 진지하게 받아들일지 몰랐네~",
+            "norm_text": "진지하게 받아들일지 몰랐네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진지/XR+하/XSA+게/EC+받아들일지/VV+EC+몰랐/VV+EP+네/EF+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아 난 또~ 키키",
+            "norm_text": "아 난 또~ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+난/NP+JX+또/MAG+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 진짜 하는 말인 줄 알았잖아 ~",
+            "norm_text": "진짜 하는 말인 줄 알았잖아 ~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/NNG+하/XSV+는/ETM+말/NNG+인/VCP+ETM+줄/NNB+알/VV+았/EP+잖아/EC+~/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 역시 진지충이구나 너 ~",
+            "norm_text": "역시 진지충이구나 너 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+진/VV+ETM+지충/NNG+이/VCP+구나/EF+너/NP+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 놀리는 재미가 있어 ~",
+            "norm_text": "놀리는 재미가 있어 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "놀리/VV+는/ETM+재미/NNG+가/JKS+있/VA+어/EC+~/SY"
+          },
+          {
+            "id": 24,
+            "text": "1 : 아 그만 좀 놀려^^",
+            "norm_text": "아 그만 좀 놀려^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "아/IC+그만/MAG+좀/MAG+놀려/VV+EC+^/SY+^/SY"
+          },
+          {
+            "id": 25,
+            "text": "1 : 그만 좀 해 ~",
+            "norm_text": "그만 좀 해 ~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그만/MAG+좀/MAG+해/VV+EC+~/SY"
+          },
+          {
+            "id": 26,
+            "text": "2 : 왜~ 너 놀리는 게 세상에서 제일 재밌어 ~",
+            "norm_text": "왜~ 너 놀리는 게 세상에서 제일 재밌어 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+~/SY+너/NP+놀리/VV+는/ETM+게/NNB+JKS+세상/NNG+에서/JKB+제일/MAG+재밌/VA+어/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

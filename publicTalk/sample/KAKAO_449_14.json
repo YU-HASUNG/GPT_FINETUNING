@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20213,
+    "name": "KAKAO_449_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109161359110823110/KAKAO_449_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109161359110823110/KAKAO_449_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27844,
+      "filename": "KAKAO_449_14.txt",
+      "title": "KAKAO_449_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 418,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 418,
+        "word_size": 130,
+        "text": "1 : 너 이번에 재난지원금 신청 했어?\n2 : 나는 순서가 아직이라 다음 주에 신청이래 ㅠㅠ\n1 : 나도 아직이라 다음 주에 신청인데!\n2 : 너는 어떻게 재난지원금 받으려고? 나는 은행!\n1 : 그렇구나 나는 카뱅으로 신청하려고!\n2 : 아 그래? 금액은 다 똑같이 주는 거지?\n1 : 맞아 25만 원이라고 하더라고!\n2 : 오 많이 준다 재난지원금은 어디다 사용하려고?~\n1 : 일단 킵 해두고 나중에 필요할 때 써야지!\n2 : 아 킵 할 거야?\n2 : 나는 헬스장 등록에 사용하려고!\n1 : 너 헬스장은 피티 받고 하는 거야?\n2 : 맞아 완전 초보라 피티 받으면서 할까 생각하고 있어!\n1 : 거기 피티 비용은 얼마인데 그래?\n2 : 회당 5만 원 정도야 ㅠㅠ 비싸지?\n1 : 그러면 이번에 지원금 받으면 바로 회원권 끊어!\n2 : 알았어~ 그러면 바로 끊도록 할게!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 이번에 재난지원금 신청 했어?",
+            "norm_text": "너 이번에 재난지원금 신청 했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+이번/NNG+에/JKB+재난/NNG+지원금/NNG+신청/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 순서가 아직이라 다음 주에 신청이래 ㅠㅠ",
+            "norm_text": "나는 순서가 아직이라 다음 주에 신청이래 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+순서/NNG+가/JKS+아직/MAG+이/VCP+라/EC+다음/NNG+주/NNG+에/JKB+신청/NNG+이/VCP+래/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나도 아직이라 다음 주에 신청인데!",
+            "norm_text": "나도 아직이라 다음 주에 신청인데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+아직/MAG+이/VCP+라/EC+다음/NNG+주/NNG+에/JKB+신청/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너는 어떻게 재난지원금 받으려고? 나는 은행!",
+            "norm_text": "너는 어떻게 재난지원금 받으려고? 나는 은행!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+어떻게/MAG+재난/NNG+지원금/NNG+받/VV+으려고/EF+나/NP+는/JX+은행/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그렇구나 나는 카뱅으로 신청하려고!",
+            "norm_text": "그렇구나 나는 카뱅으로 신청하려고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그렇/VA+구나/EF+나/NP+는/JX+카뱅/UNKNOWN+으로/JKB+신청/NNG+하/XSA+려고/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 그래? 금액은 다 똑같이 주는 거지?",
+            "norm_text": "아 그래? 금액은 다 똑같이 주는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+금액/NNG+은/JX+다/MAG+똑같이/MAG+주/VV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아 25만 원이라고 하더라고!",
+            "norm_text": "맞아 25만 원이라고 하더라고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+25/SN+만/NR+원/NNBC+이/VCP+라고/EC+하/VX+더라고/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오 많이 준다 재난지원금은 어디다 사용하려고?~",
+            "norm_text": "오 많이 준다 재난지원금은 어디다 사용하려고?~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+많이/MAG+준다/VV+EC+재난/NNG+지원금/NNG+은/JX+어디/NP+다/JX+사용/NNG+하/XSV+려고/EC+?/SY+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 일단 킵 해두고 나중에 필요할 때 써야지!",
+            "norm_text": "일단 킵 해두고 나중에 필요할 때 써야지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일단/MAG+킵/NNP+해/VV+EC+두/VX+고/EC+나중/NNG+에/JKB+필요/NNG+할/XSV+ETM+때/NNG+써야지/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 킵 할 거야?",
+            "norm_text": "아 킵 할 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+킵/NNP+할/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 헬스장 등록에 사용하려고!",
+            "norm_text": "나는 헬스장 등록에 사용하려고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+는/JX+헬스/NNG+장/NNG+등록/NNG+에/JKB+사용/NNG+하/XSA+려고/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 너 헬스장은 피티 받고 하는 거야?",
+            "norm_text": "너 헬스장은 피티 받고 하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+헬스/NNG+장/NNG+은/JX+피티/NNG+받/VV+고/EC+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 맞아 완전 초보라 피티 받으면서 할까 생각하고 있어!",
+            "norm_text": "맞아 완전 초보라 피티 받으면서 할까 생각하고 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+완전/NNG+초보/NNG+라/VCP+EC+피티/NNG+받/VV+으면서/EC+할까/VX+EC+생각/NNG+하/XSV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 거기 피티 비용은 얼마인데 그래?",
+            "norm_text": "거기 피티 비용은 얼마인데 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+피티/NNG+비용/NNG+은/JX+얼마/NNG+인데/VCP+EC+그래/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 회당 5만 원 정도야 ㅠㅠ 비싸지?",
+            "norm_text": "회당 5만 원 정도야 ㅠㅠ 비싸지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회당/NNG+5/SN+만/NR+원/NNBC+정도/NNG+야/VCP+EF+ㅠㅠ/UNKNOWN+비싸/VA+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그러면 이번에 지원금 받으면 바로 회원권 끊어!",
+            "norm_text": "그러면 이번에 지원금 받으면 바로 회원권 끊어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그러면/MAJ+이번/NNG+에/JKB+지원금/NNG+받/VV+으면/EC+바로/MAG+회원권/NNG+끊/VV+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 알았어~ 그러면 바로 끊도록 할게!",
+            "norm_text": "알았어~ 그러면 바로 끊도록 할게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "알/VV+았/EP+어/EC+~/SY+그러면/MAJ+바로/MAG+끊/VV+도록/EC+할게/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

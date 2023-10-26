@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 166848,
+    "name": "KAKAO_529_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151421028212/KAKAO_529_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151421028212/KAKAO_529_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29733,
+      "filename": "KAKAO_529_02.txt",
+      "title": "KAKAO_529_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 350,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 350,
+        "word_size": 111,
+        "text": "1 : 요즘 월세 얼마 정도 받는지 알아?\n2 : 월세는 기본 40만원 50만원에 보증금 500만 원 정도?\n1 : 그럼 전세는 얼마 정도 받는지 알아?\n2 : 너가 알아보는 집 크기에 다르겠지?\n1 : 그럼 너가 사는 원룸 크기만 한 집은 얼마야?\n2 : 우리 집은 6000만 원으로 입주 했지\n1 : 관리비는 없는 거야? 있으면 얼마야?\n2 : 관리비 있고 우리는 싼 편인데 10만 원이다\n1 : 그럼 다른 곳은 더 비싸?\n2 : 요즘은 전세 매물이 잘 없어서 많이 올랐더라\n1 : 그럼 얼마 정도 인지 알아?\n2 : 보증금 7500만 원까지 올랐던데!\n1 : 와 비싸다 관리비도 똑같은 금액인 거야?\n2 : 아니 관리비도 15만 원으로 올랐더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 월세 얼마 정도 받는지 알아?",
+            "norm_text": "요즘 월세 얼마 정도 받는지 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+월세/NNG+얼마/NNG+정도/NNG+받/VV+는지/EC+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 월세는 기본 40만원 50만원에 보증금 500만 원 정도?",
+            "norm_text": "월세는 기본 40만원 50만원에 보증금 500만 원 정도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "월세/NNG+는/JX+기본/NNG+40/SN+만/NR+원/NNBC+50/SN+만/NR+원/NNBC+에/JKB+보증금/NNG+500/SN+만/NR+원/NNBC+정도/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그럼 전세는 얼마 정도 받는지 알아?",
+            "norm_text": "그럼 전세는 얼마 정도 받는지 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+전세/NNG+는/JX+얼마/NNG+정도/NNG+받/VV+는지/EC+알/VV+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너가 알아보는 집 크기에 다르겠지?",
+            "norm_text": "너가 알아보는 집 크기에 다르겠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+가/JKS+알아보/VV+는/ETM+집/NNG+크기/NNG+에/JKB+다르/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그럼 너가 사는 원룸 크기만 한 집은 얼마야?",
+            "norm_text": "그럼 너가 사는 원룸 크기만 한 집은 얼마야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+너/NP+가/JKS+사/VV+는/ETM+원룸/NNG+크기/NNG+만/JX+한집/NNG+은/JX+얼마/NNG+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 우리 집은 6000만 원으로 입주 했지",
+            "norm_text": "우리 집은 6000만 원으로 입주 했지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+집/NNG+은/JX+6000/SN+만/NR+원/NNBC+으로/JKB+입주/NNG+했/XSV+EP+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 관리비는 없는 거야? 있으면 얼마야?",
+            "norm_text": "관리비는 없는 거야? 있으면 얼마야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "관리비/NNG+는/JX+없/VA+는/ETM+거/NNB+야/VCP+EF+있/VV+으면/EC+얼마/NNG+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 관리비 있고 우리는 싼 편인데 10만 원이다",
+            "norm_text": "관리비 있고 우리는 싼 편인데 10만 원이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "관리비/NNG+있/VV+고/EC+우리/NP+는/JX+싼/VA+ETM+편/NNB+인데/VCP+EC+10/SN+만/NR+원/NNBC+이/VCP+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그럼 다른 곳은 더 비싸?",
+            "norm_text": "그럼 다른 곳은 더 비싸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+다른/MM+곳/NNG+은/JX+더/MAG+비싸/VA+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 요즘은 전세 매물이 잘 없어서 많이 올랐더라",
+            "norm_text": "요즘은 전세 매물이 잘 없어서 많이 올랐더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+전세/NNG+매물/NNG+이/JKS+잘/MAG+없/VA+어서/EC+많이/MAG+올랐/VV+EP+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 얼마 정도 인지 알아?",
+            "norm_text": "그럼 얼마 정도 인지 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+얼마/NNG+정도/NNG+인지/VCP+EC+알/VV+아/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 보증금 7500만 원까지 올랐던데!",
+            "norm_text": "보증금 7500만 원까지 올랐던데!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보증금/NNG+7500/SN+만/NR+원/NNBC+까지/JX+올랐/VV+EP+던데/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 와 비싸다 관리비도 똑같은 금액인 거야?",
+            "norm_text": "와 비싸다 관리비도 똑같은 금액인 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+비싸/VA+다/EC+관리비/NNG+도/JX+똑같/VA+은/ETM+금액/NNG+인/VCP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 관리비도 15만 원으로 올랐더라",
+            "norm_text": "아니 관리비도 15만 원으로 올랐더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+관리비/NNG+도/JX+15/SN+만/NR+원/NNBC+으로/JKB+올랐/VV+EP+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

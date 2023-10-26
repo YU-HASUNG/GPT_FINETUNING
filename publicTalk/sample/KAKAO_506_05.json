@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 29155,
+    "name": "KAKAO_506_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109161512200807106/KAKAO_506_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109161512200807106/KAKAO_506_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28615,
+      "filename": "KAKAO_506_05.txt",
+      "title": "KAKAO_506_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 539,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 539,
+        "word_size": 173,
+        "text": "1 : 어릴 때 직업 군인 말하더니 직업 군인하지 그랬어 키키\n2 : 안 그래도 직업 군인을 했어야 했는데 후회 중이야\n1 : 내 친구 직업 군인이랑 결혼했는데 나쁘지 않다나 봐\n2 : 요즘 같은 시대엔 너무 좋지\n2 : 다만 이사를 다니는 게 자녀들한테 안 좋을 것 같아\n1 : 직업 군인은 육군이나 일반 병사랑 다른 일해?\n2 : 전문 하사? 아무래도 장교지?\n1 : 아 그렇구나 키키 그럼 그것도 꽤 괜찮겠네\n2 : 월급이 적긴 하지만 집도 주고 안정적이지\n1 : 맞아 군인 아파트 키키\n1 : 친구 결혼식도 무슨 해군 어쩌고 하는 호텔에서 결혼하던데\n2 : 응 그런 혜택들이 많아서...\n2 : 근데 군인하다 전향하는 직업 군인은 수명이 짧아\n1 : 얼마나 짧아? 다른 혜택도 더 많은가 보네\n2 : 30되기 전에 전역한다더라\n1 : 군대 생활이 체질이 맞다면야 그것도 나쁘지 않겠다\n2 : 꿀이지, 하라는 대로만 하면 되니깐\n1 : 키키 그래도 군대 생활은 역시 짜증 날 듯 키키 상사? 선임? 때문에 키키\n2 : 그 상사가 내가 되는 거니깐 요즘 같은 때 정말 그때 말뚝 박을 걸 싶어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어릴 때 직업 군인 말하더니 직업 군인하지 그랬어 키키",
+            "norm_text": "어릴 때 직업 군인 말하더니 직업 군인하지 그랬어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+직업/NNG+군인/NNG+말/NNG+하/XSV+더니/EC+직업/NNG+군인/NNG+하/XSV+지/EC+그랬/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 안 그래도 직업 군인을 했어야 했는데 후회 중이야",
+            "norm_text": "안 그래도 직업 군인을 했어야 했는데 후회 중이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+직업/NNG+군인/NNG+을/JKO+했/VV+EP+어야/EC+했/VX+EP+는데/EC+후회/NNG+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 내 친구 직업 군인이랑 결혼했는데 나쁘지 않다나 봐",
+            "norm_text": "내 친구 직업 군인이랑 결혼했는데 나쁘지 않다나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+친구/NNG+직업/NNG+군인/NNG+이랑/JKB+결혼/NNG+했/XSV+EP+는데/EC+나쁘/VA+지/EC+않/VX+다나/EC+봐/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 요즘 같은 시대엔 너무 좋지",
+            "norm_text": "요즘 같은 시대엔 너무 좋지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+같/VA+은/ETM+시대/NNG+엔/JKB+JX+너무/MAG+좋/VA+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 다만 이사를 다니는 게 자녀들한테 안 좋을 것 같아",
+            "norm_text": "다만 이사를 다니는 게 자녀들한테 안 좋을 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다만/MAJ+이사/NNG+를/JKO+다니/VV+는/ETM+게/NNB+JKS+자녀/NNG+들/XSN+한테/JKB+안/MAG+좋/VA+을/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 직업 군인은 육군이나 일반 병사랑 다른 일해?",
+            "norm_text": "직업 군인은 육군이나 일반 병사랑 다른 일해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "직업/NNG+군인/NNG+은/JX+육군/NNG+이나/JC+일반/NNG+병사/NNG+랑/JC+다른/MM+일/NNG+해/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 전문 하사? 아무래도 장교지?",
+            "norm_text": "전문 하사? 아무래도 장교지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전문/NNG+하사/NNG+아무래도/MAG+장교/NNG+지/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 그렇구나 키키 그럼 그것도 꽤 괜찮겠네",
+            "norm_text": "아 그렇구나 키키 그럼 그것도 꽤 괜찮겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇/VA+구나/EF+키/NNG+키/XSV+ETN+그럼/MAJ+그것/NP+도/JX+꽤/MAG+괜찮/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 월급이 적긴 하지만 집도 주고 안정적이지",
+            "norm_text": "월급이 적긴 하지만 집도 주고 안정적이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "월급/NNG+이/JKS+적/VV+긴/ETN+JX+하/VX+지만/EC+집/NNG+도/JX+주/VX+고/EC+안정/NNG+적/XSN+이/VCP+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맞아 군인 아파트 키키",
+            "norm_text": "맞아 군인 아파트 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "맞/VV+아/EC+군인/NNG+아파트/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 친구 결혼식도 무슨 해군 어쩌고 하는 호텔에서 결혼하던데",
+            "norm_text": "친구 결혼식도 무슨 해군 어쩌고 하는 호텔에서 결혼하던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "친구/NNG+결혼식/NNG+도/JX+무슨/MM+해군/NNG+어쩌/VV+고/EC+하/VV+는/ETM+호텔/NNG+에서/JKB+결혼/NNG+하/XSV+던데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 그런 혜택들이 많아서...",
+            "norm_text": "응 그런 혜택들이 많아서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그런/MM+혜택/NNG+들/XSN+이/JKS+많/VA+아서/EC+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 근데 군인하다 전향하는 직업 군인은 수명이 짧아",
+            "norm_text": "근데 군인하다 전향하는 직업 군인은 수명이 짧아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+군인/NNG+하/XSV+다/EC+전향/NNG+하/XSV+는/ETM+직업/NNG+군인/NNG+은/JX+수명/NNG+이/JKS+짧/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 얼마나 짧아? 다른 혜택도 더 많은가 보네",
+            "norm_text": "얼마나 짧아? 다른 혜택도 더 많은가 보네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "얼마나/MAG+짧/VA+아/EF+다른/MM+혜택/NNG+도/JX+더/MAG+많/VA+은가/EC+보/VX+네/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 30되기 전에 전역한다더라",
+            "norm_text": "30되기 전에 전역한다더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "30/SN+되/XSV+기/ETN+전/NNG+에/JKB+전역/NNG+한다더라/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 군대 생활이 체질이 맞다면야 그것도 나쁘지 않겠다",
+            "norm_text": "군대 생활이 체질이 맞다면야 그것도 나쁘지 않겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+생활/NNG+이/JKS+체질/NNG+이/JKS+맞/VV+다면야/EC+그것/NP+도/JX+나쁘/VA+지/EC+않/VX+겠/EP+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 꿀이지, 하라는 대로만 하면 되니깐",
+            "norm_text": "꿀이지, 하라는 대로만 하면 되니깐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "꿀/NNG+이/VCP+지/EF+,/SC+하/VV+라는/ETM+대로/NNB+만/JX+하/VV+면/EC+되/VV+니깐/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 그래도 군대 생활은 역시 짜증 날 듯 키키 상사? 선임? 때문에 키키",
+            "norm_text": "키키 그래도 군대 생활은 역시 짜증 날 듯 키키 상사? 선임? 때문에 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+군대/NNG+생활/NNG+은/JX+역시/MAJ+짜증/NNG+날/VV+ETM+듯/NNB+키/NNG+키/NNG+상사/NNG+?/SY+선임/NNG+때문/NNB+에/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그 상사가 내가 되는 거니깐 요즘 같은 때 정말 그때 말뚝 박을 걸 싶어",
+            "norm_text": "그 상사가 내가 되는 거니깐 요즘 같은 때 정말 그때 말뚝 박을 걸 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+상사/NNG+가/JKS+내/NP+가/JKS+되/VV+는/ETM+거/NNB+니깐/VCP+EC+요즘/MAG+같/VA+은/ETM+때/NNG+정말/MAG+그때/NNG+말뚝/NNG+박/VV+을걸/EC+싶/VX+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

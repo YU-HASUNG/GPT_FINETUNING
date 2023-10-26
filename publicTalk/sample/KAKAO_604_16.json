@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 24246,
+    "name": "KAKAO_604_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141941066669/KAKAO_604_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141941066669/KAKAO_604_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30629,
+      "filename": "KAKAO_604_16.txt",
+      "title": "KAKAO_604_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 766,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 766,
+        "word_size": 235,
+        "text": "1 : 어쩐다는 건 아니고 키키 아 다이어트 하려고 했는데 티비에서 짱구가 라면을 너무 맛있게 먹어서 저녁 먹어버렸다\n2 : 난 미용 쪽은 정말 신경을 안 써서... 이러다 어느 날 갑자기 팍 늙는 건 아니겠지? ㅋ\n1 : 어느 날 갑자기 팍 늙을걸...?\n1 : 그래도 우리 집안 사람들 다 어려서 노안이라 그렇지 나이 먹을수록 젊어 보이는 듯\n2 : 나 중학교 사진 보면 엄청 늙어 보이긴 하든데 키키\n1 : 난 진짜 거짓말 조금 보태서 초등학교 때부터 그냥 지금 얼굴임.\n2 : 아니야 태어났을 때부터 지금 얼굴이었어\n1 : 에이 그건 좀 너무 거짓말이잖아 ㅠ\n1 : 나 애기 때 완전 사랑스럽게 생겼던데? 키즈 모델 안 시키고 뭐했나 몰라\n2 : 아닌데 완전 장수처럼 생겨서 간호사샘들이 어이구 애가 너무 많이 먹어요 이랬는데?\n1 : 유치원 때 완전 이쁘게 생겼더만.\n1 : 그때 얼굴 그대로 지켜왔다면 지금쯤 외모가 미쳤을 텐데.\n2 : 아닌데 유치원 때도 여포처럼 생겼었는데?\n1 : 진짜 이쁘게 생겼어 나ㅠ 내가 봐도 나 같은 딸 낳으면 보는 것만으로도 행복할 듯\n2 : 진심이냐? 너 같은 딸 낳으면 행복하다고? 어무니 얼굴 안 봤냐?\n2 : 너 키우고 나서 아주 그냥... 엉망진창이 된 걸?\n1 : 아니 그건 엄마 아빠가 너무 늦은 나이에 사랑이 불타올라서 그런 거고...\n1 : 날 너무 늦게 낳았어\n2 : 아닌데 너 키우느라 속 썩어서 그런 건뎅\n1 : 에이 속썩인 건 오빠도 만만치 않던데. 대성학원에서 포기한 학생\n2 : 대성학원에서 포기한 게 아니고 오빠가 안 간다고 한 거야",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어쩐다는 건 아니고 키키 아 다이어트 하려고 했는데 티비에서 짱구가 라면을 너무 맛있게 먹어서 저녁 먹어버렸다",
+            "norm_text": "어쩐다는 건 아니고 키키 아 다이어트 하려고 했는데 티비에서 짱구가 라면을 너무 맛있게 먹어서 저녁 먹어버렸다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쩐다는/VV+ETM+건/NNB+JX+아니/VCN+고/EC+키/NNG+키/VV+아/EC+다이어트/NNG+하/XSV+려고/EC+했/VX+EP+는데/EC+티비/NNG+에서/JKB+짱구/NNG+가/JKS+라면/NNG+을/JKO+너무/MAG+맛있/VA+게/EC+먹/VV+어서/EC+저녁/NNG+먹/VV+어/EC+버렸/VX+EP+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 미용 쪽은 정말 신경을 안 써서... 이러다 어느 날 갑자기 팍 늙는 건 아니겠지? ㅋ",
+            "norm_text": "난 미용 쪽은 정말 신경을 안 써서... 이러다 어느 날 갑자기 팍 늙는 건 아니겠지? ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+미용/NNG+쪽/NNB+은/JX+정말/MAG+신경/NNG+을/JKO+안/MAG+써서/VV+EF+./SY+이러다/MAJ+어느/MM+날/NNG+갑자기/MAG+팍/MAG+늙/VV+는/ETM+건/NNB+JX+아니/VCN+겠/EP+지/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어느 날 갑자기 팍 늙을걸...?",
+            "norm_text": "어느 날 갑자기 팍 늙을걸...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어느/MM+날/NNG+갑자기/MAG+팍/MAG+늙/VV+을걸/EF+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그래도 우리 집안 사람들 다 어려서 노안이라 그렇지 나이 먹을수록 젊어 보이는 듯",
+            "norm_text": "그래도 우리 집안 사람들 다 어려서 노안이라 그렇지 나이 먹을수록 젊어 보이는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+우리/NP+집안/NNG+사람/NNG+들/XSN+다/MAG+어려서/VA+EC+노안/NNG+이/VCP+라/EC+그렇/VA+지/EC+나이/NNG+먹/VV+을수록/EC+젊/VA+어/EC+보이/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나 중학교 사진 보면 엄청 늙어 보이긴 하든데 키키",
+            "norm_text": "나 중학교 사진 보면 엄청 늙어 보이긴 하든데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나중/NNG+학교/NNG+사진/NNG+보/VV+면/EC+엄청/MAG+늙/VV+어/EC+보이/VV+긴/ETN+JX+하/VX+든데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 난 진짜 거짓말 조금 보태서 초등학교 때부터 그냥 지금 얼굴임.",
+            "norm_text": "난 진짜 거짓말 조금 보태서 초등학교 때부터 그냥 지금 얼굴임.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+진짜/MAG+거짓말/NNG+조금/MAG+보태/VV+서/EC+초등/NNG+학교/NNG+때/NNG+부터/JX+그냥/MAG+지금/MAG+얼굴/NNG+임/VCP+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아니야 태어났을 때부터 지금 얼굴이었어",
+            "norm_text": "아니야 태어났을 때부터 지금 얼굴이었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+태어났/VV+EP+을/ETM+때/NNG+부터/JX+지금/MAG+얼굴/NNG+이/VCP+었/EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 에이 그건 좀 너무 거짓말이잖아 ㅠ",
+            "norm_text": "에이 그건 좀 너무 거짓말이잖아 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/IC+그건/NP+JX+좀/MAG+너무/MAG+거짓말/NNG+이/VCP+잖아/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나 애기 때 완전 사랑스럽게 생겼던데? 키즈 모델 안 시키고 뭐했나 몰라",
+            "norm_text": "나 애기 때 완전 사랑스럽게 생겼던데? 키즈 모델 안 시키고 뭐했나 몰라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+애기/NNG+때/NNG+완전/NNG+사랑/NNG+스럽/XSA+게/EC+생겼/VV+EP+던데/EF+키즈/NNP+모델/NNG+안/MAG+시키/VV+고/EC+뭐/IC+했/VV+EP+나/EC+몰라/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아닌데 완전 장수처럼 생겨서 간호사샘들이 어이구 애가 너무 많이 먹어요 이랬는데?",
+            "norm_text": "아닌데 완전 장수처럼 생겨서 간호사샘들이 어이구 애가 너무 많이 먹어요 이랬는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아닌데/VCN+EC+완전/NNG+장수/NNG+처럼/JKB+생겨서/VV+EC+간호사/NNG+샘/NNG+들/XSN+이/JKS+어/IC+이/MM+구애/NNG+가/JKS+너무/MAG+많이/MAG+먹/VV+어요/EF+이랬/VV+EP+는데/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 유치원 때 완전 이쁘게 생겼더만.",
+            "norm_text": "유치원 때 완전 이쁘게 생겼더만.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "유치원/NNG+때/NNG+완전/NNG+이쁘/VA+게/EC+생겼/VV+EP+더만/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그때 얼굴 그대로 지켜왔다면 지금쯤 외모가 미쳤을 텐데.",
+            "norm_text": "그때 얼굴 그대로 지켜왔다면 지금쯤 외모가 미쳤을 텐데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그때/NNG+얼굴/NNG+그대로/MAG+지켜왔/VV+EC+VX+EP+다면/EC+지금/NNG+쯤/XSN+외모/NNG+가/JKS+미쳤/VV+EP+을/ETM+텐데/NNB+VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아닌데 유치원 때도 여포처럼 생겼었는데?",
+            "norm_text": "아닌데 유치원 때도 여포처럼 생겼었는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아닌데/VCN+EC+유치원/NNG+때/NNG+도/JX+여포/NNG+처럼/JKB+생겼었/VV+EP+는데/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 진짜 이쁘게 생겼어 나ㅠ 내가 봐도 나 같은 딸 낳으면 보는 것만으로도 행복할 듯",
+            "norm_text": "진짜 이쁘게 생겼어 나ㅠ 내가 봐도 나 같은 딸 낳으면 보는 것만으로도 행복할 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+이쁘/VA+게/EC+생겼/VV+EP+어/EF+나ㅠ/UNKNOWN+내/NP+가/JKS+봐도/VV+EC+나/NP+같/VA+은/ETM+딸/NNG+낳/VV+으면/EC+보/VX+는/ETM+것/NNB+만/JX+으로/JKB+도/JX+행복/NNG+할/XSV+ETM+듯/NNB"
+          },
+          {
+            "id": 15,
+            "text": "2 : 진심이냐? 너 같은 딸 낳으면 행복하다고? 어무니 얼굴 안 봤냐?",
+            "norm_text": "진심이냐? 너 같은 딸 낳으면 행복하다고? 어무니 얼굴 안 봤냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진심/NNG+이/VCP+냐/EF+너/NP+같/VA+은/ETM+딸/NNG+낳/VV+으면/EC+행복/NNG+하/XSV+다고/EC+어/IC+무니/NNG+얼굴/NNG+안/MAG+봤/VV+EP+냐/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 너 키우고 나서 아주 그냥... 엉망진창이 된 걸?",
+            "norm_text": "너 키우고 나서 아주 그냥... 엉망진창이 된 걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+키우/VV+고/EC+나/VX+서/EC+아주/MAG+그냥/MAG+./SY+엉망진창/NNG+이/JKS+된/VV+ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아니 그건 엄마 아빠가 너무 늦은 나이에 사랑이 불타올라서 그런 거고...",
+            "norm_text": "아니 그건 엄마 아빠가 너무 늦은 나이에 사랑이 불타올라서 그런 거고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그건/NP+JX+엄마/NNG+아빠/NNG+가/JKS+너무/MAG+늦/VA+은/ETM+나이/NNG+에/JKB+사랑/NNG+이/JKS+불타올라서/VV+EC+그런/MM+거/NNB+고/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 날 너무 늦게 낳았어",
+            "norm_text": "날 너무 늦게 낳았어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "날/NNG+너무/MAG+늦/VA+게/EC+낳/VV+았/EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아닌데 너 키우느라 속 썩어서 그런 건뎅",
+            "norm_text": "아닌데 너 키우느라 속 썩어서 그런 건뎅",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아닌데/VCN+EC+너/NP+키우/VV+느라/EC+속/NNG+썩/VV+어서/EC+그런/MM+건/NNB+JX+뎅/NNP"
+          },
+          {
+            "id": 20,
+            "text": "1 : 에이 속썩인 건 오빠도 만만치 않던데. 대성학원에서 포기한 학생",
+            "norm_text": "에이 속썩인 건 오빠도 만만치 않던데. 대성학원에서 포기한 학생",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/NNG+속/NNG+썩인/VV+ETM+건/NNB+JX+오빠/NNG+도/JX+만만/XR+치/XSA+EC+않/VX+던데/EF+대성학원/NNP+에서/JKB+포기/NNG+한/XSA+ETM+학생/NNG"
+          },
+          {
+            "id": 21,
+            "text": "2 : 대성학원에서 포기한 게 아니고 오빠가 안 간다고 한 거야",
+            "norm_text": "대성학원에서 포기한 게 아니고 오빠가 안 간다고 한 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대성학원/NNP+에서/JKB+포기/NNG+한/XSA+ETM+게/NNB+JKC+아니/VCN+고/EC+오빠/NNG+가/JKS+안/MAG+간다고/VV+EC+한/VX+ETM+거/NNB+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

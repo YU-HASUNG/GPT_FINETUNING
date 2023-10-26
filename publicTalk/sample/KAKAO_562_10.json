@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21312,
+    "name": "KAKAO_562_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710048285/KAKAO_562_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710048285/KAKAO_562_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30323,
+      "filename": "KAKAO_562_10.txt",
+      "title": "KAKAO_562_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 472,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 472,
+        "word_size": 133,
+        "text": "1 : 오빠~ 오늘 우리나라 축구한다던데유~?\n2 : 오~ 맞아! 오늘 국가대표 평가전 한대~ 어떻게 알았어? 하하\n1 : 아까 뉴스 보는데 나오더라고~! 하하\n2 : 맞아 오늘 저녁에 축구한대~ 같이 볼까?\n1 : 근데 나는 요즘 축구선수 잘 모르겠어... 예전엔 많이 알았는데...하하...\n2 : 요즘 국가대표 선수들이 다 어려서 오빠도 잘은 모르겠어 하하\n1 : 근데 오늘 어디랑 경기 하는 거였지?\n2 : 오늘 아시아 팀끼리 하는 건데 어디 나라였는지 까먹었다!\n1 : 아시아에서 하는 거면...그래도 우리가 이기겠군?!\n2 : 아마도 이길 것 같긴 한데...질 수도…있고…\n1 : 에이~ 그래도 이건 지면 안되지!\n2 : 맞아...에이~ 이기겠지 하하 설마 오늘 지겠어…\n1 : 그럼 오늘 저녁에 같이 볼까요오?\n2 : 그러자~! 뭐 먹으면서 볼래? 하하\n1 : 치킨 시켜서 먹으면서 보자!\n2 : 좋았어~! 그럼 오빠가 이따 치킨 시킬게 하하 먹으면서 보자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~ 오늘 우리나라 축구한다던데유~?",
+            "norm_text": "오빠~ 오늘 우리나라 축구한다던데유~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+~/SY+오늘/MAG+우리/NP+나라/NNG+축구/NNG+한다던/XSV+ETM+데유/NNG+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오~ 맞아! 오늘 국가대표 평가전 한대~ 어떻게 알았어? 하하",
+            "norm_text": "오~ 맞아! 오늘 국가대표 평가전 한대~ 어떻게 알았어? 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+맞/VV+아/EF+오늘/MAG+국가/NNG+대표/NNG+평가전/NNG+한대/NNG+~/SY+어떻/VA+게/EC+알/VV+았/EP+어/EF+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아까 뉴스 보는데 나오더라고~! 하하",
+            "norm_text": "아까 뉴스 보는데 나오더라고~! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아까/MAG+뉴스/NNG+보/VV+는/ETM+데/NNB+나오/VV+더라고/EC+~/SY+하하/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아 오늘 저녁에 축구한대~ 같이 볼까?",
+            "norm_text": "맞아 오늘 저녁에 축구한대~ 같이 볼까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞아/IC+오늘/MAG+저녁/NNG+에/JKB+축구/NNG+한대/NNG+~/SY+같이/MAG+볼까/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 나는 요즘 축구선수 잘 모르겠어... 예전엔 많이 알았는데...하하...",
+            "norm_text": "근데 나는 요즘 축구선수 잘 모르겠어... 예전엔 많이 알았는데...하하...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나/NP+는/JX+요즘/NNG+축구/NNG+선수/NNG+잘/MAG+모르/VV+겠/EP+어/EF+./SY+예전/NNG+엔/JKB+JX+많이/MAG+알/VV+았/EP+는데/EC+./SY+./SY+하하/IC+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요즘 국가대표 선수들이 다 어려서 오빠도 잘은 모르겠어 하하",
+            "norm_text": "요즘 국가대표 선수들이 다 어려서 오빠도 잘은 모르겠어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+국가/NNG+대표/NNG+선수/NNG+들/XSN+이/JKS+다/MAG+어려서/VA+EC+오빠/NNG+도/JX+잘/MAG+은/JX+모르/VV+겠/EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 오늘 어디랑 경기 하는 거였지?",
+            "norm_text": "근데 오늘 어디랑 경기 하는 거였지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+오늘/MAG+어디/NP+랑/JKB+경기/NNG+하/XSV+는/ETM+거/NNB+였/VCP+EP+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오늘 아시아 팀끼리 하는 건데 어디 나라였는지 까먹었다!",
+            "norm_text": "오늘 아시아 팀끼리 하는 건데 어디 나라였는지 까먹었다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+아시아/NNP+팀/NNG+끼리/XSN+하/VV+는/ETM+건데/NNB+VCP+EC+어디/NP+나라/NNG+였/VCP+EP+는지/EC+까먹/VV+었/EP+다/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아시아에서 하는 거면...그래도 우리가 이기겠군?!",
+            "norm_text": "아시아에서 하는 거면...그래도 우리가 이기겠군?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아시아/NNP+에서/JKB+하/VV+는/ETM+거/NNB+면/VCP+EF+./SY+그래도/MAJ+우리/NP+가/JKS+이기/VV+겠/EP+군/EC+?/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아마도 이길 것 같긴 한데...질 수도…있고…",
+            "norm_text": "아마도 이길 것 같긴 한데...질 수도…있고…",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마도/MAG+이길/VV+ETM+것/NNB+같/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+질/VV+ETM+수/NNB+도/JX+…/SE+있/VA+고/EC+…/SE"
+          },
+          {
+            "id": 11,
+            "text": "1 : 에이~ 그래도 이건 지면 안되지!",
+            "norm_text": "에이~ 그래도 이건 지면 안되지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/NNG+~/SY+그래도/MAJ+이건/NP+JX+지/VX+면/EC+안/MAG+되/VV+지/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아...에이~ 이기겠지 하하 설마 오늘 지겠어…",
+            "norm_text": "맞아...에이~ 이기겠지 하하 설마 오늘 지겠어…",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+에이/NNG+~/SY+이기/VV+겠/EP+지/EC+하하/MAG+설마/MAG+오늘/MAG+지/VV+겠/EP+어/EC+…/SE"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 오늘 저녁에 같이 볼까요오?",
+            "norm_text": "그럼 오늘 저녁에 같이 볼까요오?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+오늘/MAG+저녁/NNG+에/JKB+같이/MAG+볼까요/VV+EC+오/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러자~! 뭐 먹으면서 볼래? 하하",
+            "norm_text": "그러자~! 뭐 먹으면서 볼래? 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+자/EC+~/SY+뭐/IC+먹/VV+으면서/EC+볼래/VX+EF+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 치킨 시켜서 먹으면서 보자!",
+            "norm_text": "치킨 시켜서 먹으면서 보자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치킨/NNG+시켜서/XSV+EC+먹/VV+으면서/EC+보/VX+자/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 좋았어~! 그럼 오빠가 이따 치킨 시킬게 하하 먹으면서 보자!",
+            "norm_text": "좋았어~! 그럼 오빠가 이따 치킨 시킬게 하하 먹으면서 보자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+았/EP+어/EC+~/SY+그럼/MAJ+오빠/NNG+가/JKS+이따/MAG+치킨/NNG+시킬/XSV+ETM+게/NNB+JKS+하하/MAG+먹/VV+으면서/EC+보/VX+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

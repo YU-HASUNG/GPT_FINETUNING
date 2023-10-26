@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 71451,
+    "name": "KAKAO_818_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172107030160/KAKAO_818_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172107030160/KAKAO_818_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39018,
+      "filename": "KAKAO_818_05.txt",
+      "title": "KAKAO_818_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 641,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 641,
+        "word_size": 208,
+        "text": "1 : 군대 어디 나왔어?\n2 : 난 해군 나왔어 키키 왜?\n1 : 와 정말? 내 동생이 해군 가고 싶다는데 복무 기간이 길어서 고민이래\n2 : 해군이 육군보다는 길지 키키 왜 해군이 가고 싶은데?\n1 : 뭔가 어릴 때부터 멋있어 보였다네\n1 : 어릴 때 본 영화 보고 막연하게 해군 가고 싶다고 생각했다고 하더라\n2 : 키키 현실이랑 다를걸? 그래도 장점도 있긴 해\n2 : 긴 복무 기간이었는데 갔다 오고 나니 기억에는 남는다\n1 : 그치? 어떤 점이 기억에 남아?\n2 : 아무래도 배를 타니까 배 위에서 넓은 바다 보는 게 그 기분 잊을 수가 없네\n2 : 나 키키 군대 가서 처음 배 타봤거든\n1 : 진짜? 키키 유람선도 안타 본 거야? 키키\n2 : 응 키키 그래서 처음 배 탈 때 신기했는데 멀미도 하고 고생했지\n1 : 지금은 어떤데 키키 멀미하고 그러면 힘들었겠는데?\n2 : 죽을 맛이었지 그래도 다 적응하고 이제는 지겹다 지겨워 키키\n2 : 바다만 보면 지겨울 정도야\n1 : 키키 내 동생도 그런 경험해보고 싶어 하더라 제복도 멋있다고\n2 : 키키 내가 제복 좀 잘 어울렸는데 키키 추억이다\n1 : 내 동생도 그래서 해군 지원하고 싶은데 복무 기간 땜에 온 가족이 같이 고민 중이야\n2 : 근데 가고 싶으면 그 몇 개월은 어찌 보면 별 거 아니야\n2 : 잘 고민해보라고 해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 군대 어디 나왔어?",
+            "norm_text": "군대 어디 나왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "군대/NNG+어디/NP+나왔/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 해군 나왔어 키키 왜?",
+            "norm_text": "난 해군 나왔어 키키 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "난/NP+JX+해군/NNG+나왔/VV+EP+어/EC+키/NNG+키/XSV+ETN+왜/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 와 정말? 내 동생이 해군 가고 싶다는데 복무 기간이 길어서 고민이래",
+            "norm_text": "와 정말? 내 동생이 해군 가고 싶다는데 복무 기간이 길어서 고민이래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+정말/MAG+내동생이해군가고싶다는데복무기간이길어서고민이래/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 해군이 육군보다는 길지 키키 왜 해군이 가고 싶은데?",
+            "norm_text": "해군이 육군보다는 길지 키키 왜 해군이 가고 싶은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해군/NNG+이/JKS+육군/NNG+보다/JKB+는/JX+길/VA+지/EC+키/NNG+키/XSV+ETN+왜/MAG+해군/NNG+이/JKS+가/VV+고/EC+싶/VX+은데/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭔가 어릴 때부터 멋있어 보였다네",
+            "norm_text": "뭔가 어릴 때부터 멋있어 보였다네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭔가/NP+VCP+EC+어릴/VA+ETM+때/NNG+부터/JX+멋있/VA+어/EC+보였/VV+EP+다네/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 어릴 때 본 영화 보고 막연하게 해군 가고 싶다고 생각했다고 하더라",
+            "norm_text": "어릴 때 본 영화 보고 막연하게 해군 가고 싶다고 생각했다고 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+본/VV+ETM+영화/NNG+보/VV+고/EC+막연/XR+하/XSA+게/EC+해군/NNG+가/VV+고/EC+싶/VX+다고/EC+생각/NNG+했/XSV+EP+다고/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 현실이랑 다를걸? 그래도 장점도 있긴 해",
+            "norm_text": "키키 현실이랑 다를걸? 그래도 장점도 있긴 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+현실/NNG+이랑/JKB+다를/VA+ETM+걸/NNB+JKO+그래도/MAJ+장점/NNG+도/JX+있/VX+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 긴 복무 기간이었는데 갔다 오고 나니 기억에는 남는다",
+            "norm_text": "긴 복무 기간이었는데 갔다 오고 나니 기억에는 남는다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "긴/VA+ETM+복무/NNG+기간/NNG+이/VCP+었/EP+는데/EC+갔다오/VV+고/EC+나/VX+니/EC+기억/NNG+에/JKB+는/JX+남/VV+는다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그치? 어떤 점이 기억에 남아?",
+            "norm_text": "그치? 어떤 점이 기억에 남아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+어떤/MM+점/NNG+이/JKS+기억/NNG+에/JKB+남/VV+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아무래도 배를 타니까 배 위에서 넓은 바다 보는 게 그 기분 잊을 수가 없네",
+            "norm_text": "아무래도 배를 타니까 배 위에서 넓은 바다 보는 게 그 기분 잊을 수가 없네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아무래도/MAG+배/NNG+를/JKO+타/VV+니까/EC+배위/NNG+에서/JKB+넓/VA+은/ETM+바다/NNG+보/VV+는/ETM+게/NNB+JKS+그/MM+기분/NNG+잊/VV+을/ETM+수/NNB+가/JKS+없/VA+네/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나 키키 군대 가서 처음 배 타봤거든",
+            "norm_text": "나 키키 군대 가서 처음 배 타봤거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+키/NNG+키/NNG+군대/NNG+가/VV+서/EC+처음/NNG+배타/NNG+봤/VV+EP+거든/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 진짜? 키키 유람선도 안타 본 거야? 키키",
+            "norm_text": "진짜? 키키 유람선도 안타 본 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+키/NNG+키/NNG+유람선/NNG+도/JX+안/MAG+타/VV+본/EC+VX+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 키키 그래서 처음 배 탈 때 신기했는데 멀미도 하고 고생했지",
+            "norm_text": "응 키키 그래서 처음 배 탈 때 신기했는데 멀미도 하고 고생했지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+그래서/MAJ+처음/NNG+배탈/NNG+때/NNG+신기/NNG+했/XSV+EP+는데/EC+멀미/NNG+도/JX+하/VV+고/EC+고생/NNG+했/XSV+EP+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 지금은 어떤데 키키 멀미하고 그러면 힘들었겠는데?",
+            "norm_text": "지금은 어떤데 키키 멀미하고 그러면 힘들었겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+은/JX+어떤/MM+데/NNB+키/NNG+키/NNG+멀미/NNG+하/XSV+고/EC+그러/VV+면/EC+힘들/VA+었/EP+겠/EP+는데/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 죽을 맛이었지 그래도 다 적응하고 이제는 지겹다 지겨워 키키",
+            "norm_text": "죽을 맛이었지 그래도 다 적응하고 이제는 지겹다 지겨워 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "죽/VV+을/ETM+맛/NNG+이/VCP+었/EP+지/EF+그래도/MAJ+다/MAG+적응/NNG+하/XSV+고/EC+이제/NNG+는/JX+지겹/VA+다/EC+지겨워/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 바다만 보면 지겨울 정도야",
+            "norm_text": "바다만 보면 지겨울 정도야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "바다/NNG+만/JX+보/VV+면/EC+지겨울/VA+ETM+정도/NNG+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 내 동생도 그런 경험해보고 싶어 하더라 제복도 멋있다고",
+            "norm_text": "키키 내 동생도 그런 경험해보고 싶어 하더라 제복도 멋있다고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+JKG+동생/NNG+도/JX+그런/MM+경험/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+어/EC+하/VV+더라/EC+제복/NNG+도/JX+멋있/VA+다고/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 내가 제복 좀 잘 어울렸는데 키키 추억이다",
+            "norm_text": "키키 내가 제복 좀 잘 어울렸는데 키키 추억이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+가/JKS+제복/NNG+좀/MAG+잘/MAG+어울렸/VV+EP+는데/EC+키/NNG+키/NNG+추억/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 내 동생도 그래서 해군 지원하고 싶은데 복무 기간 땜에 온 가족이 같이 고민 중이야",
+            "norm_text": "내 동생도 그래서 해군 지원하고 싶은데 복무 기간 땜에 온 가족이 같이 고민 중이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+동생/NNG+도/JX+그래서/MAJ+해군/NNG+지원/NNG+하/XSV+고/EC+싶/VX+은데/EC+복무/NNG+기간/NNG+땜/NNB+에/JKB+온/VV+ETM+가족/NNG+이/JKS+같이/MAG+고민/NNG+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 근데 가고 싶으면 그 몇 개월은 어찌 보면 별 거 아니야",
+            "norm_text": "근데 가고 싶으면 그 몇 개월은 어찌 보면 별 거 아니야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+가/VV+고/EC+싶/VX+으면/EC+그/MM+몇/MM+개월/NNBC+은/JX+어찌/MAG+보/VV+면/EC+별거/NNG+아니/VCN+야/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 잘 고민해보라고 해",
+            "norm_text": "잘 고민해보라고 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+고민/NNG+해/XSV+EC+보/VX+라고/EC+해/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

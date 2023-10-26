@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 55467,
+    "name": "KAKAO_686_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113612084819/KAKAO_686_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113612084819/KAKAO_686_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35415,
+      "filename": "KAKAO_686_16.txt",
+      "title": "KAKAO_686_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 898,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 898,
+        "word_size": 248,
+        "text": "1 : 아까 부천에서 한 친구가 너 길거리 지나가는 거 봤다더라... 어디 가는 길이었어?\n2 : 아... 나 봤대? 하하 요즘 뭐 배우러 다니느라구...\n1 : 무슨... 공부하러 다니는 거야?\n2 : 아... 아니... 요즘... 미용 시술 중에 두피 관련 시술에 꽂혀 가지고 여기저기 알아보다가\n2 : 한 군데 시술 받고 나두 그런 것 좀 배워볼까? 하고\n1 : 두피 시술? 뭐... 특별한 게 있어?\n2 : 내가 요즘 스트레스 때문인지... 머리카락이 너무 빠지고, 나이 들면서 머리카락도 좀 얇아져서 두피 안쪽이 너무 훤하게 다 보여서... 이거 때문에 고민 많았거든\n2 : 그러다 어디서 본 건데, 두피에 반영구처럼 시술을 하는 게 있더라구\n2 : 너도 알다시피, 내가 원래 미용 분야에 관심이 많잖아?\n1 : 두피에 반영구 시술? 이건 좀 생소한데? 두피를 칠하는 거야?\n2 : 비슷한데, 나처럼 두피에 콤플렉스 있는 사람들이 두피 레이어에 표피 부분에 점을 찍어서\n2 : 모근이랑 진피까지 내려가야 하는 시술 이래...\n1 : 아... 두피에 반영구 하듯이 그려주는 거구나.\n2 : 응응 게다가 두피 뿐 아니라 넓은 이마 부분도 커버가 가능하다고 해서 그것도 배워보려고\n1 : 야... 잘됐다... 요즘 같이 스트레스로 인해 탈모 인구가 엄청 늘었다던데.\n2 : 나두 두피 가르마부터 뒤에 정수리까지 다 채우고 나니까... 마음이 힐링이 되는 기분이야\n1 : 하하 그 정도 기분이면 엄청 잘 됐네...\n1 : 근데, 가격이나 유지 비용은 얼마나 해?\n2 : 가격은 좀 쎈 편이야... 근데, 두피마다 다르기 때문에 정확하게 얼마라고 말하기는 힘들고, 개인차는 있지만 보통 3-5년 정도 사이까지 유지된대\n1 : 잘됐네... 나두 요즘 머리숱이 콤플렉스였는데...\n2 : 나중에 기술 잘 배우면... 너한테 연습 좀 하자...!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아까 부천에서 한 친구가 너 길거리 지나가는 거 봤다더라... 어디 가는 길이었어?",
+            "norm_text": "아까 부천에서 한 친구가 너 길거리 지나가는 거 봤다더라... 어디 가는 길이었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아까/MAG+부천/NNP+에서/JKB+한/MM+친구/NNG+가/JKS+너/NP+길/NNG+거리/XSV+지/EC+나가/VX+는/ETM+거/NNB+봤/VV+EP+다더라/EF+./SY+어디/NP+가/VV+는/ETM+길/NNG+이/VCP+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아... 나 봤대? 하하 요즘 뭐 배우러 다니느라구...",
+            "norm_text": "아... 나 봤대? 하하 요즘 뭐 배우러 다니느라구...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+./SY+나/JX+봤/VV+EP+대/EF+하하/MAG+요즘/MAG+뭐/IC+배우/VV+러/EC+다니/VV+느라구/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 무슨... 공부하러 다니는 거야?",
+            "norm_text": "무슨... 공부하러 다니는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+./SY+공부/NNG+하/XSV+러/EC+다니/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아... 아니... 요즘... 미용 시술 중에 두피 관련 시술에 꽂혀 가지고 여기저기 알아보다가",
+            "norm_text": "아... 아니... 요즘... 미용 시술 중에 두피 관련 시술에 꽂혀 가지고 여기저기 알아보다가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+아니/IC+./SY+요즘/MAG+./SY+미용/NNG+시술/NNG+중/NNB+에/JKB+두피/NNG+관련/NNG+시술/NNG+에/JKB+꽂혀/VV+EC+가지/VX+고/EC+여기저기/NNG+알아보/VV+다가/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 한 군데 시술 받고 나두 그런 것 좀 배워볼까? 하고",
+            "norm_text": "한 군데 시술 받고 나두 그런 것 좀 배워볼까? 하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한/MM+군데/NNBC+시술/NNG+받/VV+고/EC+나/NP+두/JX+그런/MM+것/NNB+좀/MAG+배워/VV+EC+볼까/VX+EF+하/VV+고/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 두피 시술? 뭐... 특별한 게 있어?",
+            "norm_text": "두피 시술? 뭐... 특별한 게 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "두피/NNG+시술/NNG+뭐/IC+./SY+특별/NNG+한/XSA+ETM+게/NNB+JKS+있/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 내가 요즘 스트레스 때문인지... 머리카락이 너무 빠지고, 나이 들면서 머리카락도 좀 얇아져서 두피 안쪽이 너무 훤하게 다 보여서... 이거 때문에 고민 많았거든",
+            "norm_text": "내가 요즘 스트레스 때문인지... 머리카락이 너무 빠지고, 나이 들면서 머리카락도 좀 얇아져서 두피 안쪽이 너무 훤하게 다 보여서... 이거 때문에 고민 많았거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+요즘/MAG+스트레스/NNG+때문/NNB+인지/VCP+EC+./SY+./SY+머리카락/NNG+이/JKS+너무/MAG+빠지/VV+고/EC+,/SC+나이/NNG+들/VV+면서/EC+머리카락/NNG+도/JX+좀/MAG+얇/VA+아/EC+져서/VX+EC+두피/NNG+안쪽/NNG+이/JKS+너무/MAG+훤하/VA+게/EC+다/MAG+보여서/VV+EF+./SY+이거/NP+때문/NNB+에/JKB+고민/NNG+많/VA+았/EP+거든/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그러다 어디서 본 건데, 두피에 반영구처럼 시술을 하는 게 있더라구",
+            "norm_text": "그러다 어디서 본 건데, 두피에 반영구처럼 시술을 하는 게 있더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러다/MAJ+어디/NP+서/JKB+본/VV+ETM+건데/NNB+VCP+EC+,/SC+두피/NNG+에/JKB+반영구/NNG+처럼/JKB+시술/NNG+을/JKO+하/VV+는/ETM+게/NNB+JKS+있/VA+더라구/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 너도 알다시피, 내가 원래 미용 분야에 관심이 많잖아?",
+            "norm_text": "너도 알다시피, 내가 원래 미용 분야에 관심이 많잖아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+도/JX+알/VV+다시피/EC+,/SC+내/NP+가/JKS+원래/MAG+미용/NNG+분야/NNG+에/JKB+관심/NNG+이/JKS+많/VA+잖아/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 두피에 반영구 시술? 이건 좀 생소한데? 두피를 칠하는 거야?",
+            "norm_text": "두피에 반영구 시술? 이건 좀 생소한데? 두피를 칠하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "두피/NNG+에/JKB+반영구/NNG+시술/NNG+이건/NP+JX+좀/MAG+생소/XR+한데/XSA+EF+두피/NNG+를/JKO+칠/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 비슷한데, 나처럼 두피에 콤플렉스 있는 사람들이 두피 레이어에 표피 부분에 점을 찍어서",
+            "norm_text": "비슷한데, 나처럼 두피에 콤플렉스 있는 사람들이 두피 레이어에 표피 부분에 점을 찍어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비슷/XR+한데/XSA+EC+,/SC+나/NP+처럼/JKB+두피/NNG+에/JKB+콤플렉스/NNG+있/VA+는/ETM+사람/NNG+들/XSN+이/JKS+두/MM+피레/NNG+이/VCP+어/EC+에/JKB+표피/NNG+부분/NNG+에/JKB+점/NNG+을/JKO+찍/VV+어서/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 모근이랑 진피까지 내려가야 하는 시술 이래...",
+            "norm_text": "모근이랑 진피까지 내려가야 하는 시술 이래...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "모근/NNG+이랑/JKB+진피/NNG+까지/JX+내려가/VV+야/EC+하/VV+는/ETM+시술/NNG+이/VCP+래/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아... 두피에 반영구 하듯이 그려주는 거구나.",
+            "norm_text": "아... 두피에 반영구 하듯이 그려주는 거구나.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+두피/NNG+에/JKB+반영구/NNG+하/XSV+듯이/EC+그려/VV+EC+주/VX+는/ETM+거/NNB+구나/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응응 게다가 두피 뿐 아니라 넓은 이마 부분도 커버가 가능하다고 해서 그것도 배워보려고",
+            "norm_text": "응응 게다가 두피 뿐 아니라 넓은 이마 부분도 커버가 가능하다고 해서 그것도 배워보려고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+게다가/MAG+두피/NNG+뿐/JX+아니/VCN+라/EC+넓/VA+은/ETM+이마/NNG+부분/NNG+도/JX+커버/NNG+가/JKS+가능/NNG+하/XSV+다고/EC+해서/VV+EC+그것/NP+도/JX+배워/VV+EC+보/VX+려고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 야... 잘됐다... 요즘 같이 스트레스로 인해 탈모 인구가 엄청 늘었다던데.",
+            "norm_text": "야... 잘됐다... 요즘 같이 스트레스로 인해 탈모 인구가 엄청 늘었다던데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+./SY+잘/MAG+됐/VV+EP+다/EF+./SY+요즘/MAG+같이/MAG+스트레스/NNG+로/JKB+인해/VV+EC+탈모/NNG+인구/NNG+가/JKS+엄청/MAG+늘/VV+었/EP+다던데/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나두 두피 가르마부터 뒤에 정수리까지 다 채우고 나니까... 마음이 힐링이 되는 기분이야",
+            "norm_text": "나두 두피 가르마부터 뒤에 정수리까지 다 채우고 나니까... 마음이 힐링이 되는 기분이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+두/JX+두피/NNG+가르마/NNG+부터/JX+뒤/NNG+에/JKB+정수리/NNG+까지/JX+다/MAG+채우/VV+고/EC+나/VX+니까/EC+./SY+./SY+마음/NNG+이/JKS+힐링/NNG+이/JKS+되/VV+는/ETM+기분/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 하하 그 정도 기분이면 엄청 잘 됐네...",
+            "norm_text": "하하 그 정도 기분이면 엄청 잘 됐네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+그/MM+정도/NNG+기분/NNG+이/VCP+면/EC+엄청/MAG+잘/MAG+됐/VV+EP+네/EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 근데, 가격이나 유지 비용은 얼마나 해?",
+            "norm_text": "근데, 가격이나 유지 비용은 얼마나 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+,/SC+가격/NNG+이나/JC+유지/NNG+비용/NNG+은/JX+얼마나/MAG+해/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 가격은 좀 쎈 편이야... 근데, 두피마다 다르기 때문에 정확하게 얼마라고 말하기는 힘들고, 개인차는 있지만 보통 3-5년 정도 사이까지 유지된대",
+            "norm_text": "가격은 좀 쎈 편이야... 근데, 두피마다 다르기 때문에 정확하게 얼마라고 말하기는 힘들고, 개인차는 있지만 보통 3-5년 정도 사이까지 유지된대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "가격/NNG+은/JX+좀/MAG+쎈/VA+ETM+편/NNB+이/VCP+야/EF+./SY+근데/MAJ+,/SC+두피/NNG+마다/JX+다르/VA+기/ETN+때문/NNB+에/JKB+정확/NNG+하/XSV+게/EC+얼마/NNG+라고/VCP+EC+말/NNG+하/XSV+기/ETN+는/JX+힘들/VA+고/EC+,/SC+개인차/NNG+는/JX+있/VX+지만/EC+보통/NNG+3/SN+-/SY+5/SN+년/NNBC+정도/NNG+사이/NNG+까지/JX+유지/NNG+된/XSV+ETM+대/NNG"
+          },
+          {
+            "id": 20,
+            "text": "1 : 잘됐네... 나두 요즘 머리숱이 콤플렉스였는데...",
+            "norm_text": "잘됐네... 나두 요즘 머리숱이 콤플렉스였는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잘/MAG+됐/VV+EP+네/EF+./SY+나/NP+두/JX+요즘/MAG+머리숱/NNG+이/JKS+콤플렉스/NNG+였/VCP+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 나중에 기술 잘 배우면... 너한테 연습 좀 하자...!",
+            "norm_text": "나중에 기술 잘 배우면... 너한테 연습 좀 하자...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나중/NNG+에/JKB+기술/NNG+잘/MAG+배우/VV+면/EC+./SY+./SY+너/NP+한테/JKB+연습/NNG+좀/MAG+하/VV+자/EF+./SY+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

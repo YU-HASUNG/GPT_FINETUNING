@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 55334,
+    "name": "KAKAO_683_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113602026432/KAKAO_683_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113602026432/KAKAO_683_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35394,
+      "filename": "KAKAO_683_15.txt",
+      "title": "KAKAO_683_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 548,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 548,
+        "word_size": 170,
+        "text": "1 : 미국 대통령 바이든으로 바뀐지 오랜데 엄청 잠잠해서 대통령 이름도 까먹을 것 같지 않아?\n2 : 맞아 예전에 그 흑인 대통령은 오바마는 뭔가 익숙한데\n1 : 뉴스 봤더니 지금 바이든이랑 공화당 주지사들이랑 쌈났던데\n2 : 아 진짜? 왜 싸움이 났는데?\n1 : 바이든은 백신 의무화한다 하고 공화당은 반대해\n2 : 키키 쌈 날만 하네 예민한 문제잖아\n1 : 근데 바이든 정치가 오바마랑 비슷한 거 같기두 한데 북한한테 더 강경하게 대할 거라 했나 봐\n2 : 아 진짜 그런 단호한 대처는 마음에 든다\n1 : 키키 그치 그래도 뭐 정치인 마인드 다 똑같겠지 뭐\n2 : 맞아 근데 뭐든 중립은 힘든 것 같아 뭐든 장단점은 존재하니깐\n1 : 트럼프는 남북 정상 회담도 같이 하고 이랬었는데\n1 : 키키 나 어제 트럼프 짤 봤는데 존웃\n2 : 키키 아 맞네 오바마 다음이 트럼프였지\n1 : 트럼프가 사진 찍는데 교황이랑 같이 슬금슬금 손이 손으로 가더니 손바닥 간지럽혀서 교황 정색하면서 손 침\n2 : 키키 아니 교황한테 왜 장난을 쳐 신박하네\n1 : 그 시대 최고의 장난꾸러기였다 키키\n2 : 키키 역시 트럼프",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 미국 대통령 바이든으로 바뀐지 오랜데 엄청 잠잠해서 대통령 이름도 까먹을 것 같지 않아?",
+            "norm_text": "미국 대통령 바이든으로 바뀐지 오랜데 엄청 잠잠해서 대통령 이름도 까먹을 것 같지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "미국/NNP+대통령/NNG+바이든/NNP+으로/JKB+바뀐지/VV+EC+오랜/MM+데/NNB+엄청/MAG+잠잠/XR+해서/XSA+EC+대통령/NNG+이름/NNG+도/JX+까먹/VV+을/ETM+것/NNB+같/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 예전에 그 흑인 대통령은 오바마는 뭔가 익숙한데",
+            "norm_text": "맞아 예전에 그 흑인 대통령은 오바마는 뭔가 익숙한데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+예전/NNG+에/JKB+그/MM+흑인/NNG+대통령/NNG+은/JX+오바마/NNP+는/JX+뭔가/NP+VCP+EC+익숙/XR+한데/XSA+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 뉴스 봤더니 지금 바이든이랑 공화당 주지사들이랑 쌈났던데",
+            "norm_text": "뉴스 봤더니 지금 바이든이랑 공화당 주지사들이랑 쌈났던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뉴스/NNG+봤/VV+EP+더니/EC+지금/MAG+바이든/NNP+이랑/JC+공화/NNG+당주/NNG+지사/NNG+들/XSN+이랑/JKB+쌈/NNG+났/VV+EP+던데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 진짜? 왜 싸움이 났는데?",
+            "norm_text": "아 진짜? 왜 싸움이 났는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+왜/MAG+싸움/NNG+이/JKS+났/VV+EP+는데/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 바이든은 백신 의무화한다 하고 공화당은 반대해",
+            "norm_text": "바이든은 백신 의무화한다 하고 공화당은 반대해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "바이든/NNP+은/JX+백신/NNG+의무/NNG+화/XSN+한다/XSV+EC+하/VV+고/EC+공화/NNG+당/XSN+은/JX+반대/NNG+해/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 쌈 날만 하네 예민한 문제잖아",
+            "norm_text": "키키 쌈 날만 하네 예민한 문제잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+쌈/NNG+날/NNG+만/JX+하/VV+네/EF+예민/XR+한/XSA+ETM+문제/NNG+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 바이든 정치가 오바마랑 비슷한 거 같기두 한데 북한한테 더 강경하게 대할 거라 했나 봐",
+            "norm_text": "근데 바이든 정치가 오바마랑 비슷한 거 같기두 한데 북한한테 더 강경하게 대할 거라 했나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+바이든/NNP+정치/NNG+가/JKS+오바마/NNP+랑/JC+비슷/XR+한/XSA+ETM+거/NNB+같/VA+기/ETN+두/JX+한데/VX+EC+북한/NNP+한테/JKB+더/MAG+강경/NNG+하/XSV+게/EC+대할/VV+ETM+거/NNB+라/VCP+EC+했/VX+EP+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 진짜 그런 단호한 대처는 마음에 든다",
+            "norm_text": "아 진짜 그런 단호한 대처는 마음에 든다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+그런/MM+단호/XR+한/XSA+ETM+대처/NNG+는/JX+마음/NNG+에/JKB+든다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 그치 그래도 뭐 정치인 마인드 다 똑같겠지 뭐",
+            "norm_text": "키키 그치 그래도 뭐 정치인 마인드 다 똑같겠지 뭐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치/IC+그래도/MAJ+뭐/IC+정치/NNG+인/VCP+ETM+마인드/NNG+다/MAG+똑같/VA+겠/EP+지/EF+뭐/IC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 근데 뭐든 중립은 힘든 것 같아 뭐든 장단점은 존재하니깐",
+            "norm_text": "맞아 근데 뭐든 중립은 힘든 것 같아 뭐든 장단점은 존재하니깐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+근데/MAJ+뭐/NP+든/VCP+EC+중립/NNG+은/JX+힘든/VA+ETM+것/NNB+같/VA+아/EC+뭐/NP+든/VCP+EC+장단점/NNG+은/JX+존재/NNG+하/XSV+니깐/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 트럼프는 남북 정상 회담도 같이 하고 이랬었는데",
+            "norm_text": "트럼프는 남북 정상 회담도 같이 하고 이랬었는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "트럼프/NNG+는/JX+남북/NNP+정상/NNG+회담/NNG+도/JX+같이/MAG+하/VV+고/EC+이랬었/VV+EP+는데/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 나 어제 트럼프 짤 봤는데 존웃",
+            "norm_text": "키키 나 어제 트럼프 짤 봤는데 존웃",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+어제/MAG+트럼프/NNG+짤/VV+ETM+봤/VV+EP+는데/EC+존웃/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 아 맞네 오바마 다음이 트럼프였지",
+            "norm_text": "키키 아 맞네 오바마 다음이 트럼프였지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+아/EC+맞/VV+네/EF+오바마/NNP+다음/NNG+이/JKS+트럼프/NNG+였/VCP+EP+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 트럼프가 사진 찍는데 교황이랑 같이 슬금슬금 손이 손으로 가더니 손바닥 간지럽혀서 교황 정색하면서 손 침",
+            "norm_text": "트럼프가 사진 찍는데 교황이랑 같이 슬금슬금 손이 손으로 가더니 손바닥 간지럽혀서 교황 정색하면서 손 침",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "트럼프/NNG+가/JKS+사진/NNG+찍/VV+는데/EC+교황/NNG+이랑/JKB+같이/MAG+슬금슬금/MAG+손/NNG+이/JKS+손/NNG+으로/JKB+가/VV+더니/EC+손바닥/NNG+간지럽/VA+혀서/XSV+EC+교황/NNG+정색/NNG+하/XSV+면서/EC+손침/NNP"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 아니 교황한테 왜 장난을 쳐 신박하네",
+            "norm_text": "키키 아니 교황한테 왜 장난을 쳐 신박하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+교황/NNG+한테/JKB+왜/MAG+장난/NNG+을/JKO+쳐/VV+EC+신박/NNG+하/XSV+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그 시대 최고의 장난꾸러기였다 키키",
+            "norm_text": "그 시대 최고의 장난꾸러기였다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+시대/NNG+최고/NNG+의/JKG+장난꾸러기/NNG+였/VCP+EP+다키키/NNP"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 역시 트럼프",
+            "norm_text": "키키 역시 트럼프",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+역시/MAJ+트럼프/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 23936,
+    "name": "KAKAO_574_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143557085352/KAKAO_574_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143557085352/KAKAO_574_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30712,
+      "filename": "KAKAO_574_19.txt",
+      "title": "KAKAO_574_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 493,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 493,
+        "word_size": 158,
+        "text": "1 : 요새 김선호한테 너무 빠졌어요 저 원래 박서준 파인데 키키\n2 : 아 최근에 시작한 김선호 드라마 때문 맞지? 키키\n1 : 맞아요 맞아요 진짜 원래도 좋았긴 한데 이번에 미쳤어요\n2 : 박서준보단 김선호지~ 키키 드라마 배경이 진짜 이쁘더라\n1 : 정말요 아니에요! 그래도 박서준이 원픽 키키\n2 : 키키 아 확고하네 키키 김선호가 좀 더 분발해야겠어\n1 : 키키 호호 쉽게 바뀌지 않습니당 키키\n2 : 키키 박서준의 어떤 매력에 빠진 거야?\n1 : 크 그 얼굴하고 몸매하고 저 그 드라마 악 갑자기 기억 안나 그거 보고 빠졌는데\n2 : 그 머리 짧게 하고 나왔던 이태원 어쩌꼬?\n1 : 노노 찾았어요 키키 쌈마이웨이 키키\n2 : 아 키키 쌈마이웨이 키키 난 안 봤어서 모르겠다 키키\n1 : 아 언니! 그거 봐야 해요 지금 봐요 당장 키키\n2 : 키키 그 정도야? 키키 적극 추천하니 한 번 봐야 하나 키키\n1 : 휴 정말 인생 드라마입니당당!\n2 : 키키 오~ 인생 드라마 잘 만나기 쉽지 않지 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 김선호한테 너무 빠졌어요 저 원래 박서준 파인데 키키",
+            "norm_text": "요새 김선호한테 너무 빠졌어요 저 원래 박서준 파인데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/MAG+김선호/NNP+한테/JKB+너무/MAG+빠졌/VV+EP+어요/EF+저/IC+원래/MAG+박/VV+서/EC+준/VX+ETM+파인데/NNG+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 최근에 시작한 김선호 드라마 때문 맞지? 키키",
+            "norm_text": "아 최근에 시작한 김선호 드라마 때문 맞지? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+최근/NNG+에/JKB+시작/NNG+한/XSA+ETM+김선호/NNP+드라마/NNG+때문/NNB+맞/VV+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아요 맞아요 진짜 원래도 좋았긴 한데 이번에 미쳤어요",
+            "norm_text": "맞아요 맞아요 진짜 원래도 좋았긴 한데 이번에 미쳤어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+맞/VV+아요/EF+진짜/MAG+원래/NNG+도/JX+좋/VA+았/EP+긴/ETN+JX+한데/VX+EC+이번/NNG+에/JKB+미쳤/VV+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 박서준보단 김선호지~ 키키 드라마 배경이 진짜 이쁘더라",
+            "norm_text": "박서준보단 김선호지~ 키키 드라마 배경이 진짜 이쁘더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "박서준/NNP+보단/NNP+김선호/NNP+지/NNP+~/SY+키/NNG+키/NNG+드라마/NNG+배경/NNG+이/JKS+진짜/MAG+이쁘/VA+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 정말요 아니에요! 그래도 박서준이 원픽 키키",
+            "norm_text": "정말요 아니에요! 그래도 박서준이 원픽 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+요/JX+아니/VCN+에요/EF+그래도/VV+EC+박/VV+서/EC+준/VX+ETM+이원/NNG+픽/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 아 확고하네 키키 김선호가 좀 더 분발해야겠어",
+            "norm_text": "키키 아 확고하네 키키 김선호가 좀 더 분발해야겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+확고/XR+하/XSA+네/EF+키키/NNP+김선호/NNP+가/JKS+좀/MAG+더/MAG+분발/NNG+해야/XSV+EC+VX+겠/EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 호호 쉽게 바뀌지 않습니당 키키",
+            "norm_text": "키키 호호 쉽게 바뀌지 않습니당 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+호호/MAG+쉽/VA+게/EC+바뀌/VV+지/EC+않/VX+습니당/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 박서준의 어떤 매력에 빠진 거야?",
+            "norm_text": "키키 박서준의 어떤 매력에 빠진 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+박서준/NNP+의/JKG+어떤/MM+매력/NNG+에/JKB+빠진/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 크 그 얼굴하고 몸매하고 저 그 드라마 악 갑자기 기억 안나 그거 보고 빠졌는데",
+            "norm_text": "크 그 얼굴하고 몸매하고 저 그 드라마 악 갑자기 기억 안나 그거 보고 빠졌는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "크/IC+그/MM+얼굴/NNG+하/XSV+고/EC+몸매/NNG+하/XSV+고/EC+저그/NP+드라/VCP+EF+마악/MAG+갑자기/MAG+기억/NNG+안/MAG+나/VV+EC+그거/NP+보고/JKB+빠졌/VV+EP+는데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그 머리 짧게 하고 나왔던 이태원 어쩌꼬?",
+            "norm_text": "그 머리 짧게 하고 나왔던 이태원 어쩌꼬?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+머리/NNG+짧/VA+게/EC+하/VV+고/EC+나왔/VV+EP+던/ETM+이태원/NNP+어쩌/VV+꼬/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 노노 찾았어요 키키 쌈마이웨이 키키",
+            "norm_text": "노노 찾았어요 키키 쌈마이웨이 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "노노/IC+찾/VV+았/EP+어요/EF+키키/NNP+쌈/NNG+마이/MAG+웨/VV+EC+이/MM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 키키 쌈마이웨이 키키 난 안 봤어서 모르겠다 키키",
+            "norm_text": "아 키키 쌈마이웨이 키키 난 안 봤어서 모르겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+쌈/NNG+마이/MAG+웨/VV+EC+이/MM+키/NNG+키/XSV+ETN+난/NP+JX+안/MAG+봤/VV+EP+어서/EC+모르/VV+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 언니! 그거 봐야 해요 지금 봐요 당장 키키",
+            "norm_text": "아 언니! 그거 봐야 해요 지금 봐요 당장 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+언니/NNG+그거/NP+봐야/VV+EC+해요/VX+EF+지금/MAG+봐요/VV+EC+당장/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 그 정도야? 키키 적극 추천하니 한 번 봐야 하나 키키",
+            "norm_text": "키키 그 정도야? 키키 적극 추천하니 한 번 봐야 하나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+그/MM+정도/NNG+야/VCP+EF+키/NNG+키/NNG+적극/NNG+추천/NNG+하/XSV+니/EC+한/MM+번/NNBC+봐야/VV+EC+하나/NR+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 휴 정말 인생 드라마입니당당!",
+            "norm_text": "휴 정말 인생 드라마입니당당!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴/IC+정말/MAG+인생/NNG+드라마/NNG+입/VV+니/EC+당당/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 오~ 인생 드라마 잘 만나기 쉽지 않지 키키",
+            "norm_text": "키키 오~ 인생 드라마 잘 만나기 쉽지 않지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키오/NNP+~/SY+인생/NNG+드라마/NNG+잘/MAG+만나/VV+기/ETN+쉽/VA+지/EC+않/VX+지/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

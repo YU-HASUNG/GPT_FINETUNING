@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 38725,
+    "name": "KAKAO_623_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113026012769/KAKAO_623_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113026012769/KAKAO_623_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31956,
+      "filename": "KAKAO_623_04.txt",
+      "title": "KAKAO_623_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 400,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 400,
+        "word_size": 116,
+        "text": "1 : 팀장님 최종 디자인 시안 나왔습니다.\n2 : 네 알겠습니다. 파일 확인하겠습니다.\n1 : 넵\n2 : 어... 김대리, 시안 확인 했는데 이거 회의 끝에 나온 최종 시안 맞나요?\n1 : 네. 맞는데요.\n2 : 음... 디자인이... 첫 번째 시안이랑 바뀐 게 없는 거 같은데요?\n1 : 헉 죄송합니다! 잘못 보냈어요...\n2 : 하하 그럴 수 있어요 다시 보내주세요.\n1 : 넵! 알겠습니다.\n2 : 네 확인했습니다.\n1 : 죄송합니다. 팀장님.\n2 : 월요일 오전 시간이라서 그럴 수 있다고 생각하는데 다음엔 조심해주세요.\n1 : 네 팀장 님께 보내기 전에 한번 더 확인하겠습니다.\n2 : 저 뿐만이 아니라 다른 분들께 보내는 중요한 메일도 꼭 주의해주세요.\n1 : 네. 주의하겠습니다.\n2 : 네 알겠습니다! 파일 보내느라 수고했어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 팀장님 최종 디자인 시안 나왔습니다.",
+            "norm_text": "팀장님 최종 디자인 시안 나왔습니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "팀장/NNG+님/XSN+최종/NNG+디자인/NNG+시/NNG+안/MAG+나왔/VV+EP+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 네 알겠습니다. 파일 확인하겠습니다.",
+            "norm_text": "네 알겠습니다. 파일 확인하겠습니다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+알/VV+겠/EP+습니다/EF+파일/VV+ETM+확인/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 넵",
+            "norm_text": "넵",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "넵/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어... 김대리, 시안 확인 했는데 이거 회의 끝에 나온 최종 시안 맞나요?",
+            "norm_text": "어... 김대리, 시안 확인 했는데 이거 회의 끝에 나온 최종 시안 맞나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+./SY+./SY+김/NNP+대리/NNG+,/SC+시안/NNG+확인/NNG+했/XSV+EP+는데/EC+이거/NP+회의/NNG+끝/NNG+에/JKB+나온/VV+ETM+최종/NNG+시/NNG+안/MAG+맞/VV+나요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 네. 맞는데요.",
+            "norm_text": "네. 맞는데요.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+맞/VV+는데요/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 음... 디자인이... 첫 번째 시안이랑 바뀐 게 없는 거 같은데요?",
+            "norm_text": "음... 디자인이... 첫 번째 시안이랑 바뀐 게 없는 거 같은데요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+디자인/NNG+이/JKS+./SY+./SY+첫/MM+번/NNBC+째/XSN+시안/NNG+이랑/JKB+바뀐/VV+ETM+게/NNB+JKS+없/VA+는/ETM+거/NNB+같/VA+은데요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헉 죄송합니다! 잘못 보냈어요...",
+            "norm_text": "헉 죄송합니다! 잘못 보냈어요...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 사과하기",
+            "morpheme": "헉/IC+죄송/XR+합니다/XSA+EF+잘못/MAG+보냈/VV+EP+어요/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 하하 그럴 수 있어요 다시 보내주세요.",
+            "norm_text": "하하 그럴 수 있어요 다시 보내주세요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "하하/MAG+그럴/VV+ETM+수/NNB+있/VV+어요/EF+다시/MAG+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 넵! 알겠습니다.",
+            "norm_text": "넵! 알겠습니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넵/NNG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 네 확인했습니다.",
+            "norm_text": "네 확인했습니다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+확인/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 죄송합니다. 팀장님.",
+            "norm_text": "죄송합니다. 팀장님.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 사과하기",
+            "morpheme": "죄송/XR+합니다/XSA+EF+팀장/NNG+님/XSN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 월요일 오전 시간이라서 그럴 수 있다고 생각하는데 다음엔 조심해주세요.",
+            "norm_text": "월요일 오전 시간이라서 그럴 수 있다고 생각하는데 다음엔 조심해주세요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "월요일/NNG+오전/NNG+시간/NNG+이/VCP+라서/EC+그럴/VV+ETM+수/NNB+있/VV+다고/EC+생각/NNG+하/XSV+는/ETM+데/NNB+다음/NNG+엔/JKB+JX+조심/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 네 팀장 님께 보내기 전에 한번 더 확인하겠습니다.",
+            "norm_text": "네 팀장 님께 보내기 전에 한번 더 확인하겠습니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+팀장/NNG+님/XSN+께/JKB+보내/VV+기/ETN+전/NNG+에/JKB+한/MM+번/NNBC+더/MAG+확인/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 저 뿐만이 아니라 다른 분들께 보내는 중요한 메일도 꼭 주의해주세요.",
+            "norm_text": "저 뿐만이 아니라 다른 분들께 보내는 중요한 메일도 꼭 주의해주세요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "저/NP+뿐/JX+만/JX+이/JKC+아니/VCN+라/EC+다른/MM+분/NNB+들/XSN+께/JKB+보내/VV+는/ETM+중요/NNG+한/XSA+ETM+메일/NNG+도/JX+꼭/MAG+주의/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 네. 주의하겠습니다.",
+            "norm_text": "네. 주의하겠습니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+주의/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 네 알겠습니다! 파일 보내느라 수고했어요",
+            "norm_text": "네 알겠습니다! 파일 보내느라 수고했어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+알/VV+겠/EP+습니다/EF+파일/NNG+보내/VV+느라/EC+수고/NNG+했어요/XSV+EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

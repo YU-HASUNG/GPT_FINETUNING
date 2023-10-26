@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34921,
+    "name": "KAKAO_629_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924115839027074/KAKAO_629_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924115839027074/KAKAO_629_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32018,
+      "filename": "KAKAO_629_05.txt",
+      "title": "KAKAO_629_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 598,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 598,
+        "word_size": 186,
+        "text": "1 : 니는 모병제로 바뀌면 어떨 거 같아?\n2 : 우리나라는 징병제인 거제?\n2 : 모병제로 바뀌면 갈라고 할 사람이 있을까?\n1 : 키키 그래도 뭔가 혜택은 좋아질 텐데 ㅜㅜ\n2 : 음... 딱히 생각은 해본 적이 없는데 아마 혜택이 엄청 좋아야지 지원할 거 같다 키키\n1 : 진짜 의지가 있고 나라를 지키고 싶은 사람이 갈 거 다이가\n2 : 그렇지 근데 그런 사람들이 손가락 안으로 꼽는 거 아니가... 키키\n1 : 군대 생활도 쾌적해지고... 키키 뭔가 예산도 새로운 무기 사는데 쓰고 키키\n2 : 그래 군대는 우리도 모르는 비리가 많은 거 같더라고? 키키 어디나 비리가 있겠지만\n1 : 아 전쟁 나면 싸울 사람이 아예 없어질 수도 있겠네 키키 무기만 좋고\n2 : 키키 사람 없이 로봇을 조종해서 전쟁에 나가라 할 거 같다\n1 : ㅜㅜ 응 맨날 뉴스 나오는 거 보니까... 식단도 그렇고 ㅜㅜ\n2 : 그래 진짜 부실하긴 하더라... ㅠㅠ\n1 : 근데 아마 전쟁 나면... 사람이 뭐 하기 전에 핵으로 끝날 듯\n2 : 어 그럴 거 같다 ㅠㅠ 근데 핵은... 너무 처참하던데...\n1 : ㅜㅜ 그래도 고통 없이 가는 거지 뭐 ㅜㅜ 키키\n2 : 일본에 떨어진 사례 보니... 너무 후유증 심하더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니는 모병제로 바뀌면 어떨 거 같아?",
+            "norm_text": "니는 모병제로 바뀌면 어떨 거 같아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+모병제/NNP+로/JKB+바뀌/VV+면/EC+어떨/VA+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리나라는 징병제인 거제?",
+            "norm_text": "우리나라는 징병제인 거제?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+나라/NNG+는/JX+징병제/NNG+인/VCP+ETM+거/NNB+제/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 모병제로 바뀌면 갈라고 할 사람이 있을까?",
+            "norm_text": "모병제로 바뀌면 갈라고 할 사람이 있을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "모병제/NNP+로/JKB+바뀌/VV+면/EC+갈라고/NNG+할/XSV+ETM+사람/NNG+이/JKS+있/VA+을까/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 그래도 뭔가 혜택은 좋아질 텐데 ㅜㅜ",
+            "norm_text": "키키 그래도 뭔가 혜택은 좋아질 텐데 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+뭔가/NP+VCP+EC+혜택/NNG+은/JX+좋/VA+아/EC+질텐데/VX+ETM+NNB+VCP+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 음... 딱히 생각은 해본 적이 없는데 아마 혜택이 엄청 좋아야지 지원할 거 같다 키키",
+            "norm_text": "음... 딱히 생각은 해본 적이 없는데 아마 혜택이 엄청 좋아야지 지원할 거 같다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+딱히/MAG+생각/NNG+은/JX+해/VV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+는데/EC+아마/MAG+혜택/NNG+이/JKS+엄청/MAG+좋/VA+아야지/EC+지원/NNG+할/XSV+ETM+거/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 6,
+            "text": "1 : 진짜 의지가 있고 나라를 지키고 싶은 사람이 갈 거 다이가",
+            "norm_text": "진짜 의지가 있고 나라를 지키고 싶은 사람이 갈 거 다이가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+의지/NNG+가/JKS+있/VA+고/EC+나라/NNG+를/JKO+지키/VV+고/EC+싶/VX+은/ETM+사람/NNG+이/JKS+갈/VV+ETM+거/NNB+다/VCP+EF+이/NP+가/JKS"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그렇지 근데 그런 사람들이 손가락 안으로 꼽는 거 아니가... 키키",
+            "norm_text": "그렇지 근데 그런 사람들이 손가락 안으로 꼽는 거 아니가... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+근데/MAJ+그런/MM+사람/NNG+들/XSN+이/JKS+손가락/NNG+안/NNG+으로/JKB+꼽/VV+는/ETM+거/NNB+아니/VCN+가/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 군대 생활도 쾌적해지고... 키키 뭔가 예산도 새로운 무기 사는데 쓰고 키키",
+            "norm_text": "군대 생활도 쾌적해지고... 키키 뭔가 예산도 새로운 무기 사는데 쓰고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+생활/NNG+도/JX+쾌적/XR+해/XSA+EC+지/VX+고/EC+./SY+./SY+키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+예산/NNG+도/JX+새로운/VA+ETM+무기/NNG+사/VV+는/ETM+데/NNB+쓰/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래 군대는 우리도 모르는 비리가 많은 거 같더라고? 키키 어디나 비리가 있겠지만",
+            "norm_text": "그래 군대는 우리도 모르는 비리가 많은 거 같더라고? 키키 어디나 비리가 있겠지만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+군대/NNG+는/JX+우리/NP+도/JX+모르/VV+는/ETM+비리/NNG+가/JKS+많/VA+은/ETM+거/NNB+같/VA+더라고/EF+키/NNG+키/XSV+ETN+어디/NP+나/JX+비리/NNG+가/JKS+있/VA+겠/EP+지만/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 전쟁 나면 싸울 사람이 아예 없어질 수도 있겠네 키키 무기만 좋고",
+            "norm_text": "아 전쟁 나면 싸울 사람이 아예 없어질 수도 있겠네 키키 무기만 좋고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+전쟁/NNG+나/VV+면/EC+싸울/VV+ETM+사람/NNG+이/JKS+아예/MAG+없/VA+어/EC+질/VX+ETM+수/NNB+도/JX+있/VA+겠/EP+네/EF+키키/NNP+무기/NNG+만/JX+좋/VA+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 사람 없이 로봇을 조종해서 전쟁에 나가라 할 거 같다",
+            "norm_text": "키키 사람 없이 로봇을 조종해서 전쟁에 나가라 할 거 같다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+사람/NNG+없이/MAG+로봇/NNG+을/JKO+조종/NNG+해서/XSV+EC+전쟁/NNG+에/JKB+나가/VV+라/EC+할/VX+ETM+거/NNB+같/VA+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : ㅜㅜ 응 맨날 뉴스 나오는 거 보니까... 식단도 그렇고 ㅜㅜ",
+            "norm_text": "ㅜㅜ 응 맨날 뉴스 나오는 거 보니까... 식단도 그렇고 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+응/IC+맨날/MAG+뉴스/NNG+나오/VV+는/ETM+거/NNB+보/VV+니까/EC+./SY+./SY+식단도그렇고ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그래 진짜 부실하긴 하더라... ㅠㅠ",
+            "norm_text": "그래 진짜 부실하긴 하더라... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+진짜/MAG+부실/NNG+하/XSV+긴/ETN+JX+하/VX+더라/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 근데 아마 전쟁 나면... 사람이 뭐 하기 전에 핵으로 끝날 듯",
+            "norm_text": "근데 아마 전쟁 나면... 사람이 뭐 하기 전에 핵으로 끝날 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+아마/MAG+전쟁/NNG+나면/VCP+EF+./SY+사람/NNG+이/JKS+뭐/IC+하/VV+기/ETN+전/NNG+에/JKB+핵/NNG+으로/JKB+끝날/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 15,
+            "text": "2 : 어 그럴 거 같다 ㅠㅠ 근데 핵은... 너무 처참하던데...",
+            "norm_text": "어 그럴 거 같다 ㅠㅠ 근데 핵은... 너무 처참하던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+그럴/VA+ETM+거/NNB+같/VA+다/EF+ㅠㅠ/UNKNOWN+근데/MAJ+핵/NNG+은/JX+./SY+./SY+너무/MAG+처참/XR+하/XSA+던데/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : ㅜㅜ 그래도 고통 없이 가는 거지 뭐 ㅜㅜ 키키",
+            "norm_text": "ㅜㅜ 그래도 고통 없이 가는 거지 뭐 ㅜㅜ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그래도/VV+EC+고통/NNG+없이/MAG+가/VV+는/ETM+거/NNB+지/VCP+EF+뭐/IC+ㅜㅜ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 일본에 떨어진 사례 보니... 너무 후유증 심하더라",
+            "norm_text": "일본에 떨어진 사례 보니... 너무 후유증 심하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일본/NNP+에/JKB+떨어진/VV+ETM+사례/NNG+보/VV+니/EF+./SY+너무/MAG+후유증/NNG+심하/VA+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

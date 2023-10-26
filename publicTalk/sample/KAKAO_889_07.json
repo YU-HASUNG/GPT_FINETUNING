@@ -1,0 +1,443 @@
+{
+  "dataset": {
+    "identifier": 73041,
+    "name": "KAKAO_889_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005153344042213/KAKAO_889_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005153344042213/KAKAO_889_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41424,
+      "filename": "KAKAO_889_07.txt",
+      "title": "KAKAO_889_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 790,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 790,
+        "word_size": 274,
+        "text": "1 : *아 근데 너희 오빠는 만나는 분 없엉?\n1 : 결혼할 때 되지 않으셨엉?\n2 : 우리 오빠 결혼할 때 한참 됐지 ㅠ 키키\n2 : 근데 만나는 사람 없는 걸로 알고 있어\n1 : 오빠가 내 남자친구랑 동갑이었나?\n1 : 몇 살이시징?\n2 : 우리 오빠 88년생이야 키키\n2 : 니 남자친구보다 나이 많지 않아?\n1 : 응응 키키 아 그럼 아직 많이 된 건 아니넹! 키키\n1 : 내 남친은 빠른 90이양 키키\n2 : 아 그럼 우리 오빠가 더 많은 건가?\n2 : 우리 오빤 빠른 88 키키\n2 : 이놈의 빠른... 키키\n1 : 키키 오 빠른이시구나 키키\n1 : 너희 오빠 결혼식 참석할 때쯤 나도 자리를 잡고 안정적이었음 좋겠당 ㅜㅜ 키키\n2 : 아마 무조건 그렇게 될 거야 키키\n2 : 우리 오빠 결혼은 평생 미정이거든 키키\n2 : 나도 얼른 조카 생겼으면 좋겠는데 ㅠ\n1 : 조카 생기면 그렇게 예쁘다더라 ㅜ\n1 : 하하 내 남친도 맨날 조카 영상 보고 웃던데 키키\n2 : 나 진짜 진짜 잘해줄 자신 있는데! 키키\n2 : 조카 있으면 맨날 업고 다닐 거야 키키\n2 : 이쁠 거 같아\n1 : 키키 남조카가 좋아 여조카가 좋앙?\n2 : 둘 다 좋아 키키\n2 : 애기들은 다 이쁘잖아\n2 : 나는 남자 조카도 있고 여자 조카도 있는데 다 사랑스러워 키키\n1 : 키키 하긴 나는 근데 생각으로는 여자애가 너무 귀여울 것 같애성 키키\n2 : 응응 귀여워 키키\n2 : 아 조카들 안 본 지 너무 오래됐다\n2 : 보고 싶다\n1 : 키키 나는 아예 한 명도 없는데 ㅜ 부럽당 키키\n2 : 근데 진짜 못 본 지 너무 오래됐어 ㅜ\n2 : 내가 전에 봤을 땐 아기였는데 꽤 컸겠다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : *아 근데 너희 오빠는 만나는 분 없엉?",
+            "norm_text": "*아 근데 너희 오빠는 만나는 분 없엉?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+아/IC+근데/MAJ+너희/NP+오빠/NNG+는/JX+만나/VV+는/ETM+분/NNB+없/VA+엉/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 결혼할 때 되지 않으셨엉?",
+            "norm_text": "결혼할 때 되지 않으셨엉?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "결혼/NNG+할/XSV+ETM+때/NNG+되/XSV+지/EC+않/VX+으셨/EP+EP+엉/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 우리 오빠 결혼할 때 한참 됐지 ㅠ 키키",
+            "norm_text": "우리 오빠 결혼할 때 한참 됐지 ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+오빠/NNG+결혼/NNG+할/XSV+ETM+때/NNG+한참/NNG+됐/XSV+EP+지/EF+ㅠ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 만나는 사람 없는 걸로 알고 있어",
+            "norm_text": "근데 만나는 사람 없는 걸로 알고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+만나/VV+는/ETM+사람/NNG+없/VA+는/ETM+걸로/NNB+JKB+알/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오빠가 내 남자친구랑 동갑이었나?",
+            "norm_text": "오빠가 내 남자친구랑 동갑이었나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+가/JKS+내/NP+JKG+남자/NNG+친구/NNG+랑/JKB+동갑/NNG+이/VCP+었/EP+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 몇 살이시징?",
+            "norm_text": "몇 살이시징?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+살/NNBC+이/VCP+시/EP+징/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 우리 오빠 88년생이야 키키",
+            "norm_text": "우리 오빠 88년생이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+오빠/NNG+88/SN+년/NNBC+생/XSN+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 니 남자친구보다 나이 많지 않아?",
+            "norm_text": "니 남자친구보다 나이 많지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+남자/NNG+친구/NNG+보다/JKB+나이/NNG+많/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응응 키키 아 그럼 아직 많이 된 건 아니넹! 키키",
+            "norm_text": "응응 키키 아 그럼 아직 많이 된 건 아니넹! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응키키아그럼아직많이된건아니넹/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 내 남친은 빠른 90이양 키키",
+            "norm_text": "내 남친은 빠른 90이양 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+남친/NNG+은/JX+빠른/VA+ETM+90/SN+이양/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아 그럼 우리 오빠가 더 많은 건가?",
+            "norm_text": "아 그럼 우리 오빠가 더 많은 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그럼/MAJ+우리/NP+오빠/NNG+가/JKS+더/MAG+많/VA+은/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 우리 오빤 빠른 88 키키",
+            "norm_text": "우리 오빤 빠른 88 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+오빤/NNG+VCP+JX+빠른/VA+ETM+88/SN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 이놈의 빠른... 키키",
+            "norm_text": "이놈의 빠른... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이놈/NP+의/JKG+빠른/VA+ETM+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 오 빠른이시구나 키키",
+            "norm_text": "키키 오 빠른이시구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EC+빠른/VA+ETM+이시구/NNP+나/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 너희 오빠 결혼식 참석할 때쯤 나도 자리를 잡고 안정적이었음 좋겠당 ㅜㅜ 키키",
+            "norm_text": "너희 오빠 결혼식 참석할 때쯤 나도 자리를 잡고 안정적이었음 좋겠당 ㅜㅜ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너희/NP+오빠/NNG+결혼식/NNG+참석/NNG+할/XSV+ETM+때/NNG+쯤/XSN+나/NP+도/JX+자리/NNG+를/JKO+잡/VV+고/EC+안정/NNG+적/XSN+이/VCP+었/EP+음/ETN+좋/VA+겠/EP+당/EF+ㅜㅜ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아마 무조건 그렇게 될 거야 키키",
+            "norm_text": "아마 무조건 그렇게 될 거야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+무조건/MAG+그렇게/MAG+될/VV+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 우리 오빠 결혼은 평생 미정이거든 키키",
+            "norm_text": "우리 오빠 결혼은 평생 미정이거든 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+오빠/NNG+결혼/NNG+은/JX+평생/NNG+미정/NNG+이/JKS+거든/VV+ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나도 얼른 조카 생겼으면 좋겠는데 ㅠ",
+            "norm_text": "나도 얼른 조카 생겼으면 좋겠는데 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+얼른/MAG+조카/NNG+생겼/VV+EP+으면/EC+좋/VA+겠/EP+는데/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 조카 생기면 그렇게 예쁘다더라 ㅜ",
+            "norm_text": "조카 생기면 그렇게 예쁘다더라 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "조카/NNG+생기/VV+면/EC+그렇게/MAG+예쁘/VA+다더라/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 하하 내 남친도 맨날 조카 영상 보고 웃던데 키키",
+            "norm_text": "하하 내 남친도 맨날 조카 영상 보고 웃던데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+내/NP+JKG+남친/NNG+도/JX+맨날/MAG+조카/NNG+영상/NNG+보/VV+고/EC+웃/VV+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 나 진짜 진짜 잘해줄 자신 있는데! 키키",
+            "norm_text": "나 진짜 진짜 잘해줄 자신 있는데! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+진짜/MAG+진짜/MAG+잘/MAG+해/VV+EC+줄/VX+ETM+자신/NNG+있/VV+는데/EC+!/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 조카 있으면 맨날 업고 다닐 거야 키키",
+            "norm_text": "조카 있으면 맨날 업고 다닐 거야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조카/NNG+있/VV+으면/EC+맨날/MAG+업/VV+고/EC+다닐/VV+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 이쁠 거 같아",
+            "norm_text": "이쁠 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이쁠/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 키키 남조카가 좋아 여조카가 좋앙?",
+            "norm_text": "키키 남조카가 좋아 여조카가 좋앙?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+남/NNG+조카/NNG+가/JKS+좋/VA+아/EC+여조/NNG+카/NNG+가/JKS+좋/VA+앙/EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 둘 다 좋아 키키",
+            "norm_text": "둘 다 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "둘/NR+다/MAG+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 애기들은 다 이쁘잖아",
+            "norm_text": "애기들은 다 이쁘잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애기/NNG+들/XSN+은/JX+다/MAG+이쁘/VA+잖아/EC"
+          },
+          {
+            "id": 27,
+            "text": "2 : 나는 남자 조카도 있고 여자 조카도 있는데 다 사랑스러워 키키",
+            "norm_text": "나는 남자 조카도 있고 여자 조카도 있는데 다 사랑스러워 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+남자/NNG+조카/NNG+도/JX+있/VA+고/EC+여자/NNG+조카/NNG+도/JX+있/VX+는/ETM+데/NNB+다/JX+사랑/NNG+스러워/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 키키 하긴 나는 근데 생각으로는 여자애가 너무 귀여울 것 같애성 키키",
+            "norm_text": "키키 하긴 나는 근데 생각으로는 여자애가 너무 귀여울 것 같애성 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+긴/ETN+JX+나/NP+는/JX+근데/MAJ+생각/NNG+으로/JKB+는/JX+여자/NNG+애/NNG+가/JKS+너무/MAG+귀여울/VA+ETM+것/NNB+같/VA+애/NNG+성/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 29,
+            "text": "2 : 응응 귀여워 키키",
+            "norm_text": "응응 귀여워 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+귀여워/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "2 : 아 조카들 안 본 지 너무 오래됐다",
+            "norm_text": "아 조카들 안 본 지 너무 오래됐다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+조카/NNG+들/XSN+안/MAG+본/VV+ETM+지/NNB+너무/MAG+오래/MAG+됐/VV+EP+다/EC"
+          },
+          {
+            "id": 31,
+            "text": "2 : 보고 싶다",
+            "norm_text": "보고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 32,
+            "text": "1 : 키키 나는 아예 한 명도 없는데 ㅜ 부럽당 키키",
+            "norm_text": "키키 나는 아예 한 명도 없는데 ㅜ 부럽당 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+아예/MAG+한/MM+명/NNBC+도/JX+없/VA+는/ETM+데ㅜ/UNKNOWN+부럽/VA+당/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 33,
+            "text": "2 : 근데 진짜 못 본 지 너무 오래됐어 ㅜ",
+            "norm_text": "근데 진짜 못 본 지 너무 오래됐어 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+진짜/MAG+못/MAG+본/VV+ETM+지/NNB+너무/MAG+오래/MAG+됐/VV+EP+어ㅜ/UNKNOWN"
+          },
+          {
+            "id": 34,
+            "text": "2 : 내가 전에 봤을 땐 아기였는데 꽤 컸겠다 키키",
+            "norm_text": "내가 전에 봤을 땐 아기였는데 꽤 컸겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+전/NNG+에/JKB+봤/VV+EP+을/ETM+땐/NNG+JX+아기/NNG+였/VCP+EP+는데/EC+꽤/MAG+컸/VA+EP+겠/EP+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

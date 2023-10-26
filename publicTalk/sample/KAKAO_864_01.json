@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 30660,
+    "name": "KAKAO_864_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173658049620/KAKAO_864_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173658049620/KAKAO_864_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39839,
+      "filename": "KAKAO_864_01.txt",
+      "title": "KAKAO_864_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 375,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 375,
+        "word_size": 124,
+        "text": "1 : 언니~ 강남 맛집 추천해 주라!\n2 : 강남이야 음식점 너무 많아서 ㅎ\n1 : 그래서 더 못 고르겠어 ㅜㅜ\n2 : 뭐 어떤 거 먹고 싶은데?\n1 : 음... 다 좋은데 일식 아님 양식!\n2 : 키키 한식이나 중식밖에 생각 안 나는데?\n1 : 뭐? 왜 다 반대야 키키\n2 : 장난이야 키키 나 전에 갔던 수제버거집 괜찮았는데\n1 : 오 수제버거? 개맛있겠다\n2 : 웅 거기 카페거리 근처라 위치도 괜찮고\n1 : 아 그래? 버거 먹고 바로 후식 먹으러 가면 되겠당\n2 : 완벽하네! 거기 카페도 내가 좋아하는 데 있어\n1 : 하하 그럼 나 거기도 알려주라아\n2 : 키키 근데 뭐야? 데이트 하러 가?\n1 : 데이트는 무슨 키키 오랜만에 친구 만나려고\n2 : 아 키키 식당이랑 카페 링크 보내줄게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니~ 강남 맛집 추천해 주라!",
+            "norm_text": "언니~ 강남 맛집 추천해 주라!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "언니/NNG+~/SY+강남/NNP+맛집/NNG+추천/NNG+해/XSV+EC+주/VX+라/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 강남이야 음식점 너무 많아서 ㅎ",
+            "norm_text": "강남이야 음식점 너무 많아서 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강남이/NNP+야/JKV+음식점/NNG+너무/MAG+많/VA+아서/EC+ㅎ/XSA"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래서 더 못 고르겠어 ㅜㅜ",
+            "norm_text": "그래서 더 못 고르겠어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+더/MAG+못/MAG+고르/VV+겠/EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 뭐 어떤 거 먹고 싶은데?",
+            "norm_text": "뭐 어떤 거 먹고 싶은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+어떤/MM+거/NNB+먹/VV+고/EC+싶/VX+은데/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 음... 다 좋은데 일식 아님 양식!",
+            "norm_text": "음... 다 좋은데 일식 아님 양식!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+다/MAG+좋/VA+은데/EC+일식/NNG+아님/VCN+ETN+양식/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 한식이나 중식밖에 생각 안 나는데?",
+            "norm_text": "키키 한식이나 중식밖에 생각 안 나는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+한식/NNG+이나/JC+중식/NNG+밖에/JX+생각/NNG+안/MAG+나/VV+는데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 뭐? 왜 다 반대야 키키",
+            "norm_text": "뭐? 왜 다 반대야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+왜/MAG+다/MAG+반대/NNG+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 장난이야 키키 나 전에 갔던 수제버거집 괜찮았는데",
+            "norm_text": "장난이야 키키 나 전에 갔던 수제버거집 괜찮았는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장난/NNG+이/VCP+야/EC+키/NNG+키나/XSA+ETN+JX+전/NNG+에/JKB+갔/VV+EP+던/ETM+수제/NNG+버거/NNG+집/NNG+괜찮/VA+았/EP+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 수제버거? 개맛있겠다",
+            "norm_text": "오 수제버거? 개맛있겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오수/NNG+제/XSN+버거/NNG+?/SY+개맛/NNG+있/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 웅 거기 카페거리 근처라 위치도 괜찮고",
+            "norm_text": "웅 거기 카페거리 근처라 위치도 괜찮고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+거기/NP+카페/NNG+거리/NNG+근처/NNG+라/VCP+EC+위치/NNG+도/JX+괜찮/VA+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 그래? 버거 먹고 바로 후식 먹으러 가면 되겠당",
+            "norm_text": "아 그래? 버거 먹고 바로 후식 먹으러 가면 되겠당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+버거/NNG+먹/VV+고/EC+바로/MAG+후식/NNG+먹/VV+으러/EC+가/VX+면/EC+되/VV+겠/EP+당/XSN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 완벽하네! 거기 카페도 내가 좋아하는 데 있어",
+            "norm_text": "완벽하네! 거기 카페도 내가 좋아하는 데 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완벽/NNG+하/XSA+네/EF+거기/NP+카페/NNG+도/JX+내/NP+가/JKS+좋/VA+아/EC+하/VV+는데/EC+있/VX+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하하 그럼 나 거기도 알려주라아",
+            "norm_text": "하하 그럼 나 거기도 알려주라아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "하하/MAG+그럼/MAJ+나/NP+거기/NP+도/JX+알려/VV+EC+주/VX+라아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 근데 뭐야? 데이트 하러 가?",
+            "norm_text": "키키 근데 뭐야? 데이트 하러 가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+뭐/NP+야/VCP+EF+데이트/NNG+하/XSV+러/EC+가/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 데이트는 무슨 키키 오랜만에 친구 만나려고",
+            "norm_text": "데이트는 무슨 키키 오랜만에 친구 만나려고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "데이트/NNG+는/JX+무슨/MM+키/NNG+키/NNG+오랜만/NNG+에/JKB+친구/NNG+만나/VV+려고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 키키 식당이랑 카페 링크 보내줄게",
+            "norm_text": "아 키키 식당이랑 카페 링크 보내줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아키/NNP+키/NNG+식당/NNG+이랑/JKB+카페/NNG+링크/NNG+보내/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

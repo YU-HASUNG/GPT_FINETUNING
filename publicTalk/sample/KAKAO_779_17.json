@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 44543,
+    "name": "KAKAO_779_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143849054826/KAKAO_779_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143849054826/KAKAO_779_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38068,
+      "filename": "KAKAO_779_17.txt",
+      "title": "KAKAO_779_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 427,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 427,
+        "word_size": 153,
+        "text": "1 : 요새 어디 아픈덴 없제...\n2 : 웅 난 없지 키키 조카 키가 안 커서 병원 가봐야 할 듯\n1 : 엥 첫째?  둘째?  또래 보다 작나?\n2 : 첫 째가 좀 작다 ㅜㅜ밥을 안 먹음 잘\n1 : 아 밥을 잘 안 먹어?  좀 통통했던 듯 한뎅\n2 : 말라 가지고 둘째는 오동통한데 ㅜㅜ\n1 : 아진짜?  난 왜 걔 통통했던 거 같지\n2 : 아 예전에 통통햇는데 지금은 뼈뿐임\n1 : 어머 편식이 심한 거야?\n2 : 얼굴 살이 있어서 그래 보이는 듯 키키\n1 : 언니야가 걱정 이만 저만이  아닐 듯\n2 : 웅 밥을 잘 안 먹는다 ㅜㅜ\n2 : 키 크는 약도 가격이 이만저만 아니던데\n1 : 애기가 왜 밥을 안 먹을까 지가 좋아하는 것도  안 먹나?\n2 : 먹어서 크기만 한다면 사겟지만 ㅜㅜ\n1 : 김이  애기들 필살기라던데...\n2 : 음식에 욕구가 없는 사람들 있자나 키키 그래 그 애가",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 어디 아픈덴 없제...",
+            "norm_text": "요새 어디 아픈덴 없제...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요새/MAG+어디/NP+아픈/VA+ETM+덴/NNB+JKB+JX+없/VA+제/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 웅 난 없지 키키 조카 키가 안 커서 병원 가봐야 할 듯",
+            "norm_text": "웅 난 없지 키키 조카 키가 안 커서 병원 가봐야 할 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+난/NP+JX+없/VA+지/EC+키/NNG+키/NNG+조카/NNG+키가/XSV+ETN+JKS+안/MAG+커서/VV+EC+병원/NNG+가/JKC+봐야/VV+EC+할/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 엥 첫째?  둘째?  또래 보다 작나?",
+            "norm_text": "엥 첫째?  둘째?  또래 보다 작나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+첫째/NR+둘째/NR+또래/NNG+보다/JKB+작/VA+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 첫 째가 좀 작다 ㅜㅜ밥을 안 먹음 잘",
+            "norm_text": "첫 째가 좀 작다 ㅜㅜ밥을 안 먹음 잘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "첫째/NR+가/JKS+좀/MAG+작/VA+다/EF+ㅜㅜ/UNKNOWN+밥/NNG+을/JKO+안/MAG+먹/VV+음/ETN+잘/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 밥을 잘 안 먹어?  좀 통통했던 듯 한뎅",
+            "norm_text": "아 밥을 잘 안 먹어?  좀 통통했던 듯 한뎅",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+밥/NNG+을/JKO+잘/MAG+안/MAG+먹/VV+어/EF+좀/MAG+통통/XR+했/XSA+EP+던/ETM+듯/NNB+한/XSA+ETM+뎅/NNP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 말라 가지고 둘째는 오동통한데 ㅜㅜ",
+            "norm_text": "말라 가지고 둘째는 오동통한데 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "말라/VV+EC+가지/VX+고/EC+둘째/NR+는/JX+오동통/XR+한데/XSA+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아진짜?  난 왜 걔 통통했던 거 같지",
+            "norm_text": "아진짜?  난 왜 걔 통통했던 거 같지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+난/NP+JX+왜/MAG+걔/NP+통통/MAG+했/VV+EP+던/ETM+거/NNB+같/VA+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 예전에 통통햇는데 지금은 뼈뿐임",
+            "norm_text": "아 예전에 통통햇는데 지금은 뼈뿐임",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+예전/NNG+에/JKB+통통/XR+햇/XSA+EP+는데/EC+지금/MAG+은/JX+뼈/NNG+뿐/JX+임/VCP+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어머 편식이 심한 거야?",
+            "norm_text": "어머 편식이 심한 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어머/IC+편식/NNG+이/JKS+심한/VA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 얼굴 살이 있어서 그래 보이는 듯 키키",
+            "norm_text": "얼굴 살이 있어서 그래 보이는 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼굴/NNG+살/NNG+이/JKS+있/VV+어서/EC+그래/VV+EC+보이/VV+는/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 언니야가 걱정 이만 저만이  아닐 듯",
+            "norm_text": "언니야가 걱정 이만 저만이  아닐 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+야/VCP+EF+가/JKS+걱정/NNG+이만저만/NNG+이/JKC+아닐/VCN+ETM+듯/NNB"
+          },
+          {
+            "id": 12,
+            "text": "2 : 웅 밥을 잘 안 먹는다 ㅜㅜ",
+            "norm_text": "웅 밥을 잘 안 먹는다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+밥/NNG+을/JKO+잘/MAG+안/MAG+먹/VV+는다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키 크는 약도 가격이 이만저만 아니던데",
+            "norm_text": "키 크는 약도 가격이 이만저만 아니던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+크/VA+는/ETM+약도/NNG+가격/NNG+이/JKS+이만저만/MAG+아니/VCN+던데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 애기가 왜 밥을 안 먹을까 지가 좋아하는 것도  안 먹나?",
+            "norm_text": "애기가 왜 밥을 안 먹을까 지가 좋아하는 것도  안 먹나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애기/NNG+가/JKS+왜/MAG+밥/NNG+을/JKO+안/MAG+먹/VV+을/ETM+까지/JX+가/JKS+좋/VA+아/EC+하/VV+는/ETM+것/NNB+도/JX+안/MAG+먹/VV+나/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 먹어서 크기만 한다면 사겟지만 ㅜㅜ",
+            "norm_text": "먹어서 크기만 한다면 사겟지만 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "먹/VV+어서/EC+크기/NNG+만/JX+한다면/VV+EC+사/VV+겟/EP+지만/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 김이  애기들 필살기라던데...",
+            "norm_text": "김이  애기들 필살기라던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "김/NNP+이/JKS+애기/NNG+들/XSN+필살기/NNG+라던데/VCP+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 음식에 욕구가 없는 사람들 있자나 키키 그래 그 애가",
+            "norm_text": "음식에 욕구가 없는 사람들 있자나 키키 그래 그 애가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음식/NNG+에/JKB+욕구/NNG+가/JKS+없/VA+는/ETM+사람/NNG+들/XSN+있/VA+자/EC+나/NP+키키/NNP+그래그/NNP+애/NNG+가/JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

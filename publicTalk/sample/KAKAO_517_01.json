@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 31409,
+    "name": "KAKAO_517_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144217091756/KAKAO_517_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144217091756/KAKAO_517_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28972,
+      "filename": "KAKAO_517_01.txt",
+      "title": "KAKAO_517_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 543,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 543,
+        "word_size": 171,
+        "text": "1 : 아 배불러, 저녁 다 먹었냐?\n2 : 어어 오랜만에 잘 차려 먹은 식사였다\n1 : 키키 오늘 너랑 나랑 저녁 메뉴 대충 비슷함.\n2 : 너도 김치찌개 먹었음? 밥은 역시 배달보다 집밥임 ㅎ\n1 : 오늘 남자친구가 나 일하는 동안 키다리 아저씨 하고 가서 음식이 상다리 부러지게 있었음.\n2 : 아 맞아 sns에서 봤다 아주 사랑꾼이더만\n1 : 닭볶음탕이랑 메추리알 장조림 해두고 가서 왕 배불리 먹었지 모양 !\n2 : 근데 우리 이 시간에 먹은 거 완전 야식임 ㅎ... 살찌겠다\n1 : 야야 나 지금 배부르고 기분 좋은데 왜 그래 ?\n2 : 근데 그거 앎? 한식이 나트륨 대박이래\n1 : 맛있는 음식 잔뜩 먹고 피곤에 쩔어서 낮잠도 조금 자고 지금 행복하니까 화나게 하지 말아줘.\n2 : 키키 ㅇㅋ 낮잠 최고지\n2 : 배부르니까 기분 좋당\n1 : 하지만 행복은 날 살찌웠어\n2 : 크크 밥 맛나게 먹었으니 아이스크림 하나 디저트로 때려볼까\n1 : 아 너네 집 아이스크림 할인점 너무 부러워\n1 : 난 도시 사람인데... 왜 그런 거 없냐\n2 : 아이스크림 할인점도 없는데 도시라고 할 수 있나?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 배불러, 저녁 다 먹었냐?",
+            "norm_text": "아 배불러, 저녁 다 먹었냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+배불러/VV+EF+,/SC+저녁/NNG+다/MAG+먹/VV+었/EP+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어어 오랜만에 잘 차려 먹은 식사였다",
+            "norm_text": "어어 오랜만에 잘 차려 먹은 식사였다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+오랜만/NNG+에/JKB+잘/MAG+차려/VV+EC+먹/VV+은/ETM+식사/NNG+였/VCP+EP+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 오늘 너랑 나랑 저녁 메뉴 대충 비슷함.",
+            "norm_text": "키키 오늘 너랑 나랑 저녁 메뉴 대충 비슷함.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+오늘/MAG+너/NP+랑/JC+나/NP+랑/JKB+저녁/NNG+메뉴/NNG+대충/MAG+비슷/XR+함/XSA+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너도 김치찌개 먹었음? 밥은 역시 배달보다 집밥임 ㅎ",
+            "norm_text": "너도 김치찌개 먹었음? 밥은 역시 배달보다 집밥임 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+김치찌개/NNG+먹/VV+었/EP+음/ETN+밥/NNG+은/JX+역시/MAJ+배달/NNG+보다/JKB+집/NNG+밥/NNG+임/VCP+ETN+ㅎ/XSA"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오늘 남자친구가 나 일하는 동안 키다리 아저씨 하고 가서 음식이 상다리 부러지게 있었음.",
+            "norm_text": "오늘 남자친구가 나 일하는 동안 키다리 아저씨 하고 가서 음식이 상다리 부러지게 있었음.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+남자/NNG+친구/NNG+가/JKS+나/NP+일/NNG+하/XSV+는/ETM+동안/NNG+키다리/NNG+아저씨/NNG+하/XSV+고/EC+가/VX+서/EC+음식/NNG+이/JKS+상다리/NNG+부러지/VV+게/EC+있/VX+었/EP+음/ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 맞아 sns에서 봤다 아주 사랑꾼이더만",
+            "norm_text": "아 맞아 sns에서 봤다 아주 사랑꾼이더만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+아/EC+sns/SL+에서/JKB+봤/VV+EP+다/EF+아주/MAG+사랑/NNG+꾼/XSN+이/VCP+더만/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 닭볶음탕이랑 메추리알 장조림 해두고 가서 왕 배불리 먹었지 모양 !",
+            "norm_text": "닭볶음탕이랑 메추리알 장조림 해두고 가서 왕 배불리 먹었지 모양 !",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "닭볶음탕/NNG+이랑/JKB+메추/NNG+리알/NNG+장조림/NNG+해/XSV+EC+두/VX+고/EC+가/VX+서/EC+왕배/NNG+불리/NNG+먹/VV+었/EP+지/EC+모양/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 우리 이 시간에 먹은 거 완전 야식임 ㅎ... 살찌겠다",
+            "norm_text": "근데 우리 이 시간에 먹은 거 완전 야식임 ㅎ... 살찌겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+우리/NP+이/MM+시간/NNG+에/JKB+먹/VV+은/ETM+거/NNB+완전/MAG+야식/NNG+임/VCP+ETN+ㅎ/XSA+./SY+살찌/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 야야 나 지금 배부르고 기분 좋은데 왜 그래 ?",
+            "norm_text": "야야 나 지금 배부르고 기분 좋은데 왜 그래 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야야/IC+나/NP+지금/MAG+배부르/VA+고/EC+기분/NNG+좋/VA+은데/EC+왜/MAG+그래/VA+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 그거 앎? 한식이 나트륨 대박이래",
+            "norm_text": "근데 그거 앎? 한식이 나트륨 대박이래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+그거/NP+앎/NNG+?/SY+한식/NNG+이/JKS+나트륨/NNG+대박/NNG+이래/NNB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맛있는 음식 잔뜩 먹고 피곤에 쩔어서 낮잠도 조금 자고 지금 행복하니까 화나게 하지 말아줘.",
+            "norm_text": "맛있는 음식 잔뜩 먹고 피곤에 쩔어서 낮잠도 조금 자고 지금 행복하니까 화나게 하지 말아줘.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "맛있/VA+는/ETM+음식/NNG+잔뜩/MAG+먹/VV+고/EC+피곤/NNG+에/JKB+쩔/VV+어서/EC+낮잠/NNG+도/JX+조금/MAG+자/VV+고/EC+지금/MAG+행복/NNG+하/XSV+니까/EC+화나/VV+게/EC+하/VV+지/EC+말/VX+아/EC+줘/VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 ㅇㅋ 낮잠 최고지",
+            "norm_text": "키키 ㅇㅋ 낮잠 최고지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+ㅇㅋ/UNKNOWN+낮잠/NNG+최고/NNG+지/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 배부르니까 기분 좋당",
+            "norm_text": "배부르니까 기분 좋당",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배부르/VA+니까/EC+기분/NNG+좋/VA+당/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 하지만 행복은 날 살찌웠어",
+            "norm_text": "하지만 행복은 날 살찌웠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하지만/MAJ+행복/NNG+은/JX+날/NNG+살/VV+ETM+찌웠/UNKNOWN+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 크크 밥 맛나게 먹었으니 아이스크림 하나 디저트로 때려볼까",
+            "norm_text": "크크 밥 맛나게 먹었으니 아이스크림 하나 디저트로 때려볼까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "크크/IC+밥/NNG+맛나/VA+게/EC+먹/VV+었/EP+으니/EC+아이스크림/NNG+하나/NR+디저트/NNG+로/JKB+때려/VV+EC+볼까/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 너네 집 아이스크림 할인점 너무 부러워",
+            "norm_text": "아 너네 집 아이스크림 할인점 너무 부러워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+너/NP+네/XSN+집/NNG+아이스크림/NNG+할인점/NNG+너무/MAG+부러워/VA+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 난 도시 사람인데... 왜 그런 거 없냐",
+            "norm_text": "난 도시 사람인데... 왜 그런 거 없냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+도시/NNG+사람/NNG+인데/VCP+EC+./SY+./SY+왜/MAG+그런/MM+거/NNB+없/VA+냐/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아이스크림 할인점도 없는데 도시라고 할 수 있나?",
+            "norm_text": "아이스크림 할인점도 없는데 도시라고 할 수 있나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아이스크림/NNG+할인점/NNG+도/JX+없/VA+는데/EC+도시/NNG+라고/VCP+EC+할/VX+ETM+수/NNB+있/VV+나/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

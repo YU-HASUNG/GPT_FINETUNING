@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 20094,
+    "name": "KAKAO_454_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940084634/KAKAO_454_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940084634/KAKAO_454_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27857,
+      "filename": "KAKAO_454_07.txt",
+      "title": "KAKAO_454_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 476,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 476,
+        "word_size": 134,
+        "text": "1 : 아버지 성격이 어떠세요?\n2 : 전형적인 경상도 아버지세요. 무뚝뚝하세요.\n2 : 아버지 성격 어떠세요?\n1 : 아버지 성격이 괴팍했어요 성질 잘 내고\n1 : 어머니 성격은요?\n2 : 어머니는 근검절약 하시는 분이세요. 어떠세요?\n1 : 어머니가 엄청 다정한 성격이셨어요\n1 : 그럼 동생은 어땠나요?\n2 : 동생은 말썽꾸러기예요. 맨날 놀기만 해요.\n2 : 누나 성격은 어떠세요?\n1 : 누나도 다정다감했어요\n1 : 그럼 외할머니는 어땠나요?\n2 : 외할머니는 반찬 마스터세요.\n2 : 집안에서 주도권은 누가 가지고 있어요?\n1 : 집안 주도권은 아버지셨어요 누구셨나요?\n2 : 저도 아버지인데 요즘은 어머니가 가지고 계시네요.\n2 : 할머니랑 친해요?\n1 : 네 할머나랑 친하죠\n2 : 그럼 가장 친한 친척은 누구예요?\n1 : 저는 외할머니요\n2 : 유년 시절 외할머니 집에서 자라셨어요?\n1 : 아니요 외할머니 집에서 자라셨나요?\n2 : 어렸을 때 저는 할머니 집에서 자랐어요.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아버지 성격이 어떠세요?",
+            "norm_text": "아버지 성격이 어떠세요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아버지/NNG+성격/NNG+이/JKS+어떠세요/VA+EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 전형적인 경상도 아버지세요. 무뚝뚝하세요.",
+            "norm_text": "전형적인 경상도 아버지세요. 무뚝뚝하세요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전형/NNG+적/XSN+인/VCP+ETM+경상도/NNP+아버지/NNG+세요/VCP+EP+EF+무뚝뚝/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아버지 성격 어떠세요?",
+            "norm_text": "아버지 성격 어떠세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아버지/NNG+성격/NNG+어떠세요/VA+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아버지 성격이 괴팍했어요 성질 잘 내고",
+            "norm_text": "아버지 성격이 괴팍했어요 성질 잘 내고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아버지/NNG+성격/NNG+이/JKS+괴팍/NNG+했/XSV+EP+어요/EF+성질/NNG+잘/MAG+내/VV+고/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어머니 성격은요?",
+            "norm_text": "어머니 성격은요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머니/NNG+성격/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어머니는 근검절약 하시는 분이세요. 어떠세요?",
+            "norm_text": "어머니는 근검절약 하시는 분이세요. 어떠세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머니/NNG+는/JX+근검절약/NNG+하/XSV+시/EP+는/ETM+분/NNB+이/VCP+세요/EP+EF+어떠세요/VA+EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어머니가 엄청 다정한 성격이셨어요",
+            "norm_text": "어머니가 엄청 다정한 성격이셨어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어머니/NNG+가/JKS+엄청/MAG+다정/XR+한/XSA+ETM+성격/NNG+이/VCP+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그럼 동생은 어땠나요?",
+            "norm_text": "그럼 동생은 어땠나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+동생/NNG+은/JX+어땠/VA+EP+나요/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 동생은 말썽꾸러기예요. 맨날 놀기만 해요.",
+            "norm_text": "동생은 말썽꾸러기예요. 맨날 놀기만 해요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+은/JX+말썽꾸러기/NNG+예요/VCP+EF+맨날/MAG+놀/VV+기/ETN+만/JX+해요/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 누나 성격은 어떠세요?",
+            "norm_text": "누나 성격은 어떠세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누나/NNG+성격/NNG+은/JX+어떠세요/VA+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 누나도 다정다감했어요",
+            "norm_text": "누나도 다정다감했어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누나/NNG+도/JX+다정다감/XR+했어요/XSA+EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그럼 외할머니는 어땠나요?",
+            "norm_text": "그럼 외할머니는 어땠나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+외할머니/NNG+는/JX+어땠/VA+EP+나요/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 외할머니는 반찬 마스터세요.",
+            "norm_text": "외할머니는 반찬 마스터세요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "외할머니/NNG+는/JX+반찬/NNG+마스터/NNG+세요/VCP+EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 집안에서 주도권은 누가 가지고 있어요?",
+            "norm_text": "집안에서 주도권은 누가 가지고 있어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집안/NNG+에서/JKB+주도/NNG+권/XSN+은/JX+누가/NP+JKS+가지/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 집안 주도권은 아버지셨어요 누구셨나요?",
+            "norm_text": "집안 주도권은 아버지셨어요 누구셨나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집안/NNG+주도/NNG+권/XSN+은/JX+아버지/NNG+셨/VCP+EP+EP+어요/EF+누구/NP+셨/VCP+EP+EP+나요/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 저도 아버지인데 요즘은 어머니가 가지고 계시네요.",
+            "norm_text": "저도 아버지인데 요즘은 어머니가 가지고 계시네요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+도/JX+아버지/NNG+인데/VCP+EC+요즘/NNG+은/JX+어머니/NNG+가/JKS+가지/VV+고/EC+계시/VX+네요/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 할머니랑 친해요?",
+            "norm_text": "할머니랑 친해요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "할머니/NNG+랑/JKB+친해요/VA+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 네 할머나랑 친하죠",
+            "norm_text": "네 할머나랑 친하죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네할머나랑친하죠/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그럼 가장 친한 친척은 누구예요?",
+            "norm_text": "그럼 가장 친한 친척은 누구예요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+가장/MAG+친한/VA+ETM+친척/NNG+은/JX+누구/NP+예요/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 저는 외할머니요",
+            "norm_text": "저는 외할머니요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+외할머니/NNG+요/VCP+EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 유년 시절 외할머니 집에서 자라셨어요?",
+            "norm_text": "유년 시절 외할머니 집에서 자라셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "유년/NNG+시절/NNG+외할머니/NNG+집/NNG+에서/JKB+자라/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아니요 외할머니 집에서 자라셨나요?",
+            "norm_text": "아니요 외할머니 집에서 자라셨나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니요/IC+외할머니/NNG+집/NNG+에서/JKB+자라/VV+셨/EP+EP+나요/EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 어렸을 때 저는 할머니 집에서 자랐어요.",
+            "norm_text": "어렸을 때 저는 할머니 집에서 자랐어요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어렸/VA+EP+을/ETM+때/NNG+저/NP+는/JX+할머니/NNG+집/NNG+에서/JKB+자랐/VV+EP+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

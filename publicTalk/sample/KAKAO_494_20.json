@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 20118,
+    "name": "KAKAO_494_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916163235092261/KAKAO_494_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916163235092261/KAKAO_494_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28931,
+      "filename": "KAKAO_494_20.txt",
+      "title": "KAKAO_494_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 559,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 559,
+        "word_size": 185,
+        "text": "1 : 나 쿵푸 팬더 영화 진짜 좋아하는데 키키\n2 : 쿵푸 팬더 완전 재밌디 재미와 감동을 선사하는 키키\n1 : 맞재 키키 캐릭터들도 너무 귀엽고 키키 새로운 시리즈 안 나오나\n2 : 그런 말은 없네 ㅠㅠ 근데 시리즈3에서 거의 끝나지 않았나?\n1 : 아 그런가? ㅜㅜ 그래도 시리즈는 스토리만 있으면 또 만든다\n2 : 키키 그건 그렇다 키키 새로운 이야기는 만들먄 되지\n1 : 키키 새로운 시리즈 나올 때는 애기랑 같이 보러 가려나?\n2 : 그러게 키키 한 5살은 넘어야 보라 갈 수 있을 거 같은데 키키\n1 : 아 그럼 키키 오랜만에 영화관에서 남편 분과 데이트\n2 : 어휴 애는 어디에 두고 키키 나 혼자 갈게 오롯이 혼자 키키\n1 : 키키 아그래? 키키 영화 혼자 보러 간 적 있어?\n2 : 있지 키키 혼자 보는 거 좋다 영화에만 집중할 수 있어\n1 : 아 진짜? 나는 아직 혼자 영화관 간 적 없어 키키\n2 : 강력 추천 키키 난 좋더라 키키 이젠 언제 갈 수 있으려나 모르겠디만 키키\n1 : 쿵푸 팬더 새로운 시리즈 나오면 같이 보러 가자 키키\n2 : 키키 응응 같이 가자 팝콘  사들고 키키 냠냠하면서 보자 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 쿵푸 팬더 영화 진짜 좋아하는데 키키",
+            "norm_text": "나 쿵푸 팬더 영화 진짜 좋아하는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+쿵푸팬더/NNP+영화/NNG+진짜/MAG+좋/VA+아/EC+하/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 쿵푸 팬더 완전 재밌디 재미와 감동을 선사하는 키키",
+            "norm_text": "쿵푸 팬더 완전 재밌디 재미와 감동을 선사하는 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쿵푸팬더/NNP+완전/NNG+재밌/VA+디/EC+재미/NNG+와/JC+감동/NNG+을/JKO+선사/NNG+하/XSV+는/ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞재 키키 캐릭터들도 너무 귀엽고 키키 새로운 시리즈 안 나오나",
+            "norm_text": "맞재 키키 캐릭터들도 너무 귀엽고 키키 새로운 시리즈 안 나오나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+재/EC+키/NNG+키/NNG+캐릭터/NNG+들/XSN+도/JX+너무/MAG+귀엽/VA+고/EC+키/NNG+키/XSV+ETN+새로운/VA+ETM+시리즈/NNG+안/MAG+나오/VV+나/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그런 말은 없네 ㅠㅠ 근데 시리즈3에서 거의 끝나지 않았나?",
+            "norm_text": "그런 말은 없네 ㅠㅠ 근데 시리즈3에서 거의 끝나지 않았나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런/MM+말/NNG+은/JX+없/VA+네/EF+ㅠㅠ/UNKNOWN+근데/MAJ+시리즈/NNG+3/SN+에서/JKB+거의/MAG+끝나/VV+지/EC+않/VX+았/EP+나/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그런가? ㅜㅜ 그래도 시리즈는 스토리만 있으면 또 만든다",
+            "norm_text": "아 그런가? ㅜㅜ 그래도 시리즈는 스토리만 있으면 또 만든다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그런가/VA+EF+ㅜㅜ/UNKNOWN+그래도/VV+EC+시리즈/NNG+는/JX+스토리/NNG+만/JX+있/VX+으면/EC+또/MAG+만든다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 그건 그렇다 키키 새로운 이야기는 만들먄 되지",
+            "norm_text": "키키 그건 그렇다 키키 새로운 이야기는 만들먄 되지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+그렇/VA+다/EC+키/NNG+키/XSV+ETN+새로운/VA+ETM+이야기/NNG+는/JX+만들/VV+ETM+먄/UNKNOWN+되/VV+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 새로운 시리즈 나올 때는 애기랑 같이 보러 가려나?",
+            "norm_text": "키키 새로운 시리즈 나올 때는 애기랑 같이 보러 가려나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+새로운/VA+ETM+시리즈/NNG+나올/VV+ETM+때/NNG+는/JX+애기/NNG+랑/JKB+같이/MAG+보/VV+러/EC+가/VX+려나/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그러게 키키 한 5살은 넘어야 보라 갈 수 있을 거 같은데 키키",
+            "norm_text": "그러게 키키 한 5살은 넘어야 보라 갈 수 있을 거 같은데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키/NNG+한/XSA+ETM+5/SN+살/NNBC+은/JX+넘/VV+어야/EC+보/VX+라/EC+갈/VX+ETM+수/NNB+있/VV+을/ETM+거/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그럼 키키 오랜만에 영화관에서 남편 분과 데이트",
+            "norm_text": "아 그럼 키키 오랜만에 영화관에서 남편 분과 데이트",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럼/MAJ+키/NNG+키/NNG+오랜만/NNG+에/JKB+영화관/NNG+에서/JKB+남편/NNG+분과/NNG+데이트/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 어휴 애는 어디에 두고 키키 나 혼자 갈게 오롯이 혼자 키키",
+            "norm_text": "어휴 애는 어디에 두고 키키 나 혼자 갈게 오롯이 혼자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어휴/IC+애/NNG+는/JX+어디/NP+에/JKB+두/VV+고/EC+키/NNG+키나/XSA+ETN+JX+혼자/MAG+갈/VV+ETM+게/NNB+JKS+오롯/NNG+이/JKS+혼자/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 아그래? 키키 영화 혼자 보러 간 적 있어?",
+            "norm_text": "키키 아그래? 키키 영화 혼자 보러 간 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+아/EC+그래/VV+EF+키/NNG+키/NNG+영화/NNG+혼자/MAG+보/VV+러/EC+간/VV+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 있지 키키 혼자 보는 거 좋다 영화에만 집중할 수 있어",
+            "norm_text": "있지 키키 혼자 보는 거 좋다 영화에만 집중할 수 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "있/VA+지/EC+키/NNG+키/NNG+혼자/MAG+보/VV+는/ETM+거/NNB+좋/VA+다/EC+영화/NNG+에/JKB+만/JX+집중/NNG+할/XSV+ETM+수/NNB+있/VV+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 진짜? 나는 아직 혼자 영화관 간 적 없어 키키",
+            "norm_text": "아 진짜? 나는 아직 혼자 영화관 간 적 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+나/NP+는/JX+아직/MAG+혼자/NNG+영화/NNG+관간/NNG+적/XSN+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 강력 추천 키키 난 좋더라 키키 이젠 언제 갈 수 있으려나 모르겠디만 키키",
+            "norm_text": "강력 추천 키키 난 좋더라 키키 이젠 언제 갈 수 있으려나 모르겠디만 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강력/NNG+추천/NNG+키/NNG+키/XSV+ETN+난/NP+JX+좋/VA+더라/EC+키/NNG+키/NNG+이젠/NNG+JX+언제/MAG+갈/VV+ETM+수/NNB+있/VV+으려나/EC+모르/VV+겠/EP+디만/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 쿵푸 팬더 새로운 시리즈 나오면 같이 보러 가자 키키",
+            "norm_text": "쿵푸 팬더 새로운 시리즈 나오면 같이 보러 가자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "쿵푸팬더/NNP+새로운/VA+ETM+시리즈/NNG+나오/VV+면/EC+같이/MAG+보/VV+러/EC+가/JKS+자키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 응응 같이 가자 팝콘  사들고 키키 냠냠하면서 보자 키키",
+            "norm_text": "키키 응응 같이 가자 팝콘  사들고 키키 냠냠하면서 보자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+응/IC+같이/MAG+가/VV+자/EC+팝콘/NNG+사/VV+EC+들/VV+고/EC+키/NNG+키/NNG+냠냠/NNG+하/XSV+면서/EC+보/VX+자/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

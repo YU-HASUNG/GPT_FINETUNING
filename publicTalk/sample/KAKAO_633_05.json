@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 67328,
+    "name": "KAKAO_633_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109271409130034106/KAKAO_633_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109271409130034106/KAKAO_633_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34183,
+      "filename": "KAKAO_633_05.txt",
+      "title": "KAKAO_633_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 435,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 435,
+        "word_size": 137,
+        "text": "1 : 언니 남친은 어디 군 갔어?\n2 : 어 나도 잘 모르는데 특공대라던데?\n1 : 아 정말? 나는 육해공밖에 몰라 키키\n2 : 육군 안에 있는 특공대 아니야?\n1 : 아 그래? 키키 육군에도 다양한 보직이 있나 보네\n2 : 그치 우리 언니 남친은 보병이잖아!\n1 : 그건 당연히 들어봤지 키키\n1 : 내 동생도 보병이야\n2 : 근데 보병은 뭐 하는 거야?\n1 : 나쁜 말로 땅개래 키키 걸어 다니는 인간 병기\n2 : 개웃기네 땅개 키키 특공대가 뭐 하는 건지 오빠한테 물어봐야지!\n1 : 그러게 키키 나도 궁금하다 처음 들어본 직렬이야\n2 : 그러니까 예전에 탈영병도 잡았다고 해!\n1 : 헐~ 남친 대박이네 키키 사단장 표창장 받았겠다\n2 : 그래서 휴가 나갔다고 했던 거 같은데?\n1 : 와... 그거 넷플릭스에 디피랑 비슷하네~\n2 : 디피가 뭐야 드라마 이름이야?\n2 : 디피가 뭐야 나도 봐야지!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 남친은 어디 군 갔어?",
+            "norm_text": "언니 남친은 어디 군 갔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+남친/NNG+은/JX+어디/NP+군/VCP+EC+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어 나도 잘 모르는데 특공대라던데?",
+            "norm_text": "어 나도 잘 모르는데 특공대라던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+나/NP+도/JX+잘/MAG+모르/VV+는데/EC+특공대/NNG+라던데/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 정말? 나는 육해공밖에 몰라 키키",
+            "norm_text": "아 정말? 나는 육해공밖에 몰라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+나는육해공밖에몰라키키/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 육군 안에 있는 특공대 아니야?",
+            "norm_text": "육군 안에 있는 특공대 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "육군/NNG+안/NNG+에/JKB+있/VV+는/ETM+특공대/NNG+아니/VCN+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그래? 키키 육군에도 다양한 보직이 있나 보네",
+            "norm_text": "아 그래? 키키 육군에도 다양한 보직이 있나 보네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+키키육군에도다양한보직이있나보네/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그치 우리 언니 남친은 보병이잖아!",
+            "norm_text": "그치 우리 언니 남친은 보병이잖아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+우리/NP+언니/NNG+남친/NNG+은/JX+보병/NNG+이/VCP+잖아/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그건 당연히 들어봤지 키키",
+            "norm_text": "그건 당연히 들어봤지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+당연히/MAG+들/VV+어/EC+봤/VX+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 내 동생도 보병이야",
+            "norm_text": "내 동생도 보병이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+동생/NNG+도/JX+보병/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 근데 보병은 뭐 하는 거야?",
+            "norm_text": "근데 보병은 뭐 하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+보병/NNG+은/JX+뭐/IC+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나쁜 말로 땅개래 키키 걸어 다니는 인간 병기",
+            "norm_text": "나쁜 말로 땅개래 키키 걸어 다니는 인간 병기",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나쁜/VA+ETM+말/NNG+로/JKB+땅개/NNG+래키/NNP+키/NNG+걸어다니/VV+는/ETM+인간/NNG+병기/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 개웃기네 땅개 키키 특공대가 뭐 하는 건지 오빠한테 물어봐야지!",
+            "norm_text": "개웃기네 땅개 키키 특공대가 뭐 하는 건지 오빠한테 물어봐야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "개웃/MAG+기네/NNP+땅개/NNG+키/NNG+키/NNG+특공대/NNG+가/JKS+뭐/IC+하/VV+는/ETM+건지/NNB+VCP+EC+오빠/NNG+한테/JKB+물/VV+어/EC+봐야지/VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그러게 키키 나도 궁금하다 처음 들어본 직렬이야",
+            "norm_text": "그러게 키키 나도 궁금하다 처음 들어본 직렬이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키나/XSA+ETN+JX+도/JX+궁금/XR+하/XSA+다/EF+처음/MAG+들/VV+어/EC+본/VX+ETM+직렬/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그러니까 예전에 탈영병도 잡았다고 해!",
+            "norm_text": "그러니까 예전에 탈영병도 잡았다고 해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+예전/NNG+에/JKB+탈영병/NNG+도/JX+잡/VV+았/EP+다고/EC+해/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 헐~ 남친 대박이네 키키 사단장 표창장 받았겠다",
+            "norm_text": "헐~ 남친 대박이네 키키 사단장 표창장 받았겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/NNP+~/SY+남친대박이네키키사단장표창장받았겠다/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그래서 휴가 나갔다고 했던 거 같은데?",
+            "norm_text": "그래서 휴가 나갔다고 했던 거 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+휴가/NNG+나갔/VV+EP+다고/EC+했/VX+EP+던/ETM+거/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 와... 그거 넷플릭스에 디피랑 비슷하네~",
+            "norm_text": "와... 그거 넷플릭스에 디피랑 비슷하네~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+그거/NP+넷플릭스/NNP+에/JKB+디피/NNG+랑/JC+비슷/XR+하/XSA+네/EF+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 디피가 뭐야 드라마 이름이야?",
+            "norm_text": "디피가 뭐야 드라마 이름이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "디피/NNG+가/JKS+뭐/NP+야/VCP+EF+드라마/NNG+이름/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 디피가 뭐야 나도 봐야지!",
+            "norm_text": "디피가 뭐야 나도 봐야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "디피/NNG+가/JKS+뭐/NP+야/VCP+EF+나/NP+도/JX+봐야지/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

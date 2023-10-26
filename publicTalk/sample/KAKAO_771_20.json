@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "identifier": 34675,
+    "name": "KAKAO_771_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150328083098/KAKAO_771_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150328083098/KAKAO_771_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38251,
+      "filename": "KAKAO_771_20.txt",
+      "title": "KAKAO_771_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 855,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 855,
+        "word_size": 269,
+        "text": "1 : 만화 중에서 너가 젤 좋아하는 캐릭터 아직 변함 없어? 쵸파?\n2 : 요즘엔 쵸파보다 짱구 키키\n2 : 사실 내 첫 최애 만화 캐릭터는 둘리야 키키\n1 : 키키 아 둘리 나도 좋아했어\n1 : 아직도 주제가 불러\n1 : 근데 둘리 넘 새드엔딩 ㅜㅜ\n2 : 아 그래? 둘리가 세드엔딩이었나?\n2 : 요즘에 둘리 인성 논란 이런 걸 너무 많이 봐서 키키 결말이 어땠는지는 기억도 나지 않는걸\n1 : 그 노래 중에 이거 있잖아 보고픈 엄마 찾아 우리 함께 떠나자~\n1 : 근데 둘리 타임워프 타고 엄마 찾는데 엄마랑 같이 있으려고 하고 친구들 다시 돌아가려고 기타 타임워프 타는데 희동이가 둘리까지 잡아서 엄마랑 헤어져\n2 : 아 생각났어! 그 우주 같은 곳 떠돌다가 엄마 만나는 그거 맞지?\n1 : 맞아 그럴걸 키키\n1 : 그래서 희동이도 그 훈발놈 같은 대우를 한동안 받더라고\n2 : 훈발놈 키키\n2 : 근데 생각해보면 희동이 걔가 제일 빌런\n1 : 맞아 그리고 둘리도 고길동한텐 빌런\n2 : 키키 이제 동심 다 잃었지\n2 : 우리 둘리놈 편 들어 줄 수 없는 나이가 되어버렸어\n1 : 키키 맞아 커서 보니까 둘리가 둘리놈이더라\n1 : 나는 고길동처럼 맘씨 넓은 어른이 아니라 진작 내쫓았겠더라\n2 : 완전 공감이야 키키\n2 : 게다가 고길동씨 재력까지 있는 아주 멋진 어른이였어\n1 : 키키 맞아 집도 그 주택에 자가면 능력자지\n1 : 출출하다 갑자기 그거 생각났어 텔레토비 스마일 과자 그런거 먹고프다\n2 : 아 맞아 그거 완전 꾸덕한 초코 쿠키처럼 보이지 않아?\n2 : 어렸을 때 그거 보면서 진짜 먹고 싶어했었는데 키키\n1 : 그치 그거랑 막 찰흙 같은 걸로 스탑모션해서 만든 만화영화는 음식 다 맛있게 생겼었어\n2 : 왜 만화에서 나오는 건 다 맛있어 보일까 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 만화 중에서 너가 젤 좋아하는 캐릭터 아직 변함 없어? 쵸파?",
+            "norm_text": "만화 중에서 너가 젤 좋아하는 캐릭터 아직 변함 없어? 쵸파?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "만화/NNG+중/NNB+에서/JKB+너/NP+가/JKS+젤/MAG+좋/VA+아/EC+하/VV+는/ETM+캐릭터/NNG+아직/MAG+변함없/VA+어/EF+쵸파/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘엔 쵸파보다 짱구 키키",
+            "norm_text": "요즘엔 쵸파보다 짱구 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+엔/JKB+JX+쵸파/NNP+보다/JKB+짱구/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 사실 내 첫 최애 만화 캐릭터는 둘리야 키키",
+            "norm_text": "사실 내 첫 최애 만화 캐릭터는 둘리야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+내/MM+첫/MM+최애/NNG+만화/NNG+캐릭터/NNG+는/JX+둘리/VV+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 아 둘리 나도 좋아했어",
+            "norm_text": "키키 아 둘리 나도 좋아했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+아/EC+둘리/VV+나/EC+도/JX+좋/VA+아/EC+했/VX+EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아직도 주제가 불러",
+            "norm_text": "아직도 주제가 불러",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+도/JX+주제/NNG+가/JKS+불러/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 근데 둘리 넘 새드엔딩 ㅜㅜ",
+            "norm_text": "근데 둘리 넘 새드엔딩 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+둘/NR+리/NNBC+넘/MAG+새드/NNP+엔딩/NNG+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아 그래? 둘리가 세드엔딩이었나?",
+            "norm_text": "아 그래? 둘리가 세드엔딩이었나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+둘/NR+리/NNBC+가/JKS+세드/NNP+엔딩/NNG+이/VCP+었/EP+나/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 요즘에 둘리 인성 논란 이런 걸 너무 많이 봐서 키키 결말이 어땠는지는 기억도 나지 않는걸",
+            "norm_text": "요즘에 둘리 인성 논란 이런 걸 너무 많이 봐서 키키 결말이 어땠는지는 기억도 나지 않는걸",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+에/JKB+둘/NR+리/NNBC+인성/NNG+논란/NNG+이런/MM+걸/NNB+JKO+너무/MAG+많이/MAG+봐서/VV+EC+키/NNG+키/NNG+결말/NNG+이/JKS+어땠/VA+EP+는지/EC+는/JX+기억/NNG+도/JX+나/VX+지/EC+않/VX+는/ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그 노래 중에 이거 있잖아 보고픈 엄마 찾아 우리 함께 떠나자~",
+            "norm_text": "그 노래 중에 이거 있잖아 보고픈 엄마 찾아 우리 함께 떠나자~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+노래/NNG+중/NNB+에/JKB+이거/NP+있/VA+잖아/EC+보/VX+고/EC+픈/VX+ETM+엄마/NNG+찾/VV+아/EC+우리/NP+함께/MAG+떠나/VV+자/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 근데 둘리 타임워프 타고 엄마 찾는데 엄마랑 같이 있으려고 하고 친구들 다시 돌아가려고 기타 타임워프 타는데 희동이가 둘리까지 잡아서 엄마랑 헤어져",
+            "norm_text": "근데 둘리 타임워프 타고 엄마 찾는데 엄마랑 같이 있으려고 하고 친구들 다시 돌아가려고 기타 타임워프 타는데 희동이가 둘리까지 잡아서 엄마랑 헤어져",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+둘리/NNP+타임/NNP+워프/NNP+타/VV+고/EC+엄마/NNG+찾/VV+는데/EC+엄마/NNG+랑/JKB+같이/MAG+있/VV+으려고/EC+하/VV+고/EC+친구/NNG+들/XSN+다시/MAG+돌아가/VV+려고/EC+기타/NNG+타임/NNP+워프/NNP+타/VV+는데/EC+희/NNG+동이/NNG+가/JKS+둘/NR+리/NNBC+까지/JX+잡/VV+아서/EC+엄마/NNG+랑/JKB+헤어져/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아 생각났어! 그 우주 같은 곳 떠돌다가 엄마 만나는 그거 맞지?",
+            "norm_text": "아 생각났어! 그 우주 같은 곳 떠돌다가 엄마 만나는 그거 맞지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+생각/NNG+났/VV+EP+어/EF+그/MM+우주/NNG+같/VA+은/ETM+곳/NNB+떠돌/VV+다가/EC+엄마/NNG+만나/VV+는/ETM+그거/NP+맞/VV+지/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞아 그럴걸 키키",
+            "norm_text": "맞아 그럴걸 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그럴/VV+ETM+걸/NNB+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래서 희동이도 그 훈발놈 같은 대우를 한동안 받더라고",
+            "norm_text": "그래서 희동이도 그 훈발놈 같은 대우를 한동안 받더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+서희동/NNP+이/XSN+도/JX+그/MM+훈/NNG+발/NNG+놈/NNB+같/VA+은/ETM+대우/NNG+를/JKO+한/VV+ETM+동안/NNG+받/VV+더라고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 훈발놈 키키",
+            "norm_text": "훈발놈 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "훈발놈키키/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 근데 생각해보면 희동이 걔가 제일 빌런",
+            "norm_text": "근데 생각해보면 희동이 걔가 제일 빌런",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+생각/NNG+해/XSV+EC+보/VX+면/EC+희/NNG+동/NNG+이/JKS+걔/NP+가/JKS+제일/MAG+빌/VV+런/ETM"
+          },
+          {
+            "id": 16,
+            "text": "1 : 맞아 그리고 둘리도 고길동한텐 빌런",
+            "norm_text": "맞아 그리고 둘리도 고길동한텐 빌런",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+그리고/MAJ+둘/NR+리도/NNG+고/VCP+EC+길동/NNG+한텐/JKB+JX+빌/VA+ETM+런/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 이제 동심 다 잃었지",
+            "norm_text": "키키 이제 동심 다 잃었지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+이제/MAG+동심/NNG+다/MAG+잃/VV+었/EP+지/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 우리 둘리놈 편 들어 줄 수 없는 나이가 되어버렸어",
+            "norm_text": "우리 둘리놈 편 들어 줄 수 없는 나이가 되어버렸어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+둘/NR+리/NNBC+놈/NNB+편들/VV+어/EC+줄/VX+ETM+수/NNB+없/VA+는/ETM+나이/NNG+가/JKS+되/VV+어/EC+버렸/VX+EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 맞아 커서 보니까 둘리가 둘리놈이더라",
+            "norm_text": "키키 맞아 커서 보니까 둘리가 둘리놈이더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+커서/VV+EC+보/VX+니까/EC+둘/VX+ETM+리/NNB+가/JKS+둘/NR+리/NNBC+놈/NNB+이/VCP+더라/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 나는 고길동처럼 맘씨 넓은 어른이 아니라 진작 내쫓았겠더라",
+            "norm_text": "나는 고길동처럼 맘씨 넓은 어른이 아니라 진작 내쫓았겠더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+고/XPN+길동/NNG+처럼/JKB+맘/NNP+씨/NNB+넓/VA+은/ETM+어른/NNG+이/JKC+아니/VCN+라/EC+진작/MAG+내쫓/VV+았/EP+겠/EP+더라/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 완전 공감이야 키키",
+            "norm_text": "완전 공감이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/NNG+공감/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 게다가 고길동씨 재력까지 있는 아주 멋진 어른이였어",
+            "norm_text": "게다가 고길동씨 재력까지 있는 아주 멋진 어른이였어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "게다가/MAG+고길/NNG+JKO+동씨/NNG+재력/NNG+까지/JX+있/VV+는/ETM+아주/MAG+멋진/VA+ETM+어른/NNG+이/VCP+였/EP+어/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 키키 맞아 집도 그 주택에 자가면 능력자지",
+            "norm_text": "키키 맞아 집도 그 주택에 자가면 능력자지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+집/NNG+도/JX+그/MM+주택/NNG+에/JKB+자/VV+EC+가/VX+면/EC+능력/NNG+자지/NNG"
+          },
+          {
+            "id": 24,
+            "text": "1 : 출출하다 갑자기 그거 생각났어 텔레토비 스마일 과자 그런거 먹고프다",
+            "norm_text": "출출하다 갑자기 그거 생각났어 텔레토비 스마일 과자 그런거 먹고프다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "출출/XR+하/XSA+다/EF+갑자기/MAG+그거/NP+생각났/VV+EP+어/EC+텔레토비/NNP+스마일/NNP+과자/NNG+그런/MM+거/NNB+먹/VV+고/EC+프/VX+다/EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 아 맞아 그거 완전 꾸덕한 초코 쿠키처럼 보이지 않아?",
+            "norm_text": "아 맞아 그거 완전 꾸덕한 초코 쿠키처럼 보이지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+맞아/IC+그거/NP+완전/MAG+꾸/VV+덕/NNB+한/XSA+ETM+초코/NNP+쿠키/NNG+처럼/JKB+보이/VV+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 26,
+            "text": "2 : 어렸을 때 그거 보면서 진짜 먹고 싶어했었는데 키키",
+            "norm_text": "어렸을 때 그거 보면서 진짜 먹고 싶어했었는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어렸/VA+EP+을/ETM+때/NNG+그거/NP+보/VV+면서/EC+진짜/MAG+먹/VV+고/EC+싶/VX+어/EC+했었/VX+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "1 : 그치 그거랑 막 찰흙 같은 걸로 스탑모션해서 만든 만화영화는 음식 다 맛있게 생겼었어",
+            "norm_text": "그치 그거랑 막 찰흙 같은 걸로 스탑모션해서 만든 만화영화는 음식 다 맛있게 생겼었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+그거/NP+랑/JKB+막/NNG+찰흙/NNG+같/VA+은/ETM+걸로/NNB+JKB+스탑/NNP+모션/NNG+해서/XSV+EC+만든/VV+ETM+만화/NNG+영화/NNG+는/JX+음식/NNG+다/MAG+맛있/VA+게/EC+생겼었/VV+EP+어/EC"
+          },
+          {
+            "id": 28,
+            "text": "2 : 왜 만화에서 나오는 건 다 맛있어 보일까 키키",
+            "norm_text": "왜 만화에서 나오는 건 다 맛있어 보일까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+만화/NNG+에서/JKB+나오/VV+는/ETM+건/NNB+JX+다/MAG+맛있/VA+어/EC+보일까/VV+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

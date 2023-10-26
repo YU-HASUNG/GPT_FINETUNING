@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 33990,
+    "name": "KAKAO_756_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135450071864/KAKAO_756_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135450071864/KAKAO_756_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37270,
+      "filename": "KAKAO_756_02.txt",
+      "title": "KAKAO_756_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 816,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 816,
+        "word_size": 273,
+        "text": "1 : 자취하면 인테리어 같은 것도 좀 신경 쓰는 편이심꽈 ㅇㅅㅇ?\n2 : 그치 인테리어 하는 거 좋아하는데 여긴 내 집이 아니라 잘 못 하지 키키\n1 : 아 맞아 그건 그래 ㅠ0ㅠ 자취생의 슬픔...\n1 : 지금 방은 무지 깔끔하더라 만약 네 집이라면 뭔가 하고 싶은 게 있어? 키키\n2 : 음 딱히 아직 거기까진 생각 안 해 봤는데 좀 미술관 느낌 나게 해 보고 싶어\n1 : 오호 액자 같은 거 걸고 뭐 그런 건가 ㅇㅅㅇ?\n2 : 웅 그렇게 해서 분위기 좀 내 보고 싶어\n1 : 오호... 하긴 벽에 못 박아야 하니까 ㅠ0ㅠ\n1 : 아니면 그거 써 봐 꼭꼬삔!\n2 : 웅 그거 써서 해야지 키키 지금 내 방은 액자를 걸 곳이 없어섴 키키\n1 : 키키 나도 웬만하면 벽지도 안 뚫으려고 하긴 하는데 거울이랑 코르크 보드 거느라고... 흑...\n1 : 벙커 침대는 어때 괜찮아? 키키\n2 : 응 괜찮아 처음 써 보는데 나쁘지 않아 아래가 좀 어두운 거 빼곤\n1 : 아하! 그래서 난 조명을 붙였지 캬하하\n1 : 스탠드를 놓긴 좁고 해서... 무드등 같은 거 하나 놔 봐 ㅇㅅㅇ\n2 : 무드등 있는데 그게 한쪽만 밝아져서 키키\n2 : 천장에 다는 거 건전지로 쓰는 거 쓰는데 배터리가 금방 달아 키키\n1 : 아 배터리 ㄴㄴ 해\n1 : 그거 인터넷에서 바 조명 파는데 두 개 사서 연결할 수 있거든 코드 달린 거 키키\n1 : 생각 있으면 그거 사 내가 지금 쓰고 있어!\n2 : 헐 대박 그럼 그거 사서 써야겠다 난 왜 못 봤지\n1 : 후후후... 아마 바 조명이나 LED 스틱 이렇게 치면 나올 거야\n1 : 내 기억에 그렇게 비싸진 않았던 것 같어!\n2 : 응 대박 아 진작에 알았으면 좋았을 텐데 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자취하면 인테리어 같은 것도 좀 신경 쓰는 편이심꽈 ㅇㅅㅇ?",
+            "norm_text": "자취하면 인테리어 같은 것도 좀 신경 쓰는 편이심꽈 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자취/NNG+하/XSV+면/EC+인테리어/NNG+같/VA+은/ETM+것/NNB+도/JX+좀/MAG+신경/NNG+쓰/VV+는/ETM+편/NNB+이/VCP+심/EP+ETN+꽈ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그치 인테리어 하는 거 좋아하는데 여긴 내 집이 아니라 잘 못 하지 키키",
+            "norm_text": "그치 인테리어 하는 거 좋아하는데 여긴 내 집이 아니라 잘 못 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+인테리어/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+하/VV+는데/EC+여긴/NP+JX+내/NP+JKG+집/NNG+이/JKC+아니/VCN+라/EC+잘못/MAG+하/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 맞아 그건 그래 ㅠ0ㅠ 자취생의 슬픔...",
+            "norm_text": "아 맞아 그건 그래 ㅠ0ㅠ 자취생의 슬픔...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아맞아그건그래ㅠ/UNKNOWN+0/SN+ㅠ자취생의슬픔/UNKNOWN+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 지금 방은 무지 깔끔하더라 만약 네 집이라면 뭔가 하고 싶은 게 있어? 키키",
+            "norm_text": "지금 방은 무지 깔끔하더라 만약 네 집이라면 뭔가 하고 싶은 게 있어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+방/NNG+은/JX+무지/MAG+깔끔/XR+하/XSA+더라/EF+만약/MAG+네/MM+집/NNG+이/VCP+라면/EC+뭔가/NP+VCP+EC+하/VV+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 음 딱히 아직 거기까진 생각 안 해 봤는데 좀 미술관 느낌 나게 해 보고 싶어",
+            "norm_text": "음 딱히 아직 거기까진 생각 안 해 봤는데 좀 미술관 느낌 나게 해 보고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+딱히/MAG+아직/MAG+거기/NP+까진/JX+VCP+ETM+생각/NNG+안/MAG+해/VV+EC+봤/VX+EP+는데/EC+좀/MAG+미술관/NNG+느낌/NNG+나/VV+게/EC+해/VV+EC+보/VX+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오호 액자 같은 거 걸고 뭐 그런 건가 ㅇㅅㅇ?",
+            "norm_text": "오호 액자 같은 거 걸고 뭐 그런 건가 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/IC+액자/NNG+같/VA+은/ETM+거/NNB+걸/VV+고/EC+뭐/IC+그런/MM+건/NNB+JX+가ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 웅 그렇게 해서 분위기 좀 내 보고 싶어",
+            "norm_text": "웅 그렇게 해서 분위기 좀 내 보고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+그렇게/MAG+해서/VV+EC+분위기/NNG+좀/MAG+내보/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오호... 하긴 벽에 못 박아야 하니까 ㅠ0ㅠ",
+            "norm_text": "오호... 하긴 벽에 못 박아야 하니까 ㅠ0ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+./SY+하긴/MAJ+벽/NNG+에/JKB+못박/VV+아야/EC+하/VV+니까/EC+ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아니면 그거 써 봐 꼭꼬삔!",
+            "norm_text": "아니면 그거 써 봐 꼭꼬삔!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아니면/MAJ+그거/NP+써/VV+EC+봐/VX+EF+꼭/MAG+꼬/VCP+EC+삔/VV+ETM"
+          },
+          {
+            "id": 10,
+            "text": "2 : 웅 그거 써서 해야지 키키 지금 내 방은 액자를 걸 곳이 없어섴 키키",
+            "norm_text": "웅 그거 써서 해야지 키키 지금 내 방은 액자를 걸 곳이 없어섴 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+그거/NP+써서/VV+EC+해야지/VX+EC+키/NNG+키/NNG+지금/MAG+내방/NNP+은/JX+액자/NNG+를/JKO+걸/VV+ETM+곳/NNG+이/JKS+없/VA+어/EC+섴키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 나도 웬만하면 벽지도 안 뚫으려고 하긴 하는데 거울이랑 코르크 보드 거느라고... 흑...",
+            "norm_text": "키키 나도 웬만하면 벽지도 안 뚫으려고 하긴 하는데 거울이랑 코르크 보드 거느라고... 흑...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+웬만/XR+하/XSA+면/EC+벽지/NNG+도/JX+안/MAG+뚫/VV+으려고/EC+하/VV+긴/ETN+JX+하/VX+는데/EC+거울/NNG+이랑/JKB+코르크/NNG+보드/NNP+거/VCP+느라고/EF+./SY+흑/IC+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 벙커 침대는 어때 괜찮아? 키키",
+            "norm_text": "벙커 침대는 어때 괜찮아? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "벙커/NNG+침대/NNG+는/JX+어때/VA+EC+괜찮/VA+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 괜찮아 처음 써 보는데 나쁘지 않아 아래가 좀 어두운 거 빼곤",
+            "norm_text": "응 괜찮아 처음 써 보는데 나쁘지 않아 아래가 좀 어두운 거 빼곤",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+괜찮/VA+아/EC+처음/MAG+써/VV+EC+보/VX+는/ETM+데/NNB+나쁘/VA+지/EC+않/VX+아/EC+아래/NNG+가/JKS+좀/MAG+어두운/VA+ETM+거/NNB+빼/VV+곤/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아하! 그래서 난 조명을 붙였지 캬하하",
+            "norm_text": "아하! 그래서 난 조명을 붙였지 캬하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+그래서/MAJ+난/NP+JX+조명/NNG+을/JKO+붙였/VV+EP+지/EF+캬/IC+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 스탠드를 놓긴 좁고 해서... 무드등 같은 거 하나 놔 봐 ㅇㅅㅇ",
+            "norm_text": "스탠드를 놓긴 좁고 해서... 무드등 같은 거 하나 놔 봐 ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "스탠드/NNG+를/JKO+놓/VV+긴/ETN+JX+좁/VA+고/EC+해서/VV+EC+./SY+./SY+무드/NNG+등/NNB+같/VA+은/ETM+거/NNB+하나/NR+놔봐/VV+EC+VX+EC+ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 무드등 있는데 그게 한쪽만 밝아져서 키키",
+            "norm_text": "무드등 있는데 그게 한쪽만 밝아져서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "무드/NNG+등/NNB+있/VA+는데/EC+그게/NP+JKS+한/MM+쪽/NNBC+만/JX+밝/VA+아/EC+져서/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 천장에 다는 거 건전지로 쓰는 거 쓰는데 배터리가 금방 달아 키키",
+            "norm_text": "천장에 다는 거 건전지로 쓰는 거 쓰는데 배터리가 금방 달아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "천장/NNG+에/JKB+다는/ETM+거/NNB+건전지/NNG+로/JKB+쓰/VV+는/ETM+거/NNB+쓰/VV+는데/EC+배터리/NNG+가/JKS+금방/MAG+달/VV+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 배터리 ㄴㄴ 해",
+            "norm_text": "아 배터리 ㄴㄴ 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+배터리/NNG+ㄴ/NNG+ㄴ/NNG+해/XSV+EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그거 인터넷에서 바 조명 파는데 두 개 사서 연결할 수 있거든 코드 달린 거 키키",
+            "norm_text": "그거 인터넷에서 바 조명 파는데 두 개 사서 연결할 수 있거든 코드 달린 거 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+인터넷/NNG+에서/JKB+바조/NNG+명/XSN+파/VV+는데/EC+두/MM+개/NNBC+사서/NNG+연결/NNG+할/XSV+ETM+수/NNB+있/VV+거든/EC+코드/NNG+달린/VV+ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 생각 있으면 그거 사 내가 지금 쓰고 있어!",
+            "norm_text": "생각 있으면 그거 사 내가 지금 쓰고 있어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "생각/NNG+있/VV+으면/EC+그거/NP+사내/NNG+가/JKS+지금/MAG+쓰/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 헐 대박 그럼 그거 사서 써야겠다 난 왜 못 봤지",
+            "norm_text": "헐 대박 그럼 그거 사서 써야겠다 난 왜 못 봤지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+대박/NNG+그럼/MAJ+그거/NP+사/VV+서/EC+써야/VV+EC+VX+겠/EP+다/EF+난/NP+JX+왜/MAG+못/MAG+봤/VV+EP+지/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 후후후... 아마 바 조명이나 LED 스틱 이렇게 치면 나올 거야",
+            "norm_text": "후후후... 아마 바 조명이나 LED 스틱 이렇게 치면 나올 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "후후후/IC+./SY+아마/MAG+바조/NNG+명/XSN+이나/JC+LED/SL+스틱/NNG+이렇게/MAG+치/VV+면/EC+나올/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 내 기억에 그렇게 비싸진 않았던 것 같어!",
+            "norm_text": "내 기억에 그렇게 비싸진 않았던 것 같어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+기억/NNG+에/JKB+그렇게/MAG+비싸/VA+진/EC+JX+않/VX+았/EP+던/ETM+것/NNB+같/VA+어/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 응 대박 아 진작에 알았으면 좋았을 텐데 ㅠㅠ",
+            "norm_text": "응 대박 아 진작에 알았으면 좋았을 텐데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응대/NNG+박아/NNG+진작/NNG+에/JKB+알/VV+았/EP+으면/EC+좋/VA+았/EP+을/ETM+텐데/NNB+VCP+EC+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

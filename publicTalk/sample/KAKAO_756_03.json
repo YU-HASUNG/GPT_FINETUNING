@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 31961,
+    "name": "KAKAO_756_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135450072858/KAKAO_756_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135450072858/KAKAO_756_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37271,
+      "filename": "KAKAO_756_03.txt",
+      "title": "KAKAO_756_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 744,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 744,
+        "word_size": 229,
+        "text": "1 : 서울은 지하철이 잘되어 있어서 너는 잘 타는 편이지 ㅇㅅㅇ?\n2 : 응 지하철 진짜 편해 키키 버스는 너무 질리도록 타 봐서\n1 : 그치 키키 대전에서 혹시 지하철 타 봤어...?\n2 : 아니 키키 대전에서 뭐 해 본 적 한 번도 없어\n1 : 아 진짜? 키키 대전 지하철 타면 너 되게 웃겠다... 1호선밖에 없거든...\n2 : 키키 근데 그거로 충분해? 여기저기 다니기에\n1 : 응... 대전은 생각보다 좁아서 1호선으로 충분해...\n1 : 택시 타고 끝에서 끝까지 가도 택시비 2만 원이 절대 넘지 않아 키키\n2 : 아 그래? 키키 와 행복한 도시네 키키 버스는 잘돼 있어?\n1 : 응 동네마다 좀 다르긴 한데... 웬만한 곳은 다 한 번 타면 가...\n1 : 근데 환승 귀찮으면 택시 타지 어차피 많이 나와봐야 8천 원이라서... 키키 쩔지\n2 : 와 대박이다 키키 서울에서 대전까지 버스 타고 가면 얼마나 걸려?\n1 : 움~ 고속버스 타면 평소엔 한 1시간 40분 정도?\n1 : 넉넉히 2시간이라고 하는데 사고 나거나 하지만 않으면 1시간 40분 컷이었어!\n2 : 그렇게 멀진 않구나 오히려 천안 가는 거랑 비슷해 보여\n1 : 오홍? 천안 갈 일 있어?\n1 : 천안 뭐 옆 동네지 ㅇㅅㅇ ktx 타고 30분이면 갈걸...?\n2 : 천안이 큰집이어 가지구 아주 가끔 서울에서 버스 타고 간 적 있었거든 키키\n1 : 오 그렇구나! 놀러 왕 아무것도 없는 대전이지만 이사하면 재워는 드릴께 ㅇㅅㅇ 키키\n2 : 오 키키 좋아 대전에 한번 가 보고 싶기는 해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 서울은 지하철이 잘되어 있어서 너는 잘 타는 편이지 ㅇㅅㅇ?",
+            "norm_text": "서울은 지하철이 잘되어 있어서 너는 잘 타는 편이지 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "서울/NNP+은/JX+지하철/NNG+이/JKS+잘/MAG+되/VV+어/EC+있/VX+어서/EC+너/NP+는/JX+잘/MAG+타/VV+는/ETM+편/NNB+이/VCP+지/EF+ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 지하철 진짜 편해 키키 버스는 너무 질리도록 타 봐서",
+            "norm_text": "응 지하철 진짜 편해 키키 버스는 너무 질리도록 타 봐서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+지하철/NNG+진짜/MAG+편해/VA+EC+키/NNG+키/NNG+버스/NNG+는/JX+너무/MAG+질리/VV+도록/EC+타/VV+봐서/EC+VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그치 키키 대전에서 혹시 지하철 타 봤어...?",
+            "norm_text": "그치 키키 대전에서 혹시 지하철 타 봤어...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+키키/NNP+대전/NNP+에서/JKB+혹시/MAG+지하철/NNG+타/XSV+EC+봤/VX+EP+어/EF+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 키키 대전에서 뭐 해 본 적 한 번도 없어",
+            "norm_text": "아니 키키 대전에서 뭐 해 본 적 한 번도 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+키키/NNP+대전/NNP+에서/JKB+뭐/IC+해본/NNG+적/XSN+한/MM+번/NNBC+도/JX+없/VA+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 진짜? 키키 대전 지하철 타면 너 되게 웃겠다... 1호선밖에 없거든...",
+            "norm_text": "아 진짜? 키키 대전 지하철 타면 너 되게 웃겠다... 1호선밖에 없거든...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키키/NNP+대전/NNP+지하철/NNG+타/VV+면/EC+너/NP+되게/MAG+웃/VV+겠/EP+다/EF+./SY+./SY+1/SN+호/NNBC+선/NNG+밖에/JX+없/VA+거든/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 근데 그거로 충분해? 여기저기 다니기에",
+            "norm_text": "키키 근데 그거로 충분해? 여기저기 다니기에",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+그거/NP+로/JKB+충분/XR+해/XSA+EF+여기저기/NNG+다니/VV+기에/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응... 대전은 생각보다 좁아서 1호선으로 충분해...",
+            "norm_text": "응... 대전은 생각보다 좁아서 1호선으로 충분해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+./SY+대전/NNP+은/JX+생각/NNG+보다/JKB+좁/VA+아서/EC+1/SN+호/NNBC+선/NNG+으로/JKB+충분/XR+해/XSA+EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 택시 타고 끝에서 끝까지 가도 택시비 2만 원이 절대 넘지 않아 키키",
+            "norm_text": "택시 타고 끝에서 끝까지 가도 택시비 2만 원이 절대 넘지 않아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "택시/NNG+타/VV+고/EC+끝/NNG+에서/JKB+끝/NNG+까지/JX+가/VV+도/EC+택시/NNG+비/XPN+2/SN+만/NR+원/NNBC+이/JKS+절대/MAG+넘/VV+지/EC+않/VX+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 그래? 키키 와 행복한 도시네 키키 버스는 잘돼 있어?",
+            "norm_text": "아 그래? 키키 와 행복한 도시네 키키 버스는 잘돼 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/XSV+ETN+와/JC+행복/NNG+한/XSA+ETM+도시/NNG+네/XSN+키/NNG+키/NNG+버스/NNG+는/JX+잘/MAG+돼/VV+EC+있/VX+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 동네마다 좀 다르긴 한데... 웬만한 곳은 다 한 번 타면 가...",
+            "norm_text": "응 동네마다 좀 다르긴 한데... 웬만한 곳은 다 한 번 타면 가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+동네/NNG+마다/JX+좀/MAG+다르/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+웬만/XR+한/XSA+ETM+곳/NNG+은/JX+다/MAG+한/MM+번/NNBC+타/VV+면/EC+가/JKS+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 환승 귀찮으면 택시 타지 어차피 많이 나와봐야 8천 원이라서... 키키 쩔지",
+            "norm_text": "근데 환승 귀찮으면 택시 타지 어차피 많이 나와봐야 8천 원이라서... 키키 쩔지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+환승/NNG+귀찮/VA+으면/EC+택시/NNG+타/VV+지/EF+어차피/MAG+많이/MAG+나와/VV+EC+봐야/VX+EC+8/SN+천/NR+원/NNBC+이/VCP+라서/EF+./SY+키/NNG+키/XSV+ETN+쩔/VV+지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 와 대박이다 키키 서울에서 대전까지 버스 타고 가면 얼마나 걸려?",
+            "norm_text": "와 대박이다 키키 서울에서 대전까지 버스 타고 가면 얼마나 걸려?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+대박/NNG+이/JKS+다키키/NNP+서울/NNP+에서/JKB+대전/NNP+까지/JX+버스/NNG+타/VV+고/EC+가/VX+면/EC+얼마나/MAG+걸려/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 움~ 고속버스 타면 평소엔 한 1시간 40분 정도?",
+            "norm_text": "움~ 고속버스 타면 평소엔 한 1시간 40분 정도?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "움/NNG+~/SY+고속버스/NNG+타/VV+면/EC+평소/NNG+엔/JKB+JX+한/MM+1/SN+시간/NNG+40/SN+분/NNBC+정도/NNG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 넉넉히 2시간이라고 하는데 사고 나거나 하지만 않으면 1시간 40분 컷이었어!",
+            "norm_text": "넉넉히 2시간이라고 하는데 사고 나거나 하지만 않으면 1시간 40분 컷이었어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넉넉히/MAG+2/SN+시간/NNG+이/VCP+라고/EC+하/VV+는/ETM+데/NNB+사/VV+고/EC+나/VX+거나/EC+하/VV+지만/EC+않/VX+으면/EC+1/SN+시간/NNG+40/SN+분/NNBC+컷/NNG+이/VCP+었/EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그렇게 멀진 않구나 오히려 천안 가는 거랑 비슷해 보여",
+            "norm_text": "그렇게 멀진 않구나 오히려 천안 가는 거랑 비슷해 보여",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇게/MAG+멀/VA+진/EC+JX+않/VX+구나/EF+오히려/MAJ+천/NR+안/MAG+가/VV+는/ETM+거/NNB+랑/JC+비슷/XR+해/XSA+EC+보여/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오홍? 천안 갈 일 있어?",
+            "norm_text": "오홍? 천안 갈 일 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+홍/NNG+?/SY+천안/NNP+갈일/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 천안 뭐 옆 동네지 ㅇㅅㅇ ktx 타고 30분이면 갈걸...?",
+            "norm_text": "천안 뭐 옆 동네지 ㅇㅅㅇ ktx 타고 30분이면 갈걸...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "천안/NNP+뭐/IC+옆/NNG+동네/NNG+지ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN+ktx/SL+타/VV+고/EC+30/SN+분/NNBC+이/VCP+면/EC+갈걸/VV+EF+./SY+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 천안이 큰집이어 가지구 아주 가끔 서울에서 버스 타고 간 적 있었거든 키키",
+            "norm_text": "천안이 큰집이어 가지구 아주 가끔 서울에서 버스 타고 간 적 있었거든 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "천안/NNP+이/JKS+큰/VA+ETM+집/NNG+이/VCP+어/EC+가지/VX+구/EC+아주/MAG+가끔/MAG+서울/NNP+에서/JKB+버스타/NNP+고간/NNG+적/XSN+있/VA+었/EP+거든/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 오 그렇구나! 놀러 왕 아무것도 없는 대전이지만 이사하면 재워는 드릴께 ㅇㅅㅇ 키키",
+            "norm_text": "오 그렇구나! 놀러 왕 아무것도 없는 대전이지만 이사하면 재워는 드릴께 ㅇㅅㅇ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오/NR+그렇/VA+구나/EF+놀/VV+러/EC+왕/NNG+아무것/NNG+도/JX+없/VA+는/ETM+대전/NNG+이/VCP+지만/EC+이사/NNG+하/XSV+면/EC+재워/VV+EC+는/JX+드릴/VX+ETM+께ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 오 키키 좋아 대전에 한번 가 보고 싶기는 해",
+            "norm_text": "오 키키 좋아 대전에 한번 가 보고 싶기는 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+좋/VA+아/EC+대전/NNP+에/JKB+한/MM+번/NNBC+가/JKS+보/VV+고/EC+싶/VX+기/ETN+는/JX+해/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

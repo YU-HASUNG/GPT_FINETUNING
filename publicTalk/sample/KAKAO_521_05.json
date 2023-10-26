@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21476,
+    "name": "KAKAO_521_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145947004625/KAKAO_521_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145947004625/KAKAO_521_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29336,
+      "filename": "KAKAO_521_05.txt",
+      "title": "KAKAO_521_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 405,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 405,
+        "word_size": 122,
+        "text": "1 : 아니 내 친구 여군한대 키키\n2 : 와 여군?! 대단하다...준비 중이래?!\n1 : 웅 키키 난 못 할 거 같은데 한대 하하\n2 : 나도...하라 그래도 못해ㅠㅠ 일단 체력부터 꽝이고요\n1 : 하하 군대 나랑은 먼 얘기 ㅠㅜㅠㅠ\n2 : 나도ㅠㅜ 동생 보내는 것도 걱정인데...흑\n1 : 그래도 요즘은 군대 복무 기간이 줄어들어서 다행이라던데 하하\n2 : 그렇긴 해ㅠㅠ 핸드폰도 쓸 수 있고!\n1 : 하하 내 동생도 곧 가 하하\n2 : 그러네...! 에혀 걱정이다 애기들...\n1 : 요즘 군대 얘기로 한 드라마도 있던데\n2 : 오 나 그거 알아!\n1 : 그거 군대 생활을 되게 잘보여준다더라고 하하\n2 : 맞아 엄청난 하이퍼리얼리즘이래!\n1 : 그거 보면 더 군대 가기 싫겠당 ㅜㅠㅜ\n2 : 내 말이...군필자들은 보면서 PTSD 온다던데...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아니 내 친구 여군한대 키키",
+            "norm_text": "아니 내 친구 여군한대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+내/NP+JKG+친구/NNG+여군/NNG+한/XSA+ETM+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 와 여군?! 대단하다...준비 중이래?!",
+            "norm_text": "와 여군?! 대단하다...준비 중이래?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+여군/NNG+?/SY+대단/XR+하/XSA+다/EF+./SY+준비/NNG+중/NNB+이/VCP+래/EC+?/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 웅 키키 난 못 할 거 같은데 한대 하하",
+            "norm_text": "웅 키키 난 못 할 거 같은데 한대 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+키/NNG+키/XSV+ETN+난/NP+JX+못/MAG+할/VV+ETM+거/NNB+같/VA+은데/EC+한/MM+대하/NNG+하/XSV"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나도...하라 그래도 못해ㅠㅠ 일단 체력부터 꽝이고요",
+            "norm_text": "나도...하라 그래도 못해ㅠㅠ 일단 체력부터 꽝이고요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+./SY+./SY+하/VV+라/EC+그래도/VV+EC+못해/VX+EC+ㅠㅠ/UNKNOWN+일단/MAG+체력/NNG+부터/JX+꽝/MAG+이/MM+고요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 하하 군대 나랑은 먼 얘기 ㅠㅜㅠㅠ",
+            "norm_text": "하하 군대 나랑은 먼 얘기 ㅠㅜㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+군대/NNG+나/NP+랑/JKB+은/JX+먼/VA+ETM+얘기/NNG+ㅠㅜ/UNKNOWN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도ㅠㅜ 동생 보내는 것도 걱정인데...흑",
+            "norm_text": "나도ㅠㅜ 동생 보내는 것도 걱정인데...흑",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+ㅠㅜ/UNKNOWN+동생/NNG+보내/VV+는/ETM+것/NNB+도/JX+걱정/NNG+인데/VCP+EC+./SY+./SY+흑/IC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래도 요즘은 군대 복무 기간이 줄어들어서 다행이라던데 하하",
+            "norm_text": "그래도 요즘은 군대 복무 기간이 줄어들어서 다행이라던데 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+요즘/NNG+은/JX+군대/NNG+복무/NNG+기간/NNG+이/JKS+줄어들/VV+어서/EC+다행/NNG+이/VCP+라던데/EC+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그렇긴 해ㅠㅠ 핸드폰도 쓸 수 있고!",
+            "norm_text": "그렇긴 해ㅠㅠ 핸드폰도 쓸 수 있고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+긴/ETN+JX+해/VX+EF+ㅠㅠ/UNKNOWN+핸드폰/NNG+도/JX+쓸/VV+ETM+수/NNB+있/VV+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하하 내 동생도 곧 가 하하",
+            "norm_text": "하하 내 동생도 곧 가 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+내/NP+JKG+동생/NNG+도/JX+곧/MAG+가하/NNG+하/XSV"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그러네...! 에혀 걱정이다 애기들...",
+            "norm_text": "그러네...! 에혀 걱정이다 애기들...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+네/EF+./SY+!/SY+에/JKB+혀/NNG+걱정/NNG+이/JKS+다/MAG+애기/NNG+들/XSN+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 요즘 군대 얘기로 한 드라마도 있던데",
+            "norm_text": "요즘 군대 얘기로 한 드라마도 있던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+군대/NNG+얘기/NNG+로/JKB+한/MM+드라마/NNG+도/JX+있/VA+던데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오 나 그거 알아!",
+            "norm_text": "오 나 그거 알아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/VV+나/EC+그거/NP+알/VV+아/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그거 군대 생활을 되게 잘보여준다더라고 하하",
+            "norm_text": "그거 군대 생활을 되게 잘보여준다더라고 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+군대/NNG+생활/NNG+을/JKO+되게/MAG+잘/MAG+보여/VV+EC+준다더라고/VV+EC+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아 엄청난 하이퍼리얼리즘이래!",
+            "norm_text": "맞아 엄청난 하이퍼리얼리즘이래!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+엄청난/VA+ETM+하이퍼/NNG+리얼리즘/NNG+이/VCP+래/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그거 보면 더 군대 가기 싫겠당 ㅜㅠㅜ",
+            "norm_text": "그거 보면 더 군대 가기 싫겠당 ㅜㅠㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+보/VV+면/EC+더/MAG+군대/NNG+가/VV+기/ETN+싫/VA+겠/EP+당ㅜ/UNKNOWN+ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 내 말이...군필자들은 보면서 PTSD 온다던데...",
+            "norm_text": "내 말이...군필자들은 보면서 PTSD 온다던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+./SY+군필/NNG+자/XSN+들/XSN+은/JX+보/VV+면서/EC+PTSD/SL+온다/VV+EF+던데/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 30055,
+    "name": "KAKAO_500_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145827090135/KAKAO_500_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145827090135/KAKAO_500_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29212,
+      "filename": "KAKAO_500_01.txt",
+      "title": "KAKAO_500_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 499,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 499,
+        "word_size": 153,
+        "text": "1 : 오늘 저녁은 뭐 먹었어?\n2 : 오늘은 비 오니까 파전이랑 막걸리 먹었지 키키\n1 : 역시... 배운 여자네 키키 난 맥주 마셨다 키키\n2 : 키키 맥주? 안주는 어떤 거 먹었어?\n1 : 안주는 라면에 봉구스 밥버거 키키 반주지 뭐 키키\n2 : 역시 키키 안주가 절대 하나일 리 없지\n1 : 키키 요즘... 안주는 든든해야 되더라고? 키키\n2 : 요즘? 키키 과연 요즘일까? 내가 아는 너는 아닐 텐데? ^^\n1 : 아닌데? 요즘인데? 키키 예전엔 깡소주도 문제 없었지... 훗 키키\n2 : 그렇지 키키 우리가 한땐 깡소주도 짝으로 먹었었지 후훗\n1 : 키키 요즘은 몸 생각해서 안주 많이 먹어줘야 함 키키\n2 : 아 그치... 우리가 나이가 나이인지라... 키키 아 맘 아프네\n1 : 키키 난 늦은 점심을 먹어서 오늘은 저녁은 건너뛴다 키키\n2 : 거짓말! 너가 그럴 리가 없잖아!? 속상해 ... 밥을 포기하다니...\n1 : 키키 그대신 내일 많이 먹어야징 하하\n2 : 오 키키 그러면 내일은 나름 치팅데이?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 저녁은 뭐 먹었어?",
+            "norm_text": "오늘 저녁은 뭐 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+저녁/NNG+은/JX+뭐/IC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘은 비 오니까 파전이랑 막걸리 먹었지 키키",
+            "norm_text": "오늘은 비 오니까 파전이랑 막걸리 먹었지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+은/JX+비오/VV+니까/EC+파전/NNG+이랑/JKB+막걸리/NNG+먹/VV+었/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 역시... 배운 여자네 키키 난 맥주 마셨다 키키",
+            "norm_text": "역시... 배운 여자네 키키 난 맥주 마셨다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "역시/MAJ+./SY+배운/VV+ETM+여자/NNG+네/XSN+키/NNG+키/XSV+ETN+난/VV+ETM+맥주/NNG+마셨/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 맥주? 안주는 어떤 거 먹었어?",
+            "norm_text": "키키 맥주? 안주는 어떤 거 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+맥주/NNG+안/MAG+주/VV+는/ETM+어떤/MM+거/NNB+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 안주는 라면에 봉구스 밥버거 키키 반주지 뭐 키키",
+            "norm_text": "안주는 라면에 봉구스 밥버거 키키 반주지 뭐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+주/VV+는/ETM+라면/NNG+에/JKB+봉구/NNP+스밥/NNP+버거/NNP+키키/NNP+반주/NNG+지/VCP+EF+뭐/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 역시 키키 안주가 절대 하나일 리 없지",
+            "norm_text": "역시 키키 안주가 절대 하나일 리 없지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+키/NNG+키/NNG+안주/NNG+가/JKS+절대/NNG+하나/NR+일/NR+리/NNBC+없/VA+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 요즘... 안주는 든든해야 되더라고? 키키",
+            "norm_text": "키키 요즘... 안주는 든든해야 되더라고? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+요즘/NNG+./SY+./SY+안/MAG+주/VV+는/ETM+든든/XR+해야/XSA+EC+되/VV+더라고/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 요즘? 키키 과연 요즘일까? 내가 아는 너는 아닐 텐데? ^^",
+            "norm_text": "요즘? 키키 과연 요즘일까? 내가 아는 너는 아닐 텐데? ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/MAG+키/NNG+키/XSV+ETN+과연/MAG+요즘/NNG+일까/VCP+EF+내/NP+가/JKS+아/VV+는/ETM+너/NP+는/JX+아닐/VCN+ETM+텐데/NNB+VCP+EF+^/SY+^/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아닌데? 요즘인데? 키키 예전엔 깡소주도 문제 없었지... 훗 키키",
+            "norm_text": "아닌데? 요즘인데? 키키 예전엔 깡소주도 문제 없었지... 훗 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아닌데/VCN+EF+요즘/NNG+인데/VCP+EC+?/SY+키/NNG+키/NNG+예전/NNG+엔/JKB+JX+깡소주/NNG+도/JX+문제없/VA+었/EP+지/EF+./SY+훗/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그렇지 키키 우리가 한땐 깡소주도 짝으로 먹었었지 후훗",
+            "norm_text": "그렇지 키키 우리가 한땐 깡소주도 짝으로 먹었었지 후훗",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EC+키/NNG+키/XSV+ETN+우리/NP+가/JKS+한/MM+땐/NNG+JX+깡소주/NNG+도/JX+짝/NNG+으로/JKB+먹/VV+었었/EP+지/EF+후훗/IC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 요즘은 몸 생각해서 안주 많이 먹어줘야 함 키키",
+            "norm_text": "키키 요즘은 몸 생각해서 안주 많이 먹어줘야 함 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+요즘/NNG+은/JX+몸/NNG+생각/NNG+해서/XSV+EC+안주/NNG+많이/MAG+먹/VV+어/EC+줘야/VX+EC+함/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 그치... 우리가 나이가 나이인지라... 키키 아 맘 아프네",
+            "norm_text": "아 그치... 우리가 나이가 나이인지라... 키키 아 맘 아프네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그치/IC+./SY+우리/NP+가/JKS+나이/NNG+가/JKS+나이/NNG+인지라/VCP+EF+./SY+키키아맘아프네/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 난 늦은 점심을 먹어서 오늘은 저녁은 건너뛴다 키키",
+            "norm_text": "키키 난 늦은 점심을 먹어서 오늘은 저녁은 건너뛴다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/NP+JX+늦/VA+은/ETM+점심/NNG+을/JKO+먹/VV+어서/EC+오늘/NNG+은/JX+저녁/NNG+은/JX+건너뛴/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 거짓말! 너가 그럴 리가 없잖아!? 속상해 ... 밥을 포기하다니...",
+            "norm_text": "거짓말! 너가 그럴 리가 없잖아!? 속상해 ... 밥을 포기하다니...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거짓말/NNG+너/NP+가/JKS+그럴/VA+ETM+리/NNB+가/JKS+없/VA+잖아/EF+?/SY+속상해/VA+EF+./SY+밥/NNG+을/JKO+포기/NNG+하/XSA+다니/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 그대신 내일 많이 먹어야징 하하",
+            "norm_text": "키키 그대신 내일 많이 먹어야징 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키키/NNP+그/MM+대신/NNG+내일/MAG+많이/MAG+먹/VV+어야/EC+징/NNG+하/XSV+하/XSA"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오 키키 그러면 내일은 나름 치팅데이?",
+            "norm_text": "오 키키 그러면 내일은 나름 치팅데이?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오키/NNP+키/NNG+그러/VV+면/EC+내일/NNG+은/JX+나름/NNB+치팅/UNKNOWN+데이/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

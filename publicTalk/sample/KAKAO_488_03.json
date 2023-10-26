@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 24161,
+    "name": "KAKAO_488_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404012891/KAKAO_488_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404012891/KAKAO_488_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29354,
+      "filename": "KAKAO_488_03.txt",
+      "title": "KAKAO_488_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 482,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 482,
+        "word_size": 158,
+        "text": "1 : 아빠 거기 위치가 어디랬지?!\n2 : 거기? 거기가 어디여 나도 궁금한데?\n1 : 키키 아니 키키 아빠가 저번에 알려준 차박 장소 키키\n2 : 아~ 안 가르쳐주지~ 거기 비밀이야\n1 : 아 왜 안 알려줘 치사하게!\n2 : 왜~ 알고 싶어? 누구랑 가게~!\n1 : 남자친구랑 가려고 하지~\n1 : 누구랑 가겠어 나 차도 없는데\n2 : 남자친구랑 가면 더 안 알려줘야지~\n2 : 가긴 어딜 가 집에나 와 차 타고\n1 : 키키 남자친구 차 바꿔서 차박 가능하단 말야 ㅠㅜ 아아아아아아 알려줘\n2 : 에휴 그래~ 갔다 와 인천이야 거기 바닷가~\n1 : 오오오 거기 사람 많아?\n2 : 평일에는 없는데 주말에는 많지~\n2 : 언제 가려고?\n1 : 오늘 가려고 그러징 히히\n1 : 거기 바다 잘 보인다고 했지?!\n2 : 거기 바다 잘 보이지~ 바로 앞이야~ 차 주차하면 딱~\n2 : 오늘 몇 시에?\n1 : 오늘 5시쯤 도착할 것 같아융\n2 : 그래~ 그럼 거기서 봐~ 아빠도 간다 니 남친 보러 안녕~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아빠 거기 위치가 어디랬지?!",
+            "norm_text": "아빠 거기 위치가 어디랬지?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+거기/NP+위치/NNG+가/JKS+어디/NP+랬지/EC+VV+EP+EC+?/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 거기? 거기가 어디여 나도 궁금한데?",
+            "norm_text": "거기? 거기가 어디여 나도 궁금한데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+거기/NP+가/JKS+어디여/IC+나/NP+도/JX+궁금/XR+한데/XSA+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 아니 키키 아빠가 저번에 알려준 차박 장소 키키",
+            "norm_text": "키키 아니 키키 아빠가 저번에 알려준 차박 장소 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키/NNP+아니키/NNP+키/NNG+아빠/NNG+가/JKS+저번/NNG+에/JKB+알려/VV+EC+준/VX+ETM+차/NNG+박장/NNG+소키/NNP+키/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아~ 안 가르쳐주지~ 거기 비밀이야",
+            "norm_text": "아~ 안 가르쳐주지~ 거기 비밀이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+안/MAG+가르쳐/VV+EC+주/VX+지/EC+~/SY+거기/NP+비밀/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 왜 안 알려줘 치사하게!",
+            "norm_text": "아 왜 안 알려줘 치사하게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+왜/MAG+안/MAG+알려줘/VV+EC+VX+EC+치사/XR+하/XSA+게/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 왜~ 알고 싶어? 누구랑 가게~!",
+            "norm_text": "왜~ 알고 싶어? 누구랑 가게~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+~/SY+알/VV+고/EC+싶/VX+어/EF+누구/NP+랑/JKB+가/VV+게/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 남자친구랑 가려고 하지~",
+            "norm_text": "남자친구랑 가려고 하지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+친구/NNG+랑/JKB+가/VV+려고/EC+하/VV+지/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 누구랑 가겠어 나 차도 없는데",
+            "norm_text": "누구랑 가겠어 나 차도 없는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누구/NP+랑/JKB+가/VV+겠/EP+어나/EC+차/NNG+도/JX+없/VA+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 남자친구랑 가면 더 안 알려줘야지~",
+            "norm_text": "남자친구랑 가면 더 안 알려줘야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+친구/NNG+랑/JKB+가/VV+면/EC+더/MAG+안/MAG+알려/VV+EC+줘야지/VX+EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 가긴 어딜 가 집에나 와 차 타고",
+            "norm_text": "가긴 어딜 가 집에나 와 차 타고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가/VV+긴/ETN+JX+어딜/NP+JKO+가집/NNG+에/JKB+나와/VV+EC+차/NNG+타/VV+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 남자친구 차 바꿔서 차박 가능하단 말야 ㅠㅜ 아아아아아아 알려줘",
+            "norm_text": "키키 남자친구 차 바꿔서 차박 가능하단 말야 ㅠㅜ 아아아아아아 알려줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+남자/NNG+친구/NNG+차/NNG+바꿔서/VV+EC+차/NNG+박/NNP+가능/NNG+하/XSV+단/EC+말/VX+야/EF+ㅠㅜ/UNKNOWN+아/IC+아아아아아/IC+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 에휴 그래~ 갔다 와 인천이야 거기 바닷가~",
+            "norm_text": "에휴 그래~ 갔다 와 인천이야 거기 바닷가~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "에휴/IC+그래/IC+~/SY+갔다와/VV+EC+인천/NNP+이/VCP+야/EF+거기/NP+바닷가/NNG+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오오오 거기 사람 많아?",
+            "norm_text": "오오오 거기 사람 많아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+오/NR+오/NR+거기/NP+사람/NNG+많/VA+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 평일에는 없는데 주말에는 많지~",
+            "norm_text": "평일에는 없는데 주말에는 많지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평일/NNG+에/JKB+는/JX+없/VA+는데/EC+주말/NNG+에/JKB+는/JX+많/VA+지/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 언제 가려고?",
+            "norm_text": "언제 가려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언제/MAG+가/VV+려고/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오늘 가려고 그러징 히히",
+            "norm_text": "오늘 가려고 그러징 히히",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+가/VV+려고/EC+그러/VV+징/EF+히히/MAG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 거기 바다 잘 보인다고 했지?!",
+            "norm_text": "거기 바다 잘 보인다고 했지?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+바다/NNG+잘/MAG+보인다고/VV+EC+했/VX+EP+지/EC+?/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 거기 바다 잘 보이지~ 바로 앞이야~ 차 주차하면 딱~",
+            "norm_text": "거기 바다 잘 보이지~ 바로 앞이야~ 차 주차하면 딱~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+바다/NNG+잘/MAG+보이/VV+지/EC+~/SY+바로/MAG+앞/NNG+이/VCP+야/EC+~/SY+차/NNG+주차/NNG+하/XSV+면/EC+딱/MAG+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 오늘 몇 시에?",
+            "norm_text": "오늘 몇 시에?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+몇/MM+시/NNBC+에/JKB"
+          },
+          {
+            "id": 20,
+            "text": "1 : 오늘 5시쯤 도착할 것 같아융",
+            "norm_text": "오늘 5시쯤 도착할 것 같아융",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+5/SN+시/NNBC+쯤/XSN+도착/NNG+할/XSV+ETM+것/NNB+같/VA+아/EC+융/NNG"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래~ 그럼 거기서 봐~ 아빠도 간다 니 남친 보러 안녕~",
+            "norm_text": "그래~ 그럼 거기서 봐~ 아빠도 간다 니 남친 보러 안녕~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+~/SY+그럼/MAJ+거기/NP+서/JKB+봐/VV+EC+~/SY+아빠/NNG+도/JX+간다니/VV+EC+남친/NNG+보러/JKB+안녕/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35704,
+    "name": "KAKAO_661_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145409009234/KAKAO_661_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145409009234/KAKAO_661_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34399,
+      "filename": "KAKAO_661_01.txt",
+      "title": "KAKAO_661_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 360,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 360,
+        "word_size": 121,
+        "text": "1 : 어디야? 버스 곧 내려?\n2 : 아니 ㅠㅠ 버스가 좀 막히네\n1 : 아 그럼 나 먼저 카페 들어가 있을게\n2 : 응응 ㅠㅠ 더우니까 들어가 있어\n1 : 언제 도착할 거 같아? 미리 시켜놀까?\n2 : 한 10분 뒤?\n1 : 아 그럼 지금 시켜놀게 뭐 마실래?\n2 : 너는 아이스 아메리카노 마실 거야?\n1 : 응응 키키 케이크도 시킬 거라 아메리카노~\n2 : 단 거엔 아메리카노가 딱이지!\n1 : 그럼 너도 아메리카노?\n2 : 아닝 나는 너 거 뺏어 먹을래~ 난 딸기라떼~\n1 : 키키 오키 딸기라떼 키키\n1 : 뭐 너도 사이드 시킬래?\n2 : 아니 아니 이따 밥 먹어야 하니깐 사이드는 하나만 시키자~\n1 : 오키 알겠어 언능 와\n2 : 웅웅 지금 날아가는 중이야~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어디야? 버스 곧 내려?",
+            "norm_text": "어디야? 버스 곧 내려?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+야/VCP+EF+버스/NNG+곧/MAG+내려/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 ㅠㅠ 버스가 좀 막히네",
+            "norm_text": "아니 ㅠㅠ 버스가 좀 막히네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+ㅠㅠ/UNKNOWN+버스/NNG+가/JKS+좀/MAG+막히/VV+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그럼 나 먼저 카페 들어가 있을게",
+            "norm_text": "아 그럼 나 먼저 카페 들어가 있을게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럼/MAJ+나/NP+먼저/MAG+카페/NNG+들어가/VV+EC+있/VX+을/ETM+게/NNB+JKS"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 ㅠㅠ 더우니까 들어가 있어",
+            "norm_text": "응응 ㅠㅠ 더우니까 들어가 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+ㅠㅠ/UNKNOWN+더우/VA+니까/EC+들어가/VV+EC+있/VX+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 언제 도착할 거 같아? 미리 시켜놀까?",
+            "norm_text": "언제 도착할 거 같아? 미리 시켜놀까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언제/MAG+도착/NNG+할/XSV+ETM+거/NNB+같/VA+아/EF+미리/MAG+시켜/VV+EC+놀/VV+까/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 한 10분 뒤?",
+            "norm_text": "한 10분 뒤?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+10/SN+분/NNBC+뒤/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 그럼 지금 시켜놀게 뭐 마실래?",
+            "norm_text": "아 그럼 지금 시켜놀게 뭐 마실래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그럼/MAJ+지금/MAG+시켜/VV+EC+놀/VV+게/EC+뭐/IC+마실래/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너는 아이스 아메리카노 마실 거야?",
+            "norm_text": "너는 아이스 아메리카노 마실 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+아이스/NNP+아메리카노/NNP+마실/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응응 키키 케이크도 시킬 거라 아메리카노~",
+            "norm_text": "응응 키키 케이크도 시킬 거라 아메리카노~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/NNG+케이크/NNG+도/JX+시킬/VV+ETM+거/NNB+라/VCP+EC+아메리카노/NNP+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 단 거엔 아메리카노가 딱이지!",
+            "norm_text": "단 거엔 아메리카노가 딱이지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "단거/NNG+엔/JKB+JX+아메리카노/NNP+가/JKS+딱/MAG+이/VCP+지/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 너도 아메리카노?",
+            "norm_text": "그럼 너도 아메리카노?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+너/NP+도/JX+아메리카노/NNP"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아닝 나는 너 거 뺏어 먹을래~ 난 딸기라떼~",
+            "norm_text": "아닝 나는 너 거 뺏어 먹을래~ 난 딸기라떼~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아닝/NNP+나/NP+는/JX+너거/NP+JKG+뺏/VV+어/EC+먹/VV+을래/EC+~/SY+난/NP+JX+딸기/NNG+라떼/NNG+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 오키 딸기라떼 키키",
+            "norm_text": "키키 오키 딸기라떼 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+오키/NNP+딸기/NNG+라떼/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 뭐 너도 사이드 시킬래?",
+            "norm_text": "뭐 너도 사이드 시킬래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+너/NP+도/JX+사이드/NNG+시킬/XSV+ETM+래/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아니 아니 이따 밥 먹어야 하니깐 사이드는 하나만 시키자~",
+            "norm_text": "아니 아니 이따 밥 먹어야 하니깐 사이드는 하나만 시키자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+아니/IC+이따/MAG+밥/NNG+먹/VV+어야/EC+하/VV+니깐/EC+사이드/NNP+는/JX+하나/NR+만/JX+시키/VV+자/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오키 알겠어 언능 와",
+            "norm_text": "오키 알겠어 언능 와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+알/VV+겠/EP+어/EF+언능/MAG+와/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 웅웅 지금 날아가는 중이야~",
+            "norm_text": "웅웅 지금 날아가는 중이야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅웅/MAG+지금/MAG+날아가/VV+는/ETM+중/NNB+이/VCP+야/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 22233,
+    "name": "KAKAO_509_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906075559/KAKAO_509_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906075559/KAKAO_509_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29289,
+      "filename": "KAKAO_509_18.txt",
+      "title": "KAKAO_509_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 749,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 749,
+        "word_size": 238,
+        "text": "1 : 요새 코로나 때문에 새벽 배송 거래가 많이 늘어났대\n2 : 맞아~ 그 배송 시키는 사람 중 한 사람이 바로 나잖아.ㅋ\n1 : 오홍 ~? 새벽 배송 시키면 보통 뭐 시켜?\n2 : 기본적으로 필요한 식료품들을 많이 사게 돼. 계란 ,우유 등등?\n1 : 새벽 배송이랑 당일 배송의 장점이 뭐야?\n2 : 그야 내가 비대면으로 원하는 상품을 늦게 까지 살수 있어서 이지 .\n2 : 11시까지 주문하면 그 다음날 새벽 7시 이전에 배송이 오거든.\n2 : 나같이 아침 일찍 일 나가는 사람들한테 좋아~\n1 : 오홍 그러면 딱 지금같이 코시국엔 딱이네!\n2 : 어~ 지금 시기엔 너무 좋고 더군다나 요새 경쟁 업체가 많아서 인지 할인 쿠폰을 많이 줘~\n1 : 할인 쿠폰 주면 나도 많이 하게 되겠네 키키\n2 : 그렇지. 경쟁업체가 많아질수록 가격도 경쟁 붙어서 더 저렴해 지는 것 같아. 그래서 독과점을 막나 봐 ㅎ\n1 : 완전 개 이득이네 키키 계속 경쟁 붙어서 우리만 좀 싸게 샀으면 좋겠다 키키\n2 : 그렇지 ㅎ 내가 힘들게 마트까지 안 가도 되고 직접 안 가져와도 되고 시간도 안 들이고 집 앞 까지 배송이 오니깐 너무 편해~\n1 : 그러네~ 시간 따로 빼서 장 안 봐도 되고 나 완전 나가는 거 귀찮아 하는데 키키\n2 : 우리 집 근처엔 작은 동네 수퍼 밖에 없어서 종류가 덜 다양해~\n1 : 그러면 새벽 배송으로 주문해야 상품 종류도 다양하고 별걸 다 구매 할 수 있겠네~?\n2 : 응 그렇지~ 동네 마트보단 더 다양한 편이라 여러 개를 비교 골라 살 수 있어 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 코로나 때문에 새벽 배송 거래가 많이 늘어났대",
+            "norm_text": "요새 코로나 때문에 새벽 배송 거래가 많이 늘어났대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/NNG+코로나/NNG+때문/NNB+에/JKB+새벽/NNG+배송/NNG+거래/NNG+가/JKS+많이/MAG+늘어났/VV+EP+대/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아~ 그 배송 시키는 사람 중 한 사람이 바로 나잖아.ㅋ",
+            "norm_text": "맞아~ 그 배송 시키는 사람 중 한 사람이 바로 나잖아.ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+~/SY+그/MM+배송/NNG+시키/XSV+는/ETM+사람/NNG+중/NNB+한/MM+사람/NNG+이/JKS+바로/MAG+나/NP+잖아/VCP+EC+VX+EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오홍 ~? 새벽 배송 시키면 보통 뭐 시켜?",
+            "norm_text": "오홍 ~? 새벽 배송 시키면 보통 뭐 시켜?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+홍/NNG+~/SY+새벽/NNG+배송/NNG+시키/XSV+면/EC+보통/NNG+뭐/IC+시켜/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 기본적으로 필요한 식료품들을 많이 사게 돼. 계란 ,우유 등등?",
+            "norm_text": "기본적으로 필요한 식료품들을 많이 사게 돼. 계란 ,우유 등등?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "기본/NNG+적/XSN+으로/JKB+필요/NNG+한/XSA+ETM+식료품/NNG+들/XSN+을/JKO+많이/MAG+사/VV+게/EC+돼/VV+EF+계란/NNG+,/SC+우유/NNG+등등/NNB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 새벽 배송이랑 당일 배송의 장점이 뭐야?",
+            "norm_text": "새벽 배송이랑 당일 배송의 장점이 뭐야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "새벽/NNG+배송/NNG+이랑/JKB+당일/NNG+배송/NNG+의/JKG+장점/NNG+이/JKS+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그야 내가 비대면으로 원하는 상품을 늦게 까지 살수 있어서 이지 .",
+            "norm_text": "그야 내가 비대면으로 원하는 상품을 늦게 까지 살수 있어서 이지 .",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그야/MAG+내/NP+가/JKS+비/XPN+대면/NNG+으로/JKB+원/NNG+하/XSV+는/ETM+상품/NNG+을/JKO+늦/VA+게/EC+까지/JX+살/VV+ETM+수/NNB+있/VV+어서/EC+이/VCP+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 11시까지 주문하면 그 다음날 새벽 7시 이전에 배송이 오거든.",
+            "norm_text": "11시까지 주문하면 그 다음날 새벽 7시 이전에 배송이 오거든.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "11/SN+시/NNBC+까지/JX+주문/NNG+하/XSV+면/EC+그/MM+다음/NNG+날/NNG+새벽/NNG+7/SN+시/NNBC+이전/NNG+에/JKB+배송/NNG+이/JKS+오/VV+거든/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나같이 아침 일찍 일 나가는 사람들한테 좋아~",
+            "norm_text": "나같이 아침 일찍 일 나가는 사람들한테 좋아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+같이/MAG+아침/NNG+일찍/MAG+일/NNG+나가/VV+는/ETM+사람/NNG+들/XSN+한테/JKB+좋/VA+아/EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오홍 그러면 딱 지금같이 코시국엔 딱이네!",
+            "norm_text": "오홍 그러면 딱 지금같이 코시국엔 딱이네!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+홍/NNG+그러/VV+면/EC+딱/MAG+지금/MAG+같이/MAG+코/NNG+시국/NNG+엔/JKB+JX+딱/MAG+이/VCP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 어~ 지금 시기엔 너무 좋고 더군다나 요새 경쟁 업체가 많아서 인지 할인 쿠폰을 많이 줘~",
+            "norm_text": "어~ 지금 시기엔 너무 좋고 더군다나 요새 경쟁 업체가 많아서 인지 할인 쿠폰을 많이 줘~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+~/SY+지금/MAG+시기/NNG+엔/JKB+JX+너무/MAG+좋/VA+고/EC+더군다나/MAJ+요새/MAG+경쟁/NNG+업체/NNG+가/JKS+많/VA+아서/EC+인지/VCP+EC+할인/NNG+쿠폰/NNG+을/JKO+많이/MAG+줘/VV+EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 할인 쿠폰 주면 나도 많이 하게 되겠네 키키",
+            "norm_text": "할인 쿠폰 주면 나도 많이 하게 되겠네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "할인/NNG+쿠폰/NNG+주/VV+면/EC+나/NP+도/JX+많이/MAG+하/VV+게/EC+되/VV+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그렇지. 경쟁업체가 많아질수록 가격도 경쟁 붙어서 더 저렴해 지는 것 같아. 그래서 독과점을 막나 봐 ㅎ",
+            "norm_text": "그렇지. 경쟁업체가 많아질수록 가격도 경쟁 붙어서 더 저렴해 지는 것 같아. 그래서 독과점을 막나 봐 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+경쟁/NNG+업체/NNG+가/JKS+많/VA+아/EC+질수록/VX+EC+가격/NNG+도/JX+경쟁/NNG+붙/VV+어서/EC+더/MAG+저렴/XR+해/XSA+EC+지/VX+는/ETM+것/NNB+같/VA+아/EF+그래서/MAJ+독과점/NNG+을/JKO+막/VV+나/EC+봐/VX+EF+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "1 : 완전 개 이득이네 키키 계속 경쟁 붙어서 우리만 좀 싸게 샀으면 좋겠다 키키",
+            "norm_text": "완전 개 이득이네 키키 계속 경쟁 붙어서 우리만 좀 싸게 샀으면 좋겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/NNG+개/NNBC+이득/NNG+이/JKS+네/MM+키/NNG+키/NNG+계속/MAG+경쟁/NNG+붙/VV+어서/EC+우리/NP+만/JX+좀/MAG+싸/VA+게/EC+샀으면/VV+EP+EC+좋/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그렇지 ㅎ 내가 힘들게 마트까지 안 가도 되고 직접 안 가져와도 되고 시간도 안 들이고 집 앞 까지 배송이 오니깐 너무 편해~",
+            "norm_text": "그렇지 ㅎ 내가 힘들게 마트까지 안 가도 되고 직접 안 가져와도 되고 시간도 안 들이고 집 앞 까지 배송이 오니깐 너무 편해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+ㅎ/XSA+내/NP+가/JKS+힘들/VA+게/EC+마트/NNG+까지/JX+안/MAG+가/VV+도/EC+되/VV+고/EC+직접/MAG+안/MAG+가져와도/VV+EC+되/VV+고/EC+시간/NNG+도/JX+안/MAG+들이/VV+고/EC+집/NNG+앞/NNG+까지/JX+배송/NNG+이/JKS+오/VV+니깐/EC+너무/MAG+편해/VA+EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러네~ 시간 따로 빼서 장 안 봐도 되고 나 완전 나가는 거 귀찮아 하는데 키키",
+            "norm_text": "그러네~ 시간 따로 빼서 장 안 봐도 되고 나 완전 나가는 거 귀찮아 하는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+러네/NNP+~/SY+시간/NNG+따로/MAG+빼/VV+서/EC+장/NNG+안/MAG+봐도/VV+EC+되/VV+고/EC+나/NP+완전/MAG+나가/VV+는/ETM+거/NNB+귀찮/VA+아/EC+하/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 우리 집 근처엔 작은 동네 수퍼 밖에 없어서 종류가 덜 다양해~",
+            "norm_text": "우리 집 근처엔 작은 동네 수퍼 밖에 없어서 종류가 덜 다양해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+집/NNG+근처/NNG+엔/JKB+JX+작/VA+은/ETM+동네/NNG+수퍼/NNP+밖에/JX+없/VA+어서/EC+종류/NNG+가/JKS+덜/MAG+다양/NNG+해/XSV+EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그러면 새벽 배송으로 주문해야 상품 종류도 다양하고 별걸 다 구매 할 수 있겠네~?",
+            "norm_text": "그러면 새벽 배송으로 주문해야 상품 종류도 다양하고 별걸 다 구매 할 수 있겠네~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러면/MAJ+새벽/NNG+배송/NNG+으로/JKB+주문/NNG+해야/XSV+EC+상품/NNG+종류/NNG+도/JX+다양/NNG+하/XSV+고/EC+별/MM+걸/NNB+JKO+다/MAG+구매/NNG+할/XSV+ETM+수/NNB+있/VV+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 그렇지~ 동네 마트보단 더 다양한 편이라 여러 개를 비교 골라 살 수 있어 하하",
+            "norm_text": "응 그렇지~ 동네 마트보단 더 다양한 편이라 여러 개를 비교 골라 살 수 있어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그렇/VA+지/EC+~/SY+동네/NNG+마트/NNG+보단/JKB+JX+더/MAG+다양/XR+한/XSA+ETM+편/NNB+이/VCP+라/EC+여러/MM+개/NNBC+를/JKO+비교/NNG+골라/VV+EC+살/VV+ETM+수/NNB+있/VV+어/EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

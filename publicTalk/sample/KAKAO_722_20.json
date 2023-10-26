@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 64334,
+    "name": "KAKAO_722_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132318027272/KAKAO_722_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132318027272/KAKAO_722_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36707,
+      "filename": "KAKAO_722_20.txt",
+      "title": "KAKAO_722_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 501,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 501,
+        "word_size": 160,
+        "text": "1 : 뭔가 재밌는 영화 없을까?\n2 : 무슨 영화 좋아하는데?\n1 : 난 스릴러나 느와르 장르? 액션신 있는 게 보고 싶네\n2 : 음 달콤한 인생 봤어? 완전 재밌는데\n1 : 아니  안 봤는데 주연 배우가 누구야?\n2 : 이병헌이랑 김영철 나오는데 니가 좋아하는 느와르야 액션 신도 멋있고\n1 : 오 키키 이병헌 영화면 믿고 볼 수 있지 키키\n2 : 그치 연기를 너무 잘해 키키\n2 : 이번 영화에 황정민이 악역으로 나오는데 황정민이 이 영화로 주목 받기 시작했어\n1 : 황정민도 나와? 더 보고 싶어지는데\n2 : 응 완전 신스틸러야 잠깐 나오는데도 엄청 인상 깊게 나오거든\n1 : 키키 완전 기대되네 키키 당장 오늘 밤에 봐야겠다\n2 : 키키 나도 영화 땡기는데 나도 오늘 영화나 볼까\n1 : 뭐볼건데? 키키  나도 추천 해줄까?\n2 : 어 키키 나도 하나 추천해줘\n2 : 나도 스릴러나 느와르 액션 좋아해\n1 : 비열한 거리는 어때? 유하 감독 영화고 조인성 나오는데 재밌음\n2 : 키키 재밌어? 키키 알겠다 믿고 봐볼게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 뭔가 재밌는 영화 없을까?",
+            "norm_text": "뭔가 재밌는 영화 없을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+재밌/VA+는/ETM+영화/NNG+없/VA+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 무슨 영화 좋아하는데?",
+            "norm_text": "무슨 영화 좋아하는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+영화/NNG+좋/VA+아/EC+하/VV+는데/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 난 스릴러나 느와르 장르? 액션신 있는 게 보고 싶네",
+            "norm_text": "난 스릴러나 느와르 장르? 액션신 있는 게 보고 싶네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난스릴러나느와르장르/UNKNOWN+액션/NNG+신/NNG+있/VA+는/ETM+게/NNB+JKS+보/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 음 달콤한 인생 봤어? 완전 재밌는데",
+            "norm_text": "음 달콤한 인생 봤어? 완전 재밌는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+달콤/XR+한/XSA+ETM+인생/NNG+봤/VV+EP+어/EF+완전/MAG+재밌/VA+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니  안 봤는데 주연 배우가 누구야?",
+            "norm_text": "아니  안 봤는데 주연 배우가 누구야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+안/MAG+봤/VV+EP+는데/EC+주연/NNG+배우/NNG+가/JKS+누구/NP+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 이병헌이랑 김영철 나오는데 니가 좋아하는 느와르야 액션 신도 멋있고",
+            "norm_text": "이병헌이랑 김영철 나오는데 니가 좋아하는 느와르야 액션 신도 멋있고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이병헌/NNP+이랑/JC+김영철/NNP+나오/VV+는데/EC+니/NP+가/JKS+좋/VA+아/EC+하/VV+는/ETM+느와르/NNP+야/JKV+액션/NNG+신/NNG+도/JX+멋있/VA+고/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오 키키 이병헌 영화면 믿고 볼 수 있지 키키",
+            "norm_text": "오 키키 이병헌 영화면 믿고 볼 수 있지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+이병헌/NNP+영화/NNG+면/VCP+EC+믿/VV+고/EC+볼/VX+ETM+수/NNB+있/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그치 연기를 너무 잘해 키키",
+            "norm_text": "그치 연기를 너무 잘해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+연기/NNG+를/JKO+너무/MAG+잘/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 이번 영화에 황정민이 악역으로 나오는데 황정민이 이 영화로 주목 받기 시작했어",
+            "norm_text": "이번 영화에 황정민이 악역으로 나오는데 황정민이 이 영화로 주목 받기 시작했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+영화/NNG+에/JKB+황정민/NNP+이/JKS+악역/NNG+으로/JKB+나오/VV+는데/EC+황정민/NNP+이이/NNP+영화/NNG+로/JKB+주목/NNG+받/VV+기/ETN+시작/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 황정민도 나와? 더 보고 싶어지는데",
+            "norm_text": "황정민도 나와? 더 보고 싶어지는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "황정민/NNP+도/JX+나와/VV+EF+더/MAG+보/VV+고/EC+싶/VX+어/EC+지/VX+는데/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 완전 신스틸러야 잠깐 나오는데도 엄청 인상 깊게 나오거든",
+            "norm_text": "응 완전 신스틸러야 잠깐 나오는데도 엄청 인상 깊게 나오거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+완전/MAG+신/XPN+스틸러/NNP+야/JKV+잠깐/MAG+나오/VV+는/ETM+데/NNB+도/JX+엄청/MAG+인상깊/VA+게/EC+나오/VV+거든/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 완전 기대되네 키키 당장 오늘 밤에 봐야겠다",
+            "norm_text": "키키 완전 기대되네 키키 당장 오늘 밤에 봐야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/NNG+완전/NNG+기대/NNG+되/XSV+네/EC+키/NNG+키/NNG+당장/NNG+오늘/NNG+밤/NNG+에/JKB+봐야/VV+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 나도 영화 땡기는데 나도 오늘 영화나 볼까",
+            "norm_text": "키키 나도 영화 땡기는데 나도 오늘 영화나 볼까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+영화/NNG+땡기/VV+는데/EC+나/NP+도/JX+오늘/MAG+영화/NNG+나/JX+볼까/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 뭐볼건데? 키키  나도 추천 해줄까?",
+            "norm_text": "뭐볼건데? 키키  나도 추천 해줄까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+볼/VV+ETM+건데/NNB+VCP+EF+키/NNG+키나/XSA+ETN+JX+도/JX+추천/NNG+해/XSV+EC+줄까/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 어 키키 나도 하나 추천해줘",
+            "norm_text": "어 키키 나도 하나 추천해줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "어/IC+키/NNG+키나/XSA+ETN+JX+도/JX+하나/NR+추천/NNG+해/XSV+EC+줘/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나도 스릴러나 느와르 액션 좋아해",
+            "norm_text": "나도 스릴러나 느와르 액션 좋아해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+스릴러/NNG+나/JC+느와르/NNP+액션/NNG+좋/VA+아/EC+해/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 비열한 거리는 어때? 유하 감독 영화고 조인성 나오는데 재밌음",
+            "norm_text": "비열한 거리는 어때? 유하 감독 영화고 조인성 나오는데 재밌음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비열한/NNG+거리/XSV+는/ETM+어때/VA+EF+유하감독영화고조인성나오는데재밌음/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 재밌어? 키키 알겠다 믿고 봐볼게",
+            "norm_text": "키키 재밌어? 키키 알겠다 믿고 봐볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/XSV+ETN+재밌/VA+어/EF+키/NNG+키/XSV+ETN+알/VV+겠/EP+다/EC+믿/VV+고/EC+봐/VX+EC+볼/VX+게/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

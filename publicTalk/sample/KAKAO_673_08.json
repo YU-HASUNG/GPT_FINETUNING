@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 52780,
+    "name": "KAKAO_673_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927013719/KAKAO_673_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927013719/KAKAO_673_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34786,
+      "filename": "KAKAO_673_08.txt",
+      "title": "KAKAO_673_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 415,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 415,
+        "word_size": 137,
+        "text": "1 : 내 친구 언니 결혼식 하는데 같이 가주라 ㅠㅠ\n2 : 친구 누구? 나도 아는 사람인가?\n1 : 응 저번에 알바 같이했던 친구 있잖아~\n2 : 아 ~ 그래 그래 너 혼자 가면 심심하니깐 같이 가자\n1 : 너 드메르 결혼식장 알아? 엄청 유명한데\n2 : 아 거기? 우리 동네에 있는 건데?\n1 : 맞아 맞아 거기 밥이 진짜 맛있대~\n2 : 나도 들었어 광주에서 제일 맛있다던데\n1 : 기대된다 키키 얼른 먹으러 가고 싶다\n2 : 그래서 결혼식 날짜가 언제인데?\n1 : 이번 주 토요일이야 시간 돼?\n2 : 그럼 그럼 당연하지 너랑 같이 가는데 시간 없을리가~\n1 : ㅠㅠ 고마워 역시 너 밖에 없어\n2 : 뭘 이런 걸로 ~ 대신 너도 나중에 내 친구 결혼식 와줘야 해~\n1 : 응응 당연하지~ 그건 걱정하지 말라구~\n2 : 뭐 입고 가야 하지~ 옷이나 골라 놔야겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 내 친구 언니 결혼식 하는데 같이 가주라 ㅠㅠ",
+            "norm_text": "내 친구 언니 결혼식 하는데 같이 가주라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "내/NP+JKG+친구/NNG+언니/NNG+결혼식/NNG+하/XSV+는/ETM+데/NNB+같이/MAG+가/VV+EC+주/VX+라/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 친구 누구? 나도 아는 사람인가?",
+            "norm_text": "친구 누구? 나도 아는 사람인가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친구/NNG+누구/NP+나/NP+도/JX+아/VV+는/ETM+사람/NNG+인가/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 저번에 알바 같이했던 친구 있잖아~",
+            "norm_text": "응 저번에 알바 같이했던 친구 있잖아~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+저번/NNG+에/JKB+알/VV+ETM+바/NNB+같이/MAG+했/VV+EP+던/ETM+친구/NNG+있/VV+잖아/EC+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 ~ 그래 그래 너 혼자 가면 심심하니깐 같이 가자",
+            "norm_text": "아 ~ 그래 그래 너 혼자 가면 심심하니깐 같이 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아/IC+~/SY+그래그래/IC+너/NP+혼자/MAG+가/VV+면/EC+심심/XR+하/XSA+니깐/EC+같이/MAG+가/VV+자/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 너 드메르 결혼식장 알아? 엄청 유명한데",
+            "norm_text": "너 드메르 결혼식장 알아? 엄청 유명한데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+드메/NNP+르/NNP+결혼식장/NNG+알/VV+아/EF+엄청/MAG+유명/NNG+한데/XSA+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 거기? 우리 동네에 있는 건데?",
+            "norm_text": "아 거기? 우리 동네에 있는 건데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+거기/NP+우리/NP+동네/NNG+에/JKB+있/VV+는/ETM+건데/NNB+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아 맞아 거기 밥이 진짜 맛있대~",
+            "norm_text": "맞아 맞아 거기 밥이 진짜 맛있대~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아/EC+거기/NP+밥/NNG+이/JKS+진짜/MAG+맛있/VA+대/EF+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나도 들었어 광주에서 제일 맛있다던데",
+            "norm_text": "나도 들었어 광주에서 제일 맛있다던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+들/VV+었/EP+어/EC+광주/NNP+에서/JKB+제일/MAG+맛있/VA+다던데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 기대된다 키키 얼른 먹으러 가고 싶다",
+            "norm_text": "기대된다 키키 얼른 먹으러 가고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기대/NNG+된/XSV+ETM+다키키/NNP+얼른/MAG+먹/VV+으러/EC+가/VX+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래서 결혼식 날짜가 언제인데?",
+            "norm_text": "그래서 결혼식 날짜가 언제인데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+결혼식/NNG+날짜/NNG+가/JKS+언제/NP+인데/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 이번 주 토요일이야 시간 돼?",
+            "norm_text": "이번 주 토요일이야 시간 돼?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+주/NNG+토요일/NNG+이/VCP+야/EC+시간/NNG+돼/XSV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그럼 그럼 당연하지 너랑 같이 가는데 시간 없을리가~",
+            "norm_text": "그럼 그럼 당연하지 너랑 같이 가는데 시간 없을리가~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+그럼/MAJ+당연/XR+하/XSA+지/EF+너/NP+랑/JKB+같이/MAG+가/VV+는데/EC+시간/NNG+없/VA+을/ETM+리/NNB+가/JKS+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㅠㅠ 고마워 역시 너 밖에 없어",
+            "norm_text": "ㅠㅠ 고마워 역시 너 밖에 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+고마워/VA+EF+역시/MAJ+너/NP+밖에/JX+없/VA+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 뭘 이런 걸로 ~ 대신 너도 나중에 내 친구 결혼식 와줘야 해~",
+            "norm_text": "뭘 이런 걸로 ~ 대신 너도 나중에 내 친구 결혼식 와줘야 해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "뭘/NP+JKO+이런/MM+걸로/NNB+JKB+~/SY+대신/NNG+너/NP+도/JX+나중/NNG+에/JKB+내/NP+JKG+친구/NNG+결혼식/NNG+와/VV+EC+줘야해/VX+EC+VX+EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응응 당연하지~ 그건 걱정하지 말라구~",
+            "norm_text": "응응 당연하지~ 그건 걱정하지 말라구~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+당연/XR+하/XSA+지/EC+~/SY+그건/NP+JX+걱정/NNG+하/XSV+지/EC+말/VX+라구/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 뭐 입고 가야 하지~ 옷이나 골라 놔야겠다",
+            "norm_text": "뭐 입고 가야 하지~ 옷이나 골라 놔야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+입/VV+고/EC+가/VX+야/EC+하/VV+지/EC+~/SY+옷/NNG+이나/JX+골라/VV+EC+놔야/VX+EC+VX+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

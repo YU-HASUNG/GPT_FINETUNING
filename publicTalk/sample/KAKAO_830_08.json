@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 47386,
+    "name": "KAKAO_830_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172205099394/KAKAO_830_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172205099394/KAKAO_830_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39586,
+      "filename": "KAKAO_830_08.txt",
+      "title": "KAKAO_830_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 370,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 370,
+        "word_size": 122,
+        "text": "1 : 여자 친구는 언제 사귀려고 키키\n2 : ㅠㅠ 저도 있었으면 좋겠습니다\n1 : 35 안에는 결혼해야 안 되겠나\n2 : 4년 정도 남았네요 ㅠㅠ\n1 : 그러니까 4년 후딱 간데이\n2 : 네 ㅠㅠ 빨리 좋은 사람 찾아야 하는데 안 보입니다\n1 : 소개 많이 받아야지\n2 : 받을 때도 없습니다 ㅠㅠ 저 빼고 다 여친 있습니다\n1 : 친구 여친의 친구들 소개시켜 달라 하면 안 되나? 키키\n2 : 키키 저한테는 안 해 주더라구요\n1 : 왜 안 해 주지 매력 넘치는데 키키\n2 : 여자들은 제 매력을 모르나 봅니다...\n1 : 남자가 볼 때 매력이 넘치는 건가?\n2 : 남자한테 인기 많은 스타일인가 봐요 ㅠㅠ\n1 : 그러면 안 되는데...\n2 : 그러게요 ㅠㅠ 괜찮은 동생 분들 없습니까?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여자 친구는 언제 사귀려고 키키",
+            "norm_text": "여자 친구는 언제 사귀려고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여자/NNG+친구/NNG+는/JX+언제/MAG+사귀/VV+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : ㅠㅠ 저도 있었으면 좋겠습니다",
+            "norm_text": "ㅠㅠ 저도 있었으면 좋겠습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+저/NP+도/JX+있/VA+었/EP+으면/EC+좋/VA+겠/EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 35 안에는 결혼해야 안 되겠나",
+            "norm_text": "35 안에는 결혼해야 안 되겠나",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "35/SN+안/NNG+에/JKB+는/JX+결혼/NNG+해야/XSV+EC+안/MAG+되/VV+겠/EP+나/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 4년 정도 남았네요 ㅠㅠ",
+            "norm_text": "4년 정도 남았네요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "4/SN+년/NNBC+정도/NNG+남/VV+았/EP+네요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러니까 4년 후딱 간데이",
+            "norm_text": "그러니까 4년 후딱 간데이",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+4/SN+년/NNBC+후딱/MAG+간데/VV+EC+이/MM"
+          },
+          {
+            "id": 6,
+            "text": "2 : 네 ㅠㅠ 빨리 좋은 사람 찾아야 하는데 안 보입니다",
+            "norm_text": "네 ㅠㅠ 빨리 좋은 사람 찾아야 하는데 안 보입니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+ㅠㅠ/UNKNOWN+빨리/MAG+좋/VA+은/ETM+사람/NNG+찾/VV+아야/EC+하/VV+는데/EC+안/MAG+보입니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 소개 많이 받아야지",
+            "norm_text": "소개 많이 받아야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "소개/NNG+많이/MAG+받/VV+아야지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 받을 때도 없습니다 ㅠㅠ 저 빼고 다 여친 있습니다",
+            "norm_text": "받을 때도 없습니다 ㅠㅠ 저 빼고 다 여친 있습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "받/VV+을/ETM+때/NNG+도/JX+없/VA+습니다/EF+ㅠㅠ/UNKNOWN+저/NP+빼/VV+고/EC+다/MAG+여친/NNG+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 친구 여친의 친구들 소개시켜 달라 하면 안 되나? 키키",
+            "norm_text": "친구 여친의 친구들 소개시켜 달라 하면 안 되나? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친구/NNG+여친/NNG+의/JKG+친구/NNG+들/XSN+소개/NNG+시켜/XSV+EC+달/VX+라/EC+하/VV+면/EC+안/MAG+되/VV+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 저한테는 안 해 주더라구요",
+            "norm_text": "키키 저한테는 안 해 주더라구요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키저/NNG+한테/JKB+는/JX+안/MAG+해/VV+EC+주/VX+더라구요/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 왜 안 해 주지 매력 넘치는데 키키",
+            "norm_text": "왜 안 해 주지 매력 넘치는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+안/MAG+해/VV+EC+주/VX+지/EC+매력/NNG+넘치/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 여자들은 제 매력을 모르나 봅니다...",
+            "norm_text": "여자들은 제 매력을 모르나 봅니다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여자/NNG+들/XSN+은/JX+제/MM+매력/NNG+을/JKO+모르/VV+나/EC+봅니다/VV+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 남자가 볼 때 매력이 넘치는 건가?",
+            "norm_text": "남자가 볼 때 매력이 넘치는 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+가/JKS+볼/VV+ETM+때/NNG+매력/NNG+이/JKS+넘치/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 남자한테 인기 많은 스타일인가 봐요 ㅠㅠ",
+            "norm_text": "남자한테 인기 많은 스타일인가 봐요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+한테/JKB+인기/NNG+많/VA+은/ETM+스타일/NNG+인가/VCP+EC+봐요/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러면 안 되는데...",
+            "norm_text": "그러면 안 되는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러면/MAJ+안/MAG+되/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그러게요 ㅠㅠ 괜찮은 동생 분들 없습니까?",
+            "norm_text": "그러게요 ㅠㅠ 괜찮은 동생 분들 없습니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+요/JX+ㅠㅠ/UNKNOWN+괜찮/VA+은/ETM+동생/NNG+분/XSN+들/XSN+없/VA+습니까/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

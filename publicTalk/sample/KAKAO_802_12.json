@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45659,
+    "name": "KAKAO_802_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172236036974/KAKAO_802_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172236036974/KAKAO_802_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39630,
+      "filename": "KAKAO_802_12.txt",
+      "title": "KAKAO_802_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 392,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 392,
+        "word_size": 133,
+        "text": "1 : 캐나다로 여행 가고 싶다\n2 : 누나 캐나다 있을 때는 캐나다 다시는 오기 싫다고 했잖아\n1 : 그거는 거기서 사는 거 얘기하는 거지~\n2 : 아아 여행으로는 가고 싶어?\n1 : 응응 사는 거랑 여행으로 가는 거는 다르니까~\n2 : 나도 여행으로는 좋을 것 같네\n1 : 한국 오기 전에 캐나다 여행 좀 하려고 했는데\n2 : 그때 여행을 전혀 못 다녔나?\n1 : 코로나 터지면서 못 갔어...\n2 : 맞아 그 때 꼼짝도 할 수가 없었지\n1 : 보통 한국 오기 전에 여행 다니려고 그전에 안 갔는데!\n2 : 곧 여행 갈 수 있을 거야\n1 : 맞아 조만간 해외 여행이 가능해지겠지?\n2 : 나도 누나 갈 때 가야겠다\n1 : 너는 한국 온 지 얼마 안 됐는데 가고 싶어?\n2 : 누나 말처럼 사는 거랑 여행 가는 거랑은 다르니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 캐나다로 여행 가고 싶다",
+            "norm_text": "캐나다로 여행 가고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "캐나다/NNP+로/JKB+여행/NNG+가/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 누나 캐나다 있을 때는 캐나다 다시는 오기 싫다고 했잖아",
+            "norm_text": "누나 캐나다 있을 때는 캐나다 다시는 오기 싫다고 했잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "누나/NNG+캐/VV+나다/EC+있/VX+을/ETM+때/NNG+는/JX+캐나다/NNP+다시/MAG+는/JX+오/VV+기/ETN+싫/VA+다고/EC+했잖아/VX+EP+EC+VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그거는 거기서 사는 거 얘기하는 거지~",
+            "norm_text": "그거는 거기서 사는 거 얘기하는 거지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+는/JX+거기/NP+서/JKB+사/VV+는/ETM+거/NNB+얘기/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EC+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아아 여행으로는 가고 싶어?",
+            "norm_text": "아아 여행으로는 가고 싶어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+여행/NNG+으로/JKB+는/JX+가/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응응 사는 거랑 여행으로 가는 거는 다르니까~",
+            "norm_text": "응응 사는 거랑 여행으로 가는 거는 다르니까~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+사/VV+는/ETM+거/NNB+랑/JC+여행/NNG+으로/JKB+가/VV+는/ETM+거/NNB+는/JX+다르/VA+니까/EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도 여행으로는 좋을 것 같네",
+            "norm_text": "나도 여행으로는 좋을 것 같네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+여행/NNG+으로/JKB+는/JX+좋/VA+을/ETM+것/NNB+같/VA+네/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 한국 오기 전에 캐나다 여행 좀 하려고 했는데",
+            "norm_text": "한국 오기 전에 캐나다 여행 좀 하려고 했는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한국/NNP+오기/NNG+전/NNG+에/JKB+캐나다/NNP+여행/NNG+좀/MAG+하/VV+려고/EC+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그때 여행을 전혀 못 다녔나?",
+            "norm_text": "그때 여행을 전혀 못 다녔나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그때/NNG+여행/NNG+을/JKO+전혀/MAG+못/MAG+다녔/VV+EP+나/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 코로나 터지면서 못 갔어...",
+            "norm_text": "코로나 터지면서 못 갔어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코로나/NNG+터지/VV+면서/EC+못/MAG+갔/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 그 때 꼼짝도 할 수가 없었지",
+            "norm_text": "맞아 그 때 꼼짝도 할 수가 없었지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+그때/NNG+꼼짝/MAG+도/JX+할/VV+ETM+수/NNB+가/JKS+없/VA+었/EP+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 보통 한국 오기 전에 여행 다니려고 그전에 안 갔는데!",
+            "norm_text": "보통 한국 오기 전에 여행 다니려고 그전에 안 갔는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보통/MAJ+한국/NNP+오기/NNG+전/NNG+에/JKB+여행/NNG+다니/VV+려고/EC+그/MM+전/NNG+에/JKB+안/MAG+갔/VV+EP+는데/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 곧 여행 갈 수 있을 거야",
+            "norm_text": "곧 여행 갈 수 있을 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곧/MAG+여행/NNG+갈/VV+ETM+수/NNB+있/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 조만간 해외 여행이 가능해지겠지?",
+            "norm_text": "맞아 조만간 해외 여행이 가능해지겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞아/IC+조만간/MAG+해외여행/NNG+이/JKS+가능/NNG+해/XSV+EC+지/VX+겠/EP+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나도 누나 갈 때 가야겠다",
+            "norm_text": "나도 누나 갈 때 가야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+누나/NNG+갈/VV+ETM+때/NNG+가/VV+야겠다/EC+VX+EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 너는 한국 온 지 얼마 안 됐는데 가고 싶어?",
+            "norm_text": "너는 한국 온 지 얼마 안 됐는데 가고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+한국/NNP+온지/NR+VCP+EC+얼마/NNG+안/MAG+됐/VV+EP+는데/EC+가/VX+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 누나 말처럼 사는 거랑 여행 가는 거랑은 다르니까",
+            "norm_text": "누나 말처럼 사는 거랑 여행 가는 거랑은 다르니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누나/NNG+말/NNG+처럼/JKB+사/VV+는/ETM+거/NNB+랑/JC+여행/NNG+가/VV+는/ETM+거/NNB+랑/JKB+은/JX+다르/VA+니까/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

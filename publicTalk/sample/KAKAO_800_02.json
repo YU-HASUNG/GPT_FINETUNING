@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45513,
+    "name": "KAKAO_800_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150443035556/KAKAO_800_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150443035556/KAKAO_800_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38313,
+      "filename": "KAKAO_800_02.txt",
+      "title": "KAKAO_800_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 428,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 428,
+        "word_size": 147,
+        "text": "1 : 아파트에 살아 본 적 있나?\n2 : 네 고등학교 때까지는 아파트에 살았습니다 하하\n1 : 성인 돼서 바로 집 나왔나?\n2 : 20대 중반에 나왔습니다 행님은요?\n1 : 나는 성인 되고 바로 나왔다 키키\n2 : 와 오래되셨네요?\n1 : 근데 군대 갔다 오고 캐나다 갔다 오고 이래저래 해서 혼자 사는 건 오래 안 됐다 키키\n2 : 저는 혼자 사는 게 더 편한 거 같습니다 하하\n1 : 맞다 키키 근데 자유를 얻은 대신 돈을 써야 된다\n2 : 그건 맞습니다 그 돈 무시 못 합니다 진짜\n1 : 그러니까 키키 여기저기서 돈 빠진다\n2 : 맞아요 ㅠㅠ  행님은 계속 나와 사실려구요?\n1 : 나와서 사는 게 난 더 좋긴 해서 아마도 그럴 듯 키키\n2 : 저도 본집은 안 들어 갈 것 같습니다 키키\n1 : 키키 혼자 사는 게 제일 속 편하다\n2 : 키키 맞습니다 늦게 들어와도 눈치도 안 보이고",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아파트에 살아 본 적 있나?",
+            "norm_text": "아파트에 살아 본 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아파트/NNG+에/JKB+살/VV+아/EC+본/VX+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 네 고등학교 때까지는 아파트에 살았습니다 하하",
+            "norm_text": "네 고등학교 때까지는 아파트에 살았습니다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+고등/NNG+학교/NNG+때/NNG+까지/JX+는/JX+아파트/NNG+에/JKB+살/VV+았/EP+습니다/EF+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 성인 돼서 바로 집 나왔나?",
+            "norm_text": "성인 돼서 바로 집 나왔나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "성인/NNG+돼서/XSV+EC+바로/MAG+집/NNG+나왔/VV+EP+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 20대 중반에 나왔습니다 행님은요?",
+            "norm_text": "20대 중반에 나왔습니다 행님은요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "20/SN+대중/NNG+반/NNG+에/JKB+나왔/VV+EP+습니다/EF+행/NNG+님/XSN+은/JX+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나는 성인 되고 바로 나왔다 키키",
+            "norm_text": "나는 성인 되고 바로 나왔다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+성인/NNG+되/XSV+고/EC+바로/MAG+나왔/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 와 오래되셨네요?",
+            "norm_text": "와 오래되셨네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+오래/MAG+되/VV+셨/EP+EP+네요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 군대 갔다 오고 캐나다 갔다 오고 이래저래 해서 혼자 사는 건 오래 안 됐다 키키",
+            "norm_text": "근데 군대 갔다 오고 캐나다 갔다 오고 이래저래 해서 혼자 사는 건 오래 안 됐다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+군대/NNG+갔다오/VV+고/EC+캐/VV+나다/EC+갔다오/VV+고/EC+이래저래/MAG+해서/VV+EC+혼자/MAG+사/VV+는/ETM+건/NNB+JX+오래/MAG+안/MAG+됐/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 저는 혼자 사는 게 더 편한 거 같습니다 하하",
+            "norm_text": "저는 혼자 사는 게 더 편한 거 같습니다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+혼자/MAG+사/VV+는/ETM+게/NNB+JKS+더/MAG+편한/VA+ETM+거/NNB+같/VA+습니다/EF+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞다 키키 근데 자유를 얻은 대신 돈을 써야 된다",
+            "norm_text": "맞다 키키 근데 자유를 얻은 대신 돈을 써야 된다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EC+키/NNG+키/XSV+ETN+근데/MAJ+자유/NNG+를/JKO+얻/VV+은/ETM+대신/NNG+돈/NNG+을/JKO+써야/VV+EC+된다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그건 맞습니다 그 돈 무시 못 합니다 진짜",
+            "norm_text": "그건 맞습니다 그 돈 무시 못 합니다 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+맞/VV+습니다/EF+그/MM+돈/NNG+무시/NNG+못/MAG+합니다/VV+EF+진짜/MAG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러니까 키키 여기저기서 돈 빠진다",
+            "norm_text": "그러니까 키키 여기저기서 돈 빠진다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/NNG+여기저기/NNG+서/JKB+돈/NNG+빠진다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아요 ㅠㅠ  행님은 계속 나와 사실려구요?",
+            "norm_text": "맞아요 ㅠㅠ  행님은 계속 나와 사실려구요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아요/EF+ㅠㅠ/UNKNOWN+행/NNG+님/XSN+은/JX+계속/MAG+나/NP+와/JKB+사실/MAG+려/NNG+구요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나와서 사는 게 난 더 좋긴 해서 아마도 그럴 듯 키키",
+            "norm_text": "나와서 사는 게 난 더 좋긴 해서 아마도 그럴 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나와서/VV+EC+사/VV+는/ETM+게/NNB+JKS+난/NP+JX+더/MAG+좋/VA+긴/ETN+JX+해서/VV+EC+아마도/MAG+그럴듯/VA+ETM+NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 저도 본집은 안 들어 갈 것 같습니다 키키",
+            "norm_text": "저도 본집은 안 들어 갈 것 같습니다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+본집/NNG+은/JX+안/MAG+들어갈/VV+ETM+것/NNB+같/VA+습니다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 혼자 사는 게 제일 속 편하다",
+            "norm_text": "키키 혼자 사는 게 제일 속 편하다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+혼자/MAG+사/VV+는/ETM+게/NNB+JKS+제일/MAG+속편/NNG+하/XSV+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 맞습니다 늦게 들어와도 눈치도 안 보이고",
+            "norm_text": "키키 맞습니다 늦게 들어와도 눈치도 안 보이고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+습니다/EF+늦/VA+게/EC+들어와도/VV+EC+눈치/NNG+도/JX+안/MAG+보이/VV+고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

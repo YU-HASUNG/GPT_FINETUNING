@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 67169,
+    "name": "KAKAO_667_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112312048346/KAKAO_667_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112312048346/KAKAO_667_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35005,
+      "filename": "KAKAO_667_06.txt",
+      "title": "KAKAO_667_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 923,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 923,
+        "word_size": 282,
+        "text": "1 : 자기계발용으로 성인용 구몬 이런 거 하고 싶다 ㅠㅠ 키키\n2 : 구몬 진짜 오랜만에 들어보는 이름이고 키키 어떤 거 있던데?\n1 : 여러가지 있던데 나는 수학하고 싶어서 수학 알아보는 중이고 키키 눈높이랑 키키\n2 : 눈높이도 성인용이 있는 거가?\n2 : 신기하네 키키 성인용 구몬 수학은 뭐 배우는 건뎅?\n1 : 어엉 있더랑 키키\n1 : 뭐라 해야지 설명은 잘 못하겠는데 그... 엑스 나오고 하는 그런 거 있다니가? 그런 거 풀던데?\n2 : 고딩 때 배우는 수학 그런 건가?\n2 : 나도 미분적분 좀 궁금하다 우리 때는 문과는 수학1만 했다이가\n1 : 내는 1학년 때부터 수포자였어 가지고 ㅠㅠ\n1 : 중학교 때는 좋아했는데 ㅜㅜ *** 만나고 바로 수포자 ㅠㅠ\n1 : 중고등학생들 수준으로 가르쳐 주는 거 같던데 ㅜㅜ 성인 수학 해 보고 싶당\n2 : 오오 재밌겠다 진짜 교육자의 영향 너무 중요하다...\n2 : 선생님 한 명 때문에 교과목에 흥미가 떨어져 버리는...\n1 : 그니까... 넘나 선행학습 위주였어 가지고 흥미 다 떨어졌너 ㅠㅜ\n1 : 나름 중딩 때는 올림피아드도 나가보고 했는데.\n2 : 중고딩 때는 선생님이 학생한테 미치는 영향이 진짜 큰데...\n2 : 가르칠만한 인성적 자격 있고 공부 가르치는 교육자 만나는 것도 행운인 듯 ㅠㅠ\n1 : 그니까 진짜 못하는 애들을 이끌어주는 게 선생님 아니가?\n1 : 잘하는 애들만 데려가는 게 아니라...\n2 : 맞아 좀 같이 이끌어주고 그래야지 고딩 때 선생님은 아예 무시하는 그 말투, 태도 너무 싫었다\n1 : 나도나도 그 쌤 말하는 거 맞제?\n1 : 이과반 수학은 절대 못 가르치던 쌤\n2 : 키키 아 빵 터졌다 키키 너무 웃겨 키키\n2 : 맞는 것 같은데 우리 같은 사람 생각하는 거 키키\n1 : 키키 그니까 지 실력 없어서 지도 이과반 못 간 주제에 학생들 오지게 차별하고\n2 : 그런 선생 만난 거 너무 불운이었으 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기계발용으로 성인용 구몬 이런 거 하고 싶다 ㅠㅠ 키키",
+            "norm_text": "자기계발용으로 성인용 구몬 이런 거 하고 싶다 ㅠㅠ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+계발/NNG+용/XSN+으로/JKB+성인용/NNP+구몬/NNP+이런/MM+거/NNB+하/VV+고/EC+싶/VX+다/EF+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 구몬 진짜 오랜만에 들어보는 이름이고 키키 어떤 거 있던데?",
+            "norm_text": "구몬 진짜 오랜만에 들어보는 이름이고 키키 어떤 거 있던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "구몬/NNP+진짜/MAG+오랜만/NNG+에/JKB+들/VV+어/EC+보/VX+는/ETM+이름/NNG+이/VCP+고/EC+키키/NNP+어떤/MM+거/NNB+있/VA+던데/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 여러가지 있던데 나는 수학하고 싶어서 수학 알아보는 중이고 키키 눈높이랑 키키",
+            "norm_text": "여러가지 있던데 나는 수학하고 싶어서 수학 알아보는 중이고 키키 눈높이랑 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여러/MM+가지/NNBC+있/VV+던데/EC+나/NP+는/JX+수학/NNG+하/XSV+고/EC+싶/VX+어서/EC+수학/NNG+알아보/VV+는/ETM+중/NNB+이/VCP+고/EC+키/NNG+키/NNG+눈높이/NNG+랑/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 눈높이도 성인용이 있는 거가?",
+            "norm_text": "눈높이도 성인용이 있는 거가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "눈높이/NNG+도/JX+성인/NNG+용/XSN+이/JKS+있/VA+는/ETM+거/NNB+가/JKS"
+          },
+          {
+            "id": 5,
+            "text": "2 : 신기하네 키키 성인용 구몬 수학은 뭐 배우는 건뎅?",
+            "norm_text": "신기하네 키키 성인용 구몬 수학은 뭐 배우는 건뎅?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "신기/XR+하/XSA+네/EF+키키/NNP+성인용/NNP+구몬/NNP+수학/NNG+은/JX+뭐/IC+배우/VV+는/ETM+건/NNB+JX+뎅/MAG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 어엉 있더랑 키키",
+            "norm_text": "어엉 있더랑 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어엉있더랑키키/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 뭐라 해야지 설명은 잘 못하겠는데 그... 엑스 나오고 하는 그런 거 있다니가? 그런 거 풀던데?",
+            "norm_text": "뭐라 해야지 설명은 잘 못하겠는데 그... 엑스 나오고 하는 그런 거 있다니가? 그런 거 풀던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/NP+라/VCP+EC+해야지/VX+EC+설명/NNG+은/JX+잘못/MAG+하/VV+겠/EP+는데/EC+그/IC+./SY+엑스/NNG+나오/VV+고/EC+하/VV+는/ETM+그런/MM+거/NNB+있/VA+다니/EC+가/VX+EF+그런/MM+거/NNB+풀/VV+던데/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 고딩 때 배우는 수학 그런 건가?",
+            "norm_text": "고딩 때 배우는 수학 그런 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고딩/NNP+때/NNG+배우/VV+는/ETM+수학/NNG+그런/MM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나도 미분적분 좀 궁금하다 우리 때는 문과는 수학1만 했다이가",
+            "norm_text": "나도 미분적분 좀 궁금하다 우리 때는 문과는 수학1만 했다이가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+미분/NNG+적/XSN+분/NNB+좀/MAG+궁금/XR+하/XSA+다/EF+우리/NP+때/NNG+는/JX+문과/NNG+는/JX+수학/NNG+1/SN+만/NR+했/VV+EP+다/EF+이/NP+가/JKS"
+          },
+          {
+            "id": 10,
+            "text": "1 : 내는 1학년 때부터 수포자였어 가지고 ㅠㅠ",
+            "norm_text": "내는 1학년 때부터 수포자였어 가지고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+는/JX+1/SN+학년/NNG+때/NNG+부터/JX+수포/NNG+자/XSN+였/VCP+EP+어/EC+가지/VX+고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 중학교 때는 좋아했는데 ㅜㅜ *** 만나고 바로 수포자 ㅠㅠ",
+            "norm_text": "중학교 때는 좋아했는데 ㅜㅜ *** 만나고 바로 수포자 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "중학교/NNG+때/NNG+는/JX+좋/VA+아/EC+했/VX+EP+는데/EC+ㅜㅜ/UNKNOWN+*/SY+*/SY+*/SY+만나/VV+고/EC+바로/MAG+수포/NNG+자/XSN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 중고등학생들 수준으로 가르쳐 주는 거 같던데 ㅜㅜ 성인 수학 해 보고 싶당",
+            "norm_text": "중고등학생들 수준으로 가르쳐 주는 거 같던데 ㅜㅜ 성인 수학 해 보고 싶당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "중고/NNG+등/NNB+학생/NNG+들/XSN+수준/NNG+으로/JKB+가르쳐/VV+EC+주/VX+는/ETM+거/NNB+같/VA+던데/EC+ㅜㅜ/UNKNOWN+성인/NNG+수학/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+당/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 오오 재밌겠다 진짜 교육자의 영향 너무 중요하다...",
+            "norm_text": "오오 재밌겠다 진짜 교육자의 영향 너무 중요하다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+재밌/VA+겠/EP+다/EF+진짜/MAG+교육자/NNG+의/JKG+영향/NNG+너무/MAG+중요/NNG+하/XSA+다/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 선생님 한 명 때문에 교과목에 흥미가 떨어져 버리는...",
+            "norm_text": "선생님 한 명 때문에 교과목에 흥미가 떨어져 버리는...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "선생/NNG+님/XSN+한/MM+명/NNBC+때문/NNB+에/JKB+교과목/NNG+에/JKB+흥미/NNG+가/JKS+떨어져/VV+EC+버리/VX+는/ETM+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그니까... 넘나 선행학습 위주였어 가지고 흥미 다 떨어졌너 ㅠㅜ",
+            "norm_text": "그니까... 넘나 선행학습 위주였어 가지고 흥미 다 떨어졌너 ㅠㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+넘/VV+나/EC+선행/NNG+학습/NNG+위주/NNG+였/VCP+EP+어/EC+가지/VX+고/EC+흥미/NNG+다/MAG+떨어졌/VV+EP+너/NP+ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나름 중딩 때는 올림피아드도 나가보고 했는데.",
+            "norm_text": "나름 중딩 때는 올림피아드도 나가보고 했는데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나름/NNB+중/NNB+딩/MAG+때/NNG+는/JX+올림피아드/NNG+도/JX+나가/VV+EC+보/VX+고/EC+했/VX+EP+는데/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 중고딩 때는 선생님이 학생한테 미치는 영향이 진짜 큰데...",
+            "norm_text": "중고딩 때는 선생님이 학생한테 미치는 영향이 진짜 큰데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "중고/NNG+딩/NNG+때/NNG+는/JX+선생/NNG+님/XSN+이/JKS+학생/NNG+한테/JKB+미치/VV+는/ETM+영향/NNG+이/JKS+진짜/MAG+큰데/VA+EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 가르칠만한 인성적 자격 있고 공부 가르치는 교육자 만나는 것도 행운인 듯 ㅠㅠ",
+            "norm_text": "가르칠만한 인성적 자격 있고 공부 가르치는 교육자 만나는 것도 행운인 듯 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가르칠/VV+ETM+만/NNB+한/XSA+ETM+인성/NNG+적/XSN+자격/NNG+있/VV+고/EC+공부/NNG+가르치/VV+는/ETM+교육자/NNG+만나/VV+는/ETM+것/NNB+도/JX+행운/NNG+인/VCP+ETM+듯/NNB+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그니까 진짜 못하는 애들을 이끌어주는 게 선생님 아니가?",
+            "norm_text": "그니까 진짜 못하는 애들을 이끌어주는 게 선생님 아니가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그니까/MAJ+진짜/MAG+못/MAG+하/VV+는/ETM+애/NNG+들/XSN+을/JKO+이끌/VV+어/EC+주/VX+는/ETM+게/NNB+JKS+선생/NNG+님/XSN+아니/VCN+가/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 잘하는 애들만 데려가는 게 아니라...",
+            "norm_text": "잘하는 애들만 데려가는 게 아니라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잘/MAG+하/VV+는/ETM+애/NNG+들/XSN+만/JX+데려가/VV+는/ETM+게/NNB+JKC+아니/VCN+라/EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 맞아 좀 같이 이끌어주고 그래야지 고딩 때 선생님은 아예 무시하는 그 말투, 태도 너무 싫었다",
+            "norm_text": "맞아 좀 같이 이끌어주고 그래야지 고딩 때 선생님은 아예 무시하는 그 말투, 태도 너무 싫었다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+좀/MAG+같이/MAG+이끌/VV+어/EC+주/VX+고/EC+그래야/VV+EC+지/VX+고/EC+딩/NNG+때/NNG+선생/NNG+님/XSN+은/JX+아예/MAG+무시/NNG+하/XSV+는/ETM+그/MM+말투/NNG+,/SC+태도/NNG+너무/MAG+싫/VA+었/EP+다/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 나도나도 그 쌤 말하는 거 맞제?",
+            "norm_text": "나도나도 그 쌤 말하는 거 맞제?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+나/NP+도/JX+그/MM+쌤/NNG+말/NNG+하/XSV+는/ETM+거/NNB+맞/VV+제/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 이과반 수학은 절대 못 가르치던 쌤",
+            "norm_text": "이과반 수학은 절대 못 가르치던 쌤",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/MM+과반/NNG+수학/NNG+은/JX+절대/MAG+못/MAG+가르치/VV+던/ETM+쌤/NNG"
+          },
+          {
+            "id": 24,
+            "text": "2 : 키키 아 빵 터졌다 키키 너무 웃겨 키키",
+            "norm_text": "키키 아 빵 터졌다 키키 너무 웃겨 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "키/NNG+키/VV+아/EC+빵/NNG+터졌/VV+EP+다키키/NNP+너무/MAG+웃겨/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 맞는 것 같은데 우리 같은 사람 생각하는 거 키키",
+            "norm_text": "맞는 것 같은데 우리 같은 사람 생각하는 거 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+는/ETM+것/NNB+같/VA+은데/EC+우리/NP+같/VA+은/ETM+사람/NNG+생각/NNG+하/XSV+는/ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 키키 그니까 지 실력 없어서 지도 이과반 못 간 주제에 학생들 오지게 차별하고",
+            "norm_text": "키키 그니까 지 실력 없어서 지도 이과반 못 간 주제에 학생들 오지게 차별하고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+지실/NNG+력/XSN+없/VA+어서/EC+지/VX+도/EC+이/MM+과반/NNG+못/MAG+간/VV+ETM+주제/NNG+에/JKB+학생/NNG+들/XSN+오지/VV+게/EC+차별/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 27,
+            "text": "2 : 그런 선생 만난 거 너무 불운이었으 ㅠㅠ",
+            "norm_text": "그런 선생 만난 거 너무 불운이었으 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+선생/NNG+만난/VV+ETM+거/NNB+너무/MAG+불운/NNG+이/VCP+었/EP+으/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

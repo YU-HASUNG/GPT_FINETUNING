@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 64183,
+    "name": "KAKAO_694_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112728070785/KAKAO_694_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112728070785/KAKAO_694_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35122,
+      "filename": "KAKAO_694_03.txt",
+      "title": "KAKAO_694_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 518,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 518,
+        "word_size": 175,
+        "text": "1 : 너 그래도 차 팔고 돈 좀 있지 않아?\n2 : 차 판 돈은 내 주머니에 없어 ㅜ\n2 : 사실 차 팔고 뚜벅이 진짜 힘들다\n1 : 아 진짜 자동차 사고 싶어. 진정한 으른\n2 : 사고 한 번 나봐 근데 사고 난 것보다 뚜벅이가 더 힘들다\n1 : 키키 근데 진짜 트라우마 생겨서 무서울 듯\n2 : 근데 차 없는 것도 트라우마다 ㅎ 뚜벅이 생활은 어때\n1 : 뚜벅이 생활은 진짜 24년차지만 별로야.\n1 : 아 1년은 기어 다녔으니까 빼야 하나\n2 : 키키 아 근데 오랜만에 버스 타니까 어지럽더라\n1 : 버스 완전 난폭하잖어... 역시 자동차를 사는 게 정답 같아\n2 : 오늘은 택시 탔는데 택시 급정거 진짜 심해\n1 : 그래도 택시는 운전하는 것 보다 편하지 않아?\n2 : 아니 내가 더 운전 잘해 난폭 운전 너무 힘들어\n1 : 운전하면 사방팔방 신경 써야 하잖아.\n2 : 근데 사실 교통 법규만 잘 지키면 돼 택시랑 버스는 다 안 지켜\n1 : 우리 엄마는 운전하면서 앞 뒤 옆 다 봐야 한다고 정신 없다 던데\n2 : 그건 몇 번 운전하면 적응되던데!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 그래도 차 팔고 돈 좀 있지 않아?",
+            "norm_text": "너 그래도 차 팔고 돈 좀 있지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+그래도/VV+EC+차/NNG+팔/VV+고/EC+돈/NNG+좀/MAG+있/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 차 판 돈은 내 주머니에 없어 ㅜ",
+            "norm_text": "차 판 돈은 내 주머니에 없어 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "차판/NNG+돈/NNG+은/JX+내/NP+JKG+주머니/NNG+에/JKB+없/VA+어/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 사실 차 팔고 뚜벅이 진짜 힘들다",
+            "norm_text": "사실 차 팔고 뚜벅이 진짜 힘들다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사실/MAG+차/NNG+팔/VV+고/EC+뚜벅/MAG+이/MM+진짜/MAG+힘들/VA+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아 진짜 자동차 사고 싶어. 진정한 으른",
+            "norm_text": "아 진짜 자동차 사고 싶어. 진정한 으른",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+자동차/NNG+사/VV+고/EC+싶/VX+어/EF+진정한으른/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 사고 한 번 나봐 근데 사고 난 것보다 뚜벅이가 더 힘들다",
+            "norm_text": "사고 한 번 나봐 근데 사고 난 것보다 뚜벅이가 더 힘들다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사고/NNG+한/MM+번/NNBC+나/JX+봐/VV+EF+근데/MAJ+사/VV+고/EC+난/VX+ETM+것/NNB+보다/JKB+뚜벅/MAG+이/NP+가/JKS+더/MAG+힘들/VA+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 근데 진짜 트라우마 생겨서 무서울 듯",
+            "norm_text": "키키 근데 진짜 트라우마 생겨서 무서울 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+진짜/MAG+트라우마/NNP+생겨서/VV+EC+무서울/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 7,
+            "text": "2 : 근데 차 없는 것도 트라우마다 ㅎ 뚜벅이 생활은 어때",
+            "norm_text": "근데 차 없는 것도 트라우마다 ㅎ 뚜벅이 생활은 어때",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+차/NNG+없/VA+는/ETM+것/NNB+도/JX+트/VV+라우/EC+마다/XR+ㅎ/XSA+뚜벅/MAG+이/MM+생활/NNG+은/JX+어때/VA+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 뚜벅이 생활은 진짜 24년차지만 별로야.",
+            "norm_text": "뚜벅이 생활은 진짜 24년차지만 별로야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뚜벅/MAG+이/MM+생활/NNG+은/JX+진짜/MAG+24/SN+년/NNBC+차지/NNG+만/JX+별로/MAG+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 1년은 기어 다녔으니까 빼야 하나",
+            "norm_text": "아 1년은 기어 다녔으니까 빼야 하나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+1/SN+년/NNBC+은/JX+기어/NNG+다녔/VV+EP+으니까/EC+빼/VV+야/EF+하나/NR"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 아 근데 오랜만에 버스 타니까 어지럽더라",
+            "norm_text": "키키 아 근데 오랜만에 버스 타니까 어지럽더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아/IC+근데/MAJ+오랜만/NNG+에/JKB+버스/NNG+타/VV+니까/EC+어지럽/VA+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 버스 완전 난폭하잖어... 역시 자동차를 사는 게 정답 같아",
+            "norm_text": "버스 완전 난폭하잖어... 역시 자동차를 사는 게 정답 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "버스/NNG+완전/NNG+난폭/NNG+하/XSV+잖어/EC+VX+EF+./SY+역시/MAJ+자동차/NNG+를/JKO+사/VV+는/ETM+게/NNB+JKS+정답/NNG+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오늘은 택시 탔는데 택시 급정거 진짜 심해",
+            "norm_text": "오늘은 택시 탔는데 택시 급정거 진짜 심해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+은/JX+택시/NNG+탔/VV+EP+는데/EC+택시/NNG+급정거/NNG+진짜/MAG+심해/VA+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래도 택시는 운전하는 것 보다 편하지 않아?",
+            "norm_text": "그래도 택시는 운전하는 것 보다 편하지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+택시/NNG+는/JX+운전/NNG+하/XSV+는/ETM+것/NNB+보다/JKB+편하/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 내가 더 운전 잘해 난폭 운전 너무 힘들어",
+            "norm_text": "아니 내가 더 운전 잘해 난폭 운전 너무 힘들어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아니/IC+내/NP+가/JKS+더/MAG+운전/NNG+잘/MAG+해/VV+EC+난폭운전/NNP+너무/MAG+힘들/VA+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 운전하면 사방팔방 신경 써야 하잖아.",
+            "norm_text": "운전하면 사방팔방 신경 써야 하잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "운전/NNG+하/XSV+면/EC+사방팔방/NNG+신경/NNG+써야/VV+EC+하/VX+잖아/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 사실 교통 법규만 잘 지키면 돼 택시랑 버스는 다 안 지켜",
+            "norm_text": "근데 사실 교통 법규만 잘 지키면 돼 택시랑 버스는 다 안 지켜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+사실/MAG+교통/NNG+법규/NNG+만/JX+잘/MAG+지키/VV+면/EC+돼/VV+EC+택시/NNG+랑/JKB+버스/NNG+는/JX+다/MAG+안/MAG+지켜/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 우리 엄마는 운전하면서 앞 뒤 옆 다 봐야 한다고 정신 없다 던데",
+            "norm_text": "우리 엄마는 운전하면서 앞 뒤 옆 다 봐야 한다고 정신 없다 던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+엄마/NNG+는/JX+운전/NNG+하/XSV+면서/EC+앞뒤/NNG+옆/NNG+다/MAG+봐야/VV+EC+한다고/VX+EC+정신없/VV+다던데/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그건 몇 번 운전하면 적응되던데!",
+            "norm_text": "그건 몇 번 운전하면 적응되던데!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그건/NP+JX+몇/MM+번/NNBC+운전/NNG+하/XSV+면/EC+적응/NNG+되/XSV+던데/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

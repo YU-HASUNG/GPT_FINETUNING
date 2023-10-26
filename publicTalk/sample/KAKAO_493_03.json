@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 28616,
+    "name": "KAKAO_493_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144305004781/KAKAO_493_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144305004781/KAKAO_493_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29034,
+      "filename": "KAKAO_493_03.txt",
+      "title": "KAKAO_493_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 470,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 470,
+        "word_size": 156,
+        "text": "1 : 너 차 산댔잖아 우리 엄마도 차 바꿔야 하는데\n2 : 너희 어머니는 어떤 차 보고 계셔?\n1 : 우리 엄마는 차체가 너무 크면 안된대\n2 : 그래? 운전 오래하셨잖아 큰 차 몰 때 되셨는데\n1 : 엄마는 공간 감각이 떨어진다고 큰 차는 안되겠대\n2 : 그렇구나 그럼 소나타 정도 크기가 좋으시대?\n1 : 응 그 정도는 괜찮을 거야 엄마가 경차로 운전을 배워서\n2 : 근데 그거 되게 적응 빨리 되는데...\n1 : 그렇지? 차가 좀 커야 안전하다고 하던데\n2 : 맞아 나도 그래서 작은 차는 안 사려구\n1 : 오 너는 큰 차 사려고?\n1 : 맞아 넌 큰 차가 어울려\n2 : 키키 왜 다들 그렇게 얘기하지? 나 뚱뚱해?\n1 : 아니 키키 그냥 사람 이미지라는 게 있잖아 작은 차 별로야\n2 : 그럼 칭찬이라고 생각할게 키키 나는 SUV 살거야\n1 : 너 면허 1종이야?\n1 : SUV면 1종이어야 하잖아\n2 : 응 나 1종이야 멋지지?\n2 : 담에 차 사면 시승식 하자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 차 산댔잖아 우리 엄마도 차 바꿔야 하는데",
+            "norm_text": "너 차 산댔잖아 우리 엄마도 차 바꿔야 하는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+차산/NNG+댔/XSV+EP+잖아/EF+우리/NP+엄마/NNG+도/JX+차/NNG+바꿔야/VV+EC+하/VV+는데/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 너희 어머니는 어떤 차 보고 계셔?",
+            "norm_text": "너희 어머니는 어떤 차 보고 계셔?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+어머니/NNG+는/JX+어떤/MM+차/NNG+보/VV+고/EC+계셔/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리 엄마는 차체가 너무 크면 안된대",
+            "norm_text": "우리 엄마는 차체가 너무 크면 안된대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+엄마/NNG+는/JX+차체/NNG+가/JKS+너무/MAG+크/VA+면/EC+안/MAG+된대/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그래? 운전 오래하셨잖아 큰 차 몰 때 되셨는데",
+            "norm_text": "그래? 운전 오래하셨잖아 큰 차 몰 때 되셨는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+운전/NNG+오래/MAG+하/VV+셨/EP+EP+잖아/EF+큰/VA+ETM+차/NNG+몰/VV+ETM+때/NNG+되/XSV+셨/EP+EP+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엄마는 공간 감각이 떨어진다고 큰 차는 안되겠대",
+            "norm_text": "엄마는 공간 감각이 떨어진다고 큰 차는 안되겠대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+는/JX+공간/NNG+감각/NNG+이/JKS+떨어진다고/VV+EC+큰/VA+ETM+차/NNG+는/JX+안/MAG+되/VV+겠/EP+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그렇구나 그럼 소나타 정도 크기가 좋으시대?",
+            "norm_text": "그렇구나 그럼 소나타 정도 크기가 좋으시대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구나/EF+그럼/MAJ+소나타/NNG+정도/NNG+크기/NNG+가/JKS+좋/VA+으시/EP+대/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 그 정도는 괜찮을 거야 엄마가 경차로 운전을 배워서",
+            "norm_text": "응 그 정도는 괜찮을 거야 엄마가 경차로 운전을 배워서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그/MM+정도/NNG+는/JX+괜찮/VA+을/ETM+거/NNB+야/VCP+EF+엄마/NNG+가/JKS+경차/NNG+로/JKB+운전/NNG+을/JKO+배워서/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 그거 되게 적응 빨리 되는데...",
+            "norm_text": "근데 그거 되게 적응 빨리 되는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그거/NP+되게/MAG+적응/NNG+빨리/MAG+되/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그렇지? 차가 좀 커야 안전하다고 하던데",
+            "norm_text": "그렇지? 차가 좀 커야 안전하다고 하던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+차/NNG+가/JKS+좀/MAG+커야/VA+EC+안전/NNG+하/XSV+다고/EC+하/VV+던데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 나도 그래서 작은 차는 안 사려구",
+            "norm_text": "맞아 나도 그래서 작은 차는 안 사려구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+나/NP+도/JX+그래서/MAJ+작/VA+은/ETM+차/NNG+는/JX+안/MAG+사/VV+려구/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 너는 큰 차 사려고?",
+            "norm_text": "오 너는 큰 차 사려고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오너/NNG+는/JX+큰/VA+ETM+차/NNG+사/VV+려고/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞아 넌 큰 차가 어울려",
+            "norm_text": "맞아 넌 큰 차가 어울려",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+넌/NP+JX+큰/VA+ETM+차/NNG+가/JKS+어울려/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 왜 다들 그렇게 얘기하지? 나 뚱뚱해?",
+            "norm_text": "키키 왜 다들 그렇게 얘기하지? 나 뚱뚱해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+왜/MAG+다/MAG+들/XSN+그렇게/MAG+얘기/NNG+하/XSA+지/EF+나/NP+뚱뚱/XR+해/XSA+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아니 키키 그냥 사람 이미지라는 게 있잖아 작은 차 별로야",
+            "norm_text": "아니 키키 그냥 사람 이미지라는 게 있잖아 작은 차 별로야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니키/NNP+키/NNG+그냥/MAG+사람/NNG+이미지/NNG+라는/VCP+ETM+게/NNB+JKS+있/VA+잖아/EC+작/VA+은/ETM+차별/NNG+로/JKB+야/JX"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그럼 칭찬이라고 생각할게 키키 나는 SUV 살거야",
+            "norm_text": "그럼 칭찬이라고 생각할게 키키 나는 SUV 살거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+칭찬/NNG+이/VCP+라고/EC+생각/NNG+할/XSV+ETM+게/NNB+JKS+키/NNG+키나/XSA+ETN+JX+는/JX+SUV/SL+살/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 너 면허 1종이야?",
+            "norm_text": "너 면허 1종이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+면허/NNG+1/SN+종이/NNG+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : SUV면 1종이어야 하잖아",
+            "norm_text": "SUV면 1종이어야 하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "SUV/SL+면/VCP+EC+1/SN+종/NNG+이/VCP+어야/EC+하/VV+잖아/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 나 1종이야 멋지지?",
+            "norm_text": "응 나 1종이야 멋지지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+나/NP+1/SN+종이/NNG+야/JX+멋지/VA+지/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 담에 차 사면 시승식 하자",
+            "norm_text": "담에 차 사면 시승식 하자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "담/NNG+에/JKB+차사/NNG+면시/NNG+승식/NNP+하/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

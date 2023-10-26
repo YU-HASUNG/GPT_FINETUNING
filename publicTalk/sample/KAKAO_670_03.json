@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67061,
+    "name": "KAKAO_670_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112253049161/KAKAO_670_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112253049161/KAKAO_670_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34962,
+      "filename": "KAKAO_670_03.txt",
+      "title": "KAKAO_670_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 411,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 411,
+        "word_size": 133,
+        "text": "1 : 이번 주 주말에 서울 올라 온다며 뭐 타고 와?\n2 : 나는 고속버스 타고 갈 예정이야~\n1 : 아 진짜 어디 터미널에서 내리는데?\n2 : 강남 고속터미널에서 내리는 것 같아!\n1 : 아 그럼 여기서 얼마나 걸리지?\n2 : 여기서는 1시간 반정도 소요된대!\n1 : 나는 일 끝나고 지하철 타고 갈 것 같아!\n2 : 지하철 타고는 얼마나 걸려?\n1 : 한 시간 반 정도 걸린다고 하네 너무 멀지 ㅠㅠ\n2 : 내가 서울 가는 시간이랑 똑같네\n1 : 그니깐 지하철역 정차를 많이 해서 그래\n2 : 지하철은 빨리 가서 좋은데 너무 많이 서 ㅜ\n1 : 그니깐 말이야 근데 다른 교통수단이 너무 불편하더라고!\n2 : 수도권은 차도 많고 사람도 많아서 불편하긴 하지\n1 : 그러게 언니도 그냥 일찍 올라와 키키 키키\n2 : 그래야지 일찍 갔다 놀고 일찍 집에 와야징!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번 주 주말에 서울 올라 온다며 뭐 타고 와?",
+            "norm_text": "이번 주 주말에 서울 올라 온다며 뭐 타고 와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+주주/NNG+말/NNG+에서/JKB+울/VV+올라/EC+VV+EC+온다며/VV+EC+뭐/IC+타/VV+고/EC+와/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 고속버스 타고 갈 예정이야~",
+            "norm_text": "나는 고속버스 타고 갈 예정이야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+고속버스/NNG+타/VV+고/EC+갈/VX+ETM+예정/NNG+이/VCP+야/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜 어디 터미널에서 내리는데?",
+            "norm_text": "아 진짜 어디 터미널에서 내리는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+어디/NP+터미널/NNG+에서/JKB+내리/VV+는데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 강남 고속터미널에서 내리는 것 같아!",
+            "norm_text": "강남 고속터미널에서 내리는 것 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강남/NNP+고속/NNG+터미널/NNG+에서/JKB+내리/VV+는/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그럼 여기서 얼마나 걸리지?",
+            "norm_text": "아 그럼 여기서 얼마나 걸리지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그럼/MAJ+여기/NP+서/JKB+얼마나/MAG+걸리/VV+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 여기서는 1시간 반정도 소요된대!",
+            "norm_text": "여기서는 1시간 반정도 소요된대!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여기/NP+서/JKB+는/JX+1/SN+시간/NNBC+반/NNG+정도/NNG+소요/NNG+된대/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나는 일 끝나고 지하철 타고 갈 것 같아!",
+            "norm_text": "나는 일 끝나고 지하철 타고 갈 것 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+일/NNG+끝/NNG+나/VV+고/EC+지하철/NNG+타/VV+고/EC+갈/VX+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 지하철 타고는 얼마나 걸려?",
+            "norm_text": "지하철 타고는 얼마나 걸려?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지하철/NNG+타/VV+고/EC+는/JX+얼마나/MAG+걸려/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 한 시간 반 정도 걸린다고 하네 너무 멀지 ㅠㅠ",
+            "norm_text": "한 시간 반 정도 걸린다고 하네 너무 멀지 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+시간/NNG+반/NNG+정도/NNG+걸린다고/VV+EC+하/VX+네/EF+너무/MAG+멀/VA+지/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 내가 서울 가는 시간이랑 똑같네",
+            "norm_text": "내가 서울 가는 시간이랑 똑같네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+서울/NNP+가/VV+는/ETM+시간/NNG+이랑/JKB+똑같/VA+네/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그니깐 지하철역 정차를 많이 해서 그래",
+            "norm_text": "그니깐 지하철역 정차를 많이 해서 그래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+지하철역/NNG+정차/NNG+를/JKO+많이/MAG+해서/VV+EC+그래/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 지하철은 빨리 가서 좋은데 너무 많이 서 ㅜ",
+            "norm_text": "지하철은 빨리 가서 좋은데 너무 많이 서 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지하철/NNG+은/JX+빨리/MAG+가/VV+서/EC+좋/VA+은데/EC+너무/MAG+많이/MAG+서ㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그니깐 말이야 근데 다른 교통수단이 너무 불편하더라고!",
+            "norm_text": "그니깐 말이야 근데 다른 교통수단이 너무 불편하더라고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+말/NNG+이/VCP+야/EF+근데/MAJ+다른/MM+교통수단/NNG+이/JKS+너무/MAG+불편/NNG+하/XSA+더라고/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 수도권은 차도 많고 사람도 많아서 불편하긴 하지",
+            "norm_text": "수도권은 차도 많고 사람도 많아서 불편하긴 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수도/NNG+권/XSN+은/JX+차/NNG+도/JX+많/VA+고/EC+사람/NNG+도/JX+많/VA+아서/EC+불편/NNG+하/XSV+긴/ETN+JX+하/VX+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러게 언니도 그냥 일찍 올라와 키키 키키",
+            "norm_text": "그러게 언니도 그냥 일찍 올라와 키키 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그러/VV+게/EC+언니/NNG+도/JX+그냥/MAG+일찍/MAG+올라와/VV+EC+키/NNG+키/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래야지 일찍 갔다 놀고 일찍 집에 와야징!",
+            "norm_text": "그래야지 일찍 갔다 놀고 일찍 집에 와야징!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래야지/VV+EC+일찍/MAG+갔/VV+EP+다/EC+놀/VV+고/EC+일찍/MAG+집/NNG+에/JKB+와야/VV+EC+VX+징/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

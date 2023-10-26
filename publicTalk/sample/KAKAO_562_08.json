@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21338,
+    "name": "KAKAO_562_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710047031/KAKAO_562_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710047031/KAKAO_562_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30321,
+      "filename": "KAKAO_562_08.txt",
+      "title": "KAKAO_562_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 399,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 399,
+        "word_size": 125,
+        "text": "1 : 오빠~ 우리 만난지 얼마나 됐게~?\n2 : 당연히 잘 알고 있지~!\n1 : 아~ 그래서~ 얼마나 된 건지 얼른 말해봐~하하\n2 : 우리 오늘 딱! 333일이지롱!\n1 : 오~ 알고 있는데?! 어떻게 알았어?\n2 : 에이~ 오빤 이미 다 알고 있었지 하하\n1 : 거짓말~폰에서 캘린더 본거지?\n2 : 오...하하 천재네 자기? 어떻게 알았지...?\n1 : 역시...근데 나도 캘린더 보고 알았어 헤헤\n2 : 하하 우리 벌써 1년이 거의 다 되어간다\n1 : 맞아 하하 오빠 늘 고마워 덕분에 엄청 행복한 연애를 하고 있어\n2 : 내가 하고 싶은 말이야 하하 고마워\n1 : 앞으로도 잘 예쁘게 만나자 우리!\n2 : 그럼 언제든지 힘이 되어주고 곁에 있을 거야!\n1 : 나도 늘 곁에 있을게요 하하 사랑해\n2 : 오빠가 더 많이 사랑해 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~ 우리 만난지 얼마나 됐게~?",
+            "norm_text": "오빠~ 우리 만난지 얼마나 됐게~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+~/SY+우리/NP+만난/VV+ETM+지/NNB+얼마나/MAG+됐/VV+EP+게/EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 당연히 잘 알고 있지~!",
+            "norm_text": "당연히 잘 알고 있지~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+잘/MAG+알/VV+고/EC+있/VX+지/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아~ 그래서~ 얼마나 된 건지 얼른 말해봐~하하",
+            "norm_text": "아~ 그래서~ 얼마나 된 건지 얼른 말해봐~하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "아/IC+~/SY+그래서/MAJ+~/SY+얼마나/MAG+된/VV+ETM+건지/NNB+VCP+EC+얼른/MAG+말/NNG+해/XSV+EC+봐/VX+EC+~/SY+하하/NNP"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우리 오늘 딱! 333일이지롱!",
+            "norm_text": "우리 오늘 딱! 333일이지롱!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+오늘/MAG+딱/MAG+!/SY+333/SN+일/NNBC+이/VCP+지롱/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오~ 알고 있는데?! 어떻게 알았어?",
+            "norm_text": "오~ 알고 있는데?! 어떻게 알았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+알/VV+고/EC+있/VX+는데/EC+?/SY+어떻게/MAG+알/VV+았/EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 에이~ 오빤 이미 다 알고 있었지 하하",
+            "norm_text": "에이~ 오빤 이미 다 알고 있었지 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/NNG+~/SY+오빤/NNG+VCP+JX+이미/MAG+다/MAG+알/VV+고/EC+있/VX+었/EP+지/EC+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 거짓말~폰에서 캘린더 본거지?",
+            "norm_text": "거짓말~폰에서 캘린더 본거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거짓말/NNG+~/SY+폰/NNP+에서/JKB+캘린더/NNG+본/VV+ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오...하하 천재네 자기? 어떻게 알았지...?",
+            "norm_text": "오...하하 천재네 자기? 어떻게 알았지...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+하하/MAG+천재/NNG+네/XSN+자기/NP+어떻게/MAG+알/VV+았/EP+지/EF+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 역시...근데 나도 캘린더 보고 알았어 헤헤",
+            "norm_text": "역시...근데 나도 캘린더 보고 알았어 헤헤",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "역시/MAJ+./SY+근데/MAJ+나/NP+도/JX+캘린더/NNG+보/VV+고/EC+알/VV+았/EP+어/EC+헤헤/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 하하 우리 벌써 1년이 거의 다 되어간다",
+            "norm_text": "하하 우리 벌써 1년이 거의 다 되어간다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+우리/NP+벌써/MAG+1/SN+년/NNBC+이/JKS+거의/MAG+다/MAG+되/VV+어/EC+간다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 하하 오빠 늘 고마워 덕분에 엄청 행복한 연애를 하고 있어",
+            "norm_text": "맞아 하하 오빠 늘 고마워 덕분에 엄청 행복한 연애를 하고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+하하/MAG+오빠/NNG+늘/MAG+고마워/VA+EC+덕분/NNG+에/JKB+엄청/MAG+행복/NNG+한/XSA+ETM+연애/NNG+를/JKO+하/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 내가 하고 싶은 말이야 하하 고마워",
+            "norm_text": "내가 하고 싶은 말이야 하하 고마워",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+하/VV+고/EC+싶/VX+은/ETM+말/NNG+이야/JX+하하/MAG+고마워/VA+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 앞으로도 잘 예쁘게 만나자 우리!",
+            "norm_text": "앞으로도 잘 예쁘게 만나자 우리!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "앞/NNG+으로/JKB+도/JX+잘/MAG+예쁘/VA+게/EC+만나/VV+자/EC+우리/NP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼 언제든지 힘이 되어주고 곁에 있을 거야!",
+            "norm_text": "그럼 언제든지 힘이 되어주고 곁에 있을 거야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+언제/NP+든지/VCP+EC+힘/NNG+이/JKS+되/VV+어/EC+주/VX+고/EC+곁/NNG+에/JKB+있/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나도 늘 곁에 있을게요 하하 사랑해",
+            "norm_text": "나도 늘 곁에 있을게요 하하 사랑해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+늘/MAG+곁/NNG+에/JKB+있/VV+을게요/EC+하하/MAG+사랑/NNG+해/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오빠가 더 많이 사랑해 하하",
+            "norm_text": "오빠가 더 많이 사랑해 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "오빠/NNG+가/JKS+더/MAG+많이/MAG+사랑/NNG+해/XSV+EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

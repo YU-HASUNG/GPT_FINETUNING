@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 28981,
+    "name": "KAKAO_601_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135525093538/KAKAO_601_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135525093538/KAKAO_601_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30461,
+      "filename": "KAKAO_601_08.txt",
+      "title": "KAKAO_601_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 582,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 582,
+        "word_size": 178,
+        "text": "1 : 언니 최근에 결혼식 가봤어?\n2 : 제일 최근에 갔던 게... 친한 언니 결혼식이었는데, 이번 주 일요일에 또 결혼식 간다!\n1 : 아 진짜 코로나 이후로 안 가봐서 요즘은 어떤가 하고 ㅠㅠ\n2 : 약간 휑하긴 한 거 같아...\n2 : 그래서 초대할 때도 원래는 자율적인데 이제는 묻더라고! 올 건지\n1 : 아아 더군다나 4단계라 더 걱정되더라 ㅠㅠ\n2 : 맞아 ㅠㅠ 미리 잡아놔야 되나 봐! 좌석 수가 제한되니까 ㅠㅠ\n1 : ㅠㅠ 이제는 다들 포기 상태라고 하더라고 인원제한이건 뭐건 그냥 한다구 ㅠㅠ\n2 : 우리 오빠도 미루고 미루고 미루다 겨우 결혼했잖아 ㅠㅠ\n1 : 맞아 ㅠㅠ 후 언제 끝날지도 모르고 그냥 해버리는 게 낫겠어!\n2 : 어차피 해야 될 거... 장단점이 있는데 친구 없는 사람들은 지금이 기회라더라고 키키\n1 : 키키 아 키키 코로나 핑계로 키키 좋은 생각이네\n2 : 딱 그게 우리 오빠였어 키키 ^^\n1 : 키키 그래두 그때 잘하셨다!\n1 : 오빠 결혼식 무사히 마쳐서 다행이야!\n2 : 맞아맞아 하하 10월에는 친구들 결혼 3명이나 한대\n1 : 허거걱 언니 시월에 바쁘겠네에! ㅠㅠ\n2 : 그래서 주말에 진주 한 번 다녀올 것 같아 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 최근에 결혼식 가봤어?",
+            "norm_text": "언니 최근에 결혼식 가봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+최근/NNG+에/JKB+결혼식/NNG+가/JKC+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 제일 최근에 갔던 게... 친한 언니 결혼식이었는데, 이번 주 일요일에 또 결혼식 간다!",
+            "norm_text": "제일 최근에 갔던 게... 친한 언니 결혼식이었는데, 이번 주 일요일에 또 결혼식 간다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제일/MAG+최근/NNG+에/JKB+갔/VV+EP+던/ETM+게/NNB+JKS+./SY+친한/VA+ETM+언니/NNG+결혼식/NNG+이/VCP+었/EP+는데/EC+,/SC+이번/NNG+주/NNG+일요일/NNG+에/JKB+또/MAG+결혼식/NNG+간다/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜 코로나 이후로 안 가봐서 요즘은 어떤가 하고 ㅠㅠ",
+            "norm_text": "아 진짜 코로나 이후로 안 가봐서 요즘은 어떤가 하고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+코로나/NNG+이후/NNG+로/JKB+안/MAG+가/VV+봐서/EC+VX+EC+요즘/NNG+은/JX+어떤가/MM+EC+하/VV+고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 약간 휑하긴 한 거 같아...",
+            "norm_text": "약간 휑하긴 한 거 같아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "약간/MAG+휑/XR+하/XSA+긴/ETN+JX+한/VX+ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그래서 초대할 때도 원래는 자율적인데 이제는 묻더라고! 올 건지",
+            "norm_text": "그래서 초대할 때도 원래는 자율적인데 이제는 묻더라고! 올 건지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+초대/NNG+할/XSV+ETM+때/NNG+도/JX+원래/NNG+는/JX+자율/NNG+적/XSN+인데/VCP+EC+이제/NNG+는/JX+묻/VV+더라고/EF+올/VV+ETM+건지/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아아 더군다나 4단계라 더 걱정되더라 ㅠㅠ",
+            "norm_text": "아아 더군다나 4단계라 더 걱정되더라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아아/IC+더군다나/MAJ+4/SN+단계/NNG+라/VCP+EC+더/MAG+걱정/NNG+되/XSV+더라/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 맞아 ㅠㅠ 미리 잡아놔야 되나 봐! 좌석 수가 제한되니까 ㅠㅠ",
+            "norm_text": "맞아 ㅠㅠ 미리 잡아놔야 되나 봐! 좌석 수가 제한되니까 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+미리/MAG+잡/VV+아/EC+놔야/VX+EC+되/VV+나/EC+봐/VX+EF+좌석/NNG+수/NNG+가/JKS+제한/NNG+되/XSV+니까/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : ㅠㅠ 이제는 다들 포기 상태라고 하더라고 인원제한이건 뭐건 그냥 한다구 ㅠㅠ",
+            "norm_text": "ㅠㅠ 이제는 다들 포기 상태라고 하더라고 인원제한이건 뭐건 그냥 한다구 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+이제/NNG+는/JX+다/MAG+들/XSN+포기/NNG+상태/NNG+라고/VCP+EC+하/VV+더라고/EC+인원/NNG+제한/NNG+이/VCP+건/EC+뭐/IC+건/NP+JX+그냥/MAG+한다구/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 우리 오빠도 미루고 미루고 미루다 겨우 결혼했잖아 ㅠㅠ",
+            "norm_text": "우리 오빠도 미루고 미루고 미루다 겨우 결혼했잖아 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+오빠/NNG+도/JX+미루/VV+고/EC+미루/VV+고/EC+미루/VV+다/EF+겨우/MAG+결혼/NNG+했잖아/XSV+EP+EC+VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맞아 ㅠㅠ 후 언제 끝날지도 모르고 그냥 해버리는 게 낫겠어!",
+            "norm_text": "맞아 ㅠㅠ 후 언제 끝날지도 모르고 그냥 해버리는 게 낫겠어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+후/NNG+언제/MAG+끝날지/VV+EC+도/JX+모르/VV+고/EC+그냥/MAG+해/VV+EC+버리/VX+는/ETM+게/NNB+JKS+낫/VA+겠/EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 어차피 해야 될 거... 장단점이 있는데 친구 없는 사람들은 지금이 기회라더라고 키키",
+            "norm_text": "어차피 해야 될 거... 장단점이 있는데 친구 없는 사람들은 지금이 기회라더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어차피/MAG+해야/VV+EC+될/VV+ETM+거/NNB+./SY+장단점/NNG+이/JKS+있/VV+는데/EC+친구/NNG+없/VA+는/ETM+사람/NNG+들/XSN+은/JX+지금/NNG+이/JKS+기회/NNG+라더라/VCP+EC+고키/NNP+키/NNG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 아 키키 코로나 핑계로 키키 좋은 생각이네",
+            "norm_text": "키키 아 키키 코로나 핑계로 키키 좋은 생각이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+아키/NNP+키/NNG+코로나/NNG+핑계/NNG+로/JKB+키/NNG+키/XSV+ETN+좋/VA+은/ETM+생각/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 딱 그게 우리 오빠였어 키키 ^^",
+            "norm_text": "딱 그게 우리 오빠였어 키키 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "딱/MAG+그게/NP+JKS+우리/NP+오빠/NNG+였/VCP+EP+어/EC+키/NNG+키/XSV+ETN+^/SY+^/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그래두 그때 잘하셨다!",
+            "norm_text": "키키 그래두 그때 잘하셨다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래두/MAJ+그때/NNG+잘/MAG+하/VV+셨/EP+EP+다/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오빠 결혼식 무사히 마쳐서 다행이야!",
+            "norm_text": "오빠 결혼식 무사히 마쳐서 다행이야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오빠/NNG+결혼식/NNG+무사히/MAG+마쳐서/VV+EC+다행/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞아맞아 하하 10월에는 친구들 결혼 3명이나 한대",
+            "norm_text": "맞아맞아 하하 10월에는 친구들 결혼 3명이나 한대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아/EC+하하/MAG+10/SN+월/NNBC+에/JKB+는/JX+친구/NNG+들/XSN+결혼/NNG+3/SN+명/NNBC+이나/JX+한대/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 허거걱 언니 시월에 바쁘겠네에! ㅠㅠ",
+            "norm_text": "허거걱 언니 시월에 바쁘겠네에! ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "허/IC+거걱/UNKNOWN+언니/NNG+시월/NNG+에/JKB+바쁘/VA+겠/EP+네/EF+에/IC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그래서 주말에 진주 한 번 다녀올 것 같아 하하",
+            "norm_text": "그래서 주말에 진주 한 번 다녀올 것 같아 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+주말/NNG+에/JKB+진주/NNP+한/MM+번/NNBC+다녀올/VV+ETM+것/NNB+같/VA+아/EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 46785,
+    "name": "KAKAO_817_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171810011122/KAKAO_817_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171810011122/KAKAO_817_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38856,
+      "filename": "KAKAO_817_03.txt",
+      "title": "KAKAO_817_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 430,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 430,
+        "word_size": 141,
+        "text": "1 : 자동차 종류에 세단이 뭐지\n2 : 세단은 그 좀 긴 거 아니야...? 모르겠네...?\n1 : 아? 그 뭐지 수입차인가 키키\n2 : 몰라...? 키키 왜? 세단은 갑자기?\n1 : 키키 갑자기 보다가 세단이 있어서 이게 뭐지 하고 있었어용 키키\n2 : 키키 나도 차에 그닥 관심이 없어서\n1 : 악 키키 언니 차 타고 다녀서 잘 알 줄 알았옹 키키\n2 : 키키 이번에 현대에서 경형 suv 나온대\n1 : 오 대박 언니 거기 관심 있어용? 키키\n2 : 나쁘지 않아 보이던데? 키키\n1 : 오 키키 경형인데 SUV면 여자들한테 인기 많겠다\n2 : 응응 가격도 젤 비싼 단계가 1900 정도더라\n1 : 오호 키키 함 탈만 한데용? 키키 할부 이빠이 때려서\n2 : 맞제 그래서 나도 조금 혹했어\n1 : 오호 키키 언니 차 뭐 살지 고민하고 있지 않아용?\n2 : 어엉 키키 근데 어차피 돈이 없어 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자동차 종류에 세단이 뭐지",
+            "norm_text": "자동차 종류에 세단이 뭐지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자동차/NNG+종류/NNG+에/JKB+세단/NNG+이/JKS+뭐/NP+지/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 세단은 그 좀 긴 거 아니야...? 모르겠네...?",
+            "norm_text": "세단은 그 좀 긴 거 아니야...? 모르겠네...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "세단/NNG+은/JX+그/IC+좀/MAG+긴/VA+ETM+거/NNB+아니/VCN+야/EF+./SY+./SY+모르/VV+겠/EP+네/EF+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아? 그 뭐지 수입차인가 키키",
+            "norm_text": "아? 그 뭐지 수입차인가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그/IC+뭐/IC+지수/NNG+입/NNG+차인가/NNG+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 몰라...? 키키 왜? 세단은 갑자기?",
+            "norm_text": "몰라...? 키키 왜? 세단은 갑자기?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몰라/VV+EF+./SY+./SY+키/NNG+키/XSV+ETN+왜/MAG+세단/NNG+은/JX+갑자기/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 갑자기 보다가 세단이 있어서 이게 뭐지 하고 있었어용 키키",
+            "norm_text": "키키 갑자기 보다가 세단이 있어서 이게 뭐지 하고 있었어용 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+갑자기/MAG+보/VV+다가/EC+세단/NNG+이/JKS+있/VV+어서/EC+이게/NP+JKS+뭐/IC+지/NNG+하/XSV+고/EC+있/VX+었/EP+어용/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 나도 차에 그닥 관심이 없어서",
+            "norm_text": "키키 나도 차에 그닥 관심이 없어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도차/NNG+에/JKB+그닥/MAG+관심/NNG+이/JKS+없/VA+어서/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 악 키키 언니 차 타고 다녀서 잘 알 줄 알았옹 키키",
+            "norm_text": "악 키키 언니 차 타고 다녀서 잘 알 줄 알았옹 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "악/XPN+키/NNG+키/NNG+언니/NNG+차/NNG+타/VV+고/EC+다녀서/VV+EC+잘/MAG+알/VV+ETM+줄/NNB+알/VV+았/EP+옹/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 이번에 현대에서 경형 suv 나온대",
+            "norm_text": "키키 이번에 현대에서 경형 suv 나온대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+이번/NNG+에/JKB+현대/NNG+에서/JKB+경형/NNG+suv/SL+나/JC+온대/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 대박 언니 거기 관심 있어용? 키키",
+            "norm_text": "오 대박 언니 거기 관심 있어용? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+대박/NNG+언니/NNG+거기/NP+관심/NNG+있/VA+어용/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나쁘지 않아 보이던데? 키키",
+            "norm_text": "나쁘지 않아 보이던데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나쁘/VA+지/EC+않/VX+아/EC+보이/VV+던데/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 키키 경형인데 SUV면 여자들한테 인기 많겠다",
+            "norm_text": "오 키키 경형인데 SUV면 여자들한테 인기 많겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+경형/NNG+인데/VCP+EC+SUV/SL+면/VCP+EC+여자/NNG+들/XSN+한테/JKB+인기/NNG+많/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응응 가격도 젤 비싼 단계가 1900 정도더라",
+            "norm_text": "응응 가격도 젤 비싼 단계가 1900 정도더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+가격/NNG+도/JX+젤/MAG+비싼/VA+ETM+단계/NNG+가/JKS+1900/SN+정도/NNG+더라/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오호 키키 함 탈만 한데용? 키키 할부 이빠이 때려서",
+            "norm_text": "오호 키키 함 탈만 한데용? 키키 할부 이빠이 때려서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+키/NNG+키/NNG+함/XSV+ETN+탈/NNG+만/JX+한데/NNG+용/XSN+키/NNG+키/NNG+할/XSV+ETM+부/NNG+이빠이/MAG+때려서/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞제 그래서 나도 조금 혹했어",
+            "norm_text": "맞제 그래서 나도 조금 혹했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+그래서/MAJ+나/NP+도/JX+조금/MAG+혹했/VV+EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오호 키키 언니 차 뭐 살지 고민하고 있지 않아용?",
+            "norm_text": "오호 키키 언니 차 뭐 살지 고민하고 있지 않아용?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/IC+키/NNG+키/NNG+언니/NNG+차/NNG+뭐/IC+살/VV+지/EC+고민/NNG+하/XSV+고/EC+있/VX+지/EC+않/VX+아용/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어엉 키키 근데 어차피 돈이 없어 하하",
+            "norm_text": "어엉 키키 근데 어차피 돈이 없어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어엉/IC+키/NNG+키/XSV+ETN+근데/MAJ+어차피/MAG+돈/NNG+이/JKS+없/VA+어/EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

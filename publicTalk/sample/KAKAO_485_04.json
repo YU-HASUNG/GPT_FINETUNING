@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 21518,
+    "name": "KAKAO_485_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146068379/KAKAO_485_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146068379/KAKAO_485_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28414,
+      "filename": "KAKAO_485_04.txt",
+      "title": "KAKAO_485_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 697,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 697,
+        "word_size": 217,
+        "text": "1 : 나 요즘 쿠팡이츠로 배달 중 인데 배달이 잘 안 잡혀서 걱정이네...\n2 : 우와! 나도 그거 해봤는데!\n2 : 나 할 때는 많던데~ 요즘은 없어?\n1 : 응응 요즘에 너무 없네...\n1 : 너도 해봤구나?! 어땠어?\n2 : 나는 쿠팡이츠 생기자마자 했어서~\n2 : 사람이 많을 때라 그런지 배달 금액도 높고 엄청 잘 잡혔었어~\n1 : 아 진짜? 초창기 멤버구만?!\n1 : 요즘은 왜 안 해?\n2 : 그때 당시엔 백수였거든 하하\n2 : 지금은 일 하고 있어서... 시간이 애매하더라구! 그래서 그렇게 안 잡히는 줄 몰랐네\n1 : 아~ 그렇구나~! 응 요즘에 쿠팡에서 안 시켜 먹는지 잘 안잡혀 ㅜ\n2 : 아! 그럴 수도 있겠다~ 배달하는 사람이 많아졌나~ 했는데...\n2 : 요즘 배달 어플도 많긴 하더라\n1 : 응응 그렇더라구 키키\n1 : 너는 쿠팡이츠로 자주 시켜 먹어?\n2 : 응 나는 그거 배달 처음 시작 하고부터 빨리 와서 키키 계속 이용 중이야!\n1 : 아 그래? 키키 나는 배달만 해봤지 안 시켜봐서...\n2 : 정말? 난 배달하자마자 시켜 먹었었는데 키키\n2 : 배달 음식을 잘 안 먹나바 넌?\n1 : 왠지 내가 배달하니까 시키고 싶지 않더라구...\n1 : 배달 음식을 내가 포장해서 먹는 편이야\n2 : 오 그럴 수 있겠구나~ 그것도 편리할 거 같다!\n1 : 응응 내가 찾으러 가니까 쿠팡이츠 보다 빨리 먹을 수 있지~\n2 : 그래 암튼 배달이 잘 잡혔으면 좋겠다~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 요즘 쿠팡이츠로 배달 중 인데 배달이 잘 안 잡혀서 걱정이네...",
+            "norm_text": "나 요즘 쿠팡이츠로 배달 중 인데 배달이 잘 안 잡혀서 걱정이네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+요즘/MAG+쿠팡/NNP+이츠로/NNP+배달/NNG+중/NNB+인데/VCP+EC+배달/NNG+이/JKS+잘/MAG+안/MAG+잡혀서/VV+EC+걱정/NNG+이/VCP+네/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우와! 나도 그거 해봤는데!",
+            "norm_text": "우와! 나도 그거 해봤는데!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+나/NP+도/JX+그거/NP+해/VV+EC+봤/VX+EP+는데/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나 할 때는 많던데~ 요즘은 없어?",
+            "norm_text": "나 할 때는 많던데~ 요즘은 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+할/VV+ETM+때/NNG+는/JX+많/VA+던데/EC+~/SY+요즘/NNG+은/JX+없/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응응 요즘에 너무 없네...",
+            "norm_text": "응응 요즘에 너무 없네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+요즘/NNG+에/JKB+너무/MAG+없/VA+네/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 너도 해봤구나?! 어땠어?",
+            "norm_text": "너도 해봤구나?! 어땠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+도/JX+해/VV+EC+봤/VX+EP+구나/EF+!/SY+어땠어/VA+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 쿠팡이츠 생기자마자 했어서~",
+            "norm_text": "나는 쿠팡이츠 생기자마자 했어서~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+쿠팡/NNP+이/JKS+츠/IC+생기/VV+자마자/EC+했/VX+EP+어서/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 사람이 많을 때라 그런지 배달 금액도 높고 엄청 잘 잡혔었어~",
+            "norm_text": "사람이 많을 때라 그런지 배달 금액도 높고 엄청 잘 잡혔었어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사람/NNG+이/JKS+많/VA+을/ETM+때/NNG+라/VCP+EC+그런/MM+지배/NNG+달/NNG+금액/NNG+도/JX+높/VA+고/EC+엄청/MAG+잘/MAG+잡혔/VV+EP+었/EP+어/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진짜? 초창기 멤버구만?!",
+            "norm_text": "아 진짜? 초창기 멤버구만?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+초창기/NNG+멤버/NNG+구만/NNG+?/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 요즘은 왜 안 해?",
+            "norm_text": "요즘은 왜 안 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+은/JX+왜/MAG+안/MAG+해/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그때 당시엔 백수였거든 하하",
+            "norm_text": "그때 당시엔 백수였거든 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그때/NNG+당시/NNG+엔/JKB+JX+백수/NNG+였/VCP+EP+거든/EF+하하/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 지금은 일 하고 있어서... 시간이 애매하더라구! 그래서 그렇게 안 잡히는 줄 몰랐네",
+            "norm_text": "지금은 일 하고 있어서... 시간이 애매하더라구! 그래서 그렇게 안 잡히는 줄 몰랐네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+은/JX+일/NNG+하/XSV+고/EC+있/VX+어서/EC+./SY+./SY+시간/NNG+이/JKS+애매/XR+하/XSA+더라구/EF+그래서/MAJ+그렇게/MAG+안/MAG+잡히/VV+는/ETM+줄/NNB+몰랐/VV+EP+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아~ 그렇구나~! 응 요즘에 쿠팡에서 안 시켜 먹는지 잘 안잡혀 ㅜ",
+            "norm_text": "아~ 그렇구나~! 응 요즘에 쿠팡에서 안 시켜 먹는지 잘 안잡혀 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+그렇/VA+구나/EF+~/SY+응/IC+요즘/NNG+에/JKB+쿠팡/NNP+에서/JKB+안/MAG+시켜/VV+EC+먹/VV+는지/EC+잘/MAG+안/MAG+잡혀/VV+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아! 그럴 수도 있겠다~ 배달하는 사람이 많아졌나~ 했는데...",
+            "norm_text": "아! 그럴 수도 있겠다~ 배달하는 사람이 많아졌나~ 했는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럴/VV+ETM+수/NNB+도/JX+있/VA+겠/EP+다/EC+~/SY+배달/NNG+하/XSV+는/ETM+사람/NNG+이/JKS+많/VA+아/EC+졌/VX+EP+나/EC+~/SY+했/VV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 요즘 배달 어플도 많긴 하더라",
+            "norm_text": "요즘 배달 어플도 많긴 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+배달/NNG+어/IC+플/NNG+도/JX+많/VA+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응응 그렇더라구 키키",
+            "norm_text": "응응 그렇더라구 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그렇/VA+더라구/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 너는 쿠팡이츠로 자주 시켜 먹어?",
+            "norm_text": "너는 쿠팡이츠로 자주 시켜 먹어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+쿠팡/NNP+이츠로/NNP+자주/MAG+시켜/VV+EC+먹/VV+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 나는 그거 배달 처음 시작 하고부터 빨리 와서 키키 계속 이용 중이야!",
+            "norm_text": "응 나는 그거 배달 처음 시작 하고부터 빨리 와서 키키 계속 이용 중이야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+그거/NP+배달/NNG+처음/NNG+시작/NNG+하/XSV+고/EC+부터/JX+빨리/MAG+와서/VV+EC+키/NNG+키/NNG+계속/MAG+이용/NNG+중/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 그래? 키키 나는 배달만 해봤지 안 시켜봐서...",
+            "norm_text": "아 그래? 키키 나는 배달만 해봤지 안 시켜봐서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키나/XSA+ETN+JX+는/JX+배달/NNG+만/JX+해/VV+EC+봤/VX+EP+지/EC+안/MAG+시켜/VV+EC+봐서/VX+EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 정말? 난 배달하자마자 시켜 먹었었는데 키키",
+            "norm_text": "정말? 난 배달하자마자 시켜 먹었었는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+난/NP+JX+배달/NNG+하/XSV+자마자/EC+시켜/VV+EC+먹/VV+었었/EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 배달 음식을 잘 안 먹나바 넌?",
+            "norm_text": "배달 음식을 잘 안 먹나바 넌?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "배달/NNG+음식/NNG+을/JKO+잘/MAG+안/MAG+먹/VV+나/EC+바/NNB+넌/NP+JX"
+          },
+          {
+            "id": 21,
+            "text": "1 : 왠지 내가 배달하니까 시키고 싶지 않더라구...",
+            "norm_text": "왠지 내가 배달하니까 시키고 싶지 않더라구...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왠지/MAG+내/NP+가/JKS+배달/NNG+하/XSV+니까/EC+시키/VV+고/EC+싶/VX+지/EC+않/VX+더라구/EF+./SY"
+          },
+          {
+            "id": 22,
+            "text": "1 : 배달 음식을 내가 포장해서 먹는 편이야",
+            "norm_text": "배달 음식을 내가 포장해서 먹는 편이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배달/NNG+음식/NNG+을/JKO+내/NP+가/JKS+포장/NNG+해서/XSV+EC+먹/VV+는/ETM+편/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 오 그럴 수 있겠구나~ 그것도 편리할 거 같다!",
+            "norm_text": "오 그럴 수 있겠구나~ 그것도 편리할 거 같다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+그럴/VV+ETM+수/NNB+있/VV+겠/EP+구나/EF+~/SY+그것/NP+도/JX+편리/NNG+할/XSV+ETM+거/NNB+같/VA+다/EF"
+          },
+          {
+            "id": 24,
+            "text": "1 : 응응 내가 찾으러 가니까 쿠팡이츠 보다 빨리 먹을 수 있지~",
+            "norm_text": "응응 내가 찾으러 가니까 쿠팡이츠 보다 빨리 먹을 수 있지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+내/NP+가/JKS+찾/VV+으러/EC+가/VX+니까/EC+쿠팡/NNP+이/JKS+츠/IC+보다/MAG+빨리/MAG+먹/VV+을/ETM+수/NNB+있/VV+지/EC+~/SY"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그래 암튼 배달이 잘 잡혔으면 좋겠다~!",
+            "norm_text": "그래 암튼 배달이 잘 잡혔으면 좋겠다~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+암튼/MAJ+배달/NNG+이/JKS+잘/MAG+잡혔/VV+EP+으면/EC+좋/VA+겠/EP+다/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

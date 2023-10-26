@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 38860,
+    "name": "KAKAO_735_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941044094/KAKAO_735_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941044094/KAKAO_735_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37471,
+      "filename": "KAKAO_735_01.txt",
+      "title": "KAKAO_735_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 503,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 503,
+        "word_size": 157,
+        "text": "1 : 우리 오늘 야근인데 뭐 먹을까?\n2 : 나 편의점은 질렸어 몇 주째 편의점 가서 삼각김밥에 라면만 먹었잖아\n1 : 나도 몇 주째 가서 물렸어.\n2 : 맘스터치? 아니면 이삭 토스트 어떤 게 나아?\n1 : 나 맘스터치 먹을래. 맘스터치 먹은 지 벌써 4개월 됐나 봐.\n2 : 그걸 어떻게 기억해? 기억력도 좋다!~\n1 : 내가 총무잖아. 써 놔서 알지. ㅋ\n2 : 하긴 전에 우리 야근할 때 먹었었는데 언니 배 안 고프다고 커피로 때웠었어. 그래서 오래 안 먹은 거네.\n1 : 맞아 그날따라 배가 안 고파서 그랬었지\n2 : 어 언니 그러면서 감자튀김 맛있다고 반 이상 먹던데.\n2 : 안 배고파서 그 정도 먹은 거지? ㅋ\n1 : 그렇지. 배고팠으면 먹을 것 남아나지 않았을 거야. ㅋ\n2 : ㅋ 어떤 거 식사 드실래요? 메뉴 골라봐요~\n1 : 응 메뉴는 싸이버거 세트로 시키자.\n2 : 당연하죠. 햄버거엔 콜라 국룰 아닌가요?  나 엄청 목말라.\n1 : 배달이 낫니? 포장이 낫겠니?\n2 : 가까우니깐 포장으로 하시죠. ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 오늘 야근인데 뭐 먹을까?",
+            "norm_text": "우리 오늘 야근인데 뭐 먹을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+오늘/MAG+야근/NNG+인데/VCP+EC+뭐/IC+먹/VV+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 편의점은 질렸어 몇 주째 편의점 가서 삼각김밥에 라면만 먹었잖아",
+            "norm_text": "나 편의점은 질렸어 몇 주째 편의점 가서 삼각김밥에 라면만 먹었잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+편의점/NNG+은/JX+질렸/VV+EP+어/EC+몇/MM+주/NNBC+째/XSN+편의점/NNG+가/VV+서/EC+삼각김밥/NNP+에/JKB+라면/NNG+만/JX+먹/VV+었잖/EC+VX+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나도 몇 주째 가서 물렸어.",
+            "norm_text": "나도 몇 주째 가서 물렸어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+몇/MM+주/NNBC+째/XSN+가/VV+서/EC+물렸/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맘스터치? 아니면 이삭 토스트 어떤 게 나아?",
+            "norm_text": "맘스터치? 아니면 이삭 토스트 어떤 게 나아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맘/NNG+스/XSN+터치/NNG+아니면/MAJ+이삭/NNP+토스트/NNP+어떤/MM+게/NNB+JKS+나아/VA+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나 맘스터치 먹을래. 맘스터치 먹은 지 벌써 4개월 됐나 봐.",
+            "norm_text": "나 맘스터치 먹을래. 맘스터치 먹은 지 벌써 4개월 됐나 봐.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나맘스터치먹을래/UNKNOWN+맘/NNG+스/XSN+터치/NNG+먹/VV+은지/EC+벌써/MAG+4/SN+개월/NNBC+됐/VV+EP+나/EC+봐/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그걸 어떻게 기억해? 기억력도 좋다!~",
+            "norm_text": "그걸 어떻게 기억해? 기억력도 좋다!~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그걸/NP+JKO+어떻게/MAG+기억/NNG+해/XSV+EF+기억력/NNG+도/JX+좋/VA+다/EF+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 내가 총무잖아. 써 놔서 알지. ㅋ",
+            "norm_text": "내가 총무잖아. 써 놔서 알지. ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+총무/NNG+잖아/VCP+EC+VX+EF+써/VV+EC+놔서/VX+EC+알/VV+지/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 하긴 전에 우리 야근할 때 먹었었는데 언니 배 안 고프다고 커피로 때웠었어. 그래서 오래 안 먹은 거네.",
+            "norm_text": "하긴 전에 우리 야근할 때 먹었었는데 언니 배 안 고프다고 커피로 때웠었어. 그래서 오래 안 먹은 거네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+전/NNG+에/JKB+우리/NP+야근/NNG+할/XSV+ETM+때/NNG+먹/VV+었었/EP+는데/EC+언니/NNG+배/NNB+JKC+안/MAG+고프/VA+다고/EC+커피/NNG+로/JKB+때웠/VV+EP+었/EP+어/EF+그래서/MAJ+오래/MAG+안/MAG+먹/VV+은/ETM+거/NNB+네/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞아 그날따라 배가 안 고파서 그랬었지",
+            "norm_text": "맞아 그날따라 배가 안 고파서 그랬었지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그날/NNG+따라/VV+EC+배/NNG+가/JKS+안/MAG+고파서/VA+EC+그랬었/VV+EP+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 어 언니 그러면서 감자튀김 맛있다고 반 이상 먹던데.",
+            "norm_text": "어 언니 그러면서 감자튀김 맛있다고 반 이상 먹던데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+언니/NNG+그러/VV+면서/EC+감자튀김/NNG+맛있/VA+다고/EC+반/NNG+이상/NNG+먹/VV+던데/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 안 배고파서 그 정도 먹은 거지? ㅋ",
+            "norm_text": "안 배고파서 그 정도 먹은 거지? ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+배고파서/VA+EC+그/MM+정도/NNG+먹/VV+은/ETM+거/NNB+지/VCP+EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그렇지. 배고팠으면 먹을 것 남아나지 않았을 거야. ㅋ",
+            "norm_text": "그렇지. 배고팠으면 먹을 것 남아나지 않았을 거야. ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+배고팠/VA+EP+으면/EC+먹/VV+을/ETM+것/NNB+남아나/VV+지/EC+않/VX+았/EP+을/ETM+거/NNB+야/VCP+EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : ㅋ 어떤 거 식사 드실래요? 메뉴 골라봐요~",
+            "norm_text": "ㅋ 어떤 거 식사 드실래요? 메뉴 골라봐요~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅋ/UNKNOWN+어떤/MM+거/NNB+식사/NNG+드실래요/VV+EP+EF+메뉴/NNG+골라/VV+EC+봐요/VX+EF+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응 메뉴는 싸이버거 세트로 시키자.",
+            "norm_text": "응 메뉴는 싸이버거 세트로 시키자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+메뉴/NNG+는/JX+싸/VA+EF+이/MM+버거/NNG+세트/NNG+로/JKB+시키/VV+자/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 당연하죠. 햄버거엔 콜라 국룰 아닌가요?  나 엄청 목말라.",
+            "norm_text": "당연하죠. 햄버거엔 콜라 국룰 아닌가요?  나 엄청 목말라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+죠/EF+햄버거/NNG+엔/JKB+JX+콜라/NNG+국/NNG+룰/NNG+아닌가요/VCN+EF+나/NP+엄청/MAG+목말라/VA+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 배달이 낫니? 포장이 낫겠니?",
+            "norm_text": "배달이 낫니? 포장이 낫겠니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "배달/NNG+이/JKS+낫/VA+니/EF+포장/NNG+이/JKS+낫/VV+겠/EP+니/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 가까우니깐 포장으로 하시죠. ㅋ",
+            "norm_text": "가까우니깐 포장으로 하시죠. ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가까우/VA+니깐/EC+포장/NNG+으로/JKB+하/VV+시/EP+죠/EF+ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

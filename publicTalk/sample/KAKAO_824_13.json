@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 69549,
+    "name": "KAKAO_824_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301720560540107/KAKAO_824_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301720560540107/KAKAO_824_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39006,
+      "filename": "KAKAO_824_13.txt",
+      "title": "KAKAO_824_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 555,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 555,
+        "word_size": 180,
+        "text": "1 : 어제 밤에 한강 갔는데 진짜 춥더라...\n2 : 어제 서울도 그랬어?\n2 : 대구도 엄청 추웠어\n1 : 어제는 강아지 친구 만나서 내가 뛸 일이 없어서 계속 서있었는데 콧물이 나오더라...\n2 : 아이구 겉옷을 안 챙겨서 나간 거야?\n1 : 웅... 당연히 안 챙겼지 ㅜㅜ\n1 : 낮에는 여름처럼 더웠다고 ㅜㅜ\n2 : 그건 그래 ㅠ 요즘 일교차가 커서 조심하긴 해야 돼\n1 : 어제는 바람도 엄청 많이 불어서 더 추웠던 것 같아!\n2 : 응 어제 나는 바람막이도 입었는데도 추웠어\n1 : 벌써 바람막이 꺼낸 거야? 빠르네?\n1 : 대구는 아직 더운 거 아니야?\n2 : 저녁에 바람이 너무 불어서 바람막이 꺼내놨어 하하\n1 : 키키 잘했네 키키 그래 옷은 미리미리 꺼내 놓는 게 좋겠다!\n1 : 겨울 옷도 이제 싹 꺼내야지!\n2 : 응 이제 슬슬 가을 겨울 옷 꺼내서 준비해야 할 듯\n1 : 키키 트렌치코트는 얼마 입을 날이 많이 없을지도 몰라... 키키\n2 : 진짜 지금 코트 준비해 놨는데 얼마 못 입을 거 같아\n1 : ㅜㅜ 가을이 조금만 더 길면 좋겠는데 ㅜㅜ\n2 : 응 ㅠ 가을 예쁜 옷도 많이 입고 싶은데 아쉽네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어제 밤에 한강 갔는데 진짜 춥더라...",
+            "norm_text": "어제 밤에 한강 갔는데 진짜 춥더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어제/MAG+밤/NNG+에/JKB+한강/NNP+갔/VV+EP+는데/EC+진짜/MAG+춥/VA+더라/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어제 서울도 그랬어?",
+            "norm_text": "어제 서울도 그랬어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어제/MAG+서울/NNP+도/JX+그랬/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 대구도 엄청 추웠어",
+            "norm_text": "대구도 엄청 추웠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대구/NNP+도/JX+엄청/MAG+추웠/VA+EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 어제는 강아지 친구 만나서 내가 뛸 일이 없어서 계속 서있었는데 콧물이 나오더라...",
+            "norm_text": "어제는 강아지 친구 만나서 내가 뛸 일이 없어서 계속 서있었는데 콧물이 나오더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/NNG+는/JX+강아지/NNG+친구/NNG+만나/VV+서/EC+내/NP+가/JKS+뛸/VV+ETM+일/NNG+이/JKS+없/VA+어서/EC+계속/MAG+서/VV+EC+있/VX+었/EP+는데/EC+콧물/NNG+이/JKS+나오/VV+더라/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아이구 겉옷을 안 챙겨서 나간 거야?",
+            "norm_text": "아이구 겉옷을 안 챙겨서 나간 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아이구/IC+겉옷/NNG+을/JKO+안/MAG+챙겨서/VV+EC+나간/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 웅... 당연히 안 챙겼지 ㅜㅜ",
+            "norm_text": "웅... 당연히 안 챙겼지 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+./SY+당연히안챙겼지ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 낮에는 여름처럼 더웠다고 ㅜㅜ",
+            "norm_text": "낮에는 여름처럼 더웠다고 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "낮/NNG+에/JKB+는/JX+여름/NNG+처럼/JKB+더웠/VA+EP+다고/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그건 그래 ㅠ 요즘 일교차가 커서 조심하긴 해야 돼",
+            "norm_text": "그건 그래 ㅠ 요즘 일교차가 커서 조심하긴 해야 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그건/NP+JX+그래/VA+EC+ㅠ/UNKNOWN+요즘/NNG+일교차/NNG+가/JKS+커서/VV+EC+조심/NNG+하/XSV+긴/ETN+JX+해야/VX+EC+돼/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어제는 바람도 엄청 많이 불어서 더 추웠던 것 같아!",
+            "norm_text": "어제는 바람도 엄청 많이 불어서 더 추웠던 것 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/NNG+는/JX+바람/NNG+도/JX+엄청/MAG+많이/MAG+불/VV+어서/EC+더/MAG+추웠/VA+EP+던/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 어제 나는 바람막이도 입었는데도 추웠어",
+            "norm_text": "응 어제 나는 바람막이도 입었는데도 추웠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+어제/MAG+나/NP+는/JX+바람막이/NNG+도/JX+입/VV+었/EP+는데/EC+도/JX+추웠/VA+EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 벌써 바람막이 꺼낸 거야? 빠르네?",
+            "norm_text": "벌써 바람막이 꺼낸 거야? 빠르네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "벌써/MAG+바람막이/NNG+꺼낸/VV+ETM+거/NNB+야/VCP+EF+빠르/VA+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 대구는 아직 더운 거 아니야?",
+            "norm_text": "대구는 아직 더운 거 아니야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대구/NNP+는/JX+아직/MAG+더운/VA+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 저녁에 바람이 너무 불어서 바람막이 꺼내놨어 하하",
+            "norm_text": "저녁에 바람이 너무 불어서 바람막이 꺼내놨어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저녁/NNG+에/JKB+바람/NNG+이/JKS+너무/MAG+불/VV+어서/EC+바람막이/NNG+꺼내/VV+EC+놨/VX+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 잘했네 키키 그래 옷은 미리미리 꺼내 놓는 게 좋겠다!",
+            "norm_text": "키키 잘했네 키키 그래 옷은 미리미리 꺼내 놓는 게 좋겠다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+잘/MAG+했/VV+EP+네/EF+키/NNG+키/XSV+ETN+그래/VA+EC+옷/NNG+은/JX+미리미리/MAG+꺼내/VV+EC+놓/VX+는/ETM+게/NNB+JKS+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 겨울 옷도 이제 싹 꺼내야지!",
+            "norm_text": "겨울 옷도 이제 싹 꺼내야지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "겨울옷/NNG+도/JX+이제/MAG+싹/MAG+꺼내/VV+야지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 이제 슬슬 가을 겨울 옷 꺼내서 준비해야 할 듯",
+            "norm_text": "응 이제 슬슬 가을 겨울 옷 꺼내서 준비해야 할 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+이제/MAG+슬슬/MAG+가을/NNG+겨울옷/NNG+꺼내/VV+서/EC+준비/NNG+해야/XSV+EC+할/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 트렌치코트는 얼마 입을 날이 많이 없을지도 몰라... 키키",
+            "norm_text": "키키 트렌치코트는 얼마 입을 날이 많이 없을지도 몰라... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+트렌치코트/NNG+는/JX+얼마/NNG+입/NNG+을/JKO+날/NNG+이/JKS+많이/MAG+없/VA+을지/EC+도/JX+몰라/VV+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 진짜 지금 코트 준비해 놨는데 얼마 못 입을 거 같아",
+            "norm_text": "진짜 지금 코트 준비해 놨는데 얼마 못 입을 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+지금/MAG+코트/NNG+준비/NNG+해/XSV+EC+놨는데/VX+EP+EC+얼마/NNG+못/MAG+입/VV+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : ㅜㅜ 가을이 조금만 더 길면 좋겠는데 ㅜㅜ",
+            "norm_text": "ㅜㅜ 가을이 조금만 더 길면 좋겠는데 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+가을/NNG+이/JKS+조금/MAG+만/JX+더/MAG+길/VA+면/EC+좋/VA+겠/EP+는데/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 응 ㅠ 가을 예쁜 옷도 많이 입고 싶은데 아쉽네",
+            "norm_text": "응 ㅠ 가을 예쁜 옷도 많이 입고 싶은데 아쉽네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응ㅠ/UNKNOWN+가을/NNG+예쁜/VA+ETM+옷/NNG+도/JX+많이/MAG+입/VV+고/EC+싶/VX+은데/EC+아쉽/VA+네/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

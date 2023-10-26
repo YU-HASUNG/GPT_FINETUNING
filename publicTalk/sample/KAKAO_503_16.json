@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 22138,
+    "name": "KAKAO_503_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150449081396/KAKAO_503_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150449081396/KAKAO_503_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29427,
+      "filename": "KAKAO_503_16.txt",
+      "title": "KAKAO_503_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 624,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 624,
+        "word_size": 197,
+        "text": "1 : 다이어트 잘 하고 계십니까?\n2 : 하핫; 더 무거워졌습니다...\n2 : 다이어트는 본디 월래 내일 하는 것 아니겠습니까?\n1 : 아 전 오늘로 알고 있었는데 잘못 알고 계신 거 아닌지? 키키\n2 : 아니요~ 내일부터 시작이죠~\n2 : 오늘은 이제 마지막 날로 먹어야죠~\n1 : 내일 지켜보겠습니다\n1 : 내일이 또 내일이 되는 일은 없겠죠?\n2 : 아 참! 당분간 다이어트 못할 것 같습니다.\n2 : 백신을 맞아야 해서 건강 유지해야죠; 하핫;\n1 : 키키 아 명분이 그럴 듯했어 키키\n2 : 키키 명분이 아닙니다~\n2 : 어쩔 수 없는 불가항력과도 같은 일이죠~\n2 : 건강이 우선이니까요 키키\n1 : 키키 오케이 인정 키키 건강이 먼저지 키키\n2 : 키키 아~ 힘들었다;\n2 : 근데... 빼기는 해야 하는데... 또 살 쪘어 ㅠㅠ\n1 : 키키 간식을 줄여야 돼 키키 그게 제일 커\n2 : 진짜 너무 슬픈 일이야 ㅠㅠ\n2 : 왜 내가 좋아하는 건 다 살이 찌는 것들 뿐일까 ㅠㅠ\n1 : 키키 야채랑 친해지도록 하세요 키키\n2 : 풀 말씀이신가요?\n2 : 아~ 영원히 저와는 절친이 되기 어려운 그 아이 말씀이죠?\n1 : 노력은 해보세요 풀들은 언제나 환영이래 키키\n2 : 아~ 그들은 나를 너무 좋아해서 문제야;\n2 : 내가 마음이 없는데 말이지;",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 다이어트 잘 하고 계십니까?",
+            "norm_text": "다이어트 잘 하고 계십니까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다이어트/NNG+잘/MAG+하/VV+고/EC+계십니까/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 하핫; 더 무거워졌습니다...",
+            "norm_text": "하핫; 더 무거워졌습니다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하핫/MAG+;/SY+더/MAG+무거워졌/VA+EC+VX+EP+습니다/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 다이어트는 본디 월래 내일 하는 것 아니겠습니까?",
+            "norm_text": "다이어트는 본디 월래 내일 하는 것 아니겠습니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다이어트/NNG+는/JX+본디/NNG+월래/NNG+내일/NNG+하/XSV+는/ETM+것/NNB+아니/VCN+겠/EP+습니까/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아 전 오늘로 알고 있었는데 잘못 알고 계신 거 아닌지? 키키",
+            "norm_text": "아 전 오늘로 알고 있었는데 잘못 알고 계신 거 아닌지? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아전/NNG+오늘/NNG+로/JKB+알/VV+고/EC+있/VX+었/EP+는데/EC+잘못/MAG+알/VV+고/EC+계신/VX+ETM+거/NNB+아닌지/VCN+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아니요~ 내일부터 시작이죠~",
+            "norm_text": "아니요~ 내일부터 시작이죠~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니요/IC+~/SY+내일/NNG+부터/JX+시작/NNG+이/VCP+죠/EF+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오늘은 이제 마지막 날로 먹어야죠~",
+            "norm_text": "오늘은 이제 마지막 날로 먹어야죠~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/NNG+은/JX+이제/MAG+마지막/NNG+날/NNG+로/JKB+먹/VV+어야죠/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 내일 지켜보겠습니다",
+            "norm_text": "내일 지켜보겠습니다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "내일/MAG+지켜보/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 내일이 또 내일이 되는 일은 없겠죠?",
+            "norm_text": "내일이 또 내일이 되는 일은 없겠죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내일/NNG+이/JKS+또/MAG+내일/NNG+이/JKS+되/VV+는/ETM+일/NNG+은/JX+없/VA+겠/EP+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 참! 당분간 다이어트 못할 것 같습니다.",
+            "norm_text": "아 참! 당분간 다이어트 못할 것 같습니다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+참/IC+당분간/MAG+다이어트/NNG+못/MAG+할/VV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 백신을 맞아야 해서 건강 유지해야죠; 하핫;",
+            "norm_text": "백신을 맞아야 해서 건강 유지해야죠; 하핫;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백신/NNG+을/JKO+맞/VV+아야/EC+해서/VV+EC+건강/NNG+유지/NNG+해야죠/XSV+EF+;/SY+하핫/MAG+;/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 아 명분이 그럴 듯했어 키키",
+            "norm_text": "키키 아 명분이 그럴 듯했어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+명분/NNG+이/JKS+그럴/VV+ETM+듯/NNB+했/XSA+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 명분이 아닙니다~",
+            "norm_text": "키키 명분이 아닙니다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+명분/NNG+이/JKC+아닙니다/VCN+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 어쩔 수 없는 불가항력과도 같은 일이죠~",
+            "norm_text": "어쩔 수 없는 불가항력과도 같은 일이죠~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쩔/VV+ETM+수/NNB+없/VA+는/ETM+불가항력/NNG+과/JKB+도/JX+같/VA+은/ETM+일/NNG+이/VCP+죠/EF+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 건강이 우선이니까요 키키",
+            "norm_text": "건강이 우선이니까요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "건강/NNG+이/JKS+우선/MAG+이/VCP+니까/EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 오케이 인정 키키 건강이 먼저지 키키",
+            "norm_text": "키키 오케이 인정 키키 건강이 먼저지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+오케/NNP+이인정/NNP+키키/NNP+건강/NNG+이/JKS+먼저/MAG+지키/NNP+키/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 아~ 힘들었다;",
+            "norm_text": "키키 아~ 힘들었다;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+~/SY+힘들/VA+었/EP+다/EC+;/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 근데... 빼기는 해야 하는데... 또 살 쪘어 ㅠㅠ",
+            "norm_text": "근데... 빼기는 해야 하는데... 또 살 쪘어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+./SY+빼/VV+기/ETN+는/JX+해야/VV+EC+하/VV+는데/EC+./SY+./SY+또살쪘어ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 간식을 줄여야 돼 키키 그게 제일 커",
+            "norm_text": "키키 간식을 줄여야 돼 키키 그게 제일 커",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/NNG+간식/NNG+을/JKO+줄여야/VV+EC+돼/VV+EC+키/NNG+키/XSV+ETN+그게/NP+JKS+제일/MAG+커/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 진짜 너무 슬픈 일이야 ㅠㅠ",
+            "norm_text": "진짜 너무 슬픈 일이야 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+너무/MAG+슬픈/VA+ETM+일/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 왜 내가 좋아하는 건 다 살이 찌는 것들 뿐일까 ㅠㅠ",
+            "norm_text": "왜 내가 좋아하는 건 다 살이 찌는 것들 뿐일까 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+내/NP+가/JKS+좋/VA+아/EC+하/VV+는/ETM+건/NNB+JX+다살/NNG+이/JKS+찌/VV+는/ETM+것/NNB+들/XSN+뿐/JX+일까/VCP+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 키키 야채랑 친해지도록 하세요 키키",
+            "norm_text": "키키 야채랑 친해지도록 하세요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "키/NNG+키/NNG+야채/NNG+랑/JKB+친해/VA+EC+지/VX+도록/EC+하/VX+세요/EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 풀 말씀이신가요?",
+            "norm_text": "풀 말씀이신가요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "풀/NNG+말씀/NNG+이/VCP+신가요/EP+EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 아~ 영원히 저와는 절친이 되기 어려운 그 아이 말씀이죠?",
+            "norm_text": "아~ 영원히 저와는 절친이 되기 어려운 그 아이 말씀이죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+영원히/MAG+저/NP+와/JKB+는/JX+절친/NNG+이/JKS+되/VV+기/ETN+어려운/VA+ETM+그/MM+아이/NNG+말씀/NNG+이/VCP+죠/EF"
+          },
+          {
+            "id": 24,
+            "text": "1 : 노력은 해보세요 풀들은 언제나 환영이래 키키",
+            "norm_text": "노력은 해보세요 풀들은 언제나 환영이래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "노력/NNG+은/JX+해/VV+EC+보/VX+세요/EP+EF+풀/NNG+들/XSN+은/JX+언제나/MAG+환영/NNG+이/JKS+래키/NNP+키/NNG"
+          },
+          {
+            "id": 25,
+            "text": "2 : 아~ 그들은 나를 너무 좋아해서 문제야;",
+            "norm_text": "아~ 그들은 나를 너무 좋아해서 문제야;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+그/NP+들/XSN+은/JX+나/NP+를/JKO+너무/MAG+좋/VA+아/EC+해서/VV+EC+문제/NNG+야/JKV+;/SY"
+          },
+          {
+            "id": 26,
+            "text": "2 : 내가 마음이 없는데 말이지;",
+            "norm_text": "내가 마음이 없는데 말이지;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+마음/NNG+이/JKS+없/VA+는데/EC+말/NNG+이/VCP+지/EC+;/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

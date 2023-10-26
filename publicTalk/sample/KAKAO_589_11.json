@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 24479,
+    "name": "KAKAO_589_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822026271/KAKAO_589_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822026271/KAKAO_589_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31462,
+      "filename": "KAKAO_589_11.txt",
+      "title": "KAKAO_589_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 695,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 695,
+        "word_size": 214,
+        "text": "1 : 너는 틀린 그림 찾기 잘해? 난 잘하는데 키키\n2 : 추억 여행이야? 키키 진짜 어릴 때 짱 많이 했는데!\n2 : 오락실 가도 틀린 그림 찾기는 필수였지 키키\n1 : 응응 키키 오락실에 틀린 그림 찾기는 진리였지 키키\n1 : 스노우맨도 기억나?\n2 : 아ㅜㅜ 나 그거 진짜 못 했어 키키\n2 : 스노우맨보다는 보글보글 키키\n1 : 보글보글이나 스노우맨이나 비슷하지 않아? 키키\n1 : 보글보글은 잘했어?\n2 : 응 키키 보글보글은 보스 많이 깼지 키키\n2 : 스노우맨은 그 눈사람 만들어서 쳐내야 되잖아\n2 : 쳐내는 걸 못하더라고 내가 키키\n1 : 아 그래? 키키 비행기 게임은? 많이 해봤어?\n2 : 오 그거 우리 아빠가 진짜 짱 잘했는데 키키\n2 : 난 맨날 1단계에서 죽어...\n1 : 아빠가? 키키 나도 비행기 게임 잘하는데~!\n1 : 오락실 가면 또 생각나는 게임 있어?\n2 : 난 힘으로 하는 걸 좋아해서... 펀치! 펀치 신기록 많이 세웠지~\n1 : 오~ 펀치 신기록?! 대단하다 너한테 까불면 안 되겠다\n2 : 키키 오랜만에 오락실도 가고 싶다~\n2 : 술 먹으면 필수 코스였는데~ 이제 술을 못 먹네ㅠ\n1 : 그러게... 나는 영화 보러 가서 시간 때우러 오락실 자주 갔었는데~\n2 : 아아 맞아~ 백화점이나 영화관에도 많이 생겼더라 오락실이 키키\n1 : 응응 키키 나중에 너 펀치 실력 보러 가야겠다~\n2 : 그래 놀랄 준비하고 따라와~ 신기록 세워보자 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 틀린 그림 찾기 잘해? 난 잘하는데 키키",
+            "norm_text": "너는 틀린 그림 찾기 잘해? 난 잘하는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+틀린/VV+ETM+그림/NNG+찾/VV+기/ETN+잘/MAG+해/VV+EF+난/NP+JX+잘/MAG+하/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 추억 여행이야? 키키 진짜 어릴 때 짱 많이 했는데!",
+            "norm_text": "추억 여행이야? 키키 진짜 어릴 때 짱 많이 했는데!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "추억/NNG+여행/NNG+이/VCP+야/EF+키/NNG+키/XSV+ETN+진짜/MAG+어릴/VA+ETM+때짱/NNG+많이/MAG+했/VV+EP+는데/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 오락실 가도 틀린 그림 찾기는 필수였지 키키",
+            "norm_text": "오락실 가도 틀린 그림 찾기는 필수였지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오락/NNG+실가/NNG+도/JX+틀린/VV+ETM+그림/NNG+찾/VV+기/ETN+는/JX+필수/NNG+였/VCP+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응응 키키 오락실에 틀린 그림 찾기는 진리였지 키키",
+            "norm_text": "응응 키키 오락실에 틀린 그림 찾기는 진리였지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/NNG+오락실/NNG+에/JKB+틀린/VV+ETM+그림/NNG+찾/VV+기/ETN+는/JX+진리/NNG+였/VCP+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 스노우맨도 기억나?",
+            "norm_text": "스노우맨도 기억나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "스노우/NNP+맨/NNG+도/JX+기억나/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아ㅜㅜ 나 그거 진짜 못 했어 키키",
+            "norm_text": "아ㅜㅜ 나 그거 진짜 못 했어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+나/NP+그거/NP+진짜/MAG+못/MAG+했/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 스노우맨보다는 보글보글 키키",
+            "norm_text": "스노우맨보다는 보글보글 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "스노우/NNP+맨/NNG+보다/JKB+는/JX+보글보글/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 보글보글이나 스노우맨이나 비슷하지 않아? 키키",
+            "norm_text": "보글보글이나 스노우맨이나 비슷하지 않아? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "보글보글/MAG+이나스/NNP+노우/NNG+맨/NNG+이나/JC+비슷/XR+하/XSA+지/EC+않/VX+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 보글보글은 잘했어?",
+            "norm_text": "보글보글은 잘했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "보글보글/MAG+은/JX+잘/MAG+했/VV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 키키 보글보글은 보스 많이 깼지 키키",
+            "norm_text": "응 키키 보글보글은 보스 많이 깼지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+보글보글/MAG+은/JX+보스/NNG+많이/MAG+깼/VV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 스노우맨은 그 눈사람 만들어서 쳐내야 되잖아",
+            "norm_text": "스노우맨은 그 눈사람 만들어서 쳐내야 되잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "스노우/NNP+맨/NNP+은/JX+그/MM+눈/NNG+사람/NNG+만들/VV+어서/EC+쳐내/VV+야/EC+되/VV+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 쳐내는 걸 못하더라고 내가 키키",
+            "norm_text": "쳐내는 걸 못하더라고 내가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "쳐내/VV+는/ETM+걸/NNB+JKO+못/MAG+하/VV+더라고/EF+내/NP+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 그래? 키키 비행기 게임은? 많이 해봤어?",
+            "norm_text": "아 그래? 키키 비행기 게임은? 많이 해봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/NNG+비행기/NNG+게임/NNG+은/JX+많이/MAG+해/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오 그거 우리 아빠가 진짜 짱 잘했는데 키키",
+            "norm_text": "오 그거 우리 아빠가 진짜 짱 잘했는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+그거/NP+우리/NP+아빠/NNG+가/JKS+진짜/MAG+짱/MAG+잘/MAG+했/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 난 맨날 1단계에서 죽어...",
+            "norm_text": "난 맨날 1단계에서 죽어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+맨날/MAG+1/SN+단계/NNG+에서/JKB+죽/VV+어/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아빠가? 키키 나도 비행기 게임 잘하는데~!",
+            "norm_text": "아빠가? 키키 나도 비행기 게임 잘하는데~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+가/JKS+키/NNG+키나/XSA+ETN+JX+도/JX+비행기/NNG+게임/NNG+잘/MAG+하/VV+는데/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 오락실 가면 또 생각나는 게임 있어?",
+            "norm_text": "오락실 가면 또 생각나는 게임 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오락실/NNG+가/VV+면/EC+또/MAG+생각/NNG+나/NP+는/JX+게임/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 난 힘으로 하는 걸 좋아해서... 펀치! 펀치 신기록 많이 세웠지~",
+            "norm_text": "난 힘으로 하는 걸 좋아해서... 펀치! 펀치 신기록 많이 세웠지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+힘/NNG+으로/JKB+하/VV+는/ETM+걸/NNB+JKO+좋/VA+아/EC+해서/VV+EC+./SY+./SY+펀치/NNG+!/SY+펀치/NNG+신기록/NNG+많이/MAG+세웠/VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 오~ 펀치 신기록?! 대단하다 너한테 까불면 안 되겠다",
+            "norm_text": "오~ 펀치 신기록?! 대단하다 너한테 까불면 안 되겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+~/SY+펀치/NNG+신기록/NNG+?/SY+대단/XR+하/XSA+다/EF+너/NP+한테/JKB+까불/VV+면/EC+안/MAG+되/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 오랜만에 오락실도 가고 싶다~",
+            "norm_text": "키키 오랜만에 오락실도 가고 싶다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+오랜만/NNG+에/JKB+오락실/NNG+도/JX+가/VV+고/EC+싶/VX+다/EC+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 술 먹으면 필수 코스였는데~ 이제 술을 못 먹네ㅠ",
+            "norm_text": "술 먹으면 필수 코스였는데~ 이제 술을 못 먹네ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "술/NNG+먹/VV+으면/EC+필수/NNG+코스/NNG+였/VCP+EP+는데/EC+~/SY+이제술을못먹네ㅠ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 그러게... 나는 영화 보러 가서 시간 때우러 오락실 자주 갔었는데~",
+            "norm_text": "그러게... 나는 영화 보러 가서 시간 때우러 오락실 자주 갔었는데~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/IC+./SY+나/NP+는/JX+영화/NNG+보/VV+러/EC+가/VX+서/EC+시간/NNG+때우/VV+러/EC+오락실/NNG+자주/MAG+갔었/VV+EP+는데/EC+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 아아 맞아~ 백화점이나 영화관에도 많이 생겼더라 오락실이 키키",
+            "norm_text": "아아 맞아~ 백화점이나 영화관에도 많이 생겼더라 오락실이 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아아/IC+맞/VV+아/EC+~/SY+백화점/NNG+이나/JC+영화관/NNG+에/JKB+도/JX+많이/MAG+생겼/VV+EP+더라/EF+오락실/NNG+이/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 응응 키키 나중에 너 펀치 실력 보러 가야겠다~",
+            "norm_text": "응응 키키 나중에 너 펀치 실력 보러 가야겠다~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/NNG+나중/NNG+에/JKB+너/NP+펀치/NNG+실력/NNG+보/VV+러/EC+가/VX+야겠다/EC+VX+EP+EC+~/SY"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그래 놀랄 준비하고 따라와~ 신기록 세워보자 키키",
+            "norm_text": "그래 놀랄 준비하고 따라와~ 신기록 세워보자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그래/VA+EC+놀랄/VV+ETM+준비/NNG+하/XSV+고/EC+따라와/VV+EC+~/SY+신/XPN+기록/NNG+세워/VV+EC+보/VX+자/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

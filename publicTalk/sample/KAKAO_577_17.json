@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 24350,
+    "name": "KAKAO_577_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902068077/KAKAO_577_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902068077/KAKAO_577_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31508,
+      "filename": "KAKAO_577_17.txt",
+      "title": "KAKAO_577_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 667,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 667,
+        "word_size": 208,
+        "text": "1 : 나 전에 회사 체육대회 했을 때 발목 부상 당했었잖아.\n1 : 혹시 나중에 아프면 어쩌나 했는데 아직까진 그나마 괜찮네.\n2 : 진짜. 그때 부사장님이 치료해준다고 자기 발목 주물러 줬을 때 그때 너무 아팠다며, 더 접질리게 한 건 아닌가 몰라.\n1 : 그랬던 것 같아. 그냥 바로 병원에 보내주지,\n2 : 다친 이후에 치료나 수술했어?\n1 : 회사에서 체육대회 하다가 다친 거라 근무시간에 병원 치료 꾸준히 했었어.\n2 : 진짜 누가 그렇게 사람한테 눌려서 그럴 줄 알았나...\n2 : 아휴 그날 많이 아팠지?\n1 : 아냐 괜찮아... 자기가 날 걱정해줘서 좋았어~\n2 : 키키 격한 운동은 해도 되는 거야? 아님 무리 가서 당분간 못하는 거야?\n1 : 해도 될 것 같아. 발목을 더 튼튼하게 만들어야지 ㅠ\n2 : 혹시 보험 든 건 있었어? 보험 처리는 받았구?\n1 : 응 다행히 그 해당 항목으로 보험 든 게 있어서 적용 받았어\n2 : 요새 주위에 깁스 하고 다니는 사람 은근 많다...\n1 : 응 나도 여럿 봤어.\n1 : 나한테는 없을 일이라고 생각했는데 아니더라구\n2 : 그니깐 진짜 한순간이야, 계단 하나 남겨 놓고 넘어진 사람도 있고.\n2 : 정말 조심해야 해\n1 : 보험에 골절은 꼭 있어야 할 듯.\n1 : 전에 보험 들 때 뺐었는데 다시 추가로 집어 넣었잖아.\n2 : 맞아. 꼭 그건 넣어야 할 항목 같아.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 전에 회사 체육대회 했을 때 발목 부상 당했었잖아.",
+            "norm_text": "나 전에 회사 체육대회 했을 때 발목 부상 당했었잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나전/NNG+에/JKB+회사/NNG+체육/NNG+대회/NNG+했/XSV+EP+을/ETM+때/NNG+발목/NNG+부상/NNG+당했었/XSV+EP+잖아/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 혹시 나중에 아프면 어쩌나 했는데 아직까진 그나마 괜찮네.",
+            "norm_text": "혹시 나중에 아프면 어쩌나 했는데 아직까진 그나마 괜찮네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "혹시/MAG+나중/NNG+에/JKB+아프/VA+면/EC+어쩌/VV+나/EC+했/VX+EP+는데/EC+아직/MAG+까진/JX+JX+그나마/MAG+괜찮/VA+네/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 진짜. 그때 부사장님이 치료해준다고 자기 발목 주물러 줬을 때 그때 너무 아팠다며, 더 접질리게 한 건 아닌가 몰라.",
+            "norm_text": "진짜. 그때 부사장님이 치료해준다고 자기 발목 주물러 줬을 때 그때 너무 아팠다며, 더 접질리게 한 건 아닌가 몰라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+그때/NNG+부사장/NNG+님/XSN+이/JKS+치료/NNG+해/XSV+EC+준다고/VX+EC+자기/NP+발목/NNG+주물러/VV+EC+줬/VX+EP+을/ETM+때/NNG+그때/NNG+너무/MAG+아팠/VA+EP+다며/EF+,/SC+더/MAG+접질리/VV+게/EC+한건/VX+ETM+NNB+JX+아닌가/VCN+EC+몰라/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그랬던 것 같아. 그냥 바로 병원에 보내주지,",
+            "norm_text": "그랬던 것 같아. 그냥 바로 병원에 보내주지,",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그랬던/VA+EP+ETM+것/NNB+같/VA+아/EF+그냥/MAG+바로/MAG+병원/NNG+에/JKB+보내/VV+EC+주/VX+지/EF+,/SC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 다친 이후에 치료나 수술했어?",
+            "norm_text": "다친 이후에 치료나 수술했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다친/VV+ETM+이후/NNG+에/JKB+치료/NNG+나/JC+수술/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 회사에서 체육대회 하다가 다친 거라 근무시간에 병원 치료 꾸준히 했었어.",
+            "norm_text": "회사에서 체육대회 하다가 다친 거라 근무시간에 병원 치료 꾸준히 했었어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "회사/NNG+에서/JKB+체육/NNG+대회/NNG+하/XSV+다가/EC+다친/VV+ETM+거/NNB+라/VCP+EC+근무/NNG+시간/NNG+에/JKB+병원/NNG+치료/NNG+꾸준히/MAG+했었/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 진짜 누가 그렇게 사람한테 눌려서 그럴 줄 알았나...",
+            "norm_text": "진짜 누가 그렇게 사람한테 눌려서 그럴 줄 알았나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+누가/NP+JKS+그렇/VA+게/EC+사람/NNG+한테/JKB+눌려서/VV+EC+그럴/VV+ETM+줄/NNB+알/VV+았/EP+나/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아휴 그날 많이 아팠지?",
+            "norm_text": "아휴 그날 많이 아팠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아휴/IC+그날/NNG+많이/MAG+아팠/VA+EP+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아냐 괜찮아... 자기가 날 걱정해줘서 좋았어~",
+            "norm_text": "아냐 괜찮아... 자기가 날 걱정해줘서 좋았어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+괜찮/VA+아/EF+./SY+자기/NP+가/JKS+날/NNG+걱정/NNG+해/XSV+EC+줘서/VX+EC+좋/VA+았/EP+어/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 격한 운동은 해도 되는 거야? 아님 무리 가서 당분간 못하는 거야?",
+            "norm_text": "키키 격한 운동은 해도 되는 거야? 아님 무리 가서 당분간 못하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+격한/VA+ETM+운동/NNG+은/JX+해도/VV+EC+되/VV+는/ETM+거/NNB+야/VCP+EF+아님/MAJ+무리/NNG+가/VV+서/EC+당분간/MAG+못/MAG+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 해도 될 것 같아. 발목을 더 튼튼하게 만들어야지 ㅠ",
+            "norm_text": "해도 될 것 같아. 발목을 더 튼튼하게 만들어야지 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해도/VV+EC+될/VV+ETM+것/NNB+같/VA+아/EF+발목/NNG+을/JKO+더/MAG+튼튼/XR+하/XSA+게/EC+만들/VV+어야/EC+지ㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 혹시 보험 든 건 있었어? 보험 처리는 받았구?",
+            "norm_text": "혹시 보험 든 건 있었어? 보험 처리는 받았구?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+보험/NNG+든/VV+ETM+건/NNB+JX+있/VA+었/EP+어/EF+보험/NNG+처리/NNG+는/JX+받/VV+았/EP+구/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 다행히 그 해당 항목으로 보험 든 게 있어서 적용 받았어",
+            "norm_text": "응 다행히 그 해당 항목으로 보험 든 게 있어서 적용 받았어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+다행히/MAG+그/MM+해당/NNG+항목/NNG+으로/JKB+보험/NNG+든게/VV+ETM+NNB+JKS+있/VA+어서/EC+적용/NNG+받/VV+았/EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 요새 주위에 깁스 하고 다니는 사람 은근 많다...",
+            "norm_text": "요새 주위에 깁스 하고 다니는 사람 은근 많다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+주위/NNG+에/JKB+깁스/NNG+하/XSV+고/EC+다니/VV+는/ETM+사람/NNG+은/JX+근/NP+JX+많/VA+다/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 나도 여럿 봤어.",
+            "norm_text": "응 나도 여럿 봤어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+도/JX+여럿/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나한테는 없을 일이라고 생각했는데 아니더라구",
+            "norm_text": "나한테는 없을 일이라고 생각했는데 아니더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+한테/JKB+는/JX+없/VA+을/ETM+일/NNG+이/VCP+라고/EC+생각/NNG+했/XSV+EP+는데/EC+아니/VCN+더라구/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그니깐 진짜 한순간이야, 계단 하나 남겨 놓고 넘어진 사람도 있고.",
+            "norm_text": "그니깐 진짜 한순간이야, 계단 하나 남겨 놓고 넘어진 사람도 있고.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+진짜/MAG+한/MM+순간/NNG+이/VCP+야/EF+,/SC+계단/NNG+하나/NR+남겨/VV+EC+놓/VX+고/EC+넘어진/VV+ETM+사람/NNG+도/JX+있/VA+고/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 정말 조심해야 해",
+            "norm_text": "정말 조심해야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+조심/NNG+해야/XSV+EC+해/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 보험에 골절은 꼭 있어야 할 듯.",
+            "norm_text": "보험에 골절은 꼭 있어야 할 듯.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보험/NNG+에/JKB+골절/NNG+은/JX+꼭/MAG+있/VV+어야/EC+할/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 20,
+            "text": "1 : 전에 보험 들 때 뺐었는데 다시 추가로 집어 넣었잖아.",
+            "norm_text": "전에 보험 들 때 뺐었는데 다시 추가로 집어 넣었잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전/NNG+에/JKB+보험/NNG+들/XSN+때/NNG+뺐었/VV+EP+는데/EC+다시/MAG+추가/NNG+로/JKB+집어넣/VV+었/EP+잖아/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 맞아. 꼭 그건 넣어야 할 항목 같아.",
+            "norm_text": "맞아. 꼭 그건 넣어야 할 항목 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+꼭/MAG+그건/NP+JX+넣/VV+어야/EC+할/VX+ETM+항목/NNG+같/VA+아/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

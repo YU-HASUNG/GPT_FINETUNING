@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 30153,
+    "name": "KAKAO_561_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209016533/KAKAO_561_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209016533/KAKAO_561_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30057,
+      "filename": "KAKAO_561_06.txt",
+      "title": "KAKAO_561_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 596,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 596,
+        "word_size": 194,
+        "text": "1 : 친구야 요즘 자격증 딸 만한 거 있어?\n2 : 음 컴활이나 워드 어때?\n1 : 안 그래도 컴활 딸까 하는데 컴퓨터 학원 다닐까?\n2 : 그래? 컴활 독학으로도 가능하다던데 학원은 너무 비싸지 않아?\n1 : 그래도 학원 다니면 바로 붙지 않을까? 다 알려주잖아\n2 : 맞아 그렇긴 한데... 웬만하면 붙겠지?\n2 : 나도 컴활 따야 되는데 학원 같이 다니자\n2 : 너는 1급 딸 거니?\n1 : 아니 2급 따게 보여 주기 식으로 하하 워드도 따고 싶은데\n2 : 키키 그렇구나 워드도 따고 싶구나\n2 : 그럼 너 컴퓨터 관련 자격증은 하나도 없는 거야?\n1 : 응 하나쯤은 따 두고 싶은데 지게차 따려고 연습 중\n2 : 지게차? 너 다 계획이 있구나?\n2 : 그럼 너 지금 가지고 자격증이 뭐 뭐 있어?\n1 : 지금은 한식조리자격증하나있지 ㅎ\n1 : 너는 뭐 뭐 있는데?\n2 : 우와 한식 있다니 요리 잘하겠구나?\n2 : 나는 속기 자격증밖에 없어 ㅎ\n1 : 오 속기 자격증 좋은 거 가지고 있다\n1 : 나중에 같이 컴퓨터 자격증 따 보자\n2 : 그래 공부해서 관련 자격증 하나라도 취득해 보자\n2 : 너가 학원 한번 알아보렴\n1 : 그래 알아보고 나중에 말해 줄게!\n2 : 그래 알았어 기다리고 있을겡~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 친구야 요즘 자격증 딸 만한 거 있어?",
+            "norm_text": "친구야 요즘 자격증 딸 만한 거 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친구/NNG+야/VCP+EF+요즘/MAG+자격증/NNG+딸/NNG+만/JX+한/VV+ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음 컴활이나 워드 어때?",
+            "norm_text": "음 컴활이나 워드 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "음/IC+컴/NNP+활/NNG+이나/JC+워드/NNG+어때/VA+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 안 그래도 컴활 딸까 하는데 컴퓨터 학원 다닐까?",
+            "norm_text": "안 그래도 컴활 딸까 하는데 컴퓨터 학원 다닐까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "안/MAG+그래도/VV+EC+컴활/UNKNOWN+딸까/VV+EF+하/VV+는데/EC+컴퓨터/NNG+학원/NNG+다닐까/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그래? 컴활 독학으로도 가능하다던데 학원은 너무 비싸지 않아?",
+            "norm_text": "그래? 컴활 독학으로도 가능하다던데 학원은 너무 비싸지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+컴활/UNKNOWN+독학/NNG+으로/JKB+도/JX+가능/NNG+하/XSV+다던데/EC+학원/NNG+은/JX+너무/MAG+비싸/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래도 학원 다니면 바로 붙지 않을까? 다 알려주잖아",
+            "norm_text": "그래도 학원 다니면 바로 붙지 않을까? 다 알려주잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+학원/NNG+다니/VV+면/EC+바로/MAG+붙/VV+지/EC+않/VX+을까/EF+다/MAG+알려/VV+EC+주/VX+잖아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 그렇긴 한데... 웬만하면 붙겠지?",
+            "norm_text": "맞아 그렇긴 한데... 웬만하면 붙겠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+그렇/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+웬만/XR+하/XSA+면/EC+붙/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나도 컴활 따야 되는데 학원 같이 다니자",
+            "norm_text": "나도 컴활 따야 되는데 학원 같이 다니자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+컴활/UNKNOWN+따/VV+야/EC+되/VV+는데/EC+학원/NNG+같이/JKB+다니/VV+자/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너는 1급 딸 거니?",
+            "norm_text": "너는 1급 딸 거니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+1/SN+급/NNG+딸/VV+ETM+거/NNB+니/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아니 2급 따게 보여 주기 식으로 하하 워드도 따고 싶은데",
+            "norm_text": "아니 2급 따게 보여 주기 식으로 하하 워드도 따고 싶은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+2/SN+급/NNG+따/VV+게/EC+보여/VV+EC+주/VX+기/ETN+식/NNB+으로/JKB+하하/MAG+워드/NNG+도/JX+따/VV+고/EC+싶/VX+은데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 그렇구나 워드도 따고 싶구나",
+            "norm_text": "키키 그렇구나 워드도 따고 싶구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+구나/EF+워드/NNG+도/JX+따/VV+고/EC+싶/VX+구나/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그럼 너 컴퓨터 관련 자격증은 하나도 없는 거야?",
+            "norm_text": "그럼 너 컴퓨터 관련 자격증은 하나도 없는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+너/NP+컴퓨터/NNG+관련/NNG+자격증/NNG+은/JX+하나/NR+도/JX+없/VA+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응 하나쯤은 따 두고 싶은데 지게차 따려고 연습 중",
+            "norm_text": "응 하나쯤은 따 두고 싶은데 지게차 따려고 연습 중",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+하나/NR+쯤/NNB+은/JX+따/VV+EC+두/VX+고/EC+싶/VX+은데/EC+지/VX+게/EC+차/NNG+따/VV+려고/EC+연습/NNG+중/NNB"
+          },
+          {
+            "id": 13,
+            "text": "2 : 지게차? 너 다 계획이 있구나?",
+            "norm_text": "지게차? 너 다 계획이 있구나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지게차/NNG+너/NP+다/JX+계획/NNG+이/JKS+있/VA+구나/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼 너 지금 가지고 자격증이 뭐 뭐 있어?",
+            "norm_text": "그럼 너 지금 가지고 자격증이 뭐 뭐 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+너/NP+지금/MAG+가지/VV+고/EC+자격증/NNG+이/JKS+뭐/IC+뭐/IC+있/VA+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 지금은 한식조리자격증하나있지 ㅎ",
+            "norm_text": "지금은 한식조리자격증하나있지 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+한식/NNG+조리/NNG+자격증/NNG+하/XSV+나/EC+있/VX+지/EF+ㅎ/XSA"
+          },
+          {
+            "id": 16,
+            "text": "1 : 너는 뭐 뭐 있는데?",
+            "norm_text": "너는 뭐 뭐 있는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+뭐/IC+뭐/IC+있/VA+는데/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 우와 한식 있다니 요리 잘하겠구나?",
+            "norm_text": "우와 한식 있다니 요리 잘하겠구나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+한식/NNG+있/VV+다니/EC+요리/NNG+잘/MAG+하/VV+겠/EP+구나/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나는 속기 자격증밖에 없어 ㅎ",
+            "norm_text": "나는 속기 자격증밖에 없어 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+속기/NNG+자격증/NNG+밖에/JX+없/VA+어/EF+ㅎ/XSA"
+          },
+          {
+            "id": 19,
+            "text": "1 : 오 속기 자격증 좋은 거 가지고 있다",
+            "norm_text": "오 속기 자격증 좋은 거 가지고 있다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오속/NNG+기자/NNG+격증/NNG+좋/VA+은/ETM+거/NNB+가지/VV+고/EC+있/VX+다/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 나중에 같이 컴퓨터 자격증 따 보자",
+            "norm_text": "나중에 같이 컴퓨터 자격증 따 보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나중/NNG+에/JKB+같이/MAG+컴퓨터/NNG+자격증/NNG+따/VV+EC+보/VX+자/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래 공부해서 관련 자격증 하나라도 취득해 보자",
+            "norm_text": "그래 공부해서 관련 자격증 하나라도 취득해 보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+공부/NNG+해서/XSV+EC+관련/NNG+자격증/NNG+하나/NR+라도/VCP+EC+취득/NNG+해/XSV+EC+보/VX+자/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 너가 학원 한번 알아보렴",
+            "norm_text": "너가 학원 한번 알아보렴",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+가/JKS+학원/NNG+한/MM+번/NNBC+알아보/VV+렴/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 그래 알아보고 나중에 말해 줄게!",
+            "norm_text": "그래 알아보고 나중에 말해 줄게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+알아보/VV+고/EC+나중/NNG+에/JKB+말/NNG+해/XSV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그래 알았어 기다리고 있을겡~",
+            "norm_text": "그래 알았어 기다리고 있을겡~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+알/VV+았/EP+어/EC+기다리/VV+고/EC+있/VX+을/ETM+겡/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

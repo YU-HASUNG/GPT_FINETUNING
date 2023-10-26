@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 32342,
+    "name": "KAKAO_868_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174844044476/KAKAO_868_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174844044476/KAKAO_868_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40306,
+      "filename": "KAKAO_868_08.txt",
+      "title": "KAKAO_868_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 600,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 600,
+        "word_size": 196,
+        "text": "1 : 생각하는 결혼식 로망 있어?\n2 : 키키 있지! 해변에서 야외 결혼...ㅎ\n2 : 너는?\n1 : 오 해변 키키 좋지 나도 날 좋을 때 야외하고 싶은데 야외는 변수가 너무 많아\n2 : 키키 진짜 어바웃타임 결혼식도 명장면이었는데\n1 : 맞아 키키 명장면이야 ㅠㅜ 야외 그래서 로망 속에 가뒀어\n2 : 키키 남주가 결혼식 날에 비 많이 왔어도 다시 안 바꿀 만큼 좋은 날이라길래 너무 로맨틱했어\n1 : 나 얼마 전에 또 봤잖아 ㅠㅠ\n2 : 아 진짜?\n2 : 나도 몇 주 전에 다시 봤어 키키 볼 때마다 너무 좋아\n1 : 키키 로맨틱 ㅠㅠ 잘 어울려 ㅠㅠ\n1 : 야외 결혼식 하면 기억은 많이 나겠다 키키\n2 : 키키 웅웅 옛날에 대학 선배가 호텔 꼭대기 층에서 야외 결혼 했었는데 진짜 예쁘더라 ㅠ\n1 : 헐 대박 ㅠㅠ 완전 예뻤겠다 ㅠㅠ 멋있어\n2 : 키키 진짜 예뻤어 ㅠ 기억에 남는 결혼식 중 하나야 날씨도 좋았고~\n1 : 장소도 날씨도 완벽했네 ㅠㅠ 내 주변엔 아직 없어서 궁금해 가보면 어떨지...ㅎ\n2 : ㅎ웅! 기회가 있었으면 좋겠다 우리는 언제 결혼할까 키키\n1 : 빨리 하고 싶다던 너가 먼저 할 거 같아 키키\n2 : 키키 나는 뭔가 특별한 일 없으면 몇 년 안에 할 것 같은 느낌이야",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 생각하는 결혼식 로망 있어?",
+            "norm_text": "생각하는 결혼식 로망 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "생각/NNG+하/XSV+는/ETM+결혼식/NNG+로망/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 있지! 해변에서 야외 결혼...ㅎ",
+            "norm_text": "키키 있지! 해변에서 야외 결혼...ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+있/VA+지/EF+해변/NNG+에서/JKB+야외/NNG+결혼/NNG+./SY+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너는?",
+            "norm_text": "너는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오 해변 키키 좋지 나도 날 좋을 때 야외하고 싶은데 야외는 변수가 너무 많아",
+            "norm_text": "오 해변 키키 좋지 나도 날 좋을 때 야외하고 싶은데 야외는 변수가 너무 많아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+해변/NNG+키/NNG+키/XSV+ETN+좋/VA+지/EF+나/NP+도/JX+날/NNG+좋/VA+을/ETM+때/NNG+야외/NNG+하/XSV+고/EC+싶/VX+은데/EC+야외/NNG+는/JX+변수/NNG+가/JKS+너무/MAG+많/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 진짜 어바웃타임 결혼식도 명장면이었는데",
+            "norm_text": "키키 진짜 어바웃타임 결혼식도 명장면이었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+어/IC+바웃/UNKNOWN+타임/NNG+결혼식/NNG+도/JX+명장면/NNG+이/VCP+었/EP+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 맞아 키키 명장면이야 ㅠㅜ 야외 그래서 로망 속에 가뒀어",
+            "norm_text": "맞아 키키 명장면이야 ㅠㅜ 야외 그래서 로망 속에 가뒀어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+명장면/NNG+이/VCP+야/EF+ㅠㅜ/UNKNOWN+야외/NNG+그래서/MAJ+로망/NNG+속/NNG+에/JKB+가/VV+뒀/EC+VX+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 남주가 결혼식 날에 비 많이 왔어도 다시 안 바꿀 만큼 좋은 날이라길래 너무 로맨틱했어",
+            "norm_text": "키키 남주가 결혼식 날에 비 많이 왔어도 다시 안 바꿀 만큼 좋은 날이라길래 너무 로맨틱했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+남주/NNP+가/JKS+결혼식/NNG+날/NNG+에/JKB+비/NNG+많이/MAG+왔/VV+EP+어도/EC+다시/MAG+안/MAG+바꿀/VV+ETM+만큼/NNB+좋/VA+은/ETM+날/NNG+이/VCP+라길래/EC+너무/MAG+로맨틱/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나 얼마 전에 또 봤잖아 ㅠㅠ",
+            "norm_text": "나 얼마 전에 또 봤잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+얼마/NNG+전/NNG+에/JKB+또/MAG+봤/VV+EP+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 진짜?",
+            "norm_text": "아 진짜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아/IC+진짜/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 몇 주 전에 다시 봤어 키키 볼 때마다 너무 좋아",
+            "norm_text": "나도 몇 주 전에 다시 봤어 키키 볼 때마다 너무 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+몇/MM+주전/NNG+에/JKB+다시/MAG+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN+볼/VV+ETM+때/NNG+마다/JX+너무/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 로맨틱 ㅠㅠ 잘 어울려 ㅠㅠ",
+            "norm_text": "키키 로맨틱 ㅠㅠ 잘 어울려 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키로/XSV+ETN+JKB+맨/MM+틱/NNG+ㅠㅠ/UNKNOWN+잘/MAG+어울려/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 야외 결혼식 하면 기억은 많이 나겠다 키키",
+            "norm_text": "야외 결혼식 하면 기억은 많이 나겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야외/NNG+결혼식/NNG+하/XSV+면/EC+기억/NNG+은/JX+많이/MAG+나/VV+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 웅웅 옛날에 대학 선배가 호텔 꼭대기 층에서 야외 결혼 했었는데 진짜 예쁘더라 ㅠ",
+            "norm_text": "키키 웅웅 옛날에 대학 선배가 호텔 꼭대기 층에서 야외 결혼 했었는데 진짜 예쁘더라 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+웅웅/MAG+옛날/NNG+에/JKB+대학/NNG+선배/NNG+가/JKS+호텔/NNG+꼭대기/NNG+층/XSN+에서/JKB+야외/NNG+결혼/NNG+했었/XSV+EP+는데/EC+진짜/MAG+예쁘/VA+더라/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 헐 대박 ㅠㅠ 완전 예뻤겠다 ㅠㅠ 멋있어",
+            "norm_text": "헐 대박 ㅠㅠ 완전 예뻤겠다 ㅠㅠ 멋있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+대박/NNG+ㅠㅠ/UNKNOWN+완전/MAG+예뻤/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN+멋있/VA+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 진짜 예뻤어 ㅠ 기억에 남는 결혼식 중 하나야 날씨도 좋았고~",
+            "norm_text": "키키 진짜 예뻤어 ㅠ 기억에 남는 결혼식 중 하나야 날씨도 좋았고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+예뻤/VA+EP+어ㅠ/UNKNOWN+기억/NNG+에/JKB+남/VV+는/ETM+결혼식/NNG+중/NNB+하나/NR+야/JX+날씨/NNG+도/JX+좋/VA+았/EP+고/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 장소도 날씨도 완벽했네 ㅠㅠ 내 주변엔 아직 없어서 궁금해 가보면 어떨지...ㅎ",
+            "norm_text": "장소도 날씨도 완벽했네 ㅠㅠ 내 주변엔 아직 없어서 궁금해 가보면 어떨지...ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장소/NNG+도/JX+날씨/NNG+도/JX+완벽/NNG+했/XSV+EP+네/EF+ㅠㅠ/UNKNOWN+내/NP+JKG+주변/NNG+엔/JKB+JX+아직/MAG+없/VA+어서/EC+궁금/XR+해가/XSV+EC+보/VX+면/EC+어떨지/VA+EC+./SY+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 17,
+            "text": "2 : ㅎ웅! 기회가 있었으면 좋겠다 우리는 언제 결혼할까 키키",
+            "norm_text": "ㅎ웅! 기회가 있었으면 좋겠다 우리는 언제 결혼할까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅎ/XSA+웅/IC+기회/NNG+가/JKS+있/VA+었/EP+으면/EC+좋/VA+겠/EP+다/EF+우리/NP+는/JX+언제/MAG+결혼/NNG+할까/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 빨리 하고 싶다던 너가 먼저 할 거 같아 키키",
+            "norm_text": "빨리 하고 싶다던 너가 먼저 할 거 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빨리/MAG+하/VV+고/EC+싶/VX+다던/ETM+너/NP+가/JKS+먼저/MAG+할/VV+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 나는 뭔가 특별한 일 없으면 몇 년 안에 할 것 같은 느낌이야",
+            "norm_text": "키키 나는 뭔가 특별한 일 없으면 몇 년 안에 할 것 같은 느낌이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+뭔가/NP+VCP+EC+특별/XR+한/XSA+ETM+일/NNG+없/VA+으면/EC+몇/MM+년/NNBC+안/NNG+에/JKB+할/VV+ETM+것/NNB+같/VA+은/ETM+느낌/NNG+이/VCP+야/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

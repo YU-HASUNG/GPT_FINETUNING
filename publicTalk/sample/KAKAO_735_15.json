@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 33878,
+    "name": "KAKAO_735_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941054563/KAKAO_735_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941054563/KAKAO_735_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37485,
+      "filename": "KAKAO_735_15.txt",
+      "title": "KAKAO_735_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 823,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 823,
+        "word_size": 245,
+        "text": "1 : 아프간 사람들 뉴스 보면 가슴이 짠하다\n2 : 난 너무 짠하기도 하고 무섭더라\n1 : 미군 철수가 세계적으로 큰 파장이 되어 버렸어 게다가 아프간 대통령은 바로 다른 나라로 갔던데?\n2 : 근데 아프간 대통령은 상직적인 의미라서\n2 : 이미 대립에서 진 거라면 대통령은 내전의 불씨라서 더 큰 유혈 사태를 막기 위해서 빨리 안 잡히고 사라져 주는 게 책임 있는 거야\n1 : 하긴, 예전에 걸프전도 대통령 죽어서 시작한 거였지?\n2 : 그때 소련이 대통령 안 건드렸으면... 이슬람 문화를 조금 이해하고 전술 짰으면 좋았을 텐데\n1 : 그걸로 대동단결한 아랍 청년들이 무장 단체를 만들고 결국 알카에다 텔레반이다\n1 : 그런 애들이 되어버렸지\n2 : 지금 이런 테러 단체들 시초가 없었겠지...\n2 : 괜히 건드려 가지고 그때 대학생들 다 뭉쳐서. 독립운동한다고 완전 전문 테러 단체 된 거 아냐\n1 : 어찌 보면 자리 나라를 지키기 위한 테러 단체 같기도 한데...\n2 : 그래도 이해는 전혀 안 된다.\n1 : 너무 무섭게 무슬림의 잣대를 가지고 있어서.\n2 : 거기 탈출해서 미국으로 간 사람이 쓴 소설을 몇 개 봤는데...\n2 : 정말 눈물 나는 게... 석유 통 알지? 엄청 큰 석유 통에 사람이 빼곡히 들어가서\n2 : 석유 냄새 맡으면서 공기도 막힌 채로 폐쇄 공포에 시달리면서\n2 : 사막 도착하면 그 사막을 달려서 내릴 때는 시체들도 많이 나오고 탈출이라는 것 자체가 영화 같고 소설 같더라.\n1 : 어 엄청 참혹할 거야\n2 : 그러니까 현지인들도 겁나니까 탈출을 감행하는 거지...\n1 : 그만큼 그곳을 빠져나가고 싶었던 거겠지.\n2 : 거기서 탈출 감행 못 한 사람들만 더 불쌍하지 뭐.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아프간 사람들 뉴스 보면 가슴이 짠하다",
+            "norm_text": "아프간 사람들 뉴스 보면 가슴이 짠하다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아프간/NNG+사람/NNG+들/XSN+뉴스/NNG+보/VV+면/EC+가슴/NNG+이/JKS+짠하/VA+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 너무 짠하기도 하고 무섭더라",
+            "norm_text": "난 너무 짠하기도 하고 무섭더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+너무/MAG+짠하/VA+기/ETN+도/JX+하/VV+고/EC+무섭/VA+더라/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 미군 철수가 세계적으로 큰 파장이 되어 버렸어 게다가 아프간 대통령은 바로 다른 나라로 갔던데?",
+            "norm_text": "미군 철수가 세계적으로 큰 파장이 되어 버렸어 게다가 아프간 대통령은 바로 다른 나라로 갔던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "미군/NNG+철수/NNG+가/JKS+세계/NNG+적/XSN+으로/JKB+큰/VA+ETM+파장/NNG+이/JKS+되/VV+어/EC+버렸/VX+EP+어/EF+게다가/MAG+아프간/NNG+대통령/NNG+은/JX+바로/MAG+다른/MM+나라/NNG+로/JKB+갔/VV+EP+던데/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 아프간 대통령은 상직적인 의미라서",
+            "norm_text": "근데 아프간 대통령은 상직적인 의미라서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+아프간/NNG+대통령/NNG+은/JX+상직/NNG+적/XSN+인/VCP+ETM+의미/NNG+라서/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 이미 대립에서 진 거라면 대통령은 내전의 불씨라서 더 큰 유혈 사태를 막기 위해서 빨리 안 잡히고 사라져 주는 게 책임 있는 거야",
+            "norm_text": "이미 대립에서 진 거라면 대통령은 내전의 불씨라서 더 큰 유혈 사태를 막기 위해서 빨리 안 잡히고 사라져 주는 게 책임 있는 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이미/MAG+대립/NNG+에서/JKB+진/VV+ETM+거/NNB+라면/VCP+EC+대통령/NNG+은/JX+내전/NNG+의/JKG+불씨/NNG+라서/VCP+EC+더/MAG+큰/VA+ETM+유혈/NNG+사태/NNG+를/JKO+막/VV+기/ETN+위해서/VV+EC+빨리/MAG+안/MAG+잡히/VV+고/EC+사라져/VV+EC+주/VX+는/ETM+게/NNB+JKS+책임/NNG+있/VA+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 하긴, 예전에 걸프전도 대통령 죽어서 시작한 거였지?",
+            "norm_text": "하긴, 예전에 걸프전도 대통령 죽어서 시작한 거였지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하긴/MAJ+,/SC+예전/NNG+에/JKB+걸프/NNP+전도/NNG+대통령/NNG+죽/VV+어서/EC+시작/NNG+한/XSA+ETM+거/NNB+였/VCP+EP+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그때 소련이 대통령 안 건드렸으면... 이슬람 문화를 조금 이해하고 전술 짰으면 좋았을 텐데",
+            "norm_text": "그때 소련이 대통령 안 건드렸으면... 이슬람 문화를 조금 이해하고 전술 짰으면 좋았을 텐데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그때/NNG+소련/NNP+이/JKS+대통령/NNG+안/MAG+건드렸/VV+EP+으면/EC+./SY+./SY+이슬람/NNP+문화/NNG+를/JKO+조금/MAG+이해/NNG+하/XSV+고/EC+전술/NNG+짰으면/VV+EP+EC+좋/VA+았/EP+을/ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그걸로 대동단결한 아랍 청년들이 무장 단체를 만들고 결국 알카에다 텔레반이다",
+            "norm_text": "그걸로 대동단결한 아랍 청년들이 무장 단체를 만들고 결국 알카에다 텔레반이다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그걸로/NP+JKB+대동단결/NNG+한/XSA+ETM+아랍/NNP+청년/NNG+들/XSN+이/JKS+무장/NNG+단체/NNG+를/JKO+만들/VV+고/EC+결국/MAG+알카에다/NNP+텔레/NNP+반이다/NNP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그런 애들이 되어버렸지",
+            "norm_text": "그런 애들이 되어버렸지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+애/NNG+들/XSN+이/JKS+되/VV+어/EC+버렸/VX+EP+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 지금 이런 테러 단체들 시초가 없었겠지...",
+            "norm_text": "지금 이런 테러 단체들 시초가 없었겠지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+이런/MM+테러/NNG+단체/NNG+들/XSN+시초/NNG+가/JKS+없/VA+었/EP+겠/EP+지/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 괜히 건드려 가지고 그때 대학생들 다 뭉쳐서. 독립운동한다고 완전 전문 테러 단체 된 거 아냐",
+            "norm_text": "괜히 건드려 가지고 그때 대학생들 다 뭉쳐서. 독립운동한다고 완전 전문 테러 단체 된 거 아냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜히/MAG+건드려/VV+EC+가지/VX+고/EC+그때/NNG+대학생/NNG+들/XSN+다/MAG+뭉쳐서/VV+EC+./SY+독립/NNG+운동/NNG+한다고/XSV+EC+완전/NNG+전문/NNG+테러/NNG+단체/NNG+된/XSV+ETM+거/NNB+아냐/VCN+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 어찌 보면 자리 나라를 지키기 위한 테러 단체 같기도 한데...",
+            "norm_text": "어찌 보면 자리 나라를 지키기 위한 테러 단체 같기도 한데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어찌/MAG+보/VV+면/EC+자리/NNG+나라/NNG+를/JKO+지키/VV+기/ETN+위한/VV+ETM+테러/NNG+단체/NNG+같/VA+기/ETN+도/JX+한데/VV+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그래도 이해는 전혀 안 된다.",
+            "norm_text": "그래도 이해는 전혀 안 된다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+이해/NNG+는/JX+전혀/MAG+안/MAG+된다/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 너무 무섭게 무슬림의 잣대를 가지고 있어서.",
+            "norm_text": "너무 무섭게 무슬림의 잣대를 가지고 있어서.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+무섭/VA+게/EC+무슬림/NNP+의/JKG+잣대/NNG+를/JKO+가지/VV+고/EC+있/VX+어서/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 거기 탈출해서 미국으로 간 사람이 쓴 소설을 몇 개 봤는데...",
+            "norm_text": "거기 탈출해서 미국으로 간 사람이 쓴 소설을 몇 개 봤는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+탈출/NNG+해서/XSV+EC+미국/NNP+으로/JKB+간/VV+ETM+사람/NNG+이/JKS+쓴/VV+ETM+소설/NNG+을/JKO+몇/MM+개/NNBC+봤/VV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 정말 눈물 나는 게... 석유 통 알지? 엄청 큰 석유 통에 사람이 빼곡히 들어가서",
+            "norm_text": "정말 눈물 나는 게... 석유 통 알지? 엄청 큰 석유 통에 사람이 빼곡히 들어가서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정말/MAG+눈물나/VV+는/ETM+게/NNB+JKS+./SY+석유통/NNG+알/VV+지/EF+엄청/MAG+큰/VA+ETM+석유통/NNG+에/JKB+사람/NNG+이/JKS+빼곡히/MAG+들어가/VV+서/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 석유 냄새 맡으면서 공기도 막힌 채로 폐쇄 공포에 시달리면서",
+            "norm_text": "석유 냄새 맡으면서 공기도 막힌 채로 폐쇄 공포에 시달리면서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "석유/NNG+냄새/NNG+맡/VV+으면서/EC+공기/NNG+도/JX+막힌/VV+ETM+채/NNB+로/JKB+폐쇄/NNG+공포/NNG+에/JKB+시달리/VV+면서/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 사막 도착하면 그 사막을 달려서 내릴 때는 시체들도 많이 나오고 탈출이라는 것 자체가 영화 같고 소설 같더라.",
+            "norm_text": "사막 도착하면 그 사막을 달려서 내릴 때는 시체들도 많이 나오고 탈출이라는 것 자체가 영화 같고 소설 같더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사막/NNG+도착/NNG+하/XSV+면/EC+그/MM+사막/NNG+을/JKO+달려서/VV+EC+내릴/VV+ETM+때/NNG+는/JX+시체/NNG+들/XSN+도/JX+많이/MAG+나오/VV+고/EC+탈출/NNG+이/VCP+라는/ETM+것/NNB+자체/NNG+가/JKS+영화/NNG+같/VA+고/EC+소설/NNG+같/VA+더라/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 어 엄청 참혹할 거야",
+            "norm_text": "어 엄청 참혹할 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+엄청/MAG+참혹/NNG+할/XSV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그러니까 현지인들도 겁나니까 탈출을 감행하는 거지...",
+            "norm_text": "그러니까 현지인들도 겁나니까 탈출을 감행하는 거지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+현지/NNG+인/XSN+들/XSN+도/JX+겁나/VV+니까/EC+탈출/NNG+을/JKO+감행/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그만큼 그곳을 빠져나가고 싶었던 거겠지.",
+            "norm_text": "그만큼 그곳을 빠져나가고 싶었던 거겠지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그만큼/MAG+그곳/NP+을/JKO+빠져나가/VV+고/EC+싶/VX+었/EP+던/ETM+거/NNB+겠/VCP+EP+지/EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 거기서 탈출 감행 못 한 사람들만 더 불쌍하지 뭐.",
+            "norm_text": "거기서 탈출 감행 못 한 사람들만 더 불쌍하지 뭐.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+서/JKB+탈출/NNG+감행/NNG+못/MAG+한/VV+ETM+사람/NNG+들/XSN+만/JX+더/MAG+불쌍/XR+하/XSA+지/EF+뭐/IC"
+          }
+        ]
+      }
+    }
+  ]
+}

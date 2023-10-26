@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 21826,
+    "name": "KAKAO_557_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150908012657/KAKAO_557_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150908012657/KAKAO_557_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29557,
+      "filename": "KAKAO_557_06.txt",
+      "title": "KAKAO_557_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 798,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 798,
+        "word_size": 242,
+        "text": "1 : 언니 나는 오늘 수업했는데 수업할 때 테스트 보는데 늘 아쉽더라구ㅠㅠ\n2 : 나도 오늘 테스트 봤는데 ㅠㅠ 더 꼼꼼하게 공부해야겠구나 싶어...\n1 : 맞아 ㅠㅠ 시험이 다가오니까 더 떨리구 그러네\n1 : 수업은 듣기에 괜찮아 언니?\n2 : 응응 수업 듣기는 괜찮은데 복습할 시간이 부족해서 큰일이야 ㅠㅠ\n2 : 너도 시험공부하면서 이것저것 하느라 정신없겠다\n1 : 언니 ㅠㅠ 그러게 언니는 수업도 늦게 끝나서 밤에 조금하고 다음날 오전에 복습해야겠네!?\n2 : 응응 맞아 하하 지금 수업을 두 개 연달아 들어서 그런가 봐 하하\n2 : 내가 또 암기력이 안 좋아가지고... 키키\n1 : 언니 우리의 초인적인 집중력을 발휘해 보자!\n2 : 응응 하하 오늘은 잠이 안 와서 좀 하고 자려구 하하\n1 : 나는 한 차례 위기가 왔다가 지나갔어 ㅠㅠ 키키\n2 : 키키 금방 지나갔네!\n2 : 아니 집에서 인강 들으면 안 졸려?\n1 : 응응 나는 화상으로 수업하는데 테스트 보면서 하는 거라 졸리진 않아!\n1 : 근데 수업만 듣는 거면 따분할 것 같기도 해ㅠㅠ\n2 : 아아 화상으로 수업하는구나!\n2 : 근데 확실히 시험을 보고 성적이 채점되니까 더 집중하게 되는 거 같아 하하\n1 : 맞아 나도 실시간으로 테스트 보고 바로 점수가 나오거든\n1 : 그래서 후덜덜 초 집중하게 돼!\n2 : 맞아 맞아 하하 나 지금 오후랑 저녁에 듣는 선생님들도 다 너무 좋으셔서 재밌어!\n1 : 선생님도 중요해\n1 : 나는 막 다그치는 선생님보다 잘 말해주는 선생님이 좋아ㅠㅠ\n1 : 지금 선생님이 그러셔!\n2 : 나도 나도 하하 독려 많이 해주고 할 수 있다! 해보자! 이런 선생님들 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 나는 오늘 수업했는데 수업할 때 테스트 보는데 늘 아쉽더라구ㅠㅠ",
+            "norm_text": "언니 나는 오늘 수업했는데 수업할 때 테스트 보는데 늘 아쉽더라구ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+나/NP+는/JX+오늘/MAG+수업/NNG+했/XSV+EP+는데/EC+수업/NNG+할/XSV+ETM+때/NNG+테스트/NNG+보/VV+는데/EC+늘/MAG+아쉽/VA+더라구/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나도 오늘 테스트 봤는데 ㅠㅠ 더 꼼꼼하게 공부해야겠구나 싶어...",
+            "norm_text": "나도 오늘 테스트 봤는데 ㅠㅠ 더 꼼꼼하게 공부해야겠구나 싶어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+오늘/MAG+테스트/NNG+봤/VV+EP+는데/EC+ㅠㅠ/UNKNOWN+더/MAG+꼼꼼/XR+하/XSA+게/EC+공부/NNG+해야/XSV+EC+VX+겠/EP+구나/EC+싶/VX+어/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아 ㅠㅠ 시험이 다가오니까 더 떨리구 그러네",
+            "norm_text": "맞아 ㅠㅠ 시험이 다가오니까 더 떨리구 그러네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+시험/NNG+이/JKS+다가오/VV+니까/EC+더/MAG+떨리/VV+구/EC+그러/VV+네/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 수업은 듣기에 괜찮아 언니?",
+            "norm_text": "수업은 듣기에 괜찮아 언니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "수업/NNG+은/JX+듣/VV+기/ETN+에/JKB+괜찮/VA+아/EC+언니/NNG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응응 수업 듣기는 괜찮은데 복습할 시간이 부족해서 큰일이야 ㅠㅠ",
+            "norm_text": "응응 수업 듣기는 괜찮은데 복습할 시간이 부족해서 큰일이야 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+수업/NNG+듣/VV+기/ETN+는/JX+괜찮/VA+은데/EC+복습/NNG+할/XSV+ETM+시간/NNG+이/JKS+부족/NNG+해서/XSV+EC+큰일/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너도 시험공부하면서 이것저것 하느라 정신없겠다",
+            "norm_text": "너도 시험공부하면서 이것저것 하느라 정신없겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+도/JX+시험/NNG+공부/NNG+하/XSV+면서/EC+이것저것/NNG+하/XSV+느라/EC+정신없/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 언니 ㅠㅠ 그러게 언니는 수업도 늦게 끝나서 밤에 조금하고 다음날 오전에 복습해야겠네!?",
+            "norm_text": "언니 ㅠㅠ 그러게 언니는 수업도 늦게 끝나서 밤에 조금하고 다음날 오전에 복습해야겠네!?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+ㅠㅠ/UNKNOWN+그러/VV+게/EC+언니/NNG+는/JX+수업/NNG+도/JX+늦/VA+게/EC+끝나/VV+서/EC+밤/NNG+에/JKB+조금/MAG+하/VV+고/EC+다음/NNG+날/NNG+오전/NNG+에/JKB+복습/NNG+해야/XSV+EC+VX+겠/EP+네/EF+!/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 맞아 하하 지금 수업을 두 개 연달아 들어서 그런가 봐 하하",
+            "norm_text": "응응 맞아 하하 지금 수업을 두 개 연달아 들어서 그런가 봐 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+맞/VV+아/EC+하하/MAG+지금/MAG+수업/NNG+을/JKO+두/MM+개/NNBC+연달/VV+아/EC+들/VV+어서/EC+그런가/VA+EC+봐/VX+EF+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 내가 또 암기력이 안 좋아가지고... 키키",
+            "norm_text": "내가 또 암기력이 안 좋아가지고... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+또/MAG+암기력/NNG+이/JKS+안/MAG+좋/VA+아/EC+가지/VX+고/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 언니 우리의 초인적인 집중력을 발휘해 보자!",
+            "norm_text": "언니 우리의 초인적인 집중력을 발휘해 보자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "언니/NNG+우리/NP+의/JKG+초인/NNG+적/XSN+인/VCP+ETM+집중력/NNG+을/JKO+발휘/NNG+해/XSV+EC+보/VX+자/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응응 하하 오늘은 잠이 안 와서 좀 하고 자려구 하하",
+            "norm_text": "응응 하하 오늘은 잠이 안 와서 좀 하고 자려구 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+하하/MAG+오늘/MAG+은/JX+잠/NNG+이/JKS+안/MAG+와서/VV+EC+좀/MAG+하/VV+고/EC+자려/NNG+구하/NNG+하/XSV"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나는 한 차례 위기가 왔다가 지나갔어 ㅠㅠ 키키",
+            "norm_text": "나는 한 차례 위기가 왔다가 지나갔어 ㅠㅠ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+한/MM+차례/NNG+위기/NNG+가/JKS+왔/VV+EP+다가/EC+지나갔/VV+EP+어/EF+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 금방 지나갔네!",
+            "norm_text": "키키 금방 지나갔네!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+금방/MAG+지나갔/VV+EP+네/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 집에서 인강 들으면 안 졸려?",
+            "norm_text": "아니 집에서 인강 들으면 안 졸려?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+집/NNG+에서/JKB+인/+강/+들으면/VV+EC+안/MAG+졸려/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응응 나는 화상으로 수업하는데 테스트 보면서 하는 거라 졸리진 않아!",
+            "norm_text": "응응 나는 화상으로 수업하는데 테스트 보면서 하는 거라 졸리진 않아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+나/NP+는/JX+화상/NNG+으로/JKB+수업/NNG+하/XSV+는/ETM+데/NNB+테스트/NNG+보/VV+면서/EC+하/VV+는/ETM+거/NNB+라/VCP+EC+졸리/VV+진/EC+JX+않/VX+아/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근데 수업만 듣는 거면 따분할 것 같기도 해ㅠㅠ",
+            "norm_text": "근데 수업만 듣는 거면 따분할 것 같기도 해ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+수업/NNG+만/JX+듣/VV+는/ETM+거/NNB+면/VCP+EC+따분/NNG+할/XSV+ETM+것/NNB+같/VA+기/ETN+도/JX+해/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아아 화상으로 수업하는구나!",
+            "norm_text": "아아 화상으로 수업하는구나!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+화상/NNG+으로/JKB+수업/NNG+하/XSA+는구나/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 근데 확실히 시험을 보고 성적이 채점되니까 더 집중하게 되는 거 같아 하하",
+            "norm_text": "근데 확실히 시험을 보고 성적이 채점되니까 더 집중하게 되는 거 같아 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+확실히/MAG+시험/NNG+을/JKO+보/VV+고/EC+성적/NNG+이/JKS+채점/NNG+되/XSV+니까/EC+더/MAG+집중/NNG+하/XSV+게/EC+되/VV+는/ETM+거/NNB+같/VA+아/EC+하하/MAG"
+          },
+          {
+            "id": 19,
+            "text": "1 : 맞아 나도 실시간으로 테스트 보고 바로 점수가 나오거든",
+            "norm_text": "맞아 나도 실시간으로 테스트 보고 바로 점수가 나오거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+나/NP+도/JX+실시간/NNG+으로/JKB+테스트/NNG+보/VV+고/EC+바로/MAG+점수/NNG+가/JKS+나오/VV+거든/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그래서 후덜덜 초 집중하게 돼!",
+            "norm_text": "그래서 후덜덜 초 집중하게 돼!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+후/NNG+덜/MAG+덜/MAG+초/XPN+집중/NNG+하/XSV+게/EC+돼/VV+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 맞아 맞아 하하 나 지금 오후랑 저녁에 듣는 선생님들도 다 너무 좋으셔서 재밌어!",
+            "norm_text": "맞아 맞아 하하 나 지금 오후랑 저녁에 듣는 선생님들도 다 너무 좋으셔서 재밌어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아하/EC+하나/NR+지금/MAG+오후/NNG+랑/JKB+저녁/NNG+에/JKB+듣/VV+는/ETM+선생/NNG+님/XSN+들/XSN+도/JX+다/MAG+너무/MAG+좋/VA+으셔서/EP+EC+재밌/VA+어/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 선생님도 중요해",
+            "norm_text": "선생님도 중요해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "선생/NNG+님/XSN+도/JX+중요/NNG+해/XSV+EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 나는 막 다그치는 선생님보다 잘 말해주는 선생님이 좋아ㅠㅠ",
+            "norm_text": "나는 막 다그치는 선생님보다 잘 말해주는 선생님이 좋아ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+막/VV+다/EC+그치/VV+는/ETM+선생/NNG+님/XSN+보다/JKB+잘/MAG+말/NNG+해/XSV+EC+주/VX+는/ETM+선생/NNG+님/XSN+이/JKS+좋/VA+아/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 지금 선생님이 그러셔!",
+            "norm_text": "지금 선생님이 그러셔!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+선생/NNG+님/XSN+이/JKS+그러/VV+셔/EP+EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 나도 나도 하하 독려 많이 해주고 할 수 있다! 해보자! 이런 선생님들 키키",
+            "norm_text": "나도 나도 하하 독려 많이 해주고 할 수 있다! 해보자! 이런 선생님들 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+나/NP+도/JX+하하/MAG+독려/NNG+많이/MAG+해/VV+EC+주/VX+고/EC+할/VX+ETM+수/NNB+있/VV+다/EF+해/VV+EC+보/VX+자/EF+이런/MM+선생/NNG+님/XSN+들/XSN+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

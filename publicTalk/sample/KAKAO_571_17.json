@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24840,
+    "name": "KAKAO_571_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135539032311/KAKAO_571_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135539032311/KAKAO_571_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30490,
+      "filename": "KAKAO_571_17.txt",
+      "title": "KAKAO_571_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 433,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 433,
+        "word_size": 136,
+        "text": "1 : 요즘도 자꾸 다리가 저리네\n2 : 큰일이네 다리가 저린다는 것은 피가 안 통한다는 건데\n1 : 앉았다 일어나면 저린 게 오래 가\n2 : 신경외과 가봐야겠네\n2 : 아빠도 다리가 저려서 힘들어 했었는데 치료 받더니 괜찮다고 하시네\n1 : 아빠는 병원에서 뭐라고 하셨어?\n2 : 허리 협착증이라고 신경이 허리를 타고 내려오는 거래\n1 : 저린 거 말고 다른 증상은 없으셨대?\n2 : 발바닥이 아프고 다리가 저리고 그랬다는 거 같은데\n1 : 아 진짜 치료는 어떻게 했어?\n2 : 다리에 주사 맞고 특수물리치료 받았어\n1 : 몇 번 다녔겠네 좀 나아지셨어?\n2 : 그런 거 같아 이젠 병원에 안 가시니까\n1 : 다행이네 협착증 심하면 수술도 하잖아\n2 : 수술까지 가기 전에 아프면 바로 병원에 가야 할 거 같아\n1 : 그니깐 요즘 그렇게 많이 느껴\n2 : 건강은 건강할 때 지켜야 한다는 옛말이 있잖아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘도 자꾸 다리가 저리네",
+            "norm_text": "요즘도 자꾸 다리가 저리네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+도/JX+자꾸/MAG+다리/NNG+가/JKS+저리/VA+네/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 큰일이네 다리가 저린다는 것은 피가 안 통한다는 건데",
+            "norm_text": "큰일이네 다리가 저린다는 것은 피가 안 통한다는 건데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "큰일/NNG+이/JKS+네다리/NNG+가/JKS+저린다는/VV+ETM+것/NNB+은/JX+피/NNG+가/JKS+안/MAG+통한다는/VV+ETM+건데/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 앉았다 일어나면 저린 게 오래 가",
+            "norm_text": "앉았다 일어나면 저린 게 오래 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앉/VV+았/EP+다/EC+일어나/VV+면/EC+저린/VV+ETM+게/NNB+JKS+오래가/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 신경외과 가봐야겠네",
+            "norm_text": "신경외과 가봐야겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "신경외과/NNG+가/JKS+봐야/VV+EC+VX+겠/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아빠도 다리가 저려서 힘들어 했었는데 치료 받더니 괜찮다고 하시네",
+            "norm_text": "아빠도 다리가 저려서 힘들어 했었는데 치료 받더니 괜찮다고 하시네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+도/JX+다리/NNG+가/JKS+저려서/VV+EC+힘들/VA+어/EC+했었/VX+EP+는데/EC+치료/NNG+받/VV+더니/EC+괜찮/VA+다고/EC+하/VX+시/EP+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아빠는 병원에서 뭐라고 하셨어?",
+            "norm_text": "아빠는 병원에서 뭐라고 하셨어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+는/JX+병원/NNG+에서/JKB+뭐/NP+라고/VCP+EC+하/VX+셨/EP+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 허리 협착증이라고 신경이 허리를 타고 내려오는 거래",
+            "norm_text": "허리 협착증이라고 신경이 허리를 타고 내려오는 거래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "허리/NNG+협착증/NNG+이/VCP+라고/EC+신경/NNG+이/JKS+허리/NNG+를/JKO+타/VV+고/EC+내려오/VV+는/ETM+거래/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 저린 거 말고 다른 증상은 없으셨대?",
+            "norm_text": "저린 거 말고 다른 증상은 없으셨대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저린/VA+ETM+거/NNB+말/VV+고/EC+다른/MM+증상/NNG+은/JX+없/VA+으셨/EP+EP+대/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 발바닥이 아프고 다리가 저리고 그랬다는 거 같은데",
+            "norm_text": "발바닥이 아프고 다리가 저리고 그랬다는 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "발바닥/NNG+이/JKS+아프/VA+고/EC+다리/NNG+가/JKS+저리/VA+고/EC+그랬/VV+EP+다는/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 진짜 치료는 어떻게 했어?",
+            "norm_text": "아 진짜 치료는 어떻게 했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+치료/NNG+는/JX+어떻/VA+게/EC+했/VX+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 다리에 주사 맞고 특수물리치료 받았어",
+            "norm_text": "다리에 주사 맞고 특수물리치료 받았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다리/NNG+에/JKB+주사/NNG+맞/VV+고/EC+특수/NNG+물리/NNG+치료/NNG+받/VV+았/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 몇 번 다녔겠네 좀 나아지셨어?",
+            "norm_text": "몇 번 다녔겠네 좀 나아지셨어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+번/NNBC+다녔/VV+VX+겠/EP+네/EF+좀/MAG+나아지/VV+셨/EP+EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그런 거 같아 이젠 병원에 안 가시니까",
+            "norm_text": "그런 거 같아 이젠 병원에 안 가시니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+거/NNB+같/VA+아/EC+이젠/NNG+JX+병원/NNG+에/JKB+안/MAG+가/VV+시/EP+니까/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 다행이네 협착증 심하면 수술도 하잖아",
+            "norm_text": "다행이네 협착증 심하면 수술도 하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다행/NNG+이/JKS+네/MM+협착증/NNG+심하/VA+면/EC+수술/NNG+도/JX+하/VV+잖아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 수술까지 가기 전에 아프면 바로 병원에 가야 할 거 같아",
+            "norm_text": "수술까지 가기 전에 아프면 바로 병원에 가야 할 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수술/NNG+까지/JX+가/VV+기/ETN+전/NNG+에/JKB+아프/VA+면/EC+바로/MAG+병원/NNG+에/JKB+가/VV+야/EC+할/VX+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그니깐 요즘 그렇게 많이 느껴",
+            "norm_text": "그니깐 요즘 그렇게 많이 느껴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+요즘/MAG+그렇게/MAG+많이/MAG+느껴/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 건강은 건강할 때 지켜야 한다는 옛말이 있잖아",
+            "norm_text": "건강은 건강할 때 지켜야 한다는 옛말이 있잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "건강/NNG+은/JX+건강/NNG+할/XSV+ETM+때/NNG+지켜야/VV+EC+한다는/VX+ETM+옛말/NNG+이/JKS+있/VV+잖아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

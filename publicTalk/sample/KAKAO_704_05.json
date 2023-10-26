@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 45700,
+    "name": "KAKAO_704_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114235013331/KAKAO_704_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114235013331/KAKAO_704_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35564,
+      "filename": "KAKAO_704_05.txt",
+      "title": "KAKAO_704_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 653,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 653,
+        "word_size": 193,
+        "text": "1 : 언니 주변에 군대 관련 직종자는 없죠?\n2 : 나 있어! 우리 학교에 군사학과가 있잖아, 그래서 거기에서 알게 된 친구인데 그 친구가 유일하게 있네\n1 : 아 맞아요! 오 그러면 직업 군인인 건가? 하하\n2 : 응응 맞아~ 부사관으로 있어.\n2 : 부사관이 약간 사회로 치면 현장 실무자, 감독 막 이런 키키 작업 반장 같은?\n1 : 오 하하 직업 군인은 출퇴근 하나요?\n2 : 응응 출퇴근 하는 것으로 알고 있어\n1 : 직업으로 군인을 선택 한다는 게 참 대단한 것 같아요 ㅠㅠ\n2 : 맞아… 나는 다시 태어나도 여자로 태어날래...\n2 : 가보지도 않았지만... 가기 싫어서 ... 키키\n1 : 진짜로 뉴스 나오는 거 보면 끔찍하잖아요 ㅠㅠ\n2 : 맞아... 어떤 일이 벌어질지 모르지...\n2 : 아까도 뭐 또 뉴스 나오던데 ㅠ 아무래도 작은 사회니까... 많은 일이 벌어질 듯 ㅠ\n1 : 맞아요 ㅠ 부실 급식도 그렇고 개선이 필요 한 것 같아요!\n2 : 그러니까... ㅠㅠ 여군들 성폭행 사건이나... 따돌림 사건들도 그렇고 문제가 많아...\n1 : 여자라고 얕보고 후임이라고 얕보는 세상 ㅠㅠ 없어져야 돼요!\n2 : 군대에서도 사실상 제대로 된 훈련이 되고 있는지도 의문이고...\n1 : 안심하고 보낼 수 있는 곳이 되었으면 좋겠어요!\n2 : 응 나중에 미래에 아이들을 위해서도… 흑",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 주변에 군대 관련 직종자는 없죠?",
+            "norm_text": "언니 주변에 군대 관련 직종자는 없죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+주변/NNG+에/JKB+군대/NNG+관련/NNG+직종/NNG+자/XSN+는/JX+없/VA+죠/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 있어! 우리 학교에 군사학과가 있잖아, 그래서 거기에서 알게 된 친구인데 그 친구가 유일하게 있네",
+            "norm_text": "나 있어! 우리 학교에 군사학과가 있잖아, 그래서 거기에서 알게 된 친구인데 그 친구가 유일하게 있네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+있/VA+어/EF+우리/NP+학교/NNG+에/JKB+군사/NNG+학과/NNG+가/JKS+있/VA+잖아/EF+,/SC+그래서/MAJ+거기/NP+에서/JKB+알/VV+게/EC+된/VV+ETM+친구/NNG+인데/VCP+EC+그/MM+친구/NNG+가/JKS+유일/NNG+하/XSV+게/EC+있/VX+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 맞아요! 오 그러면 직업 군인인 건가? 하하",
+            "norm_text": "아 맞아요! 오 그러면 직업 군인인 건가? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+맞/VV+아요/EF+오/IC+그러면/MAJ+직업/NNG+군인/NNG+인/VCP+ETM+건가/NNB+VCP+EF+하하/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 맞아~ 부사관으로 있어.",
+            "norm_text": "응응 맞아~ 부사관으로 있어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+맞/VV+아/EC+~/SY+부사관/NNG+으로/JKB+있/VV+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 부사관이 약간 사회로 치면 현장 실무자, 감독 막 이런 키키 작업 반장 같은?",
+            "norm_text": "부사관이 약간 사회로 치면 현장 실무자, 감독 막 이런 키키 작업 반장 같은?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "부사관/NNG+이/JKS+약간/MAG+사회/NNG+로/JKB+치/VV+면/EC+현장/NNG+실무자/NNG+,/SC+감독/NNG+막/MAJ+이런/MM+키/NNG+키/NNG+작업반장/NNG+같/VA+은/ETM"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오 하하 직업 군인은 출퇴근 하나요?",
+            "norm_text": "오 하하 직업 군인은 출퇴근 하나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+하하/MAG+직업/NNG+군인/NNG+은/JX+출퇴근/NNG+하/XSA+나요/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응응 출퇴근 하는 것으로 알고 있어",
+            "norm_text": "응응 출퇴근 하는 것으로 알고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+출퇴근/NNG+하/XSV+는/ETM+것/NNB+으로/JKB+알/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 직업으로 군인을 선택 한다는 게 참 대단한 것 같아요 ㅠㅠ",
+            "norm_text": "직업으로 군인을 선택 한다는 게 참 대단한 것 같아요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "직업/NNG+으로/JKB+군인/NNG+을/JKO+선택/NNG+한다는/XSV+ETM+게/NNB+JKS+참/MAG+대단/XR+한/XSA+ETM+것/NNB+같/VA+아요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아… 나는 다시 태어나도 여자로 태어날래...",
+            "norm_text": "맞아… 나는 다시 태어나도 여자로 태어날래...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+…/SE+나/NP+는/JX+다시/MAG+태어나/VV+EC+도/JX+여자/NNG+로/JKB+태/VV+어/EC+날래/VV+EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 가보지도 않았지만... 가기 싫어서 ... 키키",
+            "norm_text": "가보지도 않았지만... 가기 싫어서 ... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가/VV+EC+보/VX+지/EC+도/JX+않/VX+았/EP+지만/EC+./SY+./SY+가/VV+기/ETN+싫/VA+어서/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 진짜로 뉴스 나오는 거 보면 끔찍하잖아요 ㅠㅠ",
+            "norm_text": "진짜로 뉴스 나오는 거 보면 끔찍하잖아요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/NNG+로/JKB+뉴스/NNG+나오/VV+는/ETM+거/NNB+보/VV+면/EC+끔찍/XR+하/XSA+잖아요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아... 어떤 일이 벌어질지 모르지...",
+            "norm_text": "맞아... 어떤 일이 벌어질지 모르지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+어떤/MM+일/NNG+이/JKS+벌어질지/VV+EC+모르/VV+지/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아까도 뭐 또 뉴스 나오던데 ㅠ 아무래도 작은 사회니까... 많은 일이 벌어질 듯 ㅠ",
+            "norm_text": "아까도 뭐 또 뉴스 나오던데 ㅠ 아무래도 작은 사회니까... 많은 일이 벌어질 듯 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아까/MAG+도/JX+뭐/IC+또/MAG+뉴스/NNG+나오/VV+던/ETM+데ㅠ/UNKNOWN+아무래도/MAG+작/VA+은/ETM+사회/NNG+니까/VCP+EC+./SY+./SY+많/VA+은/ETM+일/NNG+이/JKS+벌어질/VV+ETM+듯ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 맞아요 ㅠ 부실 급식도 그렇고 개선이 필요 한 것 같아요!",
+            "norm_text": "맞아요 ㅠ 부실 급식도 그렇고 개선이 필요 한 것 같아요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+요ㅠ/UNKNOWN+부실/NNG+급식/NNG+도/JX+그렇/VA+고/EC+개선/NNG+이/JKS+필요/NNG+한/XSA+ETM+것/NNB+같/VA+아요/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그러니까... ㅠㅠ 여군들 성폭행 사건이나... 따돌림 사건들도 그렇고 문제가 많아...",
+            "norm_text": "그러니까... ㅠㅠ 여군들 성폭행 사건이나... 따돌림 사건들도 그렇고 문제가 많아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+./SY+ㅠㅠ/UNKNOWN+여군/NNG+들/XSN+성폭행/NNG+사건/NNG+이나/JC+./SY+따돌림/NNG+사건/NNG+들/XSN+도/JX+그렇/VA+고/EC+문제/NNG+가/JKS+많/VA+아/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 여자라고 얕보고 후임이라고 얕보는 세상 ㅠㅠ 없어져야 돼요!",
+            "norm_text": "여자라고 얕보고 후임이라고 얕보는 세상 ㅠㅠ 없어져야 돼요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여자/NNG+라고/VCP+EC+얕보/VV+고/EC+후임/NNG+이/VCP+라고/EC+얕보/VV+는/ETM+세상/NNG+ㅠㅠ/UNKNOWN+없/VA+어/EC+져야/VX+EC+돼요/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 군대에서도 사실상 제대로 된 훈련이 되고 있는지도 의문이고...",
+            "norm_text": "군대에서도 사실상 제대로 된 훈련이 되고 있는지도 의문이고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+에서/JKB+도/JX+사실상/MAG+제대로/MAG+된/VV+ETM+훈련/NNG+이/JKS+되/VV+고/EC+있/VX+는지/EC+도/JX+의문/NNG+이/VCP+고/EC+./SY+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 안심하고 보낼 수 있는 곳이 되었으면 좋겠어요!",
+            "norm_text": "안심하고 보낼 수 있는 곳이 되었으면 좋겠어요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안심/NNG+하/XSV+고/EC+보낼/VV+ETM+수/NNB+있/VV+는/ETM+곳/NNG+이/JKS+되/VV+었/EP+으면/EC+좋/VA+겠/EP+어요/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응 나중에 미래에 아이들을 위해서도… 흑",
+            "norm_text": "응 나중에 미래에 아이들을 위해서도… 흑",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나중/NNG+에/JKB+미래/NNG+에/JKB+아이/NNG+들/XSN+을/JKO+위해서/VV+EC+도/JX+…/SE+흑/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

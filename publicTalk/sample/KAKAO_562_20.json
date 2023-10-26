@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21239,
+    "name": "KAKAO_562_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710054835/KAKAO_562_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710054835/KAKAO_562_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30333,
+      "filename": "KAKAO_562_20.txt",
+      "title": "KAKAO_562_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 442,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 442,
+        "word_size": 137,
+        "text": "1 : 오빠 우리 자동차 극장 또 언제 가요~?\n2 : 자동차 극장 가서 영화 봤을 때 재밌었어? 하하\n1 : 웅웅 엄청~ 또 가고 싶어!\n2 : 하하 귀여워 이번에 또 영화 보러 갈까?\n1 : 좋아! 근데 지금은 무슨 영화 상영 중이지?\n2 : 이번에 새로 개봉하는 영화 재밌어 보이던데~!\n1 : 무슨 내용 영화야?\n2 : 황정민이 황정민으로 나오는 영화래~! 키키\n1 : 오잉? 황정민이 황정민으로? 그게 뭐야 키키\n2 : 황정민이 극중에서 그냥 배우 황정민으로 나오는데 납치를 당하는 거래 키키\n1 : 우와 키키 신박한 소재라서 재밌겠는데?\n2 : 그치? 뭔가 새로운 시도를 한 영화 같아 키키\n1 : 그거 하면 보러 가자 자동차 극장에 하하\n2 : 좋아 좋아~! 오빠가 한 번 알아볼게 하하\n1 : 거기서 상영하지 않을까? 했으면 좋겠다 ㅠㅠ\n2 : 오~! 알아보니까 한다! 인질! 이번 주에 보러 가자~하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠 우리 자동차 극장 또 언제 가요~?",
+            "norm_text": "오빠 우리 자동차 극장 또 언제 가요~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+우리/NP+자동차/NNG+극장/NNG+또/MAG+언제/MAG+가요/NNG+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 자동차 극장 가서 영화 봤을 때 재밌었어? 하하",
+            "norm_text": "자동차 극장 가서 영화 봤을 때 재밌었어? 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자동차/NNG+극장가/NNG+서/JKB+영화/NNG+봤/VV+EP+을/ETM+때/NNG+재밌/VA+었/EP+어/EF+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 웅웅 엄청~ 또 가고 싶어!",
+            "norm_text": "웅웅 엄청~ 또 가고 싶어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅웅/MAG+엄청/MAG+~/SY+또/MAG+가/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 하하 귀여워 이번에 또 영화 보러 갈까?",
+            "norm_text": "하하 귀여워 이번에 또 영화 보러 갈까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+귀여워/VA+EC+이번/NNG+에/JKB+또/MAG+영화/NNG+보/VV+러/EC+갈까/VX+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 좋아! 근데 지금은 무슨 영화 상영 중이지?",
+            "norm_text": "좋아! 근데 지금은 무슨 영화 상영 중이지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+아/EF+근데/MAJ+지금/MAG+은/JX+무슨/MM+영화/NNG+상영/NNG+중/NNB+이/VCP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 이번에 새로 개봉하는 영화 재밌어 보이던데~!",
+            "norm_text": "이번에 새로 개봉하는 영화 재밌어 보이던데~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+새로/MAG+개봉/NNG+하/XSV+는/ETM+영화/NNG+재밌/VA+어/EC+보이/VV+던데/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 무슨 내용 영화야?",
+            "norm_text": "무슨 내용 영화야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+내용/NNG+영화/NNG+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 황정민이 황정민으로 나오는 영화래~! 키키",
+            "norm_text": "황정민이 황정민으로 나오는 영화래~! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "황정민/NNP+이/JKS+황정민/NNP+으로/JKB+나오/VV+는/ETM+영화/NNG+래/VCP+EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오잉? 황정민이 황정민으로? 그게 뭐야 키키",
+            "norm_text": "오잉? 황정민이 황정민으로? 그게 뭐야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오잉/NNP+?/SY+황정민/NNP+이/JKS+황정민/NNP+으로/JKB+그게/NP+JKS+뭐/IC+야키/NNP+키/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 황정민이 극중에서 그냥 배우 황정민으로 나오는데 납치를 당하는 거래 키키",
+            "norm_text": "황정민이 극중에서 그냥 배우 황정민으로 나오는데 납치를 당하는 거래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "황정민/NNP+이/JKS+극/NNG+중/NNB+에서/JKB+그냥/MAG+배우/NNG+황정민/NNP+으로/JKB+나오/VV+는데/EC+납치/NNG+를/JKO+당하/VV+는/ETM+거래/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 우와 키키 신박한 소재라서 재밌겠는데?",
+            "norm_text": "우와 키키 신박한 소재라서 재밌겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+키/NNG+키/NNG+신박/NNG+한/XSA+ETM+소재/NNG+라서/VCP+EC+재밌/VA+겠/EP+는데/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그치? 뭔가 새로운 시도를 한 영화 같아 키키",
+            "norm_text": "그치? 뭔가 새로운 시도를 한 영화 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+뭔가/NP+VCP+EC+새로운/VA+ETM+시도/NNG+를/JKO+한/VV+ETM+영화/NNG+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그거 하면 보러 가자 자동차 극장에 하하",
+            "norm_text": "그거 하면 보러 가자 자동차 극장에 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그거/NP+하/VV+면/EC+보/VX+러/EC+가/VX+자/EC+자동차/NNG+극장/NNG+에/JKB+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 좋아 좋아~! 오빠가 한 번 알아볼게 하하",
+            "norm_text": "좋아 좋아~! 오빠가 한 번 알아볼게 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좋/VA+아/EC+좋/VA+아/EC+~/SY+오빠/NNG+가/JKS+한/MM+번/NNBC+알아볼/VV+ETM+게/NNB+JKS+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 거기서 상영하지 않을까? 했으면 좋겠다 ㅠㅠ",
+            "norm_text": "거기서 상영하지 않을까? 했으면 좋겠다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+서/JKB+상영/NNG+하/XSV+지/EC+않/VX+을까/EF+했/VV+EP+으면/EC+좋/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오~! 알아보니까 한다! 인질! 이번 주에 보러 가자~하하",
+            "norm_text": "1 : 오빠 우리 자동차 극장 또 언제 가요~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "N/A",
+            "morpheme": ""
+          }
+        ]
+      }
+    }
+  ]
+}

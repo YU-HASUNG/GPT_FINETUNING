@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 35564,
+    "name": "KAKAO_621_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754063186/KAKAO_621_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754063186/KAKAO_621_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34147,
+      "filename": "KAKAO_621_09.txt",
+      "title": "KAKAO_621_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 796,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 796,
+        "word_size": 242,
+        "text": "1 : 자긴 동물에 대해 트라우마 있어?\n1 : 강아지 보이기만 하면 엄청 놀라잖아 .\n2 : 응 어렸을 적에 엄마가 밖에 나간 거 알고 따라 나갔는데 엄청 큰 개가 날 보면서 위협적으로 짖는 거지...\n2 : 그 이후에 개, 강아지 다 무서워해.\n1 : 헐 어린애라 더 만만히 봤을 수도 있겠다.\n2 : 응 그랬던 것 같아.\n2 : 그리고 중학생 때는 나 집으로 친구랑 걸어가고 있었는데 친구가 강아지를 무척 좋아해.\n2 : 그래서 몇 번 만져줬는데 친구 집이 가까워서 친구는 집에 들어가고 나 혼자 걸어가는데 그 만져줬던 강아지가 계속 날 따라 오는 거지...\n1 : 헐 안 그래도 트라우마 있던 사람이었는데... 그래서 어떻게 했어?\n2 : 정말 미친 듯이 뛰어가도 보고 어디 숨는 척도 해 봤는데, 그 강아지도 내가 숨으면 자는 척 딴 짓 하드라?\n1 : 말로만 들어서는 너무 귀엽다.\n2 : 말로만 들으면 그렇지.\n2 : 난 개를 무서워하는데 정말 귀엽지 않았고 무서웠어 ㅠ\n1 : 그러게 더군다나 혼자였는데 어린 마음에 얼마나 무서웠겠어.\n2 : 결국 집에 까지 도착했는데도 그 강아지는 내 곁을 떠나지 않았지.\n2 : 도망치듯 뛰어서 현관문 걸어 잠궜어 ㅠ\n1 : 집에 도망치듯이 들어 간거야 ? 키키\n2 : 응 그랬지. 내 친구는 고양이한테 어릴 때 할큄을 당해서 그 때부터 고양이 엄청 무서워 하드라구.\n1 : 반려동물 자긴 키울 생각 전혀 없겠네?\n2 : 당연하지. 난 반려동물에 반 글자도 싫어할 정도야.\n2 : 왜 키울려고?\n1 : 응 그냥 키울 생각 있는지 궁금했어~\n2 : 그래. 그냥 나 어릴 적에 그런 일이 있었다고만 기억해줘...ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자긴 동물에 대해 트라우마 있어?",
+            "norm_text": "자긴 동물에 대해 트라우마 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자긴/NP+JX+동물/NNG+에/JKB+대해/VV+EC+트라우마/NNP+있/VV+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 강아지 보이기만 하면 엄청 놀라잖아 .",
+            "norm_text": "강아지 보이기만 하면 엄청 놀라잖아 .",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "강아지/NNG+보이/VV+기/ETN+만/JX+하/VV+면/EC+엄청/MAG+놀라/VV+잖아/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 응 어렸을 적에 엄마가 밖에 나간 거 알고 따라 나갔는데 엄청 큰 개가 날 보면서 위협적으로 짖는 거지...",
+            "norm_text": "응 어렸을 적에 엄마가 밖에 나간 거 알고 따라 나갔는데 엄청 큰 개가 날 보면서 위협적으로 짖는 거지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+어렸/VA+EP+을/ETM+적/NNB+에/JKB+엄마/NNG+가/JKS+밖/NNG+에/JKB+나간/VV+ETM+거/NNB+알/VV+고/EC+따라/VV+EC+나갔/VV+EP+는데/EC+엄청/MAG+큰/VA+ETM+개/NNG+가/JKS+날/NNG+보/VV+면서/EC+위협/NNG+적/XSN+으로/JKB+짖/VV+는/ETM+거/NNB+지/VCP+EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그 이후에 개, 강아지 다 무서워해.",
+            "norm_text": "그 이후에 개, 강아지 다 무서워해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+이후/NNG+에/JKB+개/NNG+,/SC+강아지/NNG+다/MAG+무서워해/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 헐 어린애라 더 만만히 봤을 수도 있겠다.",
+            "norm_text": "헐 어린애라 더 만만히 봤을 수도 있겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+어린애/NNG+라/VCP+EC+더/MAG+만만히/MAG+봤/VV+EP+을/ETM+수/NNB+도/JX+있/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 그랬던 것 같아.",
+            "norm_text": "응 그랬던 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그랬/VV+EP+던/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그리고 중학생 때는 나 집으로 친구랑 걸어가고 있었는데 친구가 강아지를 무척 좋아해.",
+            "norm_text": "그리고 중학생 때는 나 집으로 친구랑 걸어가고 있었는데 친구가 강아지를 무척 좋아해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+중학생/NNG+때/NNG+는/JX+나/NP+집/NNG+으로/JKB+친구/NNG+랑/JKB+걸어가/VV+고/EC+있/VX+었/EP+는데/EC+친구/NNG+가/JKS+강아지/NNG+를/JKO+무척/MAG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그래서 몇 번 만져줬는데 친구 집이 가까워서 친구는 집에 들어가고 나 혼자 걸어가는데 그 만져줬던 강아지가 계속 날 따라 오는 거지...",
+            "norm_text": "그래서 몇 번 만져줬는데 친구 집이 가까워서 친구는 집에 들어가고 나 혼자 걸어가는데 그 만져줬던 강아지가 계속 날 따라 오는 거지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+몇/MM+번/NNBC+만져/VV+EC+줬/VX+EP+는데/EC+친구/NNG+집/NNG+이/JKS+가까워/VV+서/EC+친구/NNG+는/JX+집/NNG+에/JKB+들어가/VV+고/EC+나/JX+혼자/MAG+걸어가/VV+는데/EC+그/IC+만져/VV+EC+줬/VX+EP+던/ETM+강아지/NNG+가/JKS+계속/MAG+날/NP+JKO+따라오/VV+는/ETM+거/NNB+지/VCP+EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 헐 안 그래도 트라우마 있던 사람이었는데... 그래서 어떻게 했어?",
+            "norm_text": "헐 안 그래도 트라우마 있던 사람이었는데... 그래서 어떻게 했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+안/MAG+그래도/VV+EC+트라우마/NNP+있/VV+던/ETM+사람/NNG+이/VCP+었/EP+는데/EC+./SY+./SY+그래서/MAJ+어떻게/MAG+했/VV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 정말 미친 듯이 뛰어가도 보고 어디 숨는 척도 해 봤는데, 그 강아지도 내가 숨으면 자는 척 딴 짓 하드라?",
+            "norm_text": "정말 미친 듯이 뛰어가도 보고 어디 숨는 척도 해 봤는데, 그 강아지도 내가 숨으면 자는 척 딴 짓 하드라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정말/MAG+미친/VV+ETM+듯이/NNB+뛰어가/VV+도/EC+보/VX+고/EC+어디/NP+숨/VV+는/ETM+척도/NNG+해/XSV+EC+봤/VX+EP+는데/EC+,/SC+그/MM+강아지/NNG+도/JX+내/NP+가/JKS+숨/VV+으면/EC+자/VV+는/ETM+척/NNB+딴/MM+짓/NNB+하/VV+드라/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 말로만 들어서는 너무 귀엽다.",
+            "norm_text": "말로만 들어서는 너무 귀엽다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "말/NNG+로/JKB+만들/VV+어서/EC+는/JX+너무/MAG+귀엽/VA+다/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 말로만 들으면 그렇지.",
+            "norm_text": "말로만 들으면 그렇지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "말/NNG+로/JKB+만들/VV+으면/EC+그렇/VA+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 개를 무서워하는데 정말 귀엽지 않았고 무서웠어 ㅠ",
+            "norm_text": "난 개를 무서워하는데 정말 귀엽지 않았고 무서웠어 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난개/NNG+를/JKO+무서워하/VV+는데/EC+정말/MAG+귀엽/VA+지/EC+않/VX+았/EP+고/EC+무서웠어/VA+EP+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그러게 더군다나 혼자였는데 어린 마음에 얼마나 무서웠겠어.",
+            "norm_text": "그러게 더군다나 혼자였는데 어린 마음에 얼마나 무서웠겠어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+더군다나/MAJ+혼자/NNG+였/VCP+EP+는데/EC+어린/VA+ETM+마음/NNG+에/JKB+얼마나/MAG+무서웠/VA+EP+겠/EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 결국 집에 까지 도착했는데도 그 강아지는 내 곁을 떠나지 않았지.",
+            "norm_text": "결국 집에 까지 도착했는데도 그 강아지는 내 곁을 떠나지 않았지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "결국/MAG+집/NNG+에/JKB+까지/JX+도착/NNG+했/XSV+EP+는데/EC+도/JX+그/MM+강아지/NNG+는/JX+내/NP+JKG+곁/NNG+을/JKO+떠나/VV+지/EC+않/VX+았/EP+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 도망치듯 뛰어서 현관문 걸어 잠궜어 ㅠ",
+            "norm_text": "도망치듯 뛰어서 현관문 걸어 잠궜어 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "도망치/VV+듯/EC+뛰/VV+어서/EC+현관문/NNG+걸/VV+어/EC+잠궜/UNKNOWN+어ㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 집에 도망치듯이 들어 간거야 ? 키키",
+            "norm_text": "집에 도망치듯이 들어 간거야 ? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+에/JKB+도망치/VV+듯이/EC+들어간/VV+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 그랬지. 내 친구는 고양이한테 어릴 때 할큄을 당해서 그 때부터 고양이 엄청 무서워 하드라구.",
+            "norm_text": "응 그랬지. 내 친구는 고양이한테 어릴 때 할큄을 당해서 그 때부터 고양이 엄청 무서워 하드라구.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그랬/VV+EP+지/EF+내/NP+JKG+친구/NNG+는/JX+고양이/NNG+한테/JKB+어릴/VA+ETM+때/NNG+할/XSV+ETM+큄/NNP+을/JKO+당해서/VV+EC+그때/NNG+부터/JX+고양이/NNG+엄청/MAG+무서워/VA+EC+하/VX+드라구/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 반려동물 자긴 키울 생각 전혀 없겠네?",
+            "norm_text": "반려동물 자긴 키울 생각 전혀 없겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "반려/NNG+동물/NNG+자긴/NP+JX+키울/VV+ETM+생각/NNG+전혀/MAG+없/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 당연하지. 난 반려동물에 반 글자도 싫어할 정도야.",
+            "norm_text": "당연하지. 난 반려동물에 반 글자도 싫어할 정도야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+난/NP+JX+반려/NNG+동물/NNG+에/JKB+반/NNG+글자/NNG+도/JX+싫/VA+어/EC+할/VX+ETM+정도/NNG+야/VCP+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 왜 키울려고?",
+            "norm_text": "왜 키울려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+키/NNG+울/VV+려고/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 응 그냥 키울 생각 있는지 궁금했어~",
+            "norm_text": "응 그냥 키울 생각 있는지 궁금했어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그냥/MAG+키울/VV+ETM+생각/NNG+있/VV+는지/EC+궁금/XR+했/XSA+EP+어/EC+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 그래. 그냥 나 어릴 적에 그런 일이 있었다고만 기억해줘...ㅋ",
+            "norm_text": "그래. 그냥 나 어릴 적에 그런 일이 있었다고만 기억해줘...ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그냥/MAG+나/NP+어릴/VA+ETM+적/NNB+에/JKB+그런/MM+일/NNG+이/JKS+있/VA+었/EP+다고/EC+만/JX+기억/NNG+해/XSV+EC+줘/VX+EF+./SY+ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

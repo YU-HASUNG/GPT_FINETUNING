@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 72041,
+    "name": "KAKAO_676_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112755027868/KAKAO_676_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112755027868/KAKAO_676_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35199,
+      "filename": "KAKAO_676_20.txt",
+      "title": "KAKAO_676_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 493,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 493,
+        "word_size": 162,
+        "text": "1 : 너 밍크 슈가 윙크 이런 거 알아?\n2 : 그게 뭐야? 강아지 이름이야? 키키\n2 : 공통점이 뭐지?\n1 : 와... 너 진짜 모르는구나!\n1 : 만화 잡지 이름이야\n2 : 잉? 완전 처음 들어보는데? 어디서 팔아?\n1 : 요즘엔 안 나오고 우리 어릴 때 있던 잡지야\n2 : 아~ 그래? 전혀 몰랐어\n2 : 너 만화도 좋아했어?\n1 : 응 키키 내가 일반인 코스프레 해서 몰랐구나!\n2 : 전혀 몰랐어 진짜!\n2 : 너가 코스프레 하고 그런 건 아니지?\n1 : 응 그 정도 오타쿠는 아니었고 키키 난 순정 만화 좋아했어\n2 : 아 정말? 신기하다 나도 *** 만화책은 읽어봤어\n1 : 헐 ~ *** 선생님! 너무 멋져\n1 : 요즘 건강이 안 좋으시대\n2 : 진짜? 나 유일하게 아는 만화가가 ***인데\n1 : 건강이 안 좋아서 만화를 못 그리신대 ㅠㅠ\n2 : 나 오디션이라는 만화 엄청 재밌게 읽었었는데\n1 : 오 ~ 너도 만화를 알긴 아는구나!\n2 : 그럼 *** 만화는 다 읽었었어\n2 : 그건 교양 필수야!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 밍크 슈가 윙크 이런 거 알아?",
+            "norm_text": "너 밍크 슈가 윙크 이런 거 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+밍크/NNG+슈가/NNP+윙크/NNG+이런/MM+거/NNB+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그게 뭐야? 강아지 이름이야? 키키",
+            "norm_text": "그게 뭐야? 강아지 이름이야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그게/NP+JKS+뭐/NP+야/VCP+EF+강아지/NNG+이름/NNG+이/VCP+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 공통점이 뭐지?",
+            "norm_text": "공통점이 뭐지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "공통점/NNG+이/JKS+뭐/NP+지/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 와... 너 진짜 모르는구나!",
+            "norm_text": "와... 너 진짜 모르는구나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+너/NP+진짜/MAG+모르/VV+는구나/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 만화 잡지 이름이야",
+            "norm_text": "만화 잡지 이름이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "만화/NNG+잡지/NNG+이름/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 잉? 완전 처음 들어보는데? 어디서 팔아?",
+            "norm_text": "잉? 완전 처음 들어보는데? 어디서 팔아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "잉/IC+완전/MAG+처음/MAG+들/VV+어/EC+보/VX+는데/EC+어디/NP+서/JKB+팔/VV+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 요즘엔 안 나오고 우리 어릴 때 있던 잡지야",
+            "norm_text": "요즘엔 안 나오고 우리 어릴 때 있던 잡지야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+엔/JKB+JX+안/MAG+나오/VV+고/EC+우리/NP+어릴/VA+ETM+때/NNG+있/VV+던/ETM+잡지/NNG+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아~ 그래? 전혀 몰랐어",
+            "norm_text": "아~ 그래? 전혀 몰랐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+그래/IC+전혀/MAG+몰랐/VV+EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 너 만화도 좋아했어?",
+            "norm_text": "너 만화도 좋아했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+만화/NNG+도/JX+좋/VA+아/EC+했/VX+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 키키 내가 일반인 코스프레 해서 몰랐구나!",
+            "norm_text": "응 키키 내가 일반인 코스프레 해서 몰랐구나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+내/NP+가/JKS+일반/NNG+인/VCP+ETM+코스프레/NNP+해서/VV+EC+몰랐/VV+EP+구나/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 전혀 몰랐어 진짜!",
+            "norm_text": "전혀 몰랐어 진짜!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전혀/MAG+몰랐/VV+EP+어/EF+진짜/MAG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너가 코스프레 하고 그런 건 아니지?",
+            "norm_text": "너가 코스프레 하고 그런 건 아니지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+가/JKS+코스프레/NNP+하고/JC+그런/MM+건/NNB+JX+아니/VCN+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 그 정도 오타쿠는 아니었고 키키 난 순정 만화 좋아했어",
+            "norm_text": "응 그 정도 오타쿠는 아니었고 키키 난 순정 만화 좋아했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그/MM+정도/NNG+오타쿠/NNP+는/JX+아니/VCN+었/EP+고/EC+키/NNG+키난/NNP+순정만화/NNP+좋/VA+아/EC+했/VX+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아 정말? 신기하다 나도 *** 만화책은 읽어봤어",
+            "norm_text": "아 정말? 신기하다 나도 *** 만화책은 읽어봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+신기/XR+하/XSA+다/EF+나/NP+도/JX+*/SY+*/SY+*/SY+만화책/NNG+은/JX+읽/VV+어/EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐 ~ *** 선생님! 너무 멋져",
+            "norm_text": "헐 ~ *** 선생님! 너무 멋져",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/NNP+~/SY+*/SY+*/SY+*/SY+선생/NNG+님/XSN+너무/MAG+멋져/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 요즘 건강이 안 좋으시대",
+            "norm_text": "요즘 건강이 안 좋으시대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+건강/NNG+이/JKS+안/MAG+좋/VA+으시/EC+대/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 진짜? 나 유일하게 아는 만화가가 ***인데",
+            "norm_text": "진짜? 나 유일하게 아는 만화가가 ***인데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+나/NP+유일/NNG+하/XSV+게/EC+아/VV+는/ETM+만화가/NNG+가/JKS+*/SY+*/SY+*/SY+인데/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 건강이 안 좋아서 만화를 못 그리신대 ㅠㅠ",
+            "norm_text": "건강이 안 좋아서 만화를 못 그리신대 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "건강/NNG+이/JKS+안/MAG+좋/VA+아서/EC+만화/NNG+를/JKO+못/MAG+그리/VV+신대/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 나 오디션이라는 만화 엄청 재밌게 읽었었는데",
+            "norm_text": "나 오디션이라는 만화 엄청 재밌게 읽었었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+오디션/NNG+이/VCP+라는/ETM+만화/NNG+엄청/MAG+재밌/VA+게/EC+읽/VV+었었/EP+는데/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 오 ~ 너도 만화를 알긴 아는구나!",
+            "norm_text": "오 ~ 너도 만화를 알긴 아는구나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+너/NP+도/JX+만화/NNG+를/JKO+알/VV+긴/ETN+JX+아/VV+는구나/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그럼 *** 만화는 다 읽었었어",
+            "norm_text": "그럼 *** 만화는 다 읽었었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+*/SY+*/SY+*/SY+만화/NNG+는/JX+다/MAG+읽/VV+었었/EP+어/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그건 교양 필수야!",
+            "norm_text": "그건 교양 필수야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+교양/NNG+필수/NNG+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

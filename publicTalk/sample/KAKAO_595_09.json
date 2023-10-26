@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 24269,
+    "name": "KAKAO_595_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160826089840/KAKAO_595_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160826089840/KAKAO_595_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31680,
+      "filename": "KAKAO_595_09.txt",
+      "title": "KAKAO_595_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 410,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 410,
+        "word_size": 135,
+        "text": "1 : 토끼나 햄스터 키워본 적 있어?\n2 : 아니 난 없어 ㅠㅠ\n1 : 난 어릴 때 햄스터 키워 봤어!\n2 : 어때? 근데 너무 쪼꼬매서 위험할 것 같아\n1 : 맞아... 진짜 새끼여서 씻기는 것조차 조심스러웠어 ㅜㅜ\n2 : 그치? 난 친구 집에서 키우는 거 봤었어\n1 : 그래도 귀여웠어 쪼꼬미...\n1 : 이름은 하늘이었어 하하\n2 : 헐 귀엽네 하하 왜 하늘이야?\n1 : 그냥 귀엽잖아 키키\n1 : 나 그때 하늘 좋아했나 봐\n2 : 대박 나는 반려동물 키우면 땡꾸로 짓고 싶어 ㅎ\n1 : 티엠아이 하나 알려주면 친구는 별님이었어\n2 : 진짜 티엠아이네!\n2 : 별님 이쁘다 하하\n1 : 키키 땡꾸? 땡꼬도 아니고 뭐냐\n2 : 너무 발음이 귀엽지 않아? 땡꾸야~\n1 : 아하? 키키 땡꾸... 꼭 생기면 좋겠다 내가 불러줄게 하하\n2 : 응 꼭 키울 거야 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 토끼나 햄스터 키워본 적 있어?",
+            "norm_text": "토끼나 햄스터 키워본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "토끼/NNG+나/JC+햄스터/NNG+키워본/VV+EC+VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 난 없어 ㅠㅠ",
+            "norm_text": "아니 난 없어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니난없어ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 난 어릴 때 햄스터 키워 봤어!",
+            "norm_text": "난 어릴 때 햄스터 키워 봤어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+어릴/VA+ETM+때/NNG+햄스터/NNG+키워/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어때? 근데 너무 쪼꼬매서 위험할 것 같아",
+            "norm_text": "어때? 근데 너무 쪼꼬매서 위험할 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어때/VA+EF+근데/MAJ+너무/MAG+쪼/MAG+꼬매/VV+서/EC+위험/NNG+할/XSV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아... 진짜 새끼여서 씻기는 것조차 조심스러웠어 ㅜㅜ",
+            "norm_text": "맞아... 진짜 새끼여서 씻기는 것조차 조심스러웠어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+진짜/MAG+새끼/NNG+여서/VCP+EC+씻기/VV+는/ETM+것/NNB+조차/JX+조심/NNG+스러웠어/XSA+EP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그치? 난 친구 집에서 키우는 거 봤었어",
+            "norm_text": "그치? 난 친구 집에서 키우는 거 봤었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+난/NP+JX+친구/NNG+집/NNG+에서/JKB+키우/VV+는/ETM+거/NNB+봤었/VV+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래도 귀여웠어 쪼꼬미...",
+            "norm_text": "그래도 귀여웠어 쪼꼬미...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+귀여웠/VA+EP+어/EF+쪼/MAG+꼬미/NNG+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 이름은 하늘이었어 하하",
+            "norm_text": "이름은 하늘이었어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이름/NNG+은/JX+하늘/NNG+이/VCP+었/EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 헐 귀엽네 하하 왜 하늘이야?",
+            "norm_text": "헐 귀엽네 하하 왜 하늘이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/VV+JKO+귀엽/VA+네/EF+하하/IC+왜/MAG+하늘/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그냥 귀엽잖아 키키",
+            "norm_text": "그냥 귀엽잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+귀엽/VA+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나 그때 하늘 좋아했나 봐",
+            "norm_text": "나 그때 하늘 좋아했나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+그때/NNG+하늘/NNG+좋/VA+아/EC+했/VX+EP+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 대박 나는 반려동물 키우면 땡꾸로 짓고 싶어 ㅎ",
+            "norm_text": "대박 나는 반려동물 키우면 땡꾸로 짓고 싶어 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대박/NNG+나/NP+는/JX+반려/NNG+동물/NNG+키우/VV+면/EC+땡/MAG+꾸/VV+로/EC+짓/VV+고/EC+싶/VX+어/EF+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "1 : 티엠아이 하나 알려주면 친구는 별님이었어",
+            "norm_text": "티엠아이 하나 알려주면 친구는 별님이었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "티엠/NNG+아이/NNG+하나/NR+알려/VV+EC+주/VX+면/EC+친구/NNG+는/JX+별/NNG+님/XSN+이/VCP+었/EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 진짜 티엠아이네!",
+            "norm_text": "진짜 티엠아이네!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+티엠/NNG+아이/NNG+네/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 별님 이쁘다 하하",
+            "norm_text": "별님 이쁘다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "별/NNG+님/XSN+이쁘/VA+다/EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 땡꾸? 땡꼬도 아니고 뭐냐",
+            "norm_text": "키키 땡꾸? 땡꼬도 아니고 뭐냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키땡꾸/UNKNOWN+땡꼬/NNG+도/JX+아니/VCN+고/EC+뭐/NP+냐/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 너무 발음이 귀엽지 않아? 땡꾸야~",
+            "norm_text": "너무 발음이 귀엽지 않아? 땡꾸야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+발음/NNG+이/JKS+귀엽/VA+지/EC+않/VX+아/EF+땡/MAG+꾸/VV+야/EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아하? 키키 땡꾸... 꼭 생기면 좋겠다 내가 불러줄게 하하",
+            "norm_text": "아하? 키키 땡꾸... 꼭 생기면 좋겠다 내가 불러줄게 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+키키땡꾸/UNKNOWN+./SY+꼭/MAG+생기/VV+면/EC+좋/VA+겠/EP+다/EF+내/NP+가/JKS+불러줄/VV+EC+VX+ETM+게/NNB+JKS+하하/MAG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응 꼭 키울 거야 하하",
+            "norm_text": "응 꼭 키울 거야 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+꼭/MAG+키울/VV+ETM+거/NNB+야/VCP+EF+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

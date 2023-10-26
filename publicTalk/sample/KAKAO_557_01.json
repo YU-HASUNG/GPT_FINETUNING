@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 21910,
+    "name": "KAKAO_557_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150908008397/KAKAO_557_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150908008397/KAKAO_557_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29552,
+      "filename": "KAKAO_557_01.txt",
+      "title": "KAKAO_557_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 681,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 681,
+        "word_size": 217,
+        "text": "1 : 언니~ 점심 밥 챙겨 먹을 시간 있었어?\n2 : 응응! 지금 밥 빠르게 먹고 학원 가서 공부 좀 더 하려고 하하 너는?!\n1 : 언니 나도 밥 먹으려고 집에 왔어!\n1 : 2시에 수업 있거든 ㅠㅠ\n2 : 똑같다 하하 뭐 먹을 거야?!\n2 : 나는 맘스터치 왔어!\n1 : 언니 나는 이틀 연속 주문 거절 당한 곳에서 시켰어ㅠㅠ\n1 : 내가 좋아하는 미국식 덮밥인가 뭔가 맛있어ㅠㅠ\n2 : 우와 미국식 덮밥은 처음 들어봐 하하 고기야?\n1 : 하하 응 닭고기랑 뭐랑 이렇게 내가 고를 수 있는데 약간 미국 푸드 트럭 같은 느낌이야 맛있어ㅠㅠ\n2 : 우와 하하 진짜 맛있겠다 ㅠㅠ\n2 : 나는 쪽지시험 다 쳤는데... 조금 아쉽다 흑흑\n1 : 언니 나도 수업했어 ㅠㅠ\n1 : 테스트가 어려웠다 나두 ㅠㅠ\n1 : 언니 맘스터치에서 뭐 먹었어? 나 맘스터치 좋아 ㅠㅠ\n2 : 나도 하하 근데 나는 맘스터치 새우버거 좋아해 키키\n1 : 우왕 하하 나는 싸이버거 좋아해\n1 : 아 간만에 땡기네 ㅠㅠ\n2 : 싸이버거도 맛있지 하하 오랜만에 햄버거 먹으니까 맛있더라 하하\n1 : 하하 햄버거 좋지 맘스터치는 감튀도 맛있어!\n2 : 하하 나도! 맘스터치 감튀 완전 맛있어 하하\n2 : 저녁으로 텀블러에 곰국 싸왔는데 든든하다 하하\n1 : 하하 언니 그거 너무 좋은 아이디어인 것 같아!\n2 : 나도 완전 만족!\n2 : 어제 진짜 집 가는데 너무 배고파서 쓰러질 뻔...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니~ 점심 밥 챙겨 먹을 시간 있었어?",
+            "norm_text": "언니~ 점심 밥 챙겨 먹을 시간 있었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+~/SY+점심밥/NNG+챙겨/VV+EC+먹/VV+을/ETM+시간/NNG+있/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응! 지금 밥 빠르게 먹고 학원 가서 공부 좀 더 하려고 하하 너는?!",
+            "norm_text": "응응! 지금 밥 빠르게 먹고 학원 가서 공부 좀 더 하려고 하하 너는?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+지금/MAG+밥/NNG+빠르/VA+게/EC+먹/VV+고/EC+학원/NNG+가/VV+서/EC+공부/NNG+좀/MAG+더/MAG+하/VV+려고/EC+하하/MAG+너/NP+는/JX+?/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 언니 나도 밥 먹으려고 집에 왔어!",
+            "norm_text": "언니 나도 밥 먹으려고 집에 왔어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+나/NP+도/JX+밥/NNG+먹/VV+으려고/EC+집/NNG+에/JKB+왔/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 2시에 수업 있거든 ㅠㅠ",
+            "norm_text": "2시에 수업 있거든 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "2/SN+시/NNBC+에/JKB+수업/NNG+있/VA+거든/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 똑같다 하하 뭐 먹을 거야?!",
+            "norm_text": "똑같다 하하 뭐 먹을 거야?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "똑같/VA+다/EC+하하/MAG+뭐/IC+먹/VV+을/ETM+거/NNB+야/VCP+EF+?/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 맘스터치 왔어!",
+            "norm_text": "나는 맘스터치 왔어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+맘/NNG+스/XSN+터치/NNG+왔/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 언니 나는 이틀 연속 주문 거절 당한 곳에서 시켰어ㅠㅠ",
+            "norm_text": "언니 나는 이틀 연속 주문 거절 당한 곳에서 시켰어ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+나/NP+는/JX+이틀/NNG+연속/NNG+주문/NNG+거절/NNG+당한/XSV+ETM+곳/NNG+에서/JKB+시켰/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 내가 좋아하는 미국식 덮밥인가 뭔가 맛있어ㅠㅠ",
+            "norm_text": "내가 좋아하는 미국식 덮밥인가 뭔가 맛있어ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+좋/VA+아/EC+하/VV+는/ETM+미국식/NNG+NNB+덮밥/NNG+인가/VCP+EC+뭔가/NP+VCP+EC+맛있/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 우와 미국식 덮밥은 처음 들어봐 하하 고기야?",
+            "norm_text": "우와 미국식 덮밥은 처음 들어봐 하하 고기야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+미국식/NNG+NNB+덮밥/NNG+은/JX+처음/MAG+들/VV+어/EC+봐/VX+EF+하하/MAG+고기/NNG+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 하하 응 닭고기랑 뭐랑 이렇게 내가 고를 수 있는데 약간 미국 푸드 트럭 같은 느낌이야 맛있어ㅠㅠ",
+            "norm_text": "하하 응 닭고기랑 뭐랑 이렇게 내가 고를 수 있는데 약간 미국 푸드 트럭 같은 느낌이야 맛있어ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+응/IC+닭고기/NNG+랑/JC+뭐/NP+랑/JKB+이렇게/MAG+내/NP+가/JKS+고를/VV+ETM+수/NNB+있/VV+는데/EC+약간/MAG+미국/NNP+푸드/NNG+트럭/NNG+같/VA+은/ETM+느낌/NNG+이/VCP+야/EC+맛있/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 우와 하하 진짜 맛있겠다 ㅠㅠ",
+            "norm_text": "우와 하하 진짜 맛있겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+하하/MAG+진짜/MAG+맛있/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 쪽지시험 다 쳤는데... 조금 아쉽다 흑흑",
+            "norm_text": "나는 쪽지시험 다 쳤는데... 조금 아쉽다 흑흑",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+쪽지/NNG+시험/NNG+다쳤/VV+EP+는데/EC+./SY+./SY+조금/MAG+아쉽/VA+다/EC+흑흑/MAG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 언니 나도 수업했어 ㅠㅠ",
+            "norm_text": "언니 나도 수업했어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+나/NP+도/JX+수업/NNG+했/XSV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 테스트가 어려웠다 나두 ㅠㅠ",
+            "norm_text": "테스트가 어려웠다 나두 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "테스트/NNG+가/JKS+어려웠/VA+EP+다/EF+나/NP+두/JX+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 언니 맘스터치에서 뭐 먹었어? 나 맘스터치 좋아 ㅠㅠ",
+            "norm_text": "언니 맘스터치에서 뭐 먹었어? 나 맘스터치 좋아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+맘/NNG+스/XSN+터치/NNG+에서/JKB+뭐/IC+먹/VV+었/EP+어/EF+나/NP+맘/NNG+스/XSN+터치/NNG+좋/VA+아/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나도 하하 근데 나는 맘스터치 새우버거 좋아해 키키",
+            "norm_text": "나도 하하 근데 나는 맘스터치 새우버거 좋아해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+하하/MAG+근데/MAJ+나/NP+는/JX+맘/NNG+스터/NNP+치새/NNG+우버/NNP+거/NNB+좋/VA+아/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 우왕 하하 나는 싸이버거 좋아해",
+            "norm_text": "우왕 하하 나는 싸이버거 좋아해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "우왕/NNP+하하/MAG+나/NP+는/JX+싸/VA+EF+이/MM+버거/NNG+좋/VA+아/EC+해/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 간만에 땡기네 ㅠㅠ",
+            "norm_text": "아 간만에 땡기네 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아간/NNG+만/NNB+에/JKB+땡기/VV+네/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 싸이버거도 맛있지 하하 오랜만에 햄버거 먹으니까 맛있더라 하하",
+            "norm_text": "싸이버거도 맛있지 하하 오랜만에 햄버거 먹으니까 맛있더라 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "싸이/NNP+버거/NNG+도/JX+맛있/VA+지/EC+하하/MAG+오랜만/NNG+에/JKB+햄버거/NNG+먹/VV+으니까/EC+맛있/VA+더라/EC+하하/MAG"
+          },
+          {
+            "id": 20,
+            "text": "1 : 하하 햄버거 좋지 맘스터치는 감튀도 맛있어!",
+            "norm_text": "하하 햄버거 좋지 맘스터치는 감튀도 맛있어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+햄버거/NNG+좋/VA+지/EC+맘/NNG+스/XSN+터치/VV+는감/EC+튀/NNG+도/JX+맛있/VA+어/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 하하 나도! 맘스터치 감튀 완전 맛있어 하하",
+            "norm_text": "하하 나도! 맘스터치 감튀 완전 맛있어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/IC+하나/NR+도/JX+!/SY+맘/NNG+스터/NNP+치감/NNG+튀/NNG+완전/NNG+맛있/VA+어/EC+하하/MAG"
+          },
+          {
+            "id": 22,
+            "text": "2 : 저녁으로 텀블러에 곰국 싸왔는데 든든하다 하하",
+            "norm_text": "저녁으로 텀블러에 곰국 싸왔는데 든든하다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저녁/NNG+으로/JKB+텀블러/NNG+에/JKB+곰국/NNG+싸/VV+EC+왔/VX+EP+는데/EC+든든/XR+하/XSA+다/EC+하하/MAG"
+          },
+          {
+            "id": 23,
+            "text": "1 : 하하 언니 그거 너무 좋은 아이디어인 것 같아!",
+            "norm_text": "하하 언니 그거 너무 좋은 아이디어인 것 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+언니/NNG+그거/NP+너무/MAG+좋/VA+은/ETM+아이디어/NNG+인/VCP+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 나도 완전 만족!",
+            "norm_text": "나도 완전 만족!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+완전/NNG+만족/NNG"
+          },
+          {
+            "id": 25,
+            "text": "2 : 어제 진짜 집 가는데 너무 배고파서 쓰러질 뻔...",
+            "norm_text": "어제 진짜 집 가는데 너무 배고파서 쓰러질 뻔...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어제/MAG+진짜/MAG+집/NNG+가/VV+는데/EC+너무/MAG+배고파서/VA+EC+쓰러질/VV+ETM+뻔/NNB+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

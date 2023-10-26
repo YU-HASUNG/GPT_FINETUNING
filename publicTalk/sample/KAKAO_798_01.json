@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34862,
+    "name": "KAKAO_798_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150518067614/KAKAO_798_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150518067614/KAKAO_798_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38352,
+      "filename": "KAKAO_798_01.txt",
+      "title": "KAKAO_798_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 373,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 373,
+        "word_size": 123,
+        "text": "1 : 점심 뭐 먹을 거야?\n2 : 아직 못정했는데 ㅠ 햄버거 먹고 싶당\n1 : 헐 나두 햄버거는 역시 맥날?\n2 : 아니 햄버거는 역시 롯데리아지!\n1 : 아 뭐래 롯데리아는 감튀만.\n2 : 아니야 ㅠㅠ 맥날 요새 감 잃었어\n1 : 롯데리아 토네이도? 아이스크림은 인정.\n2 : 키키 맞다 롯데리아는 후식이 마싯어\n1 : 그래 하하 역시 햄버거는 맥날이라니까?\n2 : 키키 사실 햄버거는 버거킹 아니겠나\n1 : 아 키키 그것도 맞다 ...\n1 : 엄마의 손길도 맛있음\n2 : 난 엄마의 손길은 별루ㅜㅜ\n1 : 너 나랑 정말 취향 달라 하하\n2 : 키키 너 뭘 잘 모르는구나 하하\n1 : 아니야 우리 그냥 사이 좋게 따로 사서 포장해서 먹자...\n2 : 내가 맥날 가줄께 난 햄버거 다 좋아 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 점심 뭐 먹을 거야?",
+            "norm_text": "점심 뭐 먹을 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "점심/NNG+뭐/IC+먹/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아직 못정했는데 ㅠ 햄버거 먹고 싶당",
+            "norm_text": "아직 못정했는데 ㅠ 햄버거 먹고 싶당",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+못/MAG+정했/VV+EP+는데/EC+ㅠ/UNKNOWN+햄버거/NNG+먹/VV+고/EC+싶/VX+당/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐 나두 햄버거는 역시 맥날?",
+            "norm_text": "헐 나두 햄버거는 역시 맥날?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+나/NP+두/JX+햄버거/NNG+는/JX+역시/MAJ+맥/NNG+날/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 햄버거는 역시 롯데리아지!",
+            "norm_text": "아니 햄버거는 역시 롯데리아지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+햄버거/NNG+는/JX+역시/MAJ+롯데/NNP+리아/NNP+지/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 뭐래 롯데리아는 감튀만.",
+            "norm_text": "아 뭐래 롯데리아는 감튀만.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+뭐/IC+래/NNP+롯데/NNP+리아/NNP+는/JX+감/NNG+튀/NNG+만/JX"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니야 ㅠㅠ 맥날 요새 감 잃었어",
+            "norm_text": "아니야 ㅠㅠ 맥날 요새 감 잃었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+ㅠㅠ/UNKNOWN+맥/NNG+날/NNG+요새/NNG+감/XSN+잃/VV+었/EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 롯데리아 토네이도? 아이스크림은 인정.",
+            "norm_text": "롯데리아 토네이도? 아이스크림은 인정.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "롯데/NNP+리아/NNP+토네이도/NNG+?/SY+아이스크림/NNG+은/JX+인정/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 맞다 롯데리아는 후식이 마싯어",
+            "norm_text": "키키 맞다 롯데리아는 후식이 마싯어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+다/EC+롯데/NNP+리아/NNP+는/JX+후식/NNG+이/JKS+마싯/UNKNOWN+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그래 하하 역시 햄버거는 맥날이라니까?",
+            "norm_text": "그래 하하 역시 햄버거는 맥날이라니까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+하하/MAG+역시/MAJ+햄버거/NNG+는/JX+맥/NNG+날/NNG+이/VCP+라니까/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 사실 햄버거는 버거킹 아니겠나",
+            "norm_text": "키키 사실 햄버거는 버거킹 아니겠나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+사실/MAG+햄버거/NNG+는/JX+버거킹/NNP+아니/VCN+겠/EP+나/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 키키 그것도 맞다 ...",
+            "norm_text": "아 키키 그것도 맞다 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키/NNG+그것/NP+도/JX+맞/VV+다/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 엄마의 손길도 맛있음",
+            "norm_text": "엄마의 손길도 맛있음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+의/JKG+손길/NNG+도/JX+맛있/VA+음/ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 엄마의 손길은 별루ㅜㅜ",
+            "norm_text": "난 엄마의 손길은 별루ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+엄마/NNG+의/JKG+손길/NNG+은/JX+별루/MAG+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 너 나랑 정말 취향 달라 하하",
+            "norm_text": "너 나랑 정말 취향 달라 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+나/NP+랑/JKB+정말/MAG+취향/NNG+달라/VA+EC+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 너 뭘 잘 모르는구나 하하",
+            "norm_text": "키키 너 뭘 잘 모르는구나 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+너/NP+뭘/NP+JKO+잘/MAG+모르/VV+는구나/EF+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아니야 우리 그냥 사이 좋게 따로 사서 포장해서 먹자...",
+            "norm_text": "아니야 우리 그냥 사이 좋게 따로 사서 포장해서 먹자...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+우리/NP+그냥/MAG+사이/NNG+좋/VA+게/EC+따로/MAG+사/VV+서/EC+포장/NNG+해서/XSV+EC+먹/VV+자/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 내가 맥날 가줄께 난 햄버거 다 좋아 키키",
+            "norm_text": "내가 맥날 가줄께 난 햄버거 다 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+맥/NNG+날/NNG+가/VV+줄께/EC+VX+EF+난/NP+JX+햄버거/NNG+다/MAG+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 21128,
+    "name": "KAKAO_456_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818041914/KAKAO_456_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818041914/KAKAO_456_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27758,
+      "filename": "KAKAO_456_08.txt",
+      "title": "KAKAO_456_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 836,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 836,
+        "word_size": 269,
+        "text": "1 : 너는 올해 결혼식 간 적 있어?\n2 : 아뇨... 코로나 직전에 간 게 마지막 ㅠㅠ\n1 : 아 진짜? 나는 몇 번 갔어... 청첩장만 받고 안 간 적도 있고 키키\n1 : 이 시국에 결혼을 하긴 하더라 ㅜㅜ\n2 : 이 시국에 초대해주는 게 진짜 고마운 거 아닐까 키키 인원 제한 걸리는 마당인데 ㅠ\n1 : 하긴 그것도 그러네 키키\n1 : 근데 올해 결혼한 사람들도 작년에 코로나 땜에 미뤘다가 더 이상 못 미뤄서 올해 결혼식 올린 거래 키키\n2 : 아 키키 더 늦기 전에 후다닥 ㅠㅠ\n2 : 고생들 많군 새 가족들 ㅠㅠ\n1 : 고롬고롬~ 아 우리 언니 결혼식 때 축가 내가 했는데!\n2 : 오오오오 역시 보컬쓰 키키\n2 : 나도 누구 축가 해보고 싶다 키키\n2 : 긴장 많이 됨?\n1 : 키키 토할뻔했음\n1 : 아 나 작년 이맘때쯤 고등학교 찐친 축가도 해줬었어!\n2 : 햐 축가 보는 것도 하객 입장에선 재밌는디 키키\n2 : 담에 나 결혼하믄 나도 축가 좀...키키\n1 : 키키 네 저 좀 비쌉니다 ^^ㅋ\n1 : 근데 그 친구 결혼식장 대전에서 제일 큰 데서 해서 그때 진짜 토할뻔했어 너무 떨려서 ㅡㅡ\n2 : 비용은 다 맞춰드립니다 키키\n2 : 얼마나 컸길래 토할 뻔까지...\n1 : 아니... 나는 그냥 생각 없이 ㅇㅋ!하고 당연히 해준다 했는데 알고 보니 대전에서 최대 규모 호텔 예식장~^^\n2 : 키키 그건 좀...ㅎ...\n2 : 근데 하는 사람 입장에선 그런 데서 하고 싶긴 할 듯 키키\n1 : 그치 키키 그 친구가 연구원 형부랑 결혼해가꼬 진짜 좋은 데서 결혼식 올려서 나는 토할뻔했지만 울컥하긴 하더라\n1 : 그래서 노래 다 부르고 울었어 키키\n2 : 그게 되는구나... 결혼식 보고 우는 게 ㅠㅠ 얼마나 친했으믄...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 올해 결혼식 간 적 있어?",
+            "norm_text": "너는 올해 결혼식 간 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+올해/NNG+결혼/NNG+식간/NNG+적/XSN+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아뇨... 코로나 직전에 간 게 마지막 ㅠㅠ",
+            "norm_text": "아뇨... 코로나 직전에 간 게 마지막 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아뇨/IC+./SY+코로나/NNG+직전/NNG+에/JKB+간/VV+ETM+게/NNB+JKS+마지막/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 나는 몇 번 갔어... 청첩장만 받고 안 간 적도 있고 키키",
+            "norm_text": "아 진짜? 나는 몇 번 갔어... 청첩장만 받고 안 간 적도 있고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+나/NP+는/JX+몇/MM+번/NNBC+갔/VV+EP+어/EF+./SY+청첩장/NNG+만/JX+받/VV+고/EC+안/MAG+간/VV+ETM+적/NNB+도/JX+있/VA+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 이 시국에 결혼을 하긴 하더라 ㅜㅜ",
+            "norm_text": "이 시국에 결혼을 하긴 하더라 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/MM+시국/NNG+에/JKB+결혼/NNG+을/JKO+하/VV+긴/ETN+JX+하/VX+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 이 시국에 초대해주는 게 진짜 고마운 거 아닐까 키키 인원 제한 걸리는 마당인데 ㅠ",
+            "norm_text": "이 시국에 초대해주는 게 진짜 고마운 거 아닐까 키키 인원 제한 걸리는 마당인데 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/MM+시국/NNG+에/JKB+초대/NNG+해/XSV+EC+주/VX+는/ETM+게/NNB+JKS+진짜/MAG+고마운/VA+ETM+거/NNB+아닐까/VCN+EC+키/NNG+키/NNG+인원/NNG+제한/NNG+걸리/VV+는/ETM+마당/NNG+인데/VCP+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 하긴 그것도 그러네 키키",
+            "norm_text": "하긴 그것도 그러네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+그것/NP+도/JX+그러/VV+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 올해 결혼한 사람들도 작년에 코로나 땜에 미뤘다가 더 이상 못 미뤄서 올해 결혼식 올린 거래 키키",
+            "norm_text": "근데 올해 결혼한 사람들도 작년에 코로나 땜에 미뤘다가 더 이상 못 미뤄서 올해 결혼식 올린 거래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+올해/NNG+결혼/NNG+한/XSA+ETM+사람/NNG+들/XSN+도/JX+작년/NNG+에/JKB+코로나/NNG+땜/NNB+에/JKB+미뤘/VV+EP+다가/EC+더/MAG+이상/NNG+못/MAG+미뤄서/VV+EC+올해/NNG+결혼식/NNG+올린/VV+ETM+거래/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 키키 더 늦기 전에 후다닥 ㅠㅠ",
+            "norm_text": "아 키키 더 늦기 전에 후다닥 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+더/MAG+늦/VA+기/ETN+전/NNG+에/JKB+후다닥/MAG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 고생들 많군 새 가족들 ㅠㅠ",
+            "norm_text": "고생들 많군 새 가족들 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고생/NNG+들/XSN+많/VA+군/EC+새/MM+가족/NNG+들/XSN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 고롬고롬~ 아 우리 언니 결혼식 때 축가 내가 했는데!",
+            "norm_text": "고롬고롬~ 아 우리 언니 결혼식 때 축가 내가 했는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고롬/NNG+고롬/NNG+~/SY+아/IC+우리/NP+언니/NNG+결혼식/NNG+때/NNG+축가/NNG+내/NP+가/JKS+했/VV+EP+는데/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 오오오오 역시 보컬쓰 키키",
+            "norm_text": "오오오오 역시 보컬쓰 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "오/NR+오/NR+오/NR+오/NR+역시/MAJ+보컬/NNG+쓰키/NNP+키/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나도 누구 축가 해보고 싶다 키키",
+            "norm_text": "나도 누구 축가 해보고 싶다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+누구/NP+축가/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+다키키/NNP"
+          },
+          {
+            "id": 13,
+            "text": "2 : 긴장 많이 됨?",
+            "norm_text": "긴장 많이 됨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "긴장/NNG+많이/MAG+됨/VV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 토할뻔했음",
+            "norm_text": "키키 토할뻔했음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+토할/VV+ETM+뻔/NNB+했/XSA+EP+음/ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 나 작년 이맘때쯤 고등학교 찐친 축가도 해줬었어!",
+            "norm_text": "아 나 작년 이맘때쯤 고등학교 찐친 축가도 해줬었어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나/NP+작년/NNG+이맘때/NNG+쯤/XSN+고등/NNG+학교/NNG+찐/VV+ETM+친/XPN+축가/NNG+도/JX+해/VV+EC+줬었/VX+EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 햐 축가 보는 것도 하객 입장에선 재밌는디 키키",
+            "norm_text": "햐 축가 보는 것도 하객 입장에선 재밌는디 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "햐/IC+축가/NNG+보/VV+는/ETM+것/NNB+도/JX+하객/NNG+입장/NNG+에선/JKB+JX+재밌/VA+는/ETM+디키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 담에 나 결혼하믄 나도 축가 좀...키키",
+            "norm_text": "담에 나 결혼하믄 나도 축가 좀...키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "담/NNG+에/JKB+나/JX+결혼/NNG+하/XSV+믄/EC+나/NP+도/JX+축가/NNG+좀/MAG+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 네 저 좀 비쌉니다 ^^ㅋ",
+            "norm_text": "키키 네 저 좀 비쌉니다 ^^ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+네/EF+저/IC+좀/MAG+비쌉니다/VA+EF+^/SY+^/SY+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 근데 그 친구 결혼식장 대전에서 제일 큰 데서 해서 그때 진짜 토할뻔했어 너무 떨려서 ㅡㅡ",
+            "norm_text": "근데 그 친구 결혼식장 대전에서 제일 큰 데서 해서 그때 진짜 토할뻔했어 너무 떨려서 ㅡㅡ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그/MM+친구/NNG+결혼식장/NNG+대전/NNG+에서/JKB+제일/MAG+큰/VA+ETM+데/NNB+서/JKB+해서/VV+EC+그때/NNG+진짜/MAG+토할/VV+ETM+뻔/NNB+했/XSA+EP+어/EC+너무/MAG+떨려서/VV+EC+ㅡㅡ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 비용은 다 맞춰드립니다 키키",
+            "norm_text": "비용은 다 맞춰드립니다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비용/NNG+은/JX+다/MAG+맞춰/VV+EC+드립니다/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 얼마나 컸길래 토할 뻔까지...",
+            "norm_text": "얼마나 컸길래 토할 뻔까지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "얼마나/MAG+컸/VA+EP+길래/EC+토할/VV+ETM+뻔/NNB+까지/JX+./SY"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아니... 나는 그냥 생각 없이 ㅇㅋ!하고 당연히 해준다 했는데 알고 보니 대전에서 최대 규모 호텔 예식장~^^",
+            "norm_text": "아니... 나는 그냥 생각 없이 ㅇㅋ!하고 당연히 해준다 했는데 알고 보니 대전에서 최대 규모 호텔 예식장~^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+./SY+나/NP+는/JX+그냥/MAG+생각/NNG+없이/MAG+ㅇㅋ/UNKNOWN+하/VV+고/EC+당연히/MAG+해준다/VV+EC+VX+EC+했/VX+EP+는데/EC+알/VV+고/EC+보/VX+니/EC+대전/NNP+에서/JKB+최대/NNG+규모/NNG+호텔/NNG+예식장/NNG+~/SY+^/SY+^/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 그건 좀...ㅎ...",
+            "norm_text": "키키 그건 좀...ㅎ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+좀/MAG+./SY+ㅎ/XSA+./SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : 근데 하는 사람 입장에선 그런 데서 하고 싶긴 할 듯 키키",
+            "norm_text": "근데 하는 사람 입장에선 그런 데서 하고 싶긴 할 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+하/VV+는/ETM+사람/NNG+입장/NNG+에선/JKB+JX+그런/MM+데/NNB+서/JKB+하/VV+고/EC+싶/VX+긴/ETN+JX+할/VX+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 그치 키키 그 친구가 연구원 형부랑 결혼해가꼬 진짜 좋은 데서 결혼식 올려서 나는 토할뻔했지만 울컥하긴 하더라",
+            "norm_text": "그치 키키 그 친구가 연구원 형부랑 결혼해가꼬 진짜 좋은 데서 결혼식 올려서 나는 토할뻔했지만 울컥하긴 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키키/NNP+그/MM+친구/NNG+가/JKS+연구원/NNG+형/XSN+부랑/NNG+결혼/NNG+해/XSV+EC+가/VX+꼬/EF+진짜/MAG+좋/VA+은/ETM+데/NNB+서/JKB+결혼식/NNG+올려서/VV+EC+나/NP+는/JX+토할/VV+ETM+뻔/NNB+했/XSA+EP+지만/EC+울컥/MAG+하/VV+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 그래서 노래 다 부르고 울었어 키키",
+            "norm_text": "그래서 노래 다 부르고 울었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+노래/NNG+다/MAG+부르/VV+고/EC+울/VV+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 그게 되는구나... 결혼식 보고 우는 게 ㅠㅠ 얼마나 친했으믄...",
+            "norm_text": "그게 되는구나... 결혼식 보고 우는 게 ㅠㅠ 얼마나 친했으믄...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+되/VV+는구나/EF+./SY+결혼식/NNG+보/VV+고/EC+우/VV+는/ETM+게/NNB+JKS+ㅠㅠ/UNKNOWN+얼마나/MAG+친했/VA+EP+으믄/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

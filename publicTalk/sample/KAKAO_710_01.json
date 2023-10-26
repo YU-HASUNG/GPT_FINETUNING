@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 55968,
+    "name": "KAKAO_710_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256061956/KAKAO_710_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256061956/KAKAO_710_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35600,
+      "filename": "KAKAO_710_01.txt",
+      "title": "KAKAO_710_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 652,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 652,
+        "word_size": 208,
+        "text": "1 : 오늘 저녁은 뭐 먹을 예정이야? 키키\n2 : 오늘 저녁은 정해지진 않았는데 아마 회식 할 거 같아!\n1 : 오 회식! 요즘 시국에도 회식 하긴 하나 보네\n2 : 응응~ 오늘 행사 준비 때문에 협의회가 있어서...\n2 : 어쩔 수 없이 회식이네...\n1 : ㅜㅜ 아 그럼 좀 많이 불편한 저녁을 먹겠네?\n2 : 응 그럴 거 같아... 윗분들과 함께하는 식사라 입맛에도 안 맞을 거 같구\n1 : ㅜㅜ 그래도... 뭔가 맛있는 거 사주시지 않겠나 키키\n2 : 키키 더치페이가 생활화 되어 있던데 여긴 키키\n2 : 소화제나 준비해야지 키키\n1 : 헉 진짜로? 키키 나 회식 때 더치페이 거의 안 하는 거 같은데\n2 : 키키 좋은 회사 다니네 키키\n2 : 우리는 무조건 더치페이인데!\n2 : 월급에 따라 다르게 해야 하는데 키키\n1 : 키키 보통은... 윗사람들이 회식하고 싶어하니까... 그 사람들이 내야지\n2 : 인정! 제발 그 말 좀 전달해줘 키키\n2 : 그 사람들 재밌게 해 드리는 건데 키키\n1 : 키키 내가 지금 말해도 안 들릴 거 같은데... 키키\n1 : 식당은 예약했고?\n2 : 앞에 오리고기 집 갈 거 같아...\n2 : 나 오리고기 못 먹는데 키키 젓가락 빨다 와야지\n1 : 어? 오리고기 못 먹어?\n1 : 왜 못 먹어? 엄청 맛난데?\n2 : 오리 생각하면 무서워서 못 먹어... 불쌍해...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 저녁은 뭐 먹을 예정이야? 키키",
+            "norm_text": "오늘 저녁은 뭐 먹을 예정이야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+저녁/NNG+은/JX+뭐/IC+먹/VV+을/ETM+예정/NNG+이/VCP+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘 저녁은 정해지진 않았는데 아마 회식 할 거 같아!",
+            "norm_text": "오늘 저녁은 정해지진 않았는데 아마 회식 할 거 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+저녁/NNG+은/JX+정해/VV+EC+지/VX+진/EC+JX+않/VX+았/EP+는데/EC+아마/MAG+회식/NNG+할/XSV+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 회식! 요즘 시국에도 회식 하긴 하나 보네",
+            "norm_text": "오 회식! 요즘 시국에도 회식 하긴 하나 보네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+회식/NNG+요즘/MAG+시국/NNG+에/JKB+도/JX+회식/NNG+하/XSV+긴/ETN+JX+하나/NR+보네/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응~ 오늘 행사 준비 때문에 협의회가 있어서...",
+            "norm_text": "응응~ 오늘 행사 준비 때문에 협의회가 있어서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+~/SY+오늘/NNG+행사/NNG+준비/NNG+때문/NNB+에/JKB+협의회/NNG+가/JKS+있/VA+어서/EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 어쩔 수 없이 회식이네...",
+            "norm_text": "어쩔 수 없이 회식이네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쩔/VV+ETM+수/NNB+없이/MAG+회식/NNG+이/VCP+네/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : ㅜㅜ 아 그럼 좀 많이 불편한 저녁을 먹겠네?",
+            "norm_text": "ㅜㅜ 아 그럼 좀 많이 불편한 저녁을 먹겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+아/IC+그럼/MAJ+좀/MAG+많이/MAG+불편/NNG+한/XSA+ETM+저녁/NNG+을/JKO+먹/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 그럴 거 같아... 윗분들과 함께하는 식사라 입맛에도 안 맞을 거 같구",
+            "norm_text": "응 그럴 거 같아... 윗분들과 함께하는 식사라 입맛에도 안 맞을 거 같구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그럴/VA+ETM+거/NNB+같/VA+아/EF+./SY+윗분/NNG+들/XSN+과/JKB+함께/MAG+하/VV+는/ETM+식사/NNG+라/VCP+EC+입맛/NNG+에/JKB+도/JX+안/MAG+맞/VV+을/ETM+거/NNB+같/VA+구/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : ㅜㅜ 그래도... 뭔가 맛있는 거 사주시지 않겠나 키키",
+            "norm_text": "ㅜㅜ 그래도... 뭔가 맛있는 거 사주시지 않겠나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그래도/MAG+XSV+EF+./SY+뭔가/NP+VCP+EC+맛있/VA+는/ETM+거/NNB+사/VV+EC+주/VX+시/EP+지/EC+않/VX+겠/EP+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 더치페이가 생활화 되어 있던데 여긴 키키",
+            "norm_text": "키키 더치페이가 생활화 되어 있던데 여긴 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+더치페이/NNG+가/JKS+생활/NNG+화/XSN+되/XSV+어/EC+있/VX+던/ETM+데/NNB+여긴/VV+ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 소화제나 준비해야지 키키",
+            "norm_text": "소화제나 준비해야지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "소화제/NNG+나/JC+준비/NNG+해야지/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 헉 진짜로? 키키 나 회식 때 더치페이 거의 안 하는 거 같은데",
+            "norm_text": "헉 진짜로? 키키 나 회식 때 더치페이 거의 안 하는 거 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+진짜로/MAG+키/NNG+키나/XSA+ETN+JX+회식/NNG+때/NNG+더치페이/NNG+거의/MAG+안/MAG+하/VV+는/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 좋은 회사 다니네 키키",
+            "norm_text": "키키 좋은 회사 다니네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키좋은회사다니네키키/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 우리는 무조건 더치페이인데!",
+            "norm_text": "우리는 무조건 더치페이인데!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+는/JX+무조건/MAG+더치페이/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 월급에 따라 다르게 해야 하는데 키키",
+            "norm_text": "월급에 따라 다르게 해야 하는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "월급/NNG+에/JKB+따라/VV+EC+다르/VA+게/EC+해야/VV+EC+하/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 보통은... 윗사람들이 회식하고 싶어하니까... 그 사람들이 내야지",
+            "norm_text": "키키 보통은... 윗사람들이 회식하고 싶어하니까... 그 사람들이 내야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+보통/NNG+은/JX+./SY+./SY+윗사람/NNG+들/XSN+이/JKS+회식/NNG+하/XSV+고/EC+싶/VX+어/EC+하/VV+니까/EC+./SY+./SY+그/MM+사람/NNG+들/XSN+이/JKS+내/VV+야지/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 인정! 제발 그 말 좀 전달해줘 키키",
+            "norm_text": "인정! 제발 그 말 좀 전달해줘 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "인정/NNG+!/SY+제발그말좀전달해줘키키/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그 사람들 재밌게 해 드리는 건데 키키",
+            "norm_text": "그 사람들 재밌게 해 드리는 건데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+사람/NNG+들/XSN+재밌/VA+게/EC+해/VV+EC+드리/VX+는/ETM+건데/NNB+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 내가 지금 말해도 안 들릴 거 같은데... 키키",
+            "norm_text": "키키 내가 지금 말해도 안 들릴 거 같은데... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+가/JKS+지금/MAG+말/NNG+해도/XSV+EC+안/MAG+들릴/VV+ETM+거/NNB+같/VA+은데/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 식당은 예약했고?",
+            "norm_text": "식당은 예약했고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "식당/NNG+은/JX+예약/NNG+했/XSV+EP+고/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 앞에 오리고기 집 갈 거 같아...",
+            "norm_text": "앞에 오리고기 집 갈 거 같아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앞/NNG+에/JKB+오리/VV+고/EC+기집/NNG+갈/VV+ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 나 오리고기 못 먹는데 키키 젓가락 빨다 와야지",
+            "norm_text": "나 오리고기 못 먹는데 키키 젓가락 빨다 와야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나오리고기못먹는데키키젓가락빨다와야지/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 어? 오리고기 못 먹어?",
+            "norm_text": "어? 오리고기 못 먹어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+오리고기/NNG+못/MAG+먹/VV+어/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 왜 못 먹어? 엄청 맛난데?",
+            "norm_text": "왜 못 먹어? 엄청 맛난데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+못/MAG+먹/VV+어/EF+엄청/MAG+맛/NNG+난데/NP+VCP+EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 오리 생각하면 무서워서 못 먹어... 불쌍해...",
+            "norm_text": "오리 생각하면 무서워서 못 먹어... 불쌍해...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오리/NNG+생각/NNG+하/XSV+면/EC+무서워서/VA+EC+못/MAG+먹/VV+어/EF+./SY+불쌍/XR+해/XSA+EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

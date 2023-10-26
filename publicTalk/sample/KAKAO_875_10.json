@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 64028,
+    "name": "KAKAO_875_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095045020884/KAKAO_875_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095045020884/KAKAO_875_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40629,
+      "filename": "KAKAO_875_10.txt",
+      "title": "KAKAO_875_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 625,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 625,
+        "word_size": 194,
+        "text": "1 : 요즘 운동 같은 거 하는 거 있엉?\n2 : 제일 많이 하는 운동은 입 운동과 손가락 운동인 것 같아\n1 : 키키 그것도 운동이긴 운동 맞는데 왜 효과가 없을까\n2 : 소 근육이니까 키키 근육 자체가 얼마 없으니까 소비되는 열량도 없고 뭐...\n1 : 아하... 키키 운동을 하지 않았는데 운동을 잘 하고 싶다\n2 : 키키 어떤 운동? 탄이들이랑 공통되는 것?\n1 : 그냥 살기 위해 하는 운동이 아닌 재밌어서 하는 운동 키키\n2 : 안 그래도 어제 저녁 먹으러 나갔다가 들어오는 길에 공원에서 운동하는 부녀 봤는데 키키 가볍게 배드민턴이라도 시작해야 하나 싶더라\n1 : 예전에 소녀시대 **이 주짓수 하는 거 영상 봤는데 진짜 개존멋\n2 : 와 수영이 그런 것도 해? 대박\n1 : 키키 우린 진짜 엄청 운동 부족이야 키키\n1 : 응응 진짜 빠르더라니까 키키 개존멋 주짓수 배우고 싶더라니까\n2 : 존멋이네 키키 무슨 운동 하나를 잘하는 게\n1 : 키키 그치? 그 만큼 건강한 삶을 살고 있다 생각 키키\n2 : 운동은 살기 위해서 하는 것이라잖아 키키 생명 연장과 더불어 삶의 질 향상을 위해\n1 : 근육을 잘 사용 안 하면 근육이 짧아지나 봐\n2 : 아무래도 안 쓰면 그 꼴이...! 그러기 위해서라도 해야 하는데요 ㅎ... 현생이 방해함",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 운동 같은 거 하는 거 있엉?",
+            "norm_text": "요즘 운동 같은 거 하는 거 있엉?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+운동/NNG+같/VA+은/ETM+거/NNB+하/VV+는/ETM+거/NNB+있/VA+엉/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 제일 많이 하는 운동은 입 운동과 손가락 운동인 것 같아",
+            "norm_text": "제일 많이 하는 운동은 입 운동과 손가락 운동인 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제일/MAG+많이/MAG+하/VV+는/ETM+운동/NNG+은/JX+입/NNG+운동/NNG+과/JC+손가락/NNG+운동/NNG+인/VCP+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 그것도 운동이긴 운동 맞는데 왜 효과가 없을까",
+            "norm_text": "키키 그것도 운동이긴 운동 맞는데 왜 효과가 없을까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그것/NP+도/JX+운동/NNG+이/JKS+긴/VA+ETM+운동/NNG+맞/VV+는데/EC+왜/MAG+효과/NNG+가/JKS+없/VA+을까/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 소 근육이니까 키키 근육 자체가 얼마 없으니까 소비되는 열량도 없고 뭐...",
+            "norm_text": "소 근육이니까 키키 근육 자체가 얼마 없으니까 소비되는 열량도 없고 뭐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "소/XPN+근육/NNG+이/VCP+니까/EC+키/NNG+키/NNG+근육/NNG+자체/NNG+가/JKS+얼마/NNG+없/VA+으니까/EC+소비/NNG+되/XSV+는/ETM+열량/NNG+도/JX+없/VA+고/EC+뭐/IC+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아하... 키키 운동을 하지 않았는데 운동을 잘 하고 싶다",
+            "norm_text": "아하... 키키 운동을 하지 않았는데 운동을 잘 하고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+./SY+키/NNG+키/NNG+운동/NNG+을/JKO+하/VV+지/EC+않/VX+았/EP+는데/EC+운동/NNG+을/JKO+잘/MAG+하/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 어떤 운동? 탄이들이랑 공통되는 것?",
+            "norm_text": "키키 어떤 운동? 탄이들이랑 공통되는 것?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+어떤/MM+운동/NNG+탄/VV+ETM+이/NP+들/XSN+이랑/JKB+공통/NNG+되/XSV+는/ETM+것/NNB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그냥 살기 위해 하는 운동이 아닌 재밌어서 하는 운동 키키",
+            "norm_text": "그냥 살기 위해 하는 운동이 아닌 재밌어서 하는 운동 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+살/VV+기/ETN+위해/VV+EC+하/VV+는/ETM+운동/NNG+이/JKC+아닌/VCN+ETM+재밌/VA+어서/EC+하/VV+는/ETM+운동/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 안 그래도 어제 저녁 먹으러 나갔다가 들어오는 길에 공원에서 운동하는 부녀 봤는데 키키 가볍게 배드민턴이라도 시작해야 하나 싶더라",
+            "norm_text": "안 그래도 어제 저녁 먹으러 나갔다가 들어오는 길에 공원에서 운동하는 부녀 봤는데 키키 가볍게 배드민턴이라도 시작해야 하나 싶더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+어제/MAG+저녁/NNG+먹/VV+으러/EC+나갔/VV+EP+다가/EC+들어오/VV+는/ETM+길/NNG+에/JKB+공원/NNG+에서/JKB+운동/NNG+하/XSV+는/ETM+부녀/NNG+봤/VV+EP+는데/EC+키/NNG+키/XSV+ETN+가볍/VA+게/EC+배드민턴/NNG+이/VCP+라도/EC+시작/NNG+해야/XSV+EC+하/VV+나/EC+싶/VX+더라/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 예전에 소녀시대 **이 주짓수 하는 거 영상 봤는데 진짜 개존멋",
+            "norm_text": "예전에 소녀시대 **이 주짓수 하는 거 영상 봤는데 진짜 개존멋",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예전/NNG+에/JKB+소녀/NNG+시대/NNG+*/SY+*/SY+이주/NNG+짓/NNG+수/NNG+하/XSV+는/ETM+거/NNB+영상/NNG+봤/VV+EP+는데/EC+진짜/MAG+개/NNG+존/NNP+멋/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 와 수영이 그런 것도 해? 대박",
+            "norm_text": "와 수영이 그런 것도 해? 대박",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+수영/NNG+이/JKS+그런/MM+것/NNB+도/JX+해/VV+EF+대박/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 우린 진짜 엄청 운동 부족이야 키키",
+            "norm_text": "키키 우린 진짜 엄청 운동 부족이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우린/NP+JX+진짜/MAG+엄청/MAG+운동/NNG+부족/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응응 진짜 빠르더라니까 키키 개존멋 주짓수 배우고 싶더라니까",
+            "norm_text": "응응 진짜 빠르더라니까 키키 개존멋 주짓수 배우고 싶더라니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+진짜/MAG+빠르/VA+더라니까/EC+키/NNG+키/XSV+ETN+개/NNBC+존/NNP+멋/NNG+주/NNG+짓/VV+수/NNB+배우/VV+고/EC+싶/VX+더라니까/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 존멋이네 키키 무슨 운동 하나를 잘하는 게",
+            "norm_text": "존멋이네 키키 무슨 운동 하나를 잘하는 게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "존/NNP+멋/NNG+이/JKS+네/MM+키/NNG+키/XSV+ETN+무슨/MM+운동/NNG+하나/NR+를/JKO+잘/MAG+하/VV+는/ETM+게/NNB+JKS"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그치? 그 만큼 건강한 삶을 살고 있다 생각 키키",
+            "norm_text": "키키 그치? 그 만큼 건강한 삶을 살고 있다 생각 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치/IC+그만큼/MAG+건강/NNG+한/XSA+ETM+삶/NNG+을/JKO+살/VV+고/EC+있/VX+다/EC+생각/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 운동은 살기 위해서 하는 것이라잖아 키키 생명 연장과 더불어 삶의 질 향상을 위해",
+            "norm_text": "운동은 살기 위해서 하는 것이라잖아 키키 생명 연장과 더불어 삶의 질 향상을 위해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "운동/NNG+은/JX+살/VV+기/ETN+위해서/VV+EC+하/VV+는/ETM+것/NNB+이/VCP+라잖아/EF+키키/NNP+생명/NNG+연장/NNG+과/JKB+더불/VV+어/EC+삶/NNG+의/JKG+질/NNG+향상/NNG+을/JKO+위해/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근육을 잘 사용 안 하면 근육이 짧아지나 봐",
+            "norm_text": "근육을 잘 사용 안 하면 근육이 짧아지나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근육/NNG+을/JKO+잘/MAG+사용/NNG+안/MAG+하/VV+면/EC+근육/NNG+이/JKS+짧/VA+아/EC+지나/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아무래도 안 쓰면 그 꼴이...! 그러기 위해서라도 해야 하는데요 ㅎ... 현생이 방해함",
+            "norm_text": "아무래도 안 쓰면 그 꼴이...! 그러기 위해서라도 해야 하는데요 ㅎ... 현생이 방해함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+안/MAG+쓰/VV+면/EC+그/MM+꼴/NNG+이/JKS+./SY+./SY+그러/VV+기/ETN+위해서/VV+EC+VCP+라도/EC+해야/VV+EC+하/VX+는데요/EF+ㅎ/XSA+./SY+현생/NNG+이/JKS+방해/NNG+함/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

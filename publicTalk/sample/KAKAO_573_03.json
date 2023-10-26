@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24017,
+    "name": "KAKAO_573_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143543049763/KAKAO_573_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143543049763/KAKAO_573_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30676,
+      "filename": "KAKAO_573_03.txt",
+      "title": "KAKAO_573_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 424,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 424,
+        "word_size": 134,
+        "text": "1 : 아저씨가 주차 공간도 딱 점령하고\n2 : 오 대박 키키 주차는 항상 가능해요?\n1 : 그럼 아저씨 자리에 아무도 차를 안 대\n2 : 오 대박 키키 주차 가능한 거 너무 부러워요 ㅠㅠ 저흰 항상 전쟁\n1 : 맞아 그래서 빌라가 좋긴 해\n2 : 맞아요 그래서 아파트 가서 살고 싶어요\n1 : 아니야 아파트는 관리하기 어려워 지금이 딱 좋아\n2 : 아 진짜요? 왜여? 아파트 살아본 적이 없어요...\n1 : 아저씨도 없어 키키 지금 빌라 인원이 딱 좋아 관리할 수 있고\n2 : 오? 아저씨가 빌라 사람들을 관리해요?\n1 : 그럼 아저씨가 다 탐방했어\n2 : 오? 키키 대단하시네요? 키키 어떻게?\n1 : 아저씨의 리더십으로 싹 휘어잡았지\n2 : 와 멋지다 키키 대단해 진짜 그런 거 좋아하시나요?\n1 : 그럼! 어디 가나 대빵이야\n2 : 키키 멋지다! **는 그럼 어무니를 닮았나요?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아저씨가 주차 공간도 딱 점령하고",
+            "norm_text": "아저씨가 주차 공간도 딱 점령하고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아저씨/NNG+가/JKS+주차/NNG+공간/NNG+도/JX+딱/MAG+점령/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 대박 키키 주차는 항상 가능해요?",
+            "norm_text": "오 대박 키키 주차는 항상 가능해요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+대/NNBC+박/NNP+키키/NNP+주차/NNG+는/JX+항상/MAG+가능/NNG+해요/XSV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그럼 아저씨 자리에 아무도 차를 안 대",
+            "norm_text": "그럼 아저씨 자리에 아무도 차를 안 대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+아저씨/NNG+자리/NNG+에/JKB+아무/NP+도/JX+차/NNG+를/JKO+안대/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오 대박 키키 주차 가능한 거 너무 부러워요 ㅠㅠ 저흰 항상 전쟁",
+            "norm_text": "오 대박 키키 주차 가능한 거 너무 부러워요 ㅠㅠ 저흰 항상 전쟁",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+대/NNBC+박/NNP+키키/NNP+주차/NNG+가능/NNG+한/XSA+ETM+거/NNB+너무/MAG+부러워요/VA+EF+ㅠㅠ/UNKNOWN+저흰/NP+JX+항상/MAG+전쟁/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 그래서 빌라가 좋긴 해",
+            "norm_text": "맞아 그래서 빌라가 좋긴 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+그래서/MAJ+빌라/NNG+가/JKS+좋/VA+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아요 그래서 아파트 가서 살고 싶어요",
+            "norm_text": "맞아요 그래서 아파트 가서 살고 싶어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+그래서/MAJ+아파트/NNG+가/VV+서/EC+살/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니야 아파트는 관리하기 어려워 지금이 딱 좋아",
+            "norm_text": "아니야 아파트는 관리하기 어려워 지금이 딱 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+아파트/NNG+는/JX+관리/NNG+하/XSV+기/ETN+어려워/VA+EC+지금/NNG+이/JKS+딱/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 진짜요? 왜여? 아파트 살아본 적이 없어요...",
+            "norm_text": "아 진짜요? 왜여? 아파트 살아본 적이 없어요...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+요/JX+왜/MAG+여/VCP+EF+아파트/NNG+살/VV+아/EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어요/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아저씨도 없어 키키 지금 빌라 인원이 딱 좋아 관리할 수 있고",
+            "norm_text": "아저씨도 없어 키키 지금 빌라 인원이 딱 좋아 관리할 수 있고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아저씨/NNG+도/JX+없/VA+어/EC+키/NNG+키/NNG+지금/MAG+빌라/NNG+인원/NNG+이/JKS+딱/MAG+좋/VA+아/EC+관리/NNG+할/XSV+ETM+수/NNB+있/VV+고/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 오? 아저씨가 빌라 사람들을 관리해요?",
+            "norm_text": "오? 아저씨가 빌라 사람들을 관리해요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+아저씨/NNG+가/JKS+빌라/NNG+사람/NNG+들/XSN+을/JKO+관리/NNG+해요/XSV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 아저씨가 다 탐방했어",
+            "norm_text": "그럼 아저씨가 다 탐방했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+아저씨/NNG+가/JKS+다/MAG+탐방/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오? 키키 대단하시네요? 키키 어떻게?",
+            "norm_text": "오? 키키 대단하시네요? 키키 어떻게?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+키/NNG+키/XSV+ETN+대단/XR+하/XSA+시/EP+네요/EF+키/NNG+키/XSV+ETN+어떻게/MAG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아저씨의 리더십으로 싹 휘어잡았지",
+            "norm_text": "아저씨의 리더십으로 싹 휘어잡았지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아저씨/NNG+의/JKG+리더십/NNG+으로/JKB+싹/MAG+휘어잡/VV+았/EP+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 와 멋지다 키키 대단해 진짜 그런 거 좋아하시나요?",
+            "norm_text": "와 멋지다 키키 대단해 진짜 그런 거 좋아하시나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+멋지/VA+다키키/NNP+대단/XR+해/XSA+EF+진짜/MAG+그런/MM+거/NNB+좋/VA+아/EC+하/VX+시/EP+나요/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼! 어디 가나 대빵이야",
+            "norm_text": "그럼! 어디 가나 대빵이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+어디/NP+가/JKS+나대/NNG+빵/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 멋지다! **는 그럼 어무니를 닮았나요?",
+            "norm_text": "키키 멋지다! **는 그럼 어무니를 닮았나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+멋지/VA+다/EF+*/SY+*/SY+는/JX+그럼/MAJ+어/IC+무니/NNG+를/JKO+닮/VV+았/EP+나요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

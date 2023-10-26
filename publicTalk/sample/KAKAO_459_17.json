@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 27557,
+    "name": "KAKAO_459_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150754086681/KAKAO_459_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150754086681/KAKAO_459_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28467,
+      "filename": "KAKAO_459_17.txt",
+      "title": "KAKAO_459_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 804,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 804,
+        "word_size": 268,
+        "text": "1 : 니 요새 병원 자주 다니고 있겠네\n2 : 응응 아무래도 이제 막달 되니까 일주일에 한 번씩 가\n1 : 맞제 키키 이제 거의 병원이 집 같겠다 키키\n1 : 나는 얼마 전에 백신 맞으러 오랜만에 병원 다녀옴\n2 : 키키 백신 많이 아프제?\n2 : 어떤데 ㅜㅜ\n2 : 나는 못 맞아서 ㅜㅜ\n2 : 주변에 이야기 들으니까 무섭데\n1 : 아 처음엔 괜찮았는데 한 삼 일째?되니까 너무 아파서 응급실 가야 하나 싶더라\n2 : 헐 그래서? 지금은 몸 어떤데?\n2 : 괜찮나\n1 : 어어 한 일주일 정도 좀 잔잔하게 계속 그러다가 이제는 그래도 낫더라 키키\n1 : 하 근데 벌써 2차 맞을 생각에 걱정됨\n2 : 키키 나는 낳고 맞을 건데 그래도 맞는 게 나을 것 같아서... 키키\n1 : 맞아 그래도 맞는 게 마음이 편하긴 하더라 키키\n1 : 니도 빨리 맞으면 좋긴 할 텐데 ㅠ\n2 : 응응 얼른 맞아야 나도 마음이 편하고 어디 다니기 무서워 죽겠다\n2 : 요즘 나 소독 엄청 해서 유별나단 소리 들을 지경이다\n1 : 키키 니 소독 많이 하는 건 알지 키키\n1 : 근데 나도 그래야 마음이 편하더라 키키\n1 : 손도 엄청 자주 씻음\n2 : 응응 키키 어디서 봤는데 임산부 코로나 걸려서 죽고 그런 거 보니까 너무 무섭더라 ㅜㅜ\n2 : 아무래도 면역이 많이 무너져있으니\n1 : 헐... 하긴 면역력이 떨어지긴 하겠다 ㅠㅠ\n1 : 니는 웬만하면 어디 나가지 말고 집에 있어야겠다 ㅠㅠ\n2 : 응응 그래서 출휴 쓰고 집 밖에 거의 안 나가 ㅜㅜ\n2 : 남편도 다음 주에 코로나 주사 맞기로 했어\n1 : 헉 ㅠㅠ 진통제랑 해열제 미리 사 놔라 혹시 모르니까 ㅠㅠ\n2 : 응응 타이레놀 미리 쌓아뒀짘 ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 요새 병원 자주 다니고 있겠네",
+            "norm_text": "니 요새 병원 자주 다니고 있겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+요새/NNG+병원/NNG+자주/MAG+다니/VV+고/EC+있/VX+겠/EP+네/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 아무래도 이제 막달 되니까 일주일에 한 번씩 가",
+            "norm_text": "응응 아무래도 이제 막달 되니까 일주일에 한 번씩 가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+아무래도/MAG+이제/MAG+막달/NNG+되/XSV+니까/EC+일/NR+주일/NNBC+에/JKB+한/MM+번/NNBC+씩/XSN+가/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞제 키키 이제 거의 병원이 집 같겠다 키키",
+            "norm_text": "맞제 키키 이제 거의 병원이 집 같겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+키/NNG+키/NNG+이제/MAG+거의/MAG+병원/NNG+이/JKS+집/NNG+같/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나는 얼마 전에 백신 맞으러 오랜만에 병원 다녀옴",
+            "norm_text": "나는 얼마 전에 백신 맞으러 오랜만에 병원 다녀옴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+얼마/NNG+전/NNG+에/JKB+백신/NNG+맞/VV+으러/EC+오랜만/NNG+에/JKB+병원/NNG+다녀옴/VV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 백신 많이 아프제?",
+            "norm_text": "키키 백신 많이 아프제?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+백신/NNG+많이/MAG+아프/VA+제/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어떤데 ㅜㅜ",
+            "norm_text": "어떤데 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+데/NNB+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나는 못 맞아서 ㅜㅜ",
+            "norm_text": "나는 못 맞아서 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+못/MAG+맞/VV+아서/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 주변에 이야기 들으니까 무섭데",
+            "norm_text": "주변에 이야기 들으니까 무섭데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주변/NNG+에/JKB+이야기/NNG+들으니까/VV+EC+무섭/VA+데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 처음엔 괜찮았는데 한 삼 일째?되니까 너무 아파서 응급실 가야 하나 싶더라",
+            "norm_text": "아 처음엔 괜찮았는데 한 삼 일째?되니까 너무 아파서 응급실 가야 하나 싶더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+처음/NNG+엔/JKB+JX+괜찮/VA+았/EP+는데/EC+한/MM+삼/NR+일/NNBC+째/XSN+되/VV+니까/EC+너무/MAG+아파서/VA+EC+응급실/NNG+가/VV+야/EC+하/VV+나/EC+싶/VX+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐 그래서? 지금은 몸 어떤데?",
+            "norm_text": "헐 그래서? 지금은 몸 어떤데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+그래서/MAJ+지금/MAG+은/JX+몸/NNG+어떤데/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 괜찮나",
+            "norm_text": "괜찮나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "괜찮/VA+나/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 어어 한 일주일 정도 좀 잔잔하게 계속 그러다가 이제는 그래도 낫더라 키키",
+            "norm_text": "어어 한 일주일 정도 좀 잔잔하게 계속 그러다가 이제는 그래도 낫더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+한/MM+일/NR+주일/NNBC+정도/NNG+좀/MAG+잔잔/XR+하/XSA+게/EC+계속/MAG+그러/VV+다가/EC+이제/NNG+는/JX+그래도/VV+EC+낫/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하 근데 벌써 2차 맞을 생각에 걱정됨",
+            "norm_text": "하 근데 벌써 2차 맞을 생각에 걱정됨",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/IC+근데/MAJ+벌써/MAG+2/SN+차/NNBC+맞/VV+을/ETM+생각/NNG+에/JKB+걱정/NNG+됨/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 나는 낳고 맞을 건데 그래도 맞는 게 나을 것 같아서... 키키",
+            "norm_text": "키키 나는 낳고 맞을 건데 그래도 맞는 게 나을 것 같아서... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+낳/VV+고/EC+맞/VV+을/ETM+건데/NNB+VCP+EC+그래도/VV+EC+맞/VV+는/ETM+게/NNB+JKS+나을/VA+ETM+것/NNB+같/VA+아서/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 그래도 맞는 게 마음이 편하긴 하더라 키키",
+            "norm_text": "맞아 그래도 맞는 게 마음이 편하긴 하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그래도/VV+EC+맞/VV+는/ETM+게/NNB+JKS+마음/NNG+이/JKS+편하/VA+긴/ETN+JX+하/VX+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 니도 빨리 맞으면 좋긴 할 텐데 ㅠ",
+            "norm_text": "니도 빨리 맞으면 좋긴 할 텐데 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+도/JX+빨리/MAG+맞/VV+으면/EC+좋/VA+긴/ETN+JX+할/VX+ETM+텐데/NNB+VCP+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응응 얼른 맞아야 나도 마음이 편하고 어디 다니기 무서워 죽겠다",
+            "norm_text": "응응 얼른 맞아야 나도 마음이 편하고 어디 다니기 무서워 죽겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+얼른/MAG+맞/VV+아야/EC+나/NP+도/JX+마음/NNG+이/JKS+편하/VA+고/EC+어디/NP+다니/VV+기/ETN+무서워/VA+EC+죽/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 요즘 나 소독 엄청 해서 유별나단 소리 들을 지경이다",
+            "norm_text": "요즘 나 소독 엄청 해서 유별나단 소리 들을 지경이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+나/NP+소독/NNG+엄청/MAG+해서/VV+EC+유별나/VA+단/ETM+소리/NNG+들/XSN+을/JKO+지경/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 니 소독 많이 하는 건 알지 키키",
+            "norm_text": "키키 니 소독 많이 하는 건 알지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+니/EC+소독/NNG+많이/MAG+하/VV+는/ETM+건/NNB+JX+알/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 근데 나도 그래야 마음이 편하더라 키키",
+            "norm_text": "근데 나도 그래야 마음이 편하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나/NP+도/JX+그래야/VV+EC+마음/NNG+이/JKS+편하/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 손도 엄청 자주 씻음",
+            "norm_text": "손도 엄청 자주 씻음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "손/NNG+도/JX+엄청/MAG+자주/MAG+씻/VV+음/ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 응응 키키 어디서 봤는데 임산부 코로나 걸려서 죽고 그런 거 보니까 너무 무섭더라 ㅜㅜ",
+            "norm_text": "응응 키키 어디서 봤는데 임산부 코로나 걸려서 죽고 그런 거 보니까 너무 무섭더라 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+어디/NP+서/JKB+봤/VV+EP+는데/EC+임산부/NNG+코로나/NNG+걸려서/VV+EC+죽/VV+고/EC+그런/MM+거/NNB+보/VV+니까/EC+너무/MAG+무섭/VA+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 아무래도 면역이 많이 무너져있으니",
+            "norm_text": "아무래도 면역이 많이 무너져있으니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아무래도/MAG+면역/NNG+이/JKS+많이/MAG+무너져/VV+EC+있/VX+으니/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 헐... 하긴 면역력이 떨어지긴 하겠다 ㅠㅠ",
+            "norm_text": "헐... 하긴 면역력이 떨어지긴 하겠다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+하긴/MAJ+면역력/NNG+이/JKS+떨어지/VV+긴/ETN+JX+하/VX+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 니는 웬만하면 어디 나가지 말고 집에 있어야겠다 ㅠㅠ",
+            "norm_text": "니는 웬만하면 어디 나가지 말고 집에 있어야겠다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+는/JX+웬만/XR+하/XSA+면/EC+어디/NP+나가/VV+지/EC+말/VX+고/EC+집/NNG+에/JKB+있/VV+어야/EC+겠다/VX+EP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 응응 그래서 출휴 쓰고 집 밖에 거의 안 나가 ㅜㅜ",
+            "norm_text": "응응 그래서 출휴 쓰고 집 밖에 거의 안 나가 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그래서/MAJ+출휴/UNKNOWN+쓰/VV+고/EC+집/NNG+밖에/JX+거의/MAG+안/MAG+나가/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 남편도 다음 주에 코로나 주사 맞기로 했어",
+            "norm_text": "남편도 다음 주에 코로나 주사 맞기로 했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남편/NNG+도/JX+다음/NNG+주/NNG+에/JKB+코로나/NNG+주사/NNG+맞/VV+기/ETN+로/JKB+했/VV+EP+어/EC"
+          },
+          {
+            "id": 28,
+            "text": "1 : 헉 ㅠㅠ 진통제랑 해열제 미리 사 놔라 혹시 모르니까 ㅠㅠ",
+            "norm_text": "헉 ㅠㅠ 진통제랑 해열제 미리 사 놔라 혹시 모르니까 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "헉/IC+ㅠㅠ/UNKNOWN+진통제/NNG+랑/JKB+해열제/NNG+미리/MAG+사/VV+EC+놔라/VX+EF+혹시/MAG+모르/VV+니까/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 29,
+            "text": "2 : 응응 타이레놀 미리 쌓아뒀짘 ㅋ",
+            "norm_text": "응응 타이레놀 미리 쌓아뒀짘 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+타/VV+EC+이레/VV+EC+놀/VX+ETM+미리/MAG+쌓/VV+아/EC+뒀/VX+EP+짘ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

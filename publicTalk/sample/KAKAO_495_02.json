@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 29194,
+    "name": "KAKAO_495_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144152049371/KAKAO_495_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144152049371/KAKAO_495_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28933,
+      "filename": "KAKAO_495_02.txt",
+      "title": "KAKAO_495_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 640,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 640,
+        "word_size": 199,
+        "text": "1 : 넌 주택이 좋아? 아파트가 좋아?\n2 : 난 아파트가 좋은 거 같아\n2 : 나이 들면 저기 시골에 마당 있는 주택 가고 싶고 키키\n1 : 아 진짜? 키키 나도 아파트가 편하긴 한데... 주택 살면 눈치 안 봐도 되니까\n2 : 그래 개 키우고 하면 주택이 훨씬 편하지... 키우는 개는 안 짖나?\n1 : 밤에 짖을까 봐 산책 나가서 엄청 피곤하게 하다가 들어와 키키 전세 사는데 피해 주면 안 되니까\n2 : 나도 예전에 키우던 개... 목청도 우렁차고 해서 민원 신고 몇 번 들어왔었다... 키키\n1 : 아 진짜로? 그래 아파트 살면 주변 이웃들이 많아서 ㅜㅜ\n2 : 응응... 그래서 한 번만 더 짖으면 퇴출 시킬 꺼랬음... ㅠㅠ\n1 : 헉... 진심? ㅜㅜ 그래서 어떻게 했어 ㅜㅜ 이사 갔나\n2 : 그래서 개 입을 단속 시켰지... 진짜 힘들었다 ㅜ ㅠㅠ\n1 : 아이고 ㅜㅜ 강아지가 힘들었겠네 ㅜㅜ 보호자가 아파트 살아가꼬 ㅜㅜ\n2 : 키키 지금 12년 됐는데 주택 가서 호강 시켜주야겠노... 휴\n1 : 아 이제 많이 어른이 되었네 키키 계속 그냥 아파트 살면 되겠는걸\n2 : 지금은 할배 할매지... ㅋㄱㅋ 아니 지금도 되게 짖어 키키\n1 : 키키 뭔가 겁이 많은가? 그래두 강아지가 일부러 짖는 건 아닐 텐데\n2 : 키키 어 진짜 겁이 어마무시하다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 넌 주택이 좋아? 아파트가 좋아?",
+            "norm_text": "넌 주택이 좋아? 아파트가 좋아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+주택/NNG+이/JKS+좋/VA+아/EF+아파트/NNG+가/JKS+좋/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 아파트가 좋은 거 같아",
+            "norm_text": "난 아파트가 좋은 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+아파트/NNG+가/JKS+좋/VA+은/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나이 들면 저기 시골에 마당 있는 주택 가고 싶고 키키",
+            "norm_text": "나이 들면 저기 시골에 마당 있는 주택 가고 싶고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나이/NNG+들/VV+면/EC+저기/NP+시골/NNG+에/JKB+마당/JX+있/VX+는/ETM+주택/NNG+가/VV+고/EC+싶/VX+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아 진짜? 키키 나도 아파트가 편하긴 한데... 주택 살면 눈치 안 봐도 되니까",
+            "norm_text": "아 진짜? 키키 나도 아파트가 편하긴 한데... 주택 살면 눈치 안 봐도 되니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키나/XSA+ETN+JX+도/JX+아파트/NNG+가/JKS+편하/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+주택/NNG+살/VV+면/EC+눈치/NNG+안/MAG+봐도/VV+EC+되/VV+니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그래 개 키우고 하면 주택이 훨씬 편하지... 키우는 개는 안 짖나?",
+            "norm_text": "그래 개 키우고 하면 주택이 훨씬 편하지... 키우는 개는 안 짖나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+개/NNG+키우/VV+고/EC+하/VV+면/EC+주택/NNG+이/JKS+훨씬/MAG+편하/VA+지/EF+./SY+키우/VV+는/ETM+개/NNG+는/JX+안/MAG+짖/VV+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 밤에 짖을까 봐 산책 나가서 엄청 피곤하게 하다가 들어와 키키 전세 사는데 피해 주면 안 되니까",
+            "norm_text": "밤에 짖을까 봐 산책 나가서 엄청 피곤하게 하다가 들어와 키키 전세 사는데 피해 주면 안 되니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밤/NNG+에/JKB+짖/VV+을까/EC+봐/VX+EF+산책/NNG+나가/VV+서/EC+엄청/MAG+피곤/NNG+하/XSV+게/EC+하/VV+다가/EC+들어와/VV+EC+키/NNG+키/NNG+전세/NNG+사/VV+는/ETM+데/NNB+피해/VV+EC+주/VX+면/EC+안/MAG+되/VV+니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나도 예전에 키우던 개... 목청도 우렁차고 해서 민원 신고 몇 번 들어왔었다... 키키",
+            "norm_text": "나도 예전에 키우던 개... 목청도 우렁차고 해서 민원 신고 몇 번 들어왔었다... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+예전/NNG+에/JKB+키우/VV+던개/EC+./SY+./SY+목청/NNG+도/JX+우렁차/VA+고/EC+해서/VV+EC+민원/NNG+신고/NNG+몇/MM+번/NNBC+들어왔었/VV+EP+다/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진짜로? 그래 아파트 살면 주변 이웃들이 많아서 ㅜㅜ",
+            "norm_text": "아 진짜로? 그래 아파트 살면 주변 이웃들이 많아서 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜로/MAG+그래/IC+아파트/NNG+살/VV+면/EC+주변/NNG+이웃/NNG+들/XSN+이/JKS+많/VA+아서/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응응... 그래서 한 번만 더 짖으면 퇴출 시킬 꺼랬음... ㅠㅠ",
+            "norm_text": "응응... 그래서 한 번만 더 짖으면 퇴출 시킬 꺼랬음... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+./SY+그래서/MAJ+한/MM+번/NNBC+만/JX+더/MAG+짖/VV+으면/EC+퇴출/NNG+시킬/XSV+ETM+꺼/NNB+VCP+랬/EP+음/ETN+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 헉... 진심? ㅜㅜ 그래서 어떻게 했어 ㅜㅜ 이사 갔나",
+            "norm_text": "헉... 진심? ㅜㅜ 그래서 어떻게 했어 ㅜㅜ 이사 갔나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+./SY+진심/NNG+?/SY+ㅜㅜ/UNKNOWN+그래서/MAJ+어떻게/MAG+했/VV+EP+어/EF+ㅜㅜ/UNKNOWN+이사/NNG+갔/VV+EP+나/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그래서 개 입을 단속 시켰지... 진짜 힘들었다 ㅜ ㅠㅠ",
+            "norm_text": "그래서 개 입을 단속 시켰지... 진짜 힘들었다 ㅜ ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+개입/NNG+을/JKO+단속/NNG+시켰/XSV+EP+지/EF+./SY+진짜/MAG+힘들/VA+었/EP+다ㅜ/UNKNOWN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아이고 ㅜㅜ 강아지가 힘들었겠네 ㅜㅜ 보호자가 아파트 살아가꼬 ㅜㅜ",
+            "norm_text": "아이고 ㅜㅜ 강아지가 힘들었겠네 ㅜㅜ 보호자가 아파트 살아가꼬 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이/NNG+고/VCP+EC+ㅜㅜ/UNKNOWN+강아지/NNG+가/JKS+힘들/VA+었/EP+겠/EP+네/EF+ㅜㅜ/UNKNOWN+보호자/NNG+가/JKS+아파트/NNG+살아가/VV+꼬/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 지금 12년 됐는데 주택 가서 호강 시켜주야겠노... 휴",
+            "norm_text": "키키 지금 12년 됐는데 주택 가서 호강 시켜주야겠노... 휴",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+지금/MAG+12/SN+년/NNBC+됐/VV+EP+는데/EC+주택가/NNG+서/JKB+호강/NNG+시켜/XSV+EC+주/VX+야/EC+VX+겠/EP+노/EF+./SY+휴/IC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 이제 많이 어른이 되었네 키키 계속 그냥 아파트 살면 되겠는걸",
+            "norm_text": "아 이제 많이 어른이 되었네 키키 계속 그냥 아파트 살면 되겠는걸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+이제/MAG+많이/MAG+어른/NNG+이/JKS+되/VV+었/EP+네/EF+키/NNG+키/NNG+계속/MAG+그냥/MAG+아파트/NNG+살/VV+면/EC+되/VV+겠/EP+는걸/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 지금은 할배 할매지... ㅋㄱㅋ 아니 지금도 되게 짖어 키키",
+            "norm_text": "지금은 할배 할매지... ㅋㄱㅋ 아니 지금도 되게 짖어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+할배/NNG+할/XSV+ETM+매지/NNG+./SY+./SY+ㅋ/UNKNOWN+ㄱㅋ/UNKNOWN+아니/IC+지금/MAG+도/JX+되게/MAG+짖/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 뭔가 겁이 많은가? 그래두 강아지가 일부러 짖는 건 아닐 텐데",
+            "norm_text": "키키 뭔가 겁이 많은가? 그래두 강아지가 일부러 짖는 건 아닐 텐데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+겁/NNG+이/JKS+많/VA+은가/EF+그래두/MAJ+강아지/NNG+가/JKS+일부러/MAG+짖/VV+는/ETM+건/NNB+JX+아닐/VCN+ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 어 진짜 겁이 어마무시하다 키키",
+            "norm_text": "키키 어 진짜 겁이 어마무시하다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+어/EC+진짜/MAG+겁/NNG+이/JKS+어마/NNG+무시/NNG+하/XSV+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 25090,
+    "name": "KAKAO_479_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144520036735/KAKAO_479_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144520036735/KAKAO_479_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28186,
+      "filename": "KAKAO_479_16.txt",
+      "title": "KAKAO_479_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 572,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 572,
+        "word_size": 184,
+        "text": "1 : 너 요즘도 다이어트하고 있나?\n2 : 아니 키키 요즘엔 안 하고 있다 키키 살쪘어\n1 : 키키 사실 뭐 평생 다이어트하면서 사는 거지\n2 : 근데 다이어트 너무 힘든 거 같아\n1 : 맞다... 근데 식단만 좀 신경 쓰면 되는데 그게 제일 어렵지\n2 : 맞다 ㅜㅜ 근데 공복 다이어트라고 아니?\n1 : 공복 다이어트? 그냥 공복 계속 유지하는 거야?\n2 : 예를 들어서 저녁 6시에 밥을 먹었다 치면 14-16시간 정도 공복을 유지하고 밥을 먹어\n1 : 아아... 간헐적 단식이랑 비슷한 거 맞지?\n1 : 난 그거 계속하고 있어\n2 : 아 진짜? 키키 얼마나 했어?\n1 : 거의 2년 가까이 하고 있는데, 더 이상 안 찐다 진짜 키키\n2 : 와 진짜 대단하네 나는 잘 안 되던데...\n2 : 살이 얼마나 빠졌어? 키키\n1 : 최대 몸무게에서 10kg 정도 빠졌지... 키키\n1 : 근데 그땐 식단도 건강하게 먹었고 지금은 막 먹어\n2 : 아 진짜? 10키로나 빠졌어?\n2 : 근데 지금 막 먹어도 유지가 된다는 거네?\n1 : 응응 키키 만약에 야식 먹게 되면 다음날 점심을 최대한 늦게 먹어 키키\n2 : 아 그렇게 유지를 하는 거구나 그럼 살 안 쪄?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 요즘도 다이어트하고 있나?",
+            "norm_text": "너 요즘도 다이어트하고 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+요즘/NNG+도/JX+다이어트/NNG+하/XSV+고/EC+있/VX+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 키키 요즘엔 안 하고 있다 키키 살쪘어",
+            "norm_text": "아니 키키 요즘엔 안 하고 있다 키키 살쪘어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니키/NNP+키/NNG+요즘/NNG+엔/JKB+JX+안/MAG+하/VV+고/EC+있/VX+다키키/NNP+살쪘/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 사실 뭐 평생 다이어트하면서 사는 거지",
+            "norm_text": "키키 사실 뭐 평생 다이어트하면서 사는 거지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+사실/MAG+뭐/IC+평생/NNG+다이어트/NNG+하/XSV+면서/EC+사/VV+는/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 다이어트 너무 힘든 거 같아",
+            "norm_text": "근데 다이어트 너무 힘든 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+다이어트/NNG+너무/MAG+힘든/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞다... 근데 식단만 좀 신경 쓰면 되는데 그게 제일 어렵지",
+            "norm_text": "맞다... 근데 식단만 좀 신경 쓰면 되는데 그게 제일 어렵지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EF+./SY+근데/MAJ+식단/NNG+만/JX+좀/MAG+신경/NNG+쓰/VV+면/EC+되/VV+는데/EC+그게/NP+JKS+제일/MAG+어렵/VA+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞다 ㅜㅜ 근데 공복 다이어트라고 아니?",
+            "norm_text": "맞다 ㅜㅜ 근데 공복 다이어트라고 아니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+다/EF+ㅜㅜ/UNKNOWN+근데/MAJ+공복/NNG+다이어트/NNG+라고/VCP+EC+아니/IC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 공복 다이어트? 그냥 공복 계속 유지하는 거야?",
+            "norm_text": "공복 다이어트? 그냥 공복 계속 유지하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "공복/NNG+다이어트/NNG+그냥/MAG+공복/NNG+계속/MAG+유지/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 예를 들어서 저녁 6시에 밥을 먹었다 치면 14-16시간 정도 공복을 유지하고 밥을 먹어",
+            "norm_text": "예를 들어서 저녁 6시에 밥을 먹었다 치면 14-16시간 정도 공복을 유지하고 밥을 먹어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "예/NNG+를/JKO+들/VV+어서/EC+저녁/NNG+6/SN+시/NNBC+에/JKB+밥/NNG+을/JKO+먹/VV+었/EP+다/EC+치/VV+면/EC+14/SN+-/SY+16/SN+시간/NNBC+정도/NNG+공복/NNG+을/JKO+유지/NNG+하/XSV+고/EC+밥/NNG+을/JKO+먹/VV+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아아... 간헐적 단식이랑 비슷한 거 맞지?",
+            "norm_text": "아아... 간헐적 단식이랑 비슷한 거 맞지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+./SY+간헐/NNG+적/XSN+단식/NNG+이랑/JC+비슷/XR+한/XSA+ETM+거/NNB+맞/VV+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 난 그거 계속하고 있어",
+            "norm_text": "난 그거 계속하고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+그거/NP+계속/NNG+하/XSV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아 진짜? 키키 얼마나 했어?",
+            "norm_text": "아 진짜? 키키 얼마나 했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/NNG+얼마나/MAG+했/VV+EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 거의 2년 가까이 하고 있는데, 더 이상 안 찐다 진짜 키키",
+            "norm_text": "거의 2년 가까이 하고 있는데, 더 이상 안 찐다 진짜 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거의/MAG+2/SN+년/NNBC+가까이/NNG+하/XSV+고/EC+있/VX+는데/EC+,/SC+더/MAG+이상/NNG+안/MAG+찐다/VV+EC+진짜/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 와 진짜 대단하네 나는 잘 안 되던데...",
+            "norm_text": "와 진짜 대단하네 나는 잘 안 되던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+대단/XR+하/XSA+네/EF+나/NP+는/JX+잘/MAG+안/MAG+되/VV+던데/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 살이 얼마나 빠졌어? 키키",
+            "norm_text": "살이 얼마나 빠졌어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "살/NNG+이/JKS+얼마나/MAG+빠졌/VV+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 최대 몸무게에서 10kg 정도 빠졌지... 키키",
+            "norm_text": "최대 몸무게에서 10kg 정도 빠졌지... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "최대/NNG+몸무게/NNG+에서/JKB+10/SN+kg/SL+정도/NNG+빠졌/VV+EP+지/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근데 그땐 식단도 건강하게 먹었고 지금은 막 먹어",
+            "norm_text": "근데 그땐 식단도 건강하게 먹었고 지금은 막 먹어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그/MM+땐/NNG+JX+식단/NNG+도/JX+건강/NNG+하/XSV+게/EC+먹/VV+었/EP+고/EC+지금/MAG+은막/NNG+먹/VV+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 진짜? 10키로나 빠졌어?",
+            "norm_text": "아 진짜? 10키로나 빠졌어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+?/SY+10/SN+키로/XSV+ETN+JKB+나빠졌/VA+EC+VX+EP+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 근데 지금 막 먹어도 유지가 된다는 거네?",
+            "norm_text": "근데 지금 막 먹어도 유지가 된다는 거네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+지금/MAG+막/MAJ+먹/VV+어도/EC+유지/NNG+가/JKS+된다는/VV+ETM+거/NNB+네/VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 응응 키키 만약에 야식 먹게 되면 다음날 점심을 최대한 늦게 먹어 키키",
+            "norm_text": "응응 키키 만약에 야식 먹게 되면 다음날 점심을 최대한 늦게 먹어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/NNG+만약/NNG+에/JKB+야식/NNG+먹/VV+게/EC+되/VV+면/EC+다음/NNG+날/NNG+점심/NNG+을/JKO+최대한/NNG+늦/VA+게/EC+먹/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아 그렇게 유지를 하는 거구나 그럼 살 안 쪄?",
+            "norm_text": "아 그렇게 유지를 하는 거구나 그럼 살 안 쪄?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그렇게/MAG+유지/NNG+를/JKO+하/VV+는/ETM+거/NNB+구나/VCP+EF+그럼/MAJ+살/MAG+안/MAG+쪄/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

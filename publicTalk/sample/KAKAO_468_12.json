@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 28827,
+    "name": "KAKAO_468_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150809013476/KAKAO_468_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150809013476/KAKAO_468_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28482,
+      "filename": "KAKAO_468_12.txt",
+      "title": "KAKAO_468_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 529,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 529,
+        "word_size": 177,
+        "text": "1 : 여행사로 여행 가봤음? 키키\n2 : 여행사로는 안 가봤어 키키\n2 : 항상 자유 여행 키키\n2 : 니는?\n1 : 나 그때 수똥이랑 태국인가? 갔을 때 여행사로 감 키키\n2 : 아 맞네 맞아 키키\n2 : 그때 엄청 부모님 같은 사진 찍었잖아 키키\n1 : 키키 아 진짜 그때 얼마나 놀려댔는지\n2 : 키키 진짜 내 웃음 포인트였다규 키키\n1 : 키키 진짜 그런 건 생각도 못했는데 가이드님이 찍어주신 거라고 키키\n2 : 키키 너무 즐거웠죠 키키\n2 : 여행사 통해서 간 거는 어땠어?\n2 : 갈만해?\n1 : 계획 짤 시간이 없어서 그렇게 가긴 했는데 가이드가 진짜 좋았음 키키\n2 : 키키 오 가이드가 좋으면 또 괜찮을 것 같긴 해\n1 : 옹 진짜 잘해주더라 나이도 우리랑 비슷했고\n2 : 오... 나도 가이드도 해보고 싶긴 했는데 키키\n1 : 오 니 잘할 것 같은데?\n1 : 어울림 키키\n2 : 키키 그치만 처음에 너무 돈이 안된다고 해서 포기했지 ㅠㅠ\n2 : 아쉽다\n1 : 아 그건 그래 그래도 팁 같은 것도 받고 하지 않나? 키키\n2 : 키키 모르겠어 키키 한국에서도 그런지는",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여행사로 여행 가봤음? 키키",
+            "norm_text": "여행사로 여행 가봤음? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여행사/NNG+로/JKB+여행가/NNG+봤/VV+EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 여행사로는 안 가봤어 키키",
+            "norm_text": "여행사로는 안 가봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여행사/NNG+로/JKB+는/JX+안/MAG+가/VV+EC+봤/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 항상 자유 여행 키키",
+            "norm_text": "항상 자유 여행 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "항상/MAG+자유/NNG+여행/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 니는?",
+            "norm_text": "니는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나 그때 수똥이랑 태국인가? 갔을 때 여행사로 감 키키",
+            "norm_text": "나 그때 수똥이랑 태국인가? 갔을 때 여행사로 감 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+그때/NNG+수/NNG+똥/NNG+이랑/JC+태국/NNP+인가/VCP+EF+갔/VV+EP+을/ETM+때/NNG+여행사/NNG+로/JKB+감/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 맞네 맞아 키키",
+            "norm_text": "아 맞네 맞아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아맞네맞아키키/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그때 엄청 부모님 같은 사진 찍었잖아 키키",
+            "norm_text": "그때 엄청 부모님 같은 사진 찍었잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그때/NNG+엄청/MAG+부모/NNG+님/XSN+같/VA+은/ETM+사진/NNG+찍/VV+었잖/EC+VX+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 아 진짜 그때 얼마나 놀려댔는지",
+            "norm_text": "키키 아 진짜 그때 얼마나 놀려댔는지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+그때/NNG+얼마나/MAG+놀려댔/VV+EC+VX+EP+는지/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 진짜 내 웃음 포인트였다규 키키",
+            "norm_text": "키키 진짜 내 웃음 포인트였다규 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+내/NP+JKG+웃음/NNG+포인트/NNG+였/VCP+EP+다/EC+규/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 진짜 그런 건 생각도 못했는데 가이드님이 찍어주신 거라고 키키",
+            "norm_text": "키키 진짜 그런 건 생각도 못했는데 가이드님이 찍어주신 거라고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+그런/MM+건/NNB+JX+생각/NNG+도/JX+못/MAG+했/VV+EP+는데/EC+가이드/NNG+님/XSN+이/JKS+찍/VV+어/EC+주/VX+신/EP+ETM+거/NNB+라고/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 너무 즐거웠죠 키키",
+            "norm_text": "키키 너무 즐거웠죠 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+너무/MAG+즐거웠/VA+EP+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 여행사 통해서 간 거는 어땠어?",
+            "norm_text": "여행사 통해서 간 거는 어땠어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여행사/NNG+통해서/VV+EC+간/VV+ETM+거/NNB+는/JX+어땠어/VA+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 갈만해?",
+            "norm_text": "갈만해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "갈만/NNG+해/XSV+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 계획 짤 시간이 없어서 그렇게 가긴 했는데 가이드가 진짜 좋았음 키키",
+            "norm_text": "계획 짤 시간이 없어서 그렇게 가긴 했는데 가이드가 진짜 좋았음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "계획/NNG+짤/VV+ETM+시간/NNG+이/JKS+없/VA+어서/EC+그렇게/MAG+가/VV+긴/ETN+JX+했/VX+EP+는데/EC+가이드/NNG+가/JKS+진짜/MAG+좋/VA+았/EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 오 가이드가 좋으면 또 괜찮을 것 같긴 해",
+            "norm_text": "키키 오 가이드가 좋으면 또 괜찮을 것 같긴 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/NR+가이드/NNG+가/JKS+좋/VA+으면/EC+또/MAG+괜찮/VA+을/ETM+것/NNB+같/VA+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 옹 진짜 잘해주더라 나이도 우리랑 비슷했고",
+            "norm_text": "옹 진짜 잘해주더라 나이도 우리랑 비슷했고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옹/NNG+진짜/MAG+잘/MAG+해/VV+EC+주/VX+더라/EC+나이/NNG+도/JX+우리/NP+랑/JC+비슷/XR+했/XSA+EP+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오... 나도 가이드도 해보고 싶긴 했는데 키키",
+            "norm_text": "오... 나도 가이드도 해보고 싶긴 했는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+나/NP+도/JX+가이드/NNG+도/JX+해/VV+EC+보/VX+고/EC+싶/VX+긴/ETN+JX+했/VX+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오 니 잘할 것 같은데?",
+            "norm_text": "오 니 잘할 것 같은데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/VV+니/EC+잘/MAG+할/VV+ETM+것/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 어울림 키키",
+            "norm_text": "어울림 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어울림/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 그치만 처음에 너무 돈이 안된다고 해서 포기했지 ㅠㅠ",
+            "norm_text": "키키 그치만 처음에 너무 돈이 안된다고 해서 포기했지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치만/MAJ+처음/NNG+에/JKB+너무/MAG+돈/NNG+이/JKS+안/MAG+된다고/VV+EC+해서/VV+EC+포기/NNG+했/XSV+EP+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 아쉽다",
+            "norm_text": "아쉽다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아쉽/VA+다/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아 그건 그래 그래도 팁 같은 것도 받고 하지 않나? 키키",
+            "norm_text": "아 그건 그래 그래도 팁 같은 것도 받고 하지 않나? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그건/NP+JX+그래/VA+EC+그래도/VV+EC+팁/NNG+같/VA+은/ETM+것/NNB+도/JX+받/VV+고/EC+하/VV+지/EC+않/VX+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 모르겠어 키키 한국에서도 그런지는",
+            "norm_text": "키키 모르겠어 키키 한국에서도 그런지는",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+모르/VV+겠/EP+어/EC+키키/NNP+한국/NNP+에서/JKB+도/JX+그런지는/VA+EC+JX"
+          }
+        ]
+      }
+    }
+  ]
+}

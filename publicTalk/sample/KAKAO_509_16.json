@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22213,
+    "name": "KAKAO_509_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906074220/KAKAO_509_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906074220/KAKAO_509_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29287,
+      "filename": "KAKAO_509_16.txt",
+      "title": "KAKAO_509_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 512,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 512,
+        "word_size": 157,
+        "text": "1 : 자기야 병원 예약한 거 있어? 병원에서 전화 왔네?\n2 : 자기야 그게 나 얼굴에 주름살이 는 것 같아. 보톡스 맞아볼까봐.\n1 : 아니야 예뻐~ 안 해도 돼\n2 : 요새 필러도 많이 시술한대~\n1 : 그런 거 하면 너무 얼굴이 부자연스러울 것 같아\n2 : 아니야~ 평면적인 얼굴이 입체적으로 보일 수 있어서 괜찮을 것 같은데~\n1 : 성형수술은 절대 받지 마!\n2 : 그건 성형수술에 속하지도 않아 시술이지~ㅎ\n1 : 그럼 시술하고 수술 차이가 뭔데~?\n2 : 시술은 칼 안대고 하는 것 수술은 칼 대는 것? 뭐 요 정도라고 생각하면 돼.\n1 : 자긴 시술이든 수술이든 안 했으면 좋겠어!\n2 : 요새 시술 안 받는 사람 거의 없어. 주변 길가다가도 널린 게 성형외과고, 시술도 정말 종류가 많아.\n1 : 차라리 그럼 피부 마사지를 받아\n2 : 피부는 타고 나야 한다고 했어. 아무리 받아도 시술만큼 딱 티 나진 않아.\n1 : 외모에 너무 집착하지 마 안 해도 예쁘니깐~!\n2 : 그럼 다이어트라도 해볼께 .그게 최대의 변신이라잖아.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 병원 예약한 거 있어? 병원에서 전화 왔네?",
+            "norm_text": "자기야 병원 예약한 거 있어? 병원에서 전화 왔네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+야/VCP+EF+병원/NNG+예약/NNG+한/XSA+ETM+거/NNB+있/VA+어/EF+병원/NNG+에서/JKB+전화/NNG+왔/VV+EP+네/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 자기야 그게 나 얼굴에 주름살이 는 것 같아. 보톡스 맞아볼까봐.",
+            "norm_text": "자기야 그게 나 얼굴에 주름살이 는 것 같아. 보톡스 맞아볼까봐.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+야/VCP+EF+그게/NP+JKS+나/NP+얼굴/NNG+에/JKB+주름살/NNG+이/VCP+는/ETM+것/NNB+같/VA+아/EF+보톡스/NNP+맞/VV+아/EC+볼까/VX+EC+봐/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니야 예뻐~ 안 해도 돼",
+            "norm_text": "아니야 예뻐~ 안 해도 돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+예뻐/VA+EC+~/SY+안/MAG+해도/VV+EC+돼/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 요새 필러도 많이 시술한대~",
+            "norm_text": "요새 필러도 많이 시술한대~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/NNG+필러/NNG+도/JX+많이/MAG+시술/NNG+한대/NNG+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런 거 하면 너무 얼굴이 부자연스러울 것 같아",
+            "norm_text": "그런 거 하면 너무 얼굴이 부자연스러울 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+거/NNB+하/VV+면/EC+너무/MAG+얼굴/NNG+이/JKS+부자연/XR+스러울/XSA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니야~ 평면적인 얼굴이 입체적으로 보일 수 있어서 괜찮을 것 같은데~",
+            "norm_text": "아니야~ 평면적인 얼굴이 입체적으로 보일 수 있어서 괜찮을 것 같은데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+~/SY+평면/NNG+적/XSN+인/VCP+ETM+얼굴/NNG+이/JKS+입체/NNG+적/XSN+으로/JKB+보일/VV+ETM+수/NNB+있/VV+어서/EC+괜찮/VA+을/ETM+것/NNB+같/VA+은데/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 성형수술은 절대 받지 마!",
+            "norm_text": "성형수술은 절대 받지 마!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "성형수술/NNP+은/JX+절대/MAG+받/VV+지/EC+마/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그건 성형수술에 속하지도 않아 시술이지~ㅎ",
+            "norm_text": "그건 성형수술에 속하지도 않아 시술이지~ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+성형/NNG+수술/NNG+에/JKB+속하/VV+지/EC+도/JX+않/VX+아/EC+시술/NNG+이/VCP+지/EC+~/SY+ㅎ/XSA"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그럼 시술하고 수술 차이가 뭔데~?",
+            "norm_text": "그럼 시술하고 수술 차이가 뭔데~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+시술/NNG+하/XSV+고/EC+수술/NNG+차이/NNG+가/JKS+뭔데/NP+VCP+EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 시술은 칼 안대고 하는 것 수술은 칼 대는 것? 뭐 요 정도라고 생각하면 돼.",
+            "norm_text": "시술은 칼 안대고 하는 것 수술은 칼 대는 것? 뭐 요 정도라고 생각하면 돼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시술/NNG+은/JX+칼/NNG+안/MAG+대/VV+고/EC+하/VV+는/ETM+것/NNB+수술/NNG+은/JX+칼/NNG+대/XSV+는/ETM+것/NNB+뭐/IC+요/MM+정도/NNG+라고/VCP+EC+생각/NNG+하/XSV+면/EC+돼/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 자긴 시술이든 수술이든 안 했으면 좋겠어!",
+            "norm_text": "자긴 시술이든 수술이든 안 했으면 좋겠어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자긴/NP+JX+시술/NNG+이/VCP+든/EC+수술/NNG+이/VCP+든/EC+안/MAG+했/VV+EP+으면/EC+좋/VA+겠/EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 요새 시술 안 받는 사람 거의 없어. 주변 길가다가도 널린 게 성형외과고, 시술도 정말 종류가 많아.",
+            "norm_text": "요새 시술 안 받는 사람 거의 없어. 주변 길가다가도 널린 게 성형외과고, 시술도 정말 종류가 많아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+시술/NNG+안/MAG+받/VV+는/ETM+사람/NNG+거의/MAG+없/VA+어/EF+주변/NNG+길/NNG+가/VV+다가/EC+도/JX+널린/VV+ETM+게/NNB+JKS+성형외과/NNG+고/VCP+EC+,/SC+시술/NNG+도/JX+정말/MAG+종류/NNG+가/JKS+많/VA+아/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 차라리 그럼 피부 마사지를 받아",
+            "norm_text": "차라리 그럼 피부 마사지를 받아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "차라리/MAG+그럼/MAJ+피부/NNG+마사지/NNG+를/JKO+받/VV+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 피부는 타고 나야 한다고 했어. 아무리 받아도 시술만큼 딱 티 나진 않아.",
+            "norm_text": "피부는 타고 나야 한다고 했어. 아무리 받아도 시술만큼 딱 티 나진 않아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "피부/NNG+는/JX+타/VV+고/EC+나/VX+야/EC+한다고/VX+EC+했/VX+EP+어/EF+아무리/MAG+받/VV+아도/EC+시술/NNG+만큼/JKB+딱/MAG+티나/VV+진/EC+JX+않/VX+아/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 외모에 너무 집착하지 마 안 해도 예쁘니깐~!",
+            "norm_text": "외모에 너무 집착하지 마 안 해도 예쁘니깐~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "외모/NNG+에/JKB+너무/MAG+집착/NNG+하/XSV+지/EC+마안/NNG+해도/XSV+EC+예쁘/VA+니깐/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럼 다이어트라도 해볼께 .그게 최대의 변신이라잖아.",
+            "norm_text": "그럼 다이어트라도 해볼께 .그게 최대의 변신이라잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그럼/MAJ+다이어트/NNG+라도/VCP+EC+해/VV+EC+볼께/VX+EF+그게/NP+JKS+최대/NNG+의/JKG+변신/NNG+이/VCP+라잖아/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

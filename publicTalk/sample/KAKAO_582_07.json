@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 30106,
+    "name": "KAKAO_582_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923151847057373/KAKAO_582_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923151847057373/KAKAO_582_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31318,
+      "filename": "KAKAO_582_07.txt",
+      "title": "KAKAO_582_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 776,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 776,
+        "word_size": 239,
+        "text": "1 : 어머니 아버지 다 건강하시징?\n2 : 넹 키키 어제도 뵙고 왔습니다 키키\n2 : 저희 가족들은 다 가까이 살아서... 좀 덜 보고 싶을 때가... 쿠 키키\n1 : 어 너 따로 살아? 서울에서 내려와서 같이 사는 거 아냐?\n2 : 전에도 따로 살았고 지금도 따로 살고 있어ㅏ요ㅕ 키키\n2 : 차로 1시간 거리? 정도 돼요 키키 몰랐군 아 키키\n1 : 응 같이 사는 줄...키키\n1 : 그럼 너 혼자 살고 있다는 거?\n2 : 이게 복잡한데 키키 저는 고모댁이랑 같이 살아요 키키\n1 : 아 그건 들은 듯? 아 그래서 사촌동생이 있다 한 거구나 키키\n2 : 넹 키키 어렸을 때부터 같이 살아서 찐동생 같고 찐언니들이 있어요 키키\n2 : 그래서 저는 형제가 4명이에요 키키\n1 : 야아 조타조타 키키 친한 가족 많으면 좋지!\n1 : 난 고모 못 본지 10년 넘은 듯...?\n2 : 진짜 오래됐네요? 좀 장단점이 있죠 키키\n2 : 전 너무 보니까... 이제는 좀 덜 봤으면? 키키\n1 : 키키 맞아맞아 키키 너무 봐도... 사랑이 넘친다기보단...키키 싸워\n2 : 키키 언니도 형제가 많아서 심심하지는 않았겠어요?\n1 : 키키 응 요번에 장례식 할 때도 느꼈당... 형제는 그래도 많은 게 좋구너\n2 : 나혼산에서 손담비가 외동인데 나중에 부모님이 다 돌아가시면 같이 기억할 형제가 없어서 좀 슬프다 이런 얘기한 거 듣고 눈물 날 뻔 했잖아요 ㅠ 키키\n1 : 맞다 진짜 ㅠㅠ... 뭐 결혼해서 생기는 가족들도 내 진짜 가족들처럼 될 수도 없고 공유 못한 부분도 많으니까\n2 : 아무래도 그렇죠 키키 신기해요 가족이라는 게 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어머니 아버지 다 건강하시징?",
+            "norm_text": "어머니 아버지 다 건강하시징?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머니/NNG+아버지/NNG+다/MAG+건강/NNG+하/XSV+시/EP+징/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 넹 키키 어제도 뵙고 왔습니다 키키",
+            "norm_text": "넹 키키 어제도 뵙고 왔습니다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "넹/NNP+키키/NNP+어제/NNG+도/JX+뵙/VV+고/EC+왔/VX+EP+습니다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 저희 가족들은 다 가까이 살아서... 좀 덜 보고 싶을 때가... 쿠 키키",
+            "norm_text": "저희 가족들은 다 가까이 살아서... 좀 덜 보고 싶을 때가... 쿠 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저희/NP+가족/NNG+들/XSN+은/JX+다/MAG+가까이/MAG+살/VV+아서/EC+./SY+./SY+좀/MAG+덜/MAG+보/VV+고/EC+싶/VX+을/ETM+때/NNG+가/JKS+./SY+쿠키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 어 너 따로 살아? 서울에서 내려와서 같이 사는 거 아냐?",
+            "norm_text": "어 너 따로 살아? 서울에서 내려와서 같이 사는 거 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+너/NP+따로/MAG+살/VV+아/EF+서울/NNP+에서/JKB+내려와서/VV+EC+같이/MAG+사/VV+는/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 전에도 따로 살았고 지금도 따로 살고 있어ㅏ요ㅕ 키키",
+            "norm_text": "전에도 따로 살았고 지금도 따로 살고 있어ㅏ요ㅕ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전/NNG+에/JKB+도/JX+따로/MAG+살/VV+았/EP+고/EC+지금/NNG+도/JX+따로/MAG+살/VV+고/EC+있/VX+어/EC+ㅏ요/UNKNOWN+ㅕ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 차로 1시간 거리? 정도 돼요 키키 몰랐군 아 키키",
+            "norm_text": "차로 1시간 거리? 정도 돼요 키키 몰랐군 아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "차/NNG+로/JKB+1/SN+시간/NNBC+거리/NNG+?/SY+정도/NNG+돼요/XSV+EC+키/NNG+키/XSV+ETN+몰랐/VV+EP+군/EC+아키/NNP+키/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 같이 사는 줄...키키",
+            "norm_text": "응 같이 사는 줄...키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+같이/MAG+사/VV+는/ETM+줄/NNB+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그럼 너 혼자 살고 있다는 거?",
+            "norm_text": "그럼 너 혼자 살고 있다는 거?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+너/NP+혼자/MAG+살/VV+고/EC+있/VX+다는/ETM+거/NNB"
+          },
+          {
+            "id": 9,
+            "text": "2 : 이게 복잡한데 키키 저는 고모댁이랑 같이 살아요 키키",
+            "norm_text": "이게 복잡한데 키키 저는 고모댁이랑 같이 살아요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이게/NP+JKS+복잡/XR+한데/XSA+EC+키/NNG+키저/NNG+는/JX+고모/NNG+댁/NNG+이랑/JKB+같이/MAG+살/VV+아/EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 그건 들은 듯? 아 그래서 사촌동생이 있다 한 거구나 키키",
+            "norm_text": "아 그건 들은 듯? 아 그래서 사촌동생이 있다 한 거구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그건/NP+JX+들/VV+은/ETM+듯/NNB+아/IC+그래서/MAJ+사촌/NNG+동생/NNG+이/JKS+있/VV+다/EC+한/VX+ETM+거/NNB+구나/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 넹 키키 어렸을 때부터 같이 살아서 찐동생 같고 찐언니들이 있어요 키키",
+            "norm_text": "넹 키키 어렸을 때부터 같이 살아서 찐동생 같고 찐언니들이 있어요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "넹/NNP+키/NNG+키/XSV+ETN+어렸/VA+EP+을/ETM+때/NNG+부터/JX+같이/MAG+살/VV+아서/EC+찐/VV+ETM+동생/NNG+같/VA+고/EC+찐/VV+ETM+언니/NNG+들/XSN+이/JKS+있/VA+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래서 저는 형제가 4명이에요 키키",
+            "norm_text": "그래서 저는 형제가 4명이에요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+저/NP+는/JX+형제/NNG+가/JKS+4/SN+명/NNBC+이/JKS+에/IC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 야아 조타조타 키키 친한 가족 많으면 좋지!",
+            "norm_text": "야아 조타조타 키키 친한 가족 많으면 좋지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야아/IC+조타/NNG+조타/NNG+키/NNG+키/XSV+ETN+친한/VA+ETM+가족/NNG+많/VA+으면/EC+좋/VA+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 난 고모 못 본지 10년 넘은 듯...?",
+            "norm_text": "난 고모 못 본지 10년 넘은 듯...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+고모/NNG+못/MAG+본/VV+ETM+지/NNB+10/SN+년/NNBC+넘/VV+은/ETM+듯/NNB+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 진짜 오래됐네요? 좀 장단점이 있죠 키키",
+            "norm_text": "진짜 오래됐네요? 좀 장단점이 있죠 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+오래/MAG+됐/VV+EP+네요/EF+좀/MAG+장단점/NNG+이/JKS+있/VA+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 전 너무 보니까... 이제는 좀 덜 봤으면? 키키",
+            "norm_text": "전 너무 보니까... 이제는 좀 덜 봤으면? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전/NP+JX+너무/MAG+보/VV+니까/EC+./SY+./SY+이제/MAG+는/JX+좀/MAG+덜/MAG+봤/VV+EP+으면/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 맞아맞아 키키 너무 봐도... 사랑이 넘친다기보단...키키 싸워",
+            "norm_text": "키키 맞아맞아 키키 너무 봐도... 사랑이 넘친다기보단...키키 싸워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+맞/VV+아/EC+키/NNG+키/NNG+너무/MAG+봐도/VV+EF+./SY+사랑/NNG+이/JKS+넘친다/VV+EC+기보단/VV+ETN+JKB+JX+./SY+키/NNG+키/XSV+ETN+싸워/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 언니도 형제가 많아서 심심하지는 않았겠어요?",
+            "norm_text": "키키 언니도 형제가 많아서 심심하지는 않았겠어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+언니/NNG+도/JX+형제/NNG+가/JKS+많/VA+아서/EC+심심/XR+하/XSA+지/EC+는/JX+않/VX+았/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 응 요번에 장례식 할 때도 느꼈당... 형제는 그래도 많은 게 좋구너",
+            "norm_text": "키키 응 요번에 장례식 할 때도 느꼈당... 형제는 그래도 많은 게 좋구너",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+요번/NNG+에/JKB+장례식/NNG+할/XSV+ETM+때/NNG+도/JX+느꼈/VV+EP+당/EF+./SY+형제/NNG+는/JX+그래도/VV+EC+많/VA+은/ETM+게/NNB+JKS+좋/VA+구/EC+너/NP"
+          },
+          {
+            "id": 20,
+            "text": "2 : 나혼산에서 손담비가 외동인데 나중에 부모님이 다 돌아가시면 같이 기억할 형제가 없어서 좀 슬프다 이런 얘기한 거 듣고 눈물 날 뻔 했잖아요 ㅠ 키키",
+            "norm_text": "나혼산에서 손담비가 외동인데 나중에 부모님이 다 돌아가시면 같이 기억할 형제가 없어서 좀 슬프다 이런 얘기한 거 듣고 눈물 날 뻔 했잖아요 ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+혼산/NNG+에서/JKB+손담비/NNP+가/JKS+외동/NNG+인데/VCP+EC+나중/NNG+에/JKB+부모/NNG+님/XSN+이/JKS+다/MAG+돌아가/VV+시/EP+면/EC+같이/MAG+기억/NNG+할/XSV+ETM+형제/NNG+가/JKS+없/VA+어서/EC+좀/MAG+슬프/VA+다/EF+이런/MM+얘기/NNG+한/XSA+ETM+거/NNB+듣/VV+고/EC+눈물/NNG+날/VV+ETM+뻔/NNB+했잖아요/XSA+EP+EC+VX+EF+ㅠ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 21,
+            "text": "1 : 맞다 진짜 ㅠㅠ... 뭐 결혼해서 생기는 가족들도 내 진짜 가족들처럼 될 수도 없고 공유 못한 부분도 많으니까",
+            "norm_text": "맞다 진짜 ㅠㅠ... 뭐 결혼해서 생기는 가족들도 내 진짜 가족들처럼 될 수도 없고 공유 못한 부분도 많으니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞다진짜ㅠㅠ/UNKNOWN+./SY+뭐/IC+결혼/NNG+해서/XSV+EC+생기/VV+는/ETM+가족/NNG+들/XSN+도/JX+내/MM+진짜/MAG+가족/NNG+들/XSN+처럼/JKB+될/VV+ETM+수/NNB+도/JX+없/VA+고/EC+공유/NNG+못/MAG+한/VV+ETM+부분/NNG+도/JX+많/VA+으니까/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 아무래도 그렇죠 키키 신기해요 가족이라는 게 키키",
+            "norm_text": "아무래도 그렇죠 키키 신기해요 가족이라는 게 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+그렇/VA+죠/EF+키/NNG+키/XSV+ETN+신기/XR+해요/XSA+EF+가족/NNG+이/VCP+라는/ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

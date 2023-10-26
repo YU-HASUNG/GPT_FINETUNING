@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21216,
+    "name": "KAKAO_451_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109161559460339102/KAKAO_451_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109161559460339102/KAKAO_451_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28762,
+      "filename": "KAKAO_451_11.txt",
+      "title": "KAKAO_451_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 384,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 123,
+        "text": "1 : 옛날  대학생도 엠티 가면 게임 했어?\n2 : 왜... 수건 돌리기라도 했을까봐? 키키\n1 : 상상했잖아 대학생이 수건 놓고 잡으러 가는 거 키키\n2 : 갑자기 그건 왜 물어봐?\n1 : 아니 어제 사람들이랑 신조어 맞추기 게임 하다가 갑자기 대학교 때 엠티 가서 뭐했나 얘기가 나와서...ㅎ\n2 : 나는...기억이 안 난다 하하\n1 : 너무 오래된 얘기라서 하하\n2 : 신조어 맞추기는 뭐야\n1 : 줄임말 이런 거 맞추는 거지. 어르신이 계셔갖고...ㅋ\n2 : 뭔데? 해봐 나한테\n1 : 선타후뚜\n2 : 지인짜 모르겠다 그게 뭔지\n1 : 먼저 타투 하고 뒤에 엄마한테 뚜드려 맞는다\n2 : 뭐야 그게 키키 말 되네 키키\n1 : 공감 가지 않아?  엄마 아들 선타후뚜 키키\n2 : 또 생각 났네 그놈시끼 진짜",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 옛날  대학생도 엠티 가면 게임 했어?",
+            "norm_text": "옛날  대학생도 엠티 가면 게임 했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "옛날/NNG+대학생/NNG+도/JX+엠티/NNG+가/VV+면/EC+게임/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜... 수건 돌리기라도 했을까봐? 키키",
+            "norm_text": "왜... 수건 돌리기라도 했을까봐? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+./SY+수건돌리기/NNG+라도/VCP+EC+했을까/VX+EP+EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 상상했잖아 대학생이 수건 놓고 잡으러 가는 거 키키",
+            "norm_text": "상상했잖아 대학생이 수건 놓고 잡으러 가는 거 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "상상/NNG+했잖아/XSV+EP+EC+VX+EF+대학생/NNG+이/JKS+수건/NNG+놓/VV+고/EC+잡/VV+으러/EC+가/VX+는/ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 갑자기 그건 왜 물어봐?",
+            "norm_text": "갑자기 그건 왜 물어봐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "갑자기/MAG+그건/NP+JX+왜/MAG+물/VV+어/EC+봐/VX+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 어제 사람들이랑 신조어 맞추기 게임 하다가 갑자기 대학교 때 엠티 가서 뭐했나 얘기가 나와서...ㅎ",
+            "norm_text": "아니 어제 사람들이랑 신조어 맞추기 게임 하다가 갑자기 대학교 때 엠티 가서 뭐했나 얘기가 나와서...ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+어제/MAG+사람/NNG+들/XSN+이랑/JKB+신조어/NNG+맞추/VV+기/ETN+게임/NNG+하/XSV+다가/EC+갑자기/MAG+대학교/NNG+때/NNG+엠티/NNG+가/VV+서/EC+뭐/IC+했/VV+EP+나/EC+얘기/NNG+가/JKS+나와서/VV+EC+./SY+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는...기억이 안 난다 하하",
+            "norm_text": "나는...기억이 안 난다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+./SY+기억/NNG+이/JKS+안/MAG+난다/VV+EC+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 너무 오래된 얘기라서 하하",
+            "norm_text": "너무 오래된 얘기라서 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너무/MAG+오래/MAG+된/VV+ETM+얘기/NNG+라서/VCP+EC+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 신조어 맞추기는 뭐야",
+            "norm_text": "신조어 맞추기는 뭐야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "신조어/NNG+맞추/VV+기/ETN+는/JX+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 줄임말 이런 거 맞추는 거지. 어르신이 계셔갖고...ㅋ",
+            "norm_text": "줄임말 이런 거 맞추는 거지. 어르신이 계셔갖고...ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "줄임/VV+ETN+말/NNG+이런/MM+거/NNB+맞추/VV+는/ETM+거/NNB+지/VCP+EF+어르신/NNG+이/JKS+계셔/VV+EC+갖/VX+고/EC+./SY+./SY+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 뭔데? 해봐 나한테",
+            "norm_text": "뭔데? 해봐 나한테",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭔데/NP+VCP+EF+해/VV+EC+봐/VX+EF+나/NP+한테/JKB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 선타후뚜",
+            "norm_text": "선타후뚜",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "선타후뚜/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 지인짜 모르겠다 그게 뭔지",
+            "norm_text": "지인짜 모르겠다 그게 뭔지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지인/NNG+짜/VV+EC+모르/VV+겠/EP+다/EF+그게/NP+JKS+뭔지/NP+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 먼저 타투 하고 뒤에 엄마한테 뚜드려 맞는다",
+            "norm_text": "먼저 타투 하고 뒤에 엄마한테 뚜드려 맞는다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "먼저/MAG+타투/NNP+하고/JKB+뒤/NNG+에/JKB+엄마/NNG+한테/JKB+뚜드려/VV+EC+맞/VV+는다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 뭐야 그게 키키 말 되네 키키",
+            "norm_text": "뭐야 그게 키키 말 되네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+야/VCP+EF+그게/NP+JKS+키/NNG+키/NNG+말/NNG+되/XSV+네/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 공감 가지 않아?  엄마 아들 선타후뚜 키키",
+            "norm_text": "공감 가지 않아?  엄마 아들 선타후뚜 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공감/NNG+가/VV+지/EC+않/VX+아/EF+엄마/NNG+아들/NNG+선/NNG+타/XSV+EC+후/NNG+뚜/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 또 생각 났네 그놈시끼 진짜",
+            "norm_text": "또 생각 났네 그놈시끼 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "또/MAG+생각/NNG+났/VV+EP+네/EF+그놈/NP+시/NNG+끼/NNG+진짜/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

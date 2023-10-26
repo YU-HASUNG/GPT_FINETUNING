@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22196,
+    "name": "KAKAO_529_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109171514210394103/KAKAO_529_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109171514210394103/KAKAO_529_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29748,
+      "filename": "KAKAO_529_17.txt",
+      "title": "KAKAO_529_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 465,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 465,
+        "word_size": 152,
+        "text": "1 : 너 요즘 장염은 좀 어때? 요즘도 아파?\n2 : 아니 나 이제 많이 좋아졌어 안 아파!\n1 : 아 진짜? 너 뭐 먹기만 하면 화장실로 달려갔었잖아\n2 : 응 근데 요즘 먹는 음식을 좀 바꿨어?\n1 : 어떻게? 채소 먹어? 건강식으로 바꾼 거야?\n2 : 어 키키 요즘 건강식으로 나오는 밀키트 시켜 먹어\n1 : 와 너 그렇게까지 하는 거야? 대단하네...\n2 : 어 이게 환자식으로 나오는 거긴 한데 음식이 맛도 좋아\n1 : 건강식은 보통 맛이 없는데 맛이 좋다고?\n2 : 응 키키 여기는 좀 오래된 곳이라서 키키\n1 : 보니까 이거 다이어트식으로도 좋을 것 같네\n2 : 어 키키 그래서 나 살도 많이 빠졌잖아 추천한다\n1 : 나도 요즘 위가 많이 안 좋아져서 한번 시켜볼까?\n2 : 응응 여기 되게 좋아 정기 구독도 할 수 있어\n1 : 오 그래? 나도 조만간 내시경 해야 하는데 결과 보고 시켜야지\n2 : 너 아직도 위가 그렇게 안 좋아? 음식 조절해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 요즘 장염은 좀 어때? 요즘도 아파?",
+            "norm_text": "너 요즘 장염은 좀 어때? 요즘도 아파?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+요즘/MAG+장염/NNG+은/JX+좀/MAG+어때/VA+EF+요즘/NNG+도/JX+아파/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 나 이제 많이 좋아졌어 안 아파!",
+            "norm_text": "아니 나 이제 많이 좋아졌어 안 아파!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+나/NP+이제/MAG+많이/MAG+좋/VA+아/EC+졌/VX+EP+어/EC+안/MAG+아파/VA+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 너 뭐 먹기만 하면 화장실로 달려갔었잖아",
+            "norm_text": "아 진짜? 너 뭐 먹기만 하면 화장실로 달려갔었잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+너/NP+뭐/IC+먹/VV+기/ETN+만/JX+하/VV+면/EC+화장실/NNG+로/JKB+달려갔었/VV+EP+잖아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 근데 요즘 먹는 음식을 좀 바꿨어?",
+            "norm_text": "응 근데 요즘 먹는 음식을 좀 바꿨어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+근데/MAJ+요즘/MAG+먹/VV+는/ETM+음식/NNG+을/JKO+좀/MAG+바꿨/VV+EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어떻게? 채소 먹어? 건강식으로 바꾼 거야?",
+            "norm_text": "어떻게? 채소 먹어? 건강식으로 바꾼 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떻게/MAG+채소/NNG+먹/VV+어/EF+건강식/NNG+으로/JKB+바꾼/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어 키키 요즘 건강식으로 나오는 밀키트 시켜 먹어",
+            "norm_text": "어 키키 요즘 건강식으로 나오는 밀키트 시켜 먹어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+키/NNG+키/NNG+요즘/NNG+건강식/NNG+으로/JKB+나오/VV+는/ETM+밀/NNG+키트/NNG+시켜/XSV+EC+먹/VV+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 와 너 그렇게까지 하는 거야? 대단하네...",
+            "norm_text": "와 너 그렇게까지 하는 거야? 대단하네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+너/NP+그렇/VA+게/EC+까지/JX+하/VV+는/ETM+거/NNB+야/VCP+EF+대단/XR+하/XSA+네/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어 이게 환자식으로 나오는 거긴 한데 음식이 맛도 좋아",
+            "norm_text": "어 이게 환자식으로 나오는 거긴 한데 음식이 맛도 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+이게/NP+JKS+환자식/NNG+으로/JKB+나오/VV+는/ETM+거/NNB+긴/VCP+ETN+JX+한데/VX+EC+음식/NNG+이/JKS+맛/NNG+도/JX+좋/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 건강식은 보통 맛이 없는데 맛이 좋다고?",
+            "norm_text": "건강식은 보통 맛이 없는데 맛이 좋다고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "건강식/NNG+은/JX+보통/NNG+맛/NNG+이/JKS+없/VA+는데/EC+맛/NNG+이/JKS+좋/VA+다고/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 키키 여기는 좀 오래된 곳이라서 키키",
+            "norm_text": "응 키키 여기는 좀 오래된 곳이라서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+여기/NP+는/JX+좀/MAG+오래/MAG+된/VV+ETM+곳/NNG+이/VCP+라서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 보니까 이거 다이어트식으로도 좋을 것 같네",
+            "norm_text": "보니까 이거 다이어트식으로도 좋을 것 같네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보/VV+니까/EC+이거/NP+다이어트식/NNG+으로/JKB+도/JX+좋/VA+을/ETM+것/NNB+같/VA+네/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어 키키 그래서 나 살도 많이 빠졌잖아 추천한다",
+            "norm_text": "어 키키 그래서 나 살도 많이 빠졌잖아 추천한다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+키/NNG+키/XSV+ETN+그래서/MAJ+나살/NNG+도/JX+많이/MAG+빠졌/VV+EP+잖아/EF+추천/NNG+한다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나도 요즘 위가 많이 안 좋아져서 한번 시켜볼까?",
+            "norm_text": "나도 요즘 위가 많이 안 좋아져서 한번 시켜볼까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+요즘/NNG+위/NNG+가/JKS+많이/MAG+안/MAG+좋/VA+아/EC+져서/VX+EC+한/MM+번/NNBC+시켜/VV+EC+볼까/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응응 여기 되게 좋아 정기 구독도 할 수 있어",
+            "norm_text": "응응 여기 되게 좋아 정기 구독도 할 수 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+여기/NP+되게/MAG+좋/VA+아/EC+정기/NNG+구독/NNG+도/JX+할/VV+ETM+수/NNB+있/VV+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오 그래? 나도 조만간 내시경 해야 하는데 결과 보고 시켜야지",
+            "norm_text": "오 그래? 나도 조만간 내시경 해야 하는데 결과 보고 시켜야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그래/IC+나/NP+도/JX+조만간/MAG+내시경/NNG+해야/XSV+EC+하/VV+는데/EC+결과/NNG+보고/NNG+시켜야/XSV+EC+VX+지/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 너 아직도 위가 그렇게 안 좋아? 음식 조절해",
+            "norm_text": "너 아직도 위가 그렇게 안 좋아? 음식 조절해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "너/NP+아직/MAG+도위/NNG+가/JKS+그렇게/MAG+안/MAG+좋/VA+아/EF+음식/NNG+조절/NNG+해/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

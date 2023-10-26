@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 38549,
+    "name": "KAKAO_739_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929133737022271/KAKAO_739_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929133737022271/KAKAO_739_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36903,
+      "filename": "KAKAO_739_15.txt",
+      "title": "KAKAO_739_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 691,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 691,
+        "word_size": 209,
+        "text": "1 : 일본은 모더나 접종하고 75프로 사람들이 발열 증세 및 부작용 증세가 있대\n2 : 헐 ㄷㄷ 부작용이 심한 건가?\n2 : 대머리 된 일본 여자 기사는 봤어\n1 : 나도 봄 ㅠㅠ 우리랑 다르게 일본은 화이자보다 모더나 부작용이 심한 모양이던데?\n1 : 나도 봄 ㅠㅠ 우리랑 다르게 일본은 화이자보다 모더나 부작용이 심한 모양이던데?\n2 : 아... 인종이나 국가별로도 차이가 나나 보구나\n1 : 그런가 봐 그거 때문에 일본 스가 총리도 책임지고 물러나고 난리임 아주\n2 : 아. 나는 총리가 올림픽 때문에 물러난 줄 알았어\n1 : 그것도 크지 키키 일 증시는 또 31년 만에 최고치라던데 키키 뭐지 키키\n2 : 거기도 투기 열풍인가 보네.\n1 : 그런가 봐 우리나라랑 마찬가지로 저출산도 엄청 심하고 ㅡㅡ\n2 : ㅠㅠ 약간 선진국으로 갈수록 아이를 덜 낳는 것 같아\n1 : 그치 저출산은 우리나라 뿐만 아니라 전 세계적으로 진행되고 있는 듯\n2 : 내 생각엔 지금 지구에 인구가 너무 많은 것 같아.\n2 : 중국이나 인도에는 사람이 너무 많잖아\n1 : 그래서 그런가 중국 인도는 왜 자꾸 변이 바이러스를 만들어내는 겨\n2 : ㅠㅠ 사람도 많고 약간 더러워서 ㅠㅠ 키키\n2 : 윽 인도는 진짜 어나더 레벨이던데\n1 : 이번에 또 인도에서 코로나보다 더 심하고 치사율도 높은 바이러스 나왔다고 뉴스에서 본 듯해\n2 : 또? 나는 중국에서 흑사병이 나타났다고 본 것 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 일본은 모더나 접종하고 75프로 사람들이 발열 증세 및 부작용 증세가 있대",
+            "norm_text": "일본은 모더나 접종하고 75프로 사람들이 발열 증세 및 부작용 증세가 있대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일본/NNP+은/JX+모더/NNP+나/JC+접종/NNG+하/XSV+고/EC+75/SN+프로/NNG+사람/NNG+들/XSN+이/JKS+발열/NNG+증세/NNG+및/MAJ+부작용/NNG+증세/NNG+가/JKS+있/VA+대/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐 ㄷㄷ 부작용이 심한 건가?",
+            "norm_text": "헐 ㄷㄷ 부작용이 심한 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+ㄷ/NNG+ㄷ/NNG+부작용/NNG+이/JKS+심한/VA+ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 대머리 된 일본 여자 기사는 봤어",
+            "norm_text": "대머리 된 일본 여자 기사는 봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대머리/NNG+된/XSV+ETM+일본/NNP+여자/NNG+기사/NNG+는/JX+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나도 봄 ㅠㅠ 우리랑 다르게 일본은 화이자보다 모더나 부작용이 심한 모양이던데?",
+            "norm_text": "나도 봄 ㅠㅠ 우리랑 다르게 일본은 화이자보다 모더나 부작용이 심한 모양이던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+봄/NNG+ㅠㅠ/UNKNOWN+우리/NP+랑/JKB+다르/VA+게/EC+일본/NNP+은/JX+화이자/NNP+보다/JKB+모더/NNP+나/JC+부작용/NNG+이/JKS+심한/VA+ETM+모양/NNG+이/VCP+던데/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나도 봄 ㅠㅠ 우리랑 다르게 일본은 화이자보다 모더나 부작용이 심한 모양이던데?",
+            "norm_text": "나도 봄 ㅠㅠ 우리랑 다르게 일본은 화이자보다 모더나 부작용이 심한 모양이던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "나/NP+도/JX+봄/NNG+ㅠㅠ/UNKNOWN+우리/NP+랑/JKB+다르/VA+게/EC+일본/NNP+은/JX+화이자/NNP+보다/JKB+모더/NNP+나/JC+부작용/NNG+이/JKS+심한/VA+ETM+모양/NNG+이/VCP+던데/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아... 인종이나 국가별로도 차이가 나나 보구나",
+            "norm_text": "아... 인종이나 국가별로도 차이가 나나 보구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+인종/NNG+이나/JC+국가/NNG+별/XSN+로/JKB+도/JX+차이/NNG+가/JKS+나/NP+나/JX+보/VV+구나/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그런가 봐 그거 때문에 일본 스가 총리도 책임지고 물러나고 난리임 아주",
+            "norm_text": "그런가 봐 그거 때문에 일본 스가 총리도 책임지고 물러나고 난리임 아주",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+봐/VX+EF+그거/NP+때문/NNB+에/JKB+일본/NNP+스가/NNP+총리/NNG+도/JX+책임지/VV+고/EC+물러나/VV+고/EC+난/VX+ETM+리임/NNG+아주/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아. 나는 총리가 올림픽 때문에 물러난 줄 알았어",
+            "norm_text": "아. 나는 총리가 올림픽 때문에 물러난 줄 알았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+는/JX+총리/NNG+가/JKS+올림픽/NNP+때문/NNB+에/JKB+물러난/VV+ETM+줄/NNB+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그것도 크지 키키 일 증시는 또 31년 만에 최고치라던데 키키 뭐지 키키",
+            "norm_text": "그것도 크지 키키 일 증시는 또 31년 만에 최고치라던데 키키 뭐지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그것/NP+도/JX+크/VA+지/EC+키/NNG+키/XSV+ETN+일/NR+증시/NNG+는/JX+또/MAG+31/SN+년/NNBC+만/NNB+에/JKB+최고/NNG+치/VV+라던데/EC+키/NNG+키/XSV+ETN+뭐/IC+지키/NNP+키/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 거기도 투기 열풍인가 보네.",
+            "norm_text": "거기도 투기 열풍인가 보네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+도/JX+투기/NNG+열풍/NNG+인가/VCP+EC+보/VX+네/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그런가 봐 우리나라랑 마찬가지로 저출산도 엄청 심하고 ㅡㅡ",
+            "norm_text": "그런가 봐 우리나라랑 마찬가지로 저출산도 엄청 심하고 ㅡㅡ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+봐/VX+EF+우리/NP+나라/NNG+랑/JKB+마찬가지/NNG+로/JKB+저출산/NNP+도/JX+엄청/MAG+심하/VA+고/EC+ㅡㅡ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : ㅠㅠ 약간 선진국으로 갈수록 아이를 덜 낳는 것 같아",
+            "norm_text": "ㅠㅠ 약간 선진국으로 갈수록 아이를 덜 낳는 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+약간/MAG+선진국/NNG+으로/JKB+갈수록/MAG+아이/NNG+를/JKO+덜/MAG+낳/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그치 저출산은 우리나라 뿐만 아니라 전 세계적으로 진행되고 있는 듯",
+            "norm_text": "그치 저출산은 우리나라 뿐만 아니라 전 세계적으로 진행되고 있는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+저출산/NNP+은/JX+우리/NP+나라/NNG+뿐/JX+만/JX+아니/VCN+라/EC+전/MM+세계/NNG+적/XSN+으로/JKB+진행/NNG+되/XSV+고/EC+있/VX+는/ETM+듯/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 내 생각엔 지금 지구에 인구가 너무 많은 것 같아.",
+            "norm_text": "내 생각엔 지금 지구에 인구가 너무 많은 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+생각/NNG+엔/JKB+JX+지금/MAG+지구/NNG+에/JKB+인구/NNG+가/JKS+너무/MAG+많/VA+은/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 중국이나 인도에는 사람이 너무 많잖아",
+            "norm_text": "중국이나 인도에는 사람이 너무 많잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "중국/NNP+이나/JC+인도/NNP+에/JKB+는/JX+사람/NNG+이/JKS+너무/MAG+많/VA+잖아/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그래서 그런가 중국 인도는 왜 자꾸 변이 바이러스를 만들어내는 겨",
+            "norm_text": "그래서 그런가 중국 인도는 왜 자꾸 변이 바이러스를 만들어내는 겨",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+그런가/VA+EC+중국/NNP+인도/NNP+는/JX+왜/MAG+자꾸/MAG+변이/NNG+바이러스/NNG+를/JKO+만들/VV+어/EC+내/VX+는겨/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : ㅠㅠ 사람도 많고 약간 더러워서 ㅠㅠ 키키",
+            "norm_text": "ㅠㅠ 사람도 많고 약간 더러워서 ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+사람/NNG+도/JX+많/VA+고/EC+약간/MAG+더러워서/VA+EC+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 윽 인도는 진짜 어나더 레벨이던데",
+            "norm_text": "윽 인도는 진짜 어나더 레벨이던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "윽/IC+인도/NNP+는/JX+진짜/MAG+어나더/NNP+레벨/NNG+이/JKS+던데/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 이번에 또 인도에서 코로나보다 더 심하고 치사율도 높은 바이러스 나왔다고 뉴스에서 본 듯해",
+            "norm_text": "이번에 또 인도에서 코로나보다 더 심하고 치사율도 높은 바이러스 나왔다고 뉴스에서 본 듯해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+또/MAG+인도/NNP+에서/JKB+코로나/NNG+보다/JKB+더/MAG+심하/VA+고/EC+치사율/NNG+도/JX+높/VA+은/ETM+바이러스/NNG+나왔/VV+EP+다고/EC+뉴스/NNG+에서/JKB+본/VV+ETM+듯/NNB+해/XSA+EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 또? 나는 중국에서 흑사병이 나타났다고 본 것 같아",
+            "norm_text": "또? 나는 중국에서 흑사병이 나타났다고 본 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "또/MAG+나/NP+는/JX+중국/NNP+에서/JKB+흑사병/NNG+이/JKS+나타났/VV+EP+다고/EC+본/VX+ETM+것/NNB+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

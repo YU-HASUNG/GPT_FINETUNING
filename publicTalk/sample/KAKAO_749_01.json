@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32826,
+    "name": "KAKAO_749_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301350150357106/KAKAO_749_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301350150357106/KAKAO_749_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37531,
+      "filename": "KAKAO_749_01.txt",
+      "title": "KAKAO_749_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 358,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 358,
+        "word_size": 114,
+        "text": "1 : 저녁 뭐 먹었어? 배고파 ㅜㅜ\n2 : 나는 저녁에 돼지국밥 먹었어\n1 : 돼지국밥? 집에서? 가서?\n2 : 웅 엄마가 어제 사 왔어\n1 : 김치랑 먹었어 깍두기랑 먹었어? 키키\n2 : 할머니가 해 준 김치랑 같이 먹었어 완전 마싯더라\n1 : 나도 먹을래 왜 혼자 먹어?\n2 : 담에 같이 먹자 내가 엄청 맛있는 국밥집 알아!\n1 : 키키 그러자 근데 언제 가지?\n2 : 거기가 일요일은 휴무여서 일요일 말고?\n1 : 근데 난 돼지국밥보다 소고기국밥 먹고 싶어...\n2 : 소고기국밥 먹어 봤어?\n1 : 웅 소고기국밥 해운대에서 먹었는데 맛있더라!\n2 : 난 근데 돼지국밥이 좋아 하하\n1 : 좋아 그럼 너가 추천한 곳으로 평일에 ㄱ\n2 : 콩나물 국밥은 어때?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저녁 뭐 먹었어? 배고파 ㅜㅜ",
+            "norm_text": "저녁 뭐 먹었어? 배고파 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저녁/NNG+뭐/IC+먹/VV+었/EP+어/EF+배고파ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 저녁에 돼지국밥 먹었어",
+            "norm_text": "나는 저녁에 돼지국밥 먹었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+저녁/NNG+에/JKB+돼지국밥/NNP+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 돼지국밥? 집에서? 가서?",
+            "norm_text": "돼지국밥? 집에서? 가서?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "돼지국밥/NNP+?/SY+집/NNG+에서/JKB+가/VV+서/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 웅 엄마가 어제 사 왔어",
+            "norm_text": "웅 엄마가 어제 사 왔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+엄마/NNG+가/JKS+어제/MAG+사/VV+EC+왔/VX+EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 김치랑 먹었어 깍두기랑 먹었어? 키키",
+            "norm_text": "김치랑 먹었어 깍두기랑 먹었어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "김치/NNG+랑/JKB+먹/VV+었/EP+어/EC+깍두기/NNG+랑/JKB+먹/VV+었/EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 할머니가 해 준 김치랑 같이 먹었어 완전 마싯더라",
+            "norm_text": "할머니가 해 준 김치랑 같이 먹었어 완전 마싯더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "할머니/NNG+가/JKS+해/VV+EC+준/VX+ETM+김치/NNG+랑/JKB+같이/MAG+먹/VV+었/EP+어/EF+완전/MAG+마/IC+싯/NNP+더라/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나도 먹을래 왜 혼자 먹어?",
+            "norm_text": "나도 먹을래 왜 혼자 먹어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+먹/VV+을래/EC+왜/MAG+혼자/MAG+먹/VV+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 담에 같이 먹자 내가 엄청 맛있는 국밥집 알아!",
+            "norm_text": "담에 같이 먹자 내가 엄청 맛있는 국밥집 알아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "담/NNG+에/JKB+같이/MAG+먹/VV+자/EC+내/NP+가/JKS+엄청/MAG+맛있/VA+는/ETM+국밥/NNG+집/NNG+알/VV+아/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 그러자 근데 언제 가지?",
+            "norm_text": "키키 그러자 근데 언제 가지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+자/EF+근데/MAJ+언제/MAG+가/VV+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 거기가 일요일은 휴무여서 일요일 말고?",
+            "norm_text": "거기가 일요일은 휴무여서 일요일 말고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+가/JKS+일요일/NNG+은/JX+휴무/NNG+여서/VCP+EC+일요일/NNG+말/VV+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 난 돼지국밥보다 소고기국밥 먹고 싶어...",
+            "norm_text": "근데 난 돼지국밥보다 소고기국밥 먹고 싶어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+난/NP+JX+돼지국밥/NNP+보다/JKB+소고기/NNG+국밥/NNG+먹/VV+고/EC+싶/VX+어/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 소고기국밥 먹어 봤어?",
+            "norm_text": "소고기국밥 먹어 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "소고기/NNG+국밥/NNG+먹/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 웅 소고기국밥 해운대에서 먹었는데 맛있더라!",
+            "norm_text": "웅 소고기국밥 해운대에서 먹었는데 맛있더라!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅소/NNG+고기/NNG+국밥/NNG+해운대/NNG+에서/JKB+먹/VV+었/EP+는데/EC+맛있/VA+더라/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 난 근데 돼지국밥이 좋아 하하",
+            "norm_text": "난 근데 돼지국밥이 좋아 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+근데/MAJ+돼지국밥/NNP+이/JKS+좋/VA+아/EC+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 좋아 그럼 너가 추천한 곳으로 평일에 ㄱ",
+            "norm_text": "좋아 그럼 너가 추천한 곳으로 평일에 ㄱ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좋/VA+아/EC+그럼/MAJ+너/NP+가/JKS+추천/NNG+한/XSA+ETM+곳/NNG+으로/JKB+평일/NNG+에/JKB+ㄱ/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 콩나물 국밥은 어때?",
+            "norm_text": "콩나물 국밥은 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "콩나물국/NNG+밥/NNG+은/JX+어때/VA+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

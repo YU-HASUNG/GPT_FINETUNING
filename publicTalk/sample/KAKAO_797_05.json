@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 45444,
+    "name": "KAKAO_797_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143952057695/KAKAO_797_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143952057695/KAKAO_797_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38116,
+      "filename": "KAKAO_797_05.txt",
+      "title": "KAKAO_797_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 853,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 853,
+        "word_size": 264,
+        "text": "1 : 너는 군대에서 남는 시간에 뭐했어 ㅇㅅㅇ?\n2 : 남는 시간에 애들 이발해주고 식당에서 청소하고 했어 키키 그거 하면 휴가 주거든\n1 : 아하...?포병인데 이발도 해줘...?\n2 : 웅 이발병도 했어 애들 머리 많이 잘라줄수록 휴가 얻을 수 있어 가지곸 키키 계속 잘랐지\n1 : 오 신기하다 머리 자른 만큼 휴가 나간댘 키키\n1 : 거의 무슨 머리카락 팔아서 돈 받는 거 같은 그런 느낌인데\n2 : 응 키키 근데 난 잘 자르는 편이라 항상 예약이 있었어 키키 **살롱 예약 못하면 못 잘랐짘 키키\n1 : 오 진짜? **살롱 아 키키 너 진짜 못하는 게 없다\n1 : 난 보통 뭐 운동했거나 책 봤다고 할 줄 알았는데 **살롱이었네 키키\n2 : 키키 엄마 아빠 피를 받아서 손재주가 좋았나봨키키 군대에서 내 머리 내가 혼자 잘랐는뎈 키키 제대하고 2년까짘 키키 거의 원빈\n1 : 아 금이빨 빼고 다 씹어먹는 편? 키키\n1 : 오 너 손재주 좋은 편이야/\n2 : 응 나 손재주 좀 있는 편이지 키키 그래서 지금 일도 그런 거 하고 있나 싶네 키키\n1 : 오 맞네! 목수도 손재주 있어야 잘하는 거잖아 오 부럽다 ㅇㅅㅇ...\n1 : 취사병을 했어도 잘했겠구만?\n2 : 응 취사병도 괜찮지 요리하는거 좋아하니까 키키\n2 : 그래도 난 내 부서가 좋았어 선임들이랑 후임들이 재밌어서\n1 : 오오 그래? 뭐 갈구거나 괴롭히거나 그런 거 없었엉?ㅇㅅㅇ\n2 : 응 난 그런 건 딱히 없었어 키키 조금씩 갈구는 거야 뭐 군대니까 어쩔 수 없는 거고 정도가 심했던 건 없는 것 같아\n1 : 오오... 안전하게 잘 다녔구만...\n1 : 왜 군대에 미친 사람들 한 명씩 꼭 있잖아 없으면 그게 본인이라는 썰ㅇㅅㅇ~\n2 : 맞아 그 미친놈이 사실 나였어가지곸 키키 재밌었짘 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 군대에서 남는 시간에 뭐했어 ㅇㅅㅇ?",
+            "norm_text": "너는 군대에서 남는 시간에 뭐했어 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+군대/NNG+에서/JKB+남/VV+는/ETM+시간/NNG+에/JKB+뭐/IC+했/VV+EP+어ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 남는 시간에 애들 이발해주고 식당에서 청소하고 했어 키키 그거 하면 휴가 주거든",
+            "norm_text": "남는 시간에 애들 이발해주고 식당에서 청소하고 했어 키키 그거 하면 휴가 주거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남/VV+는/ETM+시간/NNG+에/JKB+애/NNG+들/XSN+이/JKS+발해/VV+EC+주/VX+고/EC+식당/NNG+에서/JKB+청소/NNG+하/XSV+고/EC+했/VX+EP+어/EC+키/NNG+키/XSV+ETN+그거/NP+하/VV+면/EC+휴가/NNG+주거/NNG+든/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아하...?포병인데 이발도 해줘...?",
+            "norm_text": "아하...?포병인데 이발도 해줘...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하/IC+./SY+./SY+포병/NNG+인데/VCP+EC+이/MM+발도/NNG+해/XSV+EC+줘/VX+EF+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 웅 이발병도 했어 애들 머리 많이 잘라줄수록 휴가 얻을 수 있어 가지곸 키키 계속 잘랐지",
+            "norm_text": "웅 이발병도 했어 애들 머리 많이 잘라줄수록 휴가 얻을 수 있어 가지곸 키키 계속 잘랐지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/NNG+이/JKS+발병/NNG+도/JX+했/VV+EP+어/EC+애/NNG+들/XSN+머리/NNG+많이/MAG+잘라/VV+EC+줄수록/VX+EC+휴가/NNG+얻/VV+을/ETM+수/NNB+있/VV+어/EC+가지/VX+곸키/UNKNOWN+키/NNG+계속/MAG+잘랐/VV+EP+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 신기하다 머리 자른 만큼 휴가 나간댘 키키",
+            "norm_text": "오 신기하다 머리 자른 만큼 휴가 나간댘 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+신기/NNG+하/XSV+다/EC+머리/NNG+자른/VV+ETM+만큼/NNB+휴가/NNG+나간/VV+ETM+댘키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 거의 무슨 머리카락 팔아서 돈 받는 거 같은 그런 느낌인데",
+            "norm_text": "거의 무슨 머리카락 팔아서 돈 받는 거 같은 그런 느낌인데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거의/MAG+무슨/MM+머리카락/NNG+팔/VV+아서/EC+돈/NNG+받/VV+는/ETM+거/NNB+같/VA+은/ETM+그런/MM+느낌/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 키키 근데 난 잘 자르는 편이라 항상 예약이 있었어 키키 **살롱 예약 못하면 못 잘랐짘 키키",
+            "norm_text": "응 키키 근데 난 잘 자르는 편이라 항상 예약이 있었어 키키 **살롱 예약 못하면 못 잘랐짘 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+근데/MAJ+난/NP+JX+잘/MAG+자르/VV+는/ETM+편/NNB+이/VCP+라/EC+항상/MAG+예약/NNG+이/JKS+있/VA+었/EP+어/EC+키/NNG+키/XSV+ETN+*/SY+*/SY+살롱/NNG+예약/NNG+못/MAG+하/VV+면/EC+못/MAG+잘랐/VV+EP+짘키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오 진짜? **살롱 아 키키 너 진짜 못하는 게 없다",
+            "norm_text": "오 진짜? **살롱 아 키키 너 진짜 못하는 게 없다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+진짜/MAG+*/SY+*/SY+살롱/NNG+아키/NNP+키너/NNP+진짜/MAG+못/MAG+하/VV+는/ETM+게/NNB+JKS+없/VA+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 난 보통 뭐 운동했거나 책 봤다고 할 줄 알았는데 **살롱이었네 키키",
+            "norm_text": "난 보통 뭐 운동했거나 책 봤다고 할 줄 알았는데 **살롱이었네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+보통/MAJ+뭐/IC+운동/NNG+했/XSV+EP+거나/EC+책/NNG+봤/VV+EP+다고/EC+할/VX+ETM+줄/NNB+알/VV+았/EP+는데/EC+*/SY+*/SY+살롱/NNG+이/VCP+었/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 엄마 아빠 피를 받아서 손재주가 좋았나봨키키 군대에서 내 머리 내가 혼자 잘랐는뎈 키키 제대하고 2년까짘 키키 거의 원빈",
+            "norm_text": "키키 엄마 아빠 피를 받아서 손재주가 좋았나봨키키 군대에서 내 머리 내가 혼자 잘랐는뎈 키키 제대하고 2년까짘 키키 거의 원빈",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+엄마/NNG+아빠/NNG+피/NNG+를/JKO+받/VV+아서/EC+손재주/NNG+가/JKS+좋/VA+았/EP+나/EF+봨키/UNKNOWN+키/NNG+군대/NNG+에서/JKB+내/NP+JKG+머리/NNG+내/NP+가/JKS+혼자/MAG+잘랐/VV+EP+는/ETM+뎈키/UNKNOWN+키/NNG+제대/NNG+하/XSV+고/EC+2/SN+년/NNBC+까짘/UNKNOWN+키/NNG+키/NNG+거의/MAG+원빈/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 금이빨 빼고 다 씹어먹는 편? 키키",
+            "norm_text": "아 금이빨 빼고 다 씹어먹는 편? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+금이빨/NNG+빼/VV+고/EC+다/MAG+씹/VV+어/EC+먹/VV+는/ETM+편/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 오 너 손재주 좋은 편이야/",
+            "norm_text": "오 너 손재주 좋은 편이야/",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오너/NNG+손재주/NNG+좋/VA+은/ETM+편/NNB+이/VCP+야/EF+//SC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 나 손재주 좀 있는 편이지 키키 그래서 지금 일도 그런 거 하고 있나 싶네 키키",
+            "norm_text": "응 나 손재주 좀 있는 편이지 키키 그래서 지금 일도 그런 거 하고 있나 싶네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+손재주/NNG+좀/MAG+있/VA+는/ETM+편/NNB+이/VCP+지/EC+키/NNG+키/XSV+ETN+그래서/MAJ+지금/MAG+일/NNG+도/JX+그런/MM+거/NNB+하/VV+고/EC+있/VX+나/EC+싶/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오 맞네! 목수도 손재주 있어야 잘하는 거잖아 오 부럽다 ㅇㅅㅇ...",
+            "norm_text": "오 맞네! 목수도 손재주 있어야 잘하는 거잖아 오 부럽다 ㅇㅅㅇ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+맞/VV+네/EF+목수/NNG+도/JX+손재주/NNG+있/VV+어야/EC+잘/MAG+하/VV+는/ETM+거/NNB+잖아/VCP+EC+VX+EC+오/VX+부럽/VA+다/EF+ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 취사병을 했어도 잘했겠구만?",
+            "norm_text": "취사병을 했어도 잘했겠구만?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "취사병/NNG+을/JKO+했/VV+EP+어도/EC+잘/MAG+했/VV+EP+겠/EP+구만/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 취사병도 괜찮지 요리하는거 좋아하니까 키키",
+            "norm_text": "응 취사병도 괜찮지 요리하는거 좋아하니까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+취사병/NNG+도/JX+괜찮/VA+지/EC+요리/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+하/VV+니까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래도 난 내 부서가 좋았어 선임들이랑 후임들이 재밌어서",
+            "norm_text": "그래도 난 내 부서가 좋았어 선임들이랑 후임들이 재밌어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+난/NP+JX+내/NP+JKG+부서/NNG+가/JKS+좋/VA+았/EP+어/EC+선임/NNG+들/XSN+이랑/JKB+후임/NNG+들/XSN+이/JKS+재밌/VA+어서/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오오 그래? 뭐 갈구거나 괴롭히거나 그런 거 없었엉?ㅇㅅㅇ",
+            "norm_text": "오오 그래? 뭐 갈구거나 괴롭히거나 그런 거 없었엉?ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+그래/IC+뭐/IC+갈구/VV+거나/EC+괴롭히/VV+거나/EC+그런/MM+거/NNB+없/VA+었/EP+엉/EF+ㅇㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응 난 그런 건 딱히 없었어 키키 조금씩 갈구는 거야 뭐 군대니까 어쩔 수 없는 거고 정도가 심했던 건 없는 것 같아",
+            "norm_text": "응 난 그런 건 딱히 없었어 키키 조금씩 갈구는 거야 뭐 군대니까 어쩔 수 없는 거고 정도가 심했던 건 없는 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+난/NP+JX+그런/MM+건/NNB+JX+딱히/MAG+없/VA+었/EP+어/EC+키/NNG+키/NNG+조금/NNG+씩/XSN+갈구/VV+는/ETM+거/NNB+야/VCP+EF+뭐/IC+군대/NNG+니까/VCP+EC+어쩔/VV+ETM+수/NNB+없/VA+는/ETM+거/NNB+고/VCP+EC+정도/NNG+가/JKS+심했/VA+EP+던/ETM+건/NNB+JX+없/VA+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 오오... 안전하게 잘 다녔구만...",
+            "norm_text": "오오... 안전하게 잘 다녔구만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+./SY+안전/NNG+하/XSV+게/EC+잘/MAG+다녔/VV+EP+구만/EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 왜 군대에 미친 사람들 한 명씩 꼭 있잖아 없으면 그게 본인이라는 썰ㅇㅅㅇ~",
+            "norm_text": "왜 군대에 미친 사람들 한 명씩 꼭 있잖아 없으면 그게 본인이라는 썰ㅇㅅㅇ~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+군대/NNG+에/JKB+미친/VV+ETM+사람/NNG+들/XSN+한/MM+명/NNBC+씩/XSN+꼭/MAG+있/VV+잖아/EC+없/VA+으면/EC+그게/NP+JKS+본인/NNG+이/VCP+라는/ETM+썰ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN+~/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 맞아 그 미친놈이 사실 나였어가지곸 키키 재밌었짘 키키",
+            "norm_text": "맞아 그 미친놈이 사실 나였어가지곸 키키 재밌었짘 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그/MM+미친놈/NNG+이/JKS+사실/MAG+나/NP+였/VCP+EP+어/EC+가지/VX+곸키/UNKNOWN+키/NNG+재밌/VA+었/EP+짘키/UNKNOWN+키/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

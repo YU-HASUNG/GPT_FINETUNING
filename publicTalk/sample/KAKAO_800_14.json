@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45545,
+    "name": "KAKAO_800_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150443047035/KAKAO_800_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150443047035/KAKAO_800_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38325,
+      "filename": "KAKAO_800_14.txt",
+      "title": "KAKAO_800_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 425,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 425,
+        "word_size": 133,
+        "text": "1 : 경제가 빨리 살아야 할 텐데 키키\n2 : 그러게요 행님은 재난지원금 받았습니까?\n1 : 나도 받았지 키키 포인트 들어왔더라\n2 : 저도 받았습니다 키키 신청하고 다음날 바로 들어오더라구요\n1 : 이번에 일인당 25만 원씩 받은 거제?\n2 : 네 맞습니다 어디 쓰실 겁니까?\n1 : 몰라... 다른 지역 안 되고 대구만 되잖아\n2 : 네 어차피 다른 지역 갈 곳도 없습니다 키키\n1 : 키키 근데 온라인이랑 배달도 안 된다며?\n2 : 네 키키 저는 담뱃값으로 거의 사용할 거 같습니다\n1 : 담배는 살 수 있나? 끊어라 쫌 키키\n2 : 키키 가능하더라구요 키키 행님 담배는 못 끊겠습니다 ㅠㅠ\n1 : 담배는 언제 배웠노?\n2 : 저는 20살때 배웠습니다 키키 친구가 호기심으로 펴 봐라 해 가지고\n1 : 끊을 마음은 없는 거고? 키키\n2 : 아직은 없습니다 키키 행님은 안 피시죠?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 경제가 빨리 살아야 할 텐데 키키",
+            "norm_text": "경제가 빨리 살아야 할 텐데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "경제/NNG+가/JKS+빨리/MAG+살/VV+아야/EC+할/VX+ETM+텐데/NNB+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그러게요 행님은 재난지원금 받았습니까?",
+            "norm_text": "그러게요 행님은 재난지원금 받았습니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+게/EC+요행/NNG+님/XSN+은/JX+재난/NNG+지원금/NNG+받/VV+았/EP+습니까/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나도 받았지 키키 포인트 들어왔더라",
+            "norm_text": "나도 받았지 키키 포인트 들어왔더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+받/VV+았/EP+지/EC+키/NNG+키포인트/NNG+들어왔/VV+EP+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 저도 받았습니다 키키 신청하고 다음날 바로 들어오더라구요",
+            "norm_text": "저도 받았습니다 키키 신청하고 다음날 바로 들어오더라구요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+받/VV+았/EP+습니다/EF+키키/NNP+신청/NNG+하/XSV+고/EC+다음/NNG+날/NNG+바로/MAG+들어오/VV+더라구요/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 이번에 일인당 25만 원씩 받은 거제?",
+            "norm_text": "이번에 일인당 25만 원씩 받은 거제?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+에/JKB+일인/NNG+당/XSN+25/SN+만/NR+원/NNBC+씩/XSN+받/VV+은/ETM+거/NNB+제/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 네 맞습니다 어디 쓰실 겁니까?",
+            "norm_text": "네 맞습니다 어디 쓰실 겁니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+맞/VV+습니다/EF+어디/NP+쓰/VV+실/EP+ETM+겁니까/NNB+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 몰라... 다른 지역 안 되고 대구만 되잖아",
+            "norm_text": "몰라... 다른 지역 안 되고 대구만 되잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰라/VV+EF+./SY+다른/MM+지역/NNG+안/MAG+되/VV+고/EC+대/VX+구/EC+만/JX+되/VV+잖아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 네 어차피 다른 지역 갈 곳도 없습니다 키키",
+            "norm_text": "네 어차피 다른 지역 갈 곳도 없습니다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+어차피/MAG+다른/MM+지역/NNG+갈/VV+ETM+곳/NNG+도/JX+없/VA+습니다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 근데 온라인이랑 배달도 안 된다며?",
+            "norm_text": "키키 근데 온라인이랑 배달도 안 된다며?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+온라인/NNG+이랑/JKB+배달/NNG+도/JX+안/MAG+된다며/XSV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 네 키키 저는 담뱃값으로 거의 사용할 거 같습니다",
+            "norm_text": "네 키키 저는 담뱃값으로 거의 사용할 거 같습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "네/IC+키/NNG+키저/NNG+는/JX+담뱃값/NNG+으로/JKB+거의/MAG+사용/NNG+할/XSV+ETM+거/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 담배는 살 수 있나? 끊어라 쫌 키키",
+            "norm_text": "담배는 살 수 있나? 끊어라 쫌 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "담배/NNG+는/JX+살/VV+ETM+수/NNB+있/VV+나/EF+끊/VV+어라/EF+쫌/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 가능하더라구요 키키 행님 담배는 못 끊겠습니다 ㅠㅠ",
+            "norm_text": "키키 가능하더라구요 키키 행님 담배는 못 끊겠습니다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+가능/NNG+하/XSV+더라구요/EC+키/NNG+키/NNG+행/NNG+님/XSN+담배/NNG+는/JX+못/MAG+끊/VV+겠/EP+습니다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 담배는 언제 배웠노?",
+            "norm_text": "담배는 언제 배웠노?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "담배/NNG+는/JX+언제/MAG+배웠/VV+EP+노/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 저는 20살때 배웠습니다 키키 친구가 호기심으로 펴 봐라 해 가지고",
+            "norm_text": "저는 20살때 배웠습니다 키키 친구가 호기심으로 펴 봐라 해 가지고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+20/SN+살/NNBC+때/NNG+배웠/VV+EP+습니다/EF+키키/NNP+친구/NNG+가/JKS+호기심/NNG+으로/JKB+펴/VV+봐라/EC+VX+EC+해/VV+EC+가지/VX+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 끊을 마음은 없는 거고? 키키",
+            "norm_text": "끊을 마음은 없는 거고? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "끊/VV+을/ETM+마음/NNG+은/JX+없/VA+는/ETM+거/NNB+고/VCP+EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아직은 없습니다 키키 행님은 안 피시죠?",
+            "norm_text": "아직은 없습니다 키키 행님은 안 피시죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아직/MAG+은/JX+없/VA+습니다/EF+키키/NNP+행/NNG+님/XSN+은/JX+안/MAG+피/VV+시/EP+죠/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

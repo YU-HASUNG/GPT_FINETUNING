@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40772,
+    "name": "KAKAO_893_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095728050984/KAKAO_893_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095728050984/KAKAO_893_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40742,
+      "filename": "KAKAO_893_03.txt",
+      "title": "KAKAO_893_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 587,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 587,
+        "word_size": 189,
+        "text": "1 : 너는 대중교통 자주 이용하는 편이야?\n2 : 일반 시내 버스는 안 타본 지 몇 년은 된 것 같고 주로 택시를 이용하지?\n1 : 아아 키키 근데 넌 거리가 먼 곳은 잘 안 다니지?\n2 : 거리가 먼 곳이라면 어떤 곳? 창원 외?\n1 : 응응 주로 택시 타면 장거리 아니고 단거리 아냐?\n2 : 아 택시 타면 창원내 마산,창원,진해 이 정도지 !\n1 : 그렇구만 ㅜㅜ 왜 버스는 자주 안 타는뎅?\n2 : 우리 집 위치 상 버스 탈려면 주상가나 창원 대로변까지 걸어가야 하는데... 넘 오래 걸려 ㅠ\n1 : 아 ㅜㅜ 그래 대중교통은 저렴하긴 한데 좀 불편해 ㅜㅜ\n2 : 그렇지 ㅠㅠ 그리고 어디 이동할 일이 잘 없으니까 그냥 편하게 택시 타게 되기도 하고...!\n1 : 아아 ㅜㅜ 하긴 너는 직장도 걸어서 다니지?\n2 : 응 직장도 도보 3분 거리고, 주로 노는 곳도 도보 10분 안팍이니까?!\n1 : 키키 그것도 꽤 좋겠네 키키 걸어 다닐 수 있는 회사라니\n2 : 제일 큰 메리트이지! 집과 회사 거리가 가까울수록 좋은 듯!\n1 : 키키 근데 너무 가까우면 회식 할 때마다 불려갈 듯 ㅜㅜ\n2 : 다행히도 우린 회식이 없다 하하 딱 한번 다른 사람 그만둘 때 해보고? 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 대중교통 자주 이용하는 편이야?",
+            "norm_text": "너는 대중교통 자주 이용하는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+대중교통/NNG+자주/MAG+이용/NNG+하/XSV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 일반 시내 버스는 안 타본 지 몇 년은 된 것 같고 주로 택시를 이용하지?",
+            "norm_text": "일반 시내 버스는 안 타본 지 몇 년은 된 것 같고 주로 택시를 이용하지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일반/NNG+시내버스/NNG+는/JX+안/MAG+타/VV+본/EC+VX+ETM+지/NNB+몇/MM+년/NNBC+은/JX+된/VV+ETM+것/NNB+같/VA+고/EC+주로/MAG+택시/NNG+를/JKO+이용/NNG+하/XSA+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아아 키키 근데 넌 거리가 먼 곳은 잘 안 다니지?",
+            "norm_text": "아아 키키 근데 넌 거리가 먼 곳은 잘 안 다니지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+키/NNG+키/XSV+ETN+근데/MAJ+넌/NP+JX+거리/NNG+가/JKS+먼/VA+ETM+곳/NNG+은/JX+잘/MAG+안/MAG+다니/VV+지/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 거리가 먼 곳이라면 어떤 곳? 창원 외?",
+            "norm_text": "거리가 먼 곳이라면 어떤 곳? 창원 외?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거리/NNG+가/JKS+먼곳이/VA+ETM+NNG+VCP+라면/EC+어떤/MM+곳/NNB+창/NNG+원외/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응응 주로 택시 타면 장거리 아니고 단거리 아냐?",
+            "norm_text": "응응 주로 택시 타면 장거리 아니고 단거리 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+주로/MAG+택시/NNG+타/VV+면/EC+장거리/NNG+아니/VCN+고/EC+단거리/NNG+아냐/VCN+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 택시 타면 창원내 마산,창원,진해 이 정도지 !",
+            "norm_text": "아 택시 타면 창원내 마산,창원,진해 이 정도지 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아택시타면창원내마산/UNKNOWN+,/SC+창원/NNP+,/SC+진해/VA+EC+이/MM+정도/NNG+지/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그렇구만 ㅜㅜ 왜 버스는 자주 안 타는뎅?",
+            "norm_text": "그렇구만 ㅜㅜ 왜 버스는 자주 안 타는뎅?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구/EC+만/JX+ㅜㅜ/UNKNOWN+왜/MAG+버스/NNG+는/JX+자주/MAG+안/MAG+타/VV+는/ETM+뎅/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 우리 집 위치 상 버스 탈려면 주상가나 창원 대로변까지 걸어가야 하는데... 넘 오래 걸려 ㅠ",
+            "norm_text": "우리 집 위치 상 버스 탈려면 주상가나 창원 대로변까지 걸어가야 하는데... 넘 오래 걸려 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리집위치상버스탈려면주상가나창원대로변까지걸어가야하는데/UNKNOWN+./SY+넘오래걸려ㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 ㅜㅜ 그래 대중교통은 저렴하긴 한데 좀 불편해 ㅜㅜ",
+            "norm_text": "아 ㅜㅜ 그래 대중교통은 저렴하긴 한데 좀 불편해 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+그래/IC+대중교통/NNG+은/JX+저렴/XR+하/XSA+긴/ETN+JX+한데/VX+EC+좀/MAG+불편/NNG+해/XSV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그렇지 ㅠㅠ 그리고 어디 이동할 일이 잘 없으니까 그냥 편하게 택시 타게 되기도 하고...!",
+            "norm_text": "그렇지 ㅠㅠ 그리고 어디 이동할 일이 잘 없으니까 그냥 편하게 택시 타게 되기도 하고...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇지ㅠㅠ그리고어디이동할일이잘없으니까그냥편하게택시타게되기도하고/UNKNOWN+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아아 ㅜㅜ 하긴 너는 직장도 걸어서 다니지?",
+            "norm_text": "아아 ㅜㅜ 하긴 너는 직장도 걸어서 다니지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+ㅜㅜ/UNKNOWN+하/VV+긴/ETN+JX+너/NP+는/JX+직장/NNG+도/JX+걸어서/VV+EC+다니/VV+지/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 직장도 도보 3분 거리고, 주로 노는 곳도 도보 10분 안팍이니까?!",
+            "norm_text": "응 직장도 도보 3분 거리고, 주로 노는 곳도 도보 10분 안팍이니까?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+직장/NNG+도/JX+도보/NNG+3/SN+분/NNBC+거리/VV+고/EC+,/SC+주로/MAG+노/VV+는/ETM+곳/NNG+도/JX+도보/NNG+10/SN+분안/NNP+팍/NNG+이/VCP+니까/EC+?/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 그것도 꽤 좋겠네 키키 걸어 다닐 수 있는 회사라니",
+            "norm_text": "키키 그것도 꽤 좋겠네 키키 걸어 다닐 수 있는 회사라니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그것/NP+도/JX+꽤/MAG+좋/VA+겠/EP+네/EF+키/NNG+키/XSV+ETN+걸/VV+어/EC+다닐/VV+ETM+수/NNB+있/VV+는/ETM+회사/NNG+라니/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 제일 큰 메리트이지! 집과 회사 거리가 가까울수록 좋은 듯!",
+            "norm_text": "제일 큰 메리트이지! 집과 회사 거리가 가까울수록 좋은 듯!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제일/MAG+큰/VA+ETM+메리트/NNG+이/VCP+지/EF+집/NNG+과/JC+회사/NNG+거리/NNG+가/JKS+가까울수록/VA+EC+좋/VA+은/ETM+듯/NNB"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 근데 너무 가까우면 회식 할 때마다 불려갈 듯 ㅜㅜ",
+            "norm_text": "키키 근데 너무 가까우면 회식 할 때마다 불려갈 듯 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+너무/MAG+가까우/VA+면/EC+회식/NNG+할/XSV+ETM+때/NNG+마다/JX+불려갈/VV+EC+VX+ETM+듯/NNB+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 다행히도 우린 회식이 없다 하하 딱 한번 다른 사람 그만둘 때 해보고? 하하",
+            "norm_text": "다행히도 우린 회식이 없다 하하 딱 한번 다른 사람 그만둘 때 해보고? 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다행히도우린회식이없다하하딱한번다른사람그만둘때해보고/UNKNOWN+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

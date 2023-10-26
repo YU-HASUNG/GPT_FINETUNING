@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 66984,
+    "name": "KAKAO_687_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112424060548/KAKAO_687_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112424060548/KAKAO_687_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35076,
+      "filename": "KAKAO_687_17.txt",
+      "title": "KAKAO_687_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 542,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 542,
+        "word_size": 168,
+        "text": "1 : 너는 병원에 자주 가는 편이지?\n2 : 응응 병원에 자주 가지!\n2 : 오늘도 다녀왔어~!\n1 : 오늘도? 오늘은 무슨 일로 갔어 ㅜㅜ\n2 : 코로나 백신 맞고 알러지 반응이랑 열이 너무 나서 병원 다녀왔어 ㅜㅜ\n1 : 헐 ㅜㅜ 진짜? 병원 가서 뭐 했는데?\n2 : 가서 알러지 주사 맞고 해열 진통제 맞고 왔지~!\n2 : 병원 가는 거 싫어!\n1 : 아 ㅜㅜ 내 주변에 알러지 생긴 사람 너 뿐인 듯\n2 : 응응... 어제도 대기자들 다 놀래 가지고 걱정스런 눈빛으로 쳐다 보더랑 키키\n1 : 헉 ㅜㅜ 그러면 병원비 이런 거 돌려줘야 하는 거 아냐?\n2 : 돌려받을 수 있어? 알아봐야겠네? 키키\n1 : 응응 그거 백신 부작용으로 접수하면 돌려받는데! 빨리 신청해\n2 : 나 백신 부작용으로 신청했는데 보건소에 다시 전화해봐야 해?\n1 : 병원에서는 따로 안 알려준 거야? 알려줄 텐데?\n2 : 1차는 병원비 안 받았는데 2차는 받더라구!\n2 : 당장 전화해봐야겠다~\n1 : 응응 지금 해봐 ㅜㅜ 백신 이상증세인데 당연히 받아야지\n2 : 보건소에 전화하면 되는 건가? 키키 모르면 손해야 역시",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 병원에 자주 가는 편이지?",
+            "norm_text": "너는 병원에 자주 가는 편이지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+병원/NNG+에/JKB+자주/MAG+가/VV+는/ETM+편/NNB+이/VCP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 병원에 자주 가지!",
+            "norm_text": "응응 병원에 자주 가지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+병원/NNG+에/JKB+자주/MAG+가/VV+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 오늘도 다녀왔어~!",
+            "norm_text": "오늘도 다녀왔어~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+도/JX+다녀왔/VV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오늘도? 오늘은 무슨 일로 갔어 ㅜㅜ",
+            "norm_text": "오늘도? 오늘은 무슨 일로 갔어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/NNG+도/JX+오늘/MAG+은/JX+무슨/MM+일/NNG+로/JKB+갔/VV+EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 코로나 백신 맞고 알러지 반응이랑 열이 너무 나서 병원 다녀왔어 ㅜㅜ",
+            "norm_text": "코로나 백신 맞고 알러지 반응이랑 열이 너무 나서 병원 다녀왔어 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코로나/NNG+백신/NNG+맞/VV+고/EC+알/VV+러지/EF+반응/NNG+이랑/JC+열/NR+이/JKS+너무나/MAG+서병원/NNP+다녀왔/VV+EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 헐 ㅜㅜ 진짜? 병원 가서 뭐 했는데?",
+            "norm_text": "헐 ㅜㅜ 진짜? 병원 가서 뭐 했는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐ㅜㅜ진짜/UNKNOWN+병원/NNG+가/VV+서/EC+뭐/IC+했/VV+EP+는데/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 가서 알러지 주사 맞고 해열 진통제 맞고 왔지~!",
+            "norm_text": "가서 알러지 주사 맞고 해열 진통제 맞고 왔지~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "가서알러지주사맞고해열진통제맞고왔지/UNKNOWN+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 병원 가는 거 싫어!",
+            "norm_text": "병원 가는 거 싫어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+가/VV+는/ETM+거/NNB+싫/VA+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 ㅜㅜ 내 주변에 알러지 생긴 사람 너 뿐인 듯",
+            "norm_text": "아 ㅜㅜ 내 주변에 알러지 생긴 사람 너 뿐인 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+내/NP+JKG+주변/NNG+에/JKB+알/VV+러지/EF+생긴/VV+ETM+사람/NNG+너/NP+뿐/JX+인/VCP+ETM+듯/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응응... 어제도 대기자들 다 놀래 가지고 걱정스런 눈빛으로 쳐다 보더랑 키키",
+            "norm_text": "응응... 어제도 대기자들 다 놀래 가지고 걱정스런 눈빛으로 쳐다 보더랑 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+./SY+어제도대기자들다놀래가지고걱정스런눈빛으로쳐다보더랑키키/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 헉 ㅜㅜ 그러면 병원비 이런 거 돌려줘야 하는 거 아냐?",
+            "norm_text": "헉 ㅜㅜ 그러면 병원비 이런 거 돌려줘야 하는 거 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+ㅜㅜ/UNKNOWN+그러/VV+면/EC+병원/NNG+비/NNG+이런/MM+거/NNB+돌려/VV+EC+줘야/VX+EC+하/VV+는/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 돌려받을 수 있어? 알아봐야겠네? 키키",
+            "norm_text": "돌려받을 수 있어? 알아봐야겠네? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돌려받/VV+을/ETM+수/NNB+있/VV+어/EF+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응응 그거 백신 부작용으로 접수하면 돌려받는데! 빨리 신청해",
+            "norm_text": "응응 그거 백신 부작용으로 접수하면 돌려받는데! 빨리 신청해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+그거/NP+백/NR+신부/NNG+작용/NNG+으로/JKB+접수/NNG+하/XSV+면/EC+돌려받/VV+는데/EC+빨리/MAG+신청/NNG+해/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나 백신 부작용으로 신청했는데 보건소에 다시 전화해봐야 해?",
+            "norm_text": "나 백신 부작용으로 신청했는데 보건소에 다시 전화해봐야 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+백/NR+신부/NNG+작용/NNG+으로/JKB+신청/NNG+했/XSV+EP+는데/EC+보건소/NNG+에/JKB+다시/MAG+전화/NNG+해/XSV+EC+봐야/VX+EC+해/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 병원에서는 따로 안 알려준 거야? 알려줄 텐데?",
+            "norm_text": "병원에서는 따로 안 알려준 거야? 알려줄 텐데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "병원/NNG+에서/JKB+는/JX+따로/MAG+안/MAG+알려/VV+EC+준/VX+ETM+거/NNB+야/VCP+EF+알려/VV+EC+줄/VX+ETM+텐데/NNB+VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 1차는 병원비 안 받았는데 2차는 받더라구!",
+            "norm_text": "1차는 병원비 안 받았는데 2차는 받더라구!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "1/SN+차/NNBC+는/JX+병원/NNG+비/NNG+안/MAG+받/VV+았/EP+는데/EC+2/SN+차/NNBC+는/JX+받/VV+더라구/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 당장 전화해봐야겠다~",
+            "norm_text": "당장 전화해봐야겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당장/NNG+전화/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 응응 지금 해봐 ㅜㅜ 백신 이상증세인데 당연히 받아야지",
+            "norm_text": "응응 지금 해봐 ㅜㅜ 백신 이상증세인데 당연히 받아야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+지금/MAG+해/VV+EC+봐/VX+EF+ㅜㅜ/UNKNOWN+백신/NNG+이상/NNG+증세/NNG+인데/VCP+EC+당연히/MAG+받/VV+아야지/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 보건소에 전화하면 되는 건가? 키키 모르면 손해야 역시",
+            "norm_text": "보건소에 전화하면 되는 건가? 키키 모르면 손해야 역시",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보건소/NNG+에/JKB+전화/NNG+하/XSV+면/EC+되/VV+는/ETM+건가/NNB+VCP+EF+키/NNG+키/XSV+ETN+모르/VV+면/EC+손/NNG+해야/XSV+EC+역시/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

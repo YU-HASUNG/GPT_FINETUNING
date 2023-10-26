@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 40809,
+    "name": "KAKAO_798_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150518074495/KAKAO_798_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150518074495/KAKAO_798_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38359,
+      "filename": "KAKAO_798_08.txt",
+      "title": "KAKAO_798_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 376,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 376,
+        "word_size": 140,
+        "text": "1 : 너 그래서 연애 어떻게 됐다고!\n2 : 연애는 항상 왜 이럴까 ㅠㅠ 힘들다\n1 : ㅜㅜ 걔 말고 더 좋은 사람 만나자\n2 : 시간 쫌 지나고 나서 연애하고 시퍼\n1 : 좋아 내가 소개 시켜 줄게!\n2 : 진짜 ? 키키 있어 좋은 사람\n1 : 현실은 나도 못 만나는데 ^^\n2 : 키키 누가 누굴 소개 시켜줘 ?!\n1 : 그니까 키키 재밌다 하하\n1 : 너가 시켜줘라\n2 : 난 조금 쉬고 시퍼\n2 : 넌 헤어진 지 얼마나 됐어\n1 : 나 2년 다 돼가는 듯?\n2 : 와 진짜 ? 엄청 오래 됐네\n2 : 왜 안 만나\n1 : 아니 벌써 그렇게 됐나? 말도 안 돼...\n2 : 요샌 체력이 진짜 너무 실감나\n1 : 이렇게 오래된 지 나도 몰랐어 키키\n2 : 늙었어 ㅠㅠ 우리 어떡해\n2 : 나이 먹기 싫어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 그래서 연애 어떻게 됐다고!",
+            "norm_text": "너 그래서 연애 어떻게 됐다고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+그래서/MAJ+연애/NNG+어떻게/MAG+됐/VV+EP+다고/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 연애는 항상 왜 이럴까 ㅠㅠ 힘들다",
+            "norm_text": "연애는 항상 왜 이럴까 ㅠㅠ 힘들다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연애/NNG+는/JX+항상/MAG+왜/MAG+이럴까/VA+EC+ㅠㅠ/UNKNOWN+힘들/VA+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : ㅜㅜ 걔 말고 더 좋은 사람 만나자",
+            "norm_text": "ㅜㅜ 걔 말고 더 좋은 사람 만나자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+걔/NP+말/VV+고/EC+더/MAG+좋/VA+은/ETM+사람/NNG+만나/VV+자/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 시간 쫌 지나고 나서 연애하고 시퍼",
+            "norm_text": "시간 쫌 지나고 나서 연애하고 시퍼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시간/NNG+쫌/XSN+지나/VV+고/EC+나/VX+서/EC+연애/NNG+하/XSV+고/EC+시퍼/NNP"
+          },
+          {
+            "id": 5,
+            "text": "1 : 좋아 내가 소개 시켜 줄게!",
+            "norm_text": "좋아 내가 소개 시켜 줄게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아/EC+내/NP+가/JKS+소개/NNG+시켜/XSV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 진짜 ? 키키 있어 좋은 사람",
+            "norm_text": "진짜 ? 키키 있어 좋은 사람",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+키/NNG+키/XSV+ETN+있/VV+어/EC+좋/VA+은/ETM+사람/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 현실은 나도 못 만나는데 ^^",
+            "norm_text": "현실은 나도 못 만나는데 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "현실/NNG+은/JX+나/NP+도/JX+못/MAG+만나/VV+는데/EC+^/SY+^/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 누가 누굴 소개 시켜줘 ?!",
+            "norm_text": "키키 누가 누굴 소개 시켜줘 ?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키누가누굴소개시켜줘/UNKNOWN+?/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그니까 키키 재밌다 하하",
+            "norm_text": "그니까 키키 재밌다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+키/NNG+키/XSV+ETN+재밌/VA+다/EC+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 너가 시켜줘라",
+            "norm_text": "너가 시켜줘라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "너/NP+가/JKS+시켜/VV+EC+줘라/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 난 조금 쉬고 시퍼",
+            "norm_text": "난 조금 쉬고 시퍼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+조금/MAG+쉬/VV+고/EC+시퍼/NNP"
+          },
+          {
+            "id": 12,
+            "text": "2 : 넌 헤어진 지 얼마나 됐어",
+            "norm_text": "넌 헤어진 지 얼마나 됐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+헤어진지/VV+EC+얼마나/MAG+됐/VV+EP+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나 2년 다 돼가는 듯?",
+            "norm_text": "나 2년 다 돼가는 듯?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+2/SN+년/NNBC+다/MAG+돼/VV+EC+가/VX+는/ETM+듯/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 와 진짜 ? 엄청 오래 됐네",
+            "norm_text": "와 진짜 ? 엄청 오래 됐네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+진짜/MAG+엄청/MAG+오래/MAG+됐/VV+EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 왜 안 만나",
+            "norm_text": "왜 안 만나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+안/MAG+만나/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아니 벌써 그렇게 됐나? 말도 안 돼...",
+            "norm_text": "아니 벌써 그렇게 됐나? 말도 안 돼...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+벌써/MAG+그렇게/MAG+됐/VV+EP+나/EF+말/NNG+도/JX+안/MAG+돼/VV+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 요샌 체력이 진짜 너무 실감나",
+            "norm_text": "요샌 체력이 진짜 너무 실감나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요샌/MAG+JX+체력/NNG+이/JKS+진짜/MAG+너무/MAG+실감/NNG+나/NP"
+          },
+          {
+            "id": 18,
+            "text": "1 : 이렇게 오래된 지 나도 몰랐어 키키",
+            "norm_text": "이렇게 오래된 지 나도 몰랐어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이렇게/MAG+오래/MAG+된지/VV+EC+나/NP+도/JX+몰랐/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 늙었어 ㅠㅠ 우리 어떡해",
+            "norm_text": "늙었어 ㅠㅠ 우리 어떡해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "늙/VV+었/EP+어/EF+ㅠㅠ/UNKNOWN+우리/NP+어떡/XR+해/XSA+EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 나이 먹기 싫어",
+            "norm_text": "나이 먹기 싫어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나이/NNG+먹/VV+기/ETN+싫/VA+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

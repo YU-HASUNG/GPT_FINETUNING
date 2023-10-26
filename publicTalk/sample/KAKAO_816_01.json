@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 46574,
+    "name": "KAKAO_816_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171727069242/KAKAO_816_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171727069242/KAKAO_816_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38794,
+      "filename": "KAKAO_816_01.txt",
+      "title": "KAKAO_816_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 416,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 132,
+        "text": "1 : 부산은 맛집 뭐 있노 키키\n2 : 내가 좋아하던 이자카야가 있었지\n1 : 오 이자카야 나도 좋아함 키키 분위기가 좋아\n2 : 맞아 근데 코로나 이후로 망했지 ㅠㅠ\n1 : 아 ㅜㅜ 이런 거기도 그렇게 망했구나\n2 : 응응 사장님이 새로운 가게 다시 낸다는데 조용하네\n1 : 아 ㅜㅜ 이제 또 내기가 쉽지가 않겠지\n2 : 근데 부동산 찾아본단 얘기까진 들었으\n1 : 오 아니 사장이랑 되게 친하네 키키\n2 : 키키 내가 아니라 **가 알려준 곳인데 ** 친구가 친하더라고\n1 : 아 키키 뭐야 대박 자영업자들 얼른 힘냈으면 좋겠다\n2 : 이이 진짜 그랬음 좋겠다\n1 : 그러니까 요새 또 10시까지 밖에 안 하니 더 힘들지\n2 : 그렇지 아무래도... 술집들은 뭐 일하지 말라는 거지\n1 : 그러니까 그때부터 시작인데 ㅜㅜ\n2 : 그니깐 근데 또 위험하긴 하지 술집이",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부산은 맛집 뭐 있노 키키",
+            "norm_text": "부산은 맛집 뭐 있노 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부산/NNP+은/JX+맛집/NNG+뭐/IC+있/VA+노/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 내가 좋아하던 이자카야가 있었지",
+            "norm_text": "내가 좋아하던 이자카야가 있었지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+좋/VA+아/EC+하/VX+던/ETM+이자카야/NNP+가/JKS+있/VA+었/EP+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 이자카야 나도 좋아함 키키 분위기가 좋아",
+            "norm_text": "오 이자카야 나도 좋아함 키키 분위기가 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오이/IC+자카야/NNP+나/NP+도/JX+좋/VA+아함/IC+ETN+키/NNG+키/NNG+분위기/NNG+가/JKS+좋/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아 근데 코로나 이후로 망했지 ㅠㅠ",
+            "norm_text": "맞아 근데 코로나 이후로 망했지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞아/IC+근데/MAJ+코로나/NNG+이후/NNG+로/JKB+망했/VV+EP+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 ㅜㅜ 이런 거기도 그렇게 망했구나",
+            "norm_text": "아 ㅜㅜ 이런 거기도 그렇게 망했구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+이런/MM+거기/NP+도/JX+그렇게/MAG+망했/VV+EP+구나/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응 사장님이 새로운 가게 다시 낸다는데 조용하네",
+            "norm_text": "응응 사장님이 새로운 가게 다시 낸다는데 조용하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+사장/NNG+님/XSN+이/JKS+새로운/VA+ETM+가게/NNG+다시/MAG+낸다는데/VV+EC+조용/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 ㅜㅜ 이제 또 내기가 쉽지가 않겠지",
+            "norm_text": "아 ㅜㅜ 이제 또 내기가 쉽지가 않겠지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+이제/MAG+또/MAG+내기/NNP+가/JKS+쉽/VA+지/EC+가/JX+않/VX+겠/EP+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 부동산 찾아본단 얘기까진 들었으",
+            "norm_text": "근데 부동산 찾아본단 얘기까진 들었으",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+부동산/NNG+찾아본단/VV+ETM+얘기/NNG+까진들/JX+VCP+EC+었/EP+으/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 아니 사장이랑 되게 친하네 키키",
+            "norm_text": "오 아니 사장이랑 되게 친하네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+아니/IC+사장/NNG+이랑/JKB+되게/MAG+친하/VA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 내가 아니라 **가 알려준 곳인데 ** 친구가 친하더라고",
+            "norm_text": "키키 내가 아니라 **가 알려준 곳인데 ** 친구가 친하더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+내/NNB+가/JKC+아니/VCN+라/EC+*/SY+*/SY+가/JKS+알려/VV+EC+준/VX+ETM+곳/NNB+인데/VCP+EC+*/SY+*/SY+친구/NNG+가/JKS+친하/VA+더라고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 키키 뭐야 대박 자영업자들 얼른 힘냈으면 좋겠다",
+            "norm_text": "아 키키 뭐야 대박 자영업자들 얼른 힘냈으면 좋겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+뭐/IC+야대/NNG+박자/NNG+영업자/NNG+들/XSN+얼른/MAG+힘/NNG+냈으면/VV+EP+EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 이이 진짜 그랬음 좋겠다",
+            "norm_text": "이이 진짜 그랬음 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이이/NP+진짜/MAG+그랬음/VA+EP+EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그러니까 요새 또 10시까지 밖에 안 하니 더 힘들지",
+            "norm_text": "그러니까 요새 또 10시까지 밖에 안 하니 더 힘들지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+요새/MAG+또/MAG+10/SN+시/NNBC+까지/JX+밖에/JX+안/MAG+하/VV+니/EC+더/MAG+힘들/VA+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그렇지 아무래도... 술집들은 뭐 일하지 말라는 거지",
+            "norm_text": "그렇지 아무래도... 술집들은 뭐 일하지 말라는 거지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EF+아무래도/MAG+./SY+술집/NNG+들/XSN+은/JX+뭐/IC+일/NNG+하/XSV+지/EC+말/VX+라는/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러니까 그때부터 시작인데 ㅜㅜ",
+            "norm_text": "그러니까 그때부터 시작인데 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+그때/NNG+부터/JX+시작/NNG+인데/VCP+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그니깐 근데 또 위험하긴 하지 술집이",
+            "norm_text": "그니깐 근데 또 위험하긴 하지 술집이",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니깐/MAJ+근데/MAJ+또/MAG+위험/NNG+하/XSV+긴/ETN+JX+하/VX+지/EC+술집/NNG+이/JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

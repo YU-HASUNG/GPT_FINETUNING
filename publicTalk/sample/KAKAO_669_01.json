@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67108,
+    "name": "KAKAO_669_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112241091013/KAKAO_669_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112241091013/KAKAO_669_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34940,
+      "filename": "KAKAO_669_01.txt",
+      "title": "KAKAO_669_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 370,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 370,
+        "word_size": 124,
+        "text": "1 : 언니 오늘 누구랑 족발 먹었어!\n2 : 나 오늘 언니랑 먹었지!\n1 : 헐~ 불족? 아님 냉채?\n2 : 아니 일반이랑 매운 거 반반!\n1 : 맛있겠다 키키 그거 숯불구이 아니야?\n2 : 아니 그냥 일반인데 울 집 근처 맛집이야~\n1 : 그 동네는 맛집이 참 많은가 봐 키키\n2 : 맞아 나 여기 쿠폰 벌써 5장이다!\n1 : 헐 키키 그거 몇 장 모아야 하는데?\n2 : 3장이면 주먹밥이고 8장이면 막국수~\n1 : 헐 그럼 나 갈 때까지 모아놔 키키 막국수 고~\n2 : 당연하지 너 오면 여기 냉채 족발 먹어야지~\n1 : 헐 좋아 그거랑 막국수면 딱이겠다 키키\n2 : 맞아 너 냉채 족발 먹어 봤어?\n1 : 응 키키 해파리도 같이 나와서 신기했어\n2 : 그렇구나 나도 먹어보고 싶다!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 오늘 누구랑 족발 먹었어!",
+            "norm_text": "언니 오늘 누구랑 족발 먹었어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+오늘/MAG+누구/NP+랑/JKB+족발/NNG+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 오늘 언니랑 먹었지!",
+            "norm_text": "나 오늘 언니랑 먹었지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+오늘/MAG+언니/NNG+랑/JKB+먹/VV+었/EP+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐~ 불족? 아님 냉채?",
+            "norm_text": "헐~ 불족? 아님 냉채?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/NNP+~/SY+불/XPN+족/NNG+아님/MAJ+냉채/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 일반이랑 매운 거 반반!",
+            "norm_text": "아니 일반이랑 매운 거 반반!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+일반/NNG+이랑/JKB+매운/VA+ETM+거/NNB+반반/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맛있겠다 키키 그거 숯불구이 아니야?",
+            "norm_text": "맛있겠다 키키 그거 숯불구이 아니야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맛있/VA+겠/EP+다키키/NNP+그거/NP+숯/NNG+불구/XR+이/JKC+아니/VCN+야/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 그냥 일반인데 울 집 근처 맛집이야~",
+            "norm_text": "아니 그냥 일반인데 울 집 근처 맛집이야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+그냥/MAG+일반인/NNG+데울/VV+ETM+집/NNG+근처/NNG+맛집/NNG+이/VCP+야/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그 동네는 맛집이 참 많은가 봐 키키",
+            "norm_text": "그 동네는 맛집이 참 많은가 봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+동네/NNG+는/JX+맛집/NNG+이/JKS+참/MAG+많/VA+은가/EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아 나 여기 쿠폰 벌써 5장이다!",
+            "norm_text": "맞아 나 여기 쿠폰 벌써 5장이다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아나/EC+여기/NP+쿠폰/NNG+벌써/MAG+5/SN+장/NNBC+이/VCP+다/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 헐 키키 그거 몇 장 모아야 하는데?",
+            "norm_text": "헐 키키 그거 몇 장 모아야 하는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+키/NNG+키/XSV+ETN+그거/NP+몇/MM+장/NNBC+모아야/VV+EC+하/VV+는데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 3장이면 주먹밥이고 8장이면 막국수~",
+            "norm_text": "3장이면 주먹밥이고 8장이면 막국수~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "3/SN+장/NNBC+이/VCP+면/EC+주먹밥/NNG+이/VCP+고/EC+8/SN+장/NNBC+이/VCP+면/EC+막국수/NNG+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 헐 그럼 나 갈 때까지 모아놔 키키 막국수 고~",
+            "norm_text": "헐 그럼 나 갈 때까지 모아놔 키키 막국수 고~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+그럼/MAJ+나갈/VV+ETM+때/NNG+까지/JX+모아/VV+EC+놔/VX+EC+키/NNG+키/NNG+막국수/NNG+고/VCP+EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 당연하지 너 오면 여기 냉채 족발 먹어야지~",
+            "norm_text": "당연하지 너 오면 여기 냉채 족발 먹어야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+너/NP+오/VV+면/EC+여기/NP+냉채/NNG+족발/NNG+먹/VV+어야지/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 헐 좋아 그거랑 막국수면 딱이겠다 키키",
+            "norm_text": "헐 좋아 그거랑 막국수면 딱이겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+좋/VA+아/EC+그거/NP+랑/JKB+막국수/NNG+면/VCP+EC+딱/MAG+이/VCP+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아 너 냉채 족발 먹어 봤어?",
+            "norm_text": "맞아 너 냉채 족발 먹어 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+너/NP+냉채/NNG+족발/NNG+먹/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 키키 해파리도 같이 나와서 신기했어",
+            "norm_text": "응 키키 해파리도 같이 나와서 신기했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+해파리/NNG+도/JX+같이/MAG+나와서/VV+EC+신기/XR+했/XSA+EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그렇구나 나도 먹어보고 싶다!",
+            "norm_text": "그렇구나 나도 먹어보고 싶다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+나/NP+도/JX+먹/VV+어/EC+보/VX+고/EC+싶/VX+다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

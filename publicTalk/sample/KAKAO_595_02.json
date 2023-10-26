@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 27495,
+    "name": "KAKAO_595_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160826084871/KAKAO_595_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160826084871/KAKAO_595_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31673,
+      "filename": "KAKAO_595_02.txt",
+      "title": "KAKAO_595_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 480,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 480,
+        "word_size": 164,
+        "text": "1 : 인테리어 하면 넌 어디 젤 먼저 꾸미고 싶어? 책상? 침대?\n2 : 나는 침대! ㅜㅜ 제일 오래 있으니깐 하하\n1 : 아 키키 이해가 되네...\n1 : 난 2층 침대 살고 싶어 ㅜ\n2 : 헐 진짜? 나는 요즘 갬성 넘치는 자취방으로 꾸미고 싶어\n1 : 1층은 책상 2층은 침대 어때?\n1 : 넘 예쁠 것 같은데...\n2 : 헐 내 친구 벙커 침대인데 좋더라 !\n1 : 안 불편하대?\n1 : 머리 박아서 아프다긴 하던데 키키\n2 : 영화 보기 되게 아늑해서 좋대 하하\n1 : 헐... 나 생각 바뀜 1층 영화관으로 할래\n2 : 헐 근데 나는 침대가 높으면 못 잘 것 같아\n1 : 왜? 떨어질까 봐 무서워서?\n2 : 그냥 울렁거리고 천장이랑 가까운 게 싫어서 ㅎ\n1 : 맞다 그런 애들이 있더라 ㅜ\n1 : 그럼 어떻게 꾸미고 싶어?\n2 : 나는 LED 있는 침대로 하얀 레이스 이불로 해 놓고 싶어\n1 : 오 예쁘겠다 담에 그렇게 꾸며서 초대해 줘 하하\n2 : 웅 좋아 꼭 그렇게 꾸며야지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 인테리어 하면 넌 어디 젤 먼저 꾸미고 싶어? 책상? 침대?",
+            "norm_text": "인테리어 하면 넌 어디 젤 먼저 꾸미고 싶어? 책상? 침대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "인테리어/NNG+하/XSV+면/EC+넌/NP+JX+어디/NP+젤/MAG+먼저/MAG+꾸미/VV+고/EC+싶/VX+어/EF+책상/NNG+?/SY+침대/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 침대! ㅜㅜ 제일 오래 있으니깐 하하",
+            "norm_text": "나는 침대! ㅜㅜ 제일 오래 있으니깐 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+침대/NNG+!/SY+ㅜㅜ/UNKNOWN+제일/MAG+오래/MAG+있/VV+으니깐/EC+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 키키 이해가 되네...",
+            "norm_text": "아 키키 이해가 되네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+이해/NNG+가/JKS+되/VV+네/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 난 2층 침대 살고 싶어 ㅜ",
+            "norm_text": "난 2층 침대 살고 싶어 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+2/SN+층침대살고싶어ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 헐 진짜? 나는 요즘 갬성 넘치는 자취방으로 꾸미고 싶어",
+            "norm_text": "헐 진짜? 나는 요즘 갬성 넘치는 자취방으로 꾸미고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+진짜/MAG+나/NP+는/JX+요즘/MAG+갬/VV+ETN+성/XSN+넘치/VV+는/ETM+자취방/NNG+으로/JKB+꾸미/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 1층은 책상 2층은 침대 어때?",
+            "norm_text": "1층은 책상 2층은 침대 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "1/SN+층/NNG+은/JX+책상/NNG+2/SN+층/NNG+은/JX+침대/NNG+어때/VA+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 넘 예쁠 것 같은데...",
+            "norm_text": "넘 예쁠 것 같은데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넘/MAG+예쁠/VA+ETM+것/NNB+같/VA+은데/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 헐 내 친구 벙커 침대인데 좋더라 !",
+            "norm_text": "헐 내 친구 벙커 침대인데 좋더라 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+내/NP+JKG+친구/NNG+벙커/NNG+침대/NNG+인데/VCP+EC+좋/VA+더라/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 안 불편하대?",
+            "norm_text": "안 불편하대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "안/MAG+불편/NNG+하/XSA+대/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 머리 박아서 아프다긴 하던데 키키",
+            "norm_text": "머리 박아서 아프다긴 하던데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "머리/NNG+박/VV+아서/EC+아프/VA+다/EF+긴/ETN+JX+하/VX+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 영화 보기 되게 아늑해서 좋대 하하",
+            "norm_text": "영화 보기 되게 아늑해서 좋대 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "영화/NNG+보/VV+기/ETN+되게/MAG+아늑/XR+해서/XSA+EC+좋/VA+ETM+대하/NNG+하/XSV"
+          },
+          {
+            "id": 12,
+            "text": "1 : 헐... 나 생각 바뀜 1층 영화관으로 할래",
+            "norm_text": "헐... 나 생각 바뀜 1층 영화관으로 할래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "헐/IC+./SY+나/NP+생각/NNG+바뀜/VV+ETN+1/SN+층/NNG+영화관/NNG+으로/JKB+할래/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 헐 근데 나는 침대가 높으면 못 잘 것 같아",
+            "norm_text": "헐 근데 나는 침대가 높으면 못 잘 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+근데/MAJ+나/NP+는/JX+침대/NNG+가/JKS+높/VA+으면/EC+못/MAG+잘/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 왜? 떨어질까 봐 무서워서?",
+            "norm_text": "왜? 떨어질까 봐 무서워서?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+떨어질까봐/VV+EC+VX+EC+무서워서/VA+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그냥 울렁거리고 천장이랑 가까운 게 싫어서 ㅎ",
+            "norm_text": "그냥 울렁거리고 천장이랑 가까운 게 싫어서 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+울렁거리/VV+고/EC+천장/NNG+이랑/JKB+가까운/VA+ETM+게/NNB+JKS+싫/VA+어서/EC+ㅎ/XSA"
+          },
+          {
+            "id": 16,
+            "text": "1 : 맞다 그런 애들이 있더라 ㅜ",
+            "norm_text": "맞다 그런 애들이 있더라 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EC+그런/MM+애/NNG+들/XSN+이/JKS+있/VA+더라/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그럼 어떻게 꾸미고 싶어?",
+            "norm_text": "그럼 어떻게 꾸미고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+어떻게/MAG+꾸미/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나는 LED 있는 침대로 하얀 레이스 이불로 해 놓고 싶어",
+            "norm_text": "나는 LED 있는 침대로 하얀 레이스 이불로 해 놓고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+LED/SL+있/VA+는/ETM+침대/NNG+로/JKB+하얀/VA+ETM+레이스/NNG+이불/NNG+로/JKB+해/VV+EC+놓/VX+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 오 예쁘겠다 담에 그렇게 꾸며서 초대해 줘 하하",
+            "norm_text": "오 예쁘겠다 담에 그렇게 꾸며서 초대해 줘 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "오/NR+예쁘/VA+겠/EP+다/EC+담/NNG+에/JKB+그렇게/MAG+꾸며서/VV+EC+초대/NNG+해/XSV+EC+줘/VX+EC+하하/MAG"
+          },
+          {
+            "id": 20,
+            "text": "2 : 웅 좋아 꼭 그렇게 꾸며야지",
+            "norm_text": "웅 좋아 꼭 그렇게 꾸며야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "웅/IC+좋/VA+아/EC+꼭/MAG+그렇게/MAG+꾸며야/VV+EC+지/VX"
+          }
+        ]
+      }
+    }
+  ]
+}

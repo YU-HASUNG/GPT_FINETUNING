@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 44483,
+    "name": "KAKAO_777_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150356053447/KAKAO_777_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150356053447/KAKAO_777_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38279,
+      "filename": "KAKAO_777_08.txt",
+      "title": "KAKAO_777_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 520,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 520,
+        "word_size": 172,
+        "text": "1 : 친구야 나 좋아하는 사람 생긴 것 같아.\n2 : 정말 축하한다.\n2 : 누군데 내가 아는 사람 ?\n1 : 아니 넌 몰라 회사사람이어서... 타 부서 대리님이야\n2 : 사내연애라니?\n2 : 나이는 몇 살인데?\n2 : 예뻐?\n1 : 나보다 3살 위야.\n1 : 연상이야.\n2 : 헐 연상이라고 ?\n2 : 너 이제 나이도 있는 연상은 별로일 것 같은데?\n1 : 응 왜 연상이 별로야?\n1 : 난 너무 좋은데\n2 : 이제 애기 낳을 것도 생각 하고 해야 하는데 잘 생각해봐\n1 : 여자가 아기 낳는 도구도 아니고, 난 그런 거 상관 없어\n2 : 응 그래도 네 걱정되니 얘기 하는 거니깐 안 좋게 생각하지 말고\n1 : 응 너도 내 걱정되니깐 그런 소리 해주는 거겠지.\n1 : 이해해.\n2 : 고백은 언제 할려고 그래?\n1 : 모르겠어 만약 사귄다면 사내연애가 걸리긴 한다\n2 : 넌 사내연애 킬러냐?\n2 : 어쩜 다 만나는 게 다 회사냐?\n1 : 어떻게 하다 보니? ㅋ\n1 : 가까이 부딪히는 사람이라 그런지... 나도 모르겠어.\n2 : 고백하고 후기 알려줘. 암튼 축하한다.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 친구야 나 좋아하는 사람 생긴 것 같아.",
+            "norm_text": "친구야 나 좋아하는 사람 생긴 것 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "친구/NNG+야/VCP+EF+나/NP+좋/VA+아/EC+하/VV+는/ETM+사람/NNG+생긴/VV+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 정말 축하한다.",
+            "norm_text": "정말 축하한다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+축하/NNG+한다/XSV+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 누군데 내가 아는 사람 ?",
+            "norm_text": "누군데 내가 아는 사람 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누군데/NP+VCP+EC+내/NP+가/JKS+아/VV+는/ETM+사람/NNG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아니 넌 몰라 회사사람이어서... 타 부서 대리님이야",
+            "norm_text": "아니 넌 몰라 회사사람이어서... 타 부서 대리님이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+넌/NP+JX+몰라/VV+EC+회사/NNG+사람/NNG+이/VCP+어서/EC+./SY+./SY+타/MM+부서/NNG+대리/NNG+님/XSN+이/VCP+야/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 사내연애라니?",
+            "norm_text": "사내연애라니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사내/NNG+연애/NNG+라니/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나이는 몇 살인데?",
+            "norm_text": "나이는 몇 살인데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나이/NNG+는/JX+몇/MM+살/NNBC+인데/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 예뻐?",
+            "norm_text": "예뻐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "예뻐/VA+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나보다 3살 위야.",
+            "norm_text": "나보다 3살 위야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+보다/JKB+3/SN+살/NNBC+위/NNG+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 연상이야.",
+            "norm_text": "연상이야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "연상/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐 연상이라고 ?",
+            "norm_text": "헐 연상이라고 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+연상/NNG+이/VCP+라고/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 너 이제 나이도 있는 연상은 별로일 것 같은데?",
+            "norm_text": "너 이제 나이도 있는 연상은 별로일 것 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+이제/MAG+나이/NNG+도/JX+있/VX+는/ETM+연상/NNG+은/JX+별로/MAG+일/VCP+ETM+것/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응 왜 연상이 별로야?",
+            "norm_text": "응 왜 연상이 별로야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "응/IC+왜/MAG+연상/NNG+이/JKS+별로/MAG+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 난 너무 좋은데",
+            "norm_text": "난 너무 좋은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+너무/MAG+좋/VA+은데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 이제 애기 낳을 것도 생각 하고 해야 하는데 잘 생각해봐",
+            "norm_text": "이제 애기 낳을 것도 생각 하고 해야 하는데 잘 생각해봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+애기/NNG+낳/VV+을/ETM+것/NNB+도/JX+생각/NNG+하/XSV+고/EC+해야/VV+EC+하/VV+는데/EC+잘/MAG+생각/NNG+해/XSV+EC+봐/VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 여자가 아기 낳는 도구도 아니고, 난 그런 거 상관 없어",
+            "norm_text": "여자가 아기 낳는 도구도 아니고, 난 그런 거 상관 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여자/NNG+가/JKS+아기/NNG+낳/VV+는/ETM+도구/NNG+도/JX+아니/VCN+고/EC+,/SC+난/NP+JX+그런/MM+거/NNB+상관없/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 그래도 네 걱정되니 얘기 하는 거니깐 안 좋게 생각하지 말고",
+            "norm_text": "응 그래도 네 걱정되니 얘기 하는 거니깐 안 좋게 생각하지 말고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래도/MAJ+네/MM+걱정/NNG+되/XSV+니/EC+얘기/NNG+하/XSV+는/ETM+거/NNB+니깐/VCP+EC+안/MAG+좋/VA+게/EC+생각/NNG+하/XSV+지/EC+말/VX+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 너도 내 걱정되니깐 그런 소리 해주는 거겠지.",
+            "norm_text": "응 너도 내 걱정되니깐 그런 소리 해주는 거겠지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+너/NP+도/JX+내/NP+JKG+걱정/NNG+되/XSV+니깐/EC+그런/MM+소리/NNG+해/XSV+EC+주/VX+는/ETM+거/NNB+겠/VCP+EP+지/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 이해해.",
+            "norm_text": "이해해.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이해/NNG+해/XSV+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 고백은 언제 할려고 그래?",
+            "norm_text": "고백은 언제 할려고 그래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고백/NNG+은/JX+언제/MAG+할려고/VV+EC+그래/VV+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 모르겠어 만약 사귄다면 사내연애가 걸리긴 한다",
+            "norm_text": "모르겠어 만약 사귄다면 사내연애가 걸리긴 한다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "모르/VV+겠/EP+어/EF+만약/MAG+사귄다면/VV+EC+사내/NNG+연애/NNG+가/JKS+걸리/VV+긴/ETN+JX+한다/VX+EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 넌 사내연애 킬러냐?",
+            "norm_text": "넌 사내연애 킬러냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+사내/NNG+연애/NNG+킬러/NNG+냐/VCP+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 어쩜 다 만나는 게 다 회사냐?",
+            "norm_text": "어쩜 다 만나는 게 다 회사냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어쩜/MAJ+다/MAG+만나/VV+는/ETM+게/NNB+JKS+다/MAG+회사/NNG+냐/VCP+EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 어떻게 하다 보니? ㅋ",
+            "norm_text": "어떻게 하다 보니? ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떻게/MAG+하/VV+다/EC+보/VX+니/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 가까이 부딪히는 사람이라 그런지... 나도 모르겠어.",
+            "norm_text": "가까이 부딪히는 사람이라 그런지... 나도 모르겠어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가까이/MAG+부딪히/VV+는/ETM+사람/NNG+이/VCP+라/EC+그런지/VA+EC+./SY+./SY+나/NP+도/JX+모르/VV+겠/EP+어/EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 고백하고 후기 알려줘. 암튼 축하한다.",
+            "norm_text": "고백하고 후기 알려줘. 암튼 축하한다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고백/NNG+하/XSV+고/EC+후기/NNG+알려/VV+EC+줘/VX+EF+암튼/MAJ+축하/NNG+한다/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35480,
+    "name": "KAKAO_879_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175222019096/KAKAO_879_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175222019096/KAKAO_879_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40432,
+      "filename": "KAKAO_879_14.txt",
+      "title": "KAKAO_879_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 421,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 421,
+        "word_size": 128,
+        "text": "1 : 인천에 공무원이 또 사망 했다네\n2 : 무슨 일이래? 무슨 일이 있었대?\n1 : 보건소에 일하는 공무원인데 근무시간을 넘겨서까지 일을 했다네\n2 : 아이고 그렇게 까지 일 시키면 안되지.\n1 : 이런 경우는 공무 상 재해로 인정을 해야 되는데...\n2 : 그러게 인정할 건 인정해줘야지\n2 : 재해나 재난 보상은 철저히 해줘야 돼.\n1 : 아픈 사람 돌보다가 본인이 병들었네 안타까워\n2 : 어떡하면 좋노 불쌍하다.\n1 : 초과 근무 시간이 120 시간이 넘었대\n2 : 아이고 공무원도 할 게 안 되네.\n1 : 그러게 인정 받아야 되는 직업인데...\n2 : 응 다른 공무원들은 괜찮을려나.\n1 : 간호사들이 또 문제지.\n2 : 간호사들은 왜? 무슨 문제?\n1 : 간호사 인력 부족하다고 충당해 달라 그러잖어 해당 병원에서는 또 안 해 주고\n2 : 응 간호사들도 참 힘들겠어.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 인천에 공무원이 또 사망 했다네",
+            "norm_text": "인천에 공무원이 또 사망 했다네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "인천/NNP+에/JKB+공무원/NNG+이/JKS+또/MAG+사망/NNG+했/XSV+EP+다네/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 무슨 일이래? 무슨 일이 있었대?",
+            "norm_text": "무슨 일이래? 무슨 일이 있었대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+일/NNG+이/VCP+래/EF+무슨/MM+일/NNG+이/JKS+있/VA+었/EP+대/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 보건소에 일하는 공무원인데 근무시간을 넘겨서까지 일을 했다네",
+            "norm_text": "보건소에 일하는 공무원인데 근무시간을 넘겨서까지 일을 했다네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보건소/NNG+에/JKB+일/NNG+하/XSV+는/ETM+공무원/NNG+인데/VCP+EC+근무/NNG+시간/NNG+을/JKO+넘겨서/VV+EC+까지/JX+일/NNG+을/JKO+했/VV+EP+다네/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아이고 그렇게 까지 일 시키면 안되지.",
+            "norm_text": "아이고 그렇게 까지 일 시키면 안되지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이고/IC+그렇게/MAG+까지/JX+일/NNG+시키/XSV+면/EC+안/MAG+되/VV+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 이런 경우는 공무 상 재해로 인정을 해야 되는데...",
+            "norm_text": "이런 경우는 공무 상 재해로 인정을 해야 되는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이런/MM+경우/NNG+는/JX+공무/NNG+상/XSN+재해/NNG+로/JKB+인정/NNG+을/JKO+해야/VV+EC+되/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러게 인정할 건 인정해줘야지",
+            "norm_text": "그러게 인정할 건 인정해줘야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+인정/NNG+할/XSV+ETM+건/NNB+JX+인정/NNG+해/XSV+EC+줘야지/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 재해나 재난 보상은 철저히 해줘야 돼.",
+            "norm_text": "재해나 재난 보상은 철저히 해줘야 돼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "재해/NNG+나/JC+재난/NNG+보상/NNG+은/JX+철저히/MAG+해/VV+EC+줘야/VX+EC+돼/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아픈 사람 돌보다가 본인이 병들었네 안타까워",
+            "norm_text": "아픈 사람 돌보다가 본인이 병들었네 안타까워",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아픈/VA+ETM+사람/NNG+돌보/VV+다가/EC+본인/NNG+이/JKS+병들/VV+었/EP+네/EF+안타까워/VA+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 어떡하면 좋노 불쌍하다.",
+            "norm_text": "어떡하면 좋노 불쌍하다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "어떡/XR+하/XSA+면/EC+좋/VA+노/EC+불쌍/XR+하/XSA+다/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 초과 근무 시간이 120 시간이 넘었대",
+            "norm_text": "초과 근무 시간이 120 시간이 넘었대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "초과근무/NNP+시간/NNG+이/JKS+120/SN+시간/NNG+이/JKS+넘/VV+었/EP+대/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아이고 공무원도 할 게 안 되네.",
+            "norm_text": "아이고 공무원도 할 게 안 되네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이고/IC+공무원/NNG+도/JX+할/VV+ETM+게/NNB+JKS+안/MAG+되/VV+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그러게 인정 받아야 되는 직업인데...",
+            "norm_text": "그러게 인정 받아야 되는 직업인데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+인정받/VV+아야/EC+되/VV+는/ETM+직업/NNG+인데/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 다른 공무원들은 괜찮을려나.",
+            "norm_text": "응 다른 공무원들은 괜찮을려나.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+다른/MM+공무원/NNG+들/XSN+은/JX+괜찮/VA+을려나/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 간호사들이 또 문제지.",
+            "norm_text": "간호사들이 또 문제지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "간호사/NNG+들/XSN+이/JKS+또/MAG+문제/NNG+지/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 간호사들은 왜? 무슨 문제?",
+            "norm_text": "간호사들은 왜? 무슨 문제?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "간호사/NNG+들/XSN+은/JX+왜/MAG+무슨/MM+문제/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 간호사 인력 부족하다고 충당해 달라 그러잖어 해당 병원에서는 또 안 해 주고",
+            "norm_text": "간호사 인력 부족하다고 충당해 달라 그러잖어 해당 병원에서는 또 안 해 주고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "간호사/NNG+인력/NNG+부족/NNG+하/XSV+다고/EC+충당/NNG+해/XSV+EC+달/VX+라/EC+그러잖/VV+어/EC+해당/NNG+병원/NNG+에서/JKB+는/JX+또/MAG+안/MAG+해/VV+EC+주/VX+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 간호사들도 참 힘들겠어.",
+            "norm_text": "응 간호사들도 참 힘들겠어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+간호사/NNG+들/XSN+도/JX+참/MAG+힘들/VA+겠/EP+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

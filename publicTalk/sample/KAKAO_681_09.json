@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55258,
+    "name": "KAKAO_681_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113623058525/KAKAO_681_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113623058525/KAKAO_681_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35428,
+      "filename": "KAKAO_681_09.txt",
+      "title": "KAKAO_681_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 421,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 421,
+        "word_size": 140,
+        "text": "1 : 너는 애완동물 키울 생각 없어?\n2 : 나는 항상 키우고 싶어\n1 : 아 그래? 어떤 애완동물을 기르고 싶어?\n2 : 개도 좋고 고양이도 좋아 각각 다른 매력이 있는 것 같아\n1 : 개 고양이 말고 다른 동물 생각한 적 있어?\n2 : 딱히 다른 반려동물은 생각해본 적이 없어\n1 : 아 그래? 하긴 나는 미어캣이 귀엽더라 요즘\n2 : 내가 동물 영상을 많이 보는데 미어캣은 냄새가 난데\n1 : 아 그래? 키키 근데 생소한 동물이라 너무 귀엽더라\n2 : 응 맞아 진짜 귀엽긴 하더라\n1 : 너 유튜버 냥이아빠 채널 알아?\n2 : 어... 잘 모르겠어 나는 그냥 유튜브에 뜨는 거 봐\n1 : 그 유튜버가 미어캣 영상 올리는데 꿀잼이야 키키\n2 : 오 재밌겠다. 시간 나면 한번 봐볼게\n1 : 응 내가 링크 보내줄게 구독 좀 해봐 키키\n2 : 응 알겠어 시간 날 때마다 봐야겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 애완동물 키울 생각 없어?",
+            "norm_text": "너는 애완동물 키울 생각 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+애완/NNG+동물/NNG+키울/VV+ETM+생각/NNG+없/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 항상 키우고 싶어",
+            "norm_text": "나는 항상 키우고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+항상/MAG+키우/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래? 어떤 애완동물을 기르고 싶어?",
+            "norm_text": "아 그래? 어떤 애완동물을 기르고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+어떤/MM+애완/NNG+동물/NNG+을/JKO+기르/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 개도 좋고 고양이도 좋아 각각 다른 매력이 있는 것 같아",
+            "norm_text": "개도 좋고 고양이도 좋아 각각 다른 매력이 있는 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "개/NNG+도/JX+좋/VA+고/EC+고양이/NNG+도/JX+좋/VA+아/EC+각각/MAG+다른/MM+매력/NNG+이/JKS+있/VA+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 개 고양이 말고 다른 동물 생각한 적 있어?",
+            "norm_text": "개 고양이 말고 다른 동물 생각한 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "개/NNG+고양이/NNG+말/VV+고/EC+다른/MM+동물/NNG+생각/NNG+한/XSA+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 딱히 다른 반려동물은 생각해본 적이 없어",
+            "norm_text": "딱히 다른 반려동물은 생각해본 적이 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "딱히/MAG+다른/MM+반려/NNG+동물/NNG+은/JX+생각/NNG+해/XSV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 그래? 하긴 나는 미어캣이 귀엽더라 요즘",
+            "norm_text": "아 그래? 하긴 나는 미어캣이 귀엽더라 요즘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+하긴/MAJ+나/NP+는/JX+미어캣/NNP+이/JKS+귀엽/VA+더라/EC+요즘/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 내가 동물 영상을 많이 보는데 미어캣은 냄새가 난데",
+            "norm_text": "내가 동물 영상을 많이 보는데 미어캣은 냄새가 난데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+동물/NNG+영상/NNG+을/JKO+많이/MAG+보/VV+는데/EC+미어캣/NNP+은/JX+냄새/NNG+가/JKS+난데/NP+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그래? 키키 근데 생소한 동물이라 너무 귀엽더라",
+            "norm_text": "아 그래? 키키 근데 생소한 동물이라 너무 귀엽더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/XSV+ETN+근데/MAJ+생소/XR+한/XSA+ETM+동물/NNG+이/VCP+라/EC+너무/MAG+귀엽/VA+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 맞아 진짜 귀엽긴 하더라",
+            "norm_text": "응 맞아 진짜 귀엽긴 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+진짜/MAG+귀엽/VA+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너 유튜버 냥이아빠 채널 알아?",
+            "norm_text": "너 유튜버 냥이아빠 채널 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+유/JX+튜버/NNP+냥/NNBC+이/JKS+아빠/NNG+채널/NNG+알/VV+아/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어... 잘 모르겠어 나는 그냥 유튜브에 뜨는 거 봐",
+            "norm_text": "어... 잘 모르겠어 나는 그냥 유튜브에 뜨는 거 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+잘/MAG+모르/VV+겠/EP+어/EF+나/NP+는/JX+그냥/MAG+유튜브/NNP+에/JKB+뜨/VV+는/ETM+거/NNB+봐/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그 유튜버가 미어캣 영상 올리는데 꿀잼이야 키키",
+            "norm_text": "그 유튜버가 미어캣 영상 올리는데 꿀잼이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+유/NNP+튜버/NNP+가/JKS+미어캣/NNP+영상/NNG+올리/VV+는/ETM+데/NNB+꿀/VV+ETM+잼/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오 재밌겠다. 시간 나면 한번 봐볼게",
+            "norm_text": "오 재밌겠다. 시간 나면 한번 봐볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오/NR+재밌/VA+겠/EP+다/EF+시간/NNG+나/VV+면/EC+한/MM+번/NNBC+봐/VV+EC+볼/VX+게/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 내가 링크 보내줄게 구독 좀 해봐 키키",
+            "norm_text": "응 내가 링크 보내줄게 구독 좀 해봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "응/IC+내/NP+가/JKS+링크/NNG+보내/VV+EC+줄/VX+ETM+게/NNB+JKS+구독/NNG+좀/MAG+해/VV+EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 알겠어 시간 날 때마다 봐야겠다",
+            "norm_text": "응 알겠어 시간 날 때마다 봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+알/VV+겠/EP+어/EC+시간/NNG+날/NNG+때/NNG+마다/JX+봐야/VX+EC+VV+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

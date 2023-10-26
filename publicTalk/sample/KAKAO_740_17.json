@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 39916,
+    "name": "KAKAO_740_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049027096/KAKAO_740_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049027096/KAKAO_740_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37607,
+      "filename": "KAKAO_740_17.txt",
+      "title": "KAKAO_740_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 847,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 847,
+        "word_size": 268,
+        "text": "1 : 요즘 코로나로 마스크도 쓰고 손 잘 씻으니까 감기 같은 잔병들 없어 진 것 같아\n2 : ㅇㅈ 그거 하나는 순기능인 것 같아 나도 2년째 감기 안 걸린 듯\n1 : 그치 그치 근데 실내 생활 늘면서 모니터 보는 시간 늘어나서 안과는 더 가는 느낌 키키\n2 : 아 그건 정말 키키 큐 ㅠㅠ\n2 :  폰과 노트북이 편하면서도 눈 생각하면 슬퍼 그치만 종이로 보면 목이 또 아팠을 거야...!\n1 : 역시 우리가 그냥 영양제를 잘 챙겨 먹는 수밖에 없는 건가!\n2 : 안구와 척수 탈부착 가능하지 않은 이상 계속 그래야 할 듯 ㅠㅠ ㅜ\n2 : 너 요새 영양제 뭐 먹니\n1 : 신체도 기계 부품처럼 쉽게 깔아 끼우고 싶다...\n1 : 나 비타민A, C, D, 루테인, 오메가3, 유산균!\n2 : 의학 더 발전해 줬음 좋겠어 눈만이라도 교체 가능했으면...!\n2 : 그리고 비타민 짱이다 난 귀찮아서 멀티 비타민이랑 오메가만 먹어\n1 : 요즘 20대들이 멀티 비타민 정말 많이 먹더라 키키 내 주변에 다 멀티 먹는 듯\n2 : 아니 이게 일일이 먹기에는 목구멍이 안 남아날 것 같아 키키\n2 : 난 지금 오메가도 크기 더 줄었으면 좋겠어\n1 : 아니 알약 하나 정도도 넘어가는 느낌이 나?\n2 : 사실 막 넘어가는 게 불편하기보다 뭔가 알약이 목에 붙어 있으면 어쩌지 하는 게 더 큰 거 같아\n1 : 오, 이런 걱정은 처음이야, 물로 넘기면 호로록 넘어가잖아!\n2 : 하지만 어느 정도까지 먹어야 호로록 넘어가는지 모르겠어...!\n2 : 그럴다고 많이 먹기엔 식후에 그렇게 물 많이 먹으면 안될 것 같고...!\n1 : 나는 약 삼킬 때 입에 한 반 정도 물로 채우고 삼킨 다음에 또 3모금 정도 마셔!\n2 : 오 구체적이고 좋다 나도 다음엔 그렇게 해 봐야지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 코로나로 마스크도 쓰고 손 잘 씻으니까 감기 같은 잔병들 없어 진 것 같아",
+            "norm_text": "요즘 코로나로 마스크도 쓰고 손 잘 씻으니까 감기 같은 잔병들 없어 진 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+코로나/NNG+로/JKB+마스크/NNG+도/JX+쓰/VV+고/EC+손/NNG+잘/MAG+씻/VV+으니까/EC+감기/NNG+같/VA+은/ETM+잔병/NNG+들/XSN+없/VA+어/EC+진/VX+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : ㅇㅈ 그거 하나는 순기능인 것 같아 나도 2년째 감기 안 걸린 듯",
+            "norm_text": "ㅇㅈ 그거 하나는 순기능인 것 같아 나도 2년째 감기 안 걸린 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅇㅈ/UNKNOWN+그거/NP+하나/NR+는/JX+순기능/NNG+인/VCP+ETM+것/NNB+같/VA+아/EC+나/NP+도/JX+2/SN+년/NNBC+째/XSN+감기/NNG+안/MAG+걸린/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그치 그치 근데 실내 생활 늘면서 모니터 보는 시간 늘어나서 안과는 더 가는 느낌 키키",
+            "norm_text": "그치 그치 근데 실내 생활 늘면서 모니터 보는 시간 늘어나서 안과는 더 가는 느낌 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+그치/IC+근데/MAJ+실내/NNG+생활/NNG+늘/VV+면서/EC+모니터/NNG+보/VV+는/ETM+시간/NNG+늘어나/VV+서/EC+안과/NNG+는/JX+더/MAG+가/VV+는/ETM+느낌/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 그건 정말 키키 큐 ㅠㅠ",
+            "norm_text": "아 그건 정말 키키 큐 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그건/NP+JX+정말/MAG+키/NNG+키/NNG+큐/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 :  폰과 노트북이 편하면서도 눈 생각하면 슬퍼 그치만 종이로 보면 목이 또 아팠을 거야...!",
+            "norm_text": "폰과 노트북이 편하면서도 눈 생각하면 슬퍼 그치만 종이로 보면 목이 또 아팠을 거야...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "폰/NNG+과/JC+노트북/NNG+이/JKS+편하/VA+면서/EC+도/JX+눈/NNG+생각/NNG+하/XSV+면/EC+슬퍼/VA+EP+그치만/MAJ+종이/NNG+로/JKB+보/VV+면/EC+목/NNG+이/JKS+또/MAG+아팠/VA+EP+을/ETM+거/NNB+야/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 역시 우리가 그냥 영양제를 잘 챙겨 먹는 수밖에 없는 건가!",
+            "norm_text": "역시 우리가 그냥 영양제를 잘 챙겨 먹는 수밖에 없는 건가!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+우리/NP+가/JKS+그냥/MAG+영양제/NNG+를/JKO+잘/MAG+챙겨/VV+EC+먹/VV+는/ETM+수/NNB+밖에/JX+없/VA+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 안구와 척수 탈부착 가능하지 않은 이상 계속 그래야 할 듯 ㅠㅠ ㅜ",
+            "norm_text": "안구와 척수 탈부착 가능하지 않은 이상 계속 그래야 할 듯 ㅠㅠ ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안구/NNG+와/JC+척수/NNG+탈/XPN+부착/NNG+가능/NNG+하/XSV+지/EC+않/VX+은/ETM+이상/NNG+계속/MAG+그래야/VV+EC+할/VX+ETM+듯ㅠ/UNKNOWN+ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너 요새 영양제 뭐 먹니",
+            "norm_text": "너 요새 영양제 뭐 먹니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+요새/MAG+영양제/NNG+뭐/IC+먹/VV+니/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 신체도 기계 부품처럼 쉽게 깔아 끼우고 싶다...",
+            "norm_text": "신체도 기계 부품처럼 쉽게 깔아 끼우고 싶다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "신체/NNG+도/JX+기계/NNG+부품/NNG+처럼/JKB+쉽/VA+게/EC+깔/VV+아/EC+끼우/VV+고/EC+싶/VX+다/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나 비타민A, C, D, 루테인, 오메가3, 유산균!",
+            "norm_text": "나 비타민A, C, D, 루테인, 오메가3, 유산균!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+비타민/NNG+A/SL+,/SC+C/SL+,/SC+D/SL+,/SC+루테인/NNG+,/SC+오메가/NNG+3/SN+,/SC+유산균/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 의학 더 발전해 줬음 좋겠어 눈만이라도 교체 가능했으면...!",
+            "norm_text": "의학 더 발전해 줬음 좋겠어 눈만이라도 교체 가능했으면...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "의학/NNG+더/MAG+발전/NNG+해/XSV+EC+줬/VX+EP+음/ETN+좋/VA+겠/EP+어/EC+눈/NNG+만/JX+이라도/JX+교체/NNG+가능/NNG+했/XSV+EP+으면/EC+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그리고 비타민 짱이다 난 귀찮아서 멀티 비타민이랑 오메가만 먹어",
+            "norm_text": "그리고 비타민 짱이다 난 귀찮아서 멀티 비타민이랑 오메가만 먹어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+비타민/NNG+짱/NNG+이/VCP+다/EF+난/NP+JX+귀찮/VA+아서/EC+멀티/NNG+비타민/NNG+이랑/JKB+오메가/NNG+만/JX+먹/VV+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 요즘 20대들이 멀티 비타민 정말 많이 먹더라 키키 내 주변에 다 멀티 먹는 듯",
+            "norm_text": "요즘 20대들이 멀티 비타민 정말 많이 먹더라 키키 내 주변에 다 멀티 먹는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+20/SN+대/NNBC+들/XSN+이/JKS+멀티/NNG+비타민/NNG+정말/MAG+많이/MAG+먹/VV+더라/EC+키/NNG+키/XSV+ETN+내/NP+JKG+주변/NNG+에다/JKB+멀티/NNG+먹/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 이게 일일이 먹기에는 목구멍이 안 남아날 것 같아 키키",
+            "norm_text": "아니 이게 일일이 먹기에는 목구멍이 안 남아날 것 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+이게/NP+JKS+일일이/MAG+먹/VV+기/ETN+에/JKB+는/JX+목구멍/NNG+이/JKS+안/MAG+남아날/VV+ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 난 지금 오메가도 크기 더 줄었으면 좋겠어",
+            "norm_text": "난 지금 오메가도 크기 더 줄었으면 좋겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+지금/MAG+오메가/NNG+도/JX+크기/NNG+더/MAG+줄/VV+었/EP+으면/EC+좋/VA+겠/EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아니 알약 하나 정도도 넘어가는 느낌이 나?",
+            "norm_text": "아니 알약 하나 정도도 넘어가는 느낌이 나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+알약/NNG+하나/NR+정도/NNG+도/JX+넘어가/VV+는/ETM+느낌/NNG+이나/JC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 사실 막 넘어가는 게 불편하기보다 뭔가 알약이 목에 붙어 있으면 어쩌지 하는 게 더 큰 거 같아",
+            "norm_text": "사실 막 넘어가는 게 불편하기보다 뭔가 알약이 목에 붙어 있으면 어쩌지 하는 게 더 큰 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+막/NNG+넘어가/VV+는/ETM+게/NNB+JKS+불편/NNG+하/XSV+기/ETN+보다/JKB+뭔가/NP+VCP+EC+알약/NNG+이/JKS+목/NNG+에/JKB+붙/VV+어/EC+있/VX+으면/EC+어쩌/VV+지/EC+하/VV+는/ETM+게/NNB+JKS+더/MAG+큰/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오, 이런 걱정은 처음이야, 물로 넘기면 호로록 넘어가잖아!",
+            "norm_text": "오, 이런 걱정은 처음이야, 물로 넘기면 호로록 넘어가잖아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+,/SC+이런/MM+걱정/NNG+은/JX+처음/NNG+이/VCP+야/EF+,/SC+물/NNG+로/JKB+넘기/VV+면/EC+호로록/MAG+넘어가/VV+잖아/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 하지만 어느 정도까지 먹어야 호로록 넘어가는지 모르겠어...!",
+            "norm_text": "하지만 어느 정도까지 먹어야 호로록 넘어가는지 모르겠어...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하지만/MAJ+어느/MM+정도/NNG+까지/JX+먹/VV+어야/EC+호로록/MAG+넘어가/VV+는지/EC+모르/VV+겠/EP+어/EF+./SY+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그럴다고 많이 먹기엔 식후에 그렇게 물 많이 먹으면 안될 것 같고...!",
+            "norm_text": "그럴다고 많이 먹기엔 식후에 그렇게 물 많이 먹으면 안될 것 같고...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+다고/EC+많이/MAG+먹/VV+기/ETN+엔/JKB+JX+식후/NNG+에/JKB+그렇게/MAG+물/NNG+많이/MAG+먹/VV+으면/EC+안/MAG+될/VV+ETM+것/NNB+같/VA+고/EC+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 나는 약 삼킬 때 입에 한 반 정도 물로 채우고 삼킨 다음에 또 3모금 정도 마셔!",
+            "norm_text": "나는 약 삼킬 때 입에 한 반 정도 물로 채우고 삼킨 다음에 또 3모금 정도 마셔!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+약/NNG+삼킬/VV+ETM+때/NNG+입/NNG+에/JKB+한/MM+반/NNG+정도/NNG+물/NNG+로/JKB+채우/VV+고/EC+삼킨/VV+ETM+다음/NNG+에/JKB+또/MAG+3/SN+모금/NNBC+정도/NNG+마셔/VV+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 오 구체적이고 좋다 나도 다음엔 그렇게 해 봐야지",
+            "norm_text": "오 구체적이고 좋다 나도 다음엔 그렇게 해 봐야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+구체/NNG+적/XSN+이/VCP+고/EC+좋/VA+다/EF+나/NP+도/JX+다음/NNG+엔/JKB+JX+그렇게/MAG+해/VV+EC+봐야/VX+EC+VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

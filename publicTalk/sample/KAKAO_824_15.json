@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 69556,
+    "name": "KAKAO_824_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172056055486/KAKAO_824_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172056055486/KAKAO_824_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39008,
+      "filename": "KAKAO_824_15.txt",
+      "title": "KAKAO_824_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 556,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 556,
+        "word_size": 178,
+        "text": "1 : 백신 부스터샷 맞으라고 하면 맞을 꺼야?\n2 : 백신 부스터샷이 백신 한 번 더 맞는 거지?\n1 : 응응 미국 FDA에서는 부스터샷 접종 안 해도 기존 백신만으로 효과가 지속 된다고 했다는데...\n2 : 글쎄 나는 잘 모르겠어 그 때 돼서 생각해봐야지\n1 : ㅜㅜ 근데 또 사람들이 다 맞는다 그러면 맞게 될 거 같아\n2 : 맞아 모두가 맞는 분위기가 조성되면 나도 그럴 거 같긴 해 키키\n1 : 키키 이러다가 진짜 매년 맞을 것 같기도 하고 키키\n2 : 진짜 이러다가 독감 예방 주사처럼 맞을 거 같다 키키\n1 : 키키 그니까 ㅜㅜ 자꾸 변이 나오면 백신도 자꾸 업데이트 될 테니까\n2 : 변이 바이러스 안 생기고 끝났으면 좋겠네\n1 : 휴... 거의 지금 매달 변이 새로 생기는 거 같던데?\n2 : 응 기사 보면 계속 다른 바이러스들이 생기고 있다더라\n1 : 응 ㅜㅜ 나도 그래서 무서워... 백신이 아무 소용 없을까 봐 키키\n2 : 백신 접종해도 코로나 걸리는 사람 있다는데 그것도 좀 그래 ㅠ\n1 : 아 근데 그거는 중증으로 안 가고 별로 안 아프게 넘어간대!\n2 : 아 진짜? 내가 잘못 알았구나 다행이다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 백신 부스터샷 맞으라고 하면 맞을 꺼야?",
+            "norm_text": "백신 부스터샷 맞으라고 하면 맞을 꺼야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+부스터/NNG+샷/NNG+맞/VV+으라고/EC+하/VV+면/EC+맞/VV+을/ETM+꺼/NNB+VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 백신 부스터샷이 백신 한 번 더 맞는 거지?",
+            "norm_text": "백신 부스터샷이 백신 한 번 더 맞는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+부스터/NNG+샷/NNG+이/JKS+백신/NNG+한/MM+번/NNBC+더/MAG+맞/VV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응응 미국 FDA에서는 부스터샷 접종 안 해도 기존 백신만으로 효과가 지속 된다고 했다는데...",
+            "norm_text": "응응 미국 FDA에서는 부스터샷 접종 안 해도 기존 백신만으로 효과가 지속 된다고 했다는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+미국/NNP+FDA/SL+에서/JKB+는/JX+부스터/NNG+샷/NNG+접종/NNG+안/MAG+해도/VV+EC+기존/NNG+백신/NNG+만/JX+으로/JKB+효과/NNG+가/JKS+지속/NNG+된다고/XSV+EC+했/VX+EP+다는데/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 글쎄 나는 잘 모르겠어 그 때 돼서 생각해봐야지",
+            "norm_text": "글쎄 나는 잘 모르겠어 그 때 돼서 생각해봐야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "글쎄/IC+나/NP+는/JX+잘/MAG+모르/VV+겠/EP+어/EC+그때/NNG+돼서/XSV+EC+생각/NNG+해봐야/XSV+EC+VX+EC+VX+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : ㅜㅜ 근데 또 사람들이 다 맞는다 그러면 맞게 될 거 같아",
+            "norm_text": "ㅜㅜ 근데 또 사람들이 다 맞는다 그러면 맞게 될 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+근데/MAJ+또/MAG+사람/NNG+들/XSN+이/JKS+다/MAG+맞/VV+는다/EC+그러/VV+면/EC+맞/VV+게/EC+될/VV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 모두가 맞는 분위기가 조성되면 나도 그럴 거 같긴 해 키키",
+            "norm_text": "맞아 모두가 맞는 분위기가 조성되면 나도 그럴 거 같긴 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+모두/NNG+가/JKS+맞/VV+는/ETM+분위기/NNG+가/JKS+조성/NNG+되/XSV+면/EC+나/NP+도/JX+그럴/VA+ETM+거/NNB+같/VA+긴/ETN+JX+해/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 이러다가 진짜 매년 맞을 것 같기도 하고 키키",
+            "norm_text": "키키 이러다가 진짜 매년 맞을 것 같기도 하고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+이러/VV+다가/EC+진짜/MAG+매년/MAG+맞/VV+을/ETM+것/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 진짜 이러다가 독감 예방 주사처럼 맞을 거 같다 키키",
+            "norm_text": "진짜 이러다가 독감 예방 주사처럼 맞을 거 같다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+이러/VV+다가/EC+독감/NNG+예방/NNG+주사/NNG+처럼/JKB+맞/VV+을/ETM+거/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 그니까 ㅜㅜ 자꾸 변이 나오면 백신도 자꾸 업데이트 될 테니까",
+            "norm_text": "키키 그니까 ㅜㅜ 자꾸 변이 나오면 백신도 자꾸 업데이트 될 테니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+ㅜㅜ/UNKNOWN+자꾸/MAG+변/NNG+이/JKS+나오/VV+면/EC+백신/NNG+도/JX+자꾸/MAG+업데이트/NNG+될/XSV+ETM+테/NNB+VCP+니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 변이 바이러스 안 생기고 끝났으면 좋겠네",
+            "norm_text": "변이 바이러스 안 생기고 끝났으면 좋겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "변이/NNG+바이러스/NNG+안/MAG+생기/VV+고/EC+끝났으면/VV+EP+EC+좋/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 휴... 거의 지금 매달 변이 새로 생기는 거 같던데?",
+            "norm_text": "휴... 거의 지금 매달 변이 새로 생기는 거 같던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "휴/IC+./SY+거의/MAG+지금/MAG+매/MM+달변/NNG+이/JKS+새로/MAG+생기/VV+는/ETM+거/NNB+같/VA+던데/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 기사 보면 계속 다른 바이러스들이 생기고 있다더라",
+            "norm_text": "응 기사 보면 계속 다른 바이러스들이 생기고 있다더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+기사/NNG+보/VV+면/EC+계속/MAG+다른/MM+바이러스/NNG+들/XSN+이/JKS+생기/VV+고/EC+있/VX+다더라/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 ㅜㅜ 나도 그래서 무서워... 백신이 아무 소용 없을까 봐 키키",
+            "norm_text": "응 ㅜㅜ 나도 그래서 무서워... 백신이 아무 소용 없을까 봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응ㅜㅜ나도그래서무서워/UNKNOWN+./SY+백신이아무소용없을까봐키키/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 백신 접종해도 코로나 걸리는 사람 있다는데 그것도 좀 그래 ㅠ",
+            "norm_text": "백신 접종해도 코로나 걸리는 사람 있다는데 그것도 좀 그래 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "백신/NNG+접종/NNG+해도/XSV+EC+코로나/NNG+걸리/VV+는/ETM+사람/NNG+있/VV+다는데/EC+그것/NP+도/JX+좀/MAG+그래/VA+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 근데 그거는 중증으로 안 가고 별로 안 아프게 넘어간대!",
+            "norm_text": "아 근데 그거는 중증으로 안 가고 별로 안 아프게 넘어간대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+근데/MAJ+그거/NP+는/JX+중증/NNG+으로/JKB+안/MAG+가/VV+고/EC+별로/MAG+안/MAG+아프/VA+게/EC+넘/VV+어/EC+간대/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 진짜? 내가 잘못 알았구나 다행이다",
+            "norm_text": "아 진짜? 내가 잘못 알았구나 다행이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+내/NP+가/JKS+잘못/MAG+알/VV+았/EP+구나/EF+다행/NNG+이/VCP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

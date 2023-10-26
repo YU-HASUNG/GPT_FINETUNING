@@ -1,0 +1,419 @@
+{
+  "dataset": {
+    "identifier": 64073,
+    "name": "KAKAO_842_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154017873/KAKAO_842_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154017873/KAKAO_842_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40050,
+      "filename": "KAKAO_842_12.txt",
+      "title": "KAKAO_842_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 1068,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 1068,
+        "word_size": 325,
+        "text": "1 : 내가 원래 저번에 혼자 부산 여행 간 게 아~ 광안리 가서 남자라도 꼬셔야지~! 하고 약간의 사심 품고 간 건데 갑자기 4단계 때려서 해수욕장 폐쇄함 -_-\n2 : 키키 겁나 웃기네 키키\n2 : 혼자 온 남자 있으면 꼬실라고 했어?\n1 : 아니 사실 말은 그렇게 했는데... 어차피 거기서 만나는 애들은 다 목적이 뚜렷한 애들이니까 키키 알아서 걸러야지 ㅠ0ㅠ\n2 : 아 그래? 대박이네\n2 : 광안리 해수욕장이 그런 곳이었어? 처음 알았다\n1 : 헐 몰랐어? 광안리, 해운대 완전 헌팅 핫플이잖아 키키\n1 : 거기 가면 부산 사람 절대 없고 다 타지 사람이여 키키\n2 : 헐... 난 왜 한 번도 못 봤지 많이 가봤는데\n2 : 나 피해서 도망다닌 건가 키키\n2 : 그것도 비수기가 있나\n1 : 키키 그런 데서 마저 비수기면 너무 슬픈 거 아니냐 너 키키\n1 : 아마 여름이 제일 많긴 할 거야\n1 : 남자 두세 명 여자 두세 명 이렇게 가서 각자 술 마시다가 헌팅해서 노는 그런 스팟이래...\n2 : 오우야 대박이다... 나 같은 사람도 거기 가서 낄 자격이 주어지나\n1 : 거기 진짜 와꾸 어떻게 된 애들도 바글바글해...\n1 : 너는 잘생긴 거야...\n2 : 와 키키 그 정도라니 키키\n2 : 부산 갔을 때 낙곱새도 진짜 맛있게 먹었었는데\n1 : 오 나 부산 낙곱새 안 먹어봤어 ㅠ0ㅠ\n1 : 예전에 부산 갔을 때 조개찜 먹었는데 야씨 산지직송 진짜 존맛탱이더라 ㅇㅅㅇ...\n2 : 에에에애애애에~! 낙곱새를 안 먹어봤다니...\n2 : 대전에서도 팔 테니까 먹어봐 어디든 맛은 비슷할 테니 키키 맛있어 키키\n2 : 조개찜 맛있겠다...\n1 : 키키 아 뭐야 음성지원 됐어 키키\n1 : 응 그래서 대전 체인점에서 먹었는데 맛있어서 밥 두 그릇 먹음~^0^\n1 : 그리고 난 의외로 부산 돼지국밥이 별로였던 기억이...!\n2 : 맞아 근데 돼지국밥집이 맛이 다 천차만별이야\n2 : 진짜 맛있는 곳은 달라 키키\n1 : 아... 그렇구나 ㅎ... 아무 데나 들어가서 먹었는데 악 그 냄새 너무 많이 나서 고대로 빠꾸해서 나왔어\n1 : 돼지국밥 먹으러 부산을 다시 가야겠네 ^ㅅ^...\n2 : 키키 재작년 부산국제영화제 때 술 진짜 3일 동안 취해있었는데 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 내가 원래 저번에 혼자 부산 여행 간 게 아~ 광안리 가서 남자라도 꼬셔야지~! 하고 약간의 사심 품고 간 건데 갑자기 4단계 때려서 해수욕장 폐쇄함 -_-",
+            "norm_text": "내가 원래 저번에 혼자 부산 여행 간 게 아~ 광안리 가서 남자라도 꼬셔야지~! 하고 약간의 사심 품고 간 건데 갑자기 4단계 때려서 해수욕장 폐쇄함 -_-",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+원래/MAG+저번/NNG+에/JKB+혼자/MAG+부산/NNP+여행/NNG+간/NNB+게아/NNG+~/SY+광안리/NNP+가/VV+서/EC+남자/NNG+라도/VCP+EC+꼬셔야/VV+EC+지/VX+~/SY+하/VV+고/EC+약간/NNG+의/JKG+사심/NNG+품/VV+고/EC+간/VV+ETM+건데/NNB+VCP+EC+갑자기/MAG+4/SN+단계/NNG+때려서/VV+EC+해수욕장/NNG+폐쇄/NNG+함/XSV+ETN+-/SY+_/SY+-/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 겁나 웃기네 키키",
+            "norm_text": "키키 겁나 웃기네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "키/NNG+키/XSV+ETN+겁나/VV+EC+웃기/VV+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 혼자 온 남자 있으면 꼬실라고 했어?",
+            "norm_text": "혼자 온 남자 있으면 꼬실라고 했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혼자/MAG+온/VV+ETM+남자/NNG+있/VV+으면/EC+꼬실/VV+ETM+라고/VCP+EC+했/VX+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아니 사실 말은 그렇게 했는데... 어차피 거기서 만나는 애들은 다 목적이 뚜렷한 애들이니까 키키 알아서 걸러야지 ㅠ0ㅠ",
+            "norm_text": "아니 사실 말은 그렇게 했는데... 어차피 거기서 만나는 애들은 다 목적이 뚜렷한 애들이니까 키키 알아서 걸러야지 ㅠ0ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+사실/MAG+말/NNG+은/JX+그렇/VA+게/EC+했/VX+EP+는데/EC+./SY+./SY+어차피/MAG+거기/NP+서/JKB+만나/VV+는/ETM+애/NNG+들/XSN+은/JX+다/MAG+목적/NNG+이/JKS+뚜렷/XR+한/XSA+ETM+애/NNG+들/XSN+이/VCP+니까/EC+키/NNG+키/XSV+ETN+알/VV+아서/EC+걸러야/VV+EC+지ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아 그래? 대박이네",
+            "norm_text": "아 그래? 대박이네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+대박/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 광안리 해수욕장이 그런 곳이었어? 처음 알았다",
+            "norm_text": "광안리 해수욕장이 그런 곳이었어? 처음 알았다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "광안리/NNP+해수욕장/NNG+이/JKS+그런/MM+곳/NNG+이/VCP+었/EP+어/EF+처음/MAG+알/VV+았/EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헐 몰랐어? 광안리, 해운대 완전 헌팅 핫플이잖아 키키",
+            "norm_text": "헐 몰랐어? 광안리, 해운대 완전 헌팅 핫플이잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+몰랐/VV+EP+어/EF+광안리/NNP+,/SC+해운대/NNG+완전/NNG+헌팅/NNP+핫/NNG+플/NNG+이/VCP+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 거기 가면 부산 사람 절대 없고 다 타지 사람이여 키키",
+            "norm_text": "거기 가면 부산 사람 절대 없고 다 타지 사람이여 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+가/JKS+면부/NNG+산사람/NNG+절대/MAG+없/VA+고/EC+다/MAG+타/VV+지/EC+사람/NNG+이/VCP+여/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 헐... 난 왜 한 번도 못 봤지 많이 가봤는데",
+            "norm_text": "헐... 난 왜 한 번도 못 봤지 많이 가봤는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+난/NP+JX+왜/MAG+한/MM+번/NNBC+도/JX+못/MAG+봤/VV+EP+지많/EC+이/NP+가/JKS+봤/VV+EP+는데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나 피해서 도망다닌 건가 키키",
+            "norm_text": "나 피해서 도망다닌 건가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+피해서/VV+EC+도망/NNG+다닌/VV+ETM+건가/NNB+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그것도 비수기가 있나",
+            "norm_text": "그것도 비수기가 있나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+도/JX+비수기/NNG+가/JKS+있/VA+나/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 그런 데서 마저 비수기면 너무 슬픈 거 아니냐 너 키키",
+            "norm_text": "키키 그런 데서 마저 비수기면 너무 슬픈 거 아니냐 너 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+그런/MM+데/NNB+서/JKB+마저/JX+비수기/NNG+면/VCP+EC+너무/MAG+슬픈/VA+ETM+거/NNB+아니/VCN+냐/EC+너/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아마 여름이 제일 많긴 할 거야",
+            "norm_text": "아마 여름이 제일 많긴 할 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+여름/NNG+이/JKS+제일/MAG+많/VA+긴/ETN+JX+할/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 남자 두세 명 여자 두세 명 이렇게 가서 각자 술 마시다가 헌팅해서 노는 그런 스팟이래...",
+            "norm_text": "남자 두세 명 여자 두세 명 이렇게 가서 각자 술 마시다가 헌팅해서 노는 그런 스팟이래...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+두세/MM+명/NNBC+여자/NNG+두세/MM+명/NNBC+이렇게/MAG+가/VV+서/EC+각/MM+자술/NNG+마시/VV+다가/EC+헌팅/NNP+해서/VV+EC+노/VX+는/ETM+그런/MM+스팟/NNG+이/VCP+래/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오우야 대박이다... 나 같은 사람도 거기 가서 낄 자격이 주어지나",
+            "norm_text": "오우야 대박이다... 나 같은 사람도 거기 가서 낄 자격이 주어지나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오우/IC+야/IC+대박/NNG+이/VCP+다/EF+./SY+나/NP+같/VA+은/ETM+사람/NNG+도/JX+거기/NP+가/JKS+서/VV+EC+낄/VV+ETM+자격/NNG+이/JKS+주어지/VV+나/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 거기 진짜 와꾸 어떻게 된 애들도 바글바글해...",
+            "norm_text": "거기 진짜 와꾸 어떻게 된 애들도 바글바글해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+진짜/MAG+와꾸/UNKNOWN+어떻게/MAG+된/VV+ETM+애/NNG+들/XSN+도/JX+바글바글/MAG+해/VV+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 너는 잘생긴 거야...",
+            "norm_text": "너는 잘생긴 거야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+는/JX+잘생긴/VA+ETM+거/NNB+야/VCP+EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 와 키키 그 정도라니 키키",
+            "norm_text": "와 키키 그 정도라니 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와키/NNP+키/NNG+그/MM+정도/NNG+라니/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 부산 갔을 때 낙곱새도 진짜 맛있게 먹었었는데",
+            "norm_text": "부산 갔을 때 낙곱새도 진짜 맛있게 먹었었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "부산/NNP+갔/VV+EP+을/ETM+때/NNG+낙/NNG+곱새/NNG+도/JX+진짜/MAG+맛있/VA+게/EC+먹/VV+었었/EP+는데/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 오 나 부산 낙곱새 안 먹어봤어 ㅠ0ㅠ",
+            "norm_text": "오 나 부산 낙곱새 안 먹어봤어 ㅠ0ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오나/NNP+부산/NNP+낙/NNG+곱새/NNG+안/MAG+먹/VV+어/EC+봤/VX+EP+어ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 예전에 부산 갔을 때 조개찜 먹었는데 야씨 산지직송 진짜 존맛탱이더라 ㅇㅅㅇ...",
+            "norm_text": "예전에 부산 갔을 때 조개찜 먹었는데 야씨 산지직송 진짜 존맛탱이더라 ㅇㅅㅇ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예전/NNG+에/JKB+부산/NNP+갔/VV+EP+을/ETM+때/NNG+조개찜/NNG+먹/VV+었/EP+는데/EC+야/JX+씨/NNG+산지/NNG+직송/NNG+진짜/MAG+존/NNP+맛/NNG+탱/NNG+이/VCP+더라/EF+ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN+./SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 에에에애애애에~! 낙곱새를 안 먹어봤다니...",
+            "norm_text": "에에에애애애에~! 낙곱새를 안 먹어봤다니...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에에에/IC+애/NNG+애/NNG+애/NNG+에/JKB+~/SY+낙/NNG+곱새/NNG+를/JKO+안/MAG+먹/VV+어/EC+봤/VX+EP+다니/EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 대전에서도 팔 테니까 먹어봐 어디든 맛은 비슷할 테니 키키 맛있어 키키",
+            "norm_text": "대전에서도 팔 테니까 먹어봐 어디든 맛은 비슷할 테니 키키 맛있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대전/NNP+에서/JKB+도/JX+팔/VV+ETM+테/NNB+VCP+니까/EC+먹/VV+어/EC+봐/VX+EF+어디/NP+든/VCP+EC+맛/NNG+은/JX+비슷/XR+할테/XSA+ETM+NNP+VCP+니/EC+키/NNG+키/XSV+ETN+맛있/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 조개찜 맛있겠다...",
+            "norm_text": "조개찜 맛있겠다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조개찜/NNG+맛있/VA+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 25,
+            "text": "1 : 키키 아 뭐야 음성지원 됐어 키키",
+            "norm_text": "키키 아 뭐야 음성지원 됐어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+아/JKV+뭐/NP+야/VCP+EF+음성/NNG+지원/NNG+됐/XSV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 응 그래서 대전 체인점에서 먹었는데 맛있어서 밥 두 그릇 먹음~^0^",
+            "norm_text": "응 그래서 대전 체인점에서 먹었는데 맛있어서 밥 두 그릇 먹음~^0^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그래서/MAJ+대전/NNP+체인점/NNG+에서/JKB+먹/VV+었/EP+는데/EC+맛있/VA+어서/EC+밥/NNG+두/JX+그릇/MAG+먹/VV+음/ETN+~/SY+^/SY+0/SN+^/SY"
+          },
+          {
+            "id": 27,
+            "text": "1 : 그리고 난 의외로 부산 돼지국밥이 별로였던 기억이...!",
+            "norm_text": "그리고 난 의외로 부산 돼지국밥이 별로였던 기억이...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+난/NP+JX+의외/NNG+로/JKB+부산/NNP+돼지국밥/NNP+이/JKS+별로/MAG+였/VCP+EP+던/ETM+기억/NNG+이/JKS+./SY+./SY"
+          },
+          {
+            "id": 28,
+            "text": "2 : 맞아 근데 돼지국밥집이 맛이 다 천차만별이야",
+            "norm_text": "맞아 근데 돼지국밥집이 맛이 다 천차만별이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+근데/MAJ+돼지국밥/NNP+집/NNG+이/JKS+맛/NNG+이/JKS+다/MAG+천차만별/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 29,
+            "text": "2 : 진짜 맛있는 곳은 달라 키키",
+            "norm_text": "진짜 맛있는 곳은 달라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+맛있/VA+는/ETM+곳/NNG+은/JX+달라/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "1 : 아... 그렇구나 ㅎ... 아무 데나 들어가서 먹었는데 악 그 냄새 너무 많이 나서 고대로 빠꾸해서 나왔어",
+            "norm_text": "아... 그렇구나 ㅎ... 아무 데나 들어가서 먹었는데 악 그 냄새 너무 많이 나서 고대로 빠꾸해서 나왔어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+그렇/VA+구나/EF+ㅎ/XSA+./SY+아무데/NP+나/JX+들어가/VV+서/EC+먹/VV+었/EP+는데/EC+악/IC+그/IC+냄새/MAG+너무/MAG+많이/MAG+나/NP+서/JKB+고대로/MAG+빠꾸/NNG+해서/XSV+EC+나왔/VV+EP+어/EC"
+          },
+          {
+            "id": 31,
+            "text": "1 : 돼지국밥 먹으러 부산을 다시 가야겠네 ^ㅅ^...",
+            "norm_text": "돼지국밥 먹으러 부산을 다시 가야겠네 ^ㅅ^...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돼지국밥/NNP+먹/VV+으러/EC+부산/NNP+을/JKO+다시/MAG+가/VV+야/EC+VX+겠/EP+네/EF+^/SY+ㅅ/NNG+^/SY+./SY"
+          },
+          {
+            "id": 32,
+            "text": "2 : 키키 재작년 부산국제영화제 때 술 진짜 3일 동안 취해있었는데 키키",
+            "norm_text": "키키 재작년 부산국제영화제 때 술 진짜 3일 동안 취해있었는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+재작년/NNG+부산/NNP+국제/NNG+영화제/NNG+때/NNG+술/NNG+진짜/MAG+3/SN+일/NNBC+동안/NNG+취해/VV+EC+있/VX+었/EP+는데/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

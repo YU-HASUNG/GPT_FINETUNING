@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 55262,
+    "name": "KAKAO_681_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113623063278/KAKAO_681_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113623063278/KAKAO_681_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35433,
+      "filename": "KAKAO_681_14.txt",
+      "title": "KAKAO_681_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 498,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 498,
+        "word_size": 156,
+        "text": "1 : 성형수술 부작용으로 극단적인 선택을 한 여성이 있대!\n2 : 그것 참 슬픈 일이다. 나도 성형을 했는데 맘에 안 들면 힘들 것 같아\n1 : 그치 자녀가 있는데 자살을 했다는 게 너무 안타까워\n2 : 아 자녀가 있는데도 힘든 선택을 하신 거야?\n1 : 응 그렇대 ㅠㅠ 심한 통증과 부기를 호소했대\n2 : 얼마나 부작용으로 심한 스트레스를 받았으면 자살을 했을까...\n1 : 심지어 눈을 뜨거나 감을 수도 없다고 하네\n2 : 정말 안타까운 사연이다.\n2 : 어디서 성형을 했대?\n1 : 그건 잘 모르겠고 진료 기록을 밝히지 않았대 병원에서\n2 : 병원도 뭔가 숨기는 그런 게 있나 보다 찝찝하네\n1 : 그러게 말이야 눈이 반밖에 안 떠진다는 게 말이 안돼\n2 : 거기 의사가 성형 수술 실력이 부족한가 보다\n1 : 아니면 정말 의료 사고가 난 거 아닐까?...\n2 : 그럴 수도 있긴 하겠다. 어떤 성형이였데?\n1 : 눈꺼풀과 턱선을 올려주는 성형 이래 너 들어 봤어?\n2 : 어 자세히는 잘 모르는 내용인 것 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 성형수술 부작용으로 극단적인 선택을 한 여성이 있대!",
+            "norm_text": "성형수술 부작용으로 극단적인 선택을 한 여성이 있대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "성형수술/NNP+부작용/NNG+으로/JKB+극단/NNG+적/XSN+인/VCP+ETM+선택/NNG+을/JKO+한/VV+ETM+여성/NNG+이/JKS+있/VA+대/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그것 참 슬픈 일이다. 나도 성형을 했는데 맘에 안 들면 힘들 것 같아",
+            "norm_text": "그것 참 슬픈 일이다. 나도 성형을 했는데 맘에 안 들면 힘들 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+참/MAG+슬픈/VA+ETM+일/NNG+이/VCP+다/EF+나/NP+도/JX+성형/NNG+을/JKO+했/VV+EP+는데/EC+맘/NNG+에/JKB+안/MAG+들/VV+면/EC+힘들/VA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그치 자녀가 있는데 자살을 했다는 게 너무 안타까워",
+            "norm_text": "그치 자녀가 있는데 자살을 했다는 게 너무 안타까워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+자녀/NNG+가/JKS+있/VA+는데/EC+자살/NNG+을/JKO+했/VV+EP+다는/ETM+게/NNB+JKS+너무/MAG+안타까워/VA+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 자녀가 있는데도 힘든 선택을 하신 거야?",
+            "norm_text": "아 자녀가 있는데도 힘든 선택을 하신 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+자녀/NNG+가/JKS+있/VA+는데/EC+도/JX+힘든/VA+ETM+선택/NNG+을/JKO+하/VV+신/EP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 그렇대 ㅠㅠ 심한 통증과 부기를 호소했대",
+            "norm_text": "응 그렇대 ㅠㅠ 심한 통증과 부기를 호소했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그렇/VA+대/EF+ㅠㅠ/UNKNOWN+심한/VA+ETM+통증/NNG+과/JC+부기/NNG+를/JKO+호소/NNG+했/XSV+EP+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 얼마나 부작용으로 심한 스트레스를 받았으면 자살을 했을까...",
+            "norm_text": "얼마나 부작용으로 심한 스트레스를 받았으면 자살을 했을까...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼마나/MAG+부작용/NNG+으로/JKB+심한/VA+ETM+스트레스/NNG+를/JKO+받/VV+았/EP+으면/EC+자살/NNG+을/JKO+했/VV+EP+을까/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 심지어 눈을 뜨거나 감을 수도 없다고 하네",
+            "norm_text": "심지어 눈을 뜨거나 감을 수도 없다고 하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "심지어/MAG+눈/NNG+을/JKO+뜨/VV+거나/EC+감/VV+을/ETM+수/NNB+도/JX+없/VA+다고/EC+하네/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 정말 안타까운 사연이다.",
+            "norm_text": "정말 안타까운 사연이다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+안타까운/VA+ETM+사연/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 어디서 성형을 했대?",
+            "norm_text": "어디서 성형을 했대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+서/JKB+성형/NNG+을/JKO+했/VV+EP+대/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그건 잘 모르겠고 진료 기록을 밝히지 않았대 병원에서",
+            "norm_text": "그건 잘 모르겠고 진료 기록을 밝히지 않았대 병원에서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+잘/MAG+모르/VV+겠/EP+고/EC+진료/NNG+기록/NNG+을/JKO+밝히/VV+지/EC+않/VX+았/EP+대/XPN+병원/NNG+에서/JKB"
+          },
+          {
+            "id": 11,
+            "text": "2 : 병원도 뭔가 숨기는 그런 게 있나 보다 찝찝하네",
+            "norm_text": "병원도 뭔가 숨기는 그런 게 있나 보다 찝찝하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+도/JX+뭔가/NP+VCP+EC+숨기/VV+는/ETM+그런/MM+게/NNB+JKS+있/VA+나/NP+보다/JKB+찝찝/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그러게 말이야 눈이 반밖에 안 떠진다는 게 말이 안돼",
+            "norm_text": "그러게 말이야 눈이 반밖에 안 떠진다는 게 말이 안돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+말/NNG+이/VCP+야/EC+눈/NNG+이/JKS+반/NNG+밖에/JX+안/MAG+떠/VV+EC+진다는/VX+ETM+게/NNB+JKS+말/NNG+이/JKS+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 거기 의사가 성형 수술 실력이 부족한가 보다",
+            "norm_text": "거기 의사가 성형 수술 실력이 부족한가 보다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+의사/NNG+가/JKS+성형수술/NNP+실력/NNG+이/JKS+부족/NNG+한가/XSA+EC+보/VX+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아니면 정말 의료 사고가 난 거 아닐까?...",
+            "norm_text": "아니면 정말 의료 사고가 난 거 아닐까?...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니면/MAJ+정말/MAG+의료/NNG+사고/NNG+가/JKS+난/VV+ETM+거/NNB+아닐까/VCN+EF+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그럴 수도 있긴 하겠다. 어떤 성형이였데?",
+            "norm_text": "그럴 수도 있긴 하겠다. 어떤 성형이였데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+수/NNB+도/JX+있/VX+긴/ETN+JX+하/VX+겠/EP+다/EF+어떤/MM+성형/NNG+이/VCP+였/EP+데/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 눈꺼풀과 턱선을 올려주는 성형 이래 너 들어 봤어?",
+            "norm_text": "눈꺼풀과 턱선을 올려주는 성형 이래 너 들어 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "눈꺼풀/NNG+과/JC+턱/NNG+선/NNG+을/JKO+올려/VV+EC+주/VX+는/ETM+성형/NNG+이/VCP+래/EF+너/NP+들/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 어 자세히는 잘 모르는 내용인 것 같아",
+            "norm_text": "어 자세히는 잘 모르는 내용인 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+자세히/MAG+는/JX+잘/MAG+모르/VV+는/ETM+내용/NNG+인/VCP+ETM+것/NNB+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

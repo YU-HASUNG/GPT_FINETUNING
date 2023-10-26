@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34064,
+    "name": "KAKAO_735_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941048851/KAKAO_735_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941048851/KAKAO_735_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37477,
+      "filename": "KAKAO_735_07.txt",
+      "title": "KAKAO_735_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 576,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 576,
+        "word_size": 181,
+        "text": "1 : 다음 달에 우리 가족들이랑 리조트 잡아서 놀러 가는 거 어때?\n2 : 그래? 리조트면 어디 리조트로 가는 거야 ?\n1 : 충북에 있는 리조트 있는데 지은 지 얼마 안 돼서 깔끔하다고 하더라구\n2 : 오호 지어 진 지 얼마 안 됐으면 깨끗해서 좋겠네.\n1 : 응 지어 진 지 오래됐으면 시설이 노후화 돼서 별론데 사진 봤더니 또 괜찮더라고\n2 : 그럼 거기 방은 몇 개야?\n1 : 방은 하나는 아는 사람 통해서 아빠가 칠순 되셔서 무료로 대여 가능하고 방 하나 더 빌릴 꺼야\n2 : 그럼 총 룸 두 개 빌리는 거네?\n1 : 응 하나는 우리 단독으로 쓰라고 하셨고, 하나는 형네랑 같이 쓴다고 하드라구.\n2 : 그럼 나야 편하지~! 좋아~\n1 : 리조트에 수영장도 있는데 사진 보니깐 엄청 좋아~!\n2 : 래쉬가드도 챙겨야 하겠네... 자기는 가족들이랑 여행 간 지 오랜만 이지?\n1 : 완전… 오랜만이고 부모님이랑 어디 여행 간 기억이 없는 듯?\n2 : 역시 남자 형제들만 있으면 그런 것 같아. ㅋ 딸 많은 곳은 달라... ㅋ\n1 : 맞어 자긴 전에 가족들이랑 여행 많이 다녔다고 했었지?\n2 : 응 . 제주도도 가고 해외도 가고 여러 군데 갔었어.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 다음 달에 우리 가족들이랑 리조트 잡아서 놀러 가는 거 어때?",
+            "norm_text": "다음 달에 우리 가족들이랑 리조트 잡아서 놀러 가는 거 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다음/NNG+달/NNG+에/JKB+우리/NP+가족/NNG+들/XSN+이랑/JKB+리조트/NNG+잡/VV+아서/EC+놀러가/VV+는/ETM+거/NNB+어때/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그래? 리조트면 어디 리조트로 가는 거야 ?",
+            "norm_text": "그래? 리조트면 어디 리조트로 가는 거야 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+리조트/NNG+면/VCP+EC+어디/NP+리조트/NNG+로/JKB+가/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 충북에 있는 리조트 있는데 지은 지 얼마 안 돼서 깔끔하다고 하더라구",
+            "norm_text": "충북에 있는 리조트 있는데 지은 지 얼마 안 돼서 깔끔하다고 하더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "충북/NNP+에/JKB+있/VV+는/ETM+리조트/NNG+있/VV+는데/EC+지/VX+은지/EC+얼마/NNG+안/MAG+돼서/VV+EC+깔끔/XR+하/XSA+다고/EC+하/VV+더라구/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오호 지어 진 지 얼마 안 됐으면 깨끗해서 좋겠네.",
+            "norm_text": "오호 지어 진 지 얼마 안 됐으면 깨끗해서 좋겠네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+지/VV+어/EC+진지/VX+EC+얼마/NNG+안/MAG+됐/VV+EP+으면/EC+깨끗/XR+해서/XSA+EC+좋/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 지어 진 지 오래됐으면 시설이 노후화 돼서 별론데 사진 봤더니 또 괜찮더라고",
+            "norm_text": "응 지어 진 지 오래됐으면 시설이 노후화 돼서 별론데 사진 봤더니 또 괜찮더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+지/VV+어/EC+진지/VX+EC+오래/MAG+됐/VV+EP+으면/EC+시설/NNG+이/JKS+노후/NNG+화/XSN+돼서/XSV+EC+별론데/NNG+VCP+EC+사진/NNG+봤/VV+EP+더니/EC+또/MAG+괜찮/VA+더라고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그럼 거기 방은 몇 개야?",
+            "norm_text": "그럼 거기 방은 몇 개야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+거기/NP+방/NNG+은/JX+몇/MM+개/NNBC+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 방은 하나는 아는 사람 통해서 아빠가 칠순 되셔서 무료로 대여 가능하고 방 하나 더 빌릴 꺼야",
+            "norm_text": "방은 하나는 아는 사람 통해서 아빠가 칠순 되셔서 무료로 대여 가능하고 방 하나 더 빌릴 꺼야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "방/NNG+은/JX+하나/NR+는/JX+아/VV+는/ETM+사람/NNG+통해서/VV+EC+아빠/NNG+가/JKS+칠순/NNG+되/XSV+셔서/EP+EC+무료/NNG+로/JKB+대여/NNG+가능/NNG+하/XSV+고/EC+방/NNG+하나/NR+더/MAG+빌릴/VV+ETM+꺼/NNB+VCP+야/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 총 룸 두 개 빌리는 거네?",
+            "norm_text": "그럼 총 룸 두 개 빌리는 거네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+총/MM+룸/NNG+두/MM+개/NNBC+빌리/VV+는/ETM+거/NNB+네/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 하나는 우리 단독으로 쓰라고 하셨고, 하나는 형네랑 같이 쓴다고 하드라구.",
+            "norm_text": "응 하나는 우리 단독으로 쓰라고 하셨고, 하나는 형네랑 같이 쓴다고 하드라구.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+하나/NR+는/JX+우리/NP+단독/NNG+으로/JKB+쓰/VV+라고/EC+하/VX+셨/EP+EP+고/EC+,/SC+하나/NR+는/JX+형/NNG+네/XSN+랑/JKB+같이/MAG+쓴다고/VV+EC+하/VX+드라구/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그럼 나야 편하지~! 좋아~",
+            "norm_text": "그럼 나야 편하지~! 좋아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+나/NP+야/JX+편하/VA+지/EC+~/SY+좋/VA+아/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 리조트에 수영장도 있는데 사진 보니깐 엄청 좋아~!",
+            "norm_text": "리조트에 수영장도 있는데 사진 보니깐 엄청 좋아~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "리조트/NNG+에/JKB+수영장/NNG+도/JX+있/VA+는데/EC+사진/NNG+보/VV+니깐/EC+엄청/MAG+좋/VA+아/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 래쉬가드도 챙겨야 하겠네... 자기는 가족들이랑 여행 간 지 오랜만 이지?",
+            "norm_text": "래쉬가드도 챙겨야 하겠네... 자기는 가족들이랑 여행 간 지 오랜만 이지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "래쉬/NNP+가드/NNG+도/JX+챙겨야/VV+EC+하/VX+겠/EP+네/EF+./SY+자기/NP+는/JX+가족/NNG+들/XSN+이랑/JKB+여행/NNG+간지/VV+EC+오랜만/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 완전… 오랜만이고 부모님이랑 어디 여행 간 기억이 없는 듯?",
+            "norm_text": "완전… 오랜만이고 부모님이랑 어디 여행 간 기억이 없는 듯?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/NNG+…/SE+오랜만/NNG+이/VCP+고/EC+부모/NNG+님/XSN+이랑/JC+어디/NP+여행/NNG+간/NNB+기억/NNG+이/JKS+없/VA+는/ETM+듯/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 역시 남자 형제들만 있으면 그런 것 같아. ㅋ 딸 많은 곳은 달라... ㅋ",
+            "norm_text": "역시 남자 형제들만 있으면 그런 것 같아. ㅋ 딸 많은 곳은 달라... ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+남자/NNG+형제/NNG+들/XSN+만/JX+있/VX+으면/EC+그런/MM+것/NNB+같/VA+아/EF+ㅋ딸많은곳은달라/UNKNOWN+./SY+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞어 자긴 전에 가족들이랑 여행 많이 다녔다고 했었지?",
+            "norm_text": "맞어 자긴 전에 가족들이랑 여행 많이 다녔다고 했었지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+어/EC+자긴/NP+JX+전/NNG+에/JKB+가족/NNG+들/XSN+이랑/JKB+여행/NNG+많이/MAG+다녔/VV+EP+다고/EC+했었/VX+EP+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 . 제주도도 가고 해외도 가고 여러 군데 갔었어.",
+            "norm_text": "응 . 제주도도 가고 해외도 가고 여러 군데 갔었어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+제주도/NNP+도/JX+가/VV+고/EC+해외/NNG+도/JX+가/VV+고/EC+여러/MM+군데/NNBC+갔었/VV+EP+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

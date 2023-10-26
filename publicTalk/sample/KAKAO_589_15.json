@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 24474,
+    "name": "KAKAO_589_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822028896/KAKAO_589_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822028896/KAKAO_589_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31466,
+      "filename": "KAKAO_589_15.txt",
+      "title": "KAKAO_589_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 702,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 702,
+        "word_size": 204,
+        "text": "1 : 영국에서 휴대폰을 삼켰던 남성에 대한 개복 수술 없이 내시경으로 휴대폰을 분리해 꺼내는 데 성공한 것으로 알려졌대\n2 : 응 키키 휴대폰을 통째로 삼킨 후 통증을 호소해 병원으로 이송됐는데 이 남성이 왜 휴대폰을 삼켰는지는 모른다더라... 키키\n1 : 자세히 알려지지 않았나 봐...\n1 : 의료진은 개복 수술 없이 내시경으로 남성의 위장에 있던 휴대폰을 전면부, 후면부, 배터리 3개 부분으로 분리해 꺼내는 데 성공했대\n2 : 응 배터리가 몸 속에서 터질까 봐 걱정이었는데 성공적으로 끝났다니 다행이지!\n1 : 그러니까 아니 핸드폰을 왜 먹었지...? 그게 삼켜지나...?\n2 : 그니까... 알 수 없다는 게 더 어이;\n2 : 먹어진 것도 신기하고 키키\n1 : 그러게 근데 뉴스 정보가 너무 적어서 말들이 많더라\n2 : 그러게 그게 나온 김에 이유도 좀 알려주면 좋았을걸~\n1 : 응 내시경으로 꺼낸 것도 신기해!\n2 : 키키 이유야 어찌 됐든 성공적으로 수술이 됐으니 다행이지 뭐\n1 : 응 합병증 없이 잘 끝났다니 다행이지~!\n2 : 응 예전에 5세 미만 아이가 장난감을 먹는 경우는 좀 들어봤는데~ 핸드폰은 심했어 키키\n1 : 아 진짜? 근데 핸드폰 나온 거 보니까 엄청 크던데...\n2 : 그래? 그거까진 못 봤는데 키키\n2 : 난 영양제 먹는 것도 힘들던데;\n1 : 뭐 기름이랑 같이 먹었나... 외국은 진짜 별 일이 다 있네\n2 : 에이 키키 암튼! 뭐든 조심하자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 영국에서 휴대폰을 삼켰던 남성에 대한 개복 수술 없이 내시경으로 휴대폰을 분리해 꺼내는 데 성공한 것으로 알려졌대",
+            "norm_text": "영국에서 휴대폰을 삼켰던 남성에 대한 개복 수술 없이 내시경으로 휴대폰을 분리해 꺼내는 데 성공한 것으로 알려졌대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "영국/NNP+에서/JKB+휴대폰/NNG+을/JKO+삼켰/VV+EP+던/ETM+남성/NNG+에/JKB+대한/VV+ETM+개복/NNG+수술/NNG+없이/MAG+내시경/NNG+으로/JKB+휴대폰/NNG+을/JKO+분리/NNG+해/XSV+EC+꺼내/VV+는데/EC+성공/NNG+한/XSA+ETM+것/NNB+으로/JKB+알려졌/VV+EC+VX+EP+대/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 키키 휴대폰을 통째로 삼킨 후 통증을 호소해 병원으로 이송됐는데 이 남성이 왜 휴대폰을 삼켰는지는 모른다더라... 키키",
+            "norm_text": "응 키키 휴대폰을 통째로 삼킨 후 통증을 호소해 병원으로 이송됐는데 이 남성이 왜 휴대폰을 삼켰는지는 모른다더라... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+휴대폰/NNG+을/JKO+통째/NNG+로/JKB+삼킨/VV+ETM+후/NNG+통증/NNG+을/JKO+호소/NNG+해/XSV+EC+병원/NNG+으로/JKB+이송/NNG+됐/XSV+EP+는데/EC+이/MM+남성/NNG+이/JKS+왜/MAG+휴대폰/NNG+을/JKO+삼켰/VV+EP+는지/EC+는/JX+모른다/NNP+더라/VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 자세히 알려지지 않았나 봐...",
+            "norm_text": "자세히 알려지지 않았나 봐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자세히/MAG+알려/VV+EC+지/VX+지/EC+않/VX+았/EP+나/EC+봐/VX+EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 의료진은 개복 수술 없이 내시경으로 남성의 위장에 있던 휴대폰을 전면부, 후면부, 배터리 3개 부분으로 분리해 꺼내는 데 성공했대",
+            "norm_text": "의료진은 개복 수술 없이 내시경으로 남성의 위장에 있던 휴대폰을 전면부, 후면부, 배터리 3개 부분으로 분리해 꺼내는 데 성공했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "의료진/NNG+은/JX+개복/NNG+수술/NNG+없이/MAG+내시경/NNG+으로/JKB+남성/NNG+의/JKG+위장/NNG+에/JKB+있/VV+던/ETM+휴대폰/NNG+을/JKO+전면/NNG+부/NNG+,/SC+후/NNG+면부/NNG+,/SC+배터리/NNG+3/SN+개/NNBC+부분/NNG+으로/JKB+분리/NNG+해/XSV+EC+꺼내/VV+는데/EC+성공/NNG+했/XSV+EP+대/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 배터리가 몸 속에서 터질까 봐 걱정이었는데 성공적으로 끝났다니 다행이지!",
+            "norm_text": "응 배터리가 몸 속에서 터질까 봐 걱정이었는데 성공적으로 끝났다니 다행이지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+배터리/NNG+가/JKS+몸/NNG+속/NNG+에서/JKB+터질까/VV+EC+봐/VX+EF+걱정/NNG+이/VCP+었/EP+는데/EC+성공/NNG+적/XSN+으로/JKB+끝났/VV+EP+다니/EC+다행/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그러니까 아니 핸드폰을 왜 먹었지...? 그게 삼켜지나...?",
+            "norm_text": "그러니까 아니 핸드폰을 왜 먹었지...? 그게 삼켜지나...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러니까/MAJ+아니/IC+핸드폰/NNG+을/JKO+왜/MAG+먹/VV+었/EP+지/EF+./SY+./SY+그게/NP+JKS+삼켜/VV+EC+지/VX+나/EF+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그니까... 알 수 없다는 게 더 어이;",
+            "norm_text": "그니까... 알 수 없다는 게 더 어이;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+알/VV+ETM+수/NNB+없/VA+다는/ETM+게/NNB+JKS+더/MAG+어이/NNG+;/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 먹어진 것도 신기하고 키키",
+            "norm_text": "먹어진 것도 신기하고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "먹/VV+어/EC+진/VX+ETM+것/NNB+도/JX+신기/XR+하/XSA+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러게 근데 뉴스 정보가 너무 적어서 말들이 많더라",
+            "norm_text": "그러게 근데 뉴스 정보가 너무 적어서 말들이 많더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/IC+근데/MAJ+뉴스/NNG+정보/NNG+가/JKS+너무/MAG+적/VA+어서/EC+말/NNG+들/XSN+이/JKS+많/VA+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그러게 그게 나온 김에 이유도 좀 알려주면 좋았을걸~",
+            "norm_text": "그러게 그게 나온 김에 이유도 좀 알려주면 좋았을걸~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+그게/NP+JKS+나온/VV+ETM+김/NNB+에/JKB+이유/NNG+도/JX+좀/MAG+알려/VV+EC+주/VX+면/EC+좋/VA+았/EP+을/ETM+걸/NNB+JKO+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 내시경으로 꺼낸 것도 신기해!",
+            "norm_text": "응 내시경으로 꺼낸 것도 신기해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+내시경/NNG+으로/JKB+꺼낸/VV+ETM+것/NNB+도/JX+신기/XR+해/XSA+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 이유야 어찌 됐든 성공적으로 수술이 됐으니 다행이지 뭐",
+            "norm_text": "키키 이유야 어찌 됐든 성공적으로 수술이 됐으니 다행이지 뭐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+이유/NNG+야/VCP+EF+어찌/MAG+됐/VV+EP+든/ETM+성공/NNG+적/XSN+으로/JKB+수술/NNG+이/JKS+됐으니/VV+EP+EC+다행/NNG+이/VCP+지/EF+뭐/IC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 합병증 없이 잘 끝났다니 다행이지~!",
+            "norm_text": "응 합병증 없이 잘 끝났다니 다행이지~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+합병증/NNG+없이/MAG+잘/MAG+끝/NNG+났/VV+EP+다니/EC+다행/NNG+이/VCP+지/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 예전에 5세 미만 아이가 장난감을 먹는 경우는 좀 들어봤는데~ 핸드폰은 심했어 키키",
+            "norm_text": "응 예전에 5세 미만 아이가 장난감을 먹는 경우는 좀 들어봤는데~ 핸드폰은 심했어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+예전/NNG+에/JKB+5/SN+세미/NNG+만/JX+아이/NNG+가/JKS+장난감/NNG+을/JKO+먹/VV+는/ETM+경우/NNG+는/JX+좀/MAG+들/VV+어/EC+봤/VX+EP+는데/EC+~/SY+핸드폰/NNG+은/JX+심했/VA+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 진짜? 근데 핸드폰 나온 거 보니까 엄청 크던데...",
+            "norm_text": "아 진짜? 근데 핸드폰 나온 거 보니까 엄청 크던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+근데/MAJ+핸드폰/NNG+나온/VV+ETM+거/NNB+보/VV+니까/EC+엄청/MAG+크/VA+던데/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래? 그거까진 못 봤는데 키키",
+            "norm_text": "그래? 그거까진 못 봤는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+그거/NP+까진/JX+JX+못/MAG+봤/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 난 영양제 먹는 것도 힘들던데;",
+            "norm_text": "난 영양제 먹는 것도 힘들던데;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+영양제/NNG+먹/VV+는/ETM+것/NNB+도/JX+힘들/VA+던데/EC+;/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 뭐 기름이랑 같이 먹었나... 외국은 진짜 별 일이 다 있네",
+            "norm_text": "뭐 기름이랑 같이 먹었나... 외국은 진짜 별 일이 다 있네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+기름/NNG+이랑/JKB+같이/MAG+먹/VV+었/EP+나/EF+./SY+외국/NNG+은/JX+진짜/MAG+별일/NNG+이/VCP+다/EC+있/VX+네/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 에이 키키 암튼! 뭐든 조심하자!",
+            "norm_text": "에이 키키 암튼! 뭐든 조심하자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "에이키/NNP+키/NNG+암튼/MAJ+뭐/IC+든/VV+ETM+조심/NNG+하/XSA+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

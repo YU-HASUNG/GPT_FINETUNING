@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 32090,
+    "name": "KAKAO_730_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134517098961/KAKAO_730_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134517098961/KAKAO_730_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37383,
+      "filename": "KAKAO_730_13.txt",
+      "title": "KAKAO_730_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 762,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 762,
+        "word_size": 234,
+        "text": "1 : 오늘부터 가을 시작입니다.\n1 : 제가 정했습니다.\n2 : 키키 님이 정하면 가을인가요?\n1 : 오늘 점심 먹고 오는데 날씨가 선선하니 너무 좋더라고~ㅎ 가을로 정했다\n2 : 어휴 이번 주 비 좀 오고 다음 주부터 다시 더워지는데요?\n2 : 아직 여름입니다.\n1 : 예...?ㅋ 심한데요; 부산은 오늘 비 오나 보네\n2 : 태풍 찬투? 올라오고 있더라고? ㅜㅜ\n2 : 제주, 남부 지방 영향권이래 ㅜㅜ\n1 : 와... 여기는 날씨가 너무나도 푸르다 어떻게 이 작은 나라에서 날씨가 이렇게 다르노 키키\n2 : 그러게 키키 땅덩이도 좁은데... 일교차 커서 감기 걸리기 딱이다\n1 : 맞제 ㅠㅠ 우리도 바깥 날씨는 시원한데 사무실 안은 뭔가 더워서 에어컨 켜두는데 춥다 추워\n2 : 키키 우리도 ㅠ 사무실 무조건 에어컨 켜야 한다 사람이 많아서 ㅠㅠ\n2 : 근데 내 자리 에어컨이랑 멀어서 나만 맨날 더워 ㅠㅠ엉엉\n1 : 키키 니 안 그래도 더위 잘 타지 않나?\n2 : 응 맞아 키키 나 더위 너무 잘 타서 매해 여름 견딜 수 없다 ㅜㅜ\n2 : 근데 진짜 곧 추석인데 아직 낮 최고 기온이 28도가 말이가 ㅜㅜ\n1 : 키키 낮에는 좀 더운가? 싶고 저녁에는 추운가? 싶은 게 봄, 가을의 매력이징\n2 : 휴 나의 찐 가을은 18-19도 입니다... 가을아 오세요...\n1 : 가을 왔나? 싶으면 겨울이 올 것이다... 한파 특보 내리고...\n2 : 와 비 와서 그런지 진짜 습하다 엉엉 ㅜㅜ\n1 : 습한 게 더운 것보다 더 싫다...\n2 : 내 말이 ㅜㅜ 너무 꿉꿉하고 불쾌지수가 장난 아니네...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘부터 가을 시작입니다.",
+            "norm_text": "오늘부터 가을 시작입니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/NNG+부터/JX+가을/NNG+시작/NNG+입니다/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 제가 정했습니다.",
+            "norm_text": "제가 정했습니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제/NP+가/JKS+정했/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 키키 님이 정하면 가을인가요?",
+            "norm_text": "키키 님이 정하면 가을인가요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+님/XSN+이/JKS+정하/VV+면/EC+가을/NNG+인가요/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오늘 점심 먹고 오는데 날씨가 선선하니 너무 좋더라고~ㅎ 가을로 정했다",
+            "norm_text": "오늘 점심 먹고 오는데 날씨가 선선하니 너무 좋더라고~ㅎ 가을로 정했다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+점심/NNG+먹/VV+고/EC+오/VV+는데/EC+날씨/NNG+가/JKS+선선/NNG+하/XSV+니/EC+너무/MAG+좋/VA+더라고/EC+~/SY+ㅎ/XSA+가을/NNG+로/JKB+정했/VV+EP+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 어휴 이번 주 비 좀 오고 다음 주부터 다시 더워지는데요?",
+            "norm_text": "어휴 이번 주 비 좀 오고 다음 주부터 다시 더워지는데요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어휴/IC+이번/NNG+주비/NNG+좀/MAG+오/VV+고/EC+다음/NNG+주/NNG+부터/JX+다시/MAG+더워/VA+EC+지/VX+는데요/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아직 여름입니다.",
+            "norm_text": "아직 여름입니다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+여름/NNG+입니다/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 예...?ㅋ 심한데요; 부산은 오늘 비 오나 보네",
+            "norm_text": "예...?ㅋ 심한데요; 부산은 오늘 비 오나 보네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "예/IC+./SY+./SY+ㅋ심한데요/UNKNOWN+;/SY+부산/NNP+은/JX+오늘/MAG+비오/NNG+나/JC+보네/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 태풍 찬투? 올라오고 있더라고? ㅜㅜ",
+            "norm_text": "태풍 찬투? 올라오고 있더라고? ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "태풍/NNG+찬/VV+ETM+투/NNB+올라오/VV+고/EC+있/VX+더라고/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 제주, 남부 지방 영향권이래 ㅜㅜ",
+            "norm_text": "제주, 남부 지방 영향권이래 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제주/NNP+,/SC+남부/NNG+지방/NNG+영향/NNG+권/XSN+이/VCP+래/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 와... 여기는 날씨가 너무나도 푸르다 어떻게 이 작은 나라에서 날씨가 이렇게 다르노 키키",
+            "norm_text": "와... 여기는 날씨가 너무나도 푸르다 어떻게 이 작은 나라에서 날씨가 이렇게 다르노 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+여기/NP+는/JX+날씨/NNG+가/JKS+너무나/MAG+도/JX+푸르/VA+다/EF+어떻게/MAG+이/MM+작/VA+은/ETM+나라/NNG+에서/JKB+날씨/NNG+가/JKS+이렇게/MAG+다르/VA+노/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그러게 키키 땅덩이도 좁은데... 일교차 커서 감기 걸리기 딱이다",
+            "norm_text": "그러게 키키 땅덩이도 좁은데... 일교차 커서 감기 걸리기 딱이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키/NNG+땅덩이/NNG+도/JX+좁/VA+은데/EF+./SY+일교차/NNG+커서/VV+EC+감기/NNG+걸리/VV+기/ETN+딱/MAG+이/VCP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞제 ㅠㅠ 우리도 바깥 날씨는 시원한데 사무실 안은 뭔가 더워서 에어컨 켜두는데 춥다 추워",
+            "norm_text": "맞제 ㅠㅠ 우리도 바깥 날씨는 시원한데 사무실 안은 뭔가 더워서 에어컨 켜두는데 춥다 추워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+ㅠㅠ/UNKNOWN+우리/NP+도/JX+바깥/NNG+날씨/NNG+는/JX+시원/XR+한데/XSA+EC+사무실/NNG+안/NNG+은/JX+뭔가/NP+VCP+EC+더워서/VA+EC+에어컨/NNG+켜/VV+EC+두/VX+는데/EC+춥다/NNP+추워/VA+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 우리도 ㅠ 사무실 무조건 에어컨 켜야 한다 사람이 많아서 ㅠㅠ",
+            "norm_text": "키키 우리도 ㅠ 사무실 무조건 에어컨 켜야 한다 사람이 많아서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우리/NP+도/JX+ㅠ/UNKNOWN+사무실/NNG+무조건/MAG+에어컨/NNG+켜/VV+야/EC+한다/VX+EC+사람/NNG+이/JKS+많/VA+아서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 근데 내 자리 에어컨이랑 멀어서 나만 맨날 더워 ㅠㅠ엉엉",
+            "norm_text": "근데 내 자리 에어컨이랑 멀어서 나만 맨날 더워 ㅠㅠ엉엉",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+내/MM+자리/NNG+에어컨/NNG+이랑/JKB+멀/VA+어서/EC+나/NP+만/JX+맨날/MAG+더워/VA+EC+ㅠㅠ/UNKNOWN+엉엉/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 니 안 그래도 더위 잘 타지 않나?",
+            "norm_text": "키키 니 안 그래도 더위 잘 타지 않나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+니/EC+안/MAG+그래도/VV+EC+더위/NNG+잘/MAG+타/VV+지/EC+않/VX+나/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 맞아 키키 나 더위 너무 잘 타서 매해 여름 견딜 수 없다 ㅜㅜ",
+            "norm_text": "응 맞아 키키 나 더위 너무 잘 타서 매해 여름 견딜 수 없다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+키/NNG+키나/XSA+ETN+JX+더위/NNG+너무/MAG+잘/MAG+타/VV+서/EC+매해/MAG+여름/NNG+견딜/VV+ETM+수/NNB+없/VA+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 근데 진짜 곧 추석인데 아직 낮 최고 기온이 28도가 말이가 ㅜㅜ",
+            "norm_text": "근데 진짜 곧 추석인데 아직 낮 최고 기온이 28도가 말이가 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+진짜/MAG+곧/MAG+추석/NNG+인데/VCP+EC+아직/MAG+낮/NNG+최고/NNG+기온/NNG+이/JKS+28/SN+도가말이가ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 낮에는 좀 더운가? 싶고 저녁에는 추운가? 싶은 게 봄, 가을의 매력이징",
+            "norm_text": "키키 낮에는 좀 더운가? 싶고 저녁에는 추운가? 싶은 게 봄, 가을의 매력이징",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+낮/NNG+에/JKB+는/JX+좀/MAG+더/MAG+운가/NNG+싶/VX+고/EC+저녁/NNG+에/JKB+는/JX+추운가/VA+EF+싶/VX+은/ETM+게/NNB+JKS+봄/NNG+,/SC+가을/NNG+의/JKG+매력/NNG+이/JKS+징/NNG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 휴 나의 찐 가을은 18-19도 입니다... 가을아 오세요...",
+            "norm_text": "휴 나의 찐 가을은 18-19도 입니다... 가을아 오세요...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴/IC+나/NP+의/JKG+찐/VV+ETM+가을/NNG+은/JX+18/SN+-/SY+19/SN+도/NNBC+입니다/VCP+EF+./SY+./SY+가을/NNP+아/JKV+오/VV+세요/EP+EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 가을 왔나? 싶으면 겨울이 올 것이다... 한파 특보 내리고...",
+            "norm_text": "가을 왔나? 싶으면 겨울이 올 것이다... 한파 특보 내리고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가을/NNG+왔/VV+EP+나/EF+싶/VX+으면/EC+겨울/NNG+이/JKS+올/VV+ETM+것/NNB+이/VCP+다/EF+./SY+한파/NNG+특보/NNG+내리/VV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 와 비 와서 그런지 진짜 습하다 엉엉 ㅜㅜ",
+            "norm_text": "와 비 와서 그런지 진짜 습하다 엉엉 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와비/NNG+와서/VV+EC+그런지/VA+EC+진짜/MAG+습하/VA+다/EC+엉엉/MAG+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 습한 게 더운 것보다 더 싫다...",
+            "norm_text": "습한 게 더운 것보다 더 싫다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "습한/VA+ETM+게/NNB+JKS+더운/VA+ETM+것/NNB+보다/JKB+더/MAG+싫/VA+다/EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 내 말이 ㅜㅜ 너무 꿉꿉하고 불쾌지수가 장난 아니네...",
+            "norm_text": "내 말이 ㅜㅜ 너무 꿉꿉하고 불쾌지수가 장난 아니네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+ㅜㅜ/UNKNOWN+너무/MAG+꿉꿉/XR+하/XSA+고/EC+불쾌지수/NNG+가/JKS+장난/NNG+아니/VCN+네/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

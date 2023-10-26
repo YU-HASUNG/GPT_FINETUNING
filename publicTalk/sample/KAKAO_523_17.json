@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22235,
+    "name": "KAKAO_523_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163926056645/KAKAO_523_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163926056645/KAKAO_523_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30208,
+      "filename": "KAKAO_523_17.txt",
+      "title": "KAKAO_523_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 537,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 537,
+        "word_size": 166,
+        "text": "1 : 아빠도 보험 들어 놨지?\n2 : 아빠도 필요한 건 다 들어뒀지~\n1 : 내 친구가 보험을 시작했다고 계속 연락 오네...\n2 : 그 나이 때 쯤 보험 많이들 하니까 올 때 됐지~ 뭐라고 와?\n1 : 그냥 기존에 가지고 있는 거 조회해준다고...하는데...\n2 : 아빠가 잘 챙겨 놨다고 안 해도 된다고 해~ 자꾸 연락 온다~\n1 : 안 한다고 했지 내 보험은 아빠가 관리하니까 ㅠㅠ\n2 : 그래~ 친구가 서운해 해도 어쩔 수 없어~ 나중을 보면 그게 친구 지키는 거야~\n1 : 나보고 이제 보험은 내가 관리해야 된다면서 그러니까 ㅠㅠ\n2 : 서서히 아빠가 딸한테 알아서 넘겨줄 거니까~ 괜찮아~\n1 : 나도 보험 공부 좀 할까 너무 아무것도 모르는 것 같아\n2 : 기본적인 것만 좀 알아두면 돼~ 건강보험부터 해서~ 유튜브 그거로 한번 찾아봐~\n1 : 종신 보험 얘기도 하던데 나한테 필요한 거야?\n2 : 종신 보험 필요 없어~! 안 한다고 해~\n1 : 어떻게 말해야 될지 모르겠네 ㅠㅠ 으어어어어\n2 : 그냥 아빠가 관리한다고~ 필요 없다고 해~ 또 연락 오면 그냥 받지 말고~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아빠도 보험 들어 놨지?",
+            "norm_text": "아빠도 보험 들어 놨지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+도/JX+보험/NNG+들/VV+어/EC+놨/VX+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아빠도 필요한 건 다 들어뒀지~",
+            "norm_text": "아빠도 필요한 건 다 들어뒀지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+도/JX+필요/NNG+한/XSA+ETM+건/NNB+JX+다/MAG+들/VV+어/EC+뒀/VX+EP+지/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 내 친구가 보험을 시작했다고 계속 연락 오네...",
+            "norm_text": "내 친구가 보험을 시작했다고 계속 연락 오네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+가/JKS+보험/NNG+을/JKO+시작/NNG+했/XSV+EP+다고/EC+계속/MAG+연락/NNG+오/VV+네/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그 나이 때 쯤 보험 많이들 하니까 올 때 됐지~ 뭐라고 와?",
+            "norm_text": "그 나이 때 쯤 보험 많이들 하니까 올 때 됐지~ 뭐라고 와?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그나/MAJ+이때/NP+쯤/XSN+보험/NNG+많이/MAG+들/XSN+하/VV+니까/EC+올/MM+때/NNG+됐/XSV+EP+지/EC+~/SY+뭐/NP+라고/VCP+EC+와/VX+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그냥 기존에 가지고 있는 거 조회해준다고...하는데...",
+            "norm_text": "그냥 기존에 가지고 있는 거 조회해준다고...하는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+기존/NNG+에/JKB+가지/VV+고/EC+있/VX+는/ETM+거/NNB+조회/NNG+해/XSV+EC+준다고/VX+EF+./SY+하/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아빠가 잘 챙겨 놨다고 안 해도 된다고 해~ 자꾸 연락 온다~",
+            "norm_text": "아빠가 잘 챙겨 놨다고 안 해도 된다고 해~ 자꾸 연락 온다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아빠/NNG+가/JKS+잘/MAG+챙겨놨/VV+EC+VX+EP+다고/EC+안/MAG+해도/VV+EC+된다고/VV+EC+해/VV+EC+~/SY+자꾸/MAG+연락/NNG+온다/VV+EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 안 한다고 했지 내 보험은 아빠가 관리하니까 ㅠㅠ",
+            "norm_text": "안 한다고 했지 내 보험은 아빠가 관리하니까 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+한다고/VV+EC+했/VX+EP+지/EF+내/NP+JKG+보험/NNG+은/JX+아빠/NNG+가/JKS+관리/NNG+하/XSV+니까/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그래~ 친구가 서운해 해도 어쩔 수 없어~ 나중을 보면 그게 친구 지키는 거야~",
+            "norm_text": "그래~ 친구가 서운해 해도 어쩔 수 없어~ 나중을 보면 그게 친구 지키는 거야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+~/SY+친구/NNG+가/JKS+서운/XR+해해도/XSA+EC+VV+EC+어쩔/VV+ETM+수/NNB+없/VA+어/EC+~/SY+나중/NNG+을/JKO+보/VV+면/EC+그게/NP+JKS+친구/NNG+지키/VV+는/ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나보고 이제 보험은 내가 관리해야 된다면서 그러니까 ㅠㅠ",
+            "norm_text": "나보고 이제 보험은 내가 관리해야 된다면서 그러니까 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+보고/JKB+이제/MAG+보험/NNG+은/JX+내/NP+가/JKS+관리/NNG+해야/XSV+EC+된다면서/VX+EC+그러/VV+니까/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 서서히 아빠가 딸한테 알아서 넘겨줄 거니까~ 괜찮아~",
+            "norm_text": "서서히 아빠가 딸한테 알아서 넘겨줄 거니까~ 괜찮아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서서히/MAG+아빠/NNG+가/JKS+딸/NNG+한테/JKB+알/VV+아서/EC+넘겨/VV+EC+줄/VX+ETM+거/NNB+니까/VCP+EC+~/SY+괜찮/VA+아/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나도 보험 공부 좀 할까 너무 아무것도 모르는 것 같아",
+            "norm_text": "나도 보험 공부 좀 할까 너무 아무것도 모르는 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+보험/NNG+공부/NNG+좀/MAG+할까/VV+EC+너무/MAG+아무것/NNG+도/JX+모르/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 기본적인 것만 좀 알아두면 돼~ 건강보험부터 해서~ 유튜브 그거로 한번 찾아봐~",
+            "norm_text": "기본적인 것만 좀 알아두면 돼~ 건강보험부터 해서~ 유튜브 그거로 한번 찾아봐~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "기본/NNG+적/XSN+인/VCP+ETM+것/NNB+만/JX+좀/MAG+알/VV+아/EC+두/VX+면/EC+돼/VV+EC+~/SY+건강/NNG+보험/NNG+부터/JX+해서/VV+EC+~/SY+유튜브/NNP+그거/NP+로/JKB+한번/MAG+찾아봐/VV+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 종신 보험 얘기도 하던데 나한테 필요한 거야?",
+            "norm_text": "종신 보험 얘기도 하던데 나한테 필요한 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "종신/NNG+보험/NNG+얘기/NNG+도/JX+하/VV+던데/EC+나/NP+한테/JKB+필요/NNG+한/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 종신 보험 필요 없어~! 안 한다고 해~",
+            "norm_text": "종신 보험 필요 없어~! 안 한다고 해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "종신/NNG+보험/NNG+필요/NNG+없/VA+어/EC+~/SY+안/MAG+한다고/VV+EC+해/VV+EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 어떻게 말해야 될지 모르겠네 ㅠㅠ 으어어어어",
+            "norm_text": "어떻게 말해야 될지 모르겠네 ㅠㅠ 으어어어어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떻게/MAG+말/NNG+해야/XSV+EC+될지/VV+EC+모르/VV+겠/EP+네/EF+ㅠㅠ/UNKNOWN+으/IC+어어어어/IC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그냥 아빠가 관리한다고~ 필요 없다고 해~ 또 연락 오면 그냥 받지 말고~",
+            "norm_text": "그냥 아빠가 관리한다고~ 필요 없다고 해~ 또 연락 오면 그냥 받지 말고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그냥/MAG+아빠/NNG+가/JKS+관리/NNG+한다고/XSV+EC+~/SY+필요/NNG+없/VA+다고/EC+해/VV+EC+~/SY+또/MAG+연락/NNG+오/VV+면/EC+그냥/MAG+받/VV+지/EC+말/VX+고/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

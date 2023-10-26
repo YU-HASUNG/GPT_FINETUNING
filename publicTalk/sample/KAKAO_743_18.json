@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 71737,
+    "name": "KAKAO_743_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134528095538/KAKAO_743_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134528095538/KAKAO_743_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37408,
+      "filename": "KAKAO_743_18.txt",
+      "title": "KAKAO_743_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 555,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 555,
+        "word_size": 193,
+        "text": "1 : 아 옷 사야 하는데 어디서 사지\n2 : 인터넷 쇼핑몰에서 사 요새는 그게 나아\n1 : 인터넷은 직접 못 입어보는데 괜찮아?\n2 : 뭐 사이즈 잘 측정해서 잘 구입하면 난 괜찮던데 비교해보고 사기도 쉽고\n1 : 그런가? 괜찮은 쇼핑몰 있어?\n2 : 많지 난 한 곳에서 사기보다 여러 사이트 보고 키키\n2 : 쇼핑해 보는 재미도 있거든\n1 : 어디어디 있어? 추천 좀 해줘 키키\n2 : 요새 어플에 각 쇼핑몰 모아서 볼 수 있어 키키\n2 : 그런 거 다운 받아서 봐 진짜 편해\n1 : 오 당장 받아야겠다 키키 옷이 급해 배송은 빨리 오려나\n2 : 당일 배송 되는 것도 있고 미리 보고 사야 해\n2 : 늦는 데는 너무 늦더라\n1 : 알겠어 키키 쇼핑 한 번하고 새 옷 입고 키키\n1 : 놀러 가야지 같이 놀자\n2 : 키키 좋지 키키 새 옷 샀으면 한번 나가줘야지\n1 : 어디 가서 놀까? 영화 볼까?\n2 : 영화 좋지!\n2 : 나 맞다 영화 할인 받아서 가격 저렴하게 구할 수 있는 방법 알아\n1 : 오 진짜? 그럼 영화표는 구해줘 내가 밥 살게\n2 : 키키 그래 옷 사고 날 잡아보자\n2 : 영화는 그때 뭐 볼지 같이 고르자~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 옷 사야 하는데 어디서 사지",
+            "norm_text": "아 옷 사야 하는데 어디서 사지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+옷/NNG+사야/NNG+하/XSV+는데/EC+어디/NP+서/JKB+사지/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 인터넷 쇼핑몰에서 사 요새는 그게 나아",
+            "norm_text": "인터넷 쇼핑몰에서 사 요새는 그게 나아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "인터넷/NNG+쇼핑몰/NNG+에서/JKB+사/NR+요새/NNG+는/JX+그게/NP+JKS+나아/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 인터넷은 직접 못 입어보는데 괜찮아?",
+            "norm_text": "인터넷은 직접 못 입어보는데 괜찮아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "인터넷/NNG+은/JX+직접/MAG+못/MAG+입/VV+어/EC+보/VX+는/ETM+데/NNB+괜찮/VA+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 뭐 사이즈 잘 측정해서 잘 구입하면 난 괜찮던데 비교해보고 사기도 쉽고",
+            "norm_text": "뭐 사이즈 잘 측정해서 잘 구입하면 난 괜찮던데 비교해보고 사기도 쉽고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+사이즈/NNG+잘/MAG+측정/NNG+해서/XSV+EC+잘/MAG+구입/NNG+하/XSV+면/EC+난/NP+JX+괜찮/VA+던데/EC+비교/NNG+해/XSV+EC+보/VX+고/EC+사/VV+기/ETN+도/JX+쉽/VA+고/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런가? 괜찮은 쇼핑몰 있어?",
+            "norm_text": "그런가? 괜찮은 쇼핑몰 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런가/VA+EF+괜찮/VA+은/ETM+쇼핑몰/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 많지 난 한 곳에서 사기보다 여러 사이트 보고 키키",
+            "norm_text": "많지 난 한 곳에서 사기보다 여러 사이트 보고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "많/VA+지/EF+난/NP+JX+한/MM+곳/NNG+에서/JKB+사기/NNG+보다/JKB+여러/MM+사이트/NNG+보고/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 쇼핑해 보는 재미도 있거든",
+            "norm_text": "쇼핑해 보는 재미도 있거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쇼핑/NNG+해/XSV+EC+보/VX+는/ETM+재미/NNG+도/JX+있/VA+거든/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어디어디 있어? 추천 좀 해줘 키키",
+            "norm_text": "어디어디 있어? 추천 좀 해줘 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "어디/NP+어디/NP+있/VA+어/EF+추천/NNG+좀/MAG+해/VV+EC+줘/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 요새 어플에 각 쇼핑몰 모아서 볼 수 있어 키키",
+            "norm_text": "요새 어플에 각 쇼핑몰 모아서 볼 수 있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/MAG+어/IC+플/NNG+에/JKB+각/MM+쇼핑몰/NNG+모아서/VV+EC+볼/VX+ETM+수/NNB+있/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그런 거 다운 받아서 봐 진짜 편해",
+            "norm_text": "그런 거 다운 받아서 봐 진짜 편해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+거/NNB+다운/XSA+ETM+받/VV+아서/EC+봐/VX+EF+진짜/MAG+편해/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 당장 받아야겠다 키키 옷이 급해 배송은 빨리 오려나",
+            "norm_text": "오 당장 받아야겠다 키키 옷이 급해 배송은 빨리 오려나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+당장/NNG+받/VV+아야/EC+겠/EP+다키키/NNP+옷/NNG+이/JKS+급해/VA+EC+배송/NNG+은/JX+빨리/MAG+오/VV+려나/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 당일 배송 되는 것도 있고 미리 보고 사야 해",
+            "norm_text": "당일 배송 되는 것도 있고 미리 보고 사야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당일/NNG+배송/NNG+되/XSV+는/ETM+것/NNB+도/JX+있/VA+고/EC+미리/MAG+보/VV+고/EC+사/VV+야/EC+해/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 늦는 데는 너무 늦더라",
+            "norm_text": "늦는 데는 너무 늦더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "늦/VA+는/ETM+데/NNB+는/JX+너무/MAG+늦/VA+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 알겠어 키키 쇼핑 한 번하고 새 옷 입고 키키",
+            "norm_text": "알겠어 키키 쇼핑 한 번하고 새 옷 입고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+겠/EP+어/EC+키/NNG+키/NNG+쇼핑/NNG+한/MM+번/NNBC+하/VV+고/EC+새/VV+옷/EC+입/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 놀러 가야지 같이 놀자",
+            "norm_text": "놀러 가야지 같이 놀자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "놀러/NNP+가/JKS+야지/NNG+같이/JKB+놀/VV+자/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 좋지 키키 새 옷 샀으면 한번 나가줘야지",
+            "norm_text": "키키 좋지 키키 새 옷 샀으면 한번 나가줘야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+지/EC+키/NNG+키/XSV+ETN+새/VV+옷/EC+샀으면/VV+EP+EC+한/MM+번/NNBC+나가/VV+줘야/EC+VX+EC+VX+지/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 어디 가서 놀까? 영화 볼까?",
+            "norm_text": "어디 가서 놀까? 영화 볼까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+가/JKS+서/VV+EC+놀/VV+까/EF+영화/NNG+볼까/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 영화 좋지!",
+            "norm_text": "영화 좋지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영화/NNG+좋/VA+지/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 나 맞다 영화 할인 받아서 가격 저렴하게 구할 수 있는 방법 알아",
+            "norm_text": "나 맞다 영화 할인 받아서 가격 저렴하게 구할 수 있는 방법 알아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+맞/VV+다/EC+영화/NNG+할인/NNG+받/VV+아서/EC+가격/NNG+저렴/XR+하/XSA+게/EC+구할/VV+ETM+수/NNB+있/VV+는/ETM+방법/NNG+알/VV+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 오 진짜? 그럼 영화표는 구해줘 내가 밥 살게",
+            "norm_text": "오 진짜? 그럼 영화표는 구해줘 내가 밥 살게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오/IC+진짜/MAG+그럼/MAJ+영화/NNG+표/NNG+는/JX+구해/VV+EC+줘/VX+EF+내/NP+가/JKS+밥/NNG+살/VV+게/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 키키 그래 옷 사고 날 잡아보자",
+            "norm_text": "키키 그래 옷 사고 날 잡아보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VA+EC+옷/NNG+사고/NNG+날/NNG+잡/VV+아/EC+보/VX+자/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 영화는 그때 뭐 볼지 같이 고르자~",
+            "norm_text": "영화는 그때 뭐 볼지 같이 고르자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영화/NNG+는/JX+그때/NNG+뭐/IC+볼지/VV+EC+같이/MAG+고르/VV+자/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

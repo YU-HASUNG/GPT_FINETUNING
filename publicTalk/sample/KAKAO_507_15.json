@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 29575,
+    "name": "KAKAO_507_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151245087265/KAKAO_507_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151245087265/KAKAO_507_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28665,
+      "filename": "KAKAO_507_15.txt",
+      "title": "KAKAO_507_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 472,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 472,
+        "word_size": 145,
+        "text": "1 : 일본 총리 바뀐다는 얘기 들었어?\n2 : 응 스가 총리가 자기는 다음번 자민당 그거 안 한다 그랬다면서\n1 : 응 그랬대 왜 그렇대?\n2 : 아무래도 여론도 안 좋고 그러니까 그런 게 아닐까?\n1 : 일본은 우리나라랑 체계가 다르지 않나?\n2 : 응 거기는 총리니까 아마 영국이랑 비슷할걸?\n1 : 영국이랑 일본이 내각제 맞지?\n2 : 응 그런 걸로 알고 있어\n2 : 그래서 내가 딱 이 사람을 대통령으로 세우겠다 이게 아니잖아\n1 : 그렇구만 그럼 스가 다음에는 누가 총리한대?\n2 : 뭐 말 나오기로는 고노 다로?가 유력하다고 하던데?\n1 : 고노 다로? 근데 내가 본 거는 여자던데\n2 : 응 아베가 지지한다고 하는 사람은 여자더라고\n1 : 일본에서도 이제 여자 총리가 나오는 건가?\n2 : 응 여론이 약간 이제 일본도 여자 총리 나올 때 됐다 그렇다나 봐\n1 : 스가 총리도 참 불쌍하다 코로나에 올림픽에...\n2 : 그러니까 말야 역대급 적자 올림픽이라던데",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 일본 총리 바뀐다는 얘기 들었어?",
+            "norm_text": "일본 총리 바뀐다는 얘기 들었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일본/NNP+총리/NNG+바뀐다는/VV+ETM+얘기/NNG+들/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 스가 총리가 자기는 다음번 자민당 그거 안 한다 그랬다면서",
+            "norm_text": "응 스가 총리가 자기는 다음번 자민당 그거 안 한다 그랬다면서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+스가/NNP+총리/NNG+가/JKS+자기/NP+는/JX+다음/NNG+번/NNBC+자민/NNG+당/XSN+그거/NP+안/MAG+한다/VV+EC+그랬/VV+EP+다면서/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 그랬대 왜 그렇대?",
+            "norm_text": "응 그랬대 왜 그렇대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+그랬/VV+EP+대/EF+왜/MAG+그렇/VA+대/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아무래도 여론도 안 좋고 그러니까 그런 게 아닐까?",
+            "norm_text": "아무래도 여론도 안 좋고 그러니까 그런 게 아닐까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+여론/NNG+도/JX+안/MAG+좋/VA+고/EC+그러니까/MAJ+그런/MM+게/NNB+JKC+아닐까/VCN+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 일본은 우리나라랑 체계가 다르지 않나?",
+            "norm_text": "일본은 우리나라랑 체계가 다르지 않나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일본/NNP+은/JX+우리/NP+나라/NNG+랑/JKB+체계/NNG+가/JKS+다르/VA+지/EC+않/VX+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 거기는 총리니까 아마 영국이랑 비슷할걸?",
+            "norm_text": "응 거기는 총리니까 아마 영국이랑 비슷할걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+거기/NP+는/JX+총리/NNG+니까/VCP+EC+아마/MAG+영국/NNP+이랑/JC+비슷/XR+할걸/XSA+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 영국이랑 일본이 내각제 맞지?",
+            "norm_text": "영국이랑 일본이 내각제 맞지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영국/NNP+이랑/JC+일본/NNP+이/JKS+내각제/NNP+맞/VV+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 그런 걸로 알고 있어",
+            "norm_text": "응 그런 걸로 알고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그런/MM+걸로/NNB+JKB+알/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래서 내가 딱 이 사람을 대통령으로 세우겠다 이게 아니잖아",
+            "norm_text": "그래서 내가 딱 이 사람을 대통령으로 세우겠다 이게 아니잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+내/NP+가/JKS+딱/MAG+이/MM+사람/NNG+을/JKO+대통령/NNG+으로/JKB+세우/VV+겠/EP+다/EF+이게/NP+JKC+아니/VCN+잖아/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그렇구만 그럼 스가 다음에는 누가 총리한대?",
+            "norm_text": "그렇구만 그럼 스가 다음에는 누가 총리한대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구만/EF+그럼/MAJ+스가/NNP+다음/NNG+에/JKB+는/JX+누가/NP+JKS+총리/NNG+한대/XSV+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 뭐 말 나오기로는 고노 다로?가 유력하다고 하던데?",
+            "norm_text": "뭐 말 나오기로는 고노 다로?가 유력하다고 하던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+말/NNG+나오/VV+기/ETN+로/JKB+는/JX+고노/NNG+다로/NNG+?/SY+가/JKS+유력/NNG+하/XSV+다고/EC+하/VX+던데/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 고노 다로? 근데 내가 본 거는 여자던데",
+            "norm_text": "고노 다로? 근데 내가 본 거는 여자던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고노/NNG+다로/NNG+근데/MAJ+내/NP+가/JKS+본/VV+ETM+거/NNB+는/JX+여자/NNG+던데/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 아베가 지지한다고 하는 사람은 여자더라고",
+            "norm_text": "응 아베가 지지한다고 하는 사람은 여자더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응아/MAG+베/VV+EC+가지/VX+지/EC+한다고/VX+EC+하/VV+는/ETM+사람/NNG+은/JX+여자/NNG+더라고/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 일본에서도 이제 여자 총리가 나오는 건가?",
+            "norm_text": "일본에서도 이제 여자 총리가 나오는 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일본/NNP+에서/JKB+도/JX+이제/MAG+여자/NNG+총리/NNG+가/JKS+나오/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 여론이 약간 이제 일본도 여자 총리 나올 때 됐다 그렇다나 봐",
+            "norm_text": "응 여론이 약간 이제 일본도 여자 총리 나올 때 됐다 그렇다나 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+여론/NNG+이/JKS+약간/MAG+이제/MAG+일본/NNP+도/JX+여자/NNG+총리/NNG+나올/VV+ETM+때/NNG+됐/XSV+EP+다/EF+그렇/VA+다나/EC+봐/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 스가 총리도 참 불쌍하다 코로나에 올림픽에...",
+            "norm_text": "스가 총리도 참 불쌍하다 코로나에 올림픽에...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "스가/NNP+총리/NNG+도/JX+참/MAG+불쌍/XR+하/XSA+다/EC+코로나/NNG+에/JKB+올림픽/NNP+에/JKB+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그러니까 말야 역대급 적자 올림픽이라던데",
+            "norm_text": "그러니까 말야 역대급 적자 올림픽이라던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+말/NNG+야역/NNG+대급/NNG+적자/NNG+올림픽/NNP+이/VCP+라던데/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

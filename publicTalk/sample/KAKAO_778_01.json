@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32072,
+    "name": "KAKAO_778_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165233035926/KAKAO_778_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165233035926/KAKAO_778_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38414,
+      "filename": "KAKAO_778_01.txt",
+      "title": "KAKAO_778_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 426,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 426,
+        "word_size": 145,
+        "text": "1 : 넌 오늘 점심 뭐 먹었어\n2 : 난 오늘 삼계탕 먹었어 닭 최고~\n1 : 오 삼계탕 맛있지 난 오늘 초밥 먹음\n2 : 와 초밥 쩐다 무슨 초밥 제일 좋아함?\n1 : 다 좋아하는 데 고르면 연어!\n2 : ㅎㄱ 나도 연어 좋아함 그리고 지금은 하겐다즈 먹는 중\n1 : 하겐다즈 맛있지 키키 퍼먹는 것 중에 하겐다즈가 제일 맛있는 듯\n2 : 그니까 요새 퍼먹는 아이스크림만 먹어서 바 종류를 안 먹게 돼\n1 : 난 지금 커피 먹고 있어\n2 : 또 아아지 자네 아아 중독이다!\n1 : 원래 식후떙으로 커피 마셔야 싹 내려가\n2 : 원래 모든 음식물은… 다 식도 아래로 내려가…\n1 : 아니 그 내려가는 게 아니고요 키키 개운한 어 그런 맛이지!\n2 : 물을 마시는 게 더 개운할 지 몰라… 카페인의 속박에서 벗어나자\n1 : ㄴㄴ 물은 너무 맛이 없어\n2 : 키키 맞지 맛 없는 맛에 마시지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 넌 오늘 점심 뭐 먹었어",
+            "norm_text": "넌 오늘 점심 뭐 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+오늘/NNG+점심/NNG+뭐/IC+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 오늘 삼계탕 먹었어 닭 최고~",
+            "norm_text": "난 오늘 삼계탕 먹었어 닭 최고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+오늘/MAG+삼계탕/NNG+먹/VV+었/EP+어/EC+닭/NNG+최고/NNG+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 삼계탕 맛있지 난 오늘 초밥 먹음",
+            "norm_text": "오 삼계탕 맛있지 난 오늘 초밥 먹음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+삼/NR+계탕/NNG+맛있/VA+지/EF+난/NP+JX+오늘/MAG+초밥/NNG+먹/VV+음/ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 와 초밥 쩐다 무슨 초밥 제일 좋아함?",
+            "norm_text": "와 초밥 쩐다 무슨 초밥 제일 좋아함?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와초/NNG+밥/NNG+쩐/VV+다/EC+무슨/MM+초밥/NNG+제일/MAG+좋아함/VV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 다 좋아하는 데 고르면 연어!",
+            "norm_text": "다 좋아하는 데 고르면 연어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+좋/VA+아/EC+하/VV+는/ETM+데/NNB+고르/VV+면/EC+연어/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : ㅎㄱ 나도 연어 좋아함 그리고 지금은 하겐다즈 먹는 중",
+            "norm_text": "ㅎㄱ 나도 연어 좋아함 그리고 지금은 하겐다즈 먹는 중",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅎㄱ/UNKNOWN+나/NP+도/JX+연어/NNG+좋/VA+아함/IC+ETN+그리고/MAJ+지금/MAG+은/JX+하겐다즈/NNP+먹/VV+는/ETM+중/NNB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 하겐다즈 맛있지 키키 퍼먹는 것 중에 하겐다즈가 제일 맛있는 듯",
+            "norm_text": "하겐다즈 맛있지 키키 퍼먹는 것 중에 하겐다즈가 제일 맛있는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하겐다즈/NNP+맛있/VA+지/EC+키/NNG+키퍼/NNG+먹/VV+는/ETM+것/NNB+중/NNB+에/JKB+하겐다즈/NNP+가/JKS+제일/MAG+맛있/VA+는/ETM+듯/NNB"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그니까 요새 퍼먹는 아이스크림만 먹어서 바 종류를 안 먹게 돼",
+            "norm_text": "그니까 요새 퍼먹는 아이스크림만 먹어서 바 종류를 안 먹게 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+요새/MAG+퍼먹/VV+는/ETM+아이스크림/NNG+만/JX+먹/VV+어서/EC+바/NNG+종류/NNG+를/JKO+안/MAG+먹/VV+게/EC+돼/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 난 지금 커피 먹고 있어",
+            "norm_text": "난 지금 커피 먹고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+지금/MAG+커피/NNG+먹/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 또 아아지 자네 아아 중독이다!",
+            "norm_text": "또 아아지 자네 아아 중독이다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "또/MAG+아/VV+아/EC+지/VX+자네/EF+아아/IC+중독/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 원래 식후떙으로 커피 마셔야 싹 내려가",
+            "norm_text": "원래 식후떙으로 커피 마셔야 싹 내려가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+식후/NNG+떙/UNKNOWN+으로/JKB+커피/NNG+마셔야/VV+EC+싹/MAG+내려가/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 원래 모든 음식물은… 다 식도 아래로 내려가…",
+            "norm_text": "원래 모든 음식물은… 다 식도 아래로 내려가…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+모든/MM+음식물/NNG+은/JX+…/SE+다식/NNG+도/JX+아래/NNG+로/JKB+내려가/VV+EC+…/SE"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아니 그 내려가는 게 아니고요 키키 개운한 어 그런 맛이지!",
+            "norm_text": "아니 그 내려가는 게 아니고요 키키 개운한 어 그런 맛이지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아니/IC+그/IC+내려가/VV+는/ETM+게/NNB+JKC+아니/VCN+고/EC+요키/NNP+키/NNG+개운/XR+한/XSA+ETM+어/IC+그런/MM+맛/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 물을 마시는 게 더 개운할 지 몰라… 카페인의 속박에서 벗어나자",
+            "norm_text": "물을 마시는 게 더 개운할 지 몰라… 카페인의 속박에서 벗어나자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "물/NNG+을/JKO+마시/VV+는/ETM+게/NNB+JKS+더/MAG+개운/XR+할지/XSA+EC+몰라/VV+EC+…/SE+카페인/NNG+의/JKG+속박/NNG+에서/JKB+벗어나/VV+자/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : ㄴㄴ 물은 너무 맛이 없어",
+            "norm_text": "ㄴㄴ 물은 너무 맛이 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+물/NNG+은/JX+너무/MAG+맛/NNG+이/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 맞지 맛 없는 맛에 마시지",
+            "norm_text": "키키 맞지 맛 없는 맛에 마시지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+지/EC+맛없/VA+는/ETM+맛/NNG+에/JKB+마시/VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

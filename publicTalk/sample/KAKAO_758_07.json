@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 51519,
+    "name": "KAKAO_758_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109291352110326100/KAKAO_758_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109291352110326100/KAKAO_758_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37175,
+      "filename": "KAKAO_758_07.txt",
+      "title": "KAKAO_758_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 532,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 532,
+        "word_size": 175,
+        "text": "1 : 엄마 아빠랑 놀고 언니랑 놀고 키키\n2 : 키키 **이랑 뭐 하고 노는데? 키키\n1 : 언니 괴롭히고 놀아요 키키\n1 : 엄마, 아빠도 키키\n2 : 키키 아니 진짜... 대단하네?\n2 : 엄빠 화 안 내셔? 키키\n1 : 아빠는 화내서 조금만 괴롭히고 키키 그래도 멈추지 않아요 키키\n2 : 키키 아부지는 잘 지내시제?\n2 : 키키 건강하시드만 여전히\n1 : 여전히 건강해요 키키\n1 : 오늘 또 술 한잔 하면서 TV 보고 있네요 키키\n2 : 키키 대단하네...? 혹시 야구 보시니? 박수 준비?\n1 : 오늘은 월요일 야구 쉬는 날 키키\n2 : 아... 야구 쉬는 날이 있구나\n2 : 그럼 야인시대 보셔? 키키\n1 : 키키 넵 일주일에 한 번 키키\n1 : 야인 시대는 아침에 해서 지금 뭐 보는지 모르겠어요 키키\n2 : 키키 오... 아부지 나름 스케줄이 다 정해져 있구나\n1 : 넵 키키 아주 바빠요 뭐 하는지 모르겠지만\n2 : 키키 아부지 귀여우셔 증말...\n2 : 어무니는 오늘 잔업?\n1 : 네 오늘도 잔업 ㅜㅜ\n1 : 일이 많은가 봐요\n2 : 아니 진짜 어머니 쓰러지시겠따 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 아빠랑 놀고 언니랑 놀고 키키",
+            "norm_text": "엄마 아빠랑 놀고 언니랑 놀고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+아빠/NNG+랑/JKB+놀/VV+고/EC+언니/NNG+랑/JKB+놀/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 **이랑 뭐 하고 노는데? 키키",
+            "norm_text": "키키 **이랑 뭐 하고 노는데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+*/SY+*/SY+이랑/JC+뭐/IC+하/VV+고/EC+노/VX+는데/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 언니 괴롭히고 놀아요 키키",
+            "norm_text": "언니 괴롭히고 놀아요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "언니/NNG+괴롭히/VV+고/EC+놀/VV+아/EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 엄마, 아빠도 키키",
+            "norm_text": "엄마, 아빠도 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+,/SC+아빠/NNG+도/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 아니 진짜... 대단하네?",
+            "norm_text": "키키 아니 진짜... 대단하네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+진짜/MAG+./SY+대단/XR+하/XSA+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 엄빠 화 안 내셔? 키키",
+            "norm_text": "엄빠 화 안 내셔? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄빠화안내셔/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아빠는 화내서 조금만 괴롭히고 키키 그래도 멈추지 않아요 키키",
+            "norm_text": "아빠는 화내서 조금만 괴롭히고 키키 그래도 멈추지 않아요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+는/JX+화내/VV+서/EC+조금/MAG+만/JX+괴롭히/VV+고/EC+키/NNG+키/XSV+ETN+그래도/VV+EC+멈추/VV+지/EC+않/VX+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 아부지는 잘 지내시제?",
+            "norm_text": "키키 아부지는 잘 지내시제?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+아부지/NNG+는/JX+잘/MAG+지내/VV+시/EP+제/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 건강하시드만 여전히",
+            "norm_text": "키키 건강하시드만 여전히",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+건강/NNG+하/XSV+시/EP+드만/EF+여전히/MAG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 여전히 건강해요 키키",
+            "norm_text": "여전히 건강해요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여전히/MAG+건강/NNG+해요/XSV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오늘 또 술 한잔 하면서 TV 보고 있네요 키키",
+            "norm_text": "오늘 또 술 한잔 하면서 TV 보고 있네요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+또/MAG+술/NNG+한잔/NNG+하/XSV+면서/EC+TV/SL+보/VV+고/EC+있/VX+네요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 대단하네...? 혹시 야구 보시니? 박수 준비?",
+            "norm_text": "키키 대단하네...? 혹시 야구 보시니? 박수 준비?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+대단/XR+하/XSA+네/EF+./SY+./SY+혹시/MAG+야구/NNG+보/VV+시/EP+니/EF+박수/NNG+준비/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오늘은 월요일 야구 쉬는 날 키키",
+            "norm_text": "오늘은 월요일 야구 쉬는 날 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+은/JX+월요일/NNG+야구/NNG+쉬/VV+는/ETM+날/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아... 야구 쉬는 날이 있구나",
+            "norm_text": "아... 야구 쉬는 날이 있구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+야구/NNG+쉬/VV+는/ETM+날/NNG+이/JKS+있/VV+구나/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그럼 야인시대 보셔? 키키",
+            "norm_text": "그럼 야인시대 보셔? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+야인시대/NNP+보/VV+셔/EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 넵 일주일에 한 번 키키",
+            "norm_text": "키키 넵 일주일에 한 번 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+넵/NNG+일/NR+주일/NNBC+에/JKB+한/MM+번/NNBC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 야인 시대는 아침에 해서 지금 뭐 보는지 모르겠어요 키키",
+            "norm_text": "야인 시대는 아침에 해서 지금 뭐 보는지 모르겠어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야인시대/NNP+는/JX+아침/NNG+에/JKB+해서/VV+EC+지금/MAG+뭐/IC+보/VV+는지/EC+모르/VV+겠/EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 오... 아부지 나름 스케줄이 다 정해져 있구나",
+            "norm_text": "키키 오... 아부지 나름 스케줄이 다 정해져 있구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EF+./SY+아부지/NNG+나름/NNB+스케줄/NNG+이/JKS+다/MAG+정해져/VV+EC+VX+EC+있/VX+구나/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 넵 키키 아주 바빠요 뭐 하는지 모르겠지만",
+            "norm_text": "넵 키키 아주 바빠요 뭐 하는지 모르겠지만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넵/NNG+키/NNG+키/NNG+아주/MAG+바빠요/VA+EF+뭐/IC+하/VV+는지/EC+모르/VV+겠/EP+지만/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 아부지 귀여우셔 증말...",
+            "norm_text": "키키 아부지 귀여우셔 증말...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+아부지/NNG+귀여우/VA+셔/EP+EF+증말/MAG+./SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 어무니는 오늘 잔업?",
+            "norm_text": "어무니는 오늘 잔업?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+무니/NNG+는/JX+오늘/MAG+잔업/NNG"
+          },
+          {
+            "id": 22,
+            "text": "1 : 네 오늘도 잔업 ㅜㅜ",
+            "norm_text": "네 오늘도 잔업 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네오늘도잔업ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 일이 많은가 봐요",
+            "norm_text": "일이 많은가 봐요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일/NNG+이/JKS+많/VA+은가/EC+봐요/VX+EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 아니 진짜 어머니 쓰러지시겠따 ㅠㅠ",
+            "norm_text": "아니 진짜 어머니 쓰러지시겠따 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "아니/IC+진짜/MAG+어머니/NNG+쓰러지/VV+시/EP+겠/EP+따/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

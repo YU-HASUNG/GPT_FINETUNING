@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 39087,
+    "name": "KAKAO_690_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055024355/KAKAO_690_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055024355/KAKAO_690_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35315,
+      "filename": "KAKAO_690_16.txt",
+      "title": "KAKAO_690_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 626,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 626,
+        "word_size": 209,
+        "text": "1 : 요즘 기초 라인 화장품 뭐 쓰고 있어?\n2 : 나는 요새 기초 라인으로 독도 라인 쓰고 있어\n2 : 여기 거 괜찮아\n1 : 오오! 나 아직 독도 화장품 안 써봤는데!\n1 : 아예 정착한 거야?\n2 : 응 나 완전 예민한 거 알지?\n2 : 근데 나 이제 정착했어\n1 : 오! 피부에 딱 맞는 기초 화장품 찾은 거네! ㅜㅜ\n1 : 나도 내 피부에 잘 맞는 화장품을 빨리 찾아야 할 텐데...!\n2 : 독도 라인 한번 써보는 거 추천할게!\n1 : 웅웅 그래야겠다! 예민한 피부에 잘 맞는 거면 엄청 순하겠다!\n2 : 응! 나 예민한 피부니까 너가 써도 괜찮을 거 같애\n1 : 웅! 바로 사봐야겠다! 하하\n1 : 기초 말고 또 더 바르는 건 있어?\n2 : 나는 기초가 너무 괜찮아서 선크림도 사용하고 있어\n1 : 같은 독도 라인 선크림이야?\n2 : 응 맞아 독도 라인 선크림인데 이것도 순하고 굉장히 좋아\n1 : 오오 다 독도 라인으로 맞춰서 쓰고 있네!\n1 : 한 라인으로 다 쓰는 것도 편하고 좋을 것 같다!\n2 : 응! 구매할 때도 한 번에 살 수 있어서 편해\n1 : 아직 나는 유목민이라 키키 이것 저것 찾아보고 실패하고 반복 중이라... 키키\n1 : 추천 고마워! 한번 써보고 후기 알려줄게! 하하\n2 : 응 키키 필요하면 내가 샘플도 줄 수 있어!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 기초 라인 화장품 뭐 쓰고 있어?",
+            "norm_text": "요즘 기초 라인 화장품 뭐 쓰고 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+기초/NNG+라인/NNG+화장품/NNG+뭐/IC+쓰/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 요새 기초 라인으로 독도 라인 쓰고 있어",
+            "norm_text": "나는 요새 기초 라인으로 독도 라인 쓰고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+요새/NNG+기초/NNG+라인/NNG+으로/JKB+독도/NNP+라인/NNG+쓰/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 여기 거 괜찮아",
+            "norm_text": "여기 거 괜찮아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+거/NNB+괜찮/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오오! 나 아직 독도 화장품 안 써봤는데!",
+            "norm_text": "오오! 나 아직 독도 화장품 안 써봤는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오오/IC+나/NP+아직/MAG+독도/NNP+화장품/NNG+안/MAG+써/VV+EC+봤/VX+EP+는데/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아예 정착한 거야?",
+            "norm_text": "아예 정착한 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아예/MAG+정착/NNG+한/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 나 완전 예민한 거 알지?",
+            "norm_text": "응 나 완전 예민한 거 알지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "응/IC+나/NP+완전/MAG+예민/XR+한/XSA+ETM+거/NNB+알/VV+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 근데 나 이제 정착했어",
+            "norm_text": "근데 나 이제 정착했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+나/NP+이제/MAG+정착/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오! 피부에 딱 맞는 기초 화장품 찾은 거네! ㅜㅜ",
+            "norm_text": "오! 피부에 딱 맞는 기초 화장품 찾은 거네! ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+피부/NNG+에/JKB+딱/MAG+맞/VV+는/ETM+기초/NNG+화장품/NNG+찾/VV+은/ETM+거/NNB+네/VCP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 내 피부에 잘 맞는 화장품을 빨리 찾아야 할 텐데...!",
+            "norm_text": "나도 내 피부에 잘 맞는 화장품을 빨리 찾아야 할 텐데...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+내/NP+JKG+피부/NNG+에/JKB+잘/MAG+맞/VV+는/ETM+화장품/NNG+을/JKO+빨리/MAG+찾/VV+아야/EC+할텐데/VX+ETM+NNB+VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 독도 라인 한번 써보는 거 추천할게!",
+            "norm_text": "독도 라인 한번 써보는 거 추천할게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "독도/NNP+라인/NNG+한/MM+번/NNBC+써/VV+EC+보/VX+는/ETM+거/NNB+추천/NNG+할게/XSV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 웅웅 그래야겠다! 예민한 피부에 잘 맞는 거면 엄청 순하겠다!",
+            "norm_text": "웅웅 그래야겠다! 예민한 피부에 잘 맞는 거면 엄청 순하겠다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅웅/MAG+그래야/VV+EC+VX+겠/EP+다/EF+예민/XR+한/XSA+ETM+피부/NNG+에/JKB+잘/MAG+맞/VV+는/ETM+거/NNB+면/VCP+EC+엄청/MAG+순하/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응! 나 예민한 피부니까 너가 써도 괜찮을 거 같애",
+            "norm_text": "응! 나 예민한 피부니까 너가 써도 괜찮을 거 같애",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+예민/XR+한/XSA+ETM+피부/NNG+니까/VCP+EC+너/NP+가/JKS+써도/VV+EC+괜찮/VA+을/ETM+거/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 웅! 바로 사봐야겠다! 하하",
+            "norm_text": "웅! 바로 사봐야겠다! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+바로/MAG+사/VV+봐야/EC+VX+EC+VX+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 기초 말고 또 더 바르는 건 있어?",
+            "norm_text": "기초 말고 또 더 바르는 건 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기초/NNG+말/VV+고/EC+또/MAG+더/MAG+바르/VV+는/ETM+건/NNB+JX+있/VA+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나는 기초가 너무 괜찮아서 선크림도 사용하고 있어",
+            "norm_text": "나는 기초가 너무 괜찮아서 선크림도 사용하고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+기초/NNG+가/JKS+너무/MAG+괜찮/VA+아서/EC+선크림/NNG+도/JX+사용/NNG+하/XSV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 같은 독도 라인 선크림이야?",
+            "norm_text": "같은 독도 라인 선크림이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "같/VA+은/ETM+독도/NNP+라인/NNG+선크림/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 맞아 독도 라인 선크림인데 이것도 순하고 굉장히 좋아",
+            "norm_text": "응 맞아 독도 라인 선크림인데 이것도 순하고 굉장히 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+독도/NNP+라인/NNG+선크림/NNG+인데/VCP+EC+이것/NP+도/JX+순하/VA+고/EC+굉장히/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오오 다 독도 라인으로 맞춰서 쓰고 있네!",
+            "norm_text": "오오 다 독도 라인으로 맞춰서 쓰고 있네!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+오/NR+다독/NNG+도/JX+라인/NNG+으로/JKB+맞춰서/VV+EC+쓰/VV+고/EC+있/VX+네/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 한 라인으로 다 쓰는 것도 편하고 좋을 것 같다!",
+            "norm_text": "한 라인으로 다 쓰는 것도 편하고 좋을 것 같다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+라인/NNG+으로/JKB+다/MAG+쓰/VV+는/ETM+것/NNB+도/JX+편하/VA+고/EC+좋/VA+을/ETM+것/NNB+같/VA+다/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 응! 구매할 때도 한 번에 살 수 있어서 편해",
+            "norm_text": "응! 구매할 때도 한 번에 살 수 있어서 편해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+구매/NNG+할/XSV+ETM+때/NNG+도/JX+한/MM+번/NNBC+에/JKB+살/VV+ETM+수/NNB+있/VV+어서/EC+편해/VA+EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 아직 나는 유목민이라 키키 이것 저것 찾아보고 실패하고 반복 중이라... 키키",
+            "norm_text": "아직 나는 유목민이라 키키 이것 저것 찾아보고 실패하고 반복 중이라... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+나/NP+는/JX+유목민/NNG+이/JKS+라키/NNP+키/NNG+이것저것/NNG+찾아보/VV+고/EC+실패/NNG+하/XSV+고/EC+반복/NNG+중/NNB+이/VCP+라/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 추천 고마워! 한번 써보고 후기 알려줄게! 하하",
+            "norm_text": "추천 고마워! 한번 써보고 후기 알려줄게! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "추천/NNG+고마워/VA+EF+한번/MAG+써/VV+EC+보/VX+고/EC+후기/NNG+알려/VV+EC+줄게/VX+EF+하하/MAG"
+          },
+          {
+            "id": 23,
+            "text": "2 : 응 키키 필요하면 내가 샘플도 줄 수 있어!",
+            "norm_text": "응 키키 필요하면 내가 샘플도 줄 수 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+필요/NNG+하/XSV+면/EC+내/NP+가/JKS+샘플/NNG+도/JX+줄/VX+ETM+수/NNB+있/VV+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

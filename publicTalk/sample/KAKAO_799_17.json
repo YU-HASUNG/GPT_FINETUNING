@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 45501,
+    "name": "KAKAO_799_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143635082834/KAKAO_799_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143635082834/KAKAO_799_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38008,
+      "filename": "KAKAO_799_17.txt",
+      "title": "KAKAO_799_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 350,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 350,
+        "word_size": 121,
+        "text": "1 : 여보 회사두 위생 관념이 철저하지\n2 : 응 매일 소독하고 하더라.\n1 : 매일 해? 열도 매일 재잖어\n2 : 응 열 체크도 하지.\n1 : 여보 맨날 일하다 가서 열이 높게 나온다며\n2 : 얘기하고 퇴근하고 병원 가봐야지.\n1 : 건대 병원 간 적 없지?\n2 : 응 없어 확진자 나왔대?\n1 : 응 거기도 확진자 나왔대\n2 : 진짜 조심해야 된다\n2 : 여보도 퇴근하고 바로 집으로 와.\n1 : 알아또 오늘도 바로 갈게\n2 : 응 회사에만 있고 나가지 마.\n1 : 그렇게 하고 있잖어.\n1 : 거래처는 어쩔 수 없구\n2 : 응 마스크 답답해도 꼭 쓰고 있어.\n1 : 사무실에 나 혼자 밖에 없으니깐 안 써도 되지\n2 : 나갈 때 말이야 조심해야 돼.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여보 회사두 위생 관념이 철저하지",
+            "norm_text": "여보 회사두 위생 관념이 철저하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여보/IC+회사/NNG+두/JX+위생/NNG+관념/NNG+이/JKS+철저/NNG+하/XSV+지/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 매일 소독하고 하더라.",
+            "norm_text": "응 매일 소독하고 하더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+매일/MAG+소독/NNG+하/XSV+고/EC+하/VX+더라/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 매일 해? 열도 매일 재잖어",
+            "norm_text": "매일 해? 열도 매일 재잖어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "매일/MAG+해/VV+EF+열도매일재잖어/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 열 체크도 하지.",
+            "norm_text": "응 열 체크도 하지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+열/NR+체크/NNG+도/JX+하/VV+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 여보 맨날 일하다 가서 열이 높게 나온다며",
+            "norm_text": "여보 맨날 일하다 가서 열이 높게 나온다며",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여보/IC+맨날/MAG+일/NNG+하/XSV+다가/EC+서열/NNG+이/JKS+높/VA+게/EC+나온다며/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 얘기하고 퇴근하고 병원 가봐야지.",
+            "norm_text": "얘기하고 퇴근하고 병원 가봐야지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얘기/NNG+하/XSV+고/EC+퇴근/NNG+하/XSV+고/EC+병원/NNG+가/VV+봐야/EC+VX+EC+VX+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 건대 병원 간 적 없지?",
+            "norm_text": "건대 병원 간 적 없지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "건대/NNP+병원/NNG+간/NNG+적/XSN+없/VA+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 없어 확진자 나왔대?",
+            "norm_text": "응 없어 확진자 나왔대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+없/VA+어/EC+확진/NNG+자/XSN+나왔/VV+EP+대/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 거기도 확진자 나왔대",
+            "norm_text": "응 거기도 확진자 나왔대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+거기/NP+도/JX+확진/NNG+자/XSN+나왔/VV+EP+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 진짜 조심해야 된다",
+            "norm_text": "진짜 조심해야 된다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+조심/NNG+해야/XSV+EC+된다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 여보도 퇴근하고 바로 집으로 와.",
+            "norm_text": "여보도 퇴근하고 바로 집으로 와.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "여보/NNG+도/JX+퇴근/NNG+하/XSV+고/EC+바로/MAG+집/NNG+으로/JKB+와/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 알아또 오늘도 바로 갈게",
+            "norm_text": "알아또 오늘도 바로 갈게",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "알/VV+아/EC+또/MAG+오늘/NNG+도/JX+바로/MAG+갈게/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 회사에만 있고 나가지 마.",
+            "norm_text": "응 회사에만 있고 나가지 마.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+회사/NNG+에/JKB+만/JX+있/VX+고/EC+나가/VX+지/EC+마/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그렇게 하고 있잖어.",
+            "norm_text": "그렇게 하고 있잖어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇게/MAG+하/VV+고/EC+있/VX+잖어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 거래처는 어쩔 수 없구",
+            "norm_text": "거래처는 어쩔 수 없구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "거래처/NNG+는/JX+어쩔/VV+ETM+수/NNB+없/VA+구/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 마스크 답답해도 꼭 쓰고 있어.",
+            "norm_text": "응 마스크 답답해도 꼭 쓰고 있어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+마스크/IC+답답/XR+해도/XSA+EC+꼭/MAG+쓰/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 사무실에 나 혼자 밖에 없으니깐 안 써도 되지",
+            "norm_text": "사무실에 나 혼자 밖에 없으니깐 안 써도 되지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사무실/NNG+에/JKB+나/JX+혼자/NNG+밖에/JX+없/VA+으니깐/EC+안/MAG+써도/VV+EC+되/VV+지/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나갈 때 말이야 조심해야 돼.",
+            "norm_text": "나갈 때 말이야 조심해야 돼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나갈/VV+ETM+때/NNG+말/NNG+이/VCP+야/EC+조심/NNG+해야/XSV+EC+돼/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 58928,
+    "name": "KAKAO_688_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710049556/KAKAO_688_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710049556/KAKAO_688_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35097,
+      "filename": "KAKAO_688_18.txt",
+      "title": "KAKAO_688_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 613,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 613,
+        "word_size": 183,
+        "text": "1 : 니 혹시... 주식이나 비트코인 하니 키키\n2 : 아니... 나는 그런 거 한 번도 안 해봤어... 언니는 해? 키키\n1 : 키키 응... 나는 하긴 하는데... 이것도 공부 엄청 해야 해\n2 : 맞아 그래서 시작하지 않았지... 은근 엄청 많이 해야더만\n1 : 응... 아무리 똑같은 테마여도... 내가 잡는 건 안 가\n2 : 키키 언니가 안 하는 것으로 해야겠네 ^^\n1 : 키키 응... 그리고 내가 잡는 게 잘 가길래 팔면 날개 달려서 날아가\n2 : 키키... 키키 아니 **이도 하던데 둘 다 하네 신기하당...\n1 : 응... 쉽게 돈 벌어보려고 했으나 잘 되지 않았다\n2 : 키키 원래 그렇지... 아니 다들 보니깐 하루 종일 폰만 보던데 ㅠㅠ\n1 : 개미들은 돈 벌기가 너무 어렵다 키키 맞아 계속 봐야 해\n2 : 키키 나는 그게 너무 스트레스 일 것 같아서 시작을 못하겠어... 일단 여윳돈도 없고\n1 : 나는 작은 돈으로 했지만... 큰 돈으로 하는 사람들은 몇 분 만에 몇 백만 원이 왔다 갔다...\n2 : 와... 몇 백... 미쳤다... 일상생활 가능하나...\n1 : 그니까... 그래서 주식하는 사람들 엄청 폐인 같아...키키\n2 : 으... 난 못해 진짜... 언니는 얼마로 시작한 거야?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 혹시... 주식이나 비트코인 하니 키키",
+            "norm_text": "니 혹시... 주식이나 비트코인 하니 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+혹시/MAG+./SY+주식/NNG+이나/JC+비트/NNG+코인/NNG+하/XSV+니/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니... 나는 그런 거 한 번도 안 해봤어... 언니는 해? 키키",
+            "norm_text": "아니... 나는 그런 거 한 번도 안 해봤어... 언니는 해? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+./SY+나/NP+는/JX+그런/MM+거/NNB+한/MM+번/NNBC+도/JX+안/MAG+해/VV+EC+봤/VX+EP+어/EF+./SY+언니/NNG+는/JX+해/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 응... 나는 하긴 하는데... 이것도 공부 엄청 해야 해",
+            "norm_text": "키키 응... 나는 하긴 하는데... 이것도 공부 엄청 해야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+나/NP+는/JX+하/VV+긴/ETN+JX+하/VX+는데/EC+./SY+./SY+이것/NP+도/JX+공부/NNG+엄청/MAG+해야/VV+EC+해/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아 그래서 시작하지 않았지... 은근 엄청 많이 해야더만",
+            "norm_text": "맞아 그래서 시작하지 않았지... 은근 엄청 많이 해야더만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞아/IC+그래서/MAJ+시작/NNG+하/XSV+지/EC+않/VX+았/EP+지/EF+./SY+은근/NNG+엄청/MAG+많이/MAG+해야/VV+EC+VX+더만/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응... 아무리 똑같은 테마여도... 내가 잡는 건 안 가",
+            "norm_text": "응... 아무리 똑같은 테마여도... 내가 잡는 건 안 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+./SY+아무리/MAG+똑같/VA+은/ETM+테/NNB+VCP+마/EC+VV+여도/EC+./SY+./SY+내/NP+가/JKS+잡/VV+는/ETM+건/NNB+JX+안/MAG+가/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 언니가 안 하는 것으로 해야겠네 ^^",
+            "norm_text": "키키 언니가 안 하는 것으로 해야겠네 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+언니/NNG+가/JKS+안/MAG+하/VV+는/ETM+것/NNB+으로/JKB+해야겠네/VV+EC+VX+EP+EF+^/SY+^/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 응... 그리고 내가 잡는 게 잘 가길래 팔면 날개 달려서 날아가",
+            "norm_text": "키키 응... 그리고 내가 잡는 게 잘 가길래 팔면 날개 달려서 날아가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+그리고/MAJ+내/NP+가/JKS+잡/VV+는/ETM+게/NNB+JKS+잘/MAG+가/VV+길래/EC+팔/VV+면/EC+날개/NNG+달려서/VV+EC+날아가/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키... 키키 아니 **이도 하던데 둘 다 하네 신기하당...",
+            "norm_text": "키키... 키키 아니 **이도 하던데 둘 다 하네 신기하당...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+./SY+키/NNG+키/XSV+ETN+아니/VCN+*/SY+*/SY+이도하던데둘다하네신기하당/UNKNOWN+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응... 쉽게 돈 벌어보려고 했으나 잘 되지 않았다",
+            "norm_text": "응... 쉽게 돈 벌어보려고 했으나 잘 되지 않았다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+./SY+쉽/VA+게/EC+돈/NNG+벌/VV+어/EC+보/VX+려고/EC+했으나/VX+EP+EC+잘/MAG+되/VV+지/EC+않/VX+았/EP+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 원래 그렇지... 아니 다들 보니깐 하루 종일 폰만 보던데 ㅠㅠ",
+            "norm_text": "키키 원래 그렇지... 아니 다들 보니깐 하루 종일 폰만 보던데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+원래/MAG+그렇/VA+지/EF+./SY+아니/VCN+다/EC+들/XSN+보/VV+니깐/EC+하루/NNG+종일/NNG+폰/NNG+만/JX+보/VV+던데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 개미들은 돈 벌기가 너무 어렵다 키키 맞아 계속 봐야 해",
+            "norm_text": "개미들은 돈 벌기가 너무 어렵다 키키 맞아 계속 봐야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "개미/NNG+들/XSN+은/JX+돈/NNG+벌기/NNG+가/JKS+너무/MAG+어렵/VA+다키키/NNP+맞/VV+아/EC+계속/MAG+봐야/VV+EC+해/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 나는 그게 너무 스트레스 일 것 같아서 시작을 못하겠어... 일단 여윳돈도 없고",
+            "norm_text": "키키 나는 그게 너무 스트레스 일 것 같아서 시작을 못하겠어... 일단 여윳돈도 없고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+그게/NP+JKS+너무/MAG+스트레스/NNG+일/VCP+ETM+것/NNB+같/VA+아서/EC+시작/NNG+을/JKO+못/MAG+하/VV+겠/EP+어/EF+./SY+일단/MAG+여윳돈/NNG+도/JX+없/VA+고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나는 작은 돈으로 했지만... 큰 돈으로 하는 사람들은 몇 분 만에 몇 백만 원이 왔다 갔다...",
+            "norm_text": "나는 작은 돈으로 했지만... 큰 돈으로 하는 사람들은 몇 분 만에 몇 백만 원이 왔다 갔다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+작/VA+은/ETM+돈/NNG+으로/JKB+했/VV+EP+지만/EC+./SY+./SY+큰/VA+ETM+돈/NNG+으로/JKB+하/VV+는/ETM+사람/NNG+들/XSN+은/JX+몇/MM+분/NNBC+만/NNB+에/JKB+몇/MM+백만/NR+원/NNBC+이/JKS+왔/VV+EP+다/EC+갔/VV+EP+다/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 와... 몇 백... 미쳤다... 일상생활 가능하나...",
+            "norm_text": "와... 몇 백... 미쳤다... 일상생활 가능하나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+몇/MM+백/NR+./SY+미쳤/VV+EP+다/EF+./SY+일상/NNG+생활/NNG+가능/NNG+하나/NR+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그니까... 그래서 주식하는 사람들 엄청 폐인 같아...키키",
+            "norm_text": "그니까... 그래서 주식하는 사람들 엄청 폐인 같아...키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+그래서/MAJ+주식/NNG+하/XSV+는/ETM+사람/NNG+들/XSN+엄청/MAG+폐인/NNG+같/VA+아/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 으... 난 못해 진짜... 언니는 얼마로 시작한 거야?",
+            "norm_text": "으... 난 못해 진짜... 언니는 얼마로 시작한 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "으/IC+./SY+난/NP+JX+못/MAG+해/VV+EF+진짜/MAG+./SY+언니/NNG+는/JX+얼마/NNG+로/JKB+시작/NNG+한/XSA+ETM+거/NNB+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

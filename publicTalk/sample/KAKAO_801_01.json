@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 45564,
+    "name": "KAKAO_801_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647047766/KAKAO_801_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647047766/KAKAO_801_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38012,
+      "filename": "KAKAO_801_01.txt",
+      "title": "KAKAO_801_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 402,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 402,
+        "word_size": 139,
+        "text": "1 : 간단한 음식은 할 줄 알아?\n2 : 된장찌개 김치찌개는 끓일 수 있다 키키\n1 : 오? 키키 그것만 끊여도 다 하는 거 아니야?\n2 : 키키 근데 잘 안 해 먹는다\n1 : 키키 집에 밥솥은 있어?\n2 : 아니 키키 여기에는 아무것도 없다 ㅠ\n1 : 햇반 한 박스씩 사 놔야겠농\n2 : 그건 기본템이지 키키 물 라면 햇반\n1 : 키키 물은 몇 박스씩 시켜?\n2 : 30묶음 2개 시킨다 키키\n2 : 다 먹어갈 때쯤 다시 주문하지\n1 : 500미리? 요즘 350미린가? 엄청 작은 것도 있더라 하하\n2 : 응 먹어봤는데 금방 먹어서 ㅠ\n2 : 분리 수거할 것도 많고\n1 : 맞다 ㅠㅠ 분리 수거하기가 힘들다\n2 : 카이 ㅠ 혼자 살면 이런 게 너무 귀찮타\n1 : 엄마 있을 때의 소중함을 나와서 안다 키키\n2 : 키키 맞다 본 집이 편하기는 하지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 간단한 음식은 할 줄 알아?",
+            "norm_text": "간단한 음식은 할 줄 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "간단/XR+한/XSA+ETM+음식/NNG+은/JX+할/VV+ETM+줄/NNB+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 된장찌개 김치찌개는 끓일 수 있다 키키",
+            "norm_text": "된장찌개 김치찌개는 끓일 수 있다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "된장찌개/NNG+김치찌개/NNG+는/JX+끓일/VV+ETM+수/NNB+있/VV+다/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오? 키키 그것만 끊여도 다 하는 거 아니야?",
+            "norm_text": "오? 키키 그것만 끊여도 다 하는 거 아니야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+키/NNG+키/XSV+ETN+그것/NP+만/JX+끊여/VV+EC+도/JX+다/MAG+하/VV+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 근데 잘 안 해 먹는다",
+            "norm_text": "키키 근데 잘 안 해 먹는다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+잘/MAG+안/MAG+해/VV+EC+먹/VV+는다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 집에 밥솥은 있어?",
+            "norm_text": "키키 집에 밥솥은 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+집/NNG+에/JKB+밥솥/NNG+은/JX+있/VA+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 키키 여기에는 아무것도 없다 ㅠ",
+            "norm_text": "아니 키키 여기에는 아무것도 없다 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+키/NNG+키/XSV+ETN+여기/NP+에/JKB+는/JX+아무것/NNG+도/JX+없/VA+다/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 햇반 한 박스씩 사 놔야겠농",
+            "norm_text": "햇반 한 박스씩 사 놔야겠농",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "햇/IC+반/NNG+한/XSA+ETM+박스/NNG+씩/XSN+사/VV+EC+놔야/VX+EC+VX+겠/EP+농/XR"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그건 기본템이지 키키 물 라면 햇반",
+            "norm_text": "그건 기본템이지 키키 물 라면 햇반",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+기본/NNG+템/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN+물/VV+라면/EC+햇/VV+EP+반/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 물은 몇 박스씩 시켜?",
+            "norm_text": "키키 물은 몇 박스씩 시켜?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+물/NNG+은/JX+몇/MM+박스/NNG+씩/XSN+시켜/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 30묶음 2개 시킨다 키키",
+            "norm_text": "30묶음 2개 시킨다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "30/SN+묶음/NNBC+2/SN+개/NNBC+시킨/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 11,
+            "text": "2 : 다 먹어갈 때쯤 다시 주문하지",
+            "norm_text": "다 먹어갈 때쯤 다시 주문하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "다/MAG+먹/VV+어/EC+갈/VX+ETM+때/NNG+쯤/XSN+다시/MAG+주문/NNG+하/XSV+지/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 500미리? 요즘 350미린가? 엄청 작은 것도 있더라 하하",
+            "norm_text": "500미리? 요즘 350미린가? 엄청 작은 것도 있더라 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "500/SN+미리/MAG+요즘/MAG+350/SN+미린/NNP+가/JKS+엄청/MAG+작/VA+은/ETM+것/NNB+도/JX+있/VA+더라/EC+하하/MAG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 먹어봤는데 금방 먹어서 ㅠ",
+            "norm_text": "응 먹어봤는데 금방 먹어서 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+먹/VV+어/EC+봤/VX+EP+는데/EC+금방/MAG+먹/VV+어서/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 분리 수거할 것도 많고",
+            "norm_text": "분리 수거할 것도 많고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "분리수거/NNG+할/XSV+ETM+것/NNB+도/JX+많/VA+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞다 ㅠㅠ 분리 수거하기가 힘들다",
+            "norm_text": "맞다 ㅠㅠ 분리 수거하기가 힘들다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EF+ㅠㅠ/UNKNOWN+분리수거/NNG+하/XSV+기/ETN+가/JKS+힘들/VA+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 카이 ㅠ 혼자 살면 이런 게 너무 귀찮타",
+            "norm_text": "카이 ㅠ 혼자 살면 이런 게 너무 귀찮타",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "카이/NNP+ㅠ/UNKNOWN+혼자/NNG+살/VV+면/EC+이런/MM+게/NNB+JKS+너무/MAG+귀찮/VA+타/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 엄마 있을 때의 소중함을 나와서 안다 키키",
+            "norm_text": "엄마 있을 때의 소중함을 나와서 안다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+있/VV+을/ETM+때/NNG+의/JKG+소중/XR+함/XSA+ETN+을/JKO+나와서/VV+EC+안/MAG+다키키/NNP"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 맞다 본 집이 편하기는 하지",
+            "norm_text": "키키 맞다 본 집이 편하기는 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+다/EC+본/VX+ETM+집/NNG+이/JKS+편하/VA+기/ETN+는/JX+하/VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

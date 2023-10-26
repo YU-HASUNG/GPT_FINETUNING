@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40561,
+    "name": "KAKAO_672_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152601073524/KAKAO_672_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152601073524/KAKAO_672_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34852,
+      "filename": "KAKAO_672_14.txt",
+      "title": "KAKAO_672_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 430,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 430,
+        "word_size": 137,
+        "text": "1 : 뉴스 봤냐 ? 전자 발찌 사건\n2 : 아 봤어. 무의미한 거 아니냐 전자 발찌\n1 : 그니까... 발찌 하나 마나 같아 키키\n2 : 연쇄 살인이라니... ㄷㄷ 무섭다\n1 : 그 사람 출소한 지 3개월밖에 안 됐더라고\n2 : 응 봤어. 빚 때문에 2명 살인한 거래\n1 : 아 빚이야? 돈이 여럿 죽이는구만\n2 : 어 돈 빌렸는 거 다른 사람한테 다시 빌려서 갚으려고 한 듯\n1 : 원래 전과 14범인가? 그렇대\n2 : 맞아 잡범인데, 첫 전과가 17살 땐가? 어릴 때더라\n1 : 무시무시하구만 사형 제도가 부활해야 한다\n2 : 키키 이번 사건으로 전자 발찌 문제가 많다고 난리임\n1 : 저게 집 안에서는 무슨 짓을 해도 모른다는 거 아냐\n2 : 맞아. 첫 번째 살인이 자기 집에서 일어났는데 몰랐대\n1 : 으... 너무 잔인하다. 뉴스 엄청 나오겠다\n2 : 응. 한동안 이걸로 떠들썩하겠다.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 뉴스 봤냐 ? 전자 발찌 사건",
+            "norm_text": "뉴스 봤냐 ? 전자 발찌 사건",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뉴스/NNG+봤/VV+EP+냐/EF+전자/NNG+발찌/NNG+사건/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 봤어. 무의미한 거 아니냐 전자 발찌",
+            "norm_text": "아 봤어. 무의미한 거 아니냐 전자 발찌",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+봤/VV+EP+어/EF+무/XPN+의미/NNG+한/XSA+ETM+거/NNB+아니/VCN+냐/EC+전자/NNG+발찌/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그니까... 발찌 하나 마나 같아 키키",
+            "norm_text": "그니까... 발찌 하나 마나 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+발찌/NNG+하/XSV+나마나/EC+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 연쇄 살인이라니... ㄷㄷ 무섭다",
+            "norm_text": "연쇄 살인이라니... ㄷㄷ 무섭다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연쇄/NNG+살인/NNG+이/VCP+라니/EF+./SY+ㄷ/NNG+ㄷ/NNG+무섭/VA+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그 사람 출소한 지 3개월밖에 안 됐더라고",
+            "norm_text": "그 사람 출소한 지 3개월밖에 안 됐더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+사람/NNG+출소/NNG+한지/XSA+EC+3/SN+개월/NNBC+밖에/JX+안/MAG+됐/VV+EP+더라고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 봤어. 빚 때문에 2명 살인한 거래",
+            "norm_text": "응 봤어. 빚 때문에 2명 살인한 거래",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+봤/VV+EP+어/EF+빚/NNG+때문/NNB+에/JKB+2/SN+명/NNBC+살인/NNG+한/XSA+ETM+거래/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 빚이야? 돈이 여럿 죽이는구만",
+            "norm_text": "아 빚이야? 돈이 여럿 죽이는구만",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+빚/NNG+이/VCP+야/EF+돈/NNG+이/JKS+여럿/NNG+죽이/VV+는/ETM+구만/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어 돈 빌렸는 거 다른 사람한테 다시 빌려서 갚으려고 한 듯",
+            "norm_text": "어 돈 빌렸는 거 다른 사람한테 다시 빌려서 갚으려고 한 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+돈/NNG+빌렸/VV+EP+는/ETM+거/NNB+다른/MM+사람/NNG+한테/JKB+다시/MAG+빌려서/VV+EC+갚/VV+으려고/EC+한/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 9,
+            "text": "1 : 원래 전과 14범인가? 그렇대",
+            "norm_text": "원래 전과 14범인가? 그렇대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+전과/NNG+JC+14/SN+범/NNBC+인가/VCP+EF+그렇/VA+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 잡범인데, 첫 전과가 17살 땐가? 어릴 때더라",
+            "norm_text": "맞아 잡범인데, 첫 전과가 17살 땐가? 어릴 때더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+잡범/NNG+인데/VCP+EC+,/SC+첫/MM+전과/NNG+가/JKS+17/SN+살/NNBC+땐가/NNG+VCP+EF+어릴/VA+ETM+때/NNG+더라/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 무시무시하구만 사형 제도가 부활해야 한다",
+            "norm_text": "무시무시하구만 사형 제도가 부활해야 한다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무시무시/XR+하/XSA+구/EC+만/JX+사형/NNG+제도/NNG+가/JKS+부활/NNG+해야/XSV+EC+한다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 이번 사건으로 전자 발찌 문제가 많다고 난리임",
+            "norm_text": "키키 이번 사건으로 전자 발찌 문제가 많다고 난리임",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+이번/NNG+사건/NNG+으로/JKB+전자/NNG+발찌/NNG+문제/NNG+가/JKS+많/VA+다고/EC+난/VX+ETM+리임/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 저게 집 안에서는 무슨 짓을 해도 모른다는 거 아냐",
+            "norm_text": "저게 집 안에서는 무슨 짓을 해도 모른다는 거 아냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저게/NP+JKS+집안/NNG+에서/JKB+는/JX+무슨/MM+짓/NNG+을/JKO+해도/VV+EC+모른다는/VV+ETM+거/NNB+아냐/VCN+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아. 첫 번째 살인이 자기 집에서 일어났는데 몰랐대",
+            "norm_text": "맞아. 첫 번째 살인이 자기 집에서 일어났는데 몰랐대",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+첫/MM+번/NNBC+째/XSN+살인/NNG+이/JKS+자기/NP+집/NNG+에서/JKB+일어났/VV+EP+는데/EC+몰랐/VV+EP+대/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 으... 너무 잔인하다. 뉴스 엄청 나오겠다",
+            "norm_text": "으... 너무 잔인하다. 뉴스 엄청 나오겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으/IC+./SY+너무/MAG+잔인/XR+하/XSA+다/EF+뉴스/NNG+엄청/MAG+나오/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응. 한동안 이걸로 떠들썩하겠다.",
+            "norm_text": "응. 한동안 이걸로 떠들썩하겠다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+한/MM+동안/NNG+이걸로/NP+JKB+떠들썩/XR+하/XSA+겠/EP+다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

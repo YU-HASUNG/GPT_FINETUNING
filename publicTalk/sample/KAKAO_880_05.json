@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 31433,
+    "name": "KAKAO_880_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175159036272/KAKAO_880_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175159036272/KAKAO_880_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40383,
+      "filename": "KAKAO_880_05.txt",
+      "title": "KAKAO_880_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 674,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 674,
+        "word_size": 218,
+        "text": "1 : 근데 내 남친 전역한 지 1년 반 됐는데 아직도 뭐가 힘들었었는지 정확히 기억하는 거 보면 인상 깊은 힘듦이었던 듯 ...\n2 : 아 진짜? 많이 힘들었나 보네\n1 : 앙 솔직히 시간 지나면 힘든 거 다 잊기 마련인데 다 기억하던 걸?\n2 : 허르 우리 동생은 오늘 나왔는데 힘든 거 딱히 얘기 안 하더라\n1 : 오늘 전역했는데 군대 얘기가 하고 싶겠냐고 키키\n2 : 그냥 우리 동생이 말이 없는 듯 ...\n2 : 걔는 뭐가 가장 힘들었대?\n1 : 우선 내리갈굼이 엄청 힘들었다고 하는 것 같던데\n2 : 헐헐 근데 상상 간다 ...\n2 : 걔가 편한 군 생활 했을 거 같진 않음 ...\n1 : 걔 그래도 후임들한테 잘하고 선임들한테 이쁨 많이 받았다던데?\n1 : 원래 까불 까불 여기저기 잘 친해지잖아\n2 : 그냥 내리갈굼 문화가 있었을 뿐\n2 : 걔는 괜찮았던 거?\n1 : 근데 아무래도 그런 곳에 있다 보면 자기도 그게 물들게 돼서 그게 너무 싫었대\n2 : 그건 그랬겠다 나 같아도 너무 싫었을 듯\n1 : 진짜 후임들한테 싫은 소리 한번 안 하다가 어느 날 후임이 진짜 엄청 크게 잘못을 했다는 거야\n2 : 엉엉 진짜? 뭐야 ... 그래서 ?\n1 : 근데 군대 안에서 크게 잘못한 걸 사랑으로 담부터 그러지마~ 이러고 넘길 수는 없는 거잖아 혼내긴 해야지\n2 : 키키 사랑으로 ... 글킨하겠다 ㅜㅜ\n2 : 큰일 날 수도 있으니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 근데 내 남친 전역한 지 1년 반 됐는데 아직도 뭐가 힘들었었는지 정확히 기억하는 거 보면 인상 깊은 힘듦이었던 듯 ...",
+            "norm_text": "근데 내 남친 전역한 지 1년 반 됐는데 아직도 뭐가 힘들었었는지 정확히 기억하는 거 보면 인상 깊은 힘듦이었던 듯 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+내/MM+남친/NNG+전역/NNG+한지/XSA+EC+1/SN+년/NNBC+반/NNG+됐/XSV+EP+는데/EC+아직/MAG+도/JX+뭐/NP+가/JKS+힘들/VA+었었/EP+는지/EC+정확히/MAG+기억/NNG+하/XSV+는/ETM+거/NNB+보/VV+면/EC+인상/NNG+깊/VA+은/ETM+힘듦/UNKNOWN+이/VCP+었/EP+던/ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 진짜? 많이 힘들었나 보네",
+            "norm_text": "아 진짜? 많이 힘들었나 보네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+많이/MAG+힘들/VA+었/EP+나/EC+보/VX+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 앙 솔직히 시간 지나면 힘든 거 다 잊기 마련인데 다 기억하던 걸?",
+            "norm_text": "앙 솔직히 시간 지나면 힘든 거 다 잊기 마련인데 다 기억하던 걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앙/IC+솔직히/MAG+시간/NNG+지나/VV+면/EC+힘든/VA+ETM+거/NNB+다/MAG+잊/VV+기/ETN+마련/NNB+인데/VCP+EC+다/MAG+기억/NNG+하/XSA+던걸/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 허르 우리 동생은 오늘 나왔는데 힘든 거 딱히 얘기 안 하더라",
+            "norm_text": "허르 우리 동생은 오늘 나왔는데 힘든 거 딱히 얘기 안 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "허/IC+르/NNG+우리/NP+동생/NNG+은/JX+오늘/MAG+나왔/VV+EP+는데/EC+힘든/VA+ETM+거/NNB+딱히/MAG+얘기/NNG+안/MAG+하/VV+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오늘 전역했는데 군대 얘기가 하고 싶겠냐고 키키",
+            "norm_text": "오늘 전역했는데 군대 얘기가 하고 싶겠냐고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+전역/NNG+했/XSV+EP+는데/EC+군대/NNG+얘기/NNG+가/JKS+하/VV+고/EC+싶/VX+겠/EP+냐고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그냥 우리 동생이 말이 없는 듯 ...",
+            "norm_text": "그냥 우리 동생이 말이 없는 듯 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+우리/NP+동생/NNG+이/JKS+말/NNG+이/JKS+없/VA+는/ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 걔는 뭐가 가장 힘들었대?",
+            "norm_text": "걔는 뭐가 가장 힘들었대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "걔/NP+는/JX+뭐/NP+가/JKS+가장/MAG+힘들/VA+었/EP+대/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우선 내리갈굼이 엄청 힘들었다고 하는 것 같던데",
+            "norm_text": "우선 내리갈굼이 엄청 힘들었다고 하는 것 같던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우선/MAG+내리/MAG+갈굼/VV+ETN+이/JKS+엄청/MAG+힘들/VA+었/EP+다고/EC+하/VV+는/ETM+것/NNB+같/VA+던데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 헐헐 근데 상상 간다 ...",
+            "norm_text": "헐헐 근데 상상 간다 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐헐/MAG+근데/MAJ+상상/NNG+간다/VV+EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 걔가 편한 군 생활 했을 거 같진 않음 ...",
+            "norm_text": "걔가 편한 군 생활 했을 거 같진 않음 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걔/NP+가/JKS+편한/VA+ETM+군/NNG+생활/NNG+했/XSV+EP+을/ETM+거/NNB+같/VA+진/EC+JX+않/VX+음/ETN+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 걔 그래도 후임들한테 잘하고 선임들한테 이쁨 많이 받았다던데?",
+            "norm_text": "걔 그래도 후임들한테 잘하고 선임들한테 이쁨 많이 받았다던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "걔/NP+그래도/VV+EC+후임/NNG+들/XSN+한테/JKB+잘/MAG+하/VV+고/EC+선임/NNG+들/XSN+한테/JKB+이쁨/VA+ETN+많이/MAG+받/VV+았/EP+다던데/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 원래 까불 까불 여기저기 잘 친해지잖아",
+            "norm_text": "원래 까불 까불 여기저기 잘 친해지잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+까불까불/MAG+여기저기/NNG+잘/MAG+친해/VA+EC+지/VX+잖아/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그냥 내리갈굼 문화가 있었을 뿐",
+            "norm_text": "그냥 내리갈굼 문화가 있었을 뿐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+내리/VV+EC+갈굼/VV+ETN+문화/NNG+가/JKS+있/VA+었/EP+을/ETM+뿐/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 걔는 괜찮았던 거?",
+            "norm_text": "걔는 괜찮았던 거?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "걔/NP+는/JX+괜찮/VA+았/EP+던/ETM+거/NNB"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 아무래도 그런 곳에 있다 보면 자기도 그게 물들게 돼서 그게 너무 싫었대",
+            "norm_text": "근데 아무래도 그런 곳에 있다 보면 자기도 그게 물들게 돼서 그게 너무 싫었대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+아무래도/MAG+그런/MM+곳/NNG+에/JKB+있/VV+다/EC+보/VX+면/EC+자기/NP+도/JX+그게/NP+JKS+물들/VV+게/EC+돼서/VV+EC+그게/NP+JKS+너무/MAG+싫/VA+었/EP+대/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그건 그랬겠다 나 같아도 너무 싫었을 듯",
+            "norm_text": "그건 그랬겠다 나 같아도 너무 싫었을 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그랬/VV+EP+겠/EP+다/EF+나/NP+같/VA+아도/EC+너무/MAG+싫/VA+었/EP+을/ETM+듯/NNB"
+          },
+          {
+            "id": 17,
+            "text": "1 : 진짜 후임들한테 싫은 소리 한번 안 하다가 어느 날 후임이 진짜 엄청 크게 잘못을 했다는 거야",
+            "norm_text": "진짜 후임들한테 싫은 소리 한번 안 하다가 어느 날 후임이 진짜 엄청 크게 잘못을 했다는 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+후임/NNG+들/XSN+한테/JKB+싫/VA+은/ETM+소리/NNG+한번/MAG+안/MAG+하/VV+다가/EC+어느/MM+날/NNG+후임/NNG+이/JKS+진짜/MAG+엄청/MAG+크/VA+게/EC+잘못/NNG+을/JKO+했/VV+EP+다는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 엉엉 진짜? 뭐야 ... 그래서 ?",
+            "norm_text": "엉엉 진짜? 뭐야 ... 그래서 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엉엉/MAG+진짜/MAG+뭐/NP+야/VCP+EF+./SY+그래서/MAJ"
+          },
+          {
+            "id": 19,
+            "text": "1 : 근데 군대 안에서 크게 잘못한 걸 사랑으로 담부터 그러지마~ 이러고 넘길 수는 없는 거잖아 혼내긴 해야지",
+            "norm_text": "근데 군대 안에서 크게 잘못한 걸 사랑으로 담부터 그러지마~ 이러고 넘길 수는 없는 거잖아 혼내긴 해야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+군/NNG+대안/NNG+에서/JKB+크/VA+게/EC+잘못/MAG+한/XSA+ETM+걸/NNB+JKO+사랑/NNG+으로/JKB+담/NNG+부터/JX+그러/VV+지/EC+마/VX+EC+~/SY+이러/VV+고/EC+넘길/VV+ETM+수/NNB+는/JX+없/VA+는/ETM+거/NNB+잖아/VCP+EC+VX+EC+혼내/VV+긴/ETN+JX+해야지/VX+EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 사랑으로 ... 글킨하겠다 ㅜㅜ",
+            "norm_text": "키키 사랑으로 ... 글킨하겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+사랑/NNG+으로/JKB+./SY+글킨하겠다ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 큰일 날 수도 있으니까",
+            "norm_text": "큰일 날 수도 있으니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "큰일날/VV+ETM+수/NNB+도/JX+있/VA+으니까/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55457,
+    "name": "KAKAO_727_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134354034960/KAKAO_727_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134354034960/KAKAO_727_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36982,
+      "filename": "KAKAO_727_14.txt",
+      "title": "KAKAO_727_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 370,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 370,
+        "word_size": 124,
+        "text": "1 : 너 그거 뉴스 봤어?\n2 : 뭐? 무슨 뉴스?\n1 : 백신 맞은 50대 경찰관 또 죽었대 ㅠㅠ\n2 : 정말? 백신 사망자 계속 나오네\n1 : 응 ㅠㅠ 교차 접종 하고 숨졌대\n2 : 헐 교차 접종이라 그런가?\n1 : 아니 그냥 화이자 맞은 2, 30대도 많이 죽었다고 기사 뜨던데?\n2 : 너무 급하게 나온 약이라... 너무 안 됐다\n1 : 그러니까... 너무 안타깝고 무섭네\n2 : 나도 너무 고민 돼 ㅠㅠ\n1 : 너 1차 맞지 않았어?\n2 : 어 키키 맞았는데 2차 맞으려니까 또 불안하네\n1 : 하하 정말 어쩌라는 건지 모르겠어\n2 : 그러니까 ㅜㅜ 그냥 이 상황이 빨리 끝났으면 좋겠어\n1 : 하... 이렇게 오래 갈 줄 누가 알았나\n2 : ㅠㅠ 그러게 너도 항상 건강 조심해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 그거 뉴스 봤어?",
+            "norm_text": "너 그거 뉴스 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+그거/NP+뉴스/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 뭐? 무슨 뉴스?",
+            "norm_text": "뭐? 무슨 뉴스?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+무슨/MM+뉴스/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 백신 맞은 50대 경찰관 또 죽었대 ㅠㅠ",
+            "norm_text": "백신 맞은 50대 경찰관 또 죽었대 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "백신/NNG+맞/VV+은/ETM+50/SN+대/NNBC+경찰관/NNG+또/MAG+죽/VV+었/EP+대/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 정말? 백신 사망자 계속 나오네",
+            "norm_text": "정말? 백신 사망자 계속 나오네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+백신/NNG+사망자/NNG+계속/MAG+나오/VV+네/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 ㅠㅠ 교차 접종 하고 숨졌대",
+            "norm_text": "응 ㅠㅠ 교차 접종 하고 숨졌대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+ㅠㅠ/UNKNOWN+교차/NNG+접종/NNG+하/XSV+고/EC+숨졌/VV+EP+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 헐 교차 접종이라 그런가?",
+            "norm_text": "헐 교차 접종이라 그런가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+교차/NNG+접종/NNG+이/VCP+라/EC+그런가/VA+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니 그냥 화이자 맞은 2, 30대도 많이 죽었다고 기사 뜨던데?",
+            "norm_text": "아니 그냥 화이자 맞은 2, 30대도 많이 죽었다고 기사 뜨던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+그냥/MAG+화이자/NNP+맞/VV+은/ETM+2/SN+,/SC+30/SN+대/NNBC+도/JX+많이/MAG+죽/VV+었/EP+다고/EC+기사/NNG+뜨/VV+던데/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너무 급하게 나온 약이라... 너무 안 됐다",
+            "norm_text": "너무 급하게 나온 약이라... 너무 안 됐다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+급하/VA+게/EC+나온/VV+ETM+약/NNG+이/VCP+라/EF+./SY+너무/MAG+안/MAG+됐/VV+EP+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러니까... 너무 안타깝고 무섭네",
+            "norm_text": "그러니까... 너무 안타깝고 무섭네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+./SY+너무/MAG+안타깝/VA+고/EC+무섭/VA+네/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 너무 고민 돼 ㅠㅠ",
+            "norm_text": "나도 너무 고민 돼 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+너무/MAG+고민/NNG+돼/XSV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너 1차 맞지 않았어?",
+            "norm_text": "너 1차 맞지 않았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+1/SN+차/NNBC+맞/VV+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어 키키 맞았는데 2차 맞으려니까 또 불안하네",
+            "norm_text": "어 키키 맞았는데 2차 맞으려니까 또 불안하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+키/NNG+키/XSV+ETN+맞/VV+았/EP+는데/EC+2/SN+차/NNBC+맞/VV+으려니까/EC+또/MAG+불안/NNG+하/XSV+네/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하하 정말 어쩌라는 건지 모르겠어",
+            "norm_text": "하하 정말 어쩌라는 건지 모르겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+정말/MAG+어쩌/VV+라는/ETM+건지/NNB+VCP+EC+모르/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러니까 ㅜㅜ 그냥 이 상황이 빨리 끝났으면 좋겠어",
+            "norm_text": "그러니까 ㅜㅜ 그냥 이 상황이 빨리 끝났으면 좋겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+ㅜㅜ/UNKNOWN+그냥/MAG+이상황/NNP+이/JKS+빨리/MAG+끝났으면/VV+EP+EC+좋/VA+겠/EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 하... 이렇게 오래 갈 줄 누가 알았나",
+            "norm_text": "하..... 이렇게 오래 갈 줄 누가 알았나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "하/IC+./SY+./SY+이렇게/MAG+오래갈/VV+ETM+줄/NNB+누가/NP+JKS+알/VV+았/EP+나/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : ㅠㅠ 그러게 너도 항상 건강 조심해",
+            "norm_text": "ㅠㅠㅠ그러게 너도 항상 건강 조심해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "ㅠ/UNKNOWN+ㅠㅠ/UNKNOWN+그러/VV+게/EC+너/NP+도/JX+항상/MAG+건강/NNG+조심/NNG+해/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

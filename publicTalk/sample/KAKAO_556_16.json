@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22461,
+    "name": "KAKAO_556_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151408072234/KAKAO_556_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151408072234/KAKAO_556_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29727,
+      "filename": "KAKAO_556_16.txt",
+      "title": "KAKAO_556_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 566,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 566,
+        "word_size": 182,
+        "text": "1 : 아 다이어트 해야 하는데. 오빠 몇 키로 빠졌다고 했지?\n2 : 나 25키로 뺐었는데 요즘 좀 다시 붙어서 한 20키로 정도 뺀 거 같지?\n1 : 와 진짜 그렇게 빼는 게 사람이 가능한 일이야? 난 사람 아닌 듯\n2 : 넌 원래 사람 아님\n1 : 이십오키로 빠지면 진짜 몸 움직이는 거 엄청 가볍겠다.\n2 : 아니 돼지인 상태에서 뺀 건데 지금도 돼지라 아직 가볍고 그러지 않아\n1 : 키키 그래도 전 후 차이 엄청 날 거 아니야\n2 : 나긴 많이 나지 키키 근데 아직도 돼지라... 걸을 때 허벅지 안 쓸릴 때까지 빼야 되는데\n1 : 나도 현미밥을 먹어야겠다고 알아보고 있었는데 엄마가 쌀 똑 떨어진 거 알고 백미 쌀 가져다주셨어\n2 : 그거 어디서 선물 들어온 거라 키키\n1 : 키키 다 먹고 나중에 현미 쌀 사야겠다 언제 다 먹을 수 있을지는 모르겠지만\n2 : 미용을 생각하면 더욱더 먹어서 살을 찌워 피부를 팽팽하게 만들어야 하는 거 아닐까\n1 : 그건 너무 한 개만 생각한 거 아닐까?\n2 : 동글동글해야 귀엽고 이쁘던뎅\n1 : 나는 뚱글뚱글해서 더 이상은 안돼\n2 : 아니야 할 수 있어 조금만 더 노력해서 굴러 다녀보자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 다이어트 해야 하는데. 오빠 몇 키로 빠졌다고 했지?",
+            "norm_text": "아 다이어트 해야 하는데. 오빠 몇 키로 빠졌다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+다이어트/NNG+해야/XSV+EC+하/VV+는데/EC+./SY+오빠/NNG+몇/MM+키/NNG+로/JKB+빠졌/VV+EP+다고/EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 25키로 뺐었는데 요즘 좀 다시 붙어서 한 20키로 정도 뺀 거 같지?",
+            "norm_text": "나 25키로 뺐었는데 요즘 좀 다시 붙어서 한 20키로 정도 뺀 거 같지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+25/SN+키/NNG+로/JKB+뺐었/VV+EP+는데/EC+요즘/MAG+좀/MAG+다시/MAG+붙/VV+어서/EC+한/VX+ETM+20/SN+키로/XSV+ETN+JKB+정도/NNG+뺀/VV+ETM+거/NNB+같/VA+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 와 진짜 그렇게 빼는 게 사람이 가능한 일이야? 난 사람 아닌 듯",
+            "norm_text": "와 진짜 그렇게 빼는 게 사람이 가능한 일이야? 난 사람 아닌 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+그렇게/MAG+빼/VV+는/ETM+게/NNB+JKS+사람/NNG+이/JKS+가능/NNG+한/XSA+ETM+일/NNG+이/VCP+야/EF+난/NP+JX+사람/NNG+아닌/VCN+ETM+듯/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 넌 원래 사람 아님",
+            "norm_text": "넌 원래 사람 아님",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넌/NP+JX+원래/NNG+사람/NNG+아님/VCN+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 이십오키로 빠지면 진짜 몸 움직이는 거 엄청 가볍겠다.",
+            "norm_text": "이십오키로 빠지면 진짜 몸 움직이는 거 엄청 가볍겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이/NR+십/NR+오/NR+키로/XSV+ETN+JKB+빠지/VV+면/EC+진짜/MAG+몸/NNG+움직이/VV+는/ETM+거/NNB+엄청/MAG+가볍/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 돼지인 상태에서 뺀 건데 지금도 돼지라 아직 가볍고 그러지 않아",
+            "norm_text": "아니 돼지인 상태에서 뺀 건데 지금도 돼지라 아직 가볍고 그러지 않아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+돼지/NNG+인/VCP+ETM+상태/NNG+에서/JKB+뺀/VV+ETM+건데/NNB+VCP+EC+지금/NNG+도/JX+돼지/NNG+라/VCP+EC+아직/MAG+가볍/VA+고/EC+그러/VV+지/EC+않/VX+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 그래도 전 후 차이 엄청 날 거 아니야",
+            "norm_text": "키키 그래도 전 후 차이 엄청 날 거 아니야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+전후/NNG+차이/NNG+엄청날/VA+ETM+거/NNB+아니/VCN+야/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나긴 많이 나지 키키 근데 아직도 돼지라... 걸을 때 허벅지 안 쓸릴 때까지 빼야 되는데",
+            "norm_text": "나긴 많이 나지 키키 근데 아직도 돼지라... 걸을 때 허벅지 안 쓸릴 때까지 빼야 되는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+긴/VCP+ETN+JX+많이/MAG+나/VV+지/EC+키/NNG+키/XSV+ETN+근데/MAJ+아직/MAG+도/JX+돼지/NNG+라/VCP+EF+./SY+걸/VV+을/ETM+때/NNG+허벅지/NNG+안/MAG+쓸/VV+ETM+릴/NNG+때/NNG+까지/JX+빼/VV+야/EC+되/VV+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 현미밥을 먹어야겠다고 알아보고 있었는데 엄마가 쌀 똑 떨어진 거 알고 백미 쌀 가져다주셨어",
+            "norm_text": "나도 현미밥을 먹어야겠다고 알아보고 있었는데 엄마가 쌀 똑 떨어진 거 알고 백미 쌀 가져다주셨어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+현미밥/NNG+을/JKO+먹/VV+어야/EC+겠다고/VX+EP+EC+알아보/VV+고/EC+있/VX+었/EP+는데/EC+엄마/NNG+가/JKS+쌀/NNG+똑/MAG+떨어진/VV+ETM+거/NNB+알/VV+고/EC+백미/NNG+쌀/NNG+가져다주/VV+셨/EP+EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그거 어디서 선물 들어온 거라 키키",
+            "norm_text": "그거 어디서 선물 들어온 거라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+어디/NP+서/JKB+선물/NNG+들어온/VV+ETM+거/NNB+라/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 다 먹고 나중에 현미 쌀 사야겠다 언제 다 먹을 수 있을지는 모르겠지만",
+            "norm_text": "키키 다 먹고 나중에 현미 쌀 사야겠다 언제 다 먹을 수 있을지는 모르겠지만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+다/EC+먹/VV+고/EC+나중/NNG+에/JKB+현미/NNG+쌀/NNG+사/VV+야겠다/EC+VX+EP+EF+언제/MAG+다/MAG+먹/VV+을/ETM+수/NNB+있/VV+을지/EC+는/JX+모르/VV+겠/EP+지만/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 미용을 생각하면 더욱더 먹어서 살을 찌워 피부를 팽팽하게 만들어야 하는 거 아닐까",
+            "norm_text": "미용을 생각하면 더욱더 먹어서 살을 찌워 피부를 팽팽하게 만들어야 하는 거 아닐까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미용/NNG+을/JKO+생각/NNG+하/XSV+면/EC+더욱더/MAG+먹/VV+어서/EC+살/NNG+을/JKO+찌워/VV+EC+피부/NNG+를/JKO+팽팽/XR+하/XSA+게/EC+만들/VV+어야/EC+하/VV+는/ETM+거/NNB+아닐까/VCN+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그건 너무 한 개만 생각한 거 아닐까?",
+            "norm_text": "그건 너무 한 개만 생각한 거 아닐까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+너무/MAG+한/MM+개/NNBC+만/JX+생각/NNG+한/XSA+ETM+거/NNB+아닐까/VCN+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 동글동글해야 귀엽고 이쁘던뎅",
+            "norm_text": "동글동글해야 귀엽고 이쁘던뎅",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동글동글/MAG+해야/VV+EC+귀엽/VA+고/EC+이쁘/VA+던/ETM+뎅/NNP"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나는 뚱글뚱글해서 더 이상은 안돼",
+            "norm_text": "나는 뚱글뚱글해서 더 이상은 안돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+뚱글뚱글/MAG+해서/VV+EC+더/MAG+이상/NNG+은/JX+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아니야 할 수 있어 조금만 더 노력해서 굴러 다녀보자",
+            "norm_text": "아니야 할 수 있어 조금만 더 노력해서 굴러 다녀보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아니야/IC+할/VV+ETM+수/NNB+있/VV+어/EC+조금/MAG+만/JX+더/MAG+노력/NNG+해서/XSV+EC+굴러/VV+EC+다녀/VV+EC+보/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

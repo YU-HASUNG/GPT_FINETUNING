@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 72755,
+    "name": "KAKAO_887_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152803037839/KAKAO_887_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152803037839/KAKAO_887_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41282,
+      "filename": "KAKAO_887_05.txt",
+      "title": "KAKAO_887_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 488,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 488,
+        "word_size": 160,
+        "text": "1 : 야 나 오늘 군인이랑 밥 먹었다 키키\n2 : 군인? 우리 나이에 주변에 군인이 있냐?\n1 : 사촌 동생 휴가 나왔거든 키키\n1 : 오랜만에 보니까 반갑더라구\n2 : 오~ 어디로 갔어 니 사촌 동생은?\n1 : 해병대 키키 만나니까 부심 엄청나던데?\n2 : 귀신 잡는 해병대?\n2 : 키키 그 빨간 명찰도 봤어?\n1 : 어어 하고 왔더라고?\n1 : 엄청 자랑하더라\n2 : 키키 귀엽다 요즘 군대는 다닐만하대?\n1 : 걔네는 저녁에 폰도 하잖아 그래서 괜찮대\n2 : 뭐 괴롭히거나 그런 건 없대?\n2 : 그런 게 제일 걱정이던데\n1 : 그건 완전 옛날 이야기라더라고?\n1 : 나도 걱정했었는데 다행이지\n2 : 진짜네! 걔는 이제 친구들이랑 맨날 술 먹고 하겠다\n1 : 근데 코로나 때문에 영업시간 제한 걸려서 제대로 놀진 못했대 ㅜ\n2 : 아 그건 진짜 아쉽겠다 ㅜㅜ\n2 : 밥 뭐 사줬음?\n1 : 양념갈비 사드렸다 돈 잘 버는 이 언니님께서 ^^\n2 : 오~ 돈 버는 사촌누나 있으면 좋네~\n2 : 나도 사줘",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야 나 오늘 군인이랑 밥 먹었다 키키",
+            "norm_text": "야 나 오늘 군인이랑 밥 먹었다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+나/NP+오늘/MAG+군인/NNG+이랑/JKB+밥/NNG+먹/VV+었/EP+다키키/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 군인? 우리 나이에 주변에 군인이 있냐?",
+            "norm_text": "군인? 우리 나이에 주변에 군인이 있냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군인/NNG+우리/NP+나이/NNG+에/JKB+주변/NNG+에/JKB+군인/NNG+이/JKS+있/VA+냐/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 사촌 동생 휴가 나왔거든 키키",
+            "norm_text": "사촌 동생 휴가 나왔거든 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사촌/NNG+동생/NNG+휴가/NNG+나왔/VV+EP+거든/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오랜만에 보니까 반갑더라구",
+            "norm_text": "오랜만에 보니까 반갑더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오랜만/NNG+에/JKB+보/VV+니까/EC+반갑/VA+더라구/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오~ 어디로 갔어 니 사촌 동생은?",
+            "norm_text": "오~ 어디로 갔어 니 사촌 동생은?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+어디/NP+로/JKB+갔/VV+EP+어니/EC+사촌/NNG+동생/NNG+은/JX"
+          },
+          {
+            "id": 6,
+            "text": "1 : 해병대 키키 만나니까 부심 엄청나던데?",
+            "norm_text": "해병대 키키 만나니까 부심 엄청나던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해병대/NNG+키/NNG+키/XSV+ETN+만나/VV+니까/EC+부심/NNG+엄청나/XSA+던데/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 귀신 잡는 해병대?",
+            "norm_text": "귀신 잡는 해병대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "귀신/NNG+잡/VV+는/ETM+해병대/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 그 빨간 명찰도 봤어?",
+            "norm_text": "키키 그 빨간 명찰도 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+그/MM+빨간/VA+ETM+명찰/NNG+도/JX+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어어 하고 왔더라고?",
+            "norm_text": "어어 하고 왔더라고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+하/VV+고/EC+왔/VX+EP+더라고/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 엄청 자랑하더라",
+            "norm_text": "엄청 자랑하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄청/MAG+자랑/NNG+하/XSV+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 귀엽다 요즘 군대는 다닐만하대?",
+            "norm_text": "키키 귀엽다 요즘 군대는 다닐만하대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+귀엽/VA+다/EF+요즘/MAG+군대/NNG+는/JX+다닐/VV+ETM+만/NNB+하/XSA+대/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 걔네는 저녁에 폰도 하잖아 그래서 괜찮대",
+            "norm_text": "걔네는 저녁에 폰도 하잖아 그래서 괜찮대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걔/NP+네/XSN+는/JX+저녁/NNG+에/JKB+폰/NNG+도/JX+하/VV+잖아/EF+그래서/MAJ+괜찮/VA+대/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 뭐 괴롭히거나 그런 건 없대?",
+            "norm_text": "뭐 괴롭히거나 그런 건 없대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+괴롭히/VV+거나/EC+그런/MM+건/NNB+JX+없/VA+대/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그런 게 제일 걱정이던데",
+            "norm_text": "그런 게 제일 걱정이던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+게/NNB+JKS+제일/MAG+걱정/NNG+이/JKS+던데/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그건 완전 옛날 이야기라더라고?",
+            "norm_text": "그건 완전 옛날 이야기라더라고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+완전/NNG+옛날/NNG+이야기/NNG+라/VCP+더라고/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나도 걱정했었는데 다행이지",
+            "norm_text": "나도 걱정했었는데 다행이지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+걱정/NNG+했었/XSV+EP+는데/EC+다행/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 진짜네! 걔는 이제 친구들이랑 맨날 술 먹고 하겠다",
+            "norm_text": "진짜네! 걔는 이제 친구들이랑 맨날 술 먹고 하겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+네/IC+걔/NP+는/JX+이제/MAG+친구/NNG+들/XSN+이랑/JKB+맨날/MAG+술/NNG+먹/VV+고/EC+하/VX+겠/EP+다/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 근데 코로나 때문에 영업시간 제한 걸려서 제대로 놀진 못했대 ㅜ",
+            "norm_text": "근데 코로나 때문에 영업시간 제한 걸려서 제대로 놀진 못했대 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+코로나/NNG+때문/NNB+에/JKB+영업/NNG+시간/NNG+제한/NNG+걸려서/VV+EC+제대로/MAG+놀/VV+진못했/EC+JX+VX+EP+대ㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아 그건 진짜 아쉽겠다 ㅜㅜ",
+            "norm_text": "아 그건 진짜 아쉽겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그건/NP+JX+진짜/MAG+아쉽/VA+겠/EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 밥 뭐 사줬음?",
+            "norm_text": "밥 뭐 사줬음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "밥/NNG+뭐/IC+사/VV+EC+줬/VX+EP+음/ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 양념갈비 사드렸다 돈 잘 버는 이 언니님께서 ^^",
+            "norm_text": "양념갈비 사드렸다 돈 잘 버는 이 언니님께서 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "양념갈비사드렸다돈잘버는이언니님께서/UNKNOWN+^/SY+^/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 오~ 돈 버는 사촌누나 있으면 좋네~",
+            "norm_text": "오~ 돈 버는 사촌누나 있으면 좋네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+돈버는사촌누나있으면좋네/UNKNOWN+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나도 사줘",
+            "norm_text": "나도 사줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+사/VV+줘/EC+VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

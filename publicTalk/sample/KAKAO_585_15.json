@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 24207,
+    "name": "KAKAO_585_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160844057072/KAKAO_585_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160844057072/KAKAO_585_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31706,
+      "filename": "KAKAO_585_15.txt",
+      "title": "KAKAO_585_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 874,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 874,
+        "word_size": 263,
+        "text": "1 : 러시아에 자기 딸 강간 했다고 친구 죽인 기사 봤낭?\n2 : 어어 봤음 봤음 ㅠㅠ 내였어도 눈 뒤집어져서 죽였다...\n2 : 주민들이 다 그 애기 아빠 두둔한 담서 완전 이해됨\n1 : 어어엉 여론이 다 두둔하는 입장이라며...\n1 : 내였어도 어차피 감옥 가서 편하게 있는 거 볼바엔 걍 죽일 듯 ㅠㅜ\n2 : 아... 감옥 가서 편하게...\n2 : 미국은 아동 성 범죄자는 감옥에서도 절대 편하게 못 있는다던디...\n1 : 어어 다른 수감자들이 진짜 극혐 한다며 아동성폭행범이랑 같은 공간에 있는 거 자체로... 그래서 때려 죽이려고 한대\n2 : 어어 그렇다면서 ㄷㄷ 약간 웃기긴 함 지들도 범죄자면서 급 나눠서 그렇게 때려 죽일라는 게...\n1 : 키키 그게 아동 성폭행범을 바라보는 시선인 거지 키키\n1 : 거의 뭐 쓰레기 중에 쓰레기 취급\n2 : 키키 쓰레기 중 쓰레기 맞지 ㄷㄷ\n2 : 절대 사회에 그냥 풀어둬서는 안되는데 ㅠㅠ\n2 : 러시아 범죄자 놈은 그 친구 애기 말고도 다른 피해자 더 있었담서\n1 : 어어어 휴대폰에 동영상이 있었다더라...\n1 : 그걸 왜 또 찍어서 소장을 하냐고\n2 : 전리품처럼 그런 걸 영상으로 찍어 소장한 걸까? 핵소름... ㄷㄷ\n1 : 그 정도면 정신병원에 죽을 때까지 갇혀있어야 할 정도 아니가\n2 : 잘 폐기 된 듯... 인과응보로 피해자 아빠 손에...\n1 : 그니까... 저런 건 정당방위로 봐줘야는 부분 아니가 휴\n2 : 정당방위 인정 됐으면 좋겠다 ㅠㅠ\n2 : 다음 웹툰 중에 유부녀 킬러라고 아나?\n1 : 아니 아니 처음 들어보는 웹툰인데 재밌나?\n2 : 엉엉 니 다음 웹툰 보면 함 봐봐 인과응보 얘기임 키키\n1 : 요즘 인과응보 관련된 웹툰 많이 나오네 키키 택시기산가? 그것도 그랬고\n2 : 그건 어디 웹툰인고 함 찾아서 읽어봐야겠네 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 러시아에 자기 딸 강간 했다고 친구 죽인 기사 봤낭?",
+            "norm_text": "러시아에 자기 딸 강간 했다고 친구 죽인 기사 봤낭?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "러시아/NNP+에/JKB+자기/NP+딸강/MAG+간했/VV+EP+다고/EC+친구/NNG+죽인/VV+ETM+기사/NNG+봤/VV+EP+낭/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어어 봤음 봤음 ㅠㅠ 내였어도 눈 뒤집어져서 죽였다...",
+            "norm_text": "어어 봤음 봤음 ㅠㅠ 내였어도 눈 뒤집어져서 죽였다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+봤/VV+EP+음/ETN+봤/VV+EP+음/ETN+ㅠㅠ/UNKNOWN+내/NP+였/VCP+EP+어도/EC+눈/NNG+뒤집/VV+어/EC+져서/VX+EC+죽였/VV+EP+다/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 주민들이 다 그 애기 아빠 두둔한 담서 완전 이해됨",
+            "norm_text": "주민들이 다 그 애기 아빠 두둔한 담서 완전 이해됨",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주민/NNG+들/XSN+이/JKS+다/MAG+그/MM+애기/NNG+아빠/NNG+두/JX+둔한/VA+ETM+담/VV+서/EC+완전/NNG+이해/NNG+됨/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 어어엉 여론이 다 두둔하는 입장이라며...",
+            "norm_text": "어어엉 여론이 다 두둔하는 입장이라며...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어어엉/IC+여론/NNG+이/JKS+다/MAG+두둔/NNG+하/XSV+는/ETM+입장/NNG+이/VCP+라며/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 내였어도 어차피 감옥 가서 편하게 있는 거 볼바엔 걍 죽일 듯 ㅠㅜ",
+            "norm_text": "내였어도 어차피 감옥 가서 편하게 있는 거 볼바엔 걍 죽일 듯 ㅠㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+였/VCP+EP+어도/EC+어차피/MAG+감옥/NNG+가/VV+서/EC+편하/VA+게/EC+있/VX+는/ETM+거/NNB+볼/VV+ETM+바/NNB+엔걍/UNKNOWN+죽일/VV+ETM+듯/NNB+ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아... 감옥 가서 편하게...",
+            "norm_text": "아... 감옥 가서 편하게...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아/IC+./SY+감옥/NNG+가/VV+서/EC+편하/VA+게/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 미국은 아동 성 범죄자는 감옥에서도 절대 편하게 못 있는다던디...",
+            "norm_text": "미국은 아동 성 범죄자는 감옥에서도 절대 편하게 못 있는다던디...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "미국/NNP+은/JX+아동/NNG+성/XSN+범죄자/NNG+는/JX+감옥/NNG+에서/JKB+도/JX+절대/MAG+편하/VA+게/EC+못/MAG+있/VV+는다/EF+던디/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어어 다른 수감자들이 진짜 극혐 한다며 아동성폭행범이랑 같은 공간에 있는 거 자체로... 그래서 때려 죽이려고 한대",
+            "norm_text": "어어 다른 수감자들이 진짜 극혐 한다며 아동성폭행범이랑 같은 공간에 있는 거 자체로... 그래서 때려 죽이려고 한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+어/IC+다른/MM+수감자/NNG+들/XSN+이/JKS+진짜/MAG+극혐/UNKNOWN+한다며/VV+EC+아동/NNG+성/XSN+폭행/NNG+범/NNG+이랑/JKB+같/VA+은/ETM+공간/NNG+에/JKB+있/VV+는/ETM+거/NNB+자체/NNG+로/JKB+./SY+./SY+그래서/MAJ+때려죽이/VV+려고/EC+한대/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 어어 그렇다면서 ㄷㄷ 약간 웃기긴 함 지들도 범죄자면서 급 나눠서 그렇게 때려 죽일라는 게...",
+            "norm_text": "어어 그렇다면서 ㄷㄷ 약간 웃기긴 함 지들도 범죄자면서 급 나눠서 그렇게 때려 죽일라는 게...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+그렇/VA+다면서/EC+ㄷ/NNG+ㄷ/NNG+약간/MAG+웃기/VV+긴/ETN+JX+함지/NNG+들/XSN+도/JX+범죄/NNG+자/VV+면서/EC+급/NNG+나눠서/VV+EC+그렇게/MAG+때려죽일/VV+ETM+라는/ETM+게/NNB+JKS+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 그게 아동 성폭행범을 바라보는 시선인 거지 키키",
+            "norm_text": "키키 그게 아동 성폭행범을 바라보는 시선인 거지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그게/NP+JKS+아동/NNG+성/XSN+폭행/NNG+범/NNG+을/JKO+바라보/VV+는/ETM+시선/NNG+인/VCP+ETM+거/NNB+지/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 거의 뭐 쓰레기 중에 쓰레기 취급",
+            "norm_text": "거의 뭐 쓰레기 중에 쓰레기 취급",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거의/MAG+뭐/IC+쓰레기/NNG+중/NNB+에/JKB+쓰레기/NNG+취급/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 쓰레기 중 쓰레기 맞지 ㄷㄷ",
+            "norm_text": "키키 쓰레기 중 쓰레기 맞지 ㄷㄷ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+쓰레기/NNG+중/NNB+쓰레기/NNG+맞/VV+지/EC+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 절대 사회에 그냥 풀어둬서는 안되는데 ㅠㅠ",
+            "norm_text": "절대 사회에 그냥 풀어둬서는 안되는데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "절대/MAG+사회/NNG+에/JKB+그냥/MAG+풀/VV+어/EC+둬서/VX+EC+는/JX+안/MAG+되/VV+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 러시아 범죄자 놈은 그 친구 애기 말고도 다른 피해자 더 있었담서",
+            "norm_text": "러시아 범죄자 놈은 그 친구 애기 말고도 다른 피해자 더 있었담서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "러시아/NNP+범죄자/NNG+놈/NNB+은/JX+그/MM+친구/NNG+애기/NNG+말/VV+고/EC+도/JX+다른/MM+피해자/NNG+더/MAG+있/VA+었/EP+담/VV+서/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 어어어 휴대폰에 동영상이 있었다더라...",
+            "norm_text": "어어어 휴대폰에 동영상이 있었다더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+어/IC+어/IC+휴대폰/NNG+에/JKB+동영상/NNG+이/JKS+있/VA+었/EP+다더라/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그걸 왜 또 찍어서 소장을 하냐고",
+            "norm_text": "그걸 왜 또 찍어서 소장을 하냐고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그걸/NP+JKO+왜/MAG+또/MAG+찍/VV+어서/EC+소장/NNG+을/JKO+하/VV+냐고/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 전리품처럼 그런 걸 영상으로 찍어 소장한 걸까? 핵소름... ㄷㄷ",
+            "norm_text": "전리품처럼 그런 걸 영상으로 찍어 소장한 걸까? 핵소름... ㄷㄷ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전리품/NNG+처럼/JKB+그런/MM+걸/NNB+JKO+영상/NNG+으로/JKB+찍/VV+어/EC+소장/NNG+한/XSA+ETM+걸까/NNB+VCP+EF+핵/NNG+소름/NNG+./SY+./SY+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그 정도면 정신병원에 죽을 때까지 갇혀있어야 할 정도 아니가",
+            "norm_text": "그 정도면 정신병원에 죽을 때까지 갇혀있어야 할 정도 아니가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+정도/NNG+면/VCP+EC+정신/NNG+병원/NNG+에/JKB+죽/VV+을/ETM+때/NNG+까지/JX+갇혀/VV+EC+있/VX+어야/EC+할/VX+ETM+정도/NNG+아니/VCN+가/JKS"
+          },
+          {
+            "id": 19,
+            "text": "2 : 잘 폐기 된 듯... 인과응보로 피해자 아빠 손에...",
+            "norm_text": "잘 폐기 된 듯... 인과응보로 피해자 아빠 손에...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잘/MAG+폐기/NNG+된/XSV+ETM+듯/NNB+./SY+인과응보/NNG+로/JKB+피해자/NNG+아빠/NNG+손/NNG+에/JKB+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그니까... 저런 건 정당방위로 봐줘야는 부분 아니가 휴",
+            "norm_text": "그니까... 저런 건 정당방위로 봐줘야는 부분 아니가 휴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+저런/MM+건/NNB+JX+정당방위/NNG+로/JKB+봐/VV+EC+줘야/VX+EC+VX+는/ETM+부분/NNG+아니/VCN+가/JKS+휴/IC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 정당방위 인정 됐으면 좋겠다 ㅠㅠ",
+            "norm_text": "정당방위 인정 됐으면 좋겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정당방위/NNG+인정/NNG+됐/XSV+EP+으면/EC+좋/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 다음 웹툰 중에 유부녀 킬러라고 아나?",
+            "norm_text": "다음 웹툰 중에 유부녀 킬러라고 아나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다음/NNG+웹툰/NNP+중/NNB+에/JKB+유부녀/NNG+킬러/NNG+라고/VCP+EC+아/VV+나/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 아니 아니 처음 들어보는 웹툰인데 재밌나?",
+            "norm_text": "아니 아니 처음 들어보는 웹툰인데 재밌나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+아니/IC+처음/MAG+들/VV+어/EC+보/VX+는/ETM+웹툰/NNP+인데/VCP+EC+재밌/VA+나/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 엉엉 니 다음 웹툰 보면 함 봐봐 인과응보 얘기임 키키",
+            "norm_text": "엉엉 니 다음 웹툰 보면 함 봐봐 인과응보 얘기임 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉엉/MAG+니/MM+다음/NNG+웹툰/NNP+보/VV+면/EC+함/VV+EC+봐/VX+EC+봐/VX+EF+인과응보/NNG+얘기/NNG+임/VCP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 요즘 인과응보 관련된 웹툰 많이 나오네 키키 택시기산가? 그것도 그랬고",
+            "norm_text": "요즘 인과응보 관련된 웹툰 많이 나오네 키키 택시기산가? 그것도 그랬고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+인과응보/NNG+관련/NNG+된/XSV+ETM+웹툰/NNP+많이/MAG+나오/VV+네/EF+키키/NNP+택시/NNG+기산가/NNG+VCP+EF+그것/NP+도/JX+그랬/VV+EP+고/EC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 그건 어디 웹툰인고 함 찾아서 읽어봐야겠네 키키",
+            "norm_text": "그건 어디 웹툰인고 함 찾아서 읽어봐야겠네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+어디/NP+웹툰/NNP+인고/NNG+함/XSV+ETN+찾/VV+아서/EC+읽/VV+어/EC+봐야/VX+EC+VV+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

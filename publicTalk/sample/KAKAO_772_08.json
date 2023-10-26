@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 38517,
+    "name": "KAKAO_772_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301503400741108/KAKAO_772_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301503400741108/KAKAO_772_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38259,
+      "filename": "KAKAO_772_08.txt",
+      "title": "KAKAO_772_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 576,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 576,
+        "word_size": 177,
+        "text": "1 : 너희 집은 부모님 결혼 기념일 챙겨?\n2 : 아니 키키 언젠지도 몰라.ㅇ.\n2 : 너네 집은 부모님 기념일 챙겨드림?\n1 : 키키 진짜 이상하게도 왜 챙겨야 되는지 모르겠는데 챙기고 있음\n2 : 오오 효녀네... 대단쓰해\n2 : 근데  챙겨드리는 집이 있긴 하드라\n1 : 이제는 본인들끼리 챙기라고 해야지\n2 : 키키 나도 내 기념일만 챙겨ㅎ 레알 효년\n1 : 키키 인생에서 중요한 기념일은 생일 아니겠어 생일만 잘 챙기자\n2 : 키키 그래도 뭔가 챙겨드리다 안 챙겨드리면 서운해 하실 수도 있응게 적당히 해드려...\n1 : 맞아 키키 적당히 해야지 예전보다 줄여나가고 있어\n1 : 어릴 땐 내가 발렌타인인가 화이트데이 챙겼는데 이젠 아빠가 챙겨주더라 신기\n2 : 아버님 귀여우시당 키키 아빠는 딸바봉\n1 : 오 키키 그 베라 아이스크림 맛 있었잖아\n2 : 오  맞아 근데 그거 내 스타일 아니었어\n1 : 원래 순정 맛들이 젤 맛있지\n2 : 나 막 레인보우샤베트 애플민트 이런 상콤한 것들 좋아해 ㅋ\n1 : 상큼파구나 참고하겠어\n1 : 우리끼리 31일 기념일 해서 컵 하나씩 먹자 키키\n2 : 둘이 패밀리는 먹어야 하는 거 아니야? 맛 두 개씩 고르고 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너희 집은 부모님 결혼 기념일 챙겨?",
+            "norm_text": "너희 집은 부모님 결혼 기념일 챙겨?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+집/NNG+은/JX+부모/NNG+님/XSN+결혼기념일/NNG+챙겨/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 키키 언젠지도 몰라.ㅇ.",
+            "norm_text": "아니 키키 언젠지도 몰라.ㅇ.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+키/NNG+키/XSV+ETN+언젠지/NP+VCP+EC+도/JX+몰라/VV+EF+ㅇ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너네 집은 부모님 기념일 챙겨드림?",
+            "norm_text": "너네 집은 부모님 기념일 챙겨드림?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+집/NNG+은/JX+부모/NNG+님/XSN+기념일/NNG+챙겨/VV+EC+드림/VV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 진짜 이상하게도 왜 챙겨야 되는지 모르겠는데 챙기고 있음",
+            "norm_text": "키키 진짜 이상하게도 왜 챙겨야 되는지 모르겠는데 챙기고 있음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+이상/NNG+하/XSV+게/EC+도/JX+왜/MAG+챙겨야/VV+EC+되/VV+는지/EC+모르/VV+겠/EP+는데/EC+챙기/VV+고/EC+있/VX+음/ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오오 효녀네... 대단쓰해",
+            "norm_text": "오오 효녀네... 대단쓰해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+오/NR+효녀/NNG+네/VCP+EF+./SY+대단/MAG+쓰/NNG+해/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데  챙겨드리는 집이 있긴 하드라",
+            "norm_text": "근데  챙겨드리는 집이 있긴 하드라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+챙겨/VV+EC+드리/VX+는/ETM+집/NNG+이/JKS+있/VV+긴/ETN+JX+하/VX+드라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 이제는 본인들끼리 챙기라고 해야지",
+            "norm_text": "이제는 본인들끼리 챙기라고 해야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/NNG+는/JX+본인/NNG+들/XSN+끼리/XSN+챙기/VV+라고/EC+해야지/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 나도 내 기념일만 챙겨ㅎ 레알 효년",
+            "norm_text": "키키 나도 내 기념일만 챙겨ㅎ 레알 효년",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+내/NP+JKG+기념일/NNG+만/JX+챙겨/VV+EC+ㅎ/XSA+레알/MAG+효/NNG+년/NNB"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 인생에서 중요한 기념일은 생일 아니겠어 생일만 잘 챙기자",
+            "norm_text": "키키 인생에서 중요한 기념일은 생일 아니겠어 생일만 잘 챙기자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+인생/NNG+에서/JKB+중요/NNG+한/XSA+ETM+기념일/NNG+은/JX+생일/NNG+아니/VCN+겠/EP+어/EC+생일/NNG+만/JX+잘/MAG+챙기/VV+자/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 그래도 뭔가 챙겨드리다 안 챙겨드리면 서운해 하실 수도 있응게 적당히 해드려...",
+            "norm_text": "키키 그래도 뭔가 챙겨드리다 안 챙겨드리면 서운해 하실 수도 있응게 적당히 해드려...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+뭔가/NP+VCP+EC+챙겨/VV+EC+드리/VX+다/EC+안/MAG+챙겨/VV+EC+드리/VX+면서/EC+운해/NNG+하/XSV+실/EP+ETM+수/NNB+도/JX+있/VA+응게/EC+적당히/MAG+해드려/VV+EC+VX+EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 키키 적당히 해야지 예전보다 줄여나가고 있어",
+            "norm_text": "맞아 키키 적당히 해야지 예전보다 줄여나가고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+적당히/MAG+해야지/VV+EC+예전/NNG+보다/JKB+줄여/VV+EC+나가/VX+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 어릴 땐 내가 발렌타인인가 화이트데이 챙겼는데 이젠 아빠가 챙겨주더라 신기",
+            "norm_text": "어릴 땐 내가 발렌타인인가 화이트데이 챙겼는데 이젠 아빠가 챙겨주더라 신기",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어릴/VA+ETM+땐/NNG+JX+내/NP+가/JKS+발렌타인/NNP+인가/VCP+EC+화이트데이/NNP+챙겼/VV+EP+는데/EC+이젠/NNG+JX+아빠/NNG+가/JKS+챙겨/VV+EC+주/VX+더라/EC+신기/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아버님 귀여우시당 키키 아빠는 딸바봉",
+            "norm_text": "아버님 귀여우시당 키키 아빠는 딸바봉",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아버님/NNG+귀여우/VA+시/EP+당/XSN+키/NNG+키/NNG+아빠/NNG+는/JX+딸/VV+ETM+바/NNB+봉/NNG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오 키키 그 베라 아이스크림 맛 있었잖아",
+            "norm_text": "오 키키 그 베라 아이스크림 맛 있었잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+그/MM+베라/NNP+아이스크림/NNG+맛있/VA+었잖/EC+VX+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오  맞아 근데 그거 내 스타일 아니었어",
+            "norm_text": "오  맞아 근데 그거 내 스타일 아니었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+맞아/IC+근데/MAJ+그거/NP+내/NP+JKG+스타일/NNG+아니/VCN+었/EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 원래 순정 맛들이 젤 맛있지",
+            "norm_text": "원래 순정 맛들이 젤 맛있지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+순정/NNG+맛/NNG+들/XSN+이/JKS+젤/MAG+맛있/VA+지/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나 막 레인보우샤베트 애플민트 이런 상콤한 것들 좋아해 ㅋ",
+            "norm_text": "나 막 레인보우샤베트 애플민트 이런 상콤한 것들 좋아해 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+막/IC+레인보우/NNP+샤베트/NNG+애플/NNP+민트/NNG+이런/MM+상/NNG+콤/NNG+한/XSA+ETM+것/NNB+들/XSN+좋/VA+아/EC+해ㅋ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 상큼파구나 참고하겠어",
+            "norm_text": "상큼파구나 참고하겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "상큼/XR+파구/NNG+나/JC+참고/NNG+하/XSV+겠/EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 우리끼리 31일 기념일 해서 컵 하나씩 먹자 키키",
+            "norm_text": "우리끼리 31일 기념일 해서 컵 하나씩 먹자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "우리/NP+끼리/XSN+31/SN+일/NNBC+기념일/NNG+해서/XSV+EC+컵/NNG+하나/NR+씩/XSN+먹/VV+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 둘이 패밀리는 먹어야 하는 거 아니야? 맛 두 개씩 고르고 키키",
+            "norm_text": "둘이 패밀리는 먹어야 하는 거 아니야? 맛 두 개씩 고르고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "둘/NR+이/NR+패밀리/NNG+는/JX+먹/VV+어야/EC+하/VV+는/ETM+거/NNB+아니/VCN+야/EF+맛/NNG+두/MM+개/NNBC+씩/XSN+고르/VA+고/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

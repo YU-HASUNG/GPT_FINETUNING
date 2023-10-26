@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 47755,
+    "name": "KAKAO_841_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174218045228/KAKAO_841_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174218045228/KAKAO_841_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40096,
+      "filename": "KAKAO_841_18.txt",
+      "title": "KAKAO_841_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 670,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 670,
+        "word_size": 218,
+        "text": "1 : 요새 중고 마켓 시장이 엄청 활발한 것 같아 키키\n2 : 맞아 키키 중고거래가 대세지\n1 : 중고나라가 제일 유명했던가 ? 키키\n1 : 당근마켓도 있고 키키\n2 : 응 키키 맞아 그거 말고도 많아\n2 : 중고시장이 크니까 대기업들이 인수도 하고 그런다더라\n1 : 헉 진짜? 키키 중고거래 많이 해?\n2 : 응 나는 많이 하지 키키\n2 : 그래서 물건들을 조심해서 쓰는 습관이 생겼어 키키\n1 : 키키 나중에 다시 팔려고 그러는 건가?\n2 : 키키 응 깨끗하게 써야 비싸게 팔 수 있어서 키키\n1 : 키키 그렇구나 그 쿠팡 같은 데도 보니까 중고 물품 따로 파는 거 같던데?\n2 : 아 요새는 확실히 중고에 대한 사람들 인식이 달라진 거 같네 키키\n1 : 키키 맞아 나도 쿠팡에서 중고 상 중 하 이렇게 등급 나눠져 있는 것들 좀 사봤는데 생각보다 괜찮더라구\n2 : 그렇구나 키키 쿠팡에도 중고 품목이 따로 있는지는 몰랐네\n1 : 응 키키 본품 밑에 보면 조그맣게 되어있긴 한데 그거 잘 살펴보면 가격적으로 엄청난 이득인 게 꽤 있어 키키\n2 : 키키 나도 앞으로는 잘 봐야겠네\n2 : 요새는 중고도 중고고 쇼핑몰 사이트도 많아서 잘 보고 사면 득템 할 수 있는 게 많은 거 같아 키키\n1 : 키키 맞아 득템 하면 괜히 하루 종일 기분이가 조앙\n2 : 키키 맞아 나도 그렇던데 키키\n2 : 좋은 거 발견하면 앞으로 공유하자 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 중고 마켓 시장이 엄청 활발한 것 같아 키키",
+            "norm_text": "요새 중고 마켓 시장이 엄청 활발한 것 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+중/NNB+고/VCP+EC+마켓/NNP+시장/NNG+이/JKS+엄청/MAG+활발/XR+한/XSA+ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 키키 중고거래가 대세지",
+            "norm_text": "맞아 키키 중고거래가 대세지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+중/NNB+고/VCP+EC+거래/NNG+가/JKS+대세지/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 중고나라가 제일 유명했던가 ? 키키",
+            "norm_text": "중고나라가 제일 유명했던가 ? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "중고/NNG+나라/NNG+가/JKS+제일/MAG+유명/NNG+했/XSV+EP+던가/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 당근마켓도 있고 키키",
+            "norm_text": "당근마켓도 있고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당근/MAG+마켓/NNP+도/JX+있/VA+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 키키 맞아 그거 말고도 많아",
+            "norm_text": "응 키키 맞아 그거 말고도 많아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+맞/VV+아/EC+그거/NP+말/VV+고/EC+도/JX+많/VA+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 중고시장이 크니까 대기업들이 인수도 하고 그런다더라",
+            "norm_text": "중고시장이 크니까 대기업들이 인수도 하고 그런다더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "중고/NNG+시장/NNG+이/JKS+크/VA+니까/EC+대/XPN+기업/NNG+들/XSN+이/JKS+인수도/NNG+하/XSV+고/EC+그런다더라/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헉 진짜? 키키 중고거래 많이 해?",
+            "norm_text": "헉 진짜? 키키 중고거래 많이 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+진짜/MAG+키/NNG+키/NNG+중/NNB+고/VCP+EC+거래/NNG+많이/MAG+해/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 나는 많이 하지 키키",
+            "norm_text": "응 나는 많이 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "응/IC+나/NP+는/JX+많이/MAG+하/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래서 물건들을 조심해서 쓰는 습관이 생겼어 키키",
+            "norm_text": "그래서 물건들을 조심해서 쓰는 습관이 생겼어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+물건/NNG+들/XSN+을/JKO+조심/NNG+해서/XSV+EC+쓰/VV+는/ETM+습관/NNG+이/JKS+생겼/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 나중에 다시 팔려고 그러는 건가?",
+            "norm_text": "키키 나중에 다시 팔려고 그러는 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+나중/NNG+에/JKB+다시/MAG+팔/VV+려고/EC+그러/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 응 깨끗하게 써야 비싸게 팔 수 있어서 키키",
+            "norm_text": "키키 응 깨끗하게 써야 비싸게 팔 수 있어서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+깨끗/XR+하/XSA+게/EC+써야/VV+EC+비싸/VA+게/EC+팔/VV+ETM+수/NNB+있/VV+어서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 그렇구나 그 쿠팡 같은 데도 보니까 중고 물품 따로 파는 거 같던데?",
+            "norm_text": "키키 그렇구나 그 쿠팡 같은 데도 보니까 중고 물품 따로 파는 거 같던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+구나/EF+그/IC+쿠/MAG+팡/MAG+같/VA+은데도/EC+보/VX+니까/EC+중고/NNG+물품/NNG+따로/MAG+파/VV+는/ETM+거/NNB+같/VA+던데/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 요새는 확실히 중고에 대한 사람들 인식이 달라진 거 같네 키키",
+            "norm_text": "아 요새는 확실히 중고에 대한 사람들 인식이 달라진 거 같네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+요새/NNG+는/JX+확실히/MAG+중고/NNG+에/JKB+대한/VV+ETM+사람/NNG+들/XSN+인식/NNG+이/JKS+달라진/VV+ETM+거/NNB+같/VA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 맞아 나도 쿠팡에서 중고 상 중 하 이렇게 등급 나눠져 있는 것들 좀 사봤는데 생각보다 괜찮더라구",
+            "norm_text": "키키 맞아 나도 쿠팡에서 중고 상 중 하 이렇게 등급 나눠져 있는 것들 좀 사봤는데 생각보다 괜찮더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+나/NP+도/JX+쿠팡/NNP+에서/JKB+중고/NNG+상중하/NNG+이렇게/MAG+등급/NNG+나눠져/VV+EC+VX+EC+있/VX+는/ETM+것/NNB+들/XSN+좀/MAG+사/VV+EC+봤/VX+EP+는데/EC+생각/NNG+보다/JKB+괜찮/VA+더라구/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그렇구나 키키 쿠팡에도 중고 품목이 따로 있는지는 몰랐네",
+            "norm_text": "그렇구나 키키 쿠팡에도 중고 품목이 따로 있는지는 몰랐네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+키키/NNP+쿠팡/NNP+에/JKB+도/JX+중고/NNG+품목/NNG+이/JKS+따로/MAG+있/VV+는지/EC+는/JX+몰랐/VV+EP+네/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응 키키 본품 밑에 보면 조그맣게 되어있긴 한데 그거 잘 살펴보면 가격적으로 엄청난 이득인 게 꽤 있어 키키",
+            "norm_text": "응 키키 본품 밑에 보면 조그맣게 되어있긴 한데 그거 잘 살펴보면 가격적으로 엄청난 이득인 게 꽤 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+본품/NNG+밑/NNG+에/JKB+보/VV+면/EC+조그맣/VA+게/EC+되/VV+어/EC+있/VX+긴/ETN+JX+한데/VX+EC+그거/NP+잘/MAG+살펴보/VV+면/EC+가격/NNG+적/XSN+으로/JKB+엄청난/VA+ETM+이득/NNG+인/VCP+ETM+게/NNB+JKS+꽤/MAG+있/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 나도 앞으로는 잘 봐야겠네",
+            "norm_text": "키키 나도 앞으로는 잘 봐야겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+앞/NNG+으로/JKB+는/JX+잘/VA+봐야/EC+VX+EC+VX+겠/EP+네/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 요새는 중고도 중고고 쇼핑몰 사이트도 많아서 잘 보고 사면 득템 할 수 있는 게 많은 거 같아 키키",
+            "norm_text": "요새는 중고도 중고고 쇼핑몰 사이트도 많아서 잘 보고 사면 득템 할 수 있는 게 많은 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+는/JX+중고도/NNG+중/NNB+고고/NNG+쇼핑몰/NNG+사이트/NNG+도/JX+많/VA+아서/EC+잘/MAG+보/VV+고/EC+사면/NNG+득템/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+게/NNB+JKS+많/VA+은/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 맞아 득템 하면 괜히 하루 종일 기분이가 조앙",
+            "norm_text": "키키 맞아 득템 하면 괜히 하루 종일 기분이가 조앙",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+득템/NNG+하/XSV+면/EC+괜히/MAG+하루/NNG+종일/NNG+기분/NNG+이/JKS+가/VV+EC+조앙/NNG"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 맞아 나도 그렇던데 키키",
+            "norm_text": "키키 맞아 나도 그렇던데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+나/NP+도/JX+그렇/VA+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 좋은 거 발견하면 앞으로 공유하자 키키",
+            "norm_text": "좋은 거 발견하면 앞으로 공유하자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "좋/VA+은/ETM+거/NNB+발견/NNG+하/XSV+면/EC+앞/NNG+으로/JKB+공유/NNG+하/XSV+자/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

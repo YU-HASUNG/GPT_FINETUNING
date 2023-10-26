@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 25367,
+    "name": "KAKAO_558_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161228022920/KAKAO_558_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161228022920/KAKAO_558_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30078,
+      "filename": "KAKAO_558_07.txt",
+      "title": "KAKAO_558_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 454,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 454,
+        "word_size": 157,
+        "text": "1 : 너네 부모님 잘 지내시지?\n1 : 안 본 지 오래라 ㅠㅠ\n2 : 응응 잘 지내셔 부모님이 너 안부 묻더라!\n1 : 나야~ 백수지 키키 알바하고\n2 : 나도 백수 된 지 얼마 안 돼서 다들 걱정해 ㅠ\n1 : 저번에 어머니께서 만들어 주신 김치 잘 먹었는데!\n2 : 이번에 귤이 왔는데 좀 나눠주래!\n1 : 아 벌써 귤이?!\n1 : 너네 집 하우스 농사 잘되었나 봐 키키\n2 : 올해 귤이 달아!\n2 : 다음에 우리 집 와서 가져가\n1 : 그래 키키 그냥 가져갈 수 없고 일이라도 해야겠다\n2 : 아니야 가져가서 부모님이랑 같이 먹어!\n1 : 그래 고마워 키키\n1 : 그럼 우리 집에서 버섯 가져갈게\n2 : 버섯 좋지 저번에 주신 거 맛있게 먹었어~\n1 : 아 정말? 그럼 또 가져가야지 키키\n2 : 엄마가 좋아하더라\n2 : 다음에 가지러 갈게!\n1 : 아 ~ 많이 담아둘게 키키\n1 : 어머니 갖다 드려\n2 : 고마워 키키 가지러 갈 때 보자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너네 부모님 잘 지내시지?",
+            "norm_text": "너네 부모님 잘 지내시지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+부모/NNG+님/XSN+잘/MAG+지내/VV+시/EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 안 본 지 오래라 ㅠㅠ",
+            "norm_text": "안 본 지 오래라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안본지오래라ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 응응 잘 지내셔 부모님이 너 안부 묻더라!",
+            "norm_text": "응응 잘 지내셔 부모님이 너 안부 묻더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+잘/MAG+지내/VV+셔/EP+EC+부모/NNG+님/XSN+이/JKS+너/NP+안부/NNG+묻/VV+더라/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나야~ 백수지 키키 알바하고",
+            "norm_text": "나야~ 백수지 키키 알바하고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+야/VCP+EF+~/SY+백/NR+수지/NNG+키/NNG+키/XSV+ETN+알/VV+ETM+바/NNB+하/VV+고/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나도 백수 된 지 얼마 안 돼서 다들 걱정해 ㅠ",
+            "norm_text": "나도 백수 된 지 얼마 안 돼서 다들 걱정해 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+백수/NNG+된/XSV+ETM+지/NNB+얼마/NNG+안/MAG+돼서/VV+EC+다/MAG+들/XSN+걱정/NNG+해/XSV+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 저번에 어머니께서 만들어 주신 김치 잘 먹었는데!",
+            "norm_text": "저번에 어머니께서 만들어 주신 김치 잘 먹었는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저번/NNG+에/JKB+어머니/NNG+께서/JKS+만들/VV+어/EC+주/VX+신/EP+ETM+김치/NNG+잘/MAG+먹/VV+었/EP+는데/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 이번에 귤이 왔는데 좀 나눠주래!",
+            "norm_text": "이번에 귤이 왔는데 좀 나눠주래!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+귤/NNG+이/JKS+왔/VV+EP+는데/EC+좀/MAG+나눠/VV+EC+주/VX+래/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 벌써 귤이?!",
+            "norm_text": "아 벌써 귤이?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+벌써/MAG+귤/NNG+이/JKS+?/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 너네 집 하우스 농사 잘되었나 봐 키키",
+            "norm_text": "너네 집 하우스 농사 잘되었나 봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+네/XSN+집/NNG+하우스/NNP+농사/NNG+잘/MAG+되/VV+었/EP+나/EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 올해 귤이 달아!",
+            "norm_text": "올해 귤이 달아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "올해/NNG+귤/NNG+이/JKS+달/VV+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 다음에 우리 집 와서 가져가",
+            "norm_text": "다음에 우리 집 와서 가져가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "다음/NNG+에/JKB+우리/NP+집/NNG+와서/VV+EC+가져가/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래 키키 그냥 가져갈 수 없고 일이라도 해야겠다",
+            "norm_text": "그래 키키 그냥 가져갈 수 없고 일이라도 해야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+키/NNG+키/NNG+그냥/MAG+가져갈/VV+ETM+수/NNB+없/VA+고/EC+일/NNG+이/VCP+라도/EC+해야/VX+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니야 가져가서 부모님이랑 같이 먹어!",
+            "norm_text": "아니야 가져가서 부모님이랑 같이 먹어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "아니야/IC+가져가/VV+서/EC+부모/NNG+님/XSN+이랑/JKB+같이/MAG+먹/VV+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그래 고마워 키키",
+            "norm_text": "그래 고마워 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+고마워/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼 우리 집에서 버섯 가져갈게",
+            "norm_text": "그럼 우리 집에서 버섯 가져갈게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그럼/MAJ+우리/NP+집/NNG+에서/JKB+버섯/NNG+가져갈/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 16,
+            "text": "2 : 버섯 좋지 저번에 주신 거 맛있게 먹었어~",
+            "norm_text": "버섯 좋지 저번에 주신 거 맛있게 먹었어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버섯/NNG+좋/VA+지/EC+저번/NNG+에/JKB+주/VV+신/EP+ETM+거/NNB+맛있/VA+게/EC+먹/VV+었/EP+어/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 정말? 그럼 또 가져가야지 키키",
+            "norm_text": "아 정말? 그럼 또 가져가야지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아/IC+정말/MAG+그럼/MAJ+또/MAG+가져가/VV+야지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 엄마가 좋아하더라",
+            "norm_text": "엄마가 좋아하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+가/JKS+좋/VA+아/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 다음에 가지러 갈게!",
+            "norm_text": "다음에 가지러 갈게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "다음/NNG+에/JKB+가지/VV+러/EC+갈게/VV+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아 ~ 많이 담아둘게 키키",
+            "norm_text": "아 ~ 많이 담아둘게 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+많이/MAG+담/VV+아/EC+둘/VX+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 어머니 갖다 드려",
+            "norm_text": "어머니 갖다 드려",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어머니/NNG+갖/VV+다/EC+드려/VX+EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 고마워 키키 가지러 갈 때 보자!",
+            "norm_text": "고마워 키키 가지러 갈 때 보자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "고마워/VA+EC+키/NNG+키가/XSV+ETN+JKS+지러/VV+EC+갈/VX+ETM+때/NNG+보/VV+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

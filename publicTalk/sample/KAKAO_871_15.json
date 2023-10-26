@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 64061,
+    "name": "KAKAO_871_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175210043975/KAKAO_871_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175210043975/KAKAO_871_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40413,
+      "filename": "KAKAO_871_15.txt",
+      "title": "KAKAO_871_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 434,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 434,
+        "word_size": 141,
+        "text": "1 : 이탈리아는 그린 패스 적용했대\n2 : 그린 패스가 뭐야 키키\n1 : 근로 사업장에서 코로나 면역 증명서 키키\n2 : 오 코로나 면역이 있어야 일을 하는 거야?\n1 : 옹 그런가 봐 키키 이거 없으면 일 못한대\n2 : 아... 그건 그거대로 문제인 것 같은데\n1 : 그러게 이 패스권 없으면 벌금도 먹이네\n2 : 오 대박이다 그럼 다들 백신을 맞아야 하는 거네\n1 : 그러니까 맞을 수밖에 없게 만드네\n2 : 근데 맞는다고 해도... 부작용...\n1 : 그러니까 ㅜㅜ 진짜 부작용이 있으니까 휴\n1 : 아 검사 받고 음성이어도 이 패스권 준대\n2 : 엥 뭐야 그 기준이 대체...?\n1 : 키키 몰라 키키 코로나 걸렸던 사람도 나았으면 주고\n2 : 에엥... 키키 진짜 이상하네 키키\n2 : 이탈리아 뭐야\n1 : 키키 처음 시행한다는데 뭐가 어떻게 될지\n2 : 그러게 별로 도움이 안 될 것 같은 느낌",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이탈리아는 그린 패스 적용했대",
+            "norm_text": "이탈리아는 그린 패스 적용했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이탈리아/NNP+는/JX+그린/VV+ETM+패스/NNG+적용/NNG+했/XSV+EP+대/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그린 패스가 뭐야 키키",
+            "norm_text": "그린 패스가 뭐야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그린/VV+ETM+패스/NNG+가/JKS+뭐/IC+야키/NNP+키/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 근로 사업장에서 코로나 면역 증명서 키키",
+            "norm_text": "근로 사업장에서 코로나 면역 증명서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근로/NNG+사업장/NNG+에서/JKB+코로나/NNG+면역/NNG+증명서/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오 코로나 면역이 있어야 일을 하는 거야?",
+            "norm_text": "오 코로나 면역이 있어야 일을 하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+코로나/NNG+면역/NNG+이/JKS+있/VV+어야/EC+일/NNG+을/JKO+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 옹 그런가 봐 키키 이거 없으면 일 못한대",
+            "norm_text": "옹 그런가 봐 키키 이거 없으면 일 못한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옹/NNG+그런가/VA+EC+봐/VX+EF+키/NNG+키/XSV+ETN+이거/NP+없/VA+으면/EC+일/NNG+못/MAG+한대/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아... 그건 그거대로 문제인 것 같은데",
+            "norm_text": "아... 그건 그거대로 문제인 것 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+그건/NP+JX+그거/NP+대로/JX+문제/NNG+인/VCP+ETM+것/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러게 이 패스권 없으면 벌금도 먹이네",
+            "norm_text": "그러게 이 패스권 없으면 벌금도 먹이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/MAJ+이/MM+패스/NNG+권/XSN+없/VA+으면/EC+벌금/NNG+도/JX+먹이/VV+네/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오 대박이다 그럼 다들 백신을 맞아야 하는 거네",
+            "norm_text": "오 대박이다 그럼 다들 백신을 맞아야 하는 거네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+대박/NNG+이/VCP+다/EF+그럼/MAJ+다/MAG+들/XSN+백신/NNG+을/JKO+맞/VV+아야/EC+하/VV+는/ETM+거/NNB+네/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러니까 맞을 수밖에 없게 만드네",
+            "norm_text": "그러니까 맞을 수밖에 없게 만드네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+맞/VV+을/ETM+수/NNB+밖에/JX+없/VA+게/EC+만드/VV+네/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 맞는다고 해도... 부작용...",
+            "norm_text": "근데 맞는다고 해도... 부작용...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+맞/VV+는다고/EC+해도/VX+EF+./SY+부작용/NNG+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러니까 ㅜㅜ 진짜 부작용이 있으니까 휴",
+            "norm_text": "그러니까 ㅜㅜ 진짜 부작용이 있으니까 휴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+ㅜㅜ/UNKNOWN+진짜/MAG+부작용/NNG+이/JKS+있/VV+으니까/EC+휴/NNP"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 검사 받고 음성이어도 이 패스권 준대",
+            "norm_text": "아 검사 받고 음성이어도 이 패스권 준대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+검사/NNG+받/VV+고/EC+음성/NNG+이/VCP+어도/EC+이/MM+패스/NNG+권/XSN+준대/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 엥 뭐야 그 기준이 대체...?",
+            "norm_text": "엥 뭐야 그 기준이 대체...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+뭐/NP+야/VCP+EF+그/MM+기준/NNG+이/JKS+대체/MAG+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 몰라 키키 코로나 걸렸던 사람도 나았으면 주고",
+            "norm_text": "키키 몰라 키키 코로나 걸렸던 사람도 나았으면 주고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+몰라/VV+EC+키/NNG+키/NNG+코로나/NNG+걸렸/VV+EP+던/ETM+사람/NNG+도/JX+나았/VA+EP+으면/EC+주/VX+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 에엥... 키키 진짜 이상하네 키키",
+            "norm_text": "에엥... 키키 진짜 이상하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에엥/IC+./SY+키/NNG+키/XSV+ETN+진짜/MAG+이상하/NNP+네/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이탈리아 뭐야",
+            "norm_text": "이탈리아 뭐야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이탈리아/NNP+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 처음 시행한다는데 뭐가 어떻게 될지",
+            "norm_text": "키키 처음 시행한다는데 뭐가 어떻게 될지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+처음/NNG+시행/NNG+한다는데/XSV+EC+뭐/NP+가/JKS+어떻게/MAG+될지/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그러게 별로 도움이 안 될 것 같은 느낌",
+            "norm_text": "그러게 별로 도움이 안 될 것 같은 느낌",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+별로/MAG+도움/NNG+이/JKS+안/MAG+될/VV+ETM+것/NNB+같/VA+은/ETM+느낌/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

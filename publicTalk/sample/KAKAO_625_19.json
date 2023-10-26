@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 33169,
+    "name": "KAKAO_625_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924112942002816/KAKAO_625_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924112942002816/KAKAO_625_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31891,
+      "filename": "KAKAO_625_19.txt",
+      "title": "KAKAO_625_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 517,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 517,
+        "word_size": 159,
+        "text": "1 : 요즘 가수 중에 누구 좋아해?\n2 : 당연히 방탄소년단이랑 블랙핑크지 키키\n1 : 난 디헥이라는 가수 노래 ohayo my night 에 꽂혀있어\n2 : 와우 되게 있어 보인다 외국 가수야?\n1 : 아니 국내 가순데 틱톡 음악 때매 좀 떴엉 키키\n2 : 틱톡 음악이면 분명히 들으면 안다 키키\n1 : 키키 들으면 바로 알지 키키\n2 : 나는 요즘 김무진? 뭐 막 파랗고 빨갛고 하는 노래가 귀에서 맴돌아\n1 : 이무진 가수 노래 신호등일걸\n2 : 맞어 맞어 이무진 무슨 이름 없이 나오는 방송에 나왔던 애잖아 뜰 줄 알았는데 노래까지 히트치다니\n1 : 난 BTS노래 퍼미션투댄스 계속 귀에 들려\n2 : 나는 그 한사랑 산악회 때문에 저스틴비버 피치스 계속 생각나 키키\n1 : 그것도 인스타 같은데 보니까 많이들 춤도 추고 부르고 그러더라\n2 : 개그콘서트 없어져서 개그맨들 어디서 보나 했는데 유튜브에서 더 잘나가고 있어 키키\n1 : 맞아 키키 개그맨들 진짜 다재다능하고 웃겨 키키\n2 : 방송 심의 없는 데서 활동 하니깐 더 개성 있고 신선해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 가수 중에 누구 좋아해?",
+            "norm_text": "요즘 가수 중에 누구 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+가수/NNG+중/NNB+에/JKB+누구/NP+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 당연히 방탄소년단이랑 블랙핑크지 키키",
+            "norm_text": "당연히 방탄소년단이랑 블랙핑크지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+방탄소년단/NNP+이랑/JC+블랙/NNG+핑크/NNG+지키/NNP+키/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 난 디헥이라는 가수 노래 ohayo my night 에 꽂혀있어",
+            "norm_text": "난 디헥이라는 가수 노래 ohayo my night 에 꽂혀있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+디/NNG+헥/NNP+이/VCP+라는/ETM+가수/NNG+노래/NNG+ohayomynight/SL+에/JKB+꽂혀/VV+EC+있/VX+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 와우 되게 있어 보인다 외국 가수야?",
+            "norm_text": "와우 되게 있어 보인다 외국 가수야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와우/IC+되게/MAG+있/VA+어/EC+보인다/VV+EC+외국/NNG+가수/NNG+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 국내 가순데 틱톡 음악 때매 좀 떴엉 키키",
+            "norm_text": "아니 국내 가순데 틱톡 음악 때매 좀 떴엉 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+국내/NNG+가/JKS+순데/NNG+VCP+EC+틱톡/NNP+음악/NNG+때/NNG+매/MAG+좀/MAG+떴/VV+EP+엉/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 틱톡 음악이면 분명히 들으면 안다 키키",
+            "norm_text": "틱톡 음악이면 분명히 들으면 안다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "틱톡/NNP+음악/NNG+이/VCP+면/EC+분명히/MAG+들으면/VV+EC+안/MAG+다키키/NNP"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 들으면 바로 알지 키키",
+            "norm_text": "키키 들으면 바로 알지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+들으면/VV+EC+바로/MAG+알/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나는 요즘 김무진? 뭐 막 파랗고 빨갛고 하는 노래가 귀에서 맴돌아",
+            "norm_text": "나는 요즘 김무진? 뭐 막 파랗고 빨갛고 하는 노래가 귀에서 맴돌아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+요즘/MAG+김무진/NNP+뭐/IC+막/MAJ+파랗/VA+고/EC+빨갛/VA+고/EC+하/VV+는/ETM+노래/NNG+가/JKS+귀/NNG+에서/JKB+맴돌/VV+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 이무진 가수 노래 신호등일걸",
+            "norm_text": "이무진 가수 노래 신호등일걸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이무진/NNP+가수/NNG+노래/NNG+신호등/NNG+일/VCP+ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞어 맞어 이무진 무슨 이름 없이 나오는 방송에 나왔던 애잖아 뜰 줄 알았는데 노래까지 히트치다니",
+            "norm_text": "맞어 맞어 이무진 무슨 이름 없이 나오는 방송에 나왔던 애잖아 뜰 줄 알았는데 노래까지 히트치다니",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+어/EC+맞/VV+어/EC+이무진/NNP+무슨/MM+이름/NNG+없이/MAG+나오/VV+는/ETM+방송/NNG+에/JKB+나왔/VV+EP+던/ETM+애/NNG+잖아/VCP+EC+VX+EC+뜰/VV+ETM+줄/NNB+알/VV+았/EP+는데/EC+노래/NNG+까지/JX+히트/NNG+치/VV+다니/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 난 BTS노래 퍼미션투댄스 계속 귀에 들려",
+            "norm_text": "난 BTS노래 퍼미션투댄스 계속 귀에 들려",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+BTS/SL+노래/NNG+퍼/VV+EC+미션/NNG+투/NR+댄스/NNG+계속/MAG+귀/NNG+에/JKB+들려/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 그 한사랑 산악회 때문에 저스틴비버 피치스 계속 생각나 키키",
+            "norm_text": "나는 그 한사랑 산악회 때문에 저스틴비버 피치스 계속 생각나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+그/MM+한/MM+사랑/NNG+산악회/NNG+때문/NNB+에/JKB+저스틴/+비버/+피치스/NNP+계속/MAG+생각/NNG+나/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그것도 인스타 같은데 보니까 많이들 춤도 추고 부르고 그러더라",
+            "norm_text": "그것도 인스타 같은데 보니까 많이들 춤도 추고 부르고 그러더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그것/NP+도/JX+인/VCP+ETM+스타/NNG+같/VA+은데/EC+보/VX+니까/EC+많이/MAG+들춤/VV+ETN+도/JX+추/VV+고/EC+부르/VV+고/EC+그러/VV+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 개그콘서트 없어져서 개그맨들 어디서 보나 했는데 유튜브에서 더 잘나가고 있어 키키",
+            "norm_text": "개그콘서트 없어져서 개그맨들 어디서 보나 했는데 유튜브에서 더 잘나가고 있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "개그콘서트/NNP+없/VA+어/EC+져서/VX+EC+개그맨/NNG+들/XSN+어디/NP+서/JKB+보/VV+나/EC+했/VX+EP+는데/EC+유튜브/NNP+에서/JKB+더/MAG+잘/MAG+나가/VV+고/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 키키 개그맨들 진짜 다재다능하고 웃겨 키키",
+            "norm_text": "맞아 키키 개그맨들 진짜 다재다능하고 웃겨 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+개그맨/NNG+들/XSN+진짜/MAG+다재다능/XR+하/XSA+고/EC+웃겨/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 방송 심의 없는 데서 활동 하니깐 더 개성 있고 신선해",
+            "norm_text": "방송 심의 없는 데서 활동 하니깐 더 개성 있고 신선해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "방송/NNG+심/XSN+의/JKG+없/VA+는/ETM+데/NNB+서/JKB+활동/NNG+하/XSV+니깐/EC+더/MAG+개성/NNG+있/VV+고/EC+신선/XR+해/XSA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

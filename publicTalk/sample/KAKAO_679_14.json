@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 39547,
+    "name": "KAKAO_679_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113106065684/KAKAO_679_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113106065684/KAKAO_679_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35333,
+      "filename": "KAKAO_679_14.txt",
+      "title": "KAKAO_679_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 850,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 850,
+        "word_size": 276,
+        "text": "1 : 재난지원금 신청했나? 니는 부산이제?\n2 : 당연하지 하하 부산으로 신청했다 니는 서울?\n1 : 어 그렇게 밖에 안 되더라고 ㅠㅠ\n1 : 그래도 덕분에 내일 서울 가서 머리 할 거다 하하\n2 : 오 하하 나는 뭣도 모르고 그냥 카드 긁었다가 재난지원금 부터 나가길래 놀랬다이가 ㅠㅠ 키키\n1 : 아 키키 맞다 그런 사람들 많더라\n1 : 재난지원금 그래도 쓸 수 있는 곳 많아서 너무 좋다\n2 : 응 맞어 키키 쓸 수 있는 곳이 생각보다 많더라?\n2 : 나 자주 가는 옷 집도 된다길래 옷 한 벌 사러 가려고 하하\n1 : 아 진짜? 나도 옷 집도 봐야겠노!\n1 : 계절 바뀔 때 맞춰서 딱 잘 줬네 하하\n2 : 엉엉 대박이제! 일반 보세 옷 집인데도 된다길래 냉큼 가봐야지!\n2 : 미용실도 되는 거 너무 좋은데? 키키\n1 : 어 미용실 솔직히 돈 아까워서 자주 못 가는데 이번 기회에 가야지 하하\n1 : 안 가면 편의점에서 자잘하게 다 쓸 듯...\n2 : 어어 나 오늘 마트 가서 아이스크림 하나 사는데도 재난지원금 나가더라... 뭔가 아깝다 ㅠㅠ\n1 : 아 진짜? 키키 맞다 먹는 거에 쓰면 남는 게 없어서 뭔가 아까운 느낌 키키\n1 : 물건이나 옷 사면 공짜로 선물 받는 기분이다이가\n2 : 그러니까 키키 진짜 필요할 때 통 크게 쓰고 싶은데 자잘하게 나가는 거 아까워 키키\n2 : 안 쓰는 카드에 돈 넣어 놔야겠다 키키\n1 : 아 나도 그래야겠네 키키 막 천 원 이천 원 이런 거에 쓰기 싫다 괜히 키키\n2 : 엉 ㅠㅠ 천 원 이천 원이 십만 원 되더라니까?\n2 : 우리 엄마는 재난지원금으로 아웃백 갔다가 과일 사오셨더라 키키\n1 : 아 헐 아웃백도...? 대박인데?\n2 : 그체 키키 엄마한테 아웃백도 된다고 하니까 바로 그 다음 날 갔더라 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 재난지원금 신청했나? 니는 부산이제?",
+            "norm_text": "재난지원금 신청했나? 니는 부산이제?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "재난/NNG+지원금/NNG+신청/NNG+했/XSV+EP+나/EF+니/NP+는/JX+부산/NNP+이제/IC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 당연하지 하하 부산으로 신청했다 니는 서울?",
+            "norm_text": "당연하지 하하 부산으로 신청했다 니는 서울?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "당연/XR+하/XSA+지/EC+하하/MAG+부산/NNP+으로/JKB+신청/NNG+했/XSV+EP+다니/EC+는/JX+서울/NNP"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어 그렇게 밖에 안 되더라고 ㅠㅠ",
+            "norm_text": "어 그렇게 밖에 안 되더라고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+그렇게/MAG+밖에/JX+안/MAG+되/VV+더라고/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그래도 덕분에 내일 서울 가서 머리 할 거다 하하",
+            "norm_text": "그래도 덕분에 내일 서울 가서 머리 할 거다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래도/MAJ+덕분/NNG+에/JKB+내일/NNP+서울/NNP+가/VV+서/EC+머리/NNG+할/XSV+ETM+거/NNB+다/MAG+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오 하하 나는 뭣도 모르고 그냥 카드 긁었다가 재난지원금 부터 나가길래 놀랬다이가 ㅠㅠ 키키",
+            "norm_text": "오 하하 나는 뭣도 모르고 그냥 카드 긁었다가 재난지원금 부터 나가길래 놀랬다이가 ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오하/NNG+하나/NR+는/JX+뭣/NP+도/JX+모르/VV+고/EC+그냥/MAG+카드/NNG+긁/VV+었/EP+다가/EC+재난/NNG+지원금/NNG+부터/JX+나가/VV+길래/EC+놀랬/VV+EP+다/EF+이/NP+가/JKS+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 키키 맞다 그런 사람들 많더라",
+            "norm_text": "아 키키 맞다 그런 사람들 많더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키/NNG+맞/VV+다/EC+그런/MM+사람/NNG+들/XSN+많/VA+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 재난지원금 그래도 쓸 수 있는 곳 많아서 너무 좋다",
+            "norm_text": "재난지원금 그래도 쓸 수 있는 곳 많아서 너무 좋다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "재난/NNG+지원금/NNG+그래도/VV+EC+쓸/VV+ETM+수/NNB+있/VV+는/ETM+곳/NNB+많/VA+아서/EC+너무/MAG+좋/VA+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 맞어 키키 쓸 수 있는 곳이 생각보다 많더라?",
+            "norm_text": "응 맞어 키키 쓸 수 있는 곳이 생각보다 많더라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+어/EC+키/NNG+키/XSV+ETN+쓸/VV+ETM+수/NNB+있/VV+는/ETM+곳/NNG+이/JKS+생각/NNG+보다/JKB+많/VA+더라/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나 자주 가는 옷 집도 된다길래 옷 한 벌 사러 가려고 하하",
+            "norm_text": "나 자주 가는 옷 집도 된다길래 옷 한 벌 사러 가려고 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+자주/MAG+가/VV+는/ETM+옷/NNG+집도/NNG+된다/XSV+EF+길래/MAG+옷/NNG+한/MM+벌/NNBC+사/VV+러/EC+가/VX+려고/EC+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 진짜? 나도 옷 집도 봐야겠노!",
+            "norm_text": "아 진짜? 나도 옷 집도 봐야겠노!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아/IC+진짜/MAG+나/NP+도/JX+옷/NNG+집/NNG+도/JX+봐야/VX+EC+VV+겠/EP+노/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 계절 바뀔 때 맞춰서 딱 잘 줬네 하하",
+            "norm_text": "계절 바뀔 때 맞춰서 딱 잘 줬네 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "계절/NNG+바뀔/VV+ETM+때/NNG+맞춰서/VV+EC+딱/MAG+잘/MAG+줬/VV+EP+네/EF+하하/MAG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 엉엉 대박이제! 일반 보세 옷 집인데도 된다길래 냉큼 가봐야지!",
+            "norm_text": "엉엉 대박이제! 일반 보세 옷 집인데도 된다길래 냉큼 가봐야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "엉엉/MAG+대박/NNG+이제/MAG+일반/NNG+보세/NNG+옷/NNG+집/NNG+인데/VCP+EC+도/JX+된다/VV+EF+길래/MAG+냉큼/MAG+가/VV+봐야/EC+VX+EC+VX+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 미용실도 되는 거 너무 좋은데? 키키",
+            "norm_text": "미용실도 되는 거 너무 좋은데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미용실/NNG+도/JX+되/VV+는/ETM+거/NNB+너무/MAG+좋/VA+은데/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 어 미용실 솔직히 돈 아까워서 자주 못 가는데 이번 기회에 가야지 하하",
+            "norm_text": "어 미용실 솔직히 돈 아까워서 자주 못 가는데 이번 기회에 가야지 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "어/IC+미용실/NNG+솔직히/MAG+돈/NNG+아까워서/VA+EC+자주/MAG+못/MAG+가/VV+는데/EC+이번/NNG+기회/NNG+에/JKB+가/VV+야/EC+지하/NNG+하/XSV"
+          },
+          {
+            "id": 15,
+            "text": "1 : 안 가면 편의점에서 자잘하게 다 쓸 듯...",
+            "norm_text": "안 가면 편의점에서 자잘하게 다 쓸 듯...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+가/VV+면/EC+편의점/NNG+에서/JKB+자잘/XR+하/XSA+게/EC+다/MAG+쓸/VV+ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어어 나 오늘 마트 가서 아이스크림 하나 사는데도 재난지원금 나가더라... 뭔가 아깝다 ㅠㅠ",
+            "norm_text": "어어 나 오늘 마트 가서 아이스크림 하나 사는데도 재난지원금 나가더라... 뭔가 아깝다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "어/IC+어/IC+나/NP+오늘/MAG+마트/NNG+가/VV+서/EC+아이스크림/NNG+하나/NR+사/VV+는/ETM+데/NNB+도/JX+재난/NNG+지원금/NNG+나가/VV+더라/EF+./SY+뭔가아깝다ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 진짜? 키키 맞다 먹는 거에 쓰면 남는 게 없어서 뭔가 아까운 느낌 키키",
+            "norm_text": "아 진짜? 키키 맞다 먹는 거에 쓰면 남는 게 없어서 뭔가 아까운 느낌 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/XSV+ETN+맞/VV+다/EC+먹/VV+는/ETM+거/NNB+에/JKB+쓰/VV+면/EC+남/VV+는/ETM+게/NNB+JKS+없/VA+어서/EC+뭔가/NP+VCP+EC+아까운/VA+ETM+느낌/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 물건이나 옷 사면 공짜로 선물 받는 기분이다이가",
+            "norm_text": "물건이나 옷 사면 공짜로 선물 받는 기분이다이가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "물건/NNG+이나/JC+옷/NNG+사면/NNG+공짜/NNG+로/JKB+선물/NNG+받/VV+는/ETM+기분/NNG+이/JKS+다이가/NNP"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그러니까 키키 진짜 필요할 때 통 크게 쓰고 싶은데 자잘하게 나가는 거 아까워 키키",
+            "norm_text": "그러니까 키키 진짜 필요할 때 통 크게 쓰고 싶은데 자잘하게 나가는 거 아까워 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/XSV+ETN+진짜/MAG+필요/NNG+할/XSV+ETM+때/NNG+통/MAG+크/VA+게/EC+쓰/VV+고/EC+싶/VX+은데/EC+자잘/XR+하/XSA+게/EC+나가/VX+는/ETM+거/NNB+아까워/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 안 쓰는 카드에 돈 넣어 놔야겠다 키키",
+            "norm_text": "안 쓰는 카드에 돈 넣어 놔야겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "안/MAG+쓰/VV+는/ETM+카드/NNG+에/JKB+돈/NNG+넣/VV+어/EC+놔야/VX+EC+VX+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 21,
+            "text": "1 : 아 나도 그래야겠네 키키 막 천 원 이천 원 이런 거에 쓰기 싫다 괜히 키키",
+            "norm_text": "아 나도 그래야겠네 키키 막 천 원 이천 원 이런 거에 쓰기 싫다 괜히 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아/IC+나/NP+도/JX+그래야/VA+EC+VX+겠/EP+네/EF+키/NNG+키/XSV+ETN+막/MAJ+천/NR+원/NNBC+이/NR+천/NR+원/NNBC+이런/MM+거/NNB+에/JKB+쓰/VV+기/ETN+싫/VA+다/EC+괜히/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 엉 ㅠㅠ 천 원 이천 원이 십만 원 되더라니까?",
+            "norm_text": "엉 ㅠㅠ 천 원 이천 원이 십만 원 되더라니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+ㅠㅠ/UNKNOWN+천/NR+원/NNBC+이/NR+천/NR+원/NNBC+이/NR+십/NR+만/NR+원/NNBC+되/VV+더라니까/EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 우리 엄마는 재난지원금으로 아웃백 갔다가 과일 사오셨더라 키키",
+            "norm_text": "우리 엄마는 재난지원금으로 아웃백 갔다가 과일 사오셨더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+엄마/NNG+는/JX+재난/NNG+지원금/NNG+으로/JKB+아웃백/NNP+갔/VV+EP+다가/EC+과일/NNG+사/VV+EC+오/VX+셨/EP+EP+더라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 아 헐 아웃백도...? 대박인데?",
+            "norm_text": "아 헐 아웃백도...? 대박인데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+헐/IC+아웃백/NNP+도/JX+./SY+./SY+대박/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그체 키키 엄마한테 아웃백도 된다고 하니까 바로 그 다음 날 갔더라 키키",
+            "norm_text": "그체 키키 엄마한테 아웃백도 된다고 하니까 바로 그 다음 날 갔더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+체키/NNP+키/NNG+엄마/NNG+한테/JKB+아웃백/NNP+도/JX+된다고/VV+EC+하/VV+니까/EC+바로/MAG+그/MM+다음/NNG+날/NNG+갔/VV+EP+더라/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

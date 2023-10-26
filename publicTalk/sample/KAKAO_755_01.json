@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35520,
+    "name": "KAKAO_755_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135438062813/KAKAO_755_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135438062813/KAKAO_755_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37249,
+      "filename": "KAKAO_755_01.txt",
+      "title": "KAKAO_755_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 520,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 520,
+        "word_size": 163,
+        "text": "1 : 하이 꾸꾸! 좋은아침이야 아침밥 뭇나\n2 : 주부에게 아침밥 따윈 없다 키키 동생 밥 먹었니\n1 : 직장인에게도 아침밥 따윈 없다 키키 걍 우유 한잔 때렸으!\n2 : 에구 밥 잘 챙겨 먹어야지 ㅜㅜ 언니가 반찬이라도 좀 해다 줄까 주말에\n1 : 오 좋지 키키 그럼 나 도라지 무침 해 줘 무조림이랑!\n2 : 그래 그래 키키 국은 필요 없어? 볶음이나\n1 : 어... 볶음은 제육볶음이 좋지... ㅎ... 고기 최고야...\n2 : 키키 알겠어 국은 된장찌개지? 두부 많이 키키\n1 : 역시 가족밖에 읍어 키키 응 된찌에 제육볶음 맛있겠다 으아아 ㅜㅜ 배고파\n2 : 일하면서 뭐라도 잘 챙겨 먹어야지~\n1 : 웅... 근데 요새 입맛이 없어 키키\n1 : 언니는 점심 뭐 먹을 거야?\n2 : 나도 혼자라 대충 라면 먹을까 생각 중~\n1 : 국물 있는 거 아니면 없는 거? 키키\n2 : 짜파게티에 계란 후라이 올려 먹을 거야 ^^;\n1 : 아... 치즈도 좀 올려 줄래 그럼...? 짜게치 알지...?\n2 : 그럼 ㅎ 파김치도 올려 먹을 거야 맛있겠지? 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 하이 꾸꾸! 좋은아침이야 아침밥 뭇나",
+            "norm_text": "하이 꾸꾸! 좋은아침이야 아침밥 뭇나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하이/IC+꾸꾸/MAG+좋/VA+은/ETM+아침/NNG+이/VCP+야/EC+아침밥/NNG+뭇/VV+나/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 주부에게 아침밥 따윈 없다 키키 동생 밥 먹었니",
+            "norm_text": "주부에게 아침밥 따윈 없다 키키 동생 밥 먹었니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주부/NNG+에게/JKB+아침밥/NNG+따윈/NNB+JX+없/VA+다키키/NNP+동생/NNG+밥/NNG+먹/VV+었/EP+니/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 직장인에게도 아침밥 따윈 없다 키키 걍 우유 한잔 때렸으!",
+            "norm_text": "직장인에게도 아침밥 따윈 없다 키키 걍 우유 한잔 때렸으!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "직장인/NNG+에게/JKB+도/JX+아침밥/NNG+따윈/NNB+JX+없/VA+다/EC+키/NNG+키걍/UNKNOWN+우유/NNG+한잔/NNG+때렸/VV+EP+으/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 에구 밥 잘 챙겨 먹어야지 ㅜㅜ 언니가 반찬이라도 좀 해다 줄까 주말에",
+            "norm_text": "에구 밥 잘 챙겨 먹어야지 ㅜㅜ 언니가 반찬이라도 좀 해다 줄까 주말에",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "에구/IC+밥/NNG+잘/MAG+챙겨/VV+EC+먹/VV+어야지/EC+ㅜㅜ/UNKNOWN+언니/NNG+가/JKS+반찬/NNG+이/VCP+라도/EC+좀/MAG+해다/VV+EC+줄까/VX+EC+주말/NNG+에/JKB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 좋지 키키 그럼 나 도라지 무침 해 줘 무조림이랑!",
+            "norm_text": "오 좋지 키키 그럼 나 도라지 무침 해 줘 무조림이랑!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "오/NR+좋/VA+지/EC+키/NNG+키/XSV+ETN+그럼/MAJ+나/NP+도/JX+라지/NNG+무침/NNG+해/XSV+EC+줘/VX+EC+무/XPN+조림/NNG+이랑/JC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래 그래 키키 국은 필요 없어? 볶음이나",
+            "norm_text": "그래 그래 키키 국은 필요 없어? 볶음이나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래그래/IC+키/NNG+키/NNG+국/NNG+은/JX+필요/NNG+없/VA+어/EF+볶음/NNG+이나/JC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어... 볶음은 제육볶음이 좋지... ㅎ... 고기 최고야...",
+            "norm_text": "어... 볶음은 제육볶음이 좋지... ㅎ... 고기 최고야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+볶음/NNG+은/JX+제육볶음/NNG+이/JKS+좋/VA+지/EF+./SY+ㅎ/XSA+./SY+고기/NNG+최고/NNG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 알겠어 국은 된장찌개지? 두부 많이 키키",
+            "norm_text": "키키 알겠어 국은 된장찌개지? 두부 많이 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+알/VV+겠/EP+어/EC+국은/NNG+된/XSV+ETM+장찌개/NNG+지/VCP+EF+두부/NNG+많이/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 역시 가족밖에 읍어 키키 응 된찌에 제육볶음 맛있겠다 으아아 ㅜㅜ 배고파",
+            "norm_text": "역시 가족밖에 읍어 키키 응 된찌에 제육볶음 맛있겠다 으아아 ㅜㅜ 배고파",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+가족/NNG+밖에/JX+읍/IC+어/IC+키/NNG+키/NNG+응/NNG+된/XSV+ETM+찌/NNG+에/JKB+제육볶음/NNG+맛있/VA+겠/EP+다/EF+으아아/IC+ㅜㅜ/UNKNOWN+배고파/VA+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 일하면서 뭐라도 잘 챙겨 먹어야지~",
+            "norm_text": "일하면서 뭐라도 잘 챙겨 먹어야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "일/NNG+하/XSV+면서/EC+뭐/NP+라도/VCP+EC+잘/MAG+챙겨/VV+EC+먹/VV+어야지/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 웅... 근데 요새 입맛이 없어 키키",
+            "norm_text": "웅... 근데 요새 입맛이 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+./SY+근데/MAJ+요새/MAG+입맛/NNG+이/JKS+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 언니는 점심 뭐 먹을 거야?",
+            "norm_text": "언니는 점심 뭐 먹을 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+점심/NNG+뭐/IC+먹/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나도 혼자라 대충 라면 먹을까 생각 중~",
+            "norm_text": "나도 혼자라 대충 라면 먹을까 생각 중~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+혼자/NNG+라/VCP+EC+대충/MAG+라면/VCP+EC+먹/VV+을까/EC+생각/NNG+중/NNB+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 국물 있는 거 아니면 없는 거? 키키",
+            "norm_text": "국물 있는 거 아니면 없는 거? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "국물/NNG+있/VA+는/ETM+거/NNB+아니/VCN+면/EC+없/VA+는/ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 짜파게티에 계란 후라이 올려 먹을 거야 ^^;",
+            "norm_text": "짜파게티에 계란 후라이 올려 먹을 거야 ^^;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "짜파게티/NNP+에/JKB+계란/NNG+후/NNG+라이/NNG+올려/VV+EC+먹/VV+을/ETM+거/NNB+야/VCP+EF+^/SY+^/SY+;/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아... 치즈도 좀 올려 줄래 그럼...? 짜게치 알지...?",
+            "norm_text": "아... 치즈도 좀 올려 줄래 그럼...? 짜게치 알지...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "아/IC+./SY+치즈/NNG+도/JX+좀/MAG+올려/VV+EC+줄래/VX+EF+그럼/MAJ+./SY+./SY+짜/VV+게/EC+치/VV+EC+알/VV+지/EF+./SY+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그럼 ㅎ 파김치도 올려 먹을 거야 맛있겠지? 키키",
+            "norm_text": "그럼 ㅎ 파김치도 올려 먹을 거야 맛있겠지? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그럼/MAJ+ㅎ/XSA+파김치/NNG+도/JX+올려/VV+EC+먹/VV+을/ETM+거/NNB+야/VCP+EF+맛있/VA+겠/EP+지/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

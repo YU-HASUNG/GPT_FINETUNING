@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 52655,
+    "name": "KAKAO_621_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754058369/KAKAO_621_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754058369/KAKAO_621_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34142,
+      "filename": "KAKAO_621_04.txt",
+      "title": "KAKAO_621_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 639,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 639,
+        "word_size": 189,
+        "text": "1 : 우리 회사 지금 ERP 만들고 있잖아. 정말 그것 땜에 골치 썩는다\n2 : 왜 무슨 문제 있어 ?\n1 : 회의를 지금 도대체 몇 번째 하고 있는지 모르겠는데 뭐 진전이 없어.\n2 : 회의를 하면 그걸 수용해서 개발자들이 만들잖아 . 그게 안돼?\n1 : 응 우리는 당연히 원하는 걸 담당자들이 회의 때 다 얘기하거든. 근데 그게 안 받들여져.\n2 : 안 받아 들여지면? 그대로 그 개발자들이 그렇게 안 만들어 온다는 거야?\n1 : 응 지금 그러고 있는 상태야.\n2 : ERP를 왜 만드는 건지 모르는 개발자들인가? 원하는데로 만들어줘야지.\n1 : 회사 담당자들도 계속 회의만 하고 진도는 없으니 짜증내 하고 그런다.\n2 : 언제까지 전산 만들어 달라고 계약한 거 아니야?\n2 : 협상 했을 텐데. 그 시기는 남았고 ?\n1 : 만들어 준다고 한지 한참 지났어\n2 : 헐... 그게 말이 돼? 원하는데로 만들어 주는 게 ERP 만드는 의도고 기간 내에 만들어 줘야지.\n1 : 그러게 말야. 자기네 회사는 그거 만들 때 어땠어?\n2 : 말도 마. 우리도 정말 힘들게 만들었는데, 그래도 지금 자기네 회사처럼은 아니야...ㅎ\n1 : 와 정말 힘들다. 중간에서 우리 부서가 이 업무 다 총책이라서.ㅠ\n2 : 고생한다. 얼른 담당자들이 원하는데로 개발자들이 만들어주길 바래 ㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 회사 지금 ERP 만들고 있잖아. 정말 그것 땜에 골치 썩는다",
+            "norm_text": "우리 회사 지금 ERP 만들고 있잖아. 정말 그것 땜에 골치 썩는다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+회사/NNG+지금/MAG+ERP/SL+만들/VV+고/EC+있/VX+잖아/EF+정말/MAG+그것/NP+땜/NNB+에/JKB+골치/NNG+썩/VV+는다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜 무슨 문제 있어 ?",
+            "norm_text": "왜 무슨 문제 있어 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+무슨/MM+문제/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 회의를 지금 도대체 몇 번째 하고 있는지 모르겠는데 뭐 진전이 없어.",
+            "norm_text": "회의를 지금 도대체 몇 번째 하고 있는지 모르겠는데 뭐 진전이 없어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "회의/NNG+를/JKO+지금/MAG+도대체/MAG+몇/MM+번/NNBC+째/XSN+하/VV+고/EC+있/VX+는지/EC+모르/VV+겠/EP+는데/EC+뭐/IC+진전/NNG+이/JKS+없/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 회의를 하면 그걸 수용해서 개발자들이 만들잖아 . 그게 안돼?",
+            "norm_text": "회의를 하면 그걸 수용해서 개발자들이 만들잖아 . 그게 안돼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회의/NNG+를/JKO+하/VV+면/EC+그걸/NP+JKO+수용/NNG+해서/XSV+EC+개발자/NNG+들/XSN+이/JKS+만들/VV+잖아/EF+그게/NP+JKS+안/MAG+돼/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 우리는 당연히 원하는 걸 담당자들이 회의 때 다 얘기하거든. 근데 그게 안 받들여져.",
+            "norm_text": "응 우리는 당연히 원하는 걸 담당자들이 회의 때 다 얘기하거든. 근데 그게 안 받들여져.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+우리/NP+는/JX+당연히/MAG+원/NNG+하/XSV+는/ETM+걸/NNB+JKO+담당자/NNG+들/XSN+이/JKS+회의/NNG+때/NNG+다/MAG+얘기/NNG+하/XSA+거든/EF+근데/MAJ+그게/NP+JKS+안/MAG+받들/VV+여/EC+져/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 안 받아 들여지면? 그대로 그 개발자들이 그렇게 안 만들어 온다는 거야?",
+            "norm_text": "안 받아 들여지면? 그대로 그 개발자들이 그렇게 안 만들어 온다는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "안/MAG+받아들여/VV+EC+지/VX+면/EC+그대로/MAG+그/MM+개발자/NNG+들/XSN+이/JKS+그렇게/MAG+안/MAG+만들/VV+어/EC+온다는/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 지금 그러고 있는 상태야.",
+            "norm_text": "응 지금 그러고 있는 상태야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+지금/MAG+그러/VV+고/EC+있/VX+는/ETM+상태/NNG+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : ERP를 왜 만드는 건지 모르는 개발자들인가? 원하는데로 만들어줘야지.",
+            "norm_text": "ERP를 왜 만드는 건지 모르는 개발자들인가? 원하는데로 만들어줘야지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ERP/SL+를/JKO+왜/MAG+만드/VV+는/ETM+건지/NNB+VCP+EC+모르/VV+는/ETM+개발자/NNG+들/XSN+인가/VCP+EF+원/NNG+하/XSV+는/ETM+데/NNB+로/JKB+만들/VV+어/EC+줘야지/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 회사 담당자들도 계속 회의만 하고 진도는 없으니 짜증내 하고 그런다.",
+            "norm_text": "회사 담당자들도 계속 회의만 하고 진도는 없으니 짜증내 하고 그런다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "회사/NNG+담당자/NNG+들/XSN+도/JX+계속/MAG+회의/NNG+만/JX+하/VV+고/EC+진도/NNG+는/JX+없/VA+으니/EC+짜증/NNG+내/NNB+하고/JKB+그런다/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 언제까지 전산 만들어 달라고 계약한 거 아니야?",
+            "norm_text": "언제까지 전산 만들어 달라고 계약한 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언제/NP+까지/JX+전산/NNG+만들/VV+어/EC+달/VX+라고/EC+계약/NNG+한/XSA+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 협상 했을 텐데. 그 시기는 남았고 ?",
+            "norm_text": "협상 했을 텐데. 그 시기는 남았고 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "협상/NNG+했/XSV+EP+을/ETM+텐데/NNB+VCP+EF+그/MM+시기/NNG+는/JX+남/VV+았/EP+고/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 만들어 준다고 한지 한참 지났어",
+            "norm_text": "만들어 준다고 한지 한참 지났어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "만들/VV+어/EC+준다고/VX+EC+한지/VX+EC+한참/MAG+지났/VV+EP+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 헐... 그게 말이 돼? 원하는데로 만들어 주는 게 ERP 만드는 의도고 기간 내에 만들어 줘야지.",
+            "norm_text": "헐... 그게 말이 돼? 원하는데로 만들어 주는 게 ERP 만드는 의도고 기간 내에 만들어 줘야지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+그게/NP+JKS+말/NNG+이/JKS+돼/VV+EF+원/NNG+하/XSV+는/ETM+데/NNB+로/JKB+만들/VV+어/EC+주/VX+는/ETM+게/NNB+JKS+ERP/SL+만드/VV+는/ETM+의도/NNG+고/VCP+EC+기간/NNG+내/NNB+에/JKB+만들/VV+어/EC+줘야지/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그러게 말야. 자기네 회사는 그거 만들 때 어땠어?",
+            "norm_text": "그러게 말야. 자기네 회사는 그거 만들 때 어땠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+게/EC+말/VX+야/EF+자기/NP+네/XSN+회사/NNG+는/JX+그거/NP+만들/VV+ETM+때/NNG+어땠어/VA+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 말도 마. 우리도 정말 힘들게 만들었는데, 그래도 지금 자기네 회사처럼은 아니야...ㅎ",
+            "norm_text": "말도 마. 우리도 정말 힘들게 만들었는데, 그래도 지금 자기네 회사처럼은 아니야...ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "말/NNG+도/JX+마/VX+EF+우리/NP+도/JX+정말/MAG+힘들/VA+게/EC+만들/VV+었/EP+는데/EC+,/SC+그래도/MAJ+지금/MAG+자기/NP+네/XSN+회사/NNG+처럼/JKB+은/JX+아니/VCN+야/EF+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 16,
+            "text": "1 : 와 정말 힘들다. 중간에서 우리 부서가 이 업무 다 총책이라서.ㅠ",
+            "norm_text": "와 정말 힘들다. 중간에서 우리 부서가 이 업무 다 총책이라서.ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+정말/MAG+힘들/VA+다/EF+중간/NNG+에서/JKB+우리/NP+부서/NNG+가/JKS+이/MM+업무/NNG+다/MAG+총책/NNG+이/VCP+라서/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 고생한다. 얼른 담당자들이 원하는데로 개발자들이 만들어주길 바래 ㅠ",
+            "norm_text": "고생한다. 얼른 담당자들이 원하는데로 개발자들이 만들어주길 바래 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고생/NNG+한다/XSV+EF+얼른/MAG+담당자/NNG+들/XSN+이/JKS+원/NNG+하/XSV+는/ETM+데/NNB+로/JKB+개발자/NNG+들/XSN+이/JKS+만들/VV+어/EC+주/VX+길/ETN+JKO+바래/VV+EC+ㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

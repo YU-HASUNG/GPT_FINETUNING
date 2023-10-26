@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 33092,
+    "name": "KAKAO_666_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152611027356/KAKAO_666_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152611027356/KAKAO_666_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34872,
+      "filename": "KAKAO_666_14.txt",
+      "title": "KAKAO_666_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 700,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 700,
+        "word_size": 196,
+        "text": "1 : 이번에 NLL 인근에서 20대 공무원이 실종됐대...\n2 : 아 진짜? NLL이면 북방한계선 아니야?\n1 : 맞아... 남한 북한의 해안 경계선임 육군으로 따지면 휴전선이지\n2 : 아니 어쩌다 거기서 실종이 될 수 있지? 바다 한복판이면 물에 빠진 거 아니야?\n1 : 아직까지 정황을 알 수가 없다고 하더라고 벌써 이틀이나 지났대\n2 : 이틀이나 지난 거면 죽었을 수도 있을 확률이 높겠네...\n1 : 그러긴 한데 아직 확실한 증거라던가 정황이 파악이 안 된대\n2 : 아니 주변에 다른 사람들도 있었을 거 아니야?\n1 : 정확히는 모르겠는데 당직 근무 서다가 오후 1시쯤 화장실 간다 하고 자리를 비운 뒤 실종됐다고 하더라고...\n2 : 도대체 무슨 일이 벌어진 거야... 뭐 더 나온 내용은 없음?\n1 : 지난밤에 그 공무원 찾을라고 조명탄 180발이나 쏘고 함선 22척, 항공기 5대를 동원해서 사고 해역을 야간 수색 엄청 했다고 하더라고\n2 : 와 그렇게나 많은 사람들이 수색을 했는데도 못 찾았다고...?\n1 : 불안한 거는 월북 얘기까지도 나오고 있음...\n2 : 월북? 아니 뭐 하러 남한이 더 살기 좋은데 살기 힘들고 무서운 북한으로 넘어감...\n1 : 아직 확실한 건 아닌데 그리고 월북보다도 물에 떠내려가서 북한 쪽으로 넘어가서 북한 군에 피격됐을 수도 있다고 하더라고\n2 : 와... 끔찍하다.. 제발 아직까지 잘 살아 있어서 구조가 됐으면 좋겠다 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번에 NLL 인근에서 20대 공무원이 실종됐대...",
+            "norm_text": "이번에 NLL 인근에서 20대 공무원이 실종됐대...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+NLL/SL+인근/NNG+에서/JKB+20/SN+대/NNBC+공무원/NNG+이/JKS+실종/NNG+됐/XSV+EP+대/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 진짜? NLL이면 북방한계선 아니야?",
+            "norm_text": "아 진짜? NLL이면 북방한계선 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+?/SY+NLL/SL+이/VCP+면/EC+북방/NNG+한계선/NNG+아니/VCN+야/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아... 남한 북한의 해안 경계선임 육군으로 따지면 휴전선이지",
+            "norm_text": "맞아... 남한 북한의 해안 경계선임 육군으로 따지면 휴전선이지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+./SY+./SY+남한/NNP+북한/NNP+의/JKG+해안/NNG+경계선/NNG+임/VCP+ETN+육군/NNG+으로/JKB+따지/VV+면/EC+휴전선/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 어쩌다 거기서 실종이 될 수 있지? 바다 한복판이면 물에 빠진 거 아니야?",
+            "norm_text": "아니 어쩌다 거기서 실종이 될 수 있지? 바다 한복판이면 물에 빠진 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+어쩌다/MAJ+거기/NP+서/JKB+실종/NNG+이/JKS+될/VV+ETM+수/NNB+있/VV+지/EF+바다/NNG+한/XSA+ETM+복판/NNG+이/VCP+면/EC+물/NNG+에/JKB+빠진/VV+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아직까지 정황을 알 수가 없다고 하더라고 벌써 이틀이나 지났대",
+            "norm_text": "아직까지 정황을 알 수가 없다고 하더라고 벌써 이틀이나 지났대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+까지/JX+정황/NNG+을/JKO+알/VV+ETM+수/NNB+가/JKS+없/VA+다고/EC+하/VX+더라고/EF+벌써/MAG+이틀/NNG+이나/JX+지났/VV+EP+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 이틀이나 지난 거면 죽었을 수도 있을 확률이 높겠네...",
+            "norm_text": "이틀이나 지난 거면 죽었을 수도 있을 확률이 높겠네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이틀/NNG+이나/JX+지난/VV+ETM+거/NNB+면/VCP+EC+죽/VV+었/EP+을/ETM+수/NNB+도/JX+있/VA+을/ETM+확률/NNG+이/JKS+높/VA+겠/EP+네/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러긴 한데 아직 확실한 증거라던가 정황이 파악이 안 된대",
+            "norm_text": "그러긴 한데 아직 확실한 증거라던가 정황이 파악이 안 된대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+긴/ETN+JX+한데/VX+EC+아직/MAG+확실/XR+한/XSA+ETM+증거/NNG+라던가/JC+정황/NNG+이/JKS+파악/NNG+이/JKS+안/MAG+된대/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니 주변에 다른 사람들도 있었을 거 아니야?",
+            "norm_text": "아니 주변에 다른 사람들도 있었을 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+주변/NNG+에/JKB+다른/MM+사람/NNG+들/XSN+도/JX+있/VA+었/EP+을/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 정확히는 모르겠는데 당직 근무 서다가 오후 1시쯤 화장실 간다 하고 자리를 비운 뒤 실종됐다고 하더라고...",
+            "norm_text": "정확히는 모르겠는데 당직 근무 서다가 오후 1시쯤 화장실 간다 하고 자리를 비운 뒤 실종됐다고 하더라고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정확히/MAG+는/JX+모르/VV+겠/EP+는데/EC+당직/NNG+근무/NNG+서다/NNG+가/JKS+오후/NNG+1/SN+시/NNBC+쯤/XSN+화장실/NNG+간다/VV+EC+하/VV+고/EC+자리/NNG+를/JKO+비운/VV+ETM+뒤/NNG+실종/NNG+됐/XSV+EP+다고/EC+하/VX+더라고/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 도대체 무슨 일이 벌어진 거야... 뭐 더 나온 내용은 없음?",
+            "norm_text": "도대체 무슨 일이 벌어진 거야... 뭐 더 나온 내용은 없음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "도대체/MAG+무슨/MM+일/NNG+이/JKS+벌어진/VV+ETM+거/NNB+야/VCP+EF+./SY+뭐/IC+더/MAG+나온/VV+ETM+내용/NNG+은/JX+없/VA+음/ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 지난밤에 그 공무원 찾을라고 조명탄 180발이나 쏘고 함선 22척, 항공기 5대를 동원해서 사고 해역을 야간 수색 엄청 했다고 하더라고",
+            "norm_text": "지난밤에 그 공무원 찾을라고 조명탄 180발이나 쏘고 함선 22척, 항공기 5대를 동원해서 사고 해역을 야간 수색 엄청 했다고 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지난/VV+ETM+밤/NNG+에/JKB+그/MM+공무원/NNG+찾/VV+을라고/EC+조명탄/NNG+180/SN+발/NNBC+이나/JX+쏘/VV+고/EC+함선/NNG+22/SN+척/NNBC+,/SC+항공기/NNG+5/SN+대/NNBC+를/JKO+동원/NNG+해서/XSV+EC+사고/NNG+해역/NNG+을/JKO+야간/NNG+수색/NNG+엄청/MAG+했/VV+EP+다고/EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 와 그렇게나 많은 사람들이 수색을 했는데도 못 찾았다고...?",
+            "norm_text": "와 그렇게나 많은 사람들이 수색을 했는데도 못 찾았다고...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+그렇게/MAG+나/NP+많/VA+은/ETM+사람/NNG+들/XSN+이/JKS+수색/NNG+을/JKO+했/VV+EP+는데/EC+도/JX+못/MAG+찾/VV+았/EP+다고/EF+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 불안한 거는 월북 얘기까지도 나오고 있음...",
+            "norm_text": "불안한 거는 월북 얘기까지도 나오고 있음...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "불안/NNG+한/XSA+ETM+거/NNB+는/JX+월북/NNG+얘기/NNG+까지/JX+도/JX+나오/VV+고/EC+있/VX+음/ETN+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 월북? 아니 뭐 하러 남한이 더 살기 좋은데 살기 힘들고 무서운 북한으로 넘어감...",
+            "norm_text": "월북? 아니 뭐 하러 남한이 더 살기 좋은데 살기 힘들고 무서운 북한으로 넘어감...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "월북/NNG+아니/IC+뭐/IC+하러/NNP+남한/NNP+이/JKS+더/MAG+살/VV+기/ETN+좋/VA+은/ETM+데/NNB+살/VV+기/ETN+힘들/VA+고/EC+무서운/VA+ETM+북한/NNP+으로/JKB+넘어감/VV+ETN+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아직 확실한 건 아닌데 그리고 월북보다도 물에 떠내려가서 북한 쪽으로 넘어가서 북한 군에 피격됐을 수도 있다고 하더라고",
+            "norm_text": "아직 확실한 건 아닌데 그리고 월북보다도 물에 떠내려가서 북한 쪽으로 넘어가서 북한 군에 피격됐을 수도 있다고 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+확실/XR+한/XSA+ETM+건/NNB+JX+아닌데/VCN+EC+그리고/MAJ+월북/NNG+보다/JKB+도/JX+물/NNG+에/JKB+떠내려가/VV+서/EC+북한/NNP+쪽/NNB+으로/JKB+넘어가/VV+서/EC+북한/NNP+군/NNB+에/JKB+피격/NNG+됐/XSV+EP+을/ETM+수/NNB+도/JX+있/VA+다고/EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 와... 끔찍하다.. 제발 아직까지 잘 살아 있어서 구조가 됐으면 좋겠다 ㅠㅠ",
+            "norm_text": "와... 끔찍하다.. 제발 아직까지 잘 살아 있어서 구조가 됐으면 좋겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+끔찍/XR+하/XSA+다/EF+./SY+제발/MAG+아직/MAG+까지/JX+잘/MAG+살/VV+아/EC+있/VX+어서/EC+구조/NNG+가/JKS+됐/VV+EP+으면/EC+좋/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

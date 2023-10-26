@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 32654,
+    "name": "KAKAO_631_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121749052688/KAKAO_631_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121749052688/KAKAO_631_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32339,
+      "filename": "KAKAO_631_06.txt",
+      "title": "KAKAO_631_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 621,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 621,
+        "word_size": 198,
+        "text": "1 : 자기 계발 서적 같은 거 많이 읽나?\n2 : 키키 읽겠습니까? 그냥 소설 책도 요새 잘 안 읽는데 ㅠㅠ\n1 : 아 그래요? 키키\n1 : 나 예전엔 자기 계발 서적 엄청 좋아했는데... 지금은 별로임...\n2 : 진짜? 키키 왜 별로가 되었어? 키키\n2 : 원인이 있어?\n1 : 꿈과 희망이 사라졌나 봐... 키키\n1 : 결국은 성공한 사람들 얘기이다 보니...\n2 : 키키 그것도 맞지 ㅠㅠ\n2 : 솔직히 허망된 이야기 같기도 해\n1 : 그니까... 그 시간에 자격증 공부를 더 하지... 싶었어\n2 : 키키 그니깐 아니 예전에 딸까 했던 것들 따 놓을 껄이라고 최근에 많이 생각함\n1 : 아! 물론 내가 자격증 공부를 한다는 건 아니고!\n2 : 키키 엥? 키키 해야죠 키키\n2 : 우리 자격증 따서 전문 일을 하자\n1 : 키키 전문직 좋지...\n1 : 근데... 무슨 자격증 따지?\n2 : 키키 나도 요새 진짜 엄청 고민 중이야... ㅠㅠ\n1 : 나이에 구애 받지 않는 직업이 뭐가 있을까?\n2 : 그니깐... 나는 피부 관리사 예전에 하고 싶었는데 안 딴 거 후회해 키키\n1 : 오... 피부 관리사... 내 가게 차리면 좋겠네!\n1 : 지금이라도 해 봐!\n2 : 키키 그래서 지금이라도 해 볼까 싶기도 하면서 지금 해서 되겠나 싶기도 해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기 계발 서적 같은 거 많이 읽나?",
+            "norm_text": "자기 계발 서적 같은 거 많이 읽나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+계발/NNG+서적/NNG+같/VA+은/ETM+거/NNB+많이/MAG+읽/VV+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 읽겠습니까? 그냥 소설 책도 요새 잘 안 읽는데 ㅠㅠ",
+            "norm_text": "키키 읽겠습니까? 그냥 소설 책도 요새 잘 안 읽는데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+읽/VV+겠/EP+습니까/EF+그냥/MAG+소설책/NNG+도/JX+요새/MAG+잘/MAG+안/MAG+읽/VV+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래요? 키키",
+            "norm_text": "아 그래요? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래요/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나 예전엔 자기 계발 서적 엄청 좋아했는데... 지금은 별로임...",
+            "norm_text": "나 예전엔 자기 계발 서적 엄청 좋아했는데... 지금은 별로임...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+예전/NNG+엔/JKB+JX+자기/NP+계발/NNG+서적/NNG+엄청/MAG+좋/VA+아/EC+했/VX+EP+는데/EC+./SY+./SY+지금/MAG+은/JX+별로/MAG+임/VCP+ETN+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 진짜? 키키 왜 별로가 되었어? 키키",
+            "norm_text": "진짜? 키키 왜 별로가 되었어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+키/NNG+키/XSV+ETN+왜/MAG+별로/MAG+가/VV+EC+되/VV+었/EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 원인이 있어?",
+            "norm_text": "원인이 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "원인/NNG+이/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 꿈과 희망이 사라졌나 봐... 키키",
+            "norm_text": "꿈과 희망이 사라졌나 봐... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "꿈/NNG+과/JC+희망/NNG+이/JKS+사라졌/VV+EP+나/EC+봐/VX+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 결국은 성공한 사람들 얘기이다 보니...",
+            "norm_text": "결국은 성공한 사람들 얘기이다 보니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "결국/MAG+은/JX+성공/NNG+한/XSA+ETM+사람/NNG+들/XSN+얘기/NNG+이/VCP+다/EC+보/VX+니/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 그것도 맞지 ㅠㅠ",
+            "norm_text": "키키 그것도 맞지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그것/NP+도/JX+맞/VV+지/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 솔직히 허망된 이야기 같기도 해",
+            "norm_text": "솔직히 허망된 이야기 같기도 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "솔직히/MAG+허망/NNG+된/XSV+ETM+이야기/NNG+같/VA+기/ETN+도/JX+해/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그니까... 그 시간에 자격증 공부를 더 하지... 싶었어",
+            "norm_text": "그니까... 그 시간에 자격증 공부를 더 하지... 싶었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니까/MAJ+./SY+그/MM+시간/NNG+에/JKB+자격증/NNG+공부/NNG+를/JKO+더하/VV+지/EF+./SY+싶/VX+었/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 그니깐 아니 예전에 딸까 했던 것들 따 놓을 껄이라고 최근에 많이 생각함",
+            "norm_text": "키키 그니깐 아니 예전에 딸까 했던 것들 따 놓을 껄이라고 최근에 많이 생각함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니깐/MAJ+아니/IC+예전/NNG+에/JKB+딸까/VV+EF+했/VV+EP+던/ETM+것/NNB+들/XSN+따놓/VV+을껄/EF+이라고/JKQ+최근/NNG+에/JKB+많이/MAG+생각/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아! 물론 내가 자격증 공부를 한다는 건 아니고!",
+            "norm_text": "아! 물론 내가 자격증 공부를 한다는 건 아니고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+물론/MAG+내/NP+가/JKS+자격증/NNG+공부/NNG+를/JKO+한다는/VV+ETM+건/NNB+JX+아니/VCN+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 엥? 키키 해야죠 키키",
+            "norm_text": "키키 엥? 키키 해야죠 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+엥/IC+키키해야죠키키/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 우리 자격증 따서 전문 일을 하자",
+            "norm_text": "우리 자격증 따서 전문 일을 하자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+자격증/NNG+따/VV+서/EC+전문/NNG+일/NNG+을/JKO+하/VV+자/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 전문직 좋지...",
+            "norm_text": "키키 전문직 좋지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+전문직/NNG+좋/VA+지/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 근데... 무슨 자격증 따지?",
+            "norm_text": "근데... 무슨 자격증 따지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+./SY+무슨/MM+자격증/NNG+따/VV+지/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 나도 요새 진짜 엄청 고민 중이야... ㅠㅠ",
+            "norm_text": "키키 나도 요새 진짜 엄청 고민 중이야... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+요새/MAG+진짜/MAG+엄청/MAG+고민/NNG+중/NNB+이/VCP+야/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 나이에 구애 받지 않는 직업이 뭐가 있을까?",
+            "norm_text": "나이에 구애 받지 않는 직업이 뭐가 있을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나이/NNG+에/JKB+구애/NNG+받/VV+지/EC+않/VX+는/ETM+직업/NNG+이/JKS+뭐/NP+가/JKS+있/VA+을까/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그니깐... 나는 피부 관리사 예전에 하고 싶었는데 안 딴 거 후회해 키키",
+            "norm_text": "그니깐... 나는 피부 관리사 예전에 하고 싶었는데 안 딴 거 후회해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+./SY+나/NP+는/JX+피부/NNG+관리사/NNG+예전/NNG+에/JKB+하/VV+고/EC+싶/VX+었/EP+는데/EC+안/MAG+딴/VV+ETM+거/NNB+후회/NNG+해/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 오... 피부 관리사... 내 가게 차리면 좋겠네!",
+            "norm_text": "오... 피부 관리사... 내 가게 차리면 좋겠네!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+./SY+피부/NNG+관리사/NNG+./SY+./SY+내/NP+가/VV+게/EC+차리/VV+면/EC+좋/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 지금이라도 해 봐!",
+            "norm_text": "지금이라도 해 봐!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/NNG+이/VCP+라도/EC+해/VV+EC+봐/VX+EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 그래서 지금이라도 해 볼까 싶기도 하면서 지금 해서 되겠나 싶기도 해",
+            "norm_text": "키키 그래서 지금이라도 해 볼까 싶기도 하면서 지금 해서 되겠나 싶기도 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래서/MAJ+지금/NNG+이/VCP+라도/EC+해볼까/VV+EC+VX+EC+싶/VX+기/ETN+도/JX+하/VV+면서/EC+지금/NNG+해서/XSV+EC+되/VV+겠/EP+나/EC+싶/VX+기/ETN+도/JX+해/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 45038,
+    "name": "KAKAO_792_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143911042967/KAKAO_792_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143911042967/KAKAO_792_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38105,
+      "filename": "KAKAO_792_14.txt",
+      "title": "KAKAO_792_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 704,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 704,
+        "word_size": 222,
+        "text": "1 : 오 홀리; 뉴스 봤냐 아내가 남편 죽이려고 치약에 매일 락스 발라 놨대\n2 : 헐... 못 봤어 남편은 그거 어떻게 알았대?\n1 : 아니 이 닦는데 칫솔에서 이상한 냄새 나가지고 갸웃 하다가 화장실에 카메라 설치했댜\n2 : 진짜 헐이다 아내 뭐 정신병 있는 겨?\n1 : 그건 잘 모르겠는데 말하는 게 더 충격임. 아 왜 안 죽지 오늘은 죽어야 되는데... 그랬댜;\n2 : 헐 무섭다... 남편이 뭐 잘못한 건 아니고?\n1 : 웅 그런 거까진 안 나왔는데 아니 제정신으로 할 수 있는 일이 아닌 거 같은뎈 키키\n2 : 락스를 바른 것도 바른 건데 남편이 그 카메라 찍힌 거 보고 얼마나 소름 끼쳤을까;\n1 : 어...나였으면 바로 이혼 각...\n1 : 근데 뭐 남편이 아내 처벌 원치 않는다고 선처해달라 했대\n2 : 무슨 관계지 그게 되나... 자기 죽이려고 한 사람이랑 계속 같이 살 수 있나?\n1 : 난 절대 못함 아무리 사랑해도 배신감  들 거같고... 같이 자는데 나 죽이면 어케\u003d_\u003d\n2 : 글치... 칫솔에 락스 바를 정도면 솔직히 밥에 락스 타도 모를 거 같은데;\n1 : 아 하지 마 소름 끼쳨 키키 진짜 놀랠 노자여 세상 잘 돌아간다\n2 : 옛날에 제일 충격인 사건은 어린애 얼굴에 황산 테러 한 거 난 그게 제일 끔찍ㅜ\n1 : 아 그건 진심... 길가다 갑자기 무슨 봉변이야 그 애는 지금 완전 으른 됐겠다\n2 : 그치 엄청 옛날 사건이니까 ㅜ 아저씨 되지 않았을까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오 홀리; 뉴스 봤냐 아내가 남편 죽이려고 치약에 매일 락스 발라 놨대",
+            "norm_text": "오 홀리; 뉴스 봤냐 아내가 남편 죽이려고 치약에 매일 락스 발라 놨대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+홀리/NNP+;/SY+뉴스/NNG+봤/VV+EP+냐아/EF+내/NP+가/JKS+남편/NNG+죽이/VV+려고/EC+치약/NNG+에/JKB+매일/MAG+락스/NNP+발라/VV+EC+놨/VX+EP+대/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐... 못 봤어 남편은 그거 어떻게 알았대?",
+            "norm_text": "헐... 못 봤어 남편은 그거 어떻게 알았대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+./SY+못/MAG+봤/VV+EP+어/EC+남편/NNG+은/JX+그거/NP+어떻게/MAG+알/VV+았/EP+대/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 이 닦는데 칫솔에서 이상한 냄새 나가지고 갸웃 하다가 화장실에 카메라 설치했댜",
+            "norm_text": "아니 이 닦는데 칫솔에서 이상한 냄새 나가지고 갸웃 하다가 화장실에 카메라 설치했댜",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+이/MM+닦/VV+는데/EC+칫솔/NNG+에서/JKB+이상/NNG+한/XSA+ETM+냄새/NNG+나/JX+가지/VV+고/EC+갸웃하/VV+다가/EC+화장실/NNG+에/JKB+카메라/NNG+설치/NNG+했/XSV+EP+댜/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 진짜 헐이다 아내 뭐 정신병 있는 겨?",
+            "norm_text": "진짜 헐이다 아내 뭐 정신병 있는 겨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+헐/NNP+이/JKS+다/MAG+아내/NNG+뭐/IC+정신병/NNG+있/VA+는겨/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그건 잘 모르겠는데 말하는 게 더 충격임. 아 왜 안 죽지 오늘은 죽어야 되는데... 그랬댜;",
+            "norm_text": "그건 잘 모르겠는데 말하는 게 더 충격임. 아 왜 안 죽지 오늘은 죽어야 되는데... 그랬댜;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+잘/MAG+모르/VV+겠/EP+는데/EC+말/NNG+하/XSV+는/ETM+게/NNB+JKS+더/MAG+충격/NNG+임/VCP+ETN+아/IC+왜/MAG+안/MAG+죽/VV+지/EC+오늘/NNG+은/JX+죽/VV+어야/EC+되/VV+는데/EC+./SY+./SY+그랬/VV+EP+댜/EF+;/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 헐 무섭다... 남편이 뭐 잘못한 건 아니고?",
+            "norm_text": "헐 무섭다... 남편이 뭐 잘못한 건 아니고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/VV+JKO+무섭/VA+다/EF+./SY+남편/NNG+이/JKS+뭐/IC+잘못/MAG+한/XSA+ETM+건/NNB+JX+아니/VCN+고/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 웅 그런 거까진 안 나왔는데 아니 제정신으로 할 수 있는 일이 아닌 거 같은뎈 키키",
+            "norm_text": "웅 그런 거까진 안 나왔는데 아니 제정신으로 할 수 있는 일이 아닌 거 같은뎈 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+그런/MM+거/NNB+까진/JX+JX+안/MAG+나왔/VV+EP+는데/EC+아니/IC+제정신/NNG+으로/JKB+할/VV+ETM+수/NNB+있/VV+는/ETM+일/NNG+이/JKC+아닌/VCN+ETM+거/NNB+같/VA+은/ETM+뎈키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 락스를 바른 것도 바른 건데 남편이 그 카메라 찍힌 거 보고 얼마나 소름 끼쳤을까;",
+            "norm_text": "락스를 바른 것도 바른 건데 남편이 그 카메라 찍힌 거 보고 얼마나 소름 끼쳤을까;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "락스/NNP+를/JKO+바른/VA+ETM+것/NNB+도/JX+바른/VA+ETM+건데/NNB+VCP+EC+남편/NNG+이/JKS+그/MM+카메라/NNG+찍힌/VV+ETM+거/NNB+보고/JKB+얼마나/MAG+소름/NNG+끼쳤/VV+EP+을까/EC+;/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어...나였으면 바로 이혼 각...",
+            "norm_text": "어...나였으면 바로 이혼 각...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+나/NP+였/VCP+EP+으면/EC+바로/MAG+이혼/NNG+각/MM+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 근데 뭐 남편이 아내 처벌 원치 않는다고 선처해달라 했대",
+            "norm_text": "근데 뭐 남편이 아내 처벌 원치 않는다고 선처해달라 했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+뭐/IC+남편/NNG+이/JKS+아내/NNG+처벌/NNG+원치/VV+EC+않/VX+는다고/EC+선처/NNG+해/XSV+EC+달/VX+라/EC+했/VX+EP+대/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 무슨 관계지 그게 되나... 자기 죽이려고 한 사람이랑 계속 같이 살 수 있나?",
+            "norm_text": "무슨 관계지 그게 되나... 자기 죽이려고 한 사람이랑 계속 같이 살 수 있나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+관계/NNG+지/VCP+EF+그게/NP+JKS+되/VV+나/EF+./SY+자기/NP+죽이/VV+려고/EC+한/MM+사람/NNG+이랑/JKB+계속/MAG+같이/MAG+살/VV+ETM+수/NNB+있/VV+나/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 난 절대 못함 아무리 사랑해도 배신감  들 거같고... 같이 자는데 나 죽이면 어케\u003d_\u003d",
+            "norm_text": "난 절대 못함 아무리 사랑해도 배신감  들 거같고... 같이 자는데 나 죽이면 어케\u003d_\u003d",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+절대/MAG+못/MAG+함/VV+EC+아무리/MAG+사랑/NNG+해도/XSV+EC+배신감/NNG+들/XSN+거/NNB+같/VA+고/EC+./SY+./SY+같이/MAG+자/VV+는/ETM+데/NNB+나/JX+죽이/VV+면/EC+어/XR+케/XSA+EC+\u003d/SY+_/SY+\u003d/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 글치... 칫솔에 락스 바를 정도면 솔직히 밥에 락스 타도 모를 거 같은데;",
+            "norm_text": "글치... 칫솔에 락스 바를 정도면 솔직히 밥에 락스 타도 모를 거 같은데;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/NNG+치/XSN+./SY+칫솔/NNG+에/JKB+락스/NNP+바/NNB+를/JKO+정도/NNG+면/VCP+EC+솔직히/MAG+밥/NNG+에/JKB+락스타/NNP+도/JX+모를/VV+ETM+거/NNB+같/VA+은데/EC+;/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 하지 마 소름 끼쳨 키키 진짜 놀랠 노자여 세상 잘 돌아간다",
+            "norm_text": "아 하지 마 소름 끼쳨 키키 진짜 놀랠 노자여 세상 잘 돌아간다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "아/IC+하/VV+지/EC+마/VX+EC+소름/NNG+끼쳨/UNKNOWN+키/NNG+키/XSV+ETN+진짜/MAG+놀랠/VV+ETM+노자/NNP+여세/NNG+상/XSN+잘/MAG+돌아간다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 옛날에 제일 충격인 사건은 어린애 얼굴에 황산 테러 한 거 난 그게 제일 끔찍ㅜ",
+            "norm_text": "옛날에 제일 충격인 사건은 어린애 얼굴에 황산 테러 한 거 난 그게 제일 끔찍ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "옛날/NNG+에/JKB+제일/MAG+충격/NNG+인/VCP+ETM+사건/NNG+은/JX+어린애/NNG+얼굴/NNG+에/JKB+황산/NNG+테러/NNG+한/XSA+ETM+거/NNB+난/NP+JX+그게/NP+JKS+제일/MAG+끔/VV+ETN+찍ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 그건 진심... 길가다 갑자기 무슨 봉변이야 그 애는 지금 완전 으른 됐겠다",
+            "norm_text": "아 그건 진심... 길가다 갑자기 무슨 봉변이야 그 애는 지금 완전 으른 됐겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그건/NP+JX+진심/NNG+./SY+./SY+길/ETN+JKO+가/VV+다/EF+갑자기/MAG+무슨/MM+봉변/NNG+이/VCP+야/EF+그/MM+애/NNG+는/JX+지금/MAG+완전/NNG+으른/UNKNOWN+됐/VV+EP+겠/EP+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그치 엄청 옛날 사건이니까 ㅜ 아저씨 되지 않았을까",
+            "norm_text": "그치 엄청 옛날 사건이니까 ㅜ 아저씨 되지 않았을까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+엄청/MAG+옛날/NNG+사건/NNG+이/VCP+니까/EC+ㅜ/UNKNOWN+아저씨/NNG+되/XSV+지/EC+않/VX+았/EP+을까/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

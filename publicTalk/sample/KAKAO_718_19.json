@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 56447,
+    "name": "KAKAO_718_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114202024927/KAKAO_718_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114202024927/KAKAO_718_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35518,
+      "filename": "KAKAO_718_19.txt",
+      "title": "KAKAO_718_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 387,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 128,
+        "text": "1 : 엄마~ 나 만원만~\n2 : 왜? 만원으로 뭐하게?\n1 : 남자친구랑 카페 가는데 돈이 없어 ㅠㅠ\n2 : 알겠어 계좌로 보내줄게\n1 : 고마워 하하 내가 돈 받으면 갚을게!\n2 : 뭘 갚어~ 돈 필요하면 언제든 엄마한테 말 해.\n1 : 우와 엄마 최고 최고!\n2 : 카페 가서 뭐하려고?\n2 : 같이 공부할 거야?\n1 : 아니 키키 아이패드로 같이 예능 보려고\n2 : 지금 이 시간대에 재밌는 거 뭐 하니?\n1 : 아니~ 런닝맨 재방송 볼거지롱~\n2 : 공부는 안하고 맨날 놀기만 하네\n1 : 공부도 하면서 노는 거거든!\n1 : 나도 다 계획이 있어\n2 : 적당히 놀고 공부해~\n2 : 남자친구도 취업 해야지~\n1 : 남자친구는 다음 달에 드론 학원 다녀~ 그 전까지 놀 거야~\n2 : 걔는 그런다 쳐도 너는 공부해야지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마~ 나 만원만~",
+            "norm_text": "엄마~ 나 만원만~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "엄마/NNG+~/SY+나/NP+만/JX+원만/NNG+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜? 만원으로 뭐하게?",
+            "norm_text": "왜? 만원으로 뭐하게?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+만/NR+원/NNBC+으로/JKB+뭐/IC+하/VV+게/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 남자친구랑 카페 가는데 돈이 없어 ㅠㅠ",
+            "norm_text": "남자친구랑 카페 가는데 돈이 없어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남자/NNG+친구/NNG+랑/JKB+카페/NNG+가/VV+는데/EC+돈/NNG+이/JKS+없/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 알겠어 계좌로 보내줄게",
+            "norm_text": "알겠어 계좌로 보내줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+겠/EP+어/EC+계좌/NNG+로/JKB+보내/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 5,
+            "text": "1 : 고마워 하하 내가 돈 받으면 갚을게!",
+            "norm_text": "고마워 하하 내가 돈 받으면 갚을게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고마워/VA+EC+하하/MAG+내/NP+가/JKS+돈/NNG+받/VV+으면/EC+갚/VV+을/ETM+게/NNB+JKS"
+          },
+          {
+            "id": 6,
+            "text": "2 : 뭘 갚어~ 돈 필요하면 언제든 엄마한테 말 해.",
+            "norm_text": "뭘 갚어~ 돈 필요하면 언제든 엄마한테 말 해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭘/NP+JKO+갚/VV+어/EC+~/SY+돈/NNG+필요/NNG+하/XSV+면/EC+언제/NP+든/VCP+EC+엄마/NNG+한테/JKB+말/NNG+해/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 우와 엄마 최고 최고!",
+            "norm_text": "우와 엄마 최고 최고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "우와/IC+엄마/NNG+최고/NNG+최고/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 카페 가서 뭐하려고?",
+            "norm_text": "카페 가서 뭐하려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카페/NNG+가/VV+서/EC+뭐/IC+하/VV+려고/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 같이 공부할 거야?",
+            "norm_text": "같이 공부할 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "같이/MAG+공부/NNG+할/XSV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아니 키키 아이패드로 같이 예능 보려고",
+            "norm_text": "아니 키키 아이패드로 같이 예능 보려고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+키키/NNP+아이패드/NNP+로/JKB+같이/MAG+예능/NNG+보/VV+려고/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 지금 이 시간대에 재밌는 거 뭐 하니?",
+            "norm_text": "지금 이 시간대에 재밌는 거 뭐 하니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+이/MM+시간/NNG+대/XSN+에/JKB+재밌/VA+는/ETM+거/NNB+뭐/IC+하/VV+니/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아니~ 런닝맨 재방송 볼거지롱~",
+            "norm_text": "아니~ 런닝맨 재방송 볼거지롱~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+~/SY+런닝맨/NNP+재방송/NNG+볼/VV+ETM+거/NNB+지롱/NNG+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 공부는 안하고 맨날 놀기만 하네",
+            "norm_text": "공부는 안하고 맨날 놀기만 하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공부/NNG+는/JX+안/MAG+하/VV+고/EC+맨날/MAG+놀/VV+기/ETN+만/JX+하/VV+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 공부도 하면서 노는 거거든!",
+            "norm_text": "공부도 하면서 노는 거거든!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "공부/NNG+도/JX+하/VV+면서/EC+노/VX+는/ETM+거/NNB+거든/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나도 다 계획이 있어",
+            "norm_text": "나도 다 계획이 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+다/MAG+계획/NNG+이/JKS+있/VV+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 적당히 놀고 공부해~",
+            "norm_text": "적당히 놀고 공부해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "적당히/MAG+놀/VV+고/EC+공부/NNG+해/XSV+EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 남자친구도 취업 해야지~",
+            "norm_text": "남자친구도 취업 해야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+친구/NNG+도/JX+취업/NNG+해야지/XSV+EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 남자친구는 다음 달에 드론 학원 다녀~ 그 전까지 놀 거야~",
+            "norm_text": "남자친구는 다음 달에 드론 학원 다녀~ 그 전까지 놀 거야~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남자/NNG+친구/NNG+는/JX+다음/NNG+달/NNG+에/JKB+드론/NNP+학원/NNG+다녀/VV+EC+~/SY+그/MM+전/NNG+까지/JX+놀/VV+ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 걔는 그런다 쳐도 너는 공부해야지",
+            "norm_text": "걔는 그런다 쳐도 너는 공부해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "걔/NP+는/JX+그런/MM+다쳐도/VV+EC+너/NP+는/JX+공부/NNG+해야지/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

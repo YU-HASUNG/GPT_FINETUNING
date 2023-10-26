@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24378,
+    "name": "KAKAO_511_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145442043482/KAKAO_511_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145442043482/KAKAO_511_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29148,
+      "filename": "KAKAO_511_17.txt",
+      "title": "KAKAO_511_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 435,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 435,
+        "word_size": 141,
+        "text": "1 : 부모님 건강이 걱정이야...\n2 : 왜 요즘 어디 아프셔?\n1 : 외숙모가 치매 걸리셨데...\n2 : 아... 그렇구나 치매는 진짜 무섭긴 한데 ㅜ\n1 : 응 너무 끔찍해 너무 슬퍼 생각만 해도\n2 : 그래도 초기면 약을 쓸 수 있어서 많이 지연시킬 수 있대\n1 : 외숙모도 초기에 약 드셨는데 안 되더라...?\n2 : 약도 먹고 재활훈련도 꾸준히 해야 한다더라\n1 : 참 치매랑 암은 정복이 쉽지 않다잉\n2 : 그러게 그거 치료 약이 나오면 정말 희망적일 텐데\n1 : 응 특히 치매 너무 간절해\n1 : 나도 진짜 치매만큼은 안 걸리고 싶어\n2 : 나도 그것만큼은 피하고 싶지 가족한테도 너무 피해주고\n1 : 마저 부모님도 자주 찾아 뵙장...\n2 : 연락도 자주 안 드리는데 급 생각나네 ㅜ\n1 : 오늘 전화 한번 해!  나두 할랭 ㅠ\n2 : 응 그래야겠다 건강은 진짜 있을 때 조심하고 잘 챙기자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부모님 건강이 걱정이야...",
+            "norm_text": "부모님 건강이 걱정이야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부모/NNG+님/XSN+건강/NNG+이/JKS+걱정/NNG+이/VCP+야/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜 요즘 어디 아프셔?",
+            "norm_text": "왜 요즘 어디 아프셔?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+요즘/MAG+어디/NP+아프/VA+셔/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 외숙모가 치매 걸리셨데...",
+            "norm_text": "외숙모가 치매 걸리셨데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "외숙모/NNG+가/JKS+치매/NNG+걸리/VV+셨/EP+EP+데/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아... 그렇구나 치매는 진짜 무섭긴 한데 ㅜ",
+            "norm_text": "아... 그렇구나 치매는 진짜 무섭긴 한데 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+그렇/VA+구나/EF+치매/NNG+는/JX+진짜/MAG+무섭/VA+긴/ETN+JX+한데/VX+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 너무 끔찍해 너무 슬퍼 생각만 해도",
+            "norm_text": "응 너무 끔찍해 너무 슬퍼 생각만 해도",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "응/IC+너무/MAG+끔찍/XR+해/XSA+EC+너무/MAG+슬퍼/VA+EC+생각/NNG+만/JX+해도/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래도 초기면 약을 쓸 수 있어서 많이 지연시킬 수 있대",
+            "norm_text": "그래도 초기면 약을 쓸 수 있어서 많이 지연시킬 수 있대",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+초기/NNG+면약/NNG+을/JKO+쓸/VV+ETM+수/NNB+있/VV+어서/EC+많이/MAG+지연/NNG+시킬/XSV+ETM+수/NNB+있/VV+대/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 외숙모도 초기에 약 드셨는데 안 되더라...?",
+            "norm_text": "외숙모도 초기에 약 드셨는데 안 되더라...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "외숙모/NNG+도/JX+초기/NNG+에/JKB+약/NNG+드셨/VV+EP+는데/EC+안/MAG+되/VV+더라/EF+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 약도 먹고 재활훈련도 꾸준히 해야 한다더라",
+            "norm_text": "약도 먹고 재활훈련도 꾸준히 해야 한다더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "약/NNG+도/JX+먹/VV+고/EC+재활/NNG+훈련/NNG+도/JX+꾸준히/MAG+해야/VV+EC+한다더라/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 참 치매랑 암은 정복이 쉽지 않다잉",
+            "norm_text": "참 치매랑 암은 정복이 쉽지 않다잉",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "참/MAG+치매/NNG+랑/JKB+암/NNG+은/JX+정복/NNG+이/JKS+쉽/VA+지/EC+않/VX+다잉/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그러게 그거 치료 약이 나오면 정말 희망적일 텐데",
+            "norm_text": "그러게 그거 치료 약이 나오면 정말 희망적일 텐데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+그거/NP+치료/NNG+약/NNG+이/JKS+나오/VV+면/EC+정말/MAG+희망/NNG+적/XSN+일/VCP+ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 특히 치매 너무 간절해",
+            "norm_text": "응 특히 치매 너무 간절해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+특히/MAG+치매/NNG+너무/MAG+간절/XR+해/XSA+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나도 진짜 치매만큼은 안 걸리고 싶어",
+            "norm_text": "나도 진짜 치매만큼은 안 걸리고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+진짜/MAG+치매/NNG+만큼/JKB+은/JX+안/MAG+걸리/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나도 그것만큼은 피하고 싶지 가족한테도 너무 피해주고",
+            "norm_text": "나도 그것만큼은 피하고 싶지 가족한테도 너무 피해주고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그것/NP+만큼/JKB+은/JX+피하/VV+고/EC+싶/VX+지/EC+가족/NNG+한테/JKB+도/JX+너무/MAG+피해/VV+EC+주/VX+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 마저 부모님도 자주 찾아 뵙장...",
+            "norm_text": "마저 부모님도 자주 찾아 뵙장...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마저/MAG+부모/NNG+님/XSN+도/JX+자주/MAG+찾아뵙/VV+장/NNBC+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 연락도 자주 안 드리는데 급 생각나네 ㅜ",
+            "norm_text": "연락도 자주 안 드리는데 급 생각나네 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연락/NNG+도/JX+자주/MAG+안/MAG+드리/VV+는데/EC+급/NNG+생각/NNG+나/NP+네/XSN+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오늘 전화 한번 해!  나두 할랭 ㅠ",
+            "norm_text": "오늘 전화 한번 해!  나두 할랭 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오늘/MAG+전화/NNG+한/MM+번/NNBC+해/VV+EF+나두할랭ㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 그래야겠다 건강은 진짜 있을 때 조심하고 잘 챙기자",
+            "norm_text": "응 그래야겠다 건강은 진짜 있을 때 조심하고 잘 챙기자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+그래야/VA+EC+VX+겠/EP+다/EC+건강/NNG+은/JX+진짜/MAG+있/VA+을/ETM+때/NNG+조심/NNG+하/XSV+고/EC+잘/MAG+챙기/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

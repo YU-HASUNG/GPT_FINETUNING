@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 46117,
+    "name": "KAKAO_808_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172128097584/KAKAO_808_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172128097584/KAKAO_808_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39530,
+      "filename": "KAKAO_808_12.txt",
+      "title": "KAKAO_808_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 693,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 693,
+        "word_size": 225,
+        "text": "1 : 너 여행 패키지로 가 본 적 있닁?\n2 : 예전에 어렸을 때 말고 성인 돼서는 안 가 봤엉\n1 : 우와 난 한 번도 패키지는 안 가 봐서 뭔가 궁금했는데 근데 중국이나 이집트 여행은 무조건 패키지로 가야 좋을 것 같애\n2 : 어렸을 때 일본 여행 그렇게 갔었어 가이드님이랑\n1 : 뭔가 몸은 엄청 편하겠다 음식점이랑 다 지정되어 있긴 하지만\n2 : 지금이야 자유 여행 가지 키키 그때가 초5 때\n1 : 완전 꼬꼬마 시절이었네 키키\n1 : 우리 엄마는 패키지로 세계를 누비고 다녀 키키\n2 : 부모 세대는 그런 게  편할 것 같아 키키\n2 : 우리는 우리가 부모 세대 돼도 자유 여행 다닐 것 같지 않아?\n1 : 그니까 우리 늙으면 하던 습관 있어서 자유 여행할 듯 키키\n1 : 틀에 묶인 게 은근 답답하게 느껴질 수도\n2 : 글고 스마트폰이 있으니까 숙소도 쉽게  잡을 수 있고 지도도 간편하게 볼 수 있으니까\n1 : 맞아 해외 여행할 땐 구글맵 국내 여행 갈 땐 카카오맵만 있음 어디든 갈 수 있어\n2 : 하루빨리 코로나 종식돼서 여행 가고파\n1 : 그니까 코로나가 문제야 뭔가 열심히 하고 해외 여행 가야지!라는 포부를 다잡을 수도 없어... ㅠㅠ\n2 : 아직 먼 이야기 같긴 한데 그래도 일단 돈을 모아 보자 키키\n1 : 키키 좋아 코로나 때 결혼한 사람들이 젤 아깝긴 하다 신혼여행하믄 \n 해외 여행인딩\n2 : 여행보다 그 예식장 그 계약 조건이 개빡치든데",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 여행 패키지로 가 본 적 있닁?",
+            "norm_text": "너 여행 패키지로 가 본 적 있닁?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+여행/NNG+패키지/NNG+로/JKB+가본/NNG+적/XSN+있닁/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 예전에 어렸을 때 말고 성인 돼서는 안 가 봤엉",
+            "norm_text": "예전에 어렸을 때 말고 성인 돼서는 안 가 봤엉",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예전/NNG+에/JKB+어렸/VA+EP+을/ETM+때/NNG+말/VV+고/EC+성인/NNG+돼서/XSV+EC+는/JX+안/MAG+가/VV+EC+봤/VX+EP+엉/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우와 난 한 번도 패키지는 안 가 봐서 뭔가 궁금했는데 근데 중국이나 이집트 여행은 무조건 패키지로 가야 좋을 것 같애",
+            "norm_text": "우와 난 한 번도 패키지는 안 가 봐서 뭔가 궁금했는데 근데 중국이나 이집트 여행은 무조건 패키지로 가야 좋을 것 같애",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+난/NP+JX+한/MM+번/NNBC+도/JX+패키지/NNG+는/JX+안/MAG+가/VV+봐서/EC+VX+EC+뭔가/NP+VCP+EC+궁금/XR+했/XSA+EP+는데/EC+근데/MAJ+중국/NNP+이나/JC+이집트/NNP+여행/NNG+은/JX+무조건/MAG+패키지/NNG+로/JKB+가/VV+야/EC+좋/VA+을/ETM+것/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어렸을 때 일본 여행 그렇게 갔었어 가이드님이랑",
+            "norm_text": "어렸을 때 일본 여행 그렇게 갔었어 가이드님이랑",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어렸/VA+EP+을/ETM+때/NNG+일본/NNP+여행/NNG+그렇게/MAG+갔었/VV+EP+어/EC+가이드/NNG+님/XSN+이랑/JKB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭔가 몸은 엄청 편하겠다 음식점이랑 다 지정되어 있긴 하지만",
+            "norm_text": "뭔가 몸은 엄청 편하겠다 음식점이랑 다 지정되어 있긴 하지만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+몸/NNG+은/JX+엄청/MAG+편하/VA+겠/EP+다/EC+음식점/NNG+이랑/JKB+다/MAG+지정/NNG+되/XSV+어/EC+있/VX+긴/ETN+JX+하/VX+지만/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 지금이야 자유 여행 가지 키키 그때가 초5 때",
+            "norm_text": "지금이야 자유 여행 가지 키키 그때가 초5 때",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+이/MM+야자유/NNG+여행/NNG+가지키/NNP+키/NNG+그때/NNG+가/JKS+초/XPN+5/SN+때/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 완전 꼬꼬마 시절이었네 키키",
+            "norm_text": "완전 꼬꼬마 시절이었네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/NNG+꼬꼬마/NNG+시절/NNG+이/VCP+었/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우리 엄마는 패키지로 세계를 누비고 다녀 키키",
+            "norm_text": "우리 엄마는 패키지로 세계를 누비고 다녀 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+엄마/NNG+는/JX+패키지/NNG+로/JKB+세계/NNG+를/JKO+누비/VV+고/EC+다녀/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 부모 세대는 그런 게  편할 것 같아 키키",
+            "norm_text": "부모 세대는 그런 게  편할 것 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부모/NNG+세대/NNG+는/JX+그런/MM+게/NNB+JKS+편할/VA+ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 우리는 우리가 부모 세대 돼도 자유 여행 다닐 것 같지 않아?",
+            "norm_text": "우리는 우리가 부모 세대 돼도 자유 여행 다닐 것 같지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+는/JX+우리/NP+가/JKS+부모/NNG+세대/NNG+돼도/XSV+EC+자유/NNG+여행/NNG+다닐/VV+ETM+것/NNB+같/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그니까 우리 늙으면 하던 습관 있어서 자유 여행할 듯 키키",
+            "norm_text": "그니까 우리 늙으면 하던 습관 있어서 자유 여행할 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+우리/NP+늙/VV+으면/EC+하/VX+던/ETM+습관/NNG+있/VV+어서/EC+자유/NNG+여행/NNG+할/XSV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 틀에 묶인 게 은근 답답하게 느껴질 수도",
+            "norm_text": "틀에 묶인 게 은근 답답하게 느껴질 수도",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "틀/NNG+에/JKB+묶인/VV+ETM+게/NNB+JKS+은근/NNG+답답/XR+하/XSA+게/EC+느껴질/VV+EC+VX+ETM+수/NNB+도/JX"
+          },
+          {
+            "id": 13,
+            "text": "2 : 글고 스마트폰이 있으니까 숙소도 쉽게  잡을 수 있고 지도도 간편하게 볼 수 있으니까",
+            "norm_text": "글고 스마트폰이 있으니까 숙소도 쉽게  잡을 수 있고 지도도 간편하게 볼 수 있으니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글고/MAJ+스마트폰/NNP+이/JKS+있/VV+으니까/EC+숙소/NNG+도/JX+쉽/VA+게/EC+잡/VV+을/ETM+수/NNB+있/VV+고/EC+지도/NNG+도/JX+간편/XR+하/XSA+게/EC+볼/VX+ETM+수/NNB+있/VV+으니까/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 맞아 해외 여행할 땐 구글맵 국내 여행 갈 땐 카카오맵만 있음 어디든 갈 수 있어",
+            "norm_text": "맞아 해외 여행할 땐 구글맵 국내 여행 갈 땐 카카오맵만 있음 어디든 갈 수 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+해외여행/NNG+할땐/XSV+ETM+NNG+JX+구글/NNG+맵/NNG+국내/NNG+여행/NNG+갈/VV+ETM+땐/NNG+JX+카카오/NNG+맵/NNG+만/JX+있/VX+음/ETN+어디/NP+든/VCP+EC+갈/VX+ETM+수/NNB+있/VV+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 하루빨리 코로나 종식돼서 여행 가고파",
+            "norm_text": "하루빨리 코로나 종식돼서 여행 가고파",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하루빨리/MAG+코로나/NNG+종식/NNG+돼서/XSV+EC+여행/NNG+가/VV+고파/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그니까 코로나가 문제야 뭔가 열심히 하고 해외 여행 가야지!라는 포부를 다잡을 수도 없어... ㅠㅠ",
+            "norm_text": "그니까 코로나가 문제야 뭔가 열심히 하고 해외 여행 가야지!라는 포부를 다잡을 수도 없어... ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+코로나/NNG+가/JKS+문제/NNG+야/VCP+EF+뭔가/NP+VCP+EC+열심히/MAG+하/VV+고/EC+해외여행/NNG+가/VV+야지/EF+라는/ETM+포부/NNG+를/JKO+다/MAG+잡/VV+을/ETM+수/NNB+도/JX+없/VA+어/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아직 먼 이야기 같긴 한데 그래도 일단 돈을 모아 보자 키키",
+            "norm_text": "아직 먼 이야기 같긴 한데 그래도 일단 돈을 모아 보자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+먼/VA+ETM+이야기/NNG+같/VA+긴/ETN+JX+한데/VX+EC+그래도/VV+EC+일단/MAG+돈/NNG+을/JKO+모아/VV+EC+보/VX+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 좋아 코로나 때 결혼한 사람들이 젤 아깝긴 하다 신혼여행하믄 \n 해외 여행인딩",
+            "norm_text": "키키 좋아 코로나 때 결혼한 사람들이 젤 아깝긴 하다 신혼여행하믄 \n 해외 여행인딩",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+아/EC+코로나/NNG+때/NNG+결혼/NNG+한/XSA+ETM+사람/NNG+들/XSN+이/JKS+젤/MAG+아깝/VV+긴/ETN+JX+하/VX+다/EC+신혼/NNG+여행/NNG+하/XSV+믄/EC+해외여행/NNG+인/VCP+ETM+딩/NNG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 여행보다 그 예식장 그 계약 조건이 개빡치든데",
+            "norm_text": "여행보다 그 예식장 그 계약 조건이 개빡치든데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행/NNG+보다/JKB+그/MM+예식장/NNG+그/MM+계약/NNG+조건/NNG+이/NR+개/NNBC+빡/MAG+치/VV+든데/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

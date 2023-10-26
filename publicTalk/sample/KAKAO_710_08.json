@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 43856,
+    "name": "KAKAO_710_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256067498/KAKAO_710_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256067498/KAKAO_710_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35607,
+      "filename": "KAKAO_710_08.txt",
+      "title": "KAKAO_710_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 528,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 528,
+        "word_size": 177,
+        "text": "1 : 니 지금 썸 타고 있는 남자 있나 키키\n2 : 키키 썸은 타지만 그 이상은 어렵네...\n1 : 앗... 진짜? ㅜㅜ 왜 진전이 안되노 ㅜㅜ\n2 : 그냥 나이가 있으니 그렇지 않으려나? ㅜㅜ\n1 : 그런가 ㅜㅜ 남친 사귀기가 더 조심스러워지나?\n2 : 응응 그렇지... 나이가 있다 보니 좀 힘들지... 슬프네...\n1 : ㅜㅜ 그래도 뭔가 너는 빨리 결혼 하고 싶은 거 같은데\n2 : 응 빨리 안정을 찾고 싶은데 쉽지 않네 ㅜㅜ\n1 : ㅜㅜ 그럼 그냥 결혼을 하지 않는 건 어때?\n2 : 그런 것도 나쁘지 않은 듯 키키\n2 : 결혼 생각이 점점 없어지네...\n1 : 응 내 생각도 좀 그래 ㅜㅜ\n1 : 결혼이 반드시 필요할까... 키키\n2 : 내 생각에도 별로 안 해도 될 듯 키키\n2 : 먹고 살만하면 안 해도 될 듯 키키\n1 : 키키 우리 그냥 결혼하지 말고\n1 : 키키 행복하게 살아보자\n2 : 응응 키키 그러자 키키 혼자 살아도 행복할 듯 키키\n1 : 키키 서로 좀 외로울 땐... 같이 여행을 가자 키키\n2 : 키키 좋은 생각이다 키키\n2 : 어느 여행지 좋아해?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 지금 썸 타고 있는 남자 있나 키키",
+            "norm_text": "니 지금 썸 타고 있는 남자 있나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+지금/MAG+썸/NNG+타/VV+고/EC+있/VX+는/ETM+남자/NNG+있/VV+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 썸은 타지만 그 이상은 어렵네...",
+            "norm_text": "키키 썸은 타지만 그 이상은 어렵네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+썸/NNG+은/JX+타/VV+지만/EC+그/MM+이상/NNG+은/JX+어렵/VA+네/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 앗... 진짜? ㅜㅜ 왜 진전이 안되노 ㅜㅜ",
+            "norm_text": "앗... 진짜? ㅜㅜ 왜 진전이 안되노 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "앗/IC+./SY+진짜/MAG+ㅜㅜ/UNKNOWN+왜/MAG+진전/NNG+이/JKS+안/MAG+되/VV+노/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그냥 나이가 있으니 그렇지 않으려나? ㅜㅜ",
+            "norm_text": "그냥 나이가 있으니 그렇지 않으려나? ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+나이/NNG+가/JKS+있/VA+으니/EC+그렇/VA+지/EC+않/VX+으려나/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런가 ㅜㅜ 남친 사귀기가 더 조심스러워지나?",
+            "norm_text": "그런가 ㅜㅜ 남친 사귀기가 더 조심스러워지나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런가/VA+EC+ㅜㅜ/UNKNOWN+남친/NNG+사귀/VV+기/ETN+가/JKS+더/MAG+조심/NNG+스러워/XSA+EC+지/VX+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응 그렇지... 나이가 있다 보니 좀 힘들지... 슬프네...",
+            "norm_text": "응응 그렇지... 나이가 있다 보니 좀 힘들지... 슬프네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그렇/VA+지/EF+./SY+나이/NNG+가/JKS+있/VA+다/EC+보/VX+니/EC+좀/MAG+힘들/VA+지/EF+./SY+슬프/VA+네/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : ㅜㅜ 그래도 뭔가 너는 빨리 결혼 하고 싶은 거 같은데",
+            "norm_text": "ㅜㅜ 그래도 뭔가 너는 빨리 결혼 하고 싶은 거 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그래도/VV+EC+뭔가/NP+VCP+EC+너/NP+는/JX+빨리/MAG+결혼/NNG+하/XSV+고/EC+싶/VX+은/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 빨리 안정을 찾고 싶은데 쉽지 않네 ㅜㅜ",
+            "norm_text": "응 빨리 안정을 찾고 싶은데 쉽지 않네 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+빨리/MAG+안정/NNG+을/JKO+찾/VV+고/EC+싶/VX+은데/EC+쉽/VA+지/EC+않/VX+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : ㅜㅜ 그럼 그냥 결혼을 하지 않는 건 어때?",
+            "norm_text": "ㅜㅜ 그럼 그냥 결혼을 하지 않는 건 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그럼/MAJ+그냥/MAG+결혼/NNG+을/JKO+하/VV+지/EC+않/VX+는/ETM+건/NNB+JX+어때/VA+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그런 것도 나쁘지 않은 듯 키키",
+            "norm_text": "그런 것도 나쁘지 않은 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+것/NNB+도/JX+나쁘/VA+지/EC+않/VX+은/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 결혼 생각이 점점 없어지네...",
+            "norm_text": "결혼 생각이 점점 없어지네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "결혼/NNG+생각/NNG+이/JKS+점점/MAG+없/VA+어/EC+지/VX+네/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응 내 생각도 좀 그래 ㅜㅜ",
+            "norm_text": "응 내 생각도 좀 그래 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+내/NP+JKG+생각/NNG+도/JX+좀/MAG+그래/VA+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 결혼이 반드시 필요할까... 키키",
+            "norm_text": "결혼이 반드시 필요할까... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "결혼/NNG+이/JKS+반드시/MAG+필요/NNG+할까/XSV+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 내 생각에도 별로 안 해도 될 듯 키키",
+            "norm_text": "내 생각에도 별로 안 해도 될 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+생각/NNG+에/JKB+도/JX+별로/MAG+안/MAG+해도/VV+EC+될/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 먹고 살만하면 안 해도 될 듯 키키",
+            "norm_text": "먹고 살만하면 안 해도 될 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "먹/VV+고/EC+살/VV+만하면/ETM+NNB+XSA+EC+안/MAG+해도/VV+EC+될/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 우리 그냥 결혼하지 말고",
+            "norm_text": "키키 우리 그냥 결혼하지 말고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우리/NP+그냥/MAG+결혼/NNG+하/XSV+지/EC+말/VX+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 행복하게 살아보자",
+            "norm_text": "키키 행복하게 살아보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/NNG+행복/NNG+하/XSV+게/EC+살/VV+아/EC+보/VX+자/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응응 키키 그러자 키키 혼자 살아도 행복할 듯 키키",
+            "norm_text": "응응 키키 그러자 키키 혼자 살아도 행복할 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+그러/VV+자/EC+키/NNG+키/NNG+혼자/MAG+살/VV+아도/EC+행복/NNG+할/XSV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 서로 좀 외로울 땐... 같이 여행을 가자 키키",
+            "norm_text": "키키 서로 좀 외로울 땐... 같이 여행을 가자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/NNG+서로/MAG+좀/MAG+외로울/VA+ETM+땐/NNG+JX+./SY+같이/MAG+여행/NNG+을/JKO+가/VV+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 좋은 생각이다 키키",
+            "norm_text": "키키 좋은 생각이다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+은/ETM+생각/NNG+이/JKS+다키키/NNP"
+          },
+          {
+            "id": 21,
+            "text": "2 : 어느 여행지 좋아해?",
+            "norm_text": "어느 여행지 좋아해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어느/MM+여행지/NNG+좋/VA+아/EC+해/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 21292,
+    "name": "KAKAO_485_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146073814/KAKAO_485_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146073814/KAKAO_485_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28422,
+      "filename": "KAKAO_485_12.txt",
+      "title": "KAKAO_485_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 653,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 653,
+        "word_size": 198,
+        "text": "1 : 너 양평에 있는 두물머리 가 본 적 있어?\n2 : 응 당연하지~ 명소이기도 하고 드라마 촬영지잖아 하하\n1 : 아 드라마 촬영지야? 그건 처음 듣네...\n2 : 그녀는 예뻤다 몰라? 황정음 나오던 드라마였는데 ~\n1 : 알아! 그 드라마가 두물머리에서 촬영 했었구나~\n1 : 나는 아직 안 가봐서...\n2 : 응응 마지막쯤이였나 ~ 박서준이랑 같이 등장하는 장면이 있어서 더 유명했지! 두물머리 하하\n1 : 아 그렇구나~! 나도 거기 가서 사진 찍고 싶었는데\n2 : 거기 사진 찍으려면 줄이 어마어마해... 키키\n2 : 넌 안 가봤어?\n1 : 응 나는 아직 안 가봤어 키키\n1 : 아 줄이 어마어마해? 그럼 너는 거기서 사진 안 찍었어?\n2 : 응 하하 평일에 갔는데도 사람이 많더라구~\n2 : 거기 핫도그가 유명해! 사진 대신 핫도그만 3개 먹고 왔어 키키\n1 : 아 진짜? 핫도그도 유명했구나~ 맛있었어?\n2 : 응 하나만 먹어도 배부른데 억지로 3개까지 먹었어~\n2 : 너무 맛있어서 키키\n1 : 키키 뭐 그냥 일반 핫도그랑 달라?\n2 : 음... 생긴 건 똑같이 생겼어!\n2 : 뭐가 다른진 모르겠는데 굉장히 맛있었어 키키\n1 : 나도 두물머리 꼭 가서 사진도 찍고 핫도그도 5개 먹고 와야겠다~\n2 : 응! 줄이 길어서 난 못 찍었지만... 꼭 가서 핫도그도 먹고 사진도 이쁘게 찍고 와~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 양평에 있는 두물머리 가 본 적 있어?",
+            "norm_text": "너 양평에 있는 두물머리 가 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+양평/NNG+에/JKB+있/VV+는/ETM+두물/NNG+머리/NNG+가/JKS+본/VV+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 당연하지~ 명소이기도 하고 드라마 촬영지잖아 하하",
+            "norm_text": "응 당연하지~ 명소이기도 하고 드라마 촬영지잖아 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+당연/XR+하/XSA+지/EC+~/SY+명소/NNG+이/VCP+기/ETN+도/JX+하/VV+고/EC+드라마/NNG+촬영/NNG+지/VV+잖아/EC+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 드라마 촬영지야? 그건 처음 듣네...",
+            "norm_text": "아 드라마 촬영지야? 그건 처음 듣네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+드라마/NNG+촬영/NNG+지/VV+야/EF+그건/NP+JX+처음/MAG+듣/VV+네/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그녀는 예뻤다 몰라? 황정음 나오던 드라마였는데 ~",
+            "norm_text": "그녀는 예뻤다 몰라? 황정음 나오던 드라마였는데 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그녀/NP+는/JX+예뻤/VA+EP+다/EC+몰라/VV+EF+황정음/NNP+나오/VV+던/ETM+드라마/NNG+였/VCP+EP+는데/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 알아! 그 드라마가 두물머리에서 촬영 했었구나~",
+            "norm_text": "알아! 그 드라마가 두물머리에서 촬영 했었구나~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+아/EF+그/MM+드라마/NNG+가/JKS+두/MM+물머리/NNG+에서/JKB+촬영/NNG+했었/XSV+EP+구나/EF+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나는 아직 안 가봐서...",
+            "norm_text": "나는 아직 안 가봐서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+아직/MAG+안/MAG+가/VV+EC+봐서/VX+EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응응 마지막쯤이였나 ~ 박서준이랑 같이 등장하는 장면이 있어서 더 유명했지! 두물머리 하하",
+            "norm_text": "응응 마지막쯤이였나 ~ 박서준이랑 같이 등장하는 장면이 있어서 더 유명했지! 두물머리 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+마지막/NNG+쯤/XSN+이/VCP+였/EP+나/EC+~/SY+박서준/NNP+이/XSN+랑/JKB+같이/MAG+등장/NNG+하/XSV+는/ETM+장면/NNG+이/JKS+있/VV+어서/EC+더/MAG+유명/NNG+했/XSV+EP+지/EF+두/MM+물머리/NNG+하/XSV+하/XSA"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 그렇구나~! 나도 거기 가서 사진 찍고 싶었는데",
+            "norm_text": "아 그렇구나~! 나도 거기 가서 사진 찍고 싶었는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇/VA+구나/EF+~/SY+나/NP+도/JX+거기/NP+가/JKS+서/VV+EC+사진/NNG+찍/VV+고/EC+싶/VX+었/EP+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 거기 사진 찍으려면 줄이 어마어마해... 키키",
+            "norm_text": "거기 사진 찍으려면 줄이 어마어마해... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+사진/NNG+찍/VV+으려면/EC+줄/NNG+이/JKS+어마어마/XR+해/XSA+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 넌 안 가봤어?",
+            "norm_text": "넌 안 가봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+안/MAG+가/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 나는 아직 안 가봤어 키키",
+            "norm_text": "응 나는 아직 안 가봤어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+아직/MAG+안/MAG+가/VV+EC+봤/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 줄이 어마어마해? 그럼 너는 거기서 사진 안 찍었어?",
+            "norm_text": "아 줄이 어마어마해? 그럼 너는 거기서 사진 안 찍었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+줄/NNG+이/JKS+어마어마/XR+해/XSA+EF+그럼/MAJ+너/NP+는/JX+거기/NP+서/JKB+사진/NNG+안/MAG+찍/VV+었/EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 하하 평일에 갔는데도 사람이 많더라구~",
+            "norm_text": "응 하하 평일에 갔는데도 사람이 많더라구~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+하하/MAG+평일/NNG+에/JKB+갔/VV+EP+는데/EC+도/JX+사람/NNG+이/JKS+많/VA+더라구/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 거기 핫도그가 유명해! 사진 대신 핫도그만 3개 먹고 왔어 키키",
+            "norm_text": "거기 핫도그가 유명해! 사진 대신 핫도그만 3개 먹고 왔어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+핫도그/NNG+가/JKS+유명/NNG+해/XSV+EF+사진/NNG+대신/NNG+핫도그/NNG+만/JX+3/SN+개/NNBC+먹/VV+고/EC+왔/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 진짜? 핫도그도 유명했구나~ 맛있었어?",
+            "norm_text": "아 진짜? 핫도그도 유명했구나~ 맛있었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+핫도그/NNG+도/JX+유명/NNG+했/XSV+EP+구나/EF+~/SY+맛있/VA+었/EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 하나만 먹어도 배부른데 억지로 3개까지 먹었어~",
+            "norm_text": "응 하나만 먹어도 배부른데 억지로 3개까지 먹었어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+하나/NR+만/JX+먹/VV+어도/EC+배부른데/VA+EC+억지로/MAG+3/SN+개/NNBC+까지/JX+먹/VV+었/EP+어/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 너무 맛있어서 키키",
+            "norm_text": "너무 맛있어서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+맛있/VA+어서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 뭐 그냥 일반 핫도그랑 달라?",
+            "norm_text": "키키 뭐 그냥 일반 핫도그랑 달라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/IC+그냥/MAG+일반/NNG+핫도그/NNG+랑/JKB+달라/VA+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 음... 생긴 건 똑같이 생겼어!",
+            "norm_text": "음... 생긴 건 똑같이 생겼어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+생긴/VV+ETM+건/NNB+JX+똑같이/MAG+생겼/VV+EP+어/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 뭐가 다른진 모르겠는데 굉장히 맛있었어 키키",
+            "norm_text": "뭐가 다른진 모르겠는데 굉장히 맛있었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+가/JKS+다른/VA+ETM+진/NNB+JX+모르/VV+겠/EP+는데/EC+굉장히/MAG+맛있/VA+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 나도 두물머리 꼭 가서 사진도 찍고 핫도그도 5개 먹고 와야겠다~",
+            "norm_text": "나도 두물머리 꼭 가서 사진도 찍고 핫도그도 5개 먹고 와야겠다~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+도/JX+두/MM+물머리/NNG+꼭/MAG+가/VV+서/EC+사진/NNG+도/JX+찍/VV+고/EC+핫도그/NNG+도/JX+5/SN+개/NNBC+먹/VV+고/EC+와야/VX+EC+VX+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 응! 줄이 길어서 난 못 찍었지만... 꼭 가서 핫도그도 먹고 사진도 이쁘게 찍고 와~",
+            "norm_text": "응! 줄이 길어서 난 못 찍었지만... 꼭 가서 핫도그도 먹고 사진도 이쁘게 찍고 와~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+줄/NNG+이/JKS+길/VA+어서/EC+난/NP+JX+못/MAG+찍/VV+었/EP+지만/EC+./SY+./SY+꼭/MAG+가/VV+서/EC+핫도그/NNG+도/JX+먹/VV+고/EC+사진/NNG+도/JX+이쁘/VA+게/EC+찍/VV+고/EC+와/VV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

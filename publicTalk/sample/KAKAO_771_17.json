@@ -1,0 +1,491 @@
+{
+  "dataset": {
+    "identifier": 33000,
+    "name": "KAKAO_771_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150328081154/KAKAO_771_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150328081154/KAKAO_771_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38248,
+      "filename": "KAKAO_771_17.txt",
+      "title": "KAKAO_771_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 1123,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 1123,
+        "word_size": 369,
+        "text": "1 : 너는 하루에 이 몇 번 닦아?\n2 : 나 3번 이상\n2 : 사실 비밀인데 나 씻는 건 귀찮아해도 양치하는 건 좋아해 키키\n2 : 근데 너무 자주 닦으면 그것도 또 안 좋다길래 자제하는 중\n1 : 오 대박 부끄러워진다 난 두 번... 밥 두 끼 먹으니까 키키\n1 : 근데 하도 뭘 잘 주워 먹어서 닦을 시간이 없어서 그런 듯\n1 : 지금도 꼬깔콘 새우마요맛 궁금해서 먹다가 맛없음 버리려 했는데 밑바닥 보여...\n2 : 근데 나도 그런 적 있어 자기 전에 꼭 양치를 하라고 하니까 잠을 잘 안 자게 되는... 키키\n2 : 오 그거 맛있나 보네?\n1 : 키키 그냥 겨자맛이 나고 달달한 꼬깔콘맛이야\n1 : 근데 나도 이 좀 자주 닦아야겠어 ㅜㅜ\n1 : 그 뭐냐 이번에 건강공단에서 문자 왔던데 치과 무료로 검사 받으라고\n1 : 근데 무서워서 못 가겠어 ㅜㅜ\n2 : 어휴 안 돼 치과는 진짜 빨리 갈 수록 이득이야\n2 : 이가 아프기 시작하면 이미 늦은 거라 그랬어\n2 : 근데 왜 난 그런 문자도 안 와? 건보 자식들 국민 차별하냐\n1 : 키키 혹시 그 년도 때문 아닌가?\n1 : 그것도 주민번호 끝자리로 하는 거 아닌가?\n2 : 아 그런가? 아휴 서운할 뻔했네 키키\n2 : 근데 난 건보에서 그런 거 안 보내도 매년 동생이랑 손 잡고 치과 가서 정기검진 받았어 우리 집 룰이야 키키\n1 : 우와  너희 집 룰 너무 이상적이고 좋다\n1 : 또 다른 건강룰 없어?\n2 : 치과 정기검진 받는 날이 안과도 가는 날이야 키키\n2 : 동생이랑 나랑 둘 다 시력교정술 받아서 눈에 아주 예민하거든\n1 : 오와 그래도 동생이랑 같이 가니까 심심하지 않겠다\n1 : 난 안과 태어나서 처음 가봤어\n1 : 대학 때 넘 피로하게 살아서 키키\n1 : 근데 사람 엄청 많더라\n2 : 맞아 특히 광천 쪽에 있는 안과들은 진짜 언제 가도 사람 많더라\n2 : 너는 어렸을 때 시력이 좋아서 안과 안 가도 괜찮았구나 ㅠ\n2 : 난 중학교 때부터 안과를 내 집처럼 드나들었어 키키\n1 : 오 광천이였어!\n1 : 근데 안과 자주 가는 거 좋은 습관이야\n1 : 녹내장은 어려도 오더라고 그거 빨리 알아야 되는 거잖아\n2 : 마자마자 눈이랑 치아를 되돌릴 수 없으니까 꾸준히 검사해주고 관리해주는 게 답\n1 : 강아지들 치아도 지금 걱정된다\n1 : 입냄새가 심해\n2 : 강아지들도 매일매일 양치 꼭 필수!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 하루에 이 몇 번 닦아?",
+            "norm_text": "너는 하루에 이 몇 번 닦아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+하루/NNG+에/JKB+이/MM+몇/MM+번/NNBC+닦/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 3번 이상",
+            "norm_text": "나 3번 이상",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+3/SN+번/NNBC+이상/NNG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 사실 비밀인데 나 씻는 건 귀찮아해도 양치하는 건 좋아해 키키",
+            "norm_text": "사실 비밀인데 나 씻는 건 귀찮아해도 양치하는 건 좋아해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+비밀/NNG+인데/VCP+EC+나/JX+씻/VV+는/ETM+건/NNB+JX+귀찮/VA+아/EC+해도/VV+EC+양치/NNG+하/XSV+는/ETM+건/NNB+JX+좋/VA+아/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 너무 자주 닦으면 그것도 또 안 좋다길래 자제하는 중",
+            "norm_text": "근데 너무 자주 닦으면 그것도 또 안 좋다길래 자제하는 중",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+너무/MAG+자주/MAG+닦/VV+으면/EC+그것/NP+도/JX+또/MAG+안/MAG+좋/VA+다길래/EC+자제/NNG+하/XSV+는/ETM+중/NNB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 대박 부끄러워진다 난 두 번... 밥 두 끼 먹으니까 키키",
+            "norm_text": "오 대박 부끄러워진다 난 두 번... 밥 두 끼 먹으니까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+대박/NNG+부끄러워진다/VA+EC+VX+EF+난/NP+JX+두/MM+번/NNBC+./SY+밥/NNG+두/JX+끼/MAG+먹/VV+으니까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 근데 하도 뭘 잘 주워 먹어서 닦을 시간이 없어서 그런 듯",
+            "norm_text": "근데 하도 뭘 잘 주워 먹어서 닦을 시간이 없어서 그런 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+하도/MAG+뭘/NP+JKO+잘/MAG+주워먹/VV+어서/EC+닦/NNG+을/JKO+시간/NNG+이/JKS+없/VA+어서/EC+그런/MM+듯/NNB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 지금도 꼬깔콘 새우마요맛 궁금해서 먹다가 맛없음 버리려 했는데 밑바닥 보여...",
+            "norm_text": "지금도 꼬깔콘 새우마요맛 궁금해서 먹다가 맛없음 버리려 했는데 밑바닥 보여...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/NNG+도/JX+꼬깔콘/NNP+새/MM+우마/NNG+요/VCP+EC+맛/NNG+궁금/XR+해서/XSA+EC+먹/VV+다가/EC+맛없/VA+음/EC+버리/VX+려/EC+했/VX+EP+는데/EC+밑바닥/NNG+보여/VV+EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 나도 그런 적 있어 자기 전에 꼭 양치를 하라고 하니까 잠을 잘 안 자게 되는... 키키",
+            "norm_text": "근데 나도 그런 적 있어 자기 전에 꼭 양치를 하라고 하니까 잠을 잘 안 자게 되는... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나/NP+도/JX+그런/VA+ETM+적/NNB+있/VA+어/EC+자기/NP+전/NNG+에/JKB+꼭/MAG+양치/NNG+를/JKO+하/VV+라고/EC+하/VV+니까/EC+잠/NNG+을/JKO+잘/MAG+안/MAG+자/VV+게/EC+되/VV+는/ETM+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 오 그거 맛있나 보네?",
+            "norm_text": "오 그거 맛있나 보네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+그거/NP+맛있/VA+나/EC+보/VX+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 그냥 겨자맛이 나고 달달한 꼬깔콘맛이야",
+            "norm_text": "키키 그냥 겨자맛이 나고 달달한 꼬깔콘맛이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+그냥/MAG+겨자/NNG+맛/NNG+이/JKS+나/VV+고/EC+달달/MAG+한/XSA+ETM+꼬깔콘/NNP+맛/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 나도 이 좀 자주 닦아야겠어 ㅜㅜ",
+            "norm_text": "근데 나도 이 좀 자주 닦아야겠어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나/NP+도/JX+이/MM+좀/MAG+자주/MAG+닦/VV+아야/EC+겠어/VX+EP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그 뭐냐 이번에 건강공단에서 문자 왔던데 치과 무료로 검사 받으라고",
+            "norm_text": "그 뭐냐 이번에 건강공단에서 문자 왔던데 치과 무료로 검사 받으라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/IC+뭐/NP+냐/VCP+EC+이번/NNG+에/JKB+건강/NNG+공단/NNG+에서/JKB+문자/NNG+왔/VV+EP+던/ETM+데/NNB+치과/NNG+무료/NNG+로/JKB+검사/NNG+받/VV+으라고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 무서워서 못 가겠어 ㅜㅜ",
+            "norm_text": "근데 무서워서 못 가겠어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+무서워서/VA+EC+못/MAG+가/VV+겠/EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 어휴 안 돼 치과는 진짜 빨리 갈 수록 이득이야",
+            "norm_text": "어휴 안 돼 치과는 진짜 빨리 갈 수록 이득이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "어휴/IC+안/MAG+돼/VV+EC+치과/NNG+는/JX+진짜/MAG+빨리/MAG+갈수록/MAG+이득/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 이가 아프기 시작하면 이미 늦은 거라 그랬어",
+            "norm_text": "이가 아프기 시작하면 이미 늦은 거라 그랬어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/NP+가/JKS+아프/VA+기/ETN+시작/NNG+하/XSV+면/EC+이미/MAG+늦/VA+은/ETM+거/NNB+라/VCP+EC+그랬/VV+EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 왜 난 그런 문자도 안 와? 건보 자식들 국민 차별하냐",
+            "norm_text": "근데 왜 난 그런 문자도 안 와? 건보 자식들 국민 차별하냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+왜/MAG+난/NP+JX+그런/MM+문자/NNG+도/JX+안/MAG+와/VV+EF+건보/NNG+자식/NNG+들/XSN+국민/NNG+차별/NNG+하/XSV+냐/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 혹시 그 년도 때문 아닌가?",
+            "norm_text": "키키 혹시 그 년도 때문 아닌가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+혹시/MAG+그년/NP+도/JX+때문/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그것도 주민번호 끝자리로 하는 거 아닌가?",
+            "norm_text": "그것도 주민번호 끝자리로 하는 거 아닌가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그것/NP+도/JX+주민/NNG+번호/NNG+끝/NNG+자리/NNG+로/JKB+하/VV+는/ETM+거/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아 그런가? 아휴 서운할 뻔했네 키키",
+            "norm_text": "아 그런가? 아휴 서운할 뻔했네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그런가/VA+EF+아휴/IC+서운/NNG+할/XSV+ETM+뻔/NNB+했/XSA+EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 근데 난 건보에서 그런 거 안 보내도 매년 동생이랑 손 잡고 치과 가서 정기검진 받았어 우리 집 룰이야 키키",
+            "norm_text": "근데 난 건보에서 그런 거 안 보내도 매년 동생이랑 손 잡고 치과 가서 정기검진 받았어 우리 집 룰이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+난/NP+JX+건보/NNG+에서/JKB+그런/MM+거/NNB+안/MAG+보내/VV+EC+도/JX+매년/MAG+동생/NNG+이랑/JKB+손잡/VV+고/EC+치과/NNG+가/JKS+서정기/NNP+검진/NNG+받/VV+았/EP+어/EF+우리/NP+집/NNG+룰/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 우와  너희 집 룰 너무 이상적이고 좋다",
+            "norm_text": "우와  너희 집 룰 너무 이상적이고 좋다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+너희/NP+집/NNG+룰/NNG+너무/MAG+이상/NNG+적/XSN+이/VCP+고/EC+좋/VA+다/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 또 다른 건강룰 없어?",
+            "norm_text": "또 다른 건강룰 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또/MAG+다른/MM+건강/NNG+룰/NNG+없/VA+어/EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 치과 정기검진 받는 날이 안과도 가는 날이야 키키",
+            "norm_text": "치과 정기검진 받는 날이 안과도 가는 날이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "치과/NNG+정기/NNG+검진/NNG+받/VV+는/ETM+날/NNG+이/JKS+안과/NNG+도/JX+가/VV+는/ETM+날/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 동생이랑 나랑 둘 다 시력교정술 받아서 눈에 아주 예민하거든",
+            "norm_text": "동생이랑 나랑 둘 다 시력교정술 받아서 눈에 아주 예민하거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+이랑/JC+나/NP+랑/JC+둘/NR+다시/MAG+력/NNG+교정술/NNG+받/VV+아서/EC+눈/NNG+에/JKB+아주/MAG+예민/XR+하/XSA+거든/EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 오와 그래도 동생이랑 같이 가니까 심심하지 않겠다",
+            "norm_text": "오와 그래도 동생이랑 같이 가니까 심심하지 않겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오와/IC+그래도/MAJ+동생/NNG+이랑/JKB+같이/MAG+가/VV+니까/EC+심심/XR+하/XSA+지/EC+않/VX+겠/EP+다/EC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 난 안과 태어나서 처음 가봤어",
+            "norm_text": "난 안과 태어나서 처음 가봤어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난안/NNG+과/JKB+태어나/VV+서/EC+처음/MAG+가/VV+EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 27,
+            "text": "1 : 대학 때 넘 피로하게 살아서 키키",
+            "norm_text": "대학 때 넘 피로하게 살아서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대학/NNG+때/NNG+넘/MAG+피로/NNG+하/XSV+게/EC+살/VV+아서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 근데 사람 엄청 많더라",
+            "norm_text": "근데 사람 엄청 많더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+사람/NNG+엄청/MAG+많/VA+더라/EC"
+          },
+          {
+            "id": 29,
+            "text": "2 : 맞아 특히 광천 쪽에 있는 안과들은 진짜 언제 가도 사람 많더라",
+            "norm_text": "맞아 특히 광천 쪽에 있는 안과들은 진짜 언제 가도 사람 많더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+특히/MAG+광천/NNG+쪽/NNB+에/JKB+있/VV+는/ETM+안과/NNG+들/XSN+은/JX+진짜/MAG+언제/NP+가/JKS+도/JX+사람/NNG+많/VA+더라/EC"
+          },
+          {
+            "id": 30,
+            "text": "2 : 너는 어렸을 때 시력이 좋아서 안과 안 가도 괜찮았구나 ㅠ",
+            "norm_text": "너는 어렸을 때 시력이 좋아서 안과 안 가도 괜찮았구나 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+는/JX+어렸/VA+EP+을/ETM+때/NNG+시력/NNG+이/JKS+좋/VA+아서/EC+안/NNG+과/JC+안가/NNG+도/JX+괜찮/VA+았/EP+구나/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 31,
+            "text": "2 : 난 중학교 때부터 안과를 내 집처럼 드나들었어 키키",
+            "norm_text": "난 중학교 때부터 안과를 내 집처럼 드나들었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+중학교/NNG+때/NNG+부터/JX+안과/NNG+를/JKO+내/NP+JKG+집/NNG+처럼/JKB+드나들/VV+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 32,
+            "text": "1 : 오 광천이였어!",
+            "norm_text": "오 광천이였어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "오/NR+광천/NNG+이/VCP+였/EP+어/EF"
+          },
+          {
+            "id": 33,
+            "text": "1 : 근데 안과 자주 가는 거 좋은 습관이야",
+            "norm_text": "근데 안과 자주 가는 거 좋은 습관이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+안/NNG+과/JKB+자주/MAG+가/VV+는/ETM+거/NNB+좋/VA+은/ETM+습관/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 34,
+            "text": "1 : 녹내장은 어려도 오더라고 그거 빨리 알아야 되는 거잖아",
+            "norm_text": "녹내장은 어려도 오더라고 그거 빨리 알아야 되는 거잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "녹내장/NNG+은/JX+어려도/VA+EC+오/VX+더라고/EF+그거/NP+빨리/MAG+알/VV+아야/EC+되/VV+는/ETM+거/NNB+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 35,
+            "text": "2 : 마자마자 눈이랑 치아를 되돌릴 수 없으니까 꾸준히 검사해주고 관리해주는 게 답",
+            "norm_text": "마자마자 눈이랑 치아를 되돌릴 수 없으니까 꾸준히 검사해주고 관리해주는 게 답",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마자마/NNP+자눈/NNG+이랑/JKB+치아/NNG+를/JKO+되돌릴/VV+ETM+수/NNB+없/VA+으니까/EC+꾸준히/MAG+검사/NNG+해/XSV+EC+주/VX+고/EC+관리/NNG+해/XSV+EC+주/VX+는/ETM+게/NNB+JKS+답/NNG"
+          },
+          {
+            "id": 36,
+            "text": "1 : 강아지들 치아도 지금 걱정된다",
+            "norm_text": "강아지들 치아도 지금 걱정된다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+들/XSN+치/VV+아도/EC+지금/MAG+걱정/NNG+된다/XSV+EC"
+          },
+          {
+            "id": 37,
+            "text": "1 : 입냄새가 심해",
+            "norm_text": "입냄새가 심해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "입/NNG+냄새/NNG+가/JKS+심해/VA+EC"
+          },
+          {
+            "id": 38,
+            "text": "2 : 강아지들도 매일매일 양치 꼭 필수!",
+            "norm_text": "강아지들도 매일매일 양치 꼭 필수!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+들/XSN+도/JX+매일/MAG+매일/MAG+양치/NNG+꼭/MAG+필수/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

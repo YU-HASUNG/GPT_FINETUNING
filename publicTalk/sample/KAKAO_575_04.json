@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 29519,
+    "name": "KAKAO_575_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135511002147/KAKAO_575_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135511002147/KAKAO_575_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30437,
+      "filename": "KAKAO_575_04.txt",
+      "title": "KAKAO_575_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 529,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 529,
+        "word_size": 161,
+        "text": "1 : 지금 회사 점심시간이지? 밥 먹었어?\n2 : 언니 나 지금 집이야!！키키 나 재택 근무 하잖아!\n1 : 오! 진짜? 왜? 확진자 나왔어?\n2 : 응 우리 회사 사람은 아닌데~ 같은 건물 사람 나와서 ~\n1 : 아이구야~ 어떻하냐... 무서버~ 넌 괜찮은 거지?\n2 : 응 나는 음성이야 키키 그 사람하고 겹칠 동선이 없는데~ 그래도 모르니까~\n1 : 근데 재택 근무 하니까 좋겠다~ 편하지?\n2 : 그치 편하긴 한데 이게 근무시간이 흐려졌어! 그게 문제야\n1 : 왜? 막 늦은 시간에도 연락 와?\n2 : 엉! 아니 업무 시간이 끝났으면 끝이지 왜 연락을 하는 거야!\n1 : 아 진짜? 근무시간 아닌데도 연락을 해?\n2 : 응 완전 짜증 나~ 끝났는데도 자꾸 뭐해라 뭐해라 한다니까\n1 : 아이고 그런 단점이 있구만... 피곤하구만...\n2 : 어제 회의 시간에도 완전 웃겼어~\n2 : 회의 하는데 뒤로 강아지 보이고, 갑자기 고양이 나타나고 키키\n1 : 아 진짜? 완전 웃겼겠다 키키\n2 : 키키 그니까 근데 문 닫아 놓으면 낑낑대니까 회의 중에도 어쩔 수 없지 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 지금 회사 점심시간이지? 밥 먹었어?",
+            "norm_text": "지금 회사 점심시간이지? 밥 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+회사/NNG+점심/NNG+시간/NNG+이/VCP+지/EF+밥/NNG+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 언니 나 지금 집이야!！키키 나 재택 근무 하잖아!",
+            "norm_text": "언니 나 지금 집이야!！키키 나 재택 근무 하잖아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "언니/NNG+나/JC+지금/NNG+집/NNG+이/VCP+야/EF+！/SY+키/NNG+키나/XSA+ETN+JX+재택근무/NNG+하/XSV+잖아/EC+VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오! 진짜? 왜? 확진자 나왔어?",
+            "norm_text": "오! 진짜? 왜? 확진자 나왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+진짜/MAG+왜/MAG+확진/NNG+자/XSN+나왔/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 우리 회사 사람은 아닌데~ 같은 건물 사람 나와서 ~",
+            "norm_text": "응 우리 회사 사람은 아닌데~ 같은 건물 사람 나와서 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+우리/NP+회사/NNG+사람/NNG+은/JX+아닌데/VCN+EC+~/SY+같/VA+은/ETM+건물/NNG+사람/NNG+나와서/VV+EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아이구야~ 어떻하냐... 무서버~ 넌 괜찮은 거지?",
+            "norm_text": "아이구야~ 어떻하냐... 무서버~ 넌 괜찮은 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아이/IC+구야/NNG+~/SY+어떻하/VA+냐/EF+./SY+무서버/VA+EC+~/SY+넌/NP+JX+괜찮/VA+은/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 나는 음성이야 키키 그 사람하고 겹칠 동선이 없는데~ 그래도 모르니까~",
+            "norm_text": "응 나는 음성이야 키키 그 사람하고 겹칠 동선이 없는데~ 그래도 모르니까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+는/JX+음성/NNG+이/VCP+야/EF+키키/NNP+그/MM+사람/NNG+하/XSV+고/EC+겹칠/VV+ETM+동선/NNG+이/JKS+없/VA+는데/EC+~/SY+그래도/VV+EC+모르/VV+니까/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 재택 근무 하니까 좋겠다~ 편하지?",
+            "norm_text": "근데 재택 근무 하니까 좋겠다~ 편하지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+재택근무/NNG+하/XSV+니까/EC+좋/VA+겠/EP+다/EC+~/SY+편하/VA+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그치 편하긴 한데 이게 근무시간이 흐려졌어! 그게 문제야",
+            "norm_text": "그치 편하긴 한데 이게 근무시간이 흐려졌어! 그게 문제야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+편하/VA+긴/ETN+JX+한데/VX+EC+이게/NP+JKS+근무/NNG+시간/NNG+이/JKS+흐려졌/VA+EC+VX+EP+어/EF+그게/NP+JKS+문제/NNG+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 왜? 막 늦은 시간에도 연락 와?",
+            "norm_text": "왜? 막 늦은 시간에도 연락 와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+막/MAJ+늦/VA+은/ETM+시간/NNG+에/JKB+도/JX+연락/NNG+와/JC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 엉! 아니 업무 시간이 끝났으면 끝이지 왜 연락을 하는 거야!",
+            "norm_text": "엉! 아니 업무 시간이 끝났으면 끝이지 왜 연락을 하는 거야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+아니/IC+업무/NNG+시간/NNG+이/JKS+끝났으면/VV+EP+EC+끝/NNG+이/VCP+지/EF+왜/MAG+연락/NNG+을/JKO+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 진짜? 근무시간 아닌데도 연락을 해?",
+            "norm_text": "아 진짜? 근무시간 아닌데도 연락을 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+근무/NNG+시간/NNG+아닌데/VCN+EC+도/JX+연락/NNG+을/JKO+해/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 완전 짜증 나~ 끝났는데도 자꾸 뭐해라 뭐해라 한다니까",
+            "norm_text": "응 완전 짜증 나~ 끝났는데도 자꾸 뭐해라 뭐해라 한다니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+완전/MAG+짜증/NNG+나/JC+~/SY+끝/NNG+났/VV+EP+는데/EC+도/JX+자꾸/MAG+뭐/IC+해라/VV+EF+뭐/IC+해라/NNG+한다니까/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아이고 그런 단점이 있구만... 피곤하구만...",
+            "norm_text": "아이고 그런 단점이 있구만... 피곤하구만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이고/IC+그런/MM+단점/NNG+이/JKS+있/VA+구만/EF+./SY+피곤/NNG+하/XSA+구만/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 어제 회의 시간에도 완전 웃겼어~",
+            "norm_text": "어제 회의 시간에도 완전 웃겼어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+제회/NNG+의/JKG+시간/NNG+에/JKB+도/JX+완전/MAG+웃겼/VV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 회의 하는데 뒤로 강아지 보이고, 갑자기 고양이 나타나고 키키",
+            "norm_text": "회의 하는데 뒤로 강아지 보이고, 갑자기 고양이 나타나고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "회의/NNG+하/XSV+는/ETM+데/NNB+뒤/NNG+로/JKB+강아지/NNG+보이/VV+고/EC+,/SC+갑자기/MAG+고양이/NNG+나타나/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 진짜? 완전 웃겼겠다 키키",
+            "norm_text": "아 진짜? 완전 웃겼겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+완전/MAG+웃겼/VV+EP+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 그니까 근데 문 닫아 놓으면 낑낑대니까 회의 중에도 어쩔 수 없지 키키",
+            "norm_text": "키키 그니까 근데 문 닫아 놓으면 낑낑대니까 회의 중에도 어쩔 수 없지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+근데/MAJ+문/NNG+닫/VV+아/EC+놓/VX+으면/EC+낑낑대/VV+니까/EC+회의/NNG+중/NNB+에/JKB+도/JX+어쩔/VV+ETM+수/NNB+없/VA+지/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

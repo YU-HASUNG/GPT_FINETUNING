@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24086,
+    "name": "KAKAO_535_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917160200021036/KAKAO_535_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917160200021036/KAKAO_535_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30032,
+      "filename": "KAKAO_535_01.txt",
+      "title": "KAKAO_535_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 491,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 491,
+        "word_size": 158,
+        "text": "1 : 자기야 우리 오늘 저녁 뭐 먹을까?\n2 : 오늘 날씨도 덥고 한데 치맥 먹자!\n1 : 치맥 좋지 먹고 싶은 치킨 있어?\n2 : 나 치킨 맛집 알아! 우리 집 앞에 뿌링클이 맛있다고 소문났어 그거 어때?\n1 : 좋아 배달 시켜 먹을까, 아니면 매장 가서 먹을까?\n2 : 코로나라서 매장 가서 먹긴 좀 그래~ 우리 시켜 먹자.\n1 : 그래 그럼 요기요로 먹자 나 요기요 할인 쿠폰 있어 키키\n2 : 올~ 좋아 좋아 맥주는 어떤 거 마실래?\n1 : 나 블랑 자기도 콜?\n2 : 콜~ 그럼 일단 치맥으로 간단하게 저녁 먹고 디저트는 뭐 먹을까?\n1 : 응? 디저트? 또 먹는다고?\n2 : 장난하냐? 당연한 거 아니냐? 빨리 디저트 메뉴 생각해라.\n1 : 키키 그럼 치맥 먹고 느끼하니까 아이스크림 먹자.\n2 : 아주 좋아! 내 생각을 잘 읽는군 키키\n1 : 그럼 치킨은 앱으로 주문해 놓고 속을 좀 비워 놓을 겸 아이스크림은 사 오자\n2 : 그래 키키 아이스크림 가게 가면서 다른 맛집도 있는지 찾아보자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 우리 오늘 저녁 뭐 먹을까?",
+            "norm_text": "자기야 우리 오늘 저녁 뭐 먹을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+야/VCP+EF+우리/NP+오늘/MAG+저녁/NNG+뭐/IC+먹/VV+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘 날씨도 덥고 한데 치맥 먹자!",
+            "norm_text": "오늘 날씨도 덥고 한데 치맥 먹자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+날씨/NNG+도/JX+덥/VA+고/EC+한데/VX+EC+치맥/NNG+먹/VV+자/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 치맥 좋지 먹고 싶은 치킨 있어?",
+            "norm_text": "치맥 좋지 먹고 싶은 치킨 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "치맥/NNG+좋/VA+지/EC+먹/VV+고/EC+싶/VX+은/ETM+치킨/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 치킨 맛집 알아! 우리 집 앞에 뿌링클이 맛있다고 소문났어 그거 어때?",
+            "norm_text": "나 치킨 맛집 알아! 우리 집 앞에 뿌링클이 맛있다고 소문났어 그거 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+치킨/VV+ETM+맛집/NNG+알/VV+아/EF+우리/NP+집/NNG+앞/NNG+에/JKB+뿌/VX+링클/NNP+이/JKS+맛있/VA+다고/EC+소문났/VV+EP+어/EF+그거/NP+어때/VA+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 좋아 배달 시켜 먹을까, 아니면 매장 가서 먹을까?",
+            "norm_text": "좋아 배달 시켜 먹을까, 아니면 매장 가서 먹을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+아/EC+배달/NNG+시켜/XSV+EC+먹/VV+을까/EF+,/SC+아니면/MAJ+매장/MAG+가/VV+서/EC+먹/VV+을까/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 코로나라서 매장 가서 먹긴 좀 그래~ 우리 시켜 먹자.",
+            "norm_text": "코로나라서 매장 가서 먹긴 좀 그래~ 우리 시켜 먹자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "코/NNG+로/JKB+나라/NNG+서/JKB+매장/MAG+가/VV+서/EC+먹/VV+긴/ETN+JX+좀/MAG+그래/VA+EC+~/SY+우리/NP+시켜/VV+EC+먹/VV+자/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래 그럼 요기요로 먹자 나 요기요 할인 쿠폰 있어 키키",
+            "norm_text": "그래 그럼 요기요로 먹자 나 요기요 할인 쿠폰 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그럼/MAJ+요/MM+기요/NNG+로/JKB+먹/VV+자/EC+나/VX+요/EC+기요/NNG+할인/NNG+쿠폰/NNG+있/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 올~ 좋아 좋아 맥주는 어떤 거 마실래?",
+            "norm_text": "올~ 좋아 좋아 맥주는 어떤 거 마실래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "올/MM+~/SY+좋/VA+아/EC+좋/VA+아/EC+맥주/NNG+는/JX+어떤/MM+거/NNB+마실래/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나 블랑 자기도 콜?",
+            "norm_text": "나 블랑 자기도 콜?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+블/NNG+랑/JC+자기/NP+도/JX+콜/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 콜~ 그럼 일단 치맥으로 간단하게 저녁 먹고 디저트는 뭐 먹을까?",
+            "norm_text": "콜~ 그럼 일단 치맥으로 간단하게 저녁 먹고 디저트는 뭐 먹을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "콜/NNG+~/SY+그럼/MAJ+일단/MAG+치맥/NNG+으로/JKB+간단/XR+하/XSA+게/EC+저녁/NNG+먹/VV+고/EC+디저트/NNG+는/JX+뭐/IC+먹/VV+을까/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응? 디저트? 또 먹는다고?",
+            "norm_text": "응? 디저트? 또 먹는다고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+디저트/NNG+또/MAG+먹/VV+는다고/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 장난하냐? 당연한 거 아니냐? 빨리 디저트 메뉴 생각해라.",
+            "norm_text": "장난하냐? 당연한 거 아니냐? 빨리 디저트 메뉴 생각해라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "장난/NNG+하/XSA+냐/EF+당연/XR+한/XSA+ETM+거/NNB+아니/VCN+냐/EF+빨리/MAG+디저트/NNG+메뉴/NNG+생각/NNG+해라/XSV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 그럼 치맥 먹고 느끼하니까 아이스크림 먹자.",
+            "norm_text": "키키 그럼 치맥 먹고 느끼하니까 아이스크림 먹자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+치맥/NNG+먹/VV+고/EC+느끼/XR+하/XSA+니까/EC+아이스크림/NNG+먹/VV+자/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아주 좋아! 내 생각을 잘 읽는군 키키",
+            "norm_text": "아주 좋아! 내 생각을 잘 읽는군 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아주/MAG+좋/VA+아/EF+내/NP+JKG+생각/NNG+을/JKO+잘/MAG+읽/VV+는군/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼 치킨은 앱으로 주문해 놓고 속을 좀 비워 놓을 겸 아이스크림은 사 오자",
+            "norm_text": "그럼 치킨은 앱으로 주문해 놓고 속을 좀 비워 놓을 겸 아이스크림은 사 오자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+치킨/NNG+은/JX+앱/NNG+으로/JKB+주문/NNG+해/XSV+EC+놓/VX+고/EC+속/NNG+을/JKO+좀/MAG+비워/VV+EC+놓/VX+을/ETM+겸/NNB+아이스크림/NNG+은/JX+사/VV+EC+오/VV+자/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 키키 아이스크림 가게 가면서 다른 맛집도 있는지 찾아보자!",
+            "norm_text": "그래 키키 아이스크림 가게 가면서 다른 맛집도 있는지 찾아보자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래/IC+키/NNG+키/NNG+아이스크림/NNG+가/VV+게/EC+가/VX+면서/EC+다른/MM+맛집/NNG+도/JX+있/VA+는지/EC+찾아보/VV+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 63953,
+    "name": "KAKAO_896_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005153451002258/KAKAO_896_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005153451002258/KAKAO_896_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41500,
+      "filename": "KAKAO_896_03.txt",
+      "title": "KAKAO_896_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 550,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 550,
+        "word_size": 176,
+        "text": "1 : 비행기 타고 여행 가고 싶다 키키 사이판 인가 거기 사람들 여행 가던데\n2 : 아 진짜? 태국도 3개 도시 이제 여행할 수 있대\n1 : 아 진짜? 사이판은 외국인 한국인만 가능하다던데 태국도 그런가\n2 : 아마 다른 나라 사람들도 가능할 듯?\n1 : 흐음 그럼 좀 위험할 거 같은데 키키\n2 : 아 백신 2회 맞은 사람들 갈 수 있대!\n1 : 키키 우리나라 사람들 보다 다른 외국인들을 신뢰 못 하겠어 키키\n1 : 우리나라만큼 방역 수칙 지키는 데가 없어서\n2 : 그러게 디즈니월드에 마스크 안 껴도 된대 우리나라랑 분위기 다른 듯\n1 : 그래서 문제인 것 키키 백신 맞아도 변이 때문에 걸릴 수 있는데\n2 : 언제쯤 자유롭게 다닐 수 있을지 공항이라도 가고 싶어~\n1 : 키키 완전 여행 기분 내고 싶다\n2 : 키키 아 저번에 보니까 공항 카페라는 것도 있더라\n1 : 키키 그건 뭐야? 참신한데? 키키\n2 : 항공사에서 기내식 먹을 수 있는 부스 만들었더라구 신기 키키\n1 : 아하 키키 기발한데? 키키\n1 : 코시국이라고 아이디어 냈구나 키키\n2 : 그치? 기내식 먹고 싶어하는 사람들 가면 될 듯 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 비행기 타고 여행 가고 싶다 키키 사이판 인가 거기 사람들 여행 가던데",
+            "norm_text": "비행기 타고 여행 가고 싶다 키키 사이판 인가 거기 사람들 여행 가던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비행기/NNG+타/VV+고/EC+여행/NNG+가/VV+고/EC+싶/VX+다키키/NNP+사이판/NNG+인가/VCP+EC+거기/NP+사람/NNG+들/XSN+여행/NNG+가/VV+던데/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 진짜? 태국도 3개 도시 이제 여행할 수 있대",
+            "norm_text": "아 진짜? 태국도 3개 도시 이제 여행할 수 있대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+태국/NNP+도/JX+3/SN+개/NNBC+도시/NNG+이제/MAG+여행/NNG+할/XSV+ETM+수/NNB+있/VV+대/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 사이판은 외국인 한국인만 가능하다던데 태국도 그런가",
+            "norm_text": "아 진짜? 사이판은 외국인 한국인만 가능하다던데 태국도 그런가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+사이판/NNG+은/JX+외국인/NNG+한국인/NNG+만/JX+가능/NNG+하/XSV+다던데/EC+태국/NNP+도/JX+그런가/VA+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아마 다른 나라 사람들도 가능할 듯?",
+            "norm_text": "아마 다른 나라 사람들도 가능할 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아마/MAG+다른/MM+나라/NNG+사람/NNG+들/XSN+도/JX+가능/NNG+할/XSV+ETM+듯/NNB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 흐음 그럼 좀 위험할 거 같은데 키키",
+            "norm_text": "흐음 그럼 좀 위험할 거 같은데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흐음/IC+그럼/MAJ+좀/MAG+위험/NNG+할/XSV+ETM+거/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 백신 2회 맞은 사람들 갈 수 있대!",
+            "norm_text": "아 백신 2회 맞은 사람들 갈 수 있대!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+백신/NNG+2/SN+회/NNBC+맞/VV+은/ETM+사람/NNG+들/XSN+갈/VV+ETM+수/NNB+있/VV+대/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 우리나라 사람들 보다 다른 외국인들을 신뢰 못 하겠어 키키",
+            "norm_text": "키키 우리나라 사람들 보다 다른 외국인들을 신뢰 못 하겠어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우리/NP+나라/NNG+사람/NNG+들/XSN+보다/JKB+다른/MM+외국인/NNG+들/XSN+을/JKO+신/VV+뢰/EC+못하/VX+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우리나라만큼 방역 수칙 지키는 데가 없어서",
+            "norm_text": "우리나라만큼 방역 수칙 지키는 데가 없어서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+나라/NNG+만큼/JKB+방역/NNG+수칙/NNG+지키/VV+는/ETM+데/NNB+가/JKS+없/VA+어서/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그러게 디즈니월드에 마스크 안 껴도 된대 우리나라랑 분위기 다른 듯",
+            "norm_text": "그러게 디즈니월드에 마스크 안 껴도 된대 우리나라랑 분위기 다른 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/IC+디즈니/NNP+월드/NNG+에/JKB+마스크/IC+안/MAG+껴도/VV+EC+된대/VV+EF+우리/NP+나라/NNG+랑/JKB+분위기/NNG+다른/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그래서 문제인 것 키키 백신 맞아도 변이 때문에 걸릴 수 있는데",
+            "norm_text": "그래서 문제인 것 키키 백신 맞아도 변이 때문에 걸릴 수 있는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+문제/NNG+인/VCP+ETM+것/NNB+키/NNG+키/NNG+백신/NNG+맞/VV+아도/EC+변이/NNG+때문/NNB+에/JKB+걸릴/VV+ETM+수/NNB+있/VV+는데/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 언제쯤 자유롭게 다닐 수 있을지 공항이라도 가고 싶어~",
+            "norm_text": "언제쯤 자유롭게 다닐 수 있을지 공항이라도 가고 싶어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언제/NP+쯤/XSN+자유/NNG+롭/XSA+게/EC+다닐/VV+ETM+수/NNB+있/VV+을지/EC+공항/NNG+이/VCP+라도/EC+가/VX+고/EC+싶/VX+어/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 완전 여행 기분 내고 싶다",
+            "norm_text": "키키 완전 여행 기분 내고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+완전/NNG+여행/NNG+기분/NNG+내/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 아 저번에 보니까 공항 카페라는 것도 있더라",
+            "norm_text": "키키 아 저번에 보니까 공항 카페라는 것도 있더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+아/EC+저번/NNG+에/JKB+보/VV+니까/EC+공항/NNG+카페/NNG+라는/VCP+ETM+것/NNB+도/JX+있/VA+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그건 뭐야? 참신한데? 키키",
+            "norm_text": "키키 그건 뭐야? 참신한데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+뭐/NP+야/VCP+EF+참신/XR+한데/XSA+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 항공사에서 기내식 먹을 수 있는 부스 만들었더라구 신기 키키",
+            "norm_text": "항공사에서 기내식 먹을 수 있는 부스 만들었더라구 신기 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "항공사/NNG+에서/JKB+기내식/NNG+먹/VV+을/ETM+수/NNB+있/VV+는/ETM+부스/NNG+만들/VV+었/EP+더라구/EF+신기/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아하 키키 기발한데? 키키",
+            "norm_text": "아하 키키 기발한데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+하키/NNG+키/XSV+ETN+기발/XR+한데/XSA+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 코시국이라고 아이디어 냈구나 키키",
+            "norm_text": "코시국이라고 아이디어 냈구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코/NNG+시국/NNG+이/VCP+라고/EC+아이디어/NNG+냈/VV+EP+구나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그치? 기내식 먹고 싶어하는 사람들 가면 될 듯 키키",
+            "norm_text": "그치? 기내식 먹고 싶어하는 사람들 가면 될 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+기내식/NNG+먹/VV+고/EC+싶/VX+어/EC+하/VV+는/ETM+사람/NNG+들/XSN+가/VV+면/EC+될/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

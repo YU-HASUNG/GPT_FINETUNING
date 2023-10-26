@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32098,
+    "name": "KAKAO_768_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150249079230/KAKAO_768_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150249079230/KAKAO_768_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38185,
+      "filename": "KAKAO_768_14.txt",
+      "title": "KAKAO_768_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 617,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 617,
+        "word_size": 170,
+        "text": "1 : 노원구에서 세 모녀 살인한 김태현이란 사람 사형 받았단다!\n2 : 헐? 우리나라 사형 집행 안 하지 않아?\n1 : 그러니까... 난 별 의미가 없다고 생각이 든다...\n2 : 그냥 평생 감옥에 있는 거겠네 진짜 세금도 아깝다\n1 : 그렇지... 난 사형제도가 있어야 한다고 생각하는 입장이긴 한대...\n2 : 나도 사실 그래...\n2 : 교정의 효과를 기대 못하는 경우가 있는 듯\n1 : 요즘은 예전처럼 오심을 받는 경우가 극히 드물어졌잖아...\n2 : 응 그렇지... 그리고 점점 정신 이상한 사람들도 늘어남\n1 : 그러니까... 어차피 감옥에 들어가도 밥 잘나오고 잠 잘 자고 살만하다고 생각하니까... 범죄가 계속 일어나는 것 같기도 해\n2 : 응... 그리고 출소 이후에 관리도 안되니 재범율도 높고\n1 : 응... 심지어 얼마 전에 전자발찌 끊고도 살인한 사람도 있었잖아...\n2 : 그래... 그거 보고 충격이었다... 인성이 완전 미쳤던데\n1 : 교화란 게 이루어지지 않은 사람인데... 그냥 그렇게 사회에 내보내니... 아휴...\n2 : 내 말이... 예산도 문제일 거고 인원도 부족하겠지\n1 : 아무리 그래도... 애먼 피해자만 더 늘어나는 거 아냐...\n2 : 응... ㅜㅜ 내 주변에 피해자가 생길까 겁나",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 노원구에서 세 모녀 살인한 김태현이란 사람 사형 받았단다!",
+            "norm_text": "노원구에서 세 모녀 살인한 김태현이란 사람 사형 받았단다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "노원구/NNP+에서/JKB+세/MM+모녀/NNG+살인/NNG+한/XSA+ETM+김태현/NNP+이/VCP+란/ETM+사람/NNG+사형/NNG+받/VV+았/EP+단다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐? 우리나라 사형 집행 안 하지 않아?",
+            "norm_text": "헐? 우리나라 사형 집행 안 하지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+우리/NP+나라/NNG+사형/NNG+집행/NNG+안/MAG+하/VV+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러니까... 난 별 의미가 없다고 생각이 든다...",
+            "norm_text": "그러니까... 난 별 의미가 없다고 생각이 든다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+./SY+난/NP+JX+별/MM+의미/NNG+가/JKS+없/VA+다고/EC+생각/NNG+이/JKS+든다/VV+EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그냥 평생 감옥에 있는 거겠네 진짜 세금도 아깝다",
+            "norm_text": "그냥 평생 감옥에 있는 거겠네 진짜 세금도 아깝다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+평생/NNG+감옥/NNG+에/JKB+있/VV+는/ETM+거/NNB+겠/VCP+EP+네/EF+진짜/MAG+세금/NNG+도/JX+아깝/VA+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그렇지... 난 사형제도가 있어야 한다고 생각하는 입장이긴 한대...",
+            "norm_text": "그렇지... 난 사형제도가 있어야 한다고 생각하는 입장이긴 한대...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+./SY+난/NP+JX+사형/NNG+제도/NNG+가/JKS+있/VA+어야/EC+한다고/VX+EC+생각/NNG+하/XSV+는/ETM+입장/NNG+이/VCP+긴/ETN+JX+한대/VX+EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도 사실 그래...",
+            "norm_text": "나도 사실 그래...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+사실/MAG+그래/VA+EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 교정의 효과를 기대 못하는 경우가 있는 듯",
+            "norm_text": "교정의 효과를 기대 못하는 경우가 있는 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "교정/NNG+의/JKG+효과/NNG+를/JKO+기대/VV+EC+못하/VX+는/ETM+경우/NNG+가/JKS+있/VA+는/ETM+듯/NNB"
+          },
+          {
+            "id": 8,
+            "text": "1 : 요즘은 예전처럼 오심을 받는 경우가 극히 드물어졌잖아...",
+            "norm_text": "요즘은 예전처럼 오심을 받는 경우가 극히 드물어졌잖아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+예전/NNG+처럼/JKB+오심/NNG+을/JKO+받/VV+는/ETM+경우/NNG+가/JKS+극히/MAG+드물/VA+어/EC+졌/VX+EP+잖아/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응 그렇지... 그리고 점점 정신 이상한 사람들도 늘어남",
+            "norm_text": "응 그렇지... 그리고 점점 정신 이상한 사람들도 늘어남",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그렇/VA+지/EF+./SY+그리고/MAJ+점점/MAG+정신/NNG+이/JKS+상한/VV+ETM+사람/NNG+들/XSN+도/JX+늘어남/VV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그러니까... 어차피 감옥에 들어가도 밥 잘나오고 잠 잘 자고 살만하다고 생각하니까... 범죄가 계속 일어나는 것 같기도 해",
+            "norm_text": "그러니까... 어차피 감옥에 들어가도 밥 잘나오고 잠 잘 자고 살만하다고 생각하니까... 범죄가 계속 일어나는 것 같기도 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+./SY+어차피/MAG+감옥/NNG+에/JKB+들어가/VV+EC+도/JX+밥/NNG+잘/MAG+나오/VV+고/EC+잠잘/VV+ETM+자/NNB+고살/NNG+만/JX+하/VV+다고/EC+생각/NNG+하/XSV+니까/EC+./SY+./SY+범죄/NNG+가/JKS+계속/MAG+일어나/VV+는/ETM+것/NNB+같/VA+기/ETN+도/JX+해/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응... 그리고 출소 이후에 관리도 안되니 재범율도 높고",
+            "norm_text": "응... 그리고 출소 이후에 관리도 안되니 재범율도 높고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+그리고/MAJ+출소/NNG+이후/NNG+에/JKB+관리/NNG+도/JX+안/MAG+되/VV+니/EC+재범/NNG+율/XSN+도/JX+높/VA+고/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응... 심지어 얼마 전에 전자발찌 끊고도 살인한 사람도 있었잖아...",
+            "norm_text": "응... 심지어 얼마 전에 전자발찌 끊고도 살인한 사람도 있었잖아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+./SY+심지어/MAG+얼마/NNG+전/NNG+에/JKB+전자/NNG+발찌/NNG+끊/VV+고/EC+도/JX+살인/NNG+한/XSA+ETM+사람/NNG+도/JX+있/VA+었/EP+잖아/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그래... 그거 보고 충격이었다... 인성이 완전 미쳤던데",
+            "norm_text": "그래... 그거 보고 충격이었다... 인성이 완전 미쳤던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+./SY+그거/NP+보고/JKB+충격/NNG+이/VCP+었/EP+다/EF+./SY+./SY+인성/NNP+이/JKS+완전/MAG+미쳤/VV+EP+던데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 교화란 게 이루어지지 않은 사람인데... 그냥 그렇게 사회에 내보내니... 아휴...",
+            "norm_text": "교화란 게 이루어지지 않은 사람인데... 그냥 그렇게 사회에 내보내니... 아휴...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "교화/NNG+란/VCP+ETM+게/NNB+JKS+이루/VV+어/EC+지/VX+지/EC+않/VX+은/ETM+사람/NNG+인데/VCP+EC+./SY+./SY+그냥/MAG+그렇게/MAG+사회/NNG+에/JKB+내보내/VV+니/EF+./SY+아휴/IC+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 내 말이... 예산도 문제일 거고 인원도 부족하겠지",
+            "norm_text": "내 말이... 예산도 문제일 거고 인원도 부족하겠지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+./SY+예산/NNG+도/JX+문제/NNG+일거/VCP+ETM+NNB+VCP+고/EC+인원/NNG+도/JX+부족/NNG+하/XSV+겠/EP+지/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아무리 그래도... 애먼 피해자만 더 늘어나는 거 아냐...",
+            "norm_text": "아무리 그래도... 애먼 피해자만 더 늘어나는 거 아냐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무리/MAG+그래도/MAG+XSV+EF+./SY+애먼/MM+피해자/NNG+만/JX+더/MAG+늘어나/VV+는/ETM+거/NNB+아냐/VCN+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응... ㅜㅜ 내 주변에 피해자가 생길까 겁나",
+            "norm_text": "응... ㅜㅜ 내 주변에 피해자가 생길까 겁나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+ㅜㅜ/UNKNOWN+내/NP+JKG+주변/NNG+에/JKB+피해자/NNG+가/JKS+생길까/VV+EC+겁나/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

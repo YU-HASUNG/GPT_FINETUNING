@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 35576,
+    "name": "KAKAO_692_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109281131160010107/KAKAO_692_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109281131160010107/KAKAO_692_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35340,
+      "filename": "KAKAO_692_01.txt",
+      "title": "KAKAO_692_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 711,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 711,
+        "word_size": 231,
+        "text": "1 : 오늘 점심 뭐 먹지?\n2 : 어제 술을 많이 마셔서 해장하고 싶은데\n2 : 따뜻한 국물 요리 먹고 싶은데\n1 : 음... 그럼 어떤 해장국 먹지? 돼지국밥? 뼈다귀해장국?\n2 : 난 뼈해장국이 더 끌리네 그거 먹자 키키\n1 : 알겠어 그러자 키키 어디서 먹지?\n1 : 스타벅스 앞에 새로 생긴 해장국집 있던데 거기 가서 먹을랭?\n2 : 아니면 그냥 배달 시켜 먹는 건 어때?\n2 : 나가려니 귀찮네 ㅜㅜ\n1 : 아 그래도 좋지 키키 그럼 내가 거기로 갈게\n1 : 금방 가니까 좀 시켜 놓던가\n2 : 오케이 알겠어 시켜 놓을게\n2 : 근데 요새 배달의민족은 할인 이벤트가 잘 없네 ㅜㅜ 아쉽다\n1 : 그렇더라 요기요랑 쿠팡이츠 같은 다른 배달 어플도 좀 봐봐\n2 : 오 쿠팡이츠에 니가 아까 이야기한 해장국집 배달되는 듯?\n2 : 첫 주문이라 키키 할인도 받을 수 있을 듯 키키 시킬게\n1 : 응 좋다 키키 그럼 나 5분 있다 출발할게\n1 : 그리고 가는 길에 디저트는 내가 사서 갈게. 뭐 마실래?\n2 : 아 나는 다른 건 괜찮고 시원한 음료 먹고 싶네\n2 : 아이스 아메리카노 사와 주면 고맙\n1 : 오케이 그럼 난 아바라. 키키\n1 : 해장국에 커피까지 완벽하겠다\n2 : 키키 그러게 어차피 코로나라서 나가서 외식보다 재밌는 거 보면서 집콕이 짱인 듯\n1 : 맞아 이제는 그게 더 자연스러울 정도야 키키\n1 : 그럼 배달 오기 전에 빨리 갈게. 기달료\n2 : 응응 마스크 잘 쓰고 조심히 와 기다릴게 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 점심 뭐 먹지?",
+            "norm_text": "오늘 점심 뭐 먹지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+점심/NNG+뭐/IC+먹/VV+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어제 술을 많이 마셔서 해장하고 싶은데",
+            "norm_text": "어제 술을 많이 마셔서 해장하고 싶은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+제술/NNG+을/JKO+많이/MAG+마셔서/VV+EC+해장/NNG+하/XSV+고/EC+싶/VX+은데/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 따뜻한 국물 요리 먹고 싶은데",
+            "norm_text": "따뜻한 국물 요리 먹고 싶은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "따뜻/XR+한/XSA+ETM+국물/NNG+요리/NNG+먹/VV+고/EC+싶/VX+은데/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 음... 그럼 어떤 해장국 먹지? 돼지국밥? 뼈다귀해장국?",
+            "norm_text": "음... 그럼 어떤 해장국 먹지? 돼지국밥? 뼈다귀해장국?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+./SY+그럼/MAJ+어떤/MM+해장국/NNG+먹/VV+지/EF+돼지국밥/NNP+?/SY+뼈다귀/NNG+해장국/NNG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 난 뼈해장국이 더 끌리네 그거 먹자 키키",
+            "norm_text": "난 뼈해장국이 더 끌리네 그거 먹자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+뼈/NNG+해장국/NNG+이/JKS+더/MAG+끌리/VV+네/EF+그거/NP+먹/VV+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 알겠어 그러자 키키 어디서 먹지?",
+            "norm_text": "알겠어 그러자 키키 어디서 먹지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "알/VV+겠/EP+어/EC+그러/VV+자/EC+키/NNG+키/XSV+ETN+어디/NP+서/JKB+먹/VV+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 스타벅스 앞에 새로 생긴 해장국집 있던데 거기 가서 먹을랭?",
+            "norm_text": "스타벅스 앞에 새로 생긴 해장국집 있던데 거기 가서 먹을랭?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "스타/NNG+벅스/NNP+앞/NNG+에/JKB+새로/MAG+생긴/VV+ETM+해장국/NNG+집/NNG+있/VV+던데/EC+거기/NP+가/JKS+서/VV+EC+먹/VV+을/ETM+랭/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니면 그냥 배달 시켜 먹는 건 어때?",
+            "norm_text": "아니면 그냥 배달 시켜 먹는 건 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니면/MAJ+그냥/MAG+배달/NNG+시켜/XSV+EC+먹/VV+는/ETM+건/NNB+JX+어때/VA+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나가려니 귀찮네 ㅜㅜ",
+            "norm_text": "나가려니 귀찮네 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나가/VV+려니/EC+귀찮/VA+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 그래도 좋지 키키 그럼 내가 거기로 갈게",
+            "norm_text": "아 그래도 좋지 키키 그럼 내가 거기로 갈게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래도/MAJ+좋/VA+지/EC+키/NNG+키/XSV+ETN+그럼/MAJ+내/NP+가/JKS+거기/NP+로/JKB+갈게/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 금방 가니까 좀 시켜 놓던가",
+            "norm_text": "금방 가니까 좀 시켜 놓던가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "금방/MAG+가/VV+니까/EC+좀/MAG+시켜/VV+EC+놓/VX+던가/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오케이 알겠어 시켜 놓을게",
+            "norm_text": "오케이 알겠어 시켜 놓을게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오케이/IC+알/VV+겠/EP+어/EC+시켜/VV+EC+놓/VX+을/ETM+게/NNB+JKS"
+          },
+          {
+            "id": 13,
+            "text": "2 : 근데 요새 배달의민족은 할인 이벤트가 잘 없네 ㅜㅜ 아쉽다",
+            "norm_text": "근데 요새 배달의민족은 할인 이벤트가 잘 없네 ㅜㅜ 아쉽다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+요새/MAG+배달/NNG+의/JKG+민족/NNG+은/JX+할인/NNG+이벤트/NNG+가/JKS+잘/MAG+없/VA+네/EF+ㅜㅜ/UNKNOWN+아쉽/VA+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그렇더라 요기요랑 쿠팡이츠 같은 다른 배달 어플도 좀 봐봐",
+            "norm_text": "그렇더라 요기요랑 쿠팡이츠 같은 다른 배달 어플도 좀 봐봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그렇/VA+더라/EF+요기/NP+요랑/NNG+쿠팡/NNP+이/JKS+츠/IC+같/VA+은/ETM+다른/MM+배달/NNG+어/IC+플/NNG+도/JX+좀/MAG+봐/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오 쿠팡이츠에 니가 아까 이야기한 해장국집 배달되는 듯?",
+            "norm_text": "오 쿠팡이츠에 니가 아까 이야기한 해장국집 배달되는 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오쿠/NNP+팡/NNP+이/JKS+츠/IC+에니/NNG+가/JKS+아까/MAG+이야기/NNG+한/XSA+ETM+해장국/NNG+집/NNG+배달/NNG+되/XSV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 16,
+            "text": "2 : 첫 주문이라 키키 할인도 받을 수 있을 듯 키키 시킬게",
+            "norm_text": "첫 주문이라 키키 할인도 받을 수 있을 듯 키키 시킬게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "첫/MM+주문/NNG+이/JKS+라키/NNP+키/NNG+할인/NNG+도/JX+받/VV+을/ETM+수/NNB+있/VV+을/ETM+듯/NNB+키/NNG+키/NNG+시킬/XSV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 좋다 키키 그럼 나 5분 있다 출발할게",
+            "norm_text": "응 좋다 키키 그럼 나 5분 있다 출발할게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응좋다키키그럼나/UNKNOWN+5/SN+분/NNBC+있/VV+다/EC+출발/NNG+할/XSV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그리고 가는 길에 디저트는 내가 사서 갈게. 뭐 마실래?",
+            "norm_text": "그리고 가는 길에 디저트는 내가 사서 갈게. 뭐 마실래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그리고/MAJ+가/VV+는/ETM+길/NNG+에/JKB+디저트/NNG+는/JX+내/NP+가/JKS+사/VV+서/EC+갈게/VV+EF+뭐/IC+마실래/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아 나는 다른 건 괜찮고 시원한 음료 먹고 싶네",
+            "norm_text": "아 나는 다른 건 괜찮고 시원한 음료 먹고 싶네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+는/JX+다른/VA+ETM+건/NNB+JX+괜찮/VA+고/EC+시원/XR+한/XSA+ETM+음료/NNG+먹/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아이스 아메리카노 사와 주면 고맙",
+            "norm_text": "아이스 아메리카노 사와 주면 고맙",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이스/NNP+아메리카/NNP+노사/NNG+와/JC+주면/NNG+고맙/VA"
+          },
+          {
+            "id": 21,
+            "text": "1 : 오케이 그럼 난 아바라. 키키",
+            "norm_text": "오케이 그럼 난 아바라. 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오케이/IC+그럼/MAJ+난/NP+JX+아바/NNG+라/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 해장국에 커피까지 완벽하겠다",
+            "norm_text": "해장국에 커피까지 완벽하겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해장국/NNG+에/JKB+커피/NNG+까지/JX+완벽/NNG+하/XSV+겠/EP+다/EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 그러게 어차피 코로나라서 나가서 외식보다 재밌는 거 보면서 집콕이 짱인 듯",
+            "norm_text": "키키 그러게 어차피 코로나라서 나가서 외식보다 재밌는 거 보면서 집콕이 짱인 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+게/EC+어차피/MAG+코로나/NNG+라서/VCP+EC+나가/VX+서/EC+외식/NNG+보다/JKB+재밌/VA+는/ETM+거/NNB+보/VV+면서/EC+집/NNG+콕/NNG+이/JKS+짱/NNG+인/VCP+ETM+듯/NNB"
+          },
+          {
+            "id": 24,
+            "text": "1 : 맞아 이제는 그게 더 자연스러울 정도야 키키",
+            "norm_text": "맞아 이제는 그게 더 자연스러울 정도야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+이제/NNG+는/JX+그게/NP+JKS+더/MAG+자연/NNG+스러울/XSA+ETM+정도/NNG+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 그럼 배달 오기 전에 빨리 갈게. 기달료",
+            "norm_text": "그럼 배달 오기 전에 빨리 갈게. 기달료",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+배달/NNG+오/VV+기/ETN+전/NNG+에/JKB+빨리/MAG+갈게/VV+EF+기달/VV+료/EC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 응응 마스크 잘 쓰고 조심히 와 기다릴게 키키",
+            "norm_text": "응응 마스크 잘 쓰고 조심히 와 기다릴게 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+마스크/IC+잘/MAG+쓰/VV+고/EC+조심히/MAG+와/VV+EC+기다릴/VV+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 47098,
+    "name": "KAKAO_821_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170436023299/KAKAO_821_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170436023299/KAKAO_821_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38655,
+      "filename": "KAKAO_821_02.txt",
+      "title": "KAKAO_821_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 634,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 634,
+        "word_size": 194,
+        "text": "1 : 너는 월세 사는 거에 대해 어떻게 생각해?\n2 : 월세는 뭔가 돈 아까운 느낌...\n2 : 전세가 더 나아 키키\n1 : 키키 맞재... 근데 부동산 전문가가... 월세 살라고 그러더라\n2 : 왜왜? 월세가 나은 이유가 있어? 키키\n1 : 키키 전세는 보증금이 크게 들어가잖아...\n1 : 그 돈을 차라리 투자해서 월세보다 더 벌라던데?\n2 : 키키 어디다 투자하면 성공하나요?\n2 : 키키 성공하고 싶습니당!\n1 : 경매해서 집을 사 가지고 그걸 리모델링 해서 월세 주고 이렇게... 하라곤 하네\n2 : 경매는 진짜 짭짤하당 키키\n2 : 내 주변에도 그런 거 열심히 찾아보시는 분 있음 키키\n1 : 키키 그니까 이게 처음 시작만 어려울 거 같은데\n2 : 나 아시는 분 옆에 푸르지오 아파트 경매로 받았는데 지금 5억 오름 키키\n1 : 헐... 경매가 답인 거 아니가 혹시... 키키 주식 따위\n2 : 그렇지 키키 내일부터 경매 사이트 열심히 봐야겠다 키키\n1 : 근데 경매하면 엄청 신경 쓸게 많아 보이더라 ㅜㅜ\n2 : 어떤 거 신경 써야 해? 키키\n2 : 나도 알아봐야겠는데... 키키\n1 : 뭔가... 집 직접 보러 다녀야 하고... 물론 안 봐도 되겠지만...\n1 : 용어도 많이 공부해야 하고 ㅜㅜ\n2 : 키키 부동산 공부는 유튜브로 해야 하나...? 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 월세 사는 거에 대해 어떻게 생각해?",
+            "norm_text": "너는 월세 사는 거에 대해 어떻게 생각해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+월세/NNG+사/VV+는/ETM+거/NNB+에/JKB+대해/VV+EC+어떻게/MAG+생각/NNG+해/XSV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 월세는 뭔가 돈 아까운 느낌...",
+            "norm_text": "월세는 뭔가 돈 아까운 느낌...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "월세/NNG+는/JX+뭔가/NP+VCP+EC+돈/NNG+아까운/VA+ETM+느낌/NNG+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 전세가 더 나아 키키",
+            "norm_text": "전세가 더 나아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전세/NNG+가/JKS+더나/VV+EC+아키/NNP+키/NNG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 맞재... 근데 부동산 전문가가... 월세 살라고 그러더라",
+            "norm_text": "키키 맞재... 근데 부동산 전문가가... 월세 살라고 그러더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+재/EF+./SY+근데/MAJ+부동산/NNG+전문가/NNG+가/JKS+./SY+월세/NNG+살/VV+라고/EC+그러/VV+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 왜왜? 월세가 나은 이유가 있어? 키키",
+            "norm_text": "왜왜? 월세가 나은 이유가 있어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+왜/MAG+월세/NNG+가/JKS+나/VA+은/ETM+이유/NNG+가/JKS+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 전세는 보증금이 크게 들어가잖아...",
+            "norm_text": "키키 전세는 보증금이 크게 들어가잖아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+전세/NNG+는/JX+보증금/NNG+이/JKS+크/VA+게/EC+들어가/VV+잖아/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그 돈을 차라리 투자해서 월세보다 더 벌라던데?",
+            "norm_text": "그 돈을 차라리 투자해서 월세보다 더 벌라던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+돈/NNG+을/JKO+차라리/MAG+투자/NNG+해서/XSV+EC+월세/NNG+보다/JKB+더/MAG+벌/VV+라던데/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 어디다 투자하면 성공하나요?",
+            "norm_text": "키키 어디다 투자하면 성공하나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+어디/NP+다/JX+투자/NNG+하/XSV+면/EC+성공/NNG+하/XSA+나요/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 성공하고 싶습니당!",
+            "norm_text": "키키 성공하고 싶습니당!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+성공/NNG+하/XSV+고/EC+싶/VX+습니당/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 경매해서 집을 사 가지고 그걸 리모델링 해서 월세 주고 이렇게... 하라곤 하네",
+            "norm_text": "경매해서 집을 사 가지고 그걸 리모델링 해서 월세 주고 이렇게... 하라곤 하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "경매/NNG+해서/XSV+EC+집/NNG+을/JKO+사/VV+EC+가지/VX+고/EC+그/MM+걸리/NNG+모델링/NNG+해서/XSV+EC+월세/NNG+주/VV+고/EC+이렇게/MAG+./SY+하/VV+라곤/EC+JX+하네/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 경매는 진짜 짭짤하당 키키",
+            "norm_text": "경매는 진짜 짭짤하당 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "경매/NNG+는/JX+진짜/MAG+짭짤/XR+하/XSA+당/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 내 주변에도 그런 거 열심히 찾아보시는 분 있음 키키",
+            "norm_text": "내 주변에도 그런 거 열심히 찾아보시는 분 있음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+주변/NNG+에/JKB+도/JX+그런/MM+거/NNB+열심히/MAG+찾아보/VV+시/EP+는/ETM+분/NNB+있/VA+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 그니까 이게 처음 시작만 어려울 거 같은데",
+            "norm_text": "키키 그니까 이게 처음 시작만 어려울 거 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+이게/NP+JKS+처음/NNG+시작/NNG+만/JX+어려울/VA+ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나 아시는 분 옆에 푸르지오 아파트 경매로 받았는데 지금 5억 오름 키키",
+            "norm_text": "나 아시는 분 옆에 푸르지오 아파트 경매로 받았는데 지금 5억 오름 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+아/VV+시/EP+는/ETM+분/NNB+옆/NNG+에/JKB+푸르지오/NNP+아파트/NNG+경매/NNG+로/JKB+받/VV+았/EP+는데/EC+지금/MAG+5/SN+억/NR+오름/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐... 경매가 답인 거 아니가 혹시... 키키 주식 따위",
+            "norm_text": "헐... 경매가 답인 거 아니가 혹시... 키키 주식 따위",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+경매/NNG+가/JKS+답/NNG+인/VCP+ETM+거/NNB+아니/VCN+가/JKS+혹시/MAG+./SY+키/NNG+키/NNG+주식/NNG+따위/NNB"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그렇지 키키 내일부터 경매 사이트 열심히 봐야겠다 키키",
+            "norm_text": "그렇지 키키 내일부터 경매 사이트 열심히 봐야겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그렇/VA+지/EC+키/NNG+키/NNG+내일/NNG+부터/JX+경매/NNG+사이트/NNG+열심히/MAG+봐야/VV+EC+VX+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 17,
+            "text": "1 : 근데 경매하면 엄청 신경 쓸게 많아 보이더라 ㅜㅜ",
+            "norm_text": "근데 경매하면 엄청 신경 쓸게 많아 보이더라 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+경매/NNG+하/XSV+면/EC+엄청/MAG+신경/NNG+쓸/VV+ETM+게/NNB+JKS+많/VA+아/EC+보이/VV+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 어떤 거 신경 써야 해? 키키",
+            "norm_text": "어떤 거 신경 써야 해? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+거/NNB+신경/NNG+써야/VV+EC+해/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 나도 알아봐야겠는데... 키키",
+            "norm_text": "나도 알아봐야겠는데... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 뭔가... 집 직접 보러 다녀야 하고... 물론 안 봐도 되겠지만...",
+            "norm_text": "뭔가... 집 직접 보러 다녀야 하고... 물론 안 봐도 되겠지만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EF+./SY+집/NNG+직접/MAG+보/VV+러/EC+다녀야/VV+EC+하/VV+고/EC+./SY+./SY+물론/MAG+안/MAG+봐도/VV+EC+되/VV+겠/EP+지만/EC+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 용어도 많이 공부해야 하고 ㅜㅜ",
+            "norm_text": "용어도 많이 공부해야 하고 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "용어/NNG+도/JX+많이/MAG+공부/NNG+해야/XSV+EC+하/VV+고/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 키키 부동산 공부는 유튜브로 해야 하나...? 키키",
+            "norm_text": "키키 부동산 공부는 유튜브로 해야 하나...? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+부동산/NNG+공부/NNG+는/JX+유튜브/NNP+로/JKB+해야/VV+EC+하나/NR+./SY+./SY+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 32053,
+    "name": "KAKAO_649_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145512053966/KAKAO_649_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145512053966/KAKAO_649_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34499,
+      "filename": "KAKAO_649_01.txt",
+      "title": "KAKAO_649_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 505,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 505,
+        "word_size": 172,
+        "text": "1 : 언니야 대구에 맛집 아는 곳 있오? 하하\n2 : 대구에 자주 가는 맛집은 몇 개 되지 키키\n1 : 오 대박 하하 다음에 만나면 소개해 주세용 키키\n2 : 응 키키 대구에 맛집이 많아서 좋아\n1 : 맞아요 키키 언니 왠지 맛집 잘 알 것 같아요 키키\n2 : 키키 생각보다 잘 알지 못해 키키\n1 : 오호 키키 왠지 맛집 잘 선별할 것 같은\n2 : 키키 다음에 내가 좋아하는 맛집에 꼭 같이 가봐야겠넹 키키\n1 : 하하 아주 좋습니당 하하\n1 : 요새 새우가 제철이던데 언니 좋아해요?\n2 : 새우 좋지 키키\n2 : 요즘 제주도 딱새우가 엄청 생각나더라구\n1 : 오 진짜 맛있어요 키키\n1 : 딱새우가 이렇게 맛있는지 저 처음 먹어봤어요\n2 : 뭔가 식감이 일반 새우보다 탱탱하지 않아? 키키 맛있어\n1 : 맞아요 하하 진짜 식감이 미쳤어요\n1 : 또 먹고 싶다 ㅜㅜ\n2 : ㅠㅠ 제주도에서만 먹을 수 있어서 더 매력 있어\n1 : 정말 ㅜㅜ 저 어제 밤에 왔어요\n1 : 다시 가고 싶어요 ㅜㅜ\n2 : 원래 오늘 아니야? 일찍 왔네 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니야 대구에 맛집 아는 곳 있오? 하하",
+            "norm_text": "언니야 대구에 맛집 아는 곳 있오? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+야/VCP+EF+대구/NNP+에/JKB+맛집/NNG+아/VV+는/ETM+곳/NNB+있/VA+오/EF+하하/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 대구에 자주 가는 맛집은 몇 개 되지 키키",
+            "norm_text": "대구에 자주 가는 맛집은 몇 개 되지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대구/NNP+에/JKB+자주/MAG+가/VV+는/ETM+맛집/NNG+은/JX+몇/MM+개/NNBC+되/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 대박 하하 다음에 만나면 소개해 주세용 키키",
+            "norm_text": "오 대박 하하 다음에 만나면 소개해 주세용 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "오대/MM+박하/NNG+하/XSV+다음/NNG+에/JKB+만나/VV+면/EC+소개/NNG+해/XSV+EC+주/VX+세용/EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 키키 대구에 맛집이 많아서 좋아",
+            "norm_text": "응 키키 대구에 맛집이 많아서 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키키/NNP+대구/NNP+에/JKB+맛집/NNG+이/JKS+많/VA+아서/EC+좋/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아요 키키 언니 왠지 맛집 잘 알 것 같아요 키키",
+            "norm_text": "맞아요 키키 언니 왠지 맛집 잘 알 것 같아요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+요키/NNP+키/NNG+언니/NNG+왠지/MAG+맛집/NNG+잘/MAG+알/VV+ETM+것/NNB+같/VA+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 생각보다 잘 알지 못해 키키",
+            "norm_text": "키키 생각보다 잘 알지 못해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+생각/NNG+보다/JKB+잘/MAG+알/VV+지/EC+못해/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오호 키키 왠지 맛집 잘 선별할 것 같은",
+            "norm_text": "오호 키키 왠지 맛집 잘 선별할 것 같은",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+키/NNG+키/XSV+ETN+왠지/MAG+맛집/NNG+잘/MAG+선별/NNG+할/XSV+ETM+것/NNB+같/VA+은/ETM"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 다음에 내가 좋아하는 맛집에 꼭 같이 가봐야겠넹 키키",
+            "norm_text": "키키 다음에 내가 좋아하는 맛집에 꼭 같이 가봐야겠넹 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/NNG+다음/NNG+에/JKB+내/NP+가/JKS+좋/VA+아/EC+하/VV+는/ETM+맛집/NNG+에/JKB+꼭/MAG+같이/MAG+가/VV+봐야/EC+VX+EC+VX+겠/EP+넹/NNP+키키/NNP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하하 아주 좋습니당 하하",
+            "norm_text": "하하 아주 좋습니당 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+아주/MAG+좋/VA+습니/EC+당하/NNG+하/XSV"
+          },
+          {
+            "id": 10,
+            "text": "1 : 요새 새우가 제철이던데 언니 좋아해요?",
+            "norm_text": "요새 새우가 제철이던데 언니 좋아해요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요새/NNG+새우/NNG+가/JKS+제철/NNG+이/JKS+던데/VV+EC+언니/NNG+좋/VA+아/EC+해요/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 새우 좋지 키키",
+            "norm_text": "새우 좋지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "새우/NNG+좋/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 요즘 제주도 딱새우가 엄청 생각나더라구",
+            "norm_text": "요즘 제주도 딱새우가 엄청 생각나더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+제주/NNP+도/JX+딱/MAG+새우/NNG+가/JKS+엄청/MAG+생각/NNG+나/NP+더라구/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오 진짜 맛있어요 키키",
+            "norm_text": "오 진짜 맛있어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+진짜/MAG+맛있/VA+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 딱새우가 이렇게 맛있는지 저 처음 먹어봤어요",
+            "norm_text": "딱새우가 이렇게 맛있는지 저 처음 먹어봤어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "딱/MAG+새우/NNG+가/JKS+이렇게/MAG+맛있/VA+는지/EC+저/MM+처음/NNG+먹/VV+어/EC+봤/VX+EP+어요/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 뭔가 식감이 일반 새우보다 탱탱하지 않아? 키키 맛있어",
+            "norm_text": "뭔가 식감이 일반 새우보다 탱탱하지 않아? 키키 맛있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+식감/NNG+이/JKS+일반/NNG+새우/NNG+보다/JKB+탱탱/XR+하/XSA+지/EC+않/VX+아/EF+키/NNG+키/XSV+ETN+맛있/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 맞아요 하하 진짜 식감이 미쳤어요",
+            "norm_text": "맞아요 하하 진짜 식감이 미쳤어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+하하/IC+진짜/MAG+식감/NNG+이/JKS+미쳤/VV+EP+어요/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 또 먹고 싶다 ㅜㅜ",
+            "norm_text": "또 먹고 싶다 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "또/MAG+먹/VV+고/EC+싶/VX+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : ㅠㅠ 제주도에서만 먹을 수 있어서 더 매력 있어",
+            "norm_text": "ㅠㅠ 제주도에서만 먹을 수 있어서 더 매력 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+제주도/NNP+에서/JKB+만/JX+먹/VV+을/ETM+수/NNB+있/VV+어서/EC+더/MAG+매력/NNG+있/VV+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 정말 ㅜㅜ 저 어제 밤에 왔어요",
+            "norm_text": "정말 ㅜㅜ 저 어제 밤에 왔어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정말/MAG+ㅜㅜ/UNKNOWN+저/IC+어제/MAG+밤/NNG+에/JKB+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 다시 가고 싶어요 ㅜㅜ",
+            "norm_text": "다시 가고 싶어요 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다시/MAG+가/VV+고/EC+싶/VX+어요/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 원래 오늘 아니야? 일찍 왔네 ㅠㅠ",
+            "norm_text": "원래 오늘 아니야? 일찍 왔네 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "원래/MAG+오늘/MAG+아니/VCN+야/EF+일찍왔네ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

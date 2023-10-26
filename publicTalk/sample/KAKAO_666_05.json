@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 32339,
+    "name": "KAKAO_666_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152611019968/KAKAO_666_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152611019968/KAKAO_666_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34863,
+      "filename": "KAKAO_666_05.txt",
+      "title": "KAKAO_666_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 748,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 748,
+        "word_size": 235,
+        "text": "1 : 요즘 넷플릭스에 나온 드라마 DP 때문에 뉴스고 어디고 다 군대 얘기 무조건 나오더라\n2 : 맞아 키키 TV 틀면 군대 얘기 자주 나오더라 키키\n1 : DP 드라마가 군 내부에서 일어나는 가혹 행위, 부조리 관련된 장면들이 많이 나와서 더 그런 거 같아\n2 : 확실히 그런 문제들 군대 안 가 본 사람들은 잘 모르지\n1 : 내가 근무했던 부대는 저 정도의 가혹 행위나 부조리는 없었는데\n2 : 나는 전방 부대 나오긴 했는데 내가 이등병 자대 배치 받았을 때? 그때 한참 고참의 부조리가 있긴 했었음\n1 : 아 그래? 어떤 식의 부조리였는데\n2 : 그때그때 상황마다 다르긴 한데 나도 부조리 당함 키키\n1 : 너도 당했어? 뭐 어떻게 했길래\n2 : 근무자 총기 교대 시간 돼서 생활관에 보관된 내 총만 근무자 총기함에 갔다 놨거든\n2 : 근데 사수가 엄청 고참이였단 말이야?\n2 : 자기 총 안 갖다 놨다고 쌍욕함 키키\n1 : 아니 본인 총은 본인이 가져다 노야지 본인 꺼 안 가져다 놨다고 욕을 함?\n2 : 그니까 말이야 키키\n2 : 훈련소 교육 받을 때 남의 총 함부로 만지지 말라고 교육 받아서 그렇게 한 건데 키키\n1 : 그거 말고는 크게 다른 문제는 없었음?\n2 : 그 고참들 전역한 후 군인 인권 강화가 돼서 그런 막 DP드라마에서 나오는 부조리나 가혹 행위는 거의 없어진 듯?\n1 : 그럼 다행이긴 하네 이런 부조리들은 조기에 식별해서 뿌리를 뽑아야 되는데\n2 : 완전히는 못 뽑을 꺼 같음\n2 : 결국엔 사람이 문제라 어디서라도 또 터질 순 있음...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 넷플릭스에 나온 드라마 DP 때문에 뉴스고 어디고 다 군대 얘기 무조건 나오더라",
+            "norm_text": "요즘 넷플릭스에 나온 드라마 DP 때문에 뉴스고 어디고 다 군대 얘기 무조건 나오더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+넷플릭스/NNP+에/JKB+나온/VV+ETM+드라마/NNG+DP/SL+때문/NNB+에/JKB+뉴스/NNG+고/VCP+EC+어디/NP+고/VCP+EC+다/MAG+군대/NNG+얘기/NNG+무조건/MAG+나오/VV+더라/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 키키 TV 틀면 군대 얘기 자주 나오더라 키키",
+            "norm_text": "맞아 키키 TV 틀면 군대 얘기 자주 나오더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+TV/SL+틀/VV+면/EC+군대/NNG+얘기/NNG+자주/MAG+나오/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : DP 드라마가 군 내부에서 일어나는 가혹 행위, 부조리 관련된 장면들이 많이 나와서 더 그런 거 같아",
+            "norm_text": "DP 드라마가 군 내부에서 일어나는 가혹 행위, 부조리 관련된 장면들이 많이 나와서 더 그런 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "DP/SL+드라마/NNG+가/JKS+군/NNG+내부/NNG+에서/JKB+일어나/VV+는/ETM+가혹/NNG+행위/NNG+,/SC+부조리/NNG+관련/NNG+된/XSV+ETM+장면/NNG+들/XSN+이/JKS+많이/MAG+나와서/VV+EC+더/MAG+그런/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 확실히 그런 문제들 군대 안 가 본 사람들은 잘 모르지",
+            "norm_text": "확실히 그런 문제들 군대 안 가 본 사람들은 잘 모르지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "확실히/MAG+그런/MM+문제/NNG+들/XSN+군대/NNG+안/MAG+가/VV+EC+본/VX+ETM+사람/NNG+들/XSN+은/JX+잘/MAG+모르/VV+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 내가 근무했던 부대는 저 정도의 가혹 행위나 부조리는 없었는데",
+            "norm_text": "내가 근무했던 부대는 저 정도의 가혹 행위나 부조리는 없었는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+근무/NNG+했/XSV+EP+던/ETM+부대/NNG+는/JX+저/MM+정도/NNG+의/JKG+가혹/NNG+행위/NNG+나/JC+부조리/NNG+는/JX+없/VA+었/EP+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 전방 부대 나오긴 했는데 내가 이등병 자대 배치 받았을 때? 그때 한참 고참의 부조리가 있긴 했었음",
+            "norm_text": "나는 전방 부대 나오긴 했는데 내가 이등병 자대 배치 받았을 때? 그때 한참 고참의 부조리가 있긴 했었음",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+전방/NNG+부대/NNG+나오/VV+긴/ETN+JX+했/VX+EP+는데/EC+내/NP+가/JKS+이등병/NNG+자대/NNG+배치/NNG+받/VV+았/EP+을/ETM+때/NNG+?/SY+그때/NNG+한참/NNG+고참/NNG+의/JKG+부조리/NNG+가/JKS+있/VV+긴/ETN+JX+했었/VX+EP+음/ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 그래? 어떤 식의 부조리였는데",
+            "norm_text": "아 그래? 어떤 식의 부조리였는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+어떤/MM+식/NNB+의/JKG+부조리/NNG+였/VCP+EP+는데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그때그때 상황마다 다르긴 한데 나도 부조리 당함 키키",
+            "norm_text": "그때그때 상황마다 다르긴 한데 나도 부조리 당함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그때/NNG+그때/NNG+상황/NNG+마다/JX+다르/VA+긴/ETN+JX+한데/VX+EC+나/NP+도/JX+부조리/NNG+당함/XSV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 너도 당했어? 뭐 어떻게 했길래",
+            "norm_text": "너도 당했어? 뭐 어떻게 했길래",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+도/JX+당했/VV+EP+어/EF+뭐/IC+어떻게/MAG+했/VV+EP+길래/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근무자 총기 교대 시간 돼서 생활관에 보관된 내 총만 근무자 총기함에 갔다 놨거든",
+            "norm_text": "근무자 총기 교대 시간 돼서 생활관에 보관된 내 총만 근무자 총기함에 갔다 놨거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근무자/NNG+총기/NNG+교대/NNG+시간/NNG+돼서/XSV+EC+생활관/NNG+에/JKB+보관/NNG+된/XSV+ETM+내총/NNG+만/JX+근무자/NNG+총기/NNG+함/XSV+ETN+에/JKB+갔/VV+EP+다/EC+놨/VX+EP+거든/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 근데 사수가 엄청 고참이였단 말이야?",
+            "norm_text": "근데 사수가 엄청 고참이였단 말이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+사수/NNG+가/JKS+엄청/MAG+고참/NNG+이/VCP+였/EP+단/ETM+말/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 자기 총 안 갖다 놨다고 쌍욕함 키키",
+            "norm_text": "자기 총 안 갖다 놨다고 쌍욕함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자기/NP+총안/NNG+갖/VV+다/EC+놨다고/VX+EP+EC+쌍욕/NNG+함/XSV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아니 본인 총은 본인이 가져다 노야지 본인 꺼 안 가져다 놨다고 욕을 함?",
+            "norm_text": "아니 본인 총은 본인이 가져다 노야지 본인 꺼 안 가져다 놨다고 욕을 함?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/MAG+본/VV+ETM+인총/NNG+은/JX+본인/NNG+이/JKS+가져다/VV+EC+노야/NNG+지본/NNG+인/VCP+ETM+꺼/MAG+안/MAG+가져다/VV+EC+놨다/VX+EP+EC+고욕/NNG+을/JKO+함/VV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그니까 말이야 키키",
+            "norm_text": "그니까 말이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+말/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 훈련소 교육 받을 때 남의 총 함부로 만지지 말라고 교육 받아서 그렇게 한 건데 키키",
+            "norm_text": "훈련소 교육 받을 때 남의 총 함부로 만지지 말라고 교육 받아서 그렇게 한 건데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "훈련소/NNG+교육/NNG+받/VV+을/ETM+때/NNG+남/NNG+의/JKG+총/NNG+함부로/MAG+만지/VV+지/EC+말/VX+라고/EC+교육/NNG+받/VV+아서/EC+그렇/VA+게/EC+한건데/VX+ETM+NNB+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그거 말고는 크게 다른 문제는 없었음?",
+            "norm_text": "그거 말고는 크게 다른 문제는 없었음?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+말/VV+고/EC+는/JX+크/VA+게/EC+다른/MM+문제/NNG+는/JX+없/VA+었/EP+음/ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그 고참들 전역한 후 군인 인권 강화가 돼서 그런 막 DP드라마에서 나오는 부조리나 가혹 행위는 거의 없어진 듯?",
+            "norm_text": "그 고참들 전역한 후 군인 인권 강화가 돼서 그런 막 DP드라마에서 나오는 부조리나 가혹 행위는 거의 없어진 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+고참/NNG+들/XSN+전역/NNG+한/XSA+ETM+후군/NNG+인/VCP+ETM+인권/NNG+강화/NNG+가/JKS+돼서/VV+EC+그런/MM+막/NNG+DP/SL+드라마/NNG+에서/JKB+나오/VV+는/ETM+부조리/NNG+나/JC+가혹/NNG+행위/NNG+는/JX+거의/MAG+없/VA+어/EC+진/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그럼 다행이긴 하네 이런 부조리들은 조기에 식별해서 뿌리를 뽑아야 되는데",
+            "norm_text": "그럼 다행이긴 하네 이런 부조리들은 조기에 식별해서 뿌리를 뽑아야 되는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+다행/NNG+이/VCP+긴/ETN+JX+하/VX+네/EF+이런/MM+부조리/NNG+들/XSN+은/JX+조기/NNG+에/JKB+식별/NNG+해서/XSV+EC+뿌리/NNG+를/JKO+뽑/VV+아야/EC+되/VV+는데/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 완전히는 못 뽑을 꺼 같음",
+            "norm_text": "완전히는 못 뽑을 꺼 같음",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전히/MAG+는/JX+못/MAG+뽑/VV+을/ETM+꺼/NNB+VCP+같/VA+음/ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 결국엔 사람이 문제라 어디서라도 또 터질 순 있음...",
+            "norm_text": "결국엔 사람이 문제라 어디서라도 또 터질 순 있음...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "결국/NNG+엔/JKB+JX+사람/NNG+이/JKS+문제/NNG+라/VCP+EC+어디/NP+서/JKB+라도/VCP+EC+또/MAG+터질/VV+ETM+순/NNB+JX+있/VA+음/ETN+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

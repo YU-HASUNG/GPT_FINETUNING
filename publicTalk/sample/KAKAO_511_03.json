@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25280,
+    "name": "KAKAO_511_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145442034067/KAKAO_511_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145442034067/KAKAO_511_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29134,
+      "filename": "KAKAO_511_03.txt",
+      "title": "KAKAO_511_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 412,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 412,
+        "word_size": 123,
+        "text": "1 : 나 다음 주에 결혼식인데 뭐 타고 가야할 지 모르겠넹...\n2 : 엇 요즘에는 당연히 차 몰고 가야지\n1 : 서울인데?  주차도 걱정이라서\n2 : 서울이면 더더욱 자가용으로가 너무 위험해서\n1 : 대중교통은 좀 그렇지...?\n2 : 요즘 계속 대중교통으로 확진자 나와서\n1 : 기차가 편하긴 한뎅 ㅠㅠ 기차도 위험할까 ?\n2 : 기차는 그나마 좀 덜 할 거 같네\n1 : 비행기는...? 사천 공항에서 타면 엄청 편하긴 할텐데...\n2 : 시간이 맞으면 좋은데 내려서 가 아마 불편 할거야\n1 : 버스는 못 타겠엉 뭔가 위험해보여\n2 : ㅇㅇ 버스는 비추야 되도록 차로가\n1 : 서울까지 운전이라... 에바탱인데...?\n2 : 겸사겸사 조금 놀다 와 키키 맛집이나\n1 : 뭐야 대중교통도 위험하다면서 왠 관광이냐 키키\n2 : 근교에 한적한 곳도 있으니까 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 다음 주에 결혼식인데 뭐 타고 가야할 지 모르겠넹...",
+            "norm_text": "나 다음 주에 결혼식인데 뭐 타고 가야할 지 모르겠넹...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+다음/NNG+주/NNG+에/JKB+결혼식/NNG+인데/VCP+EC+뭐/IC+타/VV+고/EC+가/VX+야/EC+할지/VX+EC+모르/VV+겠/EP+넹/NNP+./SY+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엇 요즘에는 당연히 차 몰고 가야지",
+            "norm_text": "엇 요즘에는 당연히 차 몰고 가야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엇/IC+요즘/NNG+에/JKB+는/JX+당연히/MAG+차/NNG+몰고가/VV+야지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 서울인데?  주차도 걱정이라서",
+            "norm_text": "서울인데?  주차도 걱정이라서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "서울/NNP+인데/VCP+EC+?/SY+주차/NNG+도/JX+걱정/NNG+이/VCP+라서/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 서울이면 더더욱 자가용으로가 너무 위험해서",
+            "norm_text": "서울이면 더더욱 자가용으로가 너무 위험해서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "서울/NNP+이/VCP+면/EC+더더욱/MAG+자가용/NNG+으로/JKB+가/VV+EC+너무/MAG+위험/NNG+해서/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 대중교통은 좀 그렇지...?",
+            "norm_text": "대중교통은 좀 그렇지...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대중교통/NNG+은/JX+좀/MAG+그렇/VA+지/EF+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요즘 계속 대중교통으로 확진자 나와서",
+            "norm_text": "요즘 계속 대중교통으로 확진자 나와서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/MAG+계속/MAG+대중교통/NNG+으로/JKB+확진/NNG+자/XSN+나와서/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 기차가 편하긴 한뎅 ㅠㅠ 기차도 위험할까 ?",
+            "norm_text": "기차가 편하긴 한뎅 ㅠㅠ 기차도 위험할까 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기차/NNG+가/JKS+편하/VA+긴/ETN+JX+한/VX+ETM+뎅/NNP+ㅠㅠ/UNKNOWN+기차/NNG+도/JX+위험/NNG+할까/XSV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 기차는 그나마 좀 덜 할 거 같네",
+            "norm_text": "기차는 그나마 좀 덜 할 거 같네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "기차/NNG+는/JX+그나마/MAG+좀/MAG+덜할/VA+ETM+거/NNB+같/VA+네/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 비행기는...? 사천 공항에서 타면 엄청 편하긴 할텐데...",
+            "norm_text": "비행기는...? 사천 공항에서 타면 엄청 편하긴 할텐데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "비행기/NNG+는/JX+./SY+./SY+사/NR+천/NR+공항/NNG+에서/JKB+타/VV+면/EC+엄청/MAG+편하/VA+긴/ETN+JX+할텐데/VX+ETM+NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 시간이 맞으면 좋은데 내려서 가 아마 불편 할거야",
+            "norm_text": "시간이 맞으면 좋은데 내려서 가 아마 불편 할거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시간/NNG+이/JKS+맞/VV+으면/EC+좋/VA+은/ETM+데/NNB+내려서/VV+EC+가/JKS+아마/MAG+불편/NNG+할/XSV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 버스는 못 타겠엉 뭔가 위험해보여",
+            "norm_text": "버스는 못 타겠엉 뭔가 위험해보여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "버스/NNG+는/JX+못/MAG+타/VV+겠/EP+엉/EC+뭔가/NP+VCP+EC+위험/NNG+해/XSV+EC+보여/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : ㅇㅇ 버스는 비추야 되도록 차로가",
+            "norm_text": "ㅇㅇ 버스는 비추야 되도록 차로가",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅇㅇ/UNKNOWN+버스/NNG+는/JX+비/XPN+추야/NNG+되/XSV+도록/EC+차로/NNG+가/JKS"
+          },
+          {
+            "id": 13,
+            "text": "1 : 서울까지 운전이라... 에바탱인데...?",
+            "norm_text": "서울까지 운전이라... 에바탱인데...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서울/NNP+까지/JX+운전/NNG+이/VCP+라/EF+./SY+./SY+에바/NNP+탱/NNG+인데/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 겸사겸사 조금 놀다 와 키키 맛집이나",
+            "norm_text": "겸사겸사 조금 놀다 와 키키 맛집이나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "겸사겸사/MAG+조금/MAG+놀/VV+다/EF+와/JC+키키/NNP+맛집/NNG+이나/JC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 뭐야 대중교통도 위험하다면서 왠 관광이냐 키키",
+            "norm_text": "뭐야 대중교통도 위험하다면서 왠 관광이냐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/NP+야/VCP+EF+대중교통/NNG+도/JX+위험/NNG+하/XSV+다면서/EC+왠/MM+관광/NNG+이냐키/NNP+키/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근교에 한적한 곳도 있으니까 하하",
+            "norm_text": "근교에 한적한 곳도 있으니까 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근교/NNG+에/JKB+한적/XR+한/XSA+ETM+곳/NNG+도/JX+있/VA+으니까/EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

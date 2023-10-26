@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 55216,
+    "name": "KAKAO_677_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113551088048/KAKAO_677_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113551088048/KAKAO_677_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35373,
+      "filename": "KAKAO_677_14.txt",
+      "title": "KAKAO_677_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 600,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 600,
+        "word_size": 174,
+        "text": "1 : 내년 건강보험료율이 올해보다 1.89% 오른다는데 뉴스 본 적 있어?\n2 : 응 뉴스로 봤어... 모든 물가가 매년 상승이라 걱정이네\n1 : 그러니까... 물가는 오르고 인건비는 올라봐야 티도 안 나고...! 어떻게 살라는 건지...\n2 : 그러니까 말이야... 물가 오르는 만큼 인건비도 팍팍 올려주면 좋겠어!\n1 : 맞아 맞아! 그래야 우리도 먹고 살 텐데...\n2 : 맞아 최저임금도 오르니까 오히려 더 일 안 시키려고 하는 거 같아\n1 : 그래서인지 요즘엔 대기업에서도 퇴사가 많아졌다던데?!\n2 : 대기업은 그래도 괜찮을 텐데 왜 퇴사 하지...?\n1 : 힘들게 들어갔다가 근로 여건이 마음에 안 들어서 그냥 퇴사한다더라구...\n2 : 그래도 대기업이면 진짜 고민 많이 될 거 같아\n1 : 맞아 나 같으면 근로 여건 안 맞아도 계속 다닐 거 같은데...\n1 : 언니 같았으면 어땠을 것 같아?\n2 : 나도 일단은 다니겠지만 진짜 고민 많이 할 거 같기는 해\n1 : 그렇겠지? ㅜ 세대 별로 직장에 대한 가치관이 많이 달라지고 있는 거 같아\n2 : 공무원 합격해도 그만두고 나온다는 사람도 많더라구\n1 : 정말 세상 참 많이 달라졌어~!\n2 : 맞아 이제 하고 싶은 대로 하는 세상이지~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 내년 건강보험료율이 올해보다 1.89% 오른다는데 뉴스 본 적 있어?",
+            "norm_text": "내년 건강보험료율이 올해보다 1.89% 오른다는데 뉴스 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내년/NNG+건강/NNG+보험료/NNG+율/XSN+이/JKS+올해/NNG+보다/JKB+1/SN+./SY+89/SN+%/SY+오른다는/VV+ETM+데/NNB+뉴스/NNG+본/VV+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 뉴스로 봤어... 모든 물가가 매년 상승이라 걱정이네",
+            "norm_text": "응 뉴스로 봤어... 모든 물가가 매년 상승이라 걱정이네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+뉴스/NNG+로/JKB+봤/VV+EP+어/EF+./SY+모든/MM+물가/NNG+가/JKS+매년/MAG+상승/NNG+이/VCP+라/EC+걱정/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러니까... 물가는 오르고 인건비는 올라봐야 티도 안 나고...! 어떻게 살라는 건지...",
+            "norm_text": "그러니까... 물가는 오르고 인건비는 올라봐야 티도 안 나고...! 어떻게 살라는 건지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+./SY+물가/NNG+는/JX+오르/VV+고/EC+인건비/NNG+는/JX+올라/VV+EC+봐야/VX+EC+티/NNG+도/JX+안/MAG+나/VV+고/EC+./SY+./SY+어떻게/MAG+살/VV+라는/ETM+건지/NNB+VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그러니까 말이야... 물가 오르는 만큼 인건비도 팍팍 올려주면 좋겠어!",
+            "norm_text": "그러니까 말이야... 물가 오르는 만큼 인건비도 팍팍 올려주면 좋겠어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+말/NNG+이/VCP+야/EF+./SY+물가/NNG+오르/VV+는/ETM+만큼/NNB+인건비/NNG+도/JX+팍팍/MAG+올려/VV+EC+주/VX+면/EC+좋/VA+겠/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 맞아! 그래야 우리도 먹고 살 텐데...",
+            "norm_text": "맞아 맞아! 그래야 우리도 먹고 살 텐데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아/EF+그래야/VV+EC+우리/NP+도/JX+먹/VV+고/EC+살/VV+ETM+텐데/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 최저임금도 오르니까 오히려 더 일 안 시키려고 하는 거 같아",
+            "norm_text": "맞아 최저임금도 오르니까 오히려 더 일 안 시키려고 하는 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+최저/NNG+임금/NNG+도/JX+오르/VV+니까/EC+오히려/MAJ+더/MAG+일안/NNG+시키/XSV+려고/EC+하/VV+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래서인지 요즘엔 대기업에서도 퇴사가 많아졌다던데?!",
+            "norm_text": "그래서인지 요즘엔 대기업에서도 퇴사가 많아졌다던데?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서인지/VA+EC+VCP+EC+요즘/NNG+엔/JKB+JX+대/XPN+기업/NNG+에서/JKB+도/JX+퇴사/NNG+가/JKS+많/VA+아/EC+졌/VX+EP+다던데/EC+?/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 대기업은 그래도 괜찮을 텐데 왜 퇴사 하지...?",
+            "norm_text": "대기업은 그래도 괜찮을 텐데 왜 퇴사 하지...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대/XPN+기업/NNG+은/JX+그래도/MAJ+괜찮/VA+을/ETM+텐데/NNB+VCP+EC+왜/MAG+퇴사/NNG+하/XSA+지/EF+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 힘들게 들어갔다가 근로 여건이 마음에 안 들어서 그냥 퇴사한다더라구...",
+            "norm_text": "힘들게 들어갔다가 근로 여건이 마음에 안 들어서 그냥 퇴사한다더라구...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "힘들/VA+게/EC+들어갔/VV+EP+다가/EC+근로/NNG+여건/NNG+이/JKS+마음/NNG+에/JKB+안/MAG+들/VV+어서/EC+그냥/MAG+퇴사/NNG+한다/XSV+EF+더라구/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래도 대기업이면 진짜 고민 많이 될 거 같아",
+            "norm_text": "그래도 대기업이면 진짜 고민 많이 될 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+대/XPN+기업/NNG+이/VCP+면/EC+진짜/MAG+고민/NNG+많이/MAG+될/VV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 나 같으면 근로 여건 안 맞아도 계속 다닐 거 같은데...",
+            "norm_text": "맞아 나 같으면 근로 여건 안 맞아도 계속 다닐 거 같은데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+나/NP+같/VA+으면/EC+근로/NNG+여건/NNG+안/MAG+맞/VV+아도/EC+계속/MAG+다닐/VV+ETM+거/NNB+같/VA+은데/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 언니 같았으면 어땠을 것 같아?",
+            "norm_text": "언니 같았으면 어땠을 것 같아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+같/VA+았/EP+으면/EC+어땠/VA+EP+을/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나도 일단은 다니겠지만 진짜 고민 많이 할 거 같기는 해",
+            "norm_text": "나도 일단은 다니겠지만 진짜 고민 많이 할 거 같기는 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+일단/MAG+은/JX+다니/VV+겠/EP+지만/EC+진짜/MAG+고민/NNG+많이/MAG+할/VV+ETM+거/NNB+같/VA+기/ETN+는/JX+해/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그렇겠지? ㅜ 세대 별로 직장에 대한 가치관이 많이 달라지고 있는 거 같아",
+            "norm_text": "그렇겠지? ㅜ 세대 별로 직장에 대한 가치관이 많이 달라지고 있는 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+겠/EP+지/EF+ㅜ/UNKNOWN+세대/NNG+별/XSN+로/JKB+직장/NNG+에/JKB+대한/VV+ETM+가치관/NNG+이/JKS+많이/MAG+달라지/VV+고/EC+있/VX+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 공무원 합격해도 그만두고 나온다는 사람도 많더라구",
+            "norm_text": "공무원 합격해도 그만두고 나온다는 사람도 많더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "공무원/NNG+합격/NNG+해도/XSV+EC+그만두/VV+고/EC+나온다는/VV+ETM+사람/NNG+도/JX+많/VA+더라구/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 정말 세상 참 많이 달라졌어~!",
+            "norm_text": "정말 세상 참 많이 달라졌어~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+세상/NNG+참/MAG+많이/MAG+달라졌/VV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞아 이제 하고 싶은 대로 하는 세상이지~",
+            "norm_text": "맞아 이제 하고 싶은 대로 하는 세상이지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+이제/MAG+하/VV+고/EC+싶/VX+은/ETM+대로/NNB+하/VV+는/ETM+세상/NNG+이/VCP+지/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

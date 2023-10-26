@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 31918,
+    "name": "KAKAO_777_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301503560490105/KAKAO_777_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301503560490105/KAKAO_777_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38273,
+      "filename": "KAKAO_777_02.txt",
+      "title": "KAKAO_777_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 662,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 662,
+        "word_size": 216,
+        "text": "1 : 자기야 나 엄마가 준 이 집에서 결혼 하면 나가야 할 것 같아.\n2 : 응? 갑자기 왜?\n2 : 결혼하면 거기서 살자고 한 것 아니었어?\n1 : 여기가 부동산 값이 많이 올라서, 엄마 노후자금으로 쓰신다고 엄마가 얼마 줄 테니 집 구해서 천천히 나가라고 하시네\n2 : 큰일이네.\n2 : 갑자기 집 알아 볼려고 하니 막막하네.\n1 : 자기는 어디 쪽으로 알아 보고 싶어?\n1 : 우리 가진 돈이 많이 없어서 경기도 쪽이나 외곽으로 알아봐야 할 것 같은데\n2 : 나는 무조건 인 서울 이어야 해.\n1 : 인 서울은 너무 비싸잖아?\n1 : 우리 수중에 가진 돈이 많이 부족해!\n1 : 자기 돈 많이 모아 놨어?\n2 : 아니. 우리 월세부터 시작하자.\n1 : 헐... 월세가 얼마나 아까운 돈인데.\n2 : 나 경기도 쪽으로 가긴 싫어.\n2 : 출퇴근 너무 힘들단 말야.\n1 : 다 출퇴근 힘들어도 돈 아끼자고 다들 그렇게 다니는 건데.\n2 : 빌라나 원룸 월세부터 시작하자.\n1 : 바뀔 맘은 없는 거지?\n1 : 너무 확고하네?\n2 : 응 난 꼭 서울 이었음 하고 나도 부모님께 말씀 드려 볼께.\n2 : 마련 해 주실 수 있는 돈 있냐고.\n1 : 믿는 구석이 있었던 건가?\n1 : 알겠으니 일단 집 알아보자.\n2 : 그냥 일단 말씀만 한번 드려 볼려고.\n2 : 요새 집 짓느라 돈 없으시긴 하실 것 같은데. 일단 물어라도 볼께!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 나 엄마가 준 이 집에서 결혼 하면 나가야 할 것 같아.",
+            "norm_text": "자기야 나 엄마가 준 이 집에서 결혼 하면 나가야 할 것 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+야/VCP+EF+나/NP+엄마/NNG+가/JKS+준이/NNG+집/NNG+에서/JKB+결혼/NNG+하/XSV+면/EC+나가/VX+야/EC+할/VX+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응? 갑자기 왜?",
+            "norm_text": "응? 갑자기 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+갑자기/MAG+왜/MAG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 결혼하면 거기서 살자고 한 것 아니었어?",
+            "norm_text": "결혼하면 거기서 살자고 한 것 아니었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "결혼/NNG+하/XSV+면/EC+거기/NP+서/JKB+살/VV+자고/EC+한/VX+ETM+것/NNB+아니/VCN+었/EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 여기가 부동산 값이 많이 올라서, 엄마 노후자금으로 쓰신다고 엄마가 얼마 줄 테니 집 구해서 천천히 나가라고 하시네",
+            "norm_text": "여기가 부동산 값이 많이 올라서, 엄마 노후자금으로 쓰신다고 엄마가 얼마 줄 테니 집 구해서 천천히 나가라고 하시네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여기/NP+가/JKS+부동산/NNG+값/NNG+이/JKS+많이/MAG+올라서/VV+EF+,/SC+엄마/NNG+노후/NNG+자금/NNG+으로/JKB+쓰/VV+신다고/EP+EC+엄마/NNG+가/JKS+얼마/NNG+줄/VV+ETM+테/NNB+VCP+니/EC+집구/NNG+해서/XSV+EC+천천히/MAG+나가/VV+라고/EC+하/VX+시/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 큰일이네.",
+            "norm_text": "큰일이네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "큰일/NNG+이/VCP+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 갑자기 집 알아 볼려고 하니 막막하네.",
+            "norm_text": "갑자기 집 알아 볼려고 하니 막막하네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "갑자기/MAG+집/NNG+알/VV+아/EC+볼려고/VX+EC+하/VV+니/EC+막막/XR+하/XSA+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 자기는 어디 쪽으로 알아 보고 싶어?",
+            "norm_text": "자기는 어디 쪽으로 알아 보고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+는/JX+어디/NP+쪽/NNB+으로/JKB+알아보/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우리 가진 돈이 많이 없어서 경기도 쪽이나 외곽으로 알아봐야 할 것 같은데",
+            "norm_text": "우리 가진 돈이 많이 없어서 경기도 쪽이나 외곽으로 알아봐야 할 것 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+가진/VV+ETM+돈/NNG+이/JKS+많이/MAG+없/VA+어서/EC+경기도/NNP+쪽/NNB+이나/JC+외곽/NNG+으로/JKB+알/VV+아/EC+봐야/VX+EC+할/VX+ETM+것/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나는 무조건 인 서울 이어야 해.",
+            "norm_text": "나는 무조건 인 서울 이어야 해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+무조건/NNG+인/VCP+ETM+서울/NNP+이/VCP+어야/EC+해/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 인 서울은 너무 비싸잖아?",
+            "norm_text": "인 서울은 너무 비싸잖아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "인/NNG+서울/NNP+은/JX+너무/MAG+비싸/VA+잖아/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 우리 수중에 가진 돈이 많이 부족해!",
+            "norm_text": "우리 수중에 가진 돈이 많이 부족해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+수중/NNG+에/JKB+가진/VV+ETM+돈/NNG+이/JKS+많이/MAG+부족/NNG+해/XSV+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 자기 돈 많이 모아 놨어?",
+            "norm_text": "자기 돈 많이 모아 놨어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+돈/NNG+많이/MAG+모아놨/VV+EC+VX+EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니. 우리 월세부터 시작하자.",
+            "norm_text": "아니. 우리 월세부터 시작하자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아니/IC+우리/NP+월세/NNG+부터/JX+시작/NNG+하/XSA+자/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 헐... 월세가 얼마나 아까운 돈인데.",
+            "norm_text": "헐... 월세가 얼마나 아까운 돈인데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+월세/NNG+가/JKS+얼마나/MAG+아까운/VA+ETM+돈/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나 경기도 쪽으로 가긴 싫어.",
+            "norm_text": "나 경기도 쪽으로 가긴 싫어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+경기도/NNP+쪽/NNB+으로/JKB+가/VV+긴/ETN+JX+싫/VA+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 출퇴근 너무 힘들단 말야.",
+            "norm_text": "출퇴근 너무 힘들단 말야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "출퇴근/NNG+너무/MAG+힘들/VA+단/ETM+말/NNG+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 다 출퇴근 힘들어도 돈 아끼자고 다들 그렇게 다니는 건데.",
+            "norm_text": "다 출퇴근 힘들어도 돈 아끼자고 다들 그렇게 다니는 건데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다/MAG+출퇴근/NNG+힘들/VA+어도/EC+돈/NNG+아끼/VV+자고/EC+다/MAG+들/XSN+그렇게/MAG+다니/VV+는/ETM+건데/NNB+VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 빌라나 원룸 월세부터 시작하자.",
+            "norm_text": "빌라나 원룸 월세부터 시작하자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "빌라/NNG+나/JC+원룸/NNG+월세/NNG+부터/JX+시작/NNG+하/XSA+자/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 바뀔 맘은 없는 거지?",
+            "norm_text": "바뀔 맘은 없는 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "바뀔/VV+ETM+맘/NNG+은/JX+없/VA+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 너무 확고하네?",
+            "norm_text": "너무 확고하네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너무/MAG+확고/XR+하/XSA+네/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 응 난 꼭 서울 이었음 하고 나도 부모님께 말씀 드려 볼께.",
+            "norm_text": "응 난 꼭 서울 이었음 하고 나도 부모님께 말씀 드려 볼께.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+난/NP+JX+꼭/MAG+서울/NNP+이/VCP+었/EP+음/ETN+하고/JC+나/NP+도/JX+부모/NNG+님/XSN+께/JKB+말씀드려/VV+EC+볼께/VX+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 마련 해 주실 수 있는 돈 있냐고.",
+            "norm_text": "마련 해 주실 수 있는 돈 있냐고.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마련/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+는/ETM+돈/NNG+있/VA+냐고/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 믿는 구석이 있었던 건가?",
+            "norm_text": "믿는 구석이 있었던 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "믿/VV+는/ETM+구석/NNP+이/JKS+있/VA+었/EP+던/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 24,
+            "text": "1 : 알겠으니 일단 집 알아보자.",
+            "norm_text": "알겠으니 일단 집 알아보자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "알/VV+겠/EP+으니/EC+일단/MAG+집/NNG+알아보/VV+자/EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그냥 일단 말씀만 한번 드려 볼려고.",
+            "norm_text": "그냥 일단 말씀만 한번 드려 볼려고.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+일단/MAG+말씀/NNG+만/JX+한번/MAG+드려/VV+EC+볼려고/VX+EF"
+          },
+          {
+            "id": 26,
+            "text": "2 : 요새 집 짓느라 돈 없으시긴 하실 것 같은데. 일단 물어라도 볼께!",
+            "norm_text": "요새 집 짓느라 돈 없으시긴 하실 것 같은데. 일단 물어라도 볼께!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+집/NNG+짓/VV+느라/EC+돈/NNG+없/VA+으시/EP+긴/ETN+JX+하/VX+실/EP+ETM+것/NNB+같/VA+은데/EF+일단/MAG+물어라도/VV+EC+볼께/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

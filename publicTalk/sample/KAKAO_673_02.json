@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 52752,
+    "name": "KAKAO_673_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927009123/KAKAO_673_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927009123/KAKAO_673_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34780,
+      "filename": "KAKAO_673_02.txt",
+      "title": "KAKAO_673_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 411,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 411,
+        "word_size": 135,
+        "text": "1 : 풋살 언제 끝나?\n2 : 나 11시쯤에 끝날 것 같아\n1 : 11시면 버스 끊기겠다... 집에 어떻게 가려고\n2 : 여기 같이 풋살 하는 친구 자취방에서 자고 가려고\n1 : 너 친구라고 뻥 치고 다른 여자 집에 가는 거지?\n2 : 날 그렇게 못 믿니?\n2 : 대학교 친구가 집이 영암인데 광주에서 자취해\n1 : 아 그래? 좀 이따 인증샷 보내시고~\n2 : 응응~ 걱정하지 마세요~\n1 : 그 친구 집 어느 쪽이야?\n1 : 풋살장이랑 가까워?\n2 : 응 풋살장에서 걸어서 10분 거리야\n1 : 그럼 친구랑 한 방에서 같이 자는 거야?\n2 : 아니 친구 집 투룸이라 나는 옷 방에서 자래\n1 : 아하? 투룸은 얼마 정도 하려나\n2 : 여기 LH청년 주택이라 월세 13만 원밖에 안 나간대 대박이지\n1 : 헐 우리도 신청 가능해?\n2 : 넌 독립이 가능하긴 하고?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 풋살 언제 끝나?",
+            "norm_text": "풋살 언제 끝나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "풋살/NNP+언제/MAG+끝나/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 11시쯤에 끝날 것 같아",
+            "norm_text": "나 11시쯤에 끝날 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+11/SN+시/NNBC+쯤/XSN+에/JKB+끝날/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 11시면 버스 끊기겠다... 집에 어떻게 가려고",
+            "norm_text": "11시면 버스 끊기겠다... 집에 어떻게 가려고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "11/SN+시/NNBC+면/VCP+EC+버스/NNG+끊기/VV+겠/EP+다/EF+./SY+집/NNG+에/JKB+어떻/VA+게/EC+가/VX+려고/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 여기 같이 풋살 하는 친구 자취방에서 자고 가려고",
+            "norm_text": "여기 같이 풋살 하는 친구 자취방에서 자고 가려고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여기/NP+같이/JKB+풋/XPN+살/NNG+하/XSV+는/ETM+친구/NNG+자취방/NNG+에서/JKB+자/VV+고/EC+가/VX+려고/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 너 친구라고 뻥 치고 다른 여자 집에 가는 거지?",
+            "norm_text": "너 친구라고 뻥 치고 다른 여자 집에 가는 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+친구/NNG+라고/VCP+EC+뻥치/VV+고/EC+다른/MM+여자/NNG+집/NNG+에/JKB+가/VV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 날 그렇게 못 믿니?",
+            "norm_text": "날 그렇게 못 믿니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "날/NNG+그렇게/MAG+못/MAG+믿/VV+니/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 대학교 친구가 집이 영암인데 광주에서 자취해",
+            "norm_text": "대학교 친구가 집이 영암인데 광주에서 자취해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대학교/NNG+친구/NNG+가/JKS+집/NNG+이/JKS+영암/NNP+인데/VCP+EC+광주/NNP+에서/JKB+자취/NNG+해/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 그래? 좀 이따 인증샷 보내시고~",
+            "norm_text": "아 그래? 좀 이따 인증샷 보내시고~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+좀/MAG+이따/MAG+인증/NNG+샷/NNG+보내/VV+시/EP+고/EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응응~ 걱정하지 마세요~",
+            "norm_text": "응응~ 걱정하지 마세요~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+~/SY+걱정/NNG+하/XSV+지/EC+마세요/VX+EP+EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그 친구 집 어느 쪽이야?",
+            "norm_text": "그 친구 집 어느 쪽이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+친구/NNG+집/NNG+어느/MM+쪽/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 풋살장이랑 가까워?",
+            "norm_text": "풋살장이랑 가까워?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "풋/XPN+살장/NNG+이랑/JKB+가까워/VA+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 풋살장에서 걸어서 10분 거리야",
+            "norm_text": "응 풋살장에서 걸어서 10분 거리야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+풋/MAG+살장/NNG+에서/JKB+걸어서/VV+EC+10/SN+분/NNBC+거리/VV+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 친구랑 한 방에서 같이 자는 거야?",
+            "norm_text": "그럼 친구랑 한 방에서 같이 자는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+친구/NNG+랑/JKB+한방/NNG+에서/JKB+같이/MAG+자/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 친구 집 투룸이라 나는 옷 방에서 자래",
+            "norm_text": "아니 친구 집 투룸이라 나는 옷 방에서 자래",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+친구/NNG+집/NNG+투/NR+룸/NNG+이/VCP+라/EC+나/NP+는/JX+옷/NNG+방/NNG+에서/JKB+자래/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아하? 투룸은 얼마 정도 하려나",
+            "norm_text": "아하? 투룸은 얼마 정도 하려나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하/IC+투/NR+룸/NNG+은/JX+얼마/NNG+정도/NNG+하/XSV+려나/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 여기 LH청년 주택이라 월세 13만 원밖에 안 나간대 대박이지",
+            "norm_text": "여기 LH청년 주택이라 월세 13만 원밖에 안 나간대 대박이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+LH/SL+청년/NNG+주택/NNG+이/VCP+라/EC+월세/NNG+13/SN+만/NR+원/NNBC+밖에/JX+안/MAG+나간대/VV+EC+대박/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 헐 우리도 신청 가능해?",
+            "norm_text": "헐 우리도 신청 가능해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+우리/NP+도/JX+신청/NNG+가능/NNG+해/XSV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 넌 독립이 가능하긴 하고?",
+            "norm_text": "넌 독립이 가능하긴 하고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+독립/NNG+이/JKS+가능/NNG+하/XSV+긴/ETN+JX+하/VX+고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

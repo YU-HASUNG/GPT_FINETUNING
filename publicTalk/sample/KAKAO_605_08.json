@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34839,
+    "name": "KAKAO_605_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142937033673/KAKAO_605_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142937033673/KAKAO_605_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34266,
+      "filename": "KAKAO_605_08.txt",
+      "title": "KAKAO_605_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 461,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 461,
+        "word_size": 149,
+        "text": "1 : 오빠~ 오빠 친구가 이번에 애 낳았다고 했지?\n2 : 응응 맞아 키키 둘째 낳았대\n1 : 오~ 첫째 아니고 둘째였구나! 남자아이야?\n2 : 응응 이번에도 남자래 하하 남자만 둘이야\n1 : 우와…언니가 애들 케어하기 힘들겠다 ㅠㅠ\n2 : 거긴 남자 애만 셋이라고 보면 될 거야… 친구 놈까지\n1 : 키키 그러면 더 힘들겠는데…?\n2 : 근데 친구는 신난 것 같더라 남자애라서 좋대 키키\n1 : 딸 낳고 싶어할 줄 알았는데 하하\n2 : 보통 아빠들이 딸을 원하는 경우가 많은데~ 얘는 아들이 좋대\n1 : 뭔가 그 오빠는 그럴 것 같기도 해 하하\n2 : 이제 아들 두 명 돼서 더 열심히 일하는 것 같더라 하하\n1 : 그렇겠다 진짜, 애 둘 키우기 힘들 것 같아…\n2 : 거의 아침이랑 밤 늦게만 볼 수 있다나 봐 ㅠㅠ\n1 : 오빠는 일하느라 힘들고 언니는 애들 보느라 힘들겠다 ㅠㅠ\n2 : 그래도 행복해 하는 것 같더라고 하하 다음에 보러 가자~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~ 오빠 친구가 이번에 애 낳았다고 했지?",
+            "norm_text": "오빠~ 오빠 친구가 이번에 애 낳았다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오빠/NNG+~/SY+오빠/NNG+친구/NNG+가/JKS+이번/NNG+에/JKB+애/NNG+낳/VV+았/EP+다고/EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 맞아 키키 둘째 낳았대",
+            "norm_text": "응응 맞아 키키 둘째 낳았대",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+맞/VV+아/EC+키/NNG+키/XSV+ETN+둘째/NR+낳/VV+았/EP+대/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오~ 첫째 아니고 둘째였구나! 남자아이야?",
+            "norm_text": "오~ 첫째 아니고 둘째였구나! 남자아이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+첫째/NR+아니/VCN+고/EC+둘째/NR+였/VCP+EP+구나/EF+남자/NNG+아이/NNG+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 이번에도 남자래 하하 남자만 둘이야",
+            "norm_text": "응응 이번에도 남자래 하하 남자만 둘이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+이번/NNG+에/JKB+도/JX+남자/NNG+래/VCP+EF+하하/MAG+남자/NNG+만/JX+둘/NR+이/VCP+야/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 우와…언니가 애들 케어하기 힘들겠다 ㅠㅠ",
+            "norm_text": "우와…언니가 애들 케어하기 힘들겠다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+…/SE+언니/NNG+가/JKS+애/NNG+들/XSN+케어/NNG+하/XSV+기/ETN+힘들/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 거긴 남자 애만 셋이라고 보면 될 거야… 친구 놈까지",
+            "norm_text": "거긴 남자 애만 셋이라고 보면 될 거야… 친구 놈까지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거긴/NP+JX+남자/NNG+애/NNG+만/JX+셋/NR+이/VCP+라고/EC+보/VX+면/EC+될/VV+ETM+거/NNB+야/VCP+EF+…/SE+친구/NNG+놈/NNB+까지/JX"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 그러면 더 힘들겠는데…?",
+            "norm_text": "키키 그러면 더 힘들겠는데…?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러면/MAJ+더/MAG+힘들/VA+겠/EP+는데/EC+…/SE"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 친구는 신난 것 같더라 남자애라서 좋대 키키",
+            "norm_text": "근데 친구는 신난 것 같더라 남자애라서 좋대 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+친구/NNG+는/JX+신/NNG+난/VV+ETM+것/NNB+같/VA+더라/EC+남자/NNG+애/NNG+라서/VCP+EC+좋/VA+대/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 딸 낳고 싶어할 줄 알았는데 하하",
+            "norm_text": "딸 낳고 싶어할 줄 알았는데 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "딸/NNG+낳/VV+고/EC+싶/VX+어/EC+할/VX+ETM+줄/NNB+알/VV+았/EP+는데/EC+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 보통 아빠들이 딸을 원하는 경우가 많은데~ 얘는 아들이 좋대",
+            "norm_text": "보통 아빠들이 딸을 원하는 경우가 많은데~ 얘는 아들이 좋대",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보통/NNG+아빠/NNG+들/XSN+이/JKS+딸/NNG+을/JKO+원하/VV+는/ETM+경우/NNG+가/JKS+많/VA+은데/EC+~/SY+얘/NP+는/JX+아들/NNG+이/JKS+좋/VA+대/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 뭔가 그 오빠는 그럴 것 같기도 해 하하",
+            "norm_text": "뭔가 그 오빠는 그럴 것 같기도 해 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+그/MM+오빠/NNG+는/JX+그럴/VA+ETM+것/NNB+같/VA+기/ETN+도/JX+해하/NNG+하/XSV"
+          },
+          {
+            "id": 12,
+            "text": "2 : 이제 아들 두 명 돼서 더 열심히 일하는 것 같더라 하하",
+            "norm_text": "이제 아들 두 명 돼서 더 열심히 일하는 것 같더라 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이제/MAG+아들/NNG+두/MM+명/NNBC+돼서/VV+EC+더/MAG+열심히/MAG+일/NNG+하/XSV+는/ETM+것/NNB+같/VA+더라/EC+하하/MAG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그렇겠다 진짜, 애 둘 키우기 힘들 것 같아…",
+            "norm_text": "그렇겠다 진짜, 애 둘 키우기 힘들 것 같아…",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+겠/EP+다/EF+진짜/MAG+,/SC+애/NNG+둘/NR+키우/VV+기/ETN+힘들/VA+ETM+것/NNB+같/VA+아/EC+…/SE"
+          },
+          {
+            "id": 14,
+            "text": "2 : 거의 아침이랑 밤 늦게만 볼 수 있다나 봐 ㅠㅠ",
+            "norm_text": "거의 아침이랑 밤 늦게만 볼 수 있다나 봐 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거의/MAG+아침/NNG+이랑/JKB+밤늦/VA+게/EC+만/JX+볼/VV+ETM+수/NNB+있/VV+다나/EC+봐/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오빠는 일하느라 힘들고 언니는 애들 보느라 힘들겠다 ㅠㅠ",
+            "norm_text": "오빠는 일하느라 힘들고 언니는 애들 보느라 힘들겠다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오빠/NNG+는/JX+일/NNG+하/XSV+느라/EC+힘들/VA+고/EC+언니/NNG+는/JX+애/NNG+들/XSN+보/VV+느라/EC+힘들/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래도 행복해 하는 것 같더라고 하하 다음에 보러 가자~!",
+            "norm_text": "그래도 행복해 하는 것 같더라고 하하 다음에 보러 가자~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래도/MAJ+행복/NNG+해/XSV+EC+하/VV+는/ETM+것/NNB+같/VA+더라고/EC+하하/MAG+다음/NNG+에/JKB+보/VV+러/EC+가/VX+자/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

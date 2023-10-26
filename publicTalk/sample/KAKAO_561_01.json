@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 24093,
+    "name": "KAKAO_561_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209013037/KAKAO_561_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209013037/KAKAO_561_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30052,
+      "filename": "KAKAO_561_01.txt",
+      "title": "KAKAO_561_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 766,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 766,
+        "word_size": 268,
+        "text": "1 : 어제 배달 시켜 먹었는데 맛있더라\n1 : 성수동에 배달 음식 맛있는 곳 있잖아 알아?\n2 : 응 알아 꾸이한끼 말하는 거지?\n1 : 응 거기 정말 맛있던데 다음에 같이 한번 시켜 먹어 보자!\n1 : 덮밥 좋아해?\n2 : 그래 좋아 나도 먹어 봤는데 완전 맛있더라\n2 : 너도 먹어 봤다니 역시 맛집인가 봄 키키\n2 : 난 덮밥 완전 좋아해 넌 덮밥류 좋아하니?\n1 : 난 덮밥류 엄청 좋아하지\n1 : 거기 데리야끼 덮밥이 유명하다고 하더라 같이 한번 먹어 보자\n1 : 지금 오픈한 지 얼마 안 돼서 리뷰 이벤트도 해!\n2 : 나는 오야꼬동 먹어 봤는데 넌 뭐 시켜 먹었는데?\n1 : 나는 데리야끼 덮밥 먹었어\n1 : 치킨류도 있던데 그거 같이 먹어 보자 안 먹어 봤으면\n2 : 그래 좋아 그때 다 먹고 리뷰 이벤트도 하자!\n1 : 거기서 덮밥도 먹고 카페도 가 보자\n1 : 날 잡고 맛집 투어 한번 가 보자!\n2 : 그래 좋아 니가 다 사는 걸로ㅎ\n2 : 근데 리뷰 이벤트 하면 뭐 줘?\n1 : 콜라 사이다 고르면 주는 거 같던데 난 리뷰 쓰는 거 귀찮아서 잘 안 쓰는 편이야 너는 자주 써?\n2 : 응 나는 매번 쓰는 거 같아 그래야 뭐라도 더 주니까^^\n2 : 너는 알뜰하지 않구나\n1 : 그냥 한 개 더 시켜 먹는 게 편해 리뷰 쓰는 건 너무 귀찮아\n1 : 다음에 여러 개 시켜 먹자\n2 : 야 너 부자야? 그래 좋아 ㅎ\n2 : 네 개 시켜서 너 세 개 먹고 난 한 개 먹으면 되겠다 ㅎ\n1 : 그래 대신 돈은 반반으로 내자 그래야 공평하지\n1 : 담에 꼭 먹는 걸로 약속하자\n2 : 그래 좋아~ 날 잡아!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어제 배달 시켜 먹었는데 맛있더라",
+            "norm_text": "어제 배달 시켜 먹었는데 맛있더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어제/MAG+배달/NNG+시켜/XSV+EC+먹/VV+었/EP+는데/EC+맛있/VA+더라/EC"
+          },
+          {
+            "id": 2,
+            "text": "1 : 성수동에 배달 음식 맛있는 곳 있잖아 알아?",
+            "norm_text": "성수동에 배달 음식 맛있는 곳 있잖아 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "성수동/NNP+에/JKB+배달/NNG+음식/NNG+맛있/VA+는/ETM+곳/NNB+있/VV+잖아/EC+알/VV+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 응 알아 꾸이한끼 말하는 거지?",
+            "norm_text": "응 알아 꾸이한끼 말하는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+알/VV+아/EC+꾸이/VV+한/MM+끼/NNBC+말/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응 거기 정말 맛있던데 다음에 같이 한번 시켜 먹어 보자!",
+            "norm_text": "응 거기 정말 맛있던데 다음에 같이 한번 시켜 먹어 보자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+거기/NP+정말/MAG+맛있/VA+던데/EC+다음/NNG+에/JKB+같이/MAG+한번/MAG+시켜/VV+EC+먹/VV+어/EC+보/VX+자/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 덮밥 좋아해?",
+            "norm_text": "덮밥 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "덮밥/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래 좋아 나도 먹어 봤는데 완전 맛있더라",
+            "norm_text": "그래 좋아 나도 먹어 봤는데 완전 맛있더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+좋/VA+아/EC+나/NP+도/JX+먹/VV+어/EC+봤/VX+EP+는데/EC+완전/MAG+맛있/VA+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 너도 먹어 봤다니 역시 맛집인가 봄 키키",
+            "norm_text": "너도 먹어 봤다니 역시 맛집인가 봄 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+먹/VV+어/EC+봤/VX+EP+다니/EF+역시/MAJ+맛집/NNG+인가/VCP+EC+봄/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 난 덮밥 완전 좋아해 넌 덮밥류 좋아하니?",
+            "norm_text": "난 덮밥 완전 좋아해 넌 덮밥류 좋아하니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "난/NP+JX+덮밥/NNG+완전/MAG+좋아해/VV+EC+넌/NP+JX+덮밥/NNG+류/XSN+좋/VA+아/EC+하/VX+니/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 난 덮밥류 엄청 좋아하지",
+            "norm_text": "난 덮밥류 엄청 좋아하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+덮밥/NNG+류/XSN+엄청/MAG+좋/VA+아/EC+하/VV+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 거기 데리야끼 덮밥이 유명하다고 하더라 같이 한번 먹어 보자",
+            "norm_text": "거기 데리야끼 덮밥이 유명하다고 하더라 같이 한번 먹어 보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "거기/NP+데리/VV+야/EC+끼/NNG+덮밥/NNG+이/JKS+유명/NNG+하/XSV+다고/EC+하/VV+더라/EC+같이/MAG+한번/MAG+먹/VV+어/EC+보/VX+자/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 지금 오픈한 지 얼마 안 돼서 리뷰 이벤트도 해!",
+            "norm_text": "지금 오픈한 지 얼마 안 돼서 리뷰 이벤트도 해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+오픈/NNG+한지/XSA+EC+얼마/NNG+안/MAG+돼서/VV+EC+리뷰/NNP+이벤트/NNG+도/JX+해/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 오야꼬동 먹어 봤는데 넌 뭐 시켜 먹었는데?",
+            "norm_text": "나는 오야꼬동 먹어 봤는데 넌 뭐 시켜 먹었는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+오/VV+야/EF+꼬동/UNKNOWN+먹/VV+어/EC+봤/VX+EP+는데/EC+넌/NP+JX+뭐/NP+시켜/VV+EC+먹/VV+었/EP+는데/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나는 데리야끼 덮밥 먹었어",
+            "norm_text": "나는 데리야끼 덮밥 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+데리/VV+야/EC+끼/NNG+덮밥/NNG+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 치킨류도 있던데 그거 같이 먹어 보자 안 먹어 봤으면",
+            "norm_text": "치킨류도 있던데 그거 같이 먹어 보자 안 먹어 봤으면",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "치킨/NNG+류/XSN+도/JX+있/VA+던데/EC+그거/NP+같이/MAG+먹/VV+어/EC+보/VX+자/EC+안/MAG+먹/VV+어/EC+봤/VX+EP+으면/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그래 좋아 그때 다 먹고 리뷰 이벤트도 하자!",
+            "norm_text": "그래 좋아 그때 다 먹고 리뷰 이벤트도 하자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래/IC+좋/VA+아/EC+그때/NNG+다/MAG+먹/VV+고/EC+리뷰/NNP+이벤트/NNG+도/JX+하/VV+자/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 거기서 덮밥도 먹고 카페도 가 보자",
+            "norm_text": "거기서 덮밥도 먹고 카페도 가 보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "거기/NP+서/JKB+덮밥/NNG+도/JX+먹/VV+고/EC+카페/NNG+도/JX+가/VV+EC+보/VX+자/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 날 잡고 맛집 투어 한번 가 보자!",
+            "norm_text": "날 잡고 맛집 투어 한번 가 보자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "날/NP+JKO+잡/VV+고/EC+맛집/NNG+투어/NNG+한/MM+번/NNBC+가/JKS+보/VV+자/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그래 좋아 니가 다 사는 걸로ㅎ",
+            "norm_text": "그래 좋아 니가 다 사는 걸로ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+좋/VA+아/EC+니/NP+가/JKS+다/MAG+사/VV+는/ETM+걸로/NNB+JKB+ㅎ/XSA"
+          },
+          {
+            "id": 19,
+            "text": "2 : 근데 리뷰 이벤트 하면 뭐 줘?",
+            "norm_text": "근데 리뷰 이벤트 하면 뭐 줘?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+리뷰/NNP+이벤트/NNG+하/XSV+면/EC+뭐/IC+줘/VV+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 콜라 사이다 고르면 주는 거 같던데 난 리뷰 쓰는 거 귀찮아서 잘 안 쓰는 편이야 너는 자주 써?",
+            "norm_text": "콜라 사이다 고르면 주는 거 같던데 난 리뷰 쓰는 거 귀찮아서 잘 안 쓰는 편이야 너는 자주 써?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "콜라/NNG+사이다/NNG+고르/VA+면/EC+주/VX+는/ETM+거/NNB+같/VA+던데/EC+난/VX+ETM+리뷰/NNP+쓰/VV+는/ETM+거/NNB+귀찮/VA+아서/EC+잘/MAG+안/MAG+쓰/VV+는/ETM+편/NNB+이/VCP+야/EF+너/NP+는/JX+자주/MAG+써/VV+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 응 나는 매번 쓰는 거 같아 그래야 뭐라도 더 주니까^^",
+            "norm_text": "응 나는 매번 쓰는 거 같아 그래야 뭐라도 더 주니까^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+매번/MAG+쓰/VV+는/ETM+거/NNB+같/VA+아/EC+그래야/VV+EC+뭐/NP+라도/VCP+EC+더/MAG+주/VV+니까/EC+^/SY+^/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 너는 알뜰하지 않구나",
+            "norm_text": "너는 알뜰하지 않구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+알뜰/XR+하/XSA+지/EC+않/VX+구나/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 그냥 한 개 더 시켜 먹는 게 편해 리뷰 쓰는 건 너무 귀찮아",
+            "norm_text": "그냥 한 개 더 시켜 먹는 게 편해 리뷰 쓰는 건 너무 귀찮아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+한/MM+개/NNBC+더/MAG+시켜/VV+EC+먹/VV+는/ETM+게/NNB+JKS+편해/VA+EC+리뷰/NNP+쓰/VV+는/ETM+건/NNB+JX+너무/MAG+귀찮/VA+아/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 다음에 여러 개 시켜 먹자",
+            "norm_text": "다음에 여러 개 시켜 먹자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "다음/NNG+에/JKB+여러/MM+개/NNBC+시켜/VV+EC+먹/VV+자/EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 야 너 부자야? 그래 좋아 ㅎ",
+            "norm_text": "야 너 부자야? 그래 좋아 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+너부/NNG+자/XSN+야/VCP+EF+그래/IC+좋/VA+아/EC+ㅎ/XSA"
+          },
+          {
+            "id": 26,
+            "text": "2 : 네 개 시켜서 너 세 개 먹고 난 한 개 먹으면 되겠다 ㅎ",
+            "norm_text": "네 개 시켜서 너 세 개 먹고 난 한 개 먹으면 되겠다 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/MM+개/NNBC+시켜/VV+EC+서너/MM+세/MM+개/NNBC+먹/VV+고/EC+난/NP+JX+한/MM+개/NNBC+먹/VV+으면/EC+되/VV+겠/EP+다/EF+ㅎ/XSA"
+          },
+          {
+            "id": 27,
+            "text": "1 : 그래 대신 돈은 반반으로 내자 그래야 공평하지",
+            "norm_text": "그래 대신 돈은 반반으로 내자 그래야 공평하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+대신/NNG+돈/NNG+은/JX+반반/NNG+으로/JKB+내/VV+자/EC+그래야/VV+EC+공평/NNG+하/XSV+지/EC"
+          },
+          {
+            "id": 28,
+            "text": "1 : 담에 꼭 먹는 걸로 약속하자",
+            "norm_text": "담에 꼭 먹는 걸로 약속하자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "담/NNG+에/JKB+꼭/MAG+먹/VV+는/ETM+걸로/NNB+JKB+약속/NNG+하/XSV+자/EC"
+          },
+          {
+            "id": 29,
+            "text": "2 : 그래 좋아~ 날 잡아!",
+            "norm_text": "그래 좋아~ 날 잡아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+좋/VA+아/EC+~/SY+날/NNG+잡/VV+아/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

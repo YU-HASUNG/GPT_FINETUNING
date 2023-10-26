@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 23898,
+    "name": "KAKAO_552_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155950054631/KAKAO_552_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155950054631/KAKAO_552_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30028,
+      "filename": "KAKAO_552_17.txt",
+      "title": "KAKAO_552_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 572,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 572,
+        "word_size": 182,
+        "text": "1 : 나 어제 자다가 담 걸려서 오늘 한의원 갔다 왔어...\n2 : 어떻게 잤길래 담이 걸렸대?!\n1 : 몰라 뭔가 막 잤나 봐...\n1 : 오늘 한의원 가서 침 맞으니까 좀 괜찮더라\n2 : 다행이네 역시 한의원! 침 맞는 거 진짜 효과 좋은 거 같아!\n1 : 응응 너도 한의원 좋아하는구나?!\n2 : 그럼~ 나는 양약보다는 한약이 더 몸에 맞아서 감기 걸려도 한의원 가서 한약 지어 와\n1 : 아 감기도?! 한의원을 더 선호하는 이유가 있어?\n2 : 음... 나는 일단 한약 냄새가 너무 좋아!\n1 : 나는 아직도 너무 쓰던데...\n2 : 원래 입에 쓴 게 몸에 좋다잖아!\n2 : 나는 뜸이랑 부항도 자주 맞아!\n1 : 자주? 그럼 너는 요즘 아픈 데 없어?\n2 : 응 나 요즘 컨디션도 너무 좋고 아픈 데 하나도 없어!\n1 : 키키 건강해서 좋겠다! 한의원 자주 다녀서 그런 건가...\n2 : 그럴 수도! 나 일주일에 두 번 정도는 무조건 가는 거 같아!\n1 : 일주일에 두 번이나?! 그래... 건강하다니 다행인데 너무 과하게 챙겨도 몸에 무리 갈 수 있으니 조심해\n2 : 응 안 그래도 주변에서 너무 자주 간다고 해서 이제는 조금 줄여 보려고!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 어제 자다가 담 걸려서 오늘 한의원 갔다 왔어...",
+            "norm_text": "나 어제 자다가 담 걸려서 오늘 한의원 갔다 왔어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+어제/MAG+자다/NNG+가담/NNG+걸려서/VV+EC+오늘/NNG+한/XSA+ETM+의원/NNG+갔다왔/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어떻게 잤길래 담이 걸렸대?!",
+            "norm_text": "어떻게 잤길래 담이 걸렸대?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떻게/MAG+잤/VV+EP+길래/EC+담/NNG+이/JKS+걸렸/VV+EP+대/EF+?/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 몰라 뭔가 막 잤나 봐...",
+            "norm_text": "몰라 뭔가 막 잤나 봐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰라/VV+EF+뭔가/NP+VCP+EC+막/NNG+잤/VV+EP+나/EC+봐/VX+EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오늘 한의원 가서 침 맞으니까 좀 괜찮더라",
+            "norm_text": "오늘 한의원 가서 침 맞으니까 좀 괜찮더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+한/XSA+ETM+의원/NNG+가/VV+서/EC+침/NNG+맞/VV+으니까/EC+좀/MAG+괜찮/VA+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 다행이네 역시 한의원! 침 맞는 거 진짜 효과 좋은 거 같아!",
+            "norm_text": "다행이네 역시 한의원! 침 맞는 거 진짜 효과 좋은 거 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/VCP+네/EF+역시/MAJ+한/MM+의원/NNG+!/SY+침/NNG+맞/VV+는/ETM+거/NNB+진짜/MAG+효과/NNG+좋/VA+은/ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응응 너도 한의원 좋아하는구나?!",
+            "norm_text": "응응 너도 한의원 좋아하는구나?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+너/NP+도/JX+한/MM+의원/NNG+좋/VA+아/EC+하/VX+는구나/EF+?/SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그럼~ 나는 양약보다는 한약이 더 몸에 맞아서 감기 걸려도 한의원 가서 한약 지어 와",
+            "norm_text": "그럼~ 나는 양약보다는 한약이 더 몸에 맞아서 감기 걸려도 한의원 가서 한약 지어 와",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+~/SY+나/NP+는/JX+양약/NNG+보다/JKB+는/JX+한약/NNG+이/JKS+더/MAG+몸/NNG+에/JKB+맞/VV+아서/EC+감기/NNG+걸려도/VV+EC+한/MM+의원/NNG+가/VV+서/EC+한약/NNG+지어/NNG+와/JC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 감기도?! 한의원을 더 선호하는 이유가 있어?",
+            "norm_text": "아 감기도?! 한의원을 더 선호하는 이유가 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+감기/NNG+도/JX+?/SY+한/MM+의원/NNG+을/JKO+더/MAG+선호/NNG+하/XSV+는/ETM+이유/NNG+가/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 음... 나는 일단 한약 냄새가 너무 좋아!",
+            "norm_text": "음... 나는 일단 한약 냄새가 너무 좋아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+나/NP+는/JX+일단/MAG+한약/NNG+냄새/NNG+가/JKS+너무/MAG+좋/VA+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나는 아직도 너무 쓰던데...",
+            "norm_text": "나는 아직도 너무 쓰던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+아직/MAG+도/JX+너무/MAG+쓰/VV+던데/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 원래 입에 쓴 게 몸에 좋다잖아!",
+            "norm_text": "원래 입에 쓴 게 몸에 좋다잖아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+입/NNG+에/JKB+쓴/VV+ETM+게/NNB+JKS+몸/NNG+에/JKB+좋/VA+다잖아/EC+VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 뜸이랑 부항도 자주 맞아!",
+            "norm_text": "나는 뜸이랑 부항도 자주 맞아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+뜸/NNG+이랑/JKB+부항/NNG+도/JX+자주/MAG+맞/VV+아/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 자주? 그럼 너는 요즘 아픈 데 없어?",
+            "norm_text": "자주? 그럼 너는 요즘 아픈 데 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자주/MAG+그럼/MAJ+너/NP+는/JX+요즘/MAG+아픈/VA+ETM+데/NNB+없/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 나 요즘 컨디션도 너무 좋고 아픈 데 하나도 없어!",
+            "norm_text": "응 나 요즘 컨디션도 너무 좋고 아픈 데 하나도 없어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+요즘/MAG+컨디션/NNG+도/JX+너무/MAG+좋/VA+고/EC+아픈데/VA+EC+하나/NR+도/JX+없/VA+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 건강해서 좋겠다! 한의원 자주 다녀서 그런 건가...",
+            "norm_text": "키키 건강해서 좋겠다! 한의원 자주 다녀서 그런 건가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+건강/NNG+해서/XSV+EC+좋/VA+겠/EP+다/EF+한/MM+의원/NNG+자주/MAG+다녀서/VV+EC+그런/MM+건가/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럴 수도! 나 일주일에 두 번 정도는 무조건 가는 거 같아!",
+            "norm_text": "그럴 수도! 나 일주일에 두 번 정도는 무조건 가는 거 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럴/VA+ETM+수/NNB+도/JX+나/NP+일/NR+주일/NNBC+에/JKB+두/MM+번/NNBC+정도/NNG+는/JX+무조건/MAG+가/VV+는/ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 일주일에 두 번이나?! 그래... 건강하다니 다행인데 너무 과하게 챙겨도 몸에 무리 갈 수 있으니 조심해",
+            "norm_text": "일주일에 두 번이나?! 그래... 건강하다니 다행인데 너무 과하게 챙겨도 몸에 무리 갈 수 있으니 조심해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "일/NR+주일/NNBC+에/JKB+두/MM+번/NNBC+이나/JX+?/SY+그래/IC+./SY+건강/NNG+하/XSV+다니/EC+다행/NNG+인데/VCP+EC+너무/MAG+과하/VA+게/EC+챙겨도/VV+EC+몸/NNG+에/JKB+무리/NNG+갈/VV+ETM+수/NNB+있/VV+으니/EC+조심/NNG+해/XSV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 안 그래도 주변에서 너무 자주 간다고 해서 이제는 조금 줄여 보려고!",
+            "norm_text": "응 안 그래도 주변에서 너무 자주 간다고 해서 이제는 조금 줄여 보려고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+안/MAG+그래도/VV+EC+주변/NNG+에서/JKB+너무/MAG+자주/MAG+간다고/VV+EC+해서/VV+EC+이제/NNG+는/JX+조금/MAG+줄여/VV+EC+보/VX+려고/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

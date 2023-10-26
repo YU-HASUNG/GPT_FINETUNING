@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 39183,
+    "name": "KAKAO_892_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095702094446/KAKAO_892_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095702094446/KAKAO_892_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40704,
+      "filename": "KAKAO_892_05.txt",
+      "title": "KAKAO_892_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 425,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 425,
+        "word_size": 129,
+        "text": "1 : 너 군대 어디 나왔어? 일반 육군?\n2 : 나는 해병대 나왔지 하하\n1 : 헐 그 유명한 귀신 잡는 해병대?\n2 : 어... 귀신은 못 잡았지만 키키\n1 : 지역은 어디였어? 백령도?\n2 : 백령도랑 인천 사이에 연평도라고 있거든\n1 : 해병대는 같은 해병대 만나면 기수 물어보고 그러잖아\n2 : 그렇지... 기수 물어보면 일단 경례하고 대화 시작하지 ㅎ\n1 : 헐 키키 그게 해병대 사이에서는 중요한가 봐?\n2 : 그냥 그렇게 되더라... 난 딱히 자부심은 없는데 키키\n1 : 해병대는 일반 육군보다는 많이 힘들어?\n2 : 다 거기서 거기다 ㅎ 자기가 제일 힘들지 ㅎ\n1 : 해군이랑 해병대 차이는 머야?\n2 : 해군은 바다에서 싸우는 거고 해병대는 상륙해서 싸우는 거고?\n1 : 그렇구나... 난 여자라서 해군이랑 해병대가 같은 건 줄 알았어...\n2 : 다들 잘 모를껄 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 군대 어디 나왔어? 일반 육군?",
+            "norm_text": "너 군대 어디 나왔어? 일반 육군?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+군대/NNG+어디/NP+나왔/VV+EP+어/EF+일반/NNG+육군/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 해병대 나왔지 하하",
+            "norm_text": "나는 해병대 나왔지 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+해병대/NNG+나왔/VV+EP+지/EC+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐 그 유명한 귀신 잡는 해병대?",
+            "norm_text": "헐 그 유명한 귀신 잡는 해병대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+그/MM+유명/NNG+한/XSA+ETM+귀신/NNG+잡/VV+는/ETM+해병대/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어... 귀신은 못 잡았지만 키키",
+            "norm_text": "어... 귀신은 못 잡았지만 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+./SY+귀신/NNG+은/JX+못/MAG+잡/VV+았/EP+지만/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 지역은 어디였어? 백령도?",
+            "norm_text": "지역은 어디였어? 백령도?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지역/NNG+은/JX+어디/NP+였/VCP+EP+어/EF+백령도/NNP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 백령도랑 인천 사이에 연평도라고 있거든",
+            "norm_text": "백령도랑 인천 사이에 연평도라고 있거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "백령도/NNP+랑/JC+인천/NNP+사이/NNG+에/JKB+연평도/NNP+라고/VCP+EC+있/VX+거든/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 해병대는 같은 해병대 만나면 기수 물어보고 그러잖아",
+            "norm_text": "해병대는 같은 해병대 만나면 기수 물어보고 그러잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "해병대/NNG+는/JX+같/VA+은/ETM+해병대/NNG+만나/VV+면/EC+기수/NNG+물/VV+어/EC+보/VX+고/EC+그러/VV+잖아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그렇지... 기수 물어보면 일단 경례하고 대화 시작하지 ㅎ",
+            "norm_text": "그렇지... 기수 물어보면 일단 경례하고 대화 시작하지 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+./SY+기수/NNG+물/VV+어/EC+보/VX+면/EC+일단/MAG+경례/NNG+하/XSV+고/EC+대화/NNG+시작/NNG+하/XSV+지/EC+ㅎ/XSA"
+          },
+          {
+            "id": 9,
+            "text": "1 : 헐 키키 그게 해병대 사이에서는 중요한가 봐?",
+            "norm_text": "헐 키키 그게 해병대 사이에서는 중요한가 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+키/NNG+키/XSV+ETN+그게/NP+JKS+해병대/NNG+사이/NNG+에서/JKB+는/JX+중요/NNG+한가/XSA+EC+봐/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그냥 그렇게 되더라... 난 딱히 자부심은 없는데 키키",
+            "norm_text": "그냥 그렇게 되더라... 난 딱히 자부심은 없는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+그렇게/MAG+되/VV+더라/EF+./SY+난/NP+JX+딱히/MAG+자부심/NNG+은/JX+없/VA+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 해병대는 일반 육군보다는 많이 힘들어?",
+            "norm_text": "해병대는 일반 육군보다는 많이 힘들어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해병대/NNG+는/JX+일반/NNG+육군/NNG+보다/JKB+는/JX+많이/MAG+힘들/VA+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 다 거기서 거기다 ㅎ 자기가 제일 힘들지 ㅎ",
+            "norm_text": "다 거기서 거기다 ㅎ 자기가 제일 힘들지 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+거기/NP+서/JKB+거기/NP+다/MAG+ㅎ/XSA+자기/NP+가/JKS+제일/MAG+힘들/VA+지/EF+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "1 : 해군이랑 해병대 차이는 머야?",
+            "norm_text": "해군이랑 해병대 차이는 머야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해군/NNG+이랑/JKB+해병대/NNG+차이/NNG+는/JX+머/NP+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 해군은 바다에서 싸우는 거고 해병대는 상륙해서 싸우는 거고?",
+            "norm_text": "해군은 바다에서 싸우는 거고 해병대는 상륙해서 싸우는 거고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "해군/NNG+은/JX+바다/NNG+에서/JKB+싸우/VV+는/ETM+거/NNB+고/VCP+EC+해병대/NNG+는/JX+상륙/NNG+해서/XSV+EC+싸우/VV+는/ETM+거/NNB+고/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그렇구나... 난 여자라서 해군이랑 해병대가 같은 건 줄 알았어...",
+            "norm_text": "그렇구나... 난 여자라서 해군이랑 해병대가 같은 건 줄 알았어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+./SY+난/NP+JX+여자/NNG+라서/VCP+EC+해군/NNG+이랑/JKB+해병대/NNG+가/JKS+같/VA+은/ETM+건/NNB+VCP+ETM+줄/NNB+알/VV+았/EP+어/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 다들 잘 모를껄 하하",
+            "norm_text": "다들 잘 모를껄 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다들잘모를껄하하/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

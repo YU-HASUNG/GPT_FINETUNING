@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32099,
+    "name": "KAKAO_893_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095728054871/KAKAO_893_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095728054871/KAKAO_893_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40747,
+      "filename": "KAKAO_893_08.txt",
+      "title": "KAKAO_893_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 540,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 540,
+        "word_size": 174,
+        "text": "1 : 너 남자친구랑은 만난 지 얼마나 됐어?\n2 : 나 만난 지 다음 달 되면 1년 됐지\n1 : 헐? 키키 생각보다 진짜 오래됐네? 키키\n2 : 맞재 키키 벌써 1년이나 됐다... 시간 참 빠르재\n1 : 도대체 언제 소개 시켜 줄 거야 ㅜㅜ 창원 몇 번 갔는데 ㅜㅜ\n2 : 창원 몇 번 왔노... 두번 왔나? ㅠ 니가 너무 급하게 가잖아\n1 : 키키 아니... 늘 바쁘네 키키 남자친구도 바쁘잖아!\n2 : 남자친구는 미리 말하면 언제든지 환영 하하 내 친구들이랑 노는 거 좋아한다!\n1 : 키키 오 진짜? 키키 나 너 남친이랑 놀아본 적은 한번도 없는 듯\n2 : 오? 창원 내려오면 한번 보자 하하 맛있는 것도 먹고!\n1 : 키키 그래... 창원 가면 남친이랑 같이 나 맛난 거 사줘\n2 : 그래 키키 일단 오기나 하슈!\n1 : 키키 응... 가야 하는데 추석 때는 안 가고... 키키\n2 : 추석 때 혼자만 못 와서 아무래도 좀 그렇겠다 니도...ㅜ\n1 : 그건 그렇네 ㅜㅜ 외롭게 지내야지 잠이나 자면서 키키\n2 : 그냥 살짝 몰래 창원 내려와서 노는 건 어때 키키 1박 2일이라두...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 남자친구랑은 만난 지 얼마나 됐어?",
+            "norm_text": "너 남자친구랑은 만난 지 얼마나 됐어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+남자/NNG+친구/NNG+랑/JKB+은/JX+만난/VV+ETM+지/NNB+얼마나/MAG+됐/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 만난 지 다음 달 되면 1년 됐지",
+            "norm_text": "나 만난 지 다음 달 되면 1년 됐지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+만난/VV+ETM+지/NNB+다음/NNG+달/NNG+되/XSV+면/EC+1/SN+년/NNBC+됐/VV+EP+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐? 키키 생각보다 진짜 오래됐네? 키키",
+            "norm_text": "헐? 키키 생각보다 진짜 오래됐네? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+키/NNG+키/NNG+생각/NNG+보다/JKB+진짜/MAG+오래/MAG+됐/VV+EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞재 키키 벌써 1년이나 됐다... 시간 참 빠르재",
+            "norm_text": "맞재 키키 벌써 1년이나 됐다... 시간 참 빠르재",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞재키키벌써/UNKNOWN+1/SN+년/NNBC+이나/JX+됐/VV+EP+다/EF+./SY+시간/NNG+참/MAG+빠르/VA+재/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 도대체 언제 소개 시켜 줄 거야 ㅜㅜ 창원 몇 번 갔는데 ㅜㅜ",
+            "norm_text": "도대체 언제 소개 시켜 줄 거야 ㅜㅜ 창원 몇 번 갔는데 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "도대체/MAG+언제/MAG+소개/NNG+시켜/XSV+EC+줄/VX+ETM+거/NNB+야/VCP+EF+ㅜㅜ/UNKNOWN+창원/NNP+몇/MM+번/NNBC+갔/VV+EP+는데/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 창원 몇 번 왔노... 두번 왔나? ㅠ 니가 너무 급하게 가잖아",
+            "norm_text": "창원 몇 번 왔노... 두번 왔나? ㅠ 니가 너무 급하게 가잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "창원/NNP+몇/MM+번/NNBC+왔/VV+EP+노/EF+./SY+두/MM+번/NNBC+왔/VV+EP+나/EF+ㅠ니/UNKNOWN+가/JKS+너무/MAG+급하/VA+게/EC+가/VX+잖아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 아니... 늘 바쁘네 키키 남자친구도 바쁘잖아!",
+            "norm_text": "키키 아니... 늘 바쁘네 키키 남자친구도 바쁘잖아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+./SY+./SY+늘/MAG+바쁘/VA+네/EF+키키/NNP+남자/NNG+친구/NNG+도/JX+바쁘/VA+잖아/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 남자친구는 미리 말하면 언제든지 환영 하하 내 친구들이랑 노는 거 좋아한다!",
+            "norm_text": "남자친구는 미리 말하면 언제든지 환영 하하 내 친구들이랑 노는 거 좋아한다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+친구/NNG+는/JX+미리/MAG+말/NNG+하/XSV+면/EC+언제/NP+든지/VCP+EC+환영/NNG+하하/MAG+내/NP+JKG+친구/NNG+들/XSN+이랑/JKB+노/VV+는/ETM+거/NNB+좋/VA+아/EC+한다/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 오 진짜? 키키 나 너 남친이랑 놀아본 적은 한번도 없는 듯",
+            "norm_text": "키키 오 진짜? 키키 나 너 남친이랑 놀아본 적은 한번도 없는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EC+진짜/MAG+키/NNG+키나/XSA+ETN+JX+너/NP+남친/NNG+이랑/JKB+놀/VV+아/EC+본/VX+ETM+적/NNB+은/JX+한/MM+번/NNBC+도/JX+없/VA+는/ETM+듯/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 오? 창원 내려오면 한번 보자 하하 맛있는 것도 먹고!",
+            "norm_text": "오? 창원 내려오면 한번 보자 하하 맛있는 것도 먹고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오/IC+창원/NNP+내려오/VV+면/EC+한/MM+번/NNBC+보/VV+자/EC+하하/MAG+맛있/VA+는/ETM+것/NNB+도/JX+먹/VV+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 그래... 창원 가면 남친이랑 같이 나 맛난 거 사줘",
+            "norm_text": "키키 그래... 창원 가면 남친이랑 같이 나 맛난 거 사줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VV+EF+./SY+./SY+창원/NNP+가/VV+면/EC+남친/NNG+이랑/JKB+같이/MAG+나/NP+맛난/VA+ETM+거/NNB+사/VV+줘/EC+VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래 키키 일단 오기나 하슈!",
+            "norm_text": "그래 키키 일단 오기나 하슈!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+키/NNG+키/XSV+ETN+일단/MAG+오/VV+기/ETN+나/JX+하/VV+슈/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 응... 가야 하는데 추석 때는 안 가고... 키키",
+            "norm_text": "키키 응... 가야 하는데 추석 때는 안 가고... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+가/VV+야/EC+하/VV+는데/EC+추석/NNG+때/NNG+는/JX+안/MAG+가/VV+고/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 추석 때 혼자만 못 와서 아무래도 좀 그렇겠다 니도...ㅜ",
+            "norm_text": "추석 때 혼자만 못 와서 아무래도 좀 그렇겠다 니도...ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추석/NNG+때/NNG+혼자/NNG+만/JX+못/MAG+와서/VV+EC+아무래도/MAG+좀/MAG+그렇/VA+겠/EP+다니/EC+도/JX+./SY+./SY+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그건 그렇네 ㅜㅜ 외롭게 지내야지 잠이나 자면서 키키",
+            "norm_text": "그건 그렇네 ㅜㅜ 외롭게 지내야지 잠이나 자면서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그렇/VA+네/EF+ㅜㅜ/UNKNOWN+외롭/VA+게/EC+지내/VV+야/EC+지잠/NNG+이나/JX+자/VV+면서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그냥 살짝 몰래 창원 내려와서 노는 건 어때 키키 1박 2일이라두...",
+            "norm_text": "그냥 살짝 몰래 창원 내려와서 노는 건 어때 키키 1박 2일이라두...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그냥/MAG+살짝/MAG+몰래/MAG+창원/NNP+내려와서/VV+EC+노/VX+는/ETM+건/NNB+JX+어때/VA+EC+키/NNG+키/XSV+ETN+1/SN+박/NNBC+2/SN+일/NNBC+이라두/JX+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

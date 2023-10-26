@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25434,
+    "name": "KAKAO_499_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145417052513/KAKAO_499_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145417052513/KAKAO_499_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29099,
+      "filename": "KAKAO_499_08.txt",
+      "title": "KAKAO_499_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 504,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 504,
+        "word_size": 164,
+        "text": "1 : 제 주변에는 아직 결혼식 하는 사람이 없어요 하하\n2 : 키키 아직 결혼하기엔 너무 어린 나이지 키키\n1 : 하하 그래도 사촌 동생은 내년에 결혼한다고 하더라고요\n2 : 아 정말? 키키 좋은 사람 만났나 보다 어린 나이에 결혼을 결심할 정도면\n1 : 그런가 봐요 3년 정도 사귀고 결혼한대요 하하\n2 : 딱 좋다~ 3년 연애하고 결혼이면 키키\n1 : 글쵸 하하 저랑 언니는 언제 할지 키키\n2 : 키키 아직 결혼하기엔 너도 언니도 너무 이쁜 나이이지 키키\n1 : 하하 그건 그래요 결혼 안 할까 싶어요 키키\n2 : 좋지 키키 하고 싶은 사람이 없다면 굳이 안 해도 된다 생각해 키키\n1 : 키키 남친 있기는 한데 어려서... 저만 고생할 거 같고\n2 : 키키 그런 결혼은 반대야 키키 하지 마 키키\n1 : 글쵸 하하 굳이 지금이 너무 좋은데\n2 : 응응 키키 니 인생을 즐겨 키키\n1 : 넵 하하 요새는 그래도 결혼 안 한다고 뭐라 하는 사람이 없어서 좋아요\n2 : 키키 사람들 가치관이나 생각이 확실히 변화한 거 같지?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 제 주변에는 아직 결혼식 하는 사람이 없어요 하하",
+            "norm_text": "제 주변에는 아직 결혼식 하는 사람이 없어요 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제/NP+JKG+주변/NNG+에/JKB+는/JX+아직/MAG+결혼식/NNG+하/XSV+는/ETM+사람/NNG+이/JKS+없/VA+어요/EF+하하/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 아직 결혼하기엔 너무 어린 나이지 키키",
+            "norm_text": "키키 아직 결혼하기엔 너무 어린 나이지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+아직/MAG+결혼/NNG+하/XSV+기/ETN+엔/JKB+JX+너무/MAG+어린/VA+ETM+나이/NNG+지키/NNP+키/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 하하 그래도 사촌 동생은 내년에 결혼한다고 하더라고요",
+            "norm_text": "하하 그래도 사촌 동생은 내년에 결혼한다고 하더라고요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+그래도/VV+EC+사촌/NNG+동생/NNG+은/JX+내년/NNG+에/JKB+결혼/NNG+한다고/XSV+EC+하/VV+더라고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 정말? 키키 좋은 사람 만났나 보다 어린 나이에 결혼을 결심할 정도면",
+            "norm_text": "아 정말? 키키 좋은 사람 만났나 보다 어린 나이에 결혼을 결심할 정도면",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+키/NNG+키/XSV+ETN+좋/VA+은/ETM+사람/NNG+만났/VV+EP+나/NP+보다/JKB+어린/VA+ETM+나이/NNG+에/JKB+결혼/NNG+을/JKO+결심/NNG+할/XSV+ETM+정도/NNG+면/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런가 봐요 3년 정도 사귀고 결혼한대요 하하",
+            "norm_text": "그런가 봐요 3년 정도 사귀고 결혼한대요 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+봐요/VX+EC+3/SN+년/NNBC+정도/NNG+사귀/VV+고/EC+결혼/NNG+한대요/XSV+EC+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 딱 좋다~ 3년 연애하고 결혼이면 키키",
+            "norm_text": "딱 좋다~ 3년 연애하고 결혼이면 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "딱/MAG+좋/VA+다/EC+~/SY+3/SN+년/NNBC+연애/NNG+하/XSV+고/EC+결혼/NNG+이/VCP+면/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 글쵸 하하 저랑 언니는 언제 할지 키키",
+            "norm_text": "글쵸 하하 저랑 언니는 언제 할지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/NNG+쵸/NNG+하하/MAG+저/NP+랑/JKB+언니/NNG+는/JX+언제/MAG+할지/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 아직 결혼하기엔 너도 언니도 너무 이쁜 나이이지 키키",
+            "norm_text": "키키 아직 결혼하기엔 너도 언니도 너무 이쁜 나이이지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+아직/MAG+결혼/NNG+하/XSV+기/ETN+엔/JKB+JX+너/NP+도/JX+언니/NNG+도/JX+너무/MAG+이쁜/VA+ETM+나이/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하하 그건 그래요 결혼 안 할까 싶어요 키키",
+            "norm_text": "하하 그건 그래요 결혼 안 할까 싶어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+그건/NP+JX+그래요/VV+EF+결혼/NNG+안/MAG+할까/VV+EC+싶/VX+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 좋지 키키 하고 싶은 사람이 없다면 굳이 안 해도 된다 생각해 키키",
+            "norm_text": "좋지 키키 하고 싶은 사람이 없다면 굳이 안 해도 된다 생각해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+지/EC+키/NNG+키/NNG+하/XSV+고/EC+싶/VX+은/ETM+사람/NNG+이/JKS+없/VA+다면/EC+굳이/MAG+안/MAG+해도/VV+EC+된다/VV+EC+생각/NNG+해/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 남친 있기는 한데 어려서... 저만 고생할 거 같고",
+            "norm_text": "키키 남친 있기는 한데 어려서... 저만 고생할 거 같고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+남친/NNG+있/VV+기/ETN+는/JX+한데/VX+EC+어려서/VA+EC+./SY+./SY+저/NP+만/JX+고생/NNG+할/XSV+ETM+거/NNB+같/VA+고/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 그런 결혼은 반대야 키키 하지 마 키키",
+            "norm_text": "키키 그런 결혼은 반대야 키키 하지 마 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+그런/MM+결혼/NNG+은/JX+반대/NNG+야/VCP+EF+키/NNG+키/NNG+하/XSV+지/EC+마키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 글쵸 하하 굳이 지금이 너무 좋은데",
+            "norm_text": "글쵸 하하 굳이 지금이 너무 좋은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/NNG+쵸/NNG+하하/MAG+굳이/MAG+지금/NNG+이/JKS+너무/MAG+좋/VA+은데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응응 키키 니 인생을 즐겨 키키",
+            "norm_text": "응응 키키 니 인생을 즐겨 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/VV+니/EC+인생/NNG+을/JKO+즐겨/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 넵 하하 요새는 그래도 결혼 안 한다고 뭐라 하는 사람이 없어서 좋아요",
+            "norm_text": "넵 하하 요새는 그래도 결혼 안 한다고 뭐라 하는 사람이 없어서 좋아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넵/NNG+하하/MAG+요새/NNG+는/JX+그래도/MAJ+결혼/NNG+안/MAG+한다고/VV+EC+뭐/NP+라/VCP+EC+하/VV+는/ETM+사람/NNG+이/JKS+없/VA+어서/EC+좋/VA+아요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 사람들 가치관이나 생각이 확실히 변화한 거 같지?",
+            "norm_text": "키키 사람들 가치관이나 생각이 확실히 변화한 거 같지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+사람/NNG+들/XSN+가치관/NNG+이나/JC+생각/NNG+이/JKS+확실히/MAG+변화/NNG+한/XSA+ETM+거/NNB+같/VA+지/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

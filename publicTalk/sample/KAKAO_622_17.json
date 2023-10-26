@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 35015,
+    "name": "KAKAO_622_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113035031496/KAKAO_622_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113035031496/KAKAO_622_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31989,
+      "filename": "KAKAO_622_17.txt",
+      "title": "KAKAO_622_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 361,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 361,
+        "word_size": 120,
+        "text": "1 : 언니 강아지가 좀 아파서 약속 시간 미룰 수 있을까?\n2 : 왜!  어디가 아파?\n1 : 원래 호흡기 쪽이 안 좋은데 숨쉬기 힘들어 하네.\n2 : 병원 가봐야 하는 거 아니야?\n1 : 병원 가면 더 스트레스 받아할 거 같아.\n2 : 나 신경 쓰지 말고 잘 보살펴 줘.\n1 : 고마워, 언니.\n2 : 저번에 수술했다고 했지?\n1 : 웅, 수술은 잘 됐다고는 했는데.\n2 : 아이고, 너무 걱정되겠다.\n1 : 금방 괜찮아질 거야!\n2 : 그래, 별거 아닐 거야, 금방 괜찮아질 거야\n1 : 집에 환자가 있어서 밖에도 잘 나갈 수가 없네\n2 : 잘 알지 다 이해해\n1 : 그래도 점점 괜찮아지는 거 같아.\n2 : 다행이다 그래도 끝까지 잘 보살펴주고 괜찮으면 그때 나와!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 강아지가 좀 아파서 약속 시간 미룰 수 있을까?",
+            "norm_text": "언니 강아지가 좀 아파서 약속 시간 미룰 수 있을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "언니/NNG+강아지/NNG+가/JKS+좀/MAG+아파서/VA+EC+약속/NNG+시간/NNG+미룰/VV+ETM+수/NNB+있/VV+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜!  어디가 아파?",
+            "norm_text": "왜!  어디가 아파?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+어디/NP+가/JKS+아파/VA+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 원래 호흡기 쪽이 안 좋은데 숨쉬기 힘들어 하네.",
+            "norm_text": "원래 호흡기 쪽이 안 좋은데 숨쉬기 힘들어 하네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+호흡기/NNG+쪽/NNB+이/JKS+안/MAG+좋/VA+은데/EC+숨쉬기/NNG+힘들/VA+어/EC+하/VX+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 병원 가봐야 하는 거 아니야?",
+            "norm_text": "병원 가봐야 하는 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "병원/NNG+가/JKC+봐야/VV+EC+하/VV+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 병원 가면 더 스트레스 받아할 거 같아.",
+            "norm_text": "병원 가면 더 스트레스 받아할 거 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+가/VV+면/EC+더/MAG+스트레스/NNG+받/VV+아/EC+할/VX+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나 신경 쓰지 말고 잘 보살펴 줘.",
+            "norm_text": "나 신경 쓰지 말고 잘 보살펴 줘.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나/NP+신경/NNG+쓰/VV+지/EC+말/VX+고/EC+잘/MAG+보살펴/VV+EC+줘/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 고마워, 언니.",
+            "norm_text": "고마워, 언니.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "고마워/VA+EF+,/SC+언니/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 저번에 수술했다고 했지?",
+            "norm_text": "저번에 수술했다고 했지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저번/NNG+에/JKB+수술/NNG+했/XSV+EP+다고/EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 웅, 수술은 잘 됐다고는 했는데.",
+            "norm_text": "웅, 수술은 잘 됐다고는 했는데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+,/SC+수술/NNG+은/JX+잘/MAG+됐/VV+EP+다고/EC+는/JX+했/VV+EP+는데/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아이고, 너무 걱정되겠다.",
+            "norm_text": "아이고, 너무 걱정되겠다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이고/IC+,/SC+너무/MAG+걱정/NNG+되/XSV+겠/EP+다/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 금방 괜찮아질 거야!",
+            "norm_text": "금방 괜찮아질 거야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "금방/MAG+괜찮/VA+아/EC+질/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래, 별거 아닐 거야, 금방 괜찮아질 거야",
+            "norm_text": "그래, 별거 아닐 거야, 금방 괜찮아질 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+,/SC+별거/NNG+아닐/VCN+ETM+거/NNB+야/VCP+EF+,/SC+금방/MAG+괜찮/VA+아/EC+질/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 집에 환자가 있어서 밖에도 잘 나갈 수가 없네",
+            "norm_text": "집에 환자가 있어서 밖에도 잘 나갈 수가 없네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집/NNG+에/JKB+환자/NNG+가/JKS+있/VA+어서/EC+밖/NNG+에/JKB+도/JX+잘/MAG+나갈/VV+ETM+수/NNB+가/JKS+없/VA+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 잘 알지 다 이해해",
+            "norm_text": "잘 알지 다 이해해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+알/VV+지다/EC+VX+EC+이해/NNG+해/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래도 점점 괜찮아지는 거 같아.",
+            "norm_text": "그래도 점점 괜찮아지는 거 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+점점/MAG+괜찮/VA+아/EC+지/VX+는/ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 다행이다 그래도 끝까지 잘 보살펴주고 괜찮으면 그때 나와!",
+            "norm_text": "다행이다 그래도 끝까지 잘 보살펴주고 괜찮으면 그때 나와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "다행/NNG+이/JKS+다/MAG+그래도/VV+EC+끝/NNG+까지/JX+잘/MAG+보살펴/VV+EC+주/VX+고/EC+괜찮/VA+으면/EC+그때/NNG+나와/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

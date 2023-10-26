@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 24219,
+    "name": "KAKAO_500_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109171458270920109/KAKAO_500_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109171458270920109/KAKAO_500_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29214,
+      "filename": "KAKAO_500_03.txt",
+      "title": "KAKAO_500_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 681,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 681,
+        "word_size": 212,
+        "text": "1 : 요새 지하철 안 탄 지 오래됐는데 키키 요즘도 2호선은 헬이니?\n2 : 야 말도마 ... 2호선은 원래부터 헬이였구 그나마 괜찮다던 7호선은 더 지옥이야 키키\n1 : 아... 그래? ㅜㅜ 여전하네...? 주말엔 좀 널널한가?\n2 : 주말엔 좀 나은 거 같아 키키\n2 : 너는 요즘 지하철 말고 어떻게 하는데?\n1 : 난 요즘 걸어 다니지 키키 멀리 안 돌아다니니까\n2 : 이 키키 그렇지? 근처면 굳이 교통수단 이용 안 해도 되고 키키\n2 : 근데 나도 출근할 때만 버스 타 키키\n1 : 아? 출근할 때 버스 타는 구만? 그래 가까우면 지하철보다 버스가 나을지도 키키\n2 : 맞아 키키 그리고 어차피 지하철은 지옥철이라 키키 버스가 더 낫더라구\n1 : 요새 언니야 차로 운전 연습하는데 버스랑 택시들 너무 무서워... ㅜ\n2 : 야 키키 그래도 운전할 수 있는 게 어디야 키키 요즘 운전 좀 잘해?!\n1 : 키키 열심히 하고 있다 차선 변경이... 버스랑 택시들 때문에 어려워서 문제지만 키키\n2 : 택시 가까이 가면 안된다고 배웠고 길 모를 땐 버스 따라가라 하드라 야 키키\n1 : 앜 키키 와... 신박하네? 키키 하나 배우고 갑니다 키키\n2 : 예 키키 이왕 배운 거 운전도 마저 열심히 배우세여 키키\n1 : 키키 니도 운전 배워! 면허는 따놨잖아!\n2 : 야 키키 나는 분명 내가 할 수 있다 생각하는데 키키 다들 차를 안 맡기더라?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 지하철 안 탄 지 오래됐는데 키키 요즘도 2호선은 헬이니?",
+            "norm_text": "요새 지하철 안 탄 지 오래됐는데 키키 요즘도 2호선은 헬이니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요새/NNG+지하철/NNG+안/MAG+탄/VV+ETM+지/NNB+오래/MAG+됐/VV+EP+는데/EC+키/NNG+키/NNG+요즘/NNG+도/JX+2/SN+호/NNBC+선/NNG+은/JX+헬/NNP+이/VCP+니/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 야 말도마 ... 2호선은 원래부터 헬이였구 그나마 괜찮다던 7호선은 더 지옥이야 키키",
+            "norm_text": "야 말도마 ... 2호선은 원래부터 헬이였구 그나마 괜찮다던 7호선은 더 지옥이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+말/NNG+도/JX+마/VX+EF+./SY+./SY+2/SN+호/NNBC+선/NNG+은/JX+원래/NNG+부터/JX+헬/NNP+이/VCP+였/EP+구/EC+그나마/MAG+괜찮/VA+다던/ETM+7/SN+호/NNBC+선/NNG+은/JX+더/MAG+지옥/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아... 그래? ㅜㅜ 여전하네...? 주말엔 좀 널널한가?",
+            "norm_text": "아... 그래? ㅜㅜ 여전하네...? 주말엔 좀 널널한가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+그래/IC+ㅜㅜ/UNKNOWN+여전/XR+하/XSA+네/EF+./SY+./SY+주말/NNG+엔/JKB+JX+좀/MAG+널널/XR+한가/XSA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 주말엔 좀 나은 거 같아 키키",
+            "norm_text": "주말엔 좀 나은 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주말/NNG+엔/JKB+JX+좀/MAG+나/VA+은/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 너는 요즘 지하철 말고 어떻게 하는데?",
+            "norm_text": "너는 요즘 지하철 말고 어떻게 하는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+요즘/NNG+지하철/NNG+말/VV+고/EC+어떻게/MAG+하/VV+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 난 요즘 걸어 다니지 키키 멀리 안 돌아다니니까",
+            "norm_text": "난 요즘 걸어 다니지 키키 멀리 안 돌아다니니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+요즘/MAG+걸어다니/VV+지/EC+키/NNG+키/NNG+멀리/MAG+안/MAG+돌아다니/VV+니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 이 키키 그렇지? 근처면 굳이 교통수단 이용 안 해도 되고 키키",
+            "norm_text": "이 키키 그렇지? 근처면 굳이 교통수단 이용 안 해도 되고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/MM+키/NNG+키/XSV+ETN+그렇/VA+지/EF+근처/NNG+면/VCP+EC+굳이/MAG+교통수단/NNG+이용/NNG+안/MAG+해도/VV+EC+되/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 나도 출근할 때만 버스 타 키키",
+            "norm_text": "근데 나도 출근할 때만 버스 타 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+나/NP+도/JX+출근/NNG+할/XSV+ETM+때/NNG+만/JX+버스타/NNP+키키/NNP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아? 출근할 때 버스 타는 구만? 그래 가까우면 지하철보다 버스가 나을지도 키키",
+            "norm_text": "아? 출근할 때 버스 타는 구만? 그래 가까우면 지하철보다 버스가 나을지도 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+출근/NNG+할/XSV+ETM+때/NNG+버스/NNG+타/VV+는구만/EF+그래/IC+가까우/VA+면/EC+지하철/NNG+보다/JKB+버스/NNG+가/JKS+나을지도/VA+EC+JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 키키 그리고 어차피 지하철은 지옥철이라 키키 버스가 더 낫더라구",
+            "norm_text": "맞아 키키 그리고 어차피 지하철은 지옥철이라 키키 버스가 더 낫더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+그리고/MAJ+어차피/MAG+지하철/NNG+은/JX+지옥/NNG+철/NNG+이/JKS+라키/NNP+키/NNG+버스/NNG+가/JKS+더/MAG+낫/VA+더라구/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 요새 언니야 차로 운전 연습하는데 버스랑 택시들 너무 무서워... ㅜ",
+            "norm_text": "요새 언니야 차로 운전 연습하는데 버스랑 택시들 너무 무서워... ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+언니/NNG+야차/NNG+로/JKB+운전/NNG+연습/NNG+하/XSV+는/ETM+데/NNB+버스/NNG+랑/JKB+택시/NNG+들/XSN+너무/MAG+무서워/VA+EF+./SY+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 야 키키 그래도 운전할 수 있는 게 어디야 키키 요즘 운전 좀 잘해?!",
+            "norm_text": "야 키키 그래도 운전할 수 있는 게 어디야 키키 요즘 운전 좀 잘해?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야키/NNP+키/NNG+그래도/VV+EC+운전/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+게/NNB+JKS+어디/NP+야/VCP+EF+키키/NNP+요즘/NNG+운전/NNG+좀/MAG+잘/MAG+해/VV+EC+?/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 열심히 하고 있다 차선 변경이... 버스랑 택시들 때문에 어려워서 문제지만 키키",
+            "norm_text": "키키 열심히 하고 있다 차선 변경이... 버스랑 택시들 때문에 어려워서 문제지만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+열심히/MAG+하/VV+고/EC+있/VX+다/EC+차선/NNG+변경/NNG+이/JKS+./SY+./SY+버스/NNG+랑/JKB+택시/NNG+들/XSN+때문/NNB+에/JKB+어려워서/VA+EC+문제/NNG+지만/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 택시 가까이 가면 안된다고 배웠고 길 모를 땐 버스 따라가라 하드라 야 키키",
+            "norm_text": "택시 가까이 가면 안된다고 배웠고 길 모를 땐 버스 따라가라 하드라 야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "택시/NNG+가까이/MAG+가/VV+면/EC+안/MAG+된다고/VV+EC+배웠/VV+EP+고/EC+길/NNG+모를/VV+ETM+땐/NNG+JX+버스/NNG+따라가/VV+라/EC+하/VX+드라/EF+야/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 앜 키키 와... 신박하네? 키키 하나 배우고 갑니다 키키",
+            "norm_text": "앜 키키 와... 신박하네? 키키 하나 배우고 갑니다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앜키키와/UNKNOWN+./SY+신박/NNG+하/XSA+네/EF+키/NNG+키/XSV+ETN+하나/NR+배우/VV+고/EC+갑/VX+니/EC+다키키/NNP"
+          },
+          {
+            "id": 16,
+            "text": "2 : 예 키키 이왕 배운 거 운전도 마저 열심히 배우세여 키키",
+            "norm_text": "예 키키 이왕 배운 거 운전도 마저 열심히 배우세여 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "예/IC+키/NNG+키/XSV+ETN+이왕/MAG+배운/VV+ETM+거/NNB+운전/NNG+도/JX+마저/MAG+열심히/MAG+배우/VV+세여/EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 니도 운전 배워! 면허는 따놨잖아!",
+            "norm_text": "키키 니도 운전 배워! 면허는 따놨잖아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/VV+니/EC+도/JX+운전/NNG+배워/VV+EF+면허/NNG+는/JX+따/VV+EC+놨/VX+EP+잖아/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 야 키키 나는 분명 내가 할 수 있다 생각하는데 키키 다들 차를 안 맡기더라?",
+            "norm_text": "야 키키 나는 분명 내가 할 수 있다 생각하는데 키키 다들 차를 안 맡기더라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+키/NNG+키나/XSA+ETN+JX+는/JX+분명/MAG+내/NP+가/JKS+할/VV+ETM+수/NNB+있/VV+다/EC+생각/NNG+하/XSV+는/ETM+데키/NNP+키다/NNP+들/XSN+차/NNG+를/JKO+안/MAG+맡기/VV+더라/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 56365,
+    "name": "KAKAO_711_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114305048194/KAKAO_711_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114305048194/KAKAO_711_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35637,
+      "filename": "KAKAO_711_18.txt",
+      "title": "KAKAO_711_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 545,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 545,
+        "word_size": 170,
+        "text": "1 : 나 쇼핑몰 창업해볼까 생각 해봤는데 키키\n2 : 오 대박 키키 어떤 아이템으로?\n2 : 아이템이 중요하지\n1 : 키키 아이템은 없고... 그냥 생각만 늘 하고 있지?\n2 : 키키 그건 나두... 진짜 남 밑에서 일 못하겠네?\n1 : 나 어릴 때 침대에서 쓸 수 있는 책상 진짜 개발하고 싶었거든?\n2 : 오 키키 하지만 요새 있지 않나?\n1 : 응 내가 딱 진짜 중딩 때? 이때 아이디어 생각한 건데...\n1 : 대학생 때 나왔더라\n2 : 키키 아쉽다... 언니 빨리 했어야지\n1 : 키키 아니... 개발할 돈이 없었잖아 애기라\n2 : 키키 엄빠한테 얘기를 한 번 해보지!\n2 : 요새는 또 없어? 아이디어 훔쳐야겠다\n1 : 키키 나... 키키 아이디어 많아 키키\n1 : 같이 창업해볼래?\n2 : 키키 오 한 번 얘기를 해보시죠 키키 듣고 갑니다\n1 : 키키 아냐 지금은 비밀이야\n1 : 키키 계약서 쓰고 하시죠\n2 : 키키 하... 계약서를 일단 써야 한다구...? 하...\n1 : 키키 응... 아무리 우리 사이라도 돈 관계는 확실히 하자?\n2 : 그건 맞아... 그렇다면...! 일단 만나자! 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 쇼핑몰 창업해볼까 생각 해봤는데 키키",
+            "norm_text": "나 쇼핑몰 창업해볼까 생각 해봤는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+쇼핑몰/NNG+창업/NNG+해/XSV+EC+볼까/VX+EC+생각/NNG+해/XSV+EC+봤/VX+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 대박 키키 어떤 아이템으로?",
+            "norm_text": "오 대박 키키 어떤 아이템으로?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+대/NNBC+박/NNP+키키/NNP+어떤/MM+아이템/NNG+으로/JKB"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아이템이 중요하지",
+            "norm_text": "아이템이 중요하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이템/NNG+이/JKS+중요/NNG+하/XSV+지/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 아이템은 없고... 그냥 생각만 늘 하고 있지?",
+            "norm_text": "키키 아이템은 없고... 그냥 생각만 늘 하고 있지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+아이템/NNG+은/JX+없/VA+고/EC+./SY+./SY+그냥/MAG+생각/NNG+만/JX+늘/MAG+하/VV+고/EC+있/VX+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 그건 나두... 진짜 남 밑에서 일 못하겠네?",
+            "norm_text": "키키 그건 나두... 진짜 남 밑에서 일 못하겠네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+나/NP+두/JX+./SY+진짜/MAG+남/NNG+밑/NNG+에서/JKB+일/NNG+못/MAG+하/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나 어릴 때 침대에서 쓸 수 있는 책상 진짜 개발하고 싶었거든?",
+            "norm_text": "나 어릴 때 침대에서 쓸 수 있는 책상 진짜 개발하고 싶었거든?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+어릴/VA+ETM+때/NNG+침대/NNG+에서/JKB+쓸/VV+ETM+수/NNB+있/VV+는/ETM+책상/NNG+진짜/MAG+개발/NNG+하/XSV+고/EC+싶/VX+었/EP+거든/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오 키키 하지만 요새 있지 않나?",
+            "norm_text": "오 키키 하지만 요새 있지 않나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+하/XSV+지만/EC+요새/MAG+있/VV+지/EC+않/VX+나/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응 내가 딱 진짜 중딩 때? 이때 아이디어 생각한 건데...",
+            "norm_text": "응 내가 딱 진짜 중딩 때? 이때 아이디어 생각한 건데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+내/NP+가/JKS+딱/MAG+진짜/NNG+중/NNB+딩/MAG+때/NNG+?/SY+이때/NNG+아이디어/NNG+생각/NNG+한/XSA+ETM+건데/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 대학생 때 나왔더라",
+            "norm_text": "대학생 때 나왔더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대학생/NNG+때/NNG+나왔/VV+EP+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 아쉽다... 언니 빨리 했어야지",
+            "norm_text": "키키 아쉽다... 언니 빨리 했어야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아쉽/VA+다/EF+./SY+언니/NNG+빨리/MAG+했/VV+EP+어야지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 아니... 개발할 돈이 없었잖아 애기라",
+            "norm_text": "키키 아니... 개발할 돈이 없었잖아 애기라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+./SY+./SY+개발/NNG+할/XSV+ETM+돈/NNG+이/JKS+없/VA+었잖/EC+VX+아/EC+애기/NNG+라/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 엄빠한테 얘기를 한 번 해보지!",
+            "norm_text": "키키 엄빠한테 얘기를 한 번 해보지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+엄/NNP+빠/NNP+한테/JKB+얘기/NNG+를/JKO+한번/MAG+해/VV+EC+보/VX+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 요새는 또 없어? 아이디어 훔쳐야겠다",
+            "norm_text": "요새는 또 없어? 아이디어 훔쳐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요새/NNG+는/JX+또/MAG+없/VA+어/EF+아이디어/NNG+훔쳐/VV+EC+야/JX+겠/EP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 나... 키키 아이디어 많아 키키",
+            "norm_text": "키키 나... 키키 아이디어 많아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+./SY+키/NNG+키/NNG+아이디어/NNG+많/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 같이 창업해볼래?",
+            "norm_text": "같이 창업해볼래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "같이/MAG+창업/NNG+해/XSV+EC+볼래/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 오 한 번 얘기를 해보시죠 키키 듣고 갑니다",
+            "norm_text": "키키 오 한 번 얘기를 해보시죠 키키 듣고 갑니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/NR+한/MM+번/NNBC+얘기/NNG+를/JKO+해/VV+EC+보/VX+시/EP+죠/EF+키/NNG+키/XSV+ETN+듣/VV+고/EC+갑니다/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 아냐 지금은 비밀이야",
+            "norm_text": "키키 아냐 지금은 비밀이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아냐/VCN+EF+지금/MAG+은/JX+비밀/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 계약서 쓰고 하시죠",
+            "norm_text": "키키 계약서 쓰고 하시죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "키/NNG+키/NNG+계약서/NNG+쓰/VV+고/EC+하/VX+시/EP+죠/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 하... 계약서를 일단 써야 한다구...? 하...",
+            "norm_text": "키키 하... 계약서를 일단 써야 한다구...? 하...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+./SY+./SY+계약서/NNG+를/JKO+일단/MAG+써야/VV+EC+한다구/VX+EF+./SY+./SY+하/IC+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 응... 아무리 우리 사이라도 돈 관계는 확실히 하자?",
+            "norm_text": "키키 응... 아무리 우리 사이라도 돈 관계는 확실히 하자?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+아무리/MAG+우리/NP+사이/NNG+라도/VCP+EC+돈/NNG+관계/NNG+는/JX+확실히/MAG+하/VV+자/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그건 맞아... 그렇다면...! 일단 만나자! 키키",
+            "norm_text": "그건 맞아... 그렇다면...! 일단 만나자! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그건/NP+JX+맞/VV+아/EF+./SY+그렇/VA+다면/EC+./SY+./SY+일단/MAG+만나/VV+자/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21385,
+    "name": "KAKAO_472_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141312055916/KAKAO_472_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141312055916/KAKAO_472_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28027,
+      "filename": "KAKAO_472_17.txt",
+      "title": "KAKAO_472_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 566,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 566,
+        "word_size": 185,
+        "text": "1 : 나 얼마 전에 치과 갔는데 보험이 안돼서 돈 더럽게 깨 먹음 ㅠㅠ\n2 : 나도 치과 가야 하는데 겁이 나서 못 가겠어\n1 : 치아 보험 들었는데도 적용이 안된다더라고\n2 : 그럼 치아 보험은 뭐가 보장 되는 거야?\n1 : 임플란트랑 브릿지 틀니 등등인데 하나 들어 놓으면 좋을 거 가아\n2 : 헐 노인이 돼야 받을 수 있는 보장이네\n1 : 아니야 우리 옛날 상사 40대 중반인데 이가 다 빠져버렸대\n2 : 충격적이다 차라리 그런 비싼 시술 받을 거면 적금을 드는 게 나을 듯\n1 : 잇몸 뼈 이식부터 임플란트까지 다하는데 보험 없어서 6천만 원 들었대\n2 : 옛날 전세 값이네 완전?\n1 : 응 근데 젊으니까 틀니를 할 수도 없어서 퇴직금 받아서 했다나봐 ㅠ\n2 : 난 치아 보험 따로 없는데 그 소리 들으니깐 들어야 될 것 같아\n1 : 전조 증상이 없었대. 그래서 나도 무서워서 바로 치아 보험 가입했다 키키\n2 : 진짜 무섭다. 난 지금 깨진 거 때우러 가야 하는데 얼마나 올지 겁나\n1 : 레진 말하는 거지? 그거는 보험 적용되는 건 싼데 안 되는 건 개당 8만원 정도 해\n2 : 나 한 네 개 되는데 32만원도 요즘은 힘들다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 얼마 전에 치과 갔는데 보험이 안돼서 돈 더럽게 깨 먹음 ㅠㅠ",
+            "norm_text": "나 얼마 전에 치과 갔는데 보험이 안돼서 돈 더럽게 깨 먹음 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+얼마/NNG+전/NNG+에/JKB+치과/NNG+갔/VV+EP+는데/EC+보험/NNG+이/JKS+안/MAG+돼서/VV+EC+돈/NNG+더럽/VA+게/EC+깨/VV+EC+먹/VV+음/ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나도 치과 가야 하는데 겁이 나서 못 가겠어",
+            "norm_text": "나도 치과 가야 하는데 겁이 나서 못 가겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+치과/NNG+가/JKS+야하/VA+는데/EC+겁/NNG+이/JKS+나/VV+서/EC+못/MAG+가/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 치아 보험 들었는데도 적용이 안된다더라고",
+            "norm_text": "치아 보험 들었는데도 적용이 안된다더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "치아/NNG+보험/NNG+들/VV+었/EP+는데/EC+도/JX+적용/NNG+이/JKS+안/MAG+된다/VV+EF+더라고/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럼 치아 보험은 뭐가 보장 되는 거야?",
+            "norm_text": "그럼 치아 보험은 뭐가 보장 되는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+치아/NNG+보험/NNG+은/JX+뭐/NP+가/JKS+보장/NNG+되/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 임플란트랑 브릿지 틀니 등등인데 하나 들어 놓으면 좋을 거 가아",
+            "norm_text": "임플란트랑 브릿지 틀니 등등인데 하나 들어 놓으면 좋을 거 가아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "임/NNP+플란트/NNP+랑/JC+브릿지/NNP+틀니/NNG+등등/NNB+인데/VCP+EC+하나/NR+들/VV+어/EC+놓/VX+으면/EC+좋/VA+을/ETM+거/NNB+가/VV+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 헐 노인이 돼야 받을 수 있는 보장이네",
+            "norm_text": "헐 노인이 돼야 받을 수 있는 보장이네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+노인/NNG+이/JKS+돼야/VV+EC+받/VV+을/ETM+수/NNB+있/VV+는/ETM+보장/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니야 우리 옛날 상사 40대 중반인데 이가 다 빠져버렸대",
+            "norm_text": "아니야 우리 옛날 상사 40대 중반인데 이가 다 빠져버렸대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니야/IC+우리/NP+옛날/NNG+상사/NNG+40/SN+대중/NNG+반/NNG+인데/VCP+EC+이/NP+가/JKS+다/MAG+빠져/VV+EC+버렸/VX+EP+대/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 충격적이다 차라리 그런 비싼 시술 받을 거면 적금을 드는 게 나을 듯",
+            "norm_text": "충격적이다 차라리 그런 비싼 시술 받을 거면 적금을 드는 게 나을 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "충격/NNG+적/XSN+이/VCP+다/EF+차라리/MAG+그런/MM+비싼/VA+ETM+시술/NNG+받/VV+을/ETM+거/NNB+면/VCP+EC+적금/NNG+을/JKO+드/VV+는/ETM+게/NNB+JKS+나을/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 9,
+            "text": "1 : 잇몸 뼈 이식부터 임플란트까지 다하는데 보험 없어서 6천만 원 들었대",
+            "norm_text": "잇몸 뼈 이식부터 임플란트까지 다하는데 보험 없어서 6천만 원 들었대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잇몸/NNG+뼈/NNG+이식/NNG+부터/JX+임/NNP+플란트/NNP+까지/JX+다/MAG+하/VV+는데/EC+보험/NNG+없/VA+어서/EC+6/SN+천만/NR+원/NNBC+들/VV+었/EP+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 옛날 전세 값이네 완전?",
+            "norm_text": "옛날 전세 값이네 완전?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "옛날/NNG+전세/NNG+값/NNG+이/VCP+네/EF+완전/MAG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 근데 젊으니까 틀니를 할 수도 없어서 퇴직금 받아서 했다나봐 ㅠ",
+            "norm_text": "응 근데 젊으니까 틀니를 할 수도 없어서 퇴직금 받아서 했다나봐 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+근데/MAJ+젊/VA+으니까/EC+틀니/NNG+를/JKO+할/VV+ETM+수/NNB+도/JX+없/VA+어서/EC+퇴직금/NNG+받/VV+아서/EC+했/VX+EP+다나/EC+봐/VX+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 난 치아 보험 따로 없는데 그 소리 들으니깐 들어야 될 것 같아",
+            "norm_text": "난 치아 보험 따로 없는데 그 소리 들으니깐 들어야 될 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+치아/NNG+보험/NNG+따로/MAG+없/VA+는데/EC+그/MM+소리/NNG+들/VV+으니깐/EC+들어야/VV+EC+될/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 전조 증상이 없었대. 그래서 나도 무서워서 바로 치아 보험 가입했다 키키",
+            "norm_text": "전조 증상이 없었대. 그래서 나도 무서워서 바로 치아 보험 가입했다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전조/NNG+증상/NNG+이/JKS+없/VA+었/EP+대/EF+그래서/MAJ+나/NP+도/JX+무서워서/VA+EC+바로/MAG+치아/VV+EC+보험/NNG+가입/NNG+했/XSV+EP+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 진짜 무섭다. 난 지금 깨진 거 때우러 가야 하는데 얼마나 올지 겁나",
+            "norm_text": "진짜 무섭다. 난 지금 깨진 거 때우러 가야 하는데 얼마나 올지 겁나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "진짜/MAG+무섭/VA+다/EF+난/NP+JX+지금/MAG+깨진/VV+ETM+거/NNB+때우/VV+러/EC+가/VX+야/EC+하/VV+는데/EC+얼마나/MAG+올지/VV+EC+겁나/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 레진 말하는 거지? 그거는 보험 적용되는 건 싼데 안 되는 건 개당 8만원 정도 해",
+            "norm_text": "레진 말하는 거지? 그거는 보험 적용되는 건 싼데 안 되는 건 개당 8만원 정도 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "레진/NNG+말/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EF+그거/NP+는/JX+보험/NNG+적용/NNG+되/XSV+는/ETM+건/NNB+JX+싼/VA+ETM+데/NNB+안/MAG+되/VV+는/ETM+건/NNB+JX+개당/NNG+8/SN+만/NR+원/NNBC+정도/NNG+해/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나 한 네 개 되는데 32만원도 요즘은 힘들다",
+            "norm_text": "나 한 네 개 되는데 32만원도 요즘은 힘들다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+한/MM+네/MM+개/NNBC+되/VV+는/ETM+데/NNB+32/SN+만/NR+원/NNBC+도/JX+요즘/NNG+은/JX+힘들/VA+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

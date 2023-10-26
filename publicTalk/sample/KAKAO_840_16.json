@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 35505,
+    "name": "KAKAO_840_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170046068630/KAKAO_840_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170046068630/KAKAO_840_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38609,
+      "filename": "KAKAO_840_16.txt",
+      "title": "KAKAO_840_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 345,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 345,
+        "word_size": 123,
+        "text": "1 : 너 속눈썹 펌 해 봤어?\n2 : 아니 나 안 해 봤어!\n1 : 속눈썹 연장도 안 해 봤어?\n2 : 응 그것도 안 해 봤어!\n1 : 나랑 같이 가지 않을래?\n2 : 근데 그거 한 사람 봤는데 이상해 ㅜ\n1 : 왜 어떤 사람을 봤길래 그래?\n2 : 아니 그거 봤는데 부자연스러워 ㅜ\n1 : 연장이 조금 그렇더라고 그래서 나는 펌 하고 싶어\n2 : 너 속눈썹 있어? 나는 없어 ㅜ\n1 : 아주 조금 있어 나 같은 사람도 할 수 있더라고\n2 : 그거 속눈썹이 좀 있어야 펌이 가능하잖아 ㅜ\n1 : 근데 나까진 가능하다고 그러더라\n2 : 그러면 나는 가능할 거 같아?\n1 : 너가 나보다 길잖아 너 가능하지!\n2 : 몰라 나 망할까 봐 무서워 ㅜ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 속눈썹 펌 해 봤어?",
+            "norm_text": "너 속눈썹 펌 해 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+속눈썹/NNG+펌/NNG+해/XSV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 나 안 해 봤어!",
+            "norm_text": "아니 나 안 해 봤어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+나/NP+안/MAG+해/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 속눈썹 연장도 안 해 봤어?",
+            "norm_text": "속눈썹 연장도 안 해 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "속눈썹/NNG+연장/NNG+도/JX+안/MAG+해/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 그것도 안 해 봤어!",
+            "norm_text": "응 그것도 안 해 봤어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그것/NP+도/JX+안/MAG+해/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나랑 같이 가지 않을래?",
+            "norm_text": "나랑 같이 가지 않을래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나/NP+랑/JKB+같이/MAG+가/VV+지/EC+않/VX+을래/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 그거 한 사람 봤는데 이상해 ㅜ",
+            "norm_text": "근데 그거 한 사람 봤는데 이상해 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그거/NP+한/MM+사람/NNG+봤/VV+EP+는데/EC+이상/NNG+해/XSV+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 왜 어떤 사람을 봤길래 그래?",
+            "norm_text": "왜 어떤 사람을 봤길래 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+어떤/MM+사람/NNG+을/JKO+봤/VV+EP+길래/EC+그래/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니 그거 봤는데 부자연스러워 ㅜ",
+            "norm_text": "아니 그거 봤는데 부자연스러워 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그거/NP+봤/VV+EP+는데/EC+부자연/XR+스러워/XSA+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 연장이 조금 그렇더라고 그래서 나는 펌 하고 싶어",
+            "norm_text": "연장이 조금 그렇더라고 그래서 나는 펌 하고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연장/NNG+이/JKS+조금/MAG+그렇/VA+더라고/EF+그래서/MAJ+나/NP+는/JX+펌/NNG+하/XSV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 너 속눈썹 있어? 나는 없어 ㅜ",
+            "norm_text": "너 속눈썹 있어? 나는 없어 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+속눈썹/NNG+있/VA+어/EF+나/NP+는/JX+없/VA+어/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아주 조금 있어 나 같은 사람도 할 수 있더라고",
+            "norm_text": "아주 조금 있어 나 같은 사람도 할 수 있더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아주/MAG+조금/MAG+있/VV+어/EC+나/NP+같/VA+은/ETM+사람/NNG+도/JX+할/VV+ETM+수/NNB+있/VV+더라고/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그거 속눈썹이 좀 있어야 펌이 가능하잖아 ㅜ",
+            "norm_text": "그거 속눈썹이 좀 있어야 펌이 가능하잖아 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+속눈썹/NNG+이/JKS+좀/MAG+있/VA+어야/EC+펌/NNG+이/JKS+가능/NNG+하/XSV+잖/EC+아ㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 나까진 가능하다고 그러더라",
+            "norm_text": "근데 나까진 가능하다고 그러더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+나/NP+까진/JX+VCP+ETM+가능/NNG+하/XSV+다고/EC+그러/VV+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러면 나는 가능할 거 같아?",
+            "norm_text": "그러면 나는 가능할 거 같아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러면/MAJ+나/NP+는/JX+가능/NNG+할/XSV+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 너가 나보다 길잖아 너 가능하지!",
+            "norm_text": "너가 나보다 길잖아 너 가능하지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+가/JKS+나/NP+보다/JKB+길/VA+잖아/EF+너/NP+가/JKS+능하/VA+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 몰라 나 망할까 봐 무서워 ㅜ",
+            "norm_text": "몰라 나 망할까 봐 무서워 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "몰라/VV+EC+나망/NNG+할까봐/XSV+EC+VX+EC+무서워/VA+EC+ㅜ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 39224,
+    "name": "KAKAO_615_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140647027920/KAKAO_615_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140647027920/KAKAO_615_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34134,
+      "filename": "KAKAO_615_16.txt",
+      "title": "KAKAO_615_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 403,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 403,
+        "word_size": 134,
+        "text": "1 : 저번에 결혼식 때 필러 맞은 거 오래갔었어?\n2 : 필러 아니야 보톡스야 난 별로\n1 : 아 나는 내년에 두피 보톡스 생각중\n2 : 두피에도 무슨 보톡스를 놔?\n1 : 두피에 보톡스 놓잖아? 기름도 안 나고 땀도 안 나서 6월에 맞으면 3개월 가서 최고래\n2 : 아 진짜? 왠지 두피라 아플 것 같아\n1 : 아픔은 한순간이지만 나 같은 두피 다한증에겐 희소식이야ㅠ\n2 : 보톡스는 턱이지 턱에 맞아\n1 : 앗 그건 살 빼야 효과 있지 뭐\n2 : 아니야 근육 많으면 효과 쩔어\n1 : 진짜? 난 지금 턱에 다 살인대?\n2 : 혹시 알아 살살짝에 다 근육일지\n1 : 키키 만져보면 알지 난 턱이 나름 갸름한 편이야\n2 : 근데 나도 한번 맞았는데 효과 없더라\n1 : 코 필러는 맞아 보았니? 궁금\n2 : 아주 오래전에 맞았는데 그것도 그냥 그래",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저번에 결혼식 때 필러 맞은 거 오래갔었어?",
+            "norm_text": "저번에 결혼식 때 필러 맞은 거 오래갔었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저번/NNG+에/JKB+결혼식/NNG+때/NNG+필러/NNG+맞/VV+은/ETM+거/NNB+오래/MAG+갔었/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 필러 아니야 보톡스야 난 별로",
+            "norm_text": "필러 아니야 보톡스야 난 별로",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "필러/NNG+아니/VCN+야/EC+보톡스/NNP+야/JKV+난/NP+JX+별로/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 나는 내년에 두피 보톡스 생각중",
+            "norm_text": "아 나는 내년에 두피 보톡스 생각중",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+는/JX+내년/NNG+에/JKB+두피/NNG+보톡스/NNP+생각/NNG+중/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 두피에도 무슨 보톡스를 놔?",
+            "norm_text": "두피에도 무슨 보톡스를 놔?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "두피/NNG+에/JKB+도/JX+무슨/MM+보톡스/NNP+를/JKO+놔/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 두피에 보톡스 놓잖아? 기름도 안 나고 땀도 안 나서 6월에 맞으면 3개월 가서 최고래",
+            "norm_text": "두피에 보톡스 놓잖아? 기름도 안 나고 땀도 안 나서 6월에 맞으면 3개월 가서 최고래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "두피/NNG+에/JKB+보톡스/NNP+놓/VV+잖아/EF+기름/NNG+도/JX+안/MAG+나/VV+고/EC+땀/NNG+도/JX+안/MAG+나/VV+서/EC+6/SN+월/NNBC+에/JKB+맞/VV+으면/EC+3/SN+개월/NNBC+가/VV+서/EC+최/XPN+고래/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 진짜? 왠지 두피라 아플 것 같아",
+            "norm_text": "아 진짜? 왠지 두피라 아플 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+왠지/MAG+두피/NNG+라/VCP+EC+아플/VA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아픔은 한순간이지만 나 같은 두피 다한증에겐 희소식이야ㅠ",
+            "norm_text": "아픔은 한순간이지만 나 같은 두피 다한증에겐 희소식이야ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아픔/NNG+은/JX+한/MM+순간/NNG+이/VCP+지만/EC+나/NP+같/VA+은/ETM+두피/NNG+다한증/NNG+에겐/JKB+JX+희소식/NNG+이/VCP+야/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 보톡스는 턱이지 턱에 맞아",
+            "norm_text": "보톡스는 턱이지 턱에 맞아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보톡스/NNP+는/JX+턱/NNG+이/VCP+지/EC+턱/NNG+에/JKB+맞/VV+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 앗 그건 살 빼야 효과 있지 뭐",
+            "norm_text": "앗 그건 살 빼야 효과 있지 뭐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앗/IC+그건/NP+JX+살빼/VV+야/EC+효과/NNG+있/VA+지/EF+뭐/IC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니야 근육 많으면 효과 쩔어",
+            "norm_text": "아니야 근육 많으면 효과 쩔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+근육/NNG+많/VA+으면/EC+효과/NNG+쩔/VV+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 진짜? 난 지금 턱에 다 살인대?",
+            "norm_text": "진짜? 난 지금 턱에 다 살인대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+난/NP+JX+지금/MAG+턱/NNG+에다/JKB+살인/NNG+대/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 혹시 알아 살살짝에 다 근육일지",
+            "norm_text": "혹시 알아 살살짝에 다 근육일지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혹시/MAG+알/VV+아/EC+살살/MAG+짝/NNG+에다/JKB+근육/NNG+일지/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 만져보면 알지 난 턱이 나름 갸름한 편이야",
+            "norm_text": "키키 만져보면 알지 난 턱이 나름 갸름한 편이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+만져/VV+EC+보/VX+면/EC+알/NNG+지난/VV+ETM+턱/NNB+이/JKS+나름/NNB+갸름/XR+한/XSA+ETM+편/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 근데 나도 한번 맞았는데 효과 없더라",
+            "norm_text": "근데 나도 한번 맞았는데 효과 없더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나/NP+도/JX+한/MM+번/NNBC+맞/VV+았/EP+는데/EC+효과/NNG+없/VA+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 코 필러는 맞아 보았니? 궁금",
+            "norm_text": "코 필러는 맞아 보았니? 궁금",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "코/NNG+필러/NNG+는/JX+맞/VV+아/EC+보/VX+았/EP+니/EF+궁금/XR"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아주 오래전에 맞았는데 그것도 그냥 그래",
+            "norm_text": "아주 오래전에 맞았는데 그것도 그냥 그래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아주/MAG+오래/MAG+전/NNG+에/JKB+맞/VV+았/EP+는데/EC+그것/NP+도/JX+그냥/MAG+그래/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

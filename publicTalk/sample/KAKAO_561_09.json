@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 31573,
+    "name": "KAKAO_561_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209018799/KAKAO_561_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209018799/KAKAO_561_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30060,
+      "filename": "KAKAO_561_09.txt",
+      "title": "KAKAO_561_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 449,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 449,
+        "word_size": 157,
+        "text": "1 : 너 혹시 강아지 키워 봤어?\n2 : 아니 한 번도 없어 넌?\n1 : 키우고는 싶은데 가족이 반대하네\n2 : 가족 다 반대하는 거야?\n1 : 응 강아지 종류 진짜 많이 알아봤는데\n2 : 어떤 종을 키우고 싶은데?\n1 : 말티즈 아니면 비숑 키우고 싶어 하하\n1 : 너는 키우고 싶은 생각 없어?\n2 : 나도 비숑 아니면 포메 키우고 싶어\n1 : 포메 진짜 귀엽지 작아서 좋지 키우기\n2 : 키키 그럼 너 자취하면 키울 거야?\n1 : 나중에 결혼하면 키우려고\n1 : 혼자 키우면 집 비우는 시간이 기니까 신경 못 쓸까 봐\n2 : 나중에 결혼할 사람이 반대하면 어떡해\n1 : 그럼 어쩔 수 없지 애견 카페 자주 놀러 가야지 하하\n2 : 키키 근데 강아지 매일 산책 시켜 줘야 된대\n2 : 너 할 수 있어?\n1 : 아냐 매일은 안 할래,\n1 : 이틀에 한 번 정도면 충분하지 않을까\n2 : 넌 아직 키울 준비가 안 된 거 같아 키우지 마",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 혹시 강아지 키워 봤어?",
+            "norm_text": "너 혹시 강아지 키워 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+혹시/MAG+강아지/NNG+키워/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 한 번도 없어 넌?",
+            "norm_text": "아니 한 번도 없어 넌?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+한/MM+번/NNBC+도/JX+없/VA+어/EC+넌/NP+JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키우고는 싶은데 가족이 반대하네",
+            "norm_text": "키우고는 싶은데 가족이 반대하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키우/VV+고는/EC+싶/VX+은데/EC+가족/NNG+이/JKS+반대/NNG+하/XSV+네/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 가족 다 반대하는 거야?",
+            "norm_text": "가족 다 반대하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가족/NNG+다/MAG+반대/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 강아지 종류 진짜 많이 알아봤는데",
+            "norm_text": "응 강아지 종류 진짜 많이 알아봤는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+강아지/NNG+종류/NNG+진짜/MAG+많이/MAG+알/VV+아/EC+봤/VX+EP+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어떤 종을 키우고 싶은데?",
+            "norm_text": "어떤 종을 키우고 싶은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+종/NNG+을/JKO+키우/VV+고/EC+싶/VX+은데/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 말티즈 아니면 비숑 키우고 싶어 하하",
+            "norm_text": "말티즈 아니면 비숑 키우고 싶어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "말/NNG+티즈/NNP+아니/VCN+면/EC+비숑/NNP+키우/VV+고/EC+싶/VX+어/EC+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 너는 키우고 싶은 생각 없어?",
+            "norm_text": "너는 키우고 싶은 생각 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+키우/VV+고/EC+싶/VX+은/ETM+생각/NNG+없/VA+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나도 비숑 아니면 포메 키우고 싶어",
+            "norm_text": "나도 비숑 아니면 포메 키우고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+비숑/NNP+아니/VCN+면/EC+포/MAG+메/VV+EC+키우/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 포메 진짜 귀엽지 작아서 좋지 키우기",
+            "norm_text": "포메 진짜 귀엽지 작아서 좋지 키우기",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "포/MAG+메/VV+EC+진짜/MAG+귀엽/VA+지/EC+작/VA+아서/EC+좋/VA+지/EC+키우/VV+기/ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 그럼 너 자취하면 키울 거야?",
+            "norm_text": "키키 그럼 너 자취하면 키울 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+너/NP+자취/NNG+하/XSV+면/EC+키울/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나중에 결혼하면 키우려고",
+            "norm_text": "나중에 결혼하면 키우려고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나중/NNG+에/JKB+결혼/NNG+하/XSV+면/EC+키우/VV+려고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 혼자 키우면 집 비우는 시간이 기니까 신경 못 쓸까 봐",
+            "norm_text": "혼자 키우면 집 비우는 시간이 기니까 신경 못 쓸까 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혼자/MAG+키우/VV+면/EC+집/NNG+비우/VV+는/ETM+시간/NNG+이기/VV+니까/EC+신경/NNG+못/MAG+쓸까봐/VV+EC+VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나중에 결혼할 사람이 반대하면 어떡해",
+            "norm_text": "나중에 결혼할 사람이 반대하면 어떡해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나중/NNG+에/JKB+결혼/NNG+할/XSV+ETM+사람/NNG+이/JKS+반대/NNG+하/XSV+면/EC+어떡/XR+해/XSA+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼 어쩔 수 없지 애견 카페 자주 놀러 가야지 하하",
+            "norm_text": "그럼 어쩔 수 없지 애견 카페 자주 놀러 가야지 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+어쩔/VV+ETM+수/NNB+없/VA+지/EC+애견/NNG+카페/NNG+자주/MAG+놀/VV+러/EC+가/VX+야/EC+지하/NNG+하/XSV"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 근데 강아지 매일 산책 시켜 줘야 된대",
+            "norm_text": "ㅋㅋㅋㅋ근데 강아지 매일 산책 시켜줘야 된대 너 할 수 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "ㅋㅋ/UNKNOWN+ㅋㅋ/UNKNOWN+근데/MAJ+강아지/NNG+매일/MAG+산책/NNG+시켜/XSV+EC+줘야/VX+EC+된대/VV+EF+너/NP+할/VV+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 너 할 수 있어?",
+            "norm_text": "ㅋㅋㅋㅋ근데 강아지 매일 산책 시켜줘야 된대 너 할 수 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "ㅋㅋ/UNKNOWN+ㅋㅋ/UNKNOWN+근데/MAJ+강아지/NNG+매일/MAG+산책/NNG+시켜/XSV+EC+줘야/VX+EC+된대/VV+EF+너/NP+할/VV+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아냐 매일은 안 할래,",
+            "norm_text": "아냐 매일은안할래,, 이틀에 한번정도면 충분하지않을까",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "아냐/IC+매일/MAG+은/JX+안/MAG+할래/VV+EF+,/SC+,/SC+이틀/NNG+에/JKB+한/MM+번/NNBC+정도/NNG+면/VCP+EC+충분/XR+하/XSA+지/EC+않/VX+을까/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 이틀에 한 번 정도면 충분하지 않을까",
+            "norm_text": "아냐 매일은안할래,, 이틀에 한번정도면 충분하지않을까",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "아냐/IC+매일/MAG+은/JX+안/MAG+할래/VV+EF+,/SC+,/SC+이틀/NNG+에/JKB+한/MM+번/NNBC+정도/NNG+면/VCP+EC+충분/XR+하/XSA+지/EC+않/VX+을까/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 넌 아직 키울 준비가 안 된 거 같아 키우지 마",
+            "norm_text": "넌 아직 키울 준비가 안 된 거 같아 키우지 마",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "넌/NP+JX+아직/MAG+키울/VV+ETM+준비/NNG+가/JKS+안/MAG+된/VV+ETM+거/NNB+같/VA+아/EC+키우/VV+지/EC+마/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

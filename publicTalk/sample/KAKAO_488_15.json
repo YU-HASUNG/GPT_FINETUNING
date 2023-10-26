@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 31415,
+    "name": "KAKAO_488_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404020895/KAKAO_488_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404020895/KAKAO_488_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29366,
+      "filename": "KAKAO_488_15.txt",
+      "title": "KAKAO_488_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 556,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 556,
+        "word_size": 167,
+        "text": "1 : 일본에서 도쿄 변이 바이러스가 발견됐다네?\n2 : 이 놈의 바이러스는 자꾸 변이가 생기네~\n1 : 그러니까 확진자도 줄었다 늘었다 ㅠㅜ\n2 : 큰일이다 큰일이야~ 다른 나라에서 자꾸 변이가 나오니 이게 언제 나아지려나~\n2 : 우리 딸 백신 맞았지?\n1 : 이제 1차 맞았지 ㅠㅠ 2차는 아직... 아빠는?\n2 : 아빠는 오늘 2차까지 다 맞았지~\n2 : 근데 하나도 안 아프네?\n1 : 2차가 엄청 아프다던데? 괜찮았어?\n2 : 아빠는 하나도 안 아프네~하하\n2 : 우리 딸도 얼른 2차 맞아야 하는데~\n1 : 요즘은 위드 코로나 한다고 하더라고 다른 나라들은~?\n2 : 위드 코로나~? 같이 사는 건가?\n2 : 우리나라는 언제 하나~\n1 : 하하 웅웅 코로나랑 상생하겠다는 거래~\n1 : 근데 우리나라는 아직 좀 이른 거 아닌가?\n2 : 그런가~ 우리나라도 확진자가 너무 많은데~ 다른 나라가 더 많나?\n1 : 다른 나라는 인구 수가 많아서 그런가... 더 많은 것 같던데?\n2 : 그렇기는 하겠네~ 워낙 사람이 많으니까~\n2 : 아무튼 참 조심해야 돼~\n1 : 맞아 조심해야 돼 ㅠㅠ\n2 : 우리 딸도 아빠도 조심하자~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 일본에서 도쿄 변이 바이러스가 발견됐다네?",
+            "norm_text": "일본에서 도쿄 변이 바이러스가 발견됐다네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일본/NNP+에서/JKB+도쿄/NNP+변이/NNG+바이러스/NNG+가/JKS+발견/NNG+됐/XSV+EP+다네/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이 놈의 바이러스는 자꾸 변이가 생기네~",
+            "norm_text": "이 놈의 바이러스는 자꾸 변이가 생기네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이놈/NP+의/JKG+바이러스/NNG+는/JX+자꾸/MAG+변이/NNG+가/JKS+생기/VV+네/EF+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러니까 확진자도 줄었다 늘었다 ㅠㅜ",
+            "norm_text": "그러니까 확진자도 줄었다 늘었다 ㅠㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+확진/NNG+자/XSN+도/JX+줄/VV+었/EP+다/EC+늘/VV+었/EP+다/EF+ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 큰일이다 큰일이야~ 다른 나라에서 자꾸 변이가 나오니 이게 언제 나아지려나~",
+            "norm_text": "큰일이다 큰일이야~ 다른 나라에서 자꾸 변이가 나오니 이게 언제 나아지려나~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "큰일/NNG+이/JKS+다/MAG+큰일/NNG+이/VCP+야/EC+~/SY+다른/MM+나라/NNG+에서/JKB+자꾸/MAG+변이/NNG+가/JKS+나오/VV+니/EC+이게/NP+JKS+언제나/MAG+아/IC+지려/NNG+나/JC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 우리 딸 백신 맞았지?",
+            "norm_text": "우리 딸 백신 맞았지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+딸/VV+ETM+백신/NNG+맞/VV+았/EP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 이제 1차 맞았지 ㅠㅠ 2차는 아직... 아빠는?",
+            "norm_text": "이제 1차 맞았지 ㅠㅠ 2차는 아직... 아빠는?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이제/MAG+1/SN+차/NNBC+맞/VV+았/EP+지/EF+ㅠㅠ/UNKNOWN+2/SN+차/NNBC+는/JX+아직/MAG+./SY+아빠/NNG+는/JX"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아빠는 오늘 2차까지 다 맞았지~",
+            "norm_text": "아빠는 오늘 2차까지 다 맞았지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+는/JX+오늘/MAG+2/SN+차/NNBC+까지/JX+다/MAG+맞/VV+았/EP+지/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 하나도 안 아프네?",
+            "norm_text": "근데 하나도 안 아프네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+하나/NR+도/JX+안/MAG+아프/VA+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 2차가 엄청 아프다던데? 괜찮았어?",
+            "norm_text": "2차가 엄청 아프다던데? 괜찮았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "2/SN+차/NNBC+가/JKS+엄청/MAG+아프/VA+다던데/EF+괜찮/VA+았/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아빠는 하나도 안 아프네~하하",
+            "norm_text": "아빠는 하나도 안 아프네~하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+는/JX+하나/NR+도/JX+안/MAG+아프/VA+네/EF+~/SY+하하/NNP"
+          },
+          {
+            "id": 11,
+            "text": "2 : 우리 딸도 얼른 2차 맞아야 하는데~",
+            "norm_text": "우리 딸도 얼른 2차 맞아야 하는데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+딸/NNG+도/JX+얼른/MAG+2/SN+차/NNBC+맞/VV+아야/EC+하/VV+는데/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 요즘은 위드 코로나 한다고 하더라고 다른 나라들은~?",
+            "norm_text": "요즘은 위드 코로나 한다고 하더라고 다른 나라들은~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+위드/NNP+코로나/NNG+한다고/XSV+EC+하/VX+더라고/EF+다른/MM+나라/NNG+들/XSN+은/JX+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 위드 코로나~? 같이 사는 건가?",
+            "norm_text": "위드 코로나~? 같이 사는 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "위드/NNP+코로나/NNP+~/SY+같이/MAG+사/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 우리나라는 언제 하나~",
+            "norm_text": "우리나라는 언제 하나~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+는/JX+언제/MAG+하나/NR+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 하하 웅웅 코로나랑 상생하겠다는 거래~",
+            "norm_text": "하하 웅웅 코로나랑 상생하겠다는 거래~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+웅웅/MAG+코로나/NNG+랑/JKB+상생/NNG+하/XSV+겠/EP+다는/ETM+거래/NNG+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근데 우리나라는 아직 좀 이른 거 아닌가?",
+            "norm_text": "근데 우리나라는 아직 좀 이른 거 아닌가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+우리/NP+나라/NNG+는/JX+아직/MAG+좀/MAG+이른/VA+ETM+거/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그런가~ 우리나라도 확진자가 너무 많은데~ 다른 나라가 더 많나?",
+            "norm_text": "그런가~ 우리나라도 확진자가 너무 많은데~ 다른 나라가 더 많나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+~/SY+우리/NP+나라/NNG+도/JX+확진/NNG+자/XSN+가/JKS+너무/MAG+많/VA+은데/EC+~/SY+다른/MM+나라/NNG+가/JKS+더/MAG+많/VA+나/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 다른 나라는 인구 수가 많아서 그런가... 더 많은 것 같던데?",
+            "norm_text": "다른 나라는 인구 수가 많아서 그런가... 더 많은 것 같던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다른/MM+나라/NNG+는/JX+인구수/NNG+가/JKS+많/VA+아서/EC+그런가/VA+EF+./SY+더/MAG+많/VA+은/ETM+것/NNB+같/VA+던데/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그렇기는 하겠네~ 워낙 사람이 많으니까~",
+            "norm_text": "그렇기는 하겠네~ 워낙 사람이 많으니까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+기/ETN+는/JX+하/VV+겠/EP+네/EF+~/SY+워낙/MAG+사람/NNG+이/JKS+많/VA+으니까/EC+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아무튼 참 조심해야 돼~",
+            "norm_text": "아무튼 참 조심해야 돼~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아무튼/MAJ+참/MAG+조심/NNG+해야/XSV+EC+돼/VV+EC+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 맞아 조심해야 돼 ㅠㅠ",
+            "norm_text": "맞아 조심해야 돼 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "맞/VV+아/EC+조심/NNG+해야/XSV+EC+돼/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 우리 딸도 아빠도 조심하자~",
+            "norm_text": "우리 딸도 아빠도 조심하자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+딸/NNG+도/JX+아빠/NNG+도/JX+조심/NNG+하/XSV+자/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

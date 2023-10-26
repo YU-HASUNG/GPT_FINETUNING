@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 47454,
+    "name": "KAKAO_837_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172250060250/KAKAO_837_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172250060250/KAKAO_837_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39639,
+      "filename": "KAKAO_837_01.txt",
+      "title": "KAKAO_837_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 392,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 392,
+        "word_size": 127,
+        "text": "1 : 너 에어 프라이기에 고구마 넣어서 먹어 봤냐\n2 : 웅 군고구마처럼 되던데? 마싯더라\n1 : 맞아 역시 뭘 아는구나?\n2 : 에어 프라이기는 누가 개발했는지 정말!\n1 : 키키 진짜 거기 또 뭐 넣어 봤어?\n2 : 감자튀김이랑 치즈 스틱도 해 봤지!\n1 : 난 마시멜로 넣어 봤는데 풍선처럼 부풀더라\n2 : 난 마시멜로는 안 해 봤어 이제 겨울인데 군고구마 마싯겟당 ㅠㅠ\n1 : 호박고구마 하자 키키 고구마호박 말구\n2 : 키키음 마싯다아~ 마트 다녀오셨나 봐요?\n1 : 키키 역시 원조는 너 아니었을까 싶어\n2 : 키키 내가 다 옮겼지 진짜 키키\n1 : 지금 사실 내가 고구마 먹고 있었어\n2 : 지금? 이 시간에? 고구마 살 찌자마\n1 : 키키 괜찮아 조금 쪄도 하하\n2 : 그래 넌 쪄도 되겠다, 난 너무 살 쪘더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 에어 프라이기에 고구마 넣어서 먹어 봤냐",
+            "norm_text": "너 에어 프라이기에 고구마 넣어서 먹어 봤냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+에/JKB+어/IC+프라/NNG+이/VCP+기/ETN+에/JKB+고구마/NNG+넣/VV+어서/EC+먹/VV+어/EC+봤/VX+EP+냐/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 웅 군고구마처럼 되던데? 마싯더라",
+            "norm_text": "웅 군고구마처럼 되던데? 마싯더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+군고구마/NNG+처럼/JKB+되/VV+던데/EF+마싯더라/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아 역시 뭘 아는구나?",
+            "norm_text": "맞아 역시 뭘 아는구나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+역시/MAJ+뭘/NP+JKO+아/VV+는구나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 에어 프라이기는 누가 개발했는지 정말!",
+            "norm_text": "에어 프라이기는 누가 개발했는지 정말!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에/IC+어/IC+프라/NNG+이/VCP+기/ETN+는/JX+누가/NP+JKS+개발/NNG+했/XSV+EP+는지/EC+정말/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 진짜 거기 또 뭐 넣어 봤어?",
+            "norm_text": "키키 진짜 거기 또 뭐 넣어 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+거기/NP+또/MAG+뭐/IC+넣/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 감자튀김이랑 치즈 스틱도 해 봤지!",
+            "norm_text": "감자튀김이랑 치즈 스틱도 해 봤지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "감자튀김/NNG+이랑/JC+치즈스틱/NNP+도/JX+해/VV+EC+봤/VX+EP+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 난 마시멜로 넣어 봤는데 풍선처럼 부풀더라",
+            "norm_text": "난 마시멜로 넣어 봤는데 풍선처럼 부풀더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+마시멜로/NNG+넣/VV+어/EC+봤/VX+EP+는데/EC+풍선/NNG+처럼/JKB+부풀/VV+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 난 마시멜로는 안 해 봤어 이제 겨울인데 군고구마 마싯겟당 ㅠㅠ",
+            "norm_text": "난 마시멜로는 안 해 봤어 이제 겨울인데 군고구마 마싯겟당 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+마시멜로/NNG+는/JX+안/MAG+해/VV+EC+봤/VX+EP+어/EF+이제/MAG+겨울/NNG+인데/VCP+EC+군고구마/NNG+마싯/UNKNOWN+겟/EP+당/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 호박고구마 하자 키키 고구마호박 말구",
+            "norm_text": "호박고구마 하자 키키 고구마호박 말구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "호박/NNG+고구마/NNG+하/XSV+자/EC+키키/NNP+고구마/NNP+호박/NNG+말/VV+구/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키음 마싯다아~ 마트 다녀오셨나 봐요?",
+            "norm_text": "키키음 마싯다아~ 마트 다녀오셨나 봐요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키음마싯다아/UNKNOWN+~/SY+마트/NNG+다녀오/VV+셨/EP+EP+나/EC+봐요/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 역시 원조는 너 아니었을까 싶어",
+            "norm_text": "키키 역시 원조는 너 아니었을까 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+역시/MAJ+원조/NNG+는/JX+너/NP+아니/VCN+었/EP+을까/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 내가 다 옮겼지 진짜 키키",
+            "norm_text": "키키 내가 다 옮겼지 진짜 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+가/JKS+다/MAG+옮겼/VV+EP+지/EF+진짜/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 지금 사실 내가 고구마 먹고 있었어",
+            "norm_text": "지금 사실 내가 고구마 먹고 있었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+사실/MAG+내/NP+가/JKS+고구마/NNG+먹/VV+고/EC+있/VX+었/EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 지금? 이 시간에? 고구마 살 찌자마",
+            "norm_text": "지금? 이 시간에? 고구마 살 찌자마",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+이/MM+시간/NNG+에/JKB+고구마/NNG+살찌/VV+자마/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 괜찮아 조금 쪄도 하하",
+            "norm_text": "키키 괜찮아 조금 쪄도 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+괜찮/VA+아/EC+조금/MAG+쪄도/VV+EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 넌 쪄도 되겠다, 난 너무 살 쪘더라",
+            "norm_text": "그래 넌 쪄도 되겠다, 난 너무 살 쪘더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+넌/NP+JX+쪄도/VV+EC+되/VV+겠/EP+다/EF+,/SC+난/NP+JX+너무/MAG+살쪘/VV+EP+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

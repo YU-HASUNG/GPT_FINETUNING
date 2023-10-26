@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 33465,
+    "name": "KAKAO_832_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165813055332/KAKAO_832_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165813055332/KAKAO_832_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38572,
+      "filename": "KAKAO_832_19.txt",
+      "title": "KAKAO_832_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 658,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 658,
+        "word_size": 197,
+        "text": "1 : 하하 요즘 가수 김종국이 짐종국 이라고 운동 방송 하더라구요!\n2 : 키키 아 그래? 걔는 정말 운동에 완전! 키키\n2 : 원래 디스크 때문에 운동하기 시작하다가 중독 된 거래!\n1 : 하하 저도 허리 디스크 있어서 운동으로 허리랑 코어 잡아줘야 된다고 하더라구요\n2 : 맞아 운동 정말 해야겠어!\n2 : 아 맞다 나 요즘 나는 솔로라는 프로그램 보는데 너 혹시 알아?\n1 : 솔로요? 아니요 어떤 프로그램이에요?\n2 : 키키 그거 진짜 재밌는데! 솔로들이 나와서 커플 되는 프로그램인데 진짜 너무 너무 재밌어\n1 : 키키 아 진짜요? 대박 요즘 그런 연애 프로그램 많이 하네요?\n2 : 예전에 짝 이라는 프로그램 했던 연출이 하는 거로 아는데! 프로그램 이름이 나는 솔로 이거야\n1 : 키키 대박 대박 아직 진행 중이에요?\n2 : 응응 근데 중요한 건 지금 2기째인데 벌써 1기에서는 결혼했어\n1 : 와...대박 인연이었나 보네요?\n2 : 그리고 지금 2기에서도 방송 중이지만 미리 방송한 거니까 현재 결혼 준비 중에 있대!\n1 : 키키 와 ㅠㅠ 신기해 진짜 뉴스로도 못 봤어요!\n2 : 그래서 누가 결혼 했을지 맞추는 재미로 보는 것도 재밌더라고\n1 : 방송에서 인연을 찾다니 그것도 좋네요 하하\n2 : 공부하다가 힘들고 지루할 때 한 편씩 봐도 재밌을 거 같아 다양한 사람들이 있다는 게 재밌어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 하하 요즘 가수 김종국이 짐종국 이라고 운동 방송 하더라구요!",
+            "norm_text": "하하 요즘 가수 김종국이 짐종국 이라고 운동 방송 하더라구요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+요즘/MAG+가수/NNG+김종국/NNP+이/JKS+짐/NNG+종국/NNG+이/VCP+라고/EC+운동/NNG+방송/NNG+하/XSA+더라구요/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 아 그래? 걔는 정말 운동에 완전! 키키",
+            "norm_text": "키키 아 그래? 걔는 정말 운동에 완전! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+그래/VV+EF+걔/NP+는/JX+정말/MAG+운동/NNG+에/JKB+완전/NNG+!/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 원래 디스크 때문에 운동하기 시작하다가 중독 된 거래!",
+            "norm_text": "원래 디스크 때문에 운동하기 시작하다가 중독 된 거래!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+디스크/NNG+때문/NNB+에/JKB+운동/NNG+하/XSV+기/ETN+시작/NNG+하/XSV+다가/EC+중독/NNG+된/XSV+ETM+거/NNB+래/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 하하 저도 허리 디스크 있어서 운동으로 허리랑 코어 잡아줘야 된다고 하더라구요",
+            "norm_text": "하하 저도 허리 디스크 있어서 운동으로 허리랑 코어 잡아줘야 된다고 하더라구요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+저/NP+도/JX+허리/NNG+디스크/NNG+있/VV+어서/EC+운동/NNG+으로/JKB+허리/NNG+랑/JKB+코어/NNG+잡/VV+아/EC+줘야/VX+EC+된다고/VV+EC+하/VV+더라구요/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 맞아 운동 정말 해야겠어!",
+            "norm_text": "맞아 운동 정말 해야겠어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+운동/NNG+정말/NNG+해야겠어/XSV+EC+VX+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 맞다 나 요즘 나는 솔로라는 프로그램 보는데 너 혹시 알아?",
+            "norm_text": "아 맞다 나 요즘 나는 솔로라는 프로그램 보는데 너 혹시 알아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+맞/VV+다나/EC+요즘/MAG+나/NP+는/JX+솔로/NNG+라는/VCP+ETM+프로그램/NNG+보/VV+는데/EC+너/NP+혹시/MAG+알/VV+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 솔로요? 아니요 어떤 프로그램이에요?",
+            "norm_text": "솔로요? 아니요 어떤 프로그램이에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "솔로/NNG+요/JX+아니요/IC+어떤/MM+프로그램/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 그거 진짜 재밌는데! 솔로들이 나와서 커플 되는 프로그램인데 진짜 너무 너무 재밌어",
+            "norm_text": "키키 그거 진짜 재밌는데! 솔로들이 나와서 커플 되는 프로그램인데 진짜 너무 너무 재밌어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그거/NP+진짜/MAG+재밌/VA+는데/EC+!/SY+솔로/NNG+들/XSN+이/JKS+나와서/VV+EC+커플/NNG+되/XSV+는/ETM+프로그램/NNG+인데/VCP+EC+진짜/MAG+너무너무/MAG+재밌/VA+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 아 진짜요? 대박 요즘 그런 연애 프로그램 많이 하네요?",
+            "norm_text": "키키 아 진짜요? 대박 요즘 그런 연애 프로그램 많이 하네요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+요/JX+대박/NNG+요즘/MAG+그런/MM+연애/NNG+프로그램/NNG+많이/MAG+하/VV+네요/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 예전에 짝 이라는 프로그램 했던 연출이 하는 거로 아는데! 프로그램 이름이 나는 솔로 이거야",
+            "norm_text": "예전에 짝 이라는 프로그램 했던 연출이 하는 거로 아는데! 프로그램 이름이 나는 솔로 이거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예전/NNG+에/JKB+짝/NNG+이/VCP+라는/ETM+프로그램/NNG+했/XSV+EP+던/ETM+연출/NNG+이/JKS+하/VV+는/ETM+거/NNB+로/JKB+아/VV+는데/EC+!/SY+프로그램/NNG+이름/NNG+이/JKS+나/NP+는/JX+솔/NNG+로/JKB+이거/NP+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 대박 대박 아직 진행 중이에요?",
+            "norm_text": "키키 대박 대박 아직 진행 중이에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+대박/NNG+대박/NNG+아직/MAG+진행/NNG+중/NNB+이/VCP+에요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응응 근데 중요한 건 지금 2기째인데 벌써 1기에서는 결혼했어",
+            "norm_text": "응응 근데 중요한 건 지금 2기째인데 벌써 1기에서는 결혼했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+근데/MAJ+중요/NNG+한/XSA+ETM+건/NNB+JX+지금/MAG+2/SN+기/NNG+째/XSN+인데/VCP+EC+벌써/MAG+1/SN+기/NNG+에서/JKB+는/JX+결혼/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 와...대박 인연이었나 보네요?",
+            "norm_text": "와...대박 인연이었나 보네요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+대박/NNG+인연/NNG+이/VCP+었/EP+나/EC+보/VX+네요/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그리고 지금 2기에서도 방송 중이지만 미리 방송한 거니까 현재 결혼 준비 중에 있대!",
+            "norm_text": "그리고 지금 2기에서도 방송 중이지만 미리 방송한 거니까 현재 결혼 준비 중에 있대!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+지금/MAG+2/SN+기/NNG+에서/JKB+도/JX+방송/NNG+중/NNB+이/VCP+지만/EC+미리/MAG+방송/NNG+한/XSA+ETM+거/NNB+니까/VCP+EC+현재/MAG+결혼/NNG+준비/NNG+중/NNB+에/JKB+있/VV+대/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 와 ㅠㅠ 신기해 진짜 뉴스로도 못 봤어요!",
+            "norm_text": "키키 와 ㅠㅠ 신기해 진짜 뉴스로도 못 봤어요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+와/JC+ㅠㅠ/UNKNOWN+신기/NNG+해/XSV+EC+진짜/MAG+뉴스/NNG+로/JKB+도/JX+못/MAG+봤/VV+EP+어요/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래서 누가 결혼 했을지 맞추는 재미로 보는 것도 재밌더라고",
+            "norm_text": "그래서 누가 결혼 했을지 맞추는 재미로 보는 것도 재밌더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+누가/NP+JKS+결혼/NNG+했/XSV+EP+을지/EC+맞추/VV+는/ETM+재미/NNG+로/JKB+보/VV+는/ETM+것/NNB+도/JX+재밌/VA+더라고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 방송에서 인연을 찾다니 그것도 좋네요 하하",
+            "norm_text": "방송에서 인연을 찾다니 그것도 좋네요 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "방송/NNG+에서/JKB+인연/NNG+을/JKO+찾/VV+다니/EC+그것/NP+도/JX+좋/VA+네요/EF+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 공부하다가 힘들고 지루할 때 한 편씩 봐도 재밌을 거 같아 다양한 사람들이 있다는 게 재밌어",
+            "norm_text": "공부하다가 힘들고 지루할 때 한 편씩 봐도 재밌을 거 같아 다양한 사람들이 있다는 게 재밌어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공부/NNG+하/XSV+다가/EC+힘들/VA+고/EC+지루/XR+할/XSA+ETM+때/NNG+한편/NNG+씩/XSN+봐도/VV+EC+재밌/VA+을/ETM+거/NNB+같/VA+아/EC+다양/XR+한/XSA+ETM+사람/NNG+들/XSN+이/JKS+있/VV+다는/ETM+게/NNB+JKS+재밌/VA+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

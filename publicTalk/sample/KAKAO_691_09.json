@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 71850,
+    "name": "KAKAO_691_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112804017698/KAKAO_691_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112804017698/KAKAO_691_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35208,
+      "filename": "KAKAO_691_09.txt",
+      "title": "KAKAO_691_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 514,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 514,
+        "word_size": 160,
+        "text": "1 : 저도 고양이 키우고 싶은데 다들 반대 ㅜㅜ\n2 : 오... 예전에 잠시 키웠을 때 괜찮았나 보네?\n1 : 넵 하하 전 너무 좋아요 키키\n1 : 그런데 다 반대해서 독립해서 키우래요 키키\n2 : 오... 집에서는 왜 다들 반대하는 거야?\n1 : 엄마는 무서워하고 키키 아빠는 털 날린다고 싫어하고 키키\n2 : 아 키키 어머니 무서워하시는구나 ㅠㅠ 아구\n1 : 무서워하시는데 또 귀여워는 하셔서 만지지는 못하지만 보는 건 좋아해요 키키\n2 : 키키 귀여워 ㅠㅠ 근데 또 가족들 다 반대하면 델꼬 오면 안되긴 하지\n1 : 네 ㅜㅜ 그래서 맨날 몰래 데리고 왔는데 키키\n2 : 키키 몰래 데리고 왔었다고?!\n1 : 키키 항상 그랬어요 키키 금방 들키지만 키키\n2 : 그럼 그 친구들은 지금 어떻게 된 거야? ㅠㅠ\n1 : 제가 데리고 오면 다 죽어요 ㅜㅜ\n2 : 헐... 무슨 일이야 ㅠㅠ\n2 : 문제점이 뭘까...?\n1 : ㅜㅜ 아픈 얘들이 눈에 밟혀서 자꾸 데리고 왔어요 ㅜㅜ\n2 : 아구... 아픈 애들은 진짜 또 힘들지... 병원비도... ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저도 고양이 키우고 싶은데 다들 반대 ㅜㅜ",
+            "norm_text": "저도 고양이 키우고 싶은데 다들 반대 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+도/JX+고양이/NNG+키우/VV+고/EC+싶/VX+은데/EC+다/MAG+들/XSN+반대/NNG+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오... 예전에 잠시 키웠을 때 괜찮았나 보네?",
+            "norm_text": "오... 예전에 잠시 키웠을 때 괜찮았나 보네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+예전/NNG+에/JKB+잠시/MAG+키웠/VV+EP+을/ETM+때/NNG+괜찮/VA+았/EP+나/EC+보/VX+네/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 넵 하하 전 너무 좋아요 키키",
+            "norm_text": "넵 하하 전 너무 좋아요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넵/NNG+하하/MAG+전/NP+JX+너무/MAG+좋/VA+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그런데 다 반대해서 독립해서 키우래요 키키",
+            "norm_text": "그런데 다 반대해서 독립해서 키우래요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런데/MAJ+다/MAG+반대/NNG+해서/XSV+EC+독립/NNG+해서/XSV+EC+키우/VV+래요/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오... 집에서는 왜 다들 반대하는 거야?",
+            "norm_text": "오... 집에서는 왜 다들 반대하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+집/NNG+에서/JKB+는/JX+왜/MAG+다/MAG+들/XSN+반대/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 엄마는 무서워하고 키키 아빠는 털 날린다고 싫어하고 키키",
+            "norm_text": "엄마는 무서워하고 키키 아빠는 털 날린다고 싫어하고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+는/JX+무서워하/VV+고/EC+키/NNG+키/NNG+아빠/NNG+는/JX+털/NNG+날린다고/VV+EC+싫/VA+어/EC+하/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아 키키 어머니 무서워하시는구나 ㅠㅠ 아구",
+            "norm_text": "아 키키 어머니 무서워하시는구나 ㅠㅠ 아구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+어머니/NNG+무서워하/VV+시/EP+는구나/EF+ㅠㅠ/UNKNOWN+아구/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 무서워하시는데 또 귀여워는 하셔서 만지지는 못하지만 보는 건 좋아해요 키키",
+            "norm_text": "무서워하시는데 또 귀여워는 하셔서 만지지는 못하지만 보는 건 좋아해요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "무서워/VA+EC+하/VX+시/EP+는데/EC+또/MAG+귀여워/VA+EC+는/JX+하/VV+셔서/EP+EC+만/JX+지지/VV+는/ETM+못하/VX+지만/EC+보/VX+는/ETM+건/NNB+JX+좋/VA+아/EC+해요/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 귀여워 ㅠㅠ 근데 또 가족들 다 반대하면 델꼬 오면 안되긴 하지",
+            "norm_text": "키키 귀여워 ㅠㅠ 근데 또 가족들 다 반대하면 델꼬 오면 안되긴 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+귀여워/VA+EC+ㅠㅠ/UNKNOWN+근데/MAJ+또/MAG+가족/NNG+들/XSN+다/MAG+반대/NNG+하/XSV+면/EC+델/VV+꼬/EC+오/VV+면/EC+안/MAG+되/VV+긴/ETN+JX+하/VX+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 네 ㅜㅜ 그래서 맨날 몰래 데리고 왔는데 키키",
+            "norm_text": "네 ㅜㅜ 그래서 맨날 몰래 데리고 왔는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+ㅜㅜ/UNKNOWN+그래서/MAJ+맨날/MAG+몰래/MAG+데리/VV+고/EC+왔/VX+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 몰래 데리고 왔었다고?!",
+            "norm_text": "키키 몰래 데리고 왔었다고?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+몰래/MAG+데리/VV+고/EC+왔었/VX+EP+다고/EC+?/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 항상 그랬어요 키키 금방 들키지만 키키",
+            "norm_text": "키키 항상 그랬어요 키키 금방 들키지만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+항상/MAG+그랬/VV+EP+어요/EF+키/NNG+키/NNG+금방/MAG+들키/VV+지만/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그럼 그 친구들은 지금 어떻게 된 거야? ㅠㅠ",
+            "norm_text": "그럼 그 친구들은 지금 어떻게 된 거야? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+그/MM+친구/NNG+들/XSN+은/JX+지금/MAG+어떻게/MAG+된/VV+ETM+거/NNB+야/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 제가 데리고 오면 다 죽어요 ㅜㅜ",
+            "norm_text": "제가 데리고 오면 다 죽어요 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제/NP+가/JKS+데리/VV+고/EC+오/VV+면/EC+다/MAG+죽/VV+어요/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 헐... 무슨 일이야 ㅠㅠ",
+            "norm_text": "헐... 무슨 일이야 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+무슨/MM+일/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 문제점이 뭘까...?",
+            "norm_text": "문제점이 뭘까...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "문제점/NNG+이/JKS+뭘까/NP+VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : ㅜㅜ 아픈 얘들이 눈에 밟혀서 자꾸 데리고 왔어요 ㅜㅜ",
+            "norm_text": "ㅜㅜ 아픈 얘들이 눈에 밟혀서 자꾸 데리고 왔어요 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+아픈/VA+ETM+얘/NP+들/XSN+이/JKS+눈/NNG+에/JKB+밟혀서/VV+EC+자꾸/MAG+데리/VV+고/EC+왔/VX+EP+어요/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아구... 아픈 애들은 진짜 또 힘들지... 병원비도... ㅠㅠ",
+            "norm_text": "아구... 아픈 애들은 진짜 또 힘들지... 병원비도... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아구/IC+./SY+아픈/VA+ETM+애/NNG+들/XSN+은/JX+진짜/MAG+또/MAG+힘들/VA+지/EF+./SY+병원/NNG+비도/NNG+./SY+./SY+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

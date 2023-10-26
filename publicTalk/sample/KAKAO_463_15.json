@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 20426,
+    "name": "KAKAO_463_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141425041584/KAKAO_463_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141425041584/KAKAO_463_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28145,
+      "filename": "KAKAO_463_15.txt",
+      "title": "KAKAO_463_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 344,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 344,
+        "word_size": 113,
+        "text": "1 : 아프가니스탄 뉴스 봤어?\n2 : 탈레반 말이야?\n1 : 진짜 너무  무섭더라.\n2 : 그러게 같은 시대에  일어나는 일이라는 게 믿어지지 않아.\n1 : 나도 그렇게 생각해.\n2 : 그래도 이번에 수송기로 구출 작전 성공했잖아.\n1 : 나도 기사 봤어.\n2 : 일본도 미국도 실패했는데 우리나라만 성공했다고 하던데.\n1 : 그러게 그런데 그 하루 뒷날 바로  공항 폭발 사건 있었잖아.\n2 : 자살 폭탄 테러 사건 말하는 거지?\n1 : 응, 정말 간발의 차였어.\n2 : 진짜 일부러 공항 노린 거라며.\n1 : 어떤 그런 짓을 할 수가 있지.\n2 : 이해가 안 돼.\n1 : 이해를 하고 싶지도 않아.\n2 : 여성 차별하는  건 또 어떻고.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아프가니스탄 뉴스 봤어?",
+            "norm_text": "아프가니스탄 뉴스 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아프가니스탄/NNP+뉴스/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 탈레반 말이야?",
+            "norm_text": "탈레반 말이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "탈레반/NNP+말/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 진짜 너무  무섭더라.",
+            "norm_text": "진짜 너무  무섭더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+너무/MAG+무섭/VA+더라/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그러게 같은 시대에  일어나는 일이라는 게 믿어지지 않아.",
+            "norm_text": "그러게 같은 시대에  일어나는 일이라는 게 믿어지지 않아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+같/VA+은/ETM+시대/NNG+에/JKB+일어나/VV+는/ETM+일/NNG+이/VCP+라는/ETM+게/NNB+JKS+믿/VV+어/EC+지/VX+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나도 그렇게 생각해.",
+            "norm_text": "나도 그렇게 생각해.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그렇/VA+게/EC+생각/NNG+해/XSV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래도 이번에 수송기로 구출 작전 성공했잖아.",
+            "norm_text": "그래도 이번에 수송기로 구출 작전 성공했잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+이번/NNG+에/JKB+수송기/NNG+로/JKB+구출/NNG+작전/NNG+성공/NNG+했잖아/XSV+EP+EC+VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나도 기사 봤어.",
+            "norm_text": "나도 기사 봤어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+기사/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 일본도 미국도 실패했는데 우리나라만 성공했다고 하던데.",
+            "norm_text": "일본도 미국도 실패했는데 우리나라만 성공했다고 하던데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일본/NNP+도/JX+미국/NNP+도/JX+실패/NNG+했/XSV+EP+는데/EC+우리/NP+나라/NNG+만/JX+성공/NNG+했/XSV+EP+다고/EC+하/VX+던데/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러게 그런데 그 하루 뒷날 바로  공항 폭발 사건 있었잖아.",
+            "norm_text": "그러게 그런데 그 하루 뒷날 바로  공항 폭발 사건 있었잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/IC+그런데/MAJ+그/MM+하루/NNG+뒷날/NNG+바로/MAG+공항/NNG+폭발/NNG+사건/NNG+있/VV+었/EP+잖아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 자살 폭탄 테러 사건 말하는 거지?",
+            "norm_text": "자살 폭탄 테러 사건 말하는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자살/NNG+폭탄/NNG+테러/NNG+사건/NNG+말/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응, 정말 간발의 차였어.",
+            "norm_text": "응, 정말 간발의 차였어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+,/SC+정말/MAG+간발/NNG+의/JKG+차/NNG+였/VCP+EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 진짜 일부러 공항 노린 거라며.",
+            "norm_text": "진짜 일부러 공항 노린 거라며.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+일부러/MAG+공항/NNG+노린/VV+ETM+거/NNB+라며/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어떤 그런 짓을 할 수가 있지.",
+            "norm_text": "어떤 그런 짓을 할 수가 있지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어떤/MM+그런/MM+짓/NNB+을/JKO+할/VV+ETM+수/NNB+가/JKS+있/VA+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 이해가 안 돼.",
+            "norm_text": "이해가 안 돼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이해/NNG+가/JKS+안/MAG+돼/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 이해를 하고 싶지도 않아.",
+            "norm_text": "이해를 하고 싶지도 않아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이해/NNG+를/JKO+하/VV+고/EC+싶/VX+지/EC+도/JX+않/VX+아/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 여성 차별하는  건 또 어떻고.",
+            "norm_text": "여성 차별하는  건 또 어떻고.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여성/NNG+차별/NNG+하/XSV+는/ETM+건/NNB+JX+또/MAG+어떻/VA+고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

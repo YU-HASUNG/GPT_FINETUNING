@@ -1,0 +1,455 @@
+{
+  "dataset": {
+    "identifier": 48377,
+    "name": "KAKAO_854_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174230034527/KAKAO_854_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174230034527/KAKAO_854_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40101,
+      "filename": "KAKAO_854_03.txt",
+      "title": "KAKAO_854_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 1133,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 1133,
+        "word_size": 369,
+        "text": "1 : 울산에 사니까 안 좋은 게 지하철이 없는 거인 것 같애... 키키;\n2 : 아니 그니까 키키 나 처음에 울산에 지하철 없다는 거 듣고 깜짝 놀랬어\n2 : 그럼 출퇴근 시간에는 진짜 지옥이겠다\n1 : 다 자차 사는 거지 키키\n1 : 자차 없는 나는 죽겄다. ㅜㅜ\n1 : 지하철이 그리워\n2 : 근데 왜 지하철이 없는 거지?\n2 : 지하철을 만들 수 없는 환경인 거야?\n2 : 그럼 자차 없는 사람들은 전부 다 버스 타고 다니겠네?\n1 : 응 키키 너무 놀랍지\n1 : 나도 처음 울산 올 땐 그랬어 키키\n1 : 설치할 수 없는 환경이 맞는 것 같아\n1 : 지하철이 없어서 길거리에서 화장실 가고 싶을 때도 되게 불편 키키\n2 : 와 진짜 그런 것도 있겠네 키키\n2 : 나는 지하철이 없는 건 상상을 해본 적이 없어서...\n2 : 근데 난 그래도 지하철 보다 버스 타는 게 좋더라고\n1 : 맞아 넌 원래도 버스 자주 타긴 했어 키키\n1 : 특별히 이유가 있어?\n2 : 일단 지하철은 사람이 항상 많아 앉을 자리가 항상 없어\n2 : 그리고 자리가 있어도 옆사람이랑 너무 가까워서 그게 좀 부담스럽더라구\n2 : 근데 버스는 자리도 있고 사실 제일 큰 이유는 그냥 뭔가 자리에 앉아서 창밖을 보는 게 좋아 키키\n1 : 아 키키 뭔가 납득이 가는 것 같아 지하철 항상 북적북적 하긴 하잖아 키키\n1 : 그래서였구나 늘 궁금했었는데 이제 물어봤네 키키\n2 : 그리고 버스 타다 보면 모르는 장소도 안에서 보면서 갈 수도 있고 키키\n2 : 예전에 모르는 버스 아무거나 타고 그냥 모르는 장소에 내려서 뭐 먹고 집에 오고 한 적도 있는데 키키 좋더라구\n1 : 키키 뭔가 낭만적인데 키키 나도 따라해볼래 키키\n2 : 진짜 괜찮아 한번 해봐 키키\n2 : 아무런 계획 없이 그냥 눈 앞에 보이는 버스 타고 눈 앞에 보이는 식당 가서 밥 먹고 키키\n1 : 응응 키키 난 호기심이 넘쳐나서 이곳저곳 다 내리고 싶어할듯 키키\n1 : 그럼 너 퇴근도 항상 버스로 하는  거지?\n2 : 응응 키키 물론! 나는 버스가 시간이 시간 더 걸려도 무조건 버스로 키키\n2 : 이때까지 지하철로 출퇴근 해본 적은 한번도 없는 거 같은데\n1 : 키키 그랬구나 키키 자리는 보통 앞자리에 앉아?\n2 : 아니 나는 무조건 뒷자리 키키 버스는 뒷자리가 제일 펀하더라구\n2 : 버스 뒤가 사람이 더 없기도 해서 뒷자리가 좋아 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 울산에 사니까 안 좋은 게 지하철이 없는 거인 것 같애... 키키;",
+            "norm_text": "울산에 사니까 안 좋은 게 지하철이 없는 거인 것 같애... 키키;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "울산/NNP+에/JKB+사/VV+니까/EC+안/MAG+좋/VA+은/ETM+게/NNB+JKS+지하철/NNG+이/JKS+없/VA+는/ETM+거/NNB+인/VCP+ETM+것/NNB+같/VA+애/EF+./SY+키/NNG+키/XSV+ETN+;/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 그니까 키키 나 처음에 울산에 지하철 없다는 거 듣고 깜짝 놀랬어",
+            "norm_text": "아니 그니까 키키 나 처음에 울산에 지하철 없다는 거 듣고 깜짝 놀랬어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그니까/MAJ+키/NNG+키나/XSA+ETN+JX+처음/NNG+에/JKB+울산/NNP+에/JKB+지하철/NNG+없/VA+다는/ETM+거/NNB+듣/VV+고/EC+깜짝/MAG+놀랬/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 그럼 출퇴근 시간에는 진짜 지옥이겠다",
+            "norm_text": "그럼 출퇴근 시간에는 진짜 지옥이겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+출퇴근/NNG+시간/NNG+에/JKB+는/JX+진짜/MAG+지옥/NNG+이/VCP+겠/EP+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 다 자차 사는 거지 키키",
+            "norm_text": "다 자차 사는 거지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+자차/NNG+사/VV+는/ETM+거/NNB+지/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 자차 없는 나는 죽겄다. ㅜㅜ",
+            "norm_text": "자차 없는 나는 죽겄다. ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자차/NNG+없/VA+는/ETM+나/NP+는/JX+죽/VV+겄/EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 지하철이 그리워",
+            "norm_text": "지하철이 그리워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지하철/NNG+이/JKS+그리워/VA+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 근데 왜 지하철이 없는 거지?",
+            "norm_text": "근데 왜 지하철이 없는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+왜/MAG+지하철/NNG+이/JKS+없/VA+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 지하철을 만들 수 없는 환경인 거야?",
+            "norm_text": "지하철을 만들 수 없는 환경인 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지하철/NNG+을/JKO+만들/VV+ETM+수/NNB+없/VA+는/ETM+환경/NNG+인/VCP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그럼 자차 없는 사람들은 전부 다 버스 타고 다니겠네?",
+            "norm_text": "그럼 자차 없는 사람들은 전부 다 버스 타고 다니겠네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+자차/NNG+없/VA+는/ETM+사람/NNG+들/XSN+은/JX+전부/MAG+다/MAG+버스/NNG+타/VV+고/EC+다니/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 키키 너무 놀랍지",
+            "norm_text": "응 키키 너무 놀랍지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+너무/MAG+놀랍/VA+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나도 처음 울산 올 땐 그랬어 키키",
+            "norm_text": "나도 처음 울산 올 땐 그랬어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+처음/MAG+울산/NNP+올/MM+땐/NNG+JX+그랬/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 설치할 수 없는 환경이 맞는 것 같아",
+            "norm_text": "설치할 수 없는 환경이 맞는 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "설치/NNG+할/XSV+ETM+수/NNB+없/VA+는/ETM+환경/NNG+이/JKS+맞/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 지하철이 없어서 길거리에서 화장실 가고 싶을 때도 되게 불편 키키",
+            "norm_text": "지하철이 없어서 길거리에서 화장실 가고 싶을 때도 되게 불편 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지하철/NNG+이/JKS+없/VA+어서/EC+길거리/NNG+에서/JKB+화장실/NNG+가/VV+고/EC+싶/VX+을/ETM+때/NNG+도/JX+되게/MAG+불편/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 와 진짜 그런 것도 있겠네 키키",
+            "norm_text": "와 진짜 그런 것도 있겠네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+그런/MM+것/NNB+도/JX+있/VA+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나는 지하철이 없는 건 상상을 해본 적이 없어서...",
+            "norm_text": "나는 지하철이 없는 건 상상을 해본 적이 없어서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+지하철/NNG+이/JKS+없/VA+는/ETM+건/NNB+JX+상상/NNG+을/JKO+해/VV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어서/EC+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 난 그래도 지하철 보다 버스 타는 게 좋더라고",
+            "norm_text": "근데 난 그래도 지하철 보다 버스 타는 게 좋더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+난/NP+JX+그래도/MAJ+지하철/NNG+보다/JKB+버스/NNG+타/VV+는/ETM+게/NNB+JKS+좋/VA+더라고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 맞아 넌 원래도 버스 자주 타긴 했어 키키",
+            "norm_text": "맞아 넌 원래도 버스 자주 타긴 했어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+넌/NP+JX+원래/NNG+도/JX+버스/NNG+자주/MAG+타/VV+긴/ETN+JX+했/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 특별히 이유가 있어?",
+            "norm_text": "특별히 이유가 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "특별히/MAG+이유/NNG+가/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 일단 지하철은 사람이 항상 많아 앉을 자리가 항상 없어",
+            "norm_text": "일단 지하철은 사람이 항상 많아 앉을 자리가 항상 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일단/MAG+지하철/NNG+은/JX+사람/NNG+이/JKS+항상/MAG+많/VA+아/EC+앉/VV+을/ETM+자리/NNG+가/JKS+항상/MAG+없/VA+어/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그리고 자리가 있어도 옆사람이랑 너무 가까워서 그게 좀 부담스럽더라구",
+            "norm_text": "그리고 자리가 있어도 옆사람이랑 너무 가까워서 그게 좀 부담스럽더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+자리/NNG+가/JKS+있/VA+어도/EC+옆/NNG+사람/NNG+이랑/JKB+너무/MAG+가까워서/VA+EC+그게/NP+JKS+좀/MAG+부담/NNG+스럽/XSA+더라구/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 근데 버스는 자리도 있고 사실 제일 큰 이유는 그냥 뭔가 자리에 앉아서 창밖을 보는 게 좋아 키키",
+            "norm_text": "근데 버스는 자리도 있고 사실 제일 큰 이유는 그냥 뭔가 자리에 앉아서 창밖을 보는 게 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+버스/NNG+는/JX+자리/NNG+도/JX+있/VA+고/EC+사실/MAG+제일/MAG+큰/VA+ETM+이유/NNG+는/JX+그냥/MAG+뭔가/NP+VCP+EC+자리/NNG+에/JKB+앉/VV+아서/EC+창밖/NNG+을/JKO+보/VV+는/ETM+게/NNB+JKS+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아 키키 뭔가 납득이 가는 것 같아 지하철 항상 북적북적 하긴 하잖아 키키",
+            "norm_text": "아 키키 뭔가 납득이 가는 것 같아 지하철 항상 북적북적 하긴 하잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+뭔가/NP+VCP+EC+납득/NNG+이/JKS+가/VV+는/ETM+것/NNB+같/VA+아/EC+지하철/NNG+항상/MAG+북적북적/MAG+하/VV+긴/ETN+JX+하/VX+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 그래서였구나 늘 궁금했었는데 이제 물어봤네 키키",
+            "norm_text": "그래서였구나 늘 궁금했었는데 이제 물어봤네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+였/EP+구나/EF+늘/MAG+궁금/XR+했었/XSA+EP+는데/EC+이제/MAG+물/VV+어/EC+봤/VX+EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그리고 버스 타다 보면 모르는 장소도 안에서 보면서 갈 수도 있고 키키",
+            "norm_text": "그리고 버스 타다 보면 모르는 장소도 안에서 보면서 갈 수도 있고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+버스/NNG+타/VV+다/EC+보/VX+면/EC+모르/VV+는/ETM+장소/NNG+도/JX+안/NNG+에서/JKB+보/VV+면서/EC+갈/VX+ETM+수/NNB+도/JX+있/VA+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 예전에 모르는 버스 아무거나 타고 그냥 모르는 장소에 내려서 뭐 먹고 집에 오고 한 적도 있는데 키키 좋더라구",
+            "norm_text": "예전에 모르는 버스 아무거나 타고 그냥 모르는 장소에 내려서 뭐 먹고 집에 오고 한 적도 있는데 키키 좋더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예전/NNG+에/JKB+모르/VV+는/ETM+버스/NNG+아무거/NP+나/JX+타/VV+고/EC+그냥/MAG+모르/VV+는/ETM+장소/NNG+에/JKB+내려서/VV+EC+뭐/IC+먹/VV+고/EC+집/NNG+에/JKB+오/VV+고/EC+한/VX+ETM+적/NNB+도/JX+있/VA+는데/EC+키/NNG+키/XSV+ETN+좋/VA+더라구/EC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 키키 뭔가 낭만적인데 키키 나도 따라해볼래 키키",
+            "norm_text": "키키 뭔가 낭만적인데 키키 나도 따라해볼래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+낭만/NNG+적/XSN+인데/VCP+EC+키/NNG+키나/XSA+ETN+JX+도/JX+따라해볼/VV+EC+VV+EC+VX+ETM+래키/NNP+키/NNG"
+          },
+          {
+            "id": 27,
+            "text": "2 : 진짜 괜찮아 한번 해봐 키키",
+            "norm_text": "진짜 괜찮아 한번 해봐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "진짜/MAG+괜찮/VA+아/EC+한/MM+번/NNBC+해/VV+EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "2 : 아무런 계획 없이 그냥 눈 앞에 보이는 버스 타고 눈 앞에 보이는 식당 가서 밥 먹고 키키",
+            "norm_text": "아무런 계획 없이 그냥 눈 앞에 보이는 버스 타고 눈 앞에 보이는 식당 가서 밥 먹고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무런/MM+계획/NNG+없이/MAG+그냥/MAG+눈앞/NNG+에/JKB+보이/VV+는/ETM+버스/NNG+타/VV+고/EC+눈앞/NNG+에/JKB+보이/VV+는/ETM+식당/NNG+가/VV+서/EC+밥/NNG+먹/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 29,
+            "text": "1 : 응응 키키 난 호기심이 넘쳐나서 이곳저곳 다 내리고 싶어할듯 키키",
+            "norm_text": "응응 키키 난 호기심이 넘쳐나서 이곳저곳 다 내리고 싶어할듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+난/VV+ETM+호기심/NNG+이/JKS+넘쳐나/VV+서/EC+이곳저곳/NNG+다/MAG+내리/VV+고/EC+싶/VX+어/EC+할/VX+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "1 : 그럼 너 퇴근도 항상 버스로 하는  거지?",
+            "norm_text": "그럼 너 퇴근도 항상 버스로 하는  거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+너/NP+퇴근/NNG+도/JX+항상/MAG+버스/NNG+로/JKB+하/VV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 31,
+            "text": "2 : 응응 키키 물론! 나는 버스가 시간이 시간 더 걸려도 무조건 버스로 키키",
+            "norm_text": "응응 키키 물론! 나는 버스가 시간이 시간 더 걸려도 무조건 버스로 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+물론/MAG+나는버스가시간이시간더걸려도무조건버스로키키/UNKNOWN"
+          },
+          {
+            "id": 32,
+            "text": "2 : 이때까지 지하철로 출퇴근 해본 적은 한번도 없는 거 같은데",
+            "norm_text": "이때까지 지하철로 출퇴근 해본 적은 한번도 없는 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이때/NNG+까지/JX+지하철/NNG+로/JKB+출퇴근/NNG+해/XSV+EC+본/VX+ETM+적/NNB+은/JX+한/MM+번/NNBC+도/JX+없/VA+는/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 33,
+            "text": "1 : 키키 그랬구나 키키 자리는 보통 앞자리에 앉아?",
+            "norm_text": "키키 그랬구나 키키 자리는 보통 앞자리에 앉아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그랬/VV+EP+구나/EF+키키/NNP+자리/NNG+는/JX+보통/NNG+앞자리/NNG+에/JKB+앉/VV+아/EF"
+          },
+          {
+            "id": 34,
+            "text": "2 : 아니 나는 무조건 뒷자리 키키 버스는 뒷자리가 제일 펀하더라구",
+            "norm_text": "아니 나는 무조건 뒷자리 키키 버스는 뒷자리가 제일 펀하더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+나/NP+는/JX+무조건/MAG+뒷자리/NNG+키/NNG+키/NNG+버스/NNG+는/JX+뒷자리/NNG+가/JKS+제일/MAG+펀/NNG+하/XSV+더라구/EC"
+          },
+          {
+            "id": 35,
+            "text": "2 : 버스 뒤가 사람이 더 없기도 해서 뒷자리가 좋아 키키",
+            "norm_text": "버스 뒤가 사람이 더 없기도 해서 뒷자리가 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스/NNG+뒤/NNG+가/JKS+사람/NNG+이/JKS+더/MAG+없/VA+기/ETN+도/JX+해서/VV+EC+뒷자리/NNG+가/JKS+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

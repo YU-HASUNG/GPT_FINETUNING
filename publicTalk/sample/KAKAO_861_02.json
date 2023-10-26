@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 40669,
+    "name": "KAKAO_861_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173743078487/KAKAO_861_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173743078487/KAKAO_861_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39900,
+      "filename": "KAKAO_861_02.txt",
+      "title": "KAKAO_861_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 562,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 562,
+        "word_size": 188,
+        "text": "1 : 안 그래도 일하는 거 억울해서 집 가면 집 거덜내고 오려고 키키\n2 : 키키 아 웃겨 엄마 음식 잘하시지 않냐\n2 : 집 최구임 엄마 있어서\n1 : 맞아 키키 우리 집은 엄마가 한식하고 아빠가 튀김하고 오빠가 양식해줘서 배 터짐\n2 : 키키 뭐야 너무 좋은데 나도 갈래\n1 : 너는 오면 설거지해야 해. 대신 먹을 건 안 줌\n2 : 키키 오 오키 그냥 집에 있을게\n1 : 아니야 우리집 와 키키\n1 : 설거지 할 수 있는 기회를 준다니까?\n2 : 키키 아 근데 너네 집 가보고 싶긴 해 너무 많이 들었어 얘기만\n1 : 아 진짜? 한번도 안 와봤냐?\n2 : 응응 근처도 안 가봄 일도 몰라\n1 : 아 그럼 이사 가기 전에 왔어야 하는데.\n1 : 지금은 이사해서 그냥 아파트 살아\n2 : 아 뭐임 실망, 아쉽다 너네 동네 어딘지도 몰라\n1 : 아니 우리 집 이사한 게 왜 실망이야 ㅠㅠ\n1 : 좀 깨끗한 곳에 살아보자\n2 : 키키 아니 너 자취하잖아 지금은\n1 : 그니까 난 상관없지만 우리 부모님... 벽이 으스러지고 폭우에 잠기고 천장이 뚫려 있는 집에서 사시길 원하냐 이거지~\n2 : ㄴㄴ 아니 그냥 너무 전설이라고 말로만 들어서",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 안 그래도 일하는 거 억울해서 집 가면 집 거덜내고 오려고 키키",
+            "norm_text": "안 그래도 일하는 거 억울해서 집 가면 집 거덜내고 오려고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+그래도/VV+EC+일/NNG+하/XSV+는/ETM+거/NNB+억울/XR+해서/XSA+EC+집/NNG+가/VV+면/EC+집거/NNG+덜/MAG+내/VV+고/EC+오/VV+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 아 웃겨 엄마 음식 잘하시지 않냐",
+            "norm_text": "키키 아 웃겨 엄마 음식 잘하시지 않냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+아/EC+웃겨/VV+EC+엄마/NNG+음식/NNG+잘/MAG+하/VV+시/EP+지/EC+않/VX+냐/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 집 최구임 엄마 있어서",
+            "norm_text": "집 최구임 엄마 있어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+최/XPN+구임/NNG+엄마/NNG+있/VV+어서/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 맞아 키키 우리 집은 엄마가 한식하고 아빠가 튀김하고 오빠가 양식해줘서 배 터짐",
+            "norm_text": "맞아 키키 우리 집은 엄마가 한식하고 아빠가 튀김하고 오빠가 양식해줘서 배 터짐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+우리/NP+집/NNG+은/JX+엄마/NNG+가/JKS+한식/NNG+하/XSV+고/EC+아빠/NNG+가/JKS+튀김/NNG+하/XSV+고/EC+오빠/NNG+가/JKS+양식/NNG+해/XSV+EC+줘서/VX+EC+배/NNG+터짐/NNG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 뭐야 너무 좋은데 나도 갈래",
+            "norm_text": "키키 뭐야 너무 좋은데 나도 갈래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/NP+야/JX+너무/MAG+좋/VA+은데/EC+나/NP+도/JX+갈래/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 너는 오면 설거지해야 해. 대신 먹을 건 안 줌",
+            "norm_text": "너는 오면 설거지해야 해. 대신 먹을 건 안 줌",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+는/JX+오/VV+면/EC+설거지/NNG+해야/XSV+EC+해/VX+EF+대신/NNG+먹/VV+을/ETM+건/NNB+JX+안/MAG+줌/VV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 오 오키 그냥 집에 있을게",
+            "norm_text": "키키 오 오키 그냥 집에 있을게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/NR+오/NR+키/NNG+그냥/MAG+집/NNG+에/JKB+있/VV+을/ETM+게/NNB+JKS"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아니야 우리집 와 키키",
+            "norm_text": "아니야 우리집 와 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아니야/IC+우리/NP+집/NNG+와/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 설거지 할 수 있는 기회를 준다니까?",
+            "norm_text": "설거지 할 수 있는 기회를 준다니까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "설거지/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+기회/NNG+를/JKO+준다니까/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 아 근데 너네 집 가보고 싶긴 해 너무 많이 들었어 얘기만",
+            "norm_text": "키키 아 근데 너네 집 가보고 싶긴 해 너무 많이 들었어 얘기만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아/IC+근데/MAJ+너/NP+네/XSN+집/NNG+가/JKC+보/VV+고/EC+싶/VX+긴/ETN+JX+해/VX+EC+너무/MAG+많이/MAG+들/VV+었/EP+어/EC+얘기/NNG+만/JX"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 진짜? 한번도 안 와봤냐?",
+            "norm_text": "아 진짜? 한번도 안 와봤냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+한/MM+번/NNBC+도/JX+안/MAG+와/VV+EC+봤/VX+EP+냐/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응응 근처도 안 가봄 일도 몰라",
+            "norm_text": "응응 근처도 안 가봄 일도 몰라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+근처/NNG+도/JX+안/MAG+가/VV+EC+봄/NNG+일/NNG+도/JX+몰라/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 그럼 이사 가기 전에 왔어야 하는데.",
+            "norm_text": "아 그럼 이사 가기 전에 왔어야 하는데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럼/MAJ+이사/NNG+가/JKS+기전/NNG+에/JKB+왔/VV+EP+어야/EC+하/VV+는데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 지금은 이사해서 그냥 아파트 살아",
+            "norm_text": "지금은 이사해서 그냥 아파트 살아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+이사/NNG+해서/XSV+EC+그냥/MAG+아파트/NNG+살/VV+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아 뭐임 실망, 아쉽다 너네 동네 어딘지도 몰라",
+            "norm_text": "아 뭐임 실망, 아쉽다 너네 동네 어딘지도 몰라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+뭐/IC+임/NNP+실망/NNG+,/SC+아쉽/VA+다/EF+너/NP+네/XSN+동네/NNG+어딘지/NP+VCP+EC+도/JX+몰라/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아니 우리 집 이사한 게 왜 실망이야 ㅠㅠ",
+            "norm_text": "아니 우리 집 이사한 게 왜 실망이야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+우리/NP+집/NNG+이사/NNG+한/XSA+ETM+게/NNB+JKS+왜/MAG+실망/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 좀 깨끗한 곳에 살아보자",
+            "norm_text": "좀 깨끗한 곳에 살아보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좀/MAG+깨끗/XR+한/XSA+ETM+곳/NNG+에/JKB+살/VV+아/EC+보/VX+자/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 아니 너 자취하잖아 지금은",
+            "norm_text": "키키 아니 너 자취하잖아 지금은",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+너/NP+자취/NNG+하/XSV+잖아/EC+VX+EF+지금/MAG+은/JX"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그니까 난 상관없지만 우리 부모님... 벽이 으스러지고 폭우에 잠기고 천장이 뚫려 있는 집에서 사시길 원하냐 이거지~",
+            "norm_text": "그니까 난 상관없지만 우리 부모님... 벽이 으스러지고 폭우에 잠기고 천장이 뚫려 있는 집에서 사시길 원하냐 이거지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니까/MAJ+난/NP+JX+상관없/VA+지만/EC+우리/NP+부모/NNG+님/XSN+./SY+벽/NNG+이/JKS+으스러지/VV+고/EC+폭우/NNG+에/JKB+잠기/VV+고/EC+천장/NNG+이/JKS+뚫려/VV+EC+있/VX+는/ETM+집/NNG+에서/JKB+사/VV+시/EP+길/ETN+JKO+원하/VV+냐/EF+이거/NP+지/VCP+EC+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : ㄴㄴ 아니 그냥 너무 전설이라고 말로만 들어서",
+            "norm_text": "ㄴㄴ 아니 그냥 너무 전설이라고 말로만 들어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+아니/IC+그냥/MAG+너무/MAG+전설/NNG+이/VCP+라고/EC+말/NNG+로/JKB+만들/VV+어서/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

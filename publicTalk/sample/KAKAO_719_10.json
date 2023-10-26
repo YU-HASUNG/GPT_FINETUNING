@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 64310,
+    "name": "KAKAO_719_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132328078371/KAKAO_719_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132328078371/KAKAO_719_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36717,
+      "filename": "KAKAO_719_10.txt",
+      "title": "KAKAO_719_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 478,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 478,
+        "word_size": 149,
+        "text": "1 : 스크린 야구 해 본 적 있어?\n2 : 나 오락실에서 잠깐 해봤었어! 근데 타자 말고 투수로!\n1 : 투수? 오락실에는 투수도 할 수 있는거야?\n2 : 글쎄 그건 게임장 마다 다르겠지...?\n1 : 아 그래? 키키 투수 할 수 있는 건 처음 들어봤어!\n2 : 나도 여기저기 많이 다녀본 건 아닌데 우연히 갔던 대가 있더라구~\n1 : 오 신기하다 키키 나는 타자만 해봤어서 키키\n2 : 스크린 골프는 한번 해본 적 있어!\n1 : 오~ 스크린 골프?! 나는 한 번도 안 해봤는데 재밌어?\n2 : 나도 한번 해봤는데 생각보다 재밌더라구~\n1 : 안 어려워? 뭔가 골프는 듣기만 해도 어려울 것 같아\n2 : 어려웠어! 자세도 쉽지가 않았고 ㅠㅠ\n1 : 역시 어렵구나~! 그래도 재밌긴 하겠다~!\n2 : 웅웅 엄청 재밌었어서 나중에 실제 필드에 가서도 해보고 싶어~!\n1 : 오~ 그거 좋은 생각인데?!\n1 : 나중에 갔다 오면 후기 들려줘~!\n2 : 응! 갔다 와서 꼭 후기 들려줄게~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 스크린 야구 해 본 적 있어?",
+            "norm_text": "스크린 야구 해 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "스크린/NNG+야구/NNG+해/XSV+EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 오락실에서 잠깐 해봤었어! 근데 타자 말고 투수로!",
+            "norm_text": "나 오락실에서 잠깐 해봤었어! 근데 타자 말고 투수로!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+오락실/NNG+에서/JKB+잠깐/MAG+해/VV+EC+봤었/VX+EP+어/EF+근데/MAJ+타/VV+자/EC+말/VX+고/EC+투수/NNG+로/JKB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 투수? 오락실에는 투수도 할 수 있는거야?",
+            "norm_text": "투수? 오락실에는 투수도 할 수 있는거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "투수/NNG+?/SY+오락실/NNG+에/JKB+는/JX+투수/NNG+도/JX+할/VV+ETM+수/NNB+있/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 글쎄 그건 게임장 마다 다르겠지...?",
+            "norm_text": "글쎄 그건 게임장 마다 다르겠지...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글쎄/IC+그건/NP+JX+게임/NNG+장/NNG+마다/JX+다르/VA+겠/EP+지/EF+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그래? 키키 투수 할 수 있는 건 처음 들어봤어!",
+            "norm_text": "아 그래? 키키 투수 할 수 있는 건 처음 들어봤어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/NNG+투수/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+건/NNB+JX+처음/MAG+들/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도 여기저기 많이 다녀본 건 아닌데 우연히 갔던 대가 있더라구~",
+            "norm_text": "나도 여기저기 많이 다녀본 건 아닌데 우연히 갔던 대가 있더라구~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+여기저기/NNG+많이/MAG+다녀본/VV+EC+VX+ETM+건/NNB+JX+아닌데/VCN+EC+우연히/MAG+갔/VV+EP+던/ETM+대/NNG+가/JKS+있/VA+더라구/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오 신기하다 키키 나는 타자만 해봤어서 키키",
+            "norm_text": "오 신기하다 키키 나는 타자만 해봤어서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+신기/NNG+하/XSV+다/EC+키/NNG+키나/XSA+ETN+JX+는/JX+타자/NNG+만/JX+해/VV+EC+봤/VX+EP+어서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 스크린 골프는 한번 해본 적 있어!",
+            "norm_text": "스크린 골프는 한번 해본 적 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "스크린골프/NNP+는/JX+한/MM+번/NNBC+해/VV+EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오~ 스크린 골프?! 나는 한 번도 안 해봤는데 재밌어?",
+            "norm_text": "오~ 스크린 골프?! 나는 한 번도 안 해봤는데 재밌어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+스크린골프/NNP+?/SY+나/NP+는/JX+한/MM+번/NNBC+도/JX+안/MAG+해/VV+EC+봤/VX+EP+는데/EC+재밌/VA+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 한번 해봤는데 생각보다 재밌더라구~",
+            "norm_text": "나도 한번 해봤는데 생각보다 재밌더라구~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+한/MM+번/NNBC+해/VV+EC+봤/VX+EP+는데/EC+생각/NNG+보다/JKB+재밌/VA+더라구/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 안 어려워? 뭔가 골프는 듣기만 해도 어려울 것 같아",
+            "norm_text": "안 어려워? 뭔가 골프는 듣기만 해도 어려울 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+어려워/VA+EF+뭔가/NP+VCP+EC+골프/NNG+는/JX+듣/VV+기/ETN+만/JX+해도/VV+EC+어려울/VA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어려웠어! 자세도 쉽지가 않았고 ㅠㅠ",
+            "norm_text": "어려웠어! 자세도 쉽지가 않았고 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어려웠/VA+EP+어/EF+자세도쉽지가않았고ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 역시 어렵구나~! 그래도 재밌긴 하겠다~!",
+            "norm_text": "역시 어렵구나~! 그래도 재밌긴 하겠다~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+어렵/VA+구나/EF+~/SY+그래도/MAJ+재밌/VA+긴/ETN+JX+하/VX+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 웅웅 엄청 재밌었어서 나중에 실제 필드에 가서도 해보고 싶어~!",
+            "norm_text": "웅웅 엄청 재밌었어서 나중에 실제 필드에 가서도 해보고 싶어~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅웅/MAG+엄청/MAG+재밌/VA+었/EP+어서/EC+나중/NNG+에/JKB+실제/NNG+필드/NNG+에/JKB+가/VV+서/EC+도/JX+해/VV+EC+보/VX+고/EC+싶/VX+어/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오~ 그거 좋은 생각인데?!",
+            "norm_text": "오~ 그거 좋은 생각인데?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+그거/NP+좋/VA+은/ETM+생각/NNG+인데/VCP+EC+?/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나중에 갔다 오면 후기 들려줘~!",
+            "norm_text": "나중에 갔다 오면 후기 들려줘~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "나중/NNG+에/JKB+갔다오/VV+면/EC+후기/NNG+들려줘/VV+EC+VX+EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응! 갔다 와서 꼭 후기 들려줄게~",
+            "norm_text": "응! 갔다 와서 꼭 후기 들려줄게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+갔/VV+EP+다/EC+와서/VV+EC+꼭/MAG+후기/NNG+들려줄/VV+EC+VX+ETM+게/NNB+JKS+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

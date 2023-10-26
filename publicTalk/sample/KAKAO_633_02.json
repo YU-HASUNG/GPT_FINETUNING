@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67309,
+    "name": "KAKAO_633_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140913000728/KAKAO_633_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140913000728/KAKAO_633_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34180,
+      "filename": "KAKAO_633_02.txt",
+      "title": "KAKAO_633_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 361,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 361,
+        "word_size": 114,
+        "text": "1 : 언니 강남 자취 하잖아! 키키\n2 : 응? 나는 강남에서 안 사는데?\n1 : 아 그래? 직장이 강남인가 키키\n2 : 맞아 직장이 강남이고 집은 신림이야!\n1 : 신림은 월세가 얼마인데? 키키\n2 : 나 관리비 포함해서 40만 원이야!\n1 : 헐 확실히 서울이라 비싸다 키키\n2 : 맞아 나도 올라와서 깜짝 놀랐잖아 ㅜ\n1 : 그러게 지방은 한 달에 20만원 하잖아 ㅠㅠ\n2 : 아니 그래도 지방도 보통 30정도 하지!\n1 : 그런가? 논산은 얼마 하는데!\n2 : 논산은 진짜 에이급이면 40정도야!\n1 : 서울은 하급이 40인데 말이야 ㅠㅠ\n2 : 맞아 심지어 논산은 1. 5룸이다!\n1 : 헐? 언니 나랑 내려가서 자취하자!\n2 : 좋아 서울 살기 너무 힘들어 ㅜ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 강남 자취 하잖아! 키키",
+            "norm_text": "언니 강남 자취 하잖아! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+강남/NNP+자취/NNG+하/XSV+잖아/EC+VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응? 나는 강남에서 안 사는데?",
+            "norm_text": "응? 나는 강남에서 안 사는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+는/JX+강남/NNP+에서/JKB+안/MAG+사/VV+는데/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래? 직장이 강남인가 키키",
+            "norm_text": "아 그래? 직장이 강남인가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+직장/NNG+이강남/NNP+인가/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아 직장이 강남이고 집은 신림이야!",
+            "norm_text": "맞아 직장이 강남이고 집은 신림이야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/NNG+아직/MAG+장/NNP+이강남/NNP+이/VCP+고/EC+집/NNG+은/JX+신림/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 신림은 월세가 얼마인데? 키키",
+            "norm_text": "신림은 월세가 얼마인데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "신림/NNG+은/JX+월세/NNG+가/JKS+얼마/NNG+인데/VCP+EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나 관리비 포함해서 40만 원이야!",
+            "norm_text": "나 관리비 포함해서 40만 원이야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+관리비/NNG+포함/NNG+해서/XSV+EC+40/SN+만/NR+원/NNBC+이/VCP+야/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헐 확실히 서울이라 비싸다 키키",
+            "norm_text": "헐 확실히 서울이라 비싸다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+확실히/MAG+서울/NNP+이/VCP+라/EC+비싸/VA+EC+다키키/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아 나도 올라와서 깜짝 놀랐잖아 ㅜ",
+            "norm_text": "맞아 나도 올라와서 깜짝 놀랐잖아 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+나/NP+도/JX+올라와서/VV+EC+깜짝/MAG+놀랐/VV+EP+잖아/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러게 지방은 한 달에 20만원 하잖아 ㅠㅠ",
+            "norm_text": "그러게 지방은 한 달에 20만원 하잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+지방/NNG+은/JX+한/MM+달/NNG+에/JKB+20/SN+만원하잖아ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니 그래도 지방도 보통 30정도 하지!",
+            "norm_text": "아니 그래도 지방도 보통 30정도 하지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그래도/MAJ+지방/NNG+도/JX+보통/NNG+30/SN+정도/NNG+하/XSA+지/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그런가? 논산은 얼마 하는데!",
+            "norm_text": "그런가? 논산은 얼마 하는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런가/VA+EF+논산/NNP+은/JX+얼마/NNG+하/XSV+는데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 논산은 진짜 에이급이면 40정도야!",
+            "norm_text": "논산은 진짜 에이급이면 40정도야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "논산/NNP+은/JX+진짜/MAG+에이급/NNG+이/VCP+면/EC+40/SN+정도/NNG+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 서울은 하급이 40인데 말이야 ㅠㅠ",
+            "norm_text": "서울은 하급이 40인데 말이야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서울/NNP+은/JX+하급/NNG+이/JKS+40/SN+인데말이야ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아 심지어 논산은 1. 5룸이다!",
+            "norm_text": "맞아 심지어 논산은 1. 5룸이다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+심지어/MAG+논산/NNP+은/JX+1/SN+./SY+5/SN+룸/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐? 언니 나랑 내려가서 자취하자!",
+            "norm_text": "헐? 언니 나랑 내려가서 자취하자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "헐/IC+언니/NNG+나/NP+랑/JKB+내려가/VV+서/EC+자취/NNG+하/XSA+자/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 좋아 서울 살기 너무 힘들어 ㅜ",
+            "norm_text": "좋아 서울 살기 너무 힘들어 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아서/EC+울/JKO+살/VV+기/ETN+너무/MAG+힘들/VA+어/EC+ㅜ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

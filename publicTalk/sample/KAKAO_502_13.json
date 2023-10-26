@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25170,
+    "name": "KAKAO_502_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405066942/KAKAO_502_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405066942/KAKAO_502_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29084,
+      "filename": "KAKAO_502_13.txt",
+      "title": "KAKAO_502_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 440,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 440,
+        "word_size": 137,
+        "text": "1 : 봄, 여름, 가을, 겨울 중에 무슨 계절이 제일 좋아?\n2 : 저는 여름이여 키키 더운 게 나아서 아부지는여?\n1 : 여름이 아니어도 땀이 나는데 겨울이 좋지\n2 : 오... 전 추운 거 너무 못 참아서 ㅠㅠ 겨울에 그냥 굴러다녀요\n1 : 그래? 열이 없는 체질인가 보네?\n2 : 근데 기초체온은 높은 편이에요! 키키\n1 : 음 뭐지? 무슨 체질이야?\n2 : 키키 근데 제 지인이 기초체온이 낮은데 더위를 엄청 탔어요\n1 : 그거랑 상관이 없는 건가 봐?\n2 : 키키 맞아요 키키 잘 모르겠어요 키키\n1 : 그래 여름에 즐기는 스포츠도 있어?\n2 : 아니여...? 아부지는 매번 스포츠를 즐기시나용...?\n1 : 아니 아저씨는 집돌이라서 집에서 야구를 즐겨 하하\n2 : 키키 아... 맞아 박수! 아직도 잊을 수 없죠 키키\n1 : 응 박수 칠 준비 됐지?\n2 : 키키 넹 키키 아부지는 어디 팬이신 거에요?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 봄, 여름, 가을, 겨울 중에 무슨 계절이 제일 좋아?",
+            "norm_text": "봄, 여름, 가을, 겨울 중에 무슨 계절이 제일 좋아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "봄/NNG+,/SC+여름/NNG+,/SC+가을/NNG+,/SC+겨울/NNG+중/NNB+에/JKB+무슨/MM+계절/NNG+이/JKS+제일/MAG+좋/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 저는 여름이여 키키 더운 게 나아서 아부지는여?",
+            "norm_text": "저는 여름이여 키키 더운 게 나아서 아부지는여?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저/NP+는/JX+여름/NNG+이/VCP+여/EC+키/NNG+키/XSV+ETN+더운/VA+ETM+게/NNB+JKS+나아서/VA+EC+아부지/NNG+는/JX+여/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 여름이 아니어도 땀이 나는데 겨울이 좋지",
+            "norm_text": "여름이 아니어도 땀이 나는데 겨울이 좋지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+이/JKC+아니/VCN+어도/EC+땀/NNG+이/JKS+나/VV+는데/EC+겨울/NNG+이/JKS+좋/VA+지/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오... 전 추운 거 너무 못 참아서 ㅠㅠ 겨울에 그냥 굴러다녀요",
+            "norm_text": "오... 전 추운 거 너무 못 참아서 ㅠㅠ 겨울에 그냥 굴러다녀요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+./SY+전/MM+추운/VA+ETM+거/NNB+너무/MAG+못/MAG+참/VV+아서/EC+ㅠㅠ/UNKNOWN+겨울/NNG+에/JKB+그냥/MAG+굴러/VV+EC+다녀요/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래? 열이 없는 체질인가 보네?",
+            "norm_text": "그래? 열이 없는 체질인가 보네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+열/NNG+이/JKS+없/VA+는/ETM+체질/NNG+인가/VCP+EC+보/VX+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 기초체온은 높은 편이에요! 키키",
+            "norm_text": "근데 기초체온은 높은 편이에요! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+기초/NNG+체온/NNG+은/JX+높/VA+은/ETM+편/NNB+이/VCP+에요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 음 뭐지? 무슨 체질이야?",
+            "norm_text": "음 뭐지? 무슨 체질이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+뭐/NP+지/VCP+EF+무슨/MM+체질/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 근데 제 지인이 기초체온이 낮은데 더위를 엄청 탔어요",
+            "norm_text": "키키 근데 제 지인이 기초체온이 낮은데 더위를 엄청 탔어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+제/MM+지인/NNG+이/JKS+기초/NNG+체온/NNG+이/JKS+낮/VA+은데/EC+더위/NNG+를/JKO+엄청/MAG+탔/VV+EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그거랑 상관이 없는 건가 봐?",
+            "norm_text": "그거랑 상관이 없는 건가 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+랑/JKB+상관/NNG+이/JKS+없/VA+는/ETM+건가/NNB+VCP+EC+봐/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 맞아요 키키 잘 모르겠어요 키키",
+            "norm_text": "키키 맞아요 키키 잘 모르겠어요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+요키/NNP+키/NNG+잘/MAG+모르/VV+겠/EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래 여름에 즐기는 스포츠도 있어?",
+            "norm_text": "그래 여름에 즐기는 스포츠도 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+여름/NNG+에/JKB+즐기/VV+는/ETM+스포츠/NNG+도/JX+있/VA+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아니여...? 아부지는 매번 스포츠를 즐기시나용...?",
+            "norm_text": "아니여...? 아부지는 매번 스포츠를 즐기시나용...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/VCN+여/EC+./SY+./SY+아부지/NNG+는/JX+매번/MAG+스포츠/NNG+를/JKO+즐기/VV+시/EP+나용/NNG+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아니 아저씨는 집돌이라서 집에서 야구를 즐겨 하하",
+            "norm_text": "아니 아저씨는 집돌이라서 집에서 야구를 즐겨 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+아저씨/NNG+는/JX+집/NNG+돌/NNG+이/VCP+라서/EC+집/NNG+에서/JKB+야구/NNG+를/JKO+즐겨/VV+EC+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 아... 맞아 박수! 아직도 잊을 수 없죠 키키",
+            "norm_text": "키키 아... 맞아 박수! 아직도 잊을 수 없죠 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EF+./SY+맞/VV+아/EC+박수/NNG+아직/MAG+도/JX+잊/VV+을/ETM+수/NNB+없/VA+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 박수 칠 준비 됐지?",
+            "norm_text": "응 박수 칠 준비 됐지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+박수/NNG+칠/NR+준비/NNG+됐/XSV+EP+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 넹 키키 아부지는 어디 팬이신 거에요?",
+            "norm_text": "키키 넹 키키 아부지는 어디 팬이신 거에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+넹/NNP+키키/NNP+아부지/NNG+는/JX+어디/NP+팬/NNG+이/VCP+신/EP+ETM+거/NNB+에요/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

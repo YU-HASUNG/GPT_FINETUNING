@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 53386,
+    "name": "KAKAO_618_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120528048081/KAKAO_618_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120528048081/KAKAO_618_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32159,
+      "filename": "KAKAO_618_06.txt",
+      "title": "KAKAO_618_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 521,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 521,
+        "word_size": 168,
+        "text": "1 : 학원 다니면 더 공부를 열심히 해?\n2 : 음... 그건 사바사가 아닐까요? 키키\n2 : 전 똑같은 것 같기도 하고...\n1 : 친구랑 더 노는 거 아니야? 키키\n2 : 그것도 그런데 그래도 가서 수업 시간 동안은 공부를 하긴 하니깐 하하\n1 : 학원 많이 다녔어?\n1 : 우리 딸래미들은 영어 수학 밖에 못 보냈너\n2 : 전 고등학교 땐 다닌 적 없고 커서 영어 공부 한다고 좀 다녔어요\n1 : 오 영어 그러면 잘하겠네?\n2 : 아니여...? 키키 아부지 말대로 친구랑도 엄청 놀았어요\n1 : 뭐야 그게 영어 하는 친구들이랑 영어로 놀아야지\n2 : 키키 영어를 직접적으로 하는 친구들은 없었어요 다 한국인 친구들\n1 : 돈 낭비를 했구만\n1 : 그때 친구들이랑 아직도 잘 지내?\n2 : 그럼요~ 아예 원래 아는 친구랑 같이 다닌 거라서 키키\n1 : 아 그래 친구 건졌으면 됐어\n2 : 키키 맞아요 키키 근데 그 친구 말고는 친구가 없어요 하하\n1 : ** 친구 많잖아 뻥쟁이\n2 : 네? 아니에요... 누가 그래요?\n2 : 저 진짜 친구가 너무 없어요 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 학원 다니면 더 공부를 열심히 해?",
+            "norm_text": "학원 다니면 더 공부를 열심히 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "학원/NNG+다니/VV+면/EC+더/MAG+공부/NNG+를/JKO+열심히/MAG+해/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음... 그건 사바사가 아닐까요? 키키",
+            "norm_text": "음... 그건 사바사가 아닐까요? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+그건/NP+JX+사바/NNG+사/NNG+가/JKC+아닐까요/VCN+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 전 똑같은 것 같기도 하고...",
+            "norm_text": "전 똑같은 것 같기도 하고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전/MM+똑같/VA+은/ETM+것/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 친구랑 더 노는 거 아니야? 키키",
+            "norm_text": "친구랑 더 노는 거 아니야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친구/NNG+랑/JKB+더/MAG+노/VV+는/ETM+거/NNB+아니/VCN+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그것도 그런데 그래도 가서 수업 시간 동안은 공부를 하긴 하니깐 하하",
+            "norm_text": "그것도 그런데 그래도 가서 수업 시간 동안은 공부를 하긴 하니깐 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+도/JX+그런/MM+데/NNB+그래도/VV+EC+가/VX+서/EC+수업/NNG+시간/NNG+동안/NNG+은/JX+공부/NNG+를/JKO+하/VV+긴/ETN+JX+하/VX+니깐/EC+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 학원 많이 다녔어?",
+            "norm_text": "학원 많이 다녔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "학원/NNG+많이/MAG+다녔/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 우리 딸래미들은 영어 수학 밖에 못 보냈너",
+            "norm_text": "우리 딸래미들은 영어 수학 밖에 못 보냈너",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+딸래미/NNG+들/XSN+은/JX+영어/NNG+수학/NNG+밖에/JX+못/MAG+보냈/VV+EP+너/NP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 전 고등학교 땐 다닌 적 없고 커서 영어 공부 한다고 좀 다녔어요",
+            "norm_text": "전 고등학교 땐 다닌 적 없고 커서 영어 공부 한다고 좀 다녔어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전/MM+고등/NNG+학교/NNG+땐/NNG+JX+다닌/VV+ETM+적/NNB+없/VA+고/EC+커서/VV+EC+영어/NNG+공부/NNG+한다고/XSV+EC+좀/MAG+다녔/VV+EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 영어 그러면 잘하겠네?",
+            "norm_text": "오 영어 그러면 잘하겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오영/NNG+어/IC+그러면/MAJ+잘/MAG+하/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니여...? 키키 아부지 말대로 친구랑도 엄청 놀았어요",
+            "norm_text": "아니여...? 키키 아부지 말대로 친구랑도 엄청 놀았어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/VCN+여/EC+./SY+./SY+키/NNG+키/NNG+아부지/NNG+말/NNG+대로/JX+친구/NNG+랑/JKB+도/JX+엄청/MAG+놀/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 뭐야 그게 영어 하는 친구들이랑 영어로 놀아야지",
+            "norm_text": "뭐야 그게 영어 하는 친구들이랑 영어로 놀아야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+야/VCP+EF+그게/NP+JKS+영어/NNG+하/XSV+는/ETM+친구/NNG+들/XSN+이랑/JKB+영어/NNG+로/JKB+놀/VV+아야지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 영어를 직접적으로 하는 친구들은 없었어요 다 한국인 친구들",
+            "norm_text": "키키 영어를 직접적으로 하는 친구들은 없었어요 다 한국인 친구들",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+영어/NNG+를/JKO+직접/NNG+적/XSN+으로/JKB+하/VV+는/ETM+친구/NNG+들/XSN+은/JX+없/VA+었/EP+어요/EF+다/MAG+한국인/NNG+친구/NNG+들/XSN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 돈 낭비를 했구만",
+            "norm_text": "돈 낭비를 했구만",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+낭비/NNG+를/JKO+했/VV+EP+구만/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그때 친구들이랑 아직도 잘 지내?",
+            "norm_text": "그때 친구들이랑 아직도 잘 지내?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그때/NNG+친구/NNG+들/XSN+이랑/JKB+아직/MAG+도/JX+잘/MAG+지내/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그럼요~ 아예 원래 아는 친구랑 같이 다닌 거라서 키키",
+            "norm_text": "그럼요~ 아예 원래 아는 친구랑 같이 다닌 거라서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+요/JX+~/SY+아예/MAG+원래/MAG+아/VV+는/ETM+친구/NNG+랑/JKB+같이/MAG+다닌/VV+ETM+거/NNB+라서/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 그래 친구 건졌으면 됐어",
+            "norm_text": "아 그래 친구 건졌으면 됐어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+친구/NNG+건졌/VV+EP+으면/EC+됐/VV+EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 맞아요 키키 근데 그 친구 말고는 친구가 없어요 하하",
+            "norm_text": "키키 맞아요 키키 근데 그 친구 말고는 친구가 없어요 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아요/EF+키/NNG+키/XSV+ETN+근데/MAJ+그/MM+친구/NNG+말/VV+고/EC+는/JX+친구/NNG+가/JKS+없/VA+어요/EF+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "1 : ** 친구 많잖아 뻥쟁이",
+            "norm_text": "** 친구 많잖아 뻥쟁이",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "*/SY+*/SY+친구/NNG+많/VA+잖아/EC+뻥쟁이/NNG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 네? 아니에요... 누가 그래요?",
+            "norm_text": "네? 아니에요... 누가 그래요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+아니/VCN+에요/EF+./SY+누가/NP+JKS+그래요/VV+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 저 진짜 친구가 너무 없어요 ㅠㅠ",
+            "norm_text": "저 진짜 친구가 너무 없어요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/IC+진짜/MAG+친구/NNG+가/JKS+너무/MAG+없/VA+어요/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

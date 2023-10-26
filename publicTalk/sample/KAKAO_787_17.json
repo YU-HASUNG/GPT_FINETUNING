@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 44943,
+    "name": "KAKAO_787_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930140959028459/KAKAO_787_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930140959028459/KAKAO_787_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37687,
+      "filename": "KAKAO_787_17.txt",
+      "title": "KAKAO_787_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 503,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 503,
+        "word_size": 166,
+        "text": "1 : 요즘 자꾸 어질어질 해서 영양제 먹어야 할 거 같어\n2 : 자기는 빈혈이 심해서 조심해야 해\n1 : 빈혈이랑 저혈압 때문이야 ㅠㅠ\n1 : 비타민D 필수로 먹잖아\n2 : 이번에 티비 광고에 고단위 영양소 비타민제 나왔던데?\n1 : 안 그래도 나도 그거 봤어\n1 : 우리도 그거 사볼까?\n2 : 좋아 이번에 재난 지원금 들어온 거 약국도 사용 가능하잖아?\n1 : 맞어 근데 그거 남자 꺼 여자 꺼 따로 있는 거 같던데\n2 : 이런 그럼 2개나 사야겠는데? 그럼 좀 가격이 부담스러울 듯\n1 : 그지 차라리 다른 영양제를 조금 더 사는 게 좋을 거 같아\n2 : 루테인 우리 안 먹어 봤잖아? 먹어볼까?\n1 : 그거 먹으면 눈 건강에 좋다던거? 좋아!\n2 : 비타민이랑 같이 먹어도 될라나 모르겠네\n1 : 같이 먹어도 될 껄?\n1 : 오늘 약국 가서 한번 물어보자\n2 : 응응 우리 집 앞 약국으로 갈 거지?\n1 : 응 가까운 데가 좋지 않을까?\n1 : 차 타고 가기 너무 귀찮아\n2 : 그럼 퇴근하고 주차해 놓고 사부작 걸어서 가자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 자꾸 어질어질 해서 영양제 먹어야 할 거 같어",
+            "norm_text": "요즘 자꾸 어질어질 해서 영양제 먹어야 할 거 같어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+자꾸/MAG+어질어질/MAG+해서/VV+EC+영양제/NNG+먹/VV+어야/EC+할/VX+ETM+거/NNB+같/VA+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 자기는 빈혈이 심해서 조심해야 해",
+            "norm_text": "자기는 빈혈이 심해서 조심해야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+는/JX+빈혈/NNG+이/JKS+심해서/VA+EC+조심/NNG+해야/XSV+EC+해/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 빈혈이랑 저혈압 때문이야 ㅠㅠ",
+            "norm_text": "빈혈이랑 저혈압 때문이야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빈혈/NNG+이랑/JC+저/MM+혈압/NNG+때문/NNB+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 비타민D 필수로 먹잖아",
+            "norm_text": "비타민D 필수로 먹잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비타민/NNG+D/SL+필수/NNG+로/JKB+먹/VV+잖아/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 이번에 티비 광고에 고단위 영양소 비타민제 나왔던데?",
+            "norm_text": "이번에 티비 광고에 고단위 영양소 비타민제 나왔던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+티비/NNG+광고/NNG+에/JKB+고단위/NNG+영양소/NNG+비타민제/NNG+나왔/VV+EP+던데/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 안 그래도 나도 그거 봤어",
+            "norm_text": "안 그래도 나도 그거 봤어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+그래도/VV+EC+나/NP+도/JX+그거/NP+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 우리도 그거 사볼까?",
+            "norm_text": "우리도 그거 사볼까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+도/JX+그거/NP+사/VV+EC+볼까/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 좋아 이번에 재난 지원금 들어온 거 약국도 사용 가능하잖아?",
+            "norm_text": "좋아 이번에 재난 지원금 들어온 거 약국도 사용 가능하잖아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아/EC+이번/NNG+에/JKB+재난/NNG+지원금/NNG+들어온/VV+ETM+거/NNB+약국/NNG+도/JX+사용/NNG+가능/NNG+하/XSV+잖아/EC+VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞어 근데 그거 남자 꺼 여자 꺼 따로 있는 거 같던데",
+            "norm_text": "맞어 근데 그거 남자 꺼 여자 꺼 따로 있는 거 같던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EF+근데/MAJ+그거/NP+남자/NNG+꺼/VV+EC+여자/NNG+꺼/VV+EC+따로/MAG+있/VV+는/ETM+거/NNB+같/VA+던데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 이런 그럼 2개나 사야겠는데? 그럼 좀 가격이 부담스러울 듯",
+            "norm_text": "이런 그럼 2개나 사야겠는데? 그럼 좀 가격이 부담스러울 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이런/MM+그럼/MAJ+2/SN+개/NNBC+나/JX+사/VV+야/EC+VX+겠/EP+는데/EF+그럼/MAJ+좀/MAG+가격/NNG+이/JKS+부담/NNG+스러울/XSA+ETM+듯/NNB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그지 차라리 다른 영양제를 조금 더 사는 게 좋을 거 같아",
+            "norm_text": "그지 차라리 다른 영양제를 조금 더 사는 게 좋을 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그지/IC+차라리/MAG+다른/MM+영양제/NNG+를/JKO+조금/MAG+더/MAG+사/VV+는/ETM+게/NNB+JKS+좋/VA+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 루테인 우리 안 먹어 봤잖아? 먹어볼까?",
+            "norm_text": "루테인 우리 안 먹어 봤잖아? 먹어볼까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "루테인/NNG+우리/NP+안/MAG+먹/VV+어/EC+봤/VX+EP+잖아/EF+먹/VV+어/EC+볼까/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그거 먹으면 눈 건강에 좋다던거? 좋아!",
+            "norm_text": "그거 먹으면 눈 건강에 좋다던거? 좋아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+먹/VV+으면/EC+눈/NNG+건강/NNG+에/JKB+좋/VA+다던/ETM+거/NNB+좋/VA+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 비타민이랑 같이 먹어도 될라나 모르겠네",
+            "norm_text": "비타민이랑 같이 먹어도 될라나 모르겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비타민/NNG+이랑/JKB+같이/MAG+먹/VV+어도/EC+될라나/VV+EF+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 같이 먹어도 될 껄?",
+            "norm_text": "같이 먹어도 될 껄?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "같이/MAG+먹/VV+어도/EC+될/VV+ETM+껄/VV"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오늘 약국 가서 한번 물어보자",
+            "norm_text": "오늘 약국 가서 한번 물어보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오늘/MAG+약국/NNG+가/VV+서/EC+한/MM+번/NNBC+물/VV+어/EC+보/VX+자/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응응 우리 집 앞 약국으로 갈 거지?",
+            "norm_text": "응응 우리 집 앞 약국으로 갈 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+우리/NP+집/NNG+앞/NNG+약국/NNG+으로/JKB+갈/VV+ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 응 가까운 데가 좋지 않을까?",
+            "norm_text": "응 가까운 데가 좋지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+가까운/VA+ETM+데/NNB+가/JKS+좋/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 차 타고 가기 너무 귀찮아",
+            "norm_text": "차 타고 가기 너무 귀찮아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+타/VV+고/EC+가/VX+기/ETN+너무/MAG+귀찮/VA+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그럼 퇴근하고 주차해 놓고 사부작 걸어서 가자",
+            "norm_text": "그럼 퇴근하고 주차해 놓고 사부작 걸어서 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+퇴근/NNG+하/XSV+고/EC+주차/NNG+해/XSV+EC+놓/VX+고/EC+사부작/XR+걸어서/VV+EC+가/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

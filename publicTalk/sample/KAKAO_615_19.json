@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32044,
+    "name": "KAKAO_615_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140647030948/KAKAO_615_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140647030948/KAKAO_615_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34137,
+      "filename": "KAKAO_615_19.txt",
+      "title": "KAKAO_615_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 393,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 393,
+        "word_size": 128,
+        "text": "1 : 나 이제 노래 들음서 할 일 할건데 가수 추천 좀\n2 : 가수 추천? 요즘은 카더가든 들어 나는\n1 : 카더가든이 뭐야 외국 가수임?\n2 : 카더가든 몰라? 목소리 들어봐봐 특의해\n1 : 글애 그럼 한국 가수 중에는?\n2 : 걔가 한국 가수 인데 말이지\n1 : 꺄 키키 ㅈㅋ 방금 쳐보고 아 한국인이구나 함\n2 : 좀 나이든 아저씨인데 괜찮아\n1 : 목소리는 특이하진 않고 그냥 요새 발라드 가수 같은데?\n2 : 그런가? 그래도 조금 더 특이해\n1 : 아 뭔가 감기 걸린 목소리다\n2 : 아니야 아니야 전혀 그렇지 않다구\n1 : 아아 나 나무 알아 많이 들었던 노래였네\n2 : 글지? 요즘 티비 광고에서도 많이 들려\n1 : 약간 그 잔나비스러운 음악풍이다\n2 : 맞아 맞아 요즘은 목소리 특이한 사람이 좋더라 잔나비도 좋아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 이제 노래 들음서 할 일 할건데 가수 추천 좀",
+            "norm_text": "나 이제 노래 들음서 할 일 할건데 가수 추천 좀",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "나/NP+이제/MAG+노래/NNG+들/XSN+음서/NNG+할/XSV+ETM+일/NNG+할/XSV+ETM+건데/NNB+VCP+EC+가수/NNG+추천/NNG+좀/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 가수 추천? 요즘은 카더가든 들어 나는",
+            "norm_text": "가수 추천? 요즘은 카더가든 들어 나는",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "가수/NNG+추천/NNG+?/SY+요즘/NNG+은/JX+카/MAG+더/MAG+가/VV+든들/EC+어/IC+나/NP+는/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 카더가든이 뭐야 외국 가수임?",
+            "norm_text": "카더가든이 뭐야 외국 가수임?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카/IC+더/MAG+가든/NNG+이/JKS+뭐/IC+야외/NNG+국가/NNG+수임/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 카더가든 몰라? 목소리 들어봐봐 특의해",
+            "norm_text": "카더가든 몰라? 목소리 들어봐봐 특의해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "카/IC+더/MAG+가/VV+든/EC+몰라/VV+EF+목소리/NNG+들/VV+어/EC+봐/VX+EF+봐특/UNKNOWN+의해/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 글애 그럼 한국 가수 중에는?",
+            "norm_text": "글애 그럼 한국 가수 중에는?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "글/NNG+애/NNG+그럼/MAJ+한국/NNP+가수/NNG+중/NNB+에/JKB+는/JX"
+          },
+          {
+            "id": 6,
+            "text": "2 : 걔가 한국 가수 인데 말이지",
+            "norm_text": "걔가 한국 가수 인데 말이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "걔/NP+가/JKS+한국/NNP+가수/NNG+인데/VCP+EC+말/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 꺄 키키 ㅈㅋ 방금 쳐보고 아 한국인이구나 함",
+            "norm_text": "꺄 키키 ㅈㅋ 방금 쳐보고 아 한국인이구나 함",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "꺄키/UNKNOWN+키/NNG+ㅈㅋ/UNKNOWN+방금/MAG+쳐/VV+EC+보/VX+고/EC+아/IC+한국인/NNG+이/JKS+구나/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 좀 나이든 아저씨인데 괜찮아",
+            "norm_text": "좀 나이든 아저씨인데 괜찮아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좀/MAG+나이/NNG+든/VCP+EC+아저씨/NNG+인데/VCP+EC+괜찮/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 목소리는 특이하진 않고 그냥 요새 발라드 가수 같은데?",
+            "norm_text": "목소리는 특이하진 않고 그냥 요새 발라드 가수 같은데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "목소리/NNG+는/JX+특이/NNG+하/XSV+진/EC+JX+않/VX+고/EC+그냥/MAG+요새/MAG+발라드/NNG+가수/NNG+같/VA+은데/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그런가? 그래도 조금 더 특이해",
+            "norm_text": "그런가? 그래도 조금 더 특이해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EF+그래도/MAJ+조금/MAG+더/MAG+특이/NNG+해/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 뭔가 감기 걸린 목소리다",
+            "norm_text": "아 뭔가 감기 걸린 목소리다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+뭔가/NP+VCP+EC+감기/NNG+걸린/VV+ETM+목소리/NNG+다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아니야 아니야 전혀 그렇지 않다구",
+            "norm_text": "아니야 아니야 전혀 그렇지 않다구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+아니야/IC+전혀/MAG+그렇/VA+지/EC+않/VX+다구/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아아 나 나무 알아 많이 들었던 노래였네",
+            "norm_text": "아아 나 나무 알아 많이 들었던 노래였네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아아나/NNP+나무/NNG+알/VV+아/EC+많이/MAG+들/VV+었/EP+던/ETM+노래/NNG+였/VCP+EP+네/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 글지? 요즘 티비 광고에서도 많이 들려",
+            "norm_text": "글지? 요즘 티비 광고에서도 많이 들려",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "글/VA+지/EF+요즘/MAG+티비/NNG+광고/NNG+에서/JKB+도/JX+많이/MAG+들려/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 약간 그 잔나비스러운 음악풍이다",
+            "norm_text": "약간 그 잔나비스러운 음악풍이다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "약간/MAG+그/MM+잔나비/NNG+스러운/XSA+ETM+음악/NNG+풍/XSN+이/VCP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞아 맞아 요즘은 목소리 특이한 사람이 좋더라 잔나비도 좋아",
+            "norm_text": "맞아 맞아 요즘은 목소리 특이한 사람이 좋더라 잔나비도 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아/EC+요즘/NNG+은/JX+목소리/NNG+특이/NNG+한/XSA+ETM+사람/NNG+이/JKS+좋/VA+더라/EC+잔나비/NNG+도/JX+좋/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

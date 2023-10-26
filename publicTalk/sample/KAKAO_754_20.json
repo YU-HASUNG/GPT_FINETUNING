@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 51634,
+    "name": "KAKAO_754_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134323026021/KAKAO_754_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134323026021/KAKAO_754_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36928,
+      "filename": "KAKAO_754_20.txt",
+      "title": "KAKAO_754_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 485,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 485,
+        "word_size": 163,
+        "text": "1 : 하하 커플템으로 같이 고고해요!\n1 : 언니 좋아하는 배우 있어요?\n2 : 나 좋아하는 배우 엄청 많아\n1 : 오오 몰랐어요 누가 있어요!? 하하\n2 : 한국 배우든 외국 배우든 좋아하는 사람 많은 거 같은 데 나이 대 별로 다 있어서 키키\n1 : 와 ㅠㅠ 저는 막 딱 정해져 있지 않거든요\n1 : 혹시 외국 배우는 누구 좋아해요\n2 : 혹시 영화 주디 봤어?\n1 : 아 저 그거 아는데 못 봤어요 ㅠㅠ\n2 : 르네 젤 위거 엄청 좋아해!\n1 : 오 하하 그 배우의 다른 영화도 혹시 알아요?\n2 : 브리짓 존스의 베이비? 들어봤지?\n1 : 완전요! 너무 잘 알죠 ㅠㅠ\n2 : 브리짓 존스의 일기도 있고!\n1 : 아 브리짓 존슨의 일기 봤어요!\n2 : 응 거기 여주인공! 키키\n1 : 아 ㅠㅠ 연기 엄청 잘해서 몰입하게 되더라구요 ㅠㅠ\n2 : 응 너무 멋있어서 그렇게 되고 싶어!\n1 : 하하 분위기가 비슷해요!\n1 : 언니 우리 오늘 하루도 좋은 하루 보내요!\n2 : 너두~ 맛있는 점심 먹고~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 하하 커플템으로 같이 고고해요!",
+            "norm_text": "하하 커플템으로 같이 고고해요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "하하/MAG+커플/NNG+템/NNG+으로/JKB+같이/MAG+고고/XR+해요/XSA+EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 언니 좋아하는 배우 있어요?",
+            "norm_text": "언니 좋아하는 배우 있어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+좋/VA+아/EC+하/VV+는/ETM+배우/NNG+있/VA+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나 좋아하는 배우 엄청 많아",
+            "norm_text": "나 좋아하는 배우 엄청 많아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+좋/VA+아/EC+하/VV+는/ETM+배우/NNG+엄청/MAG+많/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오오 몰랐어요 누가 있어요!? 하하",
+            "norm_text": "오오 몰랐어요 누가 있어요!? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+오/NR+몰랐/VV+EP+어요/EF+누가/NP+JKS+있/VA+어요/EF+?/SY+하하/NNP"
+          },
+          {
+            "id": 5,
+            "text": "2 : 한국 배우든 외국 배우든 좋아하는 사람 많은 거 같은 데 나이 대 별로 다 있어서 키키",
+            "norm_text": "한국 배우든 외국 배우든 좋아하는 사람 많은 거 같은 데 나이 대 별로 다 있어서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한국/NNP+배우/VV+든/EC+외국/NNG+배우/VV+든/EC+좋/VA+아/EC+하/VV+는/ETM+사람/NNG+많/VA+은/ETM+거/NNB+같/VA+은데/EC+나이/NNG+대별/NNG+로/JKB+다/MAG+있/VA+어서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 와 ㅠㅠ 저는 막 딱 정해져 있지 않거든요",
+            "norm_text": "와 ㅠㅠ 저는 막 딱 정해져 있지 않거든요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/VV+EC+ㅠㅠ/UNKNOWN+저/NP+는/JX+막/MAJ+딱/MAG+정해져/VV+EC+VX+EC+있/VX+지/EC+않/VX+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 혹시 외국 배우는 누구 좋아해요",
+            "norm_text": "혹시 외국 배우는 누구 좋아해요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+외국/NNG+배우/VV+는/ETM+누구/NP+좋/VA+아/EC+해요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 혹시 영화 주디 봤어?",
+            "norm_text": "혹시 영화 주디 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+영화/NNG+주/VV+디/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 저 그거 아는데 못 봤어요 ㅠㅠ",
+            "norm_text": "아 저 그거 아는데 못 봤어요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+저/IC+그거/NP+아/VV+는데/EC+못/MAG+봤/VV+EP+어요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 르네 젤 위거 엄청 좋아해!",
+            "norm_text": "르네 젤 위거 엄청 좋아해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "르네/+젤위거/+엄청/MAG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 하하 그 배우의 다른 영화도 혹시 알아요?",
+            "norm_text": "오 하하 그 배우의 다른 영화도 혹시 알아요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오하/NNG+하/XSV+그/MM+배우/NNG+의/JKG+다른/MM+영화/NNG+도/JX+혹시/MAG+알/VV+아요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 브리짓 존스의 베이비? 들어봤지?",
+            "norm_text": "브리짓 존스의 베이비? 들어봤지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "브리짓/NNP+존스/NNP+의/JKG+베이비/NNG+들/VV+어/EC+봤/VX+EP+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 완전요! 너무 잘 알죠 ㅠㅠ",
+            "norm_text": "완전요! 너무 잘 알죠 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/MAG+요/JX+너무잘알죠ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 브리짓 존스의 일기도 있고!",
+            "norm_text": "브리짓 존스의 일기도 있고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "브리짓/NNP+존스/NNP+의/JKG+일기/NNG+도/JX+있/VA+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 브리짓 존슨의 일기 봤어요!",
+            "norm_text": "아 브리짓 존슨의 일기 봤어요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+브리짓/+존슨/+의/JKG+일기/NNG+봤/VV+EP+어요/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 거기 여주인공! 키키",
+            "norm_text": "응 거기 여주인공! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+거기/NP+여주인공/NNG+!/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 ㅠㅠ 연기 엄청 잘해서 몰입하게 되더라구요 ㅠㅠ",
+            "norm_text": "아 ㅠㅠ 연기 엄청 잘해서 몰입하게 되더라구요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+ㅠㅠ/UNKNOWN+연기/NNG+엄청/MAG+잘/MAG+해서/VV+EC+몰입/NNG+하/XSV+게/EC+되/VV+더라구요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 너무 멋있어서 그렇게 되고 싶어!",
+            "norm_text": "응 너무 멋있어서 그렇게 되고 싶어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+너무/MAG+멋있/VA+어서/EC+그렇게/MAG+되/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 하하 분위기가 비슷해요!",
+            "norm_text": "하하 분위기가 비슷해요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+분위기/NNG+가/JKS+비슷/XR+해요/XSA+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 언니 우리 오늘 하루도 좋은 하루 보내요!",
+            "norm_text": "언니 우리 오늘 하루도 좋은 하루 보내요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+우리/NP+오늘/MAG+하루/NNG+도/JX+좋/VA+은/ETM+하루/NNG+보내/VV+요/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 너두~ 맛있는 점심 먹고~",
+            "norm_text": "너두~ 맛있는 점심 먹고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+두/JX+~/SY+맛있/VA+는/ETM+점심/NNG+먹/VV+고/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

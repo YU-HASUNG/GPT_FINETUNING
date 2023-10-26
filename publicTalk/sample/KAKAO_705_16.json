@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55854,
+    "name": "KAKAO_705_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132339010475/KAKAO_705_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132339010475/KAKAO_705_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36743,
+      "filename": "KAKAO_705_16.txt",
+      "title": "KAKAO_705_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 528,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 528,
+        "word_size": 175,
+        "text": "1 : 자기 이번 주에 어디 간다고 하지 않았어?\n2 : 응 갈 곳이 있어 친구가 아이라인 문신 배웠는데 테스트 해 볼 사람이 없다고 첫 번째 모델이 되어 주래.\n1 : 첫 번째라니? 실험용이야? ㅋ\n2 : 너무 떨린다. 나 평소에도 아이라인 문신은 아파서 해본 적이 없거든\n1 : 싫으면 싫다고 친구에게 얘기해\n2 : 아니 그럴 수가 없어. 너무 찐친이라 거절 할 수가 없네\n1 : 그거 받으면 안 그래도 예쁜 얼굴 더 예뻐 질 수도 있어\n2 : 응 화장 지워도 화장한 효과가 있을 꺼라고 하더라\n1 : 그래 그거에 기대하고 시술 받아봐\n2 : 걔가 눈썹 문신도 배운다고 해서 그것도 내가 첫 번째 타자가 될 것 같아\n1 : 되게 여러 개를 배우셨구나\n2 : 응 전에 속눈썹 연장 시술 배웠다고 해서 내가 그때도 첫 번째로 받았었거든\n1 : 세 개 다 받으면 이미지 달라 보이겠다\n2 : 아니 아이라인하고 속눈썹 연장을 동시에 시술 하면 피부에 안 좋아서 같이는 못 해\n1 : 그렇구나 그럼 어떻게 해야 해 ?\n2 : 아마 총 두 개 선택 해서 시술 해야 할 것 같아.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기 이번 주에 어디 간다고 하지 않았어?",
+            "norm_text": "자기 이번 주에 어디 간다고 하지 않았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+이번/NNG+주/NNG+에/JKB+어디/NP+간다고/VV+EC+하/VV+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 갈 곳이 있어 친구가 아이라인 문신 배웠는데 테스트 해 볼 사람이 없다고 첫 번째 모델이 되어 주래.",
+            "norm_text": "응 갈 곳이 있어 친구가 아이라인 문신 배웠는데 테스트 해 볼 사람이 없다고 첫 번째 모델이 되어 주래.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응갈곳이있어친구가아이라인문신배웠는데테스트해볼사람이없다고첫번째모델이되어주래/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 첫 번째라니? 실험용이야? ㅋ",
+            "norm_text": "첫 번째라니? 실험용이야? ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "첫/MM+번/NNBC+째/XSN+라니/VCP+EF+실험/NNG+용/XSN+이/VCP+야/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너무 떨린다. 나 평소에도 아이라인 문신은 아파서 해본 적이 없거든",
+            "norm_text": "너무 떨린다. 나 평소에도 아이라인 문신은 아파서 해본 적이 없거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+떨린다/VV+EF+나/NP+평소/NNG+에/JKB+도/JX+아이라인/NNG+문신/NNG+은/JX+아파서/VA+EC+해본/VX+EC+VX+ETM+적/NNB+이/JKS+없/VA+거든/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 싫으면 싫다고 친구에게 얘기해",
+            "norm_text": "싫으면 싫다고 친구에게 얘기해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "싫/VA+으면/EC+싫/VA+다고/EC+친구/NNG+에게/JKB+얘기/NNG+해/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 그럴 수가 없어. 너무 찐친이라 거절 할 수가 없네",
+            "norm_text": "아니 그럴 수가 없어. 너무 찐친이라 거절 할 수가 없네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/MAG+그럴/VV+ETM+수/NNB+가/JKS+없/VA+어/EF+너무/MAG+찐/VV+ETM+친/NNG+이/VCP+라/EC+거절/NNG+할/XSV+ETM+수/NNB+가/JKS+없/VA+네/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그거 받으면 안 그래도 예쁜 얼굴 더 예뻐 질 수도 있어",
+            "norm_text": "그거 받으면 안 그래도 예쁜 얼굴 더 예뻐 질 수도 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+받/VV+으면/EC+안/MAG+그래도/VV+EC+예쁜/VA+ETM+얼굴/NNG+더/MAG+예뻐질/VA+EC+VX+ETM+수/NNB+도/JX+있/VA+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 화장 지워도 화장한 효과가 있을 꺼라고 하더라",
+            "norm_text": "응 화장 지워도 화장한 효과가 있을 꺼라고 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응화장지워도화장한효과가있을꺼라고하더라/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그래 그거에 기대하고 시술 받아봐",
+            "norm_text": "그래 그거에 기대하고 시술 받아봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래/IC+그거/NP+에/JKB+기대/NNG+하/XSV+고/EC+시술/NNG+받/VV+아/EC+봐/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 걔가 눈썹 문신도 배운다고 해서 그것도 내가 첫 번째 타자가 될 것 같아",
+            "norm_text": "걔가 눈썹 문신도 배운다고 해서 그것도 내가 첫 번째 타자가 될 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걔/NP+가/JKS+눈썹/NNG+문신/NNG+도/JX+배운다고/VV+EC+해서/VV+EC+그것/NP+도/JX+내/NP+가/JKS+첫/MM+번/NNBC+째/XSN+타자/NNG+가/JKS+될/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 되게 여러 개를 배우셨구나",
+            "norm_text": "되게 여러 개를 배우셨구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "되게/MAG+여러/MM+개/NNBC+를/JKO+배우/VV+셨/EP+EP+구나/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 전에 속눈썹 연장 시술 배웠다고 해서 내가 그때도 첫 번째로 받았었거든",
+            "norm_text": "응 전에 속눈썹 연장 시술 배웠다고 해서 내가 그때도 첫 번째로 받았었거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응전에속눈썹연장시술배웠다고해서내가그때도첫번째로받았었거든/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 세 개 다 받으면 이미지 달라 보이겠다",
+            "norm_text": "세 개 다 받으면 이미지 달라 보이겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "세/MM+개/NNBC+다/MAG+받/VV+으면/EC+이미지/NNG+달라/VA+EC+보이/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 아이라인하고 속눈썹 연장을 동시에 시술 하면 피부에 안 좋아서 같이는 못 해",
+            "norm_text": "아니 아이라인하고 속눈썹 연장을 동시에 시술 하면 피부에 안 좋아서 같이는 못 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+아이라인/NNG+하/XSV+고/EC+속눈썹/NNG+연장/NNG+을/JKO+동시/NNG+에/JKB+시술/NNG+하/XSV+면/EC+피부/NNG+에/JKB+안/MAG+좋/VA+아서/EC+같이/MAG+는/JX+못/MAG+해/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그렇구나 그럼 어떻게 해야 해 ?",
+            "norm_text": "그렇구나 그럼 어떻게 해야 해 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구나/EF+그럼/MAJ+어떻게/MAG+해야/VV+EC+해/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아마 총 두 개 선택 해서 시술 해야 할 것 같아.",
+            "norm_text": "아마 총 두 개 선택 해서 시술 해야 할 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+총/MM+두/MM+개/NNBC+선택/NNG+해서/XSV+EC+시술/NNG+해야/XSV+EC+할/VX+ETM+것/NNB+같/VA+아/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

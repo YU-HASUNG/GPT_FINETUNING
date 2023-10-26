@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "identifier": 31923,
+    "name": "KAKAO_723_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109291336270104101/KAKAO_723_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109291336270104101/KAKAO_723_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36795,
+      "filename": "KAKAO_723_07.txt",
+      "title": "KAKAO_723_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 696,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 696,
+        "word_size": 239,
+        "text": "1 : 부모님은 잘 계셔?\n1 : 백신 맞으셨어?\n2 : 엄빠 두 분 다 맞으심 키키\n2 : 아버지는 2차 접종 끝나셨는데 ㅠㅠ\n2 : 나도 빨리 맞고 싶다\n1 : 키키 넌 언제 맞아?\n1 : 1차 맞고 나면 2차 빨리 맞고 끝내고 싶더라\n2 : 구삐 보니까 10월에 잡혀있음 키키\n2 : 와 한참 남았네\n1 : 아 키키 난 2차 10월에 맞는데\n2 : 나도 2차 10월! 1차는 시작 첫 날에 바로 맞음 키키\n2 : 동생도 같은 날 잔여 잡아서 맞음 키키\n1 : 오 키키 잔여 뭐 맞는지도 알아?\n2 : 그거 잡을 때 선택해서 잡는 거여서 키키\n2 : 나랑 똑같이 화이자 맞았어 키키 같은 병원에서!\n2 : 시간은 다르지만\n1 : 아 진짜 키키 굿굿 나도 화이자 맞았는데\n2 : 우린 거의 화이자일걸?\n2 : 교차접종 안 할 거야 아마\n1 : 그럴 거 같애 키키 부작용은 진짜 케바케던데 안 아팠으면 키키\n2 : 난 1차 때 고생해서 2차 때 걱정임 키키\n2 : 아니 이번에 아프면서 생각한 게, 고작 백신 맞고 이 정도인데 찐으로 걸렸다면 난 죽도록 고생했겠다 싶더라\n1 : 진짜 키키 아 근데 1차 때 고생했으면 2차 때 괜찮을 수도 있대\n2 : 제발 그래야 함 키키\n2 : 내 동생은 멀쩡하던데 키키 난 왜 그랬는지 원 키키\n2 : 그럼 내 동생은 2차 때 고생하려나\n1 : 친구는 화이자 1차 2차 둘 다 부작용 없이 괜찮았대 키키\n2 : 올 ㄱㅇㄷ 내 몸은 치열하게 싸웠나 봐 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부모님은 잘 계셔?",
+            "norm_text": "부모님은 잘 계셔?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부모/NNG+님/XSN+은/JX+잘/MAG+계셔/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 백신 맞으셨어?",
+            "norm_text": "백신 맞으셨어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+맞/VV+으셨/EP+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 엄빠 두 분 다 맞으심 키키",
+            "norm_text": "엄빠 두 분 다 맞으심 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄/IC+빠/NNP+두/MM+분/NNBC+다/MAG+맞/VV+으/EP+심/EP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아버지는 2차 접종 끝나셨는데 ㅠㅠ",
+            "norm_text": "아버지는 2차 접종 끝나셨는데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아버지/NNG+는/JX+2/SN+차/NNBC+접종/NNG+끝/NNG+나/VV+셨/EP+EP+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나도 빨리 맞고 싶다",
+            "norm_text": "나도 빨리 맞고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+빨리/MAG+맞/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 넌 언제 맞아?",
+            "norm_text": "키키 넌 언제 맞아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+넌/JX+언제/NP+맞/VV+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 1차 맞고 나면 2차 빨리 맞고 끝내고 싶더라",
+            "norm_text": "1차 맞고 나면 2차 빨리 맞고 끝내고 싶더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "1/SN+차/NNBC+맞/VV+고/EC+나/VX+면/EC+2/SN+차/NNBC+빨리/MAG+맞/VV+고/EC+끝내/VV+고/EC+싶/VX+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 구삐 보니까 10월에 잡혀있음 키키",
+            "norm_text": "구삐 보니까 10월에 잡혀있음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구/NNG+삐/MAG+보/VV+니까/EC+10/SN+월/NNBC+에/JKB+잡혀/VV+EC+있/VX+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 와 한참 남았네",
+            "norm_text": "와 한참 남았네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+한참/MAG+남/VV+았/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 키키 난 2차 10월에 맞는데",
+            "norm_text": "아 키키 난 2차 10월에 맞는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키난/NNP+2/SN+차/NNBC+10/SN+월/NNBC+에/JKB+맞/VV+는데/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나도 2차 10월! 1차는 시작 첫 날에 바로 맞음 키키",
+            "norm_text": "나도 2차 10월! 1차는 시작 첫 날에 바로 맞음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+2/SN+차/NNBC+10/SN+월/NNBC+!/SY+1/SN+차/NNBC+는/JX+시작/NNG+첫날/NNG+에/JKB+바로/MAG+맞음/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 동생도 같은 날 잔여 잡아서 맞음 키키",
+            "norm_text": "동생도 같은 날 잔여 잡아서 맞음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+도/JX+같/VA+은/ETM+날/NNG+잔여/NNG+잡/VV+아서/EC+맞음/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오 키키 잔여 뭐 맞는지도 알아?",
+            "norm_text": "오 키키 잔여 뭐 맞는지도 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오키/NNP+키/NNG+잔여/NNG+뭐/IC+맞/VV+는지/EC+도/JX+알/VV+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그거 잡을 때 선택해서 잡는 거여서 키키",
+            "norm_text": "그거 잡을 때 선택해서 잡는 거여서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+잡/VV+을/ETM+때/NNG+선택/NNG+해서/XSV+EC+잡/VV+는/ETM+거/NNB+여서/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나랑 똑같이 화이자 맞았어 키키 같은 병원에서!",
+            "norm_text": "나랑 똑같이 화이자 맞았어 키키 같은 병원에서!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+랑/JKB+똑같이/MAG+화이자/NNP+맞/VV+았/EP+어/EC+키/NNG+키/XSV+ETN+같/VA+은/ETM+병원/NNG+에서/JKB"
+          },
+          {
+            "id": 16,
+            "text": "2 : 시간은 다르지만",
+            "norm_text": "시간은 다르지만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시간/NNG+은/JX+다르/VA+지만/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 진짜 키키 굿굿 나도 화이자 맞았는데",
+            "norm_text": "아 진짜 키키 굿굿 나도 화이자 맞았는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/NNG+굿/NNG+굿/NNG+나/NP+도/JX+화이자/NNP+맞/VV+았/EP+는데/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 우린 거의 화이자일걸?",
+            "norm_text": "우린 거의 화이자일걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우린/NP+JX+거의/MAG+화이자/NNP+일걸/VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 교차접종 안 할 거야 아마",
+            "norm_text": "교차접종 안 할 거야 아마",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "교차/NNG+접종/NNG+안/MAG+할/VV+ETM+거/NNB+야/VCP+EF+아마/MAG"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그럴 거 같애 키키 부작용은 진짜 케바케던데 안 아팠으면 키키",
+            "norm_text": "그럴 거 같애 키키 부작용은 진짜 케바케던데 안 아팠으면 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+거/NNB+같/VA+애/EF+키키/NNP+부작용/NNG+은/JX+진짜/MAG+케/XSA+EC+바케/NNP+던데/VCP+EC+안/MAG+아팠으면/VA+EP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 난 1차 때 고생해서 2차 때 걱정임 키키",
+            "norm_text": "난 1차 때 고생해서 2차 때 걱정임 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+1/SN+차/NNBC+때/NNG+고생/NNG+해서/XSV+EC+2/SN+차/NNBC+때/NNG+걱정/NNG+임/VCP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 아니 이번에 아프면서 생각한 게, 고작 백신 맞고 이 정도인데 찐으로 걸렸다면 난 죽도록 고생했겠다 싶더라",
+            "norm_text": "아니 이번에 아프면서 생각한 게, 고작 백신 맞고 이 정도인데 찐으로 걸렸다면 난 죽도록 고생했겠다 싶더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+이번/NNG+에/JKB+아프/VA+면서/EC+생각/NNG+한/XSA+ETM+게/NNB+JKS+,/SC+고작/MAG+백신/NNG+맞/VV+고/EC+이/MM+정도/NNG+인데/VCP+EC+찐/VV+ETM+으로/JKB+걸렸/VV+EP+다면/EC+난/NP+JX+죽/VV+도록/EC+고생/NNG+했/XSV+EP+겠/EP+다/EC+싶/VX+더라/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 진짜 키키 아 근데 1차 때 고생했으면 2차 때 괜찮을 수도 있대",
+            "norm_text": "진짜 키키 아 근데 1차 때 고생했으면 2차 때 괜찮을 수도 있대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+키/NNG+키/XSV+ETN+아/IC+근데/MAJ+1/SN+차/NNBC+때/NNG+고생/NNG+했/XSV+EP+으면/EC+2/SN+차/NNBC+때/NNG+괜찮/VA+을/ETM+수/NNB+도/JX+있/VA+대/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 제발 그래야 함 키키",
+            "norm_text": "제발 그래야 함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제발/MAG+그래야/VV+EC+함/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 내 동생은 멀쩡하던데 키키 난 왜 그랬는지 원 키키",
+            "norm_text": "내 동생은 멀쩡하던데 키키 난 왜 그랬는지 원 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+동생/NNG+은/JX+멀쩡/XR+하/XSA+던데/EC+키/NNG+키/XSV+ETN+난/NP+JX+왜/MAG+그랬/VV+EP+는지/EC+원/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 그럼 내 동생은 2차 때 고생하려나",
+            "norm_text": "그럼 내 동생은 2차 때 고생하려나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+내/MM+동생/NNG+은/JX+2/SN+차/NNBC+때/NNG+고생/NNG+하/XSV+려나/EC"
+          },
+          {
+            "id": 27,
+            "text": "1 : 친구는 화이자 1차 2차 둘 다 부작용 없이 괜찮았대 키키",
+            "norm_text": "친구는 화이자 1차 2차 둘 다 부작용 없이 괜찮았대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "친구/NNG+는/JX+화이자/NNP+1/SN+차/NNBC+2/SN+차/NNBC+둘/NR+다부/NNG+작용/NNG+없이/MAG+괜찮/VA+았/EP+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "2 : 올 ㄱㅇㄷ 내 몸은 치열하게 싸웠나 봐 키키",
+            "norm_text": "올 ㄱㅇㄷ 내 몸은 치열하게 싸웠나 봐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "올/MM+ㄱ/NNG+ㅇㄷ/UNKNOWN+내/NP+JKG+몸/NNG+은/JX+치열/NNG+하/XSV+게/EC+싸웠/VV+EP+나/EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

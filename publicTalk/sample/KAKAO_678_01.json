@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 55223,
+    "name": "KAKAO_678_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113634001924/KAKAO_678_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113634001924/KAKAO_678_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35440,
+      "filename": "KAKAO_678_01.txt",
+      "title": "KAKAO_678_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 424,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 424,
+        "word_size": 137,
+        "text": "1 : 오늘 뭐 먹었어?\n2 : 오늘 편의점에서 떡볶이 사 먹었어 너는?\n1 : 키키 편의점에서 요즘 떡볶이도 파나\n2 : 자이언트 떡볶이 모르냐? 맛있다구\n1 : 떡볶이는 신전이지. 근데 까르보 자이언트 존맛 인정\n2 : 그거 하나에 700칼로리 넘더라 ^^\n1 : 칼로리 계산하면서 먹는 척하네 하하\n2 : 야 요새 다이어트 중이라구 ㅜㅜ\n2 : 니는 뭐 먹었는데?\n1 : 나 오늘 목살 먹음! 서면 갔는데 맛있도라\n2 : 오 목살 맛있겠다. 나도 사줘 ㅡㅡ\n1 : 키키 그래... 그렇게 하자 언제 갈래\n2 : 재난 지원금도 받았는데 맛있는 거 먹으러 가야지~\n1 : 맞네 재난 지원금 먹을 거에 다 쓸 것 같지 않냐 ㅎ\n2 : 그러니까, 먹고 사는 게 제일 중요하지 어쩔 수 없어\n1 : 인정이다 암튼 담에 목살 먹으로 ㄱㄱ\n2 : ㅇㅋ 고고 먹고 서면에 새로 생긴 카페도 가보자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 뭐 먹었어?",
+            "norm_text": "오늘 뭐 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+뭐/IC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘 편의점에서 떡볶이 사 먹었어 너는?",
+            "norm_text": "오늘 편의점에서 떡볶이 사 먹었어 너는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+편의점/NNG+에서/JKB+떡볶이/NNG+사먹/VV+었/EP+어/EF+너/NP+는/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 편의점에서 요즘 떡볶이도 파나",
+            "norm_text": "키키 편의점에서 요즘 떡볶이도 파나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+편의점/NNG+에서/JKB+요즘/NNG+떡볶이/NNG+도/JX+파나/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 자이언트 떡볶이 모르냐? 맛있다구",
+            "norm_text": "자이언트 떡볶이 모르냐? 맛있다구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자이언트/NNP+떡볶이/NNG+모르/VV+냐/EF+맛있/VA+다구/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 떡볶이는 신전이지. 근데 까르보 자이언트 존맛 인정",
+            "norm_text": "떡볶이는 신전이지. 근데 까르보 자이언트 존맛 인정",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "떡볶이/NNG+는/JX+신전/NNG+이/VCP+지/EF+근데/MAJ+까르보/NNP+자이언트/NNP+존/NNP+맛/NNG+인정/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그거 하나에 700칼로리 넘더라 ^^",
+            "norm_text": "그거 하나에 700칼로리 넘더라 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+하나/NR+에/JKB+700/SN+칼로리/NNBC+넘/VV+더라/EC+^/SY+^/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 칼로리 계산하면서 먹는 척하네 하하",
+            "norm_text": "칼로리 계산하면서 먹는 척하네 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "칼로리/NNG+계산/NNG+하/XSV+면서/EC+먹/VV+는/ETM+척하/VX+네/EF+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 야 요새 다이어트 중이라구 ㅜㅜ",
+            "norm_text": "야 요새 다이어트 중이라구 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+요새/MAG+다이어트/NNG+중/NNB+이/VCP+라구/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 니는 뭐 먹었는데?",
+            "norm_text": "니는 뭐 먹었는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+뭐/IC+먹/VV+었/EP+는데/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나 오늘 목살 먹음! 서면 갔는데 맛있도라",
+            "norm_text": "나 오늘 목살 먹음! 서면 갔는데 맛있도라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+오늘/MAG+목살/NNG+먹/VV+음/ETN+서/VV+면/EC+갔/VV+EP+는데/EC+맛있/VA+도라/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 오 목살 맛있겠다. 나도 사줘 ㅡㅡ",
+            "norm_text": "오 목살 맛있겠다. 나도 사줘 ㅡㅡ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오목/MAG+살/VV+ETM+맛있/VA+겠/EP+다/EF+나도사줘ㅡㅡ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 그래... 그렇게 하자 언제 갈래",
+            "norm_text": "키키 그래... 그렇게 하자 언제 갈래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VV+EF+./SY+그렇게/MAG+하/VV+자/EC+언제/MAG+갈래/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 재난 지원금도 받았는데 맛있는 거 먹으러 가야지~",
+            "norm_text": "재난 지원금도 받았는데 맛있는 거 먹으러 가야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "재난/NNG+지원금/NNG+도/JX+받/VV+았/EP+는데/EC+맛있/VA+는/ETM+거/NNB+먹/VV+으러/EC+가/VX+야지/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 맞네 재난 지원금 먹을 거에 다 쓸 것 같지 않냐 ㅎ",
+            "norm_text": "맞네 재난 지원금 먹을 거에 다 쓸 것 같지 않냐 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+네/EF+재난/NNG+지원금/NNG+먹/VV+을/ETM+거/NNB+에다/JKB+쓸/VV+ETM+것/NNB+같/VA+지/EC+않/VX+냐/EF+ㅎ/XSA"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그러니까, 먹고 사는 게 제일 중요하지 어쩔 수 없어",
+            "norm_text": "그러니까, 먹고 사는 게 제일 중요하지 어쩔 수 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+,/SC+먹/VV+고/EC+사/VV+는/ETM+게/NNB+JKS+제일/MAG+중요/NNG+하/XSV+지/EC+어쩔/VV+ETM+수/NNB+없/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 인정이다 암튼 담에 목살 먹으로 ㄱㄱ",
+            "norm_text": "인정이다 암튼 담에 목살 먹으로 ㄱㄱ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "인정/NNG+이/VCP+다/EF+암튼/MAJ+담/NNG+에/JKB+목살/NNG+먹/NNG+으로/JKB+ㄱ/NNG+ㄱ/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : ㅇㅋ 고고 먹고 서면에 새로 생긴 카페도 가보자",
+            "norm_text": "ㅇㅋ 고고 먹고 서면에 새로 생긴 카페도 가보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "ㅇㅋ/UNKNOWN+고고/NNG+먹/VV+고/EC+서면/NNG+에/JKB+새로/MAG+생긴/VV+ETM+카페/NNG+도/JX+가/VV+EC+보/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

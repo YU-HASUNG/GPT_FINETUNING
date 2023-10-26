@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 71792,
+    "name": "KAKAO_733_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134551003446/KAKAO_733_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134551003446/KAKAO_733_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37445,
+      "filename": "KAKAO_733_15.txt",
+      "title": "KAKAO_733_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 695,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 695,
+        "word_size": 209,
+        "text": "1 : 중국은 아직도 코로나 걸려도 숫자 제대로 집계 안 하고 있는 거겠지?\n2 : 그러지 않을까 중국은 주민등록증 없는 사람도 많다고 하니까\n1 : 헐... 진짜? 진짜 요새 중국중국 하는 이유들이 다 있다니까 미개한 게 발전이 없네\n2 : 너가 그랬었잖아 요즘 사람들이 중국을 그냥 싫어하는 게 아니라 무슨 문제가 생기면 거의 다 중국이 연관되어 있어서 중국을 싫어한다고 ㅋ\n1 : 키키 맞아 그리고 난 코로나 확진되면 우리나라처럼 데려가서 무상으로 치료하는 게 아니라 집 문 막는 거 보고 뒤로 넘어갈 뻔\n2 : 헐 확진자를 밖으로 못나오게 하려고?\n1 : 엉 못 봤어? 진짜 충격적이었어\n1 : 아예 아파트 문을 철로 덧대서 막아서 다들 갇혀 죽었대\n2 : 와 진짜 무섭네 제대로 치료 못 받는다는 건 알았지만 그 정도일 줄이야\n1 : 그치 우린 진짜 한국에서 태어나서 다행이야 우리나라 의료보험 최고\n2 : 맞아 우리나라에서 치료를 못 받아서 죽는 경우를 별로 없으니까\n1 : 엉 근데 이번 코로나 국민 청원하면 좀 인과관계 파악하려는 노력을 좀 해줬으면...\n2 : 아니면 노력하는 모습이라도 보여줬으면 좋겠어\n1 : 그치 우리 온 국민이 백신 다 맞아도 마스크 계속 쓰겠지?\n2 : 치료제가 나오기 전에는 그렇지 않을까 아마도 ㅠ\n1 : 근데 은근 숨 쉬는 게 답답해서 그렇지 이젠 얼굴 가리는 게 더 좋아\n2 : 그리고 화장 안하고 밖에 다녀서 편하고 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 중국은 아직도 코로나 걸려도 숫자 제대로 집계 안 하고 있는 거겠지?",
+            "norm_text": "중국은 아직도 코로나 걸려도 숫자 제대로 집계 안 하고 있는 거겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "중국/NNP+은/JX+아직/MAG+도코로/NNG+나/JX+걸려도/VV+EC+숫자/NNG+제대로/MAG+집계/NNG+안/MAG+하/VV+고/EC+있/VX+는/ETM+거/NNB+겠/VCP+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그러지 않을까 중국은 주민등록증 없는 사람도 많다고 하니까",
+            "norm_text": "그러지 않을까 중국은 주민등록증 없는 사람도 많다고 하니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+지/EC+않/VX+을까/EC+중국/NNP+은/JX+주민/NNG+등록증/NNG+없/VA+는/ETM+사람/NNG+도/JX+많/VA+다고/EC+하/VV+니까/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐... 진짜? 진짜 요새 중국중국 하는 이유들이 다 있다니까 미개한 게 발전이 없네",
+            "norm_text": "헐... 진짜? 진짜 요새 중국중국 하는 이유들이 다 있다니까 미개한 게 발전이 없네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헐/IC+./SY+진짜/MAG+진짜/MAG+요새/MAG+중국/NNP+중국/NNP+하/XSV+는/ETM+이유/NNG+들/XSN+이/JKS+다/MAG+있/VA+다니까/EC+미개/XR+한/XSA+ETM+게/NNB+JKS+발전/NNG+이/JKS+없/VA+네/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너가 그랬었잖아 요즘 사람들이 중국을 그냥 싫어하는 게 아니라 무슨 문제가 생기면 거의 다 중국이 연관되어 있어서 중국을 싫어한다고 ㅋ",
+            "norm_text": "너가 그랬었잖아 요즘 사람들이 중국을 그냥 싫어하는 게 아니라 무슨 문제가 생기면 거의 다 중국이 연관되어 있어서 중국을 싫어한다고 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+가/JKS+그랬었잖/VA+EP+EC+VX+아/EC+요즘/NNG+사람/NNG+들/XSN+이/JKS+중국/NNP+을/JKO+그냥/MAG+싫/VA+어/EC+하/VV+는/ETM+게/NNB+JKC+아니/VCN+라/EC+무슨/MM+문제/NNG+가/JKS+생기/VV+면/EC+거의/MAG+다/MAG+중국/NNP+이/JKS+연관/NNG+되/XSV+어/EC+있/VX+어서/EC+중국/NNP+을/JKO+싫/VA+어/EC+한다고/VX+EC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 맞아 그리고 난 코로나 확진되면 우리나라처럼 데려가서 무상으로 치료하는 게 아니라 집 문 막는 거 보고 뒤로 넘어갈 뻔",
+            "norm_text": "키키 맞아 그리고 난 코로나 확진되면 우리나라처럼 데려가서 무상으로 치료하는 게 아니라 집 문 막는 거 보고 뒤로 넘어갈 뻔",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+그리고/MAJ+난/NP+JX+코로나/NNG+확진/NNG+되/XSV+면/EC+우리/NP+나라/NNG+처럼/JKB+데려가/VV+서/EC+무상/NNG+으로/JKB+치료/NNG+하/XSV+는/ETM+게/NNB+JKC+아니/VCN+라/EC+집/NNG+문/NNG+막/VV+는/ETM+거/NNB+보고/JKB+뒤/NNG+로/JKB+넘어갈/VV+ETM+뻔/NNB"
+          },
+          {
+            "id": 6,
+            "text": "2 : 헐 확진자를 밖으로 못나오게 하려고?",
+            "norm_text": "헐 확진자를 밖으로 못나오게 하려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+확진/NNG+자/XSN+를/JKO+밖/NNG+으로/JKB+못/MAG+나오/VV+게/EC+하/VX+려고/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 엉 못 봤어? 진짜 충격적이었어",
+            "norm_text": "엉 못 봤어? 진짜 충격적이었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+못/MAG+봤/VV+EP+어/EF+진짜/MAG+충격/NNG+적/XSN+이/VCP+었/EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아예 아파트 문을 철로 덧대서 막아서 다들 갇혀 죽었대",
+            "norm_text": "아예 아파트 문을 철로 덧대서 막아서 다들 갇혀 죽었대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아예/MAG+아파트/NNG+문/NNG+을/JKO+철/NNG+로/JKB+덧대/VV+서/EC+막/VV+아서/EC+다/MAG+들/XSN+갇혀/VV+EC+죽/VV+었/EP+대/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 와 진짜 무섭네 제대로 치료 못 받는다는 건 알았지만 그 정도일 줄이야",
+            "norm_text": "와 진짜 무섭네 제대로 치료 못 받는다는 건 알았지만 그 정도일 줄이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+진짜/MAG+무섭/VA+네/EF+제대로/MAG+치료/NNG+못/MAG+받/VV+는다는/ETM+건/NNB+JX+알/VV+았/EP+지만/EC+그/MM+정도/NNG+일/VCP+ETM+줄/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그치 우린 진짜 한국에서 태어나서 다행이야 우리나라 의료보험 최고",
+            "norm_text": "그치 우린 진짜 한국에서 태어나서 다행이야 우리나라 의료보험 최고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+우린/NP+JX+진짜/MAG+한국/NNP+에서/JKB+태어나/VV+서/EC+다행/NNG+이/VCP+야/EF+우리/NP+나라/NNG+의료/NNG+보험/NNG+최고/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 맞아 우리나라에서 치료를 못 받아서 죽는 경우를 별로 없으니까",
+            "norm_text": "맞아 우리나라에서 치료를 못 받아서 죽는 경우를 별로 없으니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+우리/NP+나라/NNG+에서/JKB+치료/NNG+를/JKO+못/MAG+받/VV+아서/EC+죽/VV+는/ETM+경우/NNG+를/JKO+별로/MAG+없/VA+으니까/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 엉 근데 이번 코로나 국민 청원하면 좀 인과관계 파악하려는 노력을 좀 해줬으면...",
+            "norm_text": "엉 근데 이번 코로나 국민 청원하면 좀 인과관계 파악하려는 노력을 좀 해줬으면...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉근데이번코로나국민청원하면좀인과관계파악하려는노력을좀해줬으면/UNKNOWN+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니면 노력하는 모습이라도 보여줬으면 좋겠어",
+            "norm_text": "아니면 노력하는 모습이라도 보여줬으면 좋겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니면/MAJ+노력/NNG+하/XSV+는/ETM+모습/NNG+이/VCP+라도/EC+보여/VV+EC+줬/VX+EP+으면/EC+좋/VA+겠/EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그치 우리 온 국민이 백신 다 맞아도 마스크 계속 쓰겠지?",
+            "norm_text": "그치 우리 온 국민이 백신 다 맞아도 마스크 계속 쓰겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+우리/NP+온/VV+ETM+국민/NNG+이/JKS+백신/NNG+다/MAG+맞/VV+아도/EC+마스크/IC+계속/MAG+쓰/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 치료제가 나오기 전에는 그렇지 않을까 아마도 ㅠ",
+            "norm_text": "치료제가 나오기 전에는 그렇지 않을까 아마도 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "치료제/NNG+가/JKS+나오/VV+기/ETN+전/NNG+에/JKB+는/JX+그렇/VA+지/EC+않/VX+을까/EF+아마도/MAG+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근데 은근 숨 쉬는 게 답답해서 그렇지 이젠 얼굴 가리는 게 더 좋아",
+            "norm_text": "근데 은근 숨 쉬는 게 답답해서 그렇지 이젠 얼굴 가리는 게 더 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+은근/NNG+숨/NNG+쉬/VV+는/ETM+게/NNB+JKS+답답/XR+해서/XSA+EC+그렇/VA+지/EC+이젠/NNG+JX+얼굴/NNG+가리/VV+는/ETM+게/NNB+JKS+더/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그리고 화장 안하고 밖에 다녀서 편하고 키키",
+            "norm_text": "그리고 화장 안하고 밖에 다녀서 편하고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+화장/NNG+안/MAG+하/VV+고/EC+밖/NNG+에/JKB+다녀서/VV+EC+편하/VA+고/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

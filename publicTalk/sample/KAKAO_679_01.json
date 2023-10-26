@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 32115,
+    "name": "KAKAO_679_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109281131060536101/KAKAO_679_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109281131060536101/KAKAO_679_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35320,
+      "filename": "KAKAO_679_01.txt",
+      "title": "KAKAO_679_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 543,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 543,
+        "word_size": 191,
+        "text": "1 : 우리 오늘 만나서 뭐 먹을래?\n2 : 음... 난 밥도 좋고, 면도 좋음 하하\n1 : 우리 자주 가던 그 청포도 샐러드 파는 집 갈까 ㅎ\n2 : 아? 좋지 키키 파스타랑 피자도 시키장\n1 : 그래 거기 근데 음료수 리필은 안 되제? 키키\n2 : 요새 리필 되는 데가 있나? 키키\n2 :  안 될 거 같음 ㅠㅠ\n1 : 맞제 ㅠㅠ 그래도 거기 메뉴가 다 맛있으니까 가자 키키\n2 : 좋지 좋지 밥 먹고 소화 시키고 카페 가자 하하\n2 : 카페는 어디 갈까?\n1 : 그 밥 집 근처에 있는 카페 가자 키키\n1 : 나 기프티콘 있음\n2 : 치즈케이크도 먹고 싶은 걸?\n1 : 키키 나도 키키 케이크도 맛있지 ㅠ\n1 : 야 근데 우리 동네에 돈까스 맛집 생겼더라 키키\n2 : 우왕 키키 나는 김치치즈나베 좋아하는데 그것도 있낭?\n1 : 어 그것도 있음 키키\n1 : 니 내일 몇 시에 마치노 가보자 키키\n2 : 내 퇴근 시간은 항상 정해져 있쥐 다섯 시 반 하하 오키오키\n2 : 바로 그쪽으로 가면 되나?\n1 : 어 니 버스 타고 오제?\n1 : 거기 근처에서 만나자\n2 : 응응 정류장에서 기다려줘 하하 같이 가자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 오늘 만나서 뭐 먹을래?",
+            "norm_text": "우리 오늘 만나서 뭐 먹을래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+오늘/MAG+만나/VV+서/EC+뭐/IC+먹/VV+을래/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음... 난 밥도 좋고, 면도 좋음 하하",
+            "norm_text": "음... 난 밥도 좋고, 면도 좋음 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+난/NP+JX+밥/NNG+도/JX+좋/VA+고/EC+,/SC+면/NNG+도/JX+좋/VA+음/EC+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리 자주 가던 그 청포도 샐러드 파는 집 갈까 ㅎ",
+            "norm_text": "우리 자주 가던 그 청포도 샐러드 파는 집 갈까 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+자주/MAG+가/VV+던/ETM+그/MM+청포/NNG+도/JX+샐러드/NNG+파/VV+는/ETM+집/NNG+갈까/VV+EC+ㅎ/XSA"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아? 좋지 키키 파스타랑 피자도 시키장",
+            "norm_text": "아? 좋지 키키 파스타랑 피자도 시키장",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아/IC+좋/VA+지/EC+키/NNG+키/NNG+파스타/NNG+랑/JKB+피자/NNG+도시/NNG+키/NNG+장/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래 거기 근데 음료수 리필은 안 되제? 키키",
+            "norm_text": "그래 거기 근데 음료수 리필은 안 되제? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+거기/NP+근데/MAJ+음료수/NNG+리필/NNG+은/JX+안/MAG+되/VV+제/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요새 리필 되는 데가 있나? 키키",
+            "norm_text": "요새 리필 되는 데가 있나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "요새/NNG+리필/NNG+되/XSV+는/ETM+데/NNB+가/JKS+있/VA+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 :  안 될 거 같음 ㅠㅠ",
+            "norm_text": "안 될 거 같음 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+될/VV+ETM+거/NNB+같/VA+음/ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 맞제 ㅠㅠ 그래도 거기 메뉴가 다 맛있으니까 가자 키키",
+            "norm_text": "맞제 ㅠㅠ 그래도 거기 메뉴가 다 맛있으니까 가자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "맞/VV+제/EC+ㅠㅠ/UNKNOWN+그래도/VV+EC+거기/NP+메뉴/NNG+가/JKS+다/MAG+맛있/VA+으니까/EC+가/JKS+자키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 좋지 좋지 밥 먹고 소화 시키고 카페 가자 하하",
+            "norm_text": "좋지 좋지 밥 먹고 소화 시키고 카페 가자 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좋/VA+지/EC+좋/VA+지/EC+밥/NNG+먹/VV+고/EC+소화/NNG+시키/XSV+고/EC+카페/NNG+가/JKS+자하/NNG+하/XSV"
+          },
+          {
+            "id": 10,
+            "text": "2 : 카페는 어디 갈까?",
+            "norm_text": "카페는 어디 갈까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카페/NNG+는/JX+어디/NP+갈까/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그 밥 집 근처에 있는 카페 가자 키키",
+            "norm_text": "그 밥 집 근처에 있는 카페 가자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그/MM+밥집/NNG+근처/NNG+에/JKB+있/VV+는/ETM+카페/NNG+가/JKS+자키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나 기프티콘 있음",
+            "norm_text": "그 밥집 근처에 있는 카페 가자 ㅋㅋㅋ 나 기프티콘 있음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "그/MM+밥집/NNG+근처/NNG+에/JKB+있/VV+는/ETM+카페/NNG+가/JKS+자ㅋ/UNKNOWN+ㅋㅋ/UNKNOWN+나기/NNG+프티/NNG+콘/NNG+있/VV+음/ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 치즈케이크도 먹고 싶은 걸?",
+            "norm_text": "치즈케이크도 먹고싶은걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "치즈케이크/NNP+도/JX+먹/VV+고/EC+싶/VX+은걸/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 나도 키키 케이크도 맛있지 ㅠ",
+            "norm_text": "ㅋㅋㅋ 나도 ㅋㅋ 케이크도 맛있지ㅠ 야 근데 우리 동네에 돈까스 맛집 생겼더라 ㅋㅋㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "ㅋ/UNKNOWN+ㅋㅋ/UNKNOWN+나/NP+도/JX+ㅋㅋ/UNKNOWN+케이크/NNG+도/JX+맛있/VA+지/EC+ㅠ야/UNKNOWN+근데/MAJ+우리/NP+동네/NNG+에/JKB+돈/NNG+까스/NNP+맛집/NNG+생겼/VV+EP+더라/EF+ㅋ/UNKNOWN+ㅋㅋ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 야 근데 우리 동네에 돈까스 맛집 생겼더라 키키",
+            "norm_text": "ㅋㅋㅋ 나도 ㅋㅋ 케이크도 맛있지ㅠ 야 근데 우리 동네에 돈까스 맛집 생겼더라 ㅋㅋㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "ㅋ/UNKNOWN+ㅋㅋ/UNKNOWN+나/NP+도/JX+ㅋㅋ/UNKNOWN+케이크/NNG+도/JX+맛있/VA+지/EC+ㅠ야/UNKNOWN+근데/MAJ+우리/NP+동네/NNG+에/JKB+돈/NNG+까스/NNP+맛집/NNG+생겼/VV+EP+더라/EF+ㅋ/UNKNOWN+ㅋㅋ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 우왕 키키 나는 김치치즈나베 좋아하는데 그것도 있낭?",
+            "norm_text": "우왕ㅋㅋㅋ 나는 김치치즈나베 좋아하는데 그것도 있낭?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "우왕/NNP+ㅋ/UNKNOWN+ㅋㅋ/UNKNOWN+나/NP+는/JX+김치/NNG+치즈/NNG+나베/NNG+좋/VA+아/EC+하/VV+는데/EC+그것/NP+도/JX+있/VA+낭/NNG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 어 그것도 있음 키키",
+            "norm_text": "어 그것도 있음 ㅋㅋ 니 내일 몇시에 마치노 가보자 ㅋㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "어/IC+그것/NP+도/JX+있/VX+음/ETN+ㅋㅋ/UNKNOWN+니/EC+내일/MAG+몇/MM+시/NNBC+에/JKB+마치/MAG+노/NNP+가/JKS+보/VV+자/EC+ㅋㅋ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 니 내일 몇 시에 마치노 가보자 키키",
+            "norm_text": "어 그것도 있음 ㅋㅋ 니 내일 몇시에 마치노 가보자 ㅋㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "어/IC+그것/NP+도/JX+있/VX+음/ETN+ㅋㅋ/UNKNOWN+니/EC+내일/MAG+몇/MM+시/NNBC+에/JKB+마치/MAG+노/NNP+가/JKS+보/VV+자/EC+ㅋㅋ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 내 퇴근 시간은 항상 정해져 있쥐 다섯 시 반 하하 오키오키",
+            "norm_text": "내 퇴근시간은 항상 정해져있쥐 다섯시반 ㅎㅎ 오키오키 바로 그쪽으로 가면 되나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "내/NP+JKG+퇴근/NNG+시간/NNG+은/JX+항상/MAG+정해져/VV+EC+VX+EC+있/VX+쥐/NNG+다섯/NR+시/NNBC+반/NNG+ㅎ/XSA+ㅎ/XSA+오키/NNP+오키/NNP+바로/MAG+그쪽/NP+으로/JKB+가/VV+면/EC+되/VV+나/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 바로 그쪽으로 가면 되나?",
+            "norm_text": "내 퇴근시간은 항상 정해져있쥐 다섯시반 ㅎㅎ 오키오키 바로 그쪽으로 가면 되나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "내/NP+JKG+퇴근/NNG+시간/NNG+은/JX+항상/MAG+정해져/VV+EC+VX+EC+있/VX+쥐/NNG+다섯/NR+시/NNBC+반/NNG+ㅎ/XSA+ㅎ/XSA+오키/NNP+오키/NNP+바로/MAG+그쪽/NP+으로/JKB+가/VV+면/EC+되/VV+나/EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 어 니 버스 타고 오제?",
+            "norm_text": "어 니 버스 타고 오제? 거기 근처에서 만나자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "어니/NNG+버스/NNG+타/VV+고/EC+오/VX+제/EF+거기/NP+근처/NNG+에서/JKB+만나/VV+자/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 거기 근처에서 만나자",
+            "norm_text": "어 니 버스 타고 오제? 거기 근처에서 만나자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "어니/NNG+버스/NNG+타/VV+고/EC+오/VX+제/EF+거기/NP+근처/NNG+에서/JKB+만나/VV+자/EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 응응 정류장에서 기다려줘 하하 같이 가자",
+            "norm_text": "응응 정류장에서 기다려줘 ㅎㅎ 같이가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "응/IC+응/IC+정류장/NNG+에서/JKB+기다려줘/VV+EC+VX+EC+ㅎㅎ/UNKNOWN+같이/MAG+가/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

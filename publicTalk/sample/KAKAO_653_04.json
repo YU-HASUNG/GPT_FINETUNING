@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 40115,
+    "name": "KAKAO_653_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151212004593/KAKAO_653_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151212004593/KAKAO_653_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34622,
+      "filename": "KAKAO_653_04.txt",
+      "title": "KAKAO_653_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 899,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 899,
+        "word_size": 254,
+        "text": "1 : 야... 요즘 저 과장님 갑자기 왜 저래?\n2 : 몰라... 요즘 희한하게 별거 아닌 걸로 화를 많이 내더라\n1 : 아니, 화 내는 거야 자기 자유이기는 한데... 자기 감정까지 강요 하는 거 같아서 불편하네.\n2 : 얼마 전에 나 전산팀 직원하고 회사 복도에서 친하게 말하고 가는데, 일부러 우리 대화 차단하면서 한 소리하고 지나가시더라\n1 : 대화 차단? 아니, 왜?\n2 : 자기랑 친하게 지내던 직원인데... 요즘 나랑 더 친해진 게 마음에 안 들었나 봐\n1 : 아니, 그 직원이야 저 과장 업무상으로 친하게 잘 지내는 거지...\n1 : 공과 사 구분 못하시나? 그리고, 두루 두루 친하면 좋은 거 아냐?\n2 : 나두 그런 게 좋다고 생각했는데... 과장님은 그게 아니더라... 자기랑만 친해야 하고, 자기가 모든 걸 다 알아야 직성이 풀리시더라\n1 : 아... 그리고 보니까... 내가 다른 사람한테 들은 얘기 화장실에서 했더니...\n2 : 응응 자신이 회사 내 그런 소소한 정보들을 우리보다 먼저 다 알아야 하는 스타일 인 듯;\n2 : 그리고, 그걸 자신이 먼저 말하는 걸 좋아 하시더라구... 뭐... 난 정보통이다? 그 느낌?\n1 : 야... 직원들끼리 대화도 편히 못하겠구나.\n2 : 나두 그래서 처음에는 좋은 정보도 주시고, 일도 잘하시는 거 같아서 많이 따랐는데...\n2 : 다른 사람과 친해지는 것도 경계 하시는 거 보니까... 불편해지기 시작하더라구\n1 : 야... 여기가 무슨 군대도 아니고, 선임이냐? 자기한테 일일이 다 보고해야 하게?\n2 : 뭐... 나두 그렇게 생각하기는 하는데... 여하튼, 요즘 저분 상태로는 조용히 일만 해야 할 듯\n1 : 하... 그러게, 니 얘기 들으니까... 나두 조용히 내일만 할란다\n2 : 응 직장 생활 너무 힘들다.\n2 : 업무로 스트레스 받는 게 아니라 더 힘드네...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야... 요즘 저 과장님 갑자기 왜 저래?",
+            "norm_text": "야... 요즘 저 과장님 갑자기 왜 저래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+./SY+요즘/MAG+저/MM+과장/NNG+님/XSN+갑자기/MAG+왜/MAG+저래/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 몰라... 요즘 희한하게 별거 아닌 걸로 화를 많이 내더라",
+            "norm_text": "몰라... 요즘 희한하게 별거 아닌 걸로 화를 많이 내더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몰라/VV+EF+./SY+요즘/MAG+희한/XR+하/XSA+게/EC+별거/NNG+아닌/VCN+ETM+걸/NNB+JKO+로화/NNG+를/JKO+많이/MAG+내/VV+더라/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니, 화 내는 거야 자기 자유이기는 한데... 자기 감정까지 강요 하는 거 같아서 불편하네.",
+            "norm_text": "아니, 화 내는 거야 자기 자유이기는 한데... 자기 감정까지 강요 하는 거 같아서 불편하네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+,/SC+화내/VV+는/ETM+거/NNB+야/VCP+EF+자기/NP+자유/NNG+이/VCP+기/ETN+는/JX+한데/VV+EF+./SY+자기/NP+감정/NNG+까지/JX+강요/NNG+하/XSV+는/ETM+거/NNB+같/VA+아서/EC+불편/NNG+하/XSA+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 얼마 전에 나 전산팀 직원하고 회사 복도에서 친하게 말하고 가는데, 일부러 우리 대화 차단하면서 한 소리하고 지나가시더라",
+            "norm_text": "얼마 전에 나 전산팀 직원하고 회사 복도에서 친하게 말하고 가는데, 일부러 우리 대화 차단하면서 한 소리하고 지나가시더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "얼마/NNG+전/NNG+에/JKB+나/JX+전산/NNG+팀/NNG+직원/NNG+하/XSV+고/EC+회사/NNG+복도/NNG+에서/JKB+친하/VA+게/EC+말/NNG+하/XSV+고/EC+가/VX+는데/EC+,/SC+일부러/MAG+우리/NP+대화/NNG+차단/NNG+하/XSV+면서/EC+한/MM+소리/NNG+하/XSV+고/EC+지나가/VV+시/EP+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 대화 차단? 아니, 왜?",
+            "norm_text": "대화 차단? 아니, 왜?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대화/NNG+차단/NNG+아니/IC+,/SC+왜/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 자기랑 친하게 지내던 직원인데... 요즘 나랑 더 친해진 게 마음에 안 들었나 봐",
+            "norm_text": "자기랑 친하게 지내던 직원인데... 요즘 나랑 더 친해진 게 마음에 안 들었나 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자기/NP+랑/JKB+친하/VA+게/EC+지내/VV+던/ETM+직원/NNG+인데/VCP+EC+./SY+./SY+요즘/MAG+나/NP+랑/JKB+더/MAG+친해진/VA+EC+VX+ETM+게/NNB+JKS+마음/NNG+에/JKB+안/MAG+들/VV+었/EP+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니, 그 직원이야 저 과장 업무상으로 친하게 잘 지내는 거지...",
+            "norm_text": "아니, 그 직원이야 저 과장 업무상으로 친하게 잘 지내는 거지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+,/SC+그/MM+직원/NNG+이/VCP+야/EF+저/MM+과장/NNG+업무/NNG+상/XSN+으로/JKB+친하/VA+게/EC+잘/MAG+지내/VV+는/ETM+거/NNB+지/VCP+EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 공과 사 구분 못하시나? 그리고, 두루 두루 친하면 좋은 거 아냐?",
+            "norm_text": "공과 사 구분 못하시나? 그리고, 두루 두루 친하면 좋은 거 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "공과/NNG+사/NR+구/NR+분/NNBC+못/MAG+하/VV+시/EP+나/EF+그리고/MAJ+,/SC+두루두루/MAG+친하/VA+면/EC+좋/VA+은/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나두 그런 게 좋다고 생각했는데... 과장님은 그게 아니더라... 자기랑만 친해야 하고, 자기가 모든 걸 다 알아야 직성이 풀리시더라",
+            "norm_text": "나두 그런 게 좋다고 생각했는데... 과장님은 그게 아니더라... 자기랑만 친해야 하고, 자기가 모든 걸 다 알아야 직성이 풀리시더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+두/JX+그런/MM+게/NNB+JKS+좋/VA+다고/EC+생각/NNG+했/XSV+EP+는데/EC+./SY+./SY+과장/NNG+님/XSN+은/JX+그게/NP+JKC+아니/VCN+더라/EF+./SY+자기/NP+랑/JKB+만/JX+친해야/VA+EC+하/VV+고/EC+,/SC+자기/NP+가/JKS+모든/MM+걸/NNB+JKO+다/MAG+알/VV+아야/EC+직/NNG+성/XSN+이/JKS+풀리/VV+시/EP+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아... 그리고 보니까... 내가 다른 사람한테 들은 얘기 화장실에서 했더니...",
+            "norm_text": "아... 그리고 보니까... 내가 다른 사람한테 들은 얘기 화장실에서 했더니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+그리고/MAJ+보/VV+니까/EC+./SY+./SY+내/NP+가/JKS+다른/MM+사람/NNG+한테/JKB+들/VV+은/ETM+얘기/NNG+화장실/NNG+에서/JKB+했/VV+EP+더니/EC+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응응 자신이 회사 내 그런 소소한 정보들을 우리보다 먼저 다 알아야 하는 스타일 인 듯;",
+            "norm_text": "응응 자신이 회사 내 그런 소소한 정보들을 우리보다 먼저 다 알아야 하는 스타일 인 듯;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+자신/NNG+이/JKS+회사/NNG+내/NNB+그런/MM+소소/XR+한/XSA+ETM+정보/NNG+들/XSN+을/JKO+우리/NP+보다/JKB+먼저/MAG+다/MAG+알/VV+아야/EC+하/VV+는/ETM+스타일/NNG+인/VCP+ETM+듯/NNB+;/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그리고, 그걸 자신이 먼저 말하는 걸 좋아 하시더라구... 뭐... 난 정보통이다? 그 느낌?",
+            "norm_text": "그리고, 그걸 자신이 먼저 말하는 걸 좋아 하시더라구... 뭐... 난 정보통이다? 그 느낌?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그리고/MAJ+,/SC+그걸/NP+JKO+자신/NNG+이/JKS+먼저/MAG+말/NNG+하/XSV+는/ETM+걸/NNB+JKO+좋/VA+아/EC+하/VX+시/EP+더라구/EF+./SY+뭐/IC+./SY+난/NP+JX+정보통/NNG+이/VCP+다/EF+그/MM+느낌/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 야... 직원들끼리 대화도 편히 못하겠구나.",
+            "norm_text": "야... 직원들끼리 대화도 편히 못하겠구나.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+./SY+직원/NNG+들/XSN+끼리/XSN+대화/NNG+도/JX+편히/MAG+못/MAG+하/VV+겠/EP+구나/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나두 그래서 처음에는 좋은 정보도 주시고, 일도 잘하시는 거 같아서 많이 따랐는데...",
+            "norm_text": "나두 그래서 처음에는 좋은 정보도 주시고, 일도 잘하시는 거 같아서 많이 따랐는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+두/JX+그래서/MAJ+처음/NNG+에/JKB+는/JX+좋/VA+은/ETM+정보/NNG+도/JX+주/VX+시/EP+고/EC+,/SC+일/NNG+도/JX+잘/MAG+하/VV+시/EP+는/ETM+거/NNB+같/VA+아서/EC+많이/MAG+따랐/VV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 다른 사람과 친해지는 것도 경계 하시는 거 보니까... 불편해지기 시작하더라구",
+            "norm_text": "다른 사람과 친해지는 것도 경계 하시는 거 보니까... 불편해지기 시작하더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다른/MM+사람/NNG+과/JKB+친해/VA+EC+지/VX+는/ETM+것/NNB+도/JX+경계/NNG+하/XSV+시/EP+는/ETM+거/NNB+보/VV+니까/EC+./SY+./SY+불편/NNG+해/XSV+EC+지/VX+기/ETN+시작/NNG+하/XSV+더라구/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 야... 여기가 무슨 군대도 아니고, 선임이냐? 자기한테 일일이 다 보고해야 하게?",
+            "norm_text": "야... 여기가 무슨 군대도 아니고, 선임이냐? 자기한테 일일이 다 보고해야 하게?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+./SY+여기/NP+가/JKS+무슨/MM+군대/NNG+도/JX+아니/VCN+고/EC+,/SC+선임/NNG+이/VCP+냐/EF+자기/NP+한테/JKB+일일이/MAG+다/MAG+보고/NNG+해야/XSV+EC+하/VV+게/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 뭐... 나두 그렇게 생각하기는 하는데... 여하튼, 요즘 저분 상태로는 조용히 일만 해야 할 듯",
+            "norm_text": "뭐... 나두 그렇게 생각하기는 하는데... 여하튼, 요즘 저분 상태로는 조용히 일만 해야 할 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+./SY+나/NP+두/JX+그렇/VA+게/EC+생각/NNG+하/XSV+기/ETN+는/JX+하/VV+는데/EC+./SY+./SY+여하튼/MAJ+,/SC+요즘/MAG+저분/NP+상태/NNG+로/JKB+는/JX+조용히/MAG+일/NNG+만/JX+해야/VV+EC+할/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 18,
+            "text": "1 : 하... 그러게, 니 얘기 들으니까... 나두 조용히 내일만 할란다",
+            "norm_text": "하... 그러게, 니 얘기 들으니까... 나두 조용히 내일만 할란다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/IC+./SY+그러/VV+게/EC+,/SC+니/MM+얘기/NNG+들으니까/VV+EC+./SY+./SY+나/NP+두/JX+조용히/MAG+내일/MAG+만/JX+할란다/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응 직장 생활 너무 힘들다.",
+            "norm_text": "응 직장 생활 너무 힘들다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+직장/NNG+생활/NNG+너무/MAG+힘들/VA+다/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 업무로 스트레스 받는 게 아니라 더 힘드네...",
+            "norm_text": "업무로 스트레스 받는 게 아니라 더 힘드네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "업무/NNG+로/JKB+스트레스/NNG+받/VV+는/ETM+게/NNB+JKC+아니/VCN+라/EC+더/MAG+힘드/VA+네/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

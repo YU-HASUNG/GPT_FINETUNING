@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 73044,
+    "name": "KAKAO_898_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750060555/KAKAO_898_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750060555/KAKAO_898_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41258,
+      "filename": "KAKAO_898_01.txt",
+      "title": "KAKAO_898_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 713,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "다자간 대화",
+        "size": 713,
+        "word_size": 176,
+        "text": "1 : 오늘 점심 식사 어떻게 하실래요?\n2 : 음식을 해서 먹기는 조금 귀찮은데...\n2 : 배달 시켜 먹을까요?\n3 : 좋아요! 뭐 먹고 싶은 거 있으세요?\n1 : 배달 어플에서 어떤 음식이 있는지 보고 결정해요 우리!\n2 : 우와... 요새는 면류 음식도 배달이 가능하네요!\n3 : 맞아요 하하. 카페 음료나 디저트까지도 배달을 해주더라고요.\n1 : 그래서 우리 뭐 먹을까요?\n2 : 음... 오늘 할인 쿠폰이나 이벤트 하는 가게가 있나요?\n3 : 네! 찜닭 집이 오늘 2000원이나 할인해줘요\n1 : 오오~ 그럼 찜닭 먹을까요?\n2 : 찜닭 좋아요! 맛있겠다~\n3 : 아직 시키지도 않았는데 침이 고여요~\n1 : 로제, 간장, 매운맛 이렇게 세 가지 맛 중 어떤 맛으로 할까요?\n2 : 음... 두 가지 맛 선택이 가능한 거죠?\n3 : 저는 다 좋아요! 너무 배고파서 다 잘 먹을 수 있어요!\n1 : 제가 매운 걸 잘 못 먹어서 하나는 간장맛으로 해도 될까요?\n2 : 그럼요! 나머지 하나는 로제 어때요?\n3 : 오오 로제! 요새 로제 맛이 유행이더라고요!\n3 : 너무 좋아요 하하\n1 : 그럼 간장이랑 로제로 시킬게요!\n2 : 터치 몇 번으로 음식을 배달해 주니 참 편리하고 좋네요\n3 : 그러게요! 저는 덕분에 자주 배달 음식을 먹게 되는 것 같아요\n1 : 이렇게 편하니까 더 집순이가 되어가고 있어요 키키\n2 : 공감이에요. 아~ 빨리 왔으면 좋겠어요!\n3 : 맞아요... 너무 배고파서 현기증이 나요...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 점심 식사 어떻게 하실래요?",
+            "norm_text": "오늘 점심 식사 어떻게 하실래요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+점심/NNG+식사/NNG+어떻게/MAG+하/VV+실래요/EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음식을 해서 먹기는 조금 귀찮은데...",
+            "norm_text": "음식을 해서 먹기는 조금 귀찮은데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음식/NNG+을/JKO+ /SY+해서/VV+EC+ /SY+먹/VV+기/ETN+는/JX+ /SY+조금/NNG+ /SY+귀찮/VA+은데/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 배달 시켜 먹을까요?",
+            "norm_text": "배달 시켜 먹을까요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "배달/NNG+시켜/XSV+EC+먹/VV+을까요/EF"
+          },
+          {
+            "id": 4,
+            "text": "3 : 좋아요! 뭐 먹고 싶은 거 있으세요?",
+            "norm_text": "좋아요! 뭐 먹고 싶은 거 있으세요?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+아요/EF+뭐/IC+먹/VV+고/EC+싶/VX+은/ETM+거/NNB+있/VA+으세요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 배달 어플에서 어떤 음식이 있는지 보고 결정해요 우리!",
+            "norm_text": "배달 어플에서 어떤 음식이 있는지 보고 결정해요 우리!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "배달/NNG+어/IC+플/NNG+에서/JKB+어떤/MM+음식/NNG+이/JKS+있/VV+는지/EC+보/VX+고/EC+결정/NNG+해요/XSV+EF+우리/NP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 우와... 요새는 면류 음식도 배달이 가능하네요!",
+            "norm_text": "우와... 요새는 면류 음식도 배달이 가능하네요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우와/IC+./SY+ /SY+요새/NNG+는/JX+ /SY+면류/NNG+ /SY+음식/NNG+도/JX+ /SY+배달/NNG+이/JKS+ /SY+가능/NNG+하/XSA+네요/EF"
+          },
+          {
+            "id": 7,
+            "text": "3 : 맞아요 하하. 카페 음료나 디저트까지도 배달을 해주더라고요.",
+            "norm_text": "맞아요 하하. 카페 음료나 디저트까지도 배달을 해주더라고요.",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아요/EF+하하/IC+카페/NNG+음료/NNG+나/JC+디저트/NNG+까지/JX+도/JX+배달/NNG+을/JKO+해/VV+EC+주/VX+더라고요/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그래서 우리 뭐 먹을까요?",
+            "norm_text": "그래서 우리 뭐 먹을까요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+우리/NP+뭐/IC+먹/VV+을까요/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 음... 오늘 할인 쿠폰이나 이벤트 하는 가게가 있나요?",
+            "norm_text": "음... 오늘 할인 쿠폰이나 이벤트 하는 가게가 있나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+./SY+ /SY+오늘/NNG+ /SY+할인/NNG+ /SY+쿠폰/NNG+이나/JC+ /SY+이벤트/NNG+하/XSV+는/ETM+ /SY+가게/NNG+가/JKS+ /SY+있/VA+나요/EF"
+          },
+          {
+            "id": 10,
+            "text": "3 : 네! 찜닭 집이 오늘 2000원이나 할인해줘요",
+            "norm_text": "네! 찜닭 집이 오늘 2000원이나 할인해줘요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+찜/NNG+닭/NNG+집/NNG+이/JKS+오늘/MAG+2000/SN+원/NNBC+이나/JX+할인/NNG+해줘요/XSV+EC+VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오오~ 그럼 찜닭 먹을까요?",
+            "norm_text": "오오~ 그럼 찜닭 먹을까요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/NNG+~/SY+그럼/MAJ+찜/NNG+닭/NNG+먹/VV+을까요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 찜닭 좋아요! 맛있겠다~",
+            "norm_text": "찜닭 좋아요! 맛있겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "찜/NNG+닭/NNG+ /SY+좋/VA+아요/EF+ /SY+맛있/VA+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "3 : 아직 시키지도 않았는데 침이 고여요~",
+            "norm_text": "아직 시키지도 않았는데 침이 고여요~",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+시키지/NNP+도/JX+않/VX+았/EP+는데/EC+침/NNG+이/VCP+고/EC+여요/NNG+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 로제, 간장, 매운맛 이렇게 세 가지 맛 중 어떤 맛으로 할까요?",
+            "norm_text": "로제, 간장, 매운맛 이렇게 세 가지 맛 중 어떤 맛으로 할까요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "로제/NNG+,/SC+간장/NNG+,/SC+매운맛/NNG+이렇게/MAG+세/MM+가지/NNBC+맛/NNG+중/NNB+어떤/MM+맛/NNG+으로/JKB+할까요/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 음... 두 가지 맛 선택이 가능한 거죠?",
+            "norm_text": "음... 두 가지 맛 선택이 가능한 거죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+./SY+ /SY+두/JX+ /SY+가지/NNG+ /SY+맛/NNG+ /SY+선택/NNG+이/JKS+ /SY+가능/NNG+한/XSA+ETM+거/NNB+죠/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "3 : 저는 다 좋아요! 너무 배고파서 다 잘 먹을 수 있어요!",
+            "norm_text": "저는 다 좋아요! 너무 배고파서 다 잘 먹을 수 있어요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+다/MAG+좋/VA+아요/EF+너무/MAG+배고파서/VA+EC+다/MAG+잘/MAG+먹/VV+을/ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 제가 매운 걸 잘 못 먹어서 하나는 간장맛으로 해도 될까요?",
+            "norm_text": "제가 매운 걸 잘 못 먹어서 하나는 간장맛으로 해도 될까요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제/NP+가/JKS+매운/VA+ETM+걸/NNB+JKO+잘못/MAG+먹/VV+어서/EC+하나/NR+는/JX+간장/NNG+맛/NNG+으로/JKB+해도/VV+EC+될까요/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그럼요! 나머지 하나는 로제 어때요?",
+            "norm_text": "그럼요! 나머지 하나는 로제 어때요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+요/JX+ /SY+나머지/NNG+ /SY+하나/NR+는/JX+ /SY+로제/NNG+ /SY+어때요/VA+EF"
+          },
+          {
+            "id": 19,
+            "text": "3 : 오오 로제! 요새 로제 맛이 유행이더라고요!",
+            "norm_text": "오오 로제! 요새 로제 맛이 유행이더라고요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+오/NR+로제/NNG+!/SY+요새/NNG+로/JKB+제맛/NNG+이/JKS+유행/NNG+이/VCP+더라고요/EF"
+          },
+          {
+            "id": 20,
+            "text": "3 : 너무 좋아요 하하",
+            "norm_text": "너무 좋아요 하하",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+좋/VA+아요/EF+하하/MAG"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그럼 간장이랑 로제로 시킬게요!",
+            "norm_text": "그럼 간장이랑 로제로 시킬게요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+간장/NNG+이랑/JKB+로제/NNG+로/JKB+시킬/VV+ETM+게/NNB+JKS+요/JX"
+          },
+          {
+            "id": 22,
+            "text": "2 : 터치 몇 번으로 음식을 배달해 주니 참 편리하고 좋네요",
+            "norm_text": "터치 몇 번으로 음식을 배달해 주니 참 편리하고 좋네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "터치/NNG+ /SY+몇/MM+ /SY+번/NNBC+으로/JKB+ /SY+음식/NNG+을/JKO+ /SY+배달/NNG+해/XSV+EC+ /SY+주니/NNG+ /SY+참/NNG+ /SY+편리/NNG+하/XSV+고/EC+ /SY+좋/VA+네요/EC"
+          },
+          {
+            "id": 23,
+            "text": "3 : 그러게요! 저는 덕분에 자주 배달 음식을 먹게 되는 것 같아요",
+            "norm_text": "그러게요! 저는 덕분에 자주 배달 음식을 먹게 되는 것 같아요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+요/JX+저/NP+는/JX+덕분/NNG+에/JKB+자주/MAG+배달/NNG+음식/NNG+을/JKO+먹/VV+게/EC+되/VV+는/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 이렇게 편하니까 더 집순이가 되어가고 있어요 키키",
+            "norm_text": "이렇게 편하니까 더 집순이가 되어가고 있어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이렇게/MAG+편하/VA+니까/EC+더/MAG+집/NNG+순이/NNP+가/JKS+되/VV+어/EC+가/VX+고/EC+있/VX+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 공감이에요. 아~ 빨리 왔으면 좋겠어요!",
+            "norm_text": "공감이에요. 아~ 빨리 왔으면 좋겠어요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공감/NNG+이/VCP+에요/EF+ /SY+아/IC+~/SY+ /SY+빨리/MAG+ /SY+왔/VV+EP+으면/EC+ /SY+좋/VA+겠/EP+어요/EF"
+          },
+          {
+            "id": 26,
+            "text": "3 : 맞아요... 너무 배고파서 현기증이 나요...",
+            "norm_text": "맞아요... 너무 배고파서 현기증이 나요...",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+./SY+너무/MAG+배고파서/VA+EC+현기증/NNG+이/VCP+나요/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

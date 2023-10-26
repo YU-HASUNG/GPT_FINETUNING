@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 20665,
+    "name": "KAKAO_476_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140731018719/KAKAO_476_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140731018719/KAKAO_476_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27972,
+      "filename": "KAKAO_476_02.txt",
+      "title": "KAKAO_476_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 469,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 469,
+        "word_size": 154,
+        "text": "1 : 자기야 자기가 알아봤던 진영 아파트 어떻게 생각해?\n2 : 주거는 괜찮을 거 같긴 한데...\n1 : 오늘 친구한테 물어 보니깐 아파트는 새 거라 좋대\n2 : 지금의 상권을 포기하려고 하니 결정이 쉽지가 않아ㅜ\n1 : 근처에 건물이 하나 있는데 거기네 작은 마트 하나 있고 병원도 있대\n2 : 아 생각보다 상권이 있는 거 같네 학교는 없고?\n1 : 응 문제는 학교가 걸어서 가는 거리가 아냐\n2 : 아이 생각하면 학교를 차 타고 다니는 게 걸리네\n1 : 나도 그게 제일 마음에 걸려\n1 : 다른 곳 좀 더 볼까?\n2 : 응 우선 우리 전세 계약 남았으니 조금 더 보자\n1 : 진영 말고 율하도 요즘 괜찮대 거긴 어때?\n2 : 신문 지구 말하는 거지? 거기가 요즘 핫하든데\n1 : 응 거기 자이가 이번에 분양한대\n2 : 오 자이면은 브랜드도 좋네?\n2 : 거기 청약 넣어보까?\n1 : 우리는 아마 특공으로 넣어야 할껄?\n2 : 맞아ㅎ 그럼 내가 분양 일정 한번 볼께",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 자기가 알아봤던 진영 아파트 어떻게 생각해?",
+            "norm_text": "자기야 자기가 알아봤던 진영 아파트 어떻게 생각해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+야/VCP+EF+자기/NP+가/JKS+알/VV+아/EC+봤/VX+EP+던/ETM+진영/NNG+아파트/NNG+어떻게/MAG+생각/NNG+해/XSV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 주거는 괜찮을 거 같긴 한데...",
+            "norm_text": "주거는 괜찮을 거 같긴 한데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주거/NNG+는/JX+괜찮/VA+을/ETM+거/NNB+같/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오늘 친구한테 물어 보니깐 아파트는 새 거라 좋대",
+            "norm_text": "오늘 친구한테 물어 보니깐 아파트는 새 거라 좋대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+친구/NNG+한테/JKB+물/VV+어/EC+보/VX+니깐/EC+아파트/NNG+는/JX+새/VV+거라/EC+좋/VA+대/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 지금의 상권을 포기하려고 하니 결정이 쉽지가 않아ㅜ",
+            "norm_text": "지금의 상권을 포기하려고 하니 결정이 쉽지가 않아ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+의상/NNG+권/XSN+을/JKO+포기/NNG+하/XSV+려고/EC+하/VV+니/EC+결정/NNG+이/JKS+쉽/VA+지/EC+가/JX+않/VX+아/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근처에 건물이 하나 있는데 거기네 작은 마트 하나 있고 병원도 있대",
+            "norm_text": "근처에 건물이 하나 있는데 거기네 작은 마트 하나 있고 병원도 있대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근처/NNG+에/JKB+건물/NNG+이/JKS+하/VV+나/EC+있/VX+는데/EC+거기/NP+네/XSN+작/VA+은/ETM+마트/NNG+하/XSV+나/EC+있/VX+고/EC+병원/NNG+도/JX+있/VA+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 생각보다 상권이 있는 거 같네 학교는 없고?",
+            "norm_text": "아 생각보다 상권이 있는 거 같네 학교는 없고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+생각/NNG+보다/JKB+상권/NNG+이/JKS+있/VA+는/ETM+거/NNB+같/VA+네/EF+학교/NNG+는/JX+없/VA+고/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 문제는 학교가 걸어서 가는 거리가 아냐",
+            "norm_text": "응 문제는 학교가 걸어서 가는 거리가 아냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+문제/NNG+는/JX+학교/NNG+가/JKS+걸어서/VV+EC+가/VX+는/ETM+거리/NNG+가/JKC+아냐/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아이 생각하면 학교를 차 타고 다니는 게 걸리네",
+            "norm_text": "아이 생각하면 학교를 차 타고 다니는 게 걸리네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이/IC+생각/NNG+하/XSV+면/EC+학교/NNG+를/JKO+차/VV+EC+타/VV+고/EC+다니/VV+는/ETM+게/NNB+JKS+걸리/VV+네/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 그게 제일 마음에 걸려",
+            "norm_text": "나도 그게 제일 마음에 걸려",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그게/NP+JKS+제일/MAG+마음/NNG+에/JKB+걸려/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 다른 곳 좀 더 볼까?",
+            "norm_text": "다른 곳 좀 더 볼까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다른/MM+곳/NNB+좀/MAG+더/MAG+볼까/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 우선 우리 전세 계약 남았으니 조금 더 보자",
+            "norm_text": "응 우선 우리 전세 계약 남았으니 조금 더 보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+우선/MAG+우리/NP+전세/NNG+계약/NNG+남/VV+았/EP+으니/EC+조금/MAG+더/MAG+보/VV+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 진영 말고 율하도 요즘 괜찮대 거긴 어때?",
+            "norm_text": "진영 말고 율하도 요즘 괜찮대 거긴 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진영/NNG+말/NNG+고율/NNG+하도/MAG+요즘/MAG+괜찮/VA+대/EF+거긴/NP+JX+어때/VA+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 신문 지구 말하는 거지? 거기가 요즘 핫하든데",
+            "norm_text": "신문 지구 말하는 거지? 거기가 요즘 핫하든데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "신문/NNG+지구/NNG+말/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EF+거기/NP+가/JKS+요즘/MAG+핫/NNG+하/XSV+든데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응 거기 자이가 이번에 분양한대",
+            "norm_text": "응 거기 자이가 이번에 분양한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+거기/NP+자이/NNG+가/JKS+이번/NNG+에/JKB+분양/NNG+한대/NNG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오 자이면은 브랜드도 좋네?",
+            "norm_text": "오 자이면은 브랜드도 좋네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오자/NNG+이/VCP+면은/EC+브랜드/NNG+도/JX+좋/VA+네/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 거기 청약 넣어보까?",
+            "norm_text": "거기 청약 넣어보까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+청약/NNG+넣/VV+어/EC+보/VX+까/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 우리는 아마 특공으로 넣어야 할껄?",
+            "norm_text": "우리는 아마 특공으로 넣어야 할껄?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+는/JX+아마/MAG+특공/NNG+으로/JKB+넣/VV+어야/EC+할껄/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 맞아ㅎ 그럼 내가 분양 일정 한번 볼께",
+            "norm_text": "맞아ㅎ 그럼 내가 분양 일정 한번 볼께",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "맞/VV+아/EC+ㅎ/XSA+그럼/MAJ+내/NP+가/JKS+분양/NNG+일정/NNG+한/MM+번/NNBC+볼께/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 41614,
+    "name": "KAKAO_488_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404023575/KAKAO_488_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404023575/KAKAO_488_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29370,
+      "filename": "KAKAO_488_19.txt",
+      "title": "KAKAO_488_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 528,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 528,
+        "word_size": 166,
+        "text": "1 : 아빠 요즘 멜론 듣고 있더라~?\n2 : 노래~? 요즘 자주 듣고 있지~\n1 : 하하 아빠랑 계정을 같이 쓰니까 나한테도 아빠가 무슨 노래 듣는지 보인다?\n2 : 그래~? 아빠가 듣는 노래 우리 딸이 훔쳐보네?\n1 : 훔쳐 듣는 건데~? 키키\n1 : 요즘 한 가수에게 꽂히셨더라구용?\n2 : 아빠가 최근에 즐겨 듣는 가수가 딱~ 정해졌지\n1 : 그 가수 요즘에 예능에도 많이 나오던데?\n2 : 그래~? 어디 한번 예능도 챙겨봐야겠네~\n2 : 아빠 그 가수 팬 됐잖아\n1 : 하하 요즘 여기저기 많이 나오더라고~\n2 : 좋네~ 봐야겠네~\n2 : 우리 딸은 좋아하는 가수 없어?\n1 : 있었는데 요즘 활동을 안 해...\n1 : 노래 안 하고 연기만 해...\n2 : 가수가 본업을 안하고 다른 거에 빠졌구만~ 안되겠네~\n2 : 드라마 나와?\n1 : 웅웅 근데 노래만큼이나 연기도 아주 기똥차\n2 : 이야~ 그 연예인이 대단한 사람이네 참\n1 : 근데 나는 그 가수가 예능에도 나왔으면 좋겠는데 잘 안 나오더라고 ㅠㅠ\n2 : 연기만 할 건가 보네~\n2 : 아빤 또 노래 들으러 간다~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아빠 요즘 멜론 듣고 있더라~?",
+            "norm_text": "아빠 요즘 멜론 듣고 있더라~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+요즘/NNG+멜론/NNG+듣/VV+고/EC+있/VX+더라/EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 노래~? 요즘 자주 듣고 있지~",
+            "norm_text": "노래~? 요즘 자주 듣고 있지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "노래/NNG+~/SY+요즘/MAG+자주/MAG+듣/VV+고/EC+있/VX+지/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 하하 아빠랑 계정을 같이 쓰니까 나한테도 아빠가 무슨 노래 듣는지 보인다?",
+            "norm_text": "하하 아빠랑 계정을 같이 쓰니까 나한테도 아빠가 무슨 노래 듣는지 보인다?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+아빠/NNG+랑/JKB+계정/NNG+을/JKO+같이/MAG+쓰/VV+니까/EC+나/NP+한테/JKB+도/JX+아빠/NNG+가/JKS+무슨/MM+노래/NNG+듣/VV+는지/EC+보인다/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그래~? 아빠가 듣는 노래 우리 딸이 훔쳐보네?",
+            "norm_text": "그래~? 아빠가 듣는 노래 우리 딸이 훔쳐보네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/VA+EC+~/SY+아빠/NNG+가/JKS+듣/VV+는/ETM+노래/NNG+우리/NP+딸/NNG+이/JKS+훔쳐/VV+EC+보/VX+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 훔쳐 듣는 건데~? 키키",
+            "norm_text": "훔쳐 듣는 건데~? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "훔쳐/VV+EC+듣/VV+는/ETM+건데/NNB+VCP+EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 요즘 한 가수에게 꽂히셨더라구용?",
+            "norm_text": "요즘 한 가수에게 꽂히셨더라구용?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+한/XSA+ETM+가수/NNG+에게/JKB+꽂히/VV+셨/EP+EP+더라구/EF+용/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아빠가 최근에 즐겨 듣는 가수가 딱~ 정해졌지",
+            "norm_text": "아빠가 최근에 즐겨 듣는 가수가 딱~ 정해졌지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+가/JKS+최근/NNG+에/JKB+즐겨/VV+EC+듣/VV+는/ETM+가수/NNG+가/JKS+딱/MAG+~/SY+정해졌/VV+EC+VX+EP+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그 가수 요즘에 예능에도 많이 나오던데?",
+            "norm_text": "그 가수 요즘에 예능에도 많이 나오던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+가수/NNG+요즘/NNG+에/JKB+예능/NNG+에/JKB+도/JX+많이/MAG+나오/VV+던데/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래~? 어디 한번 예능도 챙겨봐야겠네~",
+            "norm_text": "그래~? 어디 한번 예능도 챙겨봐야겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+~/SY+어디/NP+한번/MAG+예능/NNG+도/JX+챙겨/VV+EC+봐야/VX+EC+VV+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아빠 그 가수 팬 됐잖아",
+            "norm_text": "아빠 그 가수 팬 됐잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+그/MM+가수/NNG+팬/NNG+됐/XSV+EP+잖아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 하하 요즘 여기저기 많이 나오더라고~",
+            "norm_text": "하하 요즘 여기저기 많이 나오더라고~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+요즘/MAG+여기저기/NNG+많이/MAG+나오/VV+더라고/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 좋네~ 봐야겠네~",
+            "norm_text": "좋네~ 봐야겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+네/EF+~/SY+봐야/VV+EC+VX+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 우리 딸은 좋아하는 가수 없어?",
+            "norm_text": "우리 딸은 좋아하는 가수 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+딸/NNG+은/JX+좋/VA+아/EC+하/VV+는/ETM+가수/NNG+없/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 있었는데 요즘 활동을 안 해...",
+            "norm_text": "있었는데 요즘 활동을 안 해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "있/VA+었/EP+는데/EC+요즘/NNG+활동/NNG+을/JKO+안/MAG+해/VV+EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 노래 안 하고 연기만 해...",
+            "norm_text": "노래 안 하고 연기만 해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "노래/NNG+안/MAG+하/VV+고/EC+연기/NNG+만/JX+해/VV+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 가수가 본업을 안하고 다른 거에 빠졌구만~ 안되겠네~",
+            "norm_text": "가수가 본업을 안하고 다른 거에 빠졌구만~ 안되겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가수/NNG+가/JKS+본업/NNG+을/JKO+안/MAG+하/VV+고/EC+다른/MM+거/NNB+에/JKB+빠졌/VV+EP+구만/EC+~/SY+안/MAG+되/VV+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 드라마 나와?",
+            "norm_text": "드라마 나와?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "드라마/NNG+나와/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 웅웅 근데 노래만큼이나 연기도 아주 기똥차",
+            "norm_text": "웅웅 근데 노래만큼이나 연기도 아주 기똥차",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅웅/MAG+근데/MAJ+노래/NNG+만큼/JKB+이나/JX+연기/NNG+도/JX+아주/MAG+기똥차/VA"
+          },
+          {
+            "id": 19,
+            "text": "2 : 이야~ 그 연예인이 대단한 사람이네 참",
+            "norm_text": "이야~ 그 연예인이 대단한 사람이네 참",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이야/NNP+~/SY+그/MM+연예인/NNG+이/JKS+대단/XR+한/XSA+ETM+사람/NNG+이/JKS+네/MM+참/NNG"
+          },
+          {
+            "id": 20,
+            "text": "1 : 근데 나는 그 가수가 예능에도 나왔으면 좋겠는데 잘 안 나오더라고 ㅠㅠ",
+            "norm_text": "근데 나는 그 가수가 예능에도 나왔으면 좋겠는데 잘 안 나오더라고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+나/NP+는/JX+그/MM+가수/NNG+가/JKS+예능/NNG+에/JKB+도/JX+나왔/VV+EP+으면/EC+좋/VA+겠/EP+는데/EC+잘/MAG+안/MAG+나오/VV+더라고/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 연기만 할 건가 보네~",
+            "norm_text": "연기만 할 건가 보네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "연기/NNG+만/JX+할/VV+ETM+건가/NNB+VCP+EC+보/VX+네/EF+~/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 아빤 또 노래 들으러 간다~",
+            "norm_text": "아빤 또 노래 들으러 간다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빤/NNG+JX+또/MAG+노래/NNG+들으러/VV+EC+간다/VX+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

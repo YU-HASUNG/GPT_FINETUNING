@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20871,
+    "name": "KAKAO_475_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109161413470057100/KAKAO_475_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109161413470057100/KAKAO_475_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28073,
+      "filename": "KAKAO_475_03.txt",
+      "title": "KAKAO_475_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 429,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 429,
+        "word_size": 132,
+        "text": "1 : 세단 좋아하나여\n2 : 저는 요즘에 마세라티에 꽂혔어요 아세요?\n1 : 에스유비가 낫나요 세단이 낫나요\n2 : 에스유비가 좋았는데 지금은 세단이요\n1 : 저도 세단이여 마세라티는 엔진이 별로라던데여\n2 : 아 아니다 그냥 굴러가는 차는 다 좋아요\n1 : 저는 벤츠 씨엘에스요\n2 : 요즘에 캠핑, 차박 이런 거 때문에 에스유비가 인기가 있긴 하죠?\n1 : 네 그런 거 같아요\n1 : 저는 그거 왜 굳이 하나 이해가 안 가네요\n2 : 예전부터 눈여겨 보는 SUV가 있는데 링컨 네비게이터라고 있어요\n1 : 아 그거 겁나 크죠\n2 : 그거보다는 조금 작은 노틸러스도 예쁘긴 한데...\n1 : 그거랑 지엠에서 나온 거 있던데 엄청 큰 거\n2 : 그거보다는 조금 더 큰 커세어도 딱 좋을 것 같네요\n1 : 에스유브이 우루스는 어떠세여\n2 : 저도 캠핑 갈 때 쌍용 렉스턴칸이라도 있었으면 좋겠네요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 세단 좋아하나여",
+            "norm_text": "세단 좋아하나여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "세단/NNG+좋/VA+아/EC+하나/NR+여/XSN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 저는 요즘에 마세라티에 꽂혔어요 아세요?",
+            "norm_text": "저는 요즘에 마세라티에 꽂혔어요 아세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+요즘/NNG+에/JKB+마세라티/NNP+에/JKB+꽂혔/VV+EP+어요/EF+아세요/VV+EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 에스유비가 낫나요 세단이 낫나요",
+            "norm_text": "에스유비가 낫나요 세단이 낫나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "에스/NNG+유비/NNG+가/JKS+낫/VV+나요/EC+세단/NNG+이/JKS+낫/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 에스유비가 좋았는데 지금은 세단이요",
+            "norm_text": "에스유비가 좋았는데 지금은 세단이요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에스/NNG+유비/NNG+가/JKS+좋/VA+았/EP+는데/EC+지금/MAG+은/JX+세단/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 저도 세단이여 마세라티는 엔진이 별로라던데여",
+            "norm_text": "저도 세단이여 마세라티는 엔진이 별로라던데여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+세단/NNG+이/VCP+여/EC+마세라티/NNP+는/JX+엔진/NNG+이/JKS+별로/MAG+라던데/VCP+EC+여/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 아니다 그냥 굴러가는 차는 다 좋아요",
+            "norm_text": "아 아니다 그냥 굴러가는 차는 다 좋아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+아니/IC+다/MAG+그냥/MAG+굴러가/VV+는/ETM+차/NNG+는/JX+다/MAG+좋/VA+아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 저는 벤츠 씨엘에스요",
+            "norm_text": "저는 벤츠 씨엘에스요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+벤츠/NNP+씨/NNB+엘/JKB+JKO+에스/NNG+요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 요즘에 캠핑, 차박 이런 거 때문에 에스유비가 인기가 있긴 하죠?",
+            "norm_text": "요즘에 캠핑, 차박 이런 거 때문에 에스유비가 인기가 있긴 하죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+에/JKB+캠핑/NNG+,/SC+차/NNG+박/NNP+이런/MM+거/NNB+때문/NNB+에/JKB+에스/NNG+유비/NNG+가/JKS+인기/NNG+가/JKS+있/VV+긴/ETN+JX+하/VX+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 네 그런 거 같아요",
+            "norm_text": "네 그런 거 같아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+그런/MM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 저는 그거 왜 굳이 하나 이해가 안 가네요",
+            "norm_text": "저는 그거 왜 굳이 하나 이해가 안 가네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+그거/NP+왜/MAG+굳이/MAG+하나/NR+이해/NNG+가/JKS+안/MAG+가/VV+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 예전부터 눈여겨 보는 SUV가 있는데 링컨 네비게이터라고 있어요",
+            "norm_text": "예전부터 눈여겨 보는 SUV가 있는데 링컨 네비게이터라고 있어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "예전/NNG+부터/JX+눈여겨보/VV+는/ETM+SUV/SL+가/JKS+있/VA+는데/EC+링컨/NNG+네/XSN+비/VV+게/EC+이터/NNP+라고/VCP+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 그거 겁나 크죠",
+            "norm_text": "아 그거 겁나 크죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그거/NP+겁나/VV+EC+크/VA+죠/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그거보다는 조금 작은 노틸러스도 예쁘긴 한데...",
+            "norm_text": "그거보다는 조금 작은 노틸러스도 예쁘긴 한데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+보다/JKB+는/JX+조금/MAG+작/VA+은/ETM+노틸러스/NNP+도/JX+예쁘/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그거랑 지엠에서 나온 거 있던데 엄청 큰 거",
+            "norm_text": "그거랑 지엠에서 나온 거 있던데 엄청 큰 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+랑/JC+지/EC+엠/NNG+에서/JKB+나온/VV+ETM+거/NNB+있/VA+던데/EC+엄청/MAG+큰/VA+ETM+거/NNB"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그거보다는 조금 더 큰 커세어도 딱 좋을 것 같네요",
+            "norm_text": "그거보다는 조금 더 큰 커세어도 딱 좋을 것 같네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그거/NP+보다/JKB+는/JX+조금/MAG+더/MAG+큰/VA+ETM+커세어/NNP+도/JX+딱/MAG+좋/VA+을/ETM+것/NNB+같/VA+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 에스유브이 우루스는 어떠세여",
+            "norm_text": "에스유브이 우루스는 어떠세여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "에스/NNG+유브이/NNG+우루스/NNP+는/JX+어떠/VA+세여/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 저도 캠핑 갈 때 쌍용 렉스턴칸이라도 있었으면 좋겠네요",
+            "norm_text": "저도 캠핑 갈 때 쌍용 렉스턴칸이라도 있었으면 좋겠네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+캠핑/NNG+갈/VV+ETM+때/NNG+쌍용/NNP+렉스턴/NNP+칸/NNG+이/VCP+라도/EC+있/VX+었/EP+으면/EC+좋/VA+겠/EP+네요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

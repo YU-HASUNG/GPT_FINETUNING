@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32820,
+    "name": "KAKAO_879_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175222021882/KAKAO_879_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175222021882/KAKAO_879_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40435,
+      "filename": "KAKAO_879_17.txt",
+      "title": "KAKAO_879_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 360,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 360,
+        "word_size": 125,
+        "text": "1 : 얼굴 운동 하면 눈에 주름도 펴지지 않을까?\n2 : 글치 옛날에 티비에서 본 거 같아 주름 펴지는 운동.\n1 : 응 그거 한 번 해봐\n2 : 응 유튜브에 검색 하면 나오겠지?\n1 : 그럴 꺼야 그걸로 리프팅하지 말고 주름 펴\n2 : 그러기엔 시간이 너무 걸리지 않아?\n1 : 그래두 병원 가서 시술 하는 것보다 낫지\n2 : 고민 좀 더 해 봐야겠어.\n1 : 실생활에서 할 수 있는 주름 운동 찾아봐\n2 : 응 여보도 관리 할래?\n1 : 여보 하는 거 보고 할래\n2 : 알겠어 띵주한테 유튜브 좀 물어봐야겠어.\n1 : 맞아 띵주는 더 좋은 걸 알려줄 수도 있어\n2 : 응 내일 한번 물어봐야겠어.\n1 : 시간 많을 때 다 물어봐\n2 : 응 내일 띵주는 집에 있겠지?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 얼굴 운동 하면 눈에 주름도 펴지지 않을까?",
+            "norm_text": "얼굴 운동 하면 눈에 주름도 펴지지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼굴/NNG+운동/NNG+하/XSV+면/EC+눈/NNG+에/JKB+주름/NNG+도/JX+펴지/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 글치 옛날에 티비에서 본 거 같아 주름 펴지는 운동.",
+            "norm_text": "글치 옛날에 티비에서 본 거 같아 주름 펴지는 운동.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "글/NNG+치/XSN+옛날/NNG+에/JKB+티비/NNG+에서/JKB+본/VV+ETM+거/NNB+같/VA+아/EC+주름/NNG+펴지/VV+는/ETM+운동/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 그거 한 번 해봐",
+            "norm_text": "응 그거 한 번 해봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "응/IC+그거/NP+한번/MAG+해/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 유튜브에 검색 하면 나오겠지?",
+            "norm_text": "응 유튜브에 검색 하면 나오겠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+유튜브/NNP+에/JKB+검색/NNG+하/XSV+면/EC+나오/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그럴 꺼야 그걸로 리프팅하지 말고 주름 펴",
+            "norm_text": "그럴 꺼야 그걸로 리프팅하지 말고 주름 펴",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그럴/VA+ETM+꺼/NNB+VCP+야/EF+그걸로/NP+JKB+리프팅/NNG+하/XSV+지/EC+말/VX+고/EC+주름/NNG+펴/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러기엔 시간이 너무 걸리지 않아?",
+            "norm_text": "그러기엔 시간이 너무 걸리지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+기/ETN+엔/JKB+JX+시간/NNG+이/JKS+너무/MAG+걸리/VV+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래두 병원 가서 시술 하는 것보다 낫지",
+            "norm_text": "그래두 병원 가서 시술 하는 것보다 낫지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "그래두/MAJ+병원/NNG+가/VV+서/EC+시술/NNG+하/XSV+는/ETM+것/NNB+보다/JKB+낫/VA+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 고민 좀 더 해 봐야겠어.",
+            "norm_text": "고민 좀 더 해 봐야겠어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "고민/NNG+좀/MAG+더/MAG+해/VV+EC+봐야/VX+EC+VV+겠/EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 실생활에서 할 수 있는 주름 운동 찾아봐",
+            "norm_text": "실생활에서 할 수 있는 주름 운동 찾아봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "실생활/NNG+에서/JKB+할/VV+ETM+수/NNB+있/VV+는/ETM+주름/NNG+운동/NNG+찾아봐/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 여보도 관리 할래?",
+            "norm_text": "응 여보도 관리 할래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+여보/NNG+도/JX+관리/NNG+할래/XSV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 여보 하는 거 보고 할래",
+            "norm_text": "여보 하는 거 보고 할래",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여보/NNG+하/XSV+는/ETM+거/NNB+보고/JKB+할래/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 알겠어 띵주한테 유튜브 좀 물어봐야겠어.",
+            "norm_text": "알겠어 띵주한테 유튜브 좀 물어봐야겠어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+겠/EP+어/EC+띵/MAG+주/NNG+한테/JKB+유튜브/NNP+좀/MAG+물어봐야/VV+EC+VX+겠/EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 띵주는 더 좋은 걸 알려줄 수도 있어",
+            "norm_text": "맞아 띵주는 더 좋은 걸 알려줄 수도 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+띵/MAG+주/VV+는/ETM+더/MAG+좋/VA+은/ETM+걸/NNB+JKO+알려/VV+EC+줄/VX+ETM+수/NNB+도/JX+있/VA+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 내일 한번 물어봐야겠어.",
+            "norm_text": "응 내일 한번 물어봐야겠어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+내일/MAG+한/MM+번/NNBC+물어봐야/VV+EC+VX+겠/EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 시간 많을 때 다 물어봐",
+            "norm_text": "시간 많을 때 다 물어봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "시간/NNG+많/VA+을/ETM+때/NNG+다물/VV+어/EC+봐/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 내일 띵주는 집에 있겠지?",
+            "norm_text": "응 내일 띵주는 집에 있겠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+내일/MAG+띵/MAG+주/VV+는/ETM+집/NNG+에/JKB+있/VV+겠/EP+지/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

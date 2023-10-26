@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34164,
+    "name": "KAKAO_839_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165325027061/KAKAO_839_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165325027061/KAKAO_839_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38475,
+      "filename": "KAKAO_839_02.txt",
+      "title": "KAKAO_839_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 477,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 477,
+        "word_size": 159,
+        "text": "1 : 우리 집 이번 인테리어 하면서 가구고 싶어 ㅠㅠ\n2 : 아무래도 톤에 맞춰서 바꾸는 게 좋을 것 같네\n1 : 이케아에서 사서 셀프로 조림할까 하는데 어때?\n2 : 좋아 ㅎ 근데 안 힘들겠어? 큰 가구는 힘들텐데\n1 : 아직 우리 시간이 좀 있으니깐 조금씩 하면 안 될까\n2 : 그래도 되지 뭐 뭐 사야 하는 거지?\n1 : 일단 아이 방 가구부터 꾸며야 해\n2 : 그럼 지금 책장이 너무 작으니깐 책장 사야겠네\n1 : 응 지금 슬라이딩 책장이라서 책이 별로 안 꽂혀\n2 : 맞어 이제 자리가 부족해 보이더라구\n1 : 그래서 3단짜리 낮은 책장으로 사서 넣으면 좋을 꺼 같아\n2 : 하긴 낮아야 안전사고도 없으니깐\n1 : 응응 아이 방이니깐 조금 포인트 줄 만한 액자도 하나 사야 하구\n2 : 아이 방 꾸미는 거에 돈이 많이 들겠네\n1 : 응 조명도 바꿔야 하니깐 ㅎ\n1 : 근데 우리 방보다 아이 방 인테리어가 더 기대돼  ㅎ\n2 : 나도 아이가 맘에 들어 했음 좋겠는데 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 집 이번 인테리어 하면서 가구고 싶어 ㅠㅠ",
+            "norm_text": "우리 집 이번 인테리어 하면서 가구고 싶어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+집/NNG+이번/NNG+인테리어/NNG+하/XSV+면서/EC+가구/NNG+고/VCP+EC+싶/VX+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아무래도 톤에 맞춰서 바꾸는 게 좋을 것 같네",
+            "norm_text": "아무래도 톤에 맞춰서 바꾸는 게 좋을 것 같네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+톤/NNG+에/JKB+맞춰서/VV+EC+바꾸/VV+는/ETM+게/NNB+JKS+좋/VA+을/ETM+것/NNB+같/VA+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 이케아에서 사서 셀프로 조림할까 하는데 어때?",
+            "norm_text": "이케아에서 사서 셀프로 조림할까 하는데 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이케아/NNP+에서/JKB+사/VV+서/EC+셀프/NNG+로/JKB+조림/NNG+할까/XSV+EC+하/VV+는/ETM+데/NNB+어때/VA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 좋아 ㅎ 근데 안 힘들겠어? 큰 가구는 힘들텐데",
+            "norm_text": "좋아 ㅎ 근데 안 힘들겠어? 큰 가구는 힘들텐데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아/EC+ㅎ/XSA+근데/MAJ+안/MAG+힘들/VA+겠/EP+어/EF+큰/VA+ETM+가구/NNG+는/JX+힘들/VA+ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아직 우리 시간이 좀 있으니깐 조금씩 하면 안 될까",
+            "norm_text": "아직 우리 시간이 좀 있으니깐 조금씩 하면 안 될까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아직/MAG+우리/NP+시간/NNG+이/JKS+좀/MAG+있/VA+으니깐/EC+조금/NNG+씩/XSN+하/VV+면/EC+안/MAG+될까/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래도 되지 뭐 뭐 사야 하는 거지?",
+            "norm_text": "그래도 되지 뭐 뭐 사야 하는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+되/VV+지/EF+뭐/IC+뭐/IC+사야/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 일단 아이 방 가구부터 꾸며야 해",
+            "norm_text": "일단 아이 방 가구부터 꾸며야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일단/MAG+아이/NNG+방/NNG+가구/NNG+부터/JX+꾸며야/VV+EC+해/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 지금 책장이 너무 작으니깐 책장 사야겠네",
+            "norm_text": "그럼 지금 책장이 너무 작으니깐 책장 사야겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+지금/MAG+책장/NNG+이/JKS+너무/MAG+작/VA+으니깐/EC+책장/NNG+사/VV+야/EC+VX+겠/EP+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 지금 슬라이딩 책장이라서 책이 별로 안 꽂혀",
+            "norm_text": "응 지금 슬라이딩 책장이라서 책이 별로 안 꽂혀",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+지금/MAG+슬라이딩/NNG+책장/NNG+이/VCP+라서/EC+책/NNG+이/JKS+별로/MAG+안/MAG+꽂혀/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞어 이제 자리가 부족해 보이더라구",
+            "norm_text": "맞어 이제 자리가 부족해 보이더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+이제/MAG+자리/NNG+가/JKS+부족/NNG+해/XSV+EC+보이/VV+더라구/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래서 3단짜리 낮은 책장으로 사서 넣으면 좋을 꺼 같아",
+            "norm_text": "그래서 3단짜리 낮은 책장으로 사서 넣으면 좋을 꺼 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+3/SN+단/NNBC+짜리/XSN+낮/VA+은/ETM+책장/NNG+으로/JKB+사/VV+서/EC+넣/VV+으면/EC+좋/NNG+을/JKO+꺼/VV+EC+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 하긴 낮아야 안전사고도 없으니깐",
+            "norm_text": "하긴 낮아야 안전사고도 없으니깐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+낮/VA+아야/EC+안전/NNG+사고/NNG+도/JX+없/VA+으니깐/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응응 아이 방이니깐 조금 포인트 줄 만한 액자도 하나 사야 하구",
+            "norm_text": "응응 아이 방이니깐 조금 포인트 줄 만한 액자도 하나 사야 하구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+아이/IC+방/NNG+이/VCP+니깐/EC+조금/MAG+포인트/NNG+줄/NNG+만/JX+한/MM+액자/NNG+도/JX+하나/NR+사야/NNG+하/XSV+구/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아이 방 꾸미는 거에 돈이 많이 들겠네",
+            "norm_text": "아이 방 꾸미는 거에 돈이 많이 들겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이/IC+방/NNG+꾸미/VV+는/ETM+거/NNB+에/JKB+돈/NNG+이/JKS+많이/MAG+들/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 조명도 바꿔야 하니깐 ㅎ",
+            "norm_text": "응 조명도 바꿔야 하니깐 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+조명/NNG+도/JX+바꿔야/VV+EC+하/VV+니깐/EC+ㅎ/XSA"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근데 우리 방보다 아이 방 인테리어가 더 기대돼  ㅎ",
+            "norm_text": "근데 우리 방보다 아이 방 인테리어가 더 기대돼  ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+우리/NP+방/NNG+보다/JKB+아이/NNG+방/NNG+인테리어/NNG+가/JKS+더/MAG+기대/NNG+돼/XSV+EC+ㅎ/XSA"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나도 아이가 맘에 들어 했음 좋겠는데 하하",
+            "norm_text": "나도 아이가 맘에 들어 했음 좋겠는데 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+아이/NNG+가/JKS+맘/NNG+에/JKB+들/VV+어/EC+했/VX+EP+음/ETN+좋/VA+겠/EP+는데/EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

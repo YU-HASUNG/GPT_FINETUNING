@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 20079,
+    "name": "KAKAO_481_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145010053619/KAKAO_481_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145010053619/KAKAO_481_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28291,
+      "filename": "KAKAO_481_01.txt",
+      "title": "KAKAO_481_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 387,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 128,
+        "text": "1 : 오빠 오늘 점심 메뉴 뭐였어?\n2 : 오늘 미역국 나왔는데 맛없었어...\n1 : 미역국? 미역국 어지간하면 맛있는디\n2 : 그러니까 근데 맛없어서 놀랬단다... 하하\n1 : 오빠 저녁 엄청 늦게 먹지?\n2 : 어 요즘은 운동 하고 나서 먹어서 좀 늦게 먹는 편이야\n1 : 저녁 뭐 먹을 거임 하하\n2 : 오늘 그냥 부모님 집 가서 저녁 먹을 거 같아\n1 : 오 그래 부모님즘 자주 찾아 봬\n2 : 요즘 일이 바빠서 피곤해서 잘 못 가 하하\n1 : 그럼 **이는 혼자 먹겠네?\n2 : 아 **이도 부모님 집에서 늦게 온다 그러던데\n1 : 혼자 먹으면 내가 챙겨 줄랬는뎅 하하\n2 : 그렇지 않아도 치킨 먹고 싶다고 그러더라 ㅋ\n1 : **이는 언제나 치킨은 오케이지 키키\n2 : 요즘은 어디 치킨 자주 시켜 먹니?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠 오늘 점심 메뉴 뭐였어?",
+            "norm_text": "오빠 오늘 점심 메뉴 뭐였어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+오늘/NNG+점심/NNG+메뉴/NNG+뭐/NP+였/VCP+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘 미역국 나왔는데 맛없었어...",
+            "norm_text": "오늘 미역국 나왔는데 맛없었어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+미역국/NNG+나왔/VV+EP+는데/EC+맛없/VA+었/EP+어/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 미역국? 미역국 어지간하면 맛있는디",
+            "norm_text": "미역국? 미역국 어지간하면 맛있는디",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미역국/NNG+?/SY+미역국/NNG+어지간/XR+하/XSA+면/EC+맛있/VA+는디/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그러니까 근데 맛없어서 놀랬단다... 하하",
+            "norm_text": "그러니까 근데 맛없어서 놀랬단다... 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+근데/MAJ+맛없/VA+어서/EC+놀랬/VV+EP+단다/EF+./SY+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오빠 저녁 엄청 늦게 먹지?",
+            "norm_text": "오빠 저녁 엄청 늦게 먹지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+저녁/NNG+엄청/MAG+늦/VA+게/EC+먹/VV+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어 요즘은 운동 하고 나서 먹어서 좀 늦게 먹는 편이야",
+            "norm_text": "어 요즘은 운동 하고 나서 먹어서 좀 늦게 먹는 편이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+요즘/NNG+은/JX+운동/NNG+하/XSV+고/EC+나/VX+서/EC+먹/VV+어서/EC+좀/MAG+늦/VA+게/EC+먹/VV+는/ETM+편/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 저녁 뭐 먹을 거임 하하",
+            "norm_text": "저녁 뭐 먹을 거임 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저녁/NNG+뭐/IC+먹/VV+을/ETM+거/NNB+임하/NNG+하/XSV"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오늘 그냥 부모님 집 가서 저녁 먹을 거 같아",
+            "norm_text": "오늘 그냥 부모님 집 가서 저녁 먹을 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+그냥/MAG+부모/NNG+님/XSN+집/NNG+가/VV+서/EC+저녁/NNG+먹/VV+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 그래 부모님즘 자주 찾아 봬",
+            "norm_text": "오 그래 부모님즘 자주 찾아 봬",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오/IC+그래/IC+부모/NNG+님/XSN+즘/MAJ+자주/MAG+찾/VV+아/EC+봬/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 요즘 일이 바빠서 피곤해서 잘 못 가 하하",
+            "norm_text": "요즘 일이 바빠서 피곤해서 잘 못 가 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+일/NNG+이/JKS+바빠서/VA+EC+피곤/NNG+해서/XSV+EC+잘못/MAG+가하/NNG+하/XSV"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 **이는 혼자 먹겠네?",
+            "norm_text": "그럼 **이는 혼자 먹겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+*/SY+*/SY+이/NP+는/JX+혼자/MAG+먹/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 **이도 부모님 집에서 늦게 온다 그러던데",
+            "norm_text": "아 **이도 부모님 집에서 늦게 온다 그러던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+*/SY+*/SY+이/NP+도/JX+부모/NNG+님/XSN+집/NNG+에서/JKB+늦/VA+게/EC+온다/VX+EC+그러/VV+던데/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 혼자 먹으면 내가 챙겨 줄랬는뎅 하하",
+            "norm_text": "혼자 먹으면 내가 챙겨 줄랬는뎅 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혼자/MAG+먹/VV+으면/EC+내/NP+가/JKS+챙겨/VV+EC+줄/NNG+랬는/VCP+EC+VV+EP+ETM+뎅/MAG+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그렇지 않아도 치킨 먹고 싶다고 그러더라 ㅋ",
+            "norm_text": "그렇지 않아도 치킨 먹고 싶다고 그러더라 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EC+않/VX+아도/EC+치킨/NNG+먹/VV+고/EC+싶/VX+다고/EC+그러/VV+더라/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : **이는 언제나 치킨은 오케이지 키키",
+            "norm_text": "**이는 언제나 치킨은 오케이지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+이/NP+는/JX+언제나/MAG+치킨/NNG+은/JX+오케이/NNP+지키/NNP+키/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 요즘은 어디 치킨 자주 시켜 먹니?",
+            "norm_text": "요즘은 어디 치킨 자주 시켜 먹니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+은/JX+어디/NP+치킨/NNG+자주/MAG+시켜/VV+EC+먹/VV+니/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

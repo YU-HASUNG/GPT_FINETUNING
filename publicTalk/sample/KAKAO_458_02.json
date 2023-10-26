@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 20339,
+    "name": "KAKAO_458_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140743020321/KAKAO_458_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140743020321/KAKAO_458_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27992,
+      "filename": "KAKAO_458_02.txt",
+      "title": "KAKAO_458_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 513,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 513,
+        "word_size": 167,
+        "text": "1 : 너네 집 앞에 지하철 생긴다며?\n1 : 집 값 올랐겠다?!\n2 : 완성이 돼야 오르지~ 아직 비슷해\n1 : 그래도 키키 이번 기회에 많이 오르면 팔고 이사 가 키키\n2 : 그럴 수 있으면 좋겠다~\n2 : 너네 집 앞엔 안 생겨?\n1 : 응 우리 동네에는 안 생기더라.\n1 : 재개발만 주구장창 하는 중 키키\n2 : 재개발하면 좋지~ 주변에 뭐 큰 거 생기면 너네 집값도 오르는 거 아니야?\n1 : 올라봤자 우리 집은 전세라 나한테 좋은 건 없어 키키\n2 : 나는 전세라도 있으면 좋겠다ㅠ\n2 : 부동산 한 번 가볼까\n1 : 돈도 없으면서 무슨 부동산 키키 돈이나 모아\n2 : 나도 이제 집 나가서 독립해야지~\n1 : 집 나오면 개고생이야.\n1 : 월세 감당 가능해?\n2 : 난 월세보다는 전세로~ 부모님이 도움 좀 주시면 좋겠는데ㅠ\n1 : 독립하면 어느 지역으로 갈라고?\n2 : 집에서는 좀 멀리 가는 게 좋지 않을까~\n1 : 도시 외곽으로? 그럼 집값 그나마 싸긴 하겠다\n2 : 남자라면 당연히 서울이지~\n2 : 성공하면 초대할게 그때 보자 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너네 집 앞에 지하철 생긴다며?",
+            "norm_text": "너네 집 앞에 지하철 생긴다며?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+집/NNG+앞/NNG+에/JKB+지하철/NNG+생긴다며/VV+EC"
+          },
+          {
+            "id": 2,
+            "text": "1 : 집 값 올랐겠다?!",
+            "norm_text": "집 값 올랐겠다?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집값/NNG+올랐/VV+EP+겠/EP+다/EC+?/SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 완성이 돼야 오르지~ 아직 비슷해",
+            "norm_text": "완성이 돼야 오르지~ 아직 비슷해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "완성/NNG+이/JKS+돼야/VV+EC+오르/VV+지/EC+~/SY+아직/MAG+비슷/XR+해/XSA+EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그래도 키키 이번 기회에 많이 오르면 팔고 이사 가 키키",
+            "norm_text": "그래도 키키 이번 기회에 많이 오르면 팔고 이사 가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래도/MAJ+키/NNG+키/NNG+이번/NNG+기회/NNG+에/JKB+많이/MAG+오르/VV+면/EC+팔/VV+고/EC+이사/NNG+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그럴 수 있으면 좋겠다~",
+            "norm_text": "그럴 수 있으면 좋겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+수/NNB+있/VV+으면/EC+좋/VA+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너네 집 앞엔 안 생겨?",
+            "norm_text": "너네 집 앞엔 안 생겨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+집/NNG+앞/NNG+엔/JKB+JX+안/MAG+생겨/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 우리 동네에는 안 생기더라.",
+            "norm_text": "응 우리 동네에는 안 생기더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+우리/NP+동네/NNG+에/JKB+는/JX+안/MAG+생기/VV+더라/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 재개발만 주구장창 하는 중 키키",
+            "norm_text": "재개발만 주구장창 하는 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "재/XPN+개발/NNG+만/JX+주/VX+구/EC+장창/NNG+하/XSV+는/ETM+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 재개발하면 좋지~ 주변에 뭐 큰 거 생기면 너네 집값도 오르는 거 아니야?",
+            "norm_text": "재개발하면 좋지~ 주변에 뭐 큰 거 생기면 너네 집값도 오르는 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "재/XPN+개발/NNG+하/XSV+면/EC+좋/VA+지/EC+~/SY+주변/NNG+에/JKB+뭐/IC+큰/VA+ETM+거/NNB+생기/VV+면/EC+너/NP+네/XSN+집값/NNG+도/JX+오르/VV+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 올라봤자 우리 집은 전세라 나한테 좋은 건 없어 키키",
+            "norm_text": "올라봤자 우리 집은 전세라 나한테 좋은 건 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "올라/VV+EC+봤/VX+EP+자/EF+우리/NP+집/NNG+은/JX+전세/NNG+라/VCP+EC+나/NP+한테/JKB+좋/VA+은/ETM+건/NNB+JX+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 전세라도 있으면 좋겠다ㅠ",
+            "norm_text": "나는 전세라도 있으면 좋겠다ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+전세/NNG+라도/VCP+EC+있/VX+으면/EC+좋/VA+겠/EP+다ㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 부동산 한 번 가볼까",
+            "norm_text": "부동산 한 번 가볼까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부동산/NNG+한/MM+번/NNBC+가/VV+볼까/EC+VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 돈도 없으면서 무슨 부동산 키키 돈이나 모아",
+            "norm_text": "돈도 없으면서 무슨 부동산 키키 돈이나 모아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "돈/NNG+도/JX+없/VA+으면서/EC+무슨/MM+부동산/NNG+키/NNG+키/NNG+돈/NNG+이나/JX+모아/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나도 이제 집 나가서 독립해야지~",
+            "norm_text": "나도 이제 집 나가서 독립해야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+이제/MAG+집/NNG+나가/VV+서/EC+독립/NNG+해야지/XSV+EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 집 나오면 개고생이야.",
+            "norm_text": "집 나오면 개고생이야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+나오/VV+면/EC+개고생/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 월세 감당 가능해?",
+            "norm_text": "월세 감당 가능해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "월세/NNG+감당/NNG+가능/NNG+해/XSV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 난 월세보다는 전세로~ 부모님이 도움 좀 주시면 좋겠는데ㅠ",
+            "norm_text": "난 월세보다는 전세로~ 부모님이 도움 좀 주시면 좋겠는데ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+월세/NNG+보다/JKB+는/JX+전세/NNG+로/JKB+~/SY+부모/NNG+님/XSN+이/JKS+도움/NNG+좀/MAG+주/VV+시/EP+면/EC+좋/VA+겠/EP+는데/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 독립하면 어느 지역으로 갈라고?",
+            "norm_text": "독립하면 어느 지역으로 갈라고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "독립/NNG+하/XSV+면/EC+어느/MM+지역/NNG+으로/JKB+갈라고/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 집에서는 좀 멀리 가는 게 좋지 않을까~",
+            "norm_text": "집에서는 좀 멀리 가는 게 좋지 않을까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+에서/JKB+는/JX+좀/MAG+멀리/MAG+가/VV+는/ETM+게/NNB+JKS+좋/VA+지/EC+않/VX+을까/EC+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 도시 외곽으로? 그럼 집값 그나마 싸긴 하겠다",
+            "norm_text": "도시 외곽으로? 그럼 집값 그나마 싸긴 하겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도시/NNG+외곽/NNG+으로/JKB+그럼/MAJ+집값/NNG+그나마/MAG+싸/VA+긴/ETN+JX+하/VX+겠/EP+다/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 남자라면 당연히 서울이지~",
+            "norm_text": "남자라면 당연히 서울이지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+라면/VCP+EC+당연히/MAG+서울/NNP+이/VCP+지/EC+~/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 성공하면 초대할게 그때 보자 키키",
+            "norm_text": "성공하면 초대할게 그때 보자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "성공/NNG+하/XSV+면/EC+초대/NNG+할/XSV+ETM+게/NNB+JKS+그때/NNG+보/VV+자/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

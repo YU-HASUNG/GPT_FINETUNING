@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 28836,
+    "name": "KAKAO_597_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923151831059517/KAKAO_597_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923151831059517/KAKAO_597_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31281,
+      "filename": "KAKAO_597_08.txt",
+      "title": "KAKAO_597_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 358,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 358,
+        "word_size": 125,
+        "text": "1 : 오빠 **이 결혼식 갈 꺼야?\n2 : 내가? 나는 좀 그럴 거 같은데\u0027\u0027\n1 : ** 오빠는 ** 가면 간대 키키\n2 : 아 나는 안 갈 것 같아 키키\n1 : 왱 보통 결혼하기 전에  많이 같이 가잖아\n2 : 얼굴도 전혀 본 적이 없고 요즘 시국에 굳이 나까지?\n1 : 같이 가면 좋쥐! 가자!\n2 : 일단 고민은 해볼게 키키\n1 : 이럴 때 얼굴 보는 거쥐 키키 언제 또 만난다구\n2 : **이랑 같이 상의해볼게 키키\n1 : **네 오빠한테도 물어봐야겠어\n2 : 너무 멀어서 못 올 거 같은데?\n1 : 다 같이 만나장 **은 별 생각 없을 듯\n2 : 아냐 **은 은근 생각이 많아\n1 : 아니 그때 아기랑 다같이 내려올 듯?\n2 : 아 친정으로 내려오는구나?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠 **이 결혼식 갈 꺼야?",
+            "norm_text": "오빠 **이 결혼식 갈 꺼야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+*/SY+*/SY+이/JKS+결혼식/NNG+갈/VV+ETM+꺼/NNB+VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 내가? 나는 좀 그럴 거 같은데\u0027\u0027",
+            "norm_text": "내가? 나는 좀 그럴 거 같은데\u0027\u0027",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+나/NP+는/JX+좀/MAG+그럴/VA+ETM+거/NNB+같/VA+은데/EC+\u0027/SY+\u0027/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : ** 오빠는 ** 가면 간대 키키",
+            "norm_text": "** 오빠는 ** 가면 간대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+오빠/NNG+는/JX+*/SY+*/SY+가/VV+면/EC+간대/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 나는 안 갈 것 같아 키키",
+            "norm_text": "아 나는 안 갈 것 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+는/JX+안/MAG+갈/VV+ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 왱 보통 결혼하기 전에  많이 같이 가잖아",
+            "norm_text": "왱 보통 결혼하기 전에  많이 같이 가잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왱/MAG+보통/NNG+결혼/NNG+하/XSV+기/ETN+전/NNG+에/JKB+많이/MAG+같이/MAG+가/VV+잖아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 얼굴도 전혀 본 적이 없고 요즘 시국에 굳이 나까지?",
+            "norm_text": "얼굴도 전혀 본 적이 없고 요즘 시국에 굳이 나까지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼굴/NNG+도/JX+전혀/MAG+본/VV+ETM+적/NNB+이/JKS+없/VA+고/EC+요즘/NNG+시국/NNG+에/JKB+굳이/MAG+나/NP+까지/JX"
+          },
+          {
+            "id": 7,
+            "text": "1 : 같이 가면 좋쥐! 가자!",
+            "norm_text": "같이 가면 좋쥐! 가자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "같이/MAG+가/VV+면/EC+좋/VA+ETM+쥐/NNG+가/VV+자/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 일단 고민은 해볼게 키키",
+            "norm_text": "일단 고민은 해볼게 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일단/MAG+고민/NNG+은/JX+해/VV+EC+볼/VX+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 이럴 때 얼굴 보는 거쥐 키키 언제 또 만난다구",
+            "norm_text": "이럴 때 얼굴 보는 거쥐 키키 언제 또 만난다구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이럴/VA+ETM+때/NNG+얼굴/NNG+보/VV+는/ETM+거/NNB+쥐/NNG+키/NNG+키/NNG+언제/MAG+또/MAG+만난/VV+다구/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : **이랑 같이 상의해볼게 키키",
+            "norm_text": "**이랑 같이 상의해볼게 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "*/SY+*/SY+이랑/JKB+같이/MAG+상의/NNG+해볼/XSV+EC+VX+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : **네 오빠한테도 물어봐야겠어",
+            "norm_text": "**네 오빠한테도 물어봐야겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "*/SY+*/SY+네/IC+오빠/NNG+한테/JKB+도/JX+물어봐야/VV+EC+VX+겠/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너무 멀어서 못 올 거 같은데?",
+            "norm_text": "너무 멀어서 못 올 거 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+멀/VA+어서/EC+못/MAG+올/VV+ETM+거/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 다 같이 만나장 **은 별 생각 없을 듯",
+            "norm_text": "다 같이 만나장 **은 별 생각 없을 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+같이/MAG+만나/VV+EC+장/NNG+*/SY+*/SY+은/JX+별/MM+생각/NNG+없/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아냐 **은 은근 생각이 많아",
+            "norm_text": "아냐 **은 은근 생각이 많아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+*/SY+*/SY+은/JX+은근/NNG+생각/NNG+이/JKS+많/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니 그때 아기랑 다같이 내려올 듯?",
+            "norm_text": "아니 그때 아기랑 다같이 내려올 듯?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그때/NNG+아기/NNG+랑/JKB+다/MAG+같이/MAG+내려올/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 친정으로 내려오는구나?",
+            "norm_text": "아 친정으로 내려오는구나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+친정/NNG+으로/JKB+내려오/VV+는구나/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

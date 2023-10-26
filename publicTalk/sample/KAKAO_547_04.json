@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24110,
+    "name": "KAKAO_547_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150957043473/KAKAO_547_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150957043473/KAKAO_547_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29635,
+      "filename": "KAKAO_547_04.txt",
+      "title": "KAKAO_547_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 576,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 576,
+        "word_size": 181,
+        "text": "1 : 나 내년에 급여는... 협상을 할 수 있을까 키키\n2 : 급여를 협상을 해? 신기하군\n1 : 키키 아니 뭔가 연봉 협상 같은 거 있잖아 키키 해보고 싶다 그런 거\n2 : 키키 아아 키키 난 그런 거 없어 그냥 주는 대로... ㅠㅠ 고분고분\n1 : 그런 거 하는 회사가 어디에 있긴 하니까 단어가 있겠지?\n2 : 응응 우리도 있어 무기계약직들은 협상 하더라\n1 : 키키 하긴... 그냥 많이 올려주기나 하면 좋은 거지 뭐 키키\n2 : 응응 알아서 올랴 주는 거에 만족 중\n1 : 근데 계약직은 2년 이후에는 더 이상 연장 못하는 거 아냐?\n2 : 그냥 계약직은 그렇고 거기서 한 단계 올라 가먄 무기계약직 정직이랑 비슷해 진급이 안될 뿜\n1 : 아아 ㅜㅜ 왜 정직원으로 안 해주는 거지... 비용 때문인가 ㅜㅜ\n2 : 그렇지 ㅠㅠ 돈도 계속 올려줘야 하고 피곤하지 뭐\n1 : ㅜㅜ 근데 그런 분들은 뭔가 안정적이지 못하니까 ㅜㅜ 불안할 듯\n2 : 그래도 무조건 나가야 하는 건 아니라서 ㅜㅜ 그래도 회사가 어랴우먄 정직들보단 먼저 짤리겠디?\n1 : 그래도 업무에 대한 평가도 받고 연봉도 오르면 좋은데\n2 : 응응 그건 좀 슬프지 ㅠ 정체 되어있으니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 내년에 급여는... 협상을 할 수 있을까 키키",
+            "norm_text": "나 내년에 급여는... 협상을 할 수 있을까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+내년/NNG+에/JKB+급여/NNG+는/JX+./SY+협상/NNG+을/JKO+할/VV+ETM+수/NNB+있/VV+을까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 급여를 협상을 해? 신기하군",
+            "norm_text": "급여를 협상을 해? 신기하군",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "급여/NNG+를/JKO+협상/NNG+을/JKO+해/VV+EF+신기/NNG+하군/JC+JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 아니 뭔가 연봉 협상 같은 거 있잖아 키키 해보고 싶다 그런 거",
+            "norm_text": "키키 아니 뭔가 연봉 협상 같은 거 있잖아 키키 해보고 싶다 그런 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+뭔가/NP+VCP+EC+연봉/NNG+협상/NNG+같/VA+은/ETM+거/NNB+있/VA+잖아/EC+키/NNG+키/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+다/EF+그런/MM+거/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 아아 키키 난 그런 거 없어 그냥 주는 대로... ㅠㅠ 고분고분",
+            "norm_text": "키키 아아 키키 난 그런 거 없어 그냥 주는 대로... ㅠㅠ 고분고분",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키아/NNP+아키/NNP+키난/NNP+그런/MM+거/NNB+없/VA+어/EC+그냥/MAG+주/VV+는/ETM+대로/NNB+./SY+ㅠㅠ고분고분/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런 거 하는 회사가 어디에 있긴 하니까 단어가 있겠지?",
+            "norm_text": "그런 거 하는 회사가 어디에 있긴 하니까 단어가 있겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런/MM+거/NNB+하/VV+는/ETM+회사/NNG+가/JKS+어디/NP+에/JKB+있/VV+긴/ETN+JX+하/VX+니까/EC+단어/NNG+가/JKS+있/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응 우리도 있어 무기계약직들은 협상 하더라",
+            "norm_text": "응응 우리도 있어 무기계약직들은 협상 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+우리/NP+도/JX+있/VA+어/EC+무기/NNG+계약직/NNG+들/XSN+은/JX+협상/NNG+하/XSV+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 하긴... 그냥 많이 올려주기나 하면 좋은 거지 뭐 키키",
+            "norm_text": "키키 하긴... 그냥 많이 올려주기나 하면 좋은 거지 뭐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+긴/ETN+JX+./SY+그냥/MAG+많이/MAG+올려/VV+EC+주/VX+기/ETN+나/JX+하/VV+면/EC+좋/VA+은/ETM+거/NNB+지/VCP+EF+뭐/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 알아서 올랴 주는 거에 만족 중",
+            "norm_text": "응응 알아서 올랴 주는 거에 만족 중",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+알/VV+아서/EC+올/VV+랴/EC+주/VX+는/ETM+거/NNB+에/JKB+만족/NNG+중/NNB"
+          },
+          {
+            "id": 9,
+            "text": "1 : 근데 계약직은 2년 이후에는 더 이상 연장 못하는 거 아냐?",
+            "norm_text": "근데 계약직은 2년 이후에는 더 이상 연장 못하는 거 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+계약직/NNG+은/JX+2/SN+년/NNBC+이후/NNG+에/JKB+는/JX+더/MAG+이상/NNG+연장/NNG+못/MAG+하/VV+는/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그냥 계약직은 그렇고 거기서 한 단계 올라 가먄 무기계약직 정직이랑 비슷해 진급이 안될 뿜",
+            "norm_text": "그냥 계약직은 그렇고 거기서 한 단계 올라 가먄 무기계약직 정직이랑 비슷해 진급이 안될 뿜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그냥/MAG+계약직/NNG+은/JX+그렇/VA+고/EC+거기/NP+서/JKB+한/MM+단계/NNG+올라가/VV+EC+먄/UNKNOWN+무기/NNG+계약직/NNG+정직/NNG+이랑/JC+비슷/XR+해진/XSA+EC+VX+ETM+급/NNG+이/JKS+안/MAG+될/VV+ETM+뿜/VV"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아아 ㅜㅜ 왜 정직원으로 안 해주는 거지... 비용 때문인가 ㅜㅜ",
+            "norm_text": "아아 ㅜㅜ 왜 정직원으로 안 해주는 거지... 비용 때문인가 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+ㅜㅜ/UNKNOWN+왜정/NNG+직원/NNG+으로/JKB+안/MAG+해/VV+EC+주/VX+는/ETM+거/NNB+지/VCP+EF+./SY+비용때문인가ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그렇지 ㅠㅠ 돈도 계속 올려줘야 하고 피곤하지 뭐",
+            "norm_text": "그렇지 ㅠㅠ 돈도 계속 올려줘야 하고 피곤하지 뭐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EC+ㅠㅠ/UNKNOWN+돈/NNG+도/JX+계속/MAG+올려/VV+EC+줘야/VX+EC+하/VV+고/EC+피곤/NNG+하/XSV+지/EC+뭐/IC"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㅜㅜ 근데 그런 분들은 뭔가 안정적이지 못하니까 ㅜㅜ 불안할 듯",
+            "norm_text": "ㅜㅜ 근데 그런 분들은 뭔가 안정적이지 못하니까 ㅜㅜ 불안할 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+근데/MAJ+그런/MM+분/NNB+들/XSN+은/JX+뭔가/NP+VCP+EC+안정/NNG+적/XSN+이/VCP+지/EC+못하/VX+니까/EC+ㅜㅜ/UNKNOWN+불안/NNG+할/XSV+ETM+듯/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래도 무조건 나가야 하는 건 아니라서 ㅜㅜ 그래도 회사가 어랴우먄 정직들보단 먼저 짤리겠디?",
+            "norm_text": "그래도 무조건 나가야 하는 건 아니라서 ㅜㅜ 그래도 회사가 어랴우먄 정직들보단 먼저 짤리겠디?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+무조건/MAG+나가/VV+야/EC+하/VV+는/ETM+건/NNB+JX+아니/VCN+라서/EC+ㅜㅜ/UNKNOWN+그래도/VV+EC+회사/NNG+가/JKS+어/VV+랴/EC+우먄/UNKNOWN+정직/NNG+들/XSN+보단/JKB+JX+먼저/MAG+짤리/VV+겠/EP+디/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래도 업무에 대한 평가도 받고 연봉도 오르면 좋은데",
+            "norm_text": "그래도 업무에 대한 평가도 받고 연봉도 오르면 좋은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+업무/NNG+에/JKB+대한/VV+ETM+평가/NNG+도/JX+받/VV+고/EC+연봉/NNG+도/JX+오르/VV+면/EC+좋/VA+은데/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응응 그건 좀 슬프지 ㅠ 정체 되어있으니까",
+            "norm_text": "응응 그건 좀 슬프지 ㅠ 정체 되어있으니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그건/NP+JX+좀/MAG+슬프/VA+지/EC+ㅠ/UNKNOWN+정체/NNG+되/XSV+어/EC+있/VX+으니까/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

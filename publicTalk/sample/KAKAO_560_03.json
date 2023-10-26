@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 24043,
+    "name": "KAKAO_560_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256013595/KAKAO_560_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256013595/KAKAO_560_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30114,
+      "filename": "KAKAO_560_03.txt",
+      "title": "KAKAO_560_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 375,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 375,
+        "word_size": 134,
+        "text": "1 : 언니 요즘 차 타고 다닌다며?\n2 : 응 동생 차 타고 다닌 지 꽤 됐지.\n1 : 무슨 차였더라? 키키\n1 : 부럽다!\n2 : 프라이드라는 차야\n2 : 쪼끄매서 귀여워.\n1 : 아 그래? 중고야? 새 차야?\n2 : 돈이 없어 중고차로 샀지!\n1 : 아~ 요즘 중고도 잘 나와 키키\n2 : 중고 나름 괜찮아!\n2 : 너는 언제쯤?\n1 : 난 운전이 무서워서 키키 별로\n2 : 운전 면허증은 언제 땄지?\n1 : 나 스물에 키키\n1 : 당연히 그건 있지~\n2 : 장롱 면허 됐겠네 ㅠ\n2 : 운전 연습 해!\n1 : 맞아 키키 나 대신 남친이 운전해서 괜찮아\n2 : 운전 해보고 싶은 생각은 없어?\n1 : 응 아직은? 필요성을 못 느껴 키키\n2 : 나이 조금 들면 운전 해서 차 타고 다니는 게 편할 거야.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 요즘 차 타고 다닌다며?",
+            "norm_text": "언니 요즘 차 타고 다닌다며?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+요즘/NNG+차/NNG+타/VV+고/EC+다닌다며/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 동생 차 타고 다닌 지 꽤 됐지.",
+            "norm_text": "응 동생 차 타고 다닌 지 꽤 됐지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+동생/NNG+차/NNG+타/VV+고/EC+다닌지/VV+EC+꽤/MAG+됐/VV+EP+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 무슨 차였더라? 키키",
+            "norm_text": "무슨 차였더라? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+차/NNG+였/VCP+EP+더라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 부럽다!",
+            "norm_text": "부럽다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부럽/VA+다/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 프라이드라는 차야",
+            "norm_text": "프라이드라는 차야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "프라이드/NNP+라는/VCP+ETM+차야/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 쪼끄매서 귀여워.",
+            "norm_text": "쪼끄매서 귀여워.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쪼끄매서/VA+EC+귀여워/VA+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 그래? 중고야? 새 차야?",
+            "norm_text": "아 그래? 중고야? 새 차야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+중고/NNG+야/VCP+EF+새차/VA+야/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 돈이 없어 중고차로 샀지!",
+            "norm_text": "돈이 없어 중고차로 샀지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "돈/NNG+이/JKS+없/VA+어/EC+중고차/NNG+로/JKB+샀/VV+EP+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아~ 요즘 중고도 잘 나와 키키",
+            "norm_text": "아~ 요즘 중고도 잘 나와 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+요즘/NNG+중/NNB+고도/VCP+EC+잘/MAG+나와/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 중고 나름 괜찮아!",
+            "norm_text": "중고 나름 괜찮아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "중고/NNP+나름/NNB+괜찮/VA+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 너는 언제쯤?",
+            "norm_text": "너는 언제쯤?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+언제/NP+쯤/XSN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 난 운전이 무서워서 키키 별로",
+            "norm_text": "난 운전이 무서워서 키키 별로",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+운전/NNG+이/JKS+무서워서/VA+EC+키/NNG+키/NNG+별/XSN+로/JKB"
+          },
+          {
+            "id": 13,
+            "text": "2 : 운전 면허증은 언제 땄지?",
+            "norm_text": "운전 면허증은 언제 땄지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "운전/NNG+면허증/NNG+은/JX+언제/MAG+땄/VV+EP+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나 스물에 키키",
+            "norm_text": "나 스물에 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나스/NNP+물/NNG+에/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 당연히 그건 있지~",
+            "norm_text": "당연히 그건 있지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+그건/NP+JX+있/VA+지/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 장롱 면허 됐겠네 ㅠ",
+            "norm_text": "장롱 면허 됐겠네 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장롱면허/NNG+됐/XSV+EP+겠/EP+네ㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 운전 연습 해!",
+            "norm_text": "운전 연습 해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "운전/NNG+연습/NNG+해/XSV+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 맞아 키키 나 대신 남친이 운전해서 괜찮아",
+            "norm_text": "맞아 키키 나 대신 남친이 운전해서 괜찮아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키나/XSA+ETN+JX+대신/NNG+남친/NNG+이/JKS+운전/NNG+해서/XSV+EC+괜찮/VA+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 운전 해보고 싶은 생각은 없어?",
+            "norm_text": "운전 해보고 싶은 생각은 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "운전/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+은/ETM+생각/NNG+은/JX+없/VA+어/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 응 아직은? 필요성을 못 느껴 키키",
+            "norm_text": "응 아직은? 필요성을 못 느껴 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아직/MAG+은/JX+?/SY+필요/NNG+성/XSN+을/JKO+못/MAG+느껴/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 나이 조금 들면 운전 해서 차 타고 다니는 게 편할 거야.",
+            "norm_text": "나이 조금 들면 운전 해서 차 타고 다니는 게 편할 거야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나이/NNG+조금/MAG+들/VV+면/EC+운전/NNG+해서/XSV+EC+차/NNG+타/VV+고/EC+다니/VV+는/ETM+게/NNB+JKS+편할/VA+ETM+거/NNB+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

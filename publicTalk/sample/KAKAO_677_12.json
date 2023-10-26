@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 55214,
+    "name": "KAKAO_677_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113551086561/KAKAO_677_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113551086561/KAKAO_677_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35371,
+      "filename": "KAKAO_677_12.txt",
+      "title": "KAKAO_677_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 397,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 397,
+        "word_size": 129,
+        "text": "1 : 해외 여행 가 본 적 있어?\n2 : 난 해외여행 자주 다니고 있어~\n1 : 아 자주 다니는 구나?!\n1 : 어디가 제일 좋았어?\n2 : 음 스위스가 제일 기억에 많이 남아!\n1 : 스위스~ 가는데 얼마나 걸렸어?\n2 : 아마 비행기로 한 열두 시간 걸렸던 거 같애\n1 : 우와 열두 시간?!\n1 : 혼자 갔다 온 거야?\n2 : 응~ 가서 친구들 만드는 거지\n1 : 우와 스위스는 어디가 제일 유명해?\n2 : 스위스는 취리히가 제일 유명하지~\n1 : 오~ 그럼 거기도 다녀 온 거야?\n2 : 응! 취히리 말고도 베른도 갔었어~\n1 : 베른? 베른은 처음 들어봐...키키\n2 : 베른 대성당이랑 장미 공원이 유명한 곳이야 하하\n1 : 아 그렇구나~! 나도 나중에 스위스 여행 가봐야겠다~!\n2 : 꼭 한번 가봐! 완전 강추 하는 곳이야~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 해외 여행 가 본 적 있어?",
+            "norm_text": "해외 여행 가 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해외여행/NNG+가본/NNG+적/XSN+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 해외여행 자주 다니고 있어~",
+            "norm_text": "난 해외여행 자주 다니고 있어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+해외여행/NNG+자주/MAG+다니/VV+고/EC+있/VX+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 자주 다니는 구나?!",
+            "norm_text": "아 자주 다니는 구나?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+자주/MAG+다니/VV+는구나/EC+?/SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 어디가 제일 좋았어?",
+            "norm_text": "어디가 제일 좋았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+가/JKS+제일/MAG+좋/VA+았/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 음 스위스가 제일 기억에 많이 남아!",
+            "norm_text": "음 스위스가 제일 기억에 많이 남아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+스위스/NNP+가/JKS+제일/MAG+기억/NNG+에/JKB+많이/MAG+남/VV+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 스위스~ 가는데 얼마나 걸렸어?",
+            "norm_text": "스위스~ 가는데 얼마나 걸렸어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "스위스/NNP+~/SY+가/VV+는데/EC+얼마나/MAG+걸렸/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아마 비행기로 한 열두 시간 걸렸던 거 같애",
+            "norm_text": "아마 비행기로 한 열두 시간 걸렸던 거 같애",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아마/MAG+비행기/NNG+로/JKB+한/MM+열/NR+두/MM+시간/NNG+걸렸/VV+EP+던/ETM+거/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우와 열두 시간?!",
+            "norm_text": "우와 열두 시간?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+열/NR+두/MM+시간/NNG+?/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 혼자 갔다 온 거야?",
+            "norm_text": "혼자 갔다 온 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혼자/MAG+갔다온/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응~ 가서 친구들 만드는 거지",
+            "norm_text": "응~ 가서 친구들 만드는 거지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+~/SY+가/VV+서/EC+친구/NNG+들/XSN+만드/VV+는/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 우와 스위스는 어디가 제일 유명해?",
+            "norm_text": "우와 스위스는 어디가 제일 유명해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+스위스/NNP+는/JX+어디/NP+가/JKS+제일/MAG+유명/NNG+해/XSV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 스위스는 취리히가 제일 유명하지~",
+            "norm_text": "스위스는 취리히가 제일 유명하지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "스위스/NNP+는/JX+취리히/NNP+가/JKS+제일/MAG+유명/NNG+하/XSV+지/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오~ 그럼 거기도 다녀 온 거야?",
+            "norm_text": "오~ 그럼 거기도 다녀 온 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+그럼/MAJ+거기/NP+도/JX+다녀온/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응! 취히리 말고도 베른도 갔었어~",
+            "norm_text": "응! 취히리 말고도 베른도 갔었어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+취/NNP+히리/NNP+말/VV+고/EC+도/JX+베른/NNP+도/JX+갔었/VV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 베른? 베른은 처음 들어봐...키키",
+            "norm_text": "베른? 베른은 처음 들어봐...키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "베른/NNP+?/SY+베른/NNP+은/JX+처음/MAG+들/VV+어/EC+봐/VX+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 베른 대성당이랑 장미 공원이 유명한 곳이야 하하",
+            "norm_text": "베른 대성당이랑 장미 공원이 유명한 곳이야 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "베른/NNP+대/XPN+성당/NNG+이랑/JKB+장미/NNG+공원/NNG+이/JKS+유명/XR+한/XSA+ETM+곳/NNB+이야/JX+하하/MAG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 그렇구나~! 나도 나중에 스위스 여행 가봐야겠다~!",
+            "norm_text": "아 그렇구나~! 나도 나중에 스위스 여행 가봐야겠다~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아/IC+그렇/VA+구나/EF+~/SY+나/NP+도/JX+나중/NNG+에/JKB+스위스/NNP+여행/NNG+가/VV+봐야/EC+VX+EC+VX+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 꼭 한번 가봐! 완전 강추 하는 곳이야~",
+            "norm_text": "꼭 한번 가봐! 완전 강추 하는 곳이야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "꼭/MAG+한번/MAG+가/VV+EC+봐/VX+EF+완전/MAG+강추/NNG+하/XSV+는/ETM+곳/NNG+이/VCP+야/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

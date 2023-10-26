@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 28541,
+    "name": "KAKAO_462_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144607019836/KAKAO_462_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144607019836/KAKAO_462_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28264,
+      "filename": "KAKAO_462_14.txt",
+      "title": "KAKAO_462_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 496,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 496,
+        "word_size": 160,
+        "text": "1 : 요즘 젠더 갈등이 큰 사회 이슈잖아\n2 : 아 맞아 근데 사실 현실에서 만나는 사람들은 안 그래\n1 : 우리가 MZ세대가 아니라서 그런가?\n2 : 아마 그런 것도 있을 거야...\n2 : 이건 또 세대 차이인가?\n1 : 키키 맞아 우리도 이제 늙어 가나 봐\n1 : 암튼 나는 그런 사람 본 적 없어\n2 : 우리 주변에 젊은이가 없어서 그런가 봐\n1 : 근데 가끔 댓글이나 이런 거 보면 정말 심각한 수준이더라고\n2 : 맞아 자기랑 조금만 다른 생각이면 단체로 몰려와서 헐뜯어\n1 : 진짜... 신상까지 털던데 어떤 사람들은\n2 : 어 맞아 나는 그래서 절대 댓글 같은 거 안 남기잖아\n1 : 나도 나도 요새는 취업할 때 SNS 계정도 요구한다잖아\n2 : 헐? 그거 완전 사상 검증 아냐? 좀 오반데\n1 : 어 근데 대기업들은 대부분 요구한다고 하더라고\n2 : 와 진짜 세상이 많이 바뀌긴 바뀌었구나\n1 : 그니까 이젠 젠더 감수성이 떨어지면 인간 취급도 못 받아\n2 : 맞아 인스타에 글 쓸 때 조심해서 써야겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 젠더 갈등이 큰 사회 이슈잖아",
+            "norm_text": "요즘 젠더 갈등이 큰 사회 이슈잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+젠더/NNG+갈등/NNG+이/JKS+큰/VA+ETM+사회/NNG+이슈/NNG+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 맞아 근데 사실 현실에서 만나는 사람들은 안 그래",
+            "norm_text": "아 맞아 근데 사실 현실에서 만나는 사람들은 안 그래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞아/IC+근데/MAJ+사실/MAG+현실/NNG+에서/JKB+만나/VV+는/ETM+사람/NNG+들/XSN+은/JX+안/MAG+그래/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리가 MZ세대가 아니라서 그런가?",
+            "norm_text": "우리가 MZ세대가 아니라서 그런가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+가/JKS+MZ/SL+세대/NNG+가/JKC+아니/VCN+라서/EC+그런가/VA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아마 그런 것도 있을 거야...",
+            "norm_text": "아마 그런 것도 있을 거야...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+그런/MM+것/NNB+도/JX+있/VA+을/ETM+거/NNB+야/VCP+EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 이건 또 세대 차이인가?",
+            "norm_text": "이건 또 세대 차이인가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이건/NP+JX+또/MAG+세대/NNG+차이/NNG+인가/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 맞아 우리도 이제 늙어 가나 봐",
+            "norm_text": "키키 맞아 우리도 이제 늙어 가나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+우리/NP+도/JX+이제/MAG+늙/VV+어/EC+가/VX+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 암튼 나는 그런 사람 본 적 없어",
+            "norm_text": "암튼 나는 그런 사람 본 적 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "암튼/MAJ+나/NP+는/JX+그런/MM+사람/NNG+본/VV+ETM+적/NNB+없/VA+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 우리 주변에 젊은이가 없어서 그런가 봐",
+            "norm_text": "우리 주변에 젊은이가 없어서 그런가 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+주변/NNG+에/JKB+젊은이/NNG+가/JKS+없/VA+어서/EC+그런가/VA+EC+봐/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 근데 가끔 댓글이나 이런 거 보면 정말 심각한 수준이더라고",
+            "norm_text": "근데 가끔 댓글이나 이런 거 보면 정말 심각한 수준이더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+가끔/MAG+댓글/NNG+이나/JC+이런/MM+거/NNB+보/VV+면/EC+정말/MAG+심각/XR+한/XSA+ETM+수준/NNG+이/VCP+더라고/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 자기랑 조금만 다른 생각이면 단체로 몰려와서 헐뜯어",
+            "norm_text": "맞아 자기랑 조금만 다른 생각이면 단체로 몰려와서 헐뜯어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+자기/NP+랑/JKB+조금/MAG+만/JX+다른/MM+생각/NNG+이/VCP+면/EC+단체/NNG+로/JKB+몰려와서/VV+EC+헐뜯/VV+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 진짜... 신상까지 털던데 어떤 사람들은",
+            "norm_text": "진짜... 신상까지 털던데 어떤 사람들은",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+./SY+신상/NNG+까지/JX+털/VV+던데/EC+어떤/MM+사람/NNG+들/XSN+은/JX"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어 맞아 나는 그래서 절대 댓글 같은 거 안 남기잖아",
+            "norm_text": "어 맞아 나는 그래서 절대 댓글 같은 거 안 남기잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+맞아/IC+나/NP+는/JX+그래서/MAJ+절대/MAG+댓글/NNG+같/VA+은/ETM+거/NNB+안/MAG+남기/VV+잖아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나도 나도 요새는 취업할 때 SNS 계정도 요구한다잖아",
+            "norm_text": "나도 나도 요새는 취업할 때 SNS 계정도 요구한다잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+나/NP+도/JX+요새/NNG+는/JX+취업/NNG+할/XSV+ETM+때/NNG+SNS/SL+계/XSN+정도/NNG+요구/NNG+한다/XSV+EF+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 헐? 그거 완전 사상 검증 아냐? 좀 오반데",
+            "norm_text": "헐? 그거 완전 사상 검증 아냐? 좀 오반데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+그거/NP+완전/MAG+사상/NNG+검증/NNG+아냐/VCN+EF+좀/MAG+오/NR+반데/NNG+VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 어 근데 대기업들은 대부분 요구한다고 하더라고",
+            "norm_text": "어 근데 대기업들은 대부분 요구한다고 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+근데/MAJ+대/XPN+기업/NNG+들/XSN+은/JX+대부분/NNG+요구/NNG+한다고/XSV+EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 와 진짜 세상이 많이 바뀌긴 바뀌었구나",
+            "norm_text": "와 진짜 세상이 많이 바뀌긴 바뀌었구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+세상/NNG+이/JKS+많이/MAG+바뀌/VV+긴/ETN+JX+바뀌/VV+었/EP+구나/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그니까 이젠 젠더 감수성이 떨어지면 인간 취급도 못 받아",
+            "norm_text": "그니까 이젠 젠더 감수성이 떨어지면 인간 취급도 못 받아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+이젠/MAG+JX+젠더/NNG+감수/NNG+성/XSN+이/JKS+떨어지/VV+면/EC+인간/NNG+취급/NNG+도/JX+못/MAG+받/VV+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 맞아 인스타에 글 쓸 때 조심해서 써야겠다",
+            "norm_text": "맞아 인스타에 글 쓸 때 조심해서 써야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아인/VCN+ETM+스타/NNG+에/JKB+글/NNG+쓸/VV+ETM+때/NNG+조심/NNG+해서/XSV+EC+써야/VV+EC+VX+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

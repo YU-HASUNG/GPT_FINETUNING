@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 30415,
+    "name": "KAKAO_550_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934030687/KAKAO_550_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934030687/KAKAO_550_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29992,
+      "filename": "KAKAO_550_01.txt",
+      "title": "KAKAO_550_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 556,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 556,
+        "word_size": 171,
+        "text": "1 : 요새 4단계 땜에 밤에 외식하기가 어렵네 ㅜ\n2 : 맞아 ㅠㅠ 외식은 진짜 힘든 것 같다 ㅠㅠ\n2 : 서울은 9시까지야?\n1 : 요번에 좀 완화돼서 10시까지야 그나마 ㅜ\n2 : 오 키키 아니 지난번에 서울 갔을 떄 대구 생각하고 먹다가 10시에 나가라 해서 당황함\n1 : 아 키키 진짜? 키키 진짜 나가라 하는구나... 키키\n2 : 응응... 그래서 엥? 왜 나가지? 라고 했다가 헐! 하면서 급하게 먹고 나옴 키키\n1 : 키키 앜ㅋ 웃겨... 키키 나 같아도 진짜 당황했을 거 같다 키키\n2 : 키키 그니깐 키키 배 좀 불러서 천천히 먹고 있었는데...\n1 : 키키 진짜 저녁 여유롭게 먹으려면 일찍 가야겠네 ㅜㅜ\n2 : 맞아... 그것도 고기였는데 휴...\n2 : 그래서 저녁은 뭐 먹었어?\n1 : 오늘 저녁은 된찌랑 팽이버섯 전 해 먹었어!\n2 : 오 니가 한 거야? 언니가 한 거야?\n1 : 키키 요리는 항상 제 담당입니다! 키키\n2 : 오 멋지시네요? 키키 다음에는 시켜 먹지 말고 해 주세여!\n1 : 아... 알겠습니다... 키키 뭐 드시고 싶으세요?\n2 : 저는 음... 으음... 생각해 볼게요? 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 4단계 땜에 밤에 외식하기가 어렵네 ㅜ",
+            "norm_text": "요새 4단계 땜에 밤에 외식하기가 어렵네 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+4/SN+단계/NNG+땜/NNB+에/JKB+밤/NNG+에/JKB+외식/NNG+하/XSV+기/ETN+가/JKS+어렵/VA+네/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 ㅠㅠ 외식은 진짜 힘든 것 같다 ㅠㅠ",
+            "norm_text": "맞아 ㅠㅠ 외식은 진짜 힘든 것 같다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+외식/NNG+은/JX+진짜/MAG+힘든/VA+ETM+것/NNB+같/VA+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 서울은 9시까지야?",
+            "norm_text": "서울은 9시까지야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "서울/NNP+은/JX+9/SN+시/NNBC+까지/JX+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 요번에 좀 완화돼서 10시까지야 그나마 ㅜ",
+            "norm_text": "요번에 좀 완화돼서 10시까지야 그나마 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요번/NNG+에/JKB+좀/MAG+완화/NNG+돼서/XSV+EC+10/SN+시/NNBC+까지/JX+야/JX+그나마/MAG+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오 키키 아니 지난번에 서울 갔을 떄 대구 생각하고 먹다가 10시에 나가라 해서 당황함",
+            "norm_text": "오 키키 아니 지난번에 서울 갔을 떄 대구 생각하고 먹다가 10시에 나가라 해서 당황함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오키/NNP+키아니/NNP+지난번/NNG+에서/JKB+울/JKO+갔/VV+EP+을/ETM+떄/UNKNOWN+대구/NNP+생각/NNG+하/XSV+고/EC+먹/VV+다가/EC+10/SN+시/NNBC+에/JKB+나가/VV+라/EC+해서/VV+EC+당황/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 키키 진짜? 키키 진짜 나가라 하는구나... 키키",
+            "norm_text": "아 키키 진짜? 키키 진짜 나가라 하는구나... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+진짜/MAG+키/NNG+키/XSV+ETN+진짜/MAG+나가/VV+라/EC+하/VX+는구나/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응응... 그래서 엥? 왜 나가지? 라고 했다가 헐! 하면서 급하게 먹고 나옴 키키",
+            "norm_text": "응응... 그래서 엥? 왜 나가지? 라고 했다가 헐! 하면서 급하게 먹고 나옴 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+./SY+그래서/MAJ+엥/IC+왜/MAG+나가/VV+지/EF+라고/VCP+EC+했/VX+EP+다가/EC+헐/VX+ETM+하/VV+면서/EC+급하/VA+게/EC+먹/VV+고/EC+나옴/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 앜ㅋ 웃겨... 키키 나 같아도 진짜 당황했을 거 같다 키키",
+            "norm_text": "키키 앜ㅋ 웃겨... 키키 나 같아도 진짜 당황했을 거 같다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키앜ㅋ웃겨/UNKNOWN+./SY+키/NNG+키나/XSA+ETN+JX+같/VA+아도/EC+진짜/MAG+당황/NNG+했/XSV+EP+을/ETM+거/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 그니깐 키키 배 좀 불러서 천천히 먹고 있었는데...",
+            "norm_text": "키키 그니깐 키키 배 좀 불러서 천천히 먹고 있었는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니깐/MAJ+키/NNG+키/NNG+배/NNG+좀/MAG+불러서/VV+EC+천천히/MAG+먹/VV+고/EC+있/VX+었/EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 진짜 저녁 여유롭게 먹으려면 일찍 가야겠네 ㅜㅜ",
+            "norm_text": "키키 진짜 저녁 여유롭게 먹으려면 일찍 가야겠네 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+저녁/NNG+여유/NNG+롭/XSA+게/EC+먹/VV+으려면/EC+일찍/MAG+가/VV+야/EC+VX+겠/EP+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 맞아... 그것도 고기였는데 휴...",
+            "norm_text": "맞아... 그것도 고기였는데 휴...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+./SY+그것/NP+도/JX+고기/NNG+였/VCP+EP+는데/EC+휴/IC+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래서 저녁은 뭐 먹었어?",
+            "norm_text": "그래서 저녁은 뭐 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+저녁/NNG+은/JX+뭐/IC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오늘 저녁은 된찌랑 팽이버섯 전 해 먹었어!",
+            "norm_text": "오늘 저녁은 된찌랑 팽이버섯 전 해 먹었어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+저녁/NNG+은/JX+된/VV+ETM+찌/NNG+랑/JKB+팽이버섯/NNG+전해/VV+EC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오 니가 한 거야? 언니가 한 거야?",
+            "norm_text": "오 니가 한 거야? 언니가 한 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오니/NNG+가/JKS+한/VV+ETM+거/NNB+야/VCP+EF+언니/NNG+가/JKS+한/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 요리는 항상 제 담당입니다! 키키",
+            "norm_text": "키키 요리는 항상 제 담당입니다! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+요리/NNG+는/JX+항상/MAG+제/MM+담당/NNG+입니다/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오 멋지시네요? 키키 다음에는 시켜 먹지 말고 해 주세여!",
+            "norm_text": "오 멋지시네요? 키키 다음에는 시켜 먹지 말고 해 주세여!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "오/NR+멋지/VA+시/EP+네요/EF+키/NNG+키/NNG+다음/NNG+에/JKB+는/JX+시켜/VV+EC+먹/VV+지/EC+말/VX+고/EC+해/VV+EC+주/VX+세여/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아... 알겠습니다... 키키 뭐 드시고 싶으세요?",
+            "norm_text": "아... 알겠습니다... 키키 뭐 드시고 싶으세요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+알/VV+겠/EP+습니다/EF+./SY+키/NNG+키/XSV+ETN+뭐/IC+드/VV+시/EP+고/EC+싶/VX+으세요/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 저는 음... 으음... 생각해 볼게요? 키키",
+            "norm_text": "저는 음... 으음... 생각해 볼게요? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+음/IC+./SY+으음/IC+./SY+생각/NNG+해/XSV+EC+볼게요/VX+EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

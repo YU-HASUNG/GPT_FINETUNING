@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35147,
+    "name": "KAKAO_762_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109291337230641106/KAKAO_762_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109291337230641106/KAKAO_762_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36870,
+      "filename": "KAKAO_762_02.txt",
+      "title": "KAKAO_762_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 439,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 439,
+        "word_size": 138,
+        "text": "1 : 부산도 외곽으로 빠지면 전세 값이나 매매 값 좀 싸겠지?\n2 : 응 명지나 외곽 쪽은 아무래도 싸\n1 : 명지는 부산이라고 하기에는 너무 먼 거 같아\n2 : 그치만 요즘 아파트도 많아지고 괜찮아\n1 : 동서고가 도로 안타면 답이 없는데 거기는 교통 정체 헬이잖아\n2 : 그렇긴 한데 출퇴근 반대로 생각하면 괜찮아\n1 : 출퇴근이 반대...\n1 : 기장 쪽은 어떠려나\n2 : 기장 쪽은 너무 아무것도 없어서 비추\n1 : 하긴 기장이나 송정은 대중교통도 진짜 없지\n2 : 응 해운대 쪽은 차가 너무 막혀\n1 : 내 집 마련하면 검은 색이나 모노톤으로 인테리어하고 싶어\n2 : 무던한 스타일 좋아하나 보다\n1 : 아는 동생 네 집은 포차 스타일로 인테리어했던데\n2 : 와 그것도 나름 개성 있고 좋으네\n1 : 나는 완전 인테리어를 블랙으로 해서 **바를 차리고 싶네\n2 : 안 그래도 술 좋아하시더니 집까지 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부산도 외곽으로 빠지면 전세 값이나 매매 값 좀 싸겠지?",
+            "norm_text": "부산도 외곽으로 빠지면 전세 값이나 매매 값 좀 싸겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부산/NNP+도/JX+외곽/NNG+으로/JKB+빠지/VV+면/EC+전세/NNG+값/NNG+이나/JC+매매/NNG+값/NNG+좀/MAG+싸/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 명지나 외곽 쪽은 아무래도 싸",
+            "norm_text": "응 명지나 외곽 쪽은 아무래도 싸",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+명지/NNG+나/JC+외곽/NNG+쪽/NNB+은/JX+아무래도/MAG+싸/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 명지는 부산이라고 하기에는 너무 먼 거 같아",
+            "norm_text": "명지는 부산이라고 하기에는 너무 먼 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "명지/NNG+는/JX+부산/NNP+이/VCP+라고/EC+하/VV+기/ETN+에/JKB+는/JX+너무/MAG+먼/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그치만 요즘 아파트도 많아지고 괜찮아",
+            "norm_text": "그치만 요즘 아파트도 많아지고 괜찮아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치만/MAJ+요즘/MAG+아파트/NNG+도/JX+많/VA+아/EC+지/VX+고/EC+괜찮/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 동서고가 도로 안타면 답이 없는데 거기는 교통 정체 헬이잖아",
+            "norm_text": "동서고가 도로 안타면 답이 없는데 거기는 교통 정체 헬이잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동서/NNG+고가/NNG+도로/NNG+안/MAG+타/VV+면/EC+답/NNG+이/JKS+없/VA+는데/EC+거기/NP+는/JX+교통/NNG+정체/NNG+헬/NNP+이/VCP+잖아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그렇긴 한데 출퇴근 반대로 생각하면 괜찮아",
+            "norm_text": "그렇긴 한데 출퇴근 반대로 생각하면 괜찮아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+긴/ETN+JX+한데/VX+EC+출퇴근/NNG+반대/NNG+로/JKB+생각/NNG+하/XSV+면/EC+괜찮/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 출퇴근이 반대...",
+            "norm_text": "출퇴근이 반대...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "출퇴근/NNG+이/JKS+반대/NNG+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 기장 쪽은 어떠려나",
+            "norm_text": "기장 쪽은 어떠려나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기장/NNG+쪽/NNB+은/JX+어떠/VA+려나/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 기장 쪽은 너무 아무것도 없어서 비추",
+            "norm_text": "기장 쪽은 너무 아무것도 없어서 비추",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기장/NNG+쪽/NNB+은/JX+너무/MAG+아무것/NNG+도/JX+없/VA+어서/EC+비추/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 하긴 기장이나 송정은 대중교통도 진짜 없지",
+            "norm_text": "하긴 기장이나 송정은 대중교통도 진짜 없지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+기장/NNG+이나/JC+송정/NNG+은/JX+대중교통/NNG+도/JX+진짜/MAG+없/VA+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 해운대 쪽은 차가 너무 막혀",
+            "norm_text": "응 해운대 쪽은 차가 너무 막혀",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+해운대/NNG+쪽/NNB+은/JX+차/NNG+가/JKS+너무/MAG+막혀/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 내 집 마련하면 검은 색이나 모노톤으로 인테리어하고 싶어",
+            "norm_text": "내 집 마련하면 검은 색이나 모노톤으로 인테리어하고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+집/NNG+마련/NNG+하/XSV+면/EC+검은색/NNG+이나/JC+모노톤/NNG+으로/JKB+인테리어/NNG+하/XSV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 무던한 스타일 좋아하나 보다",
+            "norm_text": "무던한 스타일 좋아하나 보다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무던/XR+한/XSA+ETM+스타일/NNG+좋/VA+아/EC+하나/NR+보다/JKB"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아는 동생 네 집은 포차 스타일로 인테리어했던데",
+            "norm_text": "아는 동생 네 집은 포차 스타일로 인테리어했던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/VV+는/ETM+동생/NNG+네/XSN+집/NNG+은/JX+포차/NNG+스타일/NNG+로/JKB+인테리어/NNG+했/XSV+EP+던데/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 와 그것도 나름 개성 있고 좋으네",
+            "norm_text": "와 그것도 나름 개성 있고 좋으네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+그것/NP+도/JX+나름/NNB+개성/NNG+있/VV+고/EC+좋/VA+으네/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나는 완전 인테리어를 블랙으로 해서 **바를 차리고 싶네",
+            "norm_text": "나는 완전 인테리어를 블랙으로 해서 **바를 차리고 싶네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+완전/NNG+인테리어/NNG+를/JKO+블랙/NNG+으로/JKB+해서/VV+EC+*/SY+*/SY+바/NNG+를/JKO+차리/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 안 그래도 술 좋아하시더니 집까지 하하",
+            "norm_text": "안 그래도 술 좋아하시더니 집까지 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+술/NNG+좋/VA+아/EC+하/VX+시/EP+더니/EC+집/NNG+까지/JX+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

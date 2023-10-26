@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 22222,
+    "name": "KAKAO_523_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109171639260573100/KAKAO_523_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109171639260573100/KAKAO_523_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30209,
+      "filename": "KAKAO_523_18.txt",
+      "title": "KAKAO_523_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 515,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 515,
+        "word_size": 145,
+        "text": "1 : 아빠 엄마가 저번에 아빠가 주문한 뚝배기 어디서 구매했냐고 물어봐~\n2 : 그거 인터넷에서 구매했는데~ 아빠가 주소 보내줄게~ 더 산대~?\n1 : 아니 그거 환불한대 아빠 키키\n2 : 환불한대? 왜~? 그거 별로래.../?\n1 : 웅 별로래~ 엄마가 인터넷 보고 주문해서 그렇다고 난리야~\n2 : 아...아빠는 좋은 줄 알고 주문했지~...혼나겠네 하하\n1 : 인터넷 보고 이런 거 주문하지 말라 그러래~\n2 : 인터넷에 보면 좋은 게 너무 많던데~\n1 : 아빠가 저번에 주문한 LA갈비는 꿀맛이었는데...키키\n2 : 그래~ 그렇게 성공할 때도 있다니까~\n2 : 그래서 아빠가 봐 둔 게 있는데 이거 살까 말까 고민이네\n1 : 키키 또 뭐 사려고 키키\n2 : 술만 담아둘 수 있는 작은 냉장고가 싸게 나왔더라고~ 어때~\n1 : 냉장고 놓을 곳 없다고 엄마한테 혼날 걸요...?\n2 : 왜 없어~ 아빠 방에다가 놓으면 딱인데~\n1 : 누가 냉장고를 방에다가 놓냐고 혼날듯합니다 아부지\n2 : 사지마...? 그래...그럼 이건 그냥 삭제할게...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아빠 엄마가 저번에 아빠가 주문한 뚝배기 어디서 구매했냐고 물어봐~",
+            "norm_text": "아빠 엄마가 저번에 아빠가 주문한 뚝배기 어디서 구매했냐고 물어봐~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+엄마/NNG+가/JKS+저번/NNG+에/JKB+아빠/NNG+가/JKS+주문/NNG+한/XSA+ETM+뚝배기/NNG+어디/NP+서/JKB+구매/NNG+했/XSV+EP+냐고/EC+물어봐/VV+EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그거 인터넷에서 구매했는데~ 아빠가 주소 보내줄게~ 더 산대~?",
+            "norm_text": "그거 인터넷에서 구매했는데~ 아빠가 주소 보내줄게~ 더 산대~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+인터넷/NNG+에서/JKB+구매/NNG+했/XSV+EP+는데/EC+~/SY+아빠/NNG+가/JKS+주소/NNG+보내/VV+EC+줄/VX+ETM+게/NNB+JKS+~/SY+더/MAG+산대/NNG+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 그거 환불한대 아빠 키키",
+            "norm_text": "아니 그거 환불한대 아빠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+그거/NP+환불/NNG+한/XSA+ETM+대/XPN+아빠/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 환불한대? 왜~? 그거 별로래.../?",
+            "norm_text": "환불한대? 왜~? 그거 별로래.../?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "환불/NNG+한대/XSV+EF+왜/MAG+~/SY+그거/NP+별로/MAG+래/VCP+EF+./SY+//SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 웅 별로래~ 엄마가 인터넷 보고 주문해서 그렇다고 난리야~",
+            "norm_text": "웅 별로래~ 엄마가 인터넷 보고 주문해서 그렇다고 난리야~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/NNG+별/XSN+로/JKB+래/NNP+~/SY+엄마/NNG+가/JKS+인터넷/NNG+보고/JKB+주문/NNG+해서/XSV+EC+그렇/VA+다고/EC+난리/NNG+야/JKV+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아...아빠는 좋은 줄 알고 주문했지~...혼나겠네 하하",
+            "norm_text": "아...아빠는 좋은 줄 알고 주문했지~...혼나겠네 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+아빠/NNG+는/JX+좋/VA+은/ETM+줄/NNB+알/VV+고/EC+주문/NNG+했/XSV+EP+지/EC+~/SY+./SY+혼나/VV+겠/EP+네/EF+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 인터넷 보고 이런 거 주문하지 말라 그러래~",
+            "norm_text": "인터넷 보고 이런 거 주문하지 말라 그러래~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "인터넷/NNG+보/VV+고/EC+이런/MM+거/NNB+주문/NNG+하/XSV+지/EC+말/VX+라/EC+그러/VV+래/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 인터넷에 보면 좋은 게 너무 많던데~",
+            "norm_text": "인터넷에 보면 좋은 게 너무 많던데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인터넷/NNG+에/JKB+보/VV+면/EC+좋/VA+은/ETM+게/NNB+JKS+너무/MAG+많/VA+던데/EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아빠가 저번에 주문한 LA갈비는 꿀맛이었는데...키키",
+            "norm_text": "아빠가 저번에 주문한 LA갈비는 꿀맛이었는데...키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+가/JKS+저번/NNG+에/JKB+주문/NNG+한/XSA+ETM+LA/SL+갈비/NNG+는/JX+꿀맛/NNG+이/VCP+었/EP+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래~ 그렇게 성공할 때도 있다니까~",
+            "norm_text": "그래~ 그렇게 성공할 때도 있다니까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+~/SY+그렇게/MAG+성공/NNG+할/XSV+ETM+때/NNG+도/JX+있/VA+다니까/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그래서 아빠가 봐 둔 게 있는데 이거 살까 말까 고민이네",
+            "norm_text": "그래서 아빠가 봐 둔 게 있는데 이거 살까 말까 고민이네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+아빠/NNG+가/JKS+봐둔/VV+EC+VX+ETM+게/NNB+JKS+있/VA+는데/EC+이거/NP+살/VV+까말까/EC+VV+EC+고민/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 또 뭐 사려고 키키",
+            "norm_text": "키키 또 뭐 사려고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+또/MAG+뭐/IC+사/VV+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 술만 담아둘 수 있는 작은 냉장고가 싸게 나왔더라고~ 어때~",
+            "norm_text": "술만 담아둘 수 있는 작은 냉장고가 싸게 나왔더라고~ 어때~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "술/NNG+만/JX+담/VV+아/EC+둘/VX+ETM+수/NNB+있/VV+는/ETM+작/VA+은/ETM+냉장고/NNG+가/JKS+싸/VA+게/EC+나왔/VV+EP+더라고/EC+~/SY+어/IC+때/NNG+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 냉장고 놓을 곳 없다고 엄마한테 혼날 걸요...?",
+            "norm_text": "냉장고 놓을 곳 없다고 엄마한테 혼날 걸요...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "냉장고/NNG+놓/NNG+을/JKO+곳/NNG+없/VA+다고/EC+엄마/NNG+한테/JKB+혼/NNG+날걸요/VV+EF+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 왜 없어~ 아빠 방에다가 놓으면 딱인데~",
+            "norm_text": "왜 없어~ 아빠 방에다가 놓으면 딱인데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+없/VA+어/EC+~/SY+아빠/NNG+방/NNG+에다가/JKB+놓/VV+으면/EC+딱/MAG+인데/VCP+EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 누가 냉장고를 방에다가 놓냐고 혼날듯합니다 아부지",
+            "norm_text": "누가 냉장고를 방에다가 놓냐고 혼날듯합니다 아부지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누가/NP+JKS+냉장고/NNG+를/JKO+방/NNG+에다가/JKB+놓/VV+냐고/EC+혼날/VV+ETM+듯/NNB+합니다/XSA+EF+아부지/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 사지마...? 그래...그럼 이건 그냥 삭제할게...",
+            "norm_text": "사지마...? 그래...그럼 이건 그냥 삭제할게...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "사/VV+지/EC+마/VX+EF+./SY+./SY+그래/IC+./SY+그럼/MAJ+이건/NP+JX+그냥/MAG+삭제/NNG+할게/XSV+EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

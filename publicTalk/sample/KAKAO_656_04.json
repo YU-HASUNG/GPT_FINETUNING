@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 33249,
+    "name": "KAKAO_656_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151134097876/KAKAO_656_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151134097876/KAKAO_656_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34562,
+      "filename": "KAKAO_656_04.txt",
+      "title": "KAKAO_656_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 992,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 992,
+        "word_size": 309,
+        "text": "1 : 오늘 하루 회사 생활은 어땠닝 키키\n2 : 오늘 무탈했습니다 키키 30분 일찍 퇴근 하구 꿀이였습니다 키키\n2 : 어제가 완전 최악?까지는 아니였지만 하루가 바빴어요 키키\n1 : 오 진짜가 키키 나도 오늘 업무도 없고 너무 조용해서 회사 언니랑 마지막에 영화 봤잖니\n2 : 오 키키 언니 저 아침 잠이 많이서 원래 이러지 않았는데 키키 긴장이 풀려서 그런가? 지각을 자주 해여... 눈도 잘 안 떠지구 ㅠㅠ\n1 : 헛...키키 가을 타닝...?\n1 : 회사 가깝다 아니야?\n2 : 맞아요 키키 걍 오라다니니까 ㅜ 긴장이  풀린 것 같아요 키키\n1 : 키키 근데 나도 회사 집 근처로 이사하고 지각 잦아짐...키키\n1 : 옛날에 거의 한 시간씩 걸릴 때는 지각 한번도 한 적 없거든 ㅜㅜ\n2 : 맞아요 키키 저 알바도 한 번도 늦은 적이 없는데 키키\n2 : 어제는 진짜 눈 떴는데 쎄한 기분 키키 오랜만이었어요 ㅠ 키키\n1 : 크 그 느낌 알지... 키키\n1 : 난 다 회의하고 있을 때 들어가면 완전 민망 민망... 키키\n2 : 헉 키키 세상에... 키키 회의를 안 들어 갈 수도 없고...키키\n2 : 저두... 아침 일찍 행사할 때 사람들이 찾는데... 그때 일어났을 때린 키키\n1 : 키키 크...직장 생활이란 다 비슷 비슷한가 봐 키키\n2 : 저는 대체적으로 손님 오거나 행사 같은 거 있으면 맞이하고 안내해주고 프린트 필요한 거 있으면 해줘야 해서 행사 있으면 그날 하루는 피곤 ㅠ 키키 잡일 다해요\n1 : 우리도 행사 있으면 키키 진짜 손님 맞이부터 뭐 팔았는 거 계산하고 ㅜㅜ 전표 입력하고 키키\n1 : 나도 거의 잡일 다해... 행사 싫어\n2 : ㅠㅠ 키키 언니 막내에요?\n2 : 언니는 회사에서 막내는 아니죠? 키키\n1 : 어휴 아니지 키키 근데 여자가 두 명 밖에 없는데 내 위에 사수라서 키키\n1 : 그리고 내가 하는 게 편해 ㅜㅜ 힘은 들어도\n2 : 키키 ㅠㅠ 아니 그런 건 남자 시켜두 되잖아요 키키\n2 : 저는 누가 들어와두 막냉 키키 나이가 깡패라고 하지만... 제가 제일 어려요 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 하루 회사 생활은 어땠닝 키키",
+            "norm_text": "오늘 하루 회사 생활은 어땠닝 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+하루/NNG+회사/NNG+생활/NNG+은/JX+어땠/VA+EP+닝/NNP+키키/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘 무탈했습니다 키키 30분 일찍 퇴근 하구 꿀이였습니다 키키",
+            "norm_text": "오늘 무탈했습니다 키키 30분 일찍 퇴근 하구 꿀이였습니다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+무/XPN+탈/NNG+했/XSV+EP+습니다/EF+키키/NNP+30/SN+분/NNBC+일찍/MAG+퇴근/NNG+하구/JKB+꿀/NNG+이/VCP+였/EP+습니다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 어제가 완전 최악?까지는 아니였지만 하루가 바빴어요 키키",
+            "norm_text": "어제가 완전 최악?까지는 아니였지만 하루가 바빴어요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/NNG+가/JKS+완전/MAG+최악/NNG+?/SY+까지/JX+는/JX+아니/VCN+였/EP+지만/EC+하루/NNG+가/JKS+바빴/VA+EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오 진짜가 키키 나도 오늘 업무도 없고 너무 조용해서 회사 언니랑 마지막에 영화 봤잖니",
+            "norm_text": "오 진짜가 키키 나도 오늘 업무도 없고 너무 조용해서 회사 언니랑 마지막에 영화 봤잖니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+진짜/NNG+가/JKS+키/NNG+키나/XSA+ETN+JX+도/JX+오늘/MAG+업무/NNG+도/JX+없/VA+고/EC+너무/MAG+조용/XR+해서/XSA+EC+회사/NNG+언니/NNG+랑/JKB+마지막/NNG+에/JKB+영화/NNG+봤/VV+EP+잖니/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오 키키 언니 저 아침 잠이 많이서 원래 이러지 않았는데 키키 긴장이 풀려서 그런가? 지각을 자주 해여... 눈도 잘 안 떠지구 ㅠㅠ",
+            "norm_text": "오 키키 언니 저 아침 잠이 많이서 원래 이러지 않았는데 키키 긴장이 풀려서 그런가? 지각을 자주 해여... 눈도 잘 안 떠지구 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+언니/NNG+저/MM+아침잠/NNG+이/JKS+많이/MAG+서/VV+EC+원래/MAG+이러/VV+지/EC+않/VX+았/EP+는데/EC+키/NNG+키/NNG+긴장/NNG+이/JKS+풀려서/VV+EC+그런가/VA+EF+지각/NNG+을/JKO+자주/MAG+해/NNG+여/VCP+EF+./SY+눈/NNG+도/JX+잘/MAG+안/MAG+떠지/VV+구/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 헛...키키 가을 타닝...?",
+            "norm_text": "헛...키키 가을 타닝...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헛/IC+./SY+키키가을타닝/UNKNOWN+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 회사 가깝다 아니야?",
+            "norm_text": "회사 가깝다 아니야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회사/NNG+가깝/VA+다/EC+아니/VCN+야/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아요 키키 걍 오라다니니까 ㅜ 긴장이  풀린 것 같아요 키키",
+            "norm_text": "맞아요 키키 걍 오라다니니까 ㅜ 긴장이  풀린 것 같아요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+요키/NNP+키걍/UNKNOWN+오/VV+라/EC+다니/VV+니까/EC+ㅜ/UNKNOWN+긴장/NNG+이/JKS+풀린/VV+ETM+것/NNB+같/VA+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 근데 나도 회사 집 근처로 이사하고 지각 잦아짐...키키",
+            "norm_text": "키키 근데 나도 회사 집 근처로 이사하고 지각 잦아짐...키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+나/NP+도/JX+회사/NNG+집/NNG+근처/NNG+로/JKB+이사/NNG+하/XSV+고/EC+지각/NNG+잦아짐/VV+ETN+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 옛날에 거의 한 시간씩 걸릴 때는 지각 한번도 한 적 없거든 ㅜㅜ",
+            "norm_text": "옛날에 거의 한 시간씩 걸릴 때는 지각 한번도 한 적 없거든 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옛날/NNG+에/JKB+거의/MAG+한/MM+시간/NNG+씩/XSN+걸릴/VV+ETM+때/NNG+는/JX+지각/NNG+한/MM+번/NNBC+도/JX+한/VV+ETM+적/NNB+없/VA+거든/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 맞아요 키키 저 알바도 한 번도 늦은 적이 없는데 키키",
+            "norm_text": "맞아요 키키 저 알바도 한 번도 늦은 적이 없는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+요키/NNP+키저/NNG+알/VV+ETM+바/NNB+도/JX+한/MM+번/NNBC+도/JX+늦/VA+은/ETM+적/NNB+이/JKS+없/VA+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어제는 진짜 눈 떴는데 쎄한 기분 키키 오랜만이었어요 ㅠ 키키",
+            "norm_text": "어제는 진짜 눈 떴는데 쎄한 기분 키키 오랜만이었어요 ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/NNG+는/JX+진짜/MAG+눈떴/VV+EP+는데/EC+쎄/NNG+한/XSA+ETM+기분/NNG+키/NNG+키/NNG+오랜만/NNG+이/VCP+었/EP+어요/EF+ㅠ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 크 그 느낌 알지... 키키",
+            "norm_text": "크 그 느낌 알지... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "크/IC+그/MM+느낌/NNG+알/VV+지/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 난 다 회의하고 있을 때 들어가면 완전 민망 민망... 키키",
+            "norm_text": "난 다 회의하고 있을 때 들어가면 완전 민망 민망... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+다/MAG+회의/NNG+하/XSV+고/EC+있/VX+을/ETM+때/NNG+들어가/VV+면/EC+완전/NNG+민망/NNG+민망/NNG+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 헉 키키 세상에... 키키 회의를 안 들어 갈 수도 없고...키키",
+            "norm_text": "헉 키키 세상에... 키키 회의를 안 들어 갈 수도 없고...키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+키/NNG+키/NNG+세상/NNG+에/JKB+./SY+키/NNG+키/NNG+회의/NNG+를/JKO+안/MAG+들어갈/VV+ETM+수/NNB+도/JX+없/VA+고/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 저두... 아침 일찍 행사할 때 사람들이 찾는데... 그때 일어났을 때린 키키",
+            "norm_text": "저두... 아침 일찍 행사할 때 사람들이 찾는데... 그때 일어났을 때린 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+두/JX+./SY+아침/NNG+일찍/MAG+행사/NNG+할/XSV+ETM+때/NNG+사람/NNG+들/XSN+이/JKS+찾/VV+는데/EC+./SY+./SY+그때/NNG+일어났/VV+EP+을/ETM+때린/VV+ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 크...직장 생활이란 다 비슷 비슷한가 봐 키키",
+            "norm_text": "키키 크...직장 생활이란 다 비슷 비슷한가 봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+크/IC+./SY+직장/NNG+생활/NNG+이란/JX+다/MAG+비슷비슷/XR+한가/XSA+EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 저는 대체적으로 손님 오거나 행사 같은 거 있으면 맞이하고 안내해주고 프린트 필요한 거 있으면 해줘야 해서 행사 있으면 그날 하루는 피곤 ㅠ 키키 잡일 다해요",
+            "norm_text": "저는 대체적으로 손님 오거나 행사 같은 거 있으면 맞이하고 안내해주고 프린트 필요한 거 있으면 해줘야 해서 행사 있으면 그날 하루는 피곤 ㅠ 키키 잡일 다해요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+대체/NNG+적/XSN+으로/JKB+손/NNG+님/XSN+오/VV+거나/EC+행사/NNG+같/VA+은/ETM+거/NNB+있/VA+으면/EC+맞이/XR+하/XSA+고/EC+안내/NNG+해/XSV+EC+주/VX+고/EC+프린트/NNG+필요/NNG+한/XSA+ETM+거/NNB+있/VA+으면/EC+해/VV+EC+줘야/VX+EC+해서/VV+EC+행사/NNG+있/VV+으면/EC+그날/NNG+하루/NNG+는/JX+피곤/NNG+ㅠ키/UNKNOWN+키/NNG+잡일/NNG+다/MAG+해요/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 우리도 행사 있으면 키키 진짜 손님 맞이부터 뭐 팔았는 거 계산하고 ㅜㅜ 전표 입력하고 키키",
+            "norm_text": "우리도 행사 있으면 키키 진짜 손님 맞이부터 뭐 팔았는 거 계산하고 ㅜㅜ 전표 입력하고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+도/JX+행사/NNG+있/VV+으면/EC+키/NNG+키/XSV+ETN+진짜/MAG+손님맞이/NNG+부터/JX+뭐/IC+팔/VV+았/EP+는/ETM+거/NNB+계산/NNG+하/XSV+고/EC+ㅜㅜ/UNKNOWN+전표/NNG+입력/NNG+하/XSV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 나도 거의 잡일 다해... 행사 싫어",
+            "norm_text": "나도 거의 잡일 다해... 행사 싫어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "나/NP+도/JX+거의/MAG+잡일/NNG+다/MAG+해/VV+EF+./SY+행사/NNG+싫/VA+어/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : ㅠㅠ 키키 언니 막내에요?",
+            "norm_text": "ㅠㅠ 키키 언니 막내에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+키/NNG+키/NNG+언니/NNG+막내/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 22,
+            "text": "2 : 언니는 회사에서 막내는 아니죠? 키키",
+            "norm_text": "언니는 회사에서 막내는 아니죠? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+회사/NNG+에서/JKB+막내/NNG+는/JX+아니/VCN+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 어휴 아니지 키키 근데 여자가 두 명 밖에 없는데 내 위에 사수라서 키키",
+            "norm_text": "어휴 아니지 키키 근데 여자가 두 명 밖에 없는데 내 위에 사수라서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어휴/IC+아니/VCN+지/EC+키/NNG+키/XSV+ETN+근데/MAJ+여자/NNG+가/JKS+두/MM+명/NNBC+밖에/JX+없/VA+는데/EC+내/NP+JKG+위/NNG+에/JKB+사수/NNG+라서/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 그리고 내가 하는 게 편해 ㅜㅜ 힘은 들어도",
+            "norm_text": "그리고 내가 하는 게 편해 ㅜㅜ 힘은 들어도",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+내/NP+가/JKS+하/VV+는/ETM+게/NNB+JKS+편해/VA+EC+ㅜㅜ/UNKNOWN+힘/NNG+은/JX+들어도/VV+EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 키키 ㅠㅠ 아니 그런 건 남자 시켜두 되잖아요 키키",
+            "norm_text": "키키 ㅠㅠ 아니 그런 건 남자 시켜두 되잖아요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+ㅠㅠ/UNKNOWN+아니/IC+그런/MM+건/NNB+JX+남자/NNG+시켜/XSV+EC+두/MM+되/NNBC+잖아요/VCP+EC+VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 저는 누가 들어와두 막냉 키키 나이가 깡패라고 하지만... 제가 제일 어려요 키키",
+            "norm_text": "저는 누가 들어와두 막냉 키키 나이가 깡패라고 하지만... 제가 제일 어려요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+누가/NP+JKS+들어와/VV+EC+두/MM+막/NNBC+냉/XPN+키/NNG+키나/XSA+ETN+JX+이/NP+가/JKS+깡패/NNG+라고/VCP+EC+하/VV+지만/EC+./SY+./SY+제/NP+가/JKS+제일/MAG+어려/VV+EC+요키/NNP+키/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

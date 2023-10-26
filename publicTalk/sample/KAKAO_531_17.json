@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 28803,
+    "name": "KAKAO_531_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150923022360/KAKAO_531_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150923022360/KAKAO_531_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29588,
+      "filename": "KAKAO_531_17.txt",
+      "title": "KAKAO_531_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 430,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 430,
+        "word_size": 145,
+        "text": "1 : 요즘 감기 걸리기 딱인 거 같아\n2 : 지금 홀짝 홀짝 콧물 흘리고 있다\n1 : 나도 다시 시작됐어 코 먹는 소리 ㅠ\n2 : 목이 간질간질하고 재채기하면서 콧물까지 영락없는 감기 증상 ㅠㅠ\n1 : 일단 따뜻한 물이라도 마셔\n2 : 다행히 열은 없네 열 있으면 집에 가려고 했는데\n1 : 가디건은 입고 있지? 따뜻하게 하고 있어\n2 : 아 입어야겠다\n2 : 그다지 춥지 않아서 생각을 안 했었지\n1 : 쌀쌀해 난 오늘은 장판 키고 잘까 생각 중\n2 : 그렇게 해 그럼 몸이 개운해질 거야\n1 : 창문은 열고 자야지\n1 : 코 때문에 스트레스야\n2 : 창문은 조금만 열고 전기장판은 약하게 안 그럼 설친다\n1 : 알았어 그렇게 할게\n1 : 오늘 푹 자겠다\n2 : 비염도 고질인데 큰일이다 이제 시작이니\n1 : 아 정말 걱정이다 비염 ㅜㅠ 벌써 불편해\n2 : 올 겨울 어떻게 잘 보내야 할 텐데 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 감기 걸리기 딱인 거 같아",
+            "norm_text": "요즘 감기 걸리기 딱인 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+감기/NNG+걸리/VV+기/ETN+딱/MAG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 지금 홀짝 홀짝 콧물 흘리고 있다",
+            "norm_text": "지금 홀짝 홀짝 콧물 흘리고 있다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+홀짝홀짝/MAG+콧물/NNG+흘리/VV+고/EC+있/VX+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나도 다시 시작됐어 코 먹는 소리 ㅠ",
+            "norm_text": "나도 다시 시작됐어 코 먹는 소리 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+다시/MAG+시작/NNG+됐/XSV+EP+어/EC+코먹/VV+는/ETM+소리/NNG+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 목이 간질간질하고 재채기하면서 콧물까지 영락없는 감기 증상 ㅠㅠ",
+            "norm_text": "목이 간질간질하고 재채기하면서 콧물까지 영락없는 감기 증상 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "목/NNG+이/JKS+간질간질/MAG+하/VV+고/EC+재채기/NNG+하/XSV+면서/EC+콧물/NNG+까지/JX+영락없/VA+는/ETM+감기/NNG+증상/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 일단 따뜻한 물이라도 마셔",
+            "norm_text": "일단 따뜻한 물이라도 마셔",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "일단/MAG+따뜻/XR+한/XSA+ETM+물/NNG+이/VCP+라도/EC+마셔/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 다행히 열은 없네 열 있으면 집에 가려고 했는데",
+            "norm_text": "다행히 열은 없네 열 있으면 집에 가려고 했는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행히/MAG+열/NNG+은/JX+없/VA+네/EF+열/NR+있/VV+으면/EC+집/NNG+에/JKB+가/VV+려고/EC+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 가디건은 입고 있지? 따뜻하게 하고 있어",
+            "norm_text": "가디건은 입고 있지? 따뜻하게 하고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "가디건/NNG+은/JX+입/VV+고/EC+있/VX+지/EF+따뜻/XR+하/XSA+게/EC+하/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 입어야겠다",
+            "norm_text": "아 입어야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+입/VV+어야/EC+겠다/VX+EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그다지 춥지 않아서 생각을 안 했었지",
+            "norm_text": "그다지 춥지 않아서 생각을 안 했었지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그다지/MAG+춥/VA+지/EC+않/VX+아서/EC+생각/NNG+을/JKO+안/MAG+했었/VV+EP+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 쌀쌀해 난 오늘은 장판 키고 잘까 생각 중",
+            "norm_text": "쌀쌀해 난 오늘은 장판 키고 잘까 생각 중",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쌀쌀/MAG+해난/NNG+오늘/NNG+은/JX+장판/NNG+키/VV+고/EC+잘까/VV+EF+생각/NNG+중/NNB"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그렇게 해 그럼 몸이 개운해질 거야",
+            "norm_text": "그렇게 해 그럼 몸이 개운해질 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그렇게/MAG+해/VV+EF+그럼/MAJ+몸/NNG+이/JKS+개운/XR+해질/XSA+EC+VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 창문은 열고 자야지",
+            "norm_text": "창문은 열고 자야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "창문/NNG+은/JX+열/VV+고자/EC+야지/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 코 때문에 스트레스야",
+            "norm_text": "코 때문에 스트레스야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코/NNG+때문/NNB+에/JKB+스트레스/NNG+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 창문은 조금만 열고 전기장판은 약하게 안 그럼 설친다",
+            "norm_text": "창문은 조금만 열고 전기장판은 약하게 안 그럼 설친다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "창문/NNG+은/JX+조금/MAG+만/JX+열/VV+고/EC+전기장판/NNG+은/JX+약하/VA+게/EC+안/MAG+그럼/VV+EC+설친다/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 알았어 그렇게 할게",
+            "norm_text": "알았어 그렇게 할게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+았/EP+어/EF+그렇게/MAG+할/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오늘 푹 자겠다",
+            "norm_text": "오늘 푹 자겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+푹/MAG+자/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 비염도 고질인데 큰일이다 이제 시작이니",
+            "norm_text": "비염도 고질인데 큰일이다 이제 시작이니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비염/NNG+도/JX+고질/NNG+인데/VCP+EC+큰일/NNG+이/JKS+다/MAG+이제/MAG+시작/NNG+이/VCP+니/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 정말 걱정이다 비염 ㅜㅠ 벌써 불편해",
+            "norm_text": "아 정말 걱정이다 비염 ㅜㅠ 벌써 불편해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+걱정/NNG+이/JKS+다/MAG+비염/NNG+ㅜㅠ/UNKNOWN+벌써/MAG+불편/NNG+해/XSV+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 올 겨울 어떻게 잘 보내야 할 텐데 ㅠㅠ",
+            "norm_text": "올 겨울 어떻게 잘 보내야 할 텐데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "올겨울/NNG+어떻게/MAG+잘/MAG+보내/VV+야/EC+할/VX+ETM+텐데/NNB+VCP+EC+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

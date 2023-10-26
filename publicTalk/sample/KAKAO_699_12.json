@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 55765,
+    "name": "KAKAO_699_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114633003835/KAKAO_699_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114633003835/KAKAO_699_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35671,
+      "filename": "KAKAO_699_12.txt",
+      "title": "KAKAO_699_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 481,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 481,
+        "word_size": 167,
+        "text": "1 : 내 친구는 여름 휴가를 지금 간대 키키\n2 : 헐 대박 키키 걔는 휴가 안 쓰고 아껴 놨대?\n1 : 응 키키 진짜 대박이지 않나 키키 부러워 죽겠다\n2 : 야 여름에 죽도록 고생한 건데... 대단하지 뭐 키키\n1 : 걔는 여름을 좋아해서 키키 여름에 눈치 보며 휴가 안 쓴대\n2 : 아 진짜? 여름을 좋아해? 키키 대단하네 진짜\n1 : 응 걔는 항상 가을에 휴가 간대 키키\n2 : 휴가 어디로 간대? 지금 딱 놀러 가기 좋은데\n1 : 이번에 전라도 쪽으로 갈 건가 봐\n2 : 헐~ 미식 투어 가는 거야?\n2 : 나도 좀 데려가라고 해\n1 : 모르는 사인데 어떻게 데려가냐고 키키 소개해 줘?\n2 : 아니 키키 말이 그렇단 거지 키키 내가 맛집 소개해 줄게\n1 : 이가 왜 그걸 소개해 줘 얘 완전 맛잘알임 키키\n2 : 아 진짜? 대박 나랑 딱 맞겠다 소개 쩜 키키\n1 : 담에 같이 만나 그럼 키키 나도 담엔 전주로 여행 가야지\n2 : 야 나랑 같이 가 이번 주말에 갔다 올래 걍?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 내 친구는 여름 휴가를 지금 간대 키키",
+            "norm_text": "내 친구는 여름 휴가를 지금 간대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+는/JX+여름휴가/NNG+를/JKO+지금/MAG+간대/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐 대박 키키 걔는 휴가 안 쓰고 아껴 놨대?",
+            "norm_text": "헐 대박 키키 걔는 휴가 안 쓰고 아껴 놨대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+대박/NNG+키/NNG+키/XSV+ETN+걔/NP+는/JX+휴가/NNG+안/MAG+쓰/VV+고/EC+아껴/VV+EC+놨/VX+EP+대/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 키키 진짜 대박이지 않나 키키 부러워 죽겠다",
+            "norm_text": "응 키키 진짜 대박이지 않나 키키 부러워 죽겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+진짜/MAG+대박/NNG+이/VCP+지/EC+않/VX+나/EC+키/NNG+키/XSV+ETN+부러워/VA+EC+죽/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 야 여름에 죽도록 고생한 건데... 대단하지 뭐 키키",
+            "norm_text": "야 여름에 죽도록 고생한 건데... 대단하지 뭐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+여름/NNG+에/JKB+죽/VV+도록/EC+고생/NNG+한/XSA+ETM+건데/NNB+VCP+EF+./SY+대단/XR+하/XSA+지/EF+뭐/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 걔는 여름을 좋아해서 키키 여름에 눈치 보며 휴가 안 쓴대",
+            "norm_text": "걔는 여름을 좋아해서 키키 여름에 눈치 보며 휴가 안 쓴대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걔/NP+는/JX+여름/NNG+을/JKO+좋/VA+아/EC+해서/VV+EC+키/NNG+키/NNG+여름/NNG+에/JKB+눈치보/VV+며/EC+휴가/NNG+안/MAG+쓴대/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 진짜? 여름을 좋아해? 키키 대단하네 진짜",
+            "norm_text": "아 진짜? 여름을 좋아해? 키키 대단하네 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+여름/NNG+을/JKO+좋아해/VV+EF+키/NNG+키/XSV+ETN+대단/XR+하/XSA+네/EF+진짜/MAG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 걔는 항상 가을에 휴가 간대 키키",
+            "norm_text": "응 걔는 항상 가을에 휴가 간대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+걔/NP+는/JX+항상/MAG+가을/NNG+에/JKB+휴가/NNG+간대/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 휴가 어디로 간대? 지금 딱 놀러 가기 좋은데",
+            "norm_text": "휴가 어디로 간대? 지금 딱 놀러 가기 좋은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "휴가/NNG+어디/NP+로/JKB+간대/VV+EF+지금/MAG+딱/MAG+놀/VV+러/EC+가/VX+기/ETN+좋/VA+은데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 이번에 전라도 쪽으로 갈 건가 봐",
+            "norm_text": "이번에 전라도 쪽으로 갈 건가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+전라도/NNP+쪽/NNB+으로/JKB+갈/VV+ETM+건가/NNB+VCP+EC+봐/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐~ 미식 투어 가는 거야?",
+            "norm_text": "헐~ 미식 투어 가는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/NNP+~/SY+미식/NNG+투어/NNG+가/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나도 좀 데려가라고 해",
+            "norm_text": "나도 좀 데려가라고 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+좀/MAG+데려가/VV+라고/EC+해/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 모르는 사인데 어떻게 데려가냐고 키키 소개해 줘?",
+            "norm_text": "모르는 사인데 어떻게 데려가냐고 키키 소개해 줘?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "모르/VV+는/ETM+사인데/NNG+VCP+EC+어떻게/MAG+데려가/VV+냐고/EC+키/NNG+키/NNG+소개/NNG+해/XSV+EC+줘/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니 키키 말이 그렇단 거지 키키 내가 맛집 소개해 줄게",
+            "norm_text": "아니 키키 말이 그렇단 거지 키키 내가 맛집 소개해 줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니키/NNP+키/NNG+말/NNG+이/JKS+그렇/VA+단/ETM+거/NNB+지/VCP+EC+키/NNG+키/XSV+ETN+내/NP+가/JKS+맛집/NNG+소개/NNG+해/XSV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 14,
+            "text": "1 : 이가 왜 그걸 소개해 줘 얘 완전 맛잘알임 키키",
+            "norm_text": "이가 왜 그걸 소개해 줘 얘 완전 맛잘알임 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/NP+가/JKS+왜/MAG+그걸/NP+JKO+소개/NNG+해/XSV+EC+줘/VX+EF+얘/IC+완전/MAG+맛/NNG+잘/MAG+알/NNG+임/VCP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아 진짜? 대박 나랑 딱 맞겠다 소개 쩜 키키",
+            "norm_text": "아 진짜? 대박 나랑 딱 맞겠다 소개 쩜 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+대박/NNG+나/NP+랑/JKB+딱/MAG+맞/VV+겠/EP+다/EC+소개/NNG+쩜키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 담에 같이 만나 그럼 키키 나도 담엔 전주로 여행 가야지",
+            "norm_text": "담에 같이 만나 그럼 키키 나도 담엔 전주로 여행 가야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "담/NNG+에/JKB+같이/MAG+만나/VV+EC+그럼/MAJ+키/NNG+키나/XSA+ETN+JX+도/JX+담/NNG+엔/JKB+JX+전/NP+JX+주로/MAG+여행/NNG+가야지/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 야 나랑 같이 가 이번 주말에 갔다 올래 걍?",
+            "norm_text": "야 나랑 같이 가 이번 주말에 갔다 올래 걍?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "야/IC+나/NP+랑/JKB+같이/MAG+가/VV+EC+이번/NNG+주말/NNG+에/JKB+갔다올/VV+ETM+래걍/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

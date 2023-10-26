@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 23950,
+    "name": "KAKAO_531_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150923012718/KAKAO_531_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150923012718/KAKAO_531_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29574,
+      "filename": "KAKAO_531_03.txt",
+      "title": "KAKAO_531_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 416,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 142,
+        "text": "1 : 요즘 고속도로에 차 많아?\n2 : 좀 있음 명절이잖아 그래서 차가 없어\n1 : 고속도로 차 다니는 것도 명절 영향이 있나 봐?\n2 : 그럼 명절 때 다닐려고 움직이질 않아\n1 : 아 몰랐네 근데 벌써 없다고?\n2 : 응 고속도로는 20일 전부터 없어\n1 : 신기하네 키키 역시 도로에서 일하니 다르군\n2 : 그럼 여기서 근무한 지가 몇 년인데\n1 : 나름 도로 상황을 꿰고 있군\n2 : 특히 명절 통행료 면제 땜에 차가 다 그때 움직여\n1 : 아 다들 생각이 있구나\n1 : 이번에도 통행료 면제야?\n2 : 글쎄 아직 발표가 안 돼서 모르겠네\n1 : 통행료 면제이면 엄마는 무슨 일 해?\n2 : 통행료만 안 받는 거 뿐이지 하는 일은 똑같아\n1 : 아 난 수납 안 하고 그냥 지나가는 줄 알았어\n2 : 그럼 더 일만 늘어나 힘들어\n2 : 너 같이 생각하는 사람들이 많아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 고속도로에 차 많아?",
+            "norm_text": "요즘 고속도로에 차 많아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+고속/NNG+도로/NNG+에/JKB+차/NNG+많/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 좀 있음 명절이잖아 그래서 차가 없어",
+            "norm_text": "좀 있음 명절이잖아 그래서 차가 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좀/MAG+있/VV+음/ETN+명절/NNG+이/VCP+잖아/EF+그래서/MAJ+차/NNG+가/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 고속도로 차 다니는 것도 명절 영향이 있나 봐?",
+            "norm_text": "고속도로 차 다니는 것도 명절 영향이 있나 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고속/NNG+도/JX+로차/NNG+다니/VV+는/ETM+것/NNB+도/JX+명절/NNG+영향/NNG+이/JKS+있/VV+나/EC+봐/VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럼 명절 때 다닐려고 움직이질 않아",
+            "norm_text": "그럼 명절 때 다닐려고 움직이질 않아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+명절/NNG+때/NNG+다닐려고/VV+EC+움직이/VV+질/EC+JX+않/VX+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 몰랐네 근데 벌써 없다고?",
+            "norm_text": "아 몰랐네 근데 벌써 없다고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+몰랐/VV+EP+네/EF+근데/MAJ+벌써/MAG+없/VA+다고/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 고속도로는 20일 전부터 없어",
+            "norm_text": "응 고속도로는 20일 전부터 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응고/NNG+속도/NNG+로/JKB+는/JX+20/SN+일/NNBC+전/NNG+부터/JX+없/VA+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 신기하네 키키 역시 도로에서 일하니 다르군",
+            "norm_text": "신기하네 키키 역시 도로에서 일하니 다르군",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "신기/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN+역시/MAJ+도로/NNG+에서/JKB+일/NNG+하/XSV+니/EC+다르/VA+군/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 여기서 근무한 지가 몇 년인데",
+            "norm_text": "그럼 여기서 근무한 지가 몇 년인데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+여기/NP+서/JKB+근무/NNG+한/XSA+ETM+지/NNB+가/JKS+몇/MM+년/NNBC+인데/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나름 도로 상황을 꿰고 있군",
+            "norm_text": "나름 도로 상황을 꿰고 있군",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나름/NNB+도로/NNG+상황/NNG+을/JKO+꿰/VV+고/EC+있/VX+군/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 특히 명절 통행료 면제 땜에 차가 다 그때 움직여",
+            "norm_text": "특히 명절 통행료 면제 땜에 차가 다 그때 움직여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "특히/MAG+명절/NNG+통행료/NNG+면제/NNG+땜/NNB+에/JKB+차/NNG+가/JKS+다/MAG+그때/NNG+움직여/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 다들 생각이 있구나",
+            "norm_text": "아 다들 생각이 있구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+다/MAG+들/XSN+생각/NNG+이/JKS+있/VV+구나/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 이번에도 통행료 면제야?",
+            "norm_text": "이번에도 통행료 면제야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+에/JKB+도/JX+통행료/NNG+면제/NNG+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 글쎄 아직 발표가 안 돼서 모르겠네",
+            "norm_text": "글쎄 아직 발표가 안 돼서 모르겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글쎄/IC+아직/MAG+발표/NNG+가/JKS+안/MAG+돼서/VV+EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 통행료 면제이면 엄마는 무슨 일 해?",
+            "norm_text": "통행료 면제이면 엄마는 무슨 일 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "통행료/NNG+면제/NNG+이/VCP+면/EC+엄마/NNG+는/JX+무슨/MM+일/NNG+해/XSV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 통행료만 안 받는 거 뿐이지 하는 일은 똑같아",
+            "norm_text": "통행료만 안 받는 거 뿐이지 하는 일은 똑같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "통행료/NNG+만/JX+안/MAG+받/VV+는/ETM+거/NNB+뿐/JX+이/VCP+지/EC+하/VV+는/ETM+일/NNG+은/JX+똑같/VA+아/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 난 수납 안 하고 그냥 지나가는 줄 알았어",
+            "norm_text": "아 난 수납 안 하고 그냥 지나가는 줄 알았어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아난/NNP+수납/NNG+안/MAG+하/VV+고/EC+그냥/MAG+지나가/VV+는/ETM+줄/NNB+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그럼 더 일만 늘어나 힘들어",
+            "norm_text": "그럼 더 일만 늘어나 힘들어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+더/MAG+일/NNG+만/JX+늘어나/VV+EC+힘들/VA+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 너 같이 생각하는 사람들이 많아",
+            "norm_text": "너 같이 생각하는 사람들이 많아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+같이/MAG+생각/NNG+하/XSV+는/ETM+사람/NNG+들/XSN+이/JKS+많/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

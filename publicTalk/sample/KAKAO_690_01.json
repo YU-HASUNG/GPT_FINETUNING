@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 33131,
+    "name": "KAKAO_690_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055011870/KAKAO_690_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055011870/KAKAO_690_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35300,
+      "filename": "KAKAO_690_01.txt",
+      "title": "KAKAO_690_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 578,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 578,
+        "word_size": 187,
+        "text": "1 : 나 오늘 점심 때 삼겹살 먹었어! 하하\n2 : 오 삼겹살 좋다\n2 : 나는 오늘 순두부찌개 먹음 키키\n1 : 오오! 맛있었겠네!\n1 : 집에서 해먹었나?\n2 : 아니 오빠랑 데이트하면서 외식했지!\n2 : 얼큰한 게 맛있었어 하하\n1 : 키키 얼큰한 거 좋지! 키키\n1 : 맛집 찾아갔나 보네! 하하\n2 : 응 오랜만에 날씨도 좋아서 팔공산 간 김에 먹었어\n1 : 우아! 팔공산에 맛있는 데 많잖아! ㅜㅜ 좋았겠다!\n2 : 진짜 팔공산 너무 좋았어 ㅠ\n2 : 사람도 얼마나 많던지\n1 : 카페 같은 데도 이쁜 데 엄청 많더만 키키\n1 : 카페도 갔나?\n2 : 응 키키 근데 카페는 스타벅스 갔어\n2 : 원두는 스타벅스지\n1 : 키키 아 그래도 팔공산까지 갔는데 개인 카페 가야지 키키\n2 : 키키 오빠랑 이시아폴리스에서 쇼핑도 해야 되는데 오빠 서울로도 올라가야 해서 시간이 부족했어\n1 : 아아 그랬구만? ㅜㅜ 주말에만 만나니까 바쁘겠다 데이트가 ㅜ\n2 : 응 ㅠ 진짜 시간이 순식간에 가 키키\n2 : 카페 좋은 데 가서 사진 찍고 싶당\n1 : ㅜㅜ 그니까 요즘 카페들 이쁜 곳이 너무 많아서 다 가보고 싶다! 하하\n2 : 요즘은 빵도 진짜 다양하게 많이 있어서 좋아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 오늘 점심 때 삼겹살 먹었어! 하하",
+            "norm_text": "나 오늘 점심 때 삼겹살 먹었어! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+오늘/MAG+점심때/NNG+삼겹살/NNG+먹/VV+었/EP+어/EF+하하/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 삼겹살 좋다",
+            "norm_text": "오 삼겹살 좋다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+삼겹살/NNG+좋/VA+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나는 오늘 순두부찌개 먹음 키키",
+            "norm_text": "나는 오늘 순두부찌개 먹음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+오늘/MAG+순두부찌개/NNG+먹/VV+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오오! 맛있었겠네!",
+            "norm_text": "오오! 맛있었겠네!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+맛있/VA+었/EP+겠/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 집에서 해먹었나?",
+            "norm_text": "집에서 해먹었나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+에서/JKB+해/VV+EC+먹/VV+었/EP+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 오빠랑 데이트하면서 외식했지!",
+            "norm_text": "아니 오빠랑 데이트하면서 외식했지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+오빠/NNG+랑/JKB+데이트/NNG+하/XSV+면서/EC+외식/NNG+했/XSV+EP+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 얼큰한 게 맛있었어 하하",
+            "norm_text": "얼큰한 게 맛있었어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "얼큰/XR+한/XSA+ETM+게/NNB+JKS+맛있/VA+었/EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 얼큰한 거 좋지! 키키",
+            "norm_text": "키키 얼큰한 거 좋지! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+얼큰/XR+한/XSA+ETM+거/NNB+좋/VA+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맛집 찾아갔나 보네! 하하",
+            "norm_text": "맛집 찾아갔나 보네! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맛집/NNG+찾아갔/VV+EP+나/EC+보/VX+네/EF+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 오랜만에 날씨도 좋아서 팔공산 간 김에 먹었어",
+            "norm_text": "응 오랜만에 날씨도 좋아서 팔공산 간 김에 먹었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+오랜만/NNG+에/JKB+날씨/NNG+도/JX+좋/VA+아서/EC+팔공/NNG+산간/NNG+김/NNB+에/JKB+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 우아! 팔공산에 맛있는 데 많잖아! ㅜㅜ 좋았겠다!",
+            "norm_text": "우아! 팔공산에 맛있는 데 많잖아! ㅜㅜ 좋았겠다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우아/IC+팔/VV+ETM+공산/NNG+에/JKB+맛있/VA+는데/EC+많/VA+잖아/EF+ㅜㅜ/UNKNOWN+좋/VA+았/EP+겠/EP+다/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 진짜 팔공산 너무 좋았어 ㅠ",
+            "norm_text": "진짜 팔공산 너무 좋았어 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+팔/NNG+공산/NNG+너무/MAG+좋/VA+았/EP+어ㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 사람도 얼마나 많던지",
+            "norm_text": "사람도 얼마나 많던지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사람/NNG+도/JX+얼마나/MAG+많/VA+던지/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 카페 같은 데도 이쁜 데 엄청 많더만 키키",
+            "norm_text": "카페 같은 데도 이쁜 데 엄청 많더만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "카페/NNG+같/VA+은/ETM+데/NNB+도/JX+이쁜데/VA+EC+엄청/MAG+많/VA+더만/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 카페도 갔나?",
+            "norm_text": "카페도 갔나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카페/NNG+도/JX+갔/VV+EP+나/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 키키 근데 카페는 스타벅스 갔어",
+            "norm_text": "응 키키 근데 카페는 스타벅스 갔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+근데/MAJ+카페/NNG+는/JX+스타/NNG+벅스/NNP+갔/VV+EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 원두는 스타벅스지",
+            "norm_text": "원두는 스타벅스지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원두/NNG+는/JX+스타벅/NNP+스지/NNP"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 아 그래도 팔공산까지 갔는데 개인 카페 가야지 키키",
+            "norm_text": "키키 아 그래도 팔공산까지 갔는데 개인 카페 가야지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+그래도/VV+EC+팔/VV+ETM+공산/NNG+까지/JX+갔/VV+EP+는데/EC+개인/NNG+카페/NNG+가/JKS+야지/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 오빠랑 이시아폴리스에서 쇼핑도 해야 되는데 오빠 서울로도 올라가야 해서 시간이 부족했어",
+            "norm_text": "키키 오빠랑 이시아폴리스에서 쇼핑도 해야 되는데 오빠 서울로도 올라가야 해서 시간이 부족했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+오빠/NNG+랑/JC+이시아/NNP+폴리스/NNP+에서/JKB+쇼핑/NNG+도/JX+해야/VV+EC+되/VV+는데/EC+오빠/NNG+서울/NNP+로/JKB+도/JX+올라가/VV+야/EC+해서/VV+EC+시간/NNG+이/JKS+부족/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아아 그랬구만? ㅜㅜ 주말에만 만나니까 바쁘겠다 데이트가 ㅜ",
+            "norm_text": "아아 그랬구만? ㅜㅜ 주말에만 만나니까 바쁘겠다 데이트가 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+그랬/VV+EP+구만/EF+ㅜㅜ/UNKNOWN+주말/NNG+에/JKB+만/JX+만나/VV+니까/EC+바쁘/VA+겠/EP+다/EC+데이트/NNG+가/JKS+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 응 ㅠ 진짜 시간이 순식간에 가 키키",
+            "norm_text": "응 ㅠ 진짜 시간이 순식간에 가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응ㅠ/UNKNOWN+진짜/MAG+시간/NNG+이/JKS+순식간/NNG+에/JKB+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 카페 좋은 데 가서 사진 찍고 싶당",
+            "norm_text": "카페 좋은 데 가서 사진 찍고 싶당",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "카페/NNG+좋/VA+은데/EC+가/VX+서/EC+사진/NNG+찍/VV+고/EC+싶/VX+당/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : ㅜㅜ 그니까 요즘 카페들 이쁜 곳이 너무 많아서 다 가보고 싶다! 하하",
+            "norm_text": "ㅜㅜ 그니까 요즘 카페들 이쁜 곳이 너무 많아서 다 가보고 싶다! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그니까/MAJ+요즘/MAG+카페/NNG+들/XSN+이쁜/VA+ETM+곳/NNG+이/JKS+너무/MAG+많/VA+아서/EC+다가/VV+EC+보/VX+고/EC+싶/VX+다/EF+하하/MAG"
+          },
+          {
+            "id": 24,
+            "text": "2 : 요즘은 빵도 진짜 다양하게 많이 있어서 좋아",
+            "norm_text": "요즘은 빵도 진짜 다양하게 많이 있어서 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+빵/NNG+도/JX+진짜/MAG+다양/NNG+하/XSV+게/EC+많이/MAG+있/VA+어서/EC+좋/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20058,
+    "name": "KAKAO_454_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940090511/KAKAO_454_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940090511/KAKAO_454_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27865,
+      "filename": "KAKAO_454_15.txt",
+      "title": "KAKAO_454_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 444,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 444,
+        "word_size": 125,
+        "text": "1 : 탈레반이랑 아이에스랑 다른 건가요?\n2 : 제가 알기로는 IS가 악질 중에서 악질로 알고 있어요.\n1 : 그렇군요 그럼 아이에스 중에 오사마 빈라덴 아세요\n2 : 그 사람 911테러 주동자 아닌가요? 죽었나요?\n1 : 네 미국이 죽였죠\n1 : 또 뭐가 있나요\n2 : 요즘에 미국에서 허리케인이 몰아칠 거라고 큰일이네요.\n1 : 아 진짜요 그거는 태풍이랑 다른 거죠?\n2 : 16전 전에는 1800여 명이 죽었잖아요.\n1 : 영화에서만 보던 허리케인 엄청나네요\n2 : 그때 그게 3등급 카트리나라고 하면 아실 텐데 모르세요?\n1 : 아 들어봤어요 그럼 이번에도 허리케인이 오나요\n2 : 풍속이 230km였나 그랬을 거예요.\n1 : 무섭네요 상상도 안 가네요\n2 : 그래서 지금 뉴올리언스 국제 공항은 대피 승객이 가득해요.\n1 : 미국은 늘 허리케인에 시달리네요\n2 : 루이지애나주는 차량 통행을 금지시켰다고 하네요.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 탈레반이랑 아이에스랑 다른 건가요?",
+            "norm_text": "탈레반이랑 아이에스랑 다른 건가요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "탈레반/NNP+이랑/JC+아이/IC+에스/NNG+랑/JKB+다른/VA+ETM+건가요/NNB+VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 제가 알기로는 IS가 악질 중에서 악질로 알고 있어요.",
+            "norm_text": "제가 알기로는 IS가 악질 중에서 악질로 알고 있어요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제/NP+가/JKS+알/VV+기/ETN+로/JKB+는/JX+IS/SL+가/JKS+악질/NNG+중/NNB+에서/JKB+악질/NNG+로/JKB+알/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그렇군요 그럼 아이에스 중에 오사마 빈라덴 아세요",
+            "norm_text": "그렇군요 그럼 아이에스 중에 오사마 빈라덴 아세요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+군요/EF+그럼/MAJ+아이/IC+에스/NNG+중/NNB+에/JKB+오사마/+빈/+라덴/+아세요/VV+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그 사람 911테러 주동자 아닌가요? 죽었나요?",
+            "norm_text": "그 사람 911테러 주동자 아닌가요? 죽었나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+사람/NNG+911/SN+테러/NNG+주동자/NNG+아닌가요/VCN+EF+죽/VV+었/EP+나요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 네 미국이 죽였죠",
+            "norm_text": "네 미국이 죽였죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+미국/NNP+이/JKS+죽였/VV+EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 또 뭐가 있나요",
+            "norm_text": "또 뭐가 있나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또/MAG+뭐/NP+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 요즘에 미국에서 허리케인이 몰아칠 거라고 큰일이네요.",
+            "norm_text": "요즘에 미국에서 허리케인이 몰아칠 거라고 큰일이네요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+에/JKB+미국/NNP+에서/JKB+허리케인/NNG+이/JKS+몰아칠/VV+ETM+거/NNB+라고/VCP+EC+큰일/NNG+이/VCP+네요/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진짜요 그거는 태풍이랑 다른 거죠?",
+            "norm_text": "아 진짜요 그거는 태풍이랑 다른 거죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+요/JX+그거/NP+는/JX+태풍/NNG+이랑/JC+다른/MM+거/NNB+죠/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 16전 전에는 1800여 명이 죽었잖아요.",
+            "norm_text": "16전 전에는 1800여 명이 죽었잖아요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "16/SN+전전/NNG+에/JKB+는/JX+1800/SN+여/XSN+명/NNBC+이/JKS+죽/VV+었잖/EC+VX+아요/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 영화에서만 보던 허리케인 엄청나네요",
+            "norm_text": "영화에서만 보던 허리케인 엄청나네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영화/NNG+에서/JKB+만/JX+보/VV+던/ETM+허리케인/NNG+엄청나/XSA+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그때 그게 3등급 카트리나라고 하면 아실 텐데 모르세요?",
+            "norm_text": "그때 그게 3등급 카트리나라고 하면 아실 텐데 모르세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그때/NNG+그게/NP+JKS+3/SN+등급/NNBC+카트리나/NNP+라고/VCP+EC+하/VV+면/EC+아실/VV+EP+ETM+텐데/NNB+VCP+EC+모르/VV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 들어봤어요 그럼 이번에도 허리케인이 오나요",
+            "norm_text": "아 들어봤어요 그럼 이번에도 허리케인이 오나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+들/VV+어/EC+봤/VX+EP+어요/EF+그럼/MAJ+이번/NNG+에/JKB+도/JX+허리케인/NNG+이/JKS+오/VV+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 풍속이 230km였나 그랬을 거예요.",
+            "norm_text": "풍속이 230km였나 그랬을 거예요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "풍속/NNG+이/JKS+230/SN+km/SL+였/VCP+EP+나/EC+그랬/VV+EP+을/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 무섭네요 상상도 안 가네요",
+            "norm_text": "무섭네요 상상도 안 가네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무섭/VA+네요/EF+상상/NNG+도/JX+안/MAG+가/VV+네요/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그래서 지금 뉴올리언스 국제 공항은 대피 승객이 가득해요.",
+            "norm_text": "그래서 지금 뉴올리언스 국제 공항은 대피 승객이 가득해요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+지금/MAG+뉴올리언스/NNP+국제공항/NNG+은/JX+대피/NNG+승객/NNG+이/JKS+가득/MAG+해요/VV+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 미국은 늘 허리케인에 시달리네요",
+            "norm_text": "미국은 늘 허리케인에 시달리네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "미국/NNP+은/JX+늘/MAG+허리케인/NNG+에/JKB+시달리/VV+네요/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 루이지애나주는 차량 통행을 금지시켰다고 하네요.",
+            "norm_text": "루이지애나주는 차량 통행을 금지시켰다고 하네요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "루이지애나/+주/+는/JX+차량/NNG+통행/NNG+을/JKO+금지/NNG+시켰/XSV+EP+다고/EC+하/VX+네요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

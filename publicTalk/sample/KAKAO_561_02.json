@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 24905,
+    "name": "KAKAO_561_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209013850/KAKAO_561_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209013850/KAKAO_561_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30053,
+      "filename": "KAKAO_561_02.txt",
+      "title": "KAKAO_561_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 551,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 551,
+        "word_size": 186,
+        "text": "1 : 요즘 부동산 투자해서 돈 버는 게 유행인데 투자해 봤어?\n2 : 아니 나는 돈이 없어서 넌 지금 하고 있어?\n1 : 돈 없어도 가능하다고 하던데 나는 아직 안 하고 있지 생각 중이야\n2 : 돈이 없는데 그게 어떻게 가능해?\n1 : 어느 정도만 있어도 매매하고 나서 전세를 다른 사람한테 주면 그 돈으로 메꾸면 가능해\n2 : 근데 매매할 돈도 있어야지 난 그것도 없는걸?\n2 : 넌 돈 좀 모았나 봐?\n1 : 조금만 있으면 가능해 천만 원만 있어도 가능한 걸\n1 : 모아 놓은 거 하나도 없어?\n2 : 응 나 천만 원도 없는데 넌 있어?\n1 : 그건 말할 수 없어 차 팔면 천만 원 나올 꺼 같은데\n2 : 근데 너 차 팔 생각 없잖아 키키\n1 : 그럼 부동산 말고 주식하면 돼 키키\n1 : 주식은 너 하고 있지 않냐\n2 : 주식 그냥 넣어만 놓고 있어 찔끔 키키 넌 주식해?\n1 : 주식 말고 코인은 했었어\n1 : 재미는 있는데 리스크가 너무 크던데 부동산이 최고인 거 같아\n2 : 그렇구나 코인은 했었구나\n2 : 부동산은 안전해?\n1 : 안전하대 다음에 같이해 보자 알려줄게!\n2 : 그래 좋아! 돈 모으고 있을게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 부동산 투자해서 돈 버는 게 유행인데 투자해 봤어?",
+            "norm_text": "요즘 부동산 투자해서 돈 버는 게 유행인데 투자해 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+부동산/NNG+투자/NNG+해서/XSV+EC+돈/NNG+버/VV+는/ETM+게/NNB+JKS+유행/NNG+인데/VCP+EC+투자/NNG+해/XSV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 나는 돈이 없어서 넌 지금 하고 있어?",
+            "norm_text": "아니 나는 돈이 없어서 넌 지금 하고 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+나/NP+는/JX+돈/NNG+이/JKS+없/VA+어서/EC+넌/NP+JX+지금/NNG+하/XSV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 돈 없어도 가능하다고 하던데 나는 아직 안 하고 있지 생각 중이야",
+            "norm_text": "돈 없어도 가능하다고 하던데 나는 아직 안 하고 있지 생각 중이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "돈/NNG+없/VA+어도/EC+가능/NNG+하/XSV+다고/EC+하/VV+던데/EC+나/NP+는/JX+아직/MAG+안/MAG+하/VV+고/EC+있/VX+지/EC+생각/NNG+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 돈이 없는데 그게 어떻게 가능해?",
+            "norm_text": "돈이 없는데 그게 어떻게 가능해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "돈/NNG+이/JKS+없/VA+는데/EC+그게/NP+JKS+어떻게/MAG+가능/NNG+해/XSV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어느 정도만 있어도 매매하고 나서 전세를 다른 사람한테 주면 그 돈으로 메꾸면 가능해",
+            "norm_text": "어느 정도만 있어도 매매하고 나서 전세를 다른 사람한테 주면 그 돈으로 메꾸면 가능해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어느/MM+정도/NNG+만/JX+있/VX+어도/EC+매매/NNG+하/XSV+고/EC+나/VX+서/EC+전세/NNG+를/JKO+다른/MM+사람/NNG+한테/JKB+주/VV+면/EC+그/MM+돈/NNG+으로/JKB+메꾸/VV+면/EC+가능/NNG+해/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 매매할 돈도 있어야지 난 그것도 없는걸?",
+            "norm_text": "근데 매매할 돈도 있어야지 난 그것도 없는걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+매매/NNG+할/XSV+ETM+돈/NNG+도/JX+있/VA+어야/EC+지난/VV+ETM+그것/NP+도/JX+없/VA+는걸/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 넌 돈 좀 모았나 봐?",
+            "norm_text": "넌 돈 좀 모았나 봐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+돈/NNG+좀/MAG+모았/VV+EP+나/EC+봐/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 조금만 있으면 가능해 천만 원만 있어도 가능한 걸",
+            "norm_text": "조금만 있으면 가능해 천만 원만 있어도 가능한 걸",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조금/MAG+만/JX+있/VX+으면/EC+가능/NNG+해/XSV+EC+천만/NR+원/NNBC+만/JX+있/VX+어도/EC+가능/NNG+한/XSA+ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 9,
+            "text": "1 : 모아 놓은 거 하나도 없어?",
+            "norm_text": "모아 놓은 거 하나도 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "모아/VV+EC+놓/VX+은/ETM+거/NNB+하나/NR+도/JX+없/VA+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 나 천만 원도 없는데 넌 있어?",
+            "norm_text": "응 나 천만 원도 없는데 넌 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+나/NP+천만/NR+원/NNBC+도/JX+없/VA+는데/EC+넌/NP+JX+있/VX+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그건 말할 수 없어 차 팔면 천만 원 나올 꺼 같은데",
+            "norm_text": "그건 말할 수 없어 차 팔면 천만 원 나올 꺼 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+말/NNG+할/XSV+ETM+수/NNB+없/VA+어/EC+차/NNG+팔/VV+면/EC+천만/NR+원/NNBC+나올/VV+ETM+꺼/NNB+VCP+같/VA+은데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 너 차 팔 생각 없잖아 키키",
+            "norm_text": "근데 너 차 팔 생각 없잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+너/NP+차/NNG+팔/NR+생각/NNG+없/VA+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 부동산 말고 주식하면 돼 키키",
+            "norm_text": "그럼 부동산 말고 주식하면 돼 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+부동산/NNG+말/VV+고/EC+주식/NNG+하/XSV+면/EC+돼/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 주식은 너 하고 있지 않냐",
+            "norm_text": "주식은 너 하고 있지 않냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주식/NNG+은/JX+너/NP+하/VV+고/EC+있/VX+지/EC+않/VX+냐/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 주식 그냥 넣어만 놓고 있어 찔끔 키키 넌 주식해?",
+            "norm_text": "주식 그냥 넣어만 놓고 있어 찔끔 키키 넌 주식해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주식/NNG+그냥/MAG+넣/VV+어만/EC+놓/VX+고/EC+있/VX+어/EC+찔끔/MAG+키/NNG+키/XSV+ETN+넌/JX+주식/NNG+해/XSV+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 주식 말고 코인은 했었어",
+            "norm_text": "주식 말고 코인은 했었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주식/NNG+말/VV+고/EC+코인/NNG+은/JX+했었/VV+EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 재미는 있는데 리스크가 너무 크던데 부동산이 최고인 거 같아",
+            "norm_text": "재미는 있는데 리스크가 너무 크던데 부동산이 최고인 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "재미/NNG+는/JX+있/VX+는데/EC+리스크/NNG+가/JKS+너무/MAG+크/VA+던데/EC+부동산/NNG+이/JKS+최고/NNG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그렇구나 코인은 했었구나",
+            "norm_text": "그렇구나 코인은 했었구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+코인/NNG+은/JX+했었/VV+EP+구나/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 부동산은 안전해?",
+            "norm_text": "부동산은 안전해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부동산/NNG+은/JX+안/MAG+전해/VV+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 안전하대 다음에 같이해 보자 알려줄게!",
+            "norm_text": "안전하대 다음에 같이해 보자 알려줄게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "안전/NNG+하대/NNG+다음/NNG+에/JKB+같이/MAG+해/VV+EC+보/VX+자/EC+알려/VV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래 좋아! 돈 모으고 있을게",
+            "norm_text": "그래 좋아! 돈 모으고 있을게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+좋/VA+아/EF+돈/NNG+모으/VV+고/EC+있/VX+을/ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 24854,
+    "name": "KAKAO_535_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917160200032167/KAKAO_535_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917160200032167/KAKAO_535_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30048,
+      "filename": "KAKAO_535_17.txt",
+      "title": "KAKAO_535_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 661,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 661,
+        "word_size": 212,
+        "text": "1 : 자기야 나 오늘 찬물 먹는데 이가 너무 시려운 거야\n2 : 헐 이 아프면 나 너무 싫은데... 병원 갔어?\n1 : 웅 병원에서 지금 충치가 8개 있고 6개는 당장은 안 해 되는데\n2 : 헐 뭐 그렇게 많아? 자기 이도 잘 닦으면서?\n1 : 긍까. 6개는 뭐 어쩔 수 없이 이빨 잘 닦는 사람도 충치가 생기는 건데 왼쪽 어금니 쪽 2개는 무조건 충치 치료 해야 한대.\n2 : 아... 뭐 수술 이런 건 아니지?\n1 : 수술...? 그런 건 아니고 그냥 충치 치료인데 개당 10만 원 정도 하더라고\n1 : 근데 따로 치아 보험 든 거 이런 거 없긴 해\n2 : 치아 보험은 나도 없어 키키\n2 : 치아 보험은 보험 설계할 때 잘 얘기도 안 해주더라구... 좀 오래되긴 했는데.\n1 : 그러니까 나도 예전에 가입한 거밖에 없어\n2 : 나머지는 6개는 그냥 냅두래?\n1 : 이거 6개는 시간 더 봐서 지금 아픈 것처럼 아파지면 그때 치료해도 괜찮다고 일단 보자고 하더라\n2 : 다행이네 그나마 근데 충치가 생각보다 많네...\n1 : 웅 자기는 치과 최근에 언제 갔어?\n2 : 나 한... 몇 년 된 거 같은데...?\n1 : 자기 스케일링도 안 한 지 오래됐나 보네...?\n1 : 안 되겠다 나랑 다음 주에 스케일링하러 가자\n2 : 아...? 스케일링...? 키키\n2 : 안 한 지 너무 오래됐나...? 키키 그래 가자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 나 오늘 찬물 먹는데 이가 너무 시려운 거야",
+            "norm_text": "자기야 나 오늘 찬물 먹는데 이가 너무 시려운 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자기/NP+야/VCP+EF+나/NP+오늘/MAG+찬물/NNG+먹/VV+는데/EC+이/NP+가/JKS+너무/MAG+시려운/VA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐 이 아프면 나 너무 싫은데... 병원 갔어?",
+            "norm_text": "헐 이 아프면 나 너무 싫은데... 병원 갔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/NNP+이/JKS+아프/VA+면/EC+나/NP+너무/MAG+싫/VA+은데/EF+./SY+병원/NNG+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 웅 병원에서 지금 충치가 8개 있고 6개는 당장은 안 해 되는데",
+            "norm_text": "웅 병원에서 지금 충치가 8개 있고 6개는 당장은 안 해 되는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+병원/NNG+에서/JKB+지금/MAG+충치/NNG+가/JKS+8/SN+개/NNBC+있/VA+고/EC+6/SN+개/NNBC+는/JX+당장/NNG+은/JX+안/MAG+해/VV+EC+되/VV+는데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헐 뭐 그렇게 많아? 자기 이도 잘 닦으면서?",
+            "norm_text": "헐 뭐 그렇게 많아? 자기 이도 잘 닦으면서?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+뭐/IC+그렇게/MAG+많/VA+아/EF+자기/NP+이/NP+도/JX+잘/MAG+닦/VV+으면서/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 긍까. 6개는 뭐 어쩔 수 없이 이빨 잘 닦는 사람도 충치가 생기는 건데 왼쪽 어금니 쪽 2개는 무조건 충치 치료 해야 한대.",
+            "norm_text": "긍까. 6개는 뭐 어쩔 수 없이 이빨 잘 닦는 사람도 충치가 생기는 건데 왼쪽 어금니 쪽 2개는 무조건 충치 치료 해야 한대.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "긍까/MAJ+./SY+6/SN+개/NNBC+는/JX+뭐/IC+어쩔/VV+ETM+수/NNB+없이/MAG+이빨/NNG+잘/MAG+닦/VV+는/ETM+사람/NNG+도/JX+충치/NNG+가/JKS+생기/VV+는/ETM+건데/NNB+VCP+EC+왼쪽/NNG+어금니/NNG+쪽/NNB+2/SN+개/NNBC+는/JX+무조건/MAG+충치/NNG+치료/NNG+해야/XSV+EC+한대/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아... 뭐 수술 이런 건 아니지?",
+            "norm_text": "아... 뭐 수술 이런 건 아니지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+뭐/IC+수술/NNG+이런/MM+건/NNB+JX+아니/VCN+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 수술...? 그런 건 아니고 그냥 충치 치료인데 개당 10만 원 정도 하더라고",
+            "norm_text": "수술...? 그런 건 아니고 그냥 충치 치료인데 개당 10만 원 정도 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "수술/NNG+./SY+./SY+그런/MM+건/NNB+JX+아니/VCN+고/EC+그냥/MAG+충치/NNG+치료/NNG+인데/VCP+EC+개당/NNG+10/SN+만/NR+원/NNBC+정도/NNG+하/XSV+더라고/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 근데 따로 치아 보험 든 거 이런 거 없긴 해",
+            "norm_text": "근데 따로 치아 보험 든 거 이런 거 없긴 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+따로/MAG+치아/VV+EC+보험/NNG+든/VV+ETM+거/NNB+이런/MM+거/NNB+없/VA+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 치아 보험은 나도 없어 키키",
+            "norm_text": "치아 보험은 나도 없어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치아/NNG+보험/NNG+은/JX+나/NP+도/JX+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 치아 보험은 보험 설계할 때 잘 얘기도 안 해주더라구... 좀 오래되긴 했는데.",
+            "norm_text": "치아 보험은 보험 설계할 때 잘 얘기도 안 해주더라구... 좀 오래되긴 했는데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치아/NNG+보험/NNG+은/JX+보험/NNG+설계/NNG+할/XSV+ETM+때/NNG+잘/MAG+얘기/NNG+도/JX+안/MAG+해/VV+EC+주/VX+더라구/EF+./SY+좀/MAG+오래/MAG+되/VV+긴/ETN+JX+했/VX+EP+는데/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러니까 나도 예전에 가입한 거밖에 없어",
+            "norm_text": "그러니까 나도 예전에 가입한 거밖에 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+나/NP+도/JX+예전/NNG+에/JKB+가입/NNG+한/XSA+ETM+거/NNB+밖에/JX+없/VA+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나머지는 6개는 그냥 냅두래?",
+            "norm_text": "나머지는 6개는 그냥 냅두래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나머지/NNG+는/JX+6/SN+개/NNBC+는/JX+그냥/MAG+냅두/VV+래/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 이거 6개는 시간 더 봐서 지금 아픈 것처럼 아파지면 그때 치료해도 괜찮다고 일단 보자고 하더라",
+            "norm_text": "이거 6개는 시간 더 봐서 지금 아픈 것처럼 아파지면 그때 치료해도 괜찮다고 일단 보자고 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이거/NP+6/SN+개/NNBC+는/JX+시간/NNG+더/MAG+봐서/VV+EC+지금/MAG+아픈/VA+ETM+것/NNB+처럼/JKB+아파지/VV+면/EC+그때/NNG+치료/NNG+해도/XSV+EC+괜찮/VA+다고/EC+일단/MAG+보/VV+자고/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 다행이네 그나마 근데 충치가 생각보다 많네...",
+            "norm_text": "다행이네 그나마 근데 충치가 생각보다 많네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/VCP+네/EF+그나마/MAG+근데/MAJ+충치/NNG+가/JKS+생각/NNG+보다/JKB+많/VA+네/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 웅 자기는 치과 최근에 언제 갔어?",
+            "norm_text": "웅 자기는 치과 최근에 언제 갔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "웅/IC+자기/NP+는/JX+치과/NNG+최근/NNG+에/JKB+언제/MAG+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나 한... 몇 년 된 거 같은데...?",
+            "norm_text": "나 한... 몇 년 된 거 같은데...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나한/NNP+./SY+./SY+몇/MM+년/NNBC+된/VV+ETM+거/NNB+같/VA+은데/EF+./SY+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 자기 스케일링도 안 한 지 오래됐나 보네...?",
+            "norm_text": "자기 스케일링도 안 한 지 오래됐나 보네...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+스케일링/NNG+도/JX+안/MAG+한지/VV+EC+오래/MAG+됐/VV+EP+나/EC+보/VX+네/EF+./SY+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 안 되겠다 나랑 다음 주에 스케일링하러 가자",
+            "norm_text": "안 되겠다 나랑 다음 주에 스케일링하러 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "안/MAG+되/VV+겠/EP+다/EF+나/NP+랑/JKB+다음/NNG+주/NNG+에/JKB+스케일링/NNG+하/XSV+러/EC+가/VX+자/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아...? 스케일링...? 키키",
+            "norm_text": "아...? 스케일링...? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아/IC+./SY+./SY+스케일링/NNG+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 안 한 지 너무 오래됐나...? 키키 그래 가자",
+            "norm_text": "안 한 지 너무 오래됐나...? 키키 그래 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "안/MAG+한지/VV+EC+너무/MAG+오래/MAG+됐/VV+EP+나/EF+./SY+./SY+키/NNG+키/XSV+ETN+그래/VA+EC+가/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

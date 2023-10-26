@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 29920,
+    "name": "KAKAO_486_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150820076289/KAKAO_486_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150820076289/KAKAO_486_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28493,
+      "filename": "KAKAO_486_03.txt",
+      "title": "KAKAO_486_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 419,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 419,
+        "word_size": 146,
+        "text": "1 : 나 오늘 버스 탔는데 교카 고장 났더라 ㅜㅜ\n2 : 헐 그래서 어떻게 했어?\n1 : 내려서 현금 뽑아서 탔음 ㅜㅜ\n2 : 헐 에바네 ... 차 하나 사자 그냥 우리\n1 : 진짜 차 사고 싶다 면허가 있으면 뭐 하노 ,\n2 : 오 , 난 면허도 없는데 ...\n1 : 키키 저번에 시험 치러 간댔잖아\n2 : 당근 떨어졌지\n2 : 평생 대중교통 인생일 예정\n1 : 오... 대중교통은 좋겠다 선택 받았네\n2 : 키키 자동차는 다음 생애 ㅠㅠ\n1 : 맞다 그게 우리 생명 연장의 길이다\n2 : 아 키키 너무 웃기다 비행기 타고 다닐까 그냥?\n1 : 키키 그것도 나쁘지 않지 서울 가는 것도 기름 값보다 비행기값이 더 싸디\n2 : 그니까 빠르고 얼마나 좋노 면허 안 딸래 ㅜㅜ\n1 : 키키 다음 시험 접수 안 했음?\n2 : 했어 , 앞뒤가 다른 나 ...\n2 : 따긴 해야지 ...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 오늘 버스 탔는데 교카 고장 났더라 ㅜㅜ",
+            "norm_text": "나 오늘 버스 탔는데 교카 고장 났더라 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+오늘/MAG+버스/NNG+탔/VV+EP+는데/EC+교카/NNP+고장났/VV+EP+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐 그래서 어떻게 했어?",
+            "norm_text": "헐 그래서 어떻게 했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+그래서/MAJ+어떻게/MAG+했/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 내려서 현금 뽑아서 탔음 ㅜㅜ",
+            "norm_text": "내려서 현금 뽑아서 탔음 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내려서/VV+EC+현금/NNG+뽑/VV+아서/EC+탔/VV+EP+음/ETN+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헐 에바네 ... 차 하나 사자 그냥 우리",
+            "norm_text": "헐 에바네 ... 차 하나 사자 그냥 우리",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "헐/IC+에바/NNP+네/VCP+EF+./SY+차/NNG+하나/NR+사자/NNG+그냥/MAG+우리/NP"
+          },
+          {
+            "id": 5,
+            "text": "1 : 진짜 차 사고 싶다 면허가 있으면 뭐 하노 ,",
+            "norm_text": "진짜 차 사고 싶다 면허가 있으면 뭐 하노 ,",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+차/VV+사고/EC+싶/VX+다/EC+면허/NNG+가/JKS+있/VA+으면/EC+뭐/IC+하노/NNP+,/SC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오 , 난 면허도 없는데 ...",
+            "norm_text": "오 , 난 면허도 없는데 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+,/SC+난/NP+JX+면허/NNG+도/JX+없/VA+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 저번에 시험 치러 간댔잖아",
+            "norm_text": "키키 저번에 시험 치러 간댔잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+저번/NNG+에/JKB+시험/NNG+치러/VV+EC+간/NNG+댔/XSV+EP+잖아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 당근 떨어졌지",
+            "norm_text": "당근 떨어졌지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "당근/MAG+떨어졌/VV+EP+지/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 평생 대중교통 인생일 예정",
+            "norm_text": "평생 대중교통 인생일 예정",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평생/NNG+대중교통/NNG+인/VCP+ETM+생일/NNG+예정/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오... 대중교통은 좋겠다 선택 받았네",
+            "norm_text": "오... 대중교통은 좋겠다 선택 받았네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+대중교통/NNG+은/JX+좋/VA+겠/EP+다/EC+선택/NNG+받/VV+았/EP+네/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 자동차는 다음 생애 ㅠㅠ",
+            "norm_text": "키키 자동차는 다음 생애 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+자동차/NNG+는/JX+다음/NNG+생애/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞다 그게 우리 생명 연장의 길이다",
+            "norm_text": "맞다 그게 우리 생명 연장의 길이다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EF+그게/NP+JKS+우리/NP+생명/NNG+연장/NNG+의/JKG+길/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 키키 너무 웃기다 비행기 타고 다닐까 그냥?",
+            "norm_text": "아 키키 너무 웃기다 비행기 타고 다닐까 그냥?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아키/NNP+키/NNG+너무/MAG+웃기/VV+다/EC+비행기/NNG+타/VV+고/EC+다닐까/VV+EC+그냥/MAG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그것도 나쁘지 않지 서울 가는 것도 기름 값보다 비행기값이 더 싸디",
+            "norm_text": "키키 그것도 나쁘지 않지 서울 가는 것도 기름 값보다 비행기값이 더 싸디",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그것/NP+도/JX+나쁘/VA+지/EC+않/VX+지/EC+서울/NNP+가/VV+는/ETM+것/NNB+도/JX+기름/NNG+값/NNG+보다/JKB+비행기/NNG+값/NNG+이/JKS+더/MAG+싸/VA+디/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그니까 빠르고 얼마나 좋노 면허 안 딸래 ㅜㅜ",
+            "norm_text": "그니까 빠르고 얼마나 좋노 면허 안 딸래 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+빠르/VA+고/EC+얼마나/MAG+좋/VA+노/EC+면허/NNG+안/MAG+딸/VV+래/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 다음 시험 접수 안 했음?",
+            "norm_text": "키키 다음 시험 접수 안 했음?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+다음/NNG+시험/NNG+접수/NNG+안/MAG+했/VV+EP+음/ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 했어 , 앞뒤가 다른 나 ...",
+            "norm_text": "했어 , 앞뒤가 다른 나 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "했/VV+EP+어/EF+,/SC+앞뒤/NNG+가/JKS+다른/MM+나/NP+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 따긴 해야지 ...",
+            "norm_text": "따긴 해야지 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "따/VV+긴/ETN+JX+해야지/VX+EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

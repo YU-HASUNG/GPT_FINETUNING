@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 34909,
+    "name": "KAKAO_637_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120558097746/KAKAO_637_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120558097746/KAKAO_637_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32227,
+      "filename": "KAKAO_637_14.txt",
+      "title": "KAKAO_637_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 535,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 535,
+        "word_size": 175,
+        "text": "1 : 헉 또 확진자가 2000명이  넘었네...?\n2 : 정말이야...? 이젠 뉴스도 잘 안 보게 돼 ㅠㅠ\n1 : 추석에도 친척 집 가기 글렀어!\n2 : 아기 얼마 전부터 다시 등원했는데 또 가정 보육 해야 하나 ㅠㅠ\n1 : 헐 4단계 되면 가정 보육 하라고 그래?\n2 : 확진자가 안 줄어들어 ㅠㅠ\n2 : 근데 사람들이 백신 접종 하고는 좀 안일해진 거 같긴 해\n1 : 가정 보육 하면 학원비 깎아줘...?\n2 : 응 4단계면 긴급 보육 이라고 가정 보육 권고해 ㅠㅠ\n1 : 헐랭 그럼 넌 가정 보육 하는 편이야?\n2 : 아냐 돈은 돈대로 내야 해...\n2 : 그러니까 엄마들도 그냥 등원 시켜 ㅠㅠ 힘들기도 하고\n1 : 엥 그게 뭐야 학원비 얼만뎅...?\n2 : 응 2달 정도 가정 보육 했는데 이게 엄마도 아기도 힘들잖아 사실...\n1 : 당연하지 그 나이 때 애들도 친구들 만나야 행\n2 : 보육료는 4세는 정부 지원 백프로라 사실 사비는 전혀 안 들긴 하는데\n1 : 아 진짜? 그런 게 또 있구나\n2 : 대신 육아 수당을 못 받아\n2 : 그래서 엄마들이 엄청 고민해 퇴소를 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 헉 또 확진자가 2000명이  넘었네...?",
+            "norm_text": "헉 또 확진자가 2000명이  넘었네...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+또/MAG+확진/NNG+자/XSN+가/JKS+2000/SN+명/NNBC+이/JKS+넘/VV+었/EP+네/EF+./SY+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 정말이야...? 이젠 뉴스도 잘 안 보게 돼 ㅠㅠ",
+            "norm_text": "정말이야...? 이젠 뉴스도 잘 안 보게 돼 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+이/NP+야/VCP+EF+./SY+./SY+이젠/MAG+JX+뉴스/NNG+도/JX+잘/MAG+안/MAG+보/VV+게/EC+돼/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 추석에도 친척 집 가기 글렀어!",
+            "norm_text": "추석에도 친척 집 가기 글렀어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추석/NNG+에/JKB+도/JX+친척/NNG+집/NNG+가/VV+기/ETN+글렀/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아기 얼마 전부터 다시 등원했는데 또 가정 보육 해야 하나 ㅠㅠ",
+            "norm_text": "아기 얼마 전부터 다시 등원했는데 또 가정 보육 해야 하나 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아기/NNG+얼마/NNG+전/NNG+부터/JX+다시/MAG+등원/NNG+했/XSV+EP+는데/EC+또/MAG+가정/NNG+보육/NNG+해야/XSV+EC+하나/NR+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 헐 4단계 되면 가정 보육 하라고 그래?",
+            "norm_text": "헐 4단계 되면 가정 보육 하라고 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/VV+ETM+4/SN+단계/NNG+되/XSV+면/EC+가정/NNG+보육/NNG+하/XSV+라고/EC+그래/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 확진자가 안 줄어들어 ㅠㅠ",
+            "norm_text": "확진자가 안 줄어들어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "확진/NNG+자/XSN+가/JKS+안/MAG+줄어들/VV+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 근데 사람들이 백신 접종 하고는 좀 안일해진 거 같긴 해",
+            "norm_text": "근데 사람들이 백신 접종 하고는 좀 안일해진 거 같긴 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+사람/NNG+들/XSN+이/JKS+백신/NNG+접종/NNG+하/XSV+고/EC+는/JX+좀/MAG+안일/NNG+해진/XSA+EC+VX+ETM+거/NNB+같/VA+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 가정 보육 하면 학원비 깎아줘...?",
+            "norm_text": "가정 보육 하면 학원비 깎아줘...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가정/NNG+보육/NNG+하/XSV+면/EC+학원/NNG+비/NNG+깎/VV+아/EC+줘/VX+EF+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응 4단계면 긴급 보육 이라고 가정 보육 권고해 ㅠㅠ",
+            "norm_text": "응 4단계면 긴급 보육 이라고 가정 보육 권고해 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+4/SN+단계/NNG+면/VCP+EC+긴급/NNG+보육/NNG+이/VCP+라고/EC+가/JKS+정보/NNG+육/NR+권고/NNG+해/XSV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 헐랭 그럼 넌 가정 보육 하는 편이야?",
+            "norm_text": "헐랭 그럼 넌 가정 보육 하는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐랭/NNP+그럼/MAJ+넌/NP+JX+가정/NNG+보육/NNG+하/XSV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아냐 돈은 돈대로 내야 해...",
+            "norm_text": "아냐 돈은 돈대로 내야 해...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아냐/IC+돈/NNG+은/JX+돈/NNG+대로/JKB+내/VV+야/EC+해/VX+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그러니까 엄마들도 그냥 등원 시켜 ㅠㅠ 힘들기도 하고",
+            "norm_text": "그러니까 엄마들도 그냥 등원 시켜 ㅠㅠ 힘들기도 하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+엄마/NNG+들/XSN+도/JX+그냥/MAG+등원/NNG+시켜/XSV+EC+ㅠㅠ/UNKNOWN+힘들/VA+기/ETN+도/JX+하/VV+고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 엥 그게 뭐야 학원비 얼만뎅...?",
+            "norm_text": "엥 그게 뭐야 학원비 얼만뎅...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+그게/NP+JKS+뭐/IC+야학/NNG+원비/NNG+얼/NNG+만/JX+뎅/MAG+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 2달 정도 가정 보육 했는데 이게 엄마도 아기도 힘들잖아 사실...",
+            "norm_text": "응 2달 정도 가정 보육 했는데 이게 엄마도 아기도 힘들잖아 사실...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+2/SN+달/NNBC+정도/NNG+가/JKS+정보/NNG+육/NNG+했/XSV+EP+는데/EC+이게/NP+JKS+엄마/NNG+도/JX+아기/NNG+도/JX+힘들/VA+잖아/EF+사실/MAG+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 당연하지 그 나이 때 애들도 친구들 만나야 행",
+            "norm_text": "당연하지 그 나이 때 애들도 친구들 만나야 행",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+그/MM+나이/NNG+때/NNG+애/NNG+들/XSN+도/JX+친구/NNG+들/XSN+만나/VV+EC+야행/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 보육료는 4세는 정부 지원 백프로라 사실 사비는 전혀 안 들긴 하는데",
+            "norm_text": "보육료는 4세는 정부 지원 백프로라 사실 사비는 전혀 안 들긴 하는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보육/NNG+료/NNG+는/JX+4/SN+세/NNBC+는/JX+정부/NNG+지원/NNG+백/NR+프로/NNBC+라/VCP+EC+사실/MAG+사비/NNG+는/JX+전혀/MAG+안/MAG+들/VV+긴/ETN+JX+하/VX+는데/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 진짜? 그런 게 또 있구나",
+            "norm_text": "아 진짜? 그런 게 또 있구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+그런/MM+게/NNB+JKS+또/MAG+있/VV+구나/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 대신 육아 수당을 못 받아",
+            "norm_text": "대신 육아 수당을 못 받아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대신/NNG+육아/NNG+수당/NNG+을/JKO+못/MAG+받/VV+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그래서 엄마들이 엄청 고민해 퇴소를 키키",
+            "norm_text": "그래서 엄마들이 엄청 고민해 퇴소를 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+엄마/NNG+들/XSN+이/JKS+엄청/MAG+고민/NNG+해/XSV+EC+퇴소/NNG+를/JKO+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

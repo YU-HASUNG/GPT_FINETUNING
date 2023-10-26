@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 72857,
+    "name": "KAKAO_888_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152816090944/KAKAO_888_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152816090944/KAKAO_888_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41300,
+      "filename": "KAKAO_888_03.txt",
+      "title": "KAKAO_888_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 501,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 501,
+        "word_size": 163,
+        "text": "1 : 니 KTX 예매해 봤음?\n1 : 아 속 터져서 진짜\n2 : 왜왜 키키 뭐가 문젠데 키키 나는 기차 탈 일 없어\n1 : 그 어플 이름이 코레일톡인가 그렇거든?\n2 : 아 키키 우리 엄마가 그거 쓰심 키키\n1 : 암튼 그 어플에 로그인하려는데 회원번호가 필요하대\n2 : 회원번호? 그거 만들면 되는 거 아니가?\n1 : 아니 내가 예전에 가입을 했었다고 회원번호를 찾으래\n2 : 키키 찾으면 되는 거 아냐?\n2 : 오류 났어?\n1 : 오류가 아니라 회원번호는 당연히 모르고 아이디도 모르겠더라\n2 : 아 혹시 거기 이메일 주소 아이디로 쓰는 거야?\n1 : 어어 키키 진짜 기차 한번 타려다 성질 다 버릴 뻔\n2 : 맞아 나 해방타운에서 허재 아저씨가 어플 실패하는 거 봄\n1 : 진짜... 내가 허재 자식뻘인데 키키 나도 부산역 갈뻔함\n2 : 키키 야 진정해 키키\n2 : 그래서 결국 하긴 했나?\n1 : 아니 키키 기차표 빨리 구해야 해서 결국 전화해서 예매함\n2 : 와... 심각하네 키키\n2 : 이 정도면 대중교통 아닌 듯?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 KTX 예매해 봤음?",
+            "norm_text": "니 KTX 예매해 봤음?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+KTX/SL+예매/NNG+해/XSV+EC+봤/VX+EP+음/ETN"
+          },
+          {
+            "id": 2,
+            "text": "1 : 아 속 터져서 진짜",
+            "norm_text": "아 속 터져서 진짜",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아속/NNG+터져서/VV+EC+진짜/MAG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 왜왜 키키 뭐가 문젠데 키키 나는 기차 탈 일 없어",
+            "norm_text": "왜왜 키키 뭐가 문젠데 키키 나는 기차 탈 일 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+왜/MAG+키/NNG+키/XSV+ETN+뭐/NP+가/JKS+문젠데/NNG+VCP+EC+키/NNG+키나/XSA+ETN+JX+는/JX+기차/NNG+탈일/NNG+없/VA+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그 어플 이름이 코레일톡인가 그렇거든?",
+            "norm_text": "그 어플 이름이 코레일톡인가 그렇거든?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/IC+어/IC+플/NNG+이름/NNG+이/JKS+코레/NNG+일/NR+톡/NNG+인가/VCP+EC+그렇/VA+거든/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아 키키 우리 엄마가 그거 쓰심 키키",
+            "norm_text": "아 키키 우리 엄마가 그거 쓰심 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키/NNG+우리/NP+엄마/NNG+가/JKS+그거/NP+쓰/VV+심/EP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 암튼 그 어플에 로그인하려는데 회원번호가 필요하대",
+            "norm_text": "암튼 그 어플에 로그인하려는데 회원번호가 필요하대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "암튼/MAJ+그/IC+어/IC+플/NNG+에/JKB+로그인/NNG+하/XSV+려는데/EC+회원/NNG+번호/NNG+가/JKS+필요/NNG+하대/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 회원번호? 그거 만들면 되는 거 아니가?",
+            "norm_text": "회원번호? 그거 만들면 되는 거 아니가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회원/NNG+번호/NNG+그거/NP+만들/VV+면/EC+되/VV+는/ETM+거/NNB+아니/VCN+가/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아니 내가 예전에 가입을 했었다고 회원번호를 찾으래",
+            "norm_text": "아니 내가 예전에 가입을 했었다고 회원번호를 찾으래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+내/NP+가/JKS+예전/NNG+에/JKB+가입/NNG+을/JKO+했었/VV+EP+다고/EC+회원/NNG+번호/NNG+를/JKO+찾/VV+으래/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 찾으면 되는 거 아냐?",
+            "norm_text": "키키 찾으면 되는 거 아냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+찾/VV+으면/EC+되/VV+는/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 오류 났어?",
+            "norm_text": "오류 났어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오류/NNG+났/VV+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오류가 아니라 회원번호는 당연히 모르고 아이디도 모르겠더라",
+            "norm_text": "오류가 아니라 회원번호는 당연히 모르고 아이디도 모르겠더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오류/NNG+가/JKC+아니/VCN+라/EC+회원/NNG+번호/NNG+는/JX+당연히/MAG+모르/VV+고/EC+아이디/NNG+도/JX+모르/VV+겠/EP+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 혹시 거기 이메일 주소 아이디로 쓰는 거야?",
+            "norm_text": "아 혹시 거기 이메일 주소 아이디로 쓰는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+혹시/MAG+거기/NP+이메일/NNG+주소/NNG+아이디/NNG+로/JKB+쓰/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어어 키키 진짜 기차 한번 타려다 성질 다 버릴 뻔",
+            "norm_text": "어어 키키 진짜 기차 한번 타려다 성질 다 버릴 뻔",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+어/IC+키/NNG+키/XSV+ETN+진짜/MAG+기차/NNG+한/MM+번/NNBC+타/VV+려다/EC+성질/NNG+다/MAG+버릴/VV+ETM+뻔/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아 나 해방타운에서 허재 아저씨가 어플 실패하는 거 봄",
+            "norm_text": "맞아 나 해방타운에서 허재 아저씨가 어플 실패하는 거 봄",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아나/EC+해방/NNG+타운/NNG+에서/JKB+허재/NNP+아저씨/NNG+가/VV+어/EC+플/VX+ETM+실패/NNG+하/XSV+는/ETM+거/NNB+봄/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 진짜... 내가 허재 자식뻘인데 키키 나도 부산역 갈뻔함",
+            "norm_text": "진짜... 내가 허재 자식뻘인데 키키 나도 부산역 갈뻔함",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+./SY+내가허재자식뻘인데키키나도부산역갈뻔함/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 야 진정해 키키",
+            "norm_text": "키키 야 진정해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키야진정해키키/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래서 결국 하긴 했나?",
+            "norm_text": "그래서 결국 하긴 했나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+결국/NNG+하/XSV+긴/ETN+JX+했/VX+EP+나/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아니 키키 기차표 빨리 구해야 해서 결국 전화해서 예매함",
+            "norm_text": "아니 키키 기차표 빨리 구해야 해서 결국 전화해서 예매함",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니키/NNP+키/NNG+기차표/NNG+빨리/VV+구/EC+해야/VV+EC+해서/VV+EC+결국/NNG+전화/NNG+해서/XSV+EC+예매/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 와... 심각하네 키키",
+            "norm_text": "와... 심각하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+심각/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 이 정도면 대중교통 아닌 듯?",
+            "norm_text": "와.. 심각하네ㅋㅋㅋ이정도면 대중교통 아닌듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "와/IC+./SY+심각/XR+하/XSA+네/EF+ㅋㅋ/UNKNOWN+ㅋ이/UNKNOWN+정도/NNG+면/VCP+EC+대중교통/NNG+아닌/VCN+ETM+듯/NNB"
+          }
+        ]
+      }
+    }
+  ]
+}

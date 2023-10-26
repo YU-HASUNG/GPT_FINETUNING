@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 71588,
+    "name": "KAKAO_790_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150504069287/KAKAO_790_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150504069287/KAKAO_790_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38341,
+      "filename": "KAKAO_790_10.txt",
+      "title": "KAKAO_790_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 420,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 420,
+        "word_size": 135,
+        "text": "1 : 오빠~ 주말에 배드민턴 치러 갈까~?\n2 : 오~ 배드민턴! 재밌겠다 하하\n2 : 자기 잘 쳐?\n1 : 그럼~ 내가 한 배드민턴 하지! 키키\n2 : 오오오 기대 되는데 하하\n2 : 치러 가보자!\n1 : 근데 배드민턴 치러 어디로 가야 하지?\n2 : 음... 한강으로 가볼까?\n1 : 오~ 좋아! 주말에 바람 많이 안 불면 좋겠다...\n2 : 강이라서 바람이 좀 불 수도 있겠다 ㅠㅠ\n1 : 그럼 오빠가 바람 바라보고 서자 하하\n2 : 키키 자기 파워 엄청나겠네...?\n1 : 내가 오빠를 이겨줄 테다!\n2 : 오... 지금부터 연습한다 배드민턴!\n1 : 키키 근데 재밌겠다 하하\n1 : 뭔가 같이 스포츠 즐기는 거 좋은듯해\n2 : 그치? 배드민턴 재밌으면 다른 것도 해보자 하하\n1 : 좋아 좋아 하하 배드민턴 라켓 챙겨야지 하하\n2 : 재밌게 치고 맛있는 거 먹자! 크으 !",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~ 주말에 배드민턴 치러 갈까~?",
+            "norm_text": "오빠~ 주말에 배드민턴 치러 갈까~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+~/SY+주말/NNG+에/JKB+배드민턴/NNG+치러/VV+EC+갈까/VV+EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오~ 배드민턴! 재밌겠다 하하",
+            "norm_text": "오~ 배드민턴! 재밌겠다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+배드민턴/NNG+재밌/VA+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 자기 잘 쳐?",
+            "norm_text": "자기 잘 쳐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+잘/MAG+쳐/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그럼~ 내가 한 배드민턴 하지! 키키",
+            "norm_text": "그럼~ 내가 한 배드민턴 하지! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+~/SY+내/NP+가/JKS+한/MM+배드민턴/NNG+하/XSA+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오오오 기대 되는데 하하",
+            "norm_text": "오오오 기대 되는데 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+오/NR+오/NR+기대/NNG+되/XSV+는/ETM+데/NNB+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 치러 가보자!",
+            "norm_text": "치러 가보자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "치러/VV+EC+가/JX+보/VX+자/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 배드민턴 치러 어디로 가야 하지?",
+            "norm_text": "근데 배드민턴 치러 어디로 가야 하지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+배드민턴/NNG+치러/VV+EC+어디/NP+로/JKB+가/VV+야/EC+하/VX+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 음... 한강으로 가볼까?",
+            "norm_text": "음... 한강으로 가볼까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "음/IC+./SY+./SY+한강/NNP+으로/JKB+가/VV+EC+볼까/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오~ 좋아! 주말에 바람 많이 안 불면 좋겠다...",
+            "norm_text": "오~ 좋아! 주말에 바람 많이 안 불면 좋겠다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+좋/VA+아/EF+주말/NNG+에/JKB+바람/NNG+많이/MAG+안/MAG+불/VV+면/EC+좋/VA+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 강이라서 바람이 좀 불 수도 있겠다 ㅠㅠ",
+            "norm_text": "강이라서 바람이 좀 불 수도 있겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강/NNG+이/VCP+라서/EC+바람/NNG+이/JKS+좀/MAG+불/VV+ETM+수/NNB+도/JX+있/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 오빠가 바람 바라보고 서자 하하",
+            "norm_text": "그럼 오빠가 바람 바라보고 서자 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그럼/MAJ+오빠/NNG+가/JKS+바람/NNG+바라보/VV+고서/EC+자하/NNG+하/XSV"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 자기 파워 엄청나겠네...?",
+            "norm_text": "키키 자기 파워 엄청나겠네...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+자기/NP+파워/NNG+엄청나/VA+겠/EP+네/EF+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 내가 오빠를 이겨줄 테다!",
+            "norm_text": "내가 오빠를 이겨줄 테다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+오빠/NNG+를/JKO+이겨/VV+EC+줄/VX+ETM+테/NNB+VCP+다/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오... 지금부터 연습한다 배드민턴!",
+            "norm_text": "오... 지금부터 연습한다 배드민턴!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+./SY+지금/NNG+부터/JX+연습/NNG+한다/XSV+EC+배드민턴/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 근데 재밌겠다 하하",
+            "norm_text": "키키 근데 재밌겠다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+재밌/VA+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 뭔가 같이 스포츠 즐기는 거 좋은듯해",
+            "norm_text": "뭔가 같이 스포츠 즐기는 거 좋은듯해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+같이/MAG+스포츠/NNG+즐기/VV+는/ETM+거/NNB+좋/VA+은/ETM+듯/NNB+해/XSA+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그치? 배드민턴 재밌으면 다른 것도 해보자 하하",
+            "norm_text": "그치? 배드민턴 재밌으면 다른 것도 해보자 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그치/IC+배드민턴재밌으면다른것도해보자하하/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 좋아 좋아 하하 배드민턴 라켓 챙겨야지 하하",
+            "norm_text": "좋아 좋아 하하 배드민턴 라켓 챙겨야지 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+아/EC+좋/VA+아/EC+하하/MAG+배드민턴/NNG+라켓/NNG+챙겨야/VV+EC+지하/NNG+하/XSV"
+          },
+          {
+            "id": 19,
+            "text": "2 : 재밌게 치고 맛있는 거 먹자! 크으 !",
+            "norm_text": "재밌게 치고 맛있는 거 먹자! 크으 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "재밌/VA+게/EC+치/VV+고/EC+맛있/VA+는/ETM+거/NNB+먹/VV+자/EF+크으/IC"
+          }
+        ]
+      }
+    }
+  ]
+}

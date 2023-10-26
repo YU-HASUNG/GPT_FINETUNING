@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35248,
+    "name": "KAKAO_652_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423015232/KAKAO_652_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423015232/KAKAO_652_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34423,
+      "filename": "KAKAO_652_05.txt",
+      "title": "KAKAO_652_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 431,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 431,
+        "word_size": 134,
+        "text": "1 : 엄마 군대 DP라고 들어봤어?\n2 : 영화 제목으로 들어봤지 요즘 뜨던데\n1 : 맞아 근데 내년부터 DP병이 없어진대\n2 : 근데 디피병이 뭐냐? 군대 용어 같은데\n1 : 탈영병 잡는 헌병인데 내년부터 사라진대\n2 : 아 그렇구나 난 디피가 뭔가 했다\n1 : 응 이제 군인들 폰도 하니깐 탈영병이 많이 줄었다네\n2 : 다행이다 군대도 예전 같지 않아 편해졌어\n1 : 그니까 많이 바뀐 거 같아 키키\n1 : 이제 저 업무도 군무원이 나눠서 한대\n2 : 그럼 군무원 업무가 늘어난 거네\n1 : 그치 키키 업무만 늘어난 셈이야\n2 : 암튼 탈영병이 줄었다니 얼마나 다행인 거야\n1 : 좀 자유로워져서 폰만 하니깐 동기들 간 전우애도 예전 만큼은 아니래 키키\n2 : 그렇겠지 예전처럼 훈련도 심하게 하지 않으니깐.\n1 : 시간이 지날수록 다 변해가는 거 같아\n2 : 점점 편리하게 바뀌어가서 그런가?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 군대 DP라고 들어봤어?",
+            "norm_text": "엄마 군대 DP라고 들어봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+군대/NNG+DP/SL+라고/VCP+EC+들/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 영화 제목으로 들어봤지 요즘 뜨던데",
+            "norm_text": "영화 제목으로 들어봤지 요즘 뜨던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "영화/NNG+제목/NNG+으로/JKB+들/VV+어/EC+봤/VX+EP+지/EF+요즘/MAG+뜨/VV+던데/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아 근데 내년부터 DP병이 없어진대",
+            "norm_text": "맞아 근데 내년부터 DP병이 없어진대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞아/IC+근데/MAJ+내년/NNG+부터/JX+DP/SL+병/NNG+이/JKS+없/VA+어/EC+진대/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 디피병이 뭐냐? 군대 용어 같은데",
+            "norm_text": "근데 디피병이 뭐냐? 군대 용어 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+디피/NNG+병/NNG+이/JKS+뭐/NP+냐/VCP+EF+군대/NNG+용어/NNG+같/VA+은데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 탈영병 잡는 헌병인데 내년부터 사라진대",
+            "norm_text": "탈영병 잡는 헌병인데 내년부터 사라진대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "탈영병/NNG+잡/VV+는/ETM+헌병/NNG+인데/VCP+EC+내년/NNG+부터/JX+사라진/VV+ETM+대/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 그렇구나 난 디피가 뭔가 했다",
+            "norm_text": "아 그렇구나 난 디피가 뭔가 했다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇/VA+구나/EF+난/NP+JX+디피/NNG+가/JKS+뭔가/NP+VCP+EC+했/VX+EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 이제 군인들 폰도 하니깐 탈영병이 많이 줄었다네",
+            "norm_text": "응 이제 군인들 폰도 하니깐 탈영병이 많이 줄었다네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+이제/MAG+군인/NNG+들/XSN+폰/NNG+도/JX+하/VV+니깐/EC+탈영병/NNG+이/JKS+많이/MAG+줄/VV+었/EP+다네/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 다행이다 군대도 예전 같지 않아 편해졌어",
+            "norm_text": "다행이다 군대도 예전 같지 않아 편해졌어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/JKS+다/MAG+군대/NNG+도/JX+예전/NNG+같/VA+지/EC+않/VX+아/EC+편해졌/VA+EC+VX+EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그니까 많이 바뀐 거 같아 키키",
+            "norm_text": "그니까 많이 바뀐 거 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+많이/MAG+바뀐/VV+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 이제 저 업무도 군무원이 나눠서 한대",
+            "norm_text": "이제 저 업무도 군무원이 나눠서 한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이제/MAG+저/MM+업무/NNG+도/JX+군무원/NNG+이/JKS+나눠서/VV+EC+한대/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그럼 군무원 업무가 늘어난 거네",
+            "norm_text": "그럼 군무원 업무가 늘어난 거네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+군무원/NNG+업무/NNG+가/JKS+늘어난/VV+ETM+거/NNB+네/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그치 키키 업무만 늘어난 셈이야",
+            "norm_text": "그치 키키 업무만 늘어난 셈이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키/NNG+키/NNG+업무/NNG+만/JX+늘어난/VV+ETM+셈/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 암튼 탈영병이 줄었다니 얼마나 다행인 거야",
+            "norm_text": "암튼 탈영병이 줄었다니 얼마나 다행인 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "암튼/MAJ+탈영병/NNG+이/JKS+줄/VV+었/EP+다니/EC+얼마나/MAG+다행/NNG+인/VCP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 좀 자유로워져서 폰만 하니깐 동기들 간 전우애도 예전 만큼은 아니래 키키",
+            "norm_text": "좀 자유로워져서 폰만 하니깐 동기들 간 전우애도 예전 만큼은 아니래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좀/MAG+자유/NNG+로워/XSA+EC+져서/VX+EC+폰/NNG+만/JX+하/VV+니깐/EC+동기/NNG+들/XSN+간/NNB+전우애/NNG+도/JX+예전/NNG+만큼/JKB+은/JX+아니/VCN+래/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그렇겠지 예전처럼 훈련도 심하게 하지 않으니깐.",
+            "norm_text": "그렇겠지 예전처럼 훈련도 심하게 하지 않으니깐.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+겠/EP+지/EC+예전/NNG+처럼/JKB+훈련/NNG+도/JX+심하/VA+게/EC+하/VV+지/EC+않/VX+으니깐/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 시간이 지날수록 다 변해가는 거 같아",
+            "norm_text": "시간이 지날수록 다 변해가는 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시간/NNG+이/JKS+지날수록/VV+EC+다변/NNG+해/XSV+EC+가/VX+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 점점 편리하게 바뀌어가서 그런가?",
+            "norm_text": "점점 편리하게 바뀌어가서 그런가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "점점/MAG+편리/NNG+하/XSV+게/EC+바뀌/VV+어/EC+가/VX+서/EC+그런가/VA+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

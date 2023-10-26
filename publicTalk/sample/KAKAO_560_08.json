@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 24323,
+    "name": "KAKAO_560_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256016813/KAKAO_560_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256016813/KAKAO_560_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30119,
+      "filename": "KAKAO_560_08.txt",
+      "title": "KAKAO_560_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 384,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 134,
+        "text": "1 : 나 다음 주에 남친이랑 여행 감!\n2 : 오와 어디로 가는데? 좋겠다.\n1 : 나 제주도~ 키키\n1 : 비 안 왔으면 키키\n2 : 우와 제주도 정말 경치 좋지!\n1 : 응 나는 흑돼지가 먹고 싶어서 키키\n2 : 흑돼지도 꼭 먹고 해산물도 많이 먹고 와!\n1 : 맞아 ㅠㅠ 거기 전복죽이 대박이야\n2 : 전복죽 맛있지!\n2 : 전복 버터 구이도 먹고 와!\n1 : 헐~ 그거 국룰아님? 키키\n1 : 언니는 남친이랑 여행 안 가?\n2 : 나는 아직 멀었어 가을 때 갈 것 같아.\n1 : 키키 가을에?\n1 : 단풍 놀이 가면 좋지!\n2 : 단풍은 설악산인데 갈 수 있을까?\n1 : 헐 둘이 등산 하는 거야? 키키\n2 : 등산은 못하고 케이블카 타야쥐~\n1 : 아 그래? 오 좋겠다 키키\n2 : 웅 다녀와서 후기 알려줄게!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 다음 주에 남친이랑 여행 감!",
+            "norm_text": "나 다음 주에 남친이랑 여행 감!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+다음/NNG+주/NNG+에/JKB+남친/NNG+이랑/JKB+여행/NNG+감/XSN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오와 어디로 가는데? 좋겠다.",
+            "norm_text": "오와 어디로 가는데? 좋겠다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오와/IC+어디/NP+로/JKB+가/VV+는데/EC+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 제주도~ 키키",
+            "norm_text": "나 제주도~ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+제주도/NNP+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 비 안 왔으면 키키",
+            "norm_text": "비 안 왔으면 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비/NNG+안/MAG+왔/VV+EP+으면/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 우와 제주도 정말 경치 좋지!",
+            "norm_text": "우와 제주도 정말 경치 좋지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+제주/NNP+도/JX+정말/MAG+경치/NNG+좋/VA+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응 나는 흑돼지가 먹고 싶어서 키키",
+            "norm_text": "응 나는 흑돼지가 먹고 싶어서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+흑/IC+돼지/NNG+가/JKS+먹/VV+고/EC+싶/VX+어서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 흑돼지도 꼭 먹고 해산물도 많이 먹고 와!",
+            "norm_text": "흑돼지도 꼭 먹고 해산물도 많이 먹고 와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흑/IC+돼지/NNG+도/JX+꼭/MAG+먹/VV+고/EC+해산물/NNG+도/JX+많이/MAG+먹/VV+고/EC+와/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 맞아 ㅠㅠ 거기 전복죽이 대박이야",
+            "norm_text": "맞아 ㅠㅠ 거기 전복죽이 대박이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+거기/NP+전복죽/NNG+이/JKS+대박/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 전복죽 맛있지!",
+            "norm_text": "전복죽 맛있지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전복죽/NNG+맛있/VA+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 전복 버터 구이도 먹고 와!",
+            "norm_text": "전복 버터 구이도 먹고 와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전복/NNG+버터/NNG+구이/NNG+도/JX+먹/VV+고/EC+와/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 헐~ 그거 국룰아님? 키키",
+            "norm_text": "헐~ 그거 국룰아님? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/NNP+~/SY+그/MM+거국/NNG+룰/NNG+아님/VCN+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 언니는 남친이랑 여행 안 가?",
+            "norm_text": "언니는 남친이랑 여행 안 가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+남친/NNG+이랑/JKB+여행/NNG+안/MAG+가/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나는 아직 멀었어 가을 때 갈 것 같아.",
+            "norm_text": "나는 아직 멀었어 가을 때 갈 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+아직/MAG+멀/VA+었/EP+어/EC+가을/NNG+때/NNG+갈/VV+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 가을에?",
+            "norm_text": "키키 가을에?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+가을/NNG+에/JKB"
+          },
+          {
+            "id": 15,
+            "text": "1 : 단풍 놀이 가면 좋지!",
+            "norm_text": "단풍 놀이 가면 좋지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "단풍놀이/NNG+가/VV+면/EC+좋/VA+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 단풍은 설악산인데 갈 수 있을까?",
+            "norm_text": "단풍은 설악산인데 갈 수 있을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "단풍/NNG+은/JX+설악산/NNP+인데/VCP+EC+갈/VX+ETM+수/NNB+있/VV+을까/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 헐 둘이 등산 하는 거야? 키키",
+            "norm_text": "헐 둘이 등산 하는 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+둘/NR+이/NR+등산/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 등산은 못하고 케이블카 타야쥐~",
+            "norm_text": "등산은 못하고 케이블카 타야쥐~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "등산/NNG+은/JX+못/MAG+하/VV+고/EC+케이블/NNP+카타야/NNP+쥐/NNG+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 아 그래? 오 좋겠다 키키",
+            "norm_text": "아 그래? 오 좋겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+오/IC+좋/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 20,
+            "text": "2 : 웅 다녀와서 후기 알려줄게!",
+            "norm_text": "웅 다녀와서 후기 알려줄게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "웅/MAG+다녀와서/VV+EC+후기/NNG+알려/VV+EC+줄게/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

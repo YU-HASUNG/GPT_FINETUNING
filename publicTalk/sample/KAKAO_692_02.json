@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 35718,
+    "name": "KAKAO_692_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113116001942/KAKAO_692_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113116001942/KAKAO_692_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35341,
+      "filename": "KAKAO_692_02.txt",
+      "title": "KAKAO_692_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 748,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 748,
+        "word_size": 244,
+        "text": "1 : 집 알아봐야 하는데 전세가 나을까 월세가 나을까?\n2 : 요새 전세가 잘 없다던 거 같은데\n2 : 너 이번에 올라가면 얼마나 있을 건데?\n1 : 나 2년 정도? 있을 것 같아\n1 : 정확한 건 상황 봐야겠지만 ㅜㅜ\n2 : 그럼 월세가 나을 거 같은데\n2 : 위치 가까운 곳에 부담 없는 원룸이나 주택 월세가 좋을 거 같아\n1 : 그게 나을까? 가서 중개사 찾아가야 할까?\n2 : 아무래도 요새 더운데 발품은 힘들 거 같아\n2 : 중개사 바로 가보거나 아니면 직방이나 다방? 요새 어플 잘 돼 있던데 보고 대충 가격이랑 집 알아보고 가봐\n1 : 그럼 일단 그럼 위치 좋은 곳 알아봐야겠당\n2 : 응 키키 가까운 곳이 짱이지\n2 : 위치랑 주변에 마트나 편의점 같은데 가까운지도 좀 보고 키키\n1 : 키키 편의점 중요하지 난 편의점 없음 안 되니까\n2 : 인정 키키 여튼 잘 알아봐\n2 : 위치도 중요한데 좀 안전해야 하고 남향인 집이 좋지\n1 : 난 좀 깔끔하고 인테리어 잘 되어 있는 집이 좋은데 있으려나\n2 : 뭐 요새 셀프 인테리어 하기 쉽자나 키키 사이트도 많고 유튜버나 어플 키키\n2 : 니 스타일대로 꾸미는 맛도 나쁘지 않지\n1 : 그건 그래 차라리 좀 가격 괜찮은 데 집 구하고 아낀 돈으로 인테리어 비에 투자하는 것도 좋겠다\n2 : 응 키키 그게 더 좋아 이사하고 나만의 공간 꾸미기 나도 도와줄게\n1 : 오 땡큐 키키 나중에 집 돌아보고 몇 군데 보여줄게 같이 좀 선택해줘\n2 : 알겠어 키키 연락해라 같이 봐줄게\n2 : 좋은 집 구하면 집들이 초대 고고고",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 집 알아봐야 하는데 전세가 나을까 월세가 나을까?",
+            "norm_text": "집 알아봐야 하는데 전세가 나을까 월세가 나을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+알/VV+아/EC+봐야/VX+EC+하/VV+는데/EC+전세/NNG+가/JKS+나을까/VV+EC+월세/NNG+가/JKS+나/VV+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요새 전세가 잘 없다던 거 같은데",
+            "norm_text": "요새 전세가 잘 없다던 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+전세/NNG+가/JKS+잘/MAG+없/VA+다던/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너 이번에 올라가면 얼마나 있을 건데?",
+            "norm_text": "너 이번에 올라가면 얼마나 있을 건데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+이번/NNG+에/JKB+올라가/VV+면/EC+얼마나/MAG+있/VA+을/ETM+건데/NNB+VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나 2년 정도? 있을 것 같아",
+            "norm_text": "나 2년 정도? 있을 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+2/SN+년/NNBC+정도/NNG+있/VV+을/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 정확한 건 상황 봐야겠지만 ㅜㅜ",
+            "norm_text": "정확한 건 상황 봐야겠지만 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정확/NNG+한/XSA+ETM+건/NNB+JX+상황/NNG+봐야/VV+EC+VX+겠/EP+지만/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그럼 월세가 나을 거 같은데",
+            "norm_text": "그럼 월세가 나을 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+월세/NNG+가/JKS+나을/VA+ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 위치 가까운 곳에 부담 없는 원룸이나 주택 월세가 좋을 거 같아",
+            "norm_text": "위치 가까운 곳에 부담 없는 원룸이나 주택 월세가 좋을 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "위치/NNG+가까운/VA+ETM+곳/NNG+에/JKB+부담/NNG+없/VA+는/ETM+원룸/NNG+이나/JC+주택/NNG+월세/NNG+가/JKS+좋/VA+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그게 나을까? 가서 중개사 찾아가야 할까?",
+            "norm_text": "그게 나을까? 가서 중개사 찾아가야 할까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그게/NP+JKS+나/VA+을까/EF+가/VV+서/EC+중개사/NNG+찾아가/VV+야/EC+할까/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아무래도 요새 더운데 발품은 힘들 거 같아",
+            "norm_text": "아무래도 요새 더운데 발품은 힘들 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+요새/MAG+더운데/VA+EC+발품/NNG+은/JX+힘들/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 중개사 바로 가보거나 아니면 직방이나 다방? 요새 어플 잘 돼 있던데 보고 대충 가격이랑 집 알아보고 가봐",
+            "norm_text": "중개사 바로 가보거나 아니면 직방이나 다방? 요새 어플 잘 돼 있던데 보고 대충 가격이랑 집 알아보고 가봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "중개사/NNG+바로/MAG+가/VV+EC+보/VX+거나/EC+아니/VCN+면/EC+직방/NNG+이나/JC+다방/NNG+요새/MAG+어/IC+플/NNG+잘/MAG+돼/VV+EC+있/VX+던/ETM+데/NNB+보/VV+고/EC+대충/MAG+가격/NNG+이랑/JKB+집/NNG+알아보/VV+고/EC+가/VX+봐/EC+VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 일단 그럼 위치 좋은 곳 알아봐야겠당",
+            "norm_text": "그럼 일단 그럼 위치 좋은 곳 알아봐야겠당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+일단/MAG+그럼/MAJ+위치/NNG+좋/VA+은/ETM+곳/NNB+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+당/XSN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 키키 가까운 곳이 짱이지",
+            "norm_text": "응 키키 가까운 곳이 짱이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+가까운/VA+ETM+곳/NNG+이/JKS+짱/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 위치랑 주변에 마트나 편의점 같은데 가까운지도 좀 보고 키키",
+            "norm_text": "위치랑 주변에 마트나 편의점 같은데 가까운지도 좀 보고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "위치/NNG+랑/JKB+주변/NNG+에/JKB+마트/NNG+나/JC+편의점/NNG+같/VA+은/ETM+데/NNB+가까운지/VA+EC+도/JX+좀/MAG+보/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 편의점 중요하지 난 편의점 없음 안 되니까",
+            "norm_text": "키키 편의점 중요하지 난 편의점 없음 안 되니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+편의점/NNG+중요/NNG+하/XSV+지난/VV+ETM+편의점/NNG+없/VA+음/EC+안/MAG+되/VV+니까/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 인정 키키 여튼 잘 알아봐",
+            "norm_text": "인정 키키 여튼 잘 알아봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인정/NNG+키/XSV+ETN+키/VV+여/EC+튼/VV+ETM+잘/MAG+알아봐/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 위치도 중요한데 좀 안전해야 하고 남향인 집이 좋지",
+            "norm_text": "위치도 중요한데 좀 안전해야 하고 남향인 집이 좋지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "위치/NNG+도/JX+중요/NNG+한데/XSA+EC+좀/MAG+안전/NNG+해야/XSV+EC+하/VV+고/EC+남향/NNG+인/VCP+ETM+집/NNG+이/JKS+좋/VA+지/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 난 좀 깔끔하고 인테리어 잘 되어 있는 집이 좋은데 있으려나",
+            "norm_text": "난 좀 깔끔하고 인테리어 잘 되어 있는 집이 좋은데 있으려나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "난/NP+JX+좀/MAG+깔끔/XR+하/XSA+고/EC+인테리어/NNG+잘/MAG+되/VV+어/EC+있/VX+는/ETM+집/NNG+이/JKS+좋/VA+은데/EC+있/VX+으려나/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 뭐 요새 셀프 인테리어 하기 쉽자나 키키 사이트도 많고 유튜버나 어플 키키",
+            "norm_text": "뭐 요새 셀프 인테리어 하기 쉽자나 키키 사이트도 많고 유튜버나 어플 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+요새/MAG+셀프/NNG+인테리어/NNG+하/XSV+기/ETN+쉽/VA+자/EC+나/NP+키/NNG+키/NNG+사이트/NNG+도/JX+많/VA+고/EC+유/NNP+튜버/NNP+나/VV+어/EC+플/VX+ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 니 스타일대로 꾸미는 맛도 나쁘지 않지",
+            "norm_text": "니 스타일대로 꾸미는 맛도 나쁘지 않지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/MM+스타일/NNG+대로/JKB+꾸미/VV+는/ETM+맛/NNG+도/JX+나쁘/VA+지/EC+않/VX+지/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그건 그래 차라리 좀 가격 괜찮은 데 집 구하고 아낀 돈으로 인테리어 비에 투자하는 것도 좋겠다",
+            "norm_text": "그건 그래 차라리 좀 가격 괜찮은 데 집 구하고 아낀 돈으로 인테리어 비에 투자하는 것도 좋겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그래/VA+EC+차라리/MAG+좀/MAG+가격/NNG+괜찮/VA+은데/EC+집구/NNG+하/XSV+고/EC+아낀/VV+ETM+돈/NNG+으로/JKB+인테리어/NNG+비/NNG+에/JKB+투자/NNG+하/XSV+는/ETM+것/NNB+도/JX+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 응 키키 그게 더 좋아 이사하고 나만의 공간 꾸미기 나도 도와줄게",
+            "norm_text": "응 키키 그게 더 좋아 이사하고 나만의 공간 꾸미기 나도 도와줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+그게/NP+JKS+더/MAG+좋/VA+아/EC+이사/NNG+하/XSV+고/EC+나/NP+만/JX+의/JKG+공간/NNG+꾸미/VV+기/ETN+나/NP+도/JX+도와/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 22,
+            "text": "1 : 오 땡큐 키키 나중에 집 돌아보고 몇 군데 보여줄게 같이 좀 선택해줘",
+            "norm_text": "오 땡큐 키키 나중에 집 돌아보고 몇 군데 보여줄게 같이 좀 선택해줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "오/IC+땡큐/IC+키/NNG+키/NNG+나중/NNG+에/JKB+집/NNG+돌아보/VV+고/EC+몇/MM+군데/NNBC+보여/VV+EC+줄/VX+ETM+게/NNB+JKS+같이/MAG+좀/MAG+선택/NNG+해/XSV+EC+줘/VX+EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 알겠어 키키 연락해라 같이 봐줄게",
+            "norm_text": "알겠어 키키 연락해라 같이 봐줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "알/VV+겠/EP+어/EC+키/NNG+키/NNG+연락/NNG+해라/XSV+EC+같이/MAG+봐줄/VV+EC+VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 24,
+            "text": "2 : 좋은 집 구하면 집들이 초대 고고고",
+            "norm_text": "좋은 집 구하면 집들이 초대 고고고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+은/ETM+집구/NNG+하/XSV+면/EC+집들이/NNG+초대/NNG+고고고/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

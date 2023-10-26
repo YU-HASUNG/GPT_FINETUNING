@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 30163,
+    "name": "KAKAO_486_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150820093115/KAKAO_486_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150820093115/KAKAO_486_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28509,
+      "filename": "KAKAO_486_19.txt",
+      "title": "KAKAO_486_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 382,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 382,
+        "word_size": 133,
+        "text": "1 : 니 옛날에 좋아했던 연예인 누구더라\n2 : 나 아이돌인데 궁금해?!\n1 : 키키 아 누구지 기억이 안 나\n1 : 노래 유명한 거 하나 알려줘\n2 : 사랑을 했다 ~ 우리가 만나 ~\n1 : 아 맞다 키키 띵곡이지 이건\n2 : 맞지 근데 요새 배우들한테 관심이 가더라\n1 : 오 진짜? 드라마? 영화?\n2 : 전엔 영화였는데 요새 코로나 때문에 드라마를 더 자주 보게 된다 ㅠㅠ\n1 : 와 대박 나도...\n1 : 넷플릭스 없이 못 살아 ㅜㅜ\n2 : 맞지 다 너무 재밌어 예능도 꿀잼\n1 : 요즘 예능 뭐 봐?\n2 : 리얼리티 많이 보는 거 같아 리얼리티 연애?\n1 : 헐 체인지 데이즈? 이런 거?\n2 : 맞다 맞다 그거 내 최애야...\n1 : 나도 그거 봐!\n1 : 그거 재밌어 ㅜㅜ\n2 : 진짜 결말 궁금하단",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 옛날에 좋아했던 연예인 누구더라",
+            "norm_text": "니 옛날에 좋아했던 연예인 누구더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+옛날/NNG+에/JKB+좋/VA+아/EC+했/VX+EP+던/ETM+연예/NNG+인/VCP+ETM+누구/NP+더라/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 아이돌인데 궁금해?!",
+            "norm_text": "나 아이돌인데 궁금해?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+아이돌/NNP+인데/VCP+EC+궁금/XR+해/XSA+EC+?/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 아 누구지 기억이 안 나",
+            "norm_text": "키키 아 누구지 기억이 안 나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키아누/NNP+구지/NNG+기억/NNG+이/JKS+안/MAG+나/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 노래 유명한 거 하나 알려줘",
+            "norm_text": "노래 유명한 거 하나 알려줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "노래/NNG+유명/NNG+한/XSA+ETM+거/NNB+하나/NR+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 사랑을 했다 ~ 우리가 만나 ~",
+            "norm_text": "사랑을 했다 ~ 우리가 만나 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사랑/NNG+을/JKO+했/VV+EP+다/EC+~/SY+우리/NP+가/JKS+만나/VV+EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 맞다 키키 띵곡이지 이건",
+            "norm_text": "아 맞다 키키 띵곡이지 이건",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+다/EC+키/NNG+키/NNG+띵/MAG+곡/NNG+이/VCP+지/EF+이건/NP+JX"
+          },
+          {
+            "id": 7,
+            "text": "2 : 맞지 근데 요새 배우들한테 관심이 가더라",
+            "norm_text": "맞지 근데 요새 배우들한테 관심이 가더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EF+근데/MAJ+요새/MAG+배우/NNG+들/XSN+한테/JKB+관심/NNG+이/JKS+가/VV+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오 진짜? 드라마? 영화?",
+            "norm_text": "오 진짜? 드라마? 영화?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+진짜/MAG+드라마/NNG+?/SY+영화/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 전엔 영화였는데 요새 코로나 때문에 드라마를 더 자주 보게 된다 ㅠㅠ",
+            "norm_text": "전엔 영화였는데 요새 코로나 때문에 드라마를 더 자주 보게 된다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전/NNG+엔/JKB+JX+영화/NNG+였/VCP+EP+는데요/EF+새/MM+코로나/NNG+때문/NNB+에/JKB+드라마/NNG+를/JKO+더/MAG+자주/MAG+보/VV+게/EC+된다/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 와 대박 나도...",
+            "norm_text": "와 대박 나도...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와대/NNG+박/VV+나도/EC+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 넷플릭스 없이 못 살아 ㅜㅜ",
+            "norm_text": "넷플릭스 없이 못 살아 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넷플릭스/NNP+없이/MAG+못/MAG+살/VV+아/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞지 다 너무 재밌어 예능도 꿀잼",
+            "norm_text": "맞지 다 너무 재밌어 예능도 꿀잼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EC+다/MAG+너무/MAG+재밌/VA+어/EC+예능/NNG+도/JX+꿀/VV+ETM+잼/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 요즘 예능 뭐 봐?",
+            "norm_text": "요즘 예능 뭐 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+예능/NNG+뭐/IC+봐/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 리얼리티 많이 보는 거 같아 리얼리티 연애?",
+            "norm_text": "리얼리티 많이 보는 거 같아 리얼리티 연애?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "리얼리티/NNG+많이/MAG+보/VV+는/ETM+거/NNB+같/VA+아/EC+리얼리티/NNG+연애/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐 체인지 데이즈? 이런 거?",
+            "norm_text": "헐 체인지 데이즈? 이런 거?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/VV+ETM+체/NNB+인지/VCP+EC+데이즈/NNP+이런/MM+거/NNB"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞다 맞다 그거 내 최애야...",
+            "norm_text": "맞다 맞다 그거 내 최애야...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EC+맞/VV+다/EF+그거/NP+내/NP+JKG+최애/NNG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 나도 그거 봐!",
+            "norm_text": "나도 그거 봐!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그거/NP+봐/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그거 재밌어 ㅜㅜ",
+            "norm_text": "그거 재밌어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+재밌/VA+어/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 진짜 결말 궁금하단",
+            "norm_text": "진짜 결말 궁금하단",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+결말/NNG+궁금/XR+하/XSA+단/ETM"
+          }
+        ]
+      }
+    }
+  ]
+}

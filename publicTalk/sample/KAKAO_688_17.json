@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 74454,
+    "name": "KAKAO_688_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710048692/KAKAO_688_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710048692/KAKAO_688_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35096,
+      "filename": "KAKAO_688_17.txt",
+      "title": "KAKAO_688_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 636,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 636,
+        "word_size": 201,
+        "text": "1 : 너는 옛날에 입원 같은 거 해본 적 있나?\n2 : 응응 나 나 고3 때도 했었구, 부산 살 때도 키키\n1 : 엉? ㅜㅜ 어디 아파서 병원에 있었던 거야?\n2 : 고삼 때는 림프절이 부었다고 했나...? 그렇고 부산 살 때는 장염이 심하게 와서 ㅠㅠ\n1 : 림프절이면 목 쪽이네? ㅜㅜ 장염으로도 입원 하는구나 ㅜㅜ\n2 : 아니 그것도 목은 아니였어 뭔가 몸 속에 림프 어쩌고 저쩌고 했는데 여튼 그래...\n2 : 키키 언니는 한 적 없어?\n1 : ㅜㅜ 나는 해본 적 있어... 키키 친구랑 장난치다 기도에 구멍 남\n2 : 헐? 어? 아니 어떤 장난을 치면 기도에 구멍이 나는 거야...?\n1 : 몰라 팔에 탁 맞았는데... 기도에 구멍 나서 숨이 안 쉬어져\n2 : 헐... 미쳤다... 진짜 아팠겠따 ㅠㅠ 그럼 걍 입원 치료만 한 거야?\n1 : 막 목 전체에 공기 방울 만져지고 숨 못 쉬고 그랬어... 응 뭐 치료했던 거 같은데 키키\n2 : 와 대박... 진짜 무섭다... 그거 말고는 없어?\n1 : 응... 난 원래 엄살 엄청 심해서 조금만 아파도 병원 가니까 입원은 안 하네?\n2 : 키키 악 키키 근데 그게 나아... 병을 키우는 것보다\n1 : 키키 응 나는 200살까지 병원 안 가고 살고 싶어\n2 : 키키 대단하네? 200살 까지 살고 싶은 거야?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 옛날에 입원 같은 거 해본 적 있나?",
+            "norm_text": "너는 옛날에 입원 같은 거 해본 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+옛날/NNG+에/JKB+입원/NNG+같/VA+은/ETM+거/NNB+해/VV+EC+본/VX+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 나 나 고3 때도 했었구, 부산 살 때도 키키",
+            "norm_text": "응응 나 나 고3 때도 했었구, 부산 살 때도 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+나/NP+나/VV+고/EC+3/SN+때/NNG+도/JX+했었/VV+EP+구/EC+,/SC+부산/NNP+살/NNG+때/NNG+도/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 엉? ㅜㅜ 어디 아파서 병원에 있었던 거야?",
+            "norm_text": "엉? ㅜㅜ 어디 아파서 병원에 있었던 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엉/IC+ㅜㅜ/UNKNOWN+어디/NP+아파서/VA+EC+병원/NNG+에/JKB+있/VV+었/EP+던/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 고삼 때는 림프절이 부었다고 했나...? 그렇고 부산 살 때는 장염이 심하게 와서 ㅠㅠ",
+            "norm_text": "고삼 때는 림프절이 부었다고 했나...? 그렇고 부산 살 때는 장염이 심하게 와서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고/XPN+삼/NR+때/NNG+는/JX+림프절/NNG+이/JKS+부/VV+었/EP+다고/EC+했/VX+EP+나/EF+./SY+./SY+그렇고부산살때는장염이심하게와서ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 림프절이면 목 쪽이네? ㅜㅜ 장염으로도 입원 하는구나 ㅜㅜ",
+            "norm_text": "림프절이면 목 쪽이네? ㅜㅜ 장염으로도 입원 하는구나 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "림프절/NNG+이/JKS+면목/NNG+쪽/NNB+이/VCP+네/EF+ㅜㅜ장염으로도입원하는구나ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 그것도 목은 아니였어 뭔가 몸 속에 림프 어쩌고 저쩌고 했는데 여튼 그래...",
+            "norm_text": "아니 그것도 목은 아니였어 뭔가 몸 속에 림프 어쩌고 저쩌고 했는데 여튼 그래...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니그것도목은아니였어뭔가몸속에림프어쩌고저쩌고했는데여튼그래/UNKNOWN+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 언니는 한 적 없어?",
+            "norm_text": "키키 언니는 한 적 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+언니/NNG+는/JX+한/VV+ETM+적/NNB+없/VA+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : ㅜㅜ 나는 해본 적 있어... 키키 친구랑 장난치다 기도에 구멍 남",
+            "norm_text": "ㅜㅜ 나는 해본 적 있어... 키키 친구랑 장난치다 기도에 구멍 남",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+나/NP+는/JX+해/VV+EC+본/VX+ETM+적/NNB+있/VA+어/EF+./SY+키키친구랑장난치다기도에구멍남/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 헐? 어? 아니 어떤 장난을 치면 기도에 구멍이 나는 거야...?",
+            "norm_text": "헐? 어? 아니 어떤 장난을 치면 기도에 구멍이 나는 거야...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+어/IC+아니/IC+어떤/MM+장난/NNG+을/JKO+치/VV+면/EC+기도/NNG+에/JKB+구멍/NNG+이/JKS+나/VV+는/ETM+거/NNB+야/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 몰라 팔에 탁 맞았는데... 기도에 구멍 나서 숨이 안 쉬어져",
+            "norm_text": "몰라 팔에 탁 맞았는데... 기도에 구멍 나서 숨이 안 쉬어져",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몰라/VV+EC+팔/NNG+에/JKB+탁/MAG+맞/VV+았/EP+는데/EC+./SY+./SY+기도/NNG+에/JKB+구멍나/VV+서/EC+숨/NNG+이/JKS+안/MAG+쉬/VV+어/EC+져/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 헐... 미쳤다... 진짜 아팠겠따 ㅠㅠ 그럼 걍 입원 치료만 한 거야?",
+            "norm_text": "헐... 미쳤다... 진짜 아팠겠따 ㅠㅠ 그럼 걍 입원 치료만 한 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+./SY+미쳤/VV+EP+다/EF+./SY+진짜아팠겠따ㅠㅠ그럼걍입원치료만한거야/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 막 목 전체에 공기 방울 만져지고 숨 못 쉬고 그랬어... 응 뭐 치료했던 거 같은데 키키",
+            "norm_text": "막 목 전체에 공기 방울 만져지고 숨 못 쉬고 그랬어... 응 뭐 치료했던 거 같은데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "막목/NNG+전체/NNG+에/JKB+공기/NNG+방울/NNG+만져/VV+EC+지/VX+고/EC+숨/NNG+못/MAG+쉬/VV+고/EC+그랬/VV+EP+어/EF+./SY+응/IC+뭐/IC+치료/NNG+했/XSV+EP+던/ETM+거/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 와 대박... 진짜 무섭다... 그거 말고는 없어?",
+            "norm_text": "와 대박... 진짜 무섭다... 그거 말고는 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+대박/NNG+./SY+./SY+진짜/MAG+무섭/VA+다/EF+./SY+그거/NP+말/VV+고/EC+는/JX+없/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응... 난 원래 엄살 엄청 심해서 조금만 아파도 병원 가니까 입원은 안 하네?",
+            "norm_text": "응... 난 원래 엄살 엄청 심해서 조금만 아파도 병원 가니까 입원은 안 하네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+난원래엄살엄청심해서조금만아파도병원가니까입원은안하네/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 악 키키 근데 그게 나아... 병을 키우는 것보다",
+            "norm_text": "키키 악 키키 근데 그게 나아... 병을 키우는 것보다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키악키키근데그게나아/UNKNOWN+./SY+병/NNG+을/JKO+키우/VV+는/ETM+것/NNB+보다/JKB"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 응 나는 200살까지 병원 안 가고 살고 싶어",
+            "norm_text": "키키 응 나는 200살까지 병원 안 가고 살고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+나/NP+는/JX+200/SN+살/NNBC+까지/JX+병원/NNG+안/MAG+가/VV+고/EC+살/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 대단하네? 200살 까지 살고 싶은 거야?",
+            "norm_text": "키키 대단하네? 200살 까지 살고 싶은 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+대단/XR+하/XSA+네/EF+200/SN+살/NNBC+까지/JX+살/VV+고/EC+싶/VX+은/ETM+거/NNB+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 22344,
+    "name": "KAKAO_603_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113305087616/KAKAO_603_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113305087616/KAKAO_603_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30369,
+      "filename": "KAKAO_603_14.txt",
+      "title": "KAKAO_603_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 429,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 429,
+        "word_size": 144,
+        "text": "1 : 너 유튜브 가세연 알아?\n2 : 알지 알지... 근데 가세연은 왜 ?\n1 : 이번에 가세연 다 구속당했대\n2 : 헉 진짜 ? 왜 ?\n1 : 명예훼손이랑 모욕 등 혐의로 10건 이상 피소 됐다는데?\n2 : 그게 강제로 체포할 일이야 ?\n1 : 그건 아닌데 체포 영장 집행에 응하지 않아서 그랬대\n2 : 나도 방금 검색해봤는데 너 영상 봤어?\n1 : 무슨 영상? 영상도 있어?\n2 : 경찰이 강제로 문 뜯는 영상\n1 : 그런 것도 있어?\n1 : 나는 거기까진 못 봤는데\n2 : 집 안에서 안 나오고 저항해서 경찰이 현관문을 강제로 철거하는 영상인데 좀 무섭다\n1 : 아 나도 방금 보고 왔어.\n1 : 어우 내가 당한다고 생각하면 좀 무섭긴하다\n2 : 그치 근데 머 찔리는 게 있으니까 전에 안 간 건가...\n1 : 그건 본인들만 알지 않을까?\n2 : 그건 그렇지\n2 : 우린 그냥 보고만 있을 뿐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 유튜브 가세연 알아?",
+            "norm_text": "너 유튜브 가세연 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+유튜브/NNP+가/JKS+세연/NNG+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 알지 알지... 근데 가세연은 왜 ?",
+            "norm_text": "알지 알지... 근데 가세연은 왜 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "알/VV+지/EC+알/VV+지/EF+./SY+근데/MAJ+가/JKS+세연/NNG+은/JX+왜/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 이번에 가세연 다 구속당했대",
+            "norm_text": "이번에 가세연 다 구속당했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+가세/NNG+연다/VV+EC+구속/NNG+당했/XSV+EP+대/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헉 진짜 ? 왜 ?",
+            "norm_text": "헉 진짜 ? 왜 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+진짜/MAG+왜/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 명예훼손이랑 모욕 등 혐의로 10건 이상 피소 됐다는데?",
+            "norm_text": "명예훼손이랑 모욕 등 혐의로 10건 이상 피소 됐다는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "명예훼손/NNP+이랑/JC+모욕/NNG+등/NNB+혐의/NNG+로/JKB+10/SN+건/NNBC+이상/NNG+피소/NNG+됐/XSV+EP+다는데/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그게 강제로 체포할 일이야 ?",
+            "norm_text": "그게 강제로 체포할 일이야 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그게/NP+JKS+강제/NNG+로/JKB+체포/NNG+할/XSV+ETM+일/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그건 아닌데 체포 영장 집행에 응하지 않아서 그랬대",
+            "norm_text": "그건 아닌데 체포 영장 집행에 응하지 않아서 그랬대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그건/NP+JX+아닌데/VCN+EC+체포영장/NNP+집행/NNG+에/JKB+응하/VV+지/EC+않/VX+아서/EC+그랬/VV+EP+대/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나도 방금 검색해봤는데 너 영상 봤어?",
+            "norm_text": "나도 방금 검색해봤는데 너 영상 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+방금/MAG+검색/NNG+해/XSV+EC+봤/VX+EP+는데/EC+너/NP+영상/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 무슨 영상? 영상도 있어?",
+            "norm_text": "무슨 영상? 영상도 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+영상/NNG+?/SY+영상/NNG+도/JX+있/VA+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 경찰이 강제로 문 뜯는 영상",
+            "norm_text": "경찰이 강제로 문 뜯는 영상",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "경찰/NNG+이/JKS+강제/NNG+로/JKB+문/NNG+뜯/VV+는/ETM+영상/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그런 것도 있어?",
+            "norm_text": "그런 것도 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런/MM+것/NNB+도/JX+있/VA+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나는 거기까진 못 봤는데",
+            "norm_text": "나는 거기까진 못 봤는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+거기/NP+까진/JX+JX+못/MAG+봤/VV+EP+는데/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 집 안에서 안 나오고 저항해서 경찰이 현관문을 강제로 철거하는 영상인데 좀 무섭다",
+            "norm_text": "집 안에서 안 나오고 저항해서 경찰이 현관문을 강제로 철거하는 영상인데 좀 무섭다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집안/NNG+에서/JKB+안/MAG+나오/VV+고/EC+저항/NNG+해서/XSV+EC+경찰/NNG+이/JKS+현관문/NNG+을/JKO+강제/NNG+로/JKB+철거/NNG+하/XSV+는/ETM+영상/NNG+인데/VCP+EC+좀/MAG+무섭/VA+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 나도 방금 보고 왔어.",
+            "norm_text": "아 나도 방금 보고 왔어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나/NP+도/JX+방금/MAG+보/VV+고/EC+왔/VX+EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 어우 내가 당한다고 생각하면 좀 무섭긴하다",
+            "norm_text": "어우 내가 당한다고 생각하면 좀 무섭긴하다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어우/IC+내/NP+가/JKS+당한다고/VV+EC+생각/NNG+하/XSV+면/EC+좀/MAG+무섭/VA+긴/ETN+JX+하/VX+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그치 근데 머 찔리는 게 있으니까 전에 안 간 건가...",
+            "norm_text": "그치 근데 머 찔리는 게 있으니까 전에 안 간 건가...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+근데/MAJ+머/NP+찔리/VV+는/ETM+게/NNB+JKS+있/VA+으니까/EC+전/NNG+에/JKB+안/MAG+간/VV+ETM+건가/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그건 본인들만 알지 않을까?",
+            "norm_text": "그건 본인들만 알지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+본인/NNG+들/XSN+만/JX+알/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그건 그렇지",
+            "norm_text": "그건 그렇지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그렇/VA+지/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 우린 그냥 보고만 있을 뿐",
+            "norm_text": "우린 그냥 보고만 있을 뿐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우린/NP+JX+그냥/MAG+보/VV+고/EC+만/JX+있/VV+을/ETM+뿐/NNB"
+          }
+        ]
+      }
+    }
+  ]
+}

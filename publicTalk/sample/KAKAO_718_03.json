@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 56433,
+    "name": "KAKAO_718_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114202014558/KAKAO_718_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114202014558/KAKAO_718_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35502,
+      "filename": "KAKAO_718_03.txt",
+      "title": "KAKAO_718_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 352,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 352,
+        "word_size": 127,
+        "text": "1 : 엄마 배고팡~ 언제 집 와\n2 : 6시 전에 가\n1 : 왤케 오래 걸려!\n2 : 버스가 신호에 계속 걸림\n1 : 아 왜 엄마가 탄 버스만 신호 걸린대?\n2 : 기사님이 천천히 가는데 어떡해\n1 : 곧 퇴근 시간 되면 차 더 막힐 텐데 ㅠ\n2 : 퇴근 시간 되기 전에는 내릴 듯~\n1 : ㅠㅠ 나 배고팡 ㅠㅠ 아빠도 배 고프대\n2 : 아빠 벌써 집에 왔어?\n1 : 엉 아빠 저녁에 약속 있다고 일찍 왔어\n2 : 너가 국이라도 데워 놔\n1 : 아니면 내가 치킨 포장 주문 전화 해 놓을 게 엄마가 버스 내리면서 가져와 하하\n2 : 틈만 나면 시켜 먹냐\n1 : 왜에에에엥 재난 지원금 받은 걸로 사 먹자~\n2 : 오키. 그럼 시켜 놓고 치킨집 위치 알려줘",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 배고팡~ 언제 집 와",
+            "norm_text": "엄마 배고팡~ 언제 집 와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+배/VV+고/EC+팡/MAG+~/SY+언제/MAG+집/NNG+와/JC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 6시 전에 가",
+            "norm_text": "6시 전에 가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "6/SN+시/NNBC+전/NNG+에/JKB+가/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 왤케 오래 걸려!",
+            "norm_text": "왤케 오래 걸려!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왤케오래걸려/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 버스가 신호에 계속 걸림",
+            "norm_text": "버스가 신호에 계속 걸림",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "버스/NNG+가/JKS+신호/NNG+에/JKB+계속/MAG+걸림/VV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 왜 엄마가 탄 버스만 신호 걸린대?",
+            "norm_text": "아 왜 엄마가 탄 버스만 신호 걸린대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+왜/MAG+엄마/NNG+가/JKS+탄/VV+ETM+버스/NNG+만/JX+신호/NNG+걸린대/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 기사님이 천천히 가는데 어떡해",
+            "norm_text": "기사님이 천천히 가는데 어떡해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기사/NNG+님/XSN+이/JKS+천천히/MAG+가/VV+는데/EC+어떡/XR+해/XSA+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 곧 퇴근 시간 되면 차 더 막힐 텐데 ㅠ",
+            "norm_text": "곧 퇴근 시간 되면 차 더 막힐 텐데 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곧/MAG+퇴근/NNG+시간/NNG+되/XSV+면/EC+차/NNG+더/MAG+막힐/VV+ETM+텐데/NNB+VCP+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 퇴근 시간 되기 전에는 내릴 듯~",
+            "norm_text": "퇴근 시간 되기 전에는 내릴 듯~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "퇴근/NNG+시간/NNG+되/XSV+기/ETN+전/NNG+에/JKB+는/JX+내릴/VV+ETM+듯/NNB+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : ㅠㅠ 나 배고팡 ㅠㅠ 아빠도 배 고프대",
+            "norm_text": "ㅠㅠ 나 배고팡 ㅠㅠ 아빠도 배 고프대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+나배/NNG+고/VCP+EC+팡/MAG+ㅠㅠ/UNKNOWN+아빠/NNG+도/JX+배고프/VA+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아빠 벌써 집에 왔어?",
+            "norm_text": "아빠 벌써 집에 왔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+벌써/MAG+집/NNG+에/JKB+왔/VV+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 엉 아빠 저녁에 약속 있다고 일찍 왔어",
+            "norm_text": "엉 아빠 저녁에 약속 있다고 일찍 왔어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+아빠/NNG+저녁/NNG+에/JKB+약속/NNG+있/VV+다고/EC+일찍/MAG+왔/VV+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너가 국이라도 데워 놔",
+            "norm_text": "너가 국이라도 데워 놔",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "너/NP+가/JKS+국/NNG+이/VCP+라도/EC+데워/VV+EC+놔/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아니면 내가 치킨 포장 주문 전화 해 놓을 게 엄마가 버스 내리면서 가져와 하하",
+            "norm_text": "아니면 내가 치킨 포장 주문 전화 해 놓을 게 엄마가 버스 내리면서 가져와 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "아니면/MAJ+내/NP+가/JKS+치킨/VV+ETM+포장/NNG+주문/NNG+전화/NNG+해/XSV+EC+놓/VX+을/ETM+게/NNB+JKS+엄마/NNG+가/JKS+버스/NNG+내리/VV+면서/EC+가져와/VV+EC+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 틈만 나면 시켜 먹냐",
+            "norm_text": "틈만 나면 시켜 먹냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "틈/NNG+만나/VV+면/EC+시켜/VV+EC+먹/VV+냐/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 왜에에에엥 재난 지원금 받은 걸로 사 먹자~",
+            "norm_text": "왜에에에엥 재난 지원금 받은 걸로 사 먹자~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "왜/MAG+에에에/IC+엥/IC+재난/NNG+지원금/NNG+받/VV+은/ETM+걸로/NNB+JKB+사먹/VV+자/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오키. 그럼 시켜 놓고 치킨집 위치 알려줘",
+            "norm_text": "오키. 그럼 시켜 놓고 치킨집 위치 알려줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "오키/NNP+그럼/MAJ+시켜/VV+EC+놓/VX+고/EC+치킨/VV+ETM+집/NNG+위치/NNG+알려줘/VV+EC+VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

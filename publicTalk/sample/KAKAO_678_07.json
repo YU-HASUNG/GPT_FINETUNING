@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55228,
+    "name": "KAKAO_678_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113634007822/KAKAO_678_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113634007822/KAKAO_678_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35446,
+      "filename": "KAKAO_678_07.txt",
+      "title": "KAKAO_678_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 333,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 333,
+        "word_size": 111,
+        "text": "1 : 가족 중에 누구랑 제일 친해?\n2 : 나는 엄마랑 제일 친하지~\n1 : 강아지라 할 줄 알았는데 키키\n2 : 강아지는 나 싫어해 ㅜ\n1 : 맞지 키키 너가 괴롭혀서 그렇잖아 ㅜ\n2 : 귀여워 해주는 건데, 괴롭힌다고 느끼나 봐 나쁜 놈\n1 : 키키 그래도 가족으로는 쳐주지?\n2 : 당연하지 내 동생이야\n1 : 오... 동생은 진짜 귀엽더라\n2 : 키키 너는 누구랑 젤 친해?\n1 : 나는 언니랑 젤 친한 듯?\n2 : 언니 있어서 좋겠다 ㅜ 나는 외동이잖아\n1 : 좋긴 한데 요즘 좀 멀어졌음\n2 : 니가 언니 괴롭히니까 그렇지\n1 : 아니야 언니가 자취하더니 나랑 안 놀아줘 ㅜ\n2 : 니가 언니한테 없게 했겠지~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 가족 중에 누구랑 제일 친해?",
+            "norm_text": "가족 중에 누구랑 제일 친해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가족/NNG+중/NNB+에/JKB+누구/NP+랑/JKB+제일/MAG+친해/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 엄마랑 제일 친하지~",
+            "norm_text": "나는 엄마랑 제일 친하지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+엄마/NNG+랑/JKB+제일/MAG+친하/VA+지/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 강아지라 할 줄 알았는데 키키",
+            "norm_text": "강아지라 할 줄 알았는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+라/VCP+EC+할/VX+ETM+줄/NNB+알/VV+았/EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 강아지는 나 싫어해 ㅜ",
+            "norm_text": "강아지는 나 싫어해 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+는/JX+나/NP+싫/VA+어/EC+해ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞지 키키 너가 괴롭혀서 그렇잖아 ㅜ",
+            "norm_text": "맞지 키키 너가 괴롭혀서 그렇잖아 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EC+키/NNG+키/XSV+ETN+너/NP+가/JKS+괴롭혀서/VV+EC+그렇/VA+잖아/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 귀여워 해주는 건데, 괴롭힌다고 느끼나 봐 나쁜 놈",
+            "norm_text": "귀여워 해주는 건데, 괴롭힌다고 느끼나 봐 나쁜 놈",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "귀여워해/VA+EC+VX+EC+주/VX+는/ETM+건데/NNB+VCP+EC+,/SC+괴롭힌다고/VV+EC+느끼/VV+나/EC+봐/VX+EF+나쁜/VA+ETM+놈/NNB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 그래도 가족으로는 쳐주지?",
+            "norm_text": "키키 그래도 가족으로는 쳐주지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+가족/NNG+으로/JKB+는/JX+쳐/VV+EC+주/VX+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 당연하지 내 동생이야",
+            "norm_text": "당연하지 내 동생이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+내/NP+JKG+동생/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오... 동생은 진짜 귀엽더라",
+            "norm_text": "오... 동생은 진짜 귀엽더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+동생/NNG+은/JX+진짜/MAG+귀엽/VA+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 너는 누구랑 젤 친해?",
+            "norm_text": "키키 너는 누구랑 젤 친해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+너/NP+는/JX+누구/NP+랑/JKB+젤/MAG+친해/VA+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 언니랑 젤 친한 듯?",
+            "norm_text": "나는 언니랑 젤 친한 듯?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+언니/NNG+랑/JKB+젤/MAG+친한/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 12,
+            "text": "2 : 언니 있어서 좋겠다 ㅜ 나는 외동이잖아",
+            "norm_text": "언니 있어서 좋겠다 ㅜ 나는 외동이잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+있/VV+어서/EC+좋/VA+겠/EP+다ㅜ/UNKNOWN+나/NP+는/JX+외동/NNG+이/VCP+잖아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 좋긴 한데 요즘 좀 멀어졌음",
+            "norm_text": "좋긴 한데 요즘 좀 멀어졌음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+긴/ETN+JX+한데/VX+EC+요즘/MAG+좀/MAG+멀/VA+어/EC+졌/VX+EP+음/ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 니가 언니 괴롭히니까 그렇지",
+            "norm_text": "니가 언니 괴롭히니까 그렇지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/JKS+언니/NNG+괴롭히/VV+니까/EC+그렇/VA+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니야 언니가 자취하더니 나랑 안 놀아줘 ㅜ",
+            "norm_text": "아니야 언니가 자취하더니 나랑 안 놀아줘 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+언니/NNG+가/JKS+자취/NNG+하/XSV+더니/EC+나/NP+랑/JC+안/MAG+놀/VV+아/EC+줘/VX+EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 니가 언니한테 없게 했겠지~",
+            "norm_text": "니가 언니한테 없게 했겠지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/JKS+언니/NNG+한테/JKB+없/VA+게/EC+했/VX+EP+겠/EP+지/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

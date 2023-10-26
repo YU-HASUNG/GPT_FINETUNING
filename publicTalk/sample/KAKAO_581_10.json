@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24909,
+    "name": "KAKAO_581_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155819025730/KAKAO_581_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155819025730/KAKAO_581_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31541,
+      "filename": "KAKAO_581_10.txt",
+      "title": "KAKAO_581_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 427,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 427,
+        "word_size": 144,
+        "text": "1 : 언니 이번 여름 휴가 때 수영장 갔어?\n2 : 아니 가고 싶은데 코로나 때문에 발이 묶였어 ㅜ\n1 : 그치 나는 계곡이라도 갔다 왔는데 괜찮더라\n2 : 헐 부럽다 근데 나는 이해가 안 가는 게 하나 있어!\n1 : 뭐가 이해가 안되는데? 키키\n2 : 아니 나는 방수 마스크가 방역에 도움이 되는 건지 궁금해!\n1 : 아 나는 사람이 없는 곳에서 마스크 벗고 놀아서 잘 몰라\n2 : 키키 계곡은 마스크 안 써도 된대?\n1 : 그건 아니지만 사람 없는 곳은 괜찮을 듯\n2 : 니가 갔던 계곡은 사람이 없었어?\n1 : 응 완전 프라이빗 계곡이었어 키키\n2 : 오 나중에 나도 거기 데려가 줘 ㅜ\n1 : 응 내년에 같이 가보자 아직 안 알려졌어 키키\n2 : 헐 거기 인스타에 광고 올라오면 안 되는데  ㅜ\n1 : 맞아 그러기 전에 가보자 키키\n2 : 그래 이번 년도는 글렀으니까 내년에 가자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 이번 여름 휴가 때 수영장 갔어?",
+            "norm_text": "언니 이번 여름 휴가 때 수영장 갔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+이번/NNG+여름휴가/NNG+때/NNG+수영장/NNG+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 가고 싶은데 코로나 때문에 발이 묶였어 ㅜ",
+            "norm_text": "아니 가고 싶은데 코로나 때문에 발이 묶였어 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/MAG+가/VV+고/EC+싶/VX+은데/EC+코로나/NNG+때문/NNB+에/JKB+발/NNG+이/JKS+묶였/VV+EP+어ㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그치 나는 계곡이라도 갔다 왔는데 괜찮더라",
+            "norm_text": "그치 나는 계곡이라도 갔다 왔는데 괜찮더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+나/NP+는/JX+계곡/NNG+이/VCP+라도/EC+갔다왔/VV+EP+는데/EC+괜찮/VA+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헐 부럽다 근데 나는 이해가 안 가는 게 하나 있어!",
+            "norm_text": "헐 부럽다 근데 나는 이해가 안 가는 게 하나 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+부럽/VA+다/EF+근데/MAJ+나/NP+는/JX+이해/NNG+가/JKS+안/MAG+가/VV+는/ETM+게/NNB+JKS+하나/NR+있/VA+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭐가 이해가 안되는데? 키키",
+            "norm_text": "뭐가 이해가 안되는데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+가/JKS+이해/NNG+가/JKS+안/MAG+되/VV+는데/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 나는 방수 마스크가 방역에 도움이 되는 건지 궁금해!",
+            "norm_text": "아니 나는 방수 마스크가 방역에 도움이 되는 건지 궁금해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+나/NP+는/JX+방수/NNG+마스크/NNG+가/JKS+방역/NNG+에/JKB+도움/NNG+이/JKS+되/VV+는/ETM+건지/NNB+VCP+EC+궁금/XR+해/XSA+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 나는 사람이 없는 곳에서 마스크 벗고 놀아서 잘 몰라",
+            "norm_text": "아 나는 사람이 없는 곳에서 마스크 벗고 놀아서 잘 몰라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+는/JX+사람/NNG+이/JKS+없/VA+는/ETM+곳/NNG+에서/JKB+마스크/NNG+벗/VV+고/EC+놀/VV+아서/EC+잘/MAG+몰라/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 계곡은 마스크 안 써도 된대?",
+            "norm_text": "키키 계곡은 마스크 안 써도 된대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+계곡/NNG+은/JX+마스크/NNG+안/MAG+써도/VV+EC+된대/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그건 아니지만 사람 없는 곳은 괜찮을 듯",
+            "norm_text": "그건 아니지만 사람 없는 곳은 괜찮을 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+아니/VCN+지만/EC+사람/NNG+없/VA+는/ETM+곳/NNG+은/JX+괜찮/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 니가 갔던 계곡은 사람이 없었어?",
+            "norm_text": "니가 갔던 계곡은 사람이 없었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+가/JKS+갔/VV+EP+던/ETM+계곡/NNG+은/JX+사람/NNG+이/JKS+없/VA+었/EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 완전 프라이빗 계곡이었어 키키",
+            "norm_text": "응 완전 프라이빗 계곡이었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+완전/MAG+프라이빗/NNG+계곡/NNG+이/VCP+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오 나중에 나도 거기 데려가 줘 ㅜ",
+            "norm_text": "오 나중에 나도 거기 데려가 줘 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "오/NR+나중/NNG+에/JKB+나/NP+도/JX+거기/NP+데려가/VV+EC+줘/VX+EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 내년에 같이 가보자 아직 안 알려졌어 키키",
+            "norm_text": "응 내년에 같이 가보자 아직 안 알려졌어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+내년/NNG+에/JKB+같이/MAG+가/VV+EC+보/VX+자/EC+아직/MAG+안/MAG+알려졌/VV+EC+VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 헐 거기 인스타에 광고 올라오면 안 되는데  ㅜ",
+            "norm_text": "헐 거기 인스타에 광고 올라오면 안 되는데  ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+거기/NP+인/VCP+ETM+스타/NNG+에/JKB+광고/NNG+올라오/VV+면/EC+안/MAG+되/VV+는/ETM+데ㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 그러기 전에 가보자 키키",
+            "norm_text": "맞아 그러기 전에 가보자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "맞/VV+아/EC+그러/VV+기/ETN+전/NNG+에/JKB+가/VV+EC+보/VX+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 이번 년도는 글렀으니까 내년에 가자!",
+            "norm_text": "그래 이번 년도는 글렀으니까 내년에 가자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+이번/NNG+년/XSN+도/JX+는/JX+글렀/VA+EP+으니까/EC+내년/NNG+에/JKB+가/VV+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

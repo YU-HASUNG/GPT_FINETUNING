@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24518,
+    "name": "KAKAO_495_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144152051992/KAKAO_495_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144152051992/KAKAO_495_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28937,
+      "filename": "KAKAO_495_06.txt",
+      "title": "KAKAO_495_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 547,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 547,
+        "word_size": 181,
+        "text": "1 : 니는 외국어 배워 보고 싶은 거 없나\n2 : 나는 불어 배워 보거나 멕시코어 배워 보고 싶다 키키\n1 : 오 특이한데? 키키 학원도 잘 없을 거 같은데\n2 : 키키 왜냐하면 내가 멕시코 음식을 좋아하는데 현지에 가서 먹어 보고 싶다\n1 : 키키 학원은 어려울 거 같은데... 스터디도 없을 듯\n2 : 어 맞다 키키 없을 거 같다 키키\n2 : 니는 배우고 싶은 외국어 없나\n1 : 키키 나도 불어 배워 보고 싶은데... 쓸 일이 없을 거 같아\n2 : 키키 하긴 지금 배워도 나가서 쓸 일이 있겠나 키키\n1 : 키키 그치 주변에 프랑스인이 한 명도 없어\n2 : 맞아 해외로 나갈 거 아님 딱히 배울 필요 없다 키키\n1 : 키키 응 외국어는 진짜 꾸준히 안 하면 까먹어버려서 ㅜㅜ\n2 : 응응 맞아 외국인 사귀면 외국어가 그렇게 는다는데 키키\n1 : 키키 응... 맞다 사실 진짜 그때 많이 늘지... 키키\n2 : 너도 그때 외국인 남친 사귈 때 많이 늘었었어? 키키\n1 : 아... 키키 응 그때 나도 많이 늘었지... 키키 싸워야 하는데 말이 안 나오니까\n2 : 아 키키 싸우기 위해 외국어가 는 건가",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니는 외국어 배워 보고 싶은 거 없나",
+            "norm_text": "니는 외국어 배워 보고 싶은 거 없나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+외국어/NNG+배워/VV+EC+보/VX+고/EC+싶/VX+은/ETM+거/NNB+없/VA+나/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 불어 배워 보거나 멕시코어 배워 보고 싶다 키키",
+            "norm_text": "나는 불어 배워 보거나 멕시코어 배워 보고 싶다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+불/VV+어/EC+배워/VV+EC+보/VX+거나/EC+멕시코/NNP+어/IC+배워/VV+EC+보/VX+고/EC+싶/VX+다키키/NNP"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 특이한데? 키키 학원도 잘 없을 거 같은데",
+            "norm_text": "오 특이한데? 키키 학원도 잘 없을 거 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+특이/NNG+한데/XSA+EF+키/NNG+키/NNG+학원/NNG+도/JX+잘/MAG+없/VA+을/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 왜냐하면 내가 멕시코 음식을 좋아하는데 현지에 가서 먹어 보고 싶다",
+            "norm_text": "키키 왜냐하면 내가 멕시코 음식을 좋아하는데 현지에 가서 먹어 보고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+왜냐하면/MAJ+내/NP+가/JKS+멕시코/NNP+음식/NNG+을/JKO+좋아하/VV+는데/EC+현지/NNG+에/JKB+가/VV+서/EC+먹/VV+어/EC+보/VX+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 학원은 어려울 거 같은데... 스터디도 없을 듯",
+            "norm_text": "키키 학원은 어려울 거 같은데... 스터디도 없을 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+학원/NNG+은/JX+어려울/VA+ETM+거/NNB+같/VA+은데/EF+./SY+./SY+스터디/NNP+도/JX+없/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어 맞다 키키 없을 거 같다 키키",
+            "norm_text": "어 맞다 키키 없을 거 같다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+맞/VV+다/EC+키/NNG+키/XSV+ETN+없/VA+을/ETM+거/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 7,
+            "text": "2 : 니는 배우고 싶은 외국어 없나",
+            "norm_text": "니는 배우고 싶은 외국어 없나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+배우/VV+고/EC+싶/VX+은/ETM+외국어/NNG+없/VA+나/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 나도 불어 배워 보고 싶은데... 쓸 일이 없을 거 같아",
+            "norm_text": "키키 나도 불어 배워 보고 싶은데... 쓸 일이 없을 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+불/VV+어/EC+배워/VV+EC+보/VX+고/EC+싶/VX+은데/EF+./SY+쓸/VV+ETM+일/NNG+이/JKS+없/VA+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 하긴 지금 배워도 나가서 쓸 일이 있겠나 키키",
+            "norm_text": "키키 하긴 지금 배워도 나가서 쓸 일이 있겠나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+긴/ETN+JX+지금/MAG+배워도/VV+EC+나가/VX+서/EC+쓸/VV+ETM+일/NNG+이/JKS+있/VA+겠/EP+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 그치 주변에 프랑스인이 한 명도 없어",
+            "norm_text": "키키 그치 주변에 프랑스인이 한 명도 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치/IC+주변/NNG+에/JKB+프랑스인/NNP+이/JKS+한/MM+명/NNBC+도/JX+없/VA+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 맞아 해외로 나갈 거 아님 딱히 배울 필요 없다 키키",
+            "norm_text": "맞아 해외로 나갈 거 아님 딱히 배울 필요 없다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+해외/NNG+로/JKB+나갈/VV+ETM+거/NNB+아님/VCN+EC+딱히/MAG+배울/VV+ETM+필요/NNG+없/VA+다키키/NNP"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 응 외국어는 진짜 꾸준히 안 하면 까먹어버려서 ㅜㅜ",
+            "norm_text": "키키 응 외국어는 진짜 꾸준히 안 하면 까먹어버려서 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+외국어/NNG+는/JX+진짜/MAG+꾸준히/MAG+안/MAG+하/VV+면/EC+까먹/VV+어/EC+버려서/VX+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응응 맞아 외국인 사귀면 외국어가 그렇게 는다는데 키키",
+            "norm_text": "응응 맞아 외국인 사귀면 외국어가 그렇게 는다는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+맞/VV+아/EC+외국인/NNG+사귀/VV+면/EC+외국어/NNG+가/JKS+그렇게/MAG+는다는/VV+ETM+데/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 응... 맞다 사실 진짜 그때 많이 늘지... 키키",
+            "norm_text": "키키 응... 맞다 사실 진짜 그때 많이 늘지... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+맞/VV+다/EF+사실/MAG+진짜/MAG+그때/NNG+많이/MAG+늘/VV+지/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 너도 그때 외국인 남친 사귈 때 많이 늘었었어? 키키",
+            "norm_text": "너도 그때 외국인 남친 사귈 때 많이 늘었었어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+도/JX+그때/NNG+외국인/NNG+남친/NNG+사귈/VV+ETM+때/NNG+많이/MAG+늘/VV+었었/EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아... 키키 응 그때 나도 많이 늘었지... 키키 싸워야 하는데 말이 안 나오니까",
+            "norm_text": "아... 키키 응 그때 나도 많이 늘었지... 키키 싸워야 하는데 말이 안 나오니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+키/NNG+키/XSV+ETN+응/IC+그때/NNG+나/NP+도/JX+많이/MAG+늘/VV+었/EP+지/EF+./SY+키/NNG+키/XSV+ETN+싸워야/VV+EC+하/VV+는데/EC+말/NNG+이/JKS+안/MAG+나오/VV+니까/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 키키 싸우기 위해 외국어가 는 건가",
+            "norm_text": "아 키키 싸우기 위해 외국어가 는 건가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아키/NNP+키/NNG+싸우/VV+기/ETN+위해/VV+EC+외국어/NNG+가/VV+는/ETM+건가/NNB+VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

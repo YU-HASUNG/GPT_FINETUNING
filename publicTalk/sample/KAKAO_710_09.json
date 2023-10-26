@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 56021,
+    "name": "KAKAO_710_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256068171/KAKAO_710_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256068171/KAKAO_710_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35608,
+      "filename": "KAKAO_710_09.txt",
+      "title": "KAKAO_710_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 660,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 660,
+        "word_size": 209,
+        "text": "1 : 강아지 키우니까 요즘 너무 행복해 키키\n2 : 나도 강아지 키워 보고 싶다... 귀여운 아이로!\n1 : 키키 근데 또... 피곤하기도 해 ㅜㅜ\n1 : 매일 산책 가니까 ㅜㅜ\n2 : 키키 근처 산책할 곳이 있어? 키키\n1 : 응 차 타고 10분? 정도 거리에 큰 공원 있어! 하하\n2 : 오오 그럼 산책하기 편하겠다 키키\n2 : 매일 산책하면 강아지도 기분 좋겠다!\n2 : 강아지 이름 뭐야?\n1 : 키키 이름은 버디야 키키\n1 : 버디는... 매일 3시간 산책해도 에너지가 넘쳐\n2 : 버디는 나랑 다르구나... 키키\n2 : 30대인 나는 버디 못 따라 가겠다 키키\n1 : 앗... 키키 서울 와서 좀 같이 뛰어 달라 하려고 했는데?\n2 : 키키 미안... 내 체력은 여기까지야... 키키\n2 : 뛰는 건 네가 하는 걸로...\n1 : 아... 키키 그래 넌 그럼 강아지는 못 키우겠구나 ㅜㅜ\n2 : 강아지 키우려면 체력이 좋아야겠다 키키\n2 : 고양이도 키워보고 싶은데!\n1 : 오 키키 내 친구도 고양이 키우는데 앉아랑 손 한다더라?\n1 : 원래 하는 건가?\n2 : 키키 고양이는 사람들이 집사 아냐?\n2 : 키키 다 해줘야 하던뎅 키키\n1 : 키키 내 말이... 키키 집사야 먹을걸 가져와라 이런 느낌인 줄 알았는데 아닌가 봐 키키\n2 : 키키 고양이도 개냥이 같은 애들이 많구나 키키\n2 : 한번 키워보고 싶다!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 강아지 키우니까 요즘 너무 행복해 키키",
+            "norm_text": "강아지 키우니까 요즘 너무 행복해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지키우니까요즘너무행복해키키/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나도 강아지 키워 보고 싶다... 귀여운 아이로!",
+            "norm_text": "나도 강아지 키워 보고 싶다... 귀여운 아이로!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+강아지/NNG+키워/VV+EC+보/VX+고/EC+싶/VX+다/EF+./SY+귀여운/VA+ETM+아이/NNG+로/JKB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 근데 또... 피곤하기도 해 ㅜㅜ",
+            "norm_text": "키키 근데 또... 피곤하기도 해 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+또/MAG+./SY+피곤/NNG+하/XSV+기/ETN+도/JX+해/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 매일 산책 가니까 ㅜㅜ",
+            "norm_text": "매일 산책 가니까 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매일산책가니까ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 근처 산책할 곳이 있어? 키키",
+            "norm_text": "키키 근처 산책할 곳이 있어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+근처/NNG+산책/NNG+할/XSV+ETM+곳/NNG+이/JKS+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응 차 타고 10분? 정도 거리에 큰 공원 있어! 하하",
+            "norm_text": "응 차 타고 10분? 정도 거리에 큰 공원 있어! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+차/NNG+타/VV+고/EC+10/SN+분/NNBC+정도/NNG+거리/NNG+에/JKB+큰/VA+ETM+공원/NNG+있/VA+어/EF+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오오 그럼 산책하기 편하겠다 키키",
+            "norm_text": "오오 그럼 산책하기 편하겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+그럼/MAJ+산책/NNG+하/XSV+기/ETN+편하/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 매일 산책하면 강아지도 기분 좋겠다!",
+            "norm_text": "매일 산책하면 강아지도 기분 좋겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매일/MAG+산책/NNG+하/XSV+면/EC+강아지/NNG+도/JX+기분/NNG+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 강아지 이름 뭐야?",
+            "norm_text": "강아지 이름 뭐야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "강아지/NNG+이름/NNG+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 이름은 버디야 키키",
+            "norm_text": "키키 이름은 버디야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키이름은버디야키키/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 버디는... 매일 3시간 산책해도 에너지가 넘쳐",
+            "norm_text": "버디는... 매일 3시간 산책해도 에너지가 넘쳐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버디/NNG+는/JX+./SY+매일/MAG+3/SN+시간/NNBC+산책/NNG+해도/XSV+EC+에너지/NNG+가/JKS+넘쳐/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 버디는 나랑 다르구나... 키키",
+            "norm_text": "버디는 나랑 다르구나... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버디/NNG+는/JX+나/NP+랑/JKB+다르/VA+구나/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 30대인 나는 버디 못 따라 가겠다 키키",
+            "norm_text": "30대인 나는 버디 못 따라 가겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "30/SN+대/NNBC+인나/VV+는/ETM+버디/NNG+못/MAG+따라가/VV+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "1 : 앗... 키키 서울 와서 좀 같이 뛰어 달라 하려고 했는데?",
+            "norm_text": "앗... 키키 서울 와서 좀 같이 뛰어 달라 하려고 했는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앗/IC+./SY+키키서울와서좀같이뛰어달라하려고했는데/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 미안... 내 체력은 여기까지야... 키키",
+            "norm_text": "키키 미안... 내 체력은 여기까지야... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 거절하기",
+            "morpheme": "키/NNG+키/NNG+미안/NNG+./SY+./SY+내/NP+JKG+체력/NNG+은/JX+여기/NP+까지/JX+야/VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 뛰는 건 네가 하는 걸로...",
+            "norm_text": "뛰는 건 네가 하는 걸로...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뛰/VV+는/ETM+건/NNB+JX+네/NP+가/JKS+하/VV+는/ETM+걸로/NNB+JKB+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아... 키키 그래 넌 그럼 강아지는 못 키우겠구나 ㅜㅜ",
+            "norm_text": "아... 키키 그래 넌 그럼 강아지는 못 키우겠구나 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+키키그래넌그럼강아지는못키우겠구나ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 강아지 키우려면 체력이 좋아야겠다 키키",
+            "norm_text": "강아지 키우려면 체력이 좋아야겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지키우려면체력이좋아야겠다키키/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 고양이도 키워보고 싶은데!",
+            "norm_text": "고양이도 키워보고 싶은데!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고양이/NNG+도/JX+키워/VV+EC+보/VX+고/EC+싶/VX+은데/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 오 키키 내 친구도 고양이 키우는데 앉아랑 손 한다더라?",
+            "norm_text": "오 키키 내 친구도 고양이 키우는데 앉아랑 손 한다더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오키키내친구도고양이키우는데앉아랑손한다더라/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 원래 하는 건가?",
+            "norm_text": "원래 하는 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "원래/NNG+하/XSV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 키키 고양이는 사람들이 집사 아냐?",
+            "norm_text": "키키 고양이는 사람들이 집사 아냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+고양이/NNG+는/JX+사람/NNG+들/XSN+이/JKS+집사/NNG+아냐/VCN+EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 다 해줘야 하던뎅 키키",
+            "norm_text": "키키 다 해줘야 하던뎅 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키다해줘야하던뎅키키/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 키키 내 말이... 키키 집사야 먹을걸 가져와라 이런 느낌인 줄 알았는데 아닌가 봐 키키",
+            "norm_text": "키키 내 말이... 키키 집사야 먹을걸 가져와라 이런 느낌인 줄 알았는데 아닌가 봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내말이/NP+JKG+NNG+JKS+./SY+키키집사야먹을걸가져와라이런느낌인줄알았는데아닌가봐키키/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 키키 고양이도 개냥이 같은 애들이 많구나 키키",
+            "norm_text": "키키 고양이도 개냥이 같은 애들이 많구나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키고양이도개냥이같은애들이많구나키키/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 한번 키워보고 싶다!",
+            "norm_text": "한번 키워보고 싶다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+번/NNBC+키워/VV+EC+보/VX+고/EC+싶/VX+다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

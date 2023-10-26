@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22336,
+    "name": "KAKAO_509_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906064177/KAKAO_509_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906064177/KAKAO_509_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29272,
+      "filename": "KAKAO_509_01.txt",
+      "title": "KAKAO_509_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 491,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 491,
+        "word_size": 146,
+        "text": "1 : 자기야 나 야식이 갑자기 땡기는데... ?\n2 : 응 그럼 배달 시켜볼까 ? 어떤 메뉴 먹고 싶어?\n1 : 닭발에 치즈 올라간 치즈 닭밝? 어때?\n2 : 좋아, 앱 접속해서 한번 보자~\n1 : 여기 어때? 후기도 많고 동네 맛집으로 뜨는데.\n2 : 오 괜찮은 것 같아. 사진도 너무 먹음직스럽게 보인다.\n1 : 요샌 배달 앱으로 해서 참 편해. 전화는 참 번거로웠거든~\n2 : 맞아. 이렇게 후기도 볼 수 있고 간편하게 주문하고, 편해졌어.\n1 : 더군다나 할인쿠폰도 있고 하니 더 좋아~\n2 : 맞아. 같이 곁들일 디저트로는 탄산음료 어때 ?\n1 : 요새 라임 프로틴 스파클링이라고 신상 나왔더라\n2 : 오 그거 tv에서 봤었어, 엄청 상큼해 보이던데.\n1 : 응 그게 단백질까지 포함이 됐다고 하더라구.\n2 : 단백질이 들어 있는 음료수라... 상상이 안 가네...ㅎ\n1 : 요새 탄산음료 많이 땡겼는데, 단백질 포함이면 더 건강히 마실 수 있겠다.\n2 : 응 마셔보고 괜찮으면 대량 구매하자~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 나 야식이 갑자기 땡기는데... ?",
+            "norm_text": "자기야 나 야식이 갑자기 땡기는데... ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "자기/NP+야/VCP+EF+나/NP+야식/NNG+이/JKS+갑자기/MAG+땡기/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 그럼 배달 시켜볼까 ? 어떤 메뉴 먹고 싶어?",
+            "norm_text": "응 그럼 배달 시켜볼까 ? 어떤 메뉴 먹고 싶어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+그럼/MAJ+배달/NNG+시켜/XSV+EC+볼까/VX+EF+어떤/MM+메뉴/NNG+먹/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 닭발에 치즈 올라간 치즈 닭밝? 어때?",
+            "norm_text": "닭발에 치즈 올라간 치즈 닭밝? 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "닭발/NNG+에/JKB+치즈/NNG+올라간/VV+ETM+치즈/NNG+닭/NNG+밝/VA+어때/VA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 좋아, 앱 접속해서 한번 보자~",
+            "norm_text": "좋아, 앱 접속해서 한번 보자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아/EC+,/SC+앱/NNG+접속/NNG+해서/XSV+EC+한/MM+번/NNBC+보/VV+자/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 여기 어때? 후기도 많고 동네 맛집으로 뜨는데.",
+            "norm_text": "여기 어때? 후기도 많고 동네 맛집으로 뜨는데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+어때/VA+EF+후기/NNG+도/JX+많/VA+고/EC+동네/NNG+맛집/NNG+으로/JKB+뜨/VV+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오 괜찮은 것 같아. 사진도 너무 먹음직스럽게 보인다.",
+            "norm_text": "오 괜찮은 것 같아. 사진도 너무 먹음직스럽게 보인다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+괜찮/VA+은/ETM+것/NNB+같/VA+아/EF+사진/NNG+도/JX+너무/MAG+먹음직/XR+스럽/XSA+게/EC+보인다/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 요샌 배달 앱으로 해서 참 편해. 전화는 참 번거로웠거든~",
+            "norm_text": "요샌 배달 앱으로 해서 참 편해. 전화는 참 번거로웠거든~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요샌/MAG+JX+배달/NNG+앱/NNG+으로/JKB+해서/VV+EC+참/MAG+편해/VA+EF+전화/NNG+는/JX+참/MAG+번거로웠/VA+EP+거든/EF+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아. 이렇게 후기도 볼 수 있고 간편하게 주문하고, 편해졌어.",
+            "norm_text": "맞아. 이렇게 후기도 볼 수 있고 간편하게 주문하고, 편해졌어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+이렇게/MAG+후기/NNG+도/JX+볼/VV+ETM+수/NNB+있/VV+고/EC+간편/XR+하/XSA+게/EC+주문/NNG+하/XSV+고/EC+,/SC+편해졌/VA+EC+VX+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 더군다나 할인쿠폰도 있고 하니 더 좋아~",
+            "norm_text": "더군다나 할인쿠폰도 있고 하니 더 좋아~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "더군다나/MAJ+할인/NNG+쿠폰/NNG+도/JX+있/VA+고/EC+하/VV+니/EC+더/MAG+좋/VA+아/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아. 같이 곁들일 디저트로는 탄산음료 어때 ?",
+            "norm_text": "맞아. 같이 곁들일 디저트로는 탄산음료 어때 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EF+같이/MAG+곁들일/VV+ETM+디저트/NNG+로/JKB+는/JX+탄산/NNG+음료/NNG+어때/VA+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 요새 라임 프로틴 스파클링이라고 신상 나왔더라",
+            "norm_text": "요새 라임 프로틴 스파클링이라고 신상 나왔더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+라임/NNG+프로/NNG+틴/NNG+스파클/NNP+링/NNG+이/VCP+라고/EC+신상/NNG+나왔/VV+EP+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오 그거 tv에서 봤었어, 엄청 상큼해 보이던데.",
+            "norm_text": "오 그거 tv에서 봤었어, 엄청 상큼해 보이던데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그거/NP+tv/SL+에서/JKB+봤었/VV+EP+어/EF+,/SC+엄청/MAG+상큼/XR+해/XSA+EC+보이/VV+던데/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 그게 단백질까지 포함이 됐다고 하더라구.",
+            "norm_text": "응 그게 단백질까지 포함이 됐다고 하더라구.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그게/NP+JKS+단백질/NNG+까지/JX+포함/NNG+이/JKS+됐/VV+EP+다고/EC+하/VX+더라구/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 단백질이 들어 있는 음료수라... 상상이 안 가네...ㅎ",
+            "norm_text": "단백질이 들어 있는 음료수라... 상상이 안 가네...ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "단백질/NNG+이/JKS+들/VV+어/EC+있/VX+는/ETM+음료수/NNG+라/VCP+EF+./SY+상상/NNG+이/JKS+안/MAG+가/VV+네/EF+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 15,
+            "text": "1 : 요새 탄산음료 많이 땡겼는데, 단백질 포함이면 더 건강히 마실 수 있겠다.",
+            "norm_text": "요새 탄산음료 많이 땡겼는데, 단백질 포함이면 더 건강히 마실 수 있겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+탄산/NNG+음료/NNG+많이/MAG+땡겼/VV+EP+는데/EC+,/SC+단백질/NNG+포함/NNG+이/VCP+면/EC+더/MAG+건강히/MAG+마실/VV+ETM+수/NNB+있/VV+겠/EP+다/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 마셔보고 괜찮으면 대량 구매하자~",
+            "norm_text": "응 마셔보고 괜찮으면 대량 구매하자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+마셔/VV+EC+보/VX+고/EC+괜찮/VA+으면/EC+대량/NNG+구매/NNG+하/XSV+자/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

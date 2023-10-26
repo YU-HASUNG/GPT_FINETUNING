@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 30332,
+    "name": "KAKAO_501_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145458062958/KAKAO_501_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145458062958/KAKAO_501_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29153,
+      "filename": "KAKAO_501_02.txt",
+      "title": "KAKAO_501_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 875,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 875,
+        "word_size": 263,
+        "text": "1 : 저번에 서울에서 살았었지?\n2 : 넹 키키 서울 원룸에서 지냈어요 ㅠ 키키\n1 : 와... 월셋값 어마어마했겠는데?\n2 : 그래도 서울에서는 싼 가격이고 지하철도 가깝고 인프라가 진짜 좋은 곳이였어요 ㅠ 키키\n2 : 회사가 많아서 식당이랑 카페가 많아서 편리했거든요 키키\n2 : 언니는 다른 지역에서 살아본 적 있어요?\n1 : 나는 여기저기 키키 수원에도 살아봤고 포항에도 살아봤고 키키 대학교 때문에 충북 영동에도 있었고 키키\n2 : 오~ 그중에 어느 지역이 더 괜찮았어요? 인프라던가 사람이라던가\n1 : 음... 포항이 좋더라 내가 바다를 좋아해서 그런지...\n1 : 그리고 포항이 아파트 가격이 싸\n2 : 아~ 포항 저요 ㅋ 친구 하나가 언니 말처럼 서울에 비하면 아파트가 진짜 싸다고 하던데...키키\n2 : 노후는 포항인가요? 키키\n1 : 근데 알제 키키 포항 지진 나서 그거 지정된 거 키키\n1 : 그거랑 지하철 없는 거만 빼면 난 좋았음\n2 : 지진 났을 때 포항에 있던 건 아니죠?\n1 : 아닝 난 한~ 참 전에 포항에 있었쥐 키키\n1 :  아 수원에 친구 자취방에도 같이 월세 내면서 살았는데 거기는 대학가 근처라 카페랑 먹을 곳이 많아서 좋았당\n2 : 대학 근처가 맛있는 게 많은 것 같아요ㅋ 가격도 괜찮고 ㅠ 키키\n2 : 제가 사는 동네도 괜찮은데 노인층이 많으니까 9시만 돼도 불이 다 꺼지거든요 ㅋ\n1 : 아 키키 그런 동네는 저녁에 다니기는 좀 무섭잖아ㅠㅍ\n2 : 이게 시골의 장점이자 단점인데 한 두다리ㅡ 걸치면 다 아는 사람들이라서, 소문이 금방 퍼지고 소식도 금방 알 수 있거든요 키키\n2 : 그래서 잘 돌아 다녀요 키키\n1 : 키키 서울에서 시골이라 하니 이상하네\n1 : 되게 으리으리한 주택들 있을 거 같은 느낌 키키\n2 : 으리으리 주택은 외곽 쪽에 진짜 많아요 ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저번에 서울에서 살았었지?",
+            "norm_text": "저번에 서울에서 살았었지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저번/NNG+에/JKB+서울/NNP+에서/JKB+살/VV+았었/EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 넹 키키 서울 원룸에서 지냈어요 ㅠ 키키",
+            "norm_text": "넹 키키 서울 원룸에서 지냈어요 ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넹/NNP+키키/NNP+서울/NNP+원룸/NNG+에서/JKB+지냈/VV+EP+어요/EF+ㅠ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 와... 월셋값 어마어마했겠는데?",
+            "norm_text": "와... 월셋값 어마어마했겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+월/NNG+셋/NR+값/NNG+어마어마/XR+했/XSA+EP+겠/EP+는데/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그래도 서울에서는 싼 가격이고 지하철도 가깝고 인프라가 진짜 좋은 곳이였어요 ㅠ 키키",
+            "norm_text": "그래도 서울에서는 싼 가격이고 지하철도 가깝고 인프라가 진짜 좋은 곳이였어요 ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+서울/NNP+에서/JKB+는/JX+싼/VA+ETM+가격/NNG+이/VCP+고/EC+지하철/NNG+도/JX+가깝/VA+고/EC+인프라/NNG+가/JKS+진짜/MAG+좋/VA+은/ETM+곳/NNG+이/VCP+였/EP+어요/EF+ㅠ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 회사가 많아서 식당이랑 카페가 많아서 편리했거든요 키키",
+            "norm_text": "회사가 많아서 식당이랑 카페가 많아서 편리했거든요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "회사/NNG+가/JKS+많/VA+아서/EC+식당/NNG+이랑/JKB+카페/NNG+가/JKS+많/VA+아서/EC+편리/NNG+했/XSV+EP+거든요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 언니는 다른 지역에서 살아본 적 있어요?",
+            "norm_text": "언니는 다른 지역에서 살아본 적 있어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+다른/MM+지역/NNG+에서/JKB+살/VV+아/EC+본/VX+ETM+적/NNB+있/VA+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나는 여기저기 키키 수원에도 살아봤고 포항에도 살아봤고 키키 대학교 때문에 충북 영동에도 있었고 키키",
+            "norm_text": "나는 여기저기 키키 수원에도 살아봤고 포항에도 살아봤고 키키 대학교 때문에 충북 영동에도 있었고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+여기저기/NNG+키키/NNP+수원/NNP+에/JKB+도/JX+살/VV+아/EC+봤/VX+EP+고/EC+포항/NNG+에/JKB+도/JX+살/VV+아/EC+봤/VX+EP+고/EC+키/NNG+키/NNG+대학교/NNG+때문/NNB+에/JKB+충북/NNP+영동/NNP+에/JKB+도/JX+있/VA+었/EP+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오~ 그중에 어느 지역이 더 괜찮았어요? 인프라던가 사람이라던가",
+            "norm_text": "오~ 그중에 어느 지역이 더 괜찮았어요? 인프라던가 사람이라던가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+그/MM+중/NNB+에/JKB+어느/MM+지역/NNG+이/JKS+더/MAG+괜찮/VA+았/EP+어요/EF+인프라/NNG+던가/VCP+EC+사람/NNG+이/VCP+라던가/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 음... 포항이 좋더라 내가 바다를 좋아해서 그런지...",
+            "norm_text": "음... 포항이 좋더라 내가 바다를 좋아해서 그런지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+포항/NNG+이/JKS+좋/VA+더라/EF+내/NP+가/JKS+바다/NNG+를/JKO+좋아해서/VV+EC+그런지/VA+EC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그리고 포항이 아파트 가격이 싸",
+            "norm_text": "그리고 포항이 아파트 가격이 싸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+포항/NNG+이/JKS+아파트/NNG+가격/NNG+이/JKS+싸/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아~ 포항 저요 ㅋ 친구 하나가 언니 말처럼 서울에 비하면 아파트가 진짜 싸다고 하던데...키키",
+            "norm_text": "아~ 포항 저요 ㅋ 친구 하나가 언니 말처럼 서울에 비하면 아파트가 진짜 싸다고 하던데...키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+포항/NNP+저/NP+요ㅋ/UNKNOWN+친구/NNG+하나/NR+가/JKS+언니/NNG+말/NNG+처럼/JKB+서울/NNP+에/JKB+비하/VV+면/EC+아파트/NNG+가/JKS+진짜/MAG+싸/VA+다고/EC+하/VX+던데/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 노후는 포항인가요? 키키",
+            "norm_text": "노후는 포항인가요? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "노후/NNG+는/JX+포항/NNG+인가요/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 알제 키키 포항 지진 나서 그거 지정된 거 키키",
+            "norm_text": "근데 알제 키키 포항 지진 나서 그거 지정된 거 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+알제/NNP+키키/NNP+포항/NNP+지진/NNG+나/NP+서/JKB+그거/NP+지정/NNG+된/XSV+ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그거랑 지하철 없는 거만 빼면 난 좋았음",
+            "norm_text": "그거랑 지하철 없는 거만 빼면 난 좋았음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+랑/JKB+지하철/NNG+없/VA+는/ETM+거/NNB+만/JX+빼/VV+면/EC+난/NP+JX+좋/VA+았/EP+음/ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 지진 났을 때 포항에 있던 건 아니죠?",
+            "norm_text": "지진 났을 때 포항에 있던 건 아니죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지진/NNG+났/VV+EP+을/ETM+때/NNG+포항/NNG+에/JKB+있/VV+던/ETM+건/NNB+JX+아니/VCN+죠/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아닝 난 한~ 참 전에 포항에 있었쥐 키키",
+            "norm_text": "아닝 난 한~ 참 전에 포항에 있었쥐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아닝/NNP+난한/NNG+~/SY+참전/NNG+에/JKB+포항/NNG+에/JKB+있/VV+었/EP+쥐/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 :  아 수원에 친구 자취방에도 같이 월세 내면서 살았는데 거기는 대학가 근처라 카페랑 먹을 곳이 많아서 좋았당",
+            "norm_text": "아 수원에 친구 자취방에도 같이 월세 내면서 살았는데 거기는 대학가 근처라 카페랑 먹을 곳이 많아서 좋았당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+수원/NNP+에/JKB+친구/NNG+자취방/NNG+에/JKB+도/JX+같이/MAG+월세/NNG+내/VV+면서/EC+살/VV+았/EP+는데/EC+거기/NP+는/JX+대학가/NNG+근처/NNG+라/VCP+EC+카페/NNG+랑/JKB+먹/VV+을/ETM+곳/NNG+이/JKS+많/VA+아서/EC+좋/VA+았/EP+당/XSN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 대학 근처가 맛있는 게 많은 것 같아요ㅋ 가격도 괜찮고 ㅠ 키키",
+            "norm_text": "대학 근처가 맛있는 게 많은 것 같아요ㅋ 가격도 괜찮고 ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대학/NNG+근처/NNG+가/JKS+맛있/VA+는/ETM+게/NNB+JKS+많/VA+은/ETM+것/NNB+같/VA+아요/EF+ㅋ/UNKNOWN+가격/NNG+도/JX+괜찮/VA+고/EC+ㅠ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 제가 사는 동네도 괜찮은데 노인층이 많으니까 9시만 돼도 불이 다 꺼지거든요 ㅋ",
+            "norm_text": "제가 사는 동네도 괜찮은데 노인층이 많으니까 9시만 돼도 불이 다 꺼지거든요 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제/NP+가/JKS+사/VV+는/ETM+동네/NNG+도/JX+괜찮/VA+은데/EC+노인/NNG+층/XSN+이/JKS+많/VA+으니까/EC+9/SN+시/NNBC+만/JX+돼도/VV+EC+불/NNG+이/JKS+다/MAG+꺼지/VV+거든요/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아 키키 그런 동네는 저녁에 다니기는 좀 무섭잖아ㅠㅍ",
+            "norm_text": "아 키키 그런 동네는 저녁에 다니기는 좀 무섭잖아ㅠㅍ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+그런/MM+동네/NNG+는/JX+저녁/NNG+에/JKB+다니/VV+기/ETN+는/JX+좀/MAG+무섭/VA+잖아/EF+ㅠㅍ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 이게 시골의 장점이자 단점인데 한 두다리ㅡ 걸치면 다 아는 사람들이라서, 소문이 금방 퍼지고 소식도 금방 알 수 있거든요 키키",
+            "norm_text": "이게 시골의 장점이자 단점인데 한 두다리ㅡ 걸치면 다 아는 사람들이라서, 소문이 금방 퍼지고 소식도 금방 알 수 있거든요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이게/NP+JKS+시골/NNG+의/JKG+장점/NNG+이/VCP+자/EC+단점/NNG+인데/VCP+EC+한두/MM+다리/NNG+ㅡ걸/UNKNOWN+치/VV+면/EC+다/MAG+아/VV+는/ETM+사람/NNG+들/XSN+이/VCP+라서/EC+,/SC+소문/NNG+이/JKS+금방/MAG+퍼지/VV+고/EC+소식/NNG+도/JX+금방/MAG+알/VV+ETM+수/NNB+있/VV+거든요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그래서 잘 돌아 다녀요 키키",
+            "norm_text": "그래서 잘 돌아 다녀요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+잘/MAG+돌아다녀/VV+EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 23,
+            "text": "1 : 키키 서울에서 시골이라 하니 이상하네",
+            "norm_text": "키키 서울에서 시골이라 하니 이상하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+서울/NNP+에서/JKB+시골/NNG+이/VCP+라/EC+하/VV+니/EC+이상/NNG+하/XSV+네/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 되게 으리으리한 주택들 있을 거 같은 느낌 키키",
+            "norm_text": "되게 으리으리한 주택들 있을 거 같은 느낌 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "되게/MAG+으리으리/XR+한/XSA+ETM+주택/NNG+들/XSN+있/VV+을/ETM+거/NNB+같/VA+은/ETM+느낌/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 으리으리 주택은 외곽 쪽에 진짜 많아요 ㅋ",
+            "norm_text": "으리으리 주택은 외곽 쪽에 진짜 많아요 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으리으리/MAG+주택/NNG+은/JX+외곽/NNG+쪽/NNB+에/JKB+진짜/MAG+많/VA+아요/EF+ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

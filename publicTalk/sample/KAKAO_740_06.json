@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 32201,
+    "name": "KAKAO_740_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049007713/KAKAO_740_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049007713/KAKAO_740_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37596,
+      "filename": "KAKAO_740_06.txt",
+      "title": "KAKAO_740_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 964,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 964,
+        "word_size": 298,
+        "text": "1 : 요즘 대학 교육 방식 다 비대면으로 하니까 수업 너무 뭔가 수준이 낮아지느 느낌이지 않니?\n2 : 진짜 인정... 아니 카메라를 잘 못 다루는 분도 계시니까 잡음도 생겨서 더 안 좋아진 거 같음\n1 : 장비 진짜! 학교에서 장비 지원 안 해 주니까 교수님들 장비가 너무 천차만별이야... 불편하다 불편해\n2 : 이건 학교에서 다 지원해 줘야 했다고 본다... 2년은 거의 교수님 방 보고 수업한 듯 키키\n1 : 맞아 키키 약간 교수님 집 놀러 간 것 같아서 친근하다고 키키\n1 : 하지만 교수님은 학교에서 보고 싶다! 키키\n2 : 암암 키키 그리고 학교에서 하면 애들이랑 모르는 거 바로 묻고 그럴 수 있어서 더 좋았던 거 같아\n1 : 그치 그치 교수님한테 질문하기도 편하고 그리고 또 학교 간 김에 도서관 들러서 자료 보는 것도!\n1 : 지금은 자료 찾으려면 인터넷 서치로 1시간 뚝딱\n2 : 그니까 나 인터넷으로 자료 찾을 때마다 내가 인터넷 활용 능력이 떨어진다고 느낌 키키 아니 찾는 거 빼고 다 나오는 거 같아\n1 : 내 말이! 계속 아 이거 아니야... 이것도 아닌데... 하 구글 너마저도 날 배신하기야...? 이러고 있다고 키키\n2 : 책에만 있는 내용 찾아야 할 때도 있는데 전공 책은 집 근처 도서관에도 없어서 슬픔 중도 우리 집으로 옮기고 싶다\n1 : 와 이거 진짜 공감 동네 도서관에서는 전공 책 관련된 거 안 사 준다고요 ㅠㅠ\n1 : 흑흑 이북 없었으면 화병 났다 분명 키키\n2 : 정말... 상호대차 학교랑도 가능하면 좋겠어 나 사실 아직도 이북 어떻게 하는 지 잘 모르겠어 이런 거 학교에서 교육해 줬으면 함 키키\n1 : 키키 나도 처음에 좀 헤맸었어 키키 너희는 어플 뭘로 해? 우리는 교보 문고 쓰던데\n2 : 헉 나도 교보 문고! 근데 거기에 검색해도 안 나오는 게 너무 많아서 내가 잘못하고 있는 건가 싶음\n1 : 맞어! 희망 도서 신청에도 은근 없는 거 많아!\n2 : 주룩 주룩 이건 역시 발품을 더 팔아 봐야겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 대학 교육 방식 다 비대면으로 하니까 수업 너무 뭔가 수준이 낮아지느 느낌이지 않니?",
+            "norm_text": "요즘 대학 교육 방식 다 비대면으로 하니까 수업 너무 뭔가 수준이 낮아지느 느낌이지 않니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+대학/NNG+교육/NNG+방식/NNG+다비/NNG+대면/NNG+으로/JKB+하/VV+니까/EC+수업/NNG+너무/MAG+뭔가/NP+VCP+EC+수준/NNG+이/JKS+낮/VA+아지/EC+느/NNG+느낌/NNG+이/VCP+지/EC+않/VX+니/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 진짜 인정... 아니 카메라를 잘 못 다루는 분도 계시니까 잡음도 생겨서 더 안 좋아진 거 같음",
+            "norm_text": "진짜 인정... 아니 카메라를 잘 못 다루는 분도 계시니까 잡음도 생겨서 더 안 좋아진 거 같음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+인정/NNG+./SY+./SY+아니/IC+카메라/NNG+를/JKO+잘못/MAG+다루/VV+는/ETM+분/NNB+도/JX+계시/VX+니까/EC+잡음/NNG+도/JX+생겨서/VV+EC+더/MAG+안/MAG+좋/VA+아/EC+진/VX+ETM+거/NNB+같/VA+음/ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 장비 진짜! 학교에서 장비 지원 안 해 주니까 교수님들 장비가 너무 천차만별이야... 불편하다 불편해",
+            "norm_text": "장비 진짜! 학교에서 장비 지원 안 해 주니까 교수님들 장비가 너무 천차만별이야... 불편하다 불편해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장비/NNG+진짜/MAG+학교/NNG+에서/JKB+장비/NNG+지원/NNG+안/MAG+해/VV+EC+주/VX+니까/EC+교수/NNG+님/XSN+들/XSN+장비/NNG+가/JKS+너무/MAG+천차만별/NNG+이/VCP+야/EF+./SY+불편/NNG+하/XSV+다/EC+불편/NNG+해/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 이건 학교에서 다 지원해 줘야 했다고 본다... 2년은 거의 교수님 방 보고 수업한 듯 키키",
+            "norm_text": "이건 학교에서 다 지원해 줘야 했다고 본다... 2년은 거의 교수님 방 보고 수업한 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이건/NP+JX+학교/NNG+에서/JKB+다/MAG+지원/NNG+해/XSV+EC+줘야/VX+EC+했/VX+EP+다고/EC+본다/VX+EF+./SY+./SY+2/SN+년/NNBC+은/JX+거의/MAG+교수/NNG+님/XSN+방/NNG+보고/JKB+수업/NNG+한/XSA+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 키키 약간 교수님 집 놀러 간 것 같아서 친근하다고 키키",
+            "norm_text": "맞아 키키 약간 교수님 집 놀러 간 것 같아서 친근하다고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+약간/MAG+교수/NNG+님/XSN+집/NNG+놀/VV+러/EC+간/VV+ETM+것/NNB+같/VA+아서/EC+친근/XR+하/XSA+다고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 하지만 교수님은 학교에서 보고 싶다! 키키",
+            "norm_text": "하지만 교수님은 학교에서 보고 싶다! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하지만/MAJ+교수/NNG+님/XSN+은/JX+학교/NNG+에서/JKB+보/VV+고/EC+싶/VX+다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 암암 키키 그리고 학교에서 하면 애들이랑 모르는 거 바로 묻고 그럴 수 있어서 더 좋았던 거 같아",
+            "norm_text": "암암 키키 그리고 학교에서 하면 애들이랑 모르는 거 바로 묻고 그럴 수 있어서 더 좋았던 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "암/NNG+암/NNG+키/NNG+키/XSV+ETN+그리고/MAJ+학교/NNG+에서/JKB+하/VV+면/EC+애/NNG+들/XSN+이랑/JKB+모르/VV+는/ETM+거/NNB+바로/MAG+묻/VV+고/EC+그럴/VV+ETM+수/NNB+있/VV+어서/EC+더/MAG+좋/VA+았/EP+던/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그치 그치 교수님한테 질문하기도 편하고 그리고 또 학교 간 김에 도서관 들러서 자료 보는 것도!",
+            "norm_text": "그치 그치 교수님한테 질문하기도 편하고 그리고 또 학교 간 김에 도서관 들러서 자료 보는 것도!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+그치/IC+교수/NNG+님/XSN+한테/JKB+질문/NNG+하/XSV+기/ETN+도/JX+편하/VA+고/EC+그리고/MAJ+또/MAG+학교/NNG+간/VV+ETM+김/NNB+에/JKB+도서관/NNG+들러서/VV+EC+자료/NNG+보/VV+는/ETM+것/NNB+도/JX"
+          },
+          {
+            "id": 9,
+            "text": "1 : 지금은 자료 찾으려면 인터넷 서치로 1시간 뚝딱",
+            "norm_text": "지금은 자료 찾으려면 인터넷 서치로 1시간 뚝딱",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+자료/NNG+찾/VV+으려면/EC+인터넷/NNG+서치/NNG+로/JKB+1/SN+시간/NNBC+뚝딱/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그니까 나 인터넷으로 자료 찾을 때마다 내가 인터넷 활용 능력이 떨어진다고 느낌 키키 아니 찾는 거 빼고 다 나오는 거 같아",
+            "norm_text": "그니까 나 인터넷으로 자료 찾을 때마다 내가 인터넷 활용 능력이 떨어진다고 느낌 키키 아니 찾는 거 빼고 다 나오는 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니까/MAJ+나/NP+인터넷/NNG+으로/JKB+자료/NNG+찾/VV+을/ETM+때/NNG+마다/JX+내/NP+가/JKS+인터넷/NNG+활용/NNG+능력/NNG+이/JKS+떨어진다고/VV+EC+느낌/NNG+키/NNG+키/XSV+ETN+아니/VCN+찾/VV+는/ETM+거/NNB+빼/VV+고/EC+다/MAG+나오/VV+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 내 말이! 계속 아 이거 아니야... 이것도 아닌데... 하 구글 너마저도 날 배신하기야...? 이러고 있다고 키키",
+            "norm_text": "내 말이! 계속 아 이거 아니야... 이것도 아닌데... 하 구글 너마저도 날 배신하기야...? 이러고 있다고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+계속/MAG+아/IC+이거/NP+아니/VCN+야/EF+./SY+이것/NP+도/JX+아닌데/VCN+EF+./SY+./SY+하구/JKB+글/NNG+너/NP+마저/JX+도/JX+날/NNG+배신/NNG+하/XSV+기/ETN+야/VCP+EF+./SY+./SY+이러/VV+고/EC+있/VX+다고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 책에만 있는 내용 찾아야 할 때도 있는데 전공 책은 집 근처 도서관에도 없어서 슬픔 중도 우리 집으로 옮기고 싶다",
+            "norm_text": "책에만 있는 내용 찾아야 할 때도 있는데 전공 책은 집 근처 도서관에도 없어서 슬픔 중도 우리 집으로 옮기고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "책/NNG+에/JKB+만/JX+있/VX+는/ETM+내용/NNG+찾/VV+아야/EC+할/VX+ETM+때/NNG+도/JX+있/VA+는데/EC+전공/NNG+책/NNG+은/JX+집/NNG+근처/NNG+도서관/NNG+에/JKB+도/JX+없/VA+어서/EC+슬픔/NNG+중/NNB+도/JX+우리/NP+집/NNG+으로/JKB+옮기/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 와 이거 진짜 공감 동네 도서관에서는 전공 책 관련된 거 안 사 준다고요 ㅠㅠ",
+            "norm_text": "와 이거 진짜 공감 동네 도서관에서는 전공 책 관련된 거 안 사 준다고요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+이거/NP+진짜/MAG+공감/NNG+동네/NNG+도서관/NNG+에서/JKB+는/JX+전공/NNG+책/NNG+관련/NNG+된/XSV+ETM+거/NNB+안/MAG+사/VV+EC+준다고/VX+EC+요/JX+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 흑흑 이북 없었으면 화병 났다 분명 키키",
+            "norm_text": "흑흑 이북 없었으면 화병 났다 분명 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흑흑/MAG+이북/NNG+없/VA+었/EP+으면/EC+화병/NNG+났/VV+EP+다/EF+분명/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 정말... 상호대차 학교랑도 가능하면 좋겠어 나 사실 아직도 이북 어떻게 하는 지 잘 모르겠어 이런 거 학교에서 교육해 줬으면 함 키키",
+            "norm_text": "정말... 상호대차 학교랑도 가능하면 좋겠어 나 사실 아직도 이북 어떻게 하는 지 잘 모르겠어 이런 거 학교에서 교육해 줬으면 함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+./SY+상호/MAG+대차/NNG+학교/NNG+랑/JKB+도/JX+가능/NNG+하/XSV+면/EC+좋/VA+겠/EP+어/EF+나/NP+사실/MAG+아직/MAG+도/JX+이북/NNG+어떻게/MAG+하/VV+는지/EC+잘/MAG+모르/VV+겠/EP+어/EF+이런/MM+거/NNB+학교/NNG+에서/JKB+교육/NNG+해줬으면/XSV+EC+VX+EP+EC+함/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 나도 처음에 좀 헤맸었어 키키 너희는 어플 뭘로 해? 우리는 교보 문고 쓰던데",
+            "norm_text": "키키 나도 처음에 좀 헤맸었어 키키 너희는 어플 뭘로 해? 우리는 교보 문고 쓰던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+처음/NNG+에/JKB+좀/MAG+헤맸/VV+EP+었/EP+어/EC+키/NNG+키/XSV+ETN+너희/NP+는/JX+어/IC+플/NNG+뭘로/NP+JKB+해/VV+EF+우리/NP+는/JX+교보문고/NNP+쓰/VV+던데/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 헉 나도 교보 문고! 근데 거기에 검색해도 안 나오는 게 너무 많아서 내가 잘못하고 있는 건가 싶음",
+            "norm_text": "헉 나도 교보 문고! 근데 거기에 검색해도 안 나오는 게 너무 많아서 내가 잘못하고 있는 건가 싶음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헉/IC+나/NP+도/JX+교보문고/NNP+근데/MAJ+거기/NP+에/JKB+검색/NNG+해도/XSV+EC+안/MAG+나오/VV+는/ETM+게/NNB+JKS+너무/MAG+많/VA+아서/EC+내/NP+가/JKS+잘못/MAG+하/VV+고/EC+있/VX+는/ETM+건가/NNB+VCP+EC+싶/VX+음/ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 맞어! 희망 도서 신청에도 은근 없는 거 많아!",
+            "norm_text": "맞어! 희망 도서 신청에도 은근 없는 거 많아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+어/EF+희망/NNG+도서/NNG+신청/NNG+에/JKB+도/JX+은근/NNG+없/VA+는/ETM+거/NNB+많/VA+아/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 주룩 주룩 이건 역시 발품을 더 팔아 봐야겠다",
+            "norm_text": "주룩 주룩 이건 역시 발품을 더 팔아 봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주룩주룩/MAG+이건/NP+JX+역시/MAJ+발품/NNG+을/JKO+더/MAG+팔/VV+아/EC+봐야/VX+EC+VV+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

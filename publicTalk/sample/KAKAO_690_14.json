@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 34150,
+    "name": "KAKAO_690_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055022969/KAKAO_690_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055022969/KAKAO_690_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35313,
+      "filename": "KAKAO_690_14.txt",
+      "title": "KAKAO_690_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 694,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 694,
+        "word_size": 197,
+        "text": "1 : 백신 맞고 부작용 생긴 사람들이 너무 많이 나오는 거 같아...\n2 : 응 기사 읽을 때마다 무서워서 백신 못 맞겠어\n1 : 국민 청원도 엄청 많이 올라오나 봐... ㅜㅜ\n2 : 아니 내가 기사를 읽어도 이건 백신 부작용이 맞는 거 같은데 아니라고 하니까 이상해\n1 : 그러니까... 내 말이... ㅜㅜ\n1 : 얀센 맞은 30대 남성은 뇌출혈로 쓰러져서 왼쪽이 다 마비돼서 장애 판정 받았대...\n2 : 헉... 진짜 건강한 성인 남성도 맞고 쓰러진다는데 불안하다\n1 : 근데 그 사람은... 보건소에서 대처가 엉망이었다고 하더라... ㄷㄷ\n2 : 아니 왜? 보건소에서 어떻게 대처했길래?\n1 : 막 고열로 두드러기도 나고 혈압도 오르고 그랬는데 그냥 열꽃이니까 피부과 가세요 했다 안카나...\n2 : 진짜로? 어떻게 그렇게 대처를 했대? 너무한다 진짜\n1 : 이 증상은 보상금 제외예요 했단다...\n1 : 이게 말이가 방구가?\n2 : 아니 진짜 대처가 왜 그런 거야 너무 화난다\n1 : 그래서 그 사람이 집에 돌아가서 타이레놀 먹고 잠들었는데 못 일어났단다... 뇌출혈로...\n2 : 어머 어떡하면 좋아...\n2 : 가족들 분통 터져서 어떻게 살아\n1 : 참나... 사람이 주사 맞고 이상 반응이 생겼다고 왔는데 보상금 제외라니...\n1 : 어떻게 그렇게 대처를 하는 거지? 화난다\n2 : 아니 정부 대처도 그렇고 이렇게 하니까 사람들이 백신 맞으면서도 불안해 하지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 백신 맞고 부작용 생긴 사람들이 너무 많이 나오는 거 같아...",
+            "norm_text": "백신 맞고 부작용 생긴 사람들이 너무 많이 나오는 거 같아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백신/NNG+맞/VV+고/EC+부작용/NNG+생긴/VV+ETM+사람/NNG+들/XSN+이/JKS+너무/MAG+많이/MAG+나오/VV+는/ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 기사 읽을 때마다 무서워서 백신 못 맞겠어",
+            "norm_text": "응 기사 읽을 때마다 무서워서 백신 못 맞겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+기사/NNG+읽/VV+을/ETM+때/NNG+마다/JX+무서워서/VA+EC+백신/NNG+못/MAG+맞/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 국민 청원도 엄청 많이 올라오나 봐... ㅜㅜ",
+            "norm_text": "국민 청원도 엄청 많이 올라오나 봐... ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "국민/NNG+청원/NNG+도/JX+엄청/MAG+많이/MAG+올라오/VV+나/EC+봐/VX+EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 내가 기사를 읽어도 이건 백신 부작용이 맞는 거 같은데 아니라고 하니까 이상해",
+            "norm_text": "아니 내가 기사를 읽어도 이건 백신 부작용이 맞는 거 같은데 아니라고 하니까 이상해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+내/NP+가/JKS+기사/NNG+를/JKO+읽/VV+어도/EC+이건/NP+JX+백/NR+신부/NNG+작용/NNG+이/JKS+맞/VV+는/ETM+거/NNB+같/VA+은/ETM+데/NNB+아니/VCN+라고/EC+하/VV+니까/EC+이상/NNG+해/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러니까... 내 말이... ㅜㅜ",
+            "norm_text": "그러니까... 내 말이... ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "그러니까/MAJ+./SY+내말이/NP+JKG+NNG+JKS+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 얀센 맞은 30대 남성은 뇌출혈로 쓰러져서 왼쪽이 다 마비돼서 장애 판정 받았대...",
+            "norm_text": "얀센 맞은 30대 남성은 뇌출혈로 쓰러져서 왼쪽이 다 마비돼서 장애 판정 받았대...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "얀센/NNP+맞/VV+은/ETM+30/SN+대/NNBC+남성/NNG+은/JX+뇌출혈/NNG+로/JKB+쓰러져서/VV+EC+왼쪽/NNG+이/JKS+다/MAG+마비/NNG+돼서/XSV+EC+장애/NNG+판정/NNG+받/VV+았/EP+대/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 헉... 진짜 건강한 성인 남성도 맞고 쓰러진다는데 불안하다",
+            "norm_text": "헉... 진짜 건강한 성인 남성도 맞고 쓰러진다는데 불안하다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+./SY+진짜/MAG+건강/NNG+한/XSA+ETM+성인/NNG+남성/NNG+도/JX+맞/VV+고/EC+쓰/VV+러/EC+진다는데/VX+EC+불안/NNG+하/XSV+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 근데 그 사람은... 보건소에서 대처가 엉망이었다고 하더라... ㄷㄷ",
+            "norm_text": "근데 그 사람은... 보건소에서 대처가 엉망이었다고 하더라... ㄷㄷ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+그/MM+사람/NNG+은/JX+./SY+./SY+보건소/NNG+에서/JKB+대처/NNG+가/JKS+엉망/NNG+이/VCP+었/EP+다고/EC+하/VX+더라/EF+./SY+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아니 왜? 보건소에서 어떻게 대처했길래?",
+            "norm_text": "아니 왜? 보건소에서 어떻게 대처했길래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+왜/MAG+보건소/NNG+에서/JKB+어떻게/MAG+대처/NNG+했/XSV+EP+길래/ETN+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 막 고열로 두드러기도 나고 혈압도 오르고 그랬는데 그냥 열꽃이니까 피부과 가세요 했다 안카나...",
+            "norm_text": "막 고열로 두드러기도 나고 혈압도 오르고 그랬는데 그냥 열꽃이니까 피부과 가세요 했다 안카나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "막/MAJ+고열로/NNG+두/JX+드러/VV+기/ETN+도/JX+나/VX+고/EC+혈압/NNG+도/JX+오르/VV+고/EC+그랬/VV+EP+는데/EC+그냥/MAG+열꽃/NNG+이/VCP+니까/EC+피부과/NNG+가/JKS+세요/NNG+했/XSV+EP+다/EF+안/MAG+카/VV+나/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 진짜로? 어떻게 그렇게 대처를 했대? 너무한다 진짜",
+            "norm_text": "진짜로? 어떻게 그렇게 대처를 했대? 너무한다 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜로/MAG+어떻게/MAG+그렇게/MAG+대처/NNG+를/JKO+했/VV+EP+대/EF+너무/MAG+한다/VV+EF+진짜/MAG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 이 증상은 보상금 제외예요 했단다...",
+            "norm_text": "이 증상은 보상금 제외예요 했단다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/MM+증상/NNG+은/JX+보상금/NNG+제외/NNG+예요/VCP+EF+했/VV+EP+단다/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 이게 말이가 방구가?",
+            "norm_text": "이게 말이가 방구가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이게/NP+JKS+말이/NNG+가/JKS+방구/NNG+가/JKS"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 진짜 대처가 왜 그런 거야 너무 화난다",
+            "norm_text": "아니 진짜 대처가 왜 그런 거야 너무 화난다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "아니/IC+진짜/MAG+대처/NNG+가/JKS+왜/MAG+그런/MM+거/NNB+야/VCP+EF+너무/MAG+화난다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래서 그 사람이 집에 돌아가서 타이레놀 먹고 잠들었는데 못 일어났단다... 뇌출혈로...",
+            "norm_text": "그래서 그 사람이 집에 돌아가서 타이레놀 먹고 잠들었는데 못 일어났단다... 뇌출혈로...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+그/MM+사람/NNG+이/JKS+집/NNG+에/JKB+돌아가/VV+서/EC+타/VV+EC+이레/VV+EC+놀/VX+ETM+먹/VV+고/EC+잠들/VV+었/EP+는데/EC+못/MAG+일어났/VV+EP+단다/EF+./SY+뇌출혈/NNG+로/JKB+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어머 어떡하면 좋아...",
+            "norm_text": "어머 어떡하면 좋아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어머/IC+어떡/XR+하/XSA+면/EC+좋/VA+아/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 가족들 분통 터져서 어떻게 살아",
+            "norm_text": "가족들 분통 터져서 어떻게 살아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가족/NNG+들/XSN+분통/NNG+터져서/VV+EC+어떻게/MAG+살/VV+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 참나... 사람이 주사 맞고 이상 반응이 생겼다고 왔는데 보상금 제외라니...",
+            "norm_text": "참나... 사람이 주사 맞고 이상 반응이 생겼다고 왔는데 보상금 제외라니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "참나/IC+./SY+사람/NNG+이/JKS+주사/NNG+맞/VV+고/EC+이상/NNG+반응/NNG+이/JKS+생겼/VV+EP+다고/EC+왔/VX+EP+는데/EC+보상금/NNG+제외/NNG+라니/VCP+EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 어떻게 그렇게 대처를 하는 거지? 화난다",
+            "norm_text": "어떻게 그렇게 대처를 하는 거지? 화난다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "어떻게/MAG+그렇게/MAG+대처/NNG+를/JKO+하/VV+는/ETM+거/NNB+지/VCP+EF+화난다/VV+EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아니 정부 대처도 그렇고 이렇게 하니까 사람들이 백신 맞으면서도 불안해 하지",
+            "norm_text": "아니 정부 대처도 그렇고 이렇게 하니까 사람들이 백신 맞으면서도 불안해 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+정부/NNG+대처/NNG+도/JX+그렇/VA+고/EC+이렇게/MAG+하/VV+니까/EC+사람/NNG+들/XSN+이/JKS+백신/NNG+맞/VV+으면서/EC+도/JX+불안/NNG+해/XSV+EC+하/VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

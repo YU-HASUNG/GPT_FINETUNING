@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 33177,
+    "name": "KAKAO_609_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120220006381/KAKAO_609_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120220006381/KAKAO_609_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32101,
+      "filename": "KAKAO_609_08.txt",
+      "title": "KAKAO_609_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 489,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 489,
+        "word_size": 165,
+        "text": "1 : 이번 주에 남자친구랑 1000일 이당~!\n2 : 오! 완전 축하! 키키\n2 : 기념일 날 뭐 안 해?\n1 : 같이 1박2일로 포항 놀러 가기로 했당\n2 : 오 예약은 다했어?\n2 : 가서 어디 가기로 함?\n1 : 웅 독채 펜션 예약 했지롱~!\n1 : 펜션 나가는 날 돌아다니게\n2 : 아 진짜? 키키 좋겠다\n2 : 내 남친은 어디 있노...\n1 : 막상 연애 별로 안하고 싶어하면서 키키\n2 : 그건 맞다 연애 하기 왤케 귀찮노 키키\n1 : 원래 귀찮음을 넘어서면 사랑이라 그랬다 키키\n2 : 키키 듣기 싫노 조용히 했으면 좋겠다\n1 : 왜 부럽냐? 키키\n1 : 그나저나 오빠가 커플링 준대\n2 : 헐! 대박이네? 금이가? 키키\n2 : 18k 아니면 안됨\n1 : 키키 금이다 너무 행복행!\n1 : 1000일 맞춰서 준비하는 중이래\n2 : 와 그거 헤어지면 녹여서 니 악세사리 되는겨?\n1 : 키키 조용히 안 함?\n1 : 안 헤어질 꺼임 너무 좋다\n2 : 부럽네 좀 키키\n2 : 나는 그냥 반지 생겼으면 좋겠다!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번 주에 남자친구랑 1000일 이당~!",
+            "norm_text": "이번 주에 남자친구랑 1000일 이당~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+주/NNG+에/JKB+남자/NNG+친구/NNG+랑/JKB+1000/SN+일/NNBC+이당/NNG+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오! 완전 축하! 키키",
+            "norm_text": "오! 완전 축하! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "오/IC+완전/MAG+축하/NNG+!/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 기념일 날 뭐 안 해?",
+            "norm_text": "기념일 날 뭐 안 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기념/NNG+일/VCP+ETM+날/NNG+뭐/IC+안/MAG+해/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 같이 1박2일로 포항 놀러 가기로 했당",
+            "norm_text": "같이 1박2일로 포항 놀러 가기로 했당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "같이/MAG+1/SN+박/NNBC+2/SN+일/NNBC+로/JKB+포항/NNG+놀/VV+러/EC+가/VX+기/ETN+로/JKB+했/VV+EP+당/XSN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오 예약은 다했어?",
+            "norm_text": "오 예약은 다했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+예약/NNG+은/JX+다/MAG+했/VV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 가서 어디 가기로 함?",
+            "norm_text": "가서 어디 가기로 함?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가/VV+서/EC+어디/NP+가/JKS+기로/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 웅 독채 펜션 예약 했지롱~!",
+            "norm_text": "웅 독채 펜션 예약 했지롱~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+독채/NNG+펜션/NNG+예약/NNG+했/XSV+EP+지롱/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 펜션 나가는 날 돌아다니게",
+            "norm_text": "펜션 나가는 날 돌아다니게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "펜션/NNG+나가/VV+는/ETM+날/NNG+돌아다니/VV+게/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 진짜? 키키 좋겠다",
+            "norm_text": "아 진짜? 키키 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/XSV+ETN+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 내 남친은 어디 있노...",
+            "norm_text": "내 남친은 어디 있노...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+남친/NNG+은/JX+어디/NP+있/VA+노/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 막상 연애 별로 안하고 싶어하면서 키키",
+            "norm_text": "막상 연애 별로 안하고 싶어하면서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "막상/MAG+연애/NNG+별로/MAG+안/MAG+하/VV+고/EC+싶/VX+어/EC+하/VV+면서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그건 맞다 연애 하기 왤케 귀찮노 키키",
+            "norm_text": "그건 맞다 연애 하기 왤케 귀찮노 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+맞/VV+다/EC+연애/NNG+하/XSV+기/ETN+왤케/UNKNOWN+귀찮/VA+노/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 원래 귀찮음을 넘어서면 사랑이라 그랬다 키키",
+            "norm_text": "원래 귀찮음을 넘어서면 사랑이라 그랬다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+귀찮/VA+음/ETN+을/JKO+넘어서/VV+면/EC+사랑/NNG+이/VCP+라/EC+그랬/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 듣기 싫노 조용히 했으면 좋겠다",
+            "norm_text": "키키 듣기 싫노 조용히 했으면 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+듣/VV+기/ETN+싫/VA+노/EC+조용히/MAG+했으면/XSA+EP+EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 왜 부럽냐? 키키",
+            "norm_text": "왜 부럽냐? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+부럽/VA+냐/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그나저나 오빠가 커플링 준대",
+            "norm_text": "그나저나 오빠가 커플링 준대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그나저나/MAG+오빠/NNG+가/JKS+커플/NNG+링/JKO+준대/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 헐! 대박이네? 금이가? 키키",
+            "norm_text": "헐! 대박이네? 금이가? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+대박/NNG+이/VCP+네/EF+금이/NNG+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 18k 아니면 안됨",
+            "norm_text": "18k 아니면 안됨",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "18/SN+k/SL+아니/VCN+면/EC+안/MAG+됨/VV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 금이다 너무 행복행!",
+            "norm_text": "키키 금이다 너무 행복행!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+금/NNG+이/JKS+다/MAG+너무/MAG+행복/NNG+행/XSN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 1000일 맞춰서 준비하는 중이래",
+            "norm_text": "1000일 맞춰서 준비하는 중이래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "1000/SN+일/NNBC+맞춰서/VV+EC+준비/NNG+하/XSV+는/ETM+중/NNB+이/VCP+래/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 와 그거 헤어지면 녹여서 니 악세사리 되는겨?",
+            "norm_text": "와 그거 헤어지면 녹여서 니 악세사리 되는겨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+그거/NP+헤어지/VV+면/EC+녹여서/VV+EC+니/MM+악세사리/NNG+되/XSV+는/ETM+겨/NNB+VCP+EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 조용히 안 함?",
+            "norm_text": "키키 조용히 안 함?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+조용히/MAG+안/MAG+함/VV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 안 헤어질 꺼임 너무 좋다",
+            "norm_text": "안 헤어질 꺼임 너무 좋다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+헤어질/VV+ETM+꺼임/UNKNOWN+너무/MAG+좋/VA+다/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 부럽네 좀 키키",
+            "norm_text": "부럽네 좀 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부럽/VA+네/EF+좀/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 나는 그냥 반지 생겼으면 좋겠다!",
+            "norm_text": "나는 그냥 반지 생겼으면 좋겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+그냥/MAG+반지/NNG+생겼/VV+EP+으면/EC+좋/VA+겠/EP+다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

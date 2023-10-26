@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24119,
+    "name": "KAKAO_640_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009080770/KAKAO_640_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009080770/KAKAO_640_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31806,
+      "filename": "KAKAO_640_15.txt",
+      "title": "KAKAO_640_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 602,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 602,
+        "word_size": 177,
+        "text": "1 : 언니 이번에 일본 모더나 사고 난 거 봤어?\n2 : 혹시 부작용으로 탈모 된 거?\n1 : 그것도 있었는데 이물질 발견됐대~\n2 : 헉... 급하게 백신 개발 하다 보니 유통 과정에서도 문제가 많구나\n1 : 응응 그런가 봐 다행히 제조 번호로 확인이 가능해서 수거하고 있대\n2 : 전세계적인 전염병이다 보니... 무섭다 무서워 ㅜ\n1 : 맞어 맞어 우리 바로 옆에 국가라서 크게 타격 받으니...\n2 : 응. 다 영향을 받으니 뉴스가 그냥 안 봐지더라구.\n2 : 미얀마 사태나 아프간 상황만 봐도 ㅠㅠ\n1 : 마저 마저 남 일이 아니야 코로나도 난리인데 계속 내부 전쟁도 일어나니.\n2 : 난민 유입 문제도 있고~ 진짜 국제 이슈가 우리들 사는 거랑 맞닿아있어\n1 : 맞어 맞어 이번에는 난민들을 우리나라에서 탈출시키는 걸 처음으로 성공해서 너무 뿌듯하더라구\n2 : 거기 어린아이들도 있어서 너무 마음 아프더라 ㅠㅠ\n1 : 맞어 그래도 다들 안전하게 귀국해서 정말 다행이야\n2 : 우리나라도 좋은 영향력을 끼쳐서 참 잘됐어\n1 : 맞어 과거에 도움 받고 이젠 도움을 줄 수 있다는 자체도 너무 자랑스럽구\n2 : 응. 우리도 전후에 진짜 가난하고 못살았는데 어느새 선진국 반열에 올랐네. 놀랍다. ^^",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 이번에 일본 모더나 사고 난 거 봤어?",
+            "norm_text": "언니 이번에 일본 모더나 사고 난 거 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+이번/NNG+에/JKB+일본/NNP+모더/NNP+나/JC+사고/NNG+난/VV+ETM+거/NNB+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 혹시 부작용으로 탈모 된 거?",
+            "norm_text": "혹시 부작용으로 탈모 된 거?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+부작용/NNG+으로/JKB+탈모/NNG+된/XSV+ETM+거/NNB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그것도 있었는데 이물질 발견됐대~",
+            "norm_text": "그것도 있었는데 이물질 발견됐대~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그것/NP+도/JX+있/VA+었/EP+는데/EC+이/MM+물질/NNG+발견/NNG+됐/XSV+EP+대/EF+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헉... 급하게 백신 개발 하다 보니 유통 과정에서도 문제가 많구나",
+            "norm_text": "헉... 급하게 백신 개발 하다 보니 유통 과정에서도 문제가 많구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+./SY+급하/VA+게/EC+백신/NNG+개발/NNG+하/XSV+다/EC+보/VX+니/EC+유통/NNG+과정/NNG+에서/JKB+도/JX+문제/NNG+가/JKS+많/VA+구나/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응응 그런가 봐 다행히 제조 번호로 확인이 가능해서 수거하고 있대",
+            "norm_text": "응응 그런가 봐 다행히 제조 번호로 확인이 가능해서 수거하고 있대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+그런가/VA+EC+봐/VX+EF+다행히/MAG+제조/NNG+번호/NNG+로/JKB+확인/NNG+이/JKS+가능/NNG+해서/XSV+EC+수거/NNG+하/XSV+고/EC+있/VX+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 전세계적인 전염병이다 보니... 무섭다 무서워 ㅜ",
+            "norm_text": "전세계적인 전염병이다 보니... 무섭다 무서워 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전/MM+세계/NNG+적/XSN+인/VCP+ETM+전염병/NNG+이/VCP+다/EC+보/VX+니/EF+./SY+무섭다무서워ㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞어 맞어 우리 바로 옆에 국가라서 크게 타격 받으니...",
+            "norm_text": "맞어 맞어 우리 바로 옆에 국가라서 크게 타격 받으니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+맞/VV+어/EC+우리/NP+바로/MAG+옆/NNG+에/JKB+국가/NNG+라서/VCP+EC+크/VA+게/EC+타격/NNG+받/VV+으니/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응. 다 영향을 받으니 뉴스가 그냥 안 봐지더라구.",
+            "norm_text": "응. 다 영향을 받으니 뉴스가 그냥 안 봐지더라구.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+다/MAG+영향/NNG+을/JKO+받/VV+으니/EC+뉴스/NNG+가/JKS+그냥/MAG+안/MAG+봐/VV+EC+지/VX+더라구/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 미얀마 사태나 아프간 상황만 봐도 ㅠㅠ",
+            "norm_text": "미얀마 사태나 아프간 상황만 봐도 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미얀마/NNP+사태/NNG+나/JC+아프간/NNG+상황/NNG+만/JX+봐도/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 마저 마저 남 일이 아니야 코로나도 난리인데 계속 내부 전쟁도 일어나니.",
+            "norm_text": "마저 마저 남 일이 아니야 코로나도 난리인데 계속 내부 전쟁도 일어나니.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마저/MAG+마저/MAG+남/NNG+일/NNG+이/JKC+아니/VCN+야/EC+코로나/NNG+도/JX+난리/NNG+인데/VCP+EC+계속/MAG+내부/NNP+전쟁/NNG+도/JX+일어나/VV+니/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 난민 유입 문제도 있고~ 진짜 국제 이슈가 우리들 사는 거랑 맞닿아있어",
+            "norm_text": "난민 유입 문제도 있고~ 진짜 국제 이슈가 우리들 사는 거랑 맞닿아있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난민/NNG+유입/NNG+문제/NNG+도/JX+있/VA+고/EC+~/SY+진짜/MAG+국제/NNG+이슈/NNG+가/JKS+우리/NP+들/XSN+사/VV+는/ETM+거/NNB+랑/JKB+맞닿/VV+아/EC+있/VX+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞어 맞어 이번에는 난민들을 우리나라에서 탈출시키는 걸 처음으로 성공해서 너무 뿌듯하더라구",
+            "norm_text": "맞어 맞어 이번에는 난민들을 우리나라에서 탈출시키는 걸 처음으로 성공해서 너무 뿌듯하더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+맞/VV+어/EC+이번/NNG+에/JKB+는/JX+난민/NNG+들/XSN+을/JKO+우리/NP+나라/NNG+에서/JKB+탈출/NNG+시키/XSV+는/ETM+걸/NNB+JKO+처음/NNG+으로/JKB+성공/NNG+해서/XSV+EC+너무/MAG+뿌듯/XR+하/XSA+더라구/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 거기 어린아이들도 있어서 너무 마음 아프더라 ㅠㅠ",
+            "norm_text": "거기 어린아이들도 있어서 너무 마음 아프더라 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+어린아이/NNG+들/XSN+도/JX+있/VA+어서/EC+너무/MAG+마음/NNG+아프/VA+더라/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 맞어 그래도 다들 안전하게 귀국해서 정말 다행이야",
+            "norm_text": "맞어 그래도 다들 안전하게 귀국해서 정말 다행이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+그래도/VV+EC+다/MAG+들/XSN+안전/NNG+하/XSV+게/EC+귀국/NNG+해서/XSV+EC+정말/MAG+다행/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 우리나라도 좋은 영향력을 끼쳐서 참 잘됐어",
+            "norm_text": "우리나라도 좋은 영향력을 끼쳐서 참 잘됐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+도/JX+좋/VA+은/ETM+영향/NNG+력/XSN+을/JKO+끼쳐서/VV+EC+참/MAG+잘/MAG+됐/VV+EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 맞어 과거에 도움 받고 이젠 도움을 줄 수 있다는 자체도 너무 자랑스럽구",
+            "norm_text": "맞어 과거에 도움 받고 이젠 도움을 줄 수 있다는 자체도 너무 자랑스럽구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+과거/NNG+에/JKB+도움/NNG+받/VV+고/EC+이젠/NNG+JX+도움/NNG+을/JKO+줄/VV+ETM+수/NNB+있/VV+다는/ETM+자체/NNG+도/JX+너무/MAG+자랑/NNG+스럽/XSA+구/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응. 우리도 전후에 진짜 가난하고 못살았는데 어느새 선진국 반열에 올랐네. 놀랍다. ^^",
+            "norm_text": "응. 우리도 전후에 진짜 가난하고 못살았는데 어느새 선진국 반열에 올랐네. 놀랍다. ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+우리/NP+도/JX+전후/NNG+에/JKB+진짜/MAG+가난/NNG+하/XSV+고/EC+못/MAG+살/VV+았/EP+는데/EC+어느새/MAG+선진국/NNG+반열/NNG+에/JKB+올랐/VV+EP+네/EF+놀랍/VA+다/EF+^/SY+^/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

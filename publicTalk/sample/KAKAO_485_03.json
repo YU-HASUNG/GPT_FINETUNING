@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 21528,
+    "name": "KAKAO_485_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146067631/KAKAO_485_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146067631/KAKAO_485_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28413,
+      "filename": "KAKAO_485_03.txt",
+      "title": "KAKAO_485_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 598,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 598,
+        "word_size": 181,
+        "text": "1 : 너가 타고 다니는 차는 엔진 상태 어때?\n2 : 엔진? 글쎄 뜯어보질 않아서 잘은 모르겠지만 어제 엔진 오일 교체 했어 키키\n1 : 아 그래? 키키 내가 차가 없어서 엔진이 차의 심장이라던데 맞아?\n2 : 응! 나도 그렇게 알고 있어~\n2 : 아무래도 엔진이 좋아야 차가 잘나가니까 그렇지 않을까?\n1 : 오 그렇구나 차가 잘나가고 안 나가고가 엔진 영향도 있구나~\n2 : 차가 잘나가고 안 나가고는 엔진 영향이 아니고 엔진이지!\n1 : 아 키키 완전 그냥 엔진이구나...\n2 : 웅... 나도 차 잘 모르지만... 너는 정말 더 모르는구나;\n1 : 응... ㅋ 관심이 좀 많이 없는 편이지 키키 차종도 잘 몰라... 키키\n1 : 내 눈에는 그 승용차가 그 승용차라...\n2 : 키키 그 정도야? 신기하다~ 그럼 넌 뭐 타고 다녀?\n1 : 응 키키 나는 스쿠터 타고 다녀~\n2 : 우와 그게 더 멋있는데? 키키 재밌겠다!\n1 : 재밌기는...키키 대중교통 이용하기 불편해서 위험을 무릅쓰고 타는 건데...\n2 : 아아 스쿠터 타고 출, 퇴근 하는 거야?\n1 : 응응 키키 일 년째 타고 다니는데 아직도 적응이 안되 얼른 적응 해야겠어\n2 : 어휴... 그러게 위험하겠다 ㅜㅜ 항상 안전 운전!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너가 타고 다니는 차는 엔진 상태 어때?",
+            "norm_text": "너가 타고 다니는 차는 엔진 상태 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+가/JKS+타/VV+고/EC+다니/VV+는/ETM+차/NNG+는/JX+엔진/NNG+상태/NNG+어때/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엔진? 글쎄 뜯어보질 않아서 잘은 모르겠지만 어제 엔진 오일 교체 했어 키키",
+            "norm_text": "엔진? 글쎄 뜯어보질 않아서 잘은 모르겠지만 어제 엔진 오일 교체 했어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엔진/NNG+글쎄/IC+뜯어보/VV+질/EC+JX+않/VX+아서/EC+잘/MAG+은/JX+모르/VV+겠/EP+지만/EC+어제/MAG+엔진오일/NNP+교체/NNG+했/XSV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래? 키키 내가 차가 없어서 엔진이 차의 심장이라던데 맞아?",
+            "norm_text": "아 그래? 키키 내가 차가 없어서 엔진이 차의 심장이라던데 맞아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/XSV+ETN+내/NP+가/JKS+차/NNG+가/JKS+없/VA+어서/EC+엔진/NNG+이/JKS+차/NNG+의/JKG+심장/NNG+이/VCP+라던데/EC+맞/VV+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응! 나도 그렇게 알고 있어~",
+            "norm_text": "응! 나도 그렇게 알고 있어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+도/JX+그렇게/MAG+알/VV+고/EC+있/VX+어/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아무래도 엔진이 좋아야 차가 잘나가니까 그렇지 않을까?",
+            "norm_text": "아무래도 엔진이 좋아야 차가 잘나가니까 그렇지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아무래도/MAG+엔진/NNG+이/JKS+좋/VA+아야/EC+차/NNG+가/JKS+잘/MAG+나가/VV+니까/EC+그렇/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오 그렇구나 차가 잘나가고 안 나가고가 엔진 영향도 있구나~",
+            "norm_text": "오 그렇구나 차가 잘나가고 안 나가고가 엔진 영향도 있구나~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+그렇/VA+구나/EF+차/NNG+가/JKS+잘/MAG+나가/VV+고/EC+안/MAG+나가/VV+고/EC+가/JKS+엔진/NNG+영향/NNG+도/JX+있/VA+구나/EF+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 차가 잘나가고 안 나가고는 엔진 영향이 아니고 엔진이지!",
+            "norm_text": "차가 잘나가고 안 나가고는 엔진 영향이 아니고 엔진이지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "차/NNG+가/JKS+잘/MAG+나가/VV+고/EC+안/MAG+나가/VV+고/EC+는/JX+엔진/NNG+영향/NNG+이/JKC+아니/VCN+고/EC+엔진/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 키키 완전 그냥 엔진이구나...",
+            "norm_text": "아 키키 완전 그냥 엔진이구나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키/NNG+완전/NNG+그냥/MAG+엔진/NNG+이/VCP+구나/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 웅... 나도 차 잘 모르지만... 너는 정말 더 모르는구나;",
+            "norm_text": "웅... 나도 차 잘 모르지만... 너는 정말 더 모르는구나;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+./SY+나/NP+도/JX+차/NNG+잘/MAG+모르/VV+지만/EC+./SY+./SY+너/NP+는/JX+정말/MAG+더/MAG+모르/VV+는구나/EC+;/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응... ㅋ 관심이 좀 많이 없는 편이지 키키 차종도 잘 몰라... 키키",
+            "norm_text": "응... ㅋ 관심이 좀 많이 없는 편이지 키키 차종도 잘 몰라... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+ㅋ/UNKNOWN+관심/NNG+이/JKS+좀/MAG+많이/MAG+없/VA+는/ETM+편/NNB+이/VCP+지/EC+키/NNG+키/NNG+차종/NNG+도/JX+잘/MAG+몰라/VV+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 내 눈에는 그 승용차가 그 승용차라...",
+            "norm_text": "내 눈에는 그 승용차가 그 승용차라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+눈/NNG+에/JKB+는/JX+그/MM+승용차/NNG+가/JKS+그/MM+승용차/NNG+라/VCP+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 그 정도야? 신기하다~ 그럼 넌 뭐 타고 다녀?",
+            "norm_text": "키키 그 정도야? 신기하다~ 그럼 넌 뭐 타고 다녀?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+그/MM+정도/NNG+야/VCP+EF+신기/XR+하/XSA+다/EC+~/SY+그럼/MAJ+넌/NP+JX+뭐/NP+타/VV+고/EC+다녀/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 키키 나는 스쿠터 타고 다녀~",
+            "norm_text": "응 키키 나는 스쿠터 타고 다녀~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키나/XSA+ETN+JX+는/JX+스쿠터/NNG+타/VV+고/EC+다녀/VV+EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 우와 그게 더 멋있는데? 키키 재밌겠다!",
+            "norm_text": "우와 그게 더 멋있는데? 키키 재밌겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+그게/NP+JKS+더/MAG+멋있/VA+는데/EC+?/SY+키/NNG+키/XSV+ETN+재밌/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 재밌기는...키키 대중교통 이용하기 불편해서 위험을 무릅쓰고 타는 건데...",
+            "norm_text": "재밌기는...키키 대중교통 이용하기 불편해서 위험을 무릅쓰고 타는 건데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "재밌/VA+기/ETN+는/JX+./SY+키/NNG+키/NNG+대중교통/NNG+이용/NNG+하/XSV+기/ETN+불편/NNG+해서/XSV+EC+위험/NNG+을/JKO+무릅쓰/VV+고/EC+타/VV+는/ETM+건데/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아아 스쿠터 타고 출, 퇴근 하는 거야?",
+            "norm_text": "아아 스쿠터 타고 출, 퇴근 하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+스쿠터/NNG+타/VV+고/EC+출/VV+ETM+,/SC+퇴근/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응응 키키 일 년째 타고 다니는데 아직도 적응이 안되 얼른 적응 해야겠어",
+            "norm_text": "응응 키키 일 년째 타고 다니는데 아직도 적응이 안되 얼른 적응 해야겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+일/NR+년/NNBC+째/XSN+타/VV+고/EC+다니/VV+는데/EC+아직/MAG+도/JX+적응/NNG+이/JKS+안/MAG+되/VV+EC+얼른/MAG+적응/NNG+해야/XSV+EC+VX+겠/EP+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 어휴... 그러게 위험하겠다 ㅜㅜ 항상 안전 운전!",
+            "norm_text": "어휴... 그러게 위험하겠다 ㅜㅜ 항상 안전 운전!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "어휴/IC+./SY+그러/VV+게/EC+위험/NNG+하/XSV+겠/EP+다/EF+ㅜㅜ/UNKNOWN+항상/MAG+안전/NNG+운전/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

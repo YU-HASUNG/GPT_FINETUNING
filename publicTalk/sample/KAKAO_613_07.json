@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67738,
+    "name": "KAKAO_613_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927144319041452/KAKAO_613_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927144319041452/KAKAO_613_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34325,
+      "filename": "KAKAO_613_07.txt",
+      "title": "KAKAO_613_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 362,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 362,
+        "word_size": 122,
+        "text": "1 : 가족이랑 여행 갈 수 있다면 어디로 갈래?\n2 : 나는 제주도 가고 싶어\n1 : 오오 가족이랑 가면 진짜 좋겠다!\n2 : 요새 비행기 가격도 싸잖아 하하\n1 : 맞아 가족 다 해도 얼마 안 나올 듯\n2 : 아 가면 얼마나 힐링이 될까\n1 : 키키 그니까... 가족 몇 명이랬지?\n2 : 나는 총 4명이야!\n1 : 4명이면 여행 가기에도 딱 좋잖아 하하\n2 : 제일 좋지 너무 많지도 적지도 않은 숫자잖아\n1 : 맞아 짝수가 좋긴 한 듯...!\n2 : 다음에 이야기해서 꼭 가야겠어 하하\n1 : 그렇지만 가족은 많을수록 좋은 것 같긴 해 키키\n2 : 그건 그래 나도 동생 한 명 더 있었으면 좋겠어\n1 : 오 남동생? 여동생? 난 남동생!\n2 : 나는 여동생이 좋더라!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 가족이랑 여행 갈 수 있다면 어디로 갈래?",
+            "norm_text": "가족이랑 여행 갈 수 있다면 어디로 갈래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가족/NNG+이랑/JKB+여행/NNG+갈/VV+ETM+수/NNB+있/VV+다면/EC+어디/NP+로/JKB+갈래/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 제주도 가고 싶어",
+            "norm_text": "나는 제주도 가고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+제주/NNP+도/JX+가/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오오 가족이랑 가면 진짜 좋겠다!",
+            "norm_text": "오오 가족이랑 가면 진짜 좋겠다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+오/NR+가족/NNG+이랑/JKB+가/VV+면/EC+진짜/MAG+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 요새 비행기 가격도 싸잖아 하하",
+            "norm_text": "요새 비행기 가격도 싸잖아 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+비행기/NNG+가격/NNG+도/JX+싸/VA+잖아/EC+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 가족 다 해도 얼마 안 나올 듯",
+            "norm_text": "맞아 가족 다 해도 얼마 안 나올 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+가족/NNG+다/MAG+해도/VV+EC+얼마/NNG+안/MAG+나올/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 가면 얼마나 힐링이 될까",
+            "norm_text": "아 가면 얼마나 힐링이 될까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+가/VV+면/EC+얼마나/MAG+힐링/NNG+이/JKS+될까/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 그니까... 가족 몇 명이랬지?",
+            "norm_text": "키키 그니까... 가족 몇 명이랬지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+./SY+가족/NNG+몇/MM+명/NNBC+이랬/VV+EP+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나는 총 4명이야!",
+            "norm_text": "나는 총 4명이야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+총/MM+4/SN+명/NNBC+이/VCP+야/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 4명이면 여행 가기에도 딱 좋잖아 하하",
+            "norm_text": "4명이면 여행 가기에도 딱 좋잖아 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "4/SN+명/NNBC+이/VCP+면/EC+여행/NNG+가/VV+기/ETN+에/JKB+도/JX+딱/MAG+좋/VA+잖아/EC+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 제일 좋지 너무 많지도 적지도 않은 숫자잖아",
+            "norm_text": "제일 좋지 너무 많지도 적지도 않은 숫자잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제일/MAG+좋/VA+지/EC+너무/MAG+많/VA+지/EC+도/JX+적지/NNG+도/JX+않/VX+은/ETM+숫자/NNG+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 짝수가 좋긴 한 듯...!",
+            "norm_text": "맞아 짝수가 좋긴 한 듯...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+짝수/NNG+가/JKS+좋/VA+긴/ETN+JX+한/VX+ETM+듯/NNB+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 다음에 이야기해서 꼭 가야겠어 하하",
+            "norm_text": "다음에 이야기해서 꼭 가야겠어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+에/JKB+이야기/NNG+해서/XSV+EC+꼭/MAG+가/VV+야/EC+VX+겠/EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그렇지만 가족은 많을수록 좋은 것 같긴 해 키키",
+            "norm_text": "그렇지만 가족은 많을수록 좋은 것 같긴 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇지만/MAJ+가족/NNG+은/JX+많/VA+을수록/EC+좋/VA+은/ETM+것/NNB+같/VA+긴/ETN+JX+해/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그건 그래 나도 동생 한 명 더 있었으면 좋겠어",
+            "norm_text": "그건 그래 나도 동생 한 명 더 있었으면 좋겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그래/VA+EC+나/NP+도/JX+동생/NNG+한/MM+명/NNBC+더/MAG+있/VA+었/EP+으면/EC+좋/VA+겠/EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오 남동생? 여동생? 난 남동생!",
+            "norm_text": "오 남동생? 여동생? 난 남동생!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오남/NNP+동생/NNG+?/SY+여동생/NNG+난/NP+JX+남동생/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나는 여동생이 좋더라!",
+            "norm_text": "나는 여동생이 좋더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+여동생/NNG+이/JKS+좋/VA+더라/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 20540,
+    "name": "KAKAO_464_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141409032657/KAKAO_464_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141409032657/KAKAO_464_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28122,
+      "filename": "KAKAO_464_12.txt",
+      "title": "KAKAO_464_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 446,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 446,
+        "word_size": 143,
+        "text": "1 : 부산 여행 갈 때 코스 어떻게 잡아?\n2 : 코스는 따로 없고 걍 가고 싶은 곳 정해서 그 주변으로 일정 짜!\n1 : 아... 가을에 부산에 여행 가고 싶은데 가을에 갈 만 곳이 없을까?\n2 : 음... 흰여울 문화 마을! 여긴 꼭 가봐 아주 아주 좋음\n1 : 오오 그래?\n2 : 응응 탁 트인 바다 보는 거 좋아하면 여긴 강추야\n1 : 아아 바다 보면서 커피 마시면 진짜 좋겠다!\n2 : 바다 바라보면서 커피 마시는 데는 따로 있지!\n1 : 오 어디 어디?\n2 : 쩌어기 광안리 쪽에 있는데 나중에 알려줄께 키키\n1 : 뭐여 뭐여 비밀 하지 말고 알려줘!\n2 : 안돼... 여긴 아는 사람이 많을수록 좋지 않다구 그대신 다른 곳 알려줄께\n1 : ㅠㅠ 제발 알려달라구...!\n2 : 거기는 말이야 (소근소근... 광안리 앞바다 카페야\n1 : 이름이 광안리 앞바다 카페야?\n2 : 아니 키키 광안리 앞바다에 있는 카페!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부산 여행 갈 때 코스 어떻게 잡아?",
+            "norm_text": "부산 여행 갈 때 코스 어떻게 잡아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부산/NNP+여행/NNG+갈/VV+ETM+때/NNG+코스/NNG+어떻게/MAG+잡/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 코스는 따로 없고 걍 가고 싶은 곳 정해서 그 주변으로 일정 짜!",
+            "norm_text": "코스는 따로 없고 걍 가고 싶은 곳 정해서 그 주변으로 일정 짜!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코스/NNG+는/JX+따로/MAG+없/VA+고/EC+걍가/UNKNOWN+고/EC+싶/VX+은/ETM+곳/NNB+정해서/VV+EC+그/MM+주변/NNG+으로/JKB+일정/NNG+짜/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아... 가을에 부산에 여행 가고 싶은데 가을에 갈 만 곳이 없을까?",
+            "norm_text": "아... 가을에 부산에 여행 가고 싶은데 가을에 갈 만 곳이 없을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+가을/NNG+에/JKB+부산/NNP+에/JKB+여행/NNG+가/VV+고/EC+싶/VX+은데/EC+가을/NNG+에/JKB+갈만/NNG+곳/NNG+이/JKS+없/VA+을까/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 음... 흰여울 문화 마을! 여긴 꼭 가봐 아주 아주 좋음",
+            "norm_text": "음... 흰여울 문화 마을! 여긴 꼭 가봐 아주 아주 좋음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "음/IC+./SY+흰/VA+ETM+여울/NNG+문화/NNG+마을/NNG+여긴/NP+JX+꼭/MAG+가/VV+EC+봐/VX+EF+아주/MAG+아주/MAG+좋/VA+음/ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오오 그래?",
+            "norm_text": "오오 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+그래/IC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응 탁 트인 바다 보는 거 좋아하면 여긴 강추야",
+            "norm_text": "응응 탁 트인 바다 보는 거 좋아하면 여긴 강추야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+탁트인/NNP+바다/NNG+보/VV+는/ETM+거/NNB+좋/VA+아/EC+하/VV+면/EC+여긴/NP+JX+강추/NNG+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아아 바다 보면서 커피 마시면 진짜 좋겠다!",
+            "norm_text": "아아 바다 보면서 커피 마시면 진짜 좋겠다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+바다/NNG+보/VV+면서/EC+커피/NNG+마시/VV+면/EC+진짜/MAG+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 바다 바라보면서 커피 마시는 데는 따로 있지!",
+            "norm_text": "바다 바라보면서 커피 마시는 데는 따로 있지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "바다/NNG+바라보/VV+면서/EC+커피/NNG+마시/VV+는/ETM+데/NNB+는/JX+따로/MAG+있/VV+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 어디 어디?",
+            "norm_text": "오 어디 어디?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+어디/NP+어디/NP"
+          },
+          {
+            "id": 10,
+            "text": "2 : 쩌어기 광안리 쪽에 있는데 나중에 알려줄께 키키",
+            "norm_text": "쩌어기 광안리 쪽에 있는데 나중에 알려줄께 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쩌/IC+어/IC+기광/NNG+안리/NNG+쪽/NNB+에/JKB+있/VV+는데/EC+나중/NNG+에/JKB+알려/VV+EC+줄께/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 뭐여 뭐여 비밀 하지 말고 알려줘!",
+            "norm_text": "뭐여 뭐여 비밀 하지 말고 알려줘!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+여/VCP+EF+뭐/IC+여/NNG+비밀/NNG+하/XSV+지/EC+말/VX+고/EC+알려/VV+EC+줘/VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 안돼... 여긴 아는 사람이 많을수록 좋지 않다구 그대신 다른 곳 알려줄께",
+            "norm_text": "안돼... 여긴 아는 사람이 많을수록 좋지 않다구 그대신 다른 곳 알려줄께",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "안/MAG+돼/VV+EF+./SY+여긴/NP+JX+아/VV+는/ETM+사람/NNG+이/JKS+많/VA+을수록/EC+좋/VA+지/EC+않/VX+다구/EC+그/MM+대신/NNG+다른/MM+곳/NNB+알려/VV+EC+줄께/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㅠㅠ 제발 알려달라구...!",
+            "norm_text": "ㅠㅠ 제발 알려달라구...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+제발/MAG+알려/VV+EC+달/VX+라구/EF+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 거기는 말이야 (소근소근... 광안리 앞바다 카페야",
+            "norm_text": "거기는 말이야 (소근소근... 광안리 앞바다 카페야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+는/JX+말/NNG+이/VCP+야/EC+소근소근/MAG+./SY+./SY+광안리/NNP+앞바다/NNG+카페/NNG+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 이름이 광안리 앞바다 카페야?",
+            "norm_text": "이름이 광안리 앞바다 카페야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이름/NNG+이/JKS+광안리/NNP+앞바다/NNG+카페/NNG+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아니 키키 광안리 앞바다에 있는 카페!",
+            "norm_text": "아니 키키 광안리 앞바다에 있는 카페!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+키키/NNP+광안리/NNP+앞바다/NNG+에/JKB+있/VV+는/ETM+카페/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

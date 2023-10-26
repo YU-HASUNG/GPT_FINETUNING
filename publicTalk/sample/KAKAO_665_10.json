@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 32802,
+    "name": "KAKAO_665_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152622056992/KAKAO_665_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152622056992/KAKAO_665_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34888,
+      "filename": "KAKAO_665_10.txt",
+      "title": "KAKAO_665_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 624,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 624,
+        "word_size": 207,
+        "text": "1 : 니 낚시하는 거 좋아하나?\n2 : 오 나 낚시 하고 싶은데 예전에 바다 낚시 한 번 빼고 해 본 적이 없어\n1 : 오! 바다 낚시~! 키키\n1 : 나는 실내 낚시터 가 봤었어 키키\n2 : 오 어땠어? 나는 바다 낚시 가서 친구가 배 멀미 해서 하하 토를 다 뒤집어썼지 내가...\n1 : 아... 키키 실내 낚시는 그냥 물고기 풀어놓고 하는 거니까 잘 잡히지 키키\n2 : 오 그래도 거기서 손맛 익힌다고 하더라구?\n1 : 아 그래? 키키 재미있긴 하더라 키키 상품도 준다고 키키\n2 : 아 키키 또 잘만 하면 상품 타는 재미가 있겠네\n1 : 키키 응 저번에 친구랑 가서 당면 타 왔었어! 하하\n2 : 우와 키키 대박 키키 낚시터에서 당면이 상품이라니 키키\n1 : 키키 뭔가 실용적인 상품들이 있더라 키키 키친 타올도 있고... 국수도 있고 키키\n2 : 어 키키 낚시 관련된 상품이 있을 줄 알았는데 의외네\n1 : 키키 나도 좀 놀랬어 키키\n1 : 한번 기회 되면 가 봐 키키 잡는 재미가 있더라 하하\n2 : 앙 키키 같이 가자 키키 낚시도 마약 만큼 중독된다던데 재미있다던데\n1 : 키키 웅웅! 우리 동네에 가까이에 있어 하하\n1 : 함 같이 가 보자! 하하 국수 타 오잠\n2 : 응 키키 낚시 잘해서 물고기 많이 잡아서 국수 삶아 먹자 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 낚시하는 거 좋아하나?",
+            "norm_text": "니 낚시하는 거 좋아하나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+낚시/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+하나/NR"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 나 낚시 하고 싶은데 예전에 바다 낚시 한 번 빼고 해 본 적이 없어",
+            "norm_text": "오 나 낚시 하고 싶은데 예전에 바다 낚시 한 번 빼고 해 본 적이 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오나/NNP+낚시/NNG+하/XSV+고/EC+싶/VX+은데/EC+예전/NNG+에/JKB+바다낚시/NNG+한/MM+번/NNBC+빼/VV+고/EC+해본/VX+EC+VX+ETM+적/NNB+이/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오! 바다 낚시~! 키키",
+            "norm_text": "오! 바다 낚시~! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "오/IC+바다낚시/NNG+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나는 실내 낚시터 가 봤었어 키키",
+            "norm_text": "나는 실내 낚시터 가 봤었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+실내/NNG+낚시터/NNG+가/JKS+봤었/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오 어땠어? 나는 바다 낚시 가서 친구가 배 멀미 해서 하하 토를 다 뒤집어썼지 내가...",
+            "norm_text": "오 어땠어? 나는 바다 낚시 가서 친구가 배 멀미 해서 하하 토를 다 뒤집어썼지 내가...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/VV+어/EC+땠/VV+EP+어/EF+나/NP+는/JX+바다낚시/NNG+가/VV+서/EC+친구/NNG+가/JKS+배/NNG+멀미/NNG+해서/XSV+EC+하하/MAG+토/NNG+를/JKO+다/MAG+뒤집어썼/VV+EP+지/EF+내/NP+가/JKS+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아... 키키 실내 낚시는 그냥 물고기 풀어놓고 하는 거니까 잘 잡히지 키키",
+            "norm_text": "아... 키키 실내 낚시는 그냥 물고기 풀어놓고 하는 거니까 잘 잡히지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+키/NNG+키/NNG+실내/NNG+낚시/NNG+는/JX+그냥/MAG+물고기/NNG+풀어놓/VV+고/EC+하/VV+는/ETM+거/NNB+니까/VCP+EC+잘/MAG+잡히/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오 그래도 거기서 손맛 익힌다고 하더라구?",
+            "norm_text": "오 그래도 거기서 손맛 익힌다고 하더라구?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그래도/MAJ+거기/NP+서/JKB+손맛/NNG+익힌다고/VV+EC+하/VX+더라구/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 그래? 키키 재미있긴 하더라 키키 상품도 준다고 키키",
+            "norm_text": "아 그래? 키키 재미있긴 하더라 키키 상품도 준다고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/XSV+ETN+재미있/VA+긴/ETN+JX+하/VX+더라/EC+키/NNG+키/NNG+상품/NNG+도/JX+준다고/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 키키 또 잘만 하면 상품 타는 재미가 있겠네",
+            "norm_text": "아 키키 또 잘만 하면 상품 타는 재미가 있겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+또/MAG+잘/MAG+만/JX+하/VV+면/EC+상품/NNG+타/VV+는/ETM+재미/NNG+가/JKS+있/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 응 저번에 친구랑 가서 당면 타 왔었어! 하하",
+            "norm_text": "키키 응 저번에 친구랑 가서 당면 타 왔었어! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+저번/NNG+에/JKB+친구/NNG+랑/JKB+가/VV+서/EC+당면/NNG+타/XSV+EC+왔었/VX+EP+어/EF+하하/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 우와 키키 대박 키키 낚시터에서 당면이 상품이라니 키키",
+            "norm_text": "우와 키키 대박 키키 낚시터에서 당면이 상품이라니 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+키/NNG+키/NNG+대박/NNG+키/NNG+키/NNG+낚시터/NNG+에서/JKB+당면/NNG+이/JKS+상품/NNG+이/VCP+라니/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 뭔가 실용적인 상품들이 있더라 키키 키친 타올도 있고... 국수도 있고 키키",
+            "norm_text": "키키 뭔가 실용적인 상품들이 있더라 키키 키친 타올도 있고... 국수도 있고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+실용/NNG+적/XSN+인/VCP+ETM+상품/NNG+들/XSN+이/JKS+있/VA+더라/EF+키키/NNP+키친/NNP+타올/NNG+도/JX+있/VA+고/EC+./SY+./SY+국수/NNG+도/JX+있/VA+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 어 키키 낚시 관련된 상품이 있을 줄 알았는데 의외네",
+            "norm_text": "어 키키 낚시 관련된 상품이 있을 줄 알았는데 의외네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+키/NNG+키/NNG+낚시/NNG+관련/NNG+된/XSV+ETM+상품/NNG+이/JKS+있/VV+을/ETM+줄/NNB+알/VV+았/EP+는데/EC+의외/NNG+네/XSN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 나도 좀 놀랬어 키키",
+            "norm_text": "키키 나도 좀 놀랬어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+좀/MAG+놀랬/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 한번 기회 되면 가 봐 키키 잡는 재미가 있더라 하하",
+            "norm_text": "한번 기회 되면 가 봐 키키 잡는 재미가 있더라 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "한/MM+번/NNBC+기회/NNG+되/XSV+면/EC+가/JKS+봐/VV+EC+키/NNG+키/XSV+ETN+잡/VV+는/ETM+재미/NNG+가/JKS+있/VA+더라/EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 앙 키키 같이 가자 키키 낚시도 마약 만큼 중독된다던데 재미있다던데",
+            "norm_text": "앙 키키 같이 가자 키키 낚시도 마약 만큼 중독된다던데 재미있다던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "앙/IC+키/NNG+키/NNG+같이/JKB+가/JKS+자키/NNG+키/NNG+낚시/NNG+도/JX+마약/NNG+만큼/JKB+중독/NNG+된다/XSV+EC+던데/VV+EC+재미있/VA+다던데/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 웅웅! 우리 동네에 가까이에 있어 하하",
+            "norm_text": "키키 웅웅! 우리 동네에 가까이에 있어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+웅웅/MAG+우리/NP+동네/NNG+에/JKB+가까이/NNG+에/JKB+있/VV+어/EC+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 함 같이 가 보자! 하하 국수 타 오잠",
+            "norm_text": "함 같이 가 보자! 하하 국수 타 오잠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "함/NNG+같이/JKB+가/VV+EC+보/VX+자/EF+하하국수타오잠/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응 키키 낚시 잘해서 물고기 많이 잡아서 국수 삶아 먹자 키키",
+            "norm_text": "응 키키 낚시 잘해서 물고기 많이 잡아서 국수 삶아 먹자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+낚시/NNG+잘/MAG+해서/VV+EC+물고기/NNG+많이/MAG+잡/VV+아서/EC+국수/NNG+삶/VV+아/EC+먹/VV+자/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

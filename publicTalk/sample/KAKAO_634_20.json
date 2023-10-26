@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67287,
+    "name": "KAKAO_634_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140927043447/KAKAO_634_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140927043447/KAKAO_634_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34218,
+      "filename": "KAKAO_634_20.txt",
+      "title": "KAKAO_634_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 412,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 412,
+        "word_size": 132,
+        "text": "1 : 언니 모아나 본 적 있어?\n2 : 응 모아나 봤어 재밌더라!\n1 : 그거 너무 재밌어서 세 번은 돌려봤어 키키\n2 : 키키 정말? 그 영화에 나오는 주인공 여자애 귀여워\n1 : 맞아 키키 마우이랑 케미가 좋더라 키키 티격태격\n2 : 맞아 너무 귀엽고 다시 한번 봐도 재밌을 것 같아~\n1 : 응 그거 ost 노래도 참 좋아\n2 : 나중에 한번 들어봐야겠다 하하\n1 : 여자애가 노래를 부르는데 맑더라 목소리가\n2 : 그래? 하긴 영화랑 노래랑 잘 어울렸어\n1 : 분위기도 밝고 키키 다른 사람에게 추천해줘~\n2 : 그래 나도 한번 더 보고 추천해줘야겠다!\n1 : 응 키키 다음에 남친이랑도 한번 봐~\n2 : 내 남친은 만화 별루 안 좋아해 ㅠㅠ\n1 : 아니야 그거 보면 달라질 거야! 마냥 애기들 영화는 아니야\n2 : 남친이랑도 보고 너랑도 다시 봐야겠다~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 모아나 본 적 있어?",
+            "norm_text": "언니 모아나 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+모아/VV+EC+나/VX+본/EC+VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 모아나 봤어 재밌더라!",
+            "norm_text": "응 모아나 봤어 재밌더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+모아/VV+EC+나/JX+봤/VV+EP+어/EC+재밌/VA+더라/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그거 너무 재밌어서 세 번은 돌려봤어 키키",
+            "norm_text": "그거 너무 재밌어서 세 번은 돌려봤어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+너무/MAG+재밌/VA+어서/EC+세/MM+번/NNBC+은/JX+돌려/VV+EC+봤/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 정말? 그 영화에 나오는 주인공 여자애 귀여워",
+            "norm_text": "키키 정말? 그 영화에 나오는 주인공 여자애 귀여워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+정말/MAG+그/MM+영화/NNG+에/JKB+나오/VV+는/ETM+주인공/NNG+여자/NNG+애/NNG+귀여워/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 키키 마우이랑 케미가 좋더라 키키 티격태격",
+            "norm_text": "맞아 키키 마우이랑 케미가 좋더라 키키 티격태격",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키키/NNP+마우이/NNP+랑/JC+케미/NNP+가/JKS+좋/VA+더라/EC+키/NNG+키/NNG+티격태격/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 너무 귀엽고 다시 한번 봐도 재밌을 것 같아~",
+            "norm_text": "맞아 너무 귀엽고 다시 한번 봐도 재밌을 것 같아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+너무/MAG+귀엽/VA+고/EC+다시/MAG+한/MM+번/NNBC+봐도/VV+EC+재밌/VA+을/ETM+것/NNB+같/VA+아/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 그거 ost 노래도 참 좋아",
+            "norm_text": "응 그거 ost 노래도 참 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그거/NP+ost/SL+노래/NNG+도/JX+참/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나중에 한번 들어봐야겠다 하하",
+            "norm_text": "나중에 한번 들어봐야겠다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나중/NNG+에/JKB+한/MM+번/NNBC+들/VV+어/EC+봐야/VX+EC+VV+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 여자애가 노래를 부르는데 맑더라 목소리가",
+            "norm_text": "여자애가 노래를 부르는데 맑더라 목소리가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여자/NNG+애/NNG+가/JKS+노래/NNG+를/JKO+부르/VV+는/ETM+데/NNB+맑/VA+더라/EC+목소리/NNG+가/JKS"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래? 하긴 영화랑 노래랑 잘 어울렸어",
+            "norm_text": "그래? 하긴 영화랑 노래랑 잘 어울렸어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+하긴/MAJ+영화/NNG+랑/JKB+노래/NNG+랑/JKB+잘/MAG+어울렸/VV+EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 분위기도 밝고 키키 다른 사람에게 추천해줘~",
+            "norm_text": "분위기도 밝고 키키 다른 사람에게 추천해줘~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "분위기/NNG+도/JX+밝/VA+고/EC+키키/NNP+다른/MM+사람/NNG+에게/JKB+추천/NNG+해/XSV+EC+줘/VX+EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래 나도 한번 더 보고 추천해줘야겠다!",
+            "norm_text": "그래 나도 한번 더 보고 추천해줘야겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+나/NP+도/JX+한번/MAG+더/MAG+보/VV+고/EC+추천/NNG+해/XSV+EC+줘야겠다/VX+EC+VX+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 키키 다음에 남친이랑도 한번 봐~",
+            "norm_text": "응 키키 다음에 남친이랑도 한번 봐~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+다음/NNG+에/JKB+남친/NNG+이랑/JKB+도/JX+한/MM+번/NNBC+봐/VV+EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 내 남친은 만화 별루 안 좋아해 ㅠㅠ",
+            "norm_text": "내 남친은 만화 별루 안 좋아해 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+남친/NNG+은/JX+만화/NNG+별루/MAG+안/MAG+좋아해/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니야 그거 보면 달라질 거야! 마냥 애기들 영화는 아니야",
+            "norm_text": "아니야 그거 보면 달라질 거야! 마냥 애기들 영화는 아니야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+그거/NP+보/VV+면/EC+달라질/VV+ETM+거/NNB+야/VCP+EF+마냥/MAG+애기/NNG+들/XSN+영화/NNG+는/JX+아니/VCN+야/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 남친이랑도 보고 너랑도 다시 봐야겠다~",
+            "norm_text": "남친이랑도 보고 너랑도 다시 봐야겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "남친/NNG+이랑/JKB+도/JX+보/VV+고/EC+너/NP+랑/JKB+도/JX+다시/MAG+봐야겠다/VV+EC+VX+EP+EF+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

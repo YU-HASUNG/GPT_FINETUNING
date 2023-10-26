@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32312,
+    "name": "KAKAO_662_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151810074814/KAKAO_662_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151810074814/KAKAO_662_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34738,
+      "filename": "KAKAO_662_20.txt",
+      "title": "KAKAO_662_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 377,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 377,
+        "word_size": 122,
+        "text": "1 : 어바웃타임 영화 뭔 줄 아나?\n2 : 와 그거 인생 영화지 하하\n1 : 나 주말에 그거 봤거든 ㅜㅜ\n2 : 나 맨 처음엔 잘 이해가 안 됐는데 커서 보니깐 이해되더라\n1 : 그니까! 나도 다시 보니까 느낌이 또 다르더라...\n2 : 거기 여자 주인공이 너무 이뻐\n1 : 헐 맞아 이름이 뭐더라?\n2 : 레이첼 맥아담스라고 해!\n1 : 그 여주도 이젠 나이 들었겠지...?\n2 : 그렇지 않을까?\n2 : 진짜 웃는 게 너무 매력적이야\n1 : 키키 그니까... 그 여주가 노트북 여주잖아...\n2 : 맞아 퀸카로 살아남는 법에서도 나와!\n1 : 그건 안 봤는데 한 번 봐야겠다!\n2 : 하이틴 영화인데 이것도 재밌어\n1 : 너 하이틴 장르 좋아하는구나?\n2 : 맞아 나 하이틴 영화 되게 좋아해 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어바웃타임 영화 뭔 줄 아나?",
+            "norm_text": "어바웃타임 영화 뭔 줄 아나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+바웃/UNKNOWN+타임/NNG+영화/NNG+뭔줄/NP+JX+NNB+아/VV+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 와 그거 인생 영화지 하하",
+            "norm_text": "와 그거 인생 영화지 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+그거/NP+인생/NNG+영화/NNG+지하/NNG+하/XSV"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 주말에 그거 봤거든 ㅜㅜ",
+            "norm_text": "나 주말에 그거 봤거든 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+주말/NNG+에/JKB+그거/NP+봤/VV+EP+거든/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 맨 처음엔 잘 이해가 안 됐는데 커서 보니깐 이해되더라",
+            "norm_text": "나 맨 처음엔 잘 이해가 안 됐는데 커서 보니깐 이해되더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+맨/MM+처음/NNG+엔/JKB+JX+잘/MAG+이해/NNG+가/JKS+안/MAG+됐/VV+EP+는데/EC+커서/VV+EC+보/VX+니깐/EC+이해/NNG+되/XSV+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그니까! 나도 다시 보니까 느낌이 또 다르더라...",
+            "norm_text": "그니까! 나도 다시 보니까 느낌이 또 다르더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+나/NP+도/JX+다시/MAG+보/VV+니까/EC+느낌/NNG+이/JKS+또/MAG+다르/VA+더라/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 거기 여자 주인공이 너무 이뻐",
+            "norm_text": "거기 여자 주인공이 너무 이뻐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+여자/NNG+주인공/NNG+이/JKS+너무/MAG+이뻐/VA+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헐 맞아 이름이 뭐더라?",
+            "norm_text": "헐 맞아 이름이 뭐더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/VV+JKO+맞/VV+아/EC+이름/NNG+이/JKS+뭐/NP+더라/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 레이첼 맥아담스라고 해!",
+            "norm_text": "레이첼 맥아담스라고 해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "레이첼/+맥아담스/+라고/VCP+EC+해/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그 여주도 이젠 나이 들었겠지...?",
+            "norm_text": "그 여주도 이젠 나이 들었겠지...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+여주/NNG+도/JX+이젠/NNG+JX+나이/NNG+들/VV+었/EP+겠/EP+지/EF+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그렇지 않을까?",
+            "norm_text": "그렇지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 진짜 웃는 게 너무 매력적이야",
+            "norm_text": "진짜 웃는 게 너무 매력적이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+웃/VV+는/ETM+게/NNB+JKS+너무/MAG+매력/NNG+적/XSN+이/VCP+야/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 그니까... 그 여주가 노트북 여주잖아...",
+            "norm_text": "키키 그니까... 그 여주가 노트북 여주잖아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+./SY+그/MM+여주/NNG+가/JKS+노트/NNG+북여주/NNP+잖아/VCP+EC+VX+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 맞아 퀸카로 살아남는 법에서도 나와!",
+            "norm_text": "맞아 퀸카로 살아남는 법에서도 나와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+퀸카/NNG+로/JKB+살아남/VV+는/ETM+법/NNG+에서/JKB+도/JX+나와/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그건 안 봤는데 한 번 봐야겠다!",
+            "norm_text": "그건 안 봤는데 한 번 봐야겠다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+안/MAG+봤/VV+EP+는데/EC+한/MM+번/NNBC+봐야겠다/VV+EC+VX+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 하이틴 영화인데 이것도 재밌어",
+            "norm_text": "하이틴 영화인데 이것도 재밌어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하이틴/NNG+영화/NNG+인데/VCP+EC+이것/NP+도/JX+재밌/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 너 하이틴 장르 좋아하는구나?",
+            "norm_text": "너 하이틴 장르 좋아하는구나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+하이틴/NNG+장르/NNG+좋/VA+아/EC+하/VX+는구나/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞아 나 하이틴 영화 되게 좋아해 하하",
+            "norm_text": "맞아 나 하이틴 영화 되게 좋아해 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아나/EC+하이틴/NNG+영화/NNG+되게/MAG+좋/VA+아/EC+해하/NNG+하/XSV"
+          }
+        ]
+      }
+    }
+  ]
+}

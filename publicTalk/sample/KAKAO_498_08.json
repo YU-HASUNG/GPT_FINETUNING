@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24002,
+    "name": "KAKAO_498_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145842079853/KAKAO_498_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145842079853/KAKAO_498_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29239,
+      "filename": "KAKAO_498_08.txt",
+      "title": "KAKAO_498_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 495,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 495,
+        "word_size": 157,
+        "text": "1 : 학창 시절에 연애를 좀 했어야 했다!\n2 : 야.. 나도 그 생각 한다 뭐 모를 떄\n1 : 키키 그니까 지금 생각하니 아무것도 없어 키키\n2 : 하... 난 언제 연애 해 볼 수 있어?\n1 : 소개팅같은 걸 좀 나가!\n2 : 아니 안 해줘 아무도 화나게 하네?\n1 : 아니다... 소개팅으로 남친 만드는 건 니랑 안 맞는 거 같기도 하다...\n2 : 네? 키키 뭐죠? 바로 맘이 바뀌셨나요? 그럼 전 어디서 만나야 하나요? ㅠㅠ\n1 : 키키 뭔가 항상 니 소개팅은 후속편이 없었던 것 같다 키키\n2 : 하... 맞아요... 왜 그런 것일까요?\n1 : 키키 니가 아직 남자친구 만들 생각이 없어서 그래\n2 : 아니야 있어 왜 그래? 나는 있다구!\n1 : 연애 생각이 없는데 말로만 연애하고 싶다하는 애들 있잖아\n2 : 아니야 진짜 있어 진심이야 어떻게 하면 알아줄래?\n1 : 그게 너야 빠 둠빠 뚜비두밤~! 하난 나야 빠 둠빠 뚜비두밤~!\n2 : 키키 하... 야 그 노래를 여기서 한다고? ㅂㄷㅂㄷ 화난다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 학창 시절에 연애를 좀 했어야 했다!",
+            "norm_text": "학창 시절에 연애를 좀 했어야 했다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "학창/NNG+시절/NNG+에/JKB+연애/NNG+를/JKO+좀/MAG+했/VV+EP+어야/EC+했/VX+EP+다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 야.. 나도 그 생각 한다 뭐 모를 떄",
+            "norm_text": "야.. 나도 그 생각 한다 뭐 모를 떄",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+./SY+나/NP+도/JX+그/MM+생각/NNG+한다/XSV+EF+뭐/IC+모를/VV+ETM+떄/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 그니까 지금 생각하니 아무것도 없어 키키",
+            "norm_text": "키키 그니까 지금 생각하니 아무것도 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+지금/MAG+생각/NNG+하/XSV+니/EC+아무것/NP+도/JX+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 하... 난 언제 연애 해 볼 수 있어?",
+            "norm_text": "하... 난 언제 연애 해 볼 수 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하/IC+./SY+난/NP+JX+언제/MAG+연애/NNG+해볼/XSV+EC+VX+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 소개팅같은 걸 좀 나가!",
+            "norm_text": "소개팅같은 걸 좀 나가!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "소개팅/NNG+같/VA+은/ETM+걸/NNB+JKO+좀/MAG+나가/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 안 해줘 아무도 화나게 하네?",
+            "norm_text": "아니 안 해줘 아무도 화나게 하네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+안/MAG+해/VV+EC+줘/VX+EF+아무/NP+도/JX+화나/VV+게/EC+하/VX+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니다... 소개팅으로 남친 만드는 건 니랑 안 맞는 거 같기도 하다...",
+            "norm_text": "아니다... 소개팅으로 남친 만드는 건 니랑 안 맞는 거 같기도 하다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/VCN+다/EF+./SY+소개팅/NNG+으로/JKB+남친/NNG+만드/VV+는/ETM+건/NNB+JX+니/NP+랑/JC+안/MAG+맞/VV+는/ETM+거/NNB+같/VA+기/ETN+도/JX+하/VV+다/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 네? 키키 뭐죠? 바로 맘이 바뀌셨나요? 그럼 전 어디서 만나야 하나요? ㅠㅠ",
+            "norm_text": "네? 키키 뭐죠? 바로 맘이 바뀌셨나요? 그럼 전 어디서 만나야 하나요? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+키/NNG+키/XSV+ETN+뭐/NP+죠/VCP+EF+바로/MAG+맘/NNG+이/JKS+바뀌/VV+셨/EP+EP+나요/EF+그럼/MAJ+전/MM+어디/NP+서/JKB+만나/VV+야/EC+하/VX+나요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 뭔가 항상 니 소개팅은 후속편이 없었던 것 같다 키키",
+            "norm_text": "키키 뭔가 항상 니 소개팅은 후속편이 없었던 것 같다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+항상/MAG+니/MM+소개팅/NNG+은/JX+후/NNG+속편/NNG+이/JKS+없/VA+었/EP+던/ETM+것/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 10,
+            "text": "2 : 하... 맞아요... 왜 그런 것일까요?",
+            "norm_text": "하... 맞아요... 왜 그런 것일까요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하/IC+./SY+맞/VV+아요/EF+./SY+왜/MAG+그런/MM+것/NNB+일까요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 니가 아직 남자친구 만들 생각이 없어서 그래",
+            "norm_text": "키키 니가 아직 남자친구 만들 생각이 없어서 그래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+니/NP+가/JKS+아직/MAG+남자/NNG+친구/NNG+만들/VV+ETM+생각/NNG+이/JKS+없/VA+어서/EC+그래/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아니야 있어 왜 그래? 나는 있다구!",
+            "norm_text": "아니야 있어 왜 그래? 나는 있다구!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/VCN+야/EC+있/VX+어/EF+왜/MAG+그래/VA+EF+나/NP+는/JX+있/VX+다구/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 연애 생각이 없는데 말로만 연애하고 싶다하는 애들 있잖아",
+            "norm_text": "연애 생각이 없는데 말로만 연애하고 싶다하는 애들 있잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연애/NNG+생각/NNG+이/JKS+없/VA+는데/EC+말/NNG+로/JKB+만/JX+연애/NNG+하/XSV+고/EC+싶/VX+다/EC+하/VV+는/ETM+애/NNG+들/XSN+있/VA+잖아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니야 진짜 있어 진심이야 어떻게 하면 알아줄래?",
+            "norm_text": "아니야 진짜 있어 진심이야 어떻게 하면 알아줄래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+진짜/MAG+있/VA+어/EC+진심/NNG+이/VCP+야/EF+어떻게/MAG+하/VV+면/EC+알/VV+아/EC+줄래/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그게 너야 빠 둠빠 뚜비두밤~! 하난 나야 빠 둠빠 뚜비두밤~!",
+            "norm_text": "그게 너야 빠 둠빠 뚜비두밤~! 하난 나야 빠 둠빠 뚜비두밤~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "그게/NP+JKS+너/NP+야/VCP+EF+빠둠/UNKNOWN+빠뚜/UNKNOWN+비두/NNG+밤/NNG+~/SY+하난/NR+JX+나/NP+야/VCP+EF+빠둠/UNKNOWN+빠뚜/UNKNOWN+비두/NNG+밤/NNG+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 하... 야 그 노래를 여기서 한다고? ㅂㄷㅂㄷ 화난다",
+            "norm_text": "키키 하... 야 그 노래를 여기서 한다고? ㅂㄷㅂㄷ 화난다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+./SY+./SY+야/IC+그/MM+노래/NNG+를/JKO+여기/VV+서/EC+한다고/VX+EF+ㅂㄷㅂㄷ화난다/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

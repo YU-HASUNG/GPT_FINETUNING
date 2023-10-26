@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 31950,
+    "name": "KAKAO_621_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754061254/KAKAO_621_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754061254/KAKAO_621_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34145,
+      "filename": "KAKAO_621_07.txt",
+      "title": "KAKAO_621_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 501,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 501,
+        "word_size": 150,
+        "text": "1 : 자기야 이번 주에 아버지가 집에 좀 오라고 하시는데? 소고기 사 주신다고?\n2 : 응? 갑자기 왠 소고기?\n1 : 자기 임신했다고 사주신다고 부른거야.\n2 : ㅋ 며칠 전에 아버님이 회사로 꽃화환 선물 보내 셨더라.\n1 : 응? 갑자기 무슨 꽃을 보내셨지?\n2 : 임신 축하한다고. 꽃 선물 보내셨어.ㅋ\n1 : 와, 아버지가 자기 임신하니깐 엄청 좋아하시네.\n2 : 내가 나이가 있으니 임신 못 할 거라고 생각 하신건지 대견하게 생각하시네.\n1 : 꽃도 선물 해 줄 줄 알고 아버지 아주 로맨티스트시네.\n2 : 어 완전 깜짝 놀랐잖아. 난 자기가 보낸 건 줄 알았는데 이름이 달라.ㅋ\n1 : 어머니도 자기 임신해서 엄청 기뻐하시더라구\n2 : 그러게 임신은 정말 축복 받을 일이니깐.\n1 : 형도 축하한다고 전해 달라고 했어~\n2 : 응 모두들 너무 감사하네~\n1 : 부모님들이 이렇게 기뻐 하실 줄은 몰랐어. ㅎ\n2 : 그니깐.ㅎ 우리 이번 주에 가서 소고기 실컷 많이 먹고 오자~\n2 : 임산부에겐 단백질이 필수래!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 이번 주에 아버지가 집에 좀 오라고 하시는데? 소고기 사 주신다고?",
+            "norm_text": "자기야 이번 주에 아버지가 집에 좀 오라고 하시는데? 소고기 사 주신다고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+야/VCP+EF+이번/NNG+주/NNG+에/JKB+아버지/NNG+가/JKS+집/NNG+에/JKB+좀/MAG+오/VV+라고/EC+하/VX+시/EP+는데/EC+?/SY+소고기/NNG+사/VV+EC+주/VX+신다고/EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응? 갑자기 왠 소고기?",
+            "norm_text": "응? 갑자기 왠 소고기?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+갑자기/MAG+왠/MM+소고기/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 자기 임신했다고 사주신다고 부른거야.",
+            "norm_text": "자기 임신했다고 사주신다고 부른거야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+임신/NNG+했/XSV+EP+다고/EC+사/VV+EC+주/VX+신다고/EP+EC+부른/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : ㅋ 며칠 전에 아버님이 회사로 꽃화환 선물 보내 셨더라.",
+            "norm_text": "ㅋ 며칠 전에 아버님이 회사로 꽃화환 선물 보내 셨더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅋ며/UNKNOWN+칠전/NNG+에/JKB+아버님/NNG+이/JKS+회사/NNG+로/JKB+꽃/NNG+화환/NNG+선물/NNG+보내/VV+셨/EP+EP+더라/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응? 갑자기 무슨 꽃을 보내셨지?",
+            "norm_text": "응? 갑자기 무슨 꽃을 보내셨지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+갑자기/MAG+무슨/MM+꽃/NNG+을/JKO+보내/VV+셨/EP+EP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 임신 축하한다고. 꽃 선물 보내셨어.ㅋ",
+            "norm_text": "임신 축하한다고. 꽃 선물 보내셨어.ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "임신/NNG+축하/NNG+한다고/XSV+EF+꽃/NNG+선물/NNG+보내/VV+셨/EP+EP+어/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 와, 아버지가 자기 임신하니깐 엄청 좋아하시네.",
+            "norm_text": "와, 아버지가 자기 임신하니깐 엄청 좋아하시네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+,/SC+아버지/NNG+가/JKS+자기/NP+임신/NNG+하/XSV+니깐/EC+엄청/MAG+좋/VA+아/EC+하/VX+시/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 내가 나이가 있으니 임신 못 할 거라고 생각 하신건지 대견하게 생각하시네.",
+            "norm_text": "내가 나이가 있으니 임신 못 할 거라고 생각 하신건지 대견하게 생각하시네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+나이/NNG+가/JKS+있/VA+으니/EC+임신/NNG+못/MAG+할/VV+ETM+거/NNB+라고/VCP+EC+생각/NNG+하/XSV+신/EP+ETM+건지/NNB+VCP+EC+대견/XR+하/XSA+게/EC+생각/NNG+하/XSV+시/EP+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 꽃도 선물 해 줄 줄 알고 아버지 아주 로맨티스트시네.",
+            "norm_text": "꽃도 선물 해 줄 줄 알고 아버지 아주 로맨티스트시네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "꽃/NNG+도/JX+선물/NNG+해/XSV+EC+줄/VX+ETM+줄/NNB+알/VV+고/EC+아버지/NNG+아주/MAG+로맨티스트/NNG+시/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 어 완전 깜짝 놀랐잖아. 난 자기가 보낸 건 줄 알았는데 이름이 달라.ㅋ",
+            "norm_text": "어 완전 깜짝 놀랐잖아. 난 자기가 보낸 건 줄 알았는데 이름이 달라.ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+완전/MAG+깜짝/MAG+놀랐/VV+EP+잖아/EF+난/NP+JX+자기/NP+가/JKS+보낸/VV+ETM+건/NNB+VCP+ETM+줄/NNB+알/VV+았/EP+는데/EC+이름/NNG+이/VCP+달라/EC+VCP+EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 어머니도 자기 임신해서 엄청 기뻐하시더라구",
+            "norm_text": "어머니도 자기 임신해서 엄청 기뻐하시더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어머니/NNG+도/JX+자기/NP+임신/NNG+해서/XSV+EC+엄청/MAG+기뻐하/VV+시/EP+더라구/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그러게 임신은 정말 축복 받을 일이니깐.",
+            "norm_text": "그러게 임신은 정말 축복 받을 일이니깐.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+임신/NNG+은/JX+정말/MAG+축복/NNG+받/VV+을/ETM+일/NNG+이/VCP+니깐/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 형도 축하한다고 전해 달라고 했어~",
+            "norm_text": "형도 축하한다고 전해 달라고 했어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "형/NNG+도/JX+축하/NNG+한다고/XSV+EC+전해/VV+EC+달/VX+라고/EC+했/VX+EP+어/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 모두들 너무 감사하네~",
+            "norm_text": "응 모두들 너무 감사하네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+모두/NNG+들/XSN+너무/MAG+감사/NNG+하/XSV+네/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 부모님들이 이렇게 기뻐 하실 줄은 몰랐어. ㅎ",
+            "norm_text": "부모님들이 이렇게 기뻐 하실 줄은 몰랐어. ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부모/NNG+님/XSN+들/XSN+이/JKS+이렇게/MAG+기뻐하/VV+실/EP+ETM+줄/NNB+은/JX+몰랐/VV+EP+어/EF+ㅎ/XSA"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그니깐.ㅎ 우리 이번 주에 가서 소고기 실컷 많이 먹고 오자~",
+            "norm_text": "그니깐.ㅎ 우리 이번 주에 가서 소고기 실컷 많이 먹고 오자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그니깐/MAJ+ㅎ/XSA+우리/NP+이번/NNG+주/NNG+에/JKB+가/VV+서/EC+소고기/NNG+실컷/MAG+많이/MAG+먹/VV+고/EC+오/VV+자/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 임산부에겐 단백질이 필수래!",
+            "norm_text": "임산부에겐 단백질이 필수래!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "임산부/NNG+에겐/JKB+JX+단백질/NNG+이/JKS+필수/NNG+래/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

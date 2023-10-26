@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 32650,
+    "name": "KAKAO_880_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175159047038/KAKAO_880_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175159047038/KAKAO_880_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40395,
+      "filename": "KAKAO_880_17.txt",
+      "title": "KAKAO_880_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 531,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 531,
+        "word_size": 183,
+        "text": "1 : 키키 겁나 웃겨 비만은 만병의 근원이라는데 ...\n1 :운동을 해야겠지 ...?\n2 : 키키 안 할 거잖아 ...\n2 : 운동 계획 세우고 안 하면 또 스트레스 받음\n1 : 죄송하지만 운동 그거 어떻게 하는 건지 알려주실 분 찾습니다.\n2 : 그니께유 돈을 지불하면 알려주더라 헬스장에서\n1 : 아 너무 비싸 그건 ㅠ\n2 : 그니까 왜케 비싸\n2 : 운동할라 그래도 못함\n1 : 너가 나 선물로 헬스 끊어주랑\n1 : 운동 열심히 할게\n2 : 오오 좋아 그럼 너가 나 피티 잡아줘 내가 배워 올게\n1 : 키키 아니 말로주고 되로받네\n1 : 너가 피티 끊어달라고 내가 운동할 테니까 ㅠ\n2 : 키키 우리 돈내도 안할 듯\n2 : 그냥 하지마\n1 : 아냐 남의 돈으로 하면 열심히 함\n2 : 키키 진짜?\n2 : 그럼 나 끊어줘 함 해볼게\n1 : 아니 너가 끊어 달라고 제발 ㅠ ㅠ\n1 : 나 운동하고 건강해지자 좀\n2 : 키키 너 사실 건강해 질 마음 없잖아\n1 : 맞아 사실 건강 챙기려면 금연 먼저 했겠지...\n1 : 아 담배피고싶다\n2 : 아니 좀만 참아\n2 : 그래도 너 건강한 편인 듯",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 키키 겁나 웃겨 비만은 만병의 근원이라는데 ...",
+            "norm_text": "키키 겁나 웃겨 비만은 만병의 근원이라는데 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+겁나/VV+EC+웃겨/VV+EC+비만/NNG+은/JX+만병/NNG+의/JKG+근원/NNG+이/VCP+라는데/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "1 :운동을 해야겠지 ...?",
+            "norm_text": "운동을 해야겠지 ...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "운동/NNG+을/JKO+해야겠지/VV+EC+VX+EP+EF+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 키키 안 할 거잖아 ...",
+            "norm_text": "키키 안 할 거잖아 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+안/MAG+할/VV+ETM+거/NNB+잖아/VCP+EC+VX+EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 운동 계획 세우고 안 하면 또 스트레스 받음",
+            "norm_text": "운동 계획 세우고 안 하면 또 스트레스 받음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "운동/NNG+계획/NNG+세우/VV+고/EC+안/MAG+하/VV+면/EC+또/MAG+스트레스/NNG+받/VV+음/ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 죄송하지만 운동 그거 어떻게 하는 건지 알려주실 분 찾습니다.",
+            "norm_text": "죄송하지만 운동 그거 어떻게 하는 건지 알려주실 분 찾습니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "죄송/XR+하/XSA+지만/EC+운동/NNG+그거/NP+어떻게/MAG+하/VV+는/ETM+건지/NNB+VCP+EC+알려/VV+EC+주/VX+실/EP+ETM+분/NNB+찾/VV+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그니께유 돈을 지불하면 알려주더라 헬스장에서",
+            "norm_text": "그니께유 돈을 지불하면 알려주더라 헬스장에서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니/NP+께/JKB+유돈/NNG+을/JKO+지불/NNG+하/XSV+면/EC+알려/VV+EC+주/VX+더라/EC+헬스/NNG+장/NNG+에서/JKB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 너무 비싸 그건 ㅠ",
+            "norm_text": "아 너무 비싸 그건 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아너무비싸그건ㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그니까 왜케 비싸",
+            "norm_text": "그니까 왜케 비싸",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그니까/MAJ+왜/MAG+케/XSA+EC+비싸/VA+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 운동할라 그래도 못함",
+            "norm_text": "운동할라 그래도 못함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "운동/NNG+할라/XSV+EC+그래도/VV+EC+못함/VX+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 너가 나 선물로 헬스 끊어주랑",
+            "norm_text": "너가 나 선물로 헬스 끊어주랑",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "너/NP+가/JKS+나선/VV+ETM+물/NNG+로/JKB+헬스/NNG+끊/VV+어/EC+주/VX+랑/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 운동 열심히 할게",
+            "norm_text": "운동 열심히 할게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "운동/NNG+열심히/MAG+할/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오오 좋아 그럼 너가 나 피티 잡아줘 내가 배워 올게",
+            "norm_text": "오오 좋아 그럼 너가 나 피티 잡아줘 내가 배워 올게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+좋/VA+아/EC+그럼/MAJ+너/NP+가/JKS+나/NP+피티/NNG+잡/VV+아/EC+줘/VX+EF+내/NP+가/JKS+배워/VV+EC+올게/VV+ETM+NNB+JKS"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 아니 말로주고 되로받네",
+            "norm_text": "키키 아니 말로주고 되로받네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+말/NNG+로/JKB+주/VX+고/EC+되/NNG+로/JKB+받/VV+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 너가 피티 끊어달라고 내가 운동할 테니까 ㅠ",
+            "norm_text": "너가 피티 끊어달라고 내가 운동할 테니까 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+가/JKS+피티/NNG+끊/VV+어/EC+달/VX+라고/EC+내/NP+가/JKS+운동/NNG+할/XSV+ETM+테/NNB+VCP+니까/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 우리 돈내도 안할 듯",
+            "norm_text": "키키 우리 돈내도 안할 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우리/NP+돈/NNG+내/NNB+도/JX+안/MAG+할/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그냥 하지마",
+            "norm_text": "그냥 하지마",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+하/VV+지/EC+마/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아냐 남의 돈으로 하면 열심히 함",
+            "norm_text": "아냐 남의 돈으로 하면 열심히 함",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+남/NNG+의/JKG+돈/NNG+으로/JKB+하/VV+면/EC+열심히/MAG+함/XSA+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 진짜?",
+            "norm_text": "키키 진짜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그럼 나 끊어줘 함 해볼게",
+            "norm_text": "그럼 나 끊어줘 함 해볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+나/NP+끊/VV+어/EC+줘/VX+EC+함해/NNG+볼/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아니 너가 끊어 달라고 제발 ㅠ ㅠ",
+            "norm_text": "아니 너가 끊어 달라고 제발 ㅠ ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+너/NP+가/JKS+끊/VV+어/EC+달/VX+라고/EC+제발/MAG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 나 운동하고 건강해지자 좀",
+            "norm_text": "나 운동하고 건강해지자 좀",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+운동/NNG+하/XSV+고/EC+건강/NNG+해/XSV+EC+지/VX+자/EC+좀/MAG"
+          },
+          {
+            "id": 22,
+            "text": "2 : 키키 너 사실 건강해 질 마음 없잖아",
+            "norm_text": "키키 너 사실 건강해 질 마음 없잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+너/NP+사실/MAG+건강/NNG+해질/XSA+EC+VX+ETM+마음/NNG+없/VA+잖아/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 맞아 사실 건강 챙기려면 금연 먼저 했겠지...",
+            "norm_text": "맞아 사실 건강 챙기려면 금연 먼저 했겠지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+사실/MAG+건강/NNG+챙기/VV+려면/EC+금연/NNG+먼저/MAG+했/VV+EP+겠/EP+지/EF+./SY"
+          },
+          {
+            "id": 24,
+            "text": "1 : 아 담배피고싶다",
+            "norm_text": "아 담배피고싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+담배/NNG+피/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 아니 좀만 참아",
+            "norm_text": "아니 좀만 참아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+좀/MAG+만/JX+참/VV+아/EC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 그래도 너 건강한 편인 듯",
+            "norm_text": "그래도 너 건강한 편인 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+너/NP+건강/NNG+한편/NNG+인/VCP+ETM+듯/NNB"
+          }
+        ]
+      }
+    }
+  ]
+}

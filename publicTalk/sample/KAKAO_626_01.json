@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 34143,
+    "name": "KAKAO_626_01",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120625056048/KAKAO_626_01/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120625056048/KAKAO_626_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32254,
+      "filename": "KAKAO_626_01.txt",
+      "title": "KAKAO_626_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 652,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 652,
+        "word_size": 204,
+        "text": "1 : 이번에 카페 메뉴 개발 해야 하는데 뭐 특이한 거 없나\n2 : 어떤 메뉴인데?\n2 : 음료 아니면 디저트?\n1 : 음료나 디저트 아무거나 상관없을 듯\n2 : 음 음료는 기본적인 것만 있어도 될 거 같고 디저트로 요즘 카페들 베이커리 많이 하던데 베이커리 쪽은 어떰?\n1 : 베이커리도 괜찮긴 한데 요즘 트렌드를 잘 몰라 가지고\n2 : 연구 해봐야 할 듯?\n2 : 이제 가을이 오니까 가을에 딱 어울릴 디저트 찾아보는 게 어때\n1 : 여기저기 유명 카페 보면서 연구하고 있긴 한데 어떻게 저런 걸 생각해냈지 후 ...\n2 : 괜히 유명한 카페인 게 아니지 키키\n2 : 디저트도 유행 타는 거 같음\n2 : 요즘 그릭모모라는 디저트가 유행하는 거 같은데 너만의 스타일로 바꿔서 만들어 보는 것도 나쁘지 않을 듯?\n1 : 근데 유행을 따라는 것도 좋은데 창조 하는 게 최고이긴 한데 키키\n2 : 아예 따라가라는 게 아니라 그런 느낌으로 너가 새롭게 만들면  괜찮을 듯 함 키키\n1 : 메뉴 개발도 진짜 고민이다 많은 시행착오를 거쳐야 하니까\n2 : 그렇지... 한번에 뿅 하고 나오진 않으니 ㅠㅠ\n1 : 그니까 키키 열심히 고민하고 만들어봐야지 ...\n2 : 만약 만들며 나 불러줘 키키 시식평가단 해 드림 키키\n1 : 알겠어 키키 완성하면 한번 부름\n2 : 여자친구랑 같이 조만간 카페 놀러 갈게~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번에 카페 메뉴 개발 해야 하는데 뭐 특이한 거 없나",
+            "norm_text": "이번에 카페 메뉴 개발 해야 하는데 뭐 특이한 거 없나",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+에/JKB+카페/NNG+메뉴/NNG+개발/NNG+해야/XSV+EC+하/VV+는데/EC+뭐/IC+특이/NNG+한/XSA+ETM+거/NNB+없/VA+나/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어떤 메뉴인데?",
+            "norm_text": "어떤 메뉴인데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+메뉴/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 음료 아니면 디저트?",
+            "norm_text": "음료 아니면 디저트?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음료/NNG+아니/VCN+면/EC+디저트/NNG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 음료나 디저트 아무거나 상관없을 듯",
+            "norm_text": "음료나 디저트 아무거나 상관없을 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음료/NNG+나/JC+디저트/NNG+아무거/NP+나/JX+상관없/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 5,
+            "text": "2 : 음 음료는 기본적인 것만 있어도 될 거 같고 디저트로 요즘 카페들 베이커리 많이 하던데 베이커리 쪽은 어떰?",
+            "norm_text": "음 음료는 기본적인 것만 있어도 될 거 같고 디저트로 요즘 카페들 베이커리 많이 하던데 베이커리 쪽은 어떰?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "음/IC+음료/NNG+는/JX+기본/NNG+적/XSN+인/VCP+ETM+것/NNB+만/JX+있/VX+어도/EC+될/VV+ETM+거/NNB+같/VA+고/EC+디저트/NNG+로/JKB+요즘/NNG+카페/NNG+들/XSN+베이커리/NNP+많이/MAG+하/VV+던데/EC+베이커리/NNP+쪽/NNB+은/JX+어떰/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 베이커리도 괜찮긴 한데 요즘 트렌드를 잘 몰라 가지고",
+            "norm_text": "베이커리도 괜찮긴 한데 요즘 트렌드를 잘 몰라 가지고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "베이커리/NNP+도/JX+괜찮/VA+긴/ETN+JX+한데/VX+EC+요즘/NNG+트렌드/NNG+를/JKO+잘/MAG+몰라/VV+EC+가지/VX+고/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 연구 해봐야 할 듯?",
+            "norm_text": "연구 해봐야 할 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "연구/NNG+해/XSV+EC+봐야/VX+EC+할/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 8,
+            "text": "2 : 이제 가을이 오니까 가을에 딱 어울릴 디저트 찾아보는 게 어때",
+            "norm_text": "이제 가을이 오니까 가을에 딱 어울릴 디저트 찾아보는 게 어때",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이제/MAG+가을/NNG+이/JKS+오/VV+니까/EC+가을/NNG+에/JKB+딱/MAG+어울릴/VV+ETM+디저트/NNG+찾아보/VV+는/ETM+게/NNB+JKS+어때/VA+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 여기저기 유명 카페 보면서 연구하고 있긴 한데 어떻게 저런 걸 생각해냈지 후 ...",
+            "norm_text": "여기저기 유명 카페 보면서 연구하고 있긴 한데 어떻게 저런 걸 생각해냈지 후 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기저기/NNG+유명/NNG+카페/NNG+보/VV+면서/EC+연구/NNG+하/XSV+고/EC+있/VX+긴/ETN+JX+한데/VX+EC+어떻게/MAG+저런/MM+걸/NNB+JKO+생각/NNG+해냈/XSV+EC+VX+EP+지/EC+후/NNG+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 괜히 유명한 카페인 게 아니지 키키",
+            "norm_text": "괜히 유명한 카페인 게 아니지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜히/MAG+유명/XR+한/XSA+ETM+카페/NNG+인게/VCP+ETM+NNB+JKC+아니/VCN+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 디저트도 유행 타는 거 같음",
+            "norm_text": "디저트도 유행 타는 거 같음",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "디저트/NNG+도/JX+유행/NNG+타/VV+는/ETM+거/NNB+같/VA+음/ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 요즘 그릭모모라는 디저트가 유행하는 거 같은데 너만의 스타일로 바꿔서 만들어 보는 것도 나쁘지 않을 듯?",
+            "norm_text": "요즘 그릭모모라는 디저트가 유행하는 거 같은데 너만의 스타일로 바꿔서 만들어 보는 것도 나쁘지 않을 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "요즘/MAG+그/MM+릭/NNG+모모/NNG+라는/VCP+ETM+디저트/NNG+가/JKS+유행/NNG+하/XSV+는/ETM+거/NNB+같/VA+은데/EC+너/NP+만/JX+의/JKG+스타일/NNG+로/JKB+바꿔서/VV+EC+만들/VV+어/EC+보/VX+는/ETM+것/NNB+도/JX+나쁘/VA+지/EC+않/VX+을/ETM+듯/NNB"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 유행을 따라는 것도 좋은데 창조 하는 게 최고이긴 한데 키키",
+            "norm_text": "근데 유행을 따라는 것도 좋은데 창조 하는 게 최고이긴 한데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+유행/NNG+을/JKO+따라/VV+는/ETM+것/NNB+도/JX+좋/VA+은데/EC+창조/NNG+하/XSV+는/ETM+게/NNB+JKS+최고/NNG+이/VCP+긴/ETN+JX+한데/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아예 따라가라는 게 아니라 그런 느낌으로 너가 새롭게 만들면  괜찮을 듯 함 키키",
+            "norm_text": "아예 따라가라는 게 아니라 그런 느낌으로 너가 새롭게 만들면  괜찮을 듯 함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아예/MAG+따라가/VV+라는/ETM+게/NNB+JKC+아니/VCN+라/EC+그런/MM+느낌/NNG+으로/JKB+너/NP+가/JKS+새롭/VA+게/EC+만들/VV+면/EC+괜찮/VA+을/ETM+듯/NNB+함/XSA+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 메뉴 개발도 진짜 고민이다 많은 시행착오를 거쳐야 하니까",
+            "norm_text": "메뉴 개발도 진짜 고민이다 많은 시행착오를 거쳐야 하니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "메뉴/NNG+개발/NNG+도/JX+진짜/MAG+고민/NNG+이/JKS+다/MAG+많/VA+은/ETM+시행착오/NNG+를/JKO+거쳐야/VV+EC+하/VV+니까/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그렇지... 한번에 뿅 하고 나오진 않으니 ㅠㅠ",
+            "norm_text": "그렇지... 한번에 뿅 하고 나오진 않으니 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+./SY+한/MM+번/NNBC+에/JKB+뿅/MAG+하/VV+고/EC+나오/VV+진/EC+JX+않/VX+으니/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그니까 키키 열심히 고민하고 만들어봐야지 ...",
+            "norm_text": "그니까 키키 열심히 고민하고 만들어봐야지 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+키/NNG+키/NNG+열심히/MAG+고민/NNG+하/XSV+고/EC+만들/VV+어/EC+봐야지/VX+EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 만약 만들며 나 불러줘 키키 시식평가단 해 드림 키키",
+            "norm_text": "만약 만들며 나 불러줘 키키 시식평가단 해 드림 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "만약/NNG+만들/VV+며/EC+나/JX+불러줘/VV+EC+VX+EC+키/NNG+키/NNG+시식/NNG+평가/NNG+단해/NNG+드림/VV+ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 알겠어 키키 완성하면 한번 부름",
+            "norm_text": "알겠어 키키 완성하면 한번 부름",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "알/VV+겠/EP+어/EC+키/NNG+키/NNG+완성/NNG+하/XSV+면/EC+한/MM+번/NNBC+부름/VV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 여자친구랑 같이 조만간 카페 놀러 갈게~",
+            "norm_text": "여자친구랑 같이 조만간 카페 놀러 갈게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "여자/NNG+친구/NNG+랑/JKB+같이/MAG+조만간/MAG+카페/NNG+놀/VV+러/EC+갈/VX+ETM+게/NNB+JKS+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

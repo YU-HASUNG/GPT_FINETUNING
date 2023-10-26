@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 31882,
+    "name": "KAKAO_791_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165220081326/KAKAO_791_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165220081326/KAKAO_791_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38398,
+      "filename": "KAKAO_791_05.txt",
+      "title": "KAKAO_791_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 661,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 661,
+        "word_size": 215,
+        "text": "1 : 박보검이 해군으로 지금 진해에 있지?\n2 : 헐 진짜? 그런데 진해 근처를 얼쩡거려도 볼 확률 0 아님? ㅠㅠ\n2 : 우리 부대에 위문 공연 오면 아빠한테 어그로 끌어서라도 가고 싶다 진짜\n1 : 키키 보기 힘들지 키키 특히 이 코시국에\n2 : 그런데 박보검은 왜 이렇게 군에 오래 있는 느낌이지\n1 : 진해 군항제 했으면 볼 수 있었을 텐데\n1 : 진해 군항제 진짜 관심 없었는데 코시국 때문에 못 보게 되니까 진해 군항제 보고 싶어 키키\n2 : 멋있어 그거 키키 전에 배 안에 구경 갔었는데\n1 : 키키 그치? 너무 조용해서 오래 있는 거 같은 느낌일 수도 있음 키키\n2 : 그런데 이왕 군대 간 거면 그게 나을 듯 키키\n2 : 너무 어그로 끌면서 뉴스 타면 좀 그렇더라\n1 : 헐 구경 간 적 있어? 대박 ㅠㅠ\n1 : 다시 볼 수 없을지도 모르는 군항제를 봤꾼\n2 : 후후후 재밌었음 키키 진해 하니까 벚꽃 생각난다 키키 내년에는 볼 수 있으려나\n1 : 키키 내년에는 지금보다 상황이 나아져 있을 거 같으니 키키\n2 : 흩날리는 벚꽃보다 사람들 머리가 더 많은 게 함정\n1 : 키키 그래서 진해 군항제 안 갔었지 키키 빠져나오는 데만 3시간 걸릴 듯\n2 : 맞아 키키 주차 단속도 심하고 그냥 뚜벅이가 나음\n1 : 키키 그럴 때만 뚜벅이가 최고죠 키키\n2 : 하지만 뚜벅이는 날씨가 좋지 않으면 슬퍼지죠",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 박보검이 해군으로 지금 진해에 있지?",
+            "norm_text": "박보검이 해군으로 지금 진해에 있지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "박보검/NNP+이/JKS+해군/NNG+으로/JKB+지금/MAG+진해/NNG+에/JKB+있/VV+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐 진짜? 그런데 진해 근처를 얼쩡거려도 볼 확률 0 아님? ㅠㅠ",
+            "norm_text": "헐 진짜? 그런데 진해 근처를 얼쩡거려도 볼 확률 0 아님? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+진짜/MAG+그런데/MAJ+진해/NNP+근처/NNG+를/JKO+얼쩡/XR+거려도/XSV+EC+볼/VX+ETM+확률/NNG+0/SN+아님/VCN+ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 우리 부대에 위문 공연 오면 아빠한테 어그로 끌어서라도 가고 싶다 진짜",
+            "norm_text": "우리 부대에 위문 공연 오면 아빠한테 어그로 끌어서라도 가고 싶다 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+부대/NNG+에/JKB+위문/NNG+공연/NNG+오/VV+면/EC+아빠/NNG+한테/JKB+어/IC+그/NP+로/JKB+끌/VV+어서라도/EC+가/VX+고/EC+싶/VX+다/EF+진짜/MAG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 보기 힘들지 키키 특히 이 코시국에",
+            "norm_text": "키키 보기 힘들지 키키 특히 이 코시국에",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+보/VV+기/ETN+힘들/VA+지/EC+키/NNG+키/NNG+특히/MAG+이/MM+코/NNG+시국/NNG+에/JKB"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그런데 박보검은 왜 이렇게 군에 오래 있는 느낌이지",
+            "norm_text": "그런데 박보검은 왜 이렇게 군에 오래 있는 느낌이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런데/MAJ+박보검/NNP+은/JX+왜/MAG+이렇게/MAG+군/NNG+에/JKB+오래/MAG+있/VV+는/ETM+느낌/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 진해 군항제 했으면 볼 수 있었을 텐데",
+            "norm_text": "진해 군항제 했으면 볼 수 있었을 텐데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진해/NNP+군항/NNG+제했/VV+EP+으면/EC+볼/VX+ETM+수/NNB+있/VV+었/EP+을/ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 진해 군항제 진짜 관심 없었는데 코시국 때문에 못 보게 되니까 진해 군항제 보고 싶어 키키",
+            "norm_text": "진해 군항제 진짜 관심 없었는데 코시국 때문에 못 보게 되니까 진해 군항제 보고 싶어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진해/NNP+군항/NNG+제/XSN+진짜/MAG+관심/NNG+없/VA+었/EP+는데/EC+코/NNG+시국/NNG+때문/NNB+에/JKB+못/MAG+보/VV+게/EC+되/VV+니까/EC+진해/NNP+군항/NNG+제/XSN+보/VV+고/EC+싶/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 멋있어 그거 키키 전에 배 안에 구경 갔었는데",
+            "norm_text": "멋있어 그거 키키 전에 배 안에 구경 갔었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "멋있/VA+어/EC+그거/NP+키/NNG+키/NNG+전/NNG+에/JKB+배안/NNG+에/JKB+구경/NNG+갔었/VV+EP+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 그치? 너무 조용해서 오래 있는 거 같은 느낌일 수도 있음 키키",
+            "norm_text": "키키 그치? 너무 조용해서 오래 있는 거 같은 느낌일 수도 있음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치/IC+너무/MAG+조용/XR+해서/XSA+EC+오래/MAG+있/VV+는/ETM+거/NNB+같/VA+은/ETM+느낌/NNG+일/VCP+ETM+수/NNB+도/JX+있/VX+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그런데 이왕 군대 간 거면 그게 나을 듯 키키",
+            "norm_text": "그런데 이왕 군대 간 거면 그게 나을 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런데/MAJ+이왕/MAG+군대/NNG+간/VV+ETM+거/NNB+면/VCP+EC+그게/NP+JKS+나을/VA+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 너무 어그로 끌면서 뉴스 타면 좀 그렇더라",
+            "norm_text": "너무 어그로 끌면서 뉴스 타면 좀 그렇더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너무/MAG+어/IC+그/NP+로/JKB+끌/VV+면서/EC+뉴스/NNG+타/VV+면/EC+좀/MAG+그렇/VA+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 헐 구경 간 적 있어? 대박 ㅠㅠ",
+            "norm_text": "헐 구경 간 적 있어? 대박 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/VV+구/EC+경간/NNG+적/XSN+있/VA+어/EF+대박ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 다시 볼 수 없을지도 모르는 군항제를 봤꾼",
+            "norm_text": "다시 볼 수 없을지도 모르는 군항제를 봤꾼",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다시/MAG+볼/VV+ETM+수/NNB+없/VA+을지/EC+도/JX+모르/VV+는/ETM+군항/NNG+제/XSN+를/JKO+봤/VV+EP+꾼/XSN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 후후후 재밌었음 키키 진해 하니까 벚꽃 생각난다 키키 내년에는 볼 수 있으려나",
+            "norm_text": "후후후 재밌었음 키키 진해 하니까 벚꽃 생각난다 키키 내년에는 볼 수 있으려나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "후후후/IC+재밌/VA+었/EP+음/ETN+키/NNG+키/NNG+진해/NNG+하/XSV+니까/EC+벚꽃/NNG+생각/NNG+난/NP+JX+다키키/NNP+내년/NNG+에/JKB+는/JX+볼/VV+ETM+수/NNB+있/VV+으려나/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 내년에는 지금보다 상황이 나아져 있을 거 같으니 키키",
+            "norm_text": "키키 내년에는 지금보다 상황이 나아져 있을 거 같으니 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+내년/NNG+에/JKB+는/JX+지금/NNG+보다/JKB+상황/NNG+이/JKS+나아져/VV+EC+있/VX+을/ETM+거/NNB+같/VA+으니/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 흩날리는 벚꽃보다 사람들 머리가 더 많은 게 함정",
+            "norm_text": "흩날리는 벚꽃보다 사람들 머리가 더 많은 게 함정",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "흩날리/VV+는/ETM+벚꽃/NNG+보다/JKB+사람/NNG+들/XSN+머리/NNG+가/JKS+더/MAG+많/VA+은/ETM+게/NNB+JKS+함정/NNG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 그래서 진해 군항제 안 갔었지 키키 빠져나오는 데만 3시간 걸릴 듯",
+            "norm_text": "키키 그래서 진해 군항제 안 갔었지 키키 빠져나오는 데만 3시간 걸릴 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래서/MAJ+진해/NNP+군항/NNG+제/XSN+안/MAG+갔었/VV+EP+지/EC+키/NNG+키/XSV+ETN+빠져/VV+EC+나오/VV+는/ETM+데/NNB+만/JX+3/SN+시간/NNBC+걸릴/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 18,
+            "text": "2 : 맞아 키키 주차 단속도 심하고 그냥 뚜벅이가 나음",
+            "norm_text": "맞아 키키 주차 단속도 심하고 그냥 뚜벅이가 나음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+주차/NNG+단속/NNG+도/JX+심하/VA+고/EC+그냥/MAG+뚜벅/MAG+이/NP+가/JKS+나/VV+음/ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 그럴 때만 뚜벅이가 최고죠 키키",
+            "norm_text": "키키 그럴 때만 뚜벅이가 최고죠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럴/VV+ETM+때/NNG+만/JX+뚜벅/MAG+이/NP+가/JKS+최고/NNG+죠/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 하지만 뚜벅이는 날씨가 좋지 않으면 슬퍼지죠",
+            "norm_text": "하지만 뚜벅이는 날씨가 좋지 않으면 슬퍼지죠",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하지만/MAJ+뚜벅/MAG+이/NP+는/JX+날씨/NNG+가/JKS+좋/VA+지/EC+않/VX+으면/EC+슬퍼지/VV+죠/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

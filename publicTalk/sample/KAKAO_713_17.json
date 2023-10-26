@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 69700,
+    "name": "KAKAO_713_17",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132138012321/KAKAO_713_17/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132138012321/KAKAO_713_17/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36664,
+      "filename": "KAKAO_713_17.txt",
+      "title": "KAKAO_713_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 726,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 726,
+        "word_size": 215,
+        "text": "1 : 나 오늘 백신 맞으러 병원 다녀왔어!\n2 : 오 백신은 뭐로 접종 했어? 화이자야?\n1 : 웅웅! 너는 주사 알러지? 공포증? 같은 거 있어?\n2 : 아니 나는 그런 건 없어 근데 혈액 검사 한다고 피 뽑을 때 주사 바늘 못 보겠더라구\n1 : 아아... 오늘 나 5명씩 들어가서 예진 받고 주사 맞고 했는데 어떤 사람 주사 공포증 때문에 남들이 주사 맞는 것도 못 본다고 하더라고...\n2 : 아 진짜 그런 사람들은 주사 무서워서 어떻게 ㅠ 공포스럽겠다\n1 : 그러니까... 막 얘기 들어보니까... 앞이 깜깜해서 안 보이고 그런다더라\n2 : 어휴... 그래도 코로나 안 걸리고 건강 하려면 맞아야지 ㅠ\n1 : 그래서 다 같이 들어가서 주사 맞는 시스템이였는데... 그 사람은 따로 나가있다가 혼자 맞으러 들어가고 그러더라구...\n2 : 아아 그래도 그런 사람들을 위해서 배려해주는구나\n1 : 웅웅 ㅜㅜ 바빠도 배려해줄 건 해주시더라!\n1 : 여튼 그런 알러지나 공포증 같은 거 없는 것도 행운이야... 정말\n2 : 진짜 나도 그렇게 생각해 살면서 병원을 얼마나 자주 가는데 ㅠ\n1 : 내 말이... ㅜㅜ 너는 약물 알러지 같은 것도 없는 거지?\n2 : 응 약물 알러지도 없어\n2 : 알러지 같은 부분에서는 건강한 편이 거 같아\n1 : 진짜 다행이다! ㅜㅜ\n1 : 요번 백신 부작용 있는 사람들이 알러지 반응이 있는 사람들이 많다고 하더라 ㅜㅜ\n2 : 맞아 기사 보면 건강한 사람들도 갑자기 쓰러지고 그런다잖아... 걱정돼",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 오늘 백신 맞으러 병원 다녀왔어!",
+            "norm_text": "나 오늘 백신 맞으러 병원 다녀왔어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+오늘/MAG+백신/NNG+맞/VV+으러/EC+병원/NNG+다녀왔/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 백신은 뭐로 접종 했어? 화이자야?",
+            "norm_text": "오 백신은 뭐로 접종 했어? 화이자야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+백/NR+신/NNG+은/JX+뭐/NP+로/JKB+접종/NNG+했/XSV+EP+어/EF+화이자/NNP+야/JKV"
+          },
+          {
+            "id": 3,
+            "text": "1 : 웅웅! 너는 주사 알러지? 공포증? 같은 거 있어?",
+            "norm_text": "웅웅! 너는 주사 알러지? 공포증? 같은 거 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "웅웅/MAG+너/NP+는/JX+주사/NNG+알/VV+러지/EF+공포증/NNG+같/VA+은/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 나는 그런 건 없어 근데 혈액 검사 한다고 피 뽑을 때 주사 바늘 못 보겠더라구",
+            "norm_text": "아니 나는 그런 건 없어 근데 혈액 검사 한다고 피 뽑을 때 주사 바늘 못 보겠더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+나/NP+는/JX+그런/MM+건/NNB+JX+없/VA+어/EF+근데/MAJ+혈액/NNG+검사/NNG+한다고/XSV+EC+피/NNG+뽑/VV+을/ETM+때/NNG+주사/NNG+바늘/NNG+못/MAG+보/VV+겠/EP+더라구/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아아... 오늘 나 5명씩 들어가서 예진 받고 주사 맞고 했는데 어떤 사람 주사 공포증 때문에 남들이 주사 맞는 것도 못 본다고 하더라고...",
+            "norm_text": "아아... 오늘 나 5명씩 들어가서 예진 받고 주사 맞고 했는데 어떤 사람 주사 공포증 때문에 남들이 주사 맞는 것도 못 본다고 하더라고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아아/IC+./SY+./SY+오늘나/NNP+5/SN+명/NNBC+씩/XSN+들어가/VV+서/EC+예진/NNG+받/VV+고/EC+주사/NNG+맞/VV+고/EC+했/VX+EP+는데/EC+어떤/MM+사람/NNG+주사/NNG+공포증/NNG+때문/NNB+에/JKB+남/NNG+들/XSN+이/JKS+주사/NNG+맞/VV+는/ETM+것/NNB+도/JX+못/MAG+본다고/VV+EC+하/VX+더라고/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 진짜 그런 사람들은 주사 무서워서 어떻게 ㅠ 공포스럽겠다",
+            "norm_text": "아 진짜 그런 사람들은 주사 무서워서 어떻게 ㅠ 공포스럽겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+그런/MM+사람/NNG+들/XSN+은/JX+주사/NNG+무서워서/VA+EC+어떻/VA+게/EC+ㅠ/UNKNOWN+공포/NNG+스럽/XSA+겠/EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러니까... 막 얘기 들어보니까... 앞이 깜깜해서 안 보이고 그런다더라",
+            "norm_text": "그러니까... 막 얘기 들어보니까... 앞이 깜깜해서 안 보이고 그런다더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+./SY+막/MAJ+얘기/NNG+들/VV+어/EC+보/VX+니까/EC+./SY+./SY+앞/NNG+이/JKS+깜깜/MAG+해서/VV+EC+안/MAG+보이/VV+고/EC+그런다더라/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어휴... 그래도 코로나 안 걸리고 건강 하려면 맞아야지 ㅠ",
+            "norm_text": "어휴... 그래도 코로나 안 걸리고 건강 하려면 맞아야지 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어휴/IC+./SY+그래도코로나안걸리고건강하려면맞아야지ㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그래서 다 같이 들어가서 주사 맞는 시스템이였는데... 그 사람은 따로 나가있다가 혼자 맞으러 들어가고 그러더라구...",
+            "norm_text": "그래서 다 같이 들어가서 주사 맞는 시스템이였는데... 그 사람은 따로 나가있다가 혼자 맞으러 들어가고 그러더라구...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+다/MAG+같이/MAG+들어가/VV+서/EC+주사/NNG+맞/VV+는/ETM+시스템/NNG+이/VCP+였/EP+는데/EC+./SY+./SY+그/MM+사람/NNG+은/JX+따로/MAG+나가/VV+EC+있/VX+다가/EC+혼자/MAG+맞/VV+으러/EC+들어가/VV+고/EC+그러/VV+더라구/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아아 그래도 그런 사람들을 위해서 배려해주는구나",
+            "norm_text": "아아 그래도 그런 사람들을 위해서 배려해주는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+그래도/MAJ+그런/MM+사람/NNG+들/XSN+을/JKO+위해서/VV+EC+배려/NNG+해/XSV+EC+주/VX+는구나/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 웅웅 ㅜㅜ 바빠도 배려해줄 건 해주시더라!",
+            "norm_text": "웅웅 ㅜㅜ 바빠도 배려해줄 건 해주시더라!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅웅/MAG+ㅜㅜ/UNKNOWN+바빠도/VA+EC+배려/NNG+해/XSV+EC+줄/VX+ETM+건/NNB+JX+해/VV+EC+주/VX+시/EP+더라/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 여튼 그런 알러지나 공포증 같은 거 없는 것도 행운이야... 정말",
+            "norm_text": "여튼 그런 알러지나 공포증 같은 거 없는 것도 행운이야... 정말",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여튼그런알러지나공포증같은거없는것도행운이야/UNKNOWN+./SY+정말/MAG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 진짜 나도 그렇게 생각해 살면서 병원을 얼마나 자주 가는데 ㅠ",
+            "norm_text": "진짜 나도 그렇게 생각해 살면서 병원을 얼마나 자주 가는데 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+나/NP+도/JX+그렇/VA+게/EC+생각/NNG+해/XSV+EC+살/VV+면서/EC+병원/NNG+을/JKO+얼마나/MAG+자주/MAG+가/VV+는/ETM+데ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 내 말이... ㅜㅜ 너는 약물 알러지 같은 것도 없는 거지?",
+            "norm_text": "내 말이... ㅜㅜ 너는 약물 알러지 같은 것도 없는 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+./SY+ㅜㅜ/UNKNOWN+너/NP+는/JX+약물/NNG+알/VV+러지/EF+같/VA+은/ETM+것/NNB+도/JX+없/VA+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 약물 알러지도 없어",
+            "norm_text": "응 약물 알러지도 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+약물/NNG+알/VV+러/EC+지/VX+도/EC+없/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 알러지 같은 부분에서는 건강한 편이 거 같아",
+            "norm_text": "알러지 같은 부분에서는 건강한 편이 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+러지/EF+같/VA+은/ETM+부분/NNG+에서/JKB+는/JX+건강/NNG+한편/NNG+이거/NP+같/VA+아/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 진짜 다행이다! ㅜㅜ",
+            "norm_text": "진짜 다행이다! ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+다행/NNG+이/VCP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 요번 백신 부작용 있는 사람들이 알러지 반응이 있는 사람들이 많다고 하더라 ㅜㅜ",
+            "norm_text": "요번 백신 부작용 있는 사람들이 알러지 반응이 있는 사람들이 많다고 하더라 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요번/NNG+백/NR+신부/NNG+작용/NNG+있/VA+는/ETM+사람/NNG+들/XSN+이/JKS+알/VV+러지/EF+반응/NNG+이/JKS+있/VA+는/ETM+사람/NNG+들/XSN+이/JKS+많/VA+다고/EC+하/VX+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 맞아 기사 보면 건강한 사람들도 갑자기 쓰러지고 그런다잖아... 걱정돼",
+            "norm_text": "맞아 기사 보면 건강한 사람들도 갑자기 쓰러지고 그런다잖아... 걱정돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+기사/NNG+보/VV+면/EC+건강/NNG+한/XSA+ETM+사람/NNG+들/XSN+도/JX+갑자기/MAG+쓰러지/VV+고/EC+그런다/VV+EF+잖아/VCP+EC+VX+EF+./SY+걱정/NNG+돼/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

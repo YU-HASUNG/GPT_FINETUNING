@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 20565,
+    "name": "KAKAO_507_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151245078612/KAKAO_507_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151245078612/KAKAO_507_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28653,
+      "filename": "KAKAO_507_03.txt",
+      "title": "KAKAO_507_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 516,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 516,
+        "word_size": 160,
+        "text": "1 : 오늘 일산 가는데 일산 대교 톨 비 내더라?\n1 : 어유 매번 1200 원씩 어떻게 내\n2 : 언니 경차는 톨 비 할인되더라 알고 있었어?\n1 : 응 당연하지 그래서 경차가 좋은 거잖아\n2 : 나는 왜 몰랐지?\n2 : 지난 번에 보니까 주차 할인도 되더라?\n1 : 주차 할인도 돼? 대박이다 얼마나?\n2 : 경차는 50%까지 할인되던데?\n2 : 그래서 나 예전에 김포공항 주차할 때 할인 받았어\n1 : 오오 공항 주차비 비싼데 역시 경차\n2 : 응 근데 코엑스 같은 곳은 경차여도 할인 안 해주더라고\n1 : 경차라고 다 할인해주는 건 아니구나?\n2 : 응 그렇더라고? 소형부터는 할인 안 되지 않나?\n1 : 응응 경차만 되는 걸로 알고 있어\n2 : 요새 경차 SUV가 나온다던데 그것도 할인될까 모르겠네\n1 : 경차 SUV? 어디에서 나온다는데?\n2 : 현대인지 기아인지 잘 모르겠는데 여튼 연말인가 나온대\n1 : 오오 그거 괜찮겠다 너 SUV 좋아하잖아\n2 : 응응 난 아무래도 세단보단 SUV파지\n1 : SUV가 운전하기 편하긴 해 차고가 높아서",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 일산 가는데 일산 대교 톨 비 내더라?",
+            "norm_text": "오늘 일산 가는데 일산 대교 톨 비 내더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+일산/NNG+가/VV+는데/EC+일산대교/NNP+톨/NNG+비내/NNG+더라/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 어유 매번 1200 원씩 어떻게 내",
+            "norm_text": "어유 매번 1200 원씩 어떻게 내",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어유/IC+매번/MAG+1200/SN+원/NNBC+씩/XSN+어떻/VA+게/EC+내/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 언니 경차는 톨 비 할인되더라 알고 있었어?",
+            "norm_text": "언니 경차는 톨 비 할인되더라 알고 있었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+경차/NNG+는/JX+톨/NNG+비/XPN+할인/NNG+되/XSV+더라/EC+알/VV+고/EC+있/VX+었/EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응 당연하지 그래서 경차가 좋은 거잖아",
+            "norm_text": "응 당연하지 그래서 경차가 좋은 거잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+당연/XR+하/XSA+지/EF+그래서/MAJ+경차/NNG+가/JKS+좋/VA+은/ETM+거/NNB+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나는 왜 몰랐지?",
+            "norm_text": "나는 왜 몰랐지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+왜/MAG+몰랐/VV+EP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 지난 번에 보니까 주차 할인도 되더라?",
+            "norm_text": "지난 번에 보니까 주차 할인도 되더라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지난번/NNG+에/JKB+보/VV+니까/EC+주차/NNG+할인/NNG+도/JX+되/VV+더라/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 주차 할인도 돼? 대박이다 얼마나?",
+            "norm_text": "주차 할인도 돼? 대박이다 얼마나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주차/NNG+할인/NNG+도/JX+돼/VV+EF+대박/NNG+이/JKS+다/MAG+얼마나/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 경차는 50%까지 할인되던데?",
+            "norm_text": "경차는 50%까지 할인되던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "경차/NNG+는/JX+50/SN+%/SY+까지/JX+할인/NNG+되/XSV+던데/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래서 나 예전에 김포공항 주차할 때 할인 받았어",
+            "norm_text": "그래서 나 예전에 김포공항 주차할 때 할인 받았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+나/NP+예전/NNG+에/JKB+김포/NNP+공항/NNG+주차/NNG+할/XSV+ETM+때/NNG+할인/NNG+받/VV+았/EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오오 공항 주차비 비싼데 역시 경차",
+            "norm_text": "오오 공항 주차비 비싼데 역시 경차",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+오/NR+공/NR+항주/NNG+차비/NNG+비싼데/VA+EC+역시/MAJ+경차/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 근데 코엑스 같은 곳은 경차여도 할인 안 해주더라고",
+            "norm_text": "응 근데 코엑스 같은 곳은 경차여도 할인 안 해주더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+근데/MAJ+코엑스/NNP+같/VA+은/ETM+곳/NNG+은/JX+경차/NNG+여도/VCP+EC+할/VX+ETM+인안/NNG+해/XSV+EC+주/VX+더라고/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 경차라고 다 할인해주는 건 아니구나?",
+            "norm_text": "경차라고 다 할인해주는 건 아니구나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "경차/NNG+라고/VCP+EC+다/MAG+할인/NNG+해/XSV+EC+주/VX+는/ETM+건/NNB+JX+아니/VCN+구나/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 그렇더라고? 소형부터는 할인 안 되지 않나?",
+            "norm_text": "응 그렇더라고? 소형부터는 할인 안 되지 않나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+그렇/VA+더라고/EF+소형/NNG+부터/JX+는/JX+할인/NNG+안/MAG+되/VV+지/EC+않/VX+나/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응응 경차만 되는 걸로 알고 있어",
+            "norm_text": "응응 경차만 되는 걸로 알고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+경차/NNG+만/JX+되/VV+는/ETM+걸로/NNB+JKB+알/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 요새 경차 SUV가 나온다던데 그것도 할인될까 모르겠네",
+            "norm_text": "요새 경차 SUV가 나온다던데 그것도 할인될까 모르겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+경차/NNG+SUV/SL+가/JKS+나온다/VV+EC+던데/VV+EC+그것/NP+도/JX+할인/NNG+될까/XSV+EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 경차 SUV? 어디에서 나온다는데?",
+            "norm_text": "경차 SUV? 어디에서 나온다는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "경차/NNG+SUV/SL+어디/NP+에서/JKB+나/JX+온다는데/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 현대인지 기아인지 잘 모르겠는데 여튼 연말인가 나온대",
+            "norm_text": "현대인지 기아인지 잘 모르겠는데 여튼 연말인가 나온대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "현대/NNG+인지/VCP+EC+VCP+기/ETN+아인지/VCN+EC+잘/MAG+모르/VV+겠/EP+는데/EC+여/VV+튼/ETM+연말/NNG+인가/VCP+EC+나온/VV+ETM+대/NNG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오오 그거 괜찮겠다 너 SUV 좋아하잖아",
+            "norm_text": "오오 그거 괜찮겠다 너 SUV 좋아하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+그거/NP+괜찮/VA+겠/EP+다/EF+너/NP+SUV/SL+좋/VA+아/EC+하/VV+잖아/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응응 난 아무래도 세단보단 SUV파지",
+            "norm_text": "응응 난 아무래도 세단보단 SUV파지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+난/NP+JX+아무래도/MAG+세단/NNG+보단/JKB+JX+SUV/SL+파지/NNG"
+          },
+          {
+            "id": 20,
+            "text": "1 : SUV가 운전하기 편하긴 해 차고가 높아서",
+            "norm_text": "SUV가 운전하기 편하긴 해 차고가 높아서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "SUV/SL+가/JKS+운전/NNG+하/XSV+기/ETN+편하/VA+긴/ETN+JX+해/VX+EC+차고/NNG+가/JKS+높/VA+아서/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

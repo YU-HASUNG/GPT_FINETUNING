@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22594,
+    "name": "KAKAO_513_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109171504190204110/KAKAO_513_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109171504190204110/KAKAO_513_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29388,
+      "filename": "KAKAO_513_17.txt",
+      "title": "KAKAO_513_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 422,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 422,
+        "word_size": 145,
+        "text": "1 : 나 요즘 눈이 안 좋아서 안과 갔더니 시력이 더 나빠졌더라 ㅜㅜ\n2 : 렌즈 자주 껴서 그런가 ㅠㅠ ?\n1 : 그런가 봐... 나 라식 수술 하고 싶어\n2 : 하면 되지 ! 바로 해버려\n1 : 넌 시력 좋아서 라식, 라섹 이런 거 모르겠지?\n2 : 키키 맞아 안경이랑도 거리가 먼 사람입니다\n1 : 각막 깎아 내는 거라서 무서워 ㅜㅜ\n2 : 그렇긴 하지 부작용 있을 수도 있고 ㅠㅠ\n1 : 아 깎인 각막을 살리는 건가? 암튼... 무섭다\n2 : 근데 하고 나면 좋긴 하겠다 잘 보이니까\n1 : 넌 항상 잘 보였지? 키키 시력 몇이야\n2 : 키키 아 난 1.0, 0.9 짱 좋지?\n1 : 와 안과는 평생 안 가도 되겠다\n2 : 맞지 어릴 때 다래끼 나서 가본 적 있는 거 같아 키키\n1 : 키키 으악 터뜨렸나? 아팠겠다... 그거 싫어 ㅜㅜ\n2 : 맞지 아파서 싫어 나도 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 요즘 눈이 안 좋아서 안과 갔더니 시력이 더 나빠졌더라 ㅜㅜ",
+            "norm_text": "나 요즘 눈이 안 좋아서 안과 갔더니 시력이 더 나빠졌더라 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+요즘/MAG+눈/NNG+이/JKS+안/MAG+좋/VA+아서/EC+안/NNG+과/JKB+갔/VV+EP+더니/EC+시력/NNG+이/JKS+더/MAG+나빠졌/VA+EC+VX+EP+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 렌즈 자주 껴서 그런가 ㅠㅠ ?",
+            "norm_text": "렌즈 자주 껴서 그런가 ㅠㅠ ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "렌즈/NNG+자주/MAG+껴서/VV+EC+그런가/VA+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그런가 봐... 나 라식 수술 하고 싶어",
+            "norm_text": "그런가 봐... 나 라식 수술 하고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+봐/VX+EF+./SY+나라/NNG+식/NNB+수술/NNG+하/XSV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 하면 되지 ! 바로 해버려",
+            "norm_text": "하면 되지 ! 바로 해버려",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "하/VV+면/EC+되/VV+지/EF+바로/MAG+해/VV+EC+버려/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 넌 시력 좋아서 라식, 라섹 이런 거 모르겠지?",
+            "norm_text": "넌 시력 좋아서 라식, 라섹 이런 거 모르겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+시력/NNG+좋/VA+아서/EC+라식/NNG+,/SC+라섹/NNP+이런/MM+거/NNB+모르/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 맞아 안경이랑도 거리가 먼 사람입니다",
+            "norm_text": "키키 맞아 안경이랑도 거리가 먼 사람입니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+안경/NNG+이랑/JKB+도/JX+거리/NNG+가/JKS+먼/VA+ETM+사람/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 각막 깎아 내는 거라서 무서워 ㅜㅜ",
+            "norm_text": "각막 깎아 내는 거라서 무서워 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "각막/NNG+깎/VV+아/EC+내/VX+는/ETM+거/NNB+라서/VCP+EC+무서워/VA+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그렇긴 하지 부작용 있을 수도 있고 ㅠㅠ",
+            "norm_text": "그렇긴 하지 부작용 있을 수도 있고 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+긴/ETN+JX+하/VX+지/EC+부작용/NNG+있/VV+을/ETM+수/NNB+도/JX+있/VA+고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 깎인 각막을 살리는 건가? 암튼... 무섭다",
+            "norm_text": "아 깎인 각막을 살리는 건가? 암튼... 무섭다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+깎인/VV+ETM+각막/NNG+을/JKO+살리/VV+는/ETM+건가/NNB+VCP+EF+암튼/MAJ+./SY+무섭/VA+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 하고 나면 좋긴 하겠다 잘 보이니까",
+            "norm_text": "근데 하고 나면 좋긴 하겠다 잘 보이니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+하/VV+고/EC+나/VX+면/EC+좋/VA+긴/ETN+JX+하/VX+겠/EP+다/EF+잘/MAG+보이/VV+니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 넌 항상 잘 보였지? 키키 시력 몇이야",
+            "norm_text": "넌 항상 잘 보였지? 키키 시력 몇이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+항상/MAG+잘/MAG+보였/VV+EP+지/EF+키키시력몇이야/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 아 난 1.0, 0.9 짱 좋지?",
+            "norm_text": "키키 아 난 1.0, 0.9 짱 좋지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+아난/NNP+1/SN+./SY+0/SN+,/SC+0/SN+./SY+9/SN+짱/NNG+좋/VA+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 와 안과는 평생 안 가도 되겠다",
+            "norm_text": "와 안과는 평생 안 가도 되겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+안과/NNG+는/JX+평생/NNG+안가/NNG+도/JX+되/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞지 어릴 때 다래끼 나서 가본 적 있는 거 같아 키키",
+            "norm_text": "맞지 어릴 때 다래끼 나서 가본 적 있는 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EC+어릴/VA+ETM+때/NNG+다래끼/NNG+나서/NNG+가/JKS+본/VV+ETM+적/NNB+있/VA+는/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 으악 터뜨렸나? 아팠겠다... 그거 싫어 ㅜㅜ",
+            "norm_text": "키키 으악 터뜨렸나? 아팠겠다... 그거 싫어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+으악/MAG+터뜨렸/VV+EP+나/EF+아팠/VA+EP+겠/EP+다/EF+./SY+그거/NP+싫/VA+어/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞지 아파서 싫어 나도 ㅠㅠ",
+            "norm_text": "맞지 아파서 싫어 나도 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EC+아파서/VA+EC+싫/VA+어/EC+나/NP+도/JX+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

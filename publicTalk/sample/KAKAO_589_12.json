@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 24009,
+    "name": "KAKAO_589_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822026888/KAKAO_589_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822026888/KAKAO_589_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31463,
+      "filename": "KAKAO_589_12.txt",
+      "title": "KAKAO_589_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 610,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 610,
+        "word_size": 185,
+        "text": "1 : 너 63빌딩 가본 적 있어?\n2 : 있지~ 전경이 정말 아름다웠어~\n1 : 맞아 키키 서울이 한눈에 보이잖아~\n2 : 응 너무 예쁘지~\n2 : 63빌딩 전망대까지 올라가 봤어?\n1 : 응응 전망대도 올라가 보고 그 밑에 아쿠아 플래닛 구경도 했었어 키키\n2 : 오 키키 60층인가 전시장도 있는데~ 거기도 갔어?\n1 : 그럼~ 아예 날 잡고 하루 종일 63빌딩에 있었던 기억이 나 키키\n1 : 너 그럼 남산 가봤어?\n2 : 아 정말? 키키 하긴 그럴 정도로 아름다운 곳이야 63빌딩~\n2 : 남산 타워도 다녀왔지~\n1 : 맞아 키키 남산 타워도 아름다워?\n1 : 얘기 들어보면 걸어서 올라가면 힘들다던데\n2 : 응 대부분 케이블카 타지 키키\n2 : 나는 그 근처에 거주한 적이 있어서~ 산책 겸 운동으로 많이 올라 다녔지~\n1 : 아 그래? 그냥 올라가면 얼마나 걸려?\n2 : 글쎄... 올라가는 길이 굉장히 많아!\n2 : 가던 길로만 가면 지겨워서~ 엄청 돌아다니면서 올라갔어 키키 풀숲으로도 지나가구~\n1 : 길이 많구나~ 신기하네 키키\n1 : 남산은 아직 안 가봐서... 키키\n2 : 헐 정말? 남산을 안 가보다니...\n1 : 응 나중에 결혼하고 가려고 아껴놨어~\n2 : 키키 그렇구나! 너도 빨리 다녀왔으면 좋겠다~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 63빌딩 가본 적 있어?",
+            "norm_text": "너 63빌딩 가본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+63/SN+빌딩/NNG+가본/NNG+적/XSN+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 있지~ 전경이 정말 아름다웠어~",
+            "norm_text": "있지~ 전경이 정말 아름다웠어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "있/VA+지/EC+~/SY+전경/NNG+이/JKS+정말/MAG+아름다웠/VA+EP+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아 키키 서울이 한눈에 보이잖아~",
+            "norm_text": "맞아 키키 서울이 한눈에 보이잖아~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키키/NNP+서울/NNP+이/JKS+한눈/NNG+에/JKB+보이/VV+잖아/EC+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 너무 예쁘지~",
+            "norm_text": "응 너무 예쁘지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+너무/MAG+예쁘/VA+지/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 63빌딩 전망대까지 올라가 봤어?",
+            "norm_text": "63빌딩 전망대까지 올라가 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "63/SN+빌딩/NNG+전망대/NNG+까지/JX+올라가/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응응 전망대도 올라가 보고 그 밑에 아쿠아 플래닛 구경도 했었어 키키",
+            "norm_text": "응응 전망대도 올라가 보고 그 밑에 아쿠아 플래닛 구경도 했었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+전망대/NNG+도/JX+올라가/VV+EC+보/VX+고/EC+그/MM+밑/NNG+에/JKB+아쿠아/NNP+플래닛/NNP+구경/NNG+도/JX+했었/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오 키키 60층인가 전시장도 있는데~ 거기도 갔어?",
+            "norm_text": "오 키키 60층인가 전시장도 있는데~ 거기도 갔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오키/NNP+키/NNG+60/SN+층/NNG+인가/VCP+EC+전시장/NNG+도/JX+있/VA+는데/EC+~/SY+거기/NP+도/JX+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그럼~ 아예 날 잡고 하루 종일 63빌딩에 있었던 기억이 나 키키",
+            "norm_text": "그럼~ 아예 날 잡고 하루 종일 63빌딩에 있었던 기억이 나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+~/SY+아예/MAG+날/NNG+잡/VV+고/EC+하루/NNG+종일/NNG+63/SN+빌딩/NNG+에/JKB+있/VV+었/EP+던/ETM+기억/NNG+이나/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 너 그럼 남산 가봤어?",
+            "norm_text": "너 그럼 남산 가봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+그럼/MAJ+남산/NNP+가/JKS+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 정말? 키키 하긴 그럴 정도로 아름다운 곳이야 63빌딩~",
+            "norm_text": "아 정말? 키키 하긴 그럴 정도로 아름다운 곳이야 63빌딩~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+키/NNG+키/NNG+하/XSV+긴/ETN+JX+그럴/VA+ETM+정도/NNG+로/JKB+아름다운/VA+ETM+곳/NNG+이/VCP+야/EC+63/SN+빌딩/NNG+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 남산 타워도 다녀왔지~",
+            "norm_text": "남산 타워도 다녀왔지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남산/NNP+타워/NNG+도/JX+다녀왔/VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞아 키키 남산 타워도 아름다워?",
+            "norm_text": "맞아 키키 남산 타워도 아름다워?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+키키/NNP+남산/NNP+타워/NNG+도/JX+아름다워/VA+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 얘기 들어보면 걸어서 올라가면 힘들다던데",
+            "norm_text": "얘기 들어보면 걸어서 올라가면 힘들다던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "얘기/NNG+들/VV+어/EC+보/VX+면/EC+걸어서/VV+EC+올라가/VV+면/EC+힘들/VA+다던데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 대부분 케이블카 타지 키키",
+            "norm_text": "응 대부분 케이블카 타지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+대부분/NNG+케이블카/NNG+타지/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나는 그 근처에 거주한 적이 있어서~ 산책 겸 운동으로 많이 올라 다녔지~",
+            "norm_text": "나는 그 근처에 거주한 적이 있어서~ 산책 겸 운동으로 많이 올라 다녔지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+그/MM+근처/NNG+에/JKB+거주/NNG+한/XSA+ETM+적/NNB+이/JKS+있/VV+어서/EC+~/SY+산책/NNG+겸/NNB+운동/NNG+으로/JKB+많이/MAG+올라다녔/VV+EC+VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 그래? 그냥 올라가면 얼마나 걸려?",
+            "norm_text": "아 그래? 그냥 올라가면 얼마나 걸려?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+그냥/MAG+올라가/VV+면/EC+얼마나/MAG+걸려/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 글쎄... 올라가는 길이 굉장히 많아!",
+            "norm_text": "글쎄... 올라가는 길이 굉장히 많아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "글쎄/IC+./SY+올라가/VV+는/ETM+길/NNG+이/JKS+굉장히/MAG+많/VA+아/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 가던 길로만 가면 지겨워서~ 엄청 돌아다니면서 올라갔어 키키 풀숲으로도 지나가구~",
+            "norm_text": "가던 길로만 가면 지겨워서~ 엄청 돌아다니면서 올라갔어 키키 풀숲으로도 지나가구~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "가/VV+던/ETM+길/NNG+로/JKB+만/JX+가/VV+면/EC+지겨워서/VA+EC+~/SY+엄청/MAG+돌아다니/VV+면서/EC+올라갔/VV+EP+어/EC+키/NNG+키/NNG+풀숲/NNG+으로/JKB+도/JX+지나가/VV+구/EC+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 길이 많구나~ 신기하네 키키",
+            "norm_text": "길이 많구나~ 신기하네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "길/NNG+이/JKS+많/VA+구나/EF+~/SY+신기/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 남산은 아직 안 가봐서... 키키",
+            "norm_text": "남산은 아직 안 가봐서... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남산/NNP+은/JX+아직/MAG+안/MAG+가/VV+EC+봐서/VX+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 헐 정말? 남산을 안 가보다니...",
+            "norm_text": "헐 정말? 남산을 안 가보다니...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+정말/MAG+남산/NNG+을/JKO+안/MAG+가/VV+EC+보/VX+다니/EF+./SY"
+          },
+          {
+            "id": 22,
+            "text": "1 : 응 나중에 결혼하고 가려고 아껴놨어~",
+            "norm_text": "응 나중에 결혼하고 가려고 아껴놨어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나중/NNG+에/JKB+결혼/NNG+하/XSV+고/EC+가/VX+려고/EC+아껴/VV+EC+놨/VX+EP+어/EC+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 그렇구나! 너도 빨리 다녀왔으면 좋겠다~",
+            "norm_text": "키키 그렇구나! 너도 빨리 다녀왔으면 좋겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+구나/EF+너/NP+도/JX+빨리/MAG+다녀왔/VV+EP+으면/EC+좋/VA+겠/EP+다/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

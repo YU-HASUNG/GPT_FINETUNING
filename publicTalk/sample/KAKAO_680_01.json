@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 67010,
+    "name": "KAKAO_680_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112720034819/KAKAO_680_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112720034819/KAKAO_680_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35100,
+      "filename": "KAKAO_680_01.txt",
+      "title": "KAKAO_680_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 377,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 377,
+        "word_size": 120,
+        "text": "1 : 배고프다. 점심 드셨나요~\n2 : 아직~ 어서 밥 먹어. 뭐 먹으려고?\n1 : 고민 중이에요. 매일 뭐 먹지 생각하는 게 어려워요.\n2 : 원래 먹고 사는 게 가장 어려운 거지 ^^\n1 : 키키 언니는 뭐 드시게요? 참고 해야지.\n2 : 내가 참고 하려고 했는데~\n1 : 으음... 아무래도 점심이니까 밥이 좋겠죠?\n2 : 사람은 밥심이지~ 따뜻한 거?\n1 : 국물 있는 것도 좋겠네요!\n2 : 좋아 좋아. 국밥이나 그런 거 어때~\n1 : 좋죠! 점심 결정! 슬슬 밥 먹으러~\n2 : 나도 밥 먹으러 가야겠다 ^^\n1 : 맛있게 드세요! 맛집 발견하면 알려주기!\n2 : 응~ 서로 맛집 공유하자.\n1 : 네네. 같이 가요!\n1 : 언니랑 밥 먹은 지도 오래네요.\n2 : 그래 그래~ 맛있게 먹어.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 배고프다. 점심 드셨나요~",
+            "norm_text": "배고프다. 점심 드셨나요~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "배고프/VA+다/EF+점심/NNG+드셨/VV+EP+나요/EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아직~ 어서 밥 먹어. 뭐 먹으려고?",
+            "norm_text": "아직~ 어서 밥 먹어. 뭐 먹으려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아직/MAG+~/SY+어서/EC+밥/NNG+먹/VV+어/EF+뭐/IC+먹/VV+으려고/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 고민 중이에요. 매일 뭐 먹지 생각하는 게 어려워요.",
+            "norm_text": "고민 중이에요. 매일 뭐 먹지 생각하는 게 어려워요.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고민/NNG+중/NNB+이/VCP+에요/EF+매일/MAG+뭐/IC+먹/VV+지/EC+생각/NNG+하/XSV+는/ETM+게/NNB+JKS+어려워/VA+EC+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "2 : 원래 먹고 사는 게 가장 어려운 거지 ^^",
+            "norm_text": "원래 먹고 사는 게 가장 어려운 거지 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+먹/VV+고/EC+사/VV+는/ETM+게/NNB+JKS+가장/MAG+어려운/VA+ETM+거/NNB+지/VCP+EC+^/SY+^/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 언니는 뭐 드시게요? 참고 해야지.",
+            "norm_text": "키키 언니는 뭐 드시게요? 참고 해야지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+언니/NNG+는/JX+뭐/IC+드/VV+시/EP+게요/EF+참고/NNG+해야지/XSV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 내가 참고 하려고 했는데~",
+            "norm_text": "내가 참고 하려고 했는데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+참고/NNG+하/XSV+려고/EC+했/VX+EP+는데/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 으음... 아무래도 점심이니까 밥이 좋겠죠?",
+            "norm_text": "으음... 아무래도 점심이니까 밥이 좋겠죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "으음/IC+./SY+아무래도/MAG+점심/NNG+이/VCP+니까/EC+밥/NNG+이/JKS+좋/VA+겠/EP+죠/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 사람은 밥심이지~ 따뜻한 거?",
+            "norm_text": "사람은 밥심이지~ 따뜻한 거?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사람/NNG+은/JX+밥심/NNG+이/VCP+지/EC+~/SY+따뜻/XR+한/XSA+ETM+거/NNB"
+          },
+          {
+            "id": 9,
+            "text": "1 : 국물 있는 것도 좋겠네요!",
+            "norm_text": "국물 있는 것도 좋겠네요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "국물/NNG+있/VA+는/ETM+것/NNB+도/JX+좋/VA+겠/EP+네요/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 좋아 좋아. 국밥이나 그런 거 어때~",
+            "norm_text": "좋아 좋아. 국밥이나 그런 거 어때~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+아/EC+좋/VA+아/EF+국밥/NNG+이나/JC+그런/MM+거/NNB+어때/VA+EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 좋죠! 점심 결정! 슬슬 밥 먹으러~",
+            "norm_text": "좋죠! 점심 결정! 슬슬 밥 먹으러~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+죠/EF+점심/NNG+결정/NNG+슬슬/MAG+밥/NNG+먹/VV+으러/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나도 밥 먹으러 가야겠다 ^^",
+            "norm_text": "나도 밥 먹으러 가야겠다 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+밥/NNG+먹/VV+으러/EC+가/VX+야겠다/EC+VX+EP+EC+^/SY+^/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맛있게 드세요! 맛집 발견하면 알려주기!",
+            "norm_text": "맛있게 드세요! 맛집 발견하면 알려주기!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "맛있/VA+게/EC+드세요/VV+EP+EF+맛집/NNG+발견/NNG+하/XSV+면/EC+알려/VV+EC+주/VX+기/ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응~ 서로 맛집 공유하자.",
+            "norm_text": "응~ 서로 맛집 공유하자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+~/SY+서로/MAG+맛집/NNG+공유/NNG+하/XSA+자/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 네네. 같이 가요!",
+            "norm_text": "네네. 같이 가요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "네네/IC+같이/MAG+가요/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 언니랑 밥 먹은 지도 오래네요.",
+            "norm_text": "언니랑 밥 먹은 지도 오래네요.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+랑/JKB+밥/NNG+먹/VV+은지/EC+도/JX+오래/VA+네요/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래 그래~ 맛있게 먹어.",
+            "norm_text": "그래 그래~ 맛있게 먹어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래그래/IC+~/SY+맛있/VA+게/EC+먹/VV+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

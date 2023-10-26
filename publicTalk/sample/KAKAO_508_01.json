@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20742,
+    "name": "KAKAO_508_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302072394/KAKAO_508_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302072394/KAKAO_508_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28671,
+      "filename": "KAKAO_508_01.txt",
+      "title": "KAKAO_508_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 361,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 361,
+        "word_size": 116,
+        "text": "1 : 토요일에는 뭐 먹져\n2 : 토요일은 내가 요리사입니다 비빔면 먹었어요\n1 : 비빔면 맛잇겠네여 몇 개요\n2 : 3개 먹었어 팔도 비빔면, 진 비빔면?\n1 : 비빔면 최대 몇 개 먹어봤나요\n2 : 남자라면 기본은 5개는 먹지 않아요?\n1 : 엥 너무 많은 거 아닌가요\n1 : 짜파게티는요\n2 : 근데 저는 볶음면이 더 맛있는 것 같은데요?\n1 : 저도 볶음면이 진리라고 생각하네요\n2 : 짜파게티는 5개 그냥 먹죠 팔도 짜장면\n1 : 짜파구리도 먹어봤나요\n2 : 어제 짜장 건면, 진짜장 사왔어요\n1 : 요새는 섞어서 먹는게  트렌드긴 한데 ㅋ\n2 : 저도 비빔면, 볶음면 섞어봤어요 꿀맛\n1 : 오 신기하네여 근데 안 짠 가여\n2 : 짜죠 근데 짠 게 맛있는 법이에요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 토요일에는 뭐 먹져",
+            "norm_text": "토요일에는 뭐 먹져",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "토요일/NNG+에/JKB+는/JX+뭐/IC+먹/VV+져/EC+VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 토요일은 내가 요리사입니다 비빔면 먹었어요",
+            "norm_text": "토요일은 내가 요리사입니다 비빔면 먹었어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "토요일/NNG+은/JX+내/NP+가/JKS+요리사/NNG+입니다/VCP+EF+비빔면/NNP+먹/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 비빔면 맛잇겠네여 몇 개요",
+            "norm_text": "비빔면 맛잇겠네여 몇 개요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "비빔면/NNP+맛/NNG+잇/VV+겠/EP+네여/EF+몇/MM+개/NNBC+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 3개 먹었어 팔도 비빔면, 진 비빔면?",
+            "norm_text": "3개 먹었어 팔도 비빔면, 진 비빔면?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "3/SN+개/NNBC+먹/VV+었/EP+어/EC+팔/NNG+도/JX+비빔면/NNP+,/SC+진/VV+ETM+비빔면/NNP"
+          },
+          {
+            "id": 5,
+            "text": "1 : 비빔면 최대 몇 개 먹어봤나요",
+            "norm_text": "비빔면 최대 몇 개 먹어봤나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "비빔면/NNP+최대/NNG+몇/MM+개/NNBC+먹/VV+어/EC+봤/VX+EP+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 남자라면 기본은 5개는 먹지 않아요?",
+            "norm_text": "남자라면 기본은 5개는 먹지 않아요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+라면/VCP+EC+기본/NNG+은/JX+5/SN+개/NNBC+는/JX+먹/VV+지/EC+않/VX+아요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 엥 너무 많은 거 아닌가요",
+            "norm_text": "엥 너무 많은 거 아닌가요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+너무/MAG+많/VA+은/ETM+거/NNB+아닌가요/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 짜파게티는요",
+            "norm_text": "짜파게티는요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짜파게티/NNP+는/JX+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "2 : 근데 저는 볶음면이 더 맛있는 것 같은데요?",
+            "norm_text": "근데 저는 볶음면이 더 맛있는 것 같은데요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+저/NP+는/JX+볶음/NNG+면/NNG+이/JKS+더/MAG+맛있/VA+는/ETM+것/NNB+같/VA+은데요/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 저도 볶음면이 진리라고 생각하네요",
+            "norm_text": "저도 볶음면이 진리라고 생각하네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+볶음/NNG+면/NNG+이/JKS+진리/NNG+라고/VCP+EC+생각/NNG+하/XSV+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 짜파게티는 5개 그냥 먹죠 팔도 짜장면",
+            "norm_text": "짜파게티는 5개 그냥 먹죠 팔도 짜장면",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짜파게티/NNP+는/JX+5/SN+개/NNBC+그냥/MAG+먹/VV+죠/EF+팔/NNG+도/JX+짜장면/NNG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 짜파구리도 먹어봤나요",
+            "norm_text": "짜파구리도 먹어봤나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "짜/VA+EC+파/VX+EC+구리/NNG+도/JX+먹/VV+어/EC+봤/VX+EP+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 어제 짜장 건면, 진짜장 사왔어요",
+            "norm_text": "어제 짜장 건면, 진짜장 사왔어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+짜장/MAG+건면/NNG+,/SC+진짜/MAG+장사/NNG+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 요새는 섞어서 먹는게  트렌드긴 한데 ㅋ",
+            "norm_text": "요새는 섞어서 먹는게  트렌드긴 한데 ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+는/JX+섞/VV+어서/EC+먹/VV+는/ETM+게/NNB+JKS+트렌드/NNG+긴/VCP+ETN+JX+한데/VX+EC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 저도 비빔면, 볶음면 섞어봤어요 꿀맛",
+            "norm_text": "저도 비빔면, 볶음면 섞어봤어요 꿀맛",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+비빔면/NNP+,/SC+볶음/NNG+면/VCP+EC+섞/VV+어/EC+봤/VX+EP+어요/EF+꿀맛/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오 신기하네여 근데 안 짠 가여",
+            "norm_text": "오 신기하네여 근데 안 짠 가여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+신기/XR+하/XSA+네여/EF+근데/MAJ+안/MAG+짠/VV+ETM+가여/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 짜죠 근데 짠 게 맛있는 법이에요",
+            "norm_text": "짜죠 근데 짠 게 맛있는 법이에요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짜/VV+죠/EF+근데/MAJ+짠/VA+ETM+게/NNB+JKS+맛있/VA+는/ETM+법/NNB+이/VCP+에요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

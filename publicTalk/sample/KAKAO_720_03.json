@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 71529,
+    "name": "KAKAO_720_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113021064891/KAKAO_720_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113021064891/KAKAO_720_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36567,
+      "filename": "KAKAO_720_03.txt",
+      "title": "KAKAO_720_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 592,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 592,
+        "word_size": 193,
+        "text": "1 : 출퇴근할 때 뭐 타고 출퇴근해?ㅇㅅㅇ\n2 : 나 같이 일하는 행님 차 타고 가\n1 : 오 좋네 행님도 근처 사시나 봐? 아니면 가는 길?\n2 : 응 행님도 **동 살아 차로 5분 안 쪽?\n1 : 오 엄청 가깝네 좋겠다.\n1 : 집이랑 일하는 곳은 가까워?\n2 : 근데 일하는 곳이 멀어 키키 송도야\n1 : 송도... 송도면 인천 아녀...? 내가 아는 송도...?\n2 : 응 키키 송도 차 진짜 엄청 막혀 인간들...\n1 : 어우야 너무 출근길이 먼 거 아니여? 키키\n1 : 자고로 출퇴근은 집 근처가 꿀인데!\n1 : 가는데 얼마나 걸려?\n2 : 출근할 땐 1시간 퇴근할 땐 1시간 반...?\n1 : 와우... 그래도 행님 차 타고 가서 다행이다\n1 : 그냥 출퇴근 하려면 퇴사각 아녀...?\n2 : 그냥 출퇴근이면 출근도 안 했지 키키\n2 : 그래서 올해 목표가 차 사기야 다음으로 옮기면 혼자 다녀야 해서\n1 : 오오 하긴 자차가 편하긴 하지 ㅠ0ㅠ\n1 : 차는 뭐 사게?\n2 : 차 suv사고 싶기는 한데 일단 아직 좀 더 생각해 보려구\n1 : 오오 역시 suv가 제일 좋지... 큰 차 최고야 ㅇㅅㅇ\n2 : 맞아 키키 놀러 다니는 거 좋아해서 낚시 할 거나 캠핑할 거 들고 다니려궁",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 출퇴근할 때 뭐 타고 출퇴근해?ㅇㅅㅇ",
+            "norm_text": "출퇴근할 때 뭐 타고 출퇴근해?ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "출퇴근/NNG+할/XSV+ETM+때/NNG+뭐/IC+타/VV+고/EC+출퇴근/NNG+해/XSV+EF+ㅇㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 같이 일하는 행님 차 타고 가",
+            "norm_text": "나 같이 일하는 행님 차 타고 가",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+같이/MAG+일/NNG+하/XSV+는/ETM+행/NNG+님/XSN+차타/NNG+고가/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 좋네 행님도 근처 사시나 봐? 아니면 가는 길?",
+            "norm_text": "오 좋네 행님도 근처 사시나 봐? 아니면 가는 길?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오좋네행님도근처사시나봐/UNKNOWN+아니/VCN+면/EC+가/VX+는/ETM+길/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 행님도 **동 살아 차로 5분 안 쪽?",
+            "norm_text": "응 행님도 **동 살아 차로 5분 안 쪽?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+행/NNG+님/XSN+도/JX+*/SY+*/SY+동살/NNG+아차/NNG+로/JKB+5/SN+분/NNBC+안쪽/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 엄청 가깝네 좋겠다.",
+            "norm_text": "오 엄청 가깝네 좋겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+엄청/MAG+가깝/VA+네/EF+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 집이랑 일하는 곳은 가까워?",
+            "norm_text": "집이랑 일하는 곳은 가까워?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+이랑/JKB+일/NNG+하/XSV+는/ETM+곳/NNG+은/JX+가까워/VA+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 근데 일하는 곳이 멀어 키키 송도야",
+            "norm_text": "근데 일하는 곳이 멀어 키키 송도야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+일/NNG+하/XSV+는/ETM+곳/NNG+이/JKS+멀/VA+어/EC+키키/NNP+송도/NNP+야/JKV"
+          },
+          {
+            "id": 8,
+            "text": "1 : 송도... 송도면 인천 아녀...? 내가 아는 송도...?",
+            "norm_text": "송도... 송도면 인천 아녀...? 내가 아는 송도...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "송도/NNP+./SY+./SY+송도/NNG+면/VCP+EC+인천/NNP+아녀/VCN+EF+./SY+./SY+내/NP+가/JKS+아/VV+는/ETM+송도/NNG+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응 키키 송도 차 진짜 엄청 막혀 인간들...",
+            "norm_text": "응 키키 송도 차 진짜 엄청 막혀 인간들...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응키키송도차진짜엄청막혀인간들/UNKNOWN+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 어우야 너무 출근길이 먼 거 아니여? 키키",
+            "norm_text": "어우야 너무 출근길이 먼 거 아니여? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어우야/IC+너무/MAG+출근길/NNG+이/JKS+먼/VA+ETM+거/NNB+아니/VCN+여/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 자고로 출퇴근은 집 근처가 꿀인데!",
+            "norm_text": "자고로 출퇴근은 집 근처가 꿀인데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자고로/MAG+출퇴근/NNG+은/JX+집/NNG+근처/NNG+가/JKS+꿀/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 가는데 얼마나 걸려?",
+            "norm_text": "가는데 얼마나 걸려?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가/VV+는데/EC+얼마나/MAG+걸려/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 출근할 땐 1시간 퇴근할 땐 1시간 반...?",
+            "norm_text": "출근할 땐 1시간 퇴근할 땐 1시간 반...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "출근/NNG+할땐/XSV+ETM+NNG+JX+1/SN+시간/NNBC+퇴근/NNG+할땐/XSV+ETM+NNG+JX+1/SN+시간/NNBC+반/NNG+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 와우... 그래도 행님 차 타고 가서 다행이다",
+            "norm_text": "와우... 그래도 행님 차 타고 가서 다행이다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와우/IC+./SY+그래도행님차타고가서다행이다/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그냥 출퇴근 하려면 퇴사각 아녀...?",
+            "norm_text": "그냥 출퇴근 하려면 퇴사각 아녀...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그냥/MAG+출퇴근/NNG+하/XSV+려면/EC+퇴/NNG+사각/NNG+아녀/VCN+EF+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그냥 출퇴근이면 출근도 안 했지 키키",
+            "norm_text": "그냥 출퇴근이면 출근도 안 했지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+출퇴근/NNG+이/VCP+면/EC+출근/NNG+도/JX+안/MAG+했/VV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래서 올해 목표가 차 사기야 다음으로 옮기면 혼자 다녀야 해서",
+            "norm_text": "그래서 올해 목표가 차 사기야 다음으로 옮기면 혼자 다녀야 해서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+올해/NNG+목표/NNG+가/JKS+차/NNG+사기/VV+야/EC+다음/NNG+으로/JKB+옮기/VV+면/EC+혼자/MAG+다녀야/VV+EC+해서/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오오 하긴 자차가 편하긴 하지 ㅠ0ㅠ",
+            "norm_text": "오오 하긴 자차가 편하긴 하지 ㅠ0ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오하긴자차가편하긴하지ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 차는 뭐 사게?",
+            "norm_text": "차는 뭐 사게?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "차/NNG+는/JX+뭐/IC+사/VV+게/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 차 suv사고 싶기는 한데 일단 아직 좀 더 생각해 보려구",
+            "norm_text": "차 suv사고 싶기는 한데 일단 아직 좀 더 생각해 보려구",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+suv/SL+사/VV+고/EC+싶/VX+기/ETN+는/JX+한데/VX+EC+일단/MAG+아직/MAG+좀/MAG+더/MAG+생각/NNG+해/XSV+EC+보/VX+려구/EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 오오 역시 suv가 제일 좋지... 큰 차 최고야 ㅇㅅㅇ",
+            "norm_text": "오오 역시 suv가 제일 좋지... 큰 차 최고야 ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+역시/MAJ+suv/SL+가/JKS+제일/MAG+좋/VA+지/EF+./SY+큰차최고야ㅇㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 맞아 키키 놀러 다니는 거 좋아해서 낚시 할 거나 캠핑할 거 들고 다니려궁",
+            "norm_text": "맞아 키키 놀러 다니는 거 좋아해서 낚시 할 거나 캠핑할 거 들고 다니려궁",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+놀/VV+러/EC+다니/VV+는/ETM+거/NNB+좋/VA+아/EC+해서/VV+EC+낚시/NNG+할/XSV+ETM+거/NNB+나/JC+캠핑/NNG+할/XSV+ETM+거/NNB+들/VV+고/EC+다니/VV+려/EC+궁/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

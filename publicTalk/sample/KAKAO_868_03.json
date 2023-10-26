@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 31636,
+    "name": "KAKAO_868_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202110011748440397108/KAKAO_868_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202110011748440397108/KAKAO_868_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40301,
+      "filename": "KAKAO_868_03.txt",
+      "title": "KAKAO_868_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 456,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 456,
+        "word_size": 155,
+        "text": "1 : 오늘 치과 갔을 때 시내에 차 많았어?\n2 : 응 ㅠ 좀 막히더라 확실히 추석이라 다들 내려오셨나 봐\n1 : 갈 때는 뭐 타고 갔어?\n2 : 아빠 차! 올 때도 아빠 키키 태워주셨어 키키\n1 : 이번엔 너가 운전 안 했넹? 키키\n2 : 키키 웅! 오늘 늦게 일어나서 정신 없었어 키키\n1 : 어제 오느라 많이 힘들었지 ㅠㅠ\n2 : 키키 웅웅 계속 갈아타고 계속 긴장해서 너무 피곤해\n1 : 신경 쓰느라 정신 없었을 거야 키키\n1 : 오늘도 틈틈이 잤네 키키\n2 : 키키 웅웅 피곤했다\n2 : 너는 매일 버스 타고 출근하기 안 피곤해?\n1 : 피곤한데 이제 완전 적응해서 괜찮아 키키\n2 : 키키 다행이다 몇 분씩 걸려?\n2 : 금방 가나?\n1 : 시내에서 타서 20분 거리야!\n2 : 키키 오 괜찮다 버스 시간은 많아?\n1 : 시내라 10분 간격으로 있어!\n2 : 키키 역시 시내가 좋다 나는 배차 간격 길어서 삼십 분 일찍 가 있었어 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 치과 갔을 때 시내에 차 많았어?",
+            "norm_text": "오늘 치과 갔을 때 시내에 차 많았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+치과/NNG+갔/VV+EP+을/ETM+때/NNG+시내/NNG+에/JKB+차/NNG+많/VA+았/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 ㅠ 좀 막히더라 확실히 추석이라 다들 내려오셨나 봐",
+            "norm_text": "응 ㅠ 좀 막히더라 확실히 추석이라 다들 내려오셨나 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응ㅠ/UNKNOWN+좀/MAG+막히/VV+더라/EF+확실히/MAG+추석/NNG+이/JKS+라다/NNG+들/XSN+내려오/VV+셨/EP+EP+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 갈 때는 뭐 타고 갔어?",
+            "norm_text": "갈 때는 뭐 타고 갔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "갈/VV+ETM+때/NNG+는/JX+뭐/IC+타/VV+고/EC+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아빠 차! 올 때도 아빠 키키 태워주셨어 키키",
+            "norm_text": "아빠 차! 올 때도 아빠 키키 태워주셨어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+차/NNG+!/SY+올/MM+때/NNG+도/JX+아빠/NNG+키/NNG+키/XSV+ETN+태워/VV+EC+주/VX+셨/EP+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 이번엔 너가 운전 안 했넹? 키키",
+            "norm_text": "이번엔 너가 운전 안 했넹? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+엔/JKB+JX+너/NP+가/JKS+운전/NNG+안/MAG+했/VV+EP+넹/NNP+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 웅! 오늘 늦게 일어나서 정신 없었어 키키",
+            "norm_text": "키키 웅! 오늘 늦게 일어나서 정신 없었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+웅/IC+오늘/MAG+늦/VA+게/EC+일어나/VV+서/EC+정신없/VA+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어제 오느라 많이 힘들었지 ㅠㅠ",
+            "norm_text": "어제 오느라 많이 힘들었지 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어제/MAG+오/VV+느라/EC+많이/MAG+힘들/VA+었/EP+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 웅웅 계속 갈아타고 계속 긴장해서 너무 피곤해",
+            "norm_text": "키키 웅웅 계속 갈아타고 계속 긴장해서 너무 피곤해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+웅웅/MAG+계속/MAG+갈아타/VV+고/EC+계속/MAG+긴장/NNG+해서/XSV+EC+너무/MAG+피곤/NNG+해/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 신경 쓰느라 정신 없었을 거야 키키",
+            "norm_text": "신경 쓰느라 정신 없었을 거야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "신경/NNG+쓰/VV+느라/EC+정신없/VA+었/EP+을/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오늘도 틈틈이 잤네 키키",
+            "norm_text": "오늘도 틈틈이 잤네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+도/JX+틈틈이/MAG+잤/VV+EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 웅웅 피곤했다",
+            "norm_text": "키키 웅웅 피곤했다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+웅웅/MAG+피곤/NNG+했/XSV+EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너는 매일 버스 타고 출근하기 안 피곤해?",
+            "norm_text": "너는 매일 버스 타고 출근하기 안 피곤해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+매일/MAG+버스/NNG+타/VV+고/EC+출근/NNG+하/XSV+기/ETN+안/MAG+피/VV+곤/EC+해/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 피곤한데 이제 완전 적응해서 괜찮아 키키",
+            "norm_text": "피곤한데 이제 완전 적응해서 괜찮아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "피곤/NNG+한데/XSA+EC+이제/MAG+완전/MAG+적응/NNG+해서/XSV+EC+괜찮/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 다행이다 몇 분씩 걸려?",
+            "norm_text": "키키 다행이다 몇 분씩 걸려?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+다행/NNG+이/JKS+다/MAG+몇/MM+분/NNBC+씩/XSN+걸려/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 금방 가나?",
+            "norm_text": "금방 가나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "금방/MAG+가/VV+나/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 시내에서 타서 20분 거리야!",
+            "norm_text": "시내에서 타서 20분 거리야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시내/NNG+에서/JKB+타/VV+서/EC+20/SN+분/NNBC+거리/NNG+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 오 괜찮다 버스 시간은 많아?",
+            "norm_text": "키키 오 괜찮다 버스 시간은 많아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+오/EC+괜찮/VA+다/EC+버스/NNG+시간/NNG+은/JX+많/VA+아/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 시내라 10분 간격으로 있어!",
+            "norm_text": "시내라 10분 간격으로 있어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시내/NNG+라/VCP+EC+10/SN+분/NNBC+간격/NNG+으로/JKB+있/VV+어/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 역시 시내가 좋다 나는 배차 간격 길어서 삼십 분 일찍 가 있었어 키키",
+            "norm_text": "키키 역시 시내가 좋다 나는 배차 간격 길어서 삼십 분 일찍 가 있었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+역시/MAJ+시내/NNG+가/JKS+좋/VA+다/EF+나/NP+는/JX+배차/NNG+간격/NNG+길/VA+어서/EC+삼/NR+십/NR+분/NNBC+일찍/MAG+가/VV+EC+있/VX+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

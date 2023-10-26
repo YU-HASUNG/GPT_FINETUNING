@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 38822,
+    "name": "KAKAO_863_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717004864/KAKAO_863_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717004864/KAKAO_863_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39859,
+      "filename": "KAKAO_863_01.txt",
+      "title": "KAKAO_863_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 396,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 396,
+        "word_size": 132,
+        "text": "1 : 엄마 나 먹고 싶은 게 생겼어\n2 : 뭔데? 키키 같이 먹으러 가자\n1 : 나 곱창 먹고 싶어 ㅠㅠ\n2 : 곱창 맛있지... 비싸서 그렇지\n1 : 그러니까 ㅠㅠ 너무 비싸다구 남친이 효율성이 안 좋다고 먹기 싫대\n2 : 키키 같이 안 먹어줘?\n1 : 응 키키 효율성이 너무 떨어져서 곱창을 먹으면 화가 난대\n2 : 키키 웃겨 나랑 먹자\n1 : 좋아! 곱창 너무 비싸서 인터넷으로도 시켜서 먹어봤는데 그 맛이 안 나 ㅠㅠ\n2 : 맞아 ㅠㅠ 인터넷하고 가서 사 먹는 거하고 맛이 확 달라\n1 : 곱창 맛집 아는 데 있어?\n2 : 당근 있지~ 문래에 곱창 맛집 있어!\n1 : 오~ 역시 맛집 꿰차고 있어\n2 : 키키 여기 포장하면 좀 할인해주는데?\n1 : 아 그래? 그러면 포장해서 집에서 먹을까?\n2 : 그러자! 너가 포장해서 와!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 나 먹고 싶은 게 생겼어",
+            "norm_text": "엄마 나 먹고 싶은 게 생겼어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+나/JX+먹/VV+고/EC+싶/VX+은/ETM+게/NNB+JKS+생겼/VV+EP+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 뭔데? 키키 같이 먹으러 가자",
+            "norm_text": "뭔데? 키키 같이 먹으러 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "뭔데/NP+VCP+EF+키/NNG+키/NNG+같이/JKB+먹/VV+으러/EC+가/VX+자/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 곱창 먹고 싶어 ㅠㅠ",
+            "norm_text": "나 곱창 먹고 싶어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+곱창/NNG+먹/VV+고/EC+싶/VX+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 곱창 맛있지... 비싸서 그렇지",
+            "norm_text": "곱창 맛있지... 비싸서 그렇지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곱창/NNG+맛있/VA+지/EF+./SY+비싸/VA+서/EC+그렇/VA+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러니까 ㅠㅠ 너무 비싸다구 남친이 효율성이 안 좋다고 먹기 싫대",
+            "norm_text": "그러니까 ㅠㅠ 너무 비싸다구 남친이 효율성이 안 좋다고 먹기 싫대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+ㅠㅠ/UNKNOWN+너무/MAG+비싸/VA+다구/EC+남친/NNG+이/JKS+효율/NNG+성/XSN+이/JKS+안/MAG+좋/VA+다고/EC+먹/VV+기/ETN+싫/VA+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 같이 안 먹어줘?",
+            "norm_text": "키키 같이 안 먹어줘?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+같이/MAG+안/MAG+먹/VV+어/EC+줘/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 키키 효율성이 너무 떨어져서 곱창을 먹으면 화가 난대",
+            "norm_text": "응 키키 효율성이 너무 떨어져서 곱창을 먹으면 화가 난대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+효율/NNG+성/XSN+이/JKS+너무/MAG+떨어져서/VV+EC+곱창/NNG+을/JKO+먹/VV+으면/EC+화/NNG+가/JKS+난대/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 웃겨 나랑 먹자",
+            "norm_text": "키키 웃겨 나랑 먹자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+웃겨/VV+EF+나/NP+랑/JKB+먹/VV+자/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 좋아! 곱창 너무 비싸서 인터넷으로도 시켜서 먹어봤는데 그 맛이 안 나 ㅠㅠ",
+            "norm_text": "좋아! 곱창 너무 비싸서 인터넷으로도 시켜서 먹어봤는데 그 맛이 안 나 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+아/EF+곱창/NNG+너무/MAG+비싸/VA+서/EC+인터넷/NNG+으로/JKB+도시/NNG+켜/VV+서/EC+먹/VV+어/EC+봤/VX+EP+는데/EC+그/MM+맛/NNG+이/JKS+안/MAG+나/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 ㅠㅠ 인터넷하고 가서 사 먹는 거하고 맛이 확 달라",
+            "norm_text": "맞아 ㅠㅠ 인터넷하고 가서 사 먹는 거하고 맛이 확 달라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+인터넷/NNG+하/XSV+고/EC+가/VX+서/EC+사먹/VV+는/ETM+거/NNB+하고/JC+맛/NNG+이/JKS+확/MAG+달/VV+라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 곱창 맛집 아는 데 있어?",
+            "norm_text": "곱창 맛집 아는 데 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "곱창/NNG+맛집/NNG+아/VV+는데/EC+있/VX+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 당근 있지~ 문래에 곱창 맛집 있어!",
+            "norm_text": "당근 있지~ 문래에 곱창 맛집 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당근/MAG+있/VV+지/EC+~/SY+문래/NNG+에/JKB+곱창/NNG+맛집/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오~ 역시 맛집 꿰차고 있어",
+            "norm_text": "오~ 역시 맛집 꿰차고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+역시/MAJ+맛집/NNG+꿰차/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 여기 포장하면 좀 할인해주는데?",
+            "norm_text": "키키 여기 포장하면 좀 할인해주는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+여기/NP+포장/NNG+하/XSV+면/EC+좀/MAG+할인/NNG+해/XSV+EC+주/VX+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 그래? 그러면 포장해서 집에서 먹을까?",
+            "norm_text": "아 그래? 그러면 포장해서 집에서 먹을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+그러면/MAJ+포장/NNG+해서/XSV+EC+집/NNG+에서/JKB+먹/VV+을까/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그러자! 너가 포장해서 와!",
+            "norm_text": "그러자! 너가 포장해서 와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그러/VV+자/EF+너/NP+가/JKS+포장/NNG+해서/XSV+EC+와/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 29142,
+    "name": "KAKAO_516_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109161513140514106/KAKAO_516_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109161513140514106/KAKAO_516_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28691,
+      "filename": "KAKAO_516_01.txt",
+      "title": "KAKAO_516_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 758,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 758,
+        "word_size": 233,
+        "text": "1 : 언니 점심 먹었어?\n1 : 나는 배 안 고파서 빵 조금 먹었어ㅠㅠ\n2 : 나는 오늘 치킨 배달시켜 먹었어! 바른 치킨 하하\n1 : 언니 어땠어 치킨 ㅠㅠ 맛있었겠다 무슨 치킨이었지?\n2 : 맛있었어! 하하 바른 치킨 대새 치킨이라고 새우랑 같이 나오는 건데 양이 너무 많아 가지고 또 남은 거 볶음밥 해 놔야겠당 히히\n1 : 오ㅠㅠ맛잇겠다!언니 치킨 매니아의 새우 치킨도 맛있어 !\n2 : 오 다음에 그것도 먹어봐야겠다 하하\n2 : 점심 무겁게 먹었으니까 음료는 가볍게 호박팥차 먹어야지!\n1 : 하하 오 언니 나는 쑥 소이 라떼 먹고 있어!\n2 : 우와 집에서 그런 것도 만들어 먹어?! 하하\n2 : 카페 나갔어?\n1 : 하하 집에서 만들어서 스터디 카페 왔어!\n2 : 우와 집에서 쑥 소이 라떼를 만들다니...역시 능력자 하하\n2 : 쑥 라떼 먹고 싶어서 근처에 카페 찾아다니고 그랬는데! 대단해\n1 : 키키 아니 나 새언니가 이거 가루를 배달로 보내줬어 슝\n1 : 흑임자랑 인절미랑 단호박 크림 스프까지 다양하게 준비되어 있습니다 놀러 오세요!\n2 : 우와 하하 거의 카페네~담에 음료 마시러 디저트 사 들고 가야겠다 진짜!\n1 : 언니 진짜 꼭 와 ! 후 밥 챙겨 먹기두 귀찮다잉\n2 : 나는 치킨을 너무 많이 먹었나 봐...배가 아직도 부르다 하하\n2 : 뭐 먹을 거야?!\n1 : 언니 나는 스시 먹으려고! 하하\n1 : 언니도 간단히 챙겨 먹어야 해!\n2 : 스시 맛있겠다! 나는 강의 듣던 거 마저 듣고 늦지 않게 간단하게 먹어야겠당 하하\n2 : 저녁에는 산책도 좀 다녀와야겠어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 점심 먹었어?",
+            "norm_text": "언니 점심 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+점심/NNG+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 나는 배 안 고파서 빵 조금 먹었어ㅠㅠ",
+            "norm_text": "나는 배 안 고파서 빵 조금 먹었어ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+배/NNG+안/MAG+고파서/VA+EC+빵/NNG+조금/MAG+먹/VV+었/EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나는 오늘 치킨 배달시켜 먹었어! 바른 치킨 하하",
+            "norm_text": "나는 오늘 치킨 배달시켜 먹었어! 바른 치킨 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+오늘/MAG+치킨/VV+ETM+배달/NNG+시켜/XSV+EC+먹/VV+었/EP+어/EF+바른/VA+ETM+치킨/NNG+하/XSV+하/XSA"
+          },
+          {
+            "id": 4,
+            "text": "1 : 언니 어땠어 치킨 ㅠㅠ 맛있었겠다 무슨 치킨이었지?",
+            "norm_text": "언니 어땠어 치킨 ㅠㅠ 맛있었겠다 무슨 치킨이었지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+어땠/VA+EP+어/EC+치킨/VV+ETM+ㅠㅠ/UNKNOWN+맛있/VA+었/EP+겠/EP+다/EC+무슨/MM+치킨/NNG+이/VCP+었/EP+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 맛있었어! 하하 바른 치킨 대새 치킨이라고 새우랑 같이 나오는 건데 양이 너무 많아 가지고 또 남은 거 볶음밥 해 놔야겠당 히히",
+            "norm_text": "맛있었어! 하하 바른 치킨 대새 치킨이라고 새우랑 같이 나오는 건데 양이 너무 많아 가지고 또 남은 거 볶음밥 해 놔야겠당 히히",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맛있/VA+었/EP+어/EF+하하/MAG+바른/VA+ETM+치킨/NNG+대/XSV+새/EC+치킨/NNG+이/VCP+라고/EC+새우/NNG+랑/JKB+같이/MAG+나오/VV+는/ETM+건데/NNB+VCP+EC+양/NNG+이/JKS+너무/MAG+많/VA+아/EC+가지/VX+고/EC+또/MAG+남/VV+은/ETM+거/NNB+볶음밥/NNG+해/XSV+EC+놔야/VX+EC+VX+겠/EP+당/XSN+히히/MAG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오ㅠㅠ맛잇겠다!언니 치킨 매니아의 새우 치킨도 맛있어 !",
+            "norm_text": "오ㅠㅠ맛잇겠다!언니 치킨 매니아의 새우 치킨도 맛있어 !",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오ㅠㅠ맛잇겠다/UNKNOWN+언니/NNG+치킨/VV+ETM+매니아/NNP+의/JKG+새우/NNG+치킨/NNG+도/JX+맛있/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오 다음에 그것도 먹어봐야겠다 하하",
+            "norm_text": "오 다음에 그것도 먹어봐야겠다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오/NR+다음/NNG+에/JKB+그것/NP+도/JX+먹/VV+어/EC+봐야/VX+EC+VV+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 점심 무겁게 먹었으니까 음료는 가볍게 호박팥차 먹어야지!",
+            "norm_text": "점심 무겁게 먹었으니까 음료는 가볍게 호박팥차 먹어야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "점심/NNG+무겁/VA+게/EC+먹/VV+었/EP+으니까/EC+음료/NNG+는/JX+가볍/VA+게/EC+호박/NNG+팥/NNG+차/NNG+먹/VV+어야지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하하 오 언니 나는 쑥 소이 라떼 먹고 있어!",
+            "norm_text": "하하 오 언니 나는 쑥 소이 라떼 먹고 있어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+오언/NNG+니나/NNG+는/JX+쑥/MAG+소이/NNG+라/VCP+EC+떼먹/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 우와 집에서 그런 것도 만들어 먹어?! 하하",
+            "norm_text": "우와 집에서 그런 것도 만들어 먹어?! 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+집/NNG+에서/JKB+그런/MM+것/NNB+도/JX+만들/VV+어/EC+먹/VV+어/EF+!/SY+하하/NNP"
+          },
+          {
+            "id": 11,
+            "text": "2 : 카페 나갔어?",
+            "norm_text": "카페 나갔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카페/NNG+나갔/VV+EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 하하 집에서 만들어서 스터디 카페 왔어!",
+            "norm_text": "하하 집에서 만들어서 스터디 카페 왔어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+집/NNG+에서/JKB+만들/VV+어서/EC+스터디/NNP+카페/NNG+왔/VV+EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 우와 집에서 쑥 소이 라떼를 만들다니...역시 능력자 하하",
+            "norm_text": "우와 집에서 쑥 소이 라떼를 만들다니...역시 능력자 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+집/NNG+에서/JKB+쑥/MAG+소이/NNG+라떼/NNG+를/JKO+만들/VV+다니/EF+./SY+역시/MAJ+능력/NNG+자하/NNG+하/XSV"
+          },
+          {
+            "id": 14,
+            "text": "2 : 쑥 라떼 먹고 싶어서 근처에 카페 찾아다니고 그랬는데! 대단해",
+            "norm_text": "쑥 라떼 먹고 싶어서 근처에 카페 찾아다니고 그랬는데! 대단해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쑥/MAG+라떼/NNG+먹/VV+고/EC+싶/VX+어서/EC+근처/NNG+에/JKB+카페/NNG+찾아다니/VV+고/EC+그랬/VV+EP+는데/EF+대단/XR+해/XSA+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 아니 나 새언니가 이거 가루를 배달로 보내줬어 슝",
+            "norm_text": "키키 아니 나 새언니가 이거 가루를 배달로 보내줬어 슝",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+나/EC+새언니/NNG+가/JKS+이거/NP+가/JKS+루/NNG+를/JKO+배달/NNG+로/JKB+보내/VV+EC+줬/VX+EP+어/EF+슝/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 흑임자랑 인절미랑 단호박 크림 스프까지 다양하게 준비되어 있습니다 놀러 오세요!",
+            "norm_text": "흑임자랑 인절미랑 단호박 크림 스프까지 다양하게 준비되어 있습니다 놀러 오세요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "흑임자/NNG+랑/JKB+인절미/NNG+랑/JKB+단호박/NNG+크림/NNG+스프/NNG+까지/JX+다양/NNG+하/XSV+게/EC+준비/NNG+되/XSV+어/EC+있/VX+습니다/EF+놀러오/VV+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 우와 하하 거의 카페네~담에 음료 마시러 디저트 사 들고 가야겠다 진짜!",
+            "norm_text": "우와 하하 거의 카페네~담에 음료 마시러 디저트 사 들고 가야겠다 진짜!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+하하/MAG+거의/MAG+카페/NNG+네/XSN+~/SY+담/NNG+에/JKB+음료/NNG+마시/VV+러/EC+디저트/NNG+사/VV+EC+들/VV+고/EC+가/VX+야겠다/EC+VX+EP+EF+진짜/MAG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 언니 진짜 꼭 와 ! 후 밥 챙겨 먹기두 귀찮다잉",
+            "norm_text": "언니 진짜 꼭 와 ! 후 밥 챙겨 먹기두 귀찮다잉",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "언니/NNG+진짜/MAG+꼭/MAG+와/VV+EF+후/NNG+밥/NNG+챙겨/VV+EC+먹/VV+기/ETN+두/JX+귀찮/VA+다잉/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 나는 치킨을 너무 많이 먹었나 봐...배가 아직도 부르다 하하",
+            "norm_text": "나는 치킨을 너무 많이 먹었나 봐...배가 아직도 부르다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+치킨/NNG+을/JKO+너무/MAG+많이/MAG+먹/VV+었/EP+나/EC+봐/VX+EF+./SY+배/NNG+가/JKS+아직/MAG+도/JX+부르/VV+다/EC+하하/MAG"
+          },
+          {
+            "id": 20,
+            "text": "2 : 뭐 먹을 거야?!",
+            "norm_text": "뭐 먹을 거야?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+먹/VV+을/ETM+거/NNB+야/VCP+EF+?/SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 언니 나는 스시 먹으려고! 하하",
+            "norm_text": "언니 나는 스시 먹으려고! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+나/NP+는/JX+스/VV+시/EP+먹/VV+으려고/EF+하하/MAG"
+          },
+          {
+            "id": 22,
+            "text": "1 : 언니도 간단히 챙겨 먹어야 해!",
+            "norm_text": "언니도 간단히 챙겨 먹어야 해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+도/JX+간단히/MAG+챙겨/VV+EC+먹/VV+어야/EC+해/VX+EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 스시 맛있겠다! 나는 강의 듣던 거 마저 듣고 늦지 않게 간단하게 먹어야겠당 하하",
+            "norm_text": "스시 맛있겠다! 나는 강의 듣던 거 마저 듣고 늦지 않게 간단하게 먹어야겠당 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "스/VV+시/EP+맛있/VA+겠/EP+다/EF+나/NP+는/JX+강의/NNG+듣/VV+던/ETM+거/NNB+마저/JX+듣/VV+고/EC+늦/VA+지/EC+않/VX+게/EC+간단/XR+하/XSA+게/EC+먹/VV+어야/EC+겠/EP+당하/NNG+하/XSV"
+          },
+          {
+            "id": 24,
+            "text": "2 : 저녁에는 산책도 좀 다녀와야겠어",
+            "norm_text": "저녁에는 산책도 좀 다녀와야겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저녁/NNG+에/JKB+는/JX+산책/NNG+도/JX+좀/MAG+다녀와야/VV+EC+VX+겠/EP+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

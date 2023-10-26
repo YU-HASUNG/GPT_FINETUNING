@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 33128,
+    "name": "KAKAO_886_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175136009133/KAKAO_886_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175136009133/KAKAO_886_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40358,
+      "filename": "KAKAO_886_20.txt",
+      "title": "KAKAO_886_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 364,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 364,
+        "word_size": 119,
+        "text": "1 : 엄마! 나 씨지비 1+1 쿠폰 받았어!\n2 : 오~ 어디서 받았대?\n1 : 씨제이에서 받았지 키키\n1 : 이벤트 해서 받았엉\n2 : 잘했네~\n1 : 잘했지? 키키 오랜만에 영화 보러 가자!\n2 : 영화 요새는 뭐하나\n2 : 무슨 내용이야?\n1 : 보이스피싱으로 사람들이 돈 잃은 거 전직 형사가 잡는 건가 봐 키키\n2 : 그놈목소리랑 비슷한 거 아니야?\n1 : 아니야 키키 여기서는 보이스피싱 조직이 엄청 크대\n1 : 범죄 액션 영화래!\n2 : 재밌겠네~\n2 : 엄마는 범죄 영화가 좋더라\n1 : 키키 맞아 엄마 범죄 영화 좋아하잖아 키키\n2 : 범죄 영화인데 액션신 많이 들어간 게 특히 좋더라\n1 : 키키 나두! 그런 게 재밌어 키키\n2 : 좋다 그러면 보이스 보러 가자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마! 나 씨지비 1+1 쿠폰 받았어!",
+            "norm_text": "엄마! 나 씨지비 1+1 쿠폰 받았어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+나/NP+씨/NNB+지비/NNG+1/SN++/SY+1/SN+쿠폰/NNG+받/VV+았/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오~ 어디서 받았대?",
+            "norm_text": "오~ 어디서 받았대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+어디/NP+서/JKB+받/VV+았/EP+대/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 씨제이에서 받았지 키키",
+            "norm_text": "씨제이에서 받았지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "씨제이/NNP+에서/JKB+받/VV+았/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 이벤트 해서 받았엉",
+            "norm_text": "이벤트 해서 받았엉",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이벤트/NNG+해서/XSV+EC+받/VV+았/EP+엉/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 잘했네~",
+            "norm_text": "잘했네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+했/VV+EP+네/EF+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 잘했지? 키키 오랜만에 영화 보러 가자!",
+            "norm_text": "잘했지? 키키 오랜만에 영화 보러 가자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+했/VV+EP+지/EF+키/NNG+키/NNG+오랜만/NNG+에/JKB+영화/NNG+보/VV+러/EC+가/VX+자/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 영화 요새는 뭐하나",
+            "norm_text": "영화 요새는 뭐하나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영화/NNG+요새/NNG+는/JX+뭐/IC+하나/NR"
+          },
+          {
+            "id": 8,
+            "text": "2 : 무슨 내용이야?",
+            "norm_text": "무슨 내용이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+내용/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 보이스피싱으로 사람들이 돈 잃은 거 전직 형사가 잡는 건가 봐 키키",
+            "norm_text": "보이스피싱으로 사람들이 돈 잃은 거 전직 형사가 잡는 건가 봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보이스/NNP+피싱/NNP+으로/JKB+사람/NNG+들/XSN+이/JKS+돈/NNG+잃/VV+은/ETM+거/NNB+전직/NNG+형사/NNG+가/JKS+잡/VV+는/ETM+건가/NNB+VCP+EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그놈목소리랑 비슷한 거 아니야?",
+            "norm_text": "그놈목소리랑 비슷한 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그놈/NP+목소리/NNG+랑/JC+비슷/XR+한/XSA+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아니야 키키 여기서는 보이스피싱 조직이 엄청 크대",
+            "norm_text": "아니야 키키 여기서는 보이스피싱 조직이 엄청 크대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아니야/IC+키/NNG+키/XSV+ETN+여기/NP+서/JKB+는/JX+보이스/NNP+피싱/NNP+조직/NNG+이/JKS+엄청/MAG+크/VA+대/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 범죄 액션 영화래!",
+            "norm_text": "범죄 액션 영화래!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "범죄/NNG+액션/NNG+영화/NNG+래/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 재밌겠네~",
+            "norm_text": "재밌겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "재밌/VA+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 엄마는 범죄 영화가 좋더라",
+            "norm_text": "엄마는 범죄 영화가 좋더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+는/JX+범죄/NNG+영화/NNG+가/JKS+좋/VA+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 맞아 엄마 범죄 영화 좋아하잖아 키키",
+            "norm_text": "키키 맞아 엄마 범죄 영화 좋아하잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+엄마/NNG+범죄/NNG+영화/NNG+좋/VA+아/EC+하/VV+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 범죄 영화인데 액션신 많이 들어간 게 특히 좋더라",
+            "norm_text": "범죄 영화인데 액션신 많이 들어간 게 특히 좋더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "범죄/NNG+영화/NNG+인데/VCP+EC+액션/NNG+신/NNG+많이/MAG+들어간/VV+ETM+게/NNB+JKS+특히/MAG+좋/VA+더라/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 나두! 그런 게 재밌어 키키",
+            "norm_text": "키키 나두! 그런 게 재밌어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+두/JX+그런/MM+게/NNB+JKS+재밌/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 좋다 그러면 보이스 보러 가자",
+            "norm_text": "좋다 그러면 보이스 보러 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좋/VA+다/EC+그러/VV+면/EC+보이스/NNP+보/VV+러/EC+가/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

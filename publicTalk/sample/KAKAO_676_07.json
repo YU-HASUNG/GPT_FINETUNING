@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 74216,
+    "name": "KAKAO_676_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112755018550/KAKAO_676_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112755018550/KAKAO_676_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35186,
+      "filename": "KAKAO_676_07.txt",
+      "title": "KAKAO_676_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 494,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 494,
+        "word_size": 171,
+        "text": "1 : 나는 요즘 언니랑 옷 같이 입는데 넌 어때?\n2 : 완전 부럽다 ㅠㅠ\n2 : 나도 동생이랑 옷 같이 입고 싶어 ㅠㅠ\n1 : 너는 자매끼리 옷 공유를 안 해?\n2 : 응 ㅠㅠ 예전엔 같이 입었었는데 요즘엔 싫대\n1 : 왜? 너 동생 맨날 너 옷 입고 다녔잖아\n2 : 응 키키 너무 웃긴 게 요즘 지가 좀 비싼 옷을 사 입거든\n1 : 헐 대박 키키 비싼 옷이라서 같이 입기 싫대?\n2 : 응 키키 나한테 빌려줄 테니까 세탁비 달라는 거 있지\n1 : 키키 역시 내리 사랑이지 키키 언니한텐 얄짤 없는 법\n2 : 너도 동생이라고 그렇게 하니? 나 너무 황당해\n1 : 나도 언니한테 똑같이 해 키키\n1 : 내 옷 입고 사진 못 찍게 하잖아\n2 : 역시 동생들이란 다 똑같구만 키키\n2 : 첫째라서 억울해\n1 : 억울하면 동생으로 태어났어야지 키키\n1 : 난 막내라 좋아\n2 : 맞다 너 막내랬지 키키 근데 진짜 막내 같지 않아\n1 : 약간 신뢰가 가는 스타일이라서 그런가?\n2 : 무슨 소리야 키키 힘이 세서 그래 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나는 요즘 언니랑 옷 같이 입는데 넌 어때?",
+            "norm_text": "나는 요즘 언니랑 옷 같이 입는데 넌 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+요즘/NNG+언니/NNG+랑/JKB+옷/NNG+같이/JKB+입/VV+는데/EC+넌/NP+JX+어때/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 완전 부럽다 ㅠㅠ",
+            "norm_text": "완전 부럽다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전부럽다ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나도 동생이랑 옷 같이 입고 싶어 ㅠㅠ",
+            "norm_text": "나도 동생이랑 옷 같이 입고 싶어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+동생/NNG+이랑/JKB+옷/NNG+같이/JKB+입/VV+고/EC+싶/VX+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 너는 자매끼리 옷 공유를 안 해?",
+            "norm_text": "너는 자매끼리 옷 공유를 안 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+자매/NNG+끼리/XSN+옷/NNG+공유/NNG+를/JKO+안/MAG+해/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 ㅠㅠ 예전엔 같이 입었었는데 요즘엔 싫대",
+            "norm_text": "응 ㅠㅠ 예전엔 같이 입었었는데 요즘엔 싫대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+ㅠㅠ/UNKNOWN+예전/NNG+엔/JKB+JX+같이/MAG+입/VV+었었/EP+는데/EC+요즘/NNG+엔/JKB+JX+싫/VA+대/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 왜? 너 동생 맨날 너 옷 입고 다녔잖아",
+            "norm_text": "왜? 너 동생 맨날 너 옷 입고 다녔잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+너동생맨날너옷입고다녔잖아/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 키키 너무 웃긴 게 요즘 지가 좀 비싼 옷을 사 입거든",
+            "norm_text": "응 키키 너무 웃긴 게 요즘 지가 좀 비싼 옷을 사 입거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+너무/MAG+웃긴/VV+ETM+게/NNB+JKS+요즘/MAG+지/NP+가/JKS+좀/MAG+비싼/VA+ETM+옷/NNG+을/JKO+사/VV+EC+입/VV+거든/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 헐 대박 키키 비싼 옷이라서 같이 입기 싫대?",
+            "norm_text": "헐 대박 키키 비싼 옷이라서 같이 입기 싫대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+대박/NNG+키/NNG+키/XSV+ETN+비싼/VA+ETM+옷/NNG+이/VCP+라서/EC+같이/MAG+입/VV+기/ETN+싫/VA+대/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응 키키 나한테 빌려줄 테니까 세탁비 달라는 거 있지",
+            "norm_text": "응 키키 나한테 빌려줄 테니까 세탁비 달라는 거 있지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키나/XSA+ETN+JX+한테/JKB+빌려줄/VV+EC+VX+ETM+테/NNB+VCP+니까/EC+세탁/NNG+비달/NNP+라는/VCP+ETM+거/NNB+있/VA+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 역시 내리 사랑이지 키키 언니한텐 얄짤 없는 법",
+            "norm_text": "키키 역시 내리 사랑이지 키키 언니한텐 얄짤 없는 법",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+역시/MAJ+내리/NNP+사랑/NNG+이/VCP+지/EC+키/NNG+키/NNG+언니/NNG+한텐/JKB+JX+얄짤없/VA+는/ETM+법/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 너도 동생이라고 그렇게 하니? 나 너무 황당해",
+            "norm_text": "너도 동생이라고 그렇게 하니? 나 너무 황당해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+동생/NNG+이/VCP+라고/EC+그렇게/MAG+하/VV+니/EF+나/NP+너무/MAG+황당/XR+해/XSA+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나도 언니한테 똑같이 해 키키",
+            "norm_text": "나도 언니한테 똑같이 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+언니/NNG+한테/JKB+똑같이/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 내 옷 입고 사진 못 찍게 하잖아",
+            "norm_text": "내 옷 입고 사진 못 찍게 하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+옷/NNG+입/VV+고/EC+사진/NNG+못/MAG+찍/VV+게/EC+하/VV+잖아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 역시 동생들이란 다 똑같구만 키키",
+            "norm_text": "역시 동생들이란 다 똑같구만 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+동생/NNG+들/XSN+이란/JX+다/MAG+똑같/VA+구/EC+만/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 첫째라서 억울해",
+            "norm_text": "첫째라서 억울해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "첫째/NR+라서/VCP+EC+억울/XR+해/XSA+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 억울하면 동생으로 태어났어야지 키키",
+            "norm_text": "억울하면 동생으로 태어났어야지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "억울/XR+하/XSA+면/EC+동생/NNG+으로/JKB+태어났/VV+EP+어야지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 난 막내라 좋아",
+            "norm_text": "난 막내라 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난막/NNG+내라/NNP+좋/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 맞다 너 막내랬지 키키 근데 진짜 막내 같지 않아",
+            "norm_text": "맞다 너 막내랬지 키키 근데 진짜 막내 같지 않아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EF+너/NP+막/MAJ+내/VV+랬지/EC+VV+EP+EC+키/NNG+키/XSV+ETN+근데/MAJ+진짜/MAG+막내/NNG+같/VA+지/EC+않/VX+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 약간 신뢰가 가는 스타일이라서 그런가?",
+            "norm_text": "약간 신뢰가 가는 스타일이라서 그런가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "약간/MAG+신뢰/NNG+가/JKS+가/VV+는/ETM+스타일/NNG+이/VCP+라서/EC+그런가/VA+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 무슨 소리야 키키 힘이 세서 그래 키키",
+            "norm_text": "무슨 소리야 키키 힘이 세서 그래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무슨/MM+소리야/NNG+키/NNG+키/NNG+힘/NNG+이/JKS+세/VA+서/EC+그래/VV+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 33794,
+    "name": "KAKAO_617_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121739009884/KAKAO_617_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121739009884/KAKAO_617_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32317,
+      "filename": "KAKAO_617_04.txt",
+      "title": "KAKAO_617_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 358,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 358,
+        "word_size": 117,
+        "text": "1 : 오늘 회사 동료가 퇴사한다고 했어요 ㅠ\n2 : 요즘 같을 때 어쩌려고?\n1 : 그러게요 키키 스카웃 된 거 같지도 않던데 키키\n2 : 그럼 백수하고 노나?\n1 : 뭐 할 거 없음 그러겠죠?\n2 : 요즘 같은 불경기에 대체 어쩌려고 그런댜~\n1 : 알아서 생각이 다 있겠죠? 키키\n2 : 하긴 생각 없이 나와버리면 안 되지\n1 : 이래저래 일이 있더니 결국.\n2 : 사람 문제로 나가는 거야? 그 사람은?\n1 : 사람 문제도 있고 키키 좀 별로인 사람이었어요 키키\n2 : 아니 뭐 얼마나 별로길래 그래?\n1 : 좀 많~이? 키키 하여튼 아주 별로였어요\n2 : 그럼 너한텐 잘된 일이네?\n1 : 그렇긴 한데 또 일이 늘어나니...\n2 : 어딜 가나 사람이 문제야~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 회사 동료가 퇴사한다고 했어요 ㅠ",
+            "norm_text": "오늘 회사 동료가 퇴사한다고 했어요 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+회사/NNG+동료/NNG+가/JKS+퇴사/NNG+한다고/XSV+EC+했/VX+EP+어요/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘 같을 때 어쩌려고?",
+            "norm_text": "요즘 같을 때 어쩌려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/MAG+같/VA+을/ETM+때/NNG+어쩌/VV+려고/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러게요 키키 스카웃 된 거 같지도 않던데 키키",
+            "norm_text": "그러게요 키키 스카웃 된 거 같지도 않던데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+요키/NNP+키/NNG+스카웃/NNP+된/VV+ETM+거/NNB+같/VA+지/EC+도/JX+않/VX+던/ETM+데/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럼 백수하고 노나?",
+            "norm_text": "그럼 백수하고 노나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+백수/NNG+하/XSV+고/EC+노/VX+나/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭐 할 거 없음 그러겠죠?",
+            "norm_text": "뭐 할 거 없음 그러겠죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+할/VV+ETM+거/NNB+없/VA+음/ETN+그러/VV+겠/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요즘 같은 불경기에 대체 어쩌려고 그런댜~",
+            "norm_text": "요즘 같은 불경기에 대체 어쩌려고 그런댜~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+같/VA+은/ETM+불경기/NNG+에/JKB+대체/MAG+어쩌/VV+려고/EC+그런댜/VV+EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 알아서 생각이 다 있겠죠? 키키",
+            "norm_text": "알아서 생각이 다 있겠죠? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+아서/EC+생각/NNG+이/VCP+다/EC+있/VX+겠/EP+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 하긴 생각 없이 나와버리면 안 되지",
+            "norm_text": "하긴 생각 없이 나와버리면 안 되지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+생각/NNG+없이/MAG+나와/VV+EC+버리/VX+면/EC+안/MAG+되/VV+지/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 이래저래 일이 있더니 결국.",
+            "norm_text": "이래저래 일이 있더니 결국.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이래저래/MAG+일/NNG+이/JKS+있/VV+더니/EC+결국/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 사람 문제로 나가는 거야? 그 사람은?",
+            "norm_text": "사람 문제로 나가는 거야? 그 사람은?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "사람/NNG+문제/NNG+로/JKB+나가/VV+는/ETM+거/NNB+야/VCP+EF+그/MM+사람/NNG+은/JX"
+          },
+          {
+            "id": 11,
+            "text": "1 : 사람 문제도 있고 키키 좀 별로인 사람이었어요 키키",
+            "norm_text": "사람 문제도 있고 키키 좀 별로인 사람이었어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사람/NNG+문제/NNG+도/JX+있/VA+고/EC+키/NNG+키/NNG+좀/MAG+별로/MAG+인/VCP+ETM+사람/NNG+이/VCP+었/EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아니 뭐 얼마나 별로길래 그래?",
+            "norm_text": "아니 뭐 얼마나 별로길래 그래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+뭐/IC+얼마나/MAG+별로/MAG+길래/MAG+그래/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 좀 많~이? 키키 하여튼 아주 별로였어요",
+            "norm_text": "좀 많~이? 키키 하여튼 아주 별로였어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좀/MAG+많/VA+~/SY+이/JKS+?/SY+키/NNG+키/XSV+ETN+하여튼/MAJ+아주/MAG+별로/MAG+였어요/VCP+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼 너한텐 잘된 일이네?",
+            "norm_text": "그럼 너한텐 잘된 일이네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+너/NP+한텐/JKB+JX+잘/MAG+된/VV+ETM+일/NNG+이/VCP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그렇긴 한데 또 일이 늘어나니...",
+            "norm_text": "그렇긴 한데 또 일이 늘어나니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+긴/ETN+JX+한데/VX+EC+또/MAG+일/NNG+이/JKS+늘어나/VV+니/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어딜 가나 사람이 문제야~",
+            "norm_text": "어딜 가나 사람이 문제야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어딜/NP+JKO+가/VV+나/EC+사람/NNG+이/JKS+문제/NNG+야/JKV+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32163,
+    "name": "KAKAO_645_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145231076025/KAKAO_645_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145231076025/KAKAO_645_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34393,
+      "filename": "KAKAO_645_15.txt",
+      "title": "KAKAO_645_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 538,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 538,
+        "word_size": 158,
+        "text": "1 : 자기야 탈레반 시위 상황 뉴스로 봤어?\n2 : 안 그래도 오늘 봤어\n2 : 나라가 엉망이 됐던걸\n1 : 이번에는 기자들이 취재하다가 테러범들에게 잡혀갔대\n2 : 헐 보통 전쟁 속에서도 기자는 잘 안 건들잖아\n1 : 2명이 수도 카불에서 열린 여성 시위를 취재하다가 탈레반에게 잡혀가 구타 당했대\n2 : 아이고 어쩜 좋아 그럼 언론 매체들도 철수 많이 하겠네\n1 : 한 기자는 참수되지 않은 것만으로도 천만다행이라고 말했대\n2 : 그건 맞어 예전에는 이라크는 참수도 했었잖어\n1 : 정말 다행히도 기자들은 4시간 만에 풀려나 병원으로 이송됐대\n2 : 정말 다행이다 다들 목숨은 구할 수 있어서\n1 : 근데 문제는 탈레반은 여성 인권과 언론 자유를 보장하겠다고 주장해왔대\n2 : 헐 근데 이번에 이런 사태가 벌어진 거야?\n1 : 응응 그 와중에 처음으로 수도 카불 공항에서 외국인 200명이 아프간을 떠나도록 허용했대\n2 : 우와 그래도 다행이네 잔인하진 않네\n1 : 응응 빨린 정치적 안정이 와서 자국민들이 괜찮아졌음 좋겠어\n2 : 맞어 맞어 우리도 분단 국가이니 완전 남일 같진 않네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 탈레반 시위 상황 뉴스로 봤어?",
+            "norm_text": "자기야 탈레반 시위 상황 뉴스로 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+야/VCP+EF+탈레반/NNP+시위/NNG+상황/NNG+뉴스/NNG+로/JKB+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 안 그래도 오늘 봤어",
+            "norm_text": "안 그래도 오늘 봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+그래도/VV+EC+오늘/MAG+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나라가 엉망이 됐던걸",
+            "norm_text": "나라가 엉망이 됐던걸",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나라/NNG+가/JKS+엉망/NNG+이/JKS+됐/VV+EP+던/ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 4,
+            "text": "1 : 이번에는 기자들이 취재하다가 테러범들에게 잡혀갔대",
+            "norm_text": "이번에는 기자들이 취재하다가 테러범들에게 잡혀갔대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+는/JX+기자/NNG+들/XSN+이/JKS+취재/NNG+하/XSV+다가/EC+테러/NNG+범/NNG+들/XSN+에게/JKB+잡혀갔/VV+EP+대/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 헐 보통 전쟁 속에서도 기자는 잘 안 건들잖아",
+            "norm_text": "헐 보통 전쟁 속에서도 기자는 잘 안 건들잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헐/IC+보통/NNG+전쟁/NNG+속/NNG+에서/JKB+도/JX+기자/NNG+는/JX+잘/MAG+안/MAG+건들/VV+잖아/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 2명이 수도 카불에서 열린 여성 시위를 취재하다가 탈레반에게 잡혀가 구타 당했대",
+            "norm_text": "2명이 수도 카불에서 열린 여성 시위를 취재하다가 탈레반에게 잡혀가 구타 당했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "2/SN+명/NNBC+이/JKS+수도/NNG+카불/NNP+에서/JKB+열린/VV+ETM+여성/NNG+시위/NNG+를/JKO+취재/NNG+하/XSV+다가/EC+탈레반/NNP+에게/JKB+잡혀가/VV+구/EC+타당/XR+했/XSA+EP+대/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아이고 어쩜 좋아 그럼 언론 매체들도 철수 많이 하겠네",
+            "norm_text": "아이고 어쩜 좋아 그럼 언론 매체들도 철수 많이 하겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이고/IC+어쩜/IC+좋/VA+아/EC+그럼/MAJ+언론/NNG+매체/NNG+들/XSN+도/JX+철수/NNG+많이/MAG+하/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 한 기자는 참수되지 않은 것만으로도 천만다행이라고 말했대",
+            "norm_text": "한 기자는 참수되지 않은 것만으로도 천만다행이라고 말했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한/MM+기자/NNG+는/JX+참수/NNG+되/XSV+지/EC+않/VX+은/ETM+것/NNB+만/JX+으로/JKB+도/JX+천만다행/NNG+이/VCP+라고/EC+말/NNG+했/XSV+EP+대/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그건 맞어 예전에는 이라크는 참수도 했었잖어",
+            "norm_text": "그건 맞어 예전에는 이라크는 참수도 했었잖어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그건/NP+JX+맞/VV+어/EC+예전/NNG+에/JKB+는/JX+이라크/NNP+는/JX+참수/NNG+도/JX+했었잖/VX+EP+EC+VX+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 정말 다행히도 기자들은 4시간 만에 풀려나 병원으로 이송됐대",
+            "norm_text": "정말 다행히도 기자들은 4시간 만에 풀려나 병원으로 이송됐대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정말/MAG+다행히/MAG+도/JX+기자/NNG+들/XSN+은/JX+4/SN+시간/NNBC+만/NNB+에/JKB+풀려나/VV+EC+병원/NNG+으로/JKB+이송/NNG+됐/XSV+EP+대/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 정말 다행이다 다들 목숨은 구할 수 있어서",
+            "norm_text": "정말 다행이다 다들 목숨은 구할 수 있어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정말/MAG+다행/NNG+이/JKS+다다/NNG+들/XSN+목숨/NNG+은/JX+구할/VV+ETM+수/NNB+있/VV+어서/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 근데 문제는 탈레반은 여성 인권과 언론 자유를 보장하겠다고 주장해왔대",
+            "norm_text": "근데 문제는 탈레반은 여성 인권과 언론 자유를 보장하겠다고 주장해왔대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+문제/NNG+는/JX+탈레반/NNP+은/JX+여성/NNG+인권/NNG+과/JC+언론/NNG+자유/NNG+를/JKO+보장/NNG+하/XSV+겠/EP+다고/EC+주장/NNG+해/XSV+EC+왔/VX+EP+대/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 헐 근데 이번에 이런 사태가 벌어진 거야?",
+            "norm_text": "헐 근데 이번에 이런 사태가 벌어진 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헐/IC+근데/MAJ+이번/NNG+에/JKB+이런/MM+사태/NNG+가/JKS+벌어진/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응응 그 와중에 처음으로 수도 카불 공항에서 외국인 200명이 아프간을 떠나도록 허용했대",
+            "norm_text": "응응 그 와중에 처음으로 수도 카불 공항에서 외국인 200명이 아프간을 떠나도록 허용했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+그/MM+와중/NNG+에/JKB+처음/NNG+으로/JKB+수도/NNG+카불/NNP+공항/NNG+에서/JKB+외국인/NNG+200/SN+명/NNBC+이/JKS+아프간/NNG+을/JKO+떠나/VV+도록/EC+허용/NNG+했/XSV+EP+대/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 우와 그래도 다행이네 잔인하진 않네",
+            "norm_text": "우와 그래도 다행이네 잔인하진 않네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+그래도/MAJ+다행/NNG+이/JKS+네/MM+잔인/NNG+하/XSV+진/EC+JX+않/VX+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응응 빨린 정치적 안정이 와서 자국민들이 괜찮아졌음 좋겠어",
+            "norm_text": "응응 빨린 정치적 안정이 와서 자국민들이 괜찮아졌음 좋겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+빨린/VV+ETM+정치/NNG+적/XSN+안정/NNG+이/JKS+와서/VV+EC+자국민/NNG+들/XSN+이/JKS+괜찮/VA+아/EC+졌/VX+EP+음/ETN+좋/VA+겠/EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞어 맞어 우리도 분단 국가이니 완전 남일 같진 않네",
+            "norm_text": "맞어 맞어 우리도 분단 국가이니 완전 남일 같진 않네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+맞/VV+어/EC+우리/NP+도/JX+분단국가/NNG+이/VCP+니/EC+완전/MAG+남일/NNP+같/VA+진/EC+JX+않/VX+네/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 47734,
+    "name": "KAKAO_841_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174218042317/KAKAO_841_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174218042317/KAKAO_841_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40093,
+      "filename": "KAKAO_841_15.txt",
+      "title": "KAKAO_841_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 533,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 533,
+        "word_size": 155,
+        "text": "1 : 얼마 전에 미국에 허리케인 온 거 봤어?\n2 : 아니? 왜?\n2 : 피해가 크데?\n1 : 응 엄청 심하더라고 아이다라는 허리케인인데\n1 : 엄청 피해가 크다더라고\n2 : 어느 정도로 심하길래? 감이 안 온다\n1 : 허리케인 등급이 5단계인데 이번 아이다는 4단계로 두번째로 강력한 허리케인이었다네\n2 : 와... 진짜 강력한 허리케인이었겠네\n1 : 응 뉴스 보니까 진짜 심해 보이더라\n2 : 우리나라는 허리케인 같은 자연재해가 없으니... 체감이 안되는데 진짜 무서워 보인다\n1 : 맞아 우리나라는 없으니 다행이다\n2 : 미국은 매년 오는 거 같은데 진짜 무섭겠다\n1 : 그러게 이번에도 미국 남동부 지역에 발생했는데\n1 : 전기가 끊기고 차들이 물에 잠기고 심하더라고\n2 : 진짜 심하네\n2 : 인명피해는 없었어?\n1 : 인명피해도 심하다고 하더라\n1 : 911에 신고도 들어오고 응급센터 전화선까지 다운될 정도래\n2 : 진짜 무섭다 자연재해가 진짜 무서운 거 같아\n1 : 맞아 속수무책이지\n1 : 자연재해 앞에서 인간은 너무 작아져\n2 : 더 이상 인명피해가 없었으면 좋겠다 ㅜㅜ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 얼마 전에 미국에 허리케인 온 거 봤어?",
+            "norm_text": "얼마 전에 미국에 허리케인 온 거 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "얼마/NNG+전/NNG+에/JKB+미국/NNP+에/JKB+허리케인/NNG+온/VV+ETM+거/NNB+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니? 왜?",
+            "norm_text": "아니? 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+왜/MAG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 피해가 크데?",
+            "norm_text": "피해가 크데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "피해/NNG+가/JKS+크/VA+데/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응 엄청 심하더라고 아이다라는 허리케인인데",
+            "norm_text": "응 엄청 심하더라고 아이다라는 허리케인인데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+엄청/MAG+심하/VA+더라고/EC+아이/NNG+다/VCP+EF+라는/ETM+허리케인/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엄청 피해가 크다더라고",
+            "norm_text": "엄청 피해가 크다더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄청/MAG+피해/NNG+가/JKS+크/VA+다더라고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어느 정도로 심하길래? 감이 안 온다",
+            "norm_text": "어느 정도로 심하길래? 감이 안 온다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어느/MM+정도/NNG+로/JKB+심하/VA+길래/ETN+EF+감/NNG+이/JKS+안/MAG+온다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 허리케인 등급이 5단계인데 이번 아이다는 4단계로 두번째로 강력한 허리케인이었다네",
+            "norm_text": "허리케인 등급이 5단계인데 이번 아이다는 4단계로 두번째로 강력한 허리케인이었다네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "허리케인/NNG+등급/NNG+이/JKS+5/SN+단계/NNG+인데/VCP+EC+이번/NNG+아이다/NNG+는/JX+4/SN+단계/NNG+로/JKB+두/MM+번/NNBC+째/XSN+로/JKB+강력/XR+한/XSA+ETM+허리케인/NNG+이/VCP+었/EP+다네/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 와... 진짜 강력한 허리케인이었겠네",
+            "norm_text": "와... 진짜 강력한 허리케인이었겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+진짜/MAG+강력/XR+한/XSA+ETM+허리케인/NNG+이/VCP+었/EP+겠/EP+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 뉴스 보니까 진짜 심해 보이더라",
+            "norm_text": "응 뉴스 보니까 진짜 심해 보이더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+뉴스/NNG+보/VV+니까/EC+진짜/MAG+심해/VA+EC+보이/VV+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 우리나라는 허리케인 같은 자연재해가 없으니... 체감이 안되는데 진짜 무서워 보인다",
+            "norm_text": "우리나라는 허리케인 같은 자연재해가 없으니... 체감이 안되는데 진짜 무서워 보인다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+는/JX+허리케인/NNG+같/VA+은/ETM+자연재해/NNG+가/JKS+없/VA+으니/EF+./SY+체감/NNG+이/JKS+안/MAG+되/VV+는데/EC+진짜/MAG+무서워/VA+EC+보인다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 우리나라는 없으니 다행이다",
+            "norm_text": "맞아 우리나라는 없으니 다행이다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+우리/NP+나라/NNG+는/JX+없/VA+으니/EC+다행/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 미국은 매년 오는 거 같은데 진짜 무섭겠다",
+            "norm_text": "미국은 매년 오는 거 같은데 진짜 무섭겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미국/NNP+은/JX+매년/MAG+오/VV+는/ETM+거/NNB+같/VA+은데/EC+진짜/MAG+무섭/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그러게 이번에도 미국 남동부 지역에 발생했는데",
+            "norm_text": "그러게 이번에도 미국 남동부 지역에 발생했는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+게/EC+이번/NNG+에/JKB+도/JX+미국/NNP+남동부/NNP+지역/NNG+에/JKB+발생/NNG+했/XSV+EP+는데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 전기가 끊기고 차들이 물에 잠기고 심하더라고",
+            "norm_text": "전기가 끊기고 차들이 물에 잠기고 심하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전기/NNG+가/JKS+끊기/VV+고/EC+차/NNG+들/XSN+이/JKS+물/NNG+에/JKB+잠기/VV+고/EC+심하/VA+더라고/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 진짜 심하네",
+            "norm_text": "진짜 심하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "진짜/MAG+심하/VA+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 인명피해는 없었어?",
+            "norm_text": "인명피해는 없었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "인명/NNG+피해/NNG+는/JX+없/VA+었/EP+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 인명피해도 심하다고 하더라",
+            "norm_text": "인명피해도 심하다고 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인명/NNG+피해/NNG+도/JX+심하/VA+다고/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 911에 신고도 들어오고 응급센터 전화선까지 다운될 정도래",
+            "norm_text": "911에 신고도 들어오고 응급센터 전화선까지 다운될 정도래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "911/SN+에/JKB+신고/NNG+도/JX+들어오/VV+고/EC+응급/NNG+센터/NNG+전화선/NNG+까지/JX+다운/NNG+될/XSV+ETM+정도/NNG+래/VCP+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 진짜 무섭다 자연재해가 진짜 무서운 거 같아",
+            "norm_text": "진짜 무섭다 자연재해가 진짜 무서운 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+무섭/VA+다/EC+자연재해/NNG+가/JKS+진짜/MAG+무서운/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 맞아 속수무책이지",
+            "norm_text": "맞아 속수무책이지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+속수무책/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 자연재해 앞에서 인간은 너무 작아져",
+            "norm_text": "자연재해 앞에서 인간은 너무 작아져",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자연재해/NNG+앞/NNG+에서/JKB+인간/NNG+은/JX+너무/MAG+작아져/VV+EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 더 이상 인명피해가 없었으면 좋겠다 ㅜㅜ",
+            "norm_text": "더 이상 인명피해가 없었으면 좋겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "더/MAG+이상/NNG+인명/NNG+피해/NNG+가/JKS+없/VA+었/EP+으면/EC+좋/VA+겠/EP+다/EF+ㅜㅜ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

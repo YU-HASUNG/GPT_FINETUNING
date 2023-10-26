@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 71838,
+    "name": "KAKAO_691_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112804013996/KAKAO_691_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112804013996/KAKAO_691_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35204,
+      "filename": "KAKAO_691_05.txt",
+      "title": "KAKAO_691_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 526,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 526,
+        "word_size": 167,
+        "text": "1 : 군 생활 궁금해서 한번 부사관 해보고 싶었어요 키키\n2 : 엥 대박... 왜? 진짜 안 어울리는데?! 키키\n1 : 키키 친구 중에 공군 부사관 간 친구가 있는데 한 달 훈련만 버티면 괜찮다고 꼬셔서요 키키\n2 : 오... 대박적이다... 키키 아니 한 달은 그럼 완전 죽는다나?\n1 : 맞아요 키키 그 한 달만 버티면 할 만하다고 키키\n2 : 오... 대박... 그 한 달은 뭐 하는 거야?\n1 : 엄청난 훈련? 상상도 못할 훈련? 키키\n2 : 키키 오... 너무 싫다... 키키 나는 그냥 이렇게 살래...\n1 : 키키 휴 저도 그때 잠깐 그렇게 생각했죠 키키\n2 : 키키 아니 그럼 다시 도전할 생각은 없고\n1 : 키키 넵! 하하 그때는 너무 어렸나 봐요 키키\n2 : 키키 그래 하지 말자... 넘 힘들어... 건강한 게(?) 최고야\n1 : 그럼요 키키 예전에는 튼튼했는데 이제 뭐 비실이에요 키키\n2 : 키키 아니 일단 너무 말랐어... 살 좀 찌자\n1 : 키키 언니 저 뱃살 안 보셨죠? 놀랄 거예요 키키\n2 : 아니 그치만 팔다리가 곧 부러질 것 같애",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 군 생활 궁금해서 한번 부사관 해보고 싶었어요 키키",
+            "norm_text": "군 생활 궁금해서 한번 부사관 해보고 싶었어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군/NNG+생활/NNG+궁금/XR+해서/XSA+EC+한/MM+번/NNBC+부사관/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+었/EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥 대박... 왜? 진짜 안 어울리는데?! 키키",
+            "norm_text": "엥 대박... 왜? 진짜 안 어울리는데?! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+대박/NNG+./SY+./SY+왜/MAG+진짜/MAG+안/MAG+어울리/VV+는데/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 친구 중에 공군 부사관 간 친구가 있는데 한 달 훈련만 버티면 괜찮다고 꼬셔서요 키키",
+            "norm_text": "키키 친구 중에 공군 부사관 간 친구가 있는데 한 달 훈련만 버티면 괜찮다고 꼬셔서요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+친구/NNG+중/NNB+에/JKB+공군/NNG+부사관/NNG+간/NNB+친구/NNG+가/JKS+있/VA+는데/EC+한/MM+달/NNBC+훈련/NNG+만/JX+버티/VV+면/EC+괜찮/VA+다고/EC+꼬셔서/VV+EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오... 대박적이다... 키키 아니 한 달은 그럼 완전 죽는다나?",
+            "norm_text": "오... 대박적이다... 키키 아니 한 달은 그럼 완전 죽는다나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+대박/NNG+적/XSN+이/VCP+다/EF+./SY+키/NNG+키/XSV+ETN+아니/VCN+한/XSA+ETM+달/NNG+은/JX+그럼/MAJ+완전/MAG+죽/VV+는다나/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아요 키키 그 한 달만 버티면 할 만하다고 키키",
+            "norm_text": "맞아요 키키 그 한 달만 버티면 할 만하다고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+키키/NNP+그/MM+한/MM+달/NNG+만/JX+버티/VV+면/EC+할/VX+ETM+만/NNB+하/XSA+다고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오... 대박... 그 한 달은 뭐 하는 거야?",
+            "norm_text": "오... 대박... 그 한 달은 뭐 하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+대박/NNG+./SY+./SY+그/MM+한/MM+달/NNG+은/JX+뭐/IC+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 엄청난 훈련? 상상도 못할 훈련? 키키",
+            "norm_text": "엄청난 훈련? 상상도 못할 훈련? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄청난/VA+ETM+훈련/NNG+?/SY+상상/NNG+도/JX+못/MAG+할/VV+ETM+훈련/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 오... 너무 싫다... 키키 나는 그냥 이렇게 살래...",
+            "norm_text": "키키 오... 너무 싫다... 키키 나는 그냥 이렇게 살래...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EF+./SY+너무/MAG+싫/VA+다/EF+./SY+키/NNG+키나/XSA+ETN+JX+는/JX+그냥/MAG+이렇게/MAG+살래/VV+EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 휴 저도 그때 잠깐 그렇게 생각했죠 키키",
+            "norm_text": "키키 휴 저도 그때 잠깐 그렇게 생각했죠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+휴/IC+저/NP+도/JX+그때/NNG+잠깐/MAG+그렇게/MAG+생각/NNG+했/XSV+EP+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 아니 그럼 다시 도전할 생각은 없고",
+            "norm_text": "키키 아니 그럼 다시 도전할 생각은 없고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+그럼/MAJ+다시/MAG+도전/NNG+할/XSV+ETM+생각/NNG+은/JX+없/VA+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 넵! 하하 그때는 너무 어렸나 봐요 키키",
+            "norm_text": "키키 넵! 하하 그때는 너무 어렸나 봐요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+넵/NNG+하하/MAG+그때/NNG+는/JX+너무/MAG+어렸/VA+EP+나/EC+봐요/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 그래 하지 말자... 넘 힘들어... 건강한 게(?) 최고야",
+            "norm_text": "키키 그래 하지 말자... 넘 힘들어... 건강한 게(?) 최고야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VA+EC+하/VV+지/EC+말/VX+자/EF+./SY+넘/MAG+힘들/VA+어/EF+./SY+건강/NNG+한/XSA+ETM+게/NNB+JKS+?/SY+최고/NNG+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼요 키키 예전에는 튼튼했는데 이제 뭐 비실이에요 키키",
+            "norm_text": "그럼요 키키 예전에는 튼튼했는데 이제 뭐 비실이에요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+요키/NNP+키/NNG+예전/NNG+에/JKB+는/JX+튼튼/XR+했/XSA+EP+는데/EC+이제/MAG+뭐/IC+비실/NNG+이/VCP+에요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 아니 일단 너무 말랐어... 살 좀 찌자",
+            "norm_text": "키키 아니 일단 너무 말랐어... 살 좀 찌자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+일단/MAG+너무/MAG+말랐/VV+EP+어/EF+./SY+살/VV+ETM+좀/MAG+찌/VV+자/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 언니 저 뱃살 안 보셨죠? 놀랄 거예요 키키",
+            "norm_text": "키키 언니 저 뱃살 안 보셨죠? 놀랄 거예요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키언니저뱃살안보셨죠/UNKNOWN+놀랄/VV+ETM+거/NNB+예요/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아니 그치만 팔다리가 곧 부러질 것 같애",
+            "norm_text": "아니 그치만 팔다리가 곧 부러질 것 같애",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그치만/MAJ+팔다리/NNG+가/JKS+곧/MAG+부러질/VV+ETM+것/NNB+같/VA+애/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

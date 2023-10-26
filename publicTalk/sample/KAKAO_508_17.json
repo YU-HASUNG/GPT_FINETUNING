@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 25320,
+    "name": "KAKAO_508_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302093140/KAKAO_508_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302093140/KAKAO_508_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28687,
+      "filename": "KAKAO_508_17.txt",
+      "title": "KAKAO_508_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 390,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 390,
+        "word_size": 123,
+        "text": "1 : 요새 너무 피곤해서 잠만 자네요\n2 : 기력 보충 좀 하셔야 될 것 같은데요?\n1 : 기력이 없어요 맨날\n2 : 올 여름 몸보신하는 거 드셨어요?\n1 : 아니여 올 여름은 다이어트만 했네요\n1 : 뭐 먹었나요\n2 : 여름에는 땀을 흘리니까 기력 보충해줘야 해요\n1 : 토마토가 슈퍼 푸드라고 하던데 몸에 좋은 거 뭐 있나요\n2 : 브로콜리 드셨어요? 그거 설포라판 많아서 몸에 좋아요\n1 : 브로콜리 삶아 먹으면 맛있죠\n2 : 삶아서 먹지 마시고 살짝만 데쳐서 드세요\n1 : 아 그렇군요 그거랑 또 비타민 챙겨 먹네요\n2 : 당근도 많이 드세요 베타카로틴이 많아서 좋아요\n1 : 그래야겠네요 당근 쥬스로\n2 : 보라색 음식도 많이 드세요\n1 : 보라색이면 가지 같은 거요?\n2 : 안토시아닌이 많아서 효과 볼 수 있어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 너무 피곤해서 잠만 자네요",
+            "norm_text": "요새 너무 피곤해서 잠만 자네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/MAG+너무/MAG+피곤/NNG+해서/XSV+EC+잠/NNG+만/JX+자네/NP+요/JX"
+          },
+          {
+            "id": 2,
+            "text": "2 : 기력 보충 좀 하셔야 될 것 같은데요?",
+            "norm_text": "기력 보충 좀 하셔야 될 것 같은데요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "기력/NNG+보충/NNG+좀/MAG+하/VV+셔야/EP+EC+될/VV+ETM+것/NNB+같/VA+은데요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 기력이 없어요 맨날",
+            "norm_text": "기력이 없어요 맨날",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "기력/NNG+이/JKS+없/VA+어요/EF+맨날/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 올 여름 몸보신하는 거 드셨어요?",
+            "norm_text": "올 여름 몸보신하는 거 드셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "올/MM+여름/NNG+몸보신/NNG+하/XSV+는/ETM+거/NNB+드셨/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니여 올 여름은 다이어트만 했네요",
+            "norm_text": "아니여 올 여름은 다이어트만 했네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/VCN+여/EC+올/MM+여름/NNG+은/JX+다이어트/NNG+만/JX+했/VV+EP+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 뭐 먹었나요",
+            "norm_text": "뭐 먹었나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+먹/VV+었/EP+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 여름에는 땀을 흘리니까 기력 보충해줘야 해요",
+            "norm_text": "여름에는 땀을 흘리니까 기력 보충해줘야 해요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+에/JKB+는/JX+땀/NNG+을/JKO+흘리/VV+니까/EC+기력/NNG+보충/NNG+해/XSV+EC+줘야/VX+EC+해요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 토마토가 슈퍼 푸드라고 하던데 몸에 좋은 거 뭐 있나요",
+            "norm_text": "토마토가 슈퍼 푸드라고 하던데 몸에 좋은 거 뭐 있나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "토마토/NNG+가/JKS+슈퍼/NNG+푸드/NNG+라고/VCP+EC+하/VV+던데/EC+몸/NNG+에/JKB+좋/VA+은/ETM+거/NNB+뭐/IC+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 브로콜리 드셨어요? 그거 설포라판 많아서 몸에 좋아요",
+            "norm_text": "브로콜리 드셨어요? 그거 설포라판 많아서 몸에 좋아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "브로콜리/NNG+드셨/VV+EP+어요/EF+그/MM+거설/NNG+포라/NNG+판/NNG+많/VA+아서/EC+몸/NNG+에/JKB+좋/VA+아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 브로콜리 삶아 먹으면 맛있죠",
+            "norm_text": "브로콜리 삶아 먹으면 맛있죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "브로콜리/NNG+삶/VV+아/EC+먹/VV+으면/EC+맛있/VA+죠/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 삶아서 먹지 마시고 살짝만 데쳐서 드세요",
+            "norm_text": "삶아서 먹지 마시고 살짝만 데쳐서 드세요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "삶/VV+아서/EC+먹/VV+지/EC+마시/VV+고/EC+살짝/NNG+만/JX+데쳐서/VV+EC+드세요/VV+EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 그렇군요 그거랑 또 비타민 챙겨 먹네요",
+            "norm_text": "아 그렇군요 그거랑 또 비타민 챙겨 먹네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그렇/VA+군요/EF+그거/NP+랑/JKB+또/MAG+비타민/NNG+챙겨/VV+EC+먹/VV+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 당근도 많이 드세요 베타카로틴이 많아서 좋아요",
+            "norm_text": "당근도 많이 드세요 베타카로틴이 많아서 좋아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "당근/NNG+도/JX+많이/MAG+드세요/VV+EP+EC+베타카로틴/NNG+이/JKS+많/VA+아서/EC+좋/VA+아요/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그래야겠네요 당근 쥬스로",
+            "norm_text": "그래야겠네요 당근 쥬스로",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래야/VA+EC+VX+겠/EP+네요/EF+당근/MAG+쥬스/NNP+로/JKB"
+          },
+          {
+            "id": 15,
+            "text": "2 : 보라색 음식도 많이 드세요",
+            "norm_text": "보라색 음식도 많이 드세요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보라색/NNG+음식/NNG+도/JX+많이/MAG+드세요/VV+EP+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 보라색이면 가지 같은 거요?",
+            "norm_text": "보라색이면 가지 같은 거요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "보라색/NNG+이/VCP+면/EC+가지/VX+같/VA+은/ETM+거/NNB+요/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 안토시아닌이 많아서 효과 볼 수 있어요",
+            "norm_text": "안토시아닌이 많아서 효과 볼 수 있어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안토시아닌/NNP+이/JKS+많/VA+아서/EC+효과/NNG+볼/VV+ETM+수/NNB+있/VV+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

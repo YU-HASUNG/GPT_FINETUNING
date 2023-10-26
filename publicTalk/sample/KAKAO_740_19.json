@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 31830,
+    "name": "KAKAO_740_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049029868/KAKAO_740_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049029868/KAKAO_740_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37609,
+      "filename": "KAKAO_740_19.txt",
+      "title": "KAKAO_740_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 857,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 857,
+        "word_size": 270,
+        "text": "1 : 놀면 뭐 하니 봐 줘\n1 : 아 맞어 김태호 피디 넷플릭스에서도 예능 시작하더라\n2 : 놀면 뭐 하니라니 차라리 유퀴즈를 본다\n2 : 아 진심? 무슨 예능?\n1 : msg 워너비 인기 얼마나 많은데! 제목은 까먹었는데 노홍철 나와!\n2 : 아니 노홍철만 기억하냐고 키키\n2 : 한번 찾아봐야겠다 너는 그럼 유재석 나오는 거 중에 어느 예능 제일 좋아함\n1 : 나는 무한도전! 키키 무한도전은 나랑 같이 자랐어 거의 어떤 예능이 와도 못 이긴다\n2 : 아 고건 인정 그 프로그램은 예능 그 이상의 추억 느낌이 있지 나도 유재석 나온 것 중 그게 제일 좋아\n1 : 그치 모든지 추억이 겹쳐지면 그거 절대 못 이기지 너는 요즘 무슨 예능 봐?\n2 : 나는 요새 놀라운 토요일만 보고 있어 키키\n2 : 티빙 하니까 티비엔 꺼만 많이 보게 되는 듯!\n1 : 놀토 게스트 빵빵해서 더 재밌지 키키 티비엔 러브캐쳐도 재밌어!\n1 : 아 식스센스도! 식스센스 무조건 추천한다 진짜\n2 : 키키 맞어 저번에도 추천 들었는데 까먹고 있었다\n2 : 이번에는 꼭 보겠음\n2 : 아 그리고 환승 연애도 보고 있어 얘네 제주도 간 걸로 대리 만족 중이야\n1 : 키키 연애 프로그램을 여행 욕구 해소를 목적으로 보고 있어 키키\n2 : 키키 연애로 설레기에는 애들이 너무 무서워 불구경하는 기분이야\n1 : 하긴 키키 제목부터 마라 맛이야 키키 대놓고 환승이라고 지었어 키키\n2 : 나도 그건 제작진이 대단한 거 같음 키키\n2 : 근데 마라 맛이라 제작진 분량 걱정은 안 해도 될 것 같더라 제작진 입장에서는 좋을 듯\n1 : 맞아 무슨 장면을 갖다 넣어도 자극적이야 키키 오히려 잘라 낼 거 없어서 머리 아플 수도 키키\n2 : 맞엌 키키 그래서 이번에 거의 두 시간이었음 나 같아도 못 자르겠더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 놀면 뭐 하니 봐 줘",
+            "norm_text": "놀면 뭐 하니 봐 줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "놀/VV+면/EC+뭐/IC+하/VV+니/EC+봐/VX+EC+줘/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "1 : 아 맞어 김태호 피디 넷플릭스에서도 예능 시작하더라",
+            "norm_text": "아 맞어 김태호 피디 넷플릭스에서도 예능 시작하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+어/EC+김태호/NNP+피디/NNP+넷플릭스/NNP+에서/JKB+도/JX+예능/NNG+시작/NNG+하/XSV+더라/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 놀면 뭐 하니라니 차라리 유퀴즈를 본다",
+            "norm_text": "놀면 뭐 하니라니 차라리 유퀴즈를 본다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "놀/VV+면/EC+뭐하니/NNP+라니/VCP+EC+차/NNG+라리유/NNP+퀴즈/NNG+를/JKO+본다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 진심? 무슨 예능?",
+            "norm_text": "아 진심? 무슨 예능?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진심/NNG+무슨/MM+예능/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : msg 워너비 인기 얼마나 많은데! 제목은 까먹었는데 노홍철 나와!",
+            "norm_text": "msg 워너비 인기 얼마나 많은데! 제목은 까먹었는데 노홍철 나와!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "msg/SL+워너비/NNP+인기/NNG+얼마나/MAG+많/VA+은데/EF+제목/NNG+은/JX+까먹/VV+었/EP+는데/EC+노홍철/NNP+나와/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 노홍철만 기억하냐고 키키",
+            "norm_text": "아니 노홍철만 기억하냐고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+노홍철/NNP+만/JX+기억/NNG+하/XSV+냐고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 한번 찾아봐야겠다 너는 그럼 유재석 나오는 거 중에 어느 예능 제일 좋아함",
+            "norm_text": "한번 찾아봐야겠다 너는 그럼 유재석 나오는 거 중에 어느 예능 제일 좋아함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+번/NNBC+찾/VV+아/EC+봐야/VX+EC+VV+겠/EP+다/EF+너/NP+는/JX+그럼/MAJ+유재석/NNP+나오/VV+는/ETM+거/NNB+중/NNB+에/JKB+어느/MM+예능/NNG+제일/MAG+좋아함/VV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나는 무한도전! 키키 무한도전은 나랑 같이 자랐어 거의 어떤 예능이 와도 못 이긴다",
+            "norm_text": "나는 무한도전! 키키 무한도전은 나랑 같이 자랐어 거의 어떤 예능이 와도 못 이긴다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+무한도전/NNP+!/SY+키키/NNP+무한도전/NNP+은/JX+나/NP+랑/JKB+같이/MAG+자랐/VV+EP+어/EC+거의/MAG+어떤/MM+예능/NNG+이/JKS+와도/VV+EC+못/MAG+이긴다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 고건 인정 그 프로그램은 예능 그 이상의 추억 느낌이 있지 나도 유재석 나온 것 중 그게 제일 좋아",
+            "norm_text": "아 고건 인정 그 프로그램은 예능 그 이상의 추억 느낌이 있지 나도 유재석 나온 것 중 그게 제일 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+고건/NP+JX+인정/NNG+그/MM+프로그램/NNG+은/JX+예능/NNG+그/MM+이상/NNG+의/JKG+추억/NNG+느낌/NNG+이/JKS+있/VA+지/EF+나/NP+도/JX+유재석/NNP+나온/VV+ETM+것/NNB+중/NNB+그게/NP+JKS+제일/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그치 모든지 추억이 겹쳐지면 그거 절대 못 이기지 너는 요즘 무슨 예능 봐?",
+            "norm_text": "그치 모든지 추억이 겹쳐지면 그거 절대 못 이기지 너는 요즘 무슨 예능 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+치모/NNG+든지/VCP+EC+추억/NNG+이/JKS+겹쳐지/VV+면/EC+그거/NP+절대/MAG+못/MAG+이기/VV+지/EC+너/NP+는/JX+요즘/MAG+무슨/MM+예능/NNG+봐/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 요새 놀라운 토요일만 보고 있어 키키",
+            "norm_text": "나는 요새 놀라운 토요일만 보고 있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+요새/MAG+놀라운/VA+ETM+토요일/NNG+만/JX+보/VV+고/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 티빙 하니까 티비엔 꺼만 많이 보게 되는 듯!",
+            "norm_text": "티빙 하니까 티비엔 꺼만 많이 보게 되는 듯!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "티빙/NNP+하/VV+니까/EC+티비/NNG+엔/JKB+JX+꺼/VV+EC+만/JX+많이/MAG+보/VV+게/EC+되/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 13,
+            "text": "1 : 놀토 게스트 빵빵해서 더 재밌지 키키 티비엔 러브캐쳐도 재밌어!",
+            "norm_text": "놀토 게스트 빵빵해서 더 재밌지 키키 티비엔 러브캐쳐도 재밌어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "놀토/NNG+게스트/NNG+빵빵/MAG+해서/VV+EC+더/MAG+재밌/VA+지/EC+키/NNG+키/NNG+티비/NNG+엔/JKB+JX+러브/NNG+캐/VV+EC+쳐도/VV+EC+재밌/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 식스센스도! 식스센스 무조건 추천한다 진짜",
+            "norm_text": "아 식스센스도! 식스센스 무조건 추천한다 진짜",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아식스/NNP+센스/NNG+도/JX+식스/NR+센스/NNG+무조건/MAG+추천/NNG+한다/XSV+EF+진짜/MAG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 맞어 저번에도 추천 들었는데 까먹고 있었다",
+            "norm_text": "키키 맞어 저번에도 추천 들었는데 까먹고 있었다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+어/EC+저번/NNG+에/JKB+도/JX+추천/NNG+들/VV+었/EP+는데/EC+까먹/VV+고/EC+있/VX+었/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이번에는 꼭 보겠음",
+            "norm_text": "이번에는 꼭 보겠음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+는/JX+꼭/MAG+보/VV+겠/EP+음/ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 그리고 환승 연애도 보고 있어 얘네 제주도 간 걸로 대리 만족 중이야",
+            "norm_text": "아 그리고 환승 연애도 보고 있어 얘네 제주도 간 걸로 대리 만족 중이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그리고/MAJ+환승/NNG+연애/NNG+도/JX+보/VV+고/EC+있/VX+어/EC+얘/NP+네/XSN+제주도/NNP+간걸/NNG+로/JKB+대리/NNG+만족/NNG+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 연애 프로그램을 여행 욕구 해소를 목적으로 보고 있어 키키",
+            "norm_text": "키키 연애 프로그램을 여행 욕구 해소를 목적으로 보고 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+연애/NNG+프로그램/NNG+을/JKO+여행/NNG+욕구/NNG+해소/NNG+를/JKO+목적/NNG+으로/JKB+보/VV+고/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 연애로 설레기에는 애들이 너무 무서워 불구경하는 기분이야",
+            "norm_text": "키키 연애로 설레기에는 애들이 너무 무서워 불구경하는 기분이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+연애/NNG+로/JKB+설레/VV+기/ETN+에/JKB+는/JX+애/NNG+들/XSN+이/JKS+너무/MAG+무서워/VA+EC+불구경/NNG+하/XSV+는/ETM+기분/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 하긴 키키 제목부터 마라 맛이야 키키 대놓고 환승이라고 지었어 키키",
+            "norm_text": "하긴 키키 제목부터 마라 맛이야 키키 대놓고 환승이라고 지었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+키/NNG+키/NNG+제목/NNG+부터/JX+마라/VV+EC+맛/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN+대놓/VV+고/EC+환승/NNG+이/VCP+라고/EC+지/VX+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 나도 그건 제작진이 대단한 거 같음 키키",
+            "norm_text": "나도 그건 제작진이 대단한 거 같음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그건/NP+JX+제작진/NNG+이/JKS+대단/XR+한/XSA+ETM+거/NNB+같/VA+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 근데 마라 맛이라 제작진 분량 걱정은 안 해도 될 것 같더라 제작진 입장에서는 좋을 듯",
+            "norm_text": "근데 마라 맛이라 제작진 분량 걱정은 안 해도 될 것 같더라 제작진 입장에서는 좋을 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+마라/NNG+맛/NNG+이/VCP+라/EC+제작진/NNG+분량/NNG+걱정/NNG+은/JX+안/MAG+해도/VV+EC+될/VV+ETM+것/NNB+같/VA+더라/EC+제작진/NNG+입장/NNG+에서/JKB+는/JX+좋/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 23,
+            "text": "1 : 맞아 무슨 장면을 갖다 넣어도 자극적이야 키키 오히려 잘라 낼 거 없어서 머리 아플 수도 키키",
+            "norm_text": "맞아 무슨 장면을 갖다 넣어도 자극적이야 키키 오히려 잘라 낼 거 없어서 머리 아플 수도 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+무슨/MM+장면/NNG+을/JKO+갖/VV+다/EC+넣/VV+어도/EC+자극/NNG+적/XSN+이/VCP+야/EC+키/NNG+키/XSV+ETN+오히려/MAJ+잘라낼/VV+EC+VX+ETM+거/NNB+없/VA+어서/EC+머리/NNG+아플/VA+ETM+수/NNB+도/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 맞엌 키키 그래서 이번에 거의 두 시간이었음 나 같아도 못 자르겠더라",
+            "norm_text": "맞엌 키키 그래서 이번에 거의 두 시간이었음 나 같아도 못 자르겠더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞엌/UNKNOWN+키/NNG+키/XSV+ETN+그래서/MAJ+이번/NNG+에/JKB+거의/MAG+두/MM+시간/NNG+이/VCP+었/EP+음/ETN+나/JX+같/VA+아도/EC+못/MAG+자르/VV+겠/EP+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

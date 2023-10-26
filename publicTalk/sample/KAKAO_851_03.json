@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32982,
+    "name": "KAKAO_851_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173756028081/KAKAO_851_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173756028081/KAKAO_851_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39921,
+      "filename": "KAKAO_851_03.txt",
+      "title": "KAKAO_851_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 424,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 424,
+        "word_size": 137,
+        "text": "1 : 학교 갈 때 버스 타고 다님?\n2 : 나는 지하철 키키 집 앞에 지하철이야\n1 : 아 바로 앞에 지하철 다행이네 키키 버스는 힘들어\n2 : 맞다 키키 근데 지하철도 가끔 힘들다\n1 : 거기도 많이 북적거리나? 키키\n2 : 북적거릴 때는 북적거리지... 케바케인듯\n1 : 그건 그래 진짜 서울은 그런데 진짜 못 타겠더라\n2 : 맞다 진짜... 서울은 말이 안되는 곳이야\n1 : 하... 진짜 지하철 타다가 압사 당하는 줄\n2 : 키키 대단하네 키키 진짜 대구에서 타다가 서울에서 타면 답이 안 나오지\n1 : 진짜 키키 대구는 아주 널널한데 키키\n2 : 그렇지 키키 대구가 생각보다 너무 널널한 것 같다\n1 : 진짜 키키 이러니 자꾸 적자라고 하지\n2 : 키키 누나야는 버스 타고 다니나\n1 : 난 보통 버스 키키 집에 바로 지하철이 없어서\n2 : 아 맞네 우리 동네에 살잖아 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 학교 갈 때 버스 타고 다님?",
+            "norm_text": "학교 갈 때 버스 타고 다님?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "학교/NNG+갈/VV+ETM+때/NNG+버스타/NNP+고다/NNP+님/XSN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 지하철 키키 집 앞에 지하철이야",
+            "norm_text": "나는 지하철 키키 집 앞에 지하철이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+지하철/NNG+키/NNG+키/NNG+집/NNG+앞/NNG+에/JKB+지하철/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 바로 앞에 지하철 다행이네 키키 버스는 힘들어",
+            "norm_text": "아 바로 앞에 지하철 다행이네 키키 버스는 힘들어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+바로/MAG+앞/NNG+에/JKB+지하철/NNG+다행/NNG+이/JKS+네/MM+키/NNG+키/NNG+버스/NNG+는/JX+힘들/VA+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞다 키키 근데 지하철도 가끔 힘들다",
+            "norm_text": "맞다 키키 근데 지하철도 가끔 힘들다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EC+키/NNG+키/XSV+ETN+근데/MAJ+지하철/NNG+도/JX+가끔/MAG+힘들/VA+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 거기도 많이 북적거리나? 키키",
+            "norm_text": "거기도 많이 북적거리나? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+도/JX+많이/MAG+북적거리/VV+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 북적거릴 때는 북적거리지... 케바케인듯",
+            "norm_text": "북적거릴 때는 북적거리지... 케바케인듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "북적거릴/VV+ETM+때/NNG+는/JX+북적거리/VV+지/EF+./SY+케/IC+바케/NNP+인/VCP+ETM+듯/NNB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그건 그래 진짜 서울은 그런데 진짜 못 타겠더라",
+            "norm_text": "그건 그래 진짜 서울은 그런데 진짜 못 타겠더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그래/VA+EC+진짜/MAG+서울/NNP+은/JX+그런데/MAJ+진짜/MAG+못/MAG+타/VV+겠/EP+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞다 진짜... 서울은 말이 안되는 곳이야",
+            "norm_text": "맞다 진짜... 서울은 말이 안되는 곳이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EF+진짜/MAG+./SY+./SY+서울/NNP+은/JX+말/NNG+이/JKS+안/MAG+되/VV+는/ETM+곳/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하... 진짜 지하철 타다가 압사 당하는 줄",
+            "norm_text": "하... 진짜 지하철 타다가 압사 당하는 줄",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/IC+./SY+진짜/MAG+지하철/NNG+타/VV+다가/EC+압사/NNG+당하/XSV+는/ETM+줄/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 대단하네 키키 진짜 대구에서 타다가 서울에서 타면 답이 안 나오지",
+            "norm_text": "키키 대단하네 키키 진짜 대구에서 타다가 서울에서 타면 답이 안 나오지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+대단/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN+진짜/MAG+대구/NNP+에서/JKB+타/VV+다가/EC+서울/NNP+에서/JKB+타/VV+면/EC+답/NNG+이/JKS+안/MAG+나오/VV+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 진짜 키키 대구는 아주 널널한데 키키",
+            "norm_text": "진짜 키키 대구는 아주 널널한데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+키키/NNP+대구/NNP+는/JX+아주/MAG+널널/XR+한데/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그렇지 키키 대구가 생각보다 너무 널널한 것 같다",
+            "norm_text": "그렇지 키키 대구가 생각보다 너무 널널한 것 같다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EC+키키/NNP+대구/NNP+가/JKS+생각/NNG+보다/JKB+너무/MAG+널널/XR+한/XSA+ETM+것/NNB+같/VA+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 진짜 키키 이러니 자꾸 적자라고 하지",
+            "norm_text": "진짜 키키 이러니 자꾸 적자라고 하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+키/NNG+키/XSV+ETN+이러/VV+니/EC+자꾸/MAG+적자/NNG+라고/VCP+EC+하/VV+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 누나야는 버스 타고 다니나",
+            "norm_text": "키키 누나야는 버스 타고 다니나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+누나야/NNP+는/JX+버스/NNG+타/VV+고/EC+다니/VV+나/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 난 보통 버스 키키 집에 바로 지하철이 없어서",
+            "norm_text": "난 보통 버스 키키 집에 바로 지하철이 없어서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+보통/NNG+버스/NNG+키/NNG+키/NNG+집/NNG+에/JKB+바로/MAG+지하철/NNG+이/JKS+없/VA+어서/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 맞네 우리 동네에 살잖아 키키",
+            "norm_text": "아 맞네 우리 동네에 살잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+네/EF+우리/NP+동네/NNG+에/JKB+살/VV+잖아/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

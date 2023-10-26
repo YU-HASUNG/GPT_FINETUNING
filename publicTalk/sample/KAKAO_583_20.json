@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25125,
+    "name": "KAKAO_583_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155950012543/KAKAO_583_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155950012543/KAKAO_583_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31591,
+      "filename": "KAKAO_583_20.txt",
+      "title": "KAKAO_583_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 424,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 424,
+        "word_size": 123,
+        "text": "1 : 영화 해바라기 봤나요\n2 : 그거 오태식이 나오는 거 아닌가요?\n1 : 맞아요 오태식이 돌아왔구나\n2 : 근데 진짜로 오태식이 아줌마 아들 죽였나요?\n1 : 오태식이 해바라기 식당 아줌마 아들 죽여서 사죄하려고\n2 : 레알이었군요 근데 그 아줌마는 오태식을 받아줬네요\n1 : 네 오태식이 그렇게 눈물로 다짐했는데...\n2 : 카센타 아저씨는 어떻게 됐나요?\n1 : 카센타 아저씨는 그냥 호구 아닌가여\n2 : 그럼 기 아줌마 딸은 머리에 벽돌 맞고 죽었나요?\n1 : 아니여 벽돌 맞고 응급실 갔다가 치료 받고 학교 다니네요\n2 : 아줌마는 왜 자살했을까...요? 슬프네요\n1 : 아줌마 자살 안 했어요\n2 : 맞아요 그 미친놈들이 죽여 놓고 자살 위장했잖아요\n1 : 거기서 오태식이 옛날 조폭 동료가 죽여 놓고 위장 맞아요\n2 : 꼭 그렇게 가져가야 했을까요? 속이 후련했을까요?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 영화 해바라기 봤나요",
+            "norm_text": "영화 해바라기 봤나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영화/NNG+해/XSV+EC+바라/VX+기/ETN+봤/VV+EP+나요/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그거 오태식이 나오는 거 아닌가요?",
+            "norm_text": "그거 오태식이 나오는 거 아닌가요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+오태식/NNP+이/JKS+나오/VV+는/ETM+거/NNB+아닌가요/VCN+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아요 오태식이 돌아왔구나",
+            "norm_text": "맞아요 오태식이 돌아왔구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요오/EC+태식/NNG+이/JKS+돌아왔/VV+EP+구나/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 진짜로 오태식이 아줌마 아들 죽였나요?",
+            "norm_text": "근데 진짜로 오태식이 아줌마 아들 죽였나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+진짜/NNG+로/JKB+오태식/NNP+이/JKS+아줌마/NNG+아들/NNG+죽였/VV+EP+나요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오태식이 해바라기 식당 아줌마 아들 죽여서 사죄하려고",
+            "norm_text": "오태식이 해바라기 식당 아줌마 아들 죽여서 사죄하려고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오태식/NNP+이/JKS+해바라기/NNG+식당/NNG+아줌마/NNG+아들/NNG+죽여서/VV+EC+사죄/NNG+하/XSV+려고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 레알이었군요 근데 그 아줌마는 오태식을 받아줬네요",
+            "norm_text": "레알이었군요 근데 그 아줌마는 오태식을 받아줬네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "레알/NNP+이/VCP+었/EP+군요/EF+근데/MAJ+그/MM+아줌마/NNG+는/JX+오태식/NNP+을/JKO+받/VV+아/EC+줬/VX+EP+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 네 오태식이 그렇게 눈물로 다짐했는데...",
+            "norm_text": "네 오태식이 그렇게 눈물로 다짐했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+오태식/NNP+이/JKS+그렇게/MAG+눈물/NNG+로/JKB+다짐/NNG+했/XSV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 카센타 아저씨는 어떻게 됐나요?",
+            "norm_text": "카센타 아저씨는 어떻게 됐나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카센/NNP+타/MM+아저씨/NNG+는/JX+어떻게/MAG+됐/VV+EP+나요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 카센타 아저씨는 그냥 호구 아닌가여",
+            "norm_text": "카센타 아저씨는 그냥 호구 아닌가여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "카센/NNP+타/MM+아저씨/NNG+는/JX+그냥/MAG+호구/NNG+아닌가/VCN+EC+VCP+여/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그럼 기 아줌마 딸은 머리에 벽돌 맞고 죽었나요?",
+            "norm_text": "그럼 기 아줌마 딸은 머리에 벽돌 맞고 죽었나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+기/ETN+아줌마/NNG+딸/NNG+은/JX+머리/NNG+에/JKB+벽돌/NNG+맞/VV+고/EC+죽/VV+었/EP+나요/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아니여 벽돌 맞고 응급실 갔다가 치료 받고 학교 다니네요",
+            "norm_text": "아니여 벽돌 맞고 응급실 갔다가 치료 받고 학교 다니네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/VCN+여/EC+벽돌/NNG+맞/VV+고/EC+응급실/NNG+갔/VV+EP+다가/EC+치료/NNG+받/VV+고/EC+학교/NNG+다니/VV+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아줌마는 왜 자살했을까...요? 슬프네요",
+            "norm_text": "아줌마는 왜 자살했을까...요? 슬프네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아줌마/NNG+는/JX+왜/MAG+자살/NNG+했/XSV+EP+을까/EF+./SY+./SY+요/JX+슬프/VA+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아줌마 자살 안 했어요",
+            "norm_text": "아줌마 자살 안 했어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아줌마/NNG+자살/NNG+안/MAG+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아요 그 미친놈들이 죽여 놓고 자살 위장했잖아요",
+            "norm_text": "맞아요 그 미친놈들이 죽여 놓고 자살 위장했잖아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아요/EF+그/MM+미친놈/NNG+들/XSN+이/JKS+죽여/VV+EC+놓/VX+고/EC+자살/NNG+위장/NNG+했/XSV+EP+잖아요/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 거기서 오태식이 옛날 조폭 동료가 죽여 놓고 위장 맞아요",
+            "norm_text": "거기서 오태식이 옛날 조폭 동료가 죽여 놓고 위장 맞아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+서/JKB+오태식/NNP+이/JKS+옛날/NNG+조폭/NNG+동료/NNG+가/JKS+죽여/VV+EC+놓/VX+고/EC+위장/NNG+맞/VV+아요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 꼭 그렇게 가져가야 했을까요? 속이 후련했을까요?",
+            "norm_text": "꼭 그렇게 가져가야 했을까요? 속이 후련했을까요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "꼭/MAG+그렇게/MAG+가져가/VV+야/EC+했/VX+EP+을까요/EF+속/NNG+이/JKS+후련/XR+했/XSA+EP+을까요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

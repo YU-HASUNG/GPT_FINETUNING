@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 56063,
+    "name": "KAKAO_710_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256070311/KAKAO_710_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256070311/KAKAO_710_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35611,
+      "filename": "KAKAO_710_12.txt",
+      "title": "KAKAO_710_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 556,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 556,
+        "word_size": 190,
+        "text": "1 : 너는 제일 추천하는 여행지가 어디야?\n2 : 나는 해외여행은 스위스, 국내는 제주도가 좋은 거 같아 키키\n1 : 오 제주도 키키 넌 제주도 가면 한 바퀴 다 돌아?\n2 : 응응 보통 한 바퀴 다 돌고 와 키키\n2 : 제주도 가본 적 있어? 키키\n1 : 키키 응응 나도 몇 번 가봤는데 키키\n1 : 꼭 한 바퀴 다 돌아야 맘이 편해\n2 : 맞아 키키 제주도는 맛집도 많아서 좋아~\n1 : 키키 맞다... 키키 그 전복 김밥? 나 그거 맛있더라?\n2 : 나도 나도 김만복 김밥에 전복 김밥 매번 사 먹는 거 같아 키키\n1 : 제주도는 먹으러 여행 가는 느낌이 크네 키키\n2 : 응응 자연도 좋더랑 키키\n2 : 우도 너무 예뻐서 자주가~\n1 : 오오 키키 우도 가서 그거 스쿠터 같은 거 타고 돌아다녀?\n2 : 응응 스쿠터 타고 바람 쐐면 너무 기분이 좋아!\n1 : 키키 나도 거기 가서 놀았는데 키키 재밌더라구? 키키\n2 : 오 진짜? 키키 언제 가봤어? 키키\n1 : 키키 나 올해 가봤어! 키키 운전도 하고 키키\n1 : 근데 옛날엔 말도 탈 수 있었던 거 같은데\n2 : 키키 거기서 말을 탄다고? 키키 말 다 치이겠다 ㅜㅜ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 제일 추천하는 여행지가 어디야?",
+            "norm_text": "너는 제일 추천하는 여행지가 어디야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+제일/MAG+추천/NNG+하/XSV+는/ETM+여행지/NNG+가/JKS+어디/NP+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 해외여행은 스위스, 국내는 제주도가 좋은 거 같아 키키",
+            "norm_text": "나는 해외여행은 스위스, 국내는 제주도가 좋은 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+해외여행/NNG+은/JX+스위스/NNP+,/SC+국내/NNG+는/JX+제주도/NNP+가/JKS+좋/VA+은/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 제주도 키키 넌 제주도 가면 한 바퀴 다 돌아?",
+            "norm_text": "오 제주도 키키 넌 제주도 가면 한 바퀴 다 돌아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+제주도/NNP+키/NNG+키/XSV+ETN+넌/JX+제주도/NNP+가/JKS+면한/VV+ETM+바퀴/NNG+다/MAG+돌/VV+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 보통 한 바퀴 다 돌고 와 키키",
+            "norm_text": "응응 보통 한 바퀴 다 돌고 와 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+보통/MAJ+한/MM+바퀴/NNBC+다/MAG+돌고/NNG+와/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 제주도 가본 적 있어? 키키",
+            "norm_text": "제주도 가본 적 있어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제주도/NNP+가/JKS+본/VV+ETM+적/NNB+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 응응 나도 몇 번 가봤는데 키키",
+            "norm_text": "키키 응응 나도 몇 번 가봤는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+응/IC+나/NP+도/JX+몇/MM+번/NNBC+가/JKS+봤/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 꼭 한 바퀴 다 돌아야 맘이 편해",
+            "norm_text": "꼭 한 바퀴 다 돌아야 맘이 편해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "꼭/MAG+한/MM+바퀴/NNBC+다/MAG+돌/VV+아야/EC+맘/NNG+이/JKS+편해/VA+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아 키키 제주도는 맛집도 많아서 좋아~",
+            "norm_text": "맞아 키키 제주도는 맛집도 많아서 좋아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키키/NNP+제주도/NNP+는/JX+맛집/NNG+도/JX+많/VA+아서/EC+좋/VA+아/EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 맞다... 키키 그 전복 김밥? 나 그거 맛있더라?",
+            "norm_text": "키키 맞다... 키키 그 전복 김밥? 나 그거 맛있더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+다/EF+./SY+키키그전복김밥/UNKNOWN+나/NP+그거/NP+맛있/VA+더라/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 나도 김만복 김밥에 전복 김밥 매번 사 먹는 거 같아 키키",
+            "norm_text": "나도 나도 김만복 김밥에 전복 김밥 매번 사 먹는 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+나/NP+도/JX+김만복/NNP+김밥/NNG+에/JKB+전복/NNG+김밥/NNG+매번/MAG+사먹/VV+는/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 제주도는 먹으러 여행 가는 느낌이 크네 키키",
+            "norm_text": "제주도는 먹으러 여행 가는 느낌이 크네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제주도/NNP+는/JX+먹/VV+으러/EC+여행가/NNG+는/JX+느낌/NNG+이/JKS+크/VA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응응 자연도 좋더랑 키키",
+            "norm_text": "응응 자연도 좋더랑 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+자연/NNG+도/JX+좋/VA+더/EP+랑/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 우도 너무 예뻐서 자주가~",
+            "norm_text": "우도 너무 예뻐서 자주가~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우도/NNG+너무/MAG+예뻐서/VA+EC+자주/NNG+가/JKS+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오오 키키 우도 가서 그거 스쿠터 같은 거 타고 돌아다녀?",
+            "norm_text": "오오 키키 우도 가서 그거 스쿠터 같은 거 타고 돌아다녀?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/NNG+키/XSV+ETN+키우/VV+도/EC+가/VX+서/EC+그거/NP+스쿠터/NNG+같/VA+은/ETM+거/NNB+타/VV+고/EC+돌아다녀/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응응 스쿠터 타고 바람 쐐면 너무 기분이 좋아!",
+            "norm_text": "응응 스쿠터 타고 바람 쐐면 너무 기분이 좋아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+스쿠터/NNG+타/VV+고/EC+바람/NNG+쐐/NNG+면/VCP+EC+너무/MAG+기분/NNG+이/JKS+좋/VA+아/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 나도 거기 가서 놀았는데 키키 재밌더라구? 키키",
+            "norm_text": "키키 나도 거기 가서 놀았는데 키키 재밌더라구? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+거기/NP+가/JKS+서/VV+EC+놀/VV+았/EP+는데/EC+키/NNG+키/XSV+ETN+재밌/VA+더라구/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오 진짜? 키키 언제 가봤어? 키키",
+            "norm_text": "오 진짜? 키키 언제 가봤어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+진짜/MAG+키/NNG+키/XSV+ETN+언제/NP+가/JKS+봤/VV+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 나 올해 가봤어! 키키 운전도 하고 키키",
+            "norm_text": "키키 나 올해 가봤어! 키키 운전도 하고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+올해/NNG+가/JKS+봤/VV+EP+어/EF+키/NNG+키운/VV+ETM+전도/NNG+하/XSV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 근데 옛날엔 말도 탈 수 있었던 거 같은데",
+            "norm_text": "근데 옛날엔 말도 탈 수 있었던 거 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+옛날/NNG+엔/JKB+JX+말/NNG+도/JX+탈/VV+ETM+수/NNB+있/VV+었/EP+던/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 거기서 말을 탄다고? 키키 말 다 치이겠다 ㅜㅜ",
+            "norm_text": "키키 거기서 말을 탄다고? 키키 말 다 치이겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+거기/NP+서/JKB+말/NNG+을/JKO+탄다고/VV+EF+키/NNG+키/NNG+말/NNB+다/MAG+치이/VV+겠/EP+다/EF+ㅜㅜ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24989,
+    "name": "KAKAO_531_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150923024745/KAKAO_531_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150923024745/KAKAO_531_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29591,
+      "filename": "KAKAO_531_20.txt",
+      "title": "KAKAO_531_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 407,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 407,
+        "word_size": 134,
+        "text": "1 : 본 영화 중 뭐가 제일 기억에 남아?\n2 : 바람과 함께 사라지다 중학교 때 본 거야\n1 : 그 영화 들어본 거 같은데 유명하잖아\n2 : 응 넘 재밌어서 3번이나 가서 봤어\n1 : 오 무슨 내용인데? 궁금하다\n2 : 갑자기 물어보니 설명하기가 애매하네\n1 : 그럼 누구 누구 나와?\n2 : 응 비비안리 클라크 게이블  주인공이 선남선년대 넘 멋있고 재밌었어\n1 : 외국 영화였어? 난 한국 영화인 줄 알았어 키키\n2 : 1939년도 작품인데 남북전쟁 배경으로 한 거야\n1 : 와 엄청 오래된 작품이네\n2 : 응 너도 기회 되면 한번 봐봐\n1 : 그래야겠어 흥미롭네\n1 : 그럼 엄마도 찾아서 본 거야?\n2 : 아니 중학교 때 단체로 영화관 가서 본 거야\n1 : 그렇군 키키 오 그때 영화관도 갔나 보네?\n2 : 응 자주 갔었어 영화에 관심이 많았거든",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 본 영화 중 뭐가 제일 기억에 남아?",
+            "norm_text": "본 영화 중 뭐가 제일 기억에 남아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "본/MM+영화/NNG+중/NNB+뭐/NP+가/JKS+제일/MAG+기억/NNG+에/JKB+남/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 바람과 함께 사라지다 중학교 때 본 거야",
+            "norm_text": "바람과 함께 사라지다 중학교 때 본 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "바람/NNG+과/JKB+함께/MAG+사라지/VV+다/EC+중학교/NNG+때/NNG+본/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그 영화 들어본 거 같은데 유명하잖아",
+            "norm_text": "그 영화 들어본 거 같은데 유명하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+영화/NNG+들/VV+어/EC+본/VX+ETM+거/NNB+같/VA+은데/EC+유명/NNG+하/XSV+잖아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 넘 재밌어서 3번이나 가서 봤어",
+            "norm_text": "응 넘 재밌어서 3번이나 가서 봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+넘/MAG+재밌/VA+어서/EC+3/SN+번/NNBC+이/JKS+나가/VV+서/EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 무슨 내용인데? 궁금하다",
+            "norm_text": "오 무슨 내용인데? 궁금하다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+무슨/MM+내용/NNG+인데/VCP+EF+궁금/XR+하/XSA+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 갑자기 물어보니 설명하기가 애매하네",
+            "norm_text": "갑자기 물어보니 설명하기가 애매하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "갑자기/MAG+물/VV+어/EC+보/VX+니/EC+설명/NNG+하/XSV+기/ETN+가/JKS+애매/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그럼 누구 누구 나와?",
+            "norm_text": "그럼 누구 누구 나와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+누구/NP+누구/NP+나와/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 비비안리 클라크 게이블  주인공이 선남선년대 넘 멋있고 재밌었어",
+            "norm_text": "응 비비안리 클라크 게이블  주인공이 선남선년대 넘 멋있고 재밌었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+비비안/+리/+클라크/+게이블/+주인공/NNG+이/JKS+선남/NNG+선년/NNG+대/XSN+넘/MAG+멋있/VA+고/EC+재밌/VA+었/EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 외국 영화였어? 난 한국 영화인 줄 알았어 키키",
+            "norm_text": "외국 영화였어? 난 한국 영화인 줄 알았어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "외국/NNG+영화/NNG+였/VCP+EP+어/EF+난/NP+JX+한국/NNP+영화/NNG+인/VCP+ETM+줄/NNB+알/VV+았/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 1939년도 작품인데 남북전쟁 배경으로 한 거야",
+            "norm_text": "1939년도 작품인데 남북전쟁 배경으로 한 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "1939/SN+년/NNBC+도/JX+작품/NNG+인데/VCP+EC+남북/NNP+전쟁/NNG+배경/NNG+으로/JKB+한/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 와 엄청 오래된 작품이네",
+            "norm_text": "와 엄청 오래된 작품이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+엄청/MAG+오래/MAG+된/VV+ETM+작품/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 너도 기회 되면 한번 봐봐",
+            "norm_text": "응 너도 기회 되면 한번 봐봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+너/NP+도/JX+기회/NNG+되/XSV+면/EC+한/MM+번/NNBC+봐/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래야겠어 흥미롭네",
+            "norm_text": "그래야겠어 흥미롭네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래야/VA+EC+VX+겠/EP+어/EC+흥미/NNG+롭/XSA+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그럼 엄마도 찾아서 본 거야?",
+            "norm_text": "그럼 엄마도 찾아서 본 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+엄마/NNG+도/JX+찾/VV+아서/EC+본/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아니 중학교 때 단체로 영화관 가서 본 거야",
+            "norm_text": "아니 중학교 때 단체로 영화관 가서 본 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+중학교/NNG+때/NNG+단체/NNG+로/JKB+영화관/NNG+가/VV+서/EC+본/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그렇군 키키 오 그때 영화관도 갔나 보네?",
+            "norm_text": "그렇군 키키 오 그때 영화관도 갔나 보네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+군/EC+키/NNG+키/XSV+ETN+오/NR+그때/NNG+영화관/NNG+도/JX+갔/VV+EP+나/EC+보/VX+네/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 자주 갔었어 영화에 관심이 많았거든",
+            "norm_text": "응 자주 갔었어 영화에 관심이 많았거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+자주/MAG+갔었/VV+EP+어/EC+영화/NNG+에/JKB+관심/NNG+이/JKS+많/VA+았/EP+거든/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

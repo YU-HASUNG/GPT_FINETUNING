@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 71323,
+    "name": "KAKAO_820_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172119037956/KAKAO_820_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172119037956/KAKAO_820_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39042,
+      "filename": "KAKAO_820_09.txt",
+      "title": "KAKAO_820_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 516,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 516,
+        "word_size": 157,
+        "text": "1 : 언니는 고양이 키워 본 적 있어?\n2 : 고양이를 키운 적은 없는데 친구네 고양이 잠깐 맡아준 적은 있어!\n1 : 아 진짜? 언니네 집에서 맡아 준거야?\n2 : 응! 여행 간다 그래서 며칠 잠깐 봐준 적 있어\n1 : 어땠어? 낯 많이 가렸으면 언니네 가서 계속 숨어만 있었을 텐데\n2 : 완전 개냥이더라구! 애교도 엄청 많고 먼저 와서 만져달라 그러고~\n1 : 키키 귀여웠겠다~! 종이 뭐였어? 이름은?\n2 : 유기묘 센터에서 입양했는데 믹스였던 거 같애! 이름은 김또리 키키\n1 : 또리? 뭔가 강아지한테 더 잘 어울리는 이름이네 키키\n2 : 그래서 이름만 들으면 다들 강아지냐고 물어본대 키키\n1 : 키키 그럴 수 있겠다~ 또리 맡는 동안 고양이 키우고 싶다 생각 안 들었어?\n2 : 키우고는 싶었는데 책임질 자신이 없어서 ㅠㅠ\n1 : 아 그럼 안되지 가벼운 마음으로 키우면 안되니까\n2 : 웅 그래서 고민하다가 키우진 않게 됐어\n1 : 아 아쉽겠다 나증에 기회가 되면 키워봐~!\n2 : 응! 나중에 키울 수 있는 여건이 된다면 키워볼게~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니는 고양이 키워 본 적 있어?",
+            "norm_text": "언니는 고양이 키워 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+고양이/NNG+키워본/VV+EC+VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 고양이를 키운 적은 없는데 친구네 고양이 잠깐 맡아준 적은 있어!",
+            "norm_text": "고양이를 키운 적은 없는데 친구네 고양이 잠깐 맡아준 적은 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고양이/NNG+를/JKO+키운/VV+ETM+적/NNB+은/JX+없/VA+는데/EC+친구/NNG+네/XSN+고양이/NNG+잠깐/MAG+맡/VV+아/EC+준/VX+ETM+적/NNB+은/JX+있/VA+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 언니네 집에서 맡아 준거야?",
+            "norm_text": "아 진짜? 언니네 집에서 맡아 준거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+언니/NNG+네/XSN+집/NNG+에서/JKB+맡/VV+아/EC+준/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응! 여행 간다 그래서 며칠 잠깐 봐준 적 있어",
+            "norm_text": "응! 여행 간다 그래서 며칠 잠깐 봐준 적 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+여행/NNG+간다/VV+EF+그래서/MAJ+며칠/NNG+잠깐/MAG+봐준/VV+ETM+적/NNB+있/VA+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어땠어? 낯 많이 가렸으면 언니네 가서 계속 숨어만 있었을 텐데",
+            "norm_text": "어땠어? 낯 많이 가렸으면 언니네 가서 계속 숨어만 있었을 텐데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어땠어/VA+EP+EF+낯많이가렸으면언니네가서계속숨어만있었을텐데/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 완전 개냥이더라구! 애교도 엄청 많고 먼저 와서 만져달라 그러고~",
+            "norm_text": "완전 개냥이더라구! 애교도 엄청 많고 먼저 와서 만져달라 그러고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/NNG+개/NNBC+냥/NNBC+이/VCP+더라구/EF+애교/NNG+도/JX+엄청/MAG+많/VA+고/EC+먼저/MAG+와서/VV+EC+만져/VV+EC+달/VX+라/EC+그러/VV+고/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 귀여웠겠다~! 종이 뭐였어? 이름은?",
+            "norm_text": "키키 귀여웠겠다~! 종이 뭐였어? 이름은?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+귀여웠/VA+EP+겠/EP+다/EC+~/SY+종이/NNG+뭐/NP+였/VCP+EP+어/EF+이름/NNG+은/JX"
+          },
+          {
+            "id": 8,
+            "text": "2 : 유기묘 센터에서 입양했는데 믹스였던 거 같애! 이름은 김또리 키키",
+            "norm_text": "유기묘 센터에서 입양했는데 믹스였던 거 같애! 이름은 김또리 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "유기/NNG+묘/NNG+센터/NNG+에서/JKB+입양/NNG+했/XSV+EP+는데/EC+믹스/NNG+였/VCP+EP+던/ETM+거/NNB+같/VA+애/EF+이름은김또리키키/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 또리? 뭔가 강아지한테 더 잘 어울리는 이름이네 키키",
+            "norm_text": "또리? 뭔가 강아지한테 더 잘 어울리는 이름이네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "또/MAG+리/NNP+뭔가/NP+VCP+EC+강아지/NNG+한테/JKB+더/MAG+잘/MAG+어울리/VV+는/ETM+이름/NNG+이/JKS+네/MM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래서 이름만 들으면 다들 강아지냐고 물어본대 키키",
+            "norm_text": "그래서 이름만 들으면 다들 강아지냐고 물어본대 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+이름/NNG+만/JX+들으면/VV+EC+다/MAG+들/XSN+강아지/NNG+냐고/VCP+EC+물어본/VV+ETM+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 그럴 수 있겠다~ 또리 맡는 동안 고양이 키우고 싶다 생각 안 들었어?",
+            "norm_text": "키키 그럴 수 있겠다~ 또리 맡는 동안 고양이 키우고 싶다 생각 안 들었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럴/VV+ETM+수/NNB+있/VV+겠/EP+다/EC+~/SY+또리맡는동안고양이키우고싶다생각안들었어/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키우고는 싶었는데 책임질 자신이 없어서 ㅠㅠ",
+            "norm_text": "키우고는 싶었는데 책임질 자신이 없어서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키우/VV+고는/EC+싶/VX+었/EP+는데/EC+책임질/VV+ETM+자신/NNG+이/JKS+없/VA+어서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 그럼 안되지 가벼운 마음으로 키우면 안되니까",
+            "norm_text": "아 그럼 안되지 가벼운 마음으로 키우면 안되니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럼/MAJ+안/MAG+되/VV+지/EC+가벼운/VA+ETM+마음/NNG+으로/JKB+키우/VV+면/EC+안/MAG+되/VV+니까/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 웅 그래서 고민하다가 키우진 않게 됐어",
+            "norm_text": "웅 그래서 고민하다가 키우진 않게 됐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+그래서/MAJ+고민/NNG+하/XSV+다가/EC+키우/VV+진/EC+JX+않/VX+게/EC+됐/VV+EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 아쉽겠다 나증에 기회가 되면 키워봐~!",
+            "norm_text": "아 아쉽겠다 나증에 기회가 되면 키워봐~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아아쉽겠다나증에기회가되면키워봐/UNKNOWN+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응! 나중에 키울 수 있는 여건이 된다면 키워볼게~",
+            "norm_text": "응! 나중에 키울 수 있는 여건이 된다면 키워볼게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+나중/NNG+에/JKB+키울/VV+ETM+수/NNB+있/VV+는/ETM+여건/NNG+이/JKS+된다면/VV+EC+키워볼/VV+EC+VX+ETM+게/NNB+JKS+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 20579,
+    "name": "KAKAO_505_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151234072267/KAKAO_505_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151234072267/KAKAO_505_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28644,
+      "filename": "KAKAO_505_14.txt",
+      "title": "KAKAO_505_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 603,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 603,
+        "word_size": 186,
+        "text": "1 : 요즘 백신 부작용 때문에 말 많잖아\n2 : 아 맞아... 안 그래도 기사 봤어\n1 : 그래서 백신 맞지 말자고 하는 여론도 세고\n2 : 아 진짜... 나도 아직 안 맞았는데 고민이야 ㅠㅠ\n1 : 나 어제 화이자 접종 완료했거든\n2 : 아 정말 괜찮았어 ?\n1 : 1차 맞았을 때부터 생리가 이상하다 싶었는데 그게 백신 부작용에 들어있더라\n2 : 허거걱 생리가 왜 ? 어땠는데?\n1 : 생리량이 엄청 늘었어 말도 안 되게\n2 : 헐 진짜? 안 그래도 하혈한다던데. 그 정도였나 ?\n1 : 그리고 생리 주기도 줄어들었는데 그게 전부다 화이자 백신 부작용 의심 증상에 들어있더라고\n2 : 허거걱 맞어 대부분 다 그렇대\n2 : 나도 임신 준비 중이라 호르몬이 엄청 중요한데 그것 때문에 고민이야 ㅠ\n1 : 나랑 같은 증상으로 청원도 많았대 키키\n1 : 근데 인과관계 없음이라고 정부에서 발표했다 그러대 키키\n2 : 아 맞아 국민 청원 봤어 ㅠㅠ 와... 진짜 너무하다...\n2 : 그래도 맞는 게 낫다니까 ㅠㅠ\n1 : 백혈병으로 사망한다는 사건도 봤는데 접종 완료한 나로서는 영 찝찝하다\n2 : 아 맞아 급성 백혈병... 진짜 어떻게 그런 일이 일어나는지 ㅠㅠ\n2 : 언니는 그래도 잘 접종 마쳐서 다행이다 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 백신 부작용 때문에 말 많잖아",
+            "norm_text": "요즘 백신 부작용 때문에 말 많잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+백/NR+신부/NNG+작용/NNG+때문/NNB+에/JKB+말/NNG+많/VA+잖아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 맞아... 안 그래도 기사 봤어",
+            "norm_text": "아 맞아... 안 그래도 기사 봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+아/EF+./SY+안/MAG+그래도/VV+EC+기사/NNG+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래서 백신 맞지 말자고 하는 여론도 세고",
+            "norm_text": "그래서 백신 맞지 말자고 하는 여론도 세고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+백신/NNG+맞/VV+지/EC+말/VX+자고/EC+하/VV+는/ETM+여론/NNG+도/JX+세/VA+고/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 진짜... 나도 아직 안 맞았는데 고민이야 ㅠㅠ",
+            "norm_text": "아 진짜... 나도 아직 안 맞았는데 고민이야 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+./SY+나/NP+도/JX+아직/MAG+안/MAG+맞/VV+았/EP+는데/EC+고민/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나 어제 화이자 접종 완료했거든",
+            "norm_text": "나 어제 화이자 접종 완료했거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+어제/MAG+화이자/NNP+접종/NNG+완료/NNG+했/XSV+EP+거든/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 정말 괜찮았어 ?",
+            "norm_text": "아 정말 괜찮았어 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+정말/MAG+괜찮/VA+았/EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 1차 맞았을 때부터 생리가 이상하다 싶었는데 그게 백신 부작용에 들어있더라",
+            "norm_text": "1차 맞았을 때부터 생리가 이상하다 싶었는데 그게 백신 부작용에 들어있더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "1/SN+차/NNBC+맞/VV+았/EP+을/ETM+때/NNG+부터/JX+생리/NNG+가/JKS+이상/NNG+하/XSV+다/EC+싶/VX+었/EP+는데/EC+그게/NP+JKS+백/NR+신부/NNG+작용/NNG+에/JKB+들/VV+어/EC+있/VX+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 허거걱 생리가 왜 ? 어땠는데?",
+            "norm_text": "허거걱 생리가 왜 ? 어땠는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "허거걱생리가왜/UNKNOWN+어땠/VA+EP+는데/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 생리량이 엄청 늘었어 말도 안 되게",
+            "norm_text": "생리량이 엄청 늘었어 말도 안 되게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "생리/NNG+량/NNG+이/JKS+엄청/MAG+늘/VV+었/EP+어/EC+말/NNG+도/JX+안/MAG+되/VV+게/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐 진짜? 안 그래도 하혈한다던데. 그 정도였나 ?",
+            "norm_text": "헐 진짜? 안 그래도 하혈한다던데. 그 정도였나 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+진짜/MAG+안/MAG+그래도/VV+EC+하혈/NNG+한다던데/XSV+EF+그/MM+정도/NNG+였/VCP+EP+나/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그리고 생리 주기도 줄어들었는데 그게 전부다 화이자 백신 부작용 의심 증상에 들어있더라고",
+            "norm_text": "그리고 생리 주기도 줄어들었는데 그게 전부다 화이자 백신 부작용 의심 증상에 들어있더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+생리/NNG+주/VV+기/ETN+도/JX+줄어들/VV+었/EP+는데/EC+그게/NP+JKS+전부/MAG+다/MAG+화이자/NNP+백/NR+신부/NNG+작용/NNG+의/JKG+심증/NNG+상/XSN+에/JKB+들/VV+어/EC+있/VX+더라고/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 허거걱 맞어 대부분 다 그렇대",
+            "norm_text": "허거걱 맞어 대부분 다 그렇대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "허/IC+거걱/UNKNOWN+맞/VV+어/EC+대부분/NNG+다/MAG+그렇/VA+대/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나도 임신 준비 중이라 호르몬이 엄청 중요한데 그것 때문에 고민이야 ㅠ",
+            "norm_text": "나도 임신 준비 중이라 호르몬이 엄청 중요한데 그것 때문에 고민이야 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+임신/NNG+준비/NNG+중/NNB+이/VCP+라/EC+호르몬/NNG+이/JKS+엄청/MAG+중요/NNG+한데/XSA+EC+그것/NP+때문/NNB+에/JKB+고민/NNG+이/VCP+야/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나랑 같은 증상으로 청원도 많았대 키키",
+            "norm_text": "나랑 같은 증상으로 청원도 많았대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+랑/JKB+같/VA+은/ETM+증상/NNG+으로/JKB+청원/NNG+도/JX+많/VA+았/EP+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 인과관계 없음이라고 정부에서 발표했다 그러대 키키",
+            "norm_text": "근데 인과관계 없음이라고 정부에서 발표했다 그러대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+인과/NNG+관계/NNG+없/VA+음/ETN+이/VCP+라고/EC+정부/NNG+에서/JKB+발표/NNG+했/XSV+EP+다/EC+그러/VV+대/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 맞아 국민 청원 봤어 ㅠㅠ 와... 진짜 너무하다...",
+            "norm_text": "아 맞아 국민 청원 봤어 ㅠㅠ 와... 진짜 너무하다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+아/EC+국민/NNG+청원/NNG+봤/VV+EP+어/EF+ㅠㅠ/UNKNOWN+와/VV+EF+./SY+진짜/MAG+너무/MAG+하/VV+다/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래도 맞는 게 낫다니까 ㅠㅠ",
+            "norm_text": "그래도 맞는 게 낫다니까 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+맞/VV+는/ETM+게/NNB+JKS+낫/VA+다니까/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 백혈병으로 사망한다는 사건도 봤는데 접종 완료한 나로서는 영 찝찝하다",
+            "norm_text": "백혈병으로 사망한다는 사건도 봤는데 접종 완료한 나로서는 영 찝찝하다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백혈병/NNG+으로/JKB+사망/NNG+한다는/XSV+ETM+사건/NNG+도/JX+봤/VV+EP+는데/EC+접종/NNG+완료/NNG+한/XSA+ETM+나/NP+로서/JKB+는/JX+영/MAG+찝찝/XR+하/XSA+다/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아 맞아 급성 백혈병... 진짜 어떻게 그런 일이 일어나는지 ㅠㅠ",
+            "norm_text": "아 맞아 급성 백혈병... 진짜 어떻게 그런 일이 일어나는지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+아/EC+급성/NNG+백혈병/NNG+./SY+./SY+진짜/MAG+어떻게/MAG+그런/MM+일/NNG+이/JKS+일어나/VV+는지/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 언니는 그래도 잘 접종 마쳐서 다행이다 ㅠㅠ",
+            "norm_text": "언니는 그래도 잘 접종 마쳐서 다행이다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+는/JX+그래도/MAJ+잘/MAG+접종/NNG+마쳐서/VV+EC+다행/NNG+이/VCP+다/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

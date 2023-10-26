@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 24289,
+    "name": "KAKAO_501_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145458067684/KAKAO_501_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145458067684/KAKAO_501_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29160,
+      "filename": "KAKAO_501_09.txt",
+      "title": "KAKAO_501_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 913,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 913,
+        "word_size": 261,
+        "text": "1 : 나 갑자기 물고기 키워보고 싶더라 키키 예쁜 어항에\n2 : 해수어가 이쁘더라구요! 유튜브 알 수 없는 알고리즘으로 해수어 키우는 사람 영상 봤는데 색이 알록달록해서 이쁘더라구요\n2 : 키키 키우면 해수어 키울 거에요?\n1 : 어... 사실 종류가 뭐 있는지도 잘 모름 ㅜㅜ 키키\n1 : 어항이 갖고 싶은 건지도? 근데 반려동물로 물고기 많이 키우더라!\n2 : 그러면 언니 마리모라고 들어 봤어요? 키키 이끼인데 동그란 이끼 키키 그것도 어항에 넣어서 키운다고 하던데 키키\n1 : 키키 어어! 초록 색깔 걔? 키키 그래 걔도 잘 키우면 엄청 큰다더라\n2 : 맞아요 키키 기분 좋으면 위로 떠오른다 하고 키키 반려동물?로 많이 키운다고 하던데요 키키\n2 : 잘 찾아 보면은 처음 보는 동물을 반려동물로 같이 살더라구요 키키 곤충 키우는 사람도 엄청 많던데요\n1 : 맞젱?! 키키 특히 뱀이나 거미 키우는 사람들 보면 신기? 함... 키키\n2 : 그런 사람들을 브리더? 라고 지칭하더라고요 키키\n2 : 곤충도 못 만지는데 뱀이라니...키키 전 못 만질 것 같아요 키키\n1 : 나도...키키 옛날에 하늘소? 는 많이 잡았는데... 키키 이젠 못 잡겠다 ㅠㅠ 토끼도 키워 보고 싶음\n2 : 언니 동물을 좋아하는구나 키키 근데 토끼 똥 엄청 많이 싸짆아요 키키 냄새가... 키키 고양이 최고 키키\n1 : 키키 냄새 많이나낭... 고양이들 똥 냄새도 장난아님 ㅜㅜ 키키\n2 : 진짜요? 키키 그래도 자기네들이 잘 정리 하지 않아요?\n1 : 응 정리하는데 키키 우리 애들은... 잘 못 덮더라고 ㅠㅠ 키키 자다가도 똥 냄새나서 한 번씩 깸...\n2 : 아~ 키키 고양이들 화장실 정리해 주는 걸 감자 캔다고 라고 말한다면서요?\n1 : 키키 맞아 오늘 아침에도 열심히 감자 캐고 물 갈아주고 간식까지 주고 출근해따...\n2 : 반려동물을 키울려면 부지런해야 되네요... 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 갑자기 물고기 키워보고 싶더라 키키 예쁜 어항에",
+            "norm_text": "나 갑자기 물고기 키워보고 싶더라 키키 예쁜 어항에",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+갑자기/MAG+물고기/NNG+키워/VV+EC+보/VX+고/EC+싶/VX+더라/EC+키/NNG+키/XSV+ETN+예쁜/VA+ETM+어항/NNG+에/JKB"
+          },
+          {
+            "id": 2,
+            "text": "2 : 해수어가 이쁘더라구요! 유튜브 알 수 없는 알고리즘으로 해수어 키우는 사람 영상 봤는데 색이 알록달록해서 이쁘더라구요",
+            "norm_text": "해수어가 이쁘더라구요! 유튜브 알 수 없는 알고리즘으로 해수어 키우는 사람 영상 봤는데 색이 알록달록해서 이쁘더라구요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "해수어/NNG+가/JKS+이쁘/VA+더라구요/EF+유튜브/NNP+알/VV+ETM+수/NNB+없/VA+는/ETM+알고리즘/NNG+으로/JKB+해수어/NNG+키우/VV+는/ETM+사람/NNG+영상/NNG+봤/VV+EP+는데/EC+색/NNG+이/JKS+알록달록/MAG+해서/VV+EC+이쁘/VA+더라구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 키키 키우면 해수어 키울 거에요?",
+            "norm_text": "키키 키우면 해수어 키울 거에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+키우/VV+면/EC+해수어/NNG+키울/VV+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 어... 사실 종류가 뭐 있는지도 잘 모름 ㅜㅜ 키키",
+            "norm_text": "어... 사실 종류가 뭐 있는지도 잘 모름 ㅜㅜ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+사실/MAG+종류/NNG+가/JKS+뭐/IC+있/VA+는지/EC+도/JX+잘/MAG+모름/VV+ETN+ㅜㅜ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어항이 갖고 싶은 건지도? 근데 반려동물로 물고기 많이 키우더라!",
+            "norm_text": "어항이 갖고 싶은 건지도? 근데 반려동물로 물고기 많이 키우더라!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어항/NNG+이/JKS+갖/VV+고/EC+싶/VX+은/ETM+건지/NNB+VCP+EC+도/JX+근데/MAJ+반려/NNG+동물/NNG+로/JKB+물고기/NNG+많이/MAG+키우/VV+더라/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러면 언니 마리모라고 들어 봤어요? 키키 이끼인데 동그란 이끼 키키 그것도 어항에 넣어서 키운다고 하던데 키키",
+            "norm_text": "그러면 언니 마리모라고 들어 봤어요? 키키 이끼인데 동그란 이끼 키키 그것도 어항에 넣어서 키운다고 하던데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러면/MAJ+언니/NNG+마리/NNP+모/NNG+라고/VCP+EC+들/VV+어/EC+봤/VX+EP+어요/EF+키/NNG+키/XSV+ETN+이/JKS+끼인/VV+ETM+데/NNB+동그란/VA+ETM+이끼/NNG+키/NNG+키/XSV+ETN+그것/NP+도/JX+어항/NNG+에/JKB+넣/VV+어서/EC+키운다고/VV+EC+하/VV+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 어어! 초록 색깔 걔? 키키 그래 걔도 잘 키우면 엄청 큰다더라",
+            "norm_text": "키키 어어! 초록 색깔 걔? 키키 그래 걔도 잘 키우면 엄청 큰다더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+어/IC+어/IC+초록/NNG+색깔/NNG+걔/NP+키/NNG+키/XSV+ETN+그래/JX+걔/NP+도/JX+잘/MAG+키우/VV+면/EC+엄청/MAG+큰/VA+ETM+다더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아요 키키 기분 좋으면 위로 떠오른다 하고 키키 반려동물?로 많이 키운다고 하던데요 키키",
+            "norm_text": "맞아요 키키 기분 좋으면 위로 떠오른다 하고 키키 반려동물?로 많이 키운다고 하던데요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+요키/NNP+키/NNG+기분/NNG+좋/VA+으면/EC+위/NNG+로/JKB+떠오른다/VV+EC+하/VV+고/EC+키/NNG+키/NNG+반려/NNG+동물/NNG+?/SY+로/JKB+많이/MAG+키운다고/VV+EC+하/VV+던데요/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 잘 찾아 보면은 처음 보는 동물을 반려동물로 같이 살더라구요 키키 곤충 키우는 사람도 엄청 많던데요",
+            "norm_text": "잘 찾아 보면은 처음 보는 동물을 반려동물로 같이 살더라구요 키키 곤충 키우는 사람도 엄청 많던데요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잘/MAG+찾아보/VV+면은/EC+처음/MAG+보/VV+는/ETM+동물/NNG+을/JKO+반려/NNG+동물/NNG+로/JKB+같이/MAG+살/VV+더라구요/EF+키키/NNP+곤충/NNG+키우/VV+는/ETM+사람/NNG+도/JX+엄청/MAG+많/VA+던데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맞젱?! 키키 특히 뱀이나 거미 키우는 사람들 보면 신기? 함... 키키",
+            "norm_text": "맞젱?! 키키 특히 뱀이나 거미 키우는 사람들 보면 신기? 함... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/XPN+젱/NNP+?/SY+키/NNG+키/NNG+특히/MAG+뱀/NNG+이나/JC+거미/NNG+키우/VV+는/ETM+사람/NNG+들/XSN+보/VV+면/EC+신/VV+기/ETN+함/XSA+ETN+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그런 사람들을 브리더? 라고 지칭하더라고요 키키",
+            "norm_text": "그런 사람들을 브리더? 라고 지칭하더라고요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+사람/NNG+들/XSN+을/JKO+브리더/NNG+?/SY+라고/JKQ+지칭/NNG+하/XSV+더라고요/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 곤충도 못 만지는데 뱀이라니...키키 전 못 만질 것 같아요 키키",
+            "norm_text": "곤충도 못 만지는데 뱀이라니...키키 전 못 만질 것 같아요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곤충/NNG+도/JX+못/MAG+만지/VV+는데/EC+뱀/NNG+이/VCP+라니/EF+./SY+키/NNG+키/XSV+ETN+전/NP+JX+못/MAG+만질/VV+ETM+것/NNB+같/VA+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나도...키키 옛날에 하늘소? 는 많이 잡았는데... 키키 이젠 못 잡겠다 ㅠㅠ 토끼도 키워 보고 싶음",
+            "norm_text": "나도...키키 옛날에 하늘소? 는 많이 잡았는데... 키키 이젠 못 잡겠다 ㅠㅠ 토끼도 키워 보고 싶음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+./SY+./SY+키/NNG+키/NNG+옛날/NNG+에/JKB+하늘소/NNG+?/SY+는/JX+많이/MAG+잡/VV+았/EP+는데/EC+./SY+./SY+키/NNG+키/NNG+이젠/NNG+JX+못/MAG+잡/VV+겠/EP+다/EF+ㅠㅠ/UNKNOWN+토끼/NNG+도/JX+키워/VV+EC+보/VX+고/EC+싶/VX+음/ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 언니 동물을 좋아하는구나 키키 근데 토끼 똥 엄청 많이 싸짆아요 키키 냄새가... 키키 고양이 최고 키키",
+            "norm_text": "언니 동물을 좋아하는구나 키키 근데 토끼 똥 엄청 많이 싸짆아요 키키 냄새가... 키키 고양이 최고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+동물/NNG+을/JKO+좋아하/VV+는구나/EF+키/NNG+키/XSV+ETN+근데/MAJ+토끼/NNG+똥/NNG+엄청/MAG+많이/MAG+싸/VA+EF+짆아/UNKNOWN+요키/NNP+키/NNG+냄새/NNG+가/JKS+./SY+키/NNG+키/NNG+고양이/NNG+최고/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 냄새 많이나낭... 고양이들 똥 냄새도 장난아님 ㅜㅜ 키키",
+            "norm_text": "키키 냄새 많이나낭... 고양이들 똥 냄새도 장난아님 ㅜㅜ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키냄새많이나낭/UNKNOWN+./SY+고양이/NNG+들/XSN+똥/NNG+냄새/NNG+도/JX+장난아/NNP+님/XSN+ㅜㅜ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 진짜요? 키키 그래도 자기네들이 잘 정리 하지 않아요?",
+            "norm_text": "진짜요? 키키 그래도 자기네들이 잘 정리 하지 않아요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+요/JX+키/NNG+키/XSV+ETN+그래도/MAJ+자기/NP+네/XSN+들/XSN+이/JKS+잘/MAG+정리/NNG+하/XSV+지/EC+않/VX+아요/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 정리하는데 키키 우리 애들은... 잘 못 덮더라고 ㅠㅠ 키키 자다가도 똥 냄새나서 한 번씩 깸...",
+            "norm_text": "응 정리하는데 키키 우리 애들은... 잘 못 덮더라고 ㅠㅠ 키키 자다가도 똥 냄새나서 한 번씩 깸...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+정리/NNG+하/XSV+는/ETM+데/NNB+키/NNG+키/XSV+ETN+우리/NP+애/NNG+들/XSN+은/JX+./SY+./SY+잘못/MAG+덮/VV+더라고/EF+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN+자/VV+다가/EC+도/JX+똥/NNG+냄새나/VV+서/EC+한/MM+번/NNBC+씩/XSN+깸/VV+ETN+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아~ 키키 고양이들 화장실 정리해 주는 걸 감자 캔다고 라고 말한다면서요?",
+            "norm_text": "아~ 키키 고양이들 화장실 정리해 주는 걸 감자 캔다고 라고 말한다면서요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+~/SY+키/NNG+키/NNG+고양이/NNG+들/XSN+화장실/NNG+정리/NNG+해/XSV+EC+주/VX+는/ETM+걸/NNB+JKO+감자/NNG+캔/NNG+다고/NNP+라고/VCP+EC+말/NNG+한다면서/XSV+EC+요/JX"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 맞아 오늘 아침에도 열심히 감자 캐고 물 갈아주고 간식까지 주고 출근해따...",
+            "norm_text": "키키 맞아 오늘 아침에도 열심히 감자 캐고 물 갈아주고 간식까지 주고 출근해따...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+오늘/MAG+아침/NNG+에/JKB+도/JX+열심히/MAG+감자/NNG+캐/VV+고/EC+물/NNG+갈아주/VV+고/EC+간식/NNG+까지/JX+주/VX+고/EC+출근/NNG+해/XSV+EC+따/VV+EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 반려동물을 키울려면 부지런해야 되네요... 키키",
+            "norm_text": "반려동물을 키울려면 부지런해야 되네요... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "반려/NNG+동물/NNG+을/JKO+키울/VV+ETM+려면/EC+부지런/NNG+해야/XSV+EC+되/VV+네요/EF+./SY+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 35384,
+    "name": "KAKAO_835_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170112032191/KAKAO_835_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170112032191/KAKAO_835_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38643,
+      "filename": "KAKAO_835_10.txt",
+      "title": "KAKAO_835_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 311,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 311,
+        "word_size": 107,
+        "text": "1 : 엄마 오늘 집에 있어?\n2 : 응 엄마 지금 집~\n1 : ㅠㅠ 엄마 쉬는 날에는 운동 좀 하고 그래\n2 : 엄마는 운동하는 게 제일 싫어\n1 : 그러지 말고~ㅠㅠ 산책이라도 해 ㅠㅠ\n2 : 싫어 귀찮아\n1 : 이모 요새 산책하던데 같이 하는 건 어때\n2 : 싫어~ 내가 걔랑 왜 같이 산책하니?\n1 : 키키 그러면 엄마 혼자라도 해!\n2 : 혼자 하면 재미없지~\n1 : ㅠㅠ 그러면 나랑 같이 한강 공원에 조깅 하러 가자\n2 : 조깅은 힘든데...\n1 : 키키 그러면 경보로 걷자!\n2 : 경보는 괜찮네~\n1 : 그러면 엄마 다음 휴무 때 나랑 운동하는 거야!\n2 : 알았다~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 오늘 집에 있어?",
+            "norm_text": "엄마 오늘 집에 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+오늘/NNG+집/NNG+에/JKB+있/VV+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 엄마 지금 집~",
+            "norm_text": "응 엄마 지금 집~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+엄마/NNG+지금/MAG+집/NNG+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : ㅠㅠ 엄마 쉬는 날에는 운동 좀 하고 그래",
+            "norm_text": "ㅠㅠ 엄마 쉬는 날에는 운동 좀 하고 그래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+엄마/NNG+쉬/VV+는/ETM+날/NNG+에/JKB+는/JX+운동/NNG+좀/MAG+하/VV+고/EC+그래/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 엄마는 운동하는 게 제일 싫어",
+            "norm_text": "엄마는 운동하는 게 제일 싫어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+는/JX+운동/NNG+하/XSV+는/ETM+게/NNB+JKS+제일/MAG+싫/VA+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러지 말고~ㅠㅠ 산책이라도 해 ㅠㅠ",
+            "norm_text": "그러지 말고~ㅠㅠ 산책이라도 해 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그러/VV+지/EC+말/VX+고/EC+~/SY+ㅠㅠ/UNKNOWN+산책/NNG+이/VCP+라도/EC+해/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 싫어 귀찮아",
+            "norm_text": "싫어 귀찮아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "싫/VA+어/EC+귀찮/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 이모 요새 산책하던데 같이 하는 건 어때",
+            "norm_text": "이모 요새 산책하던데 같이 하는 건 어때",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이모/NNG+요새/NNG+산책/NNG+하/XSV+던데/EC+같이/MAG+하/VV+는/ETM+건/NNB+JX+어때/VA+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 싫어~ 내가 걔랑 왜 같이 산책하니?",
+            "norm_text": "싫어~ 내가 걔랑 왜 같이 산책하니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "싫/VA+어/EC+~/SY+내/NP+가/JKS+걔/NP+랑/JKB+왜/MAG+같이/MAG+산책/NNG+하/XSA+니/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 그러면 엄마 혼자라도 해!",
+            "norm_text": "키키 그러면 엄마 혼자라도 해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+면/EC+엄마/NNG+혼자/NNG+라도/VCP+EC+해/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 혼자 하면 재미없지~",
+            "norm_text": "혼자 하면 재미없지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혼자/NNG+하/XSV+면/EC+재미없/VA+지/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : ㅠㅠ 그러면 나랑 같이 한강 공원에 조깅 하러 가자",
+            "norm_text": "ㅠㅠ 그러면 나랑 같이 한강 공원에 조깅 하러 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+그러/VV+면/EC+나/NP+랑/JKB+같이/MAG+한강/NNP+공원/NNG+에/JKB+조깅/NNG+하/XSV+러/EC+가/VX+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 조깅은 힘든데...",
+            "norm_text": "조깅은 힘든데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조깅/NNG+은/JX+힘/NNG+든데/VCP+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 그러면 경보로 걷자!",
+            "norm_text": "키키 그러면 경보로 걷자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+면/EC+경보/NNG+로/JKB+걷/VV+자/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 경보는 괜찮네~",
+            "norm_text": "경보는 괜찮네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "경보/NNG+는/JX+괜찮/VA+네/EF+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러면 엄마 다음 휴무 때 나랑 운동하는 거야!",
+            "norm_text": "그러면 엄마 다음 휴무 때 나랑 운동하는 거야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그러면/MAJ+엄마/NNG+다음/NNG+휴무/NNG+때/NNG+나/NP+랑/JKB+운동/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 알았다~",
+            "norm_text": "알았다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "알/VV+았/EP+다/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

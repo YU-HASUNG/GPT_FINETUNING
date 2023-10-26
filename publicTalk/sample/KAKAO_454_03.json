@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20121,
+    "name": "KAKAO_454_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940081713/KAKAO_454_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940081713/KAKAO_454_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27853,
+      "filename": "KAKAO_454_03.txt",
+      "title": "KAKAO_454_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 410,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 410,
+        "word_size": 120,
+        "text": "1 : 요새 벤츠 좋나요\n2 : 벤츠 전기차도 나오고 디자인도 바꼈어요 보셨어요?\n1 : 네 저는 마음에 들던데 어떠세요?\n2 : 좋죠 이번에 비엠더블유에서 M5 나왔어요. 보셨어요?\n1 : 네 돼지코가 더 두드러졌더라고요\n2 : 제니스 6인승 모델로 2022년에 출시 된다고 하네요. 아세요?\n1 : 어 진짜요 뭔가 다를까요 롱바디?\n2 : 렉서스는 ES 모델 하이브리드 출신한다고 하네요.\n1 : 오 렉서스 좋죠\n2 : 벤츠 AMG GT 모델 쿠페 전기차도 나오네요.\n1 : 와 장난 없네요\n1 : 벤츠 에이엠지 너무 좋아요\n2 : 성능이 페라리급 허머 전기차도 나오네요?\n1 : 와 장난 아니네요 진짜\n2 : 폭스바겐 티구안은 가성비 최고 아닌가요?\n1 : 어 가성비 최고는 중고 비엠 아닌가요\n2 : 요즘 전기차가 대세네요. 브랜드마다 전기차 출시하네요.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 벤츠 좋나요",
+            "norm_text": "요새 벤츠 좋나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/MAG+벤츠/NNP+좋/VA+나요/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 벤츠 전기차도 나오고 디자인도 바꼈어요 보셨어요?",
+            "norm_text": "벤츠 전기차도 나오고 디자인도 바꼈어요 보셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "벤츠/NNP+전기차/NNP+도/JX+나오/VV+고/EC+디자인/NNG+도/JX+바꼈/VV+EP+어요/EF+보/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 네 저는 마음에 들던데 어떠세요?",
+            "norm_text": "네 저는 마음에 들던데 어떠세요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+저/NP+는/JX+마음/NNG+에/JKB+들/VV+던/ETM+데/NNB+어떠세요/VA+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 좋죠 이번에 비엠더블유에서 M5 나왔어요. 보셨어요?",
+            "norm_text": "좋죠 이번에 비엠더블유에서 M5 나왔어요. 보셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+죠/EF+이번/NNG+에/JKB+비엠/NNP+더블유/NNG+에서/JKB+M/SL+5/SN+나왔/VV+EP+어요/EF+보/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 네 돼지코가 더 두드러졌더라고요",
+            "norm_text": "네 돼지코가 더 두드러졌더라고요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+돼지/NNG+코/NNG+가/JKS+더/MAG+두드러졌/VV+EP+더라고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 제니스 6인승 모델로 2022년에 출시 된다고 하네요. 아세요?",
+            "norm_text": "제니스 6인승 모델로 2022년에 출시 된다고 하네요. 아세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제니스/NNP+6/SN+인승/NNG+모델/NNG+로/JKB+2022/SN+년/NNBC+에/JKB+출시/NNG+된다고/XSV+EC+하/VX+네요/EF+아세요/VV+EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어 진짜요 뭔가 다를까요 롱바디?",
+            "norm_text": "어 진짜요 뭔가 다를까요 롱바디?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+진짜/MAG+요/JX+뭔가/NP+VCP+EC+다를까/VA+EC+요롱/NNG+바디/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 렉서스는 ES 모델 하이브리드 출신한다고 하네요.",
+            "norm_text": "렉서스는 ES 모델 하이브리드 출신한다고 하네요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "렉서스/NNP+는/JX+ES/SL+모델/NNG+하이브리드/NNG+출신/NNG+한다고/XSV+EC+하/VX+네요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 렉서스 좋죠",
+            "norm_text": "오 렉서스 좋죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+렉서스/NNP+좋/VA+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 벤츠 AMG GT 모델 쿠페 전기차도 나오네요.",
+            "norm_text": "벤츠 AMG GT 모델 쿠페 전기차도 나오네요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "벤츠/NNP+AMGGT/SL+모델/NNG+쿠페/NNG+전기/NNG+차/NNG+도/JX+나오/VV+네요/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 와 장난 없네요",
+            "norm_text": "와 장난 없네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "와장/NNG+난/NP+JX+없/VA+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 벤츠 에이엠지 너무 좋아요",
+            "norm_text": "벤츠 에이엠지 너무 좋아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "벤츠/NNP+에이엠/NNG+지/XSV+EC+너무/MAG+좋/VA+아요/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 성능이 페라리급 허머 전기차도 나오네요?",
+            "norm_text": "성능이 페라리급 허머 전기차도 나오네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "성능/NNG+이/JKS+페라리/NNP+급허/VA+머/EC+전기차/NNP+도/JX+나오/VV+네요/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 와 장난 아니네요 진짜",
+            "norm_text": "와 장난 아니네요 진짜",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "와장/NNG+난/NP+JX+아니/VCN+네요/EF+진짜/MAG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 폭스바겐 티구안은 가성비 최고 아닌가요?",
+            "norm_text": "폭스바겐 티구안은 가성비 최고 아닌가요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "폭스바겐/NNP+티구안/NNP+은/JX+가성/NNG+비/XPN+최고/NNG+아닌가요/VCN+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 어 가성비 최고는 중고 비엠 아닌가요",
+            "norm_text": "어 가성비 최고는 중고 비엠 아닌가요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+가성/NNG+비/XPN+최고/NNG+는/JX+중고/NNP+비엠/NNP+아닌가요/VCN+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 요즘 전기차가 대세네요. 브랜드마다 전기차 출시하네요.",
+            "norm_text": "요즘 전기차가 대세네요. 브랜드마다 전기차 출시하네요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/MAG+전기차/NNP+가/JKS+대세/NNG+네요/VCP+EF+브랜드/NNG+마다/JX+전기차/NNP+출시/NNG+하/XSA+네요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

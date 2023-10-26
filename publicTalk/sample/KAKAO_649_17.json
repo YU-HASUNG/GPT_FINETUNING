@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 32547,
+    "name": "KAKAO_649_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145512066087/KAKAO_649_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145512066087/KAKAO_649_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34515,
+      "filename": "KAKAO_649_17.txt",
+      "title": "KAKAO_649_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 580,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 580,
+        "word_size": 187,
+        "text": "1 : 필라테스 운동은 계속 하고 있어요? 키키\n2 : 응 키키 하고는 있는데 필라테스 진짜 도움 되는 운동인지는 모르겠어 키키\n1 : 오잉 키키 그 선생님 뭐 물리치료 이쪽 전공하셨대요?\n2 : 키키 강사 이력 알려달라니까 안 알려주네\n2 : 학원 진짜 별로야\n1 : 오잉? 그건 기본 아니에요?\n1 : 뭐야 새로 생겨서 괜찮은가 했더니\n2 : 키키 내 돈 내고 왜 스트레스 받고 있지 싶은데 환불 안 된대서 나 참 키키\n1 : 휴 그러니까요 ㅜㅜ 진짜 뭐야 그런 걸 왜 안 가르쳐 주지\n2 : 강사 이력 알려주는 건 기본이지 키키\n2 : 체인이라는데 시스템이 주먹구구식이라 와우 정말 키키\n1 : 맞아요 그건 소비자의 알 권리가 아닌가요? ㅜㅜ\n2 : 키키 그러니깐 말이야 키키\n2 : 진짜 어떻게 해야 할지 모르겠네\n1 : 휴 소비자 고발 뭐 그런 데 고소하면 안 돼요?\n2 : 그 정도로 고발이 되려나?\n1 : 몰라요? 뭐든지 키키 그래도 그건 기본으로 알 권리 아닌가요?\n2 : 키키 필라테스 강사 바꿨거든\n2 : 이따 연락 온다는데 그때 다시 얘기해 보려고\n1 : 아 바꾼 사람은 괜찮았으면 좋겠다 ㅜㅜ\n2 : 키키 정말 그러길 바래 운동 처음 해보는 건데 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 필라테스 운동은 계속 하고 있어요? 키키",
+            "norm_text": "필라테스 운동은 계속 하고 있어요? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "필라테스/NNP+운동/NNG+은/JX+계속/NNG+하/XSV+고/EC+있/VX+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 키키 하고는 있는데 필라테스 진짜 도움 되는 운동인지는 모르겠어 키키",
+            "norm_text": "응 키키 하고는 있는데 필라테스 진짜 도움 되는 운동인지는 모르겠어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+하/XSV+고는/EC+있/VX+는데/EC+필라테스/NNP+진짜/MAG+도움/NNG+되/XSV+는/ETM+운동/NNG+인지/VCP+EC+는/JX+모르/VV+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오잉 키키 그 선생님 뭐 물리치료 이쪽 전공하셨대요?",
+            "norm_text": "오잉 키키 그 선생님 뭐 물리치료 이쪽 전공하셨대요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오잉/NNP+키키/NNP+그/MM+선생/NNG+님/XSN+뭐/IC+물리치료/NNP+이쪽/NP+전공/NNG+하/XSV+셨/EP+EP+대요/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 강사 이력 알려달라니까 안 알려주네",
+            "norm_text": "키키 강사 이력 알려달라니까 안 알려주네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+강사/NNG+이력/NNG+알려/VV+EC+달/VX+라니까/EC+안/MAG+알려/VV+EC+주/VX+네/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 학원 진짜 별로야",
+            "norm_text": "학원 진짜 별로야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "학원/NNG+진짜/NNG+별/XSN+로/JKB+야/JX"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오잉? 그건 기본 아니에요?",
+            "norm_text": "오잉? 그건 기본 아니에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오잉/NNP+그건/NP+JX+기본/NNG+아니/VCN+에요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 뭐야 새로 생겨서 괜찮은가 했더니",
+            "norm_text": "뭐야 새로 생겨서 괜찮은가 했더니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+야/JX+새로/MAG+생겨서/VV+EC+괜찮/VA+은가/EC+했/VX+EP+더니/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 내 돈 내고 왜 스트레스 받고 있지 싶은데 환불 안 된대서 나 참 키키",
+            "norm_text": "키키 내 돈 내고 왜 스트레스 받고 있지 싶은데 환불 안 된대서 나 참 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+JKG+돈/NNG+내/VV+고/EC+왜/MAG+스트레스/NNG+받/VV+고/EC+있/VX+지/EC+싶/VX+은데/EC+환불/NNG+안/MAG+된/VV+ETM+대서/NNG+나/JC+참/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 휴 그러니까요 ㅜㅜ 진짜 뭐야 그런 걸 왜 안 가르쳐 주지",
+            "norm_text": "휴 그러니까요 ㅜㅜ 진짜 뭐야 그런 걸 왜 안 가르쳐 주지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴/IC+그러니까/MAJ+요/JX+ㅜㅜ/UNKNOWN+진짜/MAG+뭐/NP+야/VCP+EF+그런/MM+걸/NNB+JKO+왜/MAG+안/MAG+가르쳐/VV+EC+주/VX+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 강사 이력 알려주는 건 기본이지 키키",
+            "norm_text": "강사 이력 알려주는 건 기본이지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강사/NNG+이력/NNG+알려/VV+EC+주/VX+는/ETM+건/NNB+JX+기본/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 체인이라는데 시스템이 주먹구구식이라 와우 정말 키키",
+            "norm_text": "체인이라는데 시스템이 주먹구구식이라 와우 정말 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "체인/NNG+이/VCP+라는/ETM+데/NNB+시스템/NNG+이/JKS+주먹구구식/NNG+이/VCP+라/EC+와우/IC+정말/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞아요 그건 소비자의 알 권리가 아닌가요? ㅜㅜ",
+            "norm_text": "맞아요 그건 소비자의 알 권리가 아닌가요? ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아요/EF+그건/NP+JX+소비자/NNG+의/JKG+알/NNG+권리/NNG+가/JKC+아닌가요/VCN+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 그러니깐 말이야 키키",
+            "norm_text": "키키 그러니깐 말이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러니깐/MAJ+말/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 진짜 어떻게 해야 할지 모르겠네",
+            "norm_text": "진짜 어떻게 해야 할지 모르겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+어떻게/MAG+해야/VV+EC+할지/VX+EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 휴 소비자 고발 뭐 그런 데 고소하면 안 돼요?",
+            "norm_text": "휴 소비자 고발 뭐 그런 데 고소하면 안 돼요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "휴/IC+소비자고발/NNP+뭐/IC+그런데/MAJ+고소/XR+하/XSA+면/EC+안/MAG+돼요/VV+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그 정도로 고발이 되려나?",
+            "norm_text": "그 정도로 고발이 되려나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+정도/NNG+로/JKB+고발/NNG+이/JKS+되/VV+려나/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 몰라요? 뭐든지 키키 그래도 그건 기본으로 알 권리 아닌가요?",
+            "norm_text": "몰라요? 뭐든지 키키 그래도 그건 기본으로 알 권리 아닌가요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰라요/VV+EF+뭐/NP+든지/VCP+EC+키/NNG+키/XSV+ETN+그래도/MAJ+그건/NP+JX+기본/NNG+으로/JKB+알/VV+ETM+권리/NNG+아닌가요/VCN+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 필라테스 강사 바꿨거든",
+            "norm_text": "키키 필라테스 강사 바꿨거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키/NNP+필라테스/NNP+강사/NNG+바꿨/VV+EP+거든/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 이따 연락 온다는데 그때 다시 얘기해 보려고",
+            "norm_text": "이따 연락 온다는데 그때 다시 얘기해 보려고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이따/MAG+연락/NNG+온다는데/VV+EC+그때/NNG+다시/MAG+얘기/NNG+해/XSV+EC+보/VX+려고/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아 바꾼 사람은 괜찮았으면 좋겠다 ㅜㅜ",
+            "norm_text": "아 바꾼 사람은 괜찮았으면 좋겠다 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아바/NNG+꾼/XSN+사람/NNG+은/JX+괜찮/VA+았/EP+으면/EC+좋/VA+겠/EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 키키 정말 그러길 바래 운동 처음 해보는 건데 키키",
+            "norm_text": "키키 정말 그러길 바래 운동 처음 해보는 건데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+정말/MAG+그러/VV+길/ETN+JKO+바래/VV+EC+운동/NNG+처음/NNG+해/XSV+EC+보/VX+는/ETM+건데/NNB+VCP+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

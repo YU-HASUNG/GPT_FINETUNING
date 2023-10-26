@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 23926,
+    "name": "KAKAO_549_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155921002514/KAKAO_549_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155921002514/KAKAO_549_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29974,
+      "filename": "KAKAO_549_03.txt",
+      "title": "KAKAO_549_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 619,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 619,
+        "word_size": 202,
+        "text": "1 : 추석 때 KTX 표 예매했나? 버스 타고 가나?\n2 : 아니 ㅠ 내 아직 못했지 ㅠ 자리 하나 정도는 못 구하겠나 ㅠ\n1 : 어? 그때 아침에 안 했나? ㅜㅜ\n2 : 예전에는 아침에 했는데 요즘에는 그 시간에 잠 1분이라도 더 자는 게 낫드라야 키키\n1 : 아? 키키 그래? 야 근데 진짜 다 매진이던데... ㅜㅜ\n2 : 안 되면 버스 타거 가야지 뭐 키키 어뜨케든 간다 키키\n1 : 버스 타면 차 많이 막힌다 아니가 ㅜㅜ\n2 : 그래도 가긴 가야 하니까 키키 어떻게든 갈걸? 안 되면 렌트해서 알아서 가본다\n1 : 오오... 키키 버스 타라... 대구까지 그래도 갈려면 하하\n2 : 응 키키 니는 추석 때 안 내려갈 거가? 예매 안 해도 되나?\n1 : 나 예매는 했는데 아직 결제는 안 했다 하하\n2 : 아 그렇게도 되나? Ktx여? Srt?\n1 : 키키 혹시라도 시간대 더 좋은 거 생기면 시간 바꾸려고 아직 대기 중 키키\n2 : 오 키키 그렇구나 ㅠ 이번 추석이 긴 편은 아니라서 이동하는 게 힘들 듯 ㅠ 코로나 땜에 괘아느려나\n1 : 아... 난 추석 긴 편이라고 생각했지 왜? 키키\n2 : 짧은 편은 아닌데 다른 날 길 때를 생각해 보면...\n2 : 그리고 코로나 땜에 차편들도 완전히 많이 늘리진 않을 거 같단 말이지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 추석 때 KTX 표 예매했나? 버스 타고 가나?",
+            "norm_text": "추석 때 KTX 표 예매했나? 버스 타고 가나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "추석/NNG+때/NNG+KTX/SL+표/NNG+예매/NNG+했/XSV+EP+나/EF+버스/NNG+타/VV+고/EC+가/VX+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 ㅠ 내 아직 못했지 ㅠ 자리 하나 정도는 못 구하겠나 ㅠ",
+            "norm_text": "아니 ㅠ 내 아직 못했지 ㅠ 자리 하나 정도는 못 구하겠나 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+ㅠ내/UNKNOWN+아직/MAG+못/MAG+했/VV+EP+지ㅠ/UNKNOWN+자리/NNG+하나/NR+정도/NNG+는/JX+못/MAG+구하/VV+겠/EP+나ㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어? 그때 아침에 안 했나? ㅜㅜ",
+            "norm_text": "어? 그때 아침에 안 했나? ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+그때/NNG+아침/NNG+에/JKB+안/MAG+했/VV+EP+나/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 예전에는 아침에 했는데 요즘에는 그 시간에 잠 1분이라도 더 자는 게 낫드라야 키키",
+            "norm_text": "예전에는 아침에 했는데 요즘에는 그 시간에 잠 1분이라도 더 자는 게 낫드라야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예전/NNG+에/JKB+는/JX+아침/NNG+에/JKB+했/VV+EP+는데/EC+요즘/NNG+에/JKB+는/JX+그/MM+시간/NNG+에/JKB+잠/NNG+1/SN+분/NNBC+이라도/JX+더/MAG+자/VV+는/ETM+게/NNB+JKS+낫/VA+드라/EF+야/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아? 키키 그래? 야 근데 진짜 다 매진이던데... ㅜㅜ",
+            "norm_text": "아? 키키 그래? 야 근데 진짜 다 매진이던데... ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+키/NNG+키/XSV+ETN+그래/VV+EF+야/IC+근데/MAJ+진짜/MAG+다/MAG+매진/NNG+이/VCP+던데/EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 안 되면 버스 타거 가야지 뭐 키키 어뜨케든 간다 키키",
+            "norm_text": "안 되면 버스 타거 가야지 뭐 키키 어뜨케든 간다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+되/VV+면/EC+버스타/NNP+거/NNB+가/VV+야지/EF+뭐/IC+키/NNG+키/XSV+ETN+어뜨케/VA+EC+든/VV+ETM+간다키/NNP+키/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 버스 타면 차 많이 막힌다 아니가 ㅜㅜ",
+            "norm_text": "버스 타면 차 많이 막힌다 아니가 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스/NNG+타/VV+면/EC+차/NNG+많이/MAG+막힌다/VV+EC+아니/VCN+가/JKS+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그래도 가긴 가야 하니까 키키 어떻게든 갈걸? 안 되면 렌트해서 알아서 가본다",
+            "norm_text": "그래도 가긴 가야 하니까 키키 어떻게든 갈걸? 안 되면 렌트해서 알아서 가본다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/VV+EC+가/VX+긴/ETN+JX+가/VX+야/EC+하/VV+니까/EC+키/NNG+키/XSV+ETN+어떻게/MAG+든/JX+갈걸/VV+EF+안/MAG+되/VV+면/EC+렌트/NNG+해서/XSV+EC+알/VV+아서/EC+가/VX+본다/EC+VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오오... 키키 버스 타라... 대구까지 그래도 갈려면 하하",
+            "norm_text": "오오... 키키 버스 타라... 대구까지 그래도 갈려면 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오오/IC+./SY+./SY+키키/NNP+버스타/NNP+라/VCP+EF+./SY+./SY+대구/NNP+까지/JX+그래도/VV+EC+갈려면/VV+EC+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 키키 니는 추석 때 안 내려갈 거가? 예매 안 해도 되나?",
+            "norm_text": "응 키키 니는 추석 때 안 내려갈 거가? 예매 안 해도 되나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+니/NP+는/JX+추석/NNG+때/NNG+안/MAG+내려갈/VV+ETM+거/NNB+가/JKS+예매/NNG+안/MAG+해도/VV+EC+되/VV+나/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나 예매는 했는데 아직 결제는 안 했다 하하",
+            "norm_text": "나 예매는 했는데 아직 결제는 안 했다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+예매/NNG+는/JX+했/VV+EP+는데/EC+아직/MAG+결제/NNG+는/JX+안/MAG+했/VV+EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 그렇게도 되나? Ktx여? Srt?",
+            "norm_text": "아 그렇게도 되나? Ktx여? Srt?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그렇게/MAG+도/JX+되/VV+나/EF+Ktx/SL+여/XSN+?/SY+Srt/SL"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 혹시라도 시간대 더 좋은 거 생기면 시간 바꾸려고 아직 대기 중 키키",
+            "norm_text": "키키 혹시라도 시간대 더 좋은 거 생기면 시간 바꾸려고 아직 대기 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+혹시/MAG+라도/VCP+EC+시간대/NNG+더/MAG+좋/VA+은/ETM+거/NNB+생기/VV+면/EC+시간/NNG+바꾸/VV+려고/EC+아직/MAG+대기/NNG+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오 키키 그렇구나 ㅠ 이번 추석이 긴 편은 아니라서 이동하는 게 힘들 듯 ㅠ 코로나 땜에 괘아느려나",
+            "norm_text": "오 키키 그렇구나 ㅠ 이번 추석이 긴 편은 아니라서 이동하는 게 힘들 듯 ㅠ 코로나 땜에 괘아느려나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+그렇/VA+구/EC+나ㅠ/UNKNOWN+이번/NNG+추석/NNG+이/JKS+긴/VA+ETM+편/NNB+은/JX+아니/VCN+라서/EC+이동/NNG+하/XSV+는/ETM+게/NNB+JKS+힘들/VA+듯/EC+ㅠ/UNKNOWN+코로나/NNG+땜/NNB+에/JKB+괘/NNG+아/IC+느/VV+려나/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아... 난 추석 긴 편이라고 생각했지 왜? 키키",
+            "norm_text": "아... 난 추석 긴 편이라고 생각했지 왜? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+난/NP+JX+추석/NNG+긴/VA+ETM+편/NNB+이/VCP+라고/EC+생각/NNG+했/XSV+EP+지/EF+왜/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 짧은 편은 아닌데 다른 날 길 때를 생각해 보면...",
+            "norm_text": "짧은 편은 아닌데 다른 날 길 때를 생각해 보면...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짧/VA+은/ETM+편/NNB+은/JX+아닌데/VCN+EC+다른/MM+날/NNG+길/NNG+때/NNG+를/JKO+생각/NNG+해/XSV+EC+보/VX+면/EC+./SY+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그리고 코로나 땜에 차편들도 완전히 많이 늘리진 않을 거 같단 말이지",
+            "norm_text": "그리고 코로나 땜에 차편들도 완전히 많이 늘리진 않을 거 같단 말이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+코로나/NNG+땜/NNB+에/JKB+차편/NNG+들/XSN+도/JX+완전히/MAG+많이/MAG+늘리/VV+진/EC+JX+않/VX+을/ETM+거/NNB+같/VA+단/ETM+말/NNG+이/VCP+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

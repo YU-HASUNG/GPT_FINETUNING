@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 73019,
+    "name": "KAKAO_898_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750064061/KAKAO_898_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750064061/KAKAO_898_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41262,
+      "filename": "KAKAO_898_05.txt",
+      "title": "KAKAO_898_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 756,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "다자간 대화",
+        "size": 756,
+        "word_size": 179,
+        "text": "1 : 얼마 전에 강철부대라는 프로를 봤는데 다들 대단하시더라고요\n2 : 아아 그 밀리터리 서바이벌 맞죠?\n3 : 엇 저도 그거 봤어요!\n1 : 특수부대 출신이라 그런지 다들 멋지던데요?\n2 : 저도 채널 돌리다 잠깐 봤는데 갯벌 막 건너는 거 보고 놀랐어요\n3 : 특수부대라도 다른 부대랑 복무 기간은 다 같을 텐데 정말 대단해요\n1 : 아아 근데 복무 기간이 조금씩 다르긴 해요!\n2 : 육군이랑 해병대가 18개월이고 나머지는 더 길 거에요\n3 : 아~ 그렇구나... 저희 오빠가 육군을 나와서 나머지는 잘 몰라요 ㅎ\n1 : 만약에 군대에 가야 한다면 어떤 곳 지원하고 싶어요?\n2 : 음... 그래도 그나마 제일 짧은 복무 기간인 육군이요!\n3 : 엇 그럼 전 해군이요!\n1 : 오오 해군이라... 해군 왜요?\n2 : 수영 못한다고 그러지 않았어요?\n2 : 안 무서워요?\n3 : 수영은 못해요 키키.\n3 : 근데 배 타고 다른 나라도 가고 그러더라고요\n1 : 오 그렇구나... 그럼 배에서 군대 생활을 하는 거죠?\n2 : 윽... 그러면 멀미 심한 사람은 너무 힘들겠어요\n3 : 맞아요. 제 친구도 처음엔 멀미 때매 많이 힘들어하더라고요\n1 : 그래도 배 타고 여러 나라 가볼 수 있는 거면 재미는 있겠어요\n2 : 근데 놀기 위해 여러 나라를 가는 게 아니니까...\n3 : 하긴... 어떤 군대에 가던 힘들긴 할 거에요\n1 : 맞아요. 전에 비해서 편해진 거지 군대가 편한 건 절대 아니니까요\n2 : 군인들 모두 별 탈 없이 군대 생활 잘 하고 제대했음 좋겠네요\n3 : 저도 그렇게 생각해요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 얼마 전에 강철부대라는 프로를 봤는데 다들 대단하시더라고요",
+            "norm_text": "얼마 전에 강철부대라는 프로를 봤는데 다들 대단하시더라고요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼마/NNG+전/NNG+에/JKB+강철/NNG+부대/NNG+라는/VCP+ETM+프로/NNG+를/JKO+봤/VV+EP+는데다/EC+들/XSN+대단/XR+하/XSA+시/EP+더라고요/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아아 그 밀리터리 서바이벌 맞죠?",
+            "norm_text": "아아 그 밀리터리 서바이벌 맞죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/NNG+ /SY+그/MM+ /SY+밀리터리/NNP+ /SY+서바이벌/NNP+ /SY+맞/VV+죠/EF"
+          },
+          {
+            "id": 3,
+            "text": "3 : 엇 저도 그거 봤어요!",
+            "norm_text": "엇 저도 그거 봤어요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엇/IC+저/NP+도/JX+그거/NP+봤/VV+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 특수부대 출신이라 그런지 다들 멋지던데요?",
+            "norm_text": "특수부대 출신이라 그런지 다들 멋지던데요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "특수부대/NNP+출신/NNG+이/VCP+라/EC+그런지/VA+EC+다/MAG+들/XSN+멋지/VA+던데요/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 저도 채널 돌리다 잠깐 봤는데 갯벌 막 건너는 거 보고 놀랐어요",
+            "norm_text": "저도 채널 돌리다 잠깐 봤는데 갯벌 막 건너는 거 보고 놀랐어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+ /SY+채널/NNG+ /SY+돌리/VV+다/EC+ /SY+잠깐/MAG+ /SY+봤/VV+EP+는데/EC+ /SY+갯벌/NNG+ /SY+막/NNG+ /SY+건너/NNG+는/JX+ /SY+거/NNB+ /SY+보/VV+고/EC+ /SY+놀랐/VV+EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "3 : 특수부대라도 다른 부대랑 복무 기간은 다 같을 텐데 정말 대단해요",
+            "norm_text": "특수부대라도 다른 부대랑 복무 기간은 다 같을 텐데 정말 대단해요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "특수/NNG+부대/NNG+라도/VCP+EC+다른/MM+부대/NNG+랑/JKB+복무/NNG+기간/NNG+은/JX+다/MAG+같/VA+을/ETM+텐데/NNB+VCP+EC+정말/MAG+대단/XR+해요/XSA+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아아 근데 복무 기간이 조금씩 다르긴 해요!",
+            "norm_text": "아아 근데 복무 기간이 조금씩 다르긴 해요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+근데/MAJ+복무/NNG+기간/NNG+이/JKS+조금/MAG+씩/XSN+다르/VA+긴/ETN+JX+해요/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 육군이랑 해병대가 18개월이고 나머지는 더 길 거에요",
+            "norm_text": "육군이랑 해병대가 18개월이고 나머지는 더 길 거에요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "육군/NNG+이랑/JC+ /SY+해병대/NNG+가/JKS+ /SY+18/SN+개월/NNBC+이/VCP+고/EC+ /SY+나머지/NNG+는/JX+ /SY+더/MAG+ /SY+길거/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "3 : 아~ 그렇구나... 저희 오빠가 육군을 나와서 나머지는 잘 몰라요 ㅎ",
+            "norm_text": "아~ 그렇구나... 저희 오빠가 육군을 나와서 나머지는 잘 몰라요 ㅎ",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+그렇/VA+구나/EF+./SY+저희/NP+오빠/NNG+가/JKS+육군/NNG+을/JKO+나와서/VV+EC+나머지/NNG+는/JX+잘/MAG+몰라요/VV+EF+ㅎ/XSA"
+          },
+          {
+            "id": 10,
+            "text": "1 : 만약에 군대에 가야 한다면 어떤 곳 지원하고 싶어요?",
+            "norm_text": "만약에 군대에 가야 한다면 어떤 곳 지원하고 싶어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "만약/NNG+에/JKB+군대/NNG+에/JKB+가/VV+야/EC+한다면/VV+EC+어떤/MM+곳/NNG+지원/NNG+하/XSV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 음... 그래도 그나마 제일 짧은 복무 기간인 육군이요!",
+            "norm_text": "음... 그래도 그나마 제일 짧은 복무 기간인 육군이요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+ /SY+그래도/VV+EC+ /SY+그나마/MAG+ /SY+제일/NNG+ /SY+짧/VA+은/ETM+ /SY+복무/NNG+ /SY+기간/NNG+인/VCP+ETM+ /SY+육군/NNG+이/VCP+요/EF"
+          },
+          {
+            "id": 12,
+            "text": "3 : 엇 그럼 전 해군이요!",
+            "norm_text": "엇 그럼 전 해군이요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엇/IC+그럼/MAJ+전/MM+해군/NNG+이/VCP+요/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오오 해군이라... 해군 왜요?",
+            "norm_text": "오오 해군이라... 해군 왜요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+오/NR+해군/NNG+이/VCP+라/EF+./SY+해군/NNG+왜/MAG+요/JX"
+          },
+          {
+            "id": 14,
+            "text": "2 : 수영 못한다고 그러지 않았어요?",
+            "norm_text": "수영 못한다고 그러지 않았어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "수영/NNG+ /SY+못/MAG+한다고/VV+EC+ /SY+그러지/NNP+ /SY+않/VX+았/EP+어요/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 안 무서워요?",
+            "norm_text": "안 무서워요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "안/MAG+무서워요/VA+EF"
+          },
+          {
+            "id": 16,
+            "text": "3 : 수영은 못해요 키키.",
+            "norm_text": "수영은 못해요 키키.",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수영/NNG+은/JX+못/MAG+해요/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "3 : 근데 배 타고 다른 나라도 가고 그러더라고요",
+            "norm_text": "근데 배 타고 다른 나라도 가고 그러더라고요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+배/NNG+타/VV+고/EC+다른/MM+나라/NNG+도/JX+가/VV+고/EC+그러/VV+더라고요/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오 그렇구나... 그럼 배에서 군대 생활을 하는 거죠?",
+            "norm_text": "오 그렇구나... 그럼 배에서 군대 생활을 하는 거죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+그렇/VA+구나/EF+./SY+그럼/MAJ+배/NNG+에서/JKB+군대/NNG+생활/NNG+을/JKO+하/VV+는/ETM+거/NNB+죠/VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 윽... 그러면 멀미 심한 사람은 너무 힘들겠어요",
+            "norm_text": "윽... 그러면 멀미 심한 사람은 너무 힘들겠어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "윽/IC+./SY+ /SY+그러/VV+면/EC+ /SY+멀미/NNG+ /SY+심한/VA+ETM+ /SY+사람/NNG+은/JX+ /SY+너무/MAG+ /SY+힘들/VA+겠/EP+어요/EF"
+          },
+          {
+            "id": 20,
+            "text": "3 : 맞아요. 제 친구도 처음엔 멀미 때매 많이 힘들어하더라고요",
+            "norm_text": "맞아요. 제 친구도 처음엔 멀미 때매 많이 힘들어하더라고요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아요/EF+제친구도처음엔멀미때매많이힘들어하더라고요/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그래도 배 타고 여러 나라 가볼 수 있는 거면 재미는 있겠어요",
+            "norm_text": "그래도 배 타고 여러 나라 가볼 수 있는 거면 재미는 있겠어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+배/NNG+타/VV+고/EC+여러/MM+나라/NNG+가/JKS+볼/VV+ETM+수/NNB+있/VV+는/ETM+거/NNB+면/VCP+EC+재미/NNG+는/JX+있/VX+겠/EP+어요/EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 근데 놀기 위해 여러 나라를 가는 게 아니니까...",
+            "norm_text": "근데 놀기 위해 여러 나라를 가는 게 아니니까...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+ /SY+놀/VV+기/ETN+ /SY+위해/VV+EC+ /SY+여러/MM+ /SY+나라/NNG+를/JKO+ /SY+가/VV+는/ETM+ /SY+게/NNB+JKS+ /SY+아니/VCN+니까/EC+./SY+./SY"
+          },
+          {
+            "id": 23,
+            "text": "3 : 하긴... 어떤 군대에 가던 힘들긴 할 거에요",
+            "norm_text": "하긴... 어떤 군대에 가던 힘들긴 할 거에요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+./SY+어떤/MM+군대/NNG+에/JKB+가/VV+던/ETM+힘들/VA+긴/ETN+JX+할/VX+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 24,
+            "text": "1 : 맞아요. 전에 비해서 편해진 거지 군대가 편한 건 절대 아니니까요",
+            "norm_text": "맞아요. 전에 비해서 편해진 거지 군대가 편한 건 절대 아니니까요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+전/NNG+에/JKB+비해서/VV+EC+편해진/VA+EC+VX+ETM+거/NNB+지/VCP+EC+군대/NNG+가/JKS+편한/VA+ETM+건/NNB+JX+절대/MAG+아니/VCN+니까요/EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 군인들 모두 별 탈 없이 군대 생활 잘 하고 제대했음 좋겠네요",
+            "norm_text": "군인들 모두 별 탈 없이 군대 생활 잘 하고 제대했음 좋겠네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군인/NNG+들/XSN+ /SY+모두/NNG+ /SY+별/NNG+ /SY+탈/NNG+ /SY+없이/MAG+ /SY+군대/NNG+ /SY+생활/NNG+ /SY+잘/MAG+ /SY+하고/JKQ+ /SY+제대/NNG+했/XSV+EP+음/ETN+ /SY+좋/VA+겠/EP+네요/EC"
+          },
+          {
+            "id": 26,
+            "text": "3 : 저도 그렇게 생각해요",
+            "norm_text": "저도 그렇게 생각해요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+그렇/VA+게/EC+생각/NNG+해요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

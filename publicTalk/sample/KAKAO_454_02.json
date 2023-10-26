@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 20128,
+    "name": "KAKAO_454_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940080944/KAKAO_454_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135940080944/KAKAO_454_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27852,
+      "filename": "KAKAO_454_02.txt",
+      "title": "KAKAO_454_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 361,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 361,
+        "word_size": 106,
+        "text": "1 : 이편한 세상 아파트 아시나요\n2 : 그건 뭐죠? 편한 아파트를 그렇게 부르나요?\n1 : 그거 이편한 세상이라는 아파트 브랜드예요\n2 : 그렇구나. 입구에 중문 설치하시는 거 좋아하세요?\n1 : 입구에 중문 설치하면 좋지요\n2 : 베란다에 슬라이딩 도어 설치하는 거 좋아하세요?\n1 : 베란다에 슬라이딩 도어를 좋아요\n2 : 샷시 이중창으로 하셨어요?\n1 : 네 발코니 확장하는 거도 좋아요\n2 : 집 문 전자 도어락이에요? 키예요?\n1 : 저는 도어락이예요 키는 요새 거의 없죠\n2 : 집 베란다 있으면 확장하셨어요?\n1 : 저희는 확장 안 했어요\n2 : 붙박이장은 설치하셨나요? 좋지 않아요?\n1 : 붙박이장 있어요 좋아요\n2 : 집에 화로 있으면 좋지 않을까요?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이편한 세상 아파트 아시나요",
+            "norm_text": "이편한 세상 아파트 아시나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이/MM+편한/VA+ETM+세상/NNG+아파트/NNG+아시나/NNP+요/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그건 뭐죠? 편한 아파트를 그렇게 부르나요?",
+            "norm_text": "그건 뭐죠? 편한 아파트를 그렇게 부르나요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+뭐/NP+죠/VCP+EF+편한/VA+ETM+아파트/NNG+를/JKO+그렇게/MAG+부르/VV+나요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그거 이편한 세상이라는 아파트 브랜드예요",
+            "norm_text": "그거 이편한 세상이라는 아파트 브랜드예요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+이/JKS+편한/VA+ETM+세상/NNG+이/VCP+라는/ETM+아파트/NNG+브랜드/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그렇구나. 입구에 중문 설치하시는 거 좋아하세요?",
+            "norm_text": "그렇구나. 입구에 중문 설치하시는 거 좋아하세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구나/EF+입구/NNG+에/JKB+중문/NNG+설치/NNG+하/XSV+시/EP+는/ETM+거/NNB+좋/VA+아/EC+하/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 입구에 중문 설치하면 좋지요",
+            "norm_text": "입구에 중문 설치하면 좋지요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "입구/NNG+에/JKB+중문/NNG+설치/NNG+하/XSV+면/EC+좋/VA+지요/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 베란다에 슬라이딩 도어 설치하는 거 좋아하세요?",
+            "norm_text": "베란다에 슬라이딩 도어 설치하는 거 좋아하세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "베란다/NNG+에/JKB+슬라이딩/NNG+도/JX+어/IC+설치/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+하/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 베란다에 슬라이딩 도어를 좋아요",
+            "norm_text": "베란다에 슬라이딩 도어를 좋아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "베란다/NNG+에/JKB+슬라이딩/NNG+도어/NNG+를/JKO+좋/VA+아요/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 샷시 이중창으로 하셨어요?",
+            "norm_text": "샷시 이중창으로 하셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "샷/NNG+시이/NNG+중창/NNG+으로/JKB+하/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 네 발코니 확장하는 거도 좋아요",
+            "norm_text": "네 발코니 확장하는 거도 좋아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+발코니/NNG+확장/NNG+하/XSV+는/ETM+거/NNB+도/JX+좋/VA+아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 집 문 전자 도어락이에요? 키예요?",
+            "norm_text": "집 문 전자 도어락이에요? 키예요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+문/NNG+전자/NNG+도/JX+어/IC+락/NNG+이/VCP+에요/EF+키/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 저는 도어락이예요 키는 요새 거의 없죠",
+            "norm_text": "저는 도어락이예요 키는 요새 거의 없죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+도어/NNG+락/NNG+이/JKS+예/IC+요키/NNP+는/JX+요새/MAG+거의/MAG+없/VA+죠/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 집 베란다 있으면 확장하셨어요?",
+            "norm_text": "집 베란다 있으면 확장하셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+베/VV+란다/EC+있/VX+으면/EC+확장/NNG+하/XSV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 저희는 확장 안 했어요",
+            "norm_text": "저희는 확장 안 했어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저희/NP+는/JX+확장/NNG+안/MAG+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 붙박이장은 설치하셨나요? 좋지 않아요?",
+            "norm_text": "붙박이장은 설치하셨나요? 좋지 않아요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "붙박이장/NNG+은/JX+설치/NNG+하/XSV+셨/EP+EP+나요/EF+좋/VA+지/EC+않/VX+아요/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 붙박이장 있어요 좋아요",
+            "norm_text": "붙박이장 있어요 좋아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "붙박이장/NNG+있/VA+어요/EF+좋/VA+아요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 집에 화로 있으면 좋지 않을까요?",
+            "norm_text": "집에 화로 있으면 좋지 않을까요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+에/JKB+화/NNG+로/JKB+있/VV+으면/EC+좋/VA+지/EC+않/VX+을까요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

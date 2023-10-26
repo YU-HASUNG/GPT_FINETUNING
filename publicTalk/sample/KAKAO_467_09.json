@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 20977,
+    "name": "KAKAO_467_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145107076512/KAKAO_467_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145107076512/KAKAO_467_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28379,
+      "filename": "KAKAO_467_09.txt",
+      "title": "KAKAO_467_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 572,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 572,
+        "word_size": 185,
+        "text": "1 : 너는 혼자 살면 동물 기르고 싶냐\n2 : 나는 지금도 고양이 키우고 싶음 키키\n1 : 키키 고양이는 너무 징그럽지 않냐 우는 소리\n2 : 내가 키우는 애면 뭔들... 키키 귀엽기만 할 듯\n2 : 납치할까 동네에 있는 거 진짜\n1 : 키키 납치한 고양이 데려다 키우면 골치 아파질걸\n1 : 우리 강아지 병원 왔다 갔다...\n2 : 왜? 어디 아픔? 밖에 있어어 긍가\n1 : 그때 그 심장사상충… 그거 때문에 병원 엄청 왔다 갔다 했잖수\n2 : 아 아직도 계속 다녀야 댐?\n1 : 이제 끝나긴 했는데 그래도 조심해야지\n1 : 근데 더군다나 바깥 고양이를 데려다 기르면… 키키 엄청날걸\n2 : 주사 한 번에 얼마 정도 함? 예방 접종\n1 : 그냥 예방 접종은 얼마 안 할걸?\n1 : 병 걸렸음 그게 큰일이지...\n2 : 애들 다 건강해 보이던데 키키 윗집에서 밥까지 챙겨주고 있음\n1 : 키키 그래도 어떤 벌레들이 심장을 갉아먹고 있을지 몰라...\n1 : 그거만 먹는 거 아니자나 키키\n2 : 그런가... 그냥 데려다 키우고 싶은디\n1 : 키키 납치해다가 한 마리 길러라 키키\n1 : 집안이 아주 난리가 날 것이다\n2 : ㄴㄴ 그럼 그냥 입양이 나을 듯 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 혼자 살면 동물 기르고 싶냐",
+            "norm_text": "너는 혼자 살면 동물 기르고 싶냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+혼자/MAG+살/VV+면/EC+동물/NNG+기르/VV+고/EC+싶/VX+냐/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 지금도 고양이 키우고 싶음 키키",
+            "norm_text": "나는 지금도 고양이 키우고 싶음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+지금/NNG+도/JX+고양이/NNG+키우/VV+고/EC+싶/VX+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 고양이는 너무 징그럽지 않냐 우는 소리",
+            "norm_text": "키키 고양이는 너무 징그럽지 않냐 우는 소리",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+고양이/NNG+는/JX+너무/MAG+징그럽/VA+지/EC+않/VX+냐/EC+우/VV+는/ETM+소리/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 내가 키우는 애면 뭔들... 키키 귀엽기만 할 듯",
+            "norm_text": "내가 키우는 애면 뭔들... 키키 귀엽기만 할 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+키우/VV+는/ETM+애/NNG+면/VCP+EC+뭔들/NP+VCP+EC+./SY+./SY+키/NNG+키/XSV+ETN+귀엽/VA+기/ETN+만/JX+할/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 5,
+            "text": "2 : 납치할까 동네에 있는 거 진짜",
+            "norm_text": "납치할까 동네에 있는 거 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "납치/NNG+할까/XSV+EC+동네/NNG+에/JKB+있/VV+는/ETM+거/NNB+진짜/MAG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 납치한 고양이 데려다 키우면 골치 아파질걸",
+            "norm_text": "키키 납치한 고양이 데려다 키우면 골치 아파질걸",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+납치/NNG+한/XSA+ETM+고양이/NNG+데려다/VV+EC+키우/VV+면/EC+골치/NNG+아파질/VA+EC+VX+ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 7,
+            "text": "1 : 우리 강아지 병원 왔다 갔다...",
+            "norm_text": "우리 강아지 병원 왔다 갔다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+강아지/NNG+병원/NNG+왔/VV+EP+다/EC+갔/VV+EP+다/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 왜? 어디 아픔? 밖에 있어어 긍가",
+            "norm_text": "왜? 어디 아픔? 밖에 있어어 긍가",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+어디/NP+아픔/VA+ETN+밖/NNG+에/JKB+있/VV+어/EF+어/IC+긍가/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그때 그 심장사상충… 그거 때문에 병원 엄청 왔다 갔다 했잖수",
+            "norm_text": "그때 그 심장사상충… 그거 때문에 병원 엄청 왔다 갔다 했잖수",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그때/NNG+그/MM+심장/NNG+사상충/NNG+…/SE+그거/NP+때문/NNB+에/JKB+병원/NNG+엄청/MAG+왔/VV+EP+다/EC+갔/VV+EP+다/EC+했/VX+EP+잖수/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 아직도 계속 다녀야 댐?",
+            "norm_text": "아 아직도 계속 다녀야 댐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+아직/MAG+도/JX+계속/MAG+다녀야/VV+EC+댐/VX+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 이제 끝나긴 했는데 그래도 조심해야지",
+            "norm_text": "이제 끝나긴 했는데 그래도 조심해야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+끝나/VV+긴/ETN+JX+했/VX+EP+는데/EC+그래도/VV+EC+조심/NNG+해야지/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 근데 더군다나 바깥 고양이를 데려다 기르면… 키키 엄청날걸",
+            "norm_text": "근데 더군다나 바깥 고양이를 데려다 기르면… 키키 엄청날걸",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+더군다나/MAJ+바깥/NNG+고양이/NNG+를/JKO+데려다/VV+EC+기르/VV+면/EC+…/SE+키/NNG+키/XSV+ETN+엄청날/VA+ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 13,
+            "text": "2 : 주사 한 번에 얼마 정도 함? 예방 접종",
+            "norm_text": "주사 한 번에 얼마 정도 함? 예방 접종",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주사/NNG+한/MM+번/NNBC+에/JKB+얼마/NNG+정도/NNG+함/XSV+ETN+예방/NNG+접종/NNG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그냥 예방 접종은 얼마 안 할걸?",
+            "norm_text": "그냥 예방 접종은 얼마 안 할걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+예방/NNG+접종/NNG+은/JX+얼마/NNG+안/MAG+할걸/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 병 걸렸음 그게 큰일이지...",
+            "norm_text": "병 걸렸음 그게 큰일이지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병/NNG+걸렸/VV+EP+음/ETN+그게/NP+JKS+큰일/NNG+이/VCP+지/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 애들 다 건강해 보이던데 키키 윗집에서 밥까지 챙겨주고 있음",
+            "norm_text": "애들 다 건강해 보이던데 키키 윗집에서 밥까지 챙겨주고 있음",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애/NNG+들/XSN+다/MAG+건강/NNG+해/XSV+EC+보이/VV+던데/EC+키/NNG+키/NNG+윗집/NNG+에서/JKB+밥/NNG+까지/JX+챙겨/VV+EC+주/VX+고/EC+있/VX+음/ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 그래도 어떤 벌레들이 심장을 갉아먹고 있을지 몰라...",
+            "norm_text": "키키 그래도 어떤 벌레들이 심장을 갉아먹고 있을지 몰라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+어떤/MM+벌레/NNG+들/XSN+이/JKS+심장/NNG+을/JKO+갉아먹/VV+고/EC+있/VX+을지/EC+몰라/VV+EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그거만 먹는 거 아니자나 키키",
+            "norm_text": "그거만 먹는 거 아니자나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+만/JX+먹/VV+는/ETM+거/NNB+아니/VCN+자/EC+나/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그런가... 그냥 데려다 키우고 싶은디",
+            "norm_text": "그런가... 그냥 데려다 키우고 싶은디",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EF+./SY+그냥/MAG+데려다/VV+EC+키우/VV+고/EC+싶/VX+은디/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 납치해다가 한 마리 길러라 키키",
+            "norm_text": "키키 납치해다가 한 마리 길러라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+납치/NNG+해다가/XSV+EC+한/MM+마리/NNBC+길러라/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 집안이 아주 난리가 날 것이다",
+            "norm_text": "집안이 아주 난리가 날 것이다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집안/NNG+이/JKS+아주/MAG+난리/NNG+가/JKS+날/VV+ETM+것/NNB+이/VCP+다/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : ㄴㄴ 그럼 그냥 입양이 나을 듯 키키",
+            "norm_text": "ㄴㄴ 그럼 그냥 입양이 나을 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+그럼/MAJ+그냥/MAG+입양/NNG+이/JKS+나/VV+을/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 21144,
+    "name": "KAKAO_456_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818041251/KAKAO_456_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818041251/KAKAO_456_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27757,
+      "filename": "KAKAO_456_07.txt",
+      "title": "KAKAO_456_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 700,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 700,
+        "word_size": 222,
+        "text": "1 : 너 동생 자취 시작했대매 이사 잘 도와줬어?키키\n2 : 엉 아침부터 차 끌고 다 날라줌 ㅠㅠ 개피곤\n1 : 헐 이사짐이 별로 없었나 보네\n1 : 동생 갑자기 왜 자취함? 키키\n2 : 나가고 싶댜 키키\n2 : 그럴 때가 온 거지 키키\n1 : 아 키키 집 나가면 고생인데 그래도 집에 맨날 있던 동생 없으면 허전하겠다\n2 : 고생은 지가 하겠지 뭐...ㅎ\n2 : 앓던 이 빠진 것마냥 시원함...!\n1 : 키키 아니 혈육한테 너무한 거 아니오\n1 : 부모님은 그래도 용케 허락하셨네?\n2 : 키키 혈육이니까 가능한 기분 키키\n2 : 웅 지가 알아서 한다 그래서 걍 ㅇㅋㅇㅋ 하심 키키\n1 : 부모님이 그래도 개방적인 편이시네\n1 : 아들도 집에서 사는데 딸의 출가를 허락하시다니...!\n2 : 난 집 구할 돈이 없...키키\n2 : 그래도 옆동네라 허락 금방 하신 듯!\n1 : 바로 옆이면 나가는 의미 있냐능...?\n2 : 일단 눈 떴을 때 혼자라는 거...? 그게 제일 아닐까 키키\n1 : 아... 그건 진짜... 좋아...^^\n1 : 혈육은 시워어어언~하겠지만 부모님은 그래도 좀 허전해하실 거 같은데... 아닌가 키키\n2 : 그럴 것 같기는 함 키키\n2 : 그래도 넷이 있다가 셋 되는 거니 키키\n2 : 자식 사랑은 어디 안 가제 ㅠㅠ\n1 : 그럼그럼 ㅜㅜ 그래도 옆동네니까 밥 먹으러 자주 오것다 동생 키키\n2 : 아아아아앙 오지 마 혼자 먹어 ㅠㅠ\n2 : 나도 사람 적은 게 좋다구 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 동생 자취 시작했대매 이사 잘 도와줬어?키키",
+            "norm_text": "너 동생 자취 시작했대매 이사 잘 도와줬어?키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+동생/NNG+자취/NNG+시작/NNG+했/XSV+EP+대매/EF+이사/NNG+잘/MAG+도와/VV+EC+줬/VX+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엉 아침부터 차 끌고 다 날라줌 ㅠㅠ 개피곤",
+            "norm_text": "엉 아침부터 차 끌고 다 날라줌 ㅠㅠ 개피곤",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+아침/NNG+부터/JX+차/NNG+끌/VV+고/EC+다/MAG+날라/VV+EC+줌/VX+ETN+ㅠㅠ/UNKNOWN+개/NNG+피곤/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐 이사짐이 별로 없었나 보네",
+            "norm_text": "헐 이사짐이 별로 없었나 보네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+이사/NNG+짐/NNG+이/JKS+별로/MAG+없/VA+었/EP+나/EC+보/VX+네/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 동생 갑자기 왜 자취함? 키키",
+            "norm_text": "동생 갑자기 왜 자취함? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동생/NNG+갑자기/MAG+왜/MAG+자취/NNG+함/XSV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나가고 싶댜 키키",
+            "norm_text": "나가고 싶댜 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나가/VV+고/EC+싶/VX+댜/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그럴 때가 온 거지 키키",
+            "norm_text": "그럴 때가 온 거지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+때/NNG+가/JKS+온거/VV+ETM+NNB+VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 키키 집 나가면 고생인데 그래도 집에 맨날 있던 동생 없으면 허전하겠다",
+            "norm_text": "아 키키 집 나가면 고생인데 그래도 집에 맨날 있던 동생 없으면 허전하겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+집/NNG+나가/VV+면/EC+고생/NNG+인데/VCP+EC+그래도/VV+EC+집/NNG+에/JKB+맨날/MAG+있/VV+던/ETM+동생/NNG+없/VA+으면/EC+허전/XR+하/XSA+겠/EP+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 고생은 지가 하겠지 뭐...ㅎ",
+            "norm_text": "고생은 지가 하겠지 뭐...ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고생/NNG+은지/NNG+가/JKS+하/VV+겠/EP+지/EF+뭐/IC+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 9,
+            "text": "2 : 앓던 이 빠진 것마냥 시원함...!",
+            "norm_text": "앓던 이 빠진 것마냥 시원함...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앓/VV+던/ETM+이/JKC+빠진/VV+ETM+것/NNB+마냥/JKB+시원/XR+함/XSA+ETN+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 아니 혈육한테 너무한 거 아니오",
+            "norm_text": "키키 아니 혈육한테 너무한 거 아니오",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+혈육/NNG+한테/JKB+너무/MAG+한/XSA+ETM+거/NNB+아니/VCN+오/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 부모님은 그래도 용케 허락하셨네?",
+            "norm_text": "부모님은 그래도 용케 허락하셨네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부모/NNG+님/XSN+은/JX+그래도/MAJ+용케/VA+EC+허락/NNG+하/XSV+셨/EP+EP+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 혈육이니까 가능한 기분 키키",
+            "norm_text": "키키 혈육이니까 가능한 기분 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+혈육/NNG+이/VCP+니까/EC+가능/NNG+한/XSA+ETM+기분/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 웅 지가 알아서 한다 그래서 걍 ㅇㅋㅇㅋ 하심 키키",
+            "norm_text": "웅 지가 알아서 한다 그래서 걍 ㅇㅋㅇㅋ 하심 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅지/NNG+가/JKS+알/VV+아서/EC+한다/VX+EF+그래서/MAJ+걍/UNKNOWN+ㅇㅋ/UNKNOWN+ㅇㅋ/UNKNOWN+하심/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 부모님이 그래도 개방적인 편이시네",
+            "norm_text": "부모님이 그래도 개방적인 편이시네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부모/NNG+님/XSN+이/JKS+그래도/VV+EC+개방/NNG+적/XSN+인/VCP+ETM+편/NNB+이/JKS+시네/VV+EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아들도 집에서 사는데 딸의 출가를 허락하시다니...!",
+            "norm_text": "아들도 집에서 사는데 딸의 출가를 허락하시다니...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아들/NNG+도/JX+집/NNG+에서/JKB+사/VV+는데/EC+딸/NNG+의/JKG+출가/NNG+를/JKO+허락/NNG+하/XSV+시/EP+다니/EF+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 난 집 구할 돈이 없...키키",
+            "norm_text": "난 집 구할 돈이 없...키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+집구/NNG+할/XSV+ETM+돈/NNG+이/JKS+없/VA+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래도 옆동네라 허락 금방 하신 듯!",
+            "norm_text": "그래도 옆동네라 허락 금방 하신 듯!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+옆/NNG+동네/NNG+라/VCP+EC+허락/NNG+금방/MAG+하/VV+신/EP+ETM+듯/NNB"
+          },
+          {
+            "id": 18,
+            "text": "1 : 바로 옆이면 나가는 의미 있냐능...?",
+            "norm_text": "바로 옆이면 나가는 의미 있냐능...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "바로/MAG+옆/NNG+이/VCP+면/EC+나가/VX+는/ETM+의미/NNG+있/VV+냐/EC+능/NNG+./SY+./SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 일단 눈 떴을 때 혼자라는 거...? 그게 제일 아닐까 키키",
+            "norm_text": "일단 눈 떴을 때 혼자라는 거...? 그게 제일 아닐까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일단/MAG+눈떴/VV+EP+을/ETM+때/NNG+혼자/NNG+라는/VCP+ETM+거/NNB+./SY+./SY+그게/NP+JKS+제일/MAG+아닐까/VCN+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아... 그건 진짜... 좋아...^^",
+            "norm_text": "아... 그건 진짜... 좋아...^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+그건/NP+JX+진짜/MAG+./SY+좋/VA+아/EF+./SY+^/SY+^/SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 혈육은 시워어어언~하겠지만 부모님은 그래도 좀 허전해하실 거 같은데... 아닌가 키키",
+            "norm_text": "혈육은 시워어어언~하겠지만 부모님은 그래도 좀 허전해하실 거 같은데... 아닌가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혈육은시워어어언/UNKNOWN+~/SY+하/VV+겠/EP+지만/EC+부모/NNG+님/XSN+은/JX+그래도/MAJ+좀/MAG+허전/XR+해/XSA+EC+하/VX+실/EP+ETM+거/NNB+같/VA+은데/EF+./SY+아닌가/VCN+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그럴 것 같기는 함 키키",
+            "norm_text": "그럴 것 같기는 함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+것/NNB+같/VA+기/ETN+는/JX+함/VV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 그래도 넷이 있다가 셋 되는 거니 키키",
+            "norm_text": "그래도 넷이 있다가 셋 되는 거니 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+넷/NR+이/JKS+있/VV+다가/EC+셋/NR+되/VV+는/ETM+거/NNB+니/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 자식 사랑은 어디 안 가제 ㅠㅠ",
+            "norm_text": "자식 사랑은 어디 안 가제 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자식/NNG+사랑/NNG+은/JX+어디/NP+안/MAG+가/VV+제/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 그럼그럼 ㅜㅜ 그래도 옆동네니까 밥 먹으러 자주 오것다 동생 키키",
+            "norm_text": "그럼그럼 ㅜㅜ 그래도 옆동네니까 밥 먹으러 자주 오것다 동생 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+그럼/MAJ+ㅜㅜ/UNKNOWN+그래도/VV+EC+옆/NNG+동네/NNG+니까/VCP+EC+밥/NNG+먹/VV+으러/EC+자주/MAG+오/VV+것다/EC+동생/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 아아아아앙 오지 마 혼자 먹어 ㅠㅠ",
+            "norm_text": "아아아아앙 오지 마 혼자 먹어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아아/IC+아앙/IC+오지마/NNP+혼자/NNG+먹/VV+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 나도 사람 적은 게 좋다구 ㅠㅠ",
+            "norm_text": "나도 사람 적은 게 좋다구 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+사람/NNG+적/VA+은/ETM+게/NNB+JKS+좋/VA+다구/EC+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

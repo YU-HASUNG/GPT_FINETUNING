@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 27520,
+    "name": "KAKAO_561_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209020183/KAKAO_561_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209020183/KAKAO_561_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30062,
+      "filename": "KAKAO_561_11.txt",
+      "title": "KAKAO_561_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 550,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 550,
+        "word_size": 187,
+        "text": "1 : 너 메이플스토리 아직도 해?\n2 : 아니 안 한 지 오래됐지\n2 : 너는 아직도 하냐?\n1 : 나는 메이플스토리는 안 하고 서든 어택 아직도 해 키키\n2 : 서든 어택 언제 적 게임이야...\n2 : 아직도 재밌어?\n1 : 엉 재밌던데 너도 메이플스토리 오래 하지 않았냐\n2 : 나도 했다 안 했다 친구들 하면 같이하고 그랬지\n2 : 너 메이플 여자 캐릭터 키웠었지?\n1 : 응 난 여자 캐릭터 키웠지\n1 : 여자 캐릭터가 키우기가 더 재밌어\n2 : 맞아 너 여자인 척 아이템도 받고 그랬잖아 ㅎ\n2 : 너 레벨 몇이었어?\n1 : 나 레벨 207 키키\n1 : 메이플 다시 할까?\n2 : 레벨 높다 게임할 시간 있어?\n1 : 게임할 시간 없을 수가 있냐\n1 : 안 놀고 게임하면 돼\n2 : 일하고 그러니까 게임하고 싶다는 생각이 안 들던데...\n2 : 그럼 넌 쉬는 날에 게임만 해?\n1 : 게임할 때도 있고 나가서 놀 때도 있고 쉴 때도 있고 틈틈히 하지\n2 : 꾸준히 하고 있구나 너는 키키\n2 : 담에 메이플 같이하자 재밌겠다\n1 : 그래 너 시간 나면 메이플 같이하자 키키\n2 : 그래 그래 재밌겠다 주말에 함 하자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 메이플스토리 아직도 해?",
+            "norm_text": "너 메이플스토리 아직도 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+메이플/NNP+스토리/NNG+아직/MAG+도/JX+해/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 안 한 지 오래됐지",
+            "norm_text": "아니 안 한 지 오래됐지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+안/MAG+한지/VV+EC+오래/MAG+됐/VV+EP+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너는 아직도 하냐?",
+            "norm_text": "너는 아직도 하냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+아직/MAG+도/JX+하/VV+냐/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나는 메이플스토리는 안 하고 서든 어택 아직도 해 키키",
+            "norm_text": "나는 메이플스토리는 안 하고 서든 어택 아직도 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+메이플/NNP+스토리/NNG+는/JX+안/MAG+하/VV+고서/EC+든/VV+ETM+어택/NNG+아직/MAG+도/JX+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 서든 어택 언제 적 게임이야...",
+            "norm_text": "서든 어택 언제 적 게임이야...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서든/NNG+어택/NNG+언제/NNG+적/XSN+게임/NNG+이/VCP+야/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아직도 재밌어?",
+            "norm_text": "아직도 재밌어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아직/MAG+도/JX+재밌/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 엉 재밌던데 너도 메이플스토리 오래 하지 않았냐",
+            "norm_text": "엉 재밌던데 너도 메이플스토리 오래 하지 않았냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+재밌/VA+던데/EC+너/NP+도/JX+메이플/NNP+스토리/NNG+오래/MAG+하/VV+지/EC+않/VX+았/EP+냐/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나도 했다 안 했다 친구들 하면 같이하고 그랬지",
+            "norm_text": "나도 했다 안 했다 친구들 하면 같이하고 그랬지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+했/VV+EP+다/EF+안/MAG+했/VV+EP+다/EC+친구/NNG+들/XSN+하/VV+면/EC+같이/MAG+하/VV+고/EC+그랬/VV+EP+지/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 너 메이플 여자 캐릭터 키웠었지?",
+            "norm_text": "너 메이플 여자 캐릭터 키웠었지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+메이플/NNP+여자/NNG+캐릭터/NNG+키웠었/VV+EP+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 난 여자 캐릭터 키웠지",
+            "norm_text": "응 난 여자 캐릭터 키웠지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+난/NP+JX+여자/NNG+캐릭터/NNG+키웠/VV+EP+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 여자 캐릭터가 키우기가 더 재밌어",
+            "norm_text": "여자 캐릭터가 키우기가 더 재밌어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여자/NNG+캐릭터/NNG+가/JKS+키우/VV+기/ETN+가/JKS+더/MAG+재밌/VA+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아 너 여자인 척 아이템도 받고 그랬잖아 ㅎ",
+            "norm_text": "맞아 너 여자인 척 아이템도 받고 그랬잖아 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+너/NP+여자/NNG+인척/NNG+아이템/NNG+도/JX+받/VV+고/EC+그랬/VV+EP+잖아/EF+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "2 : 너 레벨 몇이었어?",
+            "norm_text": "너 레벨 몇이었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+레벨/NNG+몇/NR+이/VCP+었/EP+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나 레벨 207 키키",
+            "norm_text": "나 레벨 207 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+레벨/NNG+207/SN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 메이플 다시 할까?",
+            "norm_text": "메이플 다시 할까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "메이플/NNP+다시/MAG+할까/VV+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 레벨 높다 게임할 시간 있어?",
+            "norm_text": "레벨 높다 게임할 시간 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "레벨/NNG+높/VA+다/EC+게임/NNG+할/XSV+ETM+시간/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 게임할 시간 없을 수가 있냐",
+            "norm_text": "게임할 시간 없을 수가 있냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "게임/NNG+할/XSV+ETM+시간/NNG+없/VA+을/ETM+수/NNB+가/JKS+있/VA+냐/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 안 놀고 게임하면 돼",
+            "norm_text": "안 놀고 게임하면 돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+놀/VV+고/EC+게임/NNG+하/XSV+면/EC+돼/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 일하고 그러니까 게임하고 싶다는 생각이 안 들던데...",
+            "norm_text": "일하고 그러니까 게임하고 싶다는 생각이 안 들던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일/NNG+하/XSV+고/EC+그러니까/MAJ+게임/NNG+하/XSV+고/EC+싶/VX+다는/ETM+생각/NNG+이/JKS+안/MAG+들/VV+던데/EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그럼 넌 쉬는 날에 게임만 해?",
+            "norm_text": "그럼 넌 쉬는 날에 게임만 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+넌/NP+JX+쉬/VV+는/ETM+날/NNG+에/JKB+게임/NNG+만/JX+해/VV+EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 게임할 때도 있고 나가서 놀 때도 있고 쉴 때도 있고 틈틈히 하지",
+            "norm_text": "게임할 때도 있고 나가서 놀 때도 있고 쉴 때도 있고 틈틈히 하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "게임/NNG+할/XSV+ETM+때/NNG+도/JX+있/VA+고/EC+나가/VX+서/EC+놀/VX+ETM+때/NNG+도/JX+있/VA+고/EC+쉴/VV+ETM+때/NNG+도/JX+있/VA+고/EC+틈틈히/MAG+하/VV+지/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 꾸준히 하고 있구나 너는 키키",
+            "norm_text": "꾸준히 하고 있구나 너는 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "꾸준히/MAG+하/VV+고/EC+있/VX+구나/EF+너/NP+는/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 담에 메이플 같이하자 재밌겠다",
+            "norm_text": "담에 메이플 같이하자 재밌겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "담/NNG+에/JKB+메이플/NNP+같이/MAG+하/VV+자/EC+재밌/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 그래 너 시간 나면 메이플 같이하자 키키",
+            "norm_text": "그래 너 시간 나면 메이플 같이하자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+너/NP+시간/NNG+나/VV+면/EC+메이플/NNP+같이/MAG+하/VV+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그래 그래 재밌겠다 주말에 함 하자",
+            "norm_text": "그래 그래 재밌겠다 주말에 함 하자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래그래/IC+재밌/VA+겠/EP+다/EC+주말/NNG+에/JKB+함/VV+ETN+하/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

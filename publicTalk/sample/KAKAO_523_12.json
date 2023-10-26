@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 166855,
+    "name": "KAKAO_523_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163926053457/KAKAO_523_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163926053457/KAKAO_523_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30203,
+      "filename": "KAKAO_523_12.txt",
+      "title": "KAKAO_523_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 520,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 520,
+        "word_size": 156,
+        "text": "1 : 우리 겨울 가족 여행 계획을 한 번 세워보죠 아부지\n2 : 여름에 갔던 여행 참 좋았는데~ 겨울엔 어디로 가볼까~\n1 : 이번에도 휴양지 같은 곳으로 가자\n2 : 지난번엔 강원도 쪽 갔으니 이번에는 아래로 가볼까~\n1 : 근데 뭐를 해야 이번만큼 재밌을지 모르겠네\n2 : 겨울이니까 스키 같은 거 타러 갈까~\n1 : 아냐 그건 힐링 여행이 아냐\n2 : 그럼 온천 여행 좋다 온천~\n1 : 온천은 어디로 알아봐야 되지 아빠가 나한테 여행 계획 짜라고 해서 나 지금 멘붕이야...\n2 : 또 강원도 쪽이긴 하지만 설악산 쪽에 온천이 있다던데~ 거기 한번 볼래~?\n1 : 오 그래야겠다 온천 말고 다른 후보지도 제시해 주세요\n2 : 온천 아니면~ 숙소 좋은 곳, 공기 좋은 곳으로 가보자~\n1 : 단양 가서 패러 글라이딩 같은 거 하는 것도 재밌겠다! 엄마가 못하려나...\n2 : 재밌겠는데~! 근데 엄마가 무섭다고 못한다고 해서 안되겠다~\n1 : 아빠도 못할 것 같은데...?\n2 : 하하 아빠가 무서워서 안 하려고 말했는데 또 들켰네... 온천 가자~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 겨울 가족 여행 계획을 한 번 세워보죠 아부지",
+            "norm_text": "우리 겨울 가족 여행 계획을 한 번 세워보죠 아부지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+겨울/NNG+가족/NNG+여행/NNG+계획/NNG+을/JKO+한번/MAG+세워/VV+EC+보/VX+죠/EF+아부지/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 여름에 갔던 여행 참 좋았는데~ 겨울엔 어디로 가볼까~",
+            "norm_text": "여름에 갔던 여행 참 좋았는데~ 겨울엔 어디로 가볼까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여름/NNG+에/JKB+갔/VV+EP+던/ETM+여행/NNG+참/MAG+좋/VA+았/EP+는데/EC+~/SY+겨울/NNG+엔/JKB+JX+어디/NP+로/JKB+가/VV+볼까/EC+VX+EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 이번에도 휴양지 같은 곳으로 가자",
+            "norm_text": "이번에도 휴양지 같은 곳으로 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이번/NNG+에/JKB+도/JX+휴양지/NNG+같/VA+은/ETM+곳/NNG+으로/JKB+가/VV+자/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 지난번엔 강원도 쪽 갔으니 이번에는 아래로 가볼까~",
+            "norm_text": "지난번엔 강원도 쪽 갔으니 이번에는 아래로 가볼까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지난번엔강원도쪽갔으니이번에는아래로가볼까/UNKNOWN+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 뭐를 해야 이번만큼 재밌을지 모르겠네",
+            "norm_text": "근데 뭐를 해야 이번만큼 재밌을지 모르겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+뭐/NP+를/JKO+해야/VV+EC+이번/NNG+만큼/JKB+재밌/VA+을지/EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 겨울이니까 스키 같은 거 타러 갈까~",
+            "norm_text": "겨울이니까 스키 같은 거 타러 갈까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "겨울/NNG+이/VCP+니까/EC+스키/NNG+같/VA+은/ETM+거/NNB+타/VV+러/EC+갈까/VV+EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아냐 그건 힐링 여행이 아냐",
+            "norm_text": "아냐 그건 힐링 여행이 아냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아냐/IC+그건/NP+JX+힐링/NNG+여행/NNG+이/JKC+아냐/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 온천 여행 좋다 온천~",
+            "norm_text": "그럼 온천 여행 좋다 온천~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+온천/NNG+여행/NNG+좋/VA+다/EC+온천/NNG+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 온천은 어디로 알아봐야 되지 아빠가 나한테 여행 계획 짜라고 해서 나 지금 멘붕이야...",
+            "norm_text": "온천은 어디로 알아봐야 되지 아빠가 나한테 여행 계획 짜라고 해서 나 지금 멘붕이야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "온천은어디로알아봐야되지아빠가나한테여행계획짜라고해서나지금멘붕이야/UNKNOWN+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 또 강원도 쪽이긴 하지만 설악산 쪽에 온천이 있다던데~ 거기 한번 볼래~?",
+            "norm_text": "또 강원도 쪽이긴 하지만 설악산 쪽에 온천이 있다던데~ 거기 한번 볼래~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또강원도쪽이긴하지만설악산쪽에온천이있다던데/UNKNOWN+~/SY+거기/NP+한번/MAG+볼래/VV+EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 그래야겠다 온천 말고 다른 후보지도 제시해 주세요",
+            "norm_text": "오 그래야겠다 온천 말고 다른 후보지도 제시해 주세요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "오그래야겠다온천말고다른후보지도제시해주세요/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 온천 아니면~ 숙소 좋은 곳, 공기 좋은 곳으로 가보자~",
+            "norm_text": "온천 아니면~ 숙소 좋은 곳, 공기 좋은 곳으로 가보자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "온천/NNG+아니/VCN+면/EC+~/SY+숙소/NNG+좋/VA+은/ETM+곳/NNB+,/SC+공기/NNG+좋/VA+은/ETM+곳/NNG+으로/JKB+가/VV+EC+보/VX+자/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 단양 가서 패러 글라이딩 같은 거 하는 것도 재밌겠다! 엄마가 못하려나...",
+            "norm_text": "단양 가서 패러 글라이딩 같은 거 하는 것도 재밌겠다! 엄마가 못하려나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "단양/NNG+가/VV+서/EC+패러글라이딩/NNG+같/VA+은/ETM+거/NNB+하/VV+는/ETM+것/NNB+도/JX+재밌/VA+겠/EP+다/EF+엄마/NNG+가/JKS+못/MAG+하/VV+려나/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 재밌겠는데~! 근데 엄마가 무섭다고 못한다고 해서 안되겠다~",
+            "norm_text": "재밌겠는데~! 근데 엄마가 무섭다고 못한다고 해서 안되겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "재밌/VA+겠/EP+는데/EC+~/SY+근데/MAJ+엄마/NNG+가/JKS+무섭/VA+다고/EC+못한다고/VX+EC+해서/VV+EC+안/MAG+되/VV+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아빠도 못할 것 같은데...?",
+            "norm_text": "아빠도 못할 것 같은데...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+도/JX+못/MAG+할/VV+ETM+것/NNB+같/VA+은데/EF+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 하하 아빠가 무서워서 안 하려고 말했는데 또 들켰네... 온천 가자~",
+            "norm_text": "하하 아빠가 무서워서 안 하려고 말했는데 또 들켰네... 온천 가자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "하하/MAG+아빠/NNG+가/JKS+무서워서/VA+EC+안/MAG+하/VV+려고/EC+말/NNG+했/XSV+EP+는데/EC+또/MAG+들켰/VV+EP+네/EF+./SY+온천/NNG+가/VV+자/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 44494,
+    "name": "KAKAO_777_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150356057730/KAKAO_777_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150356057730/KAKAO_777_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38285,
+      "filename": "KAKAO_777_14.txt",
+      "title": "KAKAO_777_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 805,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 805,
+        "word_size": 236,
+        "text": "1 : 야... 우리 이번 주 포토 밭 가는 거 못 갈 것 같아\n2 : 왜? 무슨 일 있어?\n1 : 조카들이랑 같이 가려고 했는데... 조카네 유치원에서 확진자가 나와가지고...\n1 : 지금 우리 집도 갑자기 비상이다.\n2 : 헉? 확진자가 유치원 아이들인 거야?\n1 : 응 유치원에서 3명이나 확진자가 나와가지고 유치원도 못 가고 난리도 아니다\n2 : 어머... 유치원 3명이라니... 무섭다\n1 : 그러니까... 게다가 조카랑 같은 반 아이 1명 같은 층 아이 2명 이라고 해서 밀접접촉자라고 자가격리 들어갔어\n1 : 다른 조카도 밀접접촉자랑 같은 집이라서 얘도 유치원 등원은 하지 말라고 지금 유치원 문 닫고 그러나 봐\n2 : 아이구 하필이면 같은 반 같은 층? 게다가 2주 격리네\n1 : 응 그래서 이건 우리 가족만의 문제가 아니라 이동한 공간에 너네랑 같이 있으면 그것도 조심해야 할 거 같아서...\n1 : 하필이면, 이번 주에 그렇게 되었네\n2 : 아이들 코로나 검사는 다 하고?\n1 : 응 다행스럽게도 둘 다 음성 나왔어.\n1 : 너 아들 유치원은 어때?\n1 : 요즘 너무 많이 나와서...\n2 : 지난달에 한 아이 아빠가 확진 이어서 어린이 집 갑자기 폐쇄되었는데\n2 : 아이랑 엄마는 음성이고 어린이집 아이들도 다 음성 나와서 다행이었어\n1 : 음성 나와서 천만다행이네.\n1 : 그 가족 때문에 걸렸음 무슨 민폐야 ㅠ\n2 : 게다가 우리 아들은 층도 다르고 반 달랐는데도 어찌나 걱정 되던지…\n2 : 그나저나 애 엄마 힘들겠다 두 명이나 데리고 있으려면...\n1 : 어쩌겠냐? 지금 시국도 그렇고 방침이니까 따라야지...\n2 : 여하튼, 우리도 조금만 더 조심하자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야... 우리 이번 주 포토 밭 가는 거 못 갈 것 같아",
+            "norm_text": "야... 우리 이번 주 포토 밭 가는 거 못 갈 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+./SY+우리/NP+이번/NNG+주/NNG+포토/NNG+밭/NNG+가/VV+는/ETM+거/NNB+못/MAG+갈/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜? 무슨 일 있어?",
+            "norm_text": "왜? 무슨 일 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+무슨/MM+일/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 조카들이랑 같이 가려고 했는데... 조카네 유치원에서 확진자가 나와가지고...",
+            "norm_text": "조카들이랑 같이 가려고 했는데... 조카네 유치원에서 확진자가 나와가지고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "조카/NNG+들/XSN+이랑/JKB+같이/MAG+가/VV+려고/EC+했/VX+EP+는데/EC+./SY+./SY+조카/NNG+네/XSN+유치원/NNG+에서/JKB+확진/NNG+자/XSN+가/JKS+나와/VV+EC+가지/VX+고/EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 지금 우리 집도 갑자기 비상이다.",
+            "norm_text": "지금 우리 집도 갑자기 비상이다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+우리/NP+집/NNG+도/JX+갑자기/MAG+비상/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 헉? 확진자가 유치원 아이들인 거야?",
+            "norm_text": "헉? 확진자가 유치원 아이들인 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+확진/NNG+자/XSN+가/JKS+유치원/NNG+아이/NNG+들/XSN+인/VCP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응 유치원에서 3명이나 확진자가 나와가지고 유치원도 못 가고 난리도 아니다",
+            "norm_text": "응 유치원에서 3명이나 확진자가 나와가지고 유치원도 못 가고 난리도 아니다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+유치원/NNG+에서/JKB+3/SN+명/NNBC+이나/JX+확진/NNG+자/XSN+가/JKS+나와/VV+EC+가지/VX+고/EC+유치원/NNG+도/JX+못/MAG+가/VV+고/EC+난리/NNG+도/JX+아니/VCN+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 어머... 유치원 3명이라니... 무섭다",
+            "norm_text": "어머... 유치원 3명이라니... 무섭다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어머/IC+./SY+유치원/NNG+3/SN+명/NNBC+이/VCP+라니/EF+./SY+무섭/VA+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그러니까... 게다가 조카랑 같은 반 아이 1명 같은 층 아이 2명 이라고 해서 밀접접촉자라고 자가격리 들어갔어",
+            "norm_text": "그러니까... 게다가 조카랑 같은 반 아이 1명 같은 층 아이 2명 이라고 해서 밀접접촉자라고 자가격리 들어갔어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+./SY+게다가/MAG+조카/NNG+랑/JKB+같/VA+은/ETM+반/NNG+아이/NNG+1/SN+명/NNBC+같/VA+은/ETM+층/NNG+아이/NNG+2/SN+명/NNBC+이/VCP+라고/EC+해서/VV+EC+밀접/NNG+접촉자/NNG+라고/VCP+EC+자가/NNG+격리/NNG+들어갔/VV+EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 다른 조카도 밀접접촉자랑 같은 집이라서 얘도 유치원 등원은 하지 말라고 지금 유치원 문 닫고 그러나 봐",
+            "norm_text": "다른 조카도 밀접접촉자랑 같은 집이라서 얘도 유치원 등원은 하지 말라고 지금 유치원 문 닫고 그러나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다른/MM+조카/NNG+도/JX+밀접/NNG+접촉자/NNG+랑/JKB+같/VA+은/ETM+집/NNG+이/VCP+라서/EC+얘/NP+도/JX+유치원/NNG+등/NNB+원은/NNG+하/XSV+지/EC+말/VX+라고/EC+지금/MAG+유치/NNG+원문/NNG+닫/VV+고/EC+그러/VV+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아이구 하필이면 같은 반 같은 층? 게다가 2주 격리네",
+            "norm_text": "아이구 하필이면 같은 반 같은 층? 게다가 2주 격리네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아이구/IC+하필/MAG+이/VCP+면/EC+같/VA+은/ETM+반/NNG+같/VA+은/ETM+층/NNG+게다가/MAG+2/SN+주/NNBC+격리/NNG+네/XSN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 그래서 이건 우리 가족만의 문제가 아니라 이동한 공간에 너네랑 같이 있으면 그것도 조심해야 할 거 같아서...",
+            "norm_text": "응 그래서 이건 우리 가족만의 문제가 아니라 이동한 공간에 너네랑 같이 있으면 그것도 조심해야 할 거 같아서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래서/MAJ+이건/NP+JX+우리/NP+가족/NNG+만/JX+의/JKG+문제/NNG+가/JKC+아니/VCN+라/EC+이동한/NNP+공간/NNG+에/JKB+너/NP+네/XSN+랑/JKB+같이/MAG+있/VV+으면/EC+그것/NP+도/JX+조심/NNG+해야/XSV+EC+할/VX+ETM+거/NNB+같/VA+아서/EC+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 하필이면, 이번 주에 그렇게 되었네",
+            "norm_text": "하필이면, 이번 주에 그렇게 되었네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하필/NNG+이/VCP+면/EC+,/SC+이번/NNG+주/NNG+에/JKB+그렇게/MAG+되/VV+었/EP+네/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아이들 코로나 검사는 다 하고?",
+            "norm_text": "아이들 코로나 검사는 다 하고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아이/NNG+들/XSN+코로나/NNG+검사/NNG+는/JX+다/MAG+하/VV+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응 다행스럽게도 둘 다 음성 나왔어.",
+            "norm_text": "응 다행스럽게도 둘 다 음성 나왔어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+다행/NNG+스럽/XSA+게/EC+도/JX+둘/NR+다음/NNG+성/XSN+나왔/VV+EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 너 아들 유치원은 어때?",
+            "norm_text": "너 아들 유치원은 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+아들/NNG+유치원/NNG+은/JX+어때/VA+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 요즘 너무 많이 나와서...",
+            "norm_text": "요즘 너무 많이 나와서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+너무/MAG+많이/MAG+나와서/VV+EC+./SY+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 지난달에 한 아이 아빠가 확진 이어서 어린이 집 갑자기 폐쇄되었는데",
+            "norm_text": "지난달에 한 아이 아빠가 확진 이어서 어린이 집 갑자기 폐쇄되었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지난달/NNG+에/JKB+한/MM+아이/NNG+아빠/NNG+가/JKS+확진/NNG+이/VCP+어서/EC+어린이집/NNG+갑자기/MAG+폐쇄/NNG+되/XSV+었/EP+는데/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아이랑 엄마는 음성이고 어린이집 아이들도 다 음성 나와서 다행이었어",
+            "norm_text": "아이랑 엄마는 음성이고 어린이집 아이들도 다 음성 나와서 다행이었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아이/NNG+랑/JKB+엄마/NNG+는/JX+음성/NNG+이/VCP+고/EC+어린이집/NNG+아이/NNG+들/XSN+도/JX+다음/NNG+성/XSN+나와서/VV+EC+다행/NNG+이/VCP+었/EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 음성 나와서 천만다행이네.",
+            "norm_text": "음성 나와서 천만다행이네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음성/NNG+나와서/VV+EC+천만다행/NNG+이/VCP+네/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그 가족 때문에 걸렸음 무슨 민폐야 ㅠ",
+            "norm_text": "그 가족 때문에 걸렸음 무슨 민폐야 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+가족/NNG+때문/NNB+에/JKB+걸렸/VV+EP+음/ETN+무슨/MM+민폐/NNG+야/VCP+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 게다가 우리 아들은 층도 다르고 반 달랐는데도 어찌나 걱정 되던지…",
+            "norm_text": "게다가 우리 아들은 층도 다르고 반 달랐는데도 어찌나 걱정 되던지…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "게다가/MAG+우리/NP+아들/NNG+은/JX+층/NNG+도/JX+다르/VA+고/EC+반/NNG+달랐/VA+EP+는데/EC+도/JX+어찌나/MAG+걱정/NNG+되/XSV+던지/EC+…/SE"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그나저나 애 엄마 힘들겠다 두 명이나 데리고 있으려면...",
+            "norm_text": "그나저나 애 엄마 힘들겠다 두 명이나 데리고 있으려면...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그나저나/MAG+애/NNG+엄마/NNG+힘들/VA+겠/EP+다/EF+두/MM+명/NNBC+이나/JX+데리/VV+고/EC+있/VX+으려면/EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 어쩌겠냐? 지금 시국도 그렇고 방침이니까 따라야지...",
+            "norm_text": "어쩌겠냐? 지금 시국도 그렇고 방침이니까 따라야지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쩌/VV+겠/EP+냐/EF+지금/MAG+시국/NNG+도/JX+그렇/VA+고/EC+방침/NNG+이/VCP+니까/EC+따라야/VV+EC+VX+지/EF+./SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : 여하튼, 우리도 조금만 더 조심하자",
+            "norm_text": "여하튼, 우리도 조금만 더 조심하자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "여하튼/MAJ+,/SC+우리/NP+도/JX+조금/MAG+만/JX+더/MAG+조심/NNG+하/XSV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

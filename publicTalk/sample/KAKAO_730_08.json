@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 40767,
+    "name": "KAKAO_730_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134517094758/KAKAO_730_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134517094758/KAKAO_730_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37378,
+      "filename": "KAKAO_730_08.txt",
+      "title": "KAKAO_730_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 654,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 654,
+        "word_size": 207,
+        "text": "1 : 남자친구랑 요즘 데이트 뭐 해...?\n2 : 우리 진짜 요즘 차로만 다닌다... 아니면 캠핑 하하\n1 : 아 나도 캠핑 해보고 싶은데 귀찮을 게 뻔해서 못하겠다 ㅠㅎ\n2 : 맞제 키키 근데 한번 해보면 할만하더라!\n2 : 우리는 아직 초보라 젤 간단하고 저렴한 거로 사서 여기저기 다니는데 괜찮더라 하하 비올 때 빼고 ^^\n1 : 아 키키 요즘에 캠핑이 대세긴 한가보네 키키 원터치 텐트인거가?\n2 : 키키 웅 원터친데 말은 3-4인 용이라고 적혀있던데 막상 성인 둘 누워보면 딱이드라 키키\n1 : 키키 티비 보니까 캠핑하러 그 캠핑카 끌고 다니는 거 보면 우리나라에 예쁜 곳도 엄청 많드라\n2 : 맞아 ㅠㅠ 나도 그거 봤는데, 예쁜데 엄청 많더라 ㅠㅠ\n2 : 캠핑카 언제 한번 타보겠노\n1 : 야 캠핑카 1억이라던데...?\n2 : 넹? 하하 앞으로 탈 일 절대 없다 ^^\n1 : 니가 사라 하하 우리 캠핑 가자 ㅎ\n1 : 장소는 내가 기가 막히게 섭외할게 ㅎ\n2 : 키키 머라고? 1억 있으면 집을 산다\n1 : 집사고 싶제? 하하 1억으로 집도 차도 살 수 있다~ 바로 캠핑카 ~!\n2 : 키키 후 ^^ 정말 ^^ 생각 좀 해볼게^^\n1 : ^^ 요즘 날씨 선선해서 캠핑 가면 진짜 재밌겠노 ㅠ\n1 : 낮에는 물놀이하고 저녁에는 불멍하고\n2 : 맞아 키키 내 남자친구 지금 혼자 캠핑 갔다 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 남자친구랑 요즘 데이트 뭐 해...?",
+            "norm_text": "남자친구랑 요즘 데이트 뭐 해...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+친구/NNG+랑/JKB+요즘/MAG+데이트/NNG+뭐/IC+해/VV+EF+./SY+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리 진짜 요즘 차로만 다닌다... 아니면 캠핑 하하",
+            "norm_text": "우리 진짜 요즘 차로만 다닌다... 아니면 캠핑 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+진짜/MAG+요즘/NNG+차/NNG+로/JKB+만/JX+다닌다/VV+EF+./SY+아니면/MAJ+캠핑/NNG+하/XSV+하/XSA"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 나도 캠핑 해보고 싶은데 귀찮을 게 뻔해서 못하겠다 ㅠㅎ",
+            "norm_text": "아 나도 캠핑 해보고 싶은데 귀찮을 게 뻔해서 못하겠다 ㅠㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+도/JX+캠핑/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+은데/EC+귀찮/VA+을/ETM+게/NNB+JKS+뻔해서/VA+EC+못하/VX+겠/EP+다/EF+ㅠㅎ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞제 키키 근데 한번 해보면 할만하더라!",
+            "norm_text": "맞제 키키 근데 한번 해보면 할만하더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+키/NNG+키/XSV+ETN+근데/MAJ+한/MM+번/NNBC+해/VV+EC+보/VX+면/EC+할/VX+ETM+만/NNB+하/XSA+더라/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 우리는 아직 초보라 젤 간단하고 저렴한 거로 사서 여기저기 다니는데 괜찮더라 하하 비올 때 빼고 ^^",
+            "norm_text": "우리는 아직 초보라 젤 간단하고 저렴한 거로 사서 여기저기 다니는데 괜찮더라 하하 비올 때 빼고 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+는/JX+아직/MAG+초보/NNG+라/VCP+EC+젤/MAG+간단/XR+하/XSA+고/EC+저렴/XR+한/XSA+ETM+거/NNB+로/JKB+사/VV+서/EC+여기저기/NNG+다니/VV+는/ETM+데/NNB+괜찮/VA+더라/EC+하하/MAG+비올/NNG+때/NNG+빼/VV+고/EC+^/SY+^/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 키키 요즘에 캠핑이 대세긴 한가보네 키키 원터치 텐트인거가?",
+            "norm_text": "아 키키 요즘에 캠핑이 대세긴 한가보네 키키 원터치 텐트인거가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아키/NNP+키/NNG+요즘/NNG+에/JKB+캠핑/NNG+이/JKS+대세/NNG+긴/VCP+ETN+JX+한가/VX+EC+보/VX+네/EF+키키/NNP+원터치/NNG+텐트/NNG+인/VCP+ETM+거/NNB+가/JKS"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 웅 원터친데 말은 3-4인 용이라고 적혀있던데 막상 성인 둘 누워보면 딱이드라 키키",
+            "norm_text": "키키 웅 원터친데 말은 3-4인 용이라고 적혀있던데 막상 성인 둘 누워보면 딱이드라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+웅원/UNKNOWN+터/NNG+친데/NNB+VCP+EC+말/VX+은/ETM+3/SN+-/SY+4/SN+인용/NNG+이/VCP+라고/EC+적혀/VV+EC+있/VX+던/ETM+데/NNB+막상/MAG+성인/NNG+둘/NR+누워/VV+EC+보/VX+면/EC+딱/MAG+이드라/NNP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 티비 보니까 캠핑하러 그 캠핑카 끌고 다니는 거 보면 우리나라에 예쁜 곳도 엄청 많드라",
+            "norm_text": "키키 티비 보니까 캠핑하러 그 캠핑카 끌고 다니는 거 보면 우리나라에 예쁜 곳도 엄청 많드라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+티비/NNG+보/VV+니까/EC+캠핑/NNG+하/XSV+러/EC+그/MM+캠핑카/NNG+끌/VV+고/EC+다니/VV+는/ETM+거/NNB+보/VV+면/EC+우리/NP+나라/NNG+에/JKB+예쁜/VA+ETM+곳/NNG+도/JX+엄청/MAG+많/VA+드라/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아 ㅠㅠ 나도 그거 봤는데, 예쁜데 엄청 많더라 ㅠㅠ",
+            "norm_text": "맞아 ㅠㅠ 나도 그거 봤는데, 예쁜데 엄청 많더라 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+나/NP+도/JX+그거/NP+봤/VV+EP+는데/EC+,/SC+예쁜데/VA+EC+엄청/MAG+많/VA+더라/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 캠핑카 언제 한번 타보겠노",
+            "norm_text": "캠핑카 언제 한번 타보겠노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "캠핑카/NNG+언제/MAG+한/MM+번/NNBC+타/VV+EC+보/VX+겠/EP+노/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 야 캠핑카 1억이라던데...?",
+            "norm_text": "야 캠핑카 1억이라던데...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+캠핑카/NNG+1/SN+억/NR+이/VCP+라던데/EF+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 넹? 하하 앞으로 탈 일 절대 없다 ^^",
+            "norm_text": "넹? 하하 앞으로 탈 일 절대 없다 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넹/NNP+하하/MAG+앞/NNG+으로/JKB+탈일/NNG+절대/MAG+없/VA+다/EC+^/SY+^/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 니가 사라 하하 우리 캠핑 가자 ㅎ",
+            "norm_text": "니가 사라 하하 우리 캠핑 가자 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "니/NP+가/JKS+사/VV+라/EC+하하/MAG+우리/NP+캠핑/NNG+가자/NNG+ㅎ/XSA"
+          },
+          {
+            "id": 14,
+            "text": "1 : 장소는 내가 기가 막히게 섭외할게 ㅎ",
+            "norm_text": "장소는 내가 기가 막히게 섭외할게 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "장소/NNG+는/JX+내/NP+가/JKS+기/NNG+가/JKS+막히/VV+게/EC+섭외/NNG+할/XSV+ETM+게/NNB+JKS+ㅎ/XSA"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 머라고? 1억 있으면 집을 산다",
+            "norm_text": "키키 머라고? 1억 있으면 집을 산다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+머/VV+라고/EC+?/SY+1/SN+억/NR+있/VV+으면/EC+집/NNG+을/JKO+산다/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 집사고 싶제? 하하 1억으로 집도 차도 살 수 있다~ 바로 캠핑카 ~!",
+            "norm_text": "집사고 싶제? 하하 1억으로 집도 차도 살 수 있다~ 바로 캠핑카 ~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집사/NNG+고/VCP+EC+싶/VX+제/EF+하하/MAG+1/SN+억/NR+으로/JKB+집/NNG+도/JX+차/NNG+도/JX+살/VV+ETM+수/NNB+있/VV+다/EC+~/SY+바로/MAG+캠핑카/NNG+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 후 ^^ 정말 ^^ 생각 좀 해볼게^^",
+            "norm_text": "키키 후 ^^ 정말 ^^ 생각 좀 해볼게^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+후/NNG+^/SY+^/SY+정말/MAG+^/SY+^/SY+생각/NNG+좀/MAG+해/VV+EC+볼/VX+ETM+게/NNB+JKS+^/SY+^/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : ^^ 요즘 날씨 선선해서 캠핑 가면 진짜 재밌겠노 ㅠ",
+            "norm_text": "^^ 요즘 날씨 선선해서 캠핑 가면 진짜 재밌겠노 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "^/SY+^/SY+요즘/NNG+날씨/NNG+선선/NNG+해서/XSV+EC+캠핑/NNG+가/VV+면/EC+진짜/MAG+재밌/VA+겠/EP+노ㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 낮에는 물놀이하고 저녁에는 불멍하고",
+            "norm_text": "낮에는 물놀이하고 저녁에는 불멍하고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "낮/NNG+에/JKB+는/JX+물놀이/NNG+하/XSV+고/EC+저녁/NNG+에/JKB+는/JX+불/XPN+멍/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 맞아 키키 내 남자친구 지금 혼자 캠핑 갔다 하하",
+            "norm_text": "맞아 키키 내 남자친구 지금 혼자 캠핑 갔다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+내/NP+JKG+남자/NNG+친구/NNG+지금/MAG+혼자/NNG+캠핑/NNG+갔/VV+EP+다/EF+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

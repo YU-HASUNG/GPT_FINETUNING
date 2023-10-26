@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32059,
+    "name": "KAKAO_624_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924112953003926/KAKAO_624_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924112953003926/KAKAO_624_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31895,
+      "filename": "KAKAO_624_03.txt",
+      "title": "KAKAO_624_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 519,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 519,
+        "word_size": 168,
+        "text": "1 : 서울 갈 때 요즘 비행기가 훨 싼 거 알아?\n2 : 아 그렇다고 들었어 진짜 비행기가 더 나을 것 같아\n1 : KTX 편도 값보다 비행기 왕복이 더 싸\n2 : 와 정말 진짜 그럼 이제 비행기 타야겠다!\n1 : 응 키키 제주도 갈 때 비행기 값 진짜 싸더라고\n2 : 와 제주도도 괜찮은 것 같아 비행기값 합리적이야 키키\n1 : 제주도 갔을 때 전기차로 렌트 했었는데 키키\n2 : 아 정말 나도 전기차로 렌트한 적 있어 키키 장단점이 있더라구\n1 : 전기차 처음 운전해봐서 생소했는데 키키 좋았어 키키\n2 : 그치 키키 충전하는 곳 찾기가 애매하긴 해서 그렇지\n1 : 맞아 키키 배터리 문제랑 소유했을 때 불편한 점이 많겠더라고 키키\n2 : 그치 키키 그래도 훨 저렴하고 키키 충전 해 놓고 놀러 다니면 돼\n1 : 맞아 키키 테슬라 디자인 너무 예뻐\n2 : 와 맞아 진짜 멋지더라 그런데 위험 사고가 있어서... 불안\n1 : 근데 테슬라도 1억을 호가하더라 키키 넘 비싸ㅠㅠ\n2 : 와 장난 아니네 역시 테슬라네...\n2 : 렌트하는 사람도 있더라 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 서울 갈 때 요즘 비행기가 훨 싼 거 알아?",
+            "norm_text": "서울 갈 때 요즘 비행기가 훨 싼 거 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "서울/NNP+갈/VV+ETM+때/NNG+요즘/NNG+비행기/NNG+가/JKS+훨/MAG+싼/VA+ETM+거/NNB+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 그렇다고 들었어 진짜 비행기가 더 나을 것 같아",
+            "norm_text": "아 그렇다고 들었어 진짜 비행기가 더 나을 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇/VA+다고/EC+들/VX+었/EP+어/EF+진짜/MAG+비행기/NNG+가/JKS+더/MAG+나을/VA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : KTX 편도 값보다 비행기 왕복이 더 싸",
+            "norm_text": "KTX 편도 값보다 비행기 왕복이 더 싸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "KTX/SL+편도/NNG+값/NNG+보다/JKB+비행기/NNG+왕복/NNG+이/JKS+더/MAG+싸/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 와 정말 진짜 그럼 이제 비행기 타야겠다!",
+            "norm_text": "와 정말 진짜 그럼 이제 비행기 타야겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+정말/MAG+진짜/MAG+그럼/MAJ+이제/MAG+비행기/NNG+타/VV+야겠다/EC+VX+EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 키키 제주도 갈 때 비행기 값 진짜 싸더라고",
+            "norm_text": "응 키키 제주도 갈 때 비행기 값 진짜 싸더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키키/NNP+제주/NNP+도/JX+갈/VV+ETM+때/NNG+비행기/NNG+값/NNG+진짜/MAG+싸/VA+더라고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 와 제주도도 괜찮은 것 같아 비행기값 합리적이야 키키",
+            "norm_text": "와 제주도도 괜찮은 것 같아 비행기값 합리적이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+제주도/NNP+도/JX+괜찮/VA+은/ETM+것/NNB+같/VA+아/EC+비행기/NNG+값/NNG+합리/NNG+적/XSN+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 제주도 갔을 때 전기차로 렌트 했었는데 키키",
+            "norm_text": "제주도 갔을 때 전기차로 렌트 했었는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제주/NNP+도/JX+갔/VV+EP+을/ETM+때/NNG+전기/NNG+차/NNG+로/JKB+렌트/NNG+했었/XSV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 정말 나도 전기차로 렌트한 적 있어 키키 장단점이 있더라구",
+            "norm_text": "아 정말 나도 전기차로 렌트한 적 있어 키키 장단점이 있더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+정말/MAG+나/NP+도/JX+전기/NNG+차/NNG+로/JKB+렌트/NNG+한/XSA+ETM+적/NNB+있/VA+어/EC+키/NNG+키/NNG+장단점/NNG+이/JKS+있/VV+더라구/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 전기차 처음 운전해봐서 생소했는데 키키 좋았어 키키",
+            "norm_text": "전기차 처음 운전해봐서 생소했는데 키키 좋았어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전기차/NNP+처음/NNG+운전/NNG+해/XSV+EC+봐서/VV+EC+생소/XR+했/XSA+EP+는데/EC+키/NNG+키/XSV+ETN+좋/VA+았/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그치 키키 충전하는 곳 찾기가 애매하긴 해서 그렇지",
+            "norm_text": "그치 키키 충전하는 곳 찾기가 애매하긴 해서 그렇지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키/NNG+키/NNG+충전/NNG+하/XSV+는/ETM+곳/NNB+찾/VV+기/ETN+가/JKS+애매/XR+하/XSA+긴/ETN+JX+해서/VV+EC+그렇/VA+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 키키 배터리 문제랑 소유했을 때 불편한 점이 많겠더라고 키키",
+            "norm_text": "맞아 키키 배터리 문제랑 소유했을 때 불편한 점이 많겠더라고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+배터리/NNG+문제/NNG+랑/JKB+소유/NNG+했/XSV+EP+을/ETM+때/NNG+불편/NNG+한/XSA+ETM+점/NNG+이/JKS+많/VA+겠/EP+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그치 키키 그래도 훨 저렴하고 키키 충전 해 놓고 놀러 다니면 돼",
+            "norm_text": "그치 키키 그래도 훨 저렴하고 키키 충전 해 놓고 놀러 다니면 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키/NNG+키/XSV+ETN+그래도/MAJ+훨/MAG+저렴/XR+하/XSA+고/EC+키/NNG+키/NNG+충전/NNG+해/XSV+EC+놓/VX+고/EC+놀/VV+러/EC+다니/VV+면/EC+돼/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 키키 테슬라 디자인 너무 예뻐",
+            "norm_text": "맞아 키키 테슬라 디자인 너무 예뻐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키키/NNP+테슬라/NNP+디자인/NNG+너무/MAG+예뻐/VA+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 와 맞아 진짜 멋지더라 그런데 위험 사고가 있어서... 불안",
+            "norm_text": "와 맞아 진짜 멋지더라 그런데 위험 사고가 있어서... 불안",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/VV+EC+맞/VV+아/EC+진짜/MAG+멋지/VA+더라/EF+그런데/MAJ+위험/NNG+사고/NNG+가/JKS+있/VA+어서/EC+./SY+./SY+불안/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 테슬라도 1억을 호가하더라 키키 넘 비싸ㅠㅠ",
+            "norm_text": "근데 테슬라도 1억을 호가하더라 키키 넘 비싸ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+테슬라/NNP+도/JX+1/SN+억/NR+을/JKO+호가/NNG+하/XSV+더라/EC+키/NNG+키/XSV+ETN+넘/MAG+비싸/VA+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 와 장난 아니네 역시 테슬라네...",
+            "norm_text": "와 장난 아니네 역시 테슬라네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와장/NNG+난/NP+JX+아니/VCN+네/EF+역시/MAJ+테슬라/NNP+네/VCP+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 렌트하는 사람도 있더라 키키",
+            "norm_text": "렌트하는 사람도 있더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "렌트/NNG+하/XSV+는/ETM+사람/NNG+도/JX+있/VA+더라/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

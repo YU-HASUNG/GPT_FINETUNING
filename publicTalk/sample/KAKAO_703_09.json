@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 71872,
+    "name": "KAKAO_703_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109291130500451106/KAKAO_703_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109291130500451106/KAKAO_703_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36613,
+      "filename": "KAKAO_703_09.txt",
+      "title": "KAKAO_703_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 394,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 394,
+        "word_size": 134,
+        "text": "1 : 우리 강아지 사상충약 샀는데 겁나 비쌈 키키\n2 : 얼마임? 사람처럼 기간 나눠서 주지?\n1 : 6알에 5만원 돈임 키키 엄청나 키키\n2 : 뭔 금가루를 탔나... 키키\n1 : 한 달에 한 번 주는 건데 2알씩 그럼 3개월임 키키\n2 : 3개월치 5만원? 키키\n1 : 키키 사람 약보다 더 비싼 듯 키키\n2 : 3개월 5만원이면 또 괜찮은 거 같은데\n1 : 나 그렇게 비싼 거 먹어본 적도 없는 듯 키키\n2 : 나는 지금 먹는 약 3개월에 8만원 돈 키키\n1 : 키키 약이라서 그렇지 난 두통약 2천 원도 비싸 키키\n2 : 아파서 먹는 건데 뭐 키키 어쩔 수 없지\n1 : 키키 허어 너도 엄청난 약쟁이시네 키키\n2 : 응응 없으면 못살지 이제 키키\n1 : 키키 아휴 약값도 약 값이여~\n2 : 키키 그러게 예방접종도 비싸다며",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 강아지 사상충약 샀는데 겁나 비쌈 키키",
+            "norm_text": "우리 강아지 사상충약 샀는데 겁나 비쌈 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+강아지/NNG+사상충/NNG+약/NNG+샀/VV+EP+는데/EC+겁나/VV+EC+비/XPN+쌈/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 얼마임? 사람처럼 기간 나눠서 주지?",
+            "norm_text": "얼마임? 사람처럼 기간 나눠서 주지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "얼마/NNG+임/VCP+ETN+사람/NNG+처럼/JKB+기간/NNG+나눠서/VV+EC+주/VX+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 6알에 5만원 돈임 키키 엄청나 키키",
+            "norm_text": "6알에 5만원 돈임 키키 엄청나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "6/SN+알/NNBC+에/JKB+5/SN+만원돈임키키엄청나키키/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 뭔 금가루를 탔나... 키키",
+            "norm_text": "뭔 금가루를 탔나... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔/MM+금가루/NNG+를/JKO+탔/VV+EP+나/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 한 달에 한 번 주는 건데 2알씩 그럼 3개월임 키키",
+            "norm_text": "한 달에 한 번 주는 건데 2알씩 그럼 3개월임 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한/MM+달/NNG+에/JKB+한/MM+번/NNBC+주/VV+는/ETM+건데/NNB+VCP+EC+2/SN+알/NNBC+씩/XSN+그럼/MAJ+3/SN+개월/NNBC+임/VCP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 3개월치 5만원? 키키",
+            "norm_text": "3개월치 5만원? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "3/SN+개월/NNBC+치/XSN+5/SN+만/NR+원/NNBC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 사람 약보다 더 비싼 듯 키키",
+            "norm_text": "키키 사람 약보다 더 비싼 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+사람/NNG+약/NNG+보다/JKB+더/MAG+비싼/VA+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 3개월 5만원이면 또 괜찮은 거 같은데",
+            "norm_text": "3개월 5만원이면 또 괜찮은 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "3/SN+개월/NNBC+5/SN+만/NR+원/NNBC+이/VCP+면/EC+또/MAG+괜찮/VA+은/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나 그렇게 비싼 거 먹어본 적도 없는 듯 키키",
+            "norm_text": "나 그렇게 비싼 거 먹어본 적도 없는 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+그렇게/MAG+비싼/VA+ETM+거/NNB+먹/VV+어/EC+본/VX+ETM+적/NNB+도/JX+없/VA+는/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나는 지금 먹는 약 3개월에 8만원 돈 키키",
+            "norm_text": "나는 지금 먹는 약 3개월에 8만원 돈 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+지금/MAG+먹/VV+는/ETM+약/MM+3/SN+개월/NNBC+에/JKB+8/SN+만/NR+원/NNBC+돈/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 약이라서 그렇지 난 두통약 2천 원도 비싸 키키",
+            "norm_text": "키키 약이라서 그렇지 난 두통약 2천 원도 비싸 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키약이라서그렇지난두통약/UNKNOWN+2/SN+천/NR+원/NNBC+도/JX+비싸/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아파서 먹는 건데 뭐 키키 어쩔 수 없지",
+            "norm_text": "아파서 먹는 건데 뭐 키키 어쩔 수 없지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아파서/VA+EC+먹/VV+는/ETM+건데/NNB+VCP+EC+뭐/IC+키/NNG+키/XSV+ETN+어쩔/VV+ETM+수/NNB+없/VA+지/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 허어 너도 엄청난 약쟁이시네 키키",
+            "norm_text": "키키 허어 너도 엄청난 약쟁이시네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+허어/IC+너/NP+도/JX+엄청난/VA+ETM+약/NNG+쟁이/XSN+시네/VV+EP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응응 없으면 못살지 이제 키키",
+            "norm_text": "응응 없으면 못살지 이제 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+없/VA+으면/EC+못/MAG+살/VV+지/EC+이제/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 아휴 약값도 약 값이여~",
+            "norm_text": "키키 아휴 약값도 약 값이여~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키아휴약값도약값이여/UNKNOWN+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 그러게 예방접종도 비싸다며",
+            "norm_text": "키키 그러게 예방접종도 비싸다며",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+게/EC+예방/NNG+접종/NNG+도/JX+비싸/VA+다며/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 73027,
+    "name": "KAKAO_898_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750063293/KAKAO_898_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750063293/KAKAO_898_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41261,
+      "filename": "KAKAO_898_04.txt",
+      "title": "KAKAO_898_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 710,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "다자간 대화",
+        "size": 710,
+        "word_size": 174,
+        "text": "1 : 개강하고 나서도 아르바이트 계속 하는 거에요?\n2 : 아 편의점에서 일한다고 그랬죠?\n3 : 네! 개강하고도 계속 할 것 같아요\n1 : 이번이 마지막 학기 아니에요?\n2 : 그러게요. 그럼 졸업하고 취업하는 거에요?\n3 : 아니요! 고민 중이에요...\n3 : 그래서 그런데 회사 썰 좀 풀어주세요\n1 : 회사 썰이라... 많은 일들이 있었죠 허허허\n2 : 사실 전 번역일이라 혼자 일하는 게 대부분이였어요\n3 : 그렇구나... 그 많은 일 중 몇 가지만 말해주세요!\n1 : 저는 홍콩에 있는 회사 다닐 때 초반에 회의 시간이 힘들었어요\n2 : 엇 왜요? 외국어 잘 하면서~\n3 : 그러게요! 자세히 얘기해주세요!\n1 : 영어 액센트가 좀 많이 달라서 완전히 이해하는데 시간이 좀 걸렸던 것 같아요\n2 : 에이 그래도 초반에만 그러고 또 엄청 잘했을 것 같은데요~\n3 : 맞아요! 언니는 뭐든 잘하니까 믿음이 있죠~!\n1 : 과찬이십니당 키키 나중에 익숙해지고 나서야 괜찮아졌죠\n2 : 아! 홍콩 회사 다닐 때도 회식 같은 게 있었어요?\n3 : 어어엇! 저도 회식 관련해서가 제일 궁금해요!\n1 : 제가 다닐 때는 막 우리나라 같은 회식은 없었는데 지금은 또 모르겠네요...\n2 : 편의점에서는 직원 회식 같은 거 없죠?\n3 : 그쵸. 근데 저 고깃집 아르바이트 할 때는 자주 했어요!\n1 : 그럼 만약 취업을 안 하게 되면 다른 계획은 있어요?\n2 : 오오 저도 궁금해요\n3 : 사실은 창업해보고 싶어요!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 개강하고 나서도 아르바이트 계속 하는 거에요?",
+            "norm_text": "개강하고 나서도 아르바이트 계속 하는 거에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "개강/NNG+하/XSV+고/EC+나/NP+서/JKB+도/JX+아르바이트/NNG+계속/NNG+하/XSV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 편의점에서 일한다고 그랬죠?",
+            "norm_text": "아 편의점에서 일한다고 그랬죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+ /SY+편의점/NNG+에서/JKB+ /SY+일/NNG+한다고/XSV+EC+ /SY+그랬/VV+EP+죠/EF"
+          },
+          {
+            "id": 3,
+            "text": "3 : 네! 개강하고도 계속 할 것 같아요",
+            "norm_text": "네! 개강하고도 계속 할 것 같아요",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+개강/NNG+하/XSV+고/EC+도/JX+계속/NNG+할/XSV+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 이번이 마지막 학기 아니에요?",
+            "norm_text": "이번이 마지막 학기 아니에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+이/JKS+마지막/NNG+학기/NNG+아니/VCN+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그러게요. 그럼 졸업하고 취업하는 거에요?",
+            "norm_text": "그러게요. 그럼 졸업하고 취업하는 거에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+요/JX+ /SY+그럼/MAJ+ /SY+졸업/NNG+하/XSV+고/EC+ /SY+취업/NNG+하/XSV+는/ETM+ /SY+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "3 : 아니요! 고민 중이에요...",
+            "norm_text": "아니요! 고민 중이에요...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니요/IC+고민/NNG+중/NNB+이/VCP+에요/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "3 : 그래서 그런데 회사 썰 좀 풀어주세요",
+            "norm_text": "그래서 그런데 회사 썰 좀 풀어주세요",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그래서/MAJ+그런데/MAJ+회사/NNG+썰/VV+ETM+좀/MAG+풀/VV+어/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 회사 썰이라... 많은 일들이 있었죠 허허허",
+            "norm_text": "회사 썰이라... 많은 일들이 있었죠 허허허",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "회사/NNG+썰/VV+이라/EC+./SY+./SY+많/VA+은/ETM+일/NNG+들/XSN+이/JKS+있/VA+었/EP+죠/EF+허허허/MAG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 사실 전 번역일이라 혼자 일하는 게 대부분이였어요",
+            "norm_text": "사실 전 번역일이라 혼자 일하는 게 대부분이였어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사실/MAG+ /SY+전/NNG+ /SY+번역/NNG+일/NNG+이/VCP+라/EC+ /SY+혼자/NNG+ /SY+일/NNG+하/XSV+는/ETM+ /SY+게/NNB+JKS+ /SY+대부분/NNG+이/VCP+였/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "3 : 그렇구나... 그 많은 일 중 몇 가지만 말해주세요!",
+            "norm_text": "그렇구나... 그 많은 일 중 몇 가지만 말해주세요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그렇/VA+구나/EF+./SY+그/IC+많/VA+은/ETM+일중/NNG+몇/MM+가지/NNBC+만/JX+말/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 저는 홍콩에 있는 회사 다닐 때 초반에 회의 시간이 힘들었어요",
+            "norm_text": "저는 홍콩에 있는 회사 다닐 때 초반에 회의 시간이 힘들었어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+홍콩/NNP+에/JKB+있/VV+는/ETM+회사/NNG+다닐/VV+ETM+때/NNG+초반/NNG+에/JKB+회의/NNG+시간/NNG+이/JKS+힘들/VA+었/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 엇 왜요? 외국어 잘 하면서~",
+            "norm_text": "엇 왜요? 외국어 잘 하면서~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엇/NNG+ /SY+왜/MAG+요/JX+ /SY+외국어/NNG+ /SY+잘/MAG+ /SY+하/VV+면서/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "3 : 그러게요! 자세히 얘기해주세요!",
+            "norm_text": "그러게요! 자세히 얘기해주세요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그러게/IC+요/JX+자세히/MAG+얘기/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 영어 액센트가 좀 많이 달라서 완전히 이해하는데 시간이 좀 걸렸던 것 같아요",
+            "norm_text": "영어 액센트가 좀 많이 달라서 완전히 이해하는데 시간이 좀 걸렸던 것 같아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영어/NNG+액센트/NNG+가/JKS+좀/MAG+많이/MAG+달라서/VA+EC+완전히/MAG+이해/NNG+하/XSV+는/ETM+데/NNB+시간/NNG+이/JKS+좀/MAG+걸렸/VV+EP+던/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 에이 그래도 초반에만 그러고 또 엄청 잘했을 것 같은데요~",
+            "norm_text": "에이 그래도 초반에만 그러고 또 엄청 잘했을 것 같은데요~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/NNG+ /SY+그래도/VV+EC+ /SY+초반/NNG+에/JKB+만/JX+ /SY+그러/VV+고/EC+ /SY+또/MAG+ /SY+엄청/MAG+ /SY+잘/MAG+했/VV+EP+을/ETM+ /SY+것/NNB+ /SY+같/VA+은데요/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "3 : 맞아요! 언니는 뭐든 잘하니까 믿음이 있죠~!",
+            "norm_text": "맞아요! 언니는 뭐든 잘하니까 믿음이 있죠~!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+언니/NNG+는/JX+뭐/NP+든/VCP+EC+잘/MAG+하/VV+니까/EC+믿음/NNG+이/JKS+있/VA+죠/EF+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 과찬이십니당 키키 나중에 익숙해지고 나서야 괜찮아졌죠",
+            "norm_text": "과찬이십니당 키키 나중에 익숙해지고 나서야 괜찮아졌죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "과찬/NNG+이/JKS+십/NR+니/NR+당/XSN+키/NNG+키/NNG+나중/NNG+에/JKB+익숙/XR+해/XSA+EC+지/VX+고/EC+나/NP+서/JKB+야/JX+괜찮/VA+아/EC+졌/VX+EP+죠/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아! 홍콩 회사 다닐 때도 회식 같은 게 있었어요?",
+            "norm_text": "아! 홍콩 회사 다닐 때도 회식 같은 게 있었어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+ /SY+홍콩/NNP+ /SY+회사/NNG+ /SY+다닐/VV+ETM+ /SY+때/NNG+도/JX+ /SY+회식/NNG+같/VA+은/ETM+게/NNB+JKS+ /SY+있/VA+었/EP+어요/EF"
+          },
+          {
+            "id": 19,
+            "text": "3 : 어어엇! 저도 회식 관련해서가 제일 궁금해요!",
+            "norm_text": "어어엇! 저도 회식 관련해서가 제일 궁금해요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+엇/IC+저/NP+도/JX+회식/NNG+관련/NNG+해서/XSV+EC+가/JKS+제일/MAG+궁금/XR+해요/XSA+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 제가 다닐 때는 막 우리나라 같은 회식은 없었는데 지금은 또 모르겠네요...",
+            "norm_text": "제가 다닐 때는 막 우리나라 같은 회식은 없었는데 지금은 또 모르겠네요...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제/NP+가/JKS+다닐/VV+ETM+때/NNG+는/JX+막/MAJ+우리/NP+나라/NNG+같/VA+은/ETM+회식/NNG+은/JX+없/VA+었/EP+는데/EC+지금/MAG+은/JX+또/MAG+모르/VV+겠/EP+네요/EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 편의점에서는 직원 회식 같은 거 없죠?",
+            "norm_text": "편의점에서는 직원 회식 같은 거 없죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "편의점/NNG+에서/JKB+는/JX+ /SY+직원/NNG+ /SY+회식/NNG+ /SY+같/VA+은/ETM+ /SY+거/NNB+ /SY+없/VA+죠/EF"
+          },
+          {
+            "id": 22,
+            "text": "3 : 그쵸. 근데 저 고깃집 아르바이트 할 때는 자주 했어요!",
+            "norm_text": "그쵸. 근데 저 고깃집 아르바이트 할 때는 자주 했어요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그쵸/IC+근데/MAJ+저/MM+고깃집/NNG+아르바이트/NNG+할/XSV+ETM+때/NNG+는/JX+자주/MAG+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 그럼 만약 취업을 안 하게 되면 다른 계획은 있어요?",
+            "norm_text": "그럼 만약 취업을 안 하게 되면 다른 계획은 있어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+만약/NNG+취업/NNG+을/JKO+안/MAG+하/VV+게/EC+되/VV+면/EC+다른/MM+계획/NNG+은/JX+있/VA+어요/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 오오 저도 궁금해요",
+            "norm_text": "오오 저도 궁금해요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/NNG+ /SY+저/NP+도/JX+ /SY+궁금/XR+해요/XSA+EC"
+          },
+          {
+            "id": 25,
+            "text": "3 : 사실은 창업해보고 싶어요!",
+            "norm_text": "사실은 창업해보고 싶어요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+은/JX+창업/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 56020,
+    "name": "KAKAO_710_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256066782/KAKAO_710_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256066782/KAKAO_710_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35606,
+      "filename": "KAKAO_710_07.txt",
+      "title": "KAKAO_710_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 524,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 524,
+        "word_size": 182,
+        "text": "1 : 너는 가족들이랑 같이 살고 있지?\n2 : 응응 대학생 때 빼고는 쭉 같이 살고 있어 키키\n1 : 같이 살면 불편한 점 없어?\n2 : 사생활이 보장이 안되는데 난 외로움을 많이 타서 같이 사는 게 좋아!\n1 : 아아 그런 장점이 있긴 하겠네 키키\n1 : 집안일도 나눠서 하고!\n2 : 키키 응 맞아 키키 난 주로 식사 당번이야 키키\n2 : 넌 혼자 살아서 안 외로워? ㅜㅜ\n1 : 키키 응? 나 친구랑 살잖아 키키 가족 됨\n2 : 키키 맞넹 키키 친구랑 산지 얼마나 됐지? 키키\n1 : 키키 서울 올 때부터 같이 살았으니 5년 넘었네 헐 징그러 키키\n2 : 키키 5년 동안 같이 살면 가족보다 더 친할 거 같다 키키\n1 : 응... 키키 부모님보다 더 친한 느낌이야 키키\n2 : 그럼 서로 비밀도 잘 없겠다? 키키\n1 : 비밀은 난 없는데... 키키\n1 : 걘 있을라나? 키키\n2 : 키키 없을 듯 키키\n2 : 그럼 언제 적 친구랑 사는 거야? 키키\n1 : 키키 나 대학교 때 친구야 키키\n1 : 첨엔 많이 싸웠다 ㅠㅜ\n2 : 아 진짜? 키키 뭐 때문에 많이 싸웠어?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 가족들이랑 같이 살고 있지?",
+            "norm_text": "너는 가족들이랑 같이 살고 있지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+가족/NNG+들/XSN+이랑/JKB+같이/MAG+살/VV+고/EC+있/VX+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 대학생 때 빼고는 쭉 같이 살고 있어 키키",
+            "norm_text": "응응 대학생 때 빼고는 쭉 같이 살고 있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응대학생때빼고는쭉같이살고있어키키/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 같이 살면 불편한 점 없어?",
+            "norm_text": "같이 살면 불편한 점 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "같이/MAG+살/VV+면/EC+불편/NNG+한/XSA+ETM+점/NNB+없/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 사생활이 보장이 안되는데 난 외로움을 많이 타서 같이 사는 게 좋아!",
+            "norm_text": "사생활이 보장이 안되는데 난 외로움을 많이 타서 같이 사는 게 좋아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사생활/NNG+이/JKS+보장/NNG+이/JKS+안/MAG+되/VV+는데/EC+난/VX+ETM+외로움/NNG+을/JKO+많이/MAG+타/VV+서/EC+같이/MAG+사/VV+는/ETM+게/NNB+JKS+좋/VA+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아아 그런 장점이 있긴 하겠네 키키",
+            "norm_text": "아아 그런 장점이 있긴 하겠네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+그런/MM+장점/NNG+이/JKS+있/VV+긴/ETN+JX+하/VX+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 집안일도 나눠서 하고!",
+            "norm_text": "집안일도 나눠서 하고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집안일/NNG+도/JX+나눠서/VV+EC+하/VV+고/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 응 맞아 키키 난 주로 식사 당번이야 키키",
+            "norm_text": "키키 응 맞아 키키 난 주로 식사 당번이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키응맞아키키난주로식사당번이야키키/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 넌 혼자 살아서 안 외로워? ㅜㅜ",
+            "norm_text": "넌 혼자 살아서 안 외로워? ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+혼자/MAG+살/VV+아서/EC+안/MAG+외로워/VA+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 응? 나 친구랑 살잖아 키키 가족 됨",
+            "norm_text": "키키 응? 나 친구랑 살잖아 키키 가족 됨",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+나친구랑살잖아키키가족됨/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 맞넹 키키 친구랑 산지 얼마나 됐지? 키키",
+            "norm_text": "키키 맞넹 키키 친구랑 산지 얼마나 됐지? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키맞넹키키친구랑산지얼마나됐지/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 서울 올 때부터 같이 살았으니 5년 넘었네 헐 징그러 키키",
+            "norm_text": "키키 서울 올 때부터 같이 살았으니 5년 넘었네 헐 징그러 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+서울/NNP+올/MM+때/NNG+부터/JX+같이/MAG+살/VV+았/EP+으니/EC+5/SN+년넘었네헐징그러키키/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 5년 동안 같이 살면 가족보다 더 친할 거 같다 키키",
+            "norm_text": "키키 5년 동안 같이 살면 가족보다 더 친할 거 같다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+5/SN+년/NNBC+동안/NNG+같이/JKB+살/VV+면/EC+가족/NNG+보다/JKB+더/MAG+친할/VA+ETM+거/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응... 키키 부모님보다 더 친한 느낌이야 키키",
+            "norm_text": "응... 키키 부모님보다 더 친한 느낌이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+키키부모님보다더친한느낌이야키키/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼 서로 비밀도 잘 없겠다? 키키",
+            "norm_text": "그럼 서로 비밀도 잘 없겠다? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+서로/MAG+비밀/NNG+도/JX+잘/MAG+없/VA+겠/EP+다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 비밀은 난 없는데... 키키",
+            "norm_text": "비밀은 난 없는데... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비밀/NNG+은/JX+난/NP+JX+없/VA+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 걘 있을라나? 키키",
+            "norm_text": "걘 있을라나? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걘/NP+JX+있/VA+을라나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 없을 듯 키키",
+            "norm_text": "키키 없을 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+없/VA+을/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그럼 언제 적 친구랑 사는 거야? 키키",
+            "norm_text": "그럼 언제 적 친구랑 사는 거야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+언제/NNG+적/XSN+친구/NNG+랑/JKB+사/VV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 나 대학교 때 친구야 키키",
+            "norm_text": "키키 나 대학교 때 친구야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키나대학교때친구야키키/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 첨엔 많이 싸웠다 ㅠㅜ",
+            "norm_text": "첨엔 많이 싸웠다 ㅠㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "첨엔많이싸웠다ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 아 진짜? 키키 뭐 때문에 많이 싸웠어?",
+            "norm_text": "아 진짜? 키키 뭐 때문에 많이 싸웠어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/XSV+ETN+뭐/NP+때문/NNB+에/JKB+많이/MAG+싸웠/VV+EP+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 40886,
+    "name": "KAKAO_740_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135048089499/KAKAO_740_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135048089499/KAKAO_740_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37591,
+      "filename": "KAKAO_740_01.txt",
+      "title": "KAKAO_740_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 755,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 755,
+        "word_size": 247,
+        "text": "1 : 야 나 지금 아이스 아메리카노 마시는 중인데 카페 가고 싶어\n2 : 아니 아아 먹고도 카페가 가고 싶다니\n2 : 난 아까 떠먹는 젤리 먹음\n1 : 지금 마시는 건 드립인데 에스프레소 맛을 느끼고 싶어!\n1 :  젤리는 무슨 맛 먹었어?\n2 : 복숭아 젤리! 근데 커피 얘기하니까 아인슈페너 먹고 싶긴 하다\n1 : 오올 복숭아 맛 맛있어 좋아!\n1 : 다음에 에스프레소 먹으러 가자\n2 : 에소프레소는 근데 무슨 맛으로 먹는 거야\n1 : 달아! 카페 모카나 라떼 같아!\n1 : 에스프레소가 원래 설탕을 섞어 먹는 건데 우리나라 들어오면서 중간에 변형된 거래 키키\n2 : 헐 그건 처음 알았어 너 먹을 때 뺏어 먹어 봐야겠다\n2 : 그나저나 점심은 먹었어?\n1 : 좋아 너그러운 내가 한 입 양보해 주지!\n1 : 응 나 닭볶음탕 먹었어! 너는?\n2 :  키키 아량이 넓다\n2 : 닭볶음탕 최고지 ㅠㅠ\n2 : 나는 진미채랑 멸치 볶음이랑 해서 밥 먹었어\n2 : 저녁은 잔치국수 먹을 예정이야\n1 : 헉 뭐야 내 사랑 진미채! 걔만 있으면 흰밥 한 공기 뚝딱인데 진심\n2 : 자네 뭘 좀 아는구만 오징어는 정말 요리할 게 많은 것 같아\n1 : 맞지 근데 나 오징어 볶음 그다지 안 좋아함\n1 : 그 뭐랄가 특유의 오징어 익은 냄새가 있는데 뭔지 알아?\n2 : 오잉 진짜? 아니 나 막코라서 몰라 그럼 짬뽕 먹을 때 오징어 안 먹어?\n1 : 짬뽕은 국물 간이 너무 세서 오징어 냄새 잘 안 나던데! 그래서 먹어! 오징어가 식감은 좋잖아\n2 : 아하 맞지 맞지 짬뽕 안에 든 건 괜찮다니 다행이네~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야 나 지금 아이스 아메리카노 마시는 중인데 카페 가고 싶어",
+            "norm_text": "야 나 지금 아이스 아메리카노 마시는 중인데 카페 가고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+나/NP+지금/MAG+아이스/NNP+아메리카노/NNP+마시/VV+는/ETM+중/NNB+인데/VCP+EC+카페/NNG+가/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 아아 먹고도 카페가 가고 싶다니",
+            "norm_text": "아니 아아 먹고도 카페가 가고 싶다니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+아아/IC+먹/VV+고/EC+도/JX+카페/NNG+가/JKS+가/VV+고/EC+싶/VX+다니/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 난 아까 떠먹는 젤리 먹음",
+            "norm_text": "난 아까 떠먹는 젤리 먹음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+아까/MAG+떠먹/VV+는/ETM+젤리/NNG+먹/VV+음/ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 지금 마시는 건 드립인데 에스프레소 맛을 느끼고 싶어!",
+            "norm_text": "지금 마시는 건 드립인데 에스프레소 맛을 느끼고 싶어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+마시/VV+는/ETM+건/NNB+JX+드립/NNG+인데/VCP+EC+에스프레소/NNG+맛/NNG+을/JKO+느끼/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 :  젤리는 무슨 맛 먹었어?",
+            "norm_text": "젤리는 무슨 맛 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "젤리/NNG+는/JX+무슨/MM+맛/NNG+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 복숭아 젤리! 근데 커피 얘기하니까 아인슈페너 먹고 싶긴 하다",
+            "norm_text": "복숭아 젤리! 근데 커피 얘기하니까 아인슈페너 먹고 싶긴 하다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "복숭아/NNG+젤리/NNG+근데/MAJ+커피/NNG+얘기/NNG+하/XSV+니까/EC+아인/VCN+ETM+슈페너/NNP+먹/VV+고/EC+싶/VX+긴/ETN+JX+하/VX+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오올 복숭아 맛 맛있어 좋아!",
+            "norm_text": "오올 복숭아 맛 맛있어 좋아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+올복숭아/NNG+맛/NNG+맛있/VA+어/EC+좋/VA+아/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 다음에 에스프레소 먹으러 가자",
+            "norm_text": "다음에 에스프레소 먹으러 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "다음/NNG+에/JKB+에스프레소/NNG+먹/VV+으러/EC+가/VX+자/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 에소프레소는 근데 무슨 맛으로 먹는 거야",
+            "norm_text": "에소프레소는 근데 무슨 맛으로 먹는 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "에소/NNP+프레/NNP+소/NNG+는/JX+근데/MAJ+무슨/MM+맛/NNG+으로/JKB+먹/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 달아! 카페 모카나 라떼 같아!",
+            "norm_text": "달아! 카페 모카나 라떼 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "달/VV+아/EF+카페모카/NNP+나라/NNG+떼/NNG+같/VA+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 에스프레소가 원래 설탕을 섞어 먹는 건데 우리나라 들어오면서 중간에 변형된 거래 키키",
+            "norm_text": "에스프레소가 원래 설탕을 섞어 먹는 건데 우리나라 들어오면서 중간에 변형된 거래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "에스프레소/NNG+가/JKS+원래/MAG+설탕/NNG+을/JKO+섞/VV+어/EC+먹/VV+는/ETM+건데/NNB+VCP+EC+우리/NP+나라/NNG+들어오/VV+면서/EC+중간/NNG+에/JKB+변형/NNG+된/XSV+ETM+거래/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 헐 그건 처음 알았어 너 먹을 때 뺏어 먹어 봐야겠다",
+            "norm_text": "헐 그건 처음 알았어 너 먹을 때 뺏어 먹어 봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+그건/NP+JX+처음/MAG+알/VV+았/EP+어/EF+너/NP+먹/VV+을/ETM+때/NNG+뺏/VV+어/EC+먹/VV+어/EC+봐야/VX+EC+VV+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그나저나 점심은 먹었어?",
+            "norm_text": "그나저나 점심은 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그나저나/MAG+점심/NNG+은/JX+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 좋아 너그러운 내가 한 입 양보해 주지!",
+            "norm_text": "좋아 너그러운 내가 한 입 양보해 주지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아/EC+너그러운/VA+ETM+내/NP+가/JKS+한입/NNG+양보/NNG+해/XSV+EC+주/VX+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 나 닭볶음탕 먹었어! 너는?",
+            "norm_text": "응 나 닭볶음탕 먹었어! 너는?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+나/NP+닭볶음탕/NNG+먹/VV+었/EP+어/EF+너/NP+는/JX"
+          },
+          {
+            "id": 16,
+            "text": "2 :  키키 아량이 넓다",
+            "norm_text": "키키 아량이 넓다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+아량/NNG+이/JKS+넓/VA+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 닭볶음탕 최고지 ㅠㅠ",
+            "norm_text": "닭볶음탕 최고지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "닭볶음탕/NNG+최고/NNG+지/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나는 진미채랑 멸치 볶음이랑 해서 밥 먹었어",
+            "norm_text": "나는 진미채랑 멸치 볶음이랑 해서 밥 먹었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+진미/NNG+채/XSN+랑/JC+멸치/NNG+볶음/NNG+이랑/JKB+해서/VV+EC+밥/NNG+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 저녁은 잔치국수 먹을 예정이야",
+            "norm_text": "저녁은 잔치국수 먹을 예정이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저녁/NNG+은/JX+잔치국수/NNP+먹/VV+을/ETM+예정/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 헉 뭐야 내 사랑 진미채! 걔만 있으면 흰밥 한 공기 뚝딱인데 진심",
+            "norm_text": "헉 뭐야 내 사랑 진미채! 걔만 있으면 흰밥 한 공기 뚝딱인데 진심",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+뭐/NP+야/VCP+EF+내/NP+JKG+사랑/NNG+진미/NNG+채/MAG+걔/NP+만/JX+있/VX+으면/EC+흰밥/NNG+한/XSA+ETM+공기/NNG+뚝딱/MAG+인데/VCP+EC+진심/NNG"
+          },
+          {
+            "id": 21,
+            "text": "2 : 자네 뭘 좀 아는구만 오징어는 정말 요리할 게 많은 것 같아",
+            "norm_text": "자네 뭘 좀 아는구만 오징어는 정말 요리할 게 많은 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자네/NP+뭘/NP+JKO+좀/MAG+아/VV+는/ETM+구만/NNG+오징어/NNG+는/JX+정말/MAG+요리/NNG+할/XSV+ETM+게/NNB+JKS+많/VA+은/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 맞지 근데 나 오징어 볶음 그다지 안 좋아함",
+            "norm_text": "맞지 근데 나 오징어 볶음 그다지 안 좋아함",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EF+근데/MAJ+나오/VV+징/EF+어/IC+볶음/NNG+그다지/MAG+안/MAG+좋아함/VV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 그 뭐랄가 특유의 오징어 익은 냄새가 있는데 뭔지 알아?",
+            "norm_text": "그 뭐랄가 특유의 오징어 익은 냄새가 있는데 뭔지 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/IC+뭐/IC+랄/NNP+가/JKS+특유/NNG+의/JKG+오징어/NNG+익/VV+은/ETM+냄새/NNG+가/JKS+있/VA+는데/EC+뭔지/NP+VCP+EC+알/VV+아/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 오잉 진짜? 아니 나 막코라서 몰라 그럼 짬뽕 먹을 때 오징어 안 먹어?",
+            "norm_text": "오잉 진짜? 아니 나 막코라서 몰라 그럼 짬뽕 먹을 때 오징어 안 먹어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오잉/NNP+진짜/MAG+아니/IC+나/NP+막/MAJ+코/NNG+라서/VCP+EC+몰라/VV+EF+그럼/MAJ+짬뽕/NNG+먹/VV+을/ETM+때/NNG+오징어/NNG+안/MAG+먹/VV+어/EF"
+          },
+          {
+            "id": 25,
+            "text": "1 : 짬뽕은 국물 간이 너무 세서 오징어 냄새 잘 안 나던데! 그래서 먹어! 오징어가 식감은 좋잖아",
+            "norm_text": "짬뽕은 국물 간이 너무 세서 오징어 냄새 잘 안 나던데! 그래서 먹어! 오징어가 식감은 좋잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짬뽕/NNG+은/JX+국물/NNG+간이/JKB+너무/MAG+세/VA+서/EC+오징어/NNG+냄새/NNG+잘/MAG+안/MAG+나/VV+던데/EF+그래서/MAJ+먹/VV+어/EF+오징어/NNG+가/JKS+식감/NNG+은/JX+좋/VA+잖아/EC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 아하 맞지 맞지 짬뽕 안에 든 건 괜찮다니 다행이네~",
+            "norm_text": "아하 맞지 맞지 짬뽕 안에 든 건 괜찮다니 다행이네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+맞/VV+지/EC+맞/VV+지/EC+짬뽕/NNG+안/NNG+에/JKB+든/VV+ETM+건/NNB+JX+괜찮/VA+다니/EC+다행/NNG+이/VCP+네/EF+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

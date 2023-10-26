@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 21498,
+    "name": "KAKAO_522_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109171613370498105/KAKAO_522_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109171613370498105/KAKAO_522_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30172,
+      "filename": "KAKAO_522_01.txt",
+      "title": "KAKAO_522_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 440,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 440,
+        "word_size": 152,
+        "text": "1 : 오늘 비도 오는데 맛있는 거 먹을까?\n2 : 좋지~ 생각나는 거 있어?\n1 : 비 오니까 삼겹살도 먹고 싶고 전도 먹고 싶네~\n2 : 오우 둘 다 맛있겠다\n2 : 크... 군침 싹\n1 : 너는 뭐 먹고 싶은 거 없어?\n2 : 나는 전이랑 막걸리 땡기네 하하\n1 : 하하 우리 집 근처에 전집 새로 오픈 했던데 가볼래?\n2 : 오 진짜? 가자 가자!\n2 : 전 너무 좋아\n1 : 그래 그러면 몇 시까지 만날래?\n2 : 음 바로 가면 6시쯤 도착할 듯?\n1 : 그러면 6시쯤에 전집 앞에서 만날까?\n2 : 아 근데 나 잠깐 볼일 있어서 30분만 늦게 봐도 돼유?\n1 : 아아 그래 그래 상관없어!\n1 : 근데 오늘 전집에 사람 많을 것 같지?\n2 : 응... 사람 많을 듯ㅠㅜ\n2 : 전화해서 대기 물어볼까?\n1 : 내가 전화해서 물어볼게!\n1 : 얼른 볼일 끝내고 조심히와유~\n2 : 응 웅 고마워\n2 : 이따 만나유~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 비도 오는데 맛있는 거 먹을까?",
+            "norm_text": "오늘 비도 오는데 맛있는 거 먹을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오늘/MAG+비/NNG+도/JX+오/VV+는/ETM+데/NNB+맛있/VA+는/ETM+거/NNB+먹/VV+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 좋지~ 생각나는 거 있어?",
+            "norm_text": "좋지~ 생각나는 거 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+지/EC+~/SY+생각/NNG+나/VV+는/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 비 오니까 삼겹살도 먹고 싶고 전도 먹고 싶네~",
+            "norm_text": "비 오니까 삼겹살도 먹고 싶고 전도 먹고 싶네~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비오/VV+니까/EC+삼겹살/NNG+도/JX+먹/VV+고/EC+싶/VX+고/EC+전/NNG+도/JX+먹/VV+고/EC+싶/VX+네/EF+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오우 둘 다 맛있겠다",
+            "norm_text": "오우 둘 다 맛있겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오우/IC+둘/NR+다/MAG+맛있/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 크... 군침 싹",
+            "norm_text": "크... 군침 싹",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "크/IC+./SY+군침/NNG+싹/NNG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 너는 뭐 먹고 싶은 거 없어?",
+            "norm_text": "너는 뭐 먹고 싶은 거 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+뭐/IC+먹/VV+고/EC+싶/VX+은/ETM+거/NNB+없/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나는 전이랑 막걸리 땡기네 하하",
+            "norm_text": "나는 전이랑 막걸리 땡기네 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+전이/NNG+랑/JKB+막걸리/NNG+땡기/VV+네/EF+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 하하 우리 집 근처에 전집 새로 오픈 했던데 가볼래?",
+            "norm_text": "하하 우리 집 근처에 전집 새로 오픈 했던데 가볼래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "하하/MAG+우리/NP+집/NNG+근처/NNG+에/JKB+전집/NNG+새로/MAG+오픈/NNG+했/XSV+EP+던/ETM+데/NNB+가/JKS+볼래/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 오 진짜? 가자 가자!",
+            "norm_text": "오 진짜? 가자 가자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+진짜/MAG+가/VV+자/EC+가/VX+자/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 전 너무 좋아",
+            "norm_text": "전 너무 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전/NP+JX+너무/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래 그러면 몇 시까지 만날래?",
+            "norm_text": "그래 그러면 몇 시까지 만날래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+그러면/MAJ+몇/MM+시/NNBC+까지/JX+만/JX+날래/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 음 바로 가면 6시쯤 도착할 듯?",
+            "norm_text": "음 바로 가면 6시쯤 도착할 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+바로/MAG+가/VV+면/EC+6/SN+시/NNBC+쯤/XSN+도착/NNG+할/XSV+ETM+듯/NNB"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그러면 6시쯤에 전집 앞에서 만날까?",
+            "norm_text": "그러면 6시쯤에 전집 앞에서 만날까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그러면/MAJ+6/SN+시/NNBC+쯤/XSN+에/JKB+전집/NNG+앞/NNG+에서/JKB+만/JX+날까/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아 근데 나 잠깐 볼일 있어서 30분만 늦게 봐도 돼유?",
+            "norm_text": "아 근데 나 잠깐 볼일 있어서 30분만 늦게 봐도 돼유?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아/IC+근데/MAJ+나/NP+잠깐/MAG+볼일/NNG+있/VV+어서/EC+30/SN+분/NNBC+만/JX+늦/VA+게/EC+봐도/VX+EC+돼/VV+EF+유/IC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아아 그래 그래 상관없어!",
+            "norm_text": "아아 그래 그래 상관없어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+그래그래/IC+상관없/VA+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근데 오늘 전집에 사람 많을 것 같지?",
+            "norm_text": "근데 오늘 전집에 사람 많을 것 같지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+오늘/MAG+전집/NNG+에/JKB+사람/NNG+많/VA+을/ETM+것/NNB+같/VA+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응... 사람 많을 듯ㅠㅜ",
+            "norm_text": "응... 사람 많을 듯ㅠㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+사람많을듯ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 전화해서 대기 물어볼까?",
+            "norm_text": "전화해서 대기 물어볼까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "전화/NNG+해서/XSV+EC+대/VX+기/ETN+물어볼까/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 내가 전화해서 물어볼게!",
+            "norm_text": "내가 전화해서 물어볼게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+전화/NNG+해서/XSV+EC+물어볼/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 20,
+            "text": "1 : 얼른 볼일 끝내고 조심히와유~",
+            "norm_text": "얼른 볼일 끝내고 조심히와유~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼른/MAG+볼일/NNG+끝/NNG+내/VV+고/EC+조심히/MAG+와유/NNG+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 응 웅 고마워",
+            "norm_text": "응 웅 고마워",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+웅/IC+고마워/VA+EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 이따 만나유~",
+            "norm_text": "이따 만나유~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이따/MAG+만나/VV+유/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

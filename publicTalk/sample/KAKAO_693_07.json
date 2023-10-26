@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 40933,
+    "name": "KAKAO_693_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113007034518/KAKAO_693_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113007034518/KAKAO_693_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35226,
+      "filename": "KAKAO_693_07.txt",
+      "title": "KAKAO_693_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 478,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 478,
+        "word_size": 166,
+        "text": "1 : 곧 추석인데 뭐 하냐?\n2 : 추석에 고향 내려가야지 키키\n1 : 너도 가족들 오랜만에 만나겠다\n2 : 응 오랜만이지 키키\n2 : 코로나 때매 자주 못 가다가 그래도 추석엔 가야지 싶다 키키\n1 : 나도 코로나 때문에 거의 못 가서 이번엔 가려고 키키\n1 : 뭐 타고 가냐\n2 : 케텍스나 에쌀티 키키\n2 : 예약 잘 할 수 있으려나 키키\n1 : 미리 안 하면 없어질걸?\n2 : 안 되면 나중에 남는 표 주으러 다녀야지 키키\n1 : 그건 뭔데? 티켓팅 실패해도 예약 가능함?\n2 : 그냥 갑자기 생기는 거 기다리는 거 키키\n2 : 독립 초보라 모르는구만 키키\n1 : 근데 그런 게 잘 나와?\n2 : 안 되면 키키 버스 타면 돼 키키\n2 : 오래 걸려서 그러치 ㅜㅜ\n1 : 내려갈 때 같이 가자 키키 심심하잖아\n2 : 둘이 같이 끊을 수 있게 해보자 키키\n2 : 간만에 엄마 아빠 좀 만나 보자능!\n1 : 그래 일단 티켓팅부터 성공해 보자!\n2 : 나중에 할 때 되면 다시 말해줄게 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 곧 추석인데 뭐 하냐?",
+            "norm_text": "곧 추석인데 뭐 하냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "곧/MAG+추석/NNG+인데/VCP+EC+뭐/IC+하/VV+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 추석에 고향 내려가야지 키키",
+            "norm_text": "추석에 고향 내려가야지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추석/NNG+에/JKB+고향/NNG+내려가/VV+야지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 너도 가족들 오랜만에 만나겠다",
+            "norm_text": "너도 가족들 오랜만에 만나겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+가족/NNG+들/XSN+오랜만/NNG+에/JKB+만나/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 오랜만이지 키키",
+            "norm_text": "응 오랜만이지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+오랜만/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 코로나 때매 자주 못 가다가 그래도 추석엔 가야지 싶다 키키",
+            "norm_text": "코로나 때매 자주 못 가다가 그래도 추석엔 가야지 싶다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코로나/NNG+때/NNG+매/NNG+자주/MAG+못/MAG+가/VV+다가/EC+그래도/VV+EC+추석/NNG+엔/JKB+JX+가/VV+야지/EC+싶/VX+다키키/NNP"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나도 코로나 때문에 거의 못 가서 이번엔 가려고 키키",
+            "norm_text": "나도 코로나 때문에 거의 못 가서 이번엔 가려고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+코로나/NNG+때문/NNB+에/JKB+거의/MAG+못/MAG+가/VV+서/EC+이번/NNG+엔/JKB+JX+가/VV+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 뭐 타고 가냐",
+            "norm_text": "뭐 타고 가냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+타/VV+고/EC+가/VX+냐/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 케텍스나 에쌀티 키키",
+            "norm_text": "케텍스나 에쌀티 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "케/IC+텍/NNG+스나/NNG+에/JKB+쌀/VV+ETM+티키/NNP+키/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 예약 잘 할 수 있으려나 키키",
+            "norm_text": "예약 잘 할 수 있으려나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예약/NNG+잘/MAG+할/VV+ETM+수/NNB+있/VV+으려나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 미리 안 하면 없어질걸?",
+            "norm_text": "미리 안 하면 없어질걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "미리/MAG+안/MAG+하/VV+면/EC+없/VA+어/EC+질/VX+ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 11,
+            "text": "2 : 안 되면 나중에 남는 표 주으러 다녀야지 키키",
+            "norm_text": "안 되면 나중에 남는 표 주으러 다녀야지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+되/VV+면/EC+나중/NNG+에/JKB+남/VV+는/ETM+표/NNG+주으러/VV+EC+다녀야지/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그건 뭔데? 티켓팅 실패해도 예약 가능함?",
+            "norm_text": "그건 뭔데? 티켓팅 실패해도 예약 가능함?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+뭔데/NP+VCP+EF+티켓/NNG+팅/MAG+실패/NNG+해도/XSV+EC+예약/NNG+가능/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그냥 갑자기 생기는 거 기다리는 거 키키",
+            "norm_text": "그냥 갑자기 생기는 거 기다리는 거 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+갑자기/MAG+생기/VV+는/ETM+거/NNB+기다리/VV+는/ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 독립 초보라 모르는구만 키키",
+            "norm_text": "독립 초보라 모르는구만 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "독립/NNG+초보/NNG+라/VCP+EC+모르/VV+는/ETM+구만/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 그런 게 잘 나와?",
+            "norm_text": "근데 그런 게 잘 나와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그런/MM+게/NNB+JKS+잘/MAG+나와/VV+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 안 되면 키키 버스 타면 돼 키키",
+            "norm_text": "안 되면 키키 버스 타면 돼 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+되/VV+면/EC+키키/NNP+버스타/NNP+면/NNG+돼/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오래 걸려서 그러치 ㅜㅜ",
+            "norm_text": "오래 걸려서 그러치 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오래/MAG+걸려서/VV+EC+그러/XR+치/XSA+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 내려갈 때 같이 가자 키키 심심하잖아",
+            "norm_text": "내려갈 때 같이 가자 키키 심심하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "내려갈/VV+ETM+때/NNG+같이/JKB+가/JKS+자키/NNG+키/XSV+ETN+심심/XR+하/XSA+잖아/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 둘이 같이 끊을 수 있게 해보자 키키",
+            "norm_text": "둘이 같이 끊을 수 있게 해보자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "둘/NR+이/JKS+같이/MAG+끊/VV+을/ETM+수/NNB+있/VV+게/EC+해/VV+EC+보/VX+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 간만에 엄마 아빠 좀 만나 보자능!",
+            "norm_text": "간만에 엄마 아빠 좀 만나 보자능!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "간만에/MAG+엄마/NNG+아빠/NNG+좀/MAG+만나/VV+EC+보/VX+자/EC+능/NNG"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그래 일단 티켓팅부터 성공해 보자!",
+            "norm_text": "그래 일단 티켓팅부터 성공해 보자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+일단/MAG+티켓/NNG+팅/MAG+부터/JX+성공/NNG+해/XSV+EC+보/VX+자/EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 나중에 할 때 되면 다시 말해줄게 키키",
+            "norm_text": "나중에 할 때 되면 다시 말해줄게 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나중/NNG+에/JKB+할/VV+ETM+때/NNG+되/XSV+면/EC+다시/MAG+말/NNG+해/XSV+EC+줄/VX+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

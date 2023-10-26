@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 34306,
+    "name": "KAKAO_619_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120538066629/KAKAO_619_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120538066629/KAKAO_619_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32185,
+      "filename": "KAKAO_619_12.txt",
+      "title": "KAKAO_619_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 529,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 529,
+        "word_size": 175,
+        "text": "1 : 해외 여행 어디로 가고 싶나요? 키키\n2 : 키키 북유럽으로? 키키 덴마트에 잘생긴 사람들이 많대\n1 : 우와 대박이다 언니 같이 가요 키키\n2 : 키키 완전 좋지 키키\n2 : 언니한테 물어 봐줄래? 잘생긴 사람 보러 가자고\n1 : 좋죠 너무 너무 좋다 ㅜㅜ\n1 : 언니 영어 잘해요?\n2 : 아니 키키 난 전혀 못해\n2 : 너희 언니가 영어 좀 하지 않니?\n1 : 언니도 못해요 키키\n1 : 뭐하다가 왔는지 몰라요 키키\n2 : 키키 새로운 여행 동지를 한 명 더 영입해야겠네 키키\n1 : 키키 영어 가능한 사람 있나요?\n2 : 키키 구하는 것보다 내가 배우는 게 더 빠를 수도 있을 거 같아\n1 : 악 하하 저희 같이 영어를 배워 볼까요?\n2 : 키키 어떻게 하면 가능할까?\n2 : 10년 넘게 영어 공부 실패해와서 방법을 모르겠네\n1 : 저도요 ㅜㅜ 어떻게 하는 건지 모르겠지만 뭔가 해봐요\n2 : 도전~ 아이슬란드에 오로라도 한 번 보고 싶어 키키\n1 : 우와 진짜 저도 그냥 사진으로만 봤는데 너무 보고 싶음 ㅜㅜ\n2 : 그치? 요정의 나라라고 하잖아 꼭 가보고 싶어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 해외 여행 어디로 가고 싶나요? 키키",
+            "norm_text": "해외 여행 어디로 가고 싶나요? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해외여행/NNG+어디/NP+로/JKB+가/VV+고/EC+싶/VX+나요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 북유럽으로? 키키 덴마트에 잘생긴 사람들이 많대",
+            "norm_text": "키키 북유럽으로? 키키 덴마트에 잘생긴 사람들이 많대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+북/NNP+유럽/NNP+으로/JKB+키/NNG+키/XSV+ETN+덴/VV+ETM+마트/NNG+에/JKB+잘생긴/VA+ETM+사람/NNG+들/XSN+이/JKS+많/VA+대/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우와 대박이다 언니 같이 가요 키키",
+            "norm_text": "우와 대박이다 언니 같이 가요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "우와/IC+대박/NNG+이/JKS+다/MAG+언니/NNG+같이/JKB+가요/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 완전 좋지 키키",
+            "norm_text": "키키 완전 좋지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키완전좋지키키/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 언니한테 물어 봐줄래? 잘생긴 사람 보러 가자고",
+            "norm_text": "언니한테 물어 봐줄래? 잘생긴 사람 보러 가자고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "언니/NNG+한테/JKB+물어봐줄래/VV+EC+VX+EF+잘생긴/VA+ETM+사람/NNG+보/VV+러/EC+가/VX+자고/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 좋죠 너무 너무 좋다 ㅜㅜ",
+            "norm_text": "좋죠 너무 너무 좋다 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "좋/VA+죠/EF+너무너무/MAG+좋/VA+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 언니 영어 잘해요?",
+            "norm_text": "언니 영어 잘해요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+영어/NNG+잘/MAG+해요/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니 키키 난 전혀 못해",
+            "norm_text": "아니 키키 난 전혀 못해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+키/NNG+키/XSV+ETN+난/NP+JX+전혀/MAG+못/MAG+해/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 너희 언니가 영어 좀 하지 않니?",
+            "norm_text": "너희 언니가 영어 좀 하지 않니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+언니/NNG+가/JKS+영어/NNG+좀/MAG+하/VV+지/EC+않/VX+니/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 언니도 못해요 키키",
+            "norm_text": "언니도 못해요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "언니/NNG+도/JX+못/MAG+해요/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 뭐하다가 왔는지 몰라요 키키",
+            "norm_text": "뭐하다가 왔는지 몰라요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+하/VV+다가/EC+왔/VX+EP+는지/EC+몰라요/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 새로운 여행 동지를 한 명 더 영입해야겠네 키키",
+            "norm_text": "키키 새로운 여행 동지를 한 명 더 영입해야겠네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+새로운/VA+ETM+여행/NNG+동지/NNG+를/JKO+한/MM+명/NNBC+더/MAG+영입/NNG+해야/XSV+EC+VX+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 영어 가능한 사람 있나요?",
+            "norm_text": "키키 영어 가능한 사람 있나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+영어/NNG+가능/NNG+한/XSA+ETM+사람/NNG+있/VA+나요/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 구하는 것보다 내가 배우는 게 더 빠를 수도 있을 거 같아",
+            "norm_text": "키키 구하는 것보다 내가 배우는 게 더 빠를 수도 있을 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+구하/VV+는/ETM+것/NNB+보다/JKB+내/NP+가/JKS+배우/VV+는/ETM+게/NNB+JKS+더/MAG+빠를/VA+ETM+수/NNB+도/JX+있/VA+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 악 하하 저희 같이 영어를 배워 볼까요?",
+            "norm_text": "악 하하 저희 같이 영어를 배워 볼까요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "악/IC+하하/MAG+저희/NP+같이/MAG+영어/NNG+를/JKO+배워/VV+EC+볼까요/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 어떻게 하면 가능할까?",
+            "norm_text": "키키 어떻게 하면 가능할까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+어떻/VA+게/EC+하/VV+면/EC+가능/NNG+할까/XSV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 10년 넘게 영어 공부 실패해와서 방법을 모르겠네",
+            "norm_text": "10년 넘게 영어 공부 실패해와서 방법을 모르겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "10/SN+년/NNBC+넘/VV+게/EC+영어/NNG+공부/NNG+실패/NNG+해/XSV+EC+와서/VV+EC+방법/NNG+을/JKO+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 저도요 ㅜㅜ 어떻게 하는 건지 모르겠지만 뭔가 해봐요",
+            "norm_text": "저도요 ㅜㅜ 어떻게 하는 건지 모르겠지만 뭔가 해봐요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+요/JX+ㅜㅜ/UNKNOWN+어떻게/MAG+하/VV+는/ETM+건지/NNB+VCP+EC+모르/VV+겠/EP+지만/EC+뭔가/NP+VCP+EC+해봐요/VV+EC+VX+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 도전~ 아이슬란드에 오로라도 한 번 보고 싶어 키키",
+            "norm_text": "도전~ 아이슬란드에 오로라도 한 번 보고 싶어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도전/NNG+~/SY+아이슬란드/NNP+에/JKB+오로라/NNG+도/JX+한/MM+번/NNBC+보/VV+고/EC+싶/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 우와 진짜 저도 그냥 사진으로만 봤는데 너무 보고 싶음 ㅜㅜ",
+            "norm_text": "우와 진짜 저도 그냥 사진으로만 봤는데 너무 보고 싶음 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+진짜/MAG+저/NP+도/JX+그냥/MAG+사진/NNG+으로/JKB+만/JX+봤/VV+EP+는데/EC+너무/MAG+보/VV+고/EC+싶/VX+음/ETN+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그치? 요정의 나라라고 하잖아 꼭 가보고 싶어",
+            "norm_text": "그치? 요정의 나라라고 하잖아 꼭 가보고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+요정/NNG+의/JKG+나라/NNG+라고/VCP+EC+하/VX+잖아/EF+꼭/MAG+가/VV+EC+보/VX+고/EC+싶/VX+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

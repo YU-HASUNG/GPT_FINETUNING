@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55847,
+    "name": "KAKAO_705_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132339003063/KAKAO_705_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132339003063/KAKAO_705_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36735,
+      "filename": "KAKAO_705_08.txt",
+      "title": "KAKAO_705_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 468,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 468,
+        "word_size": 149,
+        "text": "1 : 언제 연애 해 봤는지 기억도 안 난다.\n2 : 근데 너 솔로 된 지 얼마 안 된 거 아니야?\n1 : 한 5~6개월쯤 됐나? 체감상으로는 정말 오래된 기분이란 말이야.\n2 : 뭐야 나는 7년 넘었거든? 골뱅이 앞에서 주름잡긴.훗.ㅋ\n1 : 헐 어쩜 그렇게 오랫동안 연애를 쉴 수가 있어?\n2 : 나도 내가 이렇게 다음 연애가 오래 걸릴 줄은 몰랐어.\n1 : 소개팅은 많이 해본 거야? 노력은 했는지 궁금하네.\n2 : 주위에 친구들이 소개 안 시켜준 친구가 없을 정도로 엄청 많이 했어.\n1 : 그런데도 못 만났단 말이야?\n2 : 응 그렇게 됐어. 딱 마음에 맞는 사람 찾기가 어렵더라.\n1 : 너가 너무 눈이 높은 거 아니야?\n2 : 절대 아니야 사람들은 꼭 그 소리 하더라.\n1 : 그럼 나는 어떻게 생각해?\n2 : 응? 무슨 말이 하고 싶은 거야?\n1 : 남자로써 나 어떠냐고, 내가 왜 연락을 계속 하겠어?\n2 : 글쎄. 인맥용으로 한 거 아니었어? ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언제 연애 해 봤는지 기억도 안 난다.",
+            "norm_text": "언제 연애 해 봤는지 기억도 안 난다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언제/MAG+연애/NNG+해/XSV+EC+봤/VX+EP+는지/EC+기억/NNG+도/JX+안/MAG+난다/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 근데 너 솔로 된 지 얼마 안 된 거 아니야?",
+            "norm_text": "근데 너 솔로 된 지 얼마 안 된 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+너/NP+솔로/NNG+된/XSV+ETM+지/NNB+얼마/NNG+안/MAG+된/VV+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 한 5~6개월쯤 됐나? 체감상으로는 정말 오래된 기분이란 말이야.",
+            "norm_text": "한 5~6개월쯤 됐나? 체감상으로는 정말 오래된 기분이란 말이야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+5/SN+~/SY+6/SN+개월/NNBC+쯤/XSN+됐/VV+EP+나/EF+체감/NNG+상/XSN+으로/JKB+는/JX+정말/MAG+오래/MAG+된/VV+ETM+기분/NNG+이/VCP+란/ETM+말/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 뭐야 나는 7년 넘었거든? 골뱅이 앞에서 주름잡긴.훗.ㅋ",
+            "norm_text": "뭐야 나는 7년 넘었거든? 골뱅이 앞에서 주름잡긴.훗.ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+야/VCP+EF+나/NP+는/JX+7/SN+년/NNBC+넘/VV+었/EP+거든/EF+골뱅이/NNG+앞/NNG+에서/JKB+주름잡/VV+긴/ETN+JX+훗/IC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 헐 어쩜 그렇게 오랫동안 연애를 쉴 수가 있어?",
+            "norm_text": "헐 어쩜 그렇게 오랫동안 연애를 쉴 수가 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+어쩜/IC+그렇게/MAG+오랫동안/NNG+연애/NNG+를/JKO+쉴/VV+ETM+수/NNB+가/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도 내가 이렇게 다음 연애가 오래 걸릴 줄은 몰랐어.",
+            "norm_text": "나도 내가 이렇게 다음 연애가 오래 걸릴 줄은 몰랐어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+내/NP+가/JKS+이렇게/MAG+다음/NNG+연애/NNG+가/JKS+오래/MAG+걸릴/VV+ETM+줄/NNB+은/JX+몰랐/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 소개팅은 많이 해본 거야? 노력은 했는지 궁금하네.",
+            "norm_text": "소개팅은 많이 해본 거야? 노력은 했는지 궁금하네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "소개팅/NNG+은/JX+많이/MAG+해/VV+EC+본/VX+ETM+거/NNB+야/VCP+EF+노력/NNG+은/JX+했/VV+EP+는지/EC+궁금/XR+하/XSA+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 주위에 친구들이 소개 안 시켜준 친구가 없을 정도로 엄청 많이 했어.",
+            "norm_text": "주위에 친구들이 소개 안 시켜준 친구가 없을 정도로 엄청 많이 했어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주위/NNG+에/JKB+친구/NNG+들/XSN+이/JKS+소개/NNG+안/MAG+시켜/VV+EC+준/VX+ETM+친구/NNG+가/JKS+없/VA+을/ETM+정도/NNG+로/JKB+엄청/MAG+많이/MAG+했/VV+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그런데도 못 만났단 말이야?",
+            "norm_text": "그런데도 못 만났단 말이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런데/MAJ+도/JX+못/MAG+만났/VV+EP+단/ETM+말/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 그렇게 됐어. 딱 마음에 맞는 사람 찾기가 어렵더라.",
+            "norm_text": "응 그렇게 됐어. 딱 마음에 맞는 사람 찾기가 어렵더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그렇게/MAG+됐/VV+EP+어/EF+딱/MAG+마음/NNG+에/JKB+맞/VV+는/ETM+사람/NNG+찾/VV+기/ETN+가/JKS+어렵/VA+더라/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너가 너무 눈이 높은 거 아니야?",
+            "norm_text": "너가 너무 눈이 높은 거 아니야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+가/JKS+너무/MAG+눈/NNG+이/JKS+높/VA+은/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 절대 아니야 사람들은 꼭 그 소리 하더라.",
+            "norm_text": "절대 아니야 사람들은 꼭 그 소리 하더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "절대/MAG+아니야/IC+사람/NNG+들/XSN+은/JX+꼭/MAG+그/MM+소리/NNG+하/XSA+더라/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 나는 어떻게 생각해?",
+            "norm_text": "그럼 나는 어떻게 생각해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+나/NP+는/JX+어떻게/MAG+생각/NNG+해/XSV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응? 무슨 말이 하고 싶은 거야?",
+            "norm_text": "응? 무슨 말이 하고 싶은 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+무슨/MM+말/NNG+이/JKS+하/VV+고/EC+싶/VX+은/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 남자로써 나 어떠냐고, 내가 왜 연락을 계속 하겠어?",
+            "norm_text": "남자로써 나 어떠냐고, 내가 왜 연락을 계속 하겠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+로써/JKB+나/JX+어떠/VV+냐고/EC+,/SC+내/NP+가/JKS+왜/MAG+연락/NNG+을/JKO+계속/NNG+하/XSV+겠/EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 글쎄. 인맥용으로 한 거 아니었어? ㅋ",
+            "norm_text": "글쎄. 인맥용으로 한 거 아니었어? ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "글쎄/IC+인맥/NNG+용/XSN+으로/JKB+한/VV+ETM+거/NNB+아니/VCN+었/EP+어/EF+ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35876,
+    "name": "KAKAO_892_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095703005479/KAKAO_892_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095703005479/KAKAO_892_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40718,
+      "filename": "KAKAO_892_19.txt",
+      "title": "KAKAO_892_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 538,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 538,
+        "word_size": 159,
+        "text": "1 : 너 가수 쥐오디에 멤버 윤계상 알아?\n2 : 어 알지 혼자 왔니?\n1 : 윤계상이랑 연기자 이하늬랑 엄청 오래 연애했거든?\n2 : 아 그거 뉴스 본 거 같다\n1 : 근데 사귈 때는 이하늬랑 결혼 생각 없다더니 긴 연애 끝에 결별을 한 거야\n2 : 어어 최근에 일반인 어린 여자랑 결혼한다고 뉴스 나지 않았나?\n1 : 맞아! 결별하자마자 바로 결혼함 키키 머야 키키\n2 : 뭐고 키키 그럼 양다리였단 건가? 키키\n1 : 한혜진도 나얼이랑 오래 사귀고 헤어지고 바로 기승용이랑 결혼했잖아 키키\n1 : 양다리는 아니겠지 키키\n2 : 나얼이랑 왜 헤어졌을까... 김나박이에 나얼인데...\n1 : 모르지 키키 가수들은 아무래도 감수성이 풍부하니까 키키 맞추기 어렵지 않았을까?\n2 : 그런가... 학창 시절에 데뷔한 지오디 다들 결혼하는 거 보니까 우리도 나이 들었네...\n1 : 맞아 키키 지오디 오빠들 거의 다 결혼했을걸?\n2 : 지오디 누구 있었지? 박준형 윤계상 김태우...\n1 : 손호영이랑 데니안 키키 예능에 가끔 나오던데\n2 : 아 그래 키키 그 둘은 결혼 안 하나? 했나? 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 가수 쥐오디에 멤버 윤계상 알아?",
+            "norm_text": "너 가수 쥐오디에 멤버 윤계상 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+가/JKS+수쥐/NNG+오디/NNG+에/JKB+멤버/NNG+윤계상/NNP+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어 알지 혼자 왔니?",
+            "norm_text": "어 알지 혼자 왔니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+알/VV+지/EC+혼자/MAG+왔/VV+EP+니/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 윤계상이랑 연기자 이하늬랑 엄청 오래 연애했거든?",
+            "norm_text": "윤계상이랑 연기자 이하늬랑 엄청 오래 연애했거든?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "윤계상/NNP+이랑/JC+연기자/NNG+이하늬/NNP+랑/JC+엄청/MAG+오래/MAG+연애/NNG+했/XSV+EP+거든/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 그거 뉴스 본 거 같다",
+            "norm_text": "아 그거 뉴스 본 거 같다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그거/NP+뉴스/NNG+본/VV+ETM+거/NNB+같/VA+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 사귈 때는 이하늬랑 결혼 생각 없다더니 긴 연애 끝에 결별을 한 거야",
+            "norm_text": "근데 사귈 때는 이하늬랑 결혼 생각 없다더니 긴 연애 끝에 결별을 한 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+사귈/VV+ETM+때/NNG+는/JX+이하늬/NNP+랑/JC+결혼/NNG+생각/NNG+없/VA+다더니/EC+긴/VA+ETM+연애/NNG+끝/NNG+에/JKB+결별/NNG+을/JKO+한/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어어 최근에 일반인 어린 여자랑 결혼한다고 뉴스 나지 않았나?",
+            "norm_text": "어어 최근에 일반인 어린 여자랑 결혼한다고 뉴스 나지 않았나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+어/IC+최근/NNG+에/JKB+일반인/NNG+어린/VA+ETM+여자/NNG+랑/JKB+결혼/NNG+한다고/XSV+EC+뉴스/NNG+나/VV+지/EC+않/VX+았/EP+나/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아! 결별하자마자 바로 결혼함 키키 머야 키키",
+            "norm_text": "맞아! 결별하자마자 바로 결혼함 키키 머야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+결별/NNG+하/XSV+자마자/EC+바로/MAG+결혼/NNG+함/XSV+ETN+키/NNG+키/XSV+ETN+머/VV+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 뭐고 키키 그럼 양다리였단 건가? 키키",
+            "norm_text": "뭐고 키키 그럼 양다리였단 건가? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+고/VCP+EC+키/NNG+키/XSV+ETN+그럼/MAJ+양다리/NNG+였/VCP+EP+단/ETM+건가/NNB+VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 한혜진도 나얼이랑 오래 사귀고 헤어지고 바로 기승용이랑 결혼했잖아 키키",
+            "norm_text": "한혜진도 나얼이랑 오래 사귀고 헤어지고 바로 기승용이랑 결혼했잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한혜진/NNP+도/JX+나얼/NNP+이/XSN+랑/JKB+오래/MAG+사귀/VV+고/EC+헤어지/VV+고/EC+바로/MAG+기승/NNG+용/XSN+이랑/JC+결혼/NNG+했잖아/XSV+EP+EC+VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 양다리는 아니겠지 키키",
+            "norm_text": "양다리는 아니겠지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "양다리/NNG+는/JX+아니/VCN+겠/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나얼이랑 왜 헤어졌을까... 김나박이에 나얼인데...",
+            "norm_text": "나얼이랑 왜 헤어졌을까... 김나박이에 나얼인데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나얼/NNP+이랑/JC+왜/MAG+헤어졌/VV+EP+을까/EF+./SY+./SY+김/NNP+나/JC+박이/NNG+에/JKB+나얼/NNP+인데/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 모르지 키키 가수들은 아무래도 감수성이 풍부하니까 키키 맞추기 어렵지 않았을까?",
+            "norm_text": "모르지 키키 가수들은 아무래도 감수성이 풍부하니까 키키 맞추기 어렵지 않았을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "모르/VV+지/EC+키/NNG+키가/XSV+ETN+JKS+수/NNG+들/XSN+은/JX+아무래도/MAG+감수/NNG+성/XSN+이/JKS+풍부/XR+하/XSA+니까/EC+키/NNG+키/XSV+ETN+맞추/VV+기/ETN+어렵/VA+지/EC+않/VX+았/EP+을까/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그런가... 학창 시절에 데뷔한 지오디 다들 결혼하는 거 보니까 우리도 나이 들었네...",
+            "norm_text": "그런가... 학창 시절에 데뷔한 지오디 다들 결혼하는 거 보니까 우리도 나이 들었네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EF+./SY+학창/NNG+시절/NNG+에/JKB+데뷔/NNG+한지/XSA+EC+오/VV+디다/EC+들/XSN+결혼/NNG+하/XSV+는/ETM+거/NNB+보/VV+니까/EC+우리/NP+도/JX+나이/NNG+들/VV+었/EP+네/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 맞아 키키 지오디 오빠들 거의 다 결혼했을걸?",
+            "norm_text": "맞아 키키 지오디 오빠들 거의 다 결혼했을걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/VV+키지/EC+VX+ETN+VCP+EC+오디/NNG+오빠/NNG+들/XSN+거의/MAG+다/MAG+결혼/NNG+했/XSV+EP+을걸/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 지오디 누구 있었지? 박준형 윤계상 김태우...",
+            "norm_text": "지오디 누구 있었지? 박준형 윤계상 김태우...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지/IC+오디/IC+누구/NP+있/VA+었/EP+지/EF+박준형/NNP+윤계상/NNP+김태우/NNP+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 손호영이랑 데니안 키키 예능에 가끔 나오던데",
+            "norm_text": "손호영이랑 데니안 키키 예능에 가끔 나오던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "손호영/NNP+이랑/JC+데니안/NNP+키키/NNP+예능/NNG+에/JKB+가끔/MAG+나오/VV+던데/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 그래 키키 그 둘은 결혼 안 하나? 했나? 키키",
+            "norm_text": "아 그래 키키 그 둘은 결혼 안 하나? 했나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/XSV+ETN+그/IC+둘/NR+은/JX+결혼/NNG+안/MAG+하/VV+나/EF+했/VV+EP+나/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

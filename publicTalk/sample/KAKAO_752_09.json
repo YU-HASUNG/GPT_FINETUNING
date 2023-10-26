@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 34092,
+    "name": "KAKAO_752_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135037017569/KAKAO_752_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135037017569/KAKAO_752_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37579,
+      "filename": "KAKAO_752_09.txt",
+      "title": "KAKAO_752_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 640,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 640,
+        "word_size": 212,
+        "text": "1 : 고양이 좋아해? 고양이 집사 하고 싶습니다\n2 : 완전 좋아하지 ㅠㅠ 냥형 ㅠㅠ 너무 사랑함\n1 : ㅠㅠ 진짜 너무 귀여워 눈 봤냐고 우주 같아 빨려 들어가\n2 : 조녜지 진짜 ㅠㅠ 그리고 걔들 진짜 똑똑함\n1 : 맞아 키키 고양이들 똑똑해 그래서 더 좋아\n2 : 친구 집 고양이 내가 안 놀아 주니까 낚싯대 들고와서 바닥에 두고 흔들면서 냥냥거림 ㅠㅠ 주먹 울음 ㅠㅠ\n1 : 키키 아 진짜 애기 때부터 데리고 와서 키우고 싶다 키키 겁나 눈에 그려진다\n2 : 그런데 털이 그냥 날아다니던데? 털도 몇 번 먹을 뻔함\n1 : 키키 강아지 털보다 고양이 털이 더 심해 키키\n2 : 엄청 키키 나 친구 집에서 입고 놀았던 옷 빨았는데도 털이 털이… 말도 못 하게 나옴\n1 : 이런 거 보면 반려동물 키우는 것도 진짜 부지런해야 해\n1 : 청소해도 또 털 날릴 거 아냐\n2 : 맞아 키키 그리고 비위 약하면 안 됨 키키\n2 : 내 친구가 냥이들 감자 냄새 장난 아니라고 나 보고는 못 키울 거라더라\n1 : 귀차니즘이 많으면 키키 힘들 거 같다 키키 키우기 키키\n2 : ㄱㄴㄲ 털 정리도 열심히 해 줘야 하고, 컨디션도 늘 신경을 써 줘야 하고\n1 : 애들 매일 온도랑 체크해 줘야 한다더라 아픈지 안 아픈지\n2 : 와우 키키 나는 나 하나 건사하기도 바빠서 못 키울 듯 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 고양이 좋아해? 고양이 집사 하고 싶습니다",
+            "norm_text": "고양이 좋아해? 고양이 집사 하고 싶습니다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고양이/NNG+좋/VA+아/EC+해/VX+EF+고양이/NNG+집사/NNG+하/XSV+고/EC+싶/VX+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 완전 좋아하지 ㅠㅠ 냥형 ㅠㅠ 너무 사랑함",
+            "norm_text": "완전 좋아하지 ㅠㅠ 냥형 ㅠㅠ 너무 사랑함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/MAG+좋/VA+아/EC+하/VV+지/EC+ㅠㅠ/UNKNOWN+냥/NNBC+형/XSN+ㅠㅠ/UNKNOWN+너무/MAG+사랑/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : ㅠㅠ 진짜 너무 귀여워 눈 봤냐고 우주 같아 빨려 들어가",
+            "norm_text": "ㅠㅠ 진짜 너무 귀여워 눈 봤냐고 우주 같아 빨려 들어가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+진짜/MAG+너무/MAG+귀여워/VA+EC+눈/NNG+봤/VV+EP+냐고/EC+우주/NNG+같/VA+아/EC+빨려/VV+EC+들어가/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 조녜지 진짜 ㅠㅠ 그리고 걔들 진짜 똑똑함",
+            "norm_text": "조녜지 진짜 ㅠㅠ 그리고 걔들 진짜 똑똑함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조/NNG+녜/NNG+지/VCP+EF+진짜/MAG+ㅠㅠ/UNKNOWN+그리고/MAJ+걔/NP+들/XSN+진짜/MAG+똑똑/XR+함/XSA+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 키키 고양이들 똑똑해 그래서 더 좋아",
+            "norm_text": "맞아 키키 고양이들 똑똑해 그래서 더 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+고양이/NNG+들/XSN+똑똑/XR+해/XSA+EF+그래서/MAJ+더/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 친구 집 고양이 내가 안 놀아 주니까 낚싯대 들고와서 바닥에 두고 흔들면서 냥냥거림 ㅠㅠ 주먹 울음 ㅠㅠ",
+            "norm_text": "친구 집 고양이 내가 안 놀아 주니까 낚싯대 들고와서 바닥에 두고 흔들면서 냥냥거림 ㅠㅠ 주먹 울음 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "친구/NNG+집고양이/NNG+내/NP+가/JKS+안/MAG+놀/VV+아/EC+주/VX+니까/EC+낚싯대/NNG+들/VV+고/EC+와서/VV+EC+바닥/NNG+에/JKB+두/VV+고/EC+흔들/VV+면서/EC+냥냥/UNKNOWN+거림/XSV+ETN+ㅠㅠ/UNKNOWN+주먹/NNG+울음/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 아 진짜 애기 때부터 데리고 와서 키우고 싶다 키키 겁나 눈에 그려진다",
+            "norm_text": "키키 아 진짜 애기 때부터 데리고 와서 키우고 싶다 키키 겁나 눈에 그려진다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+애기/NNG+때/NNG+부터/JX+데리/VV+고/EC+와서/VV+EC+키우/VV+고/EC+싶/VX+다키키/NNP+겁나/VV+EC+눈/NNG+에/JKB+그려진다/VV+EC+VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그런데 털이 그냥 날아다니던데? 털도 몇 번 먹을 뻔함",
+            "norm_text": "그런데 털이 그냥 날아다니던데? 털도 몇 번 먹을 뻔함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런데/MAJ+털/NNG+이/JKS+그냥/MAG+날아다니/VV+던데/EF+털/NNG+도/JX+몇/MM+번/NNBC+먹/VV+을/ETM+뻔/NNB+함/XSA+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 강아지 털보다 고양이 털이 더 심해 키키",
+            "norm_text": "키키 강아지 털보다 고양이 털이 더 심해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+강아지/NNG+털/NNG+보다/JKB+고양이/NNG+털/NNG+이/JKS+더/MAG+심해/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 엄청 키키 나 친구 집에서 입고 놀았던 옷 빨았는데도 털이 털이… 말도 못 하게 나옴",
+            "norm_text": "엄청 키키 나 친구 집에서 입고 놀았던 옷 빨았는데도 털이 털이… 말도 못 하게 나옴",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄청/MAG+키/NNG+키나/XSA+ETN+JX+친구/NNG+집/NNG+에서/JKB+입/VV+고/EC+놀/VV+았/EP+던/ETM+옷/NNG+빨/VV+았/EP+는데/EC+도/JX+털/NNG+이/JKS+털/NNG+이/JKS+…/SE+말/NNG+도/JX+못하/VX+게/EC+나옴/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 이런 거 보면 반려동물 키우는 것도 진짜 부지런해야 해",
+            "norm_text": "이런 거 보면 반려동물 키우는 것도 진짜 부지런해야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이런/MM+거/NNB+보/VV+면/EC+반려/NNG+동물/NNG+키우/VV+는/ETM+것/NNB+도/JX+진짜/MAG+부지런/NNG+해야/XSV+EC+해/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 청소해도 또 털 날릴 거 아냐",
+            "norm_text": "청소해도 또 털 날릴 거 아냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "청소/NNG+해도/XSV+EC+또/MAG+털/NNG+날릴/VV+ETM+거/NNB+아냐/VCN+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 맞아 키키 그리고 비위 약하면 안 됨 키키",
+            "norm_text": "맞아 키키 그리고 비위 약하면 안 됨 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+그리고/MAJ+비/XPN+위약/NNG+하/XSV+면/EC+안/MAG+됨/VV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 내 친구가 냥이들 감자 냄새 장난 아니라고 나 보고는 못 키울 거라더라",
+            "norm_text": "내 친구가 냥이들 감자 냄새 장난 아니라고 나 보고는 못 키울 거라더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+가/JKS+냥/NNBC+이/NP+들/XSN+감자/NNG+냄새/NNG+장난/NNG+아니/VCN+라고/EC+나/NP+보고/JKB+는/JX+못/MAG+키울/VV+ETM+거/NNB+라더라/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 귀차니즘이 많으면 키키 힘들 거 같다 키키 키우기 키키",
+            "norm_text": "귀차니즘이 많으면 키키 힘들 거 같다 키키 키우기 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "귀차/NNG+니즘/NNG+이/JKS+많/VA+으면/EC+키/NNG+키/XSV+ETN+힘들/VA+ETM+거/NNB+같/VA+다키키/NNP+키우/VV+기/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : ㄱㄴㄲ 털 정리도 열심히 해 줘야 하고, 컨디션도 늘 신경을 써 줘야 하고",
+            "norm_text": "ㄱㄴㄲ 털 정리도 열심히 해 줘야 하고, 컨디션도 늘 신경을 써 줘야 하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㄱ/NNG+ㄴ/NNG+ㄲ털/UNKNOWN+정리/NNG+도/JX+열심히/MAG+해/VV+EC+줘야/VX+EC+하/VV+고/EC+,/SC+컨디션/NNG+도/JX+늘/MAG+신경/NNG+을/JKO+써/VV+EC+줘야/VX+EC+하/VV+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 애들 매일 온도랑 체크해 줘야 한다더라 아픈지 안 아픈지",
+            "norm_text": "애들 매일 온도랑 체크해 줘야 한다더라 아픈지 안 아픈지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애/NNG+들/XSN+매일/MAG+온도/NNG+랑/JKB+체크/NNG+해/XSV+EC+줘야/VX+EC+한다더라/VV+EC+아픈지/VA+EC+안/MAG+아픈지/VA+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 와우 키키 나는 나 하나 건사하기도 바빠서 못 키울 듯 키키",
+            "norm_text": "와우 키키 나는 나 하나 건사하기도 바빠서 못 키울 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와우/IC+키/NNG+키나/XSA+ETN+JX+는/JX+나/NP+하나/NR+건사/NNG+하/XSV+기/ETN+도/JX+바빠서/VA+EC+못/MAG+키울/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

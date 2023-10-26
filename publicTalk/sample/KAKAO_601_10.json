@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 24920,
+    "name": "KAKAO_601_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135525095043/KAKAO_601_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135525095043/KAKAO_601_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30463,
+      "filename": "KAKAO_601_10.txt",
+      "title": "KAKAO_601_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 789,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 789,
+        "word_size": 237,
+        "text": "1 : 맞아 엄청 보고 싶어 다음에 가면 같이 산책도 많이 해야지 하하 언니 좋아하는 운동 있어?\n2 : 나는 헬스는 좀 안 맞는 거 같고 하하 구기종목이나 격투기...? 이런 거 좋아하는 거 같아 키키\n1 : 오 나는 헬스 좋아 웨이트!\n1 : 친언니가 테니스 해서 배워보고 싶었는데 어려워 보이더라구 ㅠㅠ\n2 : 헬스 잘 맞는 사람들은 진짜 좋아하더라 키키\n2 : 나는 혼자 하는 운동보다 같이 하는 게 좋은가 봐 하하 테니스! 요즘 많이 배우더라\n1 : 그치 배구도 많이 배우더라고 하하 고등학교 때 수업 시간에 수행 평가로 했는데 어려웠어\n2 : 나 중학교 때 아이스크림 사줘서 배구부 했었는데 키키 실력은 없었어...^^\n1 : 와 그거 팔뚝 진짜 아프잖아 몇 개 이상 튕기기 이런 거 했었어 ㅠㅠ\n2 : 맞아 키키 재밌기는 재밌는데 잘 하지를 못하겠어\n1 : 키키 그러고 보니 올 여름에 수영을 못 다녔네 ㅠㅠ\n2 : 너 수영 잘하지? ㅠㅠ 나는 물에만 뜨는데 키키\n1 : 언니 나도 아예 수영 못해 가지고 아빠가 배우라고 해서 성인 돼서 배웠는데 초급반부터 시작해서 상급반까지 갔어 키키\n2 : 와 멋있다... 상급반이라니... 나도 수영도 배워보고 싶다 하하 멋있게 자유영 하고... 접영 하고...\n1 : ㅠㅠ 허리가 안 좋아서 접영은 금지 당했는데 오리발 끼고 하면 재밌어 하하\n2 : 우와 오리발 끼고 하는 수준이면 진짜 잘 하나보다! 멋져!\n1 : 하하 어느 정도 반 올라가면 오리발 준비 해 오라고 하거든 완전 슝슝 나가 ㅠㅠ\n2 : 오 오리발... 나도 나중에 배워서 오리발 착용하고 수영해보고 싶다... 새로울 듯",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 맞아 엄청 보고 싶어 다음에 가면 같이 산책도 많이 해야지 하하 언니 좋아하는 운동 있어?",
+            "norm_text": "맞아 엄청 보고 싶어 다음에 가면 같이 산책도 많이 해야지 하하 언니 좋아하는 운동 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+엄청/MAG+보/VV+고/EC+싶/VX+어/EC+다음/NNG+에/JKB+가/VV+면/EC+같이/MAG+산책/NNG+도/JX+많이/MAG+해야지/VV+EC+하하/MAG+언니/NNG+좋/VA+아/EC+하/VV+는/ETM+운동/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 헬스는 좀 안 맞는 거 같고 하하 구기종목이나 격투기...? 이런 거 좋아하는 거 같아 키키",
+            "norm_text": "나는 헬스는 좀 안 맞는 거 같고 하하 구기종목이나 격투기...? 이런 거 좋아하는 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+헬스/NNG+는/JX+좀/MAG+안/MAG+맞/VV+는/ETM+거/NNB+같/VA+고/EC+하하/MAG+구기/NNG+종목/NNG+이나/JC+격투기/NNG+./SY+./SY+이런/MM+거/NNB+좋/VA+아/EC+하/VV+는/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 나는 헬스 좋아 웨이트!",
+            "norm_text": "오 나는 헬스 좋아 웨이트!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+나/NP+는/JX+헬스/NNG+좋/VA+아/EC+웨이트/NNG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 친언니가 테니스 해서 배워보고 싶었는데 어려워 보이더라구 ㅠㅠ",
+            "norm_text": "친언니가 테니스 해서 배워보고 싶었는데 어려워 보이더라구 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "친언니/NNG+가/JKS+테니스/NNG+해서/XSV+EC+배워/VV+EC+보/VX+고/EC+싶/VX+었/EP+는데/EC+어려워/VA+EC+보이/VV+더라구/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 헬스 잘 맞는 사람들은 진짜 좋아하더라 키키",
+            "norm_text": "헬스 잘 맞는 사람들은 진짜 좋아하더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헬스/NNG+잘/MAG+맞/VV+는/ETM+사람/NNG+들/XSN+은/JX+진짜/MAG+좋/VA+아/EC+하/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 혼자 하는 운동보다 같이 하는 게 좋은가 봐 하하 테니스! 요즘 많이 배우더라",
+            "norm_text": "나는 혼자 하는 운동보다 같이 하는 게 좋은가 봐 하하 테니스! 요즘 많이 배우더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+혼자/NNG+하/XSV+는/ETM+운동/NNG+보다/JKB+같이/MAG+하/VV+는/ETM+게/NNB+JKS+좋/VA+은가/EC+봐/VX+EF+하하/MAG+테니스/NNG+요즘/MAG+많이/MAG+배우/VV+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그치 배구도 많이 배우더라고 하하 고등학교 때 수업 시간에 수행 평가로 했는데 어려웠어",
+            "norm_text": "그치 배구도 많이 배우더라고 하하 고등학교 때 수업 시간에 수행 평가로 했는데 어려웠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+배구/NNG+도/JX+많이/MAG+배우/VV+더라고/EC+하하/MAG+고등/NNG+학교/NNG+때/NNG+수업/NNG+시간/NNG+에/JKB+수행/NNG+평가/NNG+로/JKB+했/VV+EP+는데/EC+어려웠/VA+EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나 중학교 때 아이스크림 사줘서 배구부 했었는데 키키 실력은 없었어...^^",
+            "norm_text": "나 중학교 때 아이스크림 사줘서 배구부 했었는데 키키 실력은 없었어...^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나중/NNG+학교/NNG+때/NNG+아이스크림/NNG+사/VV+EC+줘서/VX+EC+배/NNG+구부/NNG+했었/XSV+EP+는데/EC+키/NNG+키/NNG+실력/NNG+은/JX+없/VA+었/EP+어/EF+./SY+^/SY+^/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 와 그거 팔뚝 진짜 아프잖아 몇 개 이상 튕기기 이런 거 했었어 ㅠㅠ",
+            "norm_text": "와 그거 팔뚝 진짜 아프잖아 몇 개 이상 튕기기 이런 거 했었어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+그거/NP+팔뚝/NNG+진짜/MAG+아프/VA+잖아/EC+몇/MM+개/NNBC+이상/NNG+튕기/VV+기/ETN+이런/MM+거/NNB+했었/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 키키 재밌기는 재밌는데 잘 하지를 못하겠어",
+            "norm_text": "맞아 키키 재밌기는 재밌는데 잘 하지를 못하겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+재밌/VA+기/ETN+는/JX+재밌/VA+는데/EC+잘/MAG+하/VV+지/EC+를/JX+못하/VX+겠/EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 그러고 보니 올 여름에 수영을 못 다녔네 ㅠㅠ",
+            "norm_text": "키키 그러고 보니 올 여름에 수영을 못 다녔네 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+고/EC+보/VX+니/EC+올/MM+여름/NNG+에/JKB+수영/NNG+을/JKO+못/MAG+다녔/VV+EP+네/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너 수영 잘하지? ㅠㅠ 나는 물에만 뜨는데 키키",
+            "norm_text": "너 수영 잘하지? ㅠㅠ 나는 물에만 뜨는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+수영/NNG+잘/MAG+하/VV+지/EF+ㅠㅠ/UNKNOWN+나는물/NNG+에/JKB+만/JX+뜨/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 언니 나도 아예 수영 못해 가지고 아빠가 배우라고 해서 성인 돼서 배웠는데 초급반부터 시작해서 상급반까지 갔어 키키",
+            "norm_text": "언니 나도 아예 수영 못해 가지고 아빠가 배우라고 해서 성인 돼서 배웠는데 초급반부터 시작해서 상급반까지 갔어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "언니/NNG+나/NP+도/JX+아예/MAG+수영/NNG+못/MAG+해/VV+EC+가지/VX+고/EC+아빠/NNG+가/JKS+배우/VV+라고/EC+해서/VV+EC+성인/NNG+돼서/XSV+EC+배웠/VV+EP+는데/EC+초급반/NNG+부터/JX+시작/NNG+해서/XSV+EC+상급반/NNG+까지/JX+갔/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 와 멋있다... 상급반이라니... 나도 수영도 배워보고 싶다 하하 멋있게 자유영 하고... 접영 하고...",
+            "norm_text": "와 멋있다... 상급반이라니... 나도 수영도 배워보고 싶다 하하 멋있게 자유영 하고... 접영 하고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+멋있/VA+다/EF+./SY+상급반/NNG+이/VCP+라니/EF+./SY+나/NP+도/JX+수영/NNG+도/JX+배워/VV+EC+보/VX+고/EC+싶/VX+다/EC+하하/MAG+멋있/VA+게/EC+자유영/NNG+하/XSV+고/EC+./SY+./SY+접영/NNG+하/XSV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : ㅠㅠ 허리가 안 좋아서 접영은 금지 당했는데 오리발 끼고 하면 재밌어 하하",
+            "norm_text": "ㅠㅠ 허리가 안 좋아서 접영은 금지 당했는데 오리발 끼고 하면 재밌어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+허리/NNG+가/JKS+안/MAG+좋/VA+아서/EC+접영/NNG+은/JX+금지/NNG+당했/XSV+EP+는데/EC+오리발/NNG+끼/VV+고/EC+하/VV+면/EC+재밌/VA+어/EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 우와 오리발 끼고 하는 수준이면 진짜 잘 하나보다! 멋져!",
+            "norm_text": "우와 오리발 끼고 하는 수준이면 진짜 잘 하나보다! 멋져!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+오리발/NNG+끼/VV+고/EC+하/VV+는/ETM+수준/NNG+이/VCP+면/EC+진짜/MAG+잘/MAG+하나/NR+보/VV+다/EF+멋져/VA+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 하하 어느 정도 반 올라가면 오리발 준비 해 오라고 하거든 완전 슝슝 나가 ㅠㅠ",
+            "norm_text": "하하 어느 정도 반 올라가면 오리발 준비 해 오라고 하거든 완전 슝슝 나가 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+어느/MM+정도/NNG+반/NNG+올라가/VV+면/EC+오리발/NNG+준비/NNG+해/XSV+EC+오/VV+라고/EC+하/VX+거든/EF+완전/MAG+슝/MAG+슝/MAG+나가/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 오 오리발... 나도 나중에 배워서 오리발 착용하고 수영해보고 싶다... 새로울 듯",
+            "norm_text": "오 오리발... 나도 나중에 배워서 오리발 착용하고 수영해보고 싶다... 새로울 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+오/NR+리발/NNG+./SY+./SY+나/NP+도/JX+나중/NNG+에/JKB+배워서/VV+EC+오리발/NNG+착용/NNG+하/XSV+고/EC+수영/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+다/EF+./SY+새로울/VA+ETM+듯/NNB"
+          }
+        ]
+      }
+    }
+  ]
+}

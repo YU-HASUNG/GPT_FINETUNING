@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 71635,
+    "name": "KAKAO_748_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134506082156/KAKAO_748_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134506082156/KAKAO_748_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37353,
+      "filename": "KAKAO_748_03.txt",
+      "title": "KAKAO_748_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 578,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 578,
+        "word_size": 181,
+        "text": "1 : 너 전기차 타본 적 있어?\n2 : 응 키키 택시 탔는데 니로 전기차였어\n1 : 오오... 어떤데? 실제로 조용하더나? 하하\n2 : 응! 뭐 크게 다를까 생각했었는데 진짜 조용하고 엔진 소리가 다르더라구\n1 : 가끔 걸어가다가 전기차 뒤에서 오고 있으면 차 오고 있는 줄도 모르겠더라고...\n2 : 키키 그치? 나도 회사에서 전기차 보면 한 번씩 그래 키키\n1 : 전기차는 충전기 있는 곳에 사는 사람만 탈 수 있는 거제? ㅜ\n2 : 아니 뭐 꼭 그런 건 아닌데 전기차 충전소가 집에서 가까워야 본인이 덜 불편하지 키키\n1 : 아아! 가끔 동네 지나가다 보면 밤새 충전기 막 꽂혀있는 집이 있더라고 키키\n1 : 밤새 충전 해야 하는 줄 알았지 키키\n2 : 키키 장거리 운전하려고 풀 충전 했나 보다\n1 : 키키 전기차 충전소도 주유소처럼 많이 있어?\n2 : 아니 우리나라엔 아직 많이 없어 그래서 아직까진 많이 불편해\n1 : 아 그렇구만 ㅜㅜ 그래도 요즘 전기차는 많이 나오고 있는 거 같던데...\n2 : 응 키키 나도 새 차 사면 하이브리드로 사고 싶어\n1 : 오오! 차 바꿀 계획이 있는 거야?\n2 : 아직은 없지만 3년 뒤에 가능하지 않을까 싶어 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 전기차 타본 적 있어?",
+            "norm_text": "너 전기차 타본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+전기/NNG+차타/NNG+본/VV+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 키키 택시 탔는데 니로 전기차였어",
+            "norm_text": "응 키키 택시 탔는데 니로 전기차였어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+택시/NNG+탔/VV+EP+는데/EC+니/NP+로/JKB+전기/NNG+차였/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오오... 어떤데? 실제로 조용하더나? 하하",
+            "norm_text": "오오... 어떤데? 실제로 조용하더나? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+./SY+어떤데/VA+EC+실제로/MAG+조용/XR+하/XSA+더나/EF+하하/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응! 뭐 크게 다를까 생각했었는데 진짜 조용하고 엔진 소리가 다르더라구",
+            "norm_text": "응! 뭐 크게 다를까 생각했었는데 진짜 조용하고 엔진 소리가 다르더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+뭐/IC+크/VA+게/EC+다를까/VA+EC+생각/NNG+했었/XSV+EP+는데/EC+진짜/MAG+조용/XR+하/XSA+고/EC+엔진/NNG+소리/NNG+가/JKS+다르/VA+더라구/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 가끔 걸어가다가 전기차 뒤에서 오고 있으면 차 오고 있는 줄도 모르겠더라고...",
+            "norm_text": "가끔 걸어가다가 전기차 뒤에서 오고 있으면 차 오고 있는 줄도 모르겠더라고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가끔/MAG+걸어가/VV+다가/EC+전기차/NNP+뒤/NNG+에서/JKB+오/VV+고/EC+있/VX+으면/EC+차/NNG+오/VV+고/EC+있/VX+는/ETM+줄/NNB+도/JX+모르/VV+겠/EP+더라고/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 그치? 나도 회사에서 전기차 보면 한 번씩 그래 키키",
+            "norm_text": "키키 그치? 나도 회사에서 전기차 보면 한 번씩 그래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치/IC+나/NP+도/JX+회사/NNG+에서/JKB+전기차/NNP+보/VV+면/EC+한/MM+번/NNBC+씩/XSN+그래/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 전기차는 충전기 있는 곳에 사는 사람만 탈 수 있는 거제? ㅜ",
+            "norm_text": "전기차는 충전기 있는 곳에 사는 사람만 탈 수 있는 거제? ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "전기차/NNP+는/JX+충전기/NNG+있/VA+는/ETM+곳/NNG+에/JKB+사/VV+는/ETM+사람/NNG+만/JX+탈/VV+ETM+수/NNB+있/VV+는/ETM+거/NNB+제/VCP+EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니 뭐 꼭 그런 건 아닌데 전기차 충전소가 집에서 가까워야 본인이 덜 불편하지 키키",
+            "norm_text": "아니 뭐 꼭 그런 건 아닌데 전기차 충전소가 집에서 가까워야 본인이 덜 불편하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+뭐/IC+꼭/MAG+그런/MM+건/NNB+JX+아닌데/VCN+EC+전기차/NNP+충전/NNG+소/NNG+가/JKS+집/NNG+에서/JKB+가까워야/VA+EC+본인/NNG+이/JKS+덜/MAG+불편/NNG+하/XSV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아아! 가끔 동네 지나가다 보면 밤새 충전기 막 꽂혀있는 집이 있더라고 키키",
+            "norm_text": "아아! 가끔 동네 지나가다 보면 밤새 충전기 막 꽂혀있는 집이 있더라고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+가끔동네지나가다보면밤새충전기막꽂혀있는집이있더라고키키/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 밤새 충전 해야 하는 줄 알았지 키키",
+            "norm_text": "밤새 충전 해야 하는 줄 알았지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밤새/NNG+충전/NNG+해야/XSV+EC+하/VV+는/ETM+줄/NNB+알/VV+았/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 장거리 운전하려고 풀 충전 했나 보다",
+            "norm_text": "키키 장거리 운전하려고 풀 충전 했나 보다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+장거리/NNG+운전/NNG+하/XSV+려고/EC+풀/VV+ETM+충전/NNG+했/XSV+EP+나/NP+보다/JKB"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 전기차 충전소도 주유소처럼 많이 있어?",
+            "norm_text": "키키 전기차 충전소도 주유소처럼 많이 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+전기차/NNP+충전/NNG+소도/NNG+주유소/NNG+처럼/JKB+많이/MAG+있/VA+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니 우리나라엔 아직 많이 없어 그래서 아직까진 많이 불편해",
+            "norm_text": "아니 우리나라엔 아직 많이 없어 그래서 아직까진 많이 불편해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+우리/NP+나라/NNG+엔/JKB+JX+아직/MAG+많이/MAG+없/VA+어/EF+그래서/MAJ+아직/MAG+까진/JX+JX+많이/MAG+불편/NNG+해/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 그렇구만 ㅜㅜ 그래도 요즘 전기차는 많이 나오고 있는 거 같던데...",
+            "norm_text": "아 그렇구만 ㅜㅜ 그래도 요즘 전기차는 많이 나오고 있는 거 같던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇/VA+구/EC+만/JX+ㅜㅜ/UNKNOWN+그래도/MAJ+요즘/MAG+전기차/NNP+는/JX+많이/MAG+나오/VV+고/EC+있/VX+는/ETM+거/NNB+같/VA+던데/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 키키 나도 새 차 사면 하이브리드로 사고 싶어",
+            "norm_text": "응 키키 나도 새 차 사면 하이브리드로 사고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키나/XSA+ETN+JX+도/JX+새/MM+차/NNG+사면/NNG+하이브리드/NNG+로/JKB+사/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오오! 차 바꿀 계획이 있는 거야?",
+            "norm_text": "오오! 차 바꿀 계획이 있는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+차/NNG+바꿀/VV+ETM+계획/NNG+이/JKS+있/VA+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아직은 없지만 3년 뒤에 가능하지 않을까 싶어 키키",
+            "norm_text": "아직은 없지만 3년 뒤에 가능하지 않을까 싶어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+은/JX+없/VA+지만/EC+3/SN+년/NNBC+뒤/NNG+에/JKB+가능/NNG+하/XSV+지/EC+않/VX+을까/EC+싶/VX+어/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

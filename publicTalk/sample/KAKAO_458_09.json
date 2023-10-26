@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 20258,
+    "name": "KAKAO_458_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140743025663/KAKAO_458_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140743025663/KAKAO_458_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27999,
+      "filename": "KAKAO_458_09.txt",
+      "title": "KAKAO_458_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 539,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 539,
+        "word_size": 165,
+        "text": "1 : 내일 뭐 해? 바빠?\n2 : 아니 나 안 바쁘지 왱?\n1 : 내일 너만 괜찮으면 우리 강아지 데리고 애견카페 갈래?\n2 : 갑자기 웬 애견카페를 가자고 하실까\n1 : 어제 산책시키다 아랫집 언니를 만났는데 주말에 애견카페 갔는데 강아지가 엄청 좋아했대ㅠㅠ\n2 : 애견카페에 강아지들이 할 게 머가있어?\n1 : 나도 몰랐는데 애견카페에 강아지 운동장도 있고, 강아지 수영장도 있대 키키 대박이지\n2 : 오오~ 강아지들 천국이겠네 완전\n1 : 응응 난 데리고 가본 적이 없어서 강아지한테 미안했는데 이번 기회에 데려가 보고 싶어서ㅠㅠ\n2 : 강아지가 진짜 좋아하겠네~\n2 : 근데 너희 집 강아지 수영 할 줄 알아?\n1 : 시켜본 적이 없어 키키\n1 : 근데 거기 가면 강아지 수영 강사가 따로 있어서 그 분이 알려주신대\n2 : 오오 진짜 좋네~ 너희 집에선 가까워?\n1 : 아니 우리 집에서 멀어ㅠㅠ\n1 : 그래서 너한테 부탁하는 거잖아…\n2 : 그래 그래 구럼 내가 너희 집 앞으로 데리러 갈 테니깐 같이가자~\n1 : 고마워ㅠㅠ 내일 내가 커피 살게!\n2 : 커피 좋지~ 그럼 내일 봐용~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 내일 뭐 해? 바빠?",
+            "norm_text": "내일 뭐 해? 바빠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내일/MAG+뭐/IC+해/VV+EF+바빠/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 나 안 바쁘지 왱?",
+            "norm_text": "아니 나 안 바쁘지 왱?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+나/NP+안/MAG+바쁘/VA+지/EF+왱/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 내일 너만 괜찮으면 우리 강아지 데리고 애견카페 갈래?",
+            "norm_text": "내일 너만 괜찮으면 우리 강아지 데리고 애견카페 갈래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "내일/MAG+너/NP+만/JX+괜찮/VA+으면/EC+우리/NP+강아지/NNG+데리/VV+고/EC+애견/NNG+카페/NNG+갈래/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 갑자기 웬 애견카페를 가자고 하실까",
+            "norm_text": "갑자기 웬 애견카페를 가자고 하실까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "갑자기/MAG+웬/MM+애견/NNG+카페/NNG+를/JKO+가/VV+자고/EC+하/VX+실까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어제 산책시키다 아랫집 언니를 만났는데 주말에 애견카페 갔는데 강아지가 엄청 좋아했대ㅠㅠ",
+            "norm_text": "어제 산책시키다 아랫집 언니를 만났는데 주말에 애견카페 갔는데 강아지가 엄청 좋아했대ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+산책/NNG+시키/XSV+다/EC+아랫집/NNG+언니/NNG+를/JKO+만났/VV+EP+는데/EC+주말/NNG+에/JKB+애견/NNG+카페/NNG+갔/VV+EP+는데/EC+강아지/NNG+가/JKS+엄청/MAG+좋/VA+아/EC+했/VX+EP+대/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 애견카페에 강아지들이 할 게 머가있어?",
+            "norm_text": "애견카페에 강아지들이 할 게 머가있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "애견/NNG+카페/NNG+에/JKB+강아지/NNG+들/XSN+이/JKS+할/VV+ETM+게/NNB+JKS+머/NP+가/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나도 몰랐는데 애견카페에 강아지 운동장도 있고, 강아지 수영장도 있대 키키 대박이지",
+            "norm_text": "나도 몰랐는데 애견카페에 강아지 운동장도 있고, 강아지 수영장도 있대 키키 대박이지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+몰랐/VV+EP+는데/EC+애견/NNG+카페/NNG+에/JKB+강아지/NNG+운동장/NNG+도/JX+있/VA+고/EC+,/SC+강아지/NNG+수영장/NNG+도/JX+있/VA+대/EF+키키/NNP+대박/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오오~ 강아지들 천국이겠네 완전",
+            "norm_text": "오오~ 강아지들 천국이겠네 완전",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/NNG+~/SY+강아지/NNG+들/XSN+천국/NNG+이/VCP+겠/EP+네/EF+완전/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응응 난 데리고 가본 적이 없어서 강아지한테 미안했는데 이번 기회에 데려가 보고 싶어서ㅠㅠ",
+            "norm_text": "응응 난 데리고 가본 적이 없어서 강아지한테 미안했는데 이번 기회에 데려가 보고 싶어서ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+난/NP+JX+데리/VV+고/EC+가본적/NNG+이/JKS+없/VA+어서/EC+강아지/NNG+한테/JKB+미안/NNG+했/XSV+EP+는데/EC+이번/NNG+기회/NNG+에/JKB+데려가/VV+EC+보/VX+고/EC+싶/VX+어서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 강아지가 진짜 좋아하겠네~",
+            "norm_text": "강아지가 진짜 좋아하겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+가/JKS+진짜/MAG+좋/VA+아/EC+하/VX+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 근데 너희 집 강아지 수영 할 줄 알아?",
+            "norm_text": "근데 너희 집 강아지 수영 할 줄 알아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+너희/NP+집/NNG+강아지/NNG+수영/NNG+할/XSV+ETM+줄/NNB+알/VV+아/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 시켜본 적이 없어 키키",
+            "norm_text": "시켜본 적이 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시켜/VV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 거기 가면 강아지 수영 강사가 따로 있어서 그 분이 알려주신대",
+            "norm_text": "근데 거기 가면 강아지 수영 강사가 따로 있어서 그 분이 알려주신대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+거기/NP+가/JKS+면/NNG+강아지/NNG+수영/NNG+강사/NNG+가/JKS+따로/MAG+있/VV+어서/EC+그분/NP+이/JKS+알려/VV+EC+주/VX+신대/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오오 진짜 좋네~ 너희 집에선 가까워?",
+            "norm_text": "오오 진짜 좋네~ 너희 집에선 가까워?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+진짜/MAG+좋/VA+네/EF+~/SY+너희/NP+집/NNG+에선/JKB+JX+가까워/VA+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니 우리 집에서 멀어ㅠㅠ",
+            "norm_text": "아니 우리 집에서 멀어ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+우리/NP+집/NNG+에서/JKB+멀/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그래서 너한테 부탁하는 거잖아…",
+            "norm_text": "그래서 너한테 부탁하는 거잖아…",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+너/NP+한테/JKB+부탁/NNG+하/XSV+는/ETM+거/NNB+잖아/VCP+EC+VX+EC+…/SE"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래 그래 구럼 내가 너희 집 앞으로 데리러 갈 테니깐 같이가자~",
+            "norm_text": "그래 그래 구럼 내가 너희 집 앞으로 데리러 갈 테니깐 같이가자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래그래/IC+구/NR+럼/NNBC+내/NP+가/JKS+너희/NP+집/NNG+앞/NNG+으로/JKB+데리/VV+러/EC+갈테/VV+ETM+NNB+VCP+니깐/EC+같이/MAG+가/VV+자/EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 고마워ㅠㅠ 내일 내가 커피 살게!",
+            "norm_text": "고마워ㅠㅠ 내일 내가 커피 살게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고마워/VA+EC+ㅠㅠ/UNKNOWN+내일/MAG+내/NP+가/JKS+커피/NNG+살게/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 커피 좋지~ 그럼 내일 봐용~",
+            "norm_text": "커피 좋지~ 그럼 내일 봐용~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "커피/NNG+좋/VA+지/EC+~/SY+그럼/MAJ+내일/MAG+봐/VV+EC+용/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

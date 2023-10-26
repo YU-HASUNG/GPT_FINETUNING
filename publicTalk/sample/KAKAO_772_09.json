@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "identifier": 40040,
+    "name": "KAKAO_772_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301503400746110/KAKAO_772_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301503400746110/KAKAO_772_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38260,
+      "filename": "KAKAO_772_09.txt",
+      "title": "KAKAO_772_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 786,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 786,
+        "word_size": 257,
+        "text": "1 : 나 어릴 때 별의 별 동물 다 데려와서 키웠었다\n2 : 뭐 키웠었어? 궁금궁금\n1 : 나 병아리 햄스터 금붕어 열대어 근데 젤 오래 키운 건 열대어야\n2 : 오오 난 물고기(?) 한 번도 안 키워봤어 키키\n2 : 병아리 햄스터  모두 안 키워봤어 병아리도 햄스터도 무셔\n1 : 오오 진짜?\n1 : 신기하다 난 문방구에서 하도 동물 많이 데려와서 그랬던 것 같기도\n2 : 난 어렸을 때  동생이 병아리를 데려왔는데 두고 어디 간거야...\n2 : 근데 방에서 삐약삐약 계속 그러는 게 너무 무서워서 엄마 친구 아들 불러서 치웠어 키키\n1 : 엄친아? 키키\n1 : 넘 귀엽다 너도 귀엽고 부른다고 와준 애도 귀여워\n2 : 우리랑 같은 고 나왔으 키키\n2 : 지금은 1도 아는 척 안하지만\n1 : 키키 몰랐네 같은 고였다니 궁금하네\n1 : 근데 내가 키웠던 반려동물 중에 진짜 난이도 최하가 열대어였던 것 같애\n2 : 열대어 작고 소중해 하하\n2 : 글지만 나는 못 키울 거 같어 ㅜㅋ\n1 : 왜? 열대어 먹이 안 줘도 햇빛에 내놓으면 이끼 먹고도 살아\n1 : 진짜 최강 생명력\n2 : 아 진짜? 신기하다 키키\n2 : 내가 키움 다 죽을 것 같아서 키키\n2 : 갑자기 생각났다 씨몽키 키키\n1 : 키키 대박 이번에 유튜브에 씨몽키 떴었는데 그거 플랑크톤 같은 거라며\n2 : 왜  난 지금까지 새우인 줄 알았지? 키키\n2 : 어렸을 때 그거 물에다가 비듬?같은 거 뿌리면 갑자기 태어나서 움직여\n1 : 아 그게 꼬리가 길어서 바다 원숭이라 한 거래 신기하긴 하더라\n2 : 오오 키키 신기하다 키키\n2 : 그거 최근에 다이소에서 파는 거 봤는데 같이 고고?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 어릴 때 별의 별 동물 다 데려와서 키웠었다",
+            "norm_text": "나 어릴 때 별의 별 동물 다 데려와서 키웠었다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+어릴/VA+ETM+때/NNG+별의별/MM+동물/NNG+다/MAG+데려와서/VV+EC+키웠었/VV+EP+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 뭐 키웠었어? 궁금궁금",
+            "norm_text": "뭐 키웠었어? 궁금궁금",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+키웠었/VV+EP+어/EF+궁금/XR+궁금/XR"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 병아리 햄스터 금붕어 열대어 근데 젤 오래 키운 건 열대어야",
+            "norm_text": "나 병아리 햄스터 금붕어 열대어 근데 젤 오래 키운 건 열대어야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+병아리/NNG+햄스터/NNG+금붕어/NNG+열/NR+대/NNBC+어/IC+근데/MAJ+젤/MAG+오래/MAG+키운/VV+ETM+건/NNB+JX+열/NR+대/NNBC+어야/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오오 난 물고기(?) 한 번도 안 키워봤어 키키",
+            "norm_text": "오오 난 물고기(?) 한 번도 안 키워봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오오/IC+난/NP+JX+물고기/NNG+?/SY+한/MM+번/NNBC+도/JX+안/MAG+키워/VV+EC+봤/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 병아리 햄스터  모두 안 키워봤어 병아리도 햄스터도 무셔",
+            "norm_text": "병아리 햄스터  모두 안 키워봤어 병아리도 햄스터도 무셔",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병아리/NNG+햄스터/NNG+모두/MAG+안/MAG+키워/VV+EC+봤/VX+EP+어/EC+병아리/NNG+도/JX+햄스터/NNG+도/JX+무/XPN+셔/NNG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오오 진짜?",
+            "norm_text": "오오 진짜?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+진짜/MAG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 신기하다 난 문방구에서 하도 동물 많이 데려와서 그랬던 것 같기도",
+            "norm_text": "신기하다 난 문방구에서 하도 동물 많이 데려와서 그랬던 것 같기도",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "신기/XR+하/XSA+다/EC+난/VX+ETM+문방구/NNG+에서/JKB+하도/MAG+동물/NNG+많이/MAG+데려와서/VV+EC+그랬/VV+EP+던/ETM+것/NNB+같/VA+기/ETN+도/JX"
+          },
+          {
+            "id": 8,
+            "text": "2 : 난 어렸을 때  동생이 병아리를 데려왔는데 두고 어디 간거야...",
+            "norm_text": "난 어렸을 때  동생이 병아리를 데려왔는데 두고 어디 간거야...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+어렸/VA+EP+을/ETM+때/NNG+동생/NNG+이/JKS+병아리/NNG+를/JKO+데려왔/VV+EP+는데/EC+두/VX+고/EC+어디/NP+간/VV+ETM+거/NNB+야/VCP+EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 근데 방에서 삐약삐약 계속 그러는 게 너무 무서워서 엄마 친구 아들 불러서 치웠어 키키",
+            "norm_text": "근데 방에서 삐약삐약 계속 그러는 게 너무 무서워서 엄마 친구 아들 불러서 치웠어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+방/NNG+에서/JKB+삐약삐약/MAG+계속/MAG+그러/VV+는/ETM+게/NNB+JKS+너무/MAG+무서워서/VA+EC+엄마/NNG+친구/NNG+아들/NNG+불러서/VV+EC+치웠/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 엄친아? 키키",
+            "norm_text": "엄친아? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄친아/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 넘 귀엽다 너도 귀엽고 부른다고 와준 애도 귀여워",
+            "norm_text": "넘 귀엽다 너도 귀엽고 부른다고 와준 애도 귀여워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넘/MAG+귀엽/VA+다/EF+너/NP+도/JX+귀엽/VA+고/EC+부른다고/VV+EC+와준/VV+EC+VX+ETM+애/NNG+도/JX+귀여워/VA+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 우리랑 같은 고 나왔으 키키",
+            "norm_text": "우리랑 같은 고 나왔으 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+랑/JKB+같/VA+은고/EC+나왔/VV+EP+으/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 지금은 1도 아는 척 안하지만",
+            "norm_text": "지금은 1도 아는 척 안하지만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+1/SN+도아/NNG+는/JX+척안/NNG+하/XSV+지만/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 몰랐네 같은 고였다니 궁금하네",
+            "norm_text": "키키 몰랐네 같은 고였다니 궁금하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+몰랐/VV+EP+네/EF+같/VA+은/ETM+고였/VV+EP+다니/EC+궁금/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 내가 키웠던 반려동물 중에 진짜 난이도 최하가 열대어였던 것 같애",
+            "norm_text": "근데 내가 키웠던 반려동물 중에 진짜 난이도 최하가 열대어였던 것 같애",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+내/NP+가/JKS+키웠/VV+EP+던/ETM+반려/NNG+동물/NNG+중/NNB+에/JKB+진짜/MAG+난이도/NNG+최하/NNG+가/JKS+열대어/NNG+였/VCP+EP+던/ETM+것/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 열대어 작고 소중해 하하",
+            "norm_text": "열대어 작고 소중해 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "열대어/NNG+작/VA+고/EC+소중/XR+해/XSA+EC+하하/MAG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 글지만 나는 못 키울 거 같어 ㅜㅋ",
+            "norm_text": "글지만 나는 못 키울 거 같어 ㅜㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/VA+지만/EC+나/NP+는/JX+못/MAG+키울/VV+ETM+거/NNB+같/VA+어/EC+ㅜㅋ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 왜? 열대어 먹이 안 줘도 햇빛에 내놓으면 이끼 먹고도 살아",
+            "norm_text": "왜? 열대어 먹이 안 줘도 햇빛에 내놓으면 이끼 먹고도 살아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "왜/MAG+열대어/NNG+먹이/NNG+안/MAG+줘도/VV+EC+햇빛/NNG+에/JKB+내놓/VV+으면/EC+이끼/NNG+먹/VV+고/EC+도/JX+살/VV+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 진짜 최강 생명력",
+            "norm_text": "진짜 최강 생명력",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+최강/NNG+생명력/NNG"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아 진짜? 신기하다 키키",
+            "norm_text": "아 진짜? 신기하다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+신기/XR+하/XSA+다키키/NNP"
+          },
+          {
+            "id": 21,
+            "text": "2 : 내가 키움 다 죽을 것 같아서 키키",
+            "norm_text": "내가 키움 다 죽을 것 같아서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+키움/VV+ETN+다/MAG+죽/VV+을/ETM+것/NNB+같/VA+아서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 갑자기 생각났다 씨몽키 키키",
+            "norm_text": "갑자기 생각났다 씨몽키 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "갑자기/MAG+생각/NNG+났/VV+EP+다/EF+씨몽키/NNP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 키키 대박 이번에 유튜브에 씨몽키 떴었는데 그거 플랑크톤 같은 거라며",
+            "norm_text": "키키 대박 이번에 유튜브에 씨몽키 떴었는데 그거 플랑크톤 같은 거라며",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+대박/NNG+이번/NNG+에/JKB+유튜브/NNP+에/JKB+씨몽키/NNP+떴었/VV+EP+는데/EC+그거/NP+플랑크톤/NNG+같/VA+은/ETM+거/NNB+라며/VCP+EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 왜  난 지금까지 새우인 줄 알았지? 키키",
+            "norm_text": "왜  난 지금까지 새우인 줄 알았지? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+난/NP+JX+지금/NNG+까지/JX+새우/NNG+인/VCP+ETM+줄/NNB+알/VV+았/EP+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 어렸을 때 그거 물에다가 비듬?같은 거 뿌리면 갑자기 태어나서 움직여",
+            "norm_text": "어렸을 때 그거 물에다가 비듬?같은 거 뿌리면 갑자기 태어나서 움직여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어렸/VA+EP+을/ETM+때/NNG+그거/NP+물/NNG+에다가/JKB+비듬/NNG+같/VA+은/ETM+거/NNB+뿌리/VV+면/EC+갑자기/MAG+태어나/VV+서/EC+움직여/VV+EC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 아 그게 꼬리가 길어서 바다 원숭이라 한 거래 신기하긴 하더라",
+            "norm_text": "아 그게 꼬리가 길어서 바다 원숭이라 한 거래 신기하긴 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그게/NP+JKS+꼬리/NNG+가/JKS+길/VA+어서/EC+바다/NNG+원숭이/NNG+라/VCP+EC+한/MM+거래/NNG+신기/NNG+하/XSV+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 27,
+            "text": "2 : 오오 키키 신기하다 키키",
+            "norm_text": "오오 키키 신기하다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+키키/NNP+신기하/NNP+다키키/NNP"
+          },
+          {
+            "id": 28,
+            "text": "2 : 그거 최근에 다이소에서 파는 거 봤는데 같이 고고?",
+            "norm_text": "그거 최근에 다이소에서 파는 거 봤는데 같이 고고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+최근/NNG+에다/JKB+이소/NNG+에서/JKB+파/VV+는/ETM+거/NNB+봤/VV+EP+는데/EC+같이/MAG+고고/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

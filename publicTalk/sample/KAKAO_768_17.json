@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 39266,
+    "name": "KAKAO_768_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301502490813102/KAKAO_768_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301502490813102/KAKAO_768_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38188,
+      "filename": "KAKAO_768_17.txt",
+      "title": "KAKAO_768_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 552,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 552,
+        "word_size": 175,
+        "text": "1 : 전신마취나 수면마취 같은 거 해본 적 있나?\n2 : 헐 아니... 평생 안 해보고 싶은데? ㅠㅠ\n1 : 수면 마취는... 건강검진 때문이라도 한번은 해봐야 하잖아...ㅜㅜ\n2 : 키키 아 그러네 ㅜㅜ\n2 : 근데 그거는 좀 약한 거 아닌가?\n1 : 그래도 효과는 좋아 보이던데? 키키\n1 : 다들 자기가 마취가 안된 줄 아는데 이미 진료 끝났고 키키\n2 : 키키 그거 프로포폴 같은 거 아닌가? 키키\n1 : 응응 그거라고 들었던 거 같아...!\n2 : 그러면 수면마취랑은 좀 다른 거 같은데?\n1 : 아 그래? 하하 아직 한번도 안 해본 거라 차이를 잘 모르겠네! 하하\n2 : 키키 나도... 그런 건 가능하면 안 해보고 싶다 키키\n1 : 나도 가능하다면 최대한 미루고 싶어... 키키\n2 : 키키 나랑 비슷하네 키키\n2 : 못 깨어날까 봐 걱정돼\n1 : 키키 나도나도 키키 그리고 마취 잘 안되는 것도 걱정이야... 키키\n2 : 키키 근데 요즘 기술에 마취는 잘 되지 않을까?\n1 : 막 검사나 수술 받고 있는 게 중간에 깨는 것도 충격적일 거야... 키키\n2 : 키키 너 꽤나 그런 영화를 많이 봤구나? 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 전신마취나 수면마취 같은 거 해본 적 있나?",
+            "norm_text": "전신마취나 수면마취 같은 거 해본 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "전신/NNG+마취/NNG+나/JC+수면/NNG+마취/NNG+같/VA+은/ETM+거/NNB+해/VV+EC+본/VX+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헐 아니... 평생 안 해보고 싶은데? ㅠㅠ",
+            "norm_text": "헐 아니... 평생 안 해보고 싶은데? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+아니/IC+./SY+평생/MAG+안/MAG+해/VV+EC+보/VX+고/EC+싶/VX+은데/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 수면 마취는... 건강검진 때문이라도 한번은 해봐야 하잖아...ㅜㅜ",
+            "norm_text": "수면 마취는... 건강검진 때문이라도 한번은 해봐야 하잖아...ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수면/NNG+마취/NNG+는/JX+./SY+건강/NNG+검진/NNG+때문/NNB+이/VCP+라도/EC+한/MM+번/NNBC+은/JX+해/VV+EC+봐야/VX+EC+하/VX+잖아/EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 아 그러네 ㅜㅜ",
+            "norm_text": "키키 아 그러네 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키아그러네ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 근데 그거는 좀 약한 거 아닌가?",
+            "norm_text": "근데 그거는 좀 약한 거 아닌가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+그거/NP+는/JX+좀/MAG+약한/VA+ETM+거/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그래도 효과는 좋아 보이던데? 키키",
+            "norm_text": "그래도 효과는 좋아 보이던데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+효과/NNG+는/JX+좋/VA+아/EC+보이/VV+던데/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 다들 자기가 마취가 안된 줄 아는데 이미 진료 끝났고 키키",
+            "norm_text": "다들 자기가 마취가 안된 줄 아는데 이미 진료 끝났고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다/MAG+들/XSN+자기/NP+가/JKS+마취/NNG+가/JKS+안/MAG+된/VV+ETM+줄/NNB+아/VV+는데/EC+이미/MAG+진료/NNG+끝/NNG+났/VV+EP+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 그거 프로포폴 같은 거 아닌가? 키키",
+            "norm_text": "키키 그거 프로포폴 같은 거 아닌가? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그거/NP+프로포폴/NNP+같/VA+은/ETM+거/NNB+아닌가/VCN+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응응 그거라고 들었던 거 같아...!",
+            "norm_text": "응응 그거라고 들었던 거 같아...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+그거/NP+라고/VCP+EC+들/VX+었/EP+던/ETM+거/NNB+같/VA+아/EF+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그러면 수면마취랑은 좀 다른 거 같은데?",
+            "norm_text": "그러면 수면마취랑은 좀 다른 거 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러면/MAJ+수면/NNG+마취/NNG+랑/JKB+은/JX+좀/MAG+다른/VA+ETM+거/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 그래? 하하 아직 한번도 안 해본 거라 차이를 잘 모르겠네! 하하",
+            "norm_text": "아 그래? 하하 아직 한번도 안 해본 거라 차이를 잘 모르겠네! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+하하/MAG+아직/MAG+한/MM+번/NNBC+도/JX+안/MAG+해/VV+EC+본/VX+ETM+거/NNB+라/VCP+EC+차이/NNG+를/JKO+잘/MAG+모르/VV+겠/EP+네/EF+하하/MAG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 나도... 그런 건 가능하면 안 해보고 싶다 키키",
+            "norm_text": "키키 나도... 그런 건 가능하면 안 해보고 싶다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+./SY+./SY+그런/MM+건/NNB+JX+가능/NNG+하/XSV+면/EC+안/MAG+해/VV+EC+보/VX+고/EC+싶/VX+다키키/NNP"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나도 가능하다면 최대한 미루고 싶어... 키키",
+            "norm_text": "나도 가능하다면 최대한 미루고 싶어... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+가능/NNG+하/XSV+다면/EC+최대한/MAG+미루/VV+고/EC+싶/VX+어/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 나랑 비슷하네 키키",
+            "norm_text": "키키 나랑 비슷하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+랑/JC+비슷/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 못 깨어날까 봐 걱정돼",
+            "norm_text": "못 깨어날까 봐 걱정돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "못/MAG+깨/VV+어/EC+날까/VX+EC+봐/VX+EF+걱정/NNG+돼/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 나도나도 키키 그리고 마취 잘 안되는 것도 걱정이야... 키키",
+            "norm_text": "키키 나도나도 키키 그리고 마취 잘 안되는 것도 걱정이야... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+나/NP+도/JX+키/NNG+키/XSV+ETN+그리고/MAJ+마취/NNG+잘/MAG+안/MAG+되/VV+는/ETM+것/NNB+도/JX+걱정/NNG+이/VCP+야/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 근데 요즘 기술에 마취는 잘 되지 않을까?",
+            "norm_text": "키키 근데 요즘 기술에 마취는 잘 되지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+요즘/MAG+기술/NNG+에/JKB+마취/NNG+는/JX+잘/MAG+되/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 막 검사나 수술 받고 있는 게 중간에 깨는 것도 충격적일 거야... 키키",
+            "norm_text": "막 검사나 수술 받고 있는 게 중간에 깨는 것도 충격적일 거야... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "막/MAJ+검사/NNG+나/JC+수술/NNG+받/VV+고/EC+있/VX+는/ETM+게/NNB+JKS+중간/NNG+에/JKB+깨/VV+는/ETM+것/NNB+도/JX+충격/NNG+적/XSN+일/VCP+ETM+거/NNB+야/VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 너 꽤나 그런 영화를 많이 봤구나? 키키",
+            "norm_text": "키키 너 꽤나 그런 영화를 많이 봤구나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+너/NP+꽤/MAG+나/JX+그런/MM+영화/NNG+를/JKO+많이/MAG+봤/VV+EP+구나/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24280,
+    "name": "KAKAO_596_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109231609160415110/KAKAO_596_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109231609160415110/KAKAO_596_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31736,
+      "filename": "KAKAO_596_05.txt",
+      "title": "KAKAO_596_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 516,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 516,
+        "word_size": 152,
+        "text": "1 : 너 동생 군대 갔다 왔지? 육군?\n2 : 내 동생 머지? 통신병이었는데?\n1 : 통신병이면 육군인가? 키키 잘 모름 키키\n2 : 통신병이라는 이야기 밖에 모름... 관심 없음...\n1 : 키키 여기도 현실 남매네\n1 : 키키 동생이 뿌듯하겠어\n2 : 이것이 바로 누나지... 무소식이 희소식이라고... 어딘지 머 하는지만 알면 되지... 머...\n1 : 그렇지 그렇지 키키 건강하게 잘 지내고 있으면 됐지 키키\n2 : 그렇지 건강하게만 살아 있으면서... 지 인생 살면 되지...\n1 : 연락했을 때 한 번에 연락 되기만 하면 된다고 키키\n2 : 우리는 전화 안 함... 카톡 남김... 본인 본론...\n1 : 키키 나도 카톡 선호 키키 전화 싫어...\n2 : 나는 전화를 좋아하는데... 그렇게 문자를 남기더라...\n1 : 동생 면회 가긴 가봤지? 키키\n2 : 면회를 가다 못해서 매일 편지 써서 보낸 누나가 바로 나다!\n1 : 우와 이 누나 정성 대박인데? 멋지다 야 키키\n2 : 왜냐면 편지 1통 당 엄마가 용돈을... 나에게... 흐흐흐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 동생 군대 갔다 왔지? 육군?",
+            "norm_text": "너 동생 군대 갔다 왔지? 육군?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+동생/NNG+군대/NNG+갔다왔/VV+EP+지/EF+육군/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 내 동생 머지? 통신병이었는데?",
+            "norm_text": "내 동생 머지? 통신병이었는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+동생/NNG+머지/IC+통신병/NNG+이/VCP+었/EP+는데/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 통신병이면 육군인가? 키키 잘 모름 키키",
+            "norm_text": "통신병이면 육군인가? 키키 잘 모름 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "통신병/NNG+이/VCP+면/EC+육군/NNG+인가/VCP+EF+키키잘모름키키/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 통신병이라는 이야기 밖에 모름... 관심 없음...",
+            "norm_text": "통신병이라는 이야기 밖에 모름... 관심 없음...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "통신병/NNG+이/VCP+라는/ETM+이야기/NNG+밖에/JX+모름/VV+ETN+./SY+관심없/VV+음/ETN+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 여기도 현실 남매네",
+            "norm_text": "키키 여기도 현실 남매네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+여기/NP+도/JX+현실/NNG+남매/NNG+네/XSN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 동생이 뿌듯하겠어",
+            "norm_text": "키키 동생이 뿌듯하겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+동생/NNG+이/JKS+뿌듯/XR+하/XSA+겠/EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 이것이 바로 누나지... 무소식이 희소식이라고... 어딘지 머 하는지만 알면 되지... 머...",
+            "norm_text": "이것이 바로 누나지... 무소식이 희소식이라고... 어딘지 머 하는지만 알면 되지... 머...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이것/NP+이/JKS+바로/MAG+누나/NNG+지/VCP+EF+./SY+무소식/NNG+이/JKS+희소식/NNG+이/VCP+라고/EC+./SY+./SY+어딘지/NP+VCP+EC+머/NP+하/VV+는지/EC+만/JX+알/VV+면/EC+되/VV+지/EF+./SY+머/IC+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그렇지 그렇지 키키 건강하게 잘 지내고 있으면 됐지 키키",
+            "norm_text": "그렇지 그렇지 키키 건강하게 잘 지내고 있으면 됐지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EC+그렇/VA+지/EC+키/NNG+키/NNG+건강/NNG+하/XSV+게/EC+잘/MAG+지내/VV+고/EC+있/VX+으면/EC+됐/VV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그렇지 건강하게만 살아 있으면서... 지 인생 살면 되지...",
+            "norm_text": "그렇지 건강하게만 살아 있으면서... 지 인생 살면 되지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EC+건강/NNG+하/XSV+게/EC+만/JX+살/VV+아/EC+있/VX+으면서/EF+./SY+지인/NNG+생/XSN+살/VV+면/EC+되/VV+지/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 연락했을 때 한 번에 연락 되기만 하면 된다고 키키",
+            "norm_text": "연락했을 때 한 번에 연락 되기만 하면 된다고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연락/NNG+했/XSV+EP+을/ETM+때/NNG+한/MM+번/NNBC+에/JKB+연락/NNG+되/XSV+기/ETN+만/JX+하/VV+면/EC+된다고/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 우리는 전화 안 함... 카톡 남김... 본인 본론...",
+            "norm_text": "우리는 전화 안 함... 카톡 남김... 본인 본론...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+는/JX+전화/NNG+안/MAG+함/VV+ETN+./SY+./SY+카톡/NNP+남김/VV+ETN+./SY+본인/NNG+본론/NNG+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 나도 카톡 선호 키키 전화 싫어...",
+            "norm_text": "키키 나도 카톡 선호 키키 전화 싫어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+카톡/NNP+선호/NNG+키/NNG+키/NNG+전화/NNG+싫/VA+어/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나는 전화를 좋아하는데... 그렇게 문자를 남기더라...",
+            "norm_text": "나는 전화를 좋아하는데... 그렇게 문자를 남기더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+전화/NNG+를/JKO+좋아하/VV+는데/EC+./SY+./SY+그렇게/MAG+문자/NNG+를/JKO+남기/VV+더라/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 동생 면회 가긴 가봤지? 키키",
+            "norm_text": "동생 면회 가긴 가봤지? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동생/NNG+면회/NNG+가/JKS+긴가/NNBC+VCP+EC+봤/VX+EP+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 면회를 가다 못해서 매일 편지 써서 보낸 누나가 바로 나다!",
+            "norm_text": "면회를 가다 못해서 매일 편지 써서 보낸 누나가 바로 나다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "면회/NNG+를/JKO+가/VV+다/EC+못해서/VX+EC+매일/MAG+편지/NNG+써서/VV+EC+보낸/VV+ETM+누나/NNG+가/JKS+바로/MAG+나/VV+다/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 우와 이 누나 정성 대박인데? 멋지다 야 키키",
+            "norm_text": "우와 이 누나 정성 대박인데? 멋지다 야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+이/MM+누나/NNG+정성/NNG+대박/NNG+인데/VCP+EF+멋지/VA+다/EC+야키/NNP+키/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 왜냐면 편지 1통 당 엄마가 용돈을... 나에게... 흐흐흐",
+            "norm_text": "왜냐면 편지 1통 당 엄마가 용돈을... 나에게... 흐흐흐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "왜냐면/MAJ+편지/NNG+1/SN+통/NNBC+당/XSN+엄마/NNG+가/JKS+용돈/NNG+을/JKO+./SY+나/NP+에게/JKB+./SY+흐흐흐/IC"
+          }
+        ]
+      }
+    }
+  ]
+}

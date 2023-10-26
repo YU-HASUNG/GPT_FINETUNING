@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 32052,
+    "name": "KAKAO_692_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113116017956/KAKAO_692_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113116017956/KAKAO_692_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35359,
+      "filename": "KAKAO_692_20.txt",
+      "title": "KAKAO_692_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 700,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 700,
+        "word_size": 222,
+        "text": "1 : 혹시 설국열차 영화 봤어?\n1 : 나 어제 봤는데 진짜 재밌더라\n2 : 아니 배우 누구 나오는데?\n1 : 송강호랑 고아성 나오고 그 캡틴 아메리카 역인 크리스 에반스도 나와\n2 : 오 크리스 에반스도?\n2 : 외국 영화야? 감독이 누구인데\n1 : 봉준호 감독 영화야\n1 : SF장르 영화인데 외국인 배우들이 많이 나와\n2 : 어떤 내용이야?\n2 : 봉준호 감독 영화면 재밌을 거 같은데\n1 : 미래에 기상이변으로 대부분의 사람이 죽고 살아남은 사람들이 기차에서 살아가는 배경인데 기차 칸마다 계급이 나눠져 있어\n1 : 그 사이에서 생기는 갈등을 다룬 영화인데 정말 재밌어 한번 봐봐\n2 : 오 끌린다 키키 재밌겠다\n2 : 어디서 봤어?\n1 : 난 넷플릭스에서 봤어\n1 : 넷플릭스 이용하지?\n2 : 응 키키 넷플에 있구나 이번 주말에 봐야겠다\n1 : 완전 재밌어 키키\n1 : 난 이런 소재가 신선한 게 좋더라\n2 : 맞아 키키 SF에 봉준호 감독 영화라니 키키 왜 몰랐지 키키\n2 : 이번 주말 추워서 안 그래도 집콕 해야 할 거 같았는데 할 게 생겼네\n1 : 아마 만족할 거야 키키 난 정말 재밌게 봤거든\n1 : 혹시 다른 거 뭐 추천할 거 없어?\n2 : 이번에 개봉하는 영화 중에 sf 영화 있던데 그것도 유명한 감독 영화야\n2 : 개봉하면 같이 보러 갈래?\n1 : 좋지 그러자 주말 설국열차 재밌게 보고 영화 개봉하면 꼭 같이 보러 가자!\n2 : 그래 키키 보고 감상 알려줄게 연락할게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 혹시 설국열차 영화 봤어?",
+            "norm_text": "혹시 설국열차 영화 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+설국/NNG+열/NR+차/NNBC+영화/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 나 어제 봤는데 진짜 재밌더라",
+            "norm_text": "나 어제 봤는데 진짜 재밌더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+어제/MAG+봤/VV+EP+는데/EC+진짜/MAG+재밌/VA+더라/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아니 배우 누구 나오는데?",
+            "norm_text": "아니 배우 누구 나오는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+ /SP+배우/NNG+누구/NP+나오/VV+는데/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 송강호랑 고아성 나오고 그 캡틴 아메리카 역인 크리스 에반스도 나와",
+            "norm_text": "송강호랑 고아성 나오고 그 캡틴 아메리카 역인 크리스 에반스도 나와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "송강호/NNP+랑/JC+고아/XR+성/XSN+나오/VV+고/EC+그/MM+캡틴/NNG+아메리카/NNP+역인/NNG+크리스/+에반스/+도/JX+나와/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오 크리스 에반스도?",
+            "norm_text": "오 크리스 에반스도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+크리스/+에반스/+도/JX"
+          },
+          {
+            "id": 6,
+            "text": "2 : 외국 영화야? 감독이 누구인데",
+            "norm_text": "외국 영화야? 감독이 누구인데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "외국/NNG+영화/NNG+야/VCP+EF+감독/NNG+이/JKS+누구/NP+인데/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 봉준호 감독 영화야",
+            "norm_text": "봉준호 감독 영화야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "봉준호/NNP+감독/NNG+영화/NNG+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : SF장르 영화인데 외국인 배우들이 많이 나와",
+            "norm_text": "SF장르 영화인데 외국인 배우들이 많이 나와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "SF/SL+장르/NNG+영화/NNG+인데/VCP+EC+외국인/NNG+배우/NNG+들/XSN+이/JKS+많이/MAG+나와/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 어떤 내용이야?",
+            "norm_text": "어떤 내용이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+내용/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 봉준호 감독 영화면 재밌을 거 같은데",
+            "norm_text": "봉준호 감독 영화면 재밌을 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "봉준호/NNP+감독/NNG+영화/NNG+면/VCP+EC+재밌/VA+을/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 미래에 기상이변으로 대부분의 사람이 죽고 살아남은 사람들이 기차에서 살아가는 배경인데 기차 칸마다 계급이 나눠져 있어",
+            "norm_text": "미래에 기상이변으로 대부분의 사람이 죽고 살아남은 사람들이 기차에서 살아가는 배경인데 기차 칸마다 계급이 나눠져 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "미래/NNG+에/JKB+기상이변/NNP+으로/JKB+대부분/NNG+의/JKG+사람/NNG+이/JKS+죽/VV+고/EC+살아남/VV+은/ETM+사람/NNG+들/XSN+이/JKS+기차/NNG+에서/JKB+살아가/VV+는/ETM+배경/NNG+인데/VCP+EC+기차/NNG+칸/NNG+마다/JX+계급/NNG+이/JKS+나눠져/VV+EC+VX+EC+있/VX+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그 사이에서 생기는 갈등을 다룬 영화인데 정말 재밌어 한번 봐봐",
+            "norm_text": "그 사이에서 생기는 갈등을 다룬 영화인데 정말 재밌어 한번 봐봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그/MM+사이/NNG+에서/JKB+생기/VV+는/ETM+갈등/NNG+을/JKO+다룬/VV+ETM+영화/NNG+인데/VCP+EC+정말/MAG+재밌/VA+어/EC+한/MM+번/NNBC+봐/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 오 끌린다 키키 재밌겠다",
+            "norm_text": "오 끌린다 키키 재밌겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+끌린/VV+ETM+다키키/NNP+재밌/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 어디서 봤어?",
+            "norm_text": "어디서 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+서/JKB+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 난 넷플릭스에서 봤어",
+            "norm_text": "난 넷플릭스에서 봤어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+넷플릭스/NNP+에서/JKB+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 넷플릭스 이용하지?",
+            "norm_text": "넷플릭스 이용하지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넷플릭스/NNP+이용/NNG+하/XSA+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 키키 넷플에 있구나 이번 주말에 봐야겠다",
+            "norm_text": "응 키키 넷플에 있구나 이번 주말에 봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+넷/NR+플/NNG+에/JKB+있/VV+구나/EF+이번/NNG+주말/NNG+에/JKB+봐야/VV+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 완전 재밌어 키키",
+            "norm_text": "완전 재밌어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/MAG+재밌/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 난 이런 소재가 신선한 게 좋더라",
+            "norm_text": "난 이런 소재가 신선한 게 좋더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+이런/MM+소재/NNG+가/JKS+신선/XR+한/XSA+ETM+게/NNB+JKS+좋/VA+더라/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 맞아 키키 SF에 봉준호 감독 영화라니 키키 왜 몰랐지 키키",
+            "norm_text": "맞아 키키 SF에 봉준호 감독 영화라니 키키 왜 몰랐지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+SF/SL+에/JKB+봉준호/NNP+감독/NNG+영화/NNG+라니/VCP+EC+키/NNG+키/XSV+ETN+왜/MAG+몰랐/VV+EP+지/EF+ /SP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 이번 주말 추워서 안 그래도 집콕 해야 할 거 같았는데 할 게 생겼네",
+            "norm_text": "이번 주말 추워서 안 그래도 집콕 해야 할 거 같았는데 할 게 생겼네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+주말/NNG+추워서/VA+EC+안/MAG+그래도/VV+EC+집/NNG+콕/NNG+해야/XSV+EC+할/VX+ETM+거/NNB+같/VA+았/EP+는데/EC+할/VX+ETM+게/NNB+JKS+생겼/VV+EP+네/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아마 만족할 거야 키키 난 정말 재밌게 봤거든",
+            "norm_text": "아마 만족할 거야 키키 난 정말 재밌게 봤거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+만족/NNG+할/XSV+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN+난/NP+JX+정말/MAG+재밌/VA+게/EC+봤/VX+EP+거든/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 혹시 다른 거 뭐 추천할 거 없어?",
+            "norm_text": "혹시 다른 거 뭐 추천할 거 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+다른/VA+ETM+거/NNB+뭐/IC+추천/NNG+할/XSV+ETM+거/NNB+없/VA+어/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 이번에 개봉하는 영화 중에 sf 영화 있던데 그것도 유명한 감독 영화야",
+            "norm_text": "이번에 개봉하는 영화 중에 sf 영화 있던데 그것도 유명한 감독 영화야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+개봉/NNG+하/XSV+는/ETM+영화/NNG+중/NNB+에/JKB+sf/SL+영화/NNG+있/VV+던데/EC+그것/NP+도/JX+유명/XR+한/XSA+ETM+감독/NNG+영화/NNG+야/VCP+EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 개봉하면 같이 보러 갈래?",
+            "norm_text": "개봉하면 같이 보러 갈래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "개봉/NNG+하/XSV+면/EC+같이/MAG+보/VV+러/EC+갈래/VV+EF"
+          },
+          {
+            "id": 26,
+            "text": "1 : 좋지 그러자 주말 설국열차 재밌게 보고 영화 개봉하면 꼭 같이 보러 가자!",
+            "norm_text": "좋지 그러자 주말 설국열차 재밌게 보고 영화 개봉하면 꼭 같이 보러 가자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좋/VA+지/EC+그러/VV+자/EC+주말/NNG+설국/NNG+열/NR+차/NNBC+재밌/VA+게/EC+보/VX+고/EC+영화/NNG+개봉/NNG+하/XSV+면/EC+꼭/MAG+같이/MAG+보/VV+러/EC+가/VX+자/EF"
+          },
+          {
+            "id": 27,
+            "text": "2 : 그래 키키 보고 감상 알려줄게 연락할게",
+            "norm_text": "그래 키키 보고 감상 알려줄게 연락할게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+키/NNG+키/XSV+ETN+보고/JKB+감상/NNG+알려/VV+EC+줄/VX+ETM+게/NNB+JKS+연락/NNG+할/XSV+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

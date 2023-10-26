@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 30968,
+    "name": "KAKAO_859_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173819005440/KAKAO_859_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173819005440/KAKAO_859_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39963,
+      "filename": "KAKAO_859_05.txt",
+      "title": "KAKAO_859_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 406,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 406,
+        "word_size": 136,
+        "text": "1 : 공군 뭐 하는 군대야?\n2 : 비행기 관리 하고 그럴걸?\n1 : 비행기에서 막 총 쏘고 미사일 발사하고 그런 거 아니야? 키키\n2 : 키키 그럼 공군 나온 사람은 다 비행기 조정사 하겠지\n1 : 아 키키 내 사촌 동생 공군 나왔는데 한번 물어 봐야겠다\n2 : 사촌 동생 공군 출신이가?\n1 : 응 키키 2살 밑에 동생인데 공군 나왔다더라\n2 : 키키 멋있노 키키 내 주변에는 없는데\n1 : 키키 나도 사촌 동생밖에 없다\n2 : 키키 니는 한 명이라도 있잖아\n1 : 키키 근데 그거 알제 그냥 아~공군 나왔구나~ 끝 키키\n2 : 키키 여자들은 군대 잘 모르니까 글치\n1 : 그러니까 키키 별 관심이 없다\n2 : 키키 내 친구였음 겁나 물어봤을 듯\n1 : 키키 잉? 겁나까지?\n1 : 궁금하나 그게?\n2 : 남자들끼리는 군대 자부심 같은 게 있지 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 공군 뭐 하는 군대야?",
+            "norm_text": "공군 뭐 하는 군대야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "공군/NNG+뭐/IC+하/VV+는/ETM+군대/NNG+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 비행기 관리 하고 그럴걸?",
+            "norm_text": "비행기 관리 하고 그럴걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비행기/NNG+관리/NNG+하/XSV+고/EC+그럴걸/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 비행기에서 막 총 쏘고 미사일 발사하고 그런 거 아니야? 키키",
+            "norm_text": "비행기에서 막 총 쏘고 미사일 발사하고 그런 거 아니야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "비행기/NNG+에서/JKB+막/IC+총/MM+쏘/VV+고/EC+미사일/NNG+발사/NNG+하/XSV+고/EC+그런/MM+거/NNB+아니/VCN+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 그럼 공군 나온 사람은 다 비행기 조정사 하겠지",
+            "norm_text": "키키 그럼 공군 나온 사람은 다 비행기 조정사 하겠지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+공군/NNG+나온/VV+ETM+사람/NNG+은/JX+다/MAG+비행기/NNG+조정/NNG+사/NNG+하/XSV+겠/EP+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 키키 내 사촌 동생 공군 나왔는데 한번 물어 봐야겠다",
+            "norm_text": "아 키키 내 사촌 동생 공군 나왔는데 한번 물어 봐야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+내/NNB+사촌/NNG+동생/NNG+공군/NNG+나왔/VV+EP+는데/EC+한/MM+번/NNBC+물어봐야/VV+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 사촌 동생 공군 출신이가?",
+            "norm_text": "사촌 동생 공군 출신이가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "사촌/NNG+동생/NNG+공군/NNG+출신/NNG+이/VCP+가/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 키키 2살 밑에 동생인데 공군 나왔다더라",
+            "norm_text": "응 키키 2살 밑에 동생인데 공군 나왔다더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+2/SN+살/NNBC+밑/NNG+에/JKB+동생/NNG+인데/VCP+EC+공군/NNG+나왔/VV+EP+다더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 멋있노 키키 내 주변에는 없는데",
+            "norm_text": "키키 멋있노 키키 내 주변에는 없는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+멋있/VA+노/EC+키/NNG+키/XSV+ETN+내/NP+JKG+주변/NNG+에/JKB+는/JX+없/VA+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 나도 사촌 동생밖에 없다",
+            "norm_text": "키키 나도 사촌 동생밖에 없다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+사촌/NNG+동생/NNG+밖에/JX+없/VA+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 니는 한 명이라도 있잖아",
+            "norm_text": "키키 니는 한 명이라도 있잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+니/NP+는/JX+한/MM+명/NNBC+이/VCP+라도/EC+있/VX+잖아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 근데 그거 알제 그냥 아~공군 나왔구나~ 끝 키키",
+            "norm_text": "키키 근데 그거 알제 그냥 아~공군 나왔구나~ 끝 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+그거/NP+알/VV+제/EC+그냥/MAG+아/IC+~/SY+공군/NNG+나왔/VV+EP+구나/EF+~/SY+끝/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 여자들은 군대 잘 모르니까 글치",
+            "norm_text": "키키 여자들은 군대 잘 모르니까 글치",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+여자/NNG+들/XSN+은/JX+군대/NNG+잘/MAG+모르/VV+니까/EC+글/NNG+치/XSA+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그러니까 키키 별 관심이 없다",
+            "norm_text": "그러니까 키키 별 관심이 없다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/NNG+별/XSN+관심/NNG+이/JKS+없/VA+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 내 친구였음 겁나 물어봤을 듯",
+            "norm_text": "키키 내 친구였음 겁나 물어봤을 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+JKG+친구/NNG+였/VCP+EP+음/ETN+겁나/VV+EC+물/VV+어/EC+봤/VX+EP+을/ETM+듯/NNB"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 잉? 겁나까지?",
+            "norm_text": "키키 잉? 겁나까지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키잉/NNG+겁나/VV+EC+까지/JX"
+          },
+          {
+            "id": 16,
+            "text": "1 : 궁금하나 그게?",
+            "norm_text": "궁금하나 그게?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "궁금/XR+하/XSA+나/EF+그게/NP+JKS"
+          },
+          {
+            "id": 17,
+            "text": "2 : 남자들끼리는 군대 자부심 같은 게 있지 키키",
+            "norm_text": "남자들끼리는 군대 자부심 같은 게 있지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+들/XSN+끼리/XSN+는/JX+군대/NNG+자부심/NNG+같/VA+은/ETM+게/NNB+JKS+있/VA+지/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

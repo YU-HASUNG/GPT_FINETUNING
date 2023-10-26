@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 25341,
+    "name": "KAKAO_502_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405064351/KAKAO_502_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405064351/KAKAO_502_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29080,
+      "filename": "KAKAO_502_09.txt",
+      "title": "KAKAO_502_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 498,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 498,
+        "word_size": 160,
+        "text": "1 : 강아지 소식 들었어 언제 수술해?\n2 : 아직 예약은 안 했는데 다음주에 하려고 해요 ㅠㅠ\n1 : 큰 수술을  두 번이나 받고 **가 마음이 이만저만이 아니겠어\n2 : 네... 진짜... ㅠㅠ 첫 병원이 너무 별로였어요 ㅠㅠ\n1 : 병원 고르기도 힘들겠어 보험도 안 되고\n2 : 맞아요 ㅠㅠ 진짜... 보험 안 되는게 너무 힘든 것 같아요 ㅠㅠ\n1 : 그러게 돈도 엄청 많이 나오겠네\n2 : 넹... 지금 이미 뭐... ㅠㅠ 키키 거의 빚쟁이 수준입니다\n1 : 아이고 그래서 이렇게 바쁜 거야?\n2 : 그런 것 같아요 ㅠㅠ 아무래도 돈을 좀 더 벌어야 해서 ㅠㅠ\n1 : 그래 또 돈 들어올 때 있으면 열심히 벌어야지\n2 : 맞아요... 진짜 지금 아니면 언제 또 벌겠어요 ㅠㅠ\n1 : 그러니까 그래도 돈 벌 때가 있어서 다행이네\n2 : 맞아요 진짜 사람이 그냥 죽으란 법은 없나봐요!\n1 : 그래 다 살 구멍이 있어 포기 하지 말고\n2 : 키키 감사합니다 ㅠㅠ\n2 : 아부지도 어무니도 꼭 건강 검진 꼭꼭 하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 강아지 소식 들었어 언제 수술해?",
+            "norm_text": "강아지 소식 들었어 언제 수술해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "강아지/NNG+소식/NNG+들/VV+었/EP+어/EF+언제/MAG+수술/NNG+해/XSV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아직 예약은 안 했는데 다음주에 하려고 해요 ㅠㅠ",
+            "norm_text": "아직 예약은 안 했는데 다음주에 하려고 해요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+예약/NNG+은/JX+안/MAG+했/VV+EP+는데/EC+다음/NNG+주/NNG+에/JKB+하/VV+려고/EC+해요/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 큰 수술을  두 번이나 받고 **가 마음이 이만저만이 아니겠어",
+            "norm_text": "큰 수술을  두 번이나 받고 **가 마음이 이만저만이 아니겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "큰/VA+ETM+수술/NNG+을/JKO+두/MM+번/NNBC+이나/JX+받/VV+고/EC+*/SY+*/SY+가/JKS+마음/NNG+이/JKS+이만저만/NNG+이/JKC+아니/VCN+겠/EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 네... 진짜... ㅠㅠ 첫 병원이 너무 별로였어요 ㅠㅠ",
+            "norm_text": "네... 진짜... ㅠㅠ 첫 병원이 너무 별로였어요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+./SY+진짜/MAG+./SY+ㅠㅠ/UNKNOWN+첫/MM+병원/NNG+이/JKS+너무/MAG+별로/MAG+였/VCP+EP+어요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 병원 고르기도 힘들겠어 보험도 안 되고",
+            "norm_text": "병원 고르기도 힘들겠어 보험도 안 되고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+고르/VV+기/ETN+도/JX+힘들/VA+겠/EP+어/EC+보험/NNG+도/JX+안/MAG+되/VV+고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아요 ㅠㅠ 진짜... 보험 안 되는게 너무 힘든 것 같아요 ㅠㅠ",
+            "norm_text": "맞아요 ㅠㅠ 진짜... 보험 안 되는게 너무 힘든 것 같아요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아요ㅠㅠ진짜/UNKNOWN+./SY+보험/NNG+안/MAG+되/VV+는/ETM+게/NNB+JKS+너무/MAG+힘든/VA+ETM+것/NNB+같/VA+아요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러게 돈도 엄청 많이 나오겠네",
+            "norm_text": "그러게 돈도 엄청 많이 나오겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+돈/NNG+도/JX+엄청/MAG+많이/MAG+나오/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 넹... 지금 이미 뭐... ㅠㅠ 키키 거의 빚쟁이 수준입니다",
+            "norm_text": "넹... 지금 이미 뭐... ㅠㅠ 키키 거의 빚쟁이 수준입니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넹/NNP+./SY+./SY+지금/MAG+이미/MAG+뭐/IC+./SY+ㅠㅠ/UNKNOWN+키/NNG+키/NNG+거의/MAG+빚쟁이/NNG+수준/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아이고 그래서 이렇게 바쁜 거야?",
+            "norm_text": "아이고 그래서 이렇게 바쁜 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아이고/IC+그래서/MAJ+이렇게/MAG+바쁜/VA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그런 것 같아요 ㅠㅠ 아무래도 돈을 좀 더 벌어야 해서 ㅠㅠ",
+            "norm_text": "그런 것 같아요 ㅠㅠ 아무래도 돈을 좀 더 벌어야 해서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+것/NNB+같/VA+아요/EF+ㅠㅠ/UNKNOWN+아무래도/MAG+돈/NNG+을/JKO+좀/MAG+더/MAG+벌/VV+어야/EC+해서/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래 또 돈 들어올 때 있으면 열심히 벌어야지",
+            "norm_text": "그래 또 돈 들어올 때 있으면 열심히 벌어야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+또/MAG+돈/NNG+들어올/VV+ETM+때/NNG+있/VV+으면/EC+열심히/MAG+벌/VV+어야지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아요... 진짜 지금 아니면 언제 또 벌겠어요 ㅠㅠ",
+            "norm_text": "맞아요... 진짜 지금 아니면 언제 또 벌겠어요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+./SY+진짜/MAG+지금/MAG+아니면/MAJ+언제/MAG+또/MAG+벌/VV+겠/EP+어요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그러니까 그래도 돈 벌 때가 있어서 다행이네",
+            "norm_text": "그러니까 그래도 돈 벌 때가 있어서 다행이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+그래도/MAJ+돈/NNG+벌/NNG+때/NNG+가/JKS+있/VA+어서/EC+다행/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아요 진짜 사람이 그냥 죽으란 법은 없나봐요!",
+            "norm_text": "맞아요 진짜 사람이 그냥 죽으란 법은 없나봐요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+진짜/MAG+사람/NNG+이/JKS+그냥/MAG+죽/VV+으란/ETM+법/NNB+은/JX+없/VA+나/EC+봐요/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래 다 살 구멍이 있어 포기 하지 말고",
+            "norm_text": "그래 다 살 구멍이 있어 포기 하지 말고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래/IC+다/MAG+살/VV+ETM+구멍/NNG+이/JKS+있/VV+어/EC+포기/NNG+하/XSV+지/EC+말/VX+고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 감사합니다 ㅠㅠ",
+            "norm_text": "키키 감사합니다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "키/NNG+키/NNG+감사/NNG+합니다/XSV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아부지도 어무니도 꼭 건강 검진 꼭꼭 하세요",
+            "norm_text": "아부지도 어무니도 꼭 건강 검진 꼭꼭 하세요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아부지/NNG+도/JX+어/IC+무니/NNG+도/JX+꼭/MAG+건강/NNG+검진/NNG+꼭꼭/MAG+하/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

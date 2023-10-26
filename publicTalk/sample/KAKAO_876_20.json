@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 43898,
+    "name": "KAKAO_876_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005094932022164/KAKAO_876_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005094932022164/KAKAO_876_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40519,
+      "filename": "KAKAO_876_20.txt",
+      "title": "KAKAO_876_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 997,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 997,
+        "word_size": 314,
+        "text": "1 : 혹시 최애 영화가 뭐양? 키키\n2 : 나는 어바웃 타임 키키 그 영화 분위기나 내용도 너무 좋았지만\n2 : 특히 난 거기 나오면 여자 배우를 너무 너무 좋아하거든 너는?\n1 : 아아 그 여자 배우 ㅜㅜ 완전 사랑스럽지\n1 : 영화 노트북에도 나온 그 배우 맞지?\n1 : 나는 미스트라는 영화인데 혹시 알아?\n2 : 응응 알아 혹시 그 안개 속에서 괴물 나오는 건데 결말이 충격적인 거 그거 말하는 거 아니야?\n1 : 응 맞아! 키키 나 그 영화 너무 좋아해 키키\n1 : 뭔가 괴수 나오는데 심리 스릴러 이런 느낌... 그리고 반전까지  키키 너도 봤엉?\n2 : 응 나도 봤어 키키\n2 : 결말이 너무 충격적이더라고 어떠한 공포 영화보다 더 무서운 느낌이었어\n2 : 그 뒤에 주인공을 상상하니까 너무 슬프더라\n1 : 그치... ㅜㅜ 난 뭔가 그 마트 속에서 인간 군상을 너무 잘 담은 거 같더라구... 위기에 대처하는 인간 모습!\n2 : 근데 그런 영화들 보면 항상 제일 무서운 건 괴물이 아니라 인간이더라\n1 : 맞아 ㅜㅜ 괴물은 그냥 상징적으로 해 놓은 장치 같더라 키키\n1 : 그런 거 보면서 영화 감독들은 진짜 천재구나 깨달았어\n2 : 진짜 상상도 못할 결말이긴 했어 키키\n2 : 넷플릭스에 미스트 영화 드라마 버전도 있어 키키 드라마로도 나왔더라고\n1 : 키키 아 드라마로 나왔다고? 나 진짜 몰랐엉 키키 좋은 정보 땡큐\n2 : 응 드라마도 영화랑 똑같은 설정을 가지고 가는 거 같은데 조금 다른 거 같기도 하고 나도 아직 못 봤어 키키\n1 : 그렇구나 키키 난 영화를 너무 재미있게 봐서 안 그래도 볼 거 없는데 봐야겠엉 키키\n1 : 너가 그 영화 알아서 이야기할 수 있어서 좋당 키키\n2 : 나도 너무 재밌게 봤어 키키\n2 :  꽤 옛날 영화인데도 전혀 촌스럽다거나 오래된 영화 같지가 않더라\n1 : 그칭 키키 마트 아줌마 기억나? 키키 역대급 빌런으로 나오잖아\n2 : 사이비 같은 거였잖아 우리나라로 치면 신천지 같은 건가? 키키\n2 : 아 미스트 영화 얘기 하니까 오랜만에 보고 싶네 또 보고 자야겠다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 혹시 최애 영화가 뭐양? 키키",
+            "norm_text": "혹시 최애 영화가 뭐양? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+최애/NNG+영화/NNG+가/JKS+뭐/IC+양/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 어바웃 타임 키키 그 영화 분위기나 내용도 너무 좋았지만",
+            "norm_text": "나는 어바웃 타임 키키 그 영화 분위기나 내용도 너무 좋았지만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+어/IC+바/NNB+웃/VV+EP+타임/NNP+키키/NNP+그/MM+영화/NNG+분위기/NNG+나/JC+내용/NNG+도/JX+너무/MAG+좋/VA+았/EP+지만/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 특히 난 거기 나오면 여자 배우를 너무 너무 좋아하거든 너는?",
+            "norm_text": "특히 난 거기 나오면 여자 배우를 너무 너무 좋아하거든 너는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "특히/MAG+난/NP+JX+거기/NP+나오/VV+면/EC+여자/NNG+배우/NNG+를/JKO+너무너무/MAG+좋/VA+아/EC+하/VX+거든/EF+너/NP+는/JX"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아아 그 여자 배우 ㅜㅜ 완전 사랑스럽지",
+            "norm_text": "아아 그 여자 배우 ㅜㅜ 완전 사랑스럽지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+그/MM+여자/NNG+배우/NNG+ㅜㅜ/UNKNOWN+완전/NNG+사랑/NNG+스럽/XSA+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 영화 노트북에도 나온 그 배우 맞지?",
+            "norm_text": "영화 노트북에도 나온 그 배우 맞지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영화/NNG+노트북/NNG+에/JKB+도/JX+나온/VV+ETM+그/MM+배우/NNG+맞/VV+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나는 미스트라는 영화인데 혹시 알아?",
+            "norm_text": "나는 미스트라는 영화인데 혹시 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+미스트/NNG+라는/VCP+ETM+영화/NNG+인데/VCP+EC+혹시/MAG+알/VV+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응응 알아 혹시 그 안개 속에서 괴물 나오는 건데 결말이 충격적인 거 그거 말하는 거 아니야?",
+            "norm_text": "응응 알아 혹시 그 안개 속에서 괴물 나오는 건데 결말이 충격적인 거 그거 말하는 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응응/MAG+알/VV+아/EC+혹시/MAG+그/MM+안개/NNG+속/NNG+에서/JKB+괴물/NNG+나오/VV+는/ETM+건데/NNB+VCP+EC+결말/NNG+이/JKS+충격/NNG+적/XSN+인/VCP+ETM+거/NNB+그거/NP+말/NNG+하/XSV+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응 맞아! 키키 나 그 영화 너무 좋아해 키키",
+            "norm_text": "응 맞아! 키키 나 그 영화 너무 좋아해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+맞/VV+아/EF+키/NNG+키나/XSA+ETN+JX+그/MM+영화/NNG+너무/MAG+좋/VA+아/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 뭔가 괴수 나오는데 심리 스릴러 이런 느낌... 그리고 반전까지  키키 너도 봤엉?",
+            "norm_text": "뭔가 괴수 나오는데 심리 스릴러 이런 느낌... 그리고 반전까지  키키 너도 봤엉?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭔가/NP+VCP+EC+괴수/NNG+나오/VV+는데/EC+심리/NNG+스릴러/NNG+이런/MM+느낌/NNG+./SY+./SY+그리고/MAJ+반전/NNG+까지/JX+키/NNG+키/XSV+ETN+너도/VV+EC+봤/VX+EP+엉/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 나도 봤어 키키",
+            "norm_text": "응 나도 봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+도/JX+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 결말이 너무 충격적이더라고 어떠한 공포 영화보다 더 무서운 느낌이었어",
+            "norm_text": "결말이 너무 충격적이더라고 어떠한 공포 영화보다 더 무서운 느낌이었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "결말/NNG+이/JKS+너무/MAG+충격/NNG+적/XSN+이/VCP+더라고/EC+어떠/XR+한/XSA+ETM+공포/NNG+영화/NNG+보다/JKB+더/MAG+무서운/VA+ETM+느낌/NNG+이/VCP+었/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그 뒤에 주인공을 상상하니까 너무 슬프더라",
+            "norm_text": "그 뒤에 주인공을 상상하니까 너무 슬프더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+뒤/NNG+에/JKB+주인공/NNG+을/JKO+상상/NNG+하/XSV+니까/EC+너무/MAG+슬프/VA+더라/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그치... ㅜㅜ 난 뭔가 그 마트 속에서 인간 군상을 너무 잘 담은 거 같더라구... 위기에 대처하는 인간 모습!",
+            "norm_text": "그치... ㅜㅜ 난 뭔가 그 마트 속에서 인간 군상을 너무 잘 담은 거 같더라구... 위기에 대처하는 인간 모습!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+./SY+ㅜㅜ/UNKNOWN+난/NP+JX+뭔가/NP+VCP+EC+그/MM+마트/NNG+속/NNG+에서/JKB+인간/NNG+군상/NNG+을/JKO+너무/MAG+잘/MAG+담/VV+은/ETM+거/NNB+같/VA+더라구/EF+./SY+위기/NNG+에/JKB+대처/NNG+하/XSV+는/ETM+인간/NNG+모습/NNG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 근데 그런 영화들 보면 항상 제일 무서운 건 괴물이 아니라 인간이더라",
+            "norm_text": "근데 그런 영화들 보면 항상 제일 무서운 건 괴물이 아니라 인간이더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+그런/MM+영화/NNG+들/XSN+보/VV+면/EC+항상/MAG+제일/MAG+무서운/VA+ETM+건/NNB+JX+괴물/NNG+이/JKC+아니/VCN+라/EC+인간/NNG+이/VCP+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 ㅜㅜ 괴물은 그냥 상징적으로 해 놓은 장치 같더라 키키",
+            "norm_text": "맞아 ㅜㅜ 괴물은 그냥 상징적으로 해 놓은 장치 같더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+ㅜㅜ/UNKNOWN+괴물/NNG+은/JX+그냥/MAG+상징/NNG+적/XSN+으로/JKB+해/VV+EC+놓/VX+은/ETM+장치/NNG+같/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그런 거 보면서 영화 감독들은 진짜 천재구나 깨달았어",
+            "norm_text": "그런 거 보면서 영화 감독들은 진짜 천재구나 깨달았어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런/MM+거/NNB+보/VV+면서/EC+영화/NNG+감독/NNG+들/XSN+은/JX+진짜/MAG+천재/NNG+구나/VCP+EC+깨달/VV+았/EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 진짜 상상도 못할 결말이긴 했어 키키",
+            "norm_text": "진짜 상상도 못할 결말이긴 했어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+상상/NNG+도/JX+못/MAG+할/VV+ETM+결말/NNG+이/VCP+긴/ETN+JX+했/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 넷플릭스에 미스트 영화 드라마 버전도 있어 키키 드라마로도 나왔더라고",
+            "norm_text": "넷플릭스에 미스트 영화 드라마 버전도 있어 키키 드라마로도 나왔더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "넷플릭스/NNP+에/JKB+미스트/NNG+영화/NNG+드라마/NNG+버전/NNG+도/JX+있/VA+어/EC+키/NNG+키/NNG+드라마/NNG+로/JKB+도/JX+나왔/VV+EP+더라고/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 아 드라마로 나왔다고? 나 진짜 몰랐엉 키키 좋은 정보 땡큐",
+            "norm_text": "키키 아 드라마로 나왔다고? 나 진짜 몰랐엉 키키 좋은 정보 땡큐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "키/NNG+키/VV+아/EC+드라마/NNG+로/JKB+나왔/VV+EP+다고/EF+나/NP+진짜/MAG+몰랐/VV+EP+엉/EC+키/NNG+키/XSV+ETN+좋/VA+은/ETM+정보/NNG+땡큐/IC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 응 드라마도 영화랑 똑같은 설정을 가지고 가는 거 같은데 조금 다른 거 같기도 하고 나도 아직 못 봤어 키키",
+            "norm_text": "응 드라마도 영화랑 똑같은 설정을 가지고 가는 거 같은데 조금 다른 거 같기도 하고 나도 아직 못 봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+드라마/NNG+도/JX+영화/NNG+랑/JKB+똑같/VA+은/ETM+설정/NNG+을/JKO+가지/VV+고/EC+가/VX+는/ETM+거/NNB+같/VA+은데/EC+조금/MAG+다른/MM+거/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC+나/NP+도/JX+아직/MAG+못/MAG+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그렇구나 키키 난 영화를 너무 재미있게 봐서 안 그래도 볼 거 없는데 봐야겠엉 키키",
+            "norm_text": "그렇구나 키키 난 영화를 너무 재미있게 봐서 안 그래도 볼 거 없는데 봐야겠엉 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+구나/EF+키/NNG+키/XSV+ETN+난/VV+ETM+영화/NNG+를/JKO+너무/MAG+재미있/VA+게/EC+봐서/VV+EC+안/MAG+그래도/VV+EC+볼/VX+ETM+거/NNB+없/VA+는데/EC+봐야/VX+EC+VV+겠/EP+엉/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 너가 그 영화 알아서 이야기할 수 있어서 좋당 키키",
+            "norm_text": "너가 그 영화 알아서 이야기할 수 있어서 좋당 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+가/JKS+그/MM+영화/NNG+알/VV+아서/EC+이야기/NNG+할/XSV+ETM+수/NNB+있/VV+어서/EC+좋/VA+당/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나도 너무 재밌게 봤어 키키",
+            "norm_text": "나도 너무 재밌게 봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+너무/MAG+재밌/VA+게/EC+봤/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 :  꽤 옛날 영화인데도 전혀 촌스럽다거나 오래된 영화 같지가 않더라",
+            "norm_text": "꽤 옛날 영화인데도 전혀 촌스럽다거나 오래된 영화 같지가 않더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "꽤/MAG+옛날/NNG+영화/NNG+인데/VCP+EC+도/JX+전혀/MAG+촌스럽/VA+다거나/EC+오래/MAG+된/VV+ETM+영화/NNG+같/VA+지/EC+가/JX+않/VX+더라/EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 그칭 키키 마트 아줌마 기억나? 키키 역대급 빌런으로 나오잖아",
+            "norm_text": "그칭 키키 마트 아줌마 기억나? 키키 역대급 빌런으로 나오잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+칭/NNG+키/NNG+키/NNG+마트/NNG+아줌마/NNG+기억나/VV+EF+키/NNG+키/NNG+역대/NNG+급/NNG+빌/VA+ETM+런/NNG+으로/JKB+나오/VV+잖아/EC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 사이비 같은 거였잖아 우리나라로 치면 신천지 같은 건가? 키키",
+            "norm_text": "사이비 같은 거였잖아 우리나라로 치면 신천지 같은 건가? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사이비/NNG+같/VA+은/ETM+거/NNB+였잖/VCP+EP+EC+VX+아/EC+우리/NP+나라/NNG+로/JKB+치/VV+면/EC+신천지/NNG+같/VA+은/ETM+건가/NNB+VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 아 미스트 영화 얘기 하니까 오랜만에 보고 싶네 또 보고 자야겠다 키키",
+            "norm_text": "아 미스트 영화 얘기 하니까 오랜만에 보고 싶네 또 보고 자야겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+미스트/NNG+영화/NNG+얘기/NNG+하/XSV+니까/EC+오랜만/NNG+에/JKB+보/VV+고/EC+싶/VX+네/EF+또/MAG+보/VV+고자/EC+야/JX+겠/EP+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

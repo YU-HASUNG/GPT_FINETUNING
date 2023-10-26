@@ -1,0 +1,419 @@
+{
+  "dataset": {
+    "identifier": 32638,
+    "name": "KAKAO_740_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301350480988105/KAKAO_740_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301350480988105/KAKAO_740_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37593,
+      "filename": "KAKAO_740_03.txt",
+      "title": "KAKAO_740_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 1146,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 1146,
+        "word_size": 353,
+        "text": "1 : 야야야야  여행 중에 뚜벅이, 기차, 비행기 중에 뭐가 좋음?\n2 : 기내식 생각하면 비행기가 끌리지만 요새는 안전한 게 더 나은 것 같아서 기차! 너는?\n1 : 나는 비행기에서 마시는 아메리카노가 기분이 정말로다가 좋기 때문에 코로나만 아니었으면 비행기!\n1 : 근데 요즘 시국에는 운전만 할 수 있으면 자가용이 좋은 것 같어\n2 : 키키 이건 비행기보다 아메리카노가 좋은 게 더 큰 거 아냐?\n2 : 근데 자가용이 좋은 거 같다는 거 인정\n2 : 뭐 예매할 필요 없이 가고 싶을 때 갈 수 있는 게 큰 메리트인 거 같아\n1 : 그치그치 게다가 자가용은 휴게소라는 아주 큰 포인트가 있지!\n1 : 하지만 현실은 버스와 지하철과 뚜벅이 3종 세트 살아가는 중\n2 : 휴게소 진짜 ㅠㅠ 그리고 맞지...\n2 : 아니 왜 지하철은 노선도 보면 분명 빼곡한데 우리 집 앞에는 없는지 모르겠어\n1 : 키키 김포 골드 진짜 왜 김포대까지 안 갔는지 아직도 의문이야\n1 : 우리가 그냥 다른 지역으로 이사 가는 게 빠를 듯 키키\n2 : 진짜로 그게 더 빠를 듯\n2 : 그리고 갑자기 생각났는데 너는 운전 30분 vs 대중교통 1시간 30분 하면 뭐 고를 거야\n1 : 나는 대중교통! 뭐든지 남이 해 주는 게 편하다 키키\n1 : 너는 왠지 운전일 것 같은데!\n2 : 키키 들켰다 아니 처음에는 대중교통이었는데 실습 다니면서 차가 났다고 생각하게 됐어\n2 : 만약 취업했는데 직장 거리가 저러면 운전할 거 같아\n1 : 아 그렇네 키키 광명은 좀 너무 멀긴 했어\n1 : 솔직히 지하철이 있으면 고민할 거 없이 대중교통인데 버스로만 그 시간 가려면 너무 힘들어 차 막히는 거 어우\n2 : 맞어 지하철이었으면 더 나았을 듯...\n2 : 요새 드론으로 택배 하는 곳 있다던데 드론이 사람도 날라줬으면 좋겠다\n2 :  교통 수단이 더 발달하거나 자가용 수가 더 줄었으면 좋겠어 키키\n1 :키키 대나무 헬리콥터냐고 키키\n1 : 근데 가능성 있다 좀만 더 정교화되면 포대기 나르듯이! 놀이기구 같겠다 키키\n2 : 키키 대나무 헬리콥터 상용화 시급해\n2 : 근데 그러면 교통사고 수가 미친 듯이 늘어날 거 같긴 함\n1 : 비행기처럼 관제탑 같은 거 생겨서 센서로 막 주고받고까지 기술이 발전되는 거지\n1 : 그러면 대중교통 대혁명이다 진짜\n2 : 그러면 진짜 옛날에 과학 글짓기한 것처럼 될 듯\n2 : 더 발전해라 과학기술~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야야야야  여행 중에 뚜벅이, 기차, 비행기 중에 뭐가 좋음?",
+            "norm_text": "야야야야  여행 중에 뚜벅이, 기차, 비행기 중에 뭐가 좋음?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+야야야/IC+여행/NNG+중/NNB+에/JKB+뚜벅/MAG+이/IC+,/SC+기차/NNG+,/SC+비행기/NNG+중/NNB+에/JKB+뭐/NP+가/JKS+좋/VA+음/ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 기내식 생각하면 비행기가 끌리지만 요새는 안전한 게 더 나은 것 같아서 기차! 너는?",
+            "norm_text": "기내식 생각하면 비행기가 끌리지만 요새는 안전한 게 더 나은 것 같아서 기차! 너는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기내식/NNG+생각/NNG+하/XSV+면/EC+비행기/NNG+가/JKS+끌리/VV+지만/EC+요새/NNG+는/JX+안전/NNG+한/XSA+ETM+게/NNB+JKS+더/MAG+나/VA+은/ETM+것/NNB+같/VA+아서/EC+기차/NNG+너/NP+는/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나는 비행기에서 마시는 아메리카노가 기분이 정말로다가 좋기 때문에 코로나만 아니었으면 비행기!",
+            "norm_text": "나는 비행기에서 마시는 아메리카노가 기분이 정말로다가 좋기 때문에 코로나만 아니었으면 비행기!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+비행기/NNG+에서/JKB+마시/VV+는/ETM+아메리카노/NNP+가/JKS+기분/NNG+이/JKS+정말로/MAG+다/NNG+가/JKS+좋/VA+기/ETN+때문/NNB+에/JKB+코로나/NNG+만/JX+아니/VCN+었/EP+으면/EC+비행기/NNG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 근데 요즘 시국에는 운전만 할 수 있으면 자가용이 좋은 것 같어",
+            "norm_text": "근데 요즘 시국에는 운전만 할 수 있으면 자가용이 좋은 것 같어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+요즘/MAG+시국/NNG+에/JKB+는/JX+운전/NNG+만/JX+할/VV+ETM+수/NNB+있/VV+으면/EC+자가용/NNG+이/JKS+좋/VA+은/ETM+것/NNB+같/VA+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 이건 비행기보다 아메리카노가 좋은 게 더 큰 거 아냐?",
+            "norm_text": "키키 이건 비행기보다 아메리카노가 좋은 게 더 큰 거 아냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+이/VCP+건/EC+비행기/NNG+보다/JKB+아메리카노/NNP+가/JKS+좋/VA+은/ETM+게/NNB+JKS+더/MAG+큰/VA+ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 자가용이 좋은 거 같다는 거 인정",
+            "norm_text": "근데 자가용이 좋은 거 같다는 거 인정",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+자가용/NNG+이/JKS+좋/VA+은/ETM+거/NNB+같/VA+다는/ETM+거/NNB+인정/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 뭐 예매할 필요 없이 가고 싶을 때 갈 수 있는 게 큰 메리트인 거 같아",
+            "norm_text": "뭐 예매할 필요 없이 가고 싶을 때 갈 수 있는 게 큰 메리트인 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+예매/NNG+할/XSV+ETM+필요/NNG+없이/MAG+가/VV+고/EC+싶/VX+을/ETM+때/NNG+갈/VV+ETM+수/NNB+있/VV+는/ETM+게/NNB+JKS+큰/VA+ETM+메리트/NNG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그치그치 게다가 자가용은 휴게소라는 아주 큰 포인트가 있지!",
+            "norm_text": "그치그치 게다가 자가용은 휴게소라는 아주 큰 포인트가 있지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+그치/IC+게다가/MAG+자가용/NNG+은/JX+휴게소/NNG+라는/VCP+ETM+아주/MAG+큰/VA+ETM+포인트/NNG+가/JKS+있/VA+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하지만 현실은 버스와 지하철과 뚜벅이 3종 세트 살아가는 중",
+            "norm_text": "하지만 현실은 버스와 지하철과 뚜벅이 3종 세트 살아가는 중",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하지만/MAJ+현실/NNG+은/JX+버스/NNG+와/JC+지하철/NNG+과/JKB+뚜벅/MAG+이/MM+3/SN+종/NNG+세트/NNG+살아가/VV+는/ETM+중/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 휴게소 진짜 ㅠㅠ 그리고 맞지...",
+            "norm_text": "휴게소 진짜 ㅠㅠ 그리고 맞지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴게소/NNG+진짜/MAG+ㅠㅠ/UNKNOWN+그리고/MAJ+맞/VV+지/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아니 왜 지하철은 노선도 보면 분명 빼곡한데 우리 집 앞에는 없는지 모르겠어",
+            "norm_text": "아니 왜 지하철은 노선도 보면 분명 빼곡한데 우리 집 앞에는 없는지 모르겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+왜/MAG+지하철/NNG+은/JX+노선/NNG+도/JX+보/VV+면/EC+분명/MAG+빼곡/XR+한데/XSA+EC+우리/NP+집/NNG+앞/NNG+에/JKB+는/JX+없/VA+는지/EC+모르/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 김포 골드 진짜 왜 김포대까지 안 갔는지 아직도 의문이야",
+            "norm_text": "키키 김포 골드 진짜 왜 김포대까지 안 갔는지 아직도 의문이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키/NNP+김포/NNP+골드/NNP+진짜/MAG+왜/MAG+김/NNP+포대/NNG+까지/JX+안/MAG+갔/VV+EP+는지/EC+아직/MAG+도/JX+의문/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 우리가 그냥 다른 지역으로 이사 가는 게 빠를 듯 키키",
+            "norm_text": "우리가 그냥 다른 지역으로 이사 가는 게 빠를 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+가/JKS+그냥/MAG+다른/MM+지역/NNG+으로/JKB+이사/NNG+가/VV+는/ETM+게/NNB+JKS+빠를/VA+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 진짜로 그게 더 빠를 듯",
+            "norm_text": "진짜로 그게 더 빠를 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜로/MAG+그게/NP+JKS+더/MAG+빠를/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그리고 갑자기 생각났는데 너는 운전 30분 vs 대중교통 1시간 30분 하면 뭐 고를 거야",
+            "norm_text": "그리고 갑자기 생각났는데 너는 운전 30분 vs 대중교통 1시간 30분 하면 뭐 고를 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그리고/MAJ+갑자기/MAG+생각/NNG+났/VV+EP+는데/EC+너/NP+는/JX+운전/NNG+30/SN+분/NNBC+vs/SL+대중교통/NNG+1/SN+시간/NNG+30/SN+분/NNBC+하/VV+면/EC+뭐/IC+고를/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나는 대중교통! 뭐든지 남이 해 주는 게 편하다 키키",
+            "norm_text": "나는 대중교통! 뭐든지 남이 해 주는 게 편하다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+대중교통/NNG+뭐/NP+든지/VCP+EC+남이/NNG+해/XSV+EC+주/VX+는/ETM+게/NNB+JKS+편하/VA+다키키/NNP"
+          },
+          {
+            "id": 17,
+            "text": "1 : 너는 왠지 운전일 것 같은데!",
+            "norm_text": "너는 왠지 운전일 것 같은데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+는/JX+왠지/MAG+운전/NNG+일/VCP+ETM+것/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 들켰다 아니 처음에는 대중교통이었는데 실습 다니면서 차가 났다고 생각하게 됐어",
+            "norm_text": "키키 들켰다 아니 처음에는 대중교통이었는데 실습 다니면서 차가 났다고 생각하게 됐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+들켰/VV+EP+다/EF+아니/IC+처음/NNG+에/JKB+는/JX+대중교통/NNG+이/VCP+었/EP+는데/EC+실습/NNG+다니/VV+면서/EC+차/NNG+가/JKS+났/VV+EP+다고/EC+생각/NNG+하/XSV+게/EC+됐/VV+EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 만약 취업했는데 직장 거리가 저러면 운전할 거 같아",
+            "norm_text": "만약 취업했는데 직장 거리가 저러면 운전할 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "만약/NNG+취업/NNG+했/XSV+EP+는데/EC+직장/NNG+거리/NNG+가/JKS+저러/VV+면/EC+운전/NNG+할/XSV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아 그렇네 키키 광명은 좀 너무 멀긴 했어",
+            "norm_text": "아 그렇네 키키 광명은 좀 너무 멀긴 했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그렇/VA+네/EF+키키/NNP+광명/NNG+은/JX+좀/MAG+너무/MAG+멀/VA+긴/ETN+JX+했/VX+EP+어/EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 솔직히 지하철이 있으면 고민할 거 없이 대중교통인데 버스로만 그 시간 가려면 너무 힘들어 차 막히는 거 어우",
+            "norm_text": "솔직히 지하철이 있으면 고민할 거 없이 대중교통인데 버스로만 그 시간 가려면 너무 힘들어 차 막히는 거 어우",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "솔직히/MAG+지하철/NNG+이/JKS+있/VV+으면/EC+고민/NNG+할/XSV+ETM+거/NNB+없이/MAG+대중교통/NNG+인데/VCP+EC+버스/NNG+로/JKB+만/JX+그/MM+시간/NNG+가/VV+려면/EC+너무/MAG+힘들/VA+어/EC+차/NNG+막히/VV+는/ETM+거/NNB+어우/NNG"
+          },
+          {
+            "id": 22,
+            "text": "2 : 맞어 지하철이었으면 더 나았을 듯...",
+            "norm_text": "맞어 지하철이었으면 더 나았을 듯...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+지하철/NNG+이/VCP+었/EP+으면/EC+더나/VV+았/EP+을/ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 요새 드론으로 택배 하는 곳 있다던데 드론이 사람도 날라줬으면 좋겠다",
+            "norm_text": "요새 드론으로 택배 하는 곳 있다던데 드론이 사람도 날라줬으면 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+드/NNG+론/XSN+으로/JKB+택배/NNG+하/XSV+는/ETM+곳/NNB+있/VA+다던/ETM+데드/NNG+론/XSN+이/JKS+사람/NNG+도/JX+날라/VV+EC+줬/VX+EP+으면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 :  교통 수단이 더 발달하거나 자가용 수가 더 줄었으면 좋겠어 키키",
+            "norm_text": "교통 수단이 더 발달하거나 자가용 수가 더 줄었으면 좋겠어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "교통수단/NNG+이/JKS+더/MAG+발달/NNG+하/XSV+거나/EC+자가/NNG+용수/NNG+가/JKS+더/MAG+줄/VV+었/EP+으면/EC+좋/VA+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 :키키 대나무 헬리콥터냐고 키키",
+            "norm_text": "키키 대나무 헬리콥터냐고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+대나무/NNG+헬리콥터/NNG+냐고/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 근데 가능성 있다 좀만 더 정교화되면 포대기 나르듯이! 놀이기구 같겠다 키키",
+            "norm_text": "근데 가능성 있다 좀만 더 정교화되면 포대기 나르듯이! 놀이기구 같겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "근데/MAJ+가능/NNG+성/XSN+있/VV+다/EC+좀/MAG+만/JX+더/MAG+정교/XR+화/XSN+되/XSV+면/EC+포대기/NNG+나르/VV+듯이/EC+!/SY+놀이/NNG+기구/NNG+같/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 27,
+            "text": "2 : 키키 대나무 헬리콥터 상용화 시급해",
+            "norm_text": "키키 대나무 헬리콥터 상용화 시급해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+대나무/NNG+헬리콥터/NNG+상용/NNG+화/XSN+시급/XR+해/XSA+EC"
+          },
+          {
+            "id": 28,
+            "text": "2 : 근데 그러면 교통사고 수가 미친 듯이 늘어날 거 같긴 함",
+            "norm_text": "근데 그러면 교통사고 수가 미친 듯이 늘어날 거 같긴 함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그러면/MAJ+교통사고/NNG+수/NNG+가/JKS+미친/VV+ETM+듯이/NNB+늘어날/VV+ETM+거/NNB+같/VA+긴/ETN+JX+함/VX+ETN"
+          },
+          {
+            "id": 29,
+            "text": "1 : 비행기처럼 관제탑 같은 거 생겨서 센서로 막 주고받고까지 기술이 발전되는 거지",
+            "norm_text": "비행기처럼 관제탑 같은 거 생겨서 센서로 막 주고받고까지 기술이 발전되는 거지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비행기/NNG+처럼/JKB+관제탑/NNG+같/VA+은/ETM+거/NNB+생겨서/VV+EC+센서/NNG+로/JKB+막/NNG+주고받/VV+고/EC+까지/JX+기술/NNG+이/JKS+발전/NNG+되/XSV+는/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 30,
+            "text": "1 : 그러면 대중교통 대혁명이다 진짜",
+            "norm_text": "그러면 대중교통 대혁명이다 진짜",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러면/MAJ+대중교통/NNG+대혁명/NNG+이/JKS+다/MAG+진짜/MAG"
+          },
+          {
+            "id": 31,
+            "text": "2 : 그러면 진짜 옛날에 과학 글짓기한 것처럼 될 듯",
+            "norm_text": "그러면 진짜 옛날에 과학 글짓기한 것처럼 될 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러면/MAJ+진짜/MAG+옛날/NNG+에/JKB+과학/NNG+글짓기/NNG+한/XSA+ETM+것/NNB+처럼/JKB+될/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 32,
+            "text": "2 : 더 발전해라 과학기술~",
+            "norm_text": "더 발전해라 과학기술~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "더/MAG+발전/NNG+해라/XSV+EC+과학/NNG+기술/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24990,
+    "name": "KAKAO_552_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155950052721/KAKAO_552_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155950052721/KAKAO_552_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30025,
+      "filename": "KAKAO_552_14.txt",
+      "title": "KAKAO_552_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 686,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 686,
+        "word_size": 196,
+        "text": "1 : 부산에서 여성 전용 고시텔에 들어와 신발을 훔쳐 간 남성이 경찰에 검거됐대...\n2 : 아 나도 그 기사 봤어! 소름 돋더라...\n1 : cctv 확인 해 보니까 새벽에 여성 전용 고시텔 들어가서 복도 신발장에 있는 신발들의 냄새를 맡더라\n2 : 찾고 싶은 냄새가 있었나...? 남의 발냄새를...\n1 : 키키 찾고 싶은 냄새... 그랬나... 이것저것 맡아 보면서 한참을 서성이더라\n2 : 나는 영상까진 못 봤는데... 진짜? 으... 싫다...\n1 : 나도... 한참 동안 신발 냄새를 맡더니 5켤레의 신발을 훔쳐 가더라고...\n2 : 키키 5켤레나? 많이도 훔쳐 갔네 범인은 잡았대?\n1 : 응 경찰이 주변 cctv로 동선을 추적해서 잡았대\n1 : 그 남성의 집에 운동화랑 단화 등 수 켤레의 여성 신발들이 발견됐다더라\n2 : 다행이네 도대체 무슨 취향이길래 신발 냄새에 집착을 하는 거지\n1 : 글쎄... 그 사람 마음은 그 사람만 알 수 있지 않을까?\n2 : 그렇겠지 진짜 세상엔 이해 안 되는 사람이 너무 많은 거 같아\n1 : 응 아직 사건이 마무리가 안 돼서 범행 계기같은 거는 공개하기 어렵다더라\n2 : 키키 댓글에 이냐고 킁킁거리고 다니냐고 하더라... 그거 보고 엄청 웃었어\n1 : 내 신발이였으면 안 가져갔을 껀데... 키키 이걸 다행이라 해야 할지...\n2 : 아 키키 너 때문에 또 웃겼네... 우리 향기롭게 살아 보자...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부산에서 여성 전용 고시텔에 들어와 신발을 훔쳐 간 남성이 경찰에 검거됐대...",
+            "norm_text": "부산에서 여성 전용 고시텔에 들어와 신발을 훔쳐 간 남성이 경찰에 검거됐대...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "부산/NNP+에서/JKB+여성/NNG+전용/NNG+고시/NNG+텔/NNG+에/JKB+들어와/VV+EC+신발/NNG+을/JKO+훔쳐간/VV+EC+VX+ETM+남성/NNG+이/JKS+경찰/NNG+에/JKB+검거/NNG+됐/XSV+EP+대/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 나도 그 기사 봤어! 소름 돋더라...",
+            "norm_text": "아 나도 그 기사 봤어! 소름 돋더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+도/JX+그/MM+기사/NNG+봤/VV+EP+어/EF+소름/NNG+돋/VV+EP+더라/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : cctv 확인 해 보니까 새벽에 여성 전용 고시텔 들어가서 복도 신발장에 있는 신발들의 냄새를 맡더라",
+            "norm_text": "cctv 확인 해 보니까 새벽에 여성 전용 고시텔 들어가서 복도 신발장에 있는 신발들의 냄새를 맡더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "cctv/SL+확인/NNG+해/XSV+EC+보/VX+니까/EC+새벽/NNG+에/JKB+여성/NNG+전용/NNG+고시/NNG+텔/NNG+들어가/VV+서/EC+복도/NNG+신발장/NNG+에/JKB+있/VV+는/ETM+신발/NNG+들/XSN+의/JKG+냄새/NNG+를/JKO+맡/VV+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 찾고 싶은 냄새가 있었나...? 남의 발냄새를...",
+            "norm_text": "찾고 싶은 냄새가 있었나...? 남의 발냄새를...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "찾/VV+고/EC+싶/VX+은/ETM+냄새/NNG+가/JKS+있/VA+었/EP+나/EF+./SY+./SY+남/NNG+의/JKG+발/NNG+냄새/NNG+를/JKO+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 찾고 싶은 냄새... 그랬나... 이것저것 맡아 보면서 한참을 서성이더라",
+            "norm_text": "키키 찾고 싶은 냄새... 그랬나... 이것저것 맡아 보면서 한참을 서성이더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+찾/VV+고/EC+싶/VX+은/ETM+냄새/NNG+./SY+./SY+그랬/VV+EP+나/EF+./SY+이것저것/MAG+맡아보/VV+면서/EC+한참/NNG+을/JKO+서성이/VV+더라/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 영상까진 못 봤는데... 진짜? 으... 싫다...",
+            "norm_text": "나는 영상까진 못 봤는데... 진짜? 으... 싫다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+영상/NNG+까진/JX+JX+못/MAG+봤/VV+EP+는데/EC+./SY+./SY+진짜/MAG+으/IC+./SY+싫/VA+다/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나도... 한참 동안 신발 냄새를 맡더니 5켤레의 신발을 훔쳐 가더라고...",
+            "norm_text": "나도... 한참 동안 신발 냄새를 맡더니 5켤레의 신발을 훔쳐 가더라고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+./SY+./SY+한참/MAG+동안/NNG+신발/NNG+냄새/NNG+를/JKO+맡/VV+더니/EC+5/SN+켤레/NNBC+의/JKG+신발/NNG+을/JKO+훔쳐/VV+EC+가/VX+더라고/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 5켤레나? 많이도 훔쳐 갔네 범인은 잡았대?",
+            "norm_text": "키키 5켤레나? 많이도 훔쳐 갔네 범인은 잡았대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+5/SN+켤레/NNBC+나/JX+많이/MAG+도/JX+훔쳐/VV+EC+갔/VV+EP+네/EF+범인/NNG+은/JX+잡/VV+았/EP+대/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 경찰이 주변 cctv로 동선을 추적해서 잡았대",
+            "norm_text": "응 경찰이 주변 cctv로 동선을 추적해서 잡았대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+경찰/NNG+이/JKS+주변/NNG+cctv/SL+로/JKB+동선/NNG+을/JKO+추적/NNG+해서/XSV+EC+잡/VV+았/EP+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그 남성의 집에 운동화랑 단화 등 수 켤레의 여성 신발들이 발견됐다더라",
+            "norm_text": "그 남성의 집에 운동화랑 단화 등 수 켤레의 여성 신발들이 발견됐다더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+남성/NNG+의/JKG+집/NNG+에/JKB+운동/NNG+화랑/NNG+단화/NNG+등수/NNG+켤레/NNG+의/JKG+여성/NNG+신발/NNG+들/XSN+이/JKS+발견/NNG+됐/XSV+EP+다더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 다행이네 도대체 무슨 취향이길래 신발 냄새에 집착을 하는 거지",
+            "norm_text": "다행이네 도대체 무슨 취향이길래 신발 냄새에 집착을 하는 거지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다행/NNG+이/VCP+네/EF+도대체/MAG+무슨/MM+취향/NNG+이/VCP+길래/EC+신발/NNG+냄새/NNG+에/JKB+집착/NNG+을/JKO+하/VV+는/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 글쎄... 그 사람 마음은 그 사람만 알 수 있지 않을까?",
+            "norm_text": "글쎄... 그 사람 마음은 그 사람만 알 수 있지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글쎄/IC+./SY+그/MM+사람/NNG+마음/NNG+은/JX+그/MM+사람/NNG+만/JX+알/VV+ETM+수/NNB+있/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그렇겠지 진짜 세상엔 이해 안 되는 사람이 너무 많은 거 같아",
+            "norm_text": "그렇겠지 진짜 세상엔 이해 안 되는 사람이 너무 많은 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+겠/EP+지/EF+진짜/MAG+세상/NNG+엔/JKB+JX+이해/NNG+안/MAG+되/VV+는/ETM+사람/NNG+이/JKS+너무/MAG+많/VA+은/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응 아직 사건이 마무리가 안 돼서 범행 계기같은 거는 공개하기 어렵다더라",
+            "norm_text": "응 아직 사건이 마무리가 안 돼서 범행 계기같은 거는 공개하기 어렵다더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+아직/MAG+사건/NNG+이/JKS+마무리/NNG+가/JKS+안/MAG+돼서/VV+EC+범행/NNG+계기/NNG+같/VA+은/ETM+거/NNB+는/JX+공개/NNG+하/XSV+기/ETN+어렵/VA+다더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 댓글에 이냐고 킁킁거리고 다니냐고 하더라... 그거 보고 엄청 웃었어",
+            "norm_text": "키키 댓글에 이냐고 킁킁거리고 다니냐고 하더라... 그거 보고 엄청 웃었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+댓글/NNG+에/JKB+이/VV+냐고/EC+킁킁거리/VV+고/EC+다니/VV+냐고/EC+하/VX+더라/EF+./SY+그거/NP+보고/JKB+엄청/MAG+웃/VV+었/EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 내 신발이였으면 안 가져갔을 껀데... 키키 이걸 다행이라 해야 할지...",
+            "norm_text": "내 신발이였으면 안 가져갔을 껀데... 키키 이걸 다행이라 해야 할지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+신발/NNG+이/VCP+였/EP+으면/EC+안/MAG+가져갔/VV+EP+을/ETM+껀/NNB+JX+데/NNB+./SY+./SY+키/NNG+키/XSV+ETN+이걸/NP+JKO+다행/NNG+이/VCP+라/EC+해야/VV+EC+할지/VX+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 키키 너 때문에 또 웃겼네... 우리 향기롭게 살아 보자...",
+            "norm_text": "아 키키 너 때문에 또 웃겼네... 우리 향기롭게 살아 보자...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키너/NNP+때문/NNB+에/JKB+또/MAG+웃겼/VV+EP+네/EF+./SY+우리/NP+향기/NNG+롭/XSA+게/EC+살/VV+아/EC+보/VX+자/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

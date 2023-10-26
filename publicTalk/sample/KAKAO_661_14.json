@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 40194,
+    "name": "KAKAO_661_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145409021098/KAKAO_661_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145409021098/KAKAO_661_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34412,
+      "filename": "KAKAO_661_14.txt",
+      "title": "KAKAO_661_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 519,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 519,
+        "word_size": 160,
+        "text": "1 : 이번에 현대차에서 로봇 개 투입한 거 봤어?\n2 : 로봇 개? 그게 뭐 하는데?\n1 : 동적 감지 기능이 있어서 공장 보안에 활용한대 키키\n2 : 이러다 로봇들 때문에 우리 일자리 다 잃는 거 아니야?\n1 : 얼마 안 가서 그럴지도 몰라 ㅠㅠ\n2 : 요새 음식점에도 로봇들이 있던데 ㅠ\n1 : 키오스크 말하는 거야? 무슨 로봇?\n2 : 주방에서 테이블까지 음식 가져다주는 로봇 있던데?\n1 : 헐... 이러다 진짜 알바며 직장이며 다 사라지는 거 아니야? ㅠㅠ\n2 : 최근에 책을 읽었는데 로봇이 인류를 집어삼킬 거라고 예언하는 책이었어\n1 : 산업 구조에 따라 직업이 달라지는 건 어쩔 수 없는 거지만 ㅠㅠ\n2 : 4차 산업혁명에서도 살아남는 직업으로 우리가 준비해야 하지 않을까?\n1 : 너 드론 준비한다고 했지?\n1 : 미래 유망 직업에 드론 전문가 있는데?\n2 : 엄마가 드론이 나중에 유망할 거라고 했는데 진짜네 하하\n2 : 열심히 준비해야겠다\n1 : 나도 그럼 뭘 준비해야 할까 ㅠㅠ?\n2 : 나는 너가 코딩 같은 거 해도 잘할 것 같은데?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번에 현대차에서 로봇 개 투입한 거 봤어?",
+            "norm_text": "이번에 현대차에서 로봇 개 투입한 거 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+에/JKB+현대차/NNP+에서/JKB+로봇/NNG+개/NNBC+투입/NNG+한/XSA+ETM+거/NNB+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 로봇 개? 그게 뭐 하는데?",
+            "norm_text": "로봇 개? 그게 뭐 하는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "로봇/NNG+개/NNBC+그게/NP+JKS+뭐/IC+하/VV+는데/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 동적 감지 기능이 있어서 공장 보안에 활용한대 키키",
+            "norm_text": "동적 감지 기능이 있어서 공장 보안에 활용한대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "동적/NNG+감지/NNG+기능/NNG+이/JKS+있/VV+어서/EC+공장/NNG+보안/NNG+에/JKB+활용/NNG+한/XSA+ETM+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 이러다 로봇들 때문에 우리 일자리 다 잃는 거 아니야?",
+            "norm_text": "이러다 로봇들 때문에 우리 일자리 다 잃는 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이러다/MAJ+로봇/NNG+들/XSN+때문/NNB+에/JKB+우리/NP+일자리/NNG+다/MAG+잃/VV+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 얼마 안 가서 그럴지도 몰라 ㅠㅠ",
+            "norm_text": "얼마 안 가서 그럴지도 몰라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼마/NNG+안/MAG+가/VV+서/EC+그럴지/VV+EC+도/JX+몰라/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요새 음식점에도 로봇들이 있던데 ㅠ",
+            "norm_text": "요새 음식점에도 로봇들이 있던데 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/NNG+음식점/NNG+에/JKB+도/JX+로봇/NNG+들/XSN+이/JKS+있/VV+던/ETM+데ㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키오스크 말하는 거야? 무슨 로봇?",
+            "norm_text": "키오스크 말하는 거야? 무슨 로봇?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키오스/NNP+크/NNP+말/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF+무슨/MM+로봇/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 주방에서 테이블까지 음식 가져다주는 로봇 있던데?",
+            "norm_text": "주방에서 테이블까지 음식 가져다주는 로봇 있던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주방/NNG+에서/JKB+테이블/NNG+까지/JX+음식/NNG+가져다주/VV+는/ETM+로봇/NNG+있/VA+던데/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 헐... 이러다 진짜 알바며 직장이며 다 사라지는 거 아니야? ㅠㅠ",
+            "norm_text": "헐... 이러다 진짜 알바며 직장이며 다 사라지는 거 아니야? ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+이러/VV+다/EF+진짜/MAG+알/VV+ETM+바/NNB+며/EC+직장/NNG+이/VCP+며/EC+다/MAG+사라지/VV+는/ETM+거/NNB+아니/VCN+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 최근에 책을 읽었는데 로봇이 인류를 집어삼킬 거라고 예언하는 책이었어",
+            "norm_text": "최근에 책을 읽었는데 로봇이 인류를 집어삼킬 거라고 예언하는 책이었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "최근/NNG+에/JKB+책/NNG+을/JKO+읽/VV+었/EP+는데/EC+로봇/NNG+이/JKS+인류/NNG+를/JKO+집어삼킬/VV+ETM+거/NNB+라고/VCP+EC+예언/NNG+하/XSV+는/ETM+책/NNG+이/VCP+었/EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 산업 구조에 따라 직업이 달라지는 건 어쩔 수 없는 거지만 ㅠㅠ",
+            "norm_text": "산업 구조에 따라 직업이 달라지는 건 어쩔 수 없는 거지만 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "산업/NNG+구조/NNG+에/JKB+따라/VV+EC+직업/NNG+이/JKS+달라지/VV+는/ETM+건/NNB+JX+어쩔/VV+ETM+수/NNB+없/VA+는/ETM+거/NNB+지만/VCP+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 4차 산업혁명에서도 살아남는 직업으로 우리가 준비해야 하지 않을까?",
+            "norm_text": "4차 산업혁명에서도 살아남는 직업으로 우리가 준비해야 하지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "4/SN+차/NNBC+산업/NNG+혁명/NNG+에서/JKB+도/JX+살아남/VV+는/ETM+직업/NNG+으로/JKB+우리/NP+가/JKS+준비/NNG+해야/XSV+EC+하/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 너 드론 준비한다고 했지?",
+            "norm_text": "너 드론 준비한다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+드론/NNP+준비/NNG+한다고/XSV+EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 미래 유망 직업에 드론 전문가 있는데?",
+            "norm_text": "미래 유망 직업에 드론 전문가 있는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미래/NNG+유망/NNG+직업/NNG+에/JKB+드론/NNP+전문가/NNG+있/VV+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 엄마가 드론이 나중에 유망할 거라고 했는데 진짜네 하하",
+            "norm_text": "엄마가 드론이 나중에 유망할 거라고 했는데 진짜네 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+가/JKS+드론/NNP+이/JKS+나중/NNG+에/JKB+유망/NNG+할/XSV+ETM+거/NNB+라고/VCP+EC+했/VX+EP+는데/EC+진짜/MAG+네/IC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 열심히 준비해야겠다",
+            "norm_text": "열심히 준비해야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "열심히/MAG+준비/NNG+해야/XSV+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 나도 그럼 뭘 준비해야 할까 ㅠㅠ?",
+            "norm_text": "나도 그럼 뭘 준비해야 할까 ㅠㅠ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+그럼/MAJ+뭘/NP+JKO+준비/NNG+해야/XSV+EC+할까/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나는 너가 코딩 같은 거 해도 잘할 것 같은데?",
+            "norm_text": "나는 너가 코딩 같은 거 해도 잘할 것 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+너/NP+가/JKS+코딩/NNG+같/VA+은/ETM+거/NNB+해도/VV+EC+잘/MAG+할/VV+ETM+것/NNB+같/VA+은데/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

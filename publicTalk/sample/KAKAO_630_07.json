@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 38592,
+    "name": "KAKAO_630_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120548091989/KAKAO_630_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120548091989/KAKAO_630_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32200,
+      "filename": "KAKAO_630_07.txt",
+      "title": "KAKAO_630_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 364,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 364,
+        "word_size": 132,
+        "text": "1 : 이번 주말에 선약 있어?\n2 : 없어 왜? 뭐 할 건데 하자 키키\n1 : 뭐 안 해 하긴 뭘 해 키키\n2 : 그럼 주말 시간 왜 물어봄?\n1 : 동생 생일인데 같이 밥 먹고 하자고 키키\n2 : 콜. 시간 무조건 비워야지 생일인데\n1 : 그래 선물 잔뜩 챙겨와 키키\n2 : 선물 뭐 하지...\n2 : 동생 뭐 좋아하냐?\n1 : 걔는 뭐 가리는 거 없지 ... 잡식이라\n2 : 흠 요즘 필요한 거 없대냐?\n1 : 모르겠어. 레고 갖고 싶다고 한 거 같기도 하고 키키\n2 : 엥 레고? 의외네?\n2 : 그런 취미 있었어?\n1 : 몰라. 꽃 모양 레고가 있다고 하더라고\n2 : 아 뭔지 알 거 같아 그걸로 줄까?\n1 : 그래도 되고 너 맘대로 해 키키\n2 : 그거 주문 하러 간다!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번 주말에 선약 있어?",
+            "norm_text": "이번 주말에 선약 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+주말/NNG+에/JKB+선약/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 없어 왜? 뭐 할 건데 하자 키키",
+            "norm_text": "없어 왜? 뭐 할 건데 하자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "없/VA+어/EF+왜/MAG+뭐/IC+할/VV+ETM+건데/NNB+VCP+EC+하/VV+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 뭐 안 해 하긴 뭘 해 키키",
+            "norm_text": "뭐 안 해 하긴 뭘 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+안/MAG+해/VV+EC+하/VV+긴/ETN+JX+뭘/NP+JKO+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럼 주말 시간 왜 물어봄?",
+            "norm_text": "그럼 주말 시간 왜 물어봄?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+주말/NNG+시간/NNG+왜/MAG+물어봄/VV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 동생 생일인데 같이 밥 먹고 하자고 키키",
+            "norm_text": "동생 생일인데 같이 밥 먹고 하자고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "동생/NNG+생일/NNG+인데/VCP+EC+같이/MAG+밥/NNG+먹/VV+고/EC+하/VV+자고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 콜. 시간 무조건 비워야지 생일인데",
+            "norm_text": "콜. 시간 무조건 비워야지 생일인데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "콜/NNG+./SY+시간/NNG+무조건/MAG+비워/VV+EC+야지/NNG+생일/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래 선물 잔뜩 챙겨와 키키",
+            "norm_text": "그래 선물 잔뜩 챙겨와 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그래/IC+선물/NNG+잔뜩/MAG+챙겨와/VV+EC+VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 선물 뭐 하지...",
+            "norm_text": "선물 뭐 하지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "선물/NNG+뭐/IC+하/VV+지/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 동생 뭐 좋아하냐?",
+            "norm_text": "동생 뭐 좋아하냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동생/NNG+뭐/IC+좋/VA+아/EC+하/VX+냐/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 걔는 뭐 가리는 거 없지 ... 잡식이라",
+            "norm_text": "걔는 뭐 가리는 거 없지 ... 잡식이라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "걔/NP+는/JX+뭐/IC+가리/VV+는/ETM+거/NNB+없/VA+지/EF+./SY+잡식/NNG+이/VCP+라/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 흠 요즘 필요한 거 없대냐?",
+            "norm_text": "흠 요즘 필요한 거 없대냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "흠/IC+요즘/MAG+필요/NNG+한/XSA+ETM+거/NNB+없/VA+대냐/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 모르겠어. 레고 갖고 싶다고 한 거 같기도 하고 키키",
+            "norm_text": "모르겠어. 레고 갖고 싶다고 한 거 같기도 하고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "모르/VV+겠/EP+어/EF+레고/NNP+갖/VV+고/EC+싶/VX+다고/EC+한/VX+ETM+거/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 엥 레고? 의외네?",
+            "norm_text": "엥 레고? 의외네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+레고/NNP+?/SY+의외/NNG+네/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그런 취미 있었어?",
+            "norm_text": "그런 취미 있었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런/MM+취미/NNG+있/VV+었/EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 몰라. 꽃 모양 레고가 있다고 하더라고",
+            "norm_text": "몰라. 꽃 모양 레고가 있다고 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몰라/VV+EF+꽃/NNG+모양/NNG+레고/NNP+가/JKS+있/VA+다고/EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 뭔지 알 거 같아 그걸로 줄까?",
+            "norm_text": "아 뭔지 알 거 같아 그걸로 줄까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+뭔지/NP+VCP+EC+알/VV+ETM+거/NNB+같/VA+아/EC+그걸로/NP+JKB+줄까/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그래도 되고 너 맘대로 해 키키",
+            "norm_text": "그래도 되고 너 맘대로 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+되/VV+고/EC+너/NP+맘대로/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그거 주문 하러 간다!",
+            "norm_text": "그거 주문 하러 간다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+주문/NNG+하/XSV+러/EC+간다/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

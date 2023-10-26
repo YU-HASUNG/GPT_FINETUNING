@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 21220,
+    "name": "KAKAO_502_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405060381/KAKAO_502_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405060381/KAKAO_502_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29074,
+      "filename": "KAKAO_502_03.txt",
+      "title": "KAKAO_502_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 482,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 482,
+        "word_size": 154,
+        "text": "1 : 아저씨는 항상 소나타만 타서 다른 차로 바꾸기가 그래\n2 : 왜용? 다른 차도 좀 타보고 싶지 않으세요?\n1 : 몇 십년 탔더니 그 차가 편해서 못 타겠어\n2 : 근데 그것도 맞아요 ㅠㅠ 저도 지금 마티즈 타는데 큰 차 타면 너무 불편해...\n1 : 마티즈는 힘들지 속도도 안 나고\n2 : 맞아여 ㅠㅠ 무시도 많이 하고...\n2 : 저는 바꾸고 싶은데 돈이 없어서... ㅠㅠ\n1 : 에이 마티즈 탄다고 무시하겠어?\n2 : 아니 엄청 무시해요 도로에서 다들 막 끼어들고 !\n1 : 진짜? 에이 설마 착각 아니야?\n2 : 아니에요! 요다도 모닝인데 진짜 그렇대요 키키\n1 : 나쁜 사람들이네 아저씨는 안 그러는데\n2 : 키키 오? 역시 스윗가이\n1 : 다 양보하고 그래야지 그래봤자 얼마 못 가\n2 : 맞아요 오늘 비도 오는데 퇴근길에 사고 났던데...\n2 : 증말 다들 양보 좀 하지\n1 : 어휴 다들 양보 운전 하면 얼마나 좋아\n2 : 맞아... 진짜 다들 그러다가 빨리 골로 갈 텐데",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아저씨는 항상 소나타만 타서 다른 차로 바꾸기가 그래",
+            "norm_text": "아저씨는 항상 소나타만 타서 다른 차로 바꾸기가 그래",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아저씨/NNG+는/JX+항상/MAG+소나타/NNG+만/JX+타/VV+서/EC+다른/MM+차/NNG+로/JKB+바꾸/VV+기/ETN+가/JKS+그래/VA+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜용? 다른 차도 좀 타보고 싶지 않으세요?",
+            "norm_text": "왜용? 다른 차도 좀 타보고 싶지 않으세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+용/NNG+다른/MM+차/NNG+도/JX+좀/MAG+타/VV+EC+보/VX+고/EC+싶/VX+지/EC+않/VX+으세요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 몇 십년 탔더니 그 차가 편해서 못 타겠어",
+            "norm_text": "몇 십년 탔더니 그 차가 편해서 못 타겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몇/MM+십/NR+년/NNBC+탔/VV+EP+더니/EC+그/MM+차/NNG+가/JKS+편해서/VA+EC+못/MAG+타/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 그것도 맞아요 ㅠㅠ 저도 지금 마티즈 타는데 큰 차 타면 너무 불편해...",
+            "norm_text": "근데 그것도 맞아요 ㅠㅠ 저도 지금 마티즈 타는데 큰 차 타면 너무 불편해...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그것/NP+도/JX+맞/VV+아요/EF+ㅠㅠ/UNKNOWN+저/NP+도/JX+지금/MAG+마티즈/NNP+타/VV+는/ETM+데/NNB+큰/VA+ETM+차/NNG+타/VV+면/EC+너무/MAG+불편/NNG+해/XSV+EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 마티즈는 힘들지 속도도 안 나고",
+            "norm_text": "마티즈는 힘들지 속도도 안 나고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마티즈/NNP+는/JX+힘들/VA+지/EC+속도/NNG+도/JX+안/MAG+나/VV+고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아여 ㅠㅠ 무시도 많이 하고...",
+            "norm_text": "맞아여 ㅠㅠ 무시도 많이 하고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+여/XSN+ㅠㅠ/UNKNOWN+무시/NNG+도/JX+많이/MAG+하/VV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 저는 바꾸고 싶은데 돈이 없어서... ㅠㅠ",
+            "norm_text": "저는 바꾸고 싶은데 돈이 없어서... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+바꾸/VV+고/EC+싶/VX+은데/EC+돈/NNG+이/JKS+없/VA+어서/EC+./SY+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 에이 마티즈 탄다고 무시하겠어?",
+            "norm_text": "에이 마티즈 탄다고 무시하겠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "에이/IC+마티즈/NNP+탄다고/VV+EC+무시/NNG+하/XSV+겠/EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아니 엄청 무시해요 도로에서 다들 막 끼어들고 !",
+            "norm_text": "아니 엄청 무시해요 도로에서 다들 막 끼어들고 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+엄청/MAG+무시/NNG+해요/XSV+EF+도로/NNG+에서/JKB+다/MAG+들/XSN+막/NNG+끼어들/VV+고/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 진짜? 에이 설마 착각 아니야?",
+            "norm_text": "진짜? 에이 설마 착각 아니야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+에이/IC+설마/MAG+착각/NNG+아니/VCN+야/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아니에요! 요다도 모닝인데 진짜 그렇대요 키키",
+            "norm_text": "아니에요! 요다도 모닝인데 진짜 그렇대요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/VCN+에요/EF+요다/NNP+도/JX+모닝/NNP+인데/VCP+EC+진짜/MAG+그렇/VA+대요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나쁜 사람들이네 아저씨는 안 그러는데",
+            "norm_text": "나쁜 사람들이네 아저씨는 안 그러는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나쁜/VA+ETM+사람/NNG+들/XSN+이/JKS+네/MM+아저씨/NNG+는/JX+안/MAG+그러/VV+는데/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 오? 역시 스윗가이",
+            "norm_text": "키키 오? 역시 스윗가이",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "키/NNG+키/VV+오/EF+역시/MAJ+스윗/NNP+가이/NNG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 다 양보하고 그래야지 그래봤자 얼마 못 가",
+            "norm_text": "다 양보하고 그래야지 그래봤자 얼마 못 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+양보/NNG+하/XSV+고/EC+그래야지/VV+EC+그래/VV+EC+봤/VX+EP+자/EC+얼마/NNG+못가/NNG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 맞아요 오늘 비도 오는데 퇴근길에 사고 났던데...",
+            "norm_text": "맞아요 오늘 비도 오는데 퇴근길에 사고 났던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아요/EF+오늘/MAG+비/NNG+도/JX+오/VV+는데/EC+퇴근길/NNG+에/JKB+사/VV+고/EC+났/VV+EP+던데/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 증말 다들 양보 좀 하지",
+            "norm_text": "증말 다들 양보 좀 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "증말/MAG+다/MAG+들/XSN+양보/NNG+좀/MAG+하/VV+지/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 어휴 다들 양보 운전 하면 얼마나 좋아",
+            "norm_text": "어휴 다들 양보 운전 하면 얼마나 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어휴/IC+다/MAG+들/XSN+양보/NNG+운전/NNG+하/XSV+면/EC+얼마나/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 맞아... 진짜 다들 그러다가 빨리 골로 갈 텐데",
+            "norm_text": "맞아... 진짜 다들 그러다가 빨리 골로 갈 텐데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+진짜/MAG+다/MAG+들/XSN+그러/VV+다가/EC+빨리/MAG+골/NNG+로/JKB+갈/VV+ETM+텐데/NNB+VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

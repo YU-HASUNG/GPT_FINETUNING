@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25284,
+    "name": "KAKAO_591_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141637003438/KAKAO_591_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141637003438/KAKAO_591_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30561,
+      "filename": "KAKAO_591_08.txt",
+      "title": "KAKAO_591_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 540,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 540,
+        "word_size": 170,
+        "text": "1 : 확실히 연애 경험이 많은 게 좋겠지?\n2 : 난 경험이 많은 게 좋은 거 같아 키키\n1 : 남자친구를 많이 사겨 볼수록 보는 눈이 달라지나?\n2 : 근데 또 그런 건 아닌 거 같아 자기가 어떻게 맘을 먹느냐에 따라 보는 눈이 달라지는 듯...싶다\n1 : 근데 막 첫사랑이랑 결혼해서 잘살기도 하잖아 키키\n2 : 첫사랑이라도 같이 살면 눈이 변하더라 키키\n1 : 키키 눈이 어떻게 변해? 키키 궁금하다 키키\n2 : 자기가 원하는 이상향에 걸맞지 않게 행동하면 변하는 거 같아 키키\n1 : 아 진짜로? ㅜㅜ 첫사랑은 마음속에만 품어야 하나 키키\n2 : 응 맞아 첫사랑은 마음속에만 품어야 됨 성인 되고 찾았는데 실망하는 사람들 많더라 키키\n1 : 키키 아... 하긴 너무 달라져 있거나 그럼 충격이겠노\n2 : 어 키키 내도 전에 첫사랑 우연찮게 봤는 영.,아니더라 키키 상상 파괴\n1 : 헐 진짜? 키키 나는 그래도 가끔 궁금한데\n2 : 키키 니 첫사랑은 언제야? 중학교 때?키키\n1 : 키키 그건 비밀  키키 그냥 난 잘 살고 있다를 보여주고 싶다 키키\n2 : 이 친구 비밀이 많네 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 확실히 연애 경험이 많은 게 좋겠지?",
+            "norm_text": "확실히 연애 경험이 많은 게 좋겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "확실히/MAG+연애/NNG+경험/NNG+이/JKS+많/VA+은/ETM+게/NNB+JKS+좋/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 경험이 많은 게 좋은 거 같아 키키",
+            "norm_text": "난 경험이 많은 게 좋은 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+경험/NNG+이/JKS+많/VA+은/ETM+게/NNB+JKS+좋/VA+은/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 남자친구를 많이 사겨 볼수록 보는 눈이 달라지나?",
+            "norm_text": "남자친구를 많이 사겨 볼수록 보는 눈이 달라지나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+친구/NNG+를/JKO+많이/MAG+사/VV+EC+겨/NNG+볼수록/VV+EC+보/VX+는/ETM+눈/NNG+이/JKS+달라지/VV+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 또 그런 건 아닌 거 같아 자기가 어떻게 맘을 먹느냐에 따라 보는 눈이 달라지는 듯...싶다",
+            "norm_text": "근데 또 그런 건 아닌 거 같아 자기가 어떻게 맘을 먹느냐에 따라 보는 눈이 달라지는 듯...싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+또/MAG+그런/MM+건/NNB+JX+아닌/VCN+ETM+거/NNB+같/VA+아/EC+자기/NP+가/JKS+어떻게/MAG+맘/NNG+을/JKO+먹/VV+느냐/EC+에/JKB+따라/VV+EC+보/VX+는/ETM+눈/NNG+이/JKS+달라지/VV+는/ETM+듯/NNB+./SY+싶/VX+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 막 첫사랑이랑 결혼해서 잘살기도 하잖아 키키",
+            "norm_text": "근데 막 첫사랑이랑 결혼해서 잘살기도 하잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+막/MAJ+첫/MM+사랑/NNG+이랑/JKB+결혼/NNG+해서/XSV+EC+잘/MAG+살/VV+기/ETN+도/JX+하/VV+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 첫사랑이라도 같이 살면 눈이 변하더라 키키",
+            "norm_text": "첫사랑이라도 같이 살면 눈이 변하더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "첫/MM+사랑/NNG+이/VCP+라도/EC+같이/MAG+살/VV+면/EC+눈/NNG+이/JKS+변하/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 눈이 어떻게 변해? 키키 궁금하다 키키",
+            "norm_text": "키키 눈이 어떻게 변해? 키키 궁금하다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+눈/NNG+이/JKS+어떻게/MAG+변해/VV+EF+키/NNG+키/XSV+ETN+궁금/XR+하/XSA+다키키/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 자기가 원하는 이상향에 걸맞지 않게 행동하면 변하는 거 같아 키키",
+            "norm_text": "자기가 원하는 이상향에 걸맞지 않게 행동하면 변하는 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자기/NP+가/JKS+원/NNG+하/XSV+는/ETM+이상향/NNG+에/JKB+걸맞/VA+지/EC+않/VX+게/EC+행동/NNG+하/XSV+면/EC+변하/VV+는/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 진짜로? ㅜㅜ 첫사랑은 마음속에만 품어야 하나 키키",
+            "norm_text": "아 진짜로? ㅜㅜ 첫사랑은 마음속에만 품어야 하나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜로/MAG+ㅜㅜ/UNKNOWN+첫사랑/NNG+은/JX+마음속/NNG+에/JKB+만/JX+품/VV+어야/EC+하나/NR+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 맞아 첫사랑은 마음속에만 품어야 됨 성인 되고 찾았는데 실망하는 사람들 많더라 키키",
+            "norm_text": "응 맞아 첫사랑은 마음속에만 품어야 됨 성인 되고 찾았는데 실망하는 사람들 많더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+맞/VV+아/EC+첫/MM+사랑/NNG+은/JX+마음속/NNG+에/JKB+만/JX+품/VV+어야/EC+됨/VV+ETN+성인/NNG+되/XSV+고/EC+찾/VV+았/EP+는데/EC+실망/NNG+하/XSV+는/ETM+사람/NNG+들/XSN+많/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 아... 하긴 너무 달라져 있거나 그럼 충격이겠노",
+            "norm_text": "키키 아... 하긴 너무 달라져 있거나 그럼 충격이겠노",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+아/EF+./SY+하/VV+긴/ETN+JX+너무/MAG+달라져/VA+EC+VX+EC+있/VX+거나/EC+그럼/MAJ+충격/NNG+이/VCP+겠/EP+노/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어 키키 내도 전에 첫사랑 우연찮게 봤는 영.,아니더라 키키 상상 파괴",
+            "norm_text": "어 키키 내도 전에 첫사랑 우연찮게 봤는 영.,아니더라 키키 상상 파괴",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+키/NNG+키/XSV+ETN+내/NP+JKG+도전/NNG+에/JKB+첫/MM+사랑/NNG+우연찮/VA+게/EC+봤/VX+EP+는/ETM+영/NNG+./SY+,/SC+아니/IC+더/MAG+라키/NNP+키/NNG+상상/NNG+파괴/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 헐 진짜? 키키 나는 그래도 가끔 궁금한데",
+            "norm_text": "헐 진짜? 키키 나는 그래도 가끔 궁금한데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헐/IC+진짜/MAG+키/NNG+키나/XSA+ETN+JX+는/JX+그래도/MAJ+가끔/MAG+궁금/XR+한데/XSA+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 니 첫사랑은 언제야? 중학교 때?키키",
+            "norm_text": "키키 니 첫사랑은 언제야? 중학교 때?키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+니/EC+첫/MM+사랑/NNG+은/JX+언제/NP+야/VCP+EF+중학교/NNG+때/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 그건 비밀  키키 그냥 난 잘 살고 있다를 보여주고 싶다 키키",
+            "norm_text": "키키 그건 비밀  키키 그냥 난 잘 살고 있다를 보여주고 싶다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+비밀/NNG+키/NNG+키/NNG+그냥/MAG+난/NP+JX+잘/MAG+살/VV+고/EC+있/VX+다/EF+를/JKO+보여/VV+EC+주/VX+고/EC+싶/VX+다키키/NNP"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이 친구 비밀이 많네 키키",
+            "norm_text": "이 친구 비밀이 많네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/MM+친구/NNG+비밀/NNG+이/JKS+많/VA+네/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 21812,
+    "name": "KAKAO_557_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150908014897/KAKAO_557_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150908014897/KAKAO_557_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29560,
+      "filename": "KAKAO_557_09.txt",
+      "title": "KAKAO_557_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 913,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 913,
+        "word_size": 276,
+        "text": "1 : 키키 난리 났다~ 언니 반려동물 키우고 싶은 생각은 없어?\n2 : 가끔 진짜 키우고 싶거든?!\n2 : 근데 내가 워낙 바깥 활동이 많아서... 반려동물이 외로울 것 같아... ㅠㅠ\n1 : 맞아ㅠㅠ 외롭긴 할 거야\n1 : 근데 반대로 반려동물이 있으면 언니가 바깥 활동을 안 하게 될지도... 헤헤\n2 : 하하 그것도 맞아 하하 지금은 여유도 없어서~\n2 : 반려동물 잘 키우려면 경제적으로도 여유가 있어야 해서\n1 : 맞아 근데 그건 맞아\n1 : 마음으로 낳아서 지갑으로 키운다고 하잖아 ㅠㅠ\n2 : 아 웃기다 키키 미용도 해야 하고, 병원도 가야 하고\n1 : 맞아... 진짜 아빠가 맨날 강아지 한번 호텔링하고 나오면 엄마한테 비밀로 한대 키키 후덜덜해서\n2 : 호텔링이 뭐야? 나 처음 들어봐\n1 : 가끔 엄마 아빠 우리 보러 오거나 일 보러 오면 강아지 호텔링 맡기거든!\n1 : 그러면 호텔에서 막 사진도 보내주고 영상도 보내주고!\n1 : 이번에는 산책 시켜주는데 맡겨서 마음이 좀 놓였어 ㅠㅠ\n2 : 아 우와 하하 나 이거 기사로만 봤는데... 진짜 있구나! 좋다 진짜!\n1 : 응 호텔도 이곳 저곳 다들 각자의 특성이 있어서 애들은 낯선 곳이라 스트레스 받을 것 같긴 한데 우리 집 강아지는 실외 배변해서 산책 시켜주는 게 너무 좋았어 키키\n1 : 그럴 때마다 꼭 싸더라고 키키\n2 : 우와... 진짜 나는 다음 생에 사랑 많이 받는 강아지로 태어나고 싶어...\n1 : 키키 그러니까 말이야 아주 상전이야\n1 : 아빠는 나갈 때 에어컨 틀고 현관도 열고 가... 강아지 왔다 갔다 해야 된다고...\n2 : 와... 진짜 최고다 하하 너네 집 강아지는 진짜 복 받았어...\n1 : 맞아 진짜 돈 잡아 먹는 귀신은 나로 끝냈어야 했는데 막내가 하나 더 생겼어...\n2 : 키키 아 진짜 웃기다 하하\n2 : 그 막내가 주는 행복은 돈보다 더 가치 있으니까! 좋지~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 키키 난리 났다~ 언니 반려동물 키우고 싶은 생각은 없어?",
+            "norm_text": "키키 난리 났다~ 언니 반려동물 키우고 싶은 생각은 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+난리/NNG+났/VV+EP+다/EC+~/SY+언니/NNG+반려/NNG+동물/NNG+키우/VV+고/EC+싶/VX+은/ETM+생각/NNG+은/JX+없/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 가끔 진짜 키우고 싶거든?!",
+            "norm_text": "가끔 진짜 키우고 싶거든?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가끔/MAG+진짜/MAG+키우/VV+고/EC+싶/VX+거든/EC+?/SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 근데 내가 워낙 바깥 활동이 많아서... 반려동물이 외로울 것 같아... ㅠㅠ",
+            "norm_text": "근데 내가 워낙 바깥 활동이 많아서... 반려동물이 외로울 것 같아... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+내/NP+가/JKS+워낙/MAG+바깥/NNG+활동/NNG+이/JKS+많/VA+아서/EC+./SY+./SY+반려/NNG+동물/NNG+이/JKS+외로울/VA+ETM+것/NNB+같/VA+아/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 맞아ㅠㅠ 외롭긴 할 거야",
+            "norm_text": "맞아ㅠㅠ 외롭긴 할 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+외롭/VA+긴/ETN+JX+할/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 반대로 반려동물이 있으면 언니가 바깥 활동을 안 하게 될지도... 헤헤",
+            "norm_text": "근데 반대로 반려동물이 있으면 언니가 바깥 활동을 안 하게 될지도... 헤헤",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+반대/NNG+로/JKB+반려/NNG+동물/NNG+이/JKS+있/VV+으면/EC+언니/NNG+가/JKS+바깥/NNG+활동/NNG+을/JKO+안/MAG+하/VV+게/EC+될지/VV+EC+도/JX+./SY+./SY+헤헤/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 하하 그것도 맞아 하하 지금은 여유도 없어서~",
+            "norm_text": "하하 그것도 맞아 하하 지금은 여유도 없어서~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+그것/NP+도/JX+맞/VV+아/EC+하하/MAG+지금/MAG+은/JX+여유/NNG+도/JX+없/VA+어서/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 반려동물 잘 키우려면 경제적으로도 여유가 있어야 해서",
+            "norm_text": "반려동물 잘 키우려면 경제적으로도 여유가 있어야 해서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "반려/NNG+동물/NNG+잘/MAG+키우/VV+려면/EC+경제/NNG+적/XSN+으로/JKB+도/JX+여유/NNG+가/JKS+있/VA+어야/EC+해서/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 맞아 근데 그건 맞아",
+            "norm_text": "맞아 근데 그건 맞아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "맞아/IC+근데/MAJ+그건/NP+JX+맞/VV+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 마음으로 낳아서 지갑으로 키운다고 하잖아 ㅠㅠ",
+            "norm_text": "마음으로 낳아서 지갑으로 키운다고 하잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마음/NNG+으로/JKB+낳/VV+아서/EC+지갑/NNG+으로/JKB+키운다고/VV+EC+하/VX+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 웃기다 키키 미용도 해야 하고, 병원도 가야 하고",
+            "norm_text": "아 웃기다 키키 미용도 해야 하고, 병원도 가야 하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+웃/VV+기/ETN+다키키/NNP+미용/NNG+도/JX+해야/VV+EC+하/VV+고/EC+,/SC+병원/NNG+도/JX+가/VV+야/EC+하/VV+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아... 진짜 아빠가 맨날 강아지 한번 호텔링하고 나오면 엄마한테 비밀로 한대 키키 후덜덜해서",
+            "norm_text": "맞아... 진짜 아빠가 맨날 강아지 한번 호텔링하고 나오면 엄마한테 비밀로 한대 키키 후덜덜해서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+진짜/MAG+아빠/NNG+가/JKS+맨날/MAG+강아지/NNG+한/XSA+ETM+번호/NNG+텔링/NNG+하/XSV+고/EC+나오/VV+면/EC+엄마/NNG+한테/JKB+비밀/NNG+로/JKB+한/MM+대/NNBC+키키/NNP+후/NNG+덜덜/MAG+해서/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 호텔링이 뭐야? 나 처음 들어봐",
+            "norm_text": "호텔링이 뭐야? 나 처음 들어봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "호텔/NNG+링/NNG+이/JKS+뭐/NP+야/VCP+EF+나/NP+처음/MAG+들/VV+어/EC+봐/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 가끔 엄마 아빠 우리 보러 오거나 일 보러 오면 강아지 호텔링 맡기거든!",
+            "norm_text": "가끔 엄마 아빠 우리 보러 오거나 일 보러 오면 강아지 호텔링 맡기거든!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가끔/MAG+엄마/NNG+아빠/NNG+우리/NP+보/VV+러/EC+오/VV+거나/EC+일/NNG+보/VV+러/EC+오/VV+면/EC+강아지/NNG+호텔/NNG+링/JKO+맡기/VV+거든/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그러면 호텔에서 막 사진도 보내주고 영상도 보내주고!",
+            "norm_text": "그러면 호텔에서 막 사진도 보내주고 영상도 보내주고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러면/MAJ+호텔/NNG+에서/JKB+막/NNG+사진/NNG+도/JX+보내/VV+EC+주/VX+고/EC+영상/NNG+도/JX+보내/VV+EC+주/VX+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 이번에는 산책 시켜주는데 맡겨서 마음이 좀 놓였어 ㅠㅠ",
+            "norm_text": "이번에는 산책 시켜주는데 맡겨서 마음이 좀 놓였어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+는/JX+산책/NNG+시켜/XSV+EC+주/VX+는/ETM+데/NNB+맡겨서/VV+EC+마음/NNG+이/JKS+좀/MAG+놓였/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 우와 하하 나 이거 기사로만 봤는데... 진짜 있구나! 좋다 진짜!",
+            "norm_text": "아 우와 하하 나 이거 기사로만 봤는데... 진짜 있구나! 좋다 진짜!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아우/IC+와하/IC+하나/NR+이거/NP+기사/NNG+로/JKB+만/JX+봤/VV+EP+는데/EC+./SY+./SY+진짜/MAG+있/VA+구나/EF+좋/VA+다/EF+진짜/MAG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 호텔도 이곳 저곳 다들 각자의 특성이 있어서 애들은 낯선 곳이라 스트레스 받을 것 같긴 한데 우리 집 강아지는 실외 배변해서 산책 시켜주는 게 너무 좋았어 키키",
+            "norm_text": "응 호텔도 이곳 저곳 다들 각자의 특성이 있어서 애들은 낯선 곳이라 스트레스 받을 것 같긴 한데 우리 집 강아지는 실외 배변해서 산책 시켜주는 게 너무 좋았어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+호텔/NNG+도/JX+이곳저곳/NNG+다/NNG+들/XSN+각자/NNG+의/JKG+특성/NNG+이/JKS+있/VV+어서/EC+애/NNG+들/XSN+은/JX+낯선/VA+ETM+곳/NNG+이/VCP+라/EC+스트레스/NNG+받/VV+을/ETM+것/NNB+같/VA+긴/ETN+JX+한데/VX+EC+우리/NP+집/NNG+강아지/NNG+는/JX+실외/NNG+배변/NNG+해서/XSV+EC+산책/NNG+시켜/XSV+EC+주/VX+는/ETM+게/NNB+JKS+너무/MAG+좋/VA+았/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그럴 때마다 꼭 싸더라고 키키",
+            "norm_text": "그럴 때마다 꼭 싸더라고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럴/VA+ETM+때/NNG+마다/JX+꼭/MAG+싸/VV+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 우와... 진짜 나는 다음 생에 사랑 많이 받는 강아지로 태어나고 싶어...",
+            "norm_text": "우와... 진짜 나는 다음 생에 사랑 많이 받는 강아지로 태어나고 싶어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+./SY+진짜/MAG+나/NP+는/JX+다음/NNG+생/XSN+에/JKB+사랑/NNG+많이/MAG+받/VV+는/ETM+강아지/NNG+로/JKB+태어나/VV+고/EC+싶/VX+어/EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 그러니까 말이야 아주 상전이야",
+            "norm_text": "키키 그러니까 말이야 아주 상전이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러니까/MAJ+말/NNG+이야/JX+아주/MAG+상전/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 아빠는 나갈 때 에어컨 틀고 현관도 열고 가... 강아지 왔다 갔다 해야 된다고...",
+            "norm_text": "아빠는 나갈 때 에어컨 틀고 현관도 열고 가... 강아지 왔다 갔다 해야 된다고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+는/JX+나갈/VV+ETM+때/NNG+에어컨/NNG+틀/VV+고/EC+현관/NNG+도/JX+열고/NNG+가/JKS+./SY+강아지/NNG+왔다갔다/MAG+해야/VV+EC+된다고/VV+EF+./SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 와... 진짜 최고다 하하 너네 집 강아지는 진짜 복 받았어...",
+            "norm_text": "와... 진짜 최고다 하하 너네 집 강아지는 진짜 복 받았어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+진짜/MAG+최고/NNG+다/MAG+하하/MAG+너/NP+네/XSN+집/NNG+강아지/NNG+는/JX+진짜/MAG+복/MAG+받/VV+았/EP+어/EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 맞아 진짜 돈 잡아 먹는 귀신은 나로 끝냈어야 했는데 막내가 하나 더 생겼어...",
+            "norm_text": "맞아 진짜 돈 잡아 먹는 귀신은 나로 끝냈어야 했는데 막내가 하나 더 생겼어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+진짜/MAG+돈/NNG+잡아먹/VV+는/ETM+귀신/NNG+은/JX+나/NP+로/JKB+끝냈/VV+EP+어야/EC+했/VX+EP+는데/EC+막내/NNG+가/JKS+하나/NR+더/MAG+생겼/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : 키키 아 진짜 웃기다 하하",
+            "norm_text": "키키 아 진짜 웃기다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+웃기/VV+다/EC+하하/MAG"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그 막내가 주는 행복은 돈보다 더 가치 있으니까! 좋지~",
+            "norm_text": "그 막내가 주는 행복은 돈보다 더 가치 있으니까! 좋지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+막내/NNG+가/JKS+주/VV+는/ETM+행복/NNG+은/JX+돈/NNG+보다/JKB+더/MAG+가치/NNG+있/VV+으니까/EC+좋/VA+지/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

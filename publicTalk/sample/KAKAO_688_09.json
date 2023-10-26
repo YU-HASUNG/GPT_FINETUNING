@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 74380,
+    "name": "KAKAO_688_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710043366/KAKAO_688_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710043366/KAKAO_688_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35088,
+      "filename": "KAKAO_688_09.txt",
+      "title": "KAKAO_688_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 611,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 611,
+        "word_size": 186,
+        "text": "1 : 그러고 보니 너 강아지 되게 오래 키웠지?\n2 : 응응 우리 멍멍니는 지금 12살 올해로\n1 : 우와... 암컷이야? 할머니인가? 키키 할아버지인가... 키키\n2 : 응응 할머니! 키키 아주 꼰대 할모니에요\n1 : 아 혹시 강아지한테 할머니나 할아버지라 하면 실례인가? ㅠㅠ\n2 : 나는 내가 맨날 할머니라고 하는데...?\n1 : 키키 그럼 다행이네...\n1 : 혹시 싫어하는 사람들도 있겠지?\n2 : 키키 그럴려나...? 나는 근데 일부러 더 할머니라고 하는 편... 우리 개가 커서 좀 위협감?을 줄이려고? ㅠㅠ\n1 : 아아 ㅜㅜㅜ 맞아 그때 사진 보니까 엄청 크던데 몇 키로야?\n2 : 최대 30키로 찍었고, 요새는 26에서 27키로 정도? 키키\n1 : 우와... 진짜 크네... 키키\n1 : 넌 그럼 안을 수 없겠는데?\n2 : 몸무게 잴 때 안는데 움직일 순 없어 키키 그래서 넘나 슬펐잖아 수술하고 아픈데 애를 못 델꼬 나가서 ㅠㅠ\n1 : 아 ㅜㅜ 산책도 매일 해야 하는데 ㅜㅜ\n1 : 큰 수술한 거야?\n2 : 중성화는 큰 수술은 아니지 않겠지...? 키키\n2 : 이번에 근데 또 해야 해 ㅠㅠ\n1 : 응? 중성화 수술이 원래 두 번 해야 하는 거야?\n2 : ㄴㄴ 하고 나서 유선 종양 발견 돼서 ㅠㅠ 휴...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 그러고 보니 너 강아지 되게 오래 키웠지?",
+            "norm_text": "그러고 보니 너 강아지 되게 오래 키웠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+고/EC+보/VX+니/EC+너/NP+강아지/NNG+되게/MAG+오래/MAG+키웠/VV+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 우리 멍멍니는 지금 12살 올해로",
+            "norm_text": "응응 우리 멍멍니는 지금 12살 올해로",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+우리/NP+멍멍/MAG+니/NP+는/JX+지금/MAG+12/SN+살/NNBC+올해/NNG+로/JKB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우와... 암컷이야? 할머니인가? 키키 할아버지인가... 키키",
+            "norm_text": "우와... 암컷이야? 할머니인가? 키키 할아버지인가... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+./SY+암컷/NNG+이/VCP+야/EF+할머니/NNG+인가/VCP+EF+키/NNG+키/NNG+할아버지/NNG+인가/VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 할머니! 키키 아주 꼰대 할모니에요",
+            "norm_text": "응응 할머니! 키키 아주 꼰대 할모니에요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+할머니/NNG+!/SY+키키아주꼰대할모니에요/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 혹시 강아지한테 할머니나 할아버지라 하면 실례인가? ㅠㅠ",
+            "norm_text": "아 혹시 강아지한테 할머니나 할아버지라 하면 실례인가? ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+혹시/MAG+강아지/NNG+한테/JKB+할머니/NNG+나/JC+할아버지/NNG+라/VCP+EC+하/VV+면/EC+실례/NNG+인가/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 내가 맨날 할머니라고 하는데...?",
+            "norm_text": "나는 내가 맨날 할머니라고 하는데...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+내/NP+가/JKS+맨날/MAG+할머니/NNG+라고/VCP+EC+하/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 그럼 다행이네...",
+            "norm_text": "키키 그럼 다행이네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+다행/NNG+이/VCP+네/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 혹시 싫어하는 사람들도 있겠지?",
+            "norm_text": "혹시 싫어하는 사람들도 있겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+싫/VA+어/EC+하/VV+는/ETM+사람/NNG+들/XSN+도/JX+있/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 그럴려나...? 나는 근데 일부러 더 할머니라고 하는 편... 우리 개가 커서 좀 위협감?을 줄이려고? ㅠㅠ",
+            "norm_text": "키키 그럴려나...? 나는 근데 일부러 더 할머니라고 하는 편... 우리 개가 커서 좀 위협감?을 줄이려고? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럴려/VV+EC+나/VX+EF+./SY+./SY+나/NP+는/JX+근데/MAJ+일부러/MAG+더/MAG+할머니/NNG+라고/VCP+EC+하/VV+는/ETM+편/NNB+./SY+우리/NP+개/NNG+가/JKS+커서/VV+EC+좀/MAG+위협/NNG+감/XSN+?/SY+을/JKO+줄이/VV+려고/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아아 ㅜㅜㅜ 맞아 그때 사진 보니까 엄청 크던데 몇 키로야?",
+            "norm_text": "아아 ㅜㅜㅜ 맞아 그때 사진 보니까 엄청 크던데 몇 키로야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+아ㅜ/UNKNOWN+ㅜㅜ/UNKNOWN+맞/VV+아/EC+그때/NNG+사진/NNG+보/VV+니까/EC+엄청/MAG+크/VA+던데/EC+몇/MM+키/NNG+로/JKB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 최대 30키로 찍었고, 요새는 26에서 27키로 정도? 키키",
+            "norm_text": "최대 30키로 찍었고, 요새는 26에서 27키로 정도? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "최대/NNG+30/SN+키/NNG+로/JKB+찍/VV+었/EP+고/EC+,/SC+요새/NNG+는/JX+26/SN+에서/JKB+27/SN+키로/XSV+ETN+JKB+정도/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 우와... 진짜 크네... 키키",
+            "norm_text": "우와... 진짜 크네... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+./SY+진짜/MAG+크/VA+네/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 넌 그럼 안을 수 없겠는데?",
+            "norm_text": "넌 그럼 안을 수 없겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+그럼/MAJ+안/VV+을/ETM+수/NNB+없/VA+겠/EP+는데/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 몸무게 잴 때 안는데 움직일 순 없어 키키 그래서 넘나 슬펐잖아 수술하고 아픈데 애를 못 델꼬 나가서 ㅠㅠ",
+            "norm_text": "몸무게 잴 때 안는데 움직일 순 없어 키키 그래서 넘나 슬펐잖아 수술하고 아픈데 애를 못 델꼬 나가서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몸무게/NNG+잴/VV+ETM+때/NNG+안/MAG+는데/VV+EC+움직일/VV+ETM+순/NNB+JX+없/VA+어/EC+키/NNG+키/XSV+ETN+그래서/MAJ+넘/VV+나/EC+슬펐/VA+EP+잖아/EF+수술/NNG+하/XSV+고/EC+아픈데/VA+EC+애/NNG+를/JKO+못/MAG+델/VV+꼬/EC+나가/VX+서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 ㅜㅜ 산책도 매일 해야 하는데 ㅜㅜ",
+            "norm_text": "아 ㅜㅜ 산책도 매일 해야 하는데 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+산책/NNG+도/JX+매일/MAG+해야/VV+EC+하/VV+는데/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 큰 수술한 거야?",
+            "norm_text": "큰 수술한 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "큰/VA+ETM+수술/NNG+한/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 중성화는 큰 수술은 아니지 않겠지...? 키키",
+            "norm_text": "중성화는 큰 수술은 아니지 않겠지...? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "중성화/NNG+는/JX+큰/VA+ETM+수술/NNG+은/JX+아니/VCN+지/EC+않/VX+겠/EP+지/EF+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 이번에 근데 또 해야 해 ㅠㅠ",
+            "norm_text": "이번에 근데 또 해야 해 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+근데/MAJ+또/MAG+해야/VV+EC+해/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 응? 중성화 수술이 원래 두 번 해야 하는 거야?",
+            "norm_text": "응? 중성화 수술이 원래 두 번 해야 하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+중성화/NNG+수술/NNG+이/JKS+원래/MAG+두/MM+번/NNBC+해야/VV+EC+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : ㄴㄴ 하고 나서 유선 종양 발견 돼서 ㅠㅠ 휴...",
+            "norm_text": "ㄴㄴ 하고 나서 유선 종양 발견 돼서 ㅠㅠ 휴...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㄴㄴ하고나서유선종양발견돼서ㅠㅠ휴/UNKNOWN+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34127,
+    "name": "KAKAO_835_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170112032912/KAKAO_835_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170112032912/KAKAO_835_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38644,
+      "filename": "KAKAO_835_11.txt",
+      "title": "KAKAO_835_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 323,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 323,
+        "word_size": 114,
+        "text": "1 : 엄마! 나 생일 선물 사조!\n2 : 생일이 한 달도 더 남았는데 무슨~\n1 : ㅠㅠ 지금 말고 나 생일 때!\n2 : 뭐 갖고 싶은데?\n1 : 나... 닌텐도!\n2 : 뭐? 닌텐도?\n1 : 웅...ㅠㅠ 나 옛날에도 안 사줬었잖아\n2 : 니 나이가 몇 갠데 게임기를 사 달라 그래!\n1 : 아니 ㅠㅠ 좀 달라\n2 : 뭐가 다른데\n1 : 닌텐도 스위치는 운동도 할 수 있다고!\n2 : 게임기로 무슨 운동이니?\n1 : 요새는 잘 나와서 컨트롤러로 운동도 할 수 있어 ㅠㅠ\n2 : 너 금방 질려서 사 놓고 안 하는 거 아니야?\n1 : 아냐 ㅠㅠ 사면 진짜 많이 쓸 거야\n2 : 어휴~ 알았어 고민 좀 해볼게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마! 나 생일 선물 사조!",
+            "norm_text": "엄마! 나 생일 선물 사조!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "엄마/NNG+나/NP+생일/NNG+선물/NNG+사조/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 생일이 한 달도 더 남았는데 무슨~",
+            "norm_text": "생일이 한 달도 더 남았는데 무슨~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "생일/NNG+이/JKS+한/MM+달/NNG+도/JX+더/MAG+남/VV+았/EP+는데/EC+무슨/MM+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : ㅠㅠ 지금 말고 나 생일 때!",
+            "norm_text": "ㅠㅠ 지금 말고 나 생일 때!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+지금/MAG+말/VV+고/EC+나/NP+생일/NNG+때/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 뭐 갖고 싶은데?",
+            "norm_text": "뭐 갖고 싶은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+갖/VV+고/EC+싶/VX+은데/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나... 닌텐도!",
+            "norm_text": "나... 닌텐도!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+./SY+./SY+닌텐도/NNP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 뭐? 닌텐도?",
+            "norm_text": "뭐? 닌텐도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "뭐/IC+닌텐도/NNP"
+          },
+          {
+            "id": 7,
+            "text": "1 : 웅...ㅠㅠ 나 옛날에도 안 사줬었잖아",
+            "norm_text": "웅...ㅠㅠ 나 옛날에도 안 사줬었잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+./SY+ㅠㅠ/UNKNOWN+나/NP+옛날/NNG+에/JKB+도/JX+안/MAG+사/VV+EC+줬/VX+EP+었잖/EC+VX+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 니 나이가 몇 갠데 게임기를 사 달라 그래!",
+            "norm_text": "니 나이가 몇 갠데 게임기를 사 달라 그래!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/MM+나이/NNG+가/JKS+몇/MM+갠데/NNBC+VCP+EC+게임기/NNG+를/JKO+사/VV+달라/EC+VCP+EF+그래/IC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아니 ㅠㅠ 좀 달라",
+            "norm_text": "아니 ㅠㅠ 좀 달라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니ㅠㅠ좀달라/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 뭐가 다른데",
+            "norm_text": "뭐가 다른데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+가/JKS+다른데/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 닌텐도 스위치는 운동도 할 수 있다고!",
+            "norm_text": "닌텐도 스위치는 운동도 할 수 있다고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "닌텐도/NNP+스위치/NNG+는/JX+운동/NNG+도/JX+할/VV+ETM+수/NNB+있/VV+다고/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 게임기로 무슨 운동이니?",
+            "norm_text": "게임기로 무슨 운동이니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "게임기/NNG+로/JKB+무슨/MM+운동/NNG+이/VCP+니/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 요새는 잘 나와서 컨트롤러로 운동도 할 수 있어 ㅠㅠ",
+            "norm_text": "요새는 잘 나와서 컨트롤러로 운동도 할 수 있어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+는/JX+잘/MAG+나와서/VV+EC+컨트롤러/NNG+로/JKB+운동/NNG+도/JX+할/VV+ETM+수/NNB+있/VV+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 너 금방 질려서 사 놓고 안 하는 거 아니야?",
+            "norm_text": "너 금방 질려서 사 놓고 안 하는 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+금방/MAG+질려서/VV+EC+사놓/VV+고/EC+안/MAG+하/VV+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아냐 ㅠㅠ 사면 진짜 많이 쓸 거야",
+            "norm_text": "아냐 ㅠㅠ 사면 진짜 많이 쓸 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+ㅠㅠ/UNKNOWN+사/VV+면/EC+진짜/MAG+많이/MAG+쓸/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어휴~ 알았어 고민 좀 해볼게",
+            "norm_text": "어휴~ 알았어 고민 좀 해볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "어휴/IC+~/SY+알/VV+았/EP+어/EC+고민/NNG+좀/MAG+해/VV+EC+볼/VX+게/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

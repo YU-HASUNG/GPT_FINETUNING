@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 33060,
+    "name": "KAKAO_756_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135450081131/KAKAO_756_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135450081131/KAKAO_756_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37280,
+      "filename": "KAKAO_756_12.txt",
+      "title": "KAKAO_756_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 658,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 658,
+        "word_size": 216,
+        "text": "1 : 해외 여행 가 본 적 있는가용 ㅇㅅㅇ?\n2 : 나 타리랑 태국 한번 가 봤어 키키\n1 : 아 타리랑 태국 간 거 너였어? 키키 몰랐네 태국 어땠어?\n2 : 타리 3번인가 4번 갔는데 그중 한 번이 나야 키키 태국 진짜 좋았어 힐링 그 자체\n1 : 아 그렇구나 키키 몇 년도에 갔어? 역시 여행은 동남아가 제일 좋은 거 같어 ㅠ0ㅠ\n2 : 나 18년도에 갔어 키키 9월 달에\n1 : 오오 좋을 때 갔구나 ㅠ0ㅠ 태국 음식 입에 좀 맞았어? 키키\n2 : 처음엔 안 맞았는데 조금씩 먹다 보니까 여행 막바지에 맛들려서 아쉬웠어 키키\n1 : 키키 뒤늦게 터졌구나 향신료 때문에 못 먹는 사람 꽤 있더라 과일도 많이 먹었어?\n2 : 응 과일 망고가 진짜 핵 꿀맛\n1 : 동남아는 역시 맹고~! 나는 베트남 다낭 갔었는데 아... 망고스틴 진짜 맛있더라 일단 물가가 너무 싸!\n2 : 맞아 진짜 물가 너무 싸가지궄 키키 아무 걱정 없이 잘 놀다 왔지\n1 : 그치 키키 아 베트남은 진짜 더운 거 아니면 살고 싶더라... 몇 박 몇 일 다녀왔어? 키키\n2 : 나 6박7일 갔다 왔어 딱 적당했덩 것 같아 키키\n1 : 오 길게 갔다 왔네! 나는 3박4일인가 그랬던 것 같아 담엔 꼭 길게 가야지...\n1 : 언제쯤 해외여행을 갈 수 있을까 ㅇㅅㅇ...\n2 : 그니까 ㅠㅠ 나도 태국 빨리 한 번 더 가 보고 싶어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 해외 여행 가 본 적 있는가용 ㅇㅅㅇ?",
+            "norm_text": "해외 여행 가 본 적 있는가용 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해외여행/NNG+가본/NNG+적/XSN+있/VA+는가/EC+용ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 타리랑 태국 한번 가 봤어 키키",
+            "norm_text": "나 타리랑 태국 한번 가 봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+타리/NNG+랑/JC+태국/NNP+한/MM+번/NNBC+가/JKS+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 타리랑 태국 간 거 너였어? 키키 몰랐네 태국 어땠어?",
+            "norm_text": "아 타리랑 태국 간 거 너였어? 키키 몰랐네 태국 어땠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아타리/NNP+랑/JC+태국/NNP+간/VV+ETM+거/NNB+너/NP+였/VCP+EP+어/EF+키/NNG+키/XSV+ETN+몰랐/VV+EP+네/EF+태국어/NNP+땠/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 타리 3번인가 4번 갔는데 그중 한 번이 나야 키키 태국 진짜 좋았어 힐링 그 자체",
+            "norm_text": "타리 3번인가 4번 갔는데 그중 한 번이 나야 키키 태국 진짜 좋았어 힐링 그 자체",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "타리/NNG+3/SN+번/NNBC+인가/VCP+EC+4/SN+번/NNBC+갔/VV+EP+는데/EC+그/MM+중/NNB+한/MM+번/NNBC+이나/JX+야키/NNP+키/NNG+태국/NNP+진짜/MAG+좋/VA+았/EP+어/EC+힐링/NNG+그/MM+자체/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그렇구나 키키 몇 년도에 갔어? 역시 여행은 동남아가 제일 좋은 거 같어 ㅠ0ㅠ",
+            "norm_text": "아 그렇구나 키키 몇 년도에 갔어? 역시 여행은 동남아가 제일 좋은 거 같어 ㅠ0ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그렇/VA+구나/EF+키/NNG+키/XSV+ETN+몇/MM+년/NNBC+도/NNG+에/JKB+갔/VV+EP+어/EF+역시/MAJ+여행/NNG+은/JX+동남아/NNP+가/JKS+제일/MAG+좋/VA+은/ETM+거/NNB+같/VA+어/EC+ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나 18년도에 갔어 키키 9월 달에",
+            "norm_text": "나 18년도에 갔어 키키 9월 달에",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+18/SN+년/NNBC+도/NNG+에/JKB+갔/VV+EP+어/EC+키/NNG+키/XSV+ETN+9/SN+월/NNBC+달/NNG+에/JKB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오오 좋을 때 갔구나 ㅠ0ㅠ 태국 음식 입에 좀 맞았어? 키키",
+            "norm_text": "오오 좋을 때 갔구나 ㅠ0ㅠ 태국 음식 입에 좀 맞았어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+좋/VA+을/ETM+때/NNG+갔/VV+EP+구나/EF+ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN+태국/NNP+음식/NNG+입/NNG+에/JKB+좀/MAG+맞/VV+았/EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 처음엔 안 맞았는데 조금씩 먹다 보니까 여행 막바지에 맛들려서 아쉬웠어 키키",
+            "norm_text": "처음엔 안 맞았는데 조금씩 먹다 보니까 여행 막바지에 맛들려서 아쉬웠어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "처음/NNG+엔/JKB+JX+안/MAG+맞/VV+았/EP+는데/EC+조금/NNG+씩/XSN+먹/VV+다/EC+보/VX+니까/EC+여행/NNG+막바지/NNG+에/JKB+맛/NNG+들려서/VV+EC+아쉬웠/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 뒤늦게 터졌구나 향신료 때문에 못 먹는 사람 꽤 있더라 과일도 많이 먹었어?",
+            "norm_text": "키키 뒤늦게 터졌구나 향신료 때문에 못 먹는 사람 꽤 있더라 과일도 많이 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뒤늦/VA+게/EC+터졌/VX+EP+구나/EF+향신료/NNG+때문/NNB+에/JKB+못/MAG+먹/VV+는/ETM+사람/NNG+꽤/MAG+있/VA+더라/EC+과일/NNG+도/JX+많이/MAG+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 과일 망고가 진짜 핵 꿀맛",
+            "norm_text": "응 과일 망고가 진짜 핵 꿀맛",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+과일/NNG+망고/NNG+가/JKS+진짜/MAG+핵/NNG+꿀맛/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 동남아는 역시 맹고~! 나는 베트남 다낭 갔었는데 아... 망고스틴 진짜 맛있더라 일단 물가가 너무 싸!",
+            "norm_text": "동남아는 역시 맹고~! 나는 베트남 다낭 갔었는데 아... 망고스틴 진짜 맛있더라 일단 물가가 너무 싸!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동남아는역시맹고/UNKNOWN+~/SY+나/NP+는/JX+베트남/NNP+다낭/NNP+갔었/VV+EP+는데/EC+아/IC+./SY+망고스틴/NNG+진짜/MAG+맛있/VA+더라/EF+일단/MAG+물가/NNG+가/JKS+너무/MAG+싸/VA+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아 진짜 물가 너무 싸가지궄 키키 아무 걱정 없이 잘 놀다 왔지",
+            "norm_text": "맞아 진짜 물가 너무 싸가지궄 키키 아무 걱정 없이 잘 놀다 왔지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+진짜/MAG+물가/NNG+너무/MAG+싸/VV+EC+가지/VX+궄키/UNKNOWN+키/NNG+아무/MM+걱정/NNG+없이/MAG+잘/MAG+놀/VV+다/EC+왔/VX+EP+지/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그치 키키 아 베트남은 진짜 더운 거 아니면 살고 싶더라... 몇 박 몇 일 다녀왔어? 키키",
+            "norm_text": "그치 키키 아 베트남은 진짜 더운 거 아니면 살고 싶더라... 몇 박 몇 일 다녀왔어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+키/NNG+키아/NNP+베트남/NNP+은/JX+진짜/MAG+더운/VA+ETM+거/NNB+아니/VCN+면/EC+살/VV+고/EC+싶/VX+더라/EF+./SY+몇/MM+박/NNBC+몇/NR+일/NNBC+다녀왔/VV+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나 6박7일 갔다 왔어 딱 적당했덩 것 같아 키키",
+            "norm_text": "나 6박7일 갔다 왔어 딱 적당했덩 것 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+6/SN+박/NNBC+7/SN+일/NNBC+갔다왔/VV+EP+어/EF+딱/MAG+적당/XR+했/XSA+EP+덩것/UNKNOWN+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오 길게 갔다 왔네! 나는 3박4일인가 그랬던 것 같아 담엔 꼭 길게 가야지...",
+            "norm_text": "오 길게 갔다 왔네! 나는 3박4일인가 그랬던 것 같아 담엔 꼭 길게 가야지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+길/VA+게/EC+갔다왔/VV+EP+네/EF+나/NP+는/JX+3/SN+박/NNBC+4/SN+일/NNBC+인가/VCP+EC+그랬/VV+EP+던/ETM+것/NNB+같/VA+아/EC+담/NNG+엔/JKB+JX+꼭/MAG+길/VA+게/EC+가/VX+야지/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 언제쯤 해외여행을 갈 수 있을까 ㅇㅅㅇ...",
+            "norm_text": "언제쯤 해외여행을 갈 수 있을까 ㅇㅅㅇ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언제/NP+쯤/XSN+해외여행/NNG+을/JKO+갈/VV+ETM+수/NNB+있/VV+을/ETM+까ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그니까 ㅠㅠ 나도 태국 빨리 한 번 더 가 보고 싶어",
+            "norm_text": "그니까 ㅠㅠ 나도 태국 빨리 한 번 더 가 보고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+ㅠㅠ/UNKNOWN+나/NP+도/JX+태국/NNP+빨리/MAG+한번/MAG+더/MAG+가/VV+EC+보/VX+고/EC+싶/VX+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

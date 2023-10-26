@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 44968,
+    "name": "KAKAO_788_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143837091662/KAKAO_788_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143837091662/KAKAO_788_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38039,
+      "filename": "KAKAO_788_08.txt",
+      "title": "KAKAO_788_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 532,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 532,
+        "word_size": 172,
+        "text": "1 : 코로나인데도 결혼식 많이들 하네?!\n2 : 웅 맞아 맞아 나 안 그래도 지난달에 결혼식 두 번이나 갔자나 키키\n1 : 괜찮았어? 사람 많은 거 같던데\n2 : 아 응 사람 많은 편이였는데 뭔가 코로나 전보다는 여유 있는 느낌이였어\n1 : 불안할 거 같아. 인원수 제한 있지 요즘?\n2 : 응 백 명 제한이라 웨딩홀 안에 들어는거 막더라고 키키\n1 : 백 명? 제한해도 엄청 많네!\n2 : 지방이라서 그런가 봐 키키 수도권은 제한 더 심한 거 같고\n1 : 100명에서 이미 의미가 없는 거 같다 키키 무서워서 결혼 하겠나!\n2 : 근데 코로나라 뭔가 적당히 와줄 사람만 오는 것도 괜찮은 듯? 키키\n1 : 응 위험한 곳을 어쩔 수 없이 가는 넉김이네\n2 : 근데 약간 쫄았지만 밥도 먹고 왔어 키키\n1 : 밥까지?! 키키 밥도 주는구나\n1 : 난 가도 적당히 인사만 하고 와\n2 : 친한 친구 결혼식이라서 키키 아예 그냥 편하게 있다가 와버림\n1 : 키키 앞으론 결혼식 갈 때도 신경 써 확진자도 나왔데\n2 : 아 진짜? 최근에 결혼식에선 나온 거 못 봐서 사실 좀 안심했었어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 코로나인데도 결혼식 많이들 하네?!",
+            "norm_text": "코로나인데도 결혼식 많이들 하네?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "코로나/NNG+인데/VCP+EC+도/JX+결혼식/NNG+많이/MAG+들/XSN+하네/NNG+?/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 웅 맞아 맞아 나 안 그래도 지난달에 결혼식 두 번이나 갔자나 키키",
+            "norm_text": "웅 맞아 맞아 나 안 그래도 지난달에 결혼식 두 번이나 갔자나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/MAG+맞/VV+아/EC+맞/VV+아나/EC+안/MAG+그래도/VV+EC+지난달/NNG+에/JKB+결혼식/NNG+두/MM+번/NNBC+이나/JX+갔/VV+EP+자/EF+나/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 괜찮았어? 사람 많은 거 같던데",
+            "norm_text": "괜찮았어? 사람 많은 거 같던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜찮/VA+았/EP+어/EF+사람/NNG+많/VA+은/ETM+거/NNB+같/VA+던데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 응 사람 많은 편이였는데 뭔가 코로나 전보다는 여유 있는 느낌이였어",
+            "norm_text": "아 응 사람 많은 편이였는데 뭔가 코로나 전보다는 여유 있는 느낌이였어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아응/IC+사람/NNG+많/VA+은/ETM+편/NNB+이/VCP+였/EP+는데/EC+뭔가/NP+VCP+EC+코/NNG+로/JKB+나전/NNG+보다/JKB+는/JX+여유/NNG+있/VA+는/ETM+느낌/NNG+이/VCP+였/EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 불안할 거 같아. 인원수 제한 있지 요즘?",
+            "norm_text": "불안할 거 같아. 인원수 제한 있지 요즘?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "불안/NNG+할/XSV+ETM+거/NNB+같/VA+아/EF+인원수/NNG+제한/NNG+있/VV+지/EC+요즘/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 백 명 제한이라 웨딩홀 안에 들어는거 막더라고 키키",
+            "norm_text": "응 백 명 제한이라 웨딩홀 안에 들어는거 막더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+백/NR+명/NNBC+제한/NNG+이/VCP+라/EC+웨딩/NNP+홀/NNP+안/NNG+에/JKB+들어/VV+는/ETM+거/NNB+막/VV+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 백 명? 제한해도 엄청 많네!",
+            "norm_text": "백 명? 제한해도 엄청 많네!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백/NR+명/NNBC+제한/NNG+해도/XSV+EC+엄청/MAG+많/VA+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 지방이라서 그런가 봐 키키 수도권은 제한 더 심한 거 같고",
+            "norm_text": "지방이라서 그런가 봐 키키 수도권은 제한 더 심한 거 같고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지방/NNG+이/VCP+라서/EC+그런가/VA+EC+봐/VX+EF+키키/NNP+수도/NNG+권/XSN+은/JX+제한/NNG+더/MAG+심한/VA+ETM+거/NNB+같/VA+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 100명에서 이미 의미가 없는 거 같다 키키 무서워서 결혼 하겠나!",
+            "norm_text": "100명에서 이미 의미가 없는 거 같다 키키 무서워서 결혼 하겠나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "100/SN+명/NNBC+에서/JKB+이미/MAG+의미/NNG+가/JKS+없/VA+는/ETM+거/NNB+같/VA+다/EC+키/NNG+키/XSV+ETN+무서워서/VA+EC+결혼/NNG+하/XSV+겠/EP+나/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 코로나라 뭔가 적당히 와줄 사람만 오는 것도 괜찮은 듯? 키키",
+            "norm_text": "근데 코로나라 뭔가 적당히 와줄 사람만 오는 것도 괜찮은 듯? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+코/NNG+로/JKB+나라/NNG+뭔가/NP+VCP+EC+적당히/MAG+와줄/VV+EC+VX+ETM+사람/NNG+만/JX+오/VV+는/ETM+것/NNB+도/JX+괜찮/VA+은/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 위험한 곳을 어쩔 수 없이 가는 넉김이네",
+            "norm_text": "응 위험한 곳을 어쩔 수 없이 가는 넉김이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+위험/NNG+한/XSA+ETM+곳/NNG+을/JKO+어쩔/VV+ETM+수/NNB+없이/MAG+가/VV+는/ETM+넉/NNG+김이/NNP+네/XSN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 약간 쫄았지만 밥도 먹고 왔어 키키",
+            "norm_text": "근데 약간 쫄았지만 밥도 먹고 왔어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+약간/MAG+쫄/VV+았/EP+지만/EC+밥/NNG+도/JX+먹/VV+고/EC+왔/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 밥까지?! 키키 밥도 주는구나",
+            "norm_text": "밥까지?! 키키 밥도 주는구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밥/NNG+까지/JX+!/SY+키/NNG+키/NNG+밥/NNG+도/JX+주/VX+는구나/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 난 가도 적당히 인사만 하고 와",
+            "norm_text": "난 가도 적당히 인사만 하고 와",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난가/NNG+도/JX+적당히/MAG+인사/NNG+만/JX+하/VV+고/EC+와/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 친한 친구 결혼식이라서 키키 아예 그냥 편하게 있다가 와버림",
+            "norm_text": "친한 친구 결혼식이라서 키키 아예 그냥 편하게 있다가 와버림",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "친한/VA+ETM+친구/NNG+결혼식/NNG+이/VCP+라서/EC+키/NNG+키/XSV+ETN+아예/MAG+그냥/MAG+편하/VA+게/EC+있/VX+다가/EC+와/VV+EC+버림/VX+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 앞으론 결혼식 갈 때도 신경 써 확진자도 나왔데",
+            "norm_text": "키키 앞으론 결혼식 갈 때도 신경 써 확진자도 나왔데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+앞/NNG+으론/JKB+JX+결혼식/NNG+갈/VV+ETM+때/NNG+도/JX+신경/NNG+써/VV+EC+확진/NNG+자/XSN+도/JX+나왔/VV+EP+데/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 진짜? 최근에 결혼식에선 나온 거 못 봐서 사실 좀 안심했었어",
+            "norm_text": "아 진짜? 최근에 결혼식에선 나온 거 못 봐서 사실 좀 안심했었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+최근/NNG+에/JKB+결혼식/NNG+에선/JKB+JX+나온/VV+ETM+거/NNB+못/MAG+봐서/VV+EC+사실/MAG+좀/MAG+안심/NNG+했었/XSV+EP+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

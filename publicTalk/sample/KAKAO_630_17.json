@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 40237,
+    "name": "KAKAO_630_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120549001235/KAKAO_630_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120549001235/KAKAO_630_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32210,
+      "filename": "KAKAO_630_17.txt",
+      "title": "KAKAO_630_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 414,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 414,
+        "word_size": 133,
+        "text": "1 : ** 아버지 갑자기 입원 하셨다네\n2 : 아 들었어 암일 수도 있다고 했다던데 ㅠ\n1 : 처음에는 그랬는데 검사 결과 나왔는데 다행이 암은 아니래\n2 : 휴 다행이다.\n2 : 그래도 입원은 계속 하시나?\n1 : 응 입원하시고 날짜 정해서 수술하신대\n2 : 무슨 병이야? 병명 몰라?\n1 : 응 무슨 담낭? 거기가 막혀서 수술한대\n2 : 큰 수술 아니면 좋겠네...\n1 : 응 암 아니라 천만다행이지 ㅠ\n2 : 그러게 근데 뭐 검사 하나만 비용이 90만 원이래\n1 : 헐 개 비싸네.\n1 : 그것도 보험 되겠지?\n2 : 아 아부지 연세도 있으시고 나라에서 보험처럼 해주는 게 있나 보더라고\n1 : 다행이네. 그거 있어서 수술비는 크게 문제 안되겠다\n2 : 응 주말에 한번 찾아 가보자\n1 : 그러자. 내가 연락 한번 해볼게\n2 : 그래 나도 챙겨갈 거 한번 찾아볼게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : ** 아버지 갑자기 입원 하셨다네",
+            "norm_text": "** 아버지 갑자기 입원 하셨다네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+아버지/NNG+갑자기/MAG+입원/NNG+하/XSV+셨/EP+EP+다네/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 들었어 암일 수도 있다고 했다던데 ㅠ",
+            "norm_text": "아 들었어 암일 수도 있다고 했다던데 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아들/NNG+었/EP+어/EC+암/NNG+일/VCP+ETM+수/NNB+도/JX+있/VA+다고/EC+했/VX+EP+다던데/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 처음에는 그랬는데 검사 결과 나왔는데 다행이 암은 아니래",
+            "norm_text": "처음에는 그랬는데 검사 결과 나왔는데 다행이 암은 아니래",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "처음/NNG+에/JKB+는/JX+그랬/VV+EP+는데/EC+검사/NNG+결과/NNG+나왔/VV+EP+는데/EC+다행/NNG+이/JKS+암/NNG+은/JX+아니/VCN+래/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 휴 다행이다.",
+            "norm_text": "휴 다행이다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴/IC+다행/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그래도 입원은 계속 하시나?",
+            "norm_text": "그래도 입원은 계속 하시나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+입원/NNG+은/JX+계속/NNG+하/XSV+시/EP+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응 입원하시고 날짜 정해서 수술하신대",
+            "norm_text": "응 입원하시고 날짜 정해서 수술하신대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+입원/NNG+하/XSV+시/EP+고/EC+날짜/NNG+정해서/VV+EC+수술/NNG+하/XSV+신대/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 무슨 병이야? 병명 몰라?",
+            "norm_text": "무슨 병이야? 병명 몰라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+병/NNG+이/VCP+야/EF+병명/NNG+몰라/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응 무슨 담낭? 거기가 막혀서 수술한대",
+            "norm_text": "응 무슨 담낭? 거기가 막혀서 수술한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+무슨/MM+담낭/NNG+거기/NP+가/JKS+막혀서/VV+EC+수술/NNG+한대/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 큰 수술 아니면 좋겠네...",
+            "norm_text": "큰 수술 아니면 좋겠네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "큰/VA+ETM+수술/NNG+아니/VCN+면/EC+좋/VA+겠/EP+네/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 암 아니라 천만다행이지 ㅠ",
+            "norm_text": "응 암 아니라 천만다행이지 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응암/NNP+아니/VCN+라/EC+천만다행/NNG+이/JKS+지ㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그러게 근데 뭐 검사 하나만 비용이 90만 원이래",
+            "norm_text": "그러게 근데 뭐 검사 하나만 비용이 90만 원이래",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/IC+근데/MAJ+뭐/IC+검사/NNG+하나/NR+만/JX+비용/NNG+이/JKS+90/SN+만/NR+원/NNBC+이래/NNG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 헐 개 비싸네.",
+            "norm_text": "헐 개 비싸네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+개/NNBC+비싸/VA+네/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그것도 보험 되겠지?",
+            "norm_text": "그것도 보험 되겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+도/JX+보험/NNG+되/XSV+겠/EP+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아 아부지 연세도 있으시고 나라에서 보험처럼 해주는 게 있나 보더라고",
+            "norm_text": "아 아부지 연세도 있으시고 나라에서 보험처럼 해주는 게 있나 보더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+아부지/NNG+연세/NNG+도/JX+있/VA+으시/EP+고/EC+나라/NNG+에서/JKB+보험/NNG+처럼/JKB+해/VV+EC+주/VX+는/ETM+게/NNB+JKS+있/VA+나/EC+보/VX+더라고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 다행이네. 그거 있어서 수술비는 크게 문제 안되겠다",
+            "norm_text": "다행이네. 그거 있어서 수술비는 크게 문제 안되겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/VCP+네/EF+그거/NP+있/VA+어서/EC+수술비/NNG+는/JX+크/VA+게/EC+문제/NNG+안/MAG+되/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 주말에 한번 찾아 가보자",
+            "norm_text": "응 주말에 한번 찾아 가보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+주말/NNG+에/JKB+한/MM+번/NNBC+찾아가/VV+EC+보/VX+자/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그러자. 내가 연락 한번 해볼게",
+            "norm_text": "그러자. 내가 연락 한번 해볼게",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그러/VV+자/EF+내/NP+가/JKS+연락/NNG+한/MM+번/NNBC+해/VV+EC+볼/VX+게/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그래 나도 챙겨갈 거 한번 찾아볼게",
+            "norm_text": "그래 나도 챙겨갈거 한번 찾아볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "그래/IC+나/NP+도/JX+챙겨/VV+EC+갈/VX+ETM+거/NNB+한번/MAG+찾아볼/VV+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

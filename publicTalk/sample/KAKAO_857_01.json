@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34418,
+    "name": "KAKAO_857_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173807032786/KAKAO_857_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173807032786/KAKAO_857_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39939,
+      "filename": "KAKAO_857_01.txt",
+      "title": "KAKAO_857_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 302,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 302,
+        "word_size": 105,
+        "text": "1 : 추석 때 외식을 해야 할까?\n2 : 한번은 해야 하지 않을까?\n1 : 뭐 먹으러 갈까?\n2 : 오랜만에 돼지갈비 먹을까?\n1 : 좋지 갈비 안 먹은 지 오래 됐네\n2 : 응 다음 주에 갈비 먹자.\n1 : 그럼 자주 가던 ** 갈비 갈까\n2 : 응 거기 맛있잖아 거기 가자.\n1 : 그려 가게 두 개였는데 하나는 없어졌어 ㅋ\n2 : 응 지나오면서 봤어.\n1 : 왜 없어졌지 손님이 없나?\n2 : 그러게 망했는 건가?\n1 : 코로나 때문에 그런가 봐...\n2 : 응 ** 갈비 맛있는데.\n1 : 거기 직원도 안 바뀌더라구\n2 : 응 아줌마들 그대로 있는 거 같아.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 추석 때 외식을 해야 할까?",
+            "norm_text": "추석 때 외식을 해야 할까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "추석/NNG+때/NNG+외식/NNG+을/JKO+해야/VV+EC+할까/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 한번은 해야 하지 않을까?",
+            "norm_text": "한번은 해야 하지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+번/NNBC+은/JX+해야/VV+EC+하/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 뭐 먹으러 갈까?",
+            "norm_text": "뭐 먹으러 갈까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+먹/VV+으러/EC+갈까/VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오랜만에 돼지갈비 먹을까?",
+            "norm_text": "오랜만에 돼지갈비 먹을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오랜만/NNG+에/JKB+돼지갈비/NNG+먹/VV+을까/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 좋지 갈비 안 먹은 지 오래 됐네",
+            "norm_text": "좋지 갈비 안 먹은 지 오래 됐네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+지/EC+갈비/NNG+안/MAG+먹/VV+은지/EC+오래/MAG+됐/VV+EP+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 다음 주에 갈비 먹자.",
+            "norm_text": "응 다음 주에 갈비 먹자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+다음/NNG+주/NNG+에/JKB+갈비/NNG+먹/VV+자/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그럼 자주 가던 ** 갈비 갈까",
+            "norm_text": "그럼 자주 가던 ** 갈비 갈까",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+자주/MAG+가/VV+던/ETM+*/SY+*/SY+갈비/NNG+갈까/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 거기 맛있잖아 거기 가자.",
+            "norm_text": "응 거기 맛있잖아 거기 가자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+거기/NP+맛있/VA+잖아/EF+거기/NP+가/JKS+자/IC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그려 가게 두 개였는데 하나는 없어졌어 ㅋ",
+            "norm_text": "그려 가게 두 개였는데 하나는 없어졌어 ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그려/VV+EC+가/VX+게/EC+두/MM+개/NNBC+였/VCP+EP+는데/EC+하나/NR+는/JX+없/VA+어/EC+졌/VX+EP+어ㅋ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 지나오면서 봤어.",
+            "norm_text": "응 지나오면서 봤어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응지/NNG+나오/VV+면서/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 왜 없어졌지 손님이 없나?",
+            "norm_text": "왜 없어졌지 손님이 없나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+없/VA+어/EC+졌/VX+EP+지/EC+손/NNG+님/XSN+이/JKS+없/VA+나/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그러게 망했는 건가?",
+            "norm_text": "그러게 망했는 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+게/EC+망했/VV+EP+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 코로나 때문에 그런가 봐...",
+            "norm_text": "코로나 때문에 그런가 봐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코로나/NNG+때문/NNB+에/JKB+그런가/VA+EC+봐/VX+EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 ** 갈비 맛있는데.",
+            "norm_text": "응 ** 갈비 맛있는데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+*/SY+*/SY+갈비/NNG+맛있/VA+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 거기 직원도 안 바뀌더라구",
+            "norm_text": "거기 직원도 안 바뀌더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+직원/NNG+도/JX+안/MAG+바뀌/VV+더라구/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 아줌마들 그대로 있는 거 같아.",
+            "norm_text": "응 아줌마들 그대로 있는 거 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아줌마/NNG+들/XSN+그대로/MAG+있/VV+는/ETM+거/NNB+같/VA+아/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

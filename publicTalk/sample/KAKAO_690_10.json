@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 39701,
+    "name": "KAKAO_690_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055019323/KAKAO_690_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055019323/KAKAO_690_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35309,
+      "filename": "KAKAO_690_10.txt",
+      "title": "KAKAO_690_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 610,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 610,
+        "word_size": 190,
+        "text": "1 : 니는 밖에서 야외 활동하는 거 좋아하나?\n2 : 나는 밖에서 야외 활동하는 거 너무 너무 너무 좋아하지\n1 : 오오! 키키 뭐 운동 같은 것도 하는 거 있나?\n2 : 지금은 코로나 때문에 못하는데 터지기 전까지 수영 초급반 열심히 다녔지\n1 : 오오! 나 수영 한 번도 배워 본 적 없어 키키\n1 : 수영은 초급반은 뭐 배워?\n2 : 초급반에서는 물에 뜨는 거랑 자세랑 호흡법 이 정도 배워\n1 : 우와... 근데 물에 뜨는 걸 배우면 물에 떠지나?\n2 : 키키 그건 근데 어렸을 적에 목욕탕에서 많이 해보지 않았어?\n2 : 나는 그냥 되던데...\n1 : 아 진짜? 난 못 뜨더라고? 키키\n1 : 목욕탕에서 왜 떠있어... 키키\n2 : **도 물이 무서워서 수영은 못 하겠다고 했어 ㅠ 가라앉는대\n1 : ㅜㅜ 나도 가라앉아서 수영 싫어해 ㅜㅜ  무서워... 키키\n2 : 너는 자전거 운동하면 좋을 거 같은데?\n2 : 요즘 자전거 운동도 되게 많이들 하더라구\n1 : 키키 예전에 자전거 탔었는데... 자전거가 없어졌어 키키\n2 : 자물쇠 채워 놨는데 누가 훔쳐간 거야? 나쁜 놈들\n1 : 우리나라는 진짜 자전거만 훔쳐가는 나라가 맞나 봐 하하\n2 : 키키 서울에는 자전거도 빌려준다며 따릉이인가?\n2 : 그거 타고 다니자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니는 밖에서 야외 활동하는 거 좋아하나?",
+            "norm_text": "니는 밖에서 야외 활동하는 거 좋아하나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+밖/NNG+에서/JKB+야외/NNG+활동/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+하나/NR"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 밖에서 야외 활동하는 거 너무 너무 너무 좋아하지",
+            "norm_text": "나는 밖에서 야외 활동하는 거 너무 너무 너무 좋아하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+밖/NNG+에서/JKB+야외/NNG+활동/NNG+하/XSV+는/ETM+거/NNB+너무/MAG+너무너무/MAG+좋/VA+아/EC+하/VV+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오오! 키키 뭐 운동 같은 것도 하는 거 있나?",
+            "norm_text": "오오! 키키 뭐 운동 같은 것도 하는 거 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+키/NNG+키/XSV+ETN+뭐/IC+운동/NNG+같/VA+은/ETM+것/NNB+도/JX+하/VV+는/ETM+거/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 지금은 코로나 때문에 못하는데 터지기 전까지 수영 초급반 열심히 다녔지",
+            "norm_text": "지금은 코로나 때문에 못하는데 터지기 전까지 수영 초급반 열심히 다녔지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+코로나/NNG+때문/NNB+에/JKB+못/MAG+하/VV+는/ETM+데/NNB+터지/VV+기/ETN+전/NNG+까지/JX+수영/NNG+초급반/NNG+열심히/MAG+다녔/VV+EP+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오오! 나 수영 한 번도 배워 본 적 없어 키키",
+            "norm_text": "오오! 나 수영 한 번도 배워 본 적 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+나수영/NNP+한/MM+번/NNBC+도/JX+배워/VV+EC+본/VX+ETM+적/NNB+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 수영은 초급반은 뭐 배워?",
+            "norm_text": "수영은 초급반은 뭐 배워?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "수영/NNG+은/JX+초급반/NNG+은/JX+뭐/IC+배워/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 초급반에서는 물에 뜨는 거랑 자세랑 호흡법 이 정도 배워",
+            "norm_text": "초급반에서는 물에 뜨는 거랑 자세랑 호흡법 이 정도 배워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "초급반/NNG+에서/JKB+는/JX+물/NNG+에/JKB+뜨/VV+는/ETM+거/NNB+랑/JC+자세/NNG+랑/JKB+호흡/NNG+법/NNG+이/JKS+정도/NNG+배워/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우와... 근데 물에 뜨는 걸 배우면 물에 떠지나?",
+            "norm_text": "우와... 근데 물에 뜨는 걸 배우면 물에 떠지나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+./SY+근데/MAJ+물/NNG+에/JKB+뜨/VV+는/ETM+걸/NNB+JKO+배우/VV+면/EC+물/NNG+에/JKB+떠지/VV+나/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 그건 근데 어렸을 적에 목욕탕에서 많이 해보지 않았어?",
+            "norm_text": "키키 그건 근데 어렸을 적에 목욕탕에서 많이 해보지 않았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+근데/MAJ+어렸/VA+EP+을/ETM+적/NNB+에/JKB+목욕탕/NNG+에서/JKB+많이/MAG+해/VV+EC+보/VX+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나는 그냥 되던데...",
+            "norm_text": "나는 그냥 되던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+그냥/MAG+되/VV+던데/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 진짜? 난 못 뜨더라고? 키키",
+            "norm_text": "아 진짜? 난 못 뜨더라고? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+난/NP+JX+못/MAG+뜨/VV+더라고/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 목욕탕에서 왜 떠있어... 키키",
+            "norm_text": "목욕탕에서 왜 떠있어... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "목욕탕/NNG+에서/JKB+왜/MAG+떠/VV+EC+있/VX+어/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : **도 물이 무서워서 수영은 못 하겠다고 했어 ㅠ 가라앉는대",
+            "norm_text": "**도 물이 무서워서 수영은 못 하겠다고 했어 ㅠ 가라앉는대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+도물/NNG+이/JKS+무서워서/VA+EC+수영/NNG+은/JX+못/MAG+하/VV+겠/EP+다고/EC+했/VX+EP+어ㅠ/UNKNOWN+가라앉/VV+는대/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : ㅜㅜ 나도 가라앉아서 수영 싫어해 ㅜㅜ  무서워... 키키",
+            "norm_text": "ㅜㅜ 나도 가라앉아서 수영 싫어해 ㅜㅜ  무서워... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+나/NP+도/JX+가라앉/VV+아서/EC+수영/NNG+싫/VA+어/EC+해/VV+EC+ㅜㅜ/UNKNOWN+무서워/VA+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 너는 자전거 운동하면 좋을 거 같은데?",
+            "norm_text": "너는 자전거 운동하면 좋을 거 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "너/NP+는/JX+자전거/NNG+운동/NNG+하/XSV+면/EC+좋/VA+을/ETM+거/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 요즘 자전거 운동도 되게 많이들 하더라구",
+            "norm_text": "요즘 자전거 운동도 되게 많이들 하더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+자전거/NNG+운동/NNG+도/JX+되게/MAG+많이/MAG+들/XSN+하/VV+더라구/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 예전에 자전거 탔었는데... 자전거가 없어졌어 키키",
+            "norm_text": "키키 예전에 자전거 탔었는데... 자전거가 없어졌어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+예전/NNG+에/JKB+자전거/NNG+탔었/VV+EP+는데/EC+./SY+./SY+자전거/NNG+가/JKS+없/VA+어/EC+졌/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 자물쇠 채워 놨는데 누가 훔쳐간 거야? 나쁜 놈들",
+            "norm_text": "자물쇠 채워 놨는데 누가 훔쳐간 거야? 나쁜 놈들",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자물쇠/NNG+채워/VV+EC+놨는데/VX+EP+EF+누가/NP+JKS+훔쳐간/VV+EC+VX+ETM+거/NNB+야/VCP+EF+나쁜/VA+ETM+놈/NNB+들/XSN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 우리나라는 진짜 자전거만 훔쳐가는 나라가 맞나 봐 하하",
+            "norm_text": "우리나라는 진짜 자전거만 훔쳐가는 나라가 맞나 봐 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+는/JX+진짜/MAG+자전거/NNG+만/JX+훔쳐/VV+EC+가/VX+는/ETM+나라/NNG+가/JKS+맞/VV+나/EC+봐/VX+EF+하하/MAG"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 서울에는 자전거도 빌려준다며 따릉이인가?",
+            "norm_text": "키키 서울에는 자전거도 빌려준다며 따릉이인가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+서울/NNP+에/JKB+는/JX+자전거/NNG+도/JX+빌려/VV+EC+준다며/VX+EC+따/VV+EC+릉/NNG+이/JKS+인가/NR+VCP+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그거 타고 다니자",
+            "norm_text": "그거 타고 다니자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+타/VV+고/EC+다니/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

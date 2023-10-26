@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 23907,
+    "name": "KAKAO_583_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155950008280/KAKAO_583_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155950008280/KAKAO_583_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31585,
+      "filename": "KAKAO_583_14.txt",
+      "title": "KAKAO_583_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 492,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 492,
+        "word_size": 143,
+        "text": "1 : 요새 전자 발찌가 이슈네요\n2 : 아 그래요? 저는 코로나19 백신 오접종 사고 봤는데요\n1 : 아 그런가요 어떤 사고 인가요\n2 : 평택 성모 병원에서 권고 기한이 지난 백신을 접종 시켰다고 하네요?\n1 : 저런 얼마나 지났을까요 크게 문제가 있을지...\n2 : 104명에게 잘못 접종 했어요 말이 안 돼...\n1 : 104명이면 너무 많네요 어쩌다가...\n2 : 부랴부랴 접종자들에게 문자로 오접종 사실을 알리긴 했는데\n1 : 음 근데 이미 들어간 걸 뽑아낼 수도 없고...\n2 : 평택만 그런 게 아니라 서울, 울산도 오접종 사고가 있었네요\n1 : 그렇군요 유통기한 살짝 지난 건가...\n2 : 해동 후 접종 권고 기한이 임박한 백신을 사용했거나 초과한 백신을 사용했어요\n1 : 음... 큰 문제가 안 일어나길 비네요...\n2 : 질병 청에서 대책을 강구하고 있는데 사망 건이 생기면 큰일이네요\n1 : 네 사망 건이 안 생기길 바라네요\n2 : 네 그랬으면 좋겠어요 코로나19 극복했으면 좋겠어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 전자 발찌가 이슈네요",
+            "norm_text": "요새 전자 발찌가 이슈네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+전자/NNG+발찌/NNG+가/JKS+이슈/NNG+네요/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 그래요? 저는 코로나19 백신 오접종 사고 봤는데요",
+            "norm_text": "아 그래요? 저는 코로나19 백신 오접종 사고 봤는데요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래요/VV+EF+저/NP+는/JX+코로나/NNG+19/SN+백/NR+신오/NNG+접종/NNG+사/VV+고/EC+봤/VX+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그런가요 어떤 사고 인가요",
+            "norm_text": "아 그런가요 어떤 사고 인가요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그런가요/VA+EC+VCP+EF+어떤/MM+사고/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 평택 성모 병원에서 권고 기한이 지난 백신을 접종 시켰다고 하네요?",
+            "norm_text": "평택 성모 병원에서 권고 기한이 지난 백신을 접종 시켰다고 하네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평택/NNP+성모병원/NNP+에서/JKB+권고/NNG+기한/NNG+이/JKS+지난/VV+ETM+백신/NNG+을/JKO+접종/NNG+시켰/XSV+EP+다고/EC+하/VX+네요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 저런 얼마나 지났을까요 크게 문제가 있을지...",
+            "norm_text": "저런 얼마나 지났을까요 크게 문제가 있을지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저런/MM+얼마나/MAG+지났/VV+EP+을까요/EC+크/VA+게/EC+문제/NNG+가/JKS+있/VA+을지/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 104명에게 잘못 접종 했어요 말이 안 돼...",
+            "norm_text": "104명에게 잘못 접종 했어요 말이 안 돼...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "104/SN+명/NNBC+에게/JKB+잘못/MAG+접종/NNG+했/XSV+EP+어요/EF+말/NNG+이/JKS+안/MAG+돼/VV+EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 104명이면 너무 많네요 어쩌다가...",
+            "norm_text": "104명이면 너무 많네요 어쩌다가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "104/SN+명/NNBC+이/VCP+면/EC+너무/MAG+많/VA+네요/EF+어쩌다가/MAG+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 부랴부랴 접종자들에게 문자로 오접종 사실을 알리긴 했는데",
+            "norm_text": "부랴부랴 접종자들에게 문자로 오접종 사실을 알리긴 했는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부랴부랴/MAG+접종/NNG+자/XSN+들/XSN+에게/JKB+문자/NNG+로/JKB+오/NR+접종/NNG+사실/NNG+을/JKO+알리/VV+긴/ETN+JX+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 음 근데 이미 들어간 걸 뽑아낼 수도 없고...",
+            "norm_text": "음 근데 이미 들어간 걸 뽑아낼 수도 없고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+근데/MAJ+이미/MAG+들어간/VV+ETM+걸/NNB+JKO+뽑아낼/VV+ETM+수/NNB+도/JX+없/VA+고/EC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 평택만 그런 게 아니라 서울, 울산도 오접종 사고가 있었네요",
+            "norm_text": "평택만 그런 게 아니라 서울, 울산도 오접종 사고가 있었네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평택/NNP+만/JX+그런/MM+게/NNB+JKC+아니/VCN+라/EC+서울/NNP+,/SC+울산/NNP+도오/NNG+접종/NNG+사고/NNG+가/JKS+있/VA+었/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그렇군요 유통기한 살짝 지난 건가...",
+            "norm_text": "그렇군요 유통기한 살짝 지난 건가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+군요/EC+유통/NNG+기한/NNG+살짝/MAG+지난/VV+ETM+건가/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 해동 후 접종 권고 기한이 임박한 백신을 사용했거나 초과한 백신을 사용했어요",
+            "norm_text": "해동 후 접종 권고 기한이 임박한 백신을 사용했거나 초과한 백신을 사용했어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해동/NNG+후/NNG+접종/NNG+권고/NNG+기한/NNG+이/JKS+임박/XR+한/XSA+ETM+백신/NNG+을/JKO+사용/NNG+했/XSV+EP+거나/EC+초과/NNG+한/XSA+ETM+백신/NNG+을/JKO+사용/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 음... 큰 문제가 안 일어나길 비네요...",
+            "norm_text": "음... 큰 문제가 안 일어나길 비네요...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+큰/VA+ETM+문제/NNG+가/JKS+안/MAG+일어나/VV+길/ETN+JKO+비/VV+네요/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 질병 청에서 대책을 강구하고 있는데 사망 건이 생기면 큰일이네요",
+            "norm_text": "질병 청에서 대책을 강구하고 있는데 사망 건이 생기면 큰일이네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "질병/NNG+청/NNG+에서/JKB+대책/NNG+을/JKO+강구/NNG+하/XSV+고/EC+있/VX+는/ETM+데/NNB+사/VV+EC+망건/NNG+이/JKS+생기/VV+면/EC+큰일/NNG+이/VCP+네요/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 네 사망 건이 안 생기길 바라네요",
+            "norm_text": "네 사망 건이 안 생기길 바라네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네사/NNG+망건/NNG+이/JKS+안/MAG+생기/VV+길/ETN+JKO+바라/VV+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 네 그랬으면 좋겠어요 코로나19 극복했으면 좋겠어요",
+            "norm_text": "네 그랬으면 좋겠어요 코로나19 극복했으면 좋겠어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+그랬/VV+EP+으면/EC+좋/VA+겠/EP+어요/EF+코로나/NNP+19/SN+극복/NNG+했/XSV+EP+으면/EC+좋/VA+겠/EP+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

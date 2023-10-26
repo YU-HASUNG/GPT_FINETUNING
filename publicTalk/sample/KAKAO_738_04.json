@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 33254,
+    "name": "KAKAO_738_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135511061292/KAKAO_738_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135511061292/KAKAO_738_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37312,
+      "filename": "KAKAO_738_04.txt",
+      "title": "KAKAO_738_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 609,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 609,
+        "word_size": 187,
+        "text": "1 : 편의점 아르바이트하는데 진짜 진상 엄청 많네\n2 : 키키 너 일하는 쪽도 진상 많아?\n1 : 진짜 거짓말 안 하고 하루에 3~4명은 있는 듯\n2 : 와... 은근 엄청 많네 키키 골머리 아프겠다 키키\n1 : 오늘도 아직 근무시간 3시간밖에 안 지났는데 2명이나 진상 왔다 갔어 키키\n2 : 키키 벌써 왔다 감? 키키\n2 : 어떤 진상들이였는데? 키키\n1 : 한 명은 무슨 쇼핑하러 왔나 가게를 몇 바퀴를 돌면서 물건을 고르는지 키키 한 보따리 챙겨오더라 키키\n2 : 야 키키 그럴 꺼면 마트를 가라 하지 키키\n2 : 무슨 좁아터진 편의점에서 그렇게 뭘 고민하면서 사냐 키키\n1 : 그니까... 키키 손님 오면 물품 정리하지 말라고 점장님이 그래서 구석에 밀어 놓고 기다리는데 30분이 넘도록 계산하러 안 와...\n2 : 30분이나? 키키 아니 키키 무슨 진짜 쇼핑하냐고 키키\n1 : 물품 정리도 못 하고 그냥 카운터에서 멀뚱멀뚱 기다렸다 키키\n2 : 키키 다른 한 명은 어떤 진상임?\n1 : 그나마 괜찮은 진상이긴 한데 현금 계산하는데 돈 툭툭 던지는 진상\n2 : 와 진짜 제일 기분 나쁜 진상 아니냐...\n1 : 기분 나쁘긴 한데 이 정도는 진짜 약소한 거야 키키\n2 : 아르바이트하는데 진짜 고생이 많다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 편의점 아르바이트하는데 진짜 진상 엄청 많네",
+            "norm_text": "편의점 아르바이트하는데 진짜 진상 엄청 많네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "편의점/NNG+아르바이트/NNG+하/XSV+는데/EC+진짜/MAG+진상/NNG+엄청/MAG+많/VA+네/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 너 일하는 쪽도 진상 많아?",
+            "norm_text": "키키 너 일하는 쪽도 진상 많아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키너/NNP+일/NNG+하/XSV+는/ETM+쪽/NNB+도/JX+진상/NNG+많/VA+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 진짜 거짓말 안 하고 하루에 3~4명은 있는 듯",
+            "norm_text": "진짜 거짓말 안 하고 하루에 3~4명은 있는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+거짓말/NNG+안/MAG+하/VV+고/EC+하루/NNG+에/JKB+3/SN+~/SY+4/SN+명/NNBC+은/JX+있/VA+는/ETM+듯/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 와... 은근 엄청 많네 키키 골머리 아프겠다 키키",
+            "norm_text": "와... 은근 엄청 많네 키키 골머리 아프겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+은근/NNG+엄청/MAG+많/VA+네/EF+키키/NNP+골머리/NNG+아프/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오늘도 아직 근무시간 3시간밖에 안 지났는데 2명이나 진상 왔다 갔어 키키",
+            "norm_text": "오늘도 아직 근무시간 3시간밖에 안 지났는데 2명이나 진상 왔다 갔어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+도/JX+아직/MAG+근무/NNG+시간/NNG+3/SN+시간/NNBC+밖에/JX+안/MAG+지났/VV+EP+는데/EC+2/SN+명/NNBC+이나/JX+진상/NNG+왔/VV+EP+다/EC+갔/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 벌써 왔다 감? 키키",
+            "norm_text": "키키 벌써 왔다 감? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+벌써/MAG+왔/VV+EP+다감/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 어떤 진상들이였는데? 키키",
+            "norm_text": "어떤 진상들이였는데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+진상/NNG+들/XSN+이/VCP+였/EP+는데/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 한 명은 무슨 쇼핑하러 왔나 가게를 몇 바퀴를 돌면서 물건을 고르는지 키키 한 보따리 챙겨오더라 키키",
+            "norm_text": "한 명은 무슨 쇼핑하러 왔나 가게를 몇 바퀴를 돌면서 물건을 고르는지 키키 한 보따리 챙겨오더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한/MM+명/NNBC+은/JX+무슨/MM+쇼핑/NNG+하/XSV+러/EC+왔/VX+EP+나가/VV+게/EC+를/JKO+몇/MM+바퀴/NNBC+를/JKO+돌/VV+면서/EC+물건/NNG+을/JKO+고르/VV+는지/EC+키/NNG+키/XSV+ETN+한/MM+보따리/NNBC+챙겨오/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 야 키키 그럴 꺼면 마트를 가라 하지 키키",
+            "norm_text": "야 키키 그럴 꺼면 마트를 가라 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야키/NNP+키/NNG+그럴/VV+ETM+꺼/NNB+VCP+면/EC+마트/NNG+를/JKO+가/VV+라/EC+하/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 무슨 좁아터진 편의점에서 그렇게 뭘 고민하면서 사냐 키키",
+            "norm_text": "무슨 좁아터진 편의점에서 그렇게 뭘 고민하면서 사냐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무슨/MM+좁아터진/VA+ETM+편의점/NNG+에서/JKB+그렇게/MAG+뭘/NP+JKO+고민/NNG+하/XSV+면서/EC+사/VV+냐/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그니까... 키키 손님 오면 물품 정리하지 말라고 점장님이 그래서 구석에 밀어 놓고 기다리는데 30분이 넘도록 계산하러 안 와...",
+            "norm_text": "그니까... 키키 손님 오면 물품 정리하지 말라고 점장님이 그래서 구석에 밀어 놓고 기다리는데 30분이 넘도록 계산하러 안 와...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니까/MAJ+./SY+키/NNG+키손/NNG+님/XSN+오/VV+면/EC+물품/NNG+정리/NNG+하/XSV+지/EC+말/VX+라고/EC+점장/NNG+님/XSN+이/JKS+그래서/MAJ+구석/NNP+에/JKB+밀/VV+어/EC+놓/VX+고/EC+기다리/VV+는/ETM+데/NNB+30/SN+분/NNBC+이/JKS+넘/VV+도록/EC+계산/NNG+하/XSV+러/EC+안/MAG+와/VV+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 30분이나? 키키 아니 키키 무슨 진짜 쇼핑하냐고 키키",
+            "norm_text": "30분이나? 키키 아니 키키 무슨 진짜 쇼핑하냐고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "30/SN+분/NNBC+이/VCP+나/EF+키키/NNP+아니키/NNP+키/NNG+무슨/MM+진짜/MAG+쇼핑/NNG+하/XSV+냐고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 물품 정리도 못 하고 그냥 카운터에서 멀뚱멀뚱 기다렸다 키키",
+            "norm_text": "물품 정리도 못 하고 그냥 카운터에서 멀뚱멀뚱 기다렸다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "물품/NNG+정리/NNG+도/JX+못하/VX+고/EC+그냥/MAG+카운터/NNG+에서/JKB+멀뚱멀뚱/MAG+기다렸/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 다른 한 명은 어떤 진상임?",
+            "norm_text": "키키 다른 한 명은 어떤 진상임?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+다른/MM+한/MM+명/NNBC+은/JX+어떤/MM+진상/NNG+임/VCP+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그나마 괜찮은 진상이긴 한데 현금 계산하는데 돈 툭툭 던지는 진상",
+            "norm_text": "그나마 괜찮은 진상이긴 한데 현금 계산하는데 돈 툭툭 던지는 진상",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그나마/MAG+괜찮/VA+은/ETM+진상/NNG+이/VCP+긴/ETN+JX+한데/VX+EC+현금/NNG+계산/NNG+하/XSV+는/ETM+데/NNB+돈/NNG+툭툭/MAG+던지/VV+는/ETM+진상/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 와 진짜 제일 기분 나쁜 진상 아니냐...",
+            "norm_text": "와 진짜 제일 기분 나쁜 진상 아니냐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+제일/MAG+기분/NNG+나쁜/VA+ETM+진상/NNG+아니/VCN+냐/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 기분 나쁘긴 한데 이 정도는 진짜 약소한 거야 키키",
+            "norm_text": "기분 나쁘긴 한데 이 정도는 진짜 약소한 거야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기분/NNG+나쁘/VA+긴/ETN+JX+한데/VX+EC+이/MM+정도/NNG+는/JX+진짜/MAG+약소/XR+한/XSA+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아르바이트하는데 진짜 고생이 많다 키키",
+            "norm_text": "아르바이트하는데 진짜 고생이 많다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아르바이트/NNG+하/XSV+는데/EC+진짜/MAG+고생/NNG+이/JKS+많/VA+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

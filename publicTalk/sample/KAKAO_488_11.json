@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 25220,
+    "name": "KAKAO_488_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404018180/KAKAO_488_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404018180/KAKAO_488_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29362,
+      "filename": "KAKAO_488_11.txt",
+      "title": "KAKAO_488_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 443,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 443,
+        "word_size": 145,
+        "text": "1 : 아빠도 고스톱 좋아해?\n2 : 아빠 고스톱 잘 치지~ 고수야 고수\n1 : 하하 아빠 게임 좀 좋아하나 봐\n2 : 게임하면 스트레스가 풀리기도 하더라고~\n2 : 딸은 게임 안 하나?\n1 : 나는 게임 싫어하잖아 사실 키키 못해서 싫어 ㅜㅜ\n2 : 하다 보면 잘해지더라고~\n2 : 아빠도 못해 키키\n2 : 재밌어 한 게임은 있나?\n1 : 아빠한테 고스톱이나 배워볼까 키키\n2 : 재밌겠는데~? 아빠가 하나하나 알려줄게 해보자~\n2 : 돈 걸고 배워~\n1 : 돈도 걸라고? 아빠 진짜 양아치구나\n2 : 세상에 공짜가 어디 있어~\n2 : 배우는 건 다 돈이 있어야지~\n1 : 하하 나 안 배워도 돼 하하\n2 : 아니야~ 배워야 되겠다 고스톱은 배워둬 아빠한테\n1 : 나 짝 맞추기 엄청 잘해 키키\n2 : 머리가 똑똑해야 돼~ 아빠가 이기겠네 ㅎ\n1 : 하하 집에 가서 한 번 해보자\n2 : 그래~ 아빠가 이기면 와인 하나 사와~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아빠도 고스톱 좋아해?",
+            "norm_text": "아빠도 고스톱 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+도/JX+고스톱/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아빠 고스톱 잘 치지~ 고수야 고수",
+            "norm_text": "아빠 고스톱 잘 치지~ 고수야 고수",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+고스톱/NNG+잘/MAG+치/VV+지/EC+~/SY+고/JKQ+수야/NNP+고수/NNP"
+          },
+          {
+            "id": 3,
+            "text": "1 : 하하 아빠 게임 좀 좋아하나 봐",
+            "norm_text": "하하 아빠 게임 좀 좋아하나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+아빠/NNG+게임/NNG+좀/MAG+좋/VA+아/EC+하나/NR+봐/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 게임하면 스트레스가 풀리기도 하더라고~",
+            "norm_text": "게임하면 스트레스가 풀리기도 하더라고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "게임/NNG+하/XSV+면/EC+스트레스/NNG+가/JKS+풀리/VV+기/ETN+도/JX+하/VV+더라고/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 딸은 게임 안 하나?",
+            "norm_text": "딸은 게임 안 하나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "딸/NNG+은/JX+게임/NNG+안/MAG+하/VV+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나는 게임 싫어하잖아 사실 키키 못해서 싫어 ㅜㅜ",
+            "norm_text": "나는 게임 싫어하잖아 사실 키키 못해서 싫어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+게임/NNG+싫/VA+어/EC+하/VX+잖아/EF+사실/MAG+키/NNG+키/NNG+못/MAG+해서/VV+EC+싫/VA+어/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 하다 보면 잘해지더라고~",
+            "norm_text": "하다 보면 잘해지더라고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하/VV+다/EC+보/VX+면/EC+잘/MAG+해/VV+EC+지/VX+더라고/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아빠도 못해 키키",
+            "norm_text": "아빠도 못해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+도/JX+못/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 재밌어 한 게임은 있나?",
+            "norm_text": "재밌어 한 게임은 있나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "재밌/VA+어/EC+한/MM+게임/NNG+은/JX+있/VA+나/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아빠한테 고스톱이나 배워볼까 키키",
+            "norm_text": "아빠한테 고스톱이나 배워볼까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+한테/JKB+고스톱/NNG+이나/JX+배워볼까/VV+EC+VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 재밌겠는데~? 아빠가 하나하나 알려줄게 해보자~",
+            "norm_text": "재밌겠는데~? 아빠가 하나하나 알려줄게 해보자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "재밌/VA+겠/EP+는데/EC+~/SY+아빠/NNG+가/JKS+하나하나/MAG+알려/VV+EC+줄/VX+ETM+게/NNB+JKS+해/VV+EC+보/VX+자/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 돈 걸고 배워~",
+            "norm_text": "돈 걸고 배워~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+걸/VV+고/EC+배워/VV+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 돈도 걸라고? 아빠 진짜 양아치구나",
+            "norm_text": "돈도 걸라고? 아빠 진짜 양아치구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "돈/NNG+도/JX+걸/VV+라고/EC+?/SY+아빠/NNG+진짜/MAG+양아치/NNG+구나/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 세상에 공짜가 어디 있어~",
+            "norm_text": "세상에 공짜가 어디 있어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "세상/NNG+에/JKB+공짜/NNG+가/JKS+어디/NP+있/VA+어/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 배우는 건 다 돈이 있어야지~",
+            "norm_text": "배우는 건 다 돈이 있어야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배우/VV+는/ETM+건/NNB+JX+다/MAG+돈/NNG+이/JKS+있/VV+어야지/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 하하 나 안 배워도 돼 하하",
+            "norm_text": "하하 나 안 배워도 돼 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/IC+하나/NR+안/MAG+배워도/VV+EC+돼/VV+EC+하하/MAG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아니야~ 배워야 되겠다 고스톱은 배워둬 아빠한테",
+            "norm_text": "아니야~ 배워야 되겠다 고스톱은 배워둬 아빠한테",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+~/SY+배워야/VV+EC+되/VV+겠/EP+다고/EC+스톱/NNG+은/JX+배워/VV+EC+둬/VX+EC+아빠/NNG+한테/JKB"
+          },
+          {
+            "id": 18,
+            "text": "1 : 나 짝 맞추기 엄청 잘해 키키",
+            "norm_text": "나 짝 맞추기 엄청 잘해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+짝/MAG+맞추/VV+기/ETN+엄청/MAG+잘/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 머리가 똑똑해야 돼~ 아빠가 이기겠네 ㅎ",
+            "norm_text": "머리가 똑똑해야 돼~ 아빠가 이기겠네 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "머리/NNG+가/JKS+똑똑/XR+해야/XSA+EC+돼/VV+EC+~/SY+아빠/NNG+가/JKS+이기/VV+겠/EP+네/EF+ㅎ/XSA"
+          },
+          {
+            "id": 20,
+            "text": "1 : 하하 집에 가서 한 번 해보자",
+            "norm_text": "하하 집에 가서 한 번 해보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "하하/MAG+집/NNG+에/JKB+가/VV+서/EC+한/MM+번/NNBC+해/VV+EC+보/VX+자/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래~ 아빠가 이기면 와인 하나 사와~",
+            "norm_text": "그래~ 아빠가 이기면 와인 하나 사와~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+~/SY+아빠/NNG+가/JKS+이기/VV+면/EC+와인/NNG+하나/NR+사/NR+와/JC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

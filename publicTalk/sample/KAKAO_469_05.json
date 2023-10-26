@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 21307,
+    "name": "KAKAO_469_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141336068797/KAKAO_469_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141336068797/KAKAO_469_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28055,
+      "filename": "KAKAO_469_05.txt",
+      "title": "KAKAO_469_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 592,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 592,
+        "word_size": 188,
+        "text": "1 : 넷플릭스에 D.P라고 새로 떴던데 봤어?\n2 : 응 봤어 봤어~ 봉디쌤 불쌍해 ㅜㅜ\n1 : 나 그거 형부랑 같이 봤거든?\n2 : 응 형부는 군대 갔다 왔으니까 더 와 닿았겠다~\n1 : 막 때리고 벌 서고 그러는 거 있잖아 ~ 나는 그게 그냥 연출인 줄 알았거든?\n2 : 근데? 아니래? 진짜 그런데? 어이구야\n1 : 응 그냥 이유 없이 군기 잡는다고 벌 세우고 밥 3분 안에 먹으라고 하고 진짜 그런데~\n2 : 웬일이야 ㅜㅜ 진짜 군대 생활 적응 못하는 사람들도 많겠다 ㅜㅜ\n1 : 응 봉디쌤 불쌍해~ 완전 연기 잘하지? ㅜㅜ\n2 : 근데 그 사람이 매드클라운 있잖아 ~ 그 사람 동생 이래 키키\n1 : 아 진짜? 닮았어 닮았어! 키키 아 웃긴다 완전 닮았네~ 키키\n2 : 근데 인터뷰 한 거 봤는데 매드클라운이 동생이 하는 연기를 봤는데~\n1 : 동생이 자랑스럽데? 연기 완전 잘하잖아~\n2 : 아니! 키키 동생이 또라이 같은 역할을 많이 하는데 연기를 하는 건지 안 하는 건지 모르겠다고\n2 : 원래 또라이 같아서 본모습이랑 비슷하다고 했대 키키\n1 : 키키 아 완전 웃겨 키키 연기 잘하는 게 아니라 원래 또라이인 거야? 키키\n2 : 응 나 그거 보고 완전 빵 터졌잖아 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 넷플릭스에 D.P라고 새로 떴던데 봤어?",
+            "norm_text": "넷플릭스에 D.P라고 새로 떴던데 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넷플릭스/NNP+에/JKB+D/SL+./SY+P/SL+라고/VCP+EC+새로/MAG+떴/VV+EP+던/ETM+데/NNB+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 봤어 봤어~ 봉디쌤 불쌍해 ㅜㅜ",
+            "norm_text": "응 봤어 봤어~ 봉디쌤 불쌍해 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+봤/VV+EP+어/EC+봤/VX+EP+어/EC+~/SY+봉디쌤불쌍해ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 그거 형부랑 같이 봤거든?",
+            "norm_text": "나 그거 형부랑 같이 봤거든?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+그거/NP+형부/NNG+랑/JKB+같이/MAG+봤/VV+EP+거든/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 형부는 군대 갔다 왔으니까 더 와 닿았겠다~",
+            "norm_text": "응 형부는 군대 갔다 왔으니까 더 와 닿았겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+형부/NNG+는/JX+군대/NNG+갔다왔/VV+EP+으니까/EC+더/MAG+와/VV+EC+닿/VV+았/EP+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 막 때리고 벌 서고 그러는 거 있잖아 ~ 나는 그게 그냥 연출인 줄 알았거든?",
+            "norm_text": "막 때리고 벌 서고 그러는 거 있잖아 ~ 나는 그게 그냥 연출인 줄 알았거든?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "막/MAJ+때리/VV+고/EC+벌서/VV+고/EC+그러/VV+는/ETM+거/NNB+있/VA+잖아/EC+~/SY+나/NP+는/JX+그게/NP+JKS+그냥/MAG+연출/NNG+인/VCP+ETM+줄/NNB+알/VV+았/EP+거든/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데? 아니래? 진짜 그런데? 어이구야",
+            "norm_text": "근데? 아니래? 진짜 그런데? 어이구야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+아니/VCN+래/EF+진짜/MAG+그런데/MAJ+어/IC+이/MM+구야/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 그냥 이유 없이 군기 잡는다고 벌 세우고 밥 3분 안에 먹으라고 하고 진짜 그런데~",
+            "norm_text": "응 그냥 이유 없이 군기 잡는다고 벌 세우고 밥 3분 안에 먹으라고 하고 진짜 그런데~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그냥/MAG+이유/NNG+없이/MAG+군기/NNG+잡/VV+는다고/EC+벌세우/VV+고/EC+밥/NNG+3/SN+분/NNBC+안/NNG+에/JKB+먹/VV+으라고/EC+하/VV+고/EC+진짜/MAG+그런데/MAJ+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 웬일이야 ㅜㅜ 진짜 군대 생활 적응 못하는 사람들도 많겠다 ㅜㅜ",
+            "norm_text": "웬일이야 ㅜㅜ 진짜 군대 생활 적응 못하는 사람들도 많겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웬일/NNG+이/VCP+야/EF+ㅜㅜ/UNKNOWN+진짜/MAG+군대/NNG+생활/NNG+적응/NNG+못/MAG+하/VV+는/ETM+사람/NNG+들/XSN+도/JX+많/VA+겠/EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 봉디쌤 불쌍해~ 완전 연기 잘하지? ㅜㅜ",
+            "norm_text": "응 봉디쌤 불쌍해~ 완전 연기 잘하지? ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응봉디쌤불쌍해/UNKNOWN+~/SY+완전/NNG+연기/NNG+잘/MAG+하/VV+지/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 그 사람이 매드클라운 있잖아 ~ 그 사람 동생 이래 키키",
+            "norm_text": "근데 그 사람이 매드클라운 있잖아 ~ 그 사람 동생 이래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+그/MM+사람/NNG+이/JKS+매드/NNP+클라운/NNP+있/VV+잖아/EC+~/SY+그/MM+사람/NNG+동생/NNG+이/JKS+래키/NNP+키/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 진짜? 닮았어 닮았어! 키키 아 웃긴다 완전 닮았네~ 키키",
+            "norm_text": "아 진짜? 닮았어 닮았어! 키키 아 웃긴다 완전 닮았네~ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+닮/VV+았/EP+어/EC+닮/VV+았/EP+어/EF+키/NNG+키/VV+아/EC+웃긴다/VV+EC+완전/MAG+닮/VV+았/EP+네/EF+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 인터뷰 한 거 봤는데 매드클라운이 동생이 하는 연기를 봤는데~",
+            "norm_text": "근데 인터뷰 한 거 봤는데 매드클라운이 동생이 하는 연기를 봤는데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+인터뷰/NNG+한/XSA+ETM+거/NNB+봤/VV+EP+는데/EC+매드/NNP+클라운/NNP+이/JKS+동생/NNG+이/JKS+하/VV+는/ETM+연기/NNG+를/JKO+봤/VV+EP+는데/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 동생이 자랑스럽데? 연기 완전 잘하잖아~",
+            "norm_text": "동생이 자랑스럽데? 연기 완전 잘하잖아~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+이/JKS+자랑/NNG+스럽/XSA+데/EF+연기/NNG+완전/MAG+잘/MAG+하/VV+잖아/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니! 키키 동생이 또라이 같은 역할을 많이 하는데 연기를 하는 건지 안 하는 건지 모르겠다고",
+            "norm_text": "아니! 키키 동생이 또라이 같은 역할을 많이 하는데 연기를 하는 건지 안 하는 건지 모르겠다고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+키/NNG+키/NNG+동생/NNG+이/JKS+또라이/IC+같/VA+은/ETM+역할/NNG+을/JKO+많이/MAG+하/VV+는데/EC+연기/NNG+를/JKO+하/VV+는/ETM+건지/NNB+VCP+EC+안/MAG+하/VV+는/ETM+건지/NNB+VCP+EC+모르/VV+겠/EP+다고/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 원래 또라이 같아서 본모습이랑 비슷하다고 했대 키키",
+            "norm_text": "원래 또라이 같아서 본모습이랑 비슷하다고 했대 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+또라이/IC+같/VA+아서/EC+본/VX+ETM+모습/NNG+이랑/JC+비슷/XR+하/XSA+다고/EC+했/VX+EP+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 아 완전 웃겨 키키 연기 잘하는 게 아니라 원래 또라이인 거야? 키키",
+            "norm_text": "키키 아 완전 웃겨 키키 연기 잘하는 게 아니라 원래 또라이인 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+완전/MAG+웃겨/VV+EC+키/NNG+키/NNG+연기/NNG+잘/MAG+하/VV+는/ETM+게/NNB+JKC+아니/VCN+라/EC+원래/MAG+또/MAG+라이/NNG+인/VCP+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 나 그거 보고 완전 빵 터졌잖아 키키",
+            "norm_text": "응 나 그거 보고 완전 빵 터졌잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+그거/NP+보고/JKB+완전/NNG+빵/NNG+터졌/VV+EP+잖아/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

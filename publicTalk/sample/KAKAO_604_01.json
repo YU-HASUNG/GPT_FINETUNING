@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24173,
+    "name": "KAKAO_604_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141941054671/KAKAO_604_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141941054671/KAKAO_604_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30614,
+      "filename": "KAKAO_604_01.txt",
+      "title": "KAKAO_604_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 496,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 496,
+        "word_size": 165,
+        "text": "1 : 아 요즘 배달음식 너무 많이 먹음\n2 : 맛있는 거 짱 많지 하하 어떤 거 자주 시켜 먹음?\n1 : 어제 초밥 시켰다가 혼자 먹기 많아서 저녁까지 먹었어\n2 : 으 난 날 생선은 별론데 넌 잘 먹드라 날 거 키키\n1 : 나는 아빠랑 입맛 똑같잖아 키키\n2 : 내가 예전에 들은 건데 날 거 좋아하는 사람들은 뱃속에 회충이 많다던데\n1 : 어렸을 때부터 날 거 많이 먹어서 그런 얘기 진짜 많이 들었어\n2 : 회충약은 꼬박꼬박 잘 복용 중임? ㅋ\n1 : 전혀 안 먹지 키키 하지만 생음식이 너무 맛있는 걸 어쩌겠어\n2 : 회충약 먹어야 됨... 니가 그래서 변비가 심한 걸지도\n1 : 정말이지. 내 변비는 병이야 아픈 곳을 건드리다니\n2 : 근데 진자로 회충약은 먹어야 됨 특히나 날 거 자주 먹거나 좋아하는 사람들은\n1 : 나는 진짜 기생충 있을 수도 있어\n2 : 너의 변비의 원인이 회충일 것이야\n1 : 나름 도시 살아서 좋은 점은 초밥이 배달 가능하다는 거야\n2 : 여기는 초밥 같은 건 배달 안 함 ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 요즘 배달음식 너무 많이 먹음",
+            "norm_text": "아 요즘 배달음식 너무 많이 먹음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+요즘/MAG+배달/NNG+음식/NNG+너무/MAG+많이/MAG+먹/VV+음/ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맛있는 거 짱 많지 하하 어떤 거 자주 시켜 먹음?",
+            "norm_text": "맛있는 거 짱 많지 하하 어떤 거 자주 시켜 먹음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맛있/VA+는/ETM+거/NNB+짱/MAG+많/VA+지/EC+하하/MAG+어떤/MM+거/NNB+자주/MAG+시켜/VV+EC+먹/VV+음/ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어제 초밥 시켰다가 혼자 먹기 많아서 저녁까지 먹었어",
+            "norm_text": "어제 초밥 시켰다가 혼자 먹기 많아서 저녁까지 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+초밥/NNG+시켰/XSV+EP+다가/EC+혼자/MAG+먹/VV+기/ETN+많/VA+아서/EC+저녁/NNG+까지/JX+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 으 난 날 생선은 별론데 넌 잘 먹드라 날 거 키키",
+            "norm_text": "으 난 날 생선은 별론데 넌 잘 먹드라 날 거 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으/IC+난/NP+JX+날/NNG+생선/NNG+은/JX+별론데/NNG+VCP+EC+넌/NP+JX+잘/MAG+먹/VV+드라/EC+날/VV+ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나는 아빠랑 입맛 똑같잖아 키키",
+            "norm_text": "나는 아빠랑 입맛 똑같잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+아빠/NNG+랑/JKB+입맛/NNG+똑같/VA+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 내가 예전에 들은 건데 날 거 좋아하는 사람들은 뱃속에 회충이 많다던데",
+            "norm_text": "내가 예전에 들은 건데 날 거 좋아하는 사람들은 뱃속에 회충이 많다던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+예전/NNG+에/JKB+들/VV+은/ETM+건데/NNB+VCP+EC+날/VV+ETM+거/NNB+좋/VA+아/EC+하/VV+는/ETM+사람/NNG+들/XSN+은/JX+뱃속/NNG+에/JKB+회충/NNG+이/JKS+많/VA+다던데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어렸을 때부터 날 거 많이 먹어서 그런 얘기 진짜 많이 들었어",
+            "norm_text": "어렸을 때부터 날 거 많이 먹어서 그런 얘기 진짜 많이 들었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어렸/VA+EP+을/ETM+때/NNG+부터/JX+날/VV+ETM+거/NNB+많이/MAG+먹/VV+어서/EC+그런/MM+얘기/NNG+진짜/MAG+많이/MAG+들/VV+었/EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 회충약은 꼬박꼬박 잘 복용 중임? ㅋ",
+            "norm_text": "회충약은 꼬박꼬박 잘 복용 중임? ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회충약/NNG+은/JX+꼬박꼬박/MAG+잘/MAG+복용/NNG+중/NNB+임/VCP+ETN+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 전혀 안 먹지 키키 하지만 생음식이 너무 맛있는 걸 어쩌겠어",
+            "norm_text": "전혀 안 먹지 키키 하지만 생음식이 너무 맛있는 걸 어쩌겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전혀/MAG+안/MAG+먹/VV+지/EC+키/NNG+키/NNG+하/XSV+지만/EC+생/XPN+음식/NNG+이/JKS+너무/MAG+맛있/VA+는/ETM+걸/NNB+JKO+어쩌/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 회충약 먹어야 됨... 니가 그래서 변비가 심한 걸지도",
+            "norm_text": "회충약 먹어야 됨... 니가 그래서 변비가 심한 걸지도",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "회충약/NNG+먹/VV+어야/EC+됨/VV+ETN+./SY+니/NP+가/JKS+그래서/MAJ+변비/NNG+가/JKS+심한/VA+ETM+걸/NNB+JKO+지도/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 정말이지. 내 변비는 병이야 아픈 곳을 건드리다니",
+            "norm_text": "정말이지. 내 변비는 병이야 아픈 곳을 건드리다니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+이/VCP+지/EF+내/NP+JKG+변비/NNG+는/JX+병/NNG+이/VCP+야/EC+아픈/VA+ETM+곳/NNG+을/JKO+건드리/VV+다니/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 진자로 회충약은 먹어야 됨 특히나 날 거 자주 먹거나 좋아하는 사람들은",
+            "norm_text": "근데 진자로 회충약은 먹어야 됨 특히나 날 거 자주 먹거나 좋아하는 사람들은",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+진자/NNG+로/JKB+회충약/NNG+은/JX+먹/VV+어야/EC+됨/VV+ETN+특히/MAG+나/JX+날/VV+ETM+거/NNB+자주/MAG+먹/VV+거나/EC+좋/VA+아/EC+하/VV+는/ETM+사람/NNG+들/XSN+은/JX"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나는 진짜 기생충 있을 수도 있어",
+            "norm_text": "나는 진짜 기생충 있을 수도 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+진짜/MAG+기생충/NNG+있/VV+을/ETM+수/NNB+도/JX+있/VA+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 너의 변비의 원인이 회충일 것이야",
+            "norm_text": "너의 변비의 원인이 회충일 것이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+의/JKG+변비/NNG+의/JKG+원인/NNG+이/JKS+회충/NNG+일/VCP+ETM+것/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나름 도시 살아서 좋은 점은 초밥이 배달 가능하다는 거야",
+            "norm_text": "나름 도시 살아서 좋은 점은 초밥이 배달 가능하다는 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나름/NNB+도시/NNG+살/VV+아서/EC+좋/VA+은/ETM+점/NNG+은/JX+초밥/NNG+이/JKS+배달/NNG+가능/NNG+하/XSA+다는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 여기는 초밥 같은 건 배달 안 함 ㅋ",
+            "norm_text": "여기는 초밥 같은 건 배달 안 함 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여기/NP+는/JX+초밥/NNG+같/VA+은/ETM+건/NNB+JX+배달/NNG+안/MAG+함/VV+ETN+ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

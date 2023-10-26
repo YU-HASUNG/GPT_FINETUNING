@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 52753,
+    "name": "KAKAO_673_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927009922/KAKAO_673_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927009922/KAKAO_673_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34781,
+      "filename": "KAKAO_673_03.txt",
+      "title": "KAKAO_673_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 416,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 140,
+        "text": "1 : 우리 내일 놀러 가자\n2 : 응응 어디로 갈까?\n1 : 대구 E월드에서 놀이기구 타고 싶어\n2 : 그럼 대구까지 버스 타고 갈까? 버스 표 알아볼게!\n1 : 아! 잠깐만! 우리 쏘카 빌려서 갈래?\n2 : 근데 쏘카는 주행비도 따로라서 비쌀 텐데\n1 : 그래도 차로 다니면 편하잖아...\n1 : 버스는 내려서 또 갈아타고 얼마나 귀찮고 힘들어\n2 : 그럼 차라리 렌트를 할까?\n1 : 오 렌트가 더 쌀 듯?\n2 : 그럼 바로 예약 할까?\n2 : 내일 가려면 지금 예약 해야 해\n1 : 응응 좋아 좋아 바로 예약 하자\n2 : 차는 뭐로 할까?\n1 : 제일 싼 거 모닝? 레이? 스파크?\n2 : 레이가 제일 싸네 24시간에 3만 5천 원이야\n1 : 오 진짜 싸다! 쏘카였으면 24시간에 10만 원 나왔을 듯 키키\n2 : 인정 인정~ 장시간 빌릴 거면 렌트가 더 싼 거 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 내일 놀러 가자",
+            "norm_text": "우리 내일 놀러 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+내일/MAG+놀/VV+러/EC+가/VX+자/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 어디로 갈까?",
+            "norm_text": "응응 어디로 갈까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+어디/NP+로/JKB+갈까/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 대구 E월드에서 놀이기구 타고 싶어",
+            "norm_text": "대구 E월드에서 놀이기구 타고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대구/NNP+E/SL+월드/NNG+에서/JKB+놀이기구/NNP+타/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럼 대구까지 버스 타고 갈까? 버스 표 알아볼게!",
+            "norm_text": "그럼 대구까지 버스 타고 갈까? 버스 표 알아볼게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+대구/NNP+까지/JX+버스/NNG+타/VV+고/EC+갈까/VX+EF+버스표/NNG+알아볼/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아! 잠깐만! 우리 쏘카 빌려서 갈래?",
+            "norm_text": "아! 잠깐만! 우리 쏘카 빌려서 갈래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+잠깐/MAG+만/JX+우리/NP+쏘카/UNKNOWN+빌려서/VV+EC+갈래/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 쏘카는 주행비도 따로라서 비쌀 텐데",
+            "norm_text": "근데 쏘카는 주행비도 따로라서 비쌀 텐데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+쏘/NNP+카/NNG+는/JX+주/NNG+행비/NNG+도/JX+따로/MAG+라서/VCP+EC+비쌀/VA+ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래도 차로 다니면 편하잖아...",
+            "norm_text": "그래도 차로 다니면 편하잖아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+차/NNG+로/JKB+다니/VV+면/EC+편하/VA+잖아/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 버스는 내려서 또 갈아타고 얼마나 귀찮고 힘들어",
+            "norm_text": "버스는 내려서 또 갈아타고 얼마나 귀찮고 힘들어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "버스/NNG+는/JX+내려서/VV+EC+또/MAG+갈아타/VV+고/EC+얼마나/MAG+귀찮/VA+고/EC+힘들/VA+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그럼 차라리 렌트를 할까?",
+            "norm_text": "그럼 차라리 렌트를 할까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+차라리/MAG+렌트/NNG+를/JKO+할까/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오 렌트가 더 쌀 듯?",
+            "norm_text": "오 렌트가 더 쌀 듯?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오렌트/NNP+가/JKS+더/MAG+쌀/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그럼 바로 예약 할까?",
+            "norm_text": "그럼 바로 예약 할까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+바로/MAG+예약/NNG+할까/XSV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 내일 가려면 지금 예약 해야 해",
+            "norm_text": "내일 가려면 지금 예약 해야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내일/MAG+가/VV+려면/EC+지금/MAG+예약/NNG+해야/XSV+EC+해/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응응 좋아 좋아 바로 예약 하자",
+            "norm_text": "응응 좋아 좋아 바로 예약 하자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "응/IC+응/IC+좋/VA+아/EC+좋/VA+아/EC+바로/MAG+예약/NNG+하/XSV+자/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 차는 뭐로 할까?",
+            "norm_text": "차는 뭐로 할까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "차/NNG+는/JX+뭐/NP+로/JKB+할까/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 제일 싼 거 모닝? 레이? 스파크?",
+            "norm_text": "제일 싼 거 모닝? 레이? 스파크?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제일/MAG+싼/VA+ETM+거/NNB+모닝/NNP+?/SY+레이/NNG+?/SY+스파크/NNP"
+          },
+          {
+            "id": 16,
+            "text": "2 : 레이가 제일 싸네 24시간에 3만 5천 원이야",
+            "norm_text": "레이가 제일 싸네 24시간에 3만 5천 원이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "레이/NNG+가/JKS+제/MM+일싸/NNG+네/XSN+24/SN+시간/NNG+에/JKB+3/SN+만/NR+5/SN+천/NR+원/NNBC+이/VCP+야/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 오 진짜 싸다! 쏘카였으면 24시간에 10만 원 나왔을 듯 키키",
+            "norm_text": "오 진짜 싸다! 쏘카였으면 24시간에 10만 원 나왔을 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+진짜/MAG+싸/VA+다/EF+쏘카였으면/UNKNOWN+24/SN+시간/NNG+에/JKB+10/SN+만/NR+원/NNBC+나왔/VV+EP+을/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 인정 인정~ 장시간 빌릴 거면 렌트가 더 싼 거 같아",
+            "norm_text": "인정 인정~ 장시간 빌릴 거면 렌트가 더 싼 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "인정/NNG+인정/NNG+~/SY+장시간/NNG+빌릴/VV+ETM+거/NNB+면/VCP+EC+렌트/NNG+가/JKS+더/MAG+싼/VA+ETM+거/NNB+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

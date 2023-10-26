@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35800,
+    "name": "KAKAO_631_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121749059749/KAKAO_631_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121749059749/KAKAO_631_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32348,
+      "filename": "KAKAO_631_15.txt",
+      "title": "KAKAO_631_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 550,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 550,
+        "word_size": 154,
+        "text": "1 : 인도에 니파 바이러스라고 또 전염병이 생겼대... ㅜㅜ\n2 : 네? 아 변이가 아니라 새로운 바이러스?/\n1 : 웅웅... 근데 이건 치사율이 75%라고 하더라...\n2 : 에...? 네...? 이 정도면 인류 멸망하겠따 곧\n1 : 니파 바이러스가 또... 박쥐 때문이라는 말이 있어...\n2 : 아니... 박쥐가 뭐 문제가 많네 코로나도 그렇잖아\n1 : 그니까... 이 정도 했으면 박쥐는 좀... 안 먹어야 하는 거 아니가?\n2 : 그니깐 아니 왜 박쥐를 먹는 거야 다들 진짜 이해가 안 돼\n1 : 그니까... 다른 돼지나 소나 닭고기로는 만족이 안 되는가? ㅜ\n2 : 그니깐... 인도는 소를 안 먹어서 더 그런가?\n1 : 휴... 중국 우한 복사판이라더라 인도네시아 시장이... ㄷㄷ\n2 : 키키 진짜 미친다...\n2 : 아니 진짜 느끼는 게 없는가...?\n1 : 그러니... 전염병이 안 생길 수가 있나...\n2 : 그니깐... 전염병을 그냥 만들고 싶나 봐\n1 : 그렇게 많이 죽어 나가는 걸 뉴스로 접하면서도 개선이 없어요... 아휴\n2 : 그니깐... 다들 바보인가... 멍청이인가 봐...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 인도에 니파 바이러스라고 또 전염병이 생겼대... ㅜㅜ",
+            "norm_text": "인도에 니파 바이러스라고 또 전염병이 생겼대... ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "인도/NNP+에/JKB+니파/NNG+바이러스/NNG+라고/VCP+EC+또/MAG+전염병/NNG+이/JKS+생겼/VV+EP+대/EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 네? 아 변이가 아니라 새로운 바이러스?/",
+            "norm_text": "네? 아 변이가 아니라 새로운 바이러스?/",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+아/IC+변이/NNG+가/JKC+아니/VCN+라/EC+새로운/VA+ETM+바이러스/NNG+?/SY+//SC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 웅웅... 근데 이건 치사율이 75%라고 하더라...",
+            "norm_text": "웅웅... 근데 이건 치사율이 75%라고 하더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅웅/MAG+./SY+근데/MAJ+이건/NP+JX+치사/NNG+율/XSN+이/JKS+75/SN+%/SY+라고/JKQ+하/VV+더라/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 에...? 네...? 이 정도면 인류 멸망하겠따 곧",
+            "norm_text": "에...? 네...? 이 정도면 인류 멸망하겠따 곧",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에/IC+./SY+./SY+네/IC+./SY+./SY+이/MM+정도/NNG+면/VCP+EC+인류/NNG+멸망/NNG+하/XSV+겠/EP+따/EF+곧/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 니파 바이러스가 또... 박쥐 때문이라는 말이 있어...",
+            "norm_text": "니파 바이러스가 또... 박쥐 때문이라는 말이 있어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "니파/NNG+바이러스/NNG+가/JKS+또/MAG+./SY+박쥐/NNG+때문/NNB+이/VCP+라는/ETM+말/NNG+이/JKS+있/VA+어/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니... 박쥐가 뭐 문제가 많네 코로나도 그렇잖아",
+            "norm_text": "아니... 박쥐가 뭐 문제가 많네 코로나도 그렇잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+./SY+박쥐/NNG+가/JKS+뭐/IC+문제/NNG+가/JKS+많/VA+네/EF+코로나/NNG+도/JX+그렇/VA+잖아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그니까... 이 정도 했으면 박쥐는 좀... 안 먹어야 하는 거 아니가?",
+            "norm_text": "그니까... 이 정도 했으면 박쥐는 좀... 안 먹어야 하는 거 아니가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그니까/MAJ+./SY+이/MM+정도/NNG+했/XSV+EP+으면/EC+박쥐/NNG+는/JX+좀/MAG+./SY+안/MAG+먹/VV+어야/EC+하/VV+는/ETM+거/NNB+아니/VCN+가/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그니깐 아니 왜 박쥐를 먹는 거야 다들 진짜 이해가 안 돼",
+            "norm_text": "그니깐 아니 왜 박쥐를 먹는 거야 다들 진짜 이해가 안 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+아니/IC+왜/MAG+박쥐/NNG+를/JKO+먹/VV+는/ETM+거/NNB+야/VCP+EF+다/MAG+들/XSN+진짜/MAG+이해/NNG+가/JKS+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그니까... 다른 돼지나 소나 닭고기로는 만족이 안 되는가? ㅜ",
+            "norm_text": "그니까... 다른 돼지나 소나 닭고기로는 만족이 안 되는가? ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그니까/MAJ+./SY+다른/MM+돼지/NNG+나/JC+소나/NNG+닭고기/NNG+로/JKB+는/JX+만족/NNG+이/JKS+안/MAG+되/VV+는가/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그니깐... 인도는 소를 안 먹어서 더 그런가?",
+            "norm_text": "그니깐... 인도는 소를 안 먹어서 더 그런가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그니깐/MAJ+./SY+./SY+인도/NNP+는/JX+소/NNG+를/JKO+안/MAG+먹/VV+어서/EC+더/MAG+그런가/VA+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 휴... 중국 우한 복사판이라더라 인도네시아 시장이... ㄷㄷ",
+            "norm_text": "휴... 중국 우한 복사판이라더라 인도네시아 시장이... ㄷㄷ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴/IC+./SY+./SY+중국/NNP+우한/NNG+복사판/NNG+이/VCP+라더라/EC+인도네시아/NNP+시장/NNG+이/JKS+./SY+./SY+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 진짜 미친다...",
+            "norm_text": "키키 진짜 미친다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+미친다/VV+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니 진짜 느끼는 게 없는가...?",
+            "norm_text": "아니 진짜 느끼는 게 없는가...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+진짜/MAG+느끼/VV+는/ETM+게/NNB+JKS+없/VA+는가/EF+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그러니... 전염병이 안 생길 수가 있나...",
+            "norm_text": "그러니... 전염병이 안 생길 수가 있나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+니/EF+./SY+전염병/NNG+이/JKS+안/MAG+생길/VV+ETM+수/NNB+가/JKS+있/VA+나/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그니깐... 전염병을 그냥 만들고 싶나 봐",
+            "norm_text": "그니깐... 전염병을 그냥 만들고 싶나 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+./SY+전염병/NNG+을/JKO+그냥/MAG+만들/VV+고/EC+싶/VX+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그렇게 많이 죽어 나가는 걸 뉴스로 접하면서도 개선이 없어요... 아휴",
+            "norm_text": "그렇게 많이 죽어 나가는 걸 뉴스로 접하면서도 개선이 없어요... 아휴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇게/MAG+많이/MAG+죽/VV+어/EC+나가/VX+는/ETM+걸/NNB+JKO+뉴스/NNG+로/JKB+접하/VV+면서/EC+도/JX+개선/NNG+이/JKS+없/VA+어요/EF+./SY+아휴/IC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그니깐... 다들 바보인가... 멍청이인가 봐...",
+            "norm_text": "그니깐... 다들 바보인가... 멍청이인가 봐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+./SY+다/MAG+들/XSN+바보/NNG+인가/VCP+EF+./SY+멍청이/NNG+인가/VCP+EC+봐/VX+EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

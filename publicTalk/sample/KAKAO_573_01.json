@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24023,
+    "name": "KAKAO_573_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143543047552/KAKAO_573_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143543047552/KAKAO_573_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30674,
+      "filename": "KAKAO_573_01.txt",
+      "title": "KAKAO_573_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 406,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 406,
+        "word_size": 122,
+        "text": "1 : 이제 야식 먹기 좋은 시간대인데\n2 : 키키 야식 드실 예정이신가요?\n1 : 아니 아저씨 이미 술 한잔 먹었어\n2 : 네? 와우... 뭐랑 드셨어요?\n1 : 장조림이랑 먹었어... 아저씨 불쌍하지\n2 : 오... 어쩌다가 장조림이랑 드신거죠...? ㅠㅠ\n1 : 아직 **이 엄마 안 와서 혼자 그렇게 먹었어\n2 : 오... ㅠㅠ 어무니 잔업 하시는 거에요?\n1 : 응 아직도 안 오네 힘들겠다 오랜만에 해서\n2 : 아 오랜만에 하셨구나 ㅠㅠ 진짜 힘드시겠다 ㅠㅠ\n1 : 안 시키다가 왜 오늘 시키는지\n2 : 그러게요? ㅠㅠ 진짜 오늘 일이 많은가?\n1 : 그러니까 돈 보다 건강인데 걱정이야\n2 : 맞아요 ㅠㅠ 돈보다는 건강이죠...\n1 : 응 아까 옆구리도 아프다고 해서 약도 사왔는데\n2 : 아구 ㅠㅠ... 어무니께서요? ㅠㅠ 허리는 왜 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이제 야식 먹기 좋은 시간대인데",
+            "norm_text": "이제 야식 먹기 좋은 시간대인데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+야식/NNG+먹/VV+기/ETN+좋/VA+은/ETM+시간대/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 야식 드실 예정이신가요?",
+            "norm_text": "키키 야식 드실 예정이신가요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+야식/NNG+드실/VV+EP+ETM+예정/NNG+이/VCP+신가요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 아저씨 이미 술 한잔 먹었어",
+            "norm_text": "아니 아저씨 이미 술 한잔 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+아저씨/NNG+이미/MAG+술/NNG+한잔/NNG+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 네? 와우... 뭐랑 드셨어요?",
+            "norm_text": "네? 와우... 뭐랑 드셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+와우/IC+./SY+뭐/NP+랑/JKB+드셨/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 장조림이랑 먹었어... 아저씨 불쌍하지",
+            "norm_text": "장조림이랑 먹었어... 아저씨 불쌍하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장조림/NNG+이랑/JKB+먹/VV+었/EP+어/EF+./SY+아저씨/NNG+불쌍/XR+하/XSA+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오... 어쩌다가 장조림이랑 드신거죠...? ㅠㅠ",
+            "norm_text": "오... 어쩌다가 장조림이랑 드신거죠...? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+어쩌다가/MAG+장조림/NNG+이랑/JKB+드신/VV+EP+ETM+거/NNB+죠/VCP+EF+./SY+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아직 **이 엄마 안 와서 혼자 그렇게 먹었어",
+            "norm_text": "아직 **이 엄마 안 와서 혼자 그렇게 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+*/SY+*/SY+이/JKS+엄마/NNG+안/MAG+와서/VV+EC+혼자/MAG+그렇게/MAG+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오... ㅠㅠ 어무니 잔업 하시는 거에요?",
+            "norm_text": "오... ㅠㅠ 어무니 잔업 하시는 거에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+ㅠㅠ/UNKNOWN+어/IC+무니/NNG+잔업/NNG+하/XSV+시/EP+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 아직도 안 오네 힘들겠다 오랜만에 해서",
+            "norm_text": "응 아직도 안 오네 힘들겠다 오랜만에 해서",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아직/MAG+도/JX+안/MAG+오/VV+네/EF+힘들/VA+겠/EP+다/EC+오랜만/NNG+에/JKB+해서/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 오랜만에 하셨구나 ㅠㅠ 진짜 힘드시겠다 ㅠㅠ",
+            "norm_text": "아 오랜만에 하셨구나 ㅠㅠ 진짜 힘드시겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+오랜만/NNG+에/JKB+하/VV+셨/EP+EP+구나/EF+ㅠㅠ/UNKNOWN+진짜/MAG+힘드/VA+시/EP+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 안 시키다가 왜 오늘 시키는지",
+            "norm_text": "안 시키다가 왜 오늘 시키는지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+시키/VV+다가/EC+왜/MAG+오늘/NNG+시키/XSV+는지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그러게요? ㅠㅠ 진짜 오늘 일이 많은가?",
+            "norm_text": "그러게요? ㅠㅠ 진짜 오늘 일이 많은가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+요/JX+ㅠㅠ/UNKNOWN+진짜/MAG+오늘/MAG+일/NNG+이/JKS+많/VA+은가/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그러니까 돈 보다 건강인데 걱정이야",
+            "norm_text": "그러니까 돈 보다 건강인데 걱정이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "그러니까/MAJ+돈/NNG+보다/JKB+건강/NNG+인데/VCP+EC+걱정/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아요 ㅠㅠ 돈보다는 건강이죠...",
+            "norm_text": "맞아요 ㅠㅠ 돈보다는 건강이죠...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+ㅠㅠ/UNKNOWN+돈/NNG+보다/JKB+는/JX+건강/NNG+이/VCP+죠/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 아까 옆구리도 아프다고 해서 약도 사왔는데",
+            "norm_text": "응 아까 옆구리도 아프다고 해서 약도 사왔는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+아까/MAG+옆구리/NNG+도/JX+아프/VA+다고/EC+해서/VV+EC+약/NNG+도/JX+사/VV+EC+왔/VX+EP+는데/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아구 ㅠㅠ... 어무니께서요? ㅠㅠ 허리는 왜 ㅠㅠ",
+            "norm_text": "아구 ㅠㅠ... 어무니께서요? ㅠㅠ 허리는 왜 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아구ㅠㅠ/UNKNOWN+./SY+어/IC+무니/NNG+께서/JKS+요/JX+ㅠㅠ허리는왜ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

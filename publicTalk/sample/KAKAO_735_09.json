@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 39165,
+    "name": "KAKAO_735_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941050217/KAKAO_735_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941050217/KAKAO_735_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37479,
+      "filename": "KAKAO_735_09.txt",
+      "title": "KAKAO_735_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 731,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 731,
+        "word_size": 211,
+        "text": "1 : 너 반려동물 키우냐?\n2 : 아니, 우리는 반려동물이 없고, 반려 식물만 하나 있다.\n1 : 아... 키우지 마라... 아주 골칫덩어리다 하하\n2 : 너 뭐 키우고 있는 거 있어?\n1 : 아니, 우리 딸이 고양이 키우고 싶다고 하는데...\n2 : 우리 옆집도 애가 강아지 키우고 싶다고 노래를 부르는데...\n1 : 난 도저히 자신이 없어서 유튜브 보면서 만족하라고 했어 하하\n2 : 안 된다고 하면서 구피 드림 받아 키운다더라...\n1 : 나도 구피는 키워 봤는데… 번식력도 엄청 강하고, 화려해서 이쁘기는 한데...\n2 : 아 그 물고기 구피? 보기엔 엄청 예쁘던데.\n1 : 응 그거! 나중에 암컷들이 수컷을 다 잡아 먹는 거 보고... 엄청 놀랬다.\n2 : 하하 떠넘긴 거냐? 그런데, 나도 혼자 살지만... 강아지, 고양이까진 못 키우겠어...\n2 : 책임감이 너무 드니까... 일을 하다가도 걱정될 거 같고, 내 생활이 힘들 듯...\n1 : 어른이라서 생각이 많아서 그래, 근데 우리 어린 딸은 아직 생각이 짧아서...\n1 : 아니, 무슨 학습만 나가면... 장수풍뎅이 사슴벌레 달팽이\n1 : 와... 내가 딸 때문에 내가 아주 별의 별 곤충들을 다 한번씩 키우는 거 같아\n1 : 게다가 햄스터 한번 집 안에 들어오면 냄새가 너무 나가지고... 바로 누구 줬어\n2 : 그건 번식력도 엄청 강하다고 하던데...\n1 : 말도 말아라 정말 먹고 자고 싸고 새끼 낳고\n2 : 그대로 뒀다간... 냄새랑 햄스터에 치일 거 같다 잘했네~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 반려동물 키우냐?",
+            "norm_text": "너 반려동물 키우냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+반려/NNG+동물/NNG+키우/VV+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니, 우리는 반려동물이 없고, 반려 식물만 하나 있다.",
+            "norm_text": "아니, 우리는 반려동물이 없고, 반려 식물만 하나 있다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+,/SC+우리/NP+는/JX+반려/NNG+동물/NNG+이/JKS+없/VA+고/EC+,/SC+반려/NNG+식물/NNG+만/JX+하/VV+나/EC+있/VX+다/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아... 키우지 마라... 아주 골칫덩어리다 하하",
+            "norm_text": "아... 키우지 마라... 아주 골칫덩어리다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+키우/VV+지/EC+마/VX+라/EF+./SY+아주/MAG+골칫덩어리/NNG+다/MAG+하하/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너 뭐 키우고 있는 거 있어?",
+            "norm_text": "너 뭐 키우고 있는 거 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+뭐/IC+키우/VV+고/EC+있/VX+는/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니, 우리 딸이 고양이 키우고 싶다고 하는데...",
+            "norm_text": "아니, 우리 딸이 고양이 키우고 싶다고 하는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+,/SC+우리/NP+딸/NNG+이/JKS+고양이/NNG+키우/VV+고/EC+싶/VX+다고/EC+하/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 우리 옆집도 애가 강아지 키우고 싶다고 노래를 부르는데...",
+            "norm_text": "우리 옆집도 애가 강아지 키우고 싶다고 노래를 부르는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+옆집/NNG+도/JX+애/NNG+가/JKS+강아지/NNG+키우/VV+고/EC+싶/VX+다고/EC+노래/NNG+를/JKO+부르/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 난 도저히 자신이 없어서 유튜브 보면서 만족하라고 했어 하하",
+            "norm_text": "난 도저히 자신이 없어서 유튜브 보면서 만족하라고 했어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+도저히/MAG+자신/NNG+이/JKS+없/VA+어서/EC+유튜브/NNP+보/VV+면서/EC+만족/NNG+하/XSV+라고/EC+했/VX+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 안 된다고 하면서 구피 드림 받아 키운다더라...",
+            "norm_text": "안 된다고 하면서 구피 드림 받아 키운다더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+된다고/VV+EC+하/VV+면서/EC+구피/NNG+드림/NNG+받/VV+아/EC+키운다/VV+EC+더라/VCP+EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 구피는 키워 봤는데… 번식력도 엄청 강하고, 화려해서 이쁘기는 한데...",
+            "norm_text": "나도 구피는 키워 봤는데… 번식력도 엄청 강하고, 화려해서 이쁘기는 한데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+구피/NNG+는/JX+키워/VV+EC+봤/VX+EP+는데/EC+…/SE+번식력/NNG+도/JX+엄청/MAG+강하/VA+고/EC+,/SC+화려/XR+해서/XSA+EC+이쁘/VA+기/ETN+는/JX+한데/VV+EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 그 물고기 구피? 보기엔 엄청 예쁘던데.",
+            "norm_text": "아 그 물고기 구피? 보기엔 엄청 예쁘던데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그/MM+물고기/NNG+구피/NNG+보/VV+기/ETN+엔/JKB+JX+엄청/MAG+예쁘/VA+던데/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 그거! 나중에 암컷들이 수컷을 다 잡아 먹는 거 보고... 엄청 놀랬다.",
+            "norm_text": "응 그거! 나중에 암컷들이 수컷을 다 잡아 먹는 거 보고... 엄청 놀랬다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그거/NP+나중/NNG+에/JKB+암컷/NNG+들/XSN+이/JKS+수컷/NNG+을/JKO+다/MAG+잡아먹/VV+는/ETM+거/NNB+보고/JKB+./SY+엄청/MAG+놀랬/VV+EP+다/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 하하 떠넘긴 거냐? 그런데, 나도 혼자 살지만... 강아지, 고양이까진 못 키우겠어...",
+            "norm_text": "하하 떠넘긴 거냐? 그런데, 나도 혼자 살지만... 강아지, 고양이까진 못 키우겠어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+떠넘긴/VV+ETM+거/NNB+냐/VCP+EF+그런데/MAJ+,/SC+나/NP+도/JX+혼자/MAG+살/VV+지만/EC+./SY+./SY+강아지/NNG+,/SC+고양이/NNG+까진/JX+JX+못/MAG+키우/VV+겠/EP+어/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 책임감이 너무 드니까... 일을 하다가도 걱정될 거 같고, 내 생활이 힘들 듯...",
+            "norm_text": "책임감이 너무 드니까... 일을 하다가도 걱정될 거 같고, 내 생활이 힘들 듯...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "책임/NNG+감/XSN+이/JKS+너무/MAG+드/VV+니까/EC+./SY+./SY+일/NNG+을/JKO+하/VV+다가/EC+도/JX+걱정/NNG+될/XSV+ETM+거/NNB+같/VA+고/EC+,/SC+내/NP+JKG+생활/NNG+이/JKS+힘들/VA+듯/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 어른이라서 생각이 많아서 그래, 근데 우리 어린 딸은 아직 생각이 짧아서...",
+            "norm_text": "어른이라서 생각이 많아서 그래, 근데 우리 어린 딸은 아직 생각이 짧아서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어른/NNG+이/VCP+라서/EC+생각/NNG+이/JKS+많/VA+아서/EC+그래/IC+,/SC+근데/MAJ+우리/NP+어린/VA+ETM+딸/NNG+은/JX+아직/MAG+생각/NNG+이/JKS+짧/VA+아서/EC+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니, 무슨 학습만 나가면... 장수풍뎅이 사슴벌레 달팽이",
+            "norm_text": "아니, 무슨 학습만 나가면... 장수풍뎅이 사슴벌레 달팽이",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+,/SC+무슨/MM+학습/NNG+만/JX+나가/VV+면/EC+./SY+./SY+장수풍뎅이/NNG+사슴벌레/NNG+달팽이/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 와... 내가 딸 때문에 내가 아주 별의 별 곤충들을 다 한번씩 키우는 거 같아",
+            "norm_text": "와... 내가 딸 때문에 내가 아주 별의 별 곤충들을 다 한번씩 키우는 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+내/NP+가/JKS+딸/VV+ETM+때문/NNB+에/JKB+내/NP+가/JKS+아주/MAG+별의별/MM+곤충/NNG+들/XSN+을/JKO+다/MAG+한/MM+번/NNBC+씩/XSN+키우/VV+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 게다가 햄스터 한번 집 안에 들어오면 냄새가 너무 나가지고... 바로 누구 줬어",
+            "norm_text": "게다가 햄스터 한번 집 안에 들어오면 냄새가 너무 나가지고... 바로 누구 줬어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "게다가/MAG+햄스터/NNG+한/MM+번/NNBC+집안/NNG+에/JKB+들어오/VV+면/EC+냄새/NNG+가/JKS+너무나/MAG+가지/VV+고/EC+./SY+./SY+바로/MAG+누구/NP+줬/VV+EP+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그건 번식력도 엄청 강하다고 하던데...",
+            "norm_text": "그건 번식력도 엄청 강하다고 하던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그건/NP+JX+번식력/NNG+도/JX+엄청/MAG+강하/VA+다고/EC+하/VX+던데/EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 말도 말아라 정말 먹고 자고 싸고 새끼 낳고",
+            "norm_text": "말도 말아라 정말 먹고 자고 싸고 새끼 낳고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "말/NNG+도/JX+말/VX+아라/EF+정말/MAG+먹/VV+고/EC+자/VV+고/EC+싸/VX+고/EC+새끼/NNG+낳/VV+고/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그대로 뒀다간... 냄새랑 햄스터에 치일 거 같다 잘했네~",
+            "norm_text": "그대로 뒀다간... 냄새랑 햄스터에 치일 거 같다 잘했네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그대로/MAG+뒀다간/VV+EP+EC+JX+./SY+냄새/NNG+랑/JKB+햄스터/NNG+에/JKB+치일/VV+ETM+거/NNB+같/VA+다/EF+잘/MAG+했/VV+EP+네/EF+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

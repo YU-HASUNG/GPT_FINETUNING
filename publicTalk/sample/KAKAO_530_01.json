@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21789,
+    "name": "KAKAO_530_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151432008552/KAKAO_530_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151432008552/KAKAO_530_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29752,
+      "filename": "KAKAO_530_01.txt",
+      "title": "KAKAO_530_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 371,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 371,
+        "word_size": 126,
+        "text": "1 : 아 목 말라 음료 마시고 싶은데?\n2 : 야 요즘 스벅 배달 됨 키키 몰랐제\n1 : 응응 스벅도 배달된다니... 충격적...\n2 : 그래도 스벅은 스벅 가서 마셔줘야지\n1 : 키키 같이 가자 칭구야~ 디저트도 사줄게\n2 : 키키 그래 칭구야 몇 시에 볼래?\n1 : 좀 씻고 만나자 키키 한 시간 뒤에\n2 : 오키오키 뭐 밥은 안 먹어도 됨?\n1 : 밥 어쩔까 스벅 갔다가 갈까?\n2 : 구래 먹고 싶은 거 있음?\n1 : 음 마라탕? 키키 오랜만에 마라탕 먹고 싶네\n2 : 그럼 우리 집에서 배달 시켜 먹을까?\n1 : 오키 너희 집 갈 때 맥주 사가자 키키\n2 : 마라탕과 맥주의 조합도 좋지\n1 : 키키 꿔바로우 같이 시켜야 됨\n2 : 키키 마라샹궈는 안 먹어도 됨? 계란 볶음밥은?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 목 말라 음료 마시고 싶은데?",
+            "norm_text": "아 목 말라 음료 마시고 싶은데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+목말라/VA+EC+음료/NNG+마시/VV+고/EC+싶/VX+은데/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 야 요즘 스벅 배달 됨 키키 몰랐제",
+            "norm_text": "야 요즘 스벅 배달 됨 키키 몰랐제",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+요즘/MAG+스/IC+벅/MAG+배달/NNG+됨/XSV+ETN+키/NNG+키/XSV+ETN+몰랐/VV+EP+제/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응응 스벅도 배달된다니... 충격적...",
+            "norm_text": "응응 스벅도 배달된다니... 충격적...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+스/IC+벅/MAG+도/JX+배달/NNG+된다니/VV+EF+./SY+충격/NNG+적/XSN+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그래도 스벅은 스벅 가서 마셔줘야지",
+            "norm_text": "그래도 스벅은 스벅 가서 마셔줘야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+스/IC+벅/MAG+은/JX+스/IC+벅/MAG+가/VV+서/EC+마셔/VV+EC+줘야지/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 같이 가자 칭구야~ 디저트도 사줄게",
+            "norm_text": "키키 같이 가자 칭구야~ 디저트도 사줄게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/NNG+같이/JKB+가/JKS+자칭/NNG+구야/NNG+~/SY+디저트/NNG+도/JX+사/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 그래 칭구야 몇 시에 볼래?",
+            "norm_text": "키키 그래 칭구야 몇 시에 볼래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/IC+칭/MAG+구야/NNG+몇/MM+시/NNBC+에/JKB+볼래/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 좀 씻고 만나자 키키 한 시간 뒤에",
+            "norm_text": "좀 씻고 만나자 키키 한 시간 뒤에",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좀/MAG+씻/VV+고/EC+만나/VV+EC+자키/NNG+키/NNG+한/XSA+ETM+시간/NNG+뒤/NNG+에/JKB"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오키오키 뭐 밥은 안 먹어도 됨?",
+            "norm_text": "오키오키 뭐 밥은 안 먹어도 됨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오키/NNP+오키/NNP+뭐/IC+밥/NNG+은/JX+안/MAG+먹/VV+어도/EC+됨/VV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 밥 어쩔까 스벅 갔다가 갈까?",
+            "norm_text": "밥 어쩔까 스벅 갔다가 갈까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "밥/NNG+어쩔/VV+ETM+까스/NNP+벅/MAG+갔/VV+EP+다가/EC+갈까/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 구래 먹고 싶은 거 있음?",
+            "norm_text": "구래 먹고 싶은 거 있음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "구래/NNG+먹/VV+고/EC+싶/VX+은/ETM+거/NNB+있/VA+음/ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 음 마라탕? 키키 오랜만에 마라탕 먹고 싶네",
+            "norm_text": "음 마라탕? 키키 오랜만에 마라탕 먹고 싶네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+마라/NNG+탕/NNG+?/SY+키/NNG+키/NNG+오랜만/NNG+에/JKB+마라/VV+EC+탕/MAG+먹/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그럼 우리 집에서 배달 시켜 먹을까?",
+            "norm_text": "그럼 우리 집에서 배달 시켜 먹을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+우리/NP+집/NNG+에서/JKB+배달/NNG+시켜/XSV+EC+먹/VV+을까/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오키 너희 집 갈 때 맥주 사가자 키키",
+            "norm_text": "오키 너희 집 갈 때 맥주 사가자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오키/NNP+너희/NP+집/NNG+갈/VV+ETM+때/NNG+맥/NNG+주사/NNG+가/JKS+자키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 마라탕과 맥주의 조합도 좋지",
+            "norm_text": "마라탕과 맥주의 조합도 좋지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마라/NNG+탕/NNG+과/JC+맥주/NNG+의/JKG+조합/NNG+도/JX+좋/VA+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 꿔바로우 같이 시켜야 됨",
+            "norm_text": "키키 꿔바로우 같이 시켜야 됨",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+꿔/VV+EC+바로우/NNP+같이/MAG+시켜야/VV+EC+됨/VV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 마라샹궈는 안 먹어도 됨? 계란 볶음밥은?",
+            "norm_text": "키키 마라샹궈는 안 먹어도 됨? 계란 볶음밥은?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+마라/NNP+샹/NNP+궈/NNP+는/JX+안/MAG+먹/VV+어도/EC+됨/VV+ETN+계란/NNG+볶음밥/NNG+은/JX"
+          }
+        ]
+      }
+    }
+  ]
+}

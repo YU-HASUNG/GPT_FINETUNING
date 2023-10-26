@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20960,
+    "name": "KAKAO_450_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140624047295/KAKAO_450_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140624047295/KAKAO_450_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27908,
+      "filename": "KAKAO_450_18.txt",
+      "title": "KAKAO_450_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 405,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 405,
+        "word_size": 137,
+        "text": "1 : 어제도 옷 지름 쇼핑몰 할인하길래\n2 : 뭐 샀는데 가을 옷 산 거야?\n1 : 아니 여름 옷 키키 세일하길래 키키\n2 : 여름 다 끝나가는데? 가을 옷 사지\n1 : 키키 위에 가디건 입고 하면 괜찮을 거 같더라고\n2 : 아하 가디건 걸치고 입으면 괜찮지\n1 : 응응 4만 원 하던가 쿠폰 먹여서 2만 원도 안 되게 삼\n2 : 개이득이네 키키 완전 잘 샀따\n1 : 완전 만족스러움 키키\n1 : 색깔별로 사고 싶었는데 참았따\n2 : 마음에 들면 색깔별로 사지\n1 : 키키 엄청 고민했지 키키 근데 일단 만족\n2 : 응응 싸게 잘 샀어 반값 주고 샀는데\n1 : 쇼핑할 생각 없다가도 가격이 착하면 일단 지르게 되네\n2 : 사놓으면 입으니까 괜찮지 키키\n1 : 이제 진짜 안 사고 참아야지... 자제하겠어\n2 : 키키 난 잘 안 나가니까 살 필요가 없음",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어제도 옷 지름 쇼핑몰 할인하길래",
+            "norm_text": "어제도 옷 지름 쇼핑몰 할인하길래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+제도/NNG+옷/NNG+지름/NNG+쇼핑몰/NNG+할인/NNG+하/XSV+길래/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 뭐 샀는데 가을 옷 산 거야?",
+            "norm_text": "뭐 샀는데 가을 옷 산 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+샀/VV+EP+는데/EC+가을/NNG+옷/NNG+산거야/VV+ETM+NNB+VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 여름 옷 키키 세일하길래 키키",
+            "norm_text": "아니 여름 옷 키키 세일하길래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+여름옷/NNG+키/NNG+키/NNG+세일/NNG+하/XSV+길래/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 여름 다 끝나가는데? 가을 옷 사지",
+            "norm_text": "여름 다 끝나가는데? 가을 옷 사지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+다/MAG+끝/NNG+나가/VV+는데/EC+?/SY+가을/NNG+옷/NNG+사지/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 위에 가디건 입고 하면 괜찮을 거 같더라고",
+            "norm_text": "키키 위에 가디건 입고 하면 괜찮을 거 같더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키위/NNG+에/JKB+가디건/NNG+입/VV+고/EC+하/VV+면/EC+괜찮/VA+을/ETM+거/NNB+같/VA+더라고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아하 가디건 걸치고 입으면 괜찮지",
+            "norm_text": "아하 가디건 걸치고 입으면 괜찮지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+가디건/NNG+걸치/VV+고/EC+입/VV+으면/EC+괜찮/VA+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응응 4만 원 하던가 쿠폰 먹여서 2만 원도 안 되게 삼",
+            "norm_text": "응응 4만 원 하던가 쿠폰 먹여서 2만 원도 안 되게 삼",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+4/SN+만/NR+원/NNBC+하/VV+던가/EC+쿠폰/NNG+먹여서/VV+EC+2/SN+만/NR+원/NNBC+도/JX+안/MAG+되/VV+게/EC+삼/NR"
+          },
+          {
+            "id": 8,
+            "text": "2 : 개이득이네 키키 완전 잘 샀따",
+            "norm_text": "개이득이네 키키 완전 잘 샀따",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "개/NNG+이득/NNG+이/JKS+네/MM+키/NNG+키/XSV+ETN+완전/MAG+잘/MAG+샀/VV+EP+따/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 완전 만족스러움 키키",
+            "norm_text": "완전 만족스러움 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/NNG+만족/NNG+스러움/XSA+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 색깔별로 사고 싶었는데 참았따",
+            "norm_text": "색깔별로 사고 싶었는데 참았따",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "색깔/NNG+별/XSN+로/JKB+사/VV+고/EC+싶/VX+었/EP+는데/EC+참/VV+았/EP+따/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 마음에 들면 색깔별로 사지",
+            "norm_text": "마음에 들면 색깔별로 사지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마음/NNG+에/JKB+들/VV+면/EC+색깔/NNG+별/XSN+로/JKB+사지/NNG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 엄청 고민했지 키키 근데 일단 만족",
+            "norm_text": "키키 엄청 고민했지 키키 근데 일단 만족",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+엄청/MAG+고민/NNG+했/XSV+EP+지/EC+키/NNG+키/XSV+ETN+근데/MAJ+일단/MAG+만족/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응응 싸게 잘 샀어 반값 주고 샀는데",
+            "norm_text": "응응 싸게 잘 샀어 반값 주고 샀는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+싸/VV+게/EC+잘/MAG+샀/VV+EP+어/EC+반값/NNG+주/VV+고/EC+샀/VV+EP+는데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 쇼핑할 생각 없다가도 가격이 착하면 일단 지르게 되네",
+            "norm_text": "쇼핑할 생각 없다가도 가격이 착하면 일단 지르게 되네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쇼핑/NNG+할/XSV+ETM+생각/NNG+없/VA+다가/EC+도/JX+가격/NNG+이/JKS+착하/VA+면/EC+일단/MAG+지르/VV+게/EC+되/VV+네/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 사놓으면 입으니까 괜찮지 키키",
+            "norm_text": "사놓으면 입으니까 괜찮지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사놓/VV+으면/EC+입/VV+으니까/EC+괜찮/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 이제 진짜 안 사고 참아야지... 자제하겠어",
+            "norm_text": "이제 진짜 안 사고 참아야지... 자제하겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+진짜/MAG+안/MAG+사/VV+고/EC+참/VV+아야지/EF+./SY+자제/NNG+하/XSV+겠/EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 난 잘 안 나가니까 살 필요가 없음",
+            "norm_text": "키키 난 잘 안 나가니까 살 필요가 없음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/NP+JX+잘/MAG+안/MAG+나가/VV+니까/EC+살/VV+ETM+필요/NNG+가/JKS+없/VA+음/ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

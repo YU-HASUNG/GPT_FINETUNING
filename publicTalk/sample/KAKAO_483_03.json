@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 30068,
+    "name": "KAKAO_483_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144544060235/KAKAO_483_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144544060235/KAKAO_483_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28213,
+      "filename": "KAKAO_483_03.txt",
+      "title": "KAKAO_483_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 644,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 644,
+        "word_size": 210,
+        "text": "1 : 아 자동차 사고 싶다.\n1 : 요즘 친구들 다 운전하고 다니는 거 보면 조금 부러워\n2 : 제정신이 아니구나 동생아\n2 : 너 자동차 유지비가 얼마나 많이 드는지 아니?\n1 : 키키 근데 면허 따는 것도 돈이고 차 사는 것도 돈이고 유지비도 돈이고 그거 다 감당하면서 다닐 곳이 없어서 포기했어.\n2 : 그래도 차가 있다면 진짜 자유롭단다\n1 : 특히 본가에서는 차가 있어야 할 것 같긴 해.\n1 : 버스가 안 오잖아 시골이라\n2 : 시골 시골 하는데 여기도 버스 있거든?\n2 : 마중 버스라고 들어는 봤니?\n1 : 버스 있으면 뭐해 하루에 2번 3번 있는 게 전부인데.\n2 : 당연히 니가 버스에 맞춰야지\n1 : 인간의 삶을 윤택하게 해 주는 도구에 맞춰 살라니. 난 그렇게 못 해.\n2 : 너 친구가 놀러 간다고 몇 시에 내려오라 그러면 친구가 오는 시간에 맞추냐 아님 아니 나 지금 나갈 거니깐 빨리 지금 와 그러냐?\n1 : 나 후자지 내가 주인공인 삶을 살아가는 중이잖아\n2 : 그러니깐 니가 왕따인 거거야\n2 : 당연히 차 있는 친구 말을 들어야지\n1 : 키키 아파. 펙트 폭행하지 마. 지금 피 나는 것 같아\n2 : 그러니 버스가 오는 시간에도 니가 맞추는 거고 ㅋ\n1 : 그냥 자동차도 안 사고 시골도 안 살래\n2 : 그래도 면허 따 두고 차 운전할 줄 아는 게 좋아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 자동차 사고 싶다.",
+            "norm_text": "아 자동차 사고 싶다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+자동차/NNG+사/VV+고/EC+싶/VX+다/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 요즘 친구들 다 운전하고 다니는 거 보면 조금 부러워",
+            "norm_text": "요즘 친구들 다 운전하고 다니는 거 보면 조금 부러워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+친구/NNG+들/XSN+다/MAG+운전/NNG+하/XSV+고/EC+다니/VV+는/ETM+거/NNB+보/VV+면/EC+조금/MAG+부러워/VA+EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 제정신이 아니구나 동생아",
+            "norm_text": "제정신이 아니구나 동생아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제정신/NNG+이/JKC+아니/VCN+구나/EC+동생/NNG+아/JKV"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너 자동차 유지비가 얼마나 많이 드는지 아니?",
+            "norm_text": "너 자동차 유지비가 얼마나 많이 드는지 아니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+자동차/NNG+유지비/NNG+가/JKS+얼마나/MAG+많이/MAG+드/VV+는지/EC+아니/IC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 근데 면허 따는 것도 돈이고 차 사는 것도 돈이고 유지비도 돈이고 그거 다 감당하면서 다닐 곳이 없어서 포기했어.",
+            "norm_text": "키키 근데 면허 따는 것도 돈이고 차 사는 것도 돈이고 유지비도 돈이고 그거 다 감당하면서 다닐 곳이 없어서 포기했어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+면허/NNG+따/VV+는/ETM+것/NNB+도/JX+돈/NNG+이/VCP+고/EC+차/NNG+사/VV+는/ETM+것/NNB+도/JX+돈/NNG+이/VCP+고/EC+유지비/NNG+도/JX+돈/NNG+이/VCP+고/EC+그거/NP+다/JX+감당/NNG+하/XSV+면서/EC+다닐/VV+ETM+곳/NNG+이/JKS+없/VA+어서/EC+포기/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래도 차가 있다면 진짜 자유롭단다",
+            "norm_text": "그래도 차가 있다면 진짜 자유롭단다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+차/NNG+가/JKS+있/VA+다면/EC+진짜/MAG+자유/NNG+롭/XSA+단다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 특히 본가에서는 차가 있어야 할 것 같긴 해.",
+            "norm_text": "특히 본가에서는 차가 있어야 할 것 같긴 해.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "특히/MAG+본가/NNG+에서/JKB+는/JX+차/NNG+가/JKS+있/VA+어야/EC+할/VX+ETM+것/NNB+같/VA+긴/ETN+JX+해/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 버스가 안 오잖아 시골이라",
+            "norm_text": "버스가 안 오잖아 시골이라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스/NNG+가/JKS+안/MAG+오/VV+잖아/EC+시골/NNG+이/VCP+라/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 시골 시골 하는데 여기도 버스 있거든?",
+            "norm_text": "시골 시골 하는데 여기도 버스 있거든?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시골/NNG+시골/NNG+하/XSV+는데/EC+여기/NP+도/JX+버스/NNG+있/VA+거든/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 마중 버스라고 들어는 봤니?",
+            "norm_text": "마중 버스라고 들어는 봤니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "마중/NNG+버스/NNG+라고/VCP+EC+들/VV+어/EC+는/JX+봤/VV+EP+니/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 버스 있으면 뭐해 하루에 2번 3번 있는 게 전부인데.",
+            "norm_text": "버스 있으면 뭐해 하루에 2번 3번 있는 게 전부인데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스/NNG+있/VV+으면/EC+뭐/IC+해/VV+EC+하루/NNG+에/JKB+2/SN+번/NNBC+3/SN+번/NNBC+있/VV+는/ETM+게/NNB+JKS+전부/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 당연히 니가 버스에 맞춰야지",
+            "norm_text": "당연히 니가 버스에 맞춰야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+니/NP+가/JKS+버스/NNG+에/JKB+맞춰야지/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 인간의 삶을 윤택하게 해 주는 도구에 맞춰 살라니. 난 그렇게 못 해.",
+            "norm_text": "인간의 삶을 윤택하게 해 주는 도구에 맞춰 살라니. 난 그렇게 못 해.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인간/NNG+의/JKG+삶/NNG+을/JKO+윤택/NNG+하/XSV+게/EC+해/VV+EC+주/VX+는/ETM+도구/NNG+에/JKB+맞춰/VV+EC+살/VV+라니/EF+난/NP+JX+그렇/VA+게/EC+못해/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 너 친구가 놀러 간다고 몇 시에 내려오라 그러면 친구가 오는 시간에 맞추냐 아님 아니 나 지금 나갈 거니깐 빨리 지금 와 그러냐?",
+            "norm_text": "너 친구가 놀러 간다고 몇 시에 내려오라 그러면 친구가 오는 시간에 맞추냐 아님 아니 나 지금 나갈 거니깐 빨리 지금 와 그러냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+친구/NNG+가/JKS+놀/VV+러/EC+간다고/VX+EC+몇/MM+시/NNBC+에/JKB+내려오/VV+라/EC+그러/VV+면/EC+친구/NNG+가/JKS+오/VV+는/ETM+시간/NNG+에/JKB+맞추/VV+냐/EC+아님/VCN+ETN+아니/VCN+나/EC+지금/MAG+나갈/VV+ETM+거/NNB+니깐/VCP+EC+빨리/MAG+지금/NNG+와/JKB+그러/VV+냐/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나 후자지 내가 주인공인 삶을 살아가는 중이잖아",
+            "norm_text": "나 후자지 내가 주인공인 삶을 살아가는 중이잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+후자/NNG+지내/NNG+가/JKS+주인공/NNG+인/VCP+ETM+삶/NNG+을/JKO+살아가/VV+는/ETM+중/NNB+이/VCP+잖아/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그러니깐 니가 왕따인 거거야",
+            "norm_text": "그러니깐 니가 왕따인 거거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니깐/MAJ+니/NP+가/JKS+왕따/NNG+인/VCP+ETM+거/NNB+거야/ETM+NNB+VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 당연히 차 있는 친구 말을 들어야지",
+            "norm_text": "당연히 차 있는 친구 말을 들어야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+차/VV+EC+있/VX+는/ETM+친구/NNG+말/NNG+을/JKO+들/VV+어야지/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 아파. 펙트 폭행하지 마. 지금 피 나는 것 같아",
+            "norm_text": "키키 아파. 펙트 폭행하지 마. 지금 피 나는 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아파/VA+EF+펙/NNG+트/NNG+폭행/NNG+하/XSV+지/EC+마/VX+EF+지금/MAG+피나/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그러니 버스가 오는 시간에도 니가 맞추는 거고 ㅋ",
+            "norm_text": "그러니 버스가 오는 시간에도 니가 맞추는 거고 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+니/EC+버스/NNG+가/JKS+오/VV+는/ETM+시간/NNG+에/JKB+도/JX+니/NP+가/JKS+맞추/VV+는/ETM+거/NNB+고/VCP+EC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그냥 자동차도 안 사고 시골도 안 살래",
+            "norm_text": "그냥 자동차도 안 사고 시골도 안 살래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+자동차/NNG+도/JX+안/MAG+사/VV+고/EC+시골/NNG+도/JX+안/MAG+살래/VV+EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래도 면허 따 두고 차 운전할 줄 아는 게 좋아",
+            "norm_text": "그래도 면허 따 두고 차 운전할 줄 아는 게 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+면허/NNG+따/VV+EC+두/VX+고/EC+차/NNG+운전/NNG+할/XSV+ETM+줄/NNB+아/VV+는/ETM+게/NNB+JKS+좋/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

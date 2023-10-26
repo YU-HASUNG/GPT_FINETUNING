@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 38523,
+    "name": "KAKAO_653_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151212003641/KAKAO_653_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151212003641/KAKAO_653_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34621,
+      "filename": "KAKAO_653_03.txt",
+      "title": "KAKAO_653_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 815,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 815,
+        "word_size": 241,
+        "text": "1 : 야, 나 이번에 경주 출장 다녀온 거 알지?\n2 : 그러게, 잘 다녀왔냐?\n2 : 너네 친척 분들 인사라도 드리고 왔어?\n1 : 응 다행스럽게도 서울에서 신경주까지 KTX가 있어 가지고 완전 빠르게 잘 다녀왔어\n2 : 하긴, 요즘 교통 수단이 너무 좋아서 오히려, 경주 같은 곳은 비행기보다 KTX가 더 나을걸?\n1 : 어, 완전 좋더라. 심지어 KTX가 신경주에는 사람이 많지 않아서 창가 쪽 좋은 자리 차지했어\n2 : 하하 출장 다닐 맛 나겠네\n1 : 어, 근데 나 이번에 우리 부서 대리랑 같이 출장 가는데…\n1 : 그 대리님은 KTX가 처음 이시라는 거야\n2 : 뭐 KTX 탈일 이 보통은 많이 없지...\n1 : 하하 그런데, 내가 농담으로 KTX는 비행기처럼 신발 벗고 타야 한다고 했더니...\n1 : 날 쳐다보면서 저도 비행기는 신발 신고 타 봤어요. 하시더라?\n2 : 너도 참 웃기지도 않게... 속이려고 했냐?\n1 : 그래서 같이 서울에서 KTX 타고 움직이는데 간식차 가 지나가더라구\n1 : 그 대리님이 쿨 하게, 커피 한 잔 할래요? 쿠키도 같이 드세요... 하는 거야?\n2 : 오 나 그 간식차 너무 그리운데... 그리고, 그 대리님 좋은 양반이네\n1 : 좋은 양반인데... 커피랑 쿠키가 나와도 돈을 안내더라?\n2 : 아니, 자기가 먹으라고 해 놓고... 그걸 왜 돈을 안내?\n1 : 이분은 KTX가 표 값이 비싸니까... 비행기처럼 무료로 간식을 나눠주는 줄 알았나 봐 하하\n2 : 하하 왠일이야... 결국 어떻게 됐어?\n1 : 결국 돈 내고 먹는 거라고 해서... 대리님이 내셨어 하하\n2 : 키키 재미 있으신 대리님이시네 ㅋ\n2 : 평소에 회사 생활 재미있겠다~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야, 나 이번에 경주 출장 다녀온 거 알지?",
+            "norm_text": "야, 나 이번에 경주 출장 다녀온 거 알지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+,/SC+나/NP+이번/NNG+에/JKB+경주/NNP+출장/NNG+다녀온/VV+ETM+거/NNB+알/VV+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그러게, 잘 다녀왔냐?",
+            "norm_text": "그러게, 잘 다녀왔냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+,/SC+잘/MAG+다녀왔/VV+EP+냐/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너네 친척 분들 인사라도 드리고 왔어?",
+            "norm_text": "너네 친척 분들 인사라도 드리고 왔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+친척/NNG+분/XSN+들/XSN+인사/NNG+라도/VCP+EC+드리/VX+고/EC+왔/VX+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응 다행스럽게도 서울에서 신경주까지 KTX가 있어 가지고 완전 빠르게 잘 다녀왔어",
+            "norm_text": "응 다행스럽게도 서울에서 신경주까지 KTX가 있어 가지고 완전 빠르게 잘 다녀왔어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+다행/NNG+스럽/XSA+게/EC+도/JX+서울/NNP+에서/JKB+신경주/NNP+까지/JX+KTX/SL+가/JKS+있/VA+어/EC+가지/VX+고/EC+완전/MAG+빠르/VA+게/EC+잘/MAG+다녀왔/VV+EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 하긴, 요즘 교통 수단이 너무 좋아서 오히려, 경주 같은 곳은 비행기보다 KTX가 더 나을걸?",
+            "norm_text": "하긴, 요즘 교통 수단이 너무 좋아서 오히려, 경주 같은 곳은 비행기보다 KTX가 더 나을걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+,/SC+요즘/MAG+교통수단/NNG+이/JKS+너무/MAG+좋/VA+아서/EC+오히려/MAJ+,/SC+경주/NNP+같/VA+은/ETM+곳/NNG+은/JX+비행기/NNG+보다/JKB+KTX/SL+가/JKS+더나/VV+을걸/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 어, 완전 좋더라. 심지어 KTX가 신경주에는 사람이 많지 않아서 창가 쪽 좋은 자리 차지했어",
+            "norm_text": "어, 완전 좋더라. 심지어 KTX가 신경주에는 사람이 많지 않아서 창가 쪽 좋은 자리 차지했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+,/SC+완전/MAG+좋/VA+더라/EF+심지어/MAG+KTX/SL+가/JKS+신경/NNG+주/NNG+에/JKB+는/JX+사람/NNG+이/JKS+많/VA+지/EC+않/VX+아서/EC+창가/NNG+쪽/NNB+좋/VA+은/ETM+자리/NNG+차지/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 하하 출장 다닐 맛 나겠네",
+            "norm_text": "하하 출장 다닐 맛 나겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+출장/NNG+다닐/VV+ETM+맛나/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어, 근데 나 이번에 우리 부서 대리랑 같이 출장 가는데…",
+            "norm_text": "어, 근데 나 이번에 우리 부서 대리랑 같이 출장 가는데…",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+,/SC+근데/MAJ+나/NP+이번/NNG+에/JKB+우리/NP+부서/NNG+대리/NNG+랑/JKB+같이/MAG+출장/NNG+가/VV+는데/EC+…/SE"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그 대리님은 KTX가 처음 이시라는 거야",
+            "norm_text": "그 대리님은 KTX가 처음 이시라는 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+대리/NNG+님/XSN+은/JX+KTX/SL+가/JKS+처음/NNG+이/VCP+시/EP+라는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 뭐 KTX 탈일 이 보통은 많이 없지...",
+            "norm_text": "뭐 KTX 탈일 이 보통은 많이 없지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+KTX/SL+탈일/NNG+이/JKS+보통/NNG+은/JX+많이/MAG+없/VA+지/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 하하 그런데, 내가 농담으로 KTX는 비행기처럼 신발 벗고 타야 한다고 했더니...",
+            "norm_text": "하하 그런데, 내가 농담으로 KTX는 비행기처럼 신발 벗고 타야 한다고 했더니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+그런데/MAJ+,/SC+내/NP+가/JKS+농담/NNG+으로/JKB+KTX/SL+는/JX+비행기/NNG+처럼/JKB+신발/NNG+벗/VV+고/EC+타/VV+야/EC+한다고/VX+EC+했/VX+EP+더니/EC+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 날 쳐다보면서 저도 비행기는 신발 신고 타 봤어요. 하시더라?",
+            "norm_text": "날 쳐다보면서 저도 비행기는 신발 신고 타 봤어요. 하시더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "날/NP+JKO+쳐다보/VV+면서/EC+저/NP+도/JX+비행기/NNG+는/JX+신발/NNG+신고/NNG+타/XSV+EC+봤/VX+EP+어요/EF+하/VV+시/EP+더라/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 너도 참 웃기지도 않게... 속이려고 했냐?",
+            "norm_text": "너도 참 웃기지도 않게... 속이려고 했냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+참/MAG+웃기/VV+지/EC+도/JX+않/VX+게/EC+./SY+./SY+속이/VV+려고/EC+했/VX+EP+냐/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그래서 같이 서울에서 KTX 타고 움직이는데 간식차 가 지나가더라구",
+            "norm_text": "그래서 같이 서울에서 KTX 타고 움직이는데 간식차 가 지나가더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+같이/MAG+서울/NNP+에서/JKB+KTX/SL+타/VV+고/EC+움직이/VV+는/ETM+데/NNB+간/VV+ETM+식차/NNG+가/JKS+지나가/VV+더라구/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그 대리님이 쿨 하게, 커피 한 잔 할래요? 쿠키도 같이 드세요... 하는 거야?",
+            "norm_text": "그 대리님이 쿨 하게, 커피 한 잔 할래요? 쿠키도 같이 드세요... 하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+대리/NNG+님/XSN+이/JKS+쿨하/VA+게/EC+,/SC+커피/NNG+한잔/NNG+할래요/XSV+EF+쿠키/NNG+도/JX+같이/MAG+드세요/VV+EP+EF+./SY+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오 나 그 간식차 너무 그리운데... 그리고, 그 대리님 좋은 양반이네",
+            "norm_text": "오 나 그 간식차 너무 그리운데... 그리고, 그 대리님 좋은 양반이네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오나/NNP+그간/NNG+식차/NNG+너무/MAG+그리운데/VA+EC+./SY+./SY+그리고/MAJ+,/SC+그/MM+대리/NNG+님/XSN+좋/VA+은/ETM+양반/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 좋은 양반인데... 커피랑 쿠키가 나와도 돈을 안내더라?",
+            "norm_text": "좋은 양반인데... 커피랑 쿠키가 나와도 돈을 안내더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+은/ETM+양반/NNG+인데/VCP+EC+./SY+./SY+커피/NNG+랑/JKB+쿠키/NNG+가/JKS+나와도/VV+EC+돈/NNG+을/JKO+안/MAG+내/VV+더라/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아니, 자기가 먹으라고 해 놓고... 그걸 왜 돈을 안내?",
+            "norm_text": "아니, 자기가 먹으라고 해 놓고... 그걸 왜 돈을 안내?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+,/SC+자기/NP+가/JKS+먹/VV+으라고/EC+해/VV+EC+놓/VX+고/EC+./SY+./SY+그걸/NP+JKO+왜/MAG+돈/NNG+을/JKO+안/MAG+내/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 이분은 KTX가 표 값이 비싸니까... 비행기처럼 무료로 간식을 나눠주는 줄 알았나 봐 하하",
+            "norm_text": "이분은 KTX가 표 값이 비싸니까... 비행기처럼 무료로 간식을 나눠주는 줄 알았나 봐 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이분/NP+은/JX+KTX/SL+가/JKS+표/NNG+값/NNG+이/JKS+비싸/VA+니까/EC+./SY+./SY+비행기/NNG+처럼/JKB+무료/NNG+로/JKB+간식/NNG+을/JKO+나눠/VV+EC+주/VX+는/ETM+줄/NNB+알/VV+았/EP+나/EC+봐/VX+EF+하하/MAG"
+          },
+          {
+            "id": 20,
+            "text": "2 : 하하 왠일이야... 결국 어떻게 됐어?",
+            "norm_text": "하하 왠일이야... 결국 어떻게 됐어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+왠/MAG+VCP+ETM+일/NNG+이/VCP+야/EF+./SY+결국/MAG+어떻게/MAG+됐/VV+EP+어/EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 결국 돈 내고 먹는 거라고 해서... 대리님이 내셨어 하하",
+            "norm_text": "결국 돈 내고 먹는 거라고 해서... 대리님이 내셨어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "결국/MAG+돈/NNG+내/VV+고/EC+먹/VV+는/ETM+거/NNB+라고/VCP+EC+해서/VV+EC+./SY+./SY+대리/NNG+님/XSN+이/JKS+내/VV+셨/EP+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 22,
+            "text": "2 : 키키 재미 있으신 대리님이시네 ㅋ",
+            "norm_text": "키키 재미 있으신 대리님이시네 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+재미있/VA+으신/EP+ETM+대리/NNG+님/XSN+이/VCP+시/EP+네ㅋ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 평소에 회사 생활 재미있겠다~",
+            "norm_text": "평소에 회사 생활 재미있겠다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평소/NNG+에/JKB+회사/NNG+생활/NNG+재미있/VA+겠/EP+다/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

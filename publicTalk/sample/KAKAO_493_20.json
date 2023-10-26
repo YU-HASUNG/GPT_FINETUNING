@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 30049,
+    "name": "KAKAO_493_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144305015914/KAKAO_493_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144305015914/KAKAO_493_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29051,
+      "filename": "KAKAO_493_20.txt",
+      "title": "KAKAO_493_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 498,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 498,
+        "word_size": 162,
+        "text": "1 : 너 기생충 봤어?\n1 : 나는 그거 며칠 전에 VOD로 보고 충격 받았어\n2 : 너는 왜 그걸 이제 봤어 키키 영화 나온 지가 언젠데\n1 : 그러게 키키 아직 미나리도 안 봤는데 키키\n2 : 야 그건 상식이야 뉴스에도 매일 나오는데 좀 찾아 봐\n1 : 그래 미나리는 다음 주에 볼게 키키\n1 : 암튼 기생충 어땠어?\n2 : 나는 그거 보고 좀 충격 받았었어\n1 : 왜? 뒤에 너무 잔인해서? 나도 뒷부분은 눈 가리고 봤어\n2 : 응 그것도 있는데 나는 반지하가 그런 줄 몰랐어\n1 : 어 맞아 나도 진짜 놀랬어 그게 진짜 현실이라며?\n2 : 그렇다고 하더라 나도 반지하는 가 본 적이 없어서 몰랐어\n1 : 진짜 변기가 높이 있는 거 너무 놀랍지 않아?\n2 : 응응 나도 그거 너무 놀랐었어 키키 그게 현실이래\n1 : 그렇다며 미술상도 받았잖아 디테일하다고\n2 : 어 맞아맞아 키키 봉준호 별명이 봉테일이잖아\n1 : 그래 콘티를 일일이 다 그려온 거 보고 대단하다 했어\n2 : 감독이 진짜 열정적이지 않아? 멋있더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 기생충 봤어?",
+            "norm_text": "너 기생충 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+기생충/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 나는 그거 며칠 전에 VOD로 보고 충격 받았어",
+            "norm_text": "나는 그거 며칠 전에 VOD로 보고 충격 받았어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+그거/NP+며칠/NNG+전/NNG+에/JKB+VOD/SL+로/JKB+보/VV+고/EC+충격/NNG+받/VV+았/EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너는 왜 그걸 이제 봤어 키키 영화 나온 지가 언젠데",
+            "norm_text": "너는 왜 그걸 이제 봤어 키키 영화 나온 지가 언젠데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+왜/MAG+그걸/NP+JKO+이제/MAG+봤/VV+EP+어/EC+키/NNG+키/NNG+영화/NNG+나온/VV+ETM+지/NNB+가/JKS+언젠데/NP+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그러게 키키 아직 미나리도 안 봤는데 키키",
+            "norm_text": "그러게 키키 아직 미나리도 안 봤는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키/NNG+아직/MAG+미나리/NNG+도/JX+안/MAG+봤/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 야 그건 상식이야 뉴스에도 매일 나오는데 좀 찾아 봐",
+            "norm_text": "야 그건 상식이야 뉴스에도 매일 나오는데 좀 찾아 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "야/IC+그건/NP+JX+상식/NNG+이/VCP+야/EC+뉴스/NNG+에/JKB+도/JX+매일/MAG+나오/VV+는데/EC+좀/MAG+찾아봐/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그래 미나리는 다음 주에 볼게 키키",
+            "norm_text": "그래 미나리는 다음 주에 볼게 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+미나리/NNG+는/JX+다음/NNG+주/NNG+에/JKB+볼/VV+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 암튼 기생충 어땠어?",
+            "norm_text": "암튼 기생충 어땠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "암튼/MAJ+기생충/NNG+어땠어/VA+EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나는 그거 보고 좀 충격 받았었어",
+            "norm_text": "나는 그거 보고 좀 충격 받았었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+그거/NP+보고/JKB+좀/MAG+충격/NNG+받/VV+았었/EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 왜? 뒤에 너무 잔인해서? 나도 뒷부분은 눈 가리고 봤어",
+            "norm_text": "왜? 뒤에 너무 잔인해서? 나도 뒷부분은 눈 가리고 봤어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+뒤/NNG+에/JKB+너무/MAG+잔인/NNG+해서/XSV+EC+나/NP+도/JX+뒷부분/NNG+은/JX+눈/NNG+가리/VV+고/EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 그것도 있는데 나는 반지하가 그런 줄 몰랐어",
+            "norm_text": "응 그것도 있는데 나는 반지하가 그런 줄 몰랐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그것/NP+도/JX+있/VA+는데/EC+나/NP+는/JX+반지하/NNG+가/JKS+그런/MM+줄/NNB+몰랐/VV+EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 어 맞아 나도 진짜 놀랬어 그게 진짜 현실이라며?",
+            "norm_text": "어 맞아 나도 진짜 놀랬어 그게 진짜 현실이라며?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+맞아/IC+나/NP+도/JX+진짜/MAG+놀랬/VV+EP+어/EF+그게/NP+JKS+진짜/MAG+현실/NNG+이/VCP+라며/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그렇다고 하더라 나도 반지하는 가 본 적이 없어서 몰랐어",
+            "norm_text": "그렇다고 하더라 나도 반지하는 가 본 적이 없어서 몰랐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+다고/EC+하/VX+더라/EF+나/NP+도/JX+반지/NNG+하/XSV+는가/EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어서/EC+몰랐/VV+EP+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 진짜 변기가 높이 있는 거 너무 놀랍지 않아?",
+            "norm_text": "진짜 변기가 높이 있는 거 너무 놀랍지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+변기/NNG+가/JKS+높이/MAG+있/VV+는/ETM+거/NNB+너무/MAG+놀랍/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응응 나도 그거 너무 놀랐었어 키키 그게 현실이래",
+            "norm_text": "응응 나도 그거 너무 놀랐었어 키키 그게 현실이래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+나/NP+도/JX+그거/NP+너무/MAG+놀랐었/VV+EP+어/EC+키/NNG+키/XSV+ETN+그게/NP+JKS+현실/NNG+이래/NNB"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그렇다며 미술상도 받았잖아 디테일하다고",
+            "norm_text": "그렇다며 미술상도 받았잖아 디테일하다고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+다며/EC+미술상/NNG+도/JX+받/VV+았/EP+잖아/EF+디테일/NNG+하/XSV+다고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어 맞아맞아 키키 봉준호 별명이 봉테일이잖아",
+            "norm_text": "어 맞아맞아 키키 봉준호 별명이 봉테일이잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+맞/VV+아/EC+맞/VV+아/EC+키키/NNP+봉준호/NNP+별명/NNG+이/JKS+봉/NNG+테일/NNG+이/VCP+잖아/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그래 콘티를 일일이 다 그려온 거 보고 대단하다 했어",
+            "norm_text": "그래 콘티를 일일이 다 그려온 거 보고 대단하다 했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+콘티/NNG+를/JKO+일일이/MAG+다/MAG+그려온/VV+EC+VX+ETM+거/NNB+보고/JKB+대단/XR+하/XSA+다/EC+했/VX+EP+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 감독이 진짜 열정적이지 않아? 멋있더라",
+            "norm_text": "감독이 진짜 열정적이지 않아? 멋있더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "감독/NNG+이/JKS+진짜/MAG+열정/NNG+적/XSN+이/VCP+지/EC+않/VX+아/EF+멋있/VA+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

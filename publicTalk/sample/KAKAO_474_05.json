@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "identifier": 29111,
+    "name": "KAKAO_474_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150836000378/KAKAO_474_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150836000378/KAKAO_474_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28515,
+      "filename": "KAKAO_474_05.txt",
+      "title": "KAKAO_474_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 724,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 724,
+        "word_size": 228,
+        "text": "1 : 오늘 뉴스 봤낭?\n1 : 육군 부대 분대장 수첩!\n2 : 엉? 육군 분대장?\n2 : 무슨 일 있나?\n1 : 이번에 분대장 수첩이 새로 제작돼 보급됐는데 거기에 부모 최종 학력이나 재산 그런 거 적는 란이 있었다노...\n2 : 자기 자신 최종 학력도 아니고 부모님 최종 학력?\n2 : 쌍팔년도도 아니고 무슨 일?\n1 : 내 말이 지금 21세긴데 이게 무슨 일이거\n2 : 궁금하네 나도 기사 한번 찾아봐야겠너!\n1 : 어어 기사 봐봐 넘나 어이없는 일인 듯...\n1 : 무슨 시대를 역행하는 그런 짓을 하는지\n2 : 애인 이름, 주소, 직업? 교제 기간까지 쓰라는 항목이 있다노?\n1 : 진짜 대박이제...\n1 : 뭐 때문에 그런 걸 적게 하는 거고 노 이해다 노 이해\n2 : 자기 집 주소도 아니고 애인 주소 알아서 뭐하게 개인정보에 대한 경각심이 없노\n1 : 내 말이 요즘 개인정보에 얼마나 민감한데...\n1 : 어디다 쓸라고 그런 걸 조사하노...\n1 : 탁상행정 끝판왕이거\n2 : 그니께! 회수를 하긴 했다 하노\n1 : 제작해서 배포할 때도 세금, 회수해서 폐기하는 것도 세금...\n1 : 세금 낭비 장난 없네\n2 : 다 세금 맞제? ㅠㅠ\n2 : 진짜 너무너무 아깝다 그거 아꼈으면 다른 곳에 얼마든지 썼겠구만\n1 : 세금 맞겠지 국방부 예산으로 측정돼서 하는 거겠지 ㅠㅠ\n1 : 쎄빠지게 벌어서 세금 내는구만 엄한 데다가 세금을 뿌리노 ㅠㅠ\n1 : 넘나 속상 ㅠㅠ\n2 : 이런 거 얘기하니까 열 뻗치노\n2 : 매운 거 땡기네 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 뉴스 봤낭?",
+            "norm_text": "오늘 뉴스 봤낭?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+뉴스/NNG+봤/VV+EP+낭/NNG"
+          },
+          {
+            "id": 2,
+            "text": "1 : 육군 부대 분대장 수첩!",
+            "norm_text": "육군 부대 분대장 수첩!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "육군/NNG+부대/NNG+분대장/NNG+수첩/NNG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 엉? 육군 분대장?",
+            "norm_text": "엉? 육군 분대장?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엉/IC+육군/NNG+분대장/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 무슨 일 있나?",
+            "norm_text": "무슨 일 있나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+일/NNG+있/VA+나/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 이번에 분대장 수첩이 새로 제작돼 보급됐는데 거기에 부모 최종 학력이나 재산 그런 거 적는 란이 있었다노...",
+            "norm_text": "이번에 분대장 수첩이 새로 제작돼 보급됐는데 거기에 부모 최종 학력이나 재산 그런 거 적는 란이 있었다노...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+분대장/NNG+수첩/NNG+이/JKS+새로/MAG+제작/NNG+돼/XSV+EC+보급/NNG+됐/XSV+EP+는데/EC+거기/NP+에/JKB+부모/NNG+최종/NNG+학력/NNG+이나/JC+재산/NNG+그런/MM+거/NNB+적/VA+는/ETM+란/NNG+이/JKS+있/VA+었/EP+다/EF+노/IC+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 자기 자신 최종 학력도 아니고 부모님 최종 학력?",
+            "norm_text": "자기 자신 최종 학력도 아니고 부모님 최종 학력?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+자신/NNG+최종/NNG+학력/NNG+도/JX+아니/VCN+고/EC+부모/NNG+님/XSN+최종/NNG+학력/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 쌍팔년도도 아니고 무슨 일?",
+            "norm_text": "쌍팔년도도 아니고 무슨 일?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쌍/NNG+팔/NR+년/NNBC+도/JX+도/JX+아니/VCN+고/EC+무슨/MM+일/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 내 말이 지금 21세긴데 이게 무슨 일이거",
+            "norm_text": "내 말이 지금 21세긴데 이게 무슨 일이거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+지금/MAG+21/SN+세/NNBC+긴데/NNBC+VCP+EC+이게/NP+JKS+무슨/MM+일/NNG+이거/NP"
+          },
+          {
+            "id": 9,
+            "text": "2 : 궁금하네 나도 기사 한번 찾아봐야겠너!",
+            "norm_text": "궁금하네 나도 기사 한번 찾아봐야겠너!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "궁금/XR+하/XSA+네/EF+나/NP+도/JX+기사/NNG+한/MM+번/NNBC+찾/VV+아/EC+봐야/VX+EC+VV+겠/EP+너/NP"
+          },
+          {
+            "id": 10,
+            "text": "1 : 어어 기사 봐봐 넘나 어이없는 일인 듯...",
+            "norm_text": "어어 기사 봐봐 넘나 어이없는 일인 듯...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+기사/NNG+봐/VV+EC+봐/VX+EC+넘나/VV+어/EC+이/MM+없/VA+는/ETM+일/NNG+인듯/VCP+EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 무슨 시대를 역행하는 그런 짓을 하는지",
+            "norm_text": "무슨 시대를 역행하는 그런 짓을 하는지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무슨/MM+시대/NNG+를/JKO+역행/NNG+하/XSV+는/ETM+그런/MM+짓/NNB+을/JKO+하/VV+는지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 애인 이름, 주소, 직업? 교제 기간까지 쓰라는 항목이 있다노?",
+            "norm_text": "애인 이름, 주소, 직업? 교제 기간까지 쓰라는 항목이 있다노?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "애인/NNG+이름/NNG+,/SC+주소/NNG+,/SC+직업/NNG+?/SY+교제/NNG+기간/NNG+까지/JX+쓰/VV+라는/ETM+항목/NNG+이/JKS+있/VA+다/EF+노/IC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 진짜 대박이제...",
+            "norm_text": "진짜 대박이제...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+대박/NNG+이제/MAG+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 뭐 때문에 그런 걸 적게 하는 거고 노 이해다 노 이해",
+            "norm_text": "뭐 때문에 그런 걸 적게 하는 거고 노 이해다 노 이해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+때문/NNB+에/JKB+그런/MM+걸/NNB+JKO+적/VA+게/EC+하/VV+는/ETM+거/NNB+고/VCP+EC+노이/NNG+해다/XSV+EC+VX+노/EC+이해/NNG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 자기 집 주소도 아니고 애인 주소 알아서 뭐하게 개인정보에 대한 경각심이 없노",
+            "norm_text": "자기 집 주소도 아니고 애인 주소 알아서 뭐하게 개인정보에 대한 경각심이 없노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+집/NNG+주소/NNG+도/JX+아니/VCN+고/EC+애인/NNG+주소/NNG+알/VV+아서/EC+뭐/IC+하/VV+게/EC+개인/NNG+정보/NNG+에/JKB+대한/VV+ETM+경각심/NNG+이/JKS+없/VA+노/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 내 말이 요즘 개인정보에 얼마나 민감한데...",
+            "norm_text": "내 말이 요즘 개인정보에 얼마나 민감한데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+요즘/MAG+개인/NNG+정보/NNG+에/JKB+얼마나/MAG+민감/XR+한데/XSA+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 어디다 쓸라고 그런 걸 조사하노...",
+            "norm_text": "어디다 쓸라고 그런 걸 조사하노...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어디/NP+다/JX+쓸라고/VV+EC+그런/MM+걸/NNB+JKO+조사/NNG+하/XSA+노/EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 탁상행정 끝판왕이거",
+            "norm_text": "탁상행정 끝판왕이거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "탁상행정/NNG+끝판/NNG+왕/NNG+이거/NP"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그니께! 회수를 하긴 했다 하노",
+            "norm_text": "그니께! 회수를 하긴 했다 하노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/NP+니께/VCP+EF+회수/NNG+를/JKO+하/VV+긴/ETN+JX+했/VX+EP+다/EC+하/VV+노/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 제작해서 배포할 때도 세금, 회수해서 폐기하는 것도 세금...",
+            "norm_text": "제작해서 배포할 때도 세금, 회수해서 폐기하는 것도 세금...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제작/NNG+해서/XSV+EC+배포/NNG+할/XSV+ETM+때/NNG+도/JX+세금/NNG+,/SC+회수/NNG+해서/XSV+EC+폐기/NNG+하/XSV+는/ETM+것/NNB+도/JX+세금/NNG+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 세금 낭비 장난 없네",
+            "norm_text": "세금 낭비 장난 없네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "세금낭비장난없네/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 다 세금 맞제? ㅠㅠ",
+            "norm_text": "다 세금 맞제? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다/MAG+세금/NNG+맞/VV+제/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 진짜 너무너무 아깝다 그거 아꼈으면 다른 곳에 얼마든지 썼겠구만",
+            "norm_text": "진짜 너무너무 아깝다 그거 아꼈으면 다른 곳에 얼마든지 썼겠구만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+너무너무/MAG+아깝/VA+다/EF+그거/NP+아꼈/VV+EP+으면/EC+다른/MM+곳/NNG+에/JKB+얼마/NNG+든지/VCP+EC+썼/VV+EP+겠/EP+구만/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 세금 맞겠지 국방부 예산으로 측정돼서 하는 거겠지 ㅠㅠ",
+            "norm_text": "세금 맞겠지 국방부 예산으로 측정돼서 하는 거겠지 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "세금/NNG+맞/VV+겠/EP+지/EC+국방부/NNG+예산/NNG+으로/JKB+측정/NNG+돼서/XSV+EC+하/VV+는/ETM+거/NNB+겠/VCP+EP+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 쎄빠지게 벌어서 세금 내는구만 엄한 데다가 세금을 뿌리노 ㅠㅠ",
+            "norm_text": "쎄빠지게 벌어서 세금 내는구만 엄한 데다가 세금을 뿌리노 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쎄/VA+EC+빠지/VV+게/EC+벌/VV+어서/EC+세금/NNG+내/NP+는/JX+구만/NNG+엄한/VA+ETM+데/NNB+다가/JX+세금/NNG+을/JKO+뿌리/VV+노/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 넘나 속상 ㅠㅠ",
+            "norm_text": "넘나 속상 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넘나속상ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 이런 거 얘기하니까 열 뻗치노",
+            "norm_text": "이런 거 얘기하니까 열 뻗치노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이런/MM+거/NNB+얘기/NNG+하/XSV+니까/EC+열/NR+뻗치/VV+노/EC"
+          },
+          {
+            "id": 28,
+            "text": "2 : 매운 거 땡기네 키키",
+            "norm_text": "매운 거 땡기네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매운/VA+ETM+거/NNB+땡기/VV+네/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

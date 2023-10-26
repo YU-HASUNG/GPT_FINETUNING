@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32344,
+    "name": "KAKAO_863_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717007817/KAKAO_863_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717007817/KAKAO_863_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39862,
+      "filename": "KAKAO_863_04.txt",
+      "title": "KAKAO_863_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 385,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 385,
+        "word_size": 128,
+        "text": "1 : 엄마 나 몸에 이상이 있나? ㅠㅠ\n2 : 왜 그래? 어디 아파?\n1 : 아니 사무실에 앉아 있으면 약간 목이 막히는 것 같은 기분이 들어서\n2 : 기분탓 아니야?\n1 : 그런데 계속 그래 ㅠㅠ\n1 : 마스크까지 끼고 있으니까 숨이 막히는 느낌이야\n2 : 너 야식 계속 먹더니 역류성 식도염 온 거 아니야?\n1 : 그런가? ㅠㅠ 뭔가 답답한데\n2 : 병원 가봐. 야식 좀 줄이고!\n1 : 진짜 계속 야식 먹고 그래서 그러나 ㅠㅠ\n2 : 이으그~ 일할 때 많이 불편하겠네\n1 : 응 ㅠㅠ 처음에는 회사 오면 스트레스 받아서 그런가 했는데\n2 : 회사에서 많이 힘들어?\n1 : 그냥 불편하고 그래서 그런 줄 알았어 ㅠㅠ\n2 : 빨리 적응해야지 ㅠㅠ 그래도\n1 : 응 그래야지 ㅠㅠ\n2 : 일찍 들어와 저녁 같이 먹자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 나 몸에 이상이 있나? ㅠㅠ",
+            "norm_text": "엄마 나 몸에 이상이 있나? ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+나/JC+몸/NNG+에/JKB+이상/NNG+이/JKS+있/VA+나/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜 그래? 어디 아파?",
+            "norm_text": "왜 그래? 어디 아파?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+그래/VA+EF+어디/NP+아파/VA+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 사무실에 앉아 있으면 약간 목이 막히는 것 같은 기분이 들어서",
+            "norm_text": "아니 사무실에 앉아 있으면 약간 목이 막히는 것 같은 기분이 들어서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+사무실/NNG+에/JKB+앉/VV+아/EC+있/VX+으면/EC+약간/MAG+목/NNG+이/JKS+막히/VV+는/ETM+것/NNB+같/VA+은/ETM+기분/NNG+이/JKS+들/VV+어서/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 기분탓 아니야?",
+            "norm_text": "기분탓 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기분/NNG+탓/VV+EP+아니/VCN+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런데 계속 그래 ㅠㅠ",
+            "norm_text": "그런데 계속 그래 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런데/MAJ+계속/MAG+그래/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 마스크까지 끼고 있으니까 숨이 막히는 느낌이야",
+            "norm_text": "마스크까지 끼고 있으니까 숨이 막히는 느낌이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마스크/NNG+까지/JX+끼/VV+고/EC+있/VX+으니까/EC+숨/NNG+이/JKS+막히/VV+는/ETM+느낌/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 너 야식 계속 먹더니 역류성 식도염 온 거 아니야?",
+            "norm_text": "너 야식 계속 먹더니 역류성 식도염 온 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+야식/NNG+계속/MAG+먹/VV+더니/EC+역류/NNG+성/XSN+식도염/NNG+온/VV+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그런가? ㅠㅠ 뭔가 답답한데",
+            "norm_text": "그런가? ㅠㅠ 뭔가 답답한데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EF+ㅠㅠ뭔가답답한데/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 병원 가봐. 야식 좀 줄이고!",
+            "norm_text": "병원 가봐. 야식 좀 줄이고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "병원/NNG+가/VV+EC+봐/VX+EF+야식/NNG+좀/MAG+줄이/VV+고/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 진짜 계속 야식 먹고 그래서 그러나 ㅠㅠ",
+            "norm_text": "진짜 계속 야식 먹고 그래서 그러나 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+계속/MAG+야식/NNG+먹/VV+고/EC+그래서/MAJ+그러나/MAJ+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 이으그~ 일할 때 많이 불편하겠네",
+            "norm_text": "이으그~ 일할 때 많이 불편하겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/MM+으/IC+그/MM+~/SY+일/NNG+할/XSV+ETM+때/NNG+많이/MAG+불편/NNG+하/XSV+겠/EP+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응 ㅠㅠ 처음에는 회사 오면 스트레스 받아서 그런가 했는데",
+            "norm_text": "응 ㅠㅠ 처음에는 회사 오면 스트레스 받아서 그런가 했는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+ㅠㅠ/UNKNOWN+처음/NNG+에/JKB+는/JX+회사/NNG+오/VV+면/EC+스트레스/NNG+받/VV+아서/EC+그런가/VA+EC+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 회사에서 많이 힘들어?",
+            "norm_text": "회사에서 많이 힘들어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회사/NNG+에서/JKB+많이/MAG+힘들/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그냥 불편하고 그래서 그런 줄 알았어 ㅠㅠ",
+            "norm_text": "그냥 불편하고 그래서 그런 줄 알았어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+불편/NNG+하/XSV+고/EC+그래서/MAJ+그런/MM+줄/NNB+알/VV+았/EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 빨리 적응해야지 ㅠㅠ 그래도",
+            "norm_text": "빨리 적응해야지 ㅠㅠ 그래도",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빨리/MAG+적응/NNG+해야지/XSV+EC+ㅠㅠ/UNKNOWN+그래도/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응 그래야지 ㅠㅠ",
+            "norm_text": "응 그래야지 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응그래야지ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 일찍 들어와 저녁 같이 먹자",
+            "norm_text": "일찍 들어와 저녁 같이 먹자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "일찍/MAG+들어와/VV+EC+저녁/NNG+같이/JKB+먹/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

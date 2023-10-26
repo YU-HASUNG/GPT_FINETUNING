@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 64137,
+    "name": "KAKAO_751_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134746082184/KAKAO_751_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134746082184/KAKAO_751_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36990,
+      "filename": "KAKAO_751_02.txt",
+      "title": "KAKAO_751_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 366,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 366,
+        "word_size": 123,
+        "text": "1 : 엄마 월세 밀렸다고 주인 아줌마한테 연락 왔어 ㅠㅠ\n2 : 뭐? 내가 안 냈었나?\n1 : 웅... 엄마 벌써 2달 째 안 냈대 ㅠㅠ\n2 : 몰랐네... 엄마가 요새 깜빡해\n1 : ㅠㅠ 엄마 돈 있어?\n2 : 아이고 지금은 돈 없는데... 어떡하니...\n1 : ㅠㅠ 내가 못 살아 일단 내 돈으로 낼게\n2 : 응 내가 나중에 보내줄게~\n1 : 헉 엄마 어쩌지? 나 월세 한 달치밖에 여유 자금이 안 되네 ㅠㅠ\n2 : 아이고 이를 어쩌니 ㅠㅠ\n1 : 내가 주인 아줌마한테 한 달치는 보증금에서 빼 달라고 말해볼게 ㅠㅠ\n2 : 그래 ㅠㅠ 한번 말 좀 해봐\n1 : ㅠㅠ 말해봤는데 그렇게 해준대!\n2 : 다행이네...\n1 : 담 번에는 까먹지 말고 꼭 내 엄마!\n2 : 알았어 딸~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 월세 밀렸다고 주인 아줌마한테 연락 왔어 ㅠㅠ",
+            "norm_text": "엄마 월세 밀렸다고 주인 아줌마한테 연락 왔어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+월세/NNG+밀렸/VV+EP+다고/EC+주인아줌마/NNG+한테/JKB+연락/NNG+왔/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 뭐? 내가 안 냈었나?",
+            "norm_text": "뭐? 내가 안 냈었나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+내/NP+가/JKS+안/MAG+냈었/VV+EP+나/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 웅... 엄마 벌써 2달 째 안 냈대 ㅠㅠ",
+            "norm_text": "웅... 엄마 벌써 2달 째 안 냈대 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+./SY+엄마/NNG+벌써/MAG+2/SN+달째안냈대ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 몰랐네... 엄마가 요새 깜빡해",
+            "norm_text": "몰랐네... 엄마가 요새 깜빡해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰랐/VV+EP+네/EF+./SY+엄마/NNG+가/JKS+요새/MAG+깜빡/MAG+해/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : ㅠㅠ 엄마 돈 있어?",
+            "norm_text": "ㅠㅠ 엄마 돈 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅠㅠ엄마돈있어/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아이고 지금은 돈 없는데... 어떡하니...",
+            "norm_text": "아이고 지금은 돈 없는데... 어떡하니...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이고/IC+지금/MAG+은/JX+돈/NNG+없/VA+는데/EC+./SY+./SY+어떡/XR+하/XSA+니/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : ㅠㅠ 내가 못 살아 일단 내 돈으로 낼게",
+            "norm_text": "ㅠㅠ 내가 못 살아 일단 내 돈으로 낼게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+내/NP+가/JKS+못/MAG+살/VV+아/EC+일단/MAG+내/MM+돈/NNG+으로/JKB+낼/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 내가 나중에 보내줄게~",
+            "norm_text": "응 내가 나중에 보내줄게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+내/NP+가/JKS+나중/NNG+에/JKB+보내/VV+EC+줄/VX+ETM+게/NNB+JKS+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 헉 엄마 어쩌지? 나 월세 한 달치밖에 여유 자금이 안 되네 ㅠㅠ",
+            "norm_text": "헉 엄마 어쩌지? 나 월세 한 달치밖에 여유 자금이 안 되네 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+엄마/NNG+어쩌/VV+지/EF+나/NP+월세/NNG+한/XSA+ETM+달치/NNG+밖에/JX+여유/NNG+자금/NNG+이/JKS+안/MAG+되/VV+네/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아이고 이를 어쩌니 ㅠㅠ",
+            "norm_text": "아이고 이를 어쩌니 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이고/IC+이/NP+를/JKO+어쩌/VV+니/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 내가 주인 아줌마한테 한 달치는 보증금에서 빼 달라고 말해볼게 ㅠㅠ",
+            "norm_text": "내가 주인 아줌마한테 한 달치는 보증금에서 빼 달라고 말해볼게 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+주인아줌마/NNG+한테/JKB+한/MM+달/NNBC+치/VV+는/ETM+보증금/NNG+에서/JKB+빼/VV+EC+달/VX+라고/EC+말/NNG+해볼/XSV+EC+VX+ETM+게/NNB+JKS+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래 ㅠㅠ 한번 말 좀 해봐",
+            "norm_text": "그래 ㅠㅠ 한번 말 좀 해봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+ㅠㅠ/UNKNOWN+한/MM+번/NNBC+말/NNG+좀/MAG+해/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㅠㅠ 말해봤는데 그렇게 해준대!",
+            "norm_text": "ㅠㅠ 말해봤는데 그렇게 해준대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+말/NNG+해/XSV+EC+봤/VX+EP+는데/EC+그렇게/MAG+해/VV+EC+준대/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 다행이네...",
+            "norm_text": "다행이네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/VCP+네/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 담 번에는 까먹지 말고 꼭 내 엄마!",
+            "norm_text": "담 번에는 까먹지 말고 꼭 내 엄마!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "담/NNG+번/NNBC+에/JKB+는/JX+까먹/VV+지/EC+말/VX+고/EC+꼭/MAG+내/NP+JKG+엄마/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 알았어 딸~",
+            "norm_text": "알았어 딸~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "알/VV+았/EP+어/EC+딸/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

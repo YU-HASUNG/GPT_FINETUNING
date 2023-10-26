@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 34344,
+    "name": "KAKAO_693_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113007030853/KAKAO_693_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113007030853/KAKAO_693_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35222,
+      "filename": "KAKAO_693_03.txt",
+      "title": "KAKAO_693_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 494,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 494,
+        "word_size": 165,
+        "text": "1 : 차 사면 뭐 사는 게 좋겠냐?\n2 : 차는 뭐 용도 따라 다르겠지?\n1 : 용도...? 없는데\n1 : 그냥 버스 못 가는 곳 가려는 건데... 키키\n2 : 그럼 굳이 큰 차 안 타도 되겠네 키키\n1 : 근데 작은 차는 사고 나면 너무 위험해 보여\n2 : 아니면 앞으로를 생각해서 키키 소형 suv도 괜찮을 거 같고\n1 : 나도 그걸로 생각했는데 굳이 큰 차 아니라도 괜찮겠지?\n2 : 친구 거 소형suv 타봤는데 이름만 소형이지 충분히 크기도 크고 탈 만하드라\n1 : 오 시승? 이런 거 할 수 있나?\n2 : 시승 당연히 되겠지 키키\n2 : 근데 첫 차니까 중고 살 거 아니야?\n1 : 시승만 하고 중고로 사면 안 되나 키키\n2 : 될 거야 키키 중고 사러 가도 시승하게 해줄 거 같은데\n1 : 그건 그래 소형 suv로 알아봐야겠다\n2 : 요새 중고차 가격 비교하는 어플이라든지 사이트 많으니까 찾아보면 될 듯 키키\n1 : 응 사면 타고 놀러 가자~\n2 : 기대된다 키키 가격 괜찮고 좋은 차 찾아보장 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 차 사면 뭐 사는 게 좋겠냐?",
+            "norm_text": "차 사면 뭐 사는 게 좋겠냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "차사/NNG+면/VCP+EC+뭐/IC+사/VV+는/ETM+게/NNB+JKS+좋/VA+겠/EP+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 차는 뭐 용도 따라 다르겠지?",
+            "norm_text": "차는 뭐 용도 따라 다르겠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+는/JX+뭐/IC+용도/NNG+따라/VV+EC+다르/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 용도...? 없는데",
+            "norm_text": "용도...? 없는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "용도/NNG+./SY+./SY+없/VA+는데/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그냥 버스 못 가는 곳 가려는 건데... 키키",
+            "norm_text": "그냥 버스 못 가는 곳 가려는 건데... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+버스/NNG+못/MAG+가/VV+는/ETM+곳/NNB+가/VV+려는/ETM+건데/NNB+VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그럼 굳이 큰 차 안 타도 되겠네 키키",
+            "norm_text": "그럼 굳이 큰 차 안 타도 되겠네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+굳이/MAG+큰/VA+ETM+차안/NNG+타도/NNG+되/XSV+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 근데 작은 차는 사고 나면 너무 위험해 보여",
+            "norm_text": "근데 작은 차는 사고 나면 너무 위험해 보여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+작/VA+은/ETM+차/NNG+는/JX+사/VV+고/EC+나/VX+면/EC+너무/MAG+위험/NNG+해/XSV+EC+보여/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아니면 앞으로를 생각해서 키키 소형 suv도 괜찮을 거 같고",
+            "norm_text": "아니면 앞으로를 생각해서 키키 소형 suv도 괜찮을 거 같고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니면/MAJ+앞/NNG+으로/JKB+를/JKO+생각/NNG+해서/XSV+EC+키/NNG+키/NNG+소형/NNG+suv/SL+도/JX+괜찮/VA+을/ETM+거/NNB+같/VA+고/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나도 그걸로 생각했는데 굳이 큰 차 아니라도 괜찮겠지?",
+            "norm_text": "나도 그걸로 생각했는데 굳이 큰 차 아니라도 괜찮겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+그걸로/NP+JKB+생각/NNG+했/XSV+EP+는데/EC+굳이/MAG+큰/VA+ETM+차/NNB+아니/VCN+라도/EC+괜찮/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 친구 거 소형suv 타봤는데 이름만 소형이지 충분히 크기도 크고 탈 만하드라",
+            "norm_text": "친구 거 소형suv 타봤는데 이름만 소형이지 충분히 크기도 크고 탈 만하드라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "친구/NNG+거소/NNG+형/XSN+suv/SL+타/XSV+EC+봤/VX+EP+는데/EC+이름/NNG+만/JX+소형/NNG+이/VCP+지/EC+충분히/MAG+크/VA+기/ETN+도/JX+크/VA+고/EC+탈/NNG+만/JX+하/VV+드라/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오 시승? 이런 거 할 수 있나?",
+            "norm_text": "오 시승? 이런 거 할 수 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+시승/NNG+이런/MM+거/NNB+할/VV+ETM+수/NNB+있/VV+나/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 시승 당연히 되겠지 키키",
+            "norm_text": "시승 당연히 되겠지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시승/NNG+당연히/MAG+되/VV+겠/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 첫 차니까 중고 살 거 아니야?",
+            "norm_text": "근데 첫 차니까 중고 살 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+첫/MM+차/NNG+니까/VCP+EC+중고/NNG+살/VV+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 시승만 하고 중고로 사면 안 되나 키키",
+            "norm_text": "시승만 하고 중고로 사면 안 되나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시승/NNG+만/JX+하/VV+고/EC+중고/NNG+로/JKB+사/VV+면/EC+안/MAG+되/VV+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 될 거야 키키 중고 사러 가도 시승하게 해줄 거 같은데",
+            "norm_text": "될 거야 키키 중고 사러 가도 시승하게 해줄 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "될/VV+ETM+거/NNB+야/VCP+EF+키키/NNP+중고/NNP+사러가/NNP+도/JX+시승/NNG+하/XSV+게/EC+해/VV+EC+줄/VX+ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그건 그래 소형 suv로 알아봐야겠다",
+            "norm_text": "그건 그래 소형 suv로 알아봐야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그래/VA+EC+소형/NNG+suv/SL+로/JKB+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 요새 중고차 가격 비교하는 어플이라든지 사이트 많으니까 찾아보면 될 듯 키키",
+            "norm_text": "요새 중고차 가격 비교하는 어플이라든지 사이트 많으니까 찾아보면 될 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+중고차/NNG+가격/NNG+비교/NNG+하/XSV+는/ETM+어/IC+플/NNG+이라든지/JC+사이트/NNG+많/VA+으니까/EC+찾아보/VV+면/EC+될/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 사면 타고 놀러 가자~",
+            "norm_text": "응 사면 타고 놀러 가자~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+사면/NNG+타/VV+고/EC+놀/VV+러/EC+가/VX+자/EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 기대된다 키키 가격 괜찮고 좋은 차 찾아보장 키키",
+            "norm_text": "기대된다 키키 가격 괜찮고 좋은 차 찾아보장 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기대/NNG+된/XSV+ETM+다키키/NNP+가격/NNG+괜찮/VA+고/EC+좋/VA+은/ETM+차/NNG+찾/VV+아/EC+보장/NNG+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

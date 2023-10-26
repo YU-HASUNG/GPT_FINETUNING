@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 32828,
+    "name": "KAKAO_821_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170436024284/KAKAO_821_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170436024284/KAKAO_821_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38656,
+      "filename": "KAKAO_821_03.txt",
+      "title": "KAKAO_821_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 581,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 581,
+        "word_size": 188,
+        "text": "1 : 너는 캠핑카 같은 거 사고 싶단 생각 안 해봤나 키키\n2 : 키키 캠핑카 사보고는 싶당 키키\n2 : 끌고 다니는데 멋있던뎅 키키\n1 : 키키 맞재... 근데 주차할 데가 없...네? 키키\n2 : 우리 아파트 알지? 키키\n2 : 주차할 곳이 아예 없어... ㅜㅜ\n1 : 아 그래... 거기 밤에 보니까 거의 테트리스 하던데?\n2 : 진짜 테트리스처럼 열심히 쌓아야 한다...\n2 : 주차 문제 좀 해결해 주세요...\n1 : 키키 아니 거기 지하를 더 뚫을 수 없는 건가...\n2 : 이제 리모델링 공사 한다더라!\n2 : 10년 정도 걸리긴 한다더라...\n1 : 너는 도대체 어떻게 주차하는 거야?\n1 : 늦게 가면 자리 없잖아\n2 : 늦게 가면 그냥 도로에 차 버리고 온당 키키\n1 : 키키 아침에 잘 있더나 키키\n1 : 진짜 자동차 있으면 주차 스트레스 장난 아님...\n2 : 여기는 새 차를 사면 안 된다 키키\n2 : 백프로 다 긁혀 있어 키키\n1 : 키키 아휴... 근데 아침에 나갈 때 앞에 차있으면 어떡해?\n2 : 밀고 나가거나 아니면 택시 타고 출근해 키키\n1 : 키키 차 있는 게 편한 거 맞나... 키키\n2 : 키키 하지만 절대 버스 타지는 않는다... 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 캠핑카 같은 거 사고 싶단 생각 안 해봤나 키키",
+            "norm_text": "너는 캠핑카 같은 거 사고 싶단 생각 안 해봤나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+캠핑카/NNG+같/VA+은/ETM+거/NNB+사/VV+고/EC+싶/VX+단/ETM+생각/NNG+안/MAG+해/VV+EC+봤/VX+EP+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 캠핑카 사보고는 싶당 키키",
+            "norm_text": "키키 캠핑카 사보고는 싶당 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+캠핑카/NNG+사/VV+EC+보/VX+고는/EC+싶/VX+당/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 끌고 다니는데 멋있던뎅 키키",
+            "norm_text": "끌고 다니는데 멋있던뎅 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "끌/VV+고/EC+다니/VV+는/ETM+데/NNB+멋있/VA+던/ETM+뎅/NNP+키키/NNP"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 맞재... 근데 주차할 데가 없...네? 키키",
+            "norm_text": "키키 맞재... 근데 주차할 데가 없...네? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+재/EF+./SY+근데/MAJ+주차/NNG+할/XSV+ETM+데/NNB+가/JKS+없/VA+./SY+네/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 우리 아파트 알지? 키키",
+            "norm_text": "우리 아파트 알지? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+아파트/NNG+알/VV+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 주차할 곳이 아예 없어... ㅜㅜ",
+            "norm_text": "주차할 곳이 아예 없어... ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주차/NNG+할/XSV+ETM+곳/NNG+이/JKS+아예/MAG+없/VA+어/EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 그래... 거기 밤에 보니까 거의 테트리스 하던데?",
+            "norm_text": "아 그래... 거기 밤에 보니까 거의 테트리스 하던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+./SY+거기/NP+밤/NNG+에/JKB+보/VV+니까/EC+거의/MAG+테트리스/NNP+하/VV+던데/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 진짜 테트리스처럼 열심히 쌓아야 한다...",
+            "norm_text": "진짜 테트리스처럼 열심히 쌓아야 한다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+테트리스/NNP+처럼/JKB+열심히/MAG+쌓/VV+아야/EC+한다/VX+EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 주차 문제 좀 해결해 주세요...",
+            "norm_text": "주차 문제 좀 해결해 주세요...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "주차/NNG+문제/NNG+좀/MAG+해결/NNG+해/XSV+EC+주/VX+세요/EP+EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 아니 거기 지하를 더 뚫을 수 없는 건가...",
+            "norm_text": "키키 아니 거기 지하를 더 뚫을 수 없는 건가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+거기/NP+지하/NNG+를/JKO+더/MAG+뚫/VV+을/ETM+수/NNB+없/VA+는/ETM+건가/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 이제 리모델링 공사 한다더라!",
+            "norm_text": "이제 리모델링 공사 한다더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/MM+제리/NNG+모델링/NNG+공사/NNG+한다더라/XSV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 10년 정도 걸리긴 한다더라...",
+            "norm_text": "10년 정도 걸리긴 한다더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "10/SN+년/NNBC+정도/NNG+걸리/VV+긴/ETN+JX+한다더라/VX+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 너는 도대체 어떻게 주차하는 거야?",
+            "norm_text": "너는 도대체 어떻게 주차하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+도대체/MAG+어떻게/MAG+주차/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 늦게 가면 자리 없잖아",
+            "norm_text": "늦게 가면 자리 없잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "늦/VA+게/EC+가/VX+면/EC+자리/NNG+없/VA+잖아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 늦게 가면 그냥 도로에 차 버리고 온당 키키",
+            "norm_text": "늦게 가면 그냥 도로에 차 버리고 온당 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "늦/VA+게/EC+가/VX+면/EC+그냥/MAG+도로/NNG+에/JKB+차/VV+EC+버리/VX+고/EC+온당/NNP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 아침에 잘 있더나 키키",
+            "norm_text": "키키 아침에 잘 있더나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+아침/NNG+에/JKB+잘/MAG+있/VV+더나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 진짜 자동차 있으면 주차 스트레스 장난 아님...",
+            "norm_text": "진짜 자동차 있으면 주차 스트레스 장난 아님...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+자동차/NNG+있/VV+으면/EC+주차/NNG+스트레스/NNG+장난아/NNP+님/XSN+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 여기는 새 차를 사면 안 된다 키키",
+            "norm_text": "여기는 새 차를 사면 안 된다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+는/JX+새/MM+차/NNG+를/JKO+사/VV+면/EC+안/MAG+된/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 19,
+            "text": "2 : 백프로 다 긁혀 있어 키키",
+            "norm_text": "백프로 다 긁혀 있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백/NR+프로/NNBC+다/MAG+긁혀/VV+EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 아휴... 근데 아침에 나갈 때 앞에 차있으면 어떡해?",
+            "norm_text": "키키 아휴... 근데 아침에 나갈 때 앞에 차있으면 어떡해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아휴/IC+./SY+근데/MAJ+아침/NNG+에/JKB+나갈/VV+ETM+때/NNG+앞/NNG+에/JKB+차/VV+EC+있/VX+으면/EC+어떡/XR+해/XSA+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 밀고 나가거나 아니면 택시 타고 출근해 키키",
+            "norm_text": "밀고 나가거나 아니면 택시 타고 출근해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "밀/VV+고/EC+나가/VX+거나/EC+아니/VCN+면/EC+택시/NNG+타/VV+고/EC+출근/NNG+해/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 차 있는 게 편한 거 맞나... 키키",
+            "norm_text": "키키 차 있는 게 편한 거 맞나... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+차/VV+EC+있/VX+는/ETM+게/NNB+JKS+편한/VA+ETM+거/NNB+맞/VV+나/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 하지만 절대 버스 타지는 않는다... 키키",
+            "norm_text": "키키 하지만 절대 버스 타지는 않는다... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+지만/EC+절대/MAG+버스/NNG+타지/NNG+는/JX+않/VX+는다/EF+./SY+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

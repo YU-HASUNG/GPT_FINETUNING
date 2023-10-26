@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 71512,
+    "name": "KAKAO_716_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929112940051912/KAKAO_716_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929112940051912/KAKAO_716_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36503,
+      "filename": "KAKAO_716_19.txt",
+      "title": "KAKAO_716_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 711,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 711,
+        "word_size": 236,
+        "text": "1 : 요즘 티비 볼 만한 거 없냐? 재미가 없어...\n2 : 식스센스 봤나? 그거 요새 완전 재미있눈디\n1 : 그게 뭐야? 식스센스? 감으로 맞추는 건가? 키키\n2 : 아 뭐 그런 느낌 맞아 키키\n2 : 주제별로 가짜 진짜 찾는 거 키키\n1 : 아 그가 유재석 나오는 거 아님?\n2 : 오 맞아맞아 키키 거기 출연하는 사람들 케미가 좋아서 빵빵 터짐 키키\n1 : 아 그거 봤음 전소민이랑 맞지? 키키\n1 : 아 그거 재미있는데 재방 자주 하진 않더라\n2 : 어 맞아맞아 키키 난 여자 연예인들이 딱히 막 내숭 안 떨고 시원시원하게 행동하는 그런 게 재미있더라고 키키\n1 : 그거 유재석 감당이 안되던데, 제시랑 전소민 엄청 떠들어 대고 키키\n2 : 엉 키키 맞아 키키 근데 뭔가 다들 재미있어 하는 게 보여서 키키\n2 : 나도 덩달아 재밌음 키키\n1 : 맞아 키키 막 가짜 가게 진짜 가게 맞추는 거 맞지?\n1 : 제작비 많이 들겠던데\n2 : 어 맞아 키키 진짜 자세하게 막 잘 재현해 놓더라고 키키\n2 : 낡은 느낌까지 막 리얼하게 냄 키키\n1 : 그니까 디테일 하더라.\n1 : 일이 많겠더라 키키 맞추기도 어려울 듯\n2 : 웅 나도 보고 있으면 다 진짜 같다가 다 가짜 같다가 키키\n2 : 굳이 맞출 생각 안하고 보기는 하는데 키키\n1 : 유튜브로 좀 봐야지 키키 일단 보고 정주행 할지 고민해본다\n2 : 정주행까진 안 해도 될 거 같긴 한데 키키\n2 : 유튜브에 나오는 게 전부일 수도 키키 암튼 함 봐봐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 티비 볼 만한 거 없냐? 재미가 없어...",
+            "norm_text": "요즘 티비 볼 만한 거 없냐? 재미가 없어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+티비/NNG+볼/VV+ETM+만/NNB+한/XSA+ETM+거/NNB+없/VA+냐/EF+재미/NNG+가/JKS+없/VA+어/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 식스센스 봤나? 그거 요새 완전 재미있눈디",
+            "norm_text": "식스센스 봤나? 그거 요새 완전 재미있눈디",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "식스/NR+센스/NNG+봤/VV+EP+나/EF+그거요새완전재미있눈디/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그게 뭐야? 식스센스? 감으로 맞추는 건가? 키키",
+            "norm_text": "그게 뭐야? 식스센스? 감으로 맞추는 건가? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그게/NP+JKS+뭐/NP+야/VCP+EF+식스/NR+센스/NNG+?/SY+감/NNG+으로/JKB+맞추/VV+는/ETM+건가/NNB+VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 뭐 그런 느낌 맞아 키키",
+            "norm_text": "아 뭐 그런 느낌 맞아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+뭐/IC+그런/MM+느낌/NNG+맞/VV+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 주제별로 가짜 진짜 찾는 거 키키",
+            "norm_text": "주제별로 가짜 진짜 찾는 거 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주제/NNG+별/XSN+로/JKB+가짜/NNG+진짜/MAG+찾/VV+는/ETM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 그가 유재석 나오는 거 아님?",
+            "norm_text": "아 그가 유재석 나오는 거 아님?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아그/NNG+가/JKS+유재석/NNP+나오/VV+는/ETM+거/NNB+아님/VCN+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오 맞아맞아 키키 거기 출연하는 사람들 케미가 좋아서 빵빵 터짐 키키",
+            "norm_text": "오 맞아맞아 키키 거기 출연하는 사람들 케미가 좋아서 빵빵 터짐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+맞/VV+아/EC+맞/VV+아/EC+키/NNG+키/XSV+ETN+거기/NP+출연/NNG+하/XSV+는/ETM+사람/NNG+들/XSN+케미/NNP+가/JKS+좋/VA+아서/EC+빵빵/MAG+터짐/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 그거 봤음 전소민이랑 맞지? 키키",
+            "norm_text": "아 그거 봤음 전소민이랑 맞지? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그거/NP+봤/VV+EP+음/ETN+전소민/NNP+이/XSN+랑/JKB+맞/VV+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그거 재미있는데 재방 자주 하진 않더라",
+            "norm_text": "아 그거 재미있는데 재방 자주 하진 않더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그거/NP+재미있/VA+는데/EC+재방자/NNG+주/NNG+하/XSV+진/EC+JX+않/VX+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 어 맞아맞아 키키 난 여자 연예인들이 딱히 막 내숭 안 떨고 시원시원하게 행동하는 그런 게 재미있더라고 키키",
+            "norm_text": "어 맞아맞아 키키 난 여자 연예인들이 딱히 막 내숭 안 떨고 시원시원하게 행동하는 그런 게 재미있더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞/VV+아/EC+맞/VV+아/EC+키/NNG+키/XSV+ETN+난/VV+ETM+여자/NNG+연예인/NNG+들/XSN+이/JKS+딱히/MAG+막내/NNG+숭/NNG+안/MAG+떨/VV+고/EC+시원시원/MAG+하/VV+게/EC+행동/NNG+하/XSV+는/ETM+그런/MM+게/NNB+JKS+재미있/VA+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그거 유재석 감당이 안되던데, 제시랑 전소민 엄청 떠들어 대고 키키",
+            "norm_text": "그거 유재석 감당이 안되던데, 제시랑 전소민 엄청 떠들어 대고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+유재석/NNP+감당/NNG+이/JKS+안/MAG+되/VV+던데/EC+,/SC+제시랑전소민엄청떠들어대고키키/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 엉 키키 맞아 키키 근데 뭔가 다들 재미있어 하는 게 보여서 키키",
+            "norm_text": "엉 키키 맞아 키키 근데 뭔가 다들 재미있어 하는 게 보여서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+키/NNG+키/XSV+ETN+맞/VV+아/EC+키/NNG+키/XSV+ETN+근데/MAJ+뭔/MM+가다/NNG+들/XSN+재미있/VA+어/EC+하/VV+는/ETM+게/NNB+JKS+보여서/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나도 덩달아 재밌음 키키",
+            "norm_text": "나도 덩달아 재밌음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+덩달/VV+아/EC+재밌/VA+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 맞아 키키 막 가짜 가게 진짜 가게 맞추는 거 맞지?",
+            "norm_text": "맞아 키키 막 가짜 가게 진짜 가게 맞추는 거 맞지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+막/MAJ+가짜/NNG+가/VV+게/EC+진짜/MAG+가/VV+게/EC+맞추/VV+는/ETM+거/NNB+맞/VV+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 제작비 많이 들겠던데",
+            "norm_text": "제작비 많이 들겠던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제작비/NNG+많이/MAG+들/VV+겠/EP+던데/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어 맞아 키키 진짜 자세하게 막 잘 재현해 놓더라고 키키",
+            "norm_text": "어 맞아 키키 진짜 자세하게 막 잘 재현해 놓더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞/VV+아/EC+키/NNG+키/XSV+ETN+진짜/MAG+자세/XR+하/XSA+게/EC+막/IC+잘/MAG+재현/NNG+해/XSV+EC+놓/VX+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 낡은 느낌까지 막 리얼하게 냄 키키",
+            "norm_text": "낡은 느낌까지 막 리얼하게 냄 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "낡/VA+은/ETM+느낌/NNG+까지/JX+막/NNG+리얼/NNG+하/XSV+게/EC+냄/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그니까 디테일 하더라.",
+            "norm_text": "그니까 디테일 하더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+디테일/NNG+하/XSA+더라/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 일이 많겠더라 키키 맞추기도 어려울 듯",
+            "norm_text": "일이 많겠더라 키키 맞추기도 어려울 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일/NNG+이/JKS+많/VA+겠/EP+더라/EF+키/NNG+키/XSV+ETN+맞추/VV+기/ETN+도/JX+어려울/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 20,
+            "text": "2 : 웅 나도 보고 있으면 다 진짜 같다가 다 가짜 같다가 키키",
+            "norm_text": "웅 나도 보고 있으면 다 진짜 같다가 다 가짜 같다가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+나/NP+도/JX+보/VV+고/EC+있/VX+으면/EC+다/MAG+진짜/MAG+같/VA+다가/EC+다/MAG+가짜/NNG+같/VA+다가/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 굳이 맞출 생각 안하고 보기는 하는데 키키",
+            "norm_text": "굳이 맞출 생각 안하고 보기는 하는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "굳이/MAG+맞출/VV+ETM+생각/NNG+안/MAG+하/VV+고/EC+보/VX+기/ETN+는/JX+하/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 유튜브로 좀 봐야지 키키 일단 보고 정주행 할지 고민해본다",
+            "norm_text": "유튜브로 좀 봐야지 키키 일단 보고 정주행 할지 고민해본다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "유튜브/NNP+로/JKB+좀/MAG+봐야지/VV+EC+키/NNG+키/XSV+ETN+일/NR+단보/NNBC+고정/NNG+주행/NNG+할지/XSV+EC+고민/NNG+해본다/XSV+EC+VX+EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 정주행까진 안 해도 될 거 같긴 한데 키키",
+            "norm_text": "정주행까진 안 해도 될 거 같긴 한데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "정주/NNG+행/XSN+까진/JX+JX+안/MAG+해도/VV+EC+될/VV+ETM+거/NNB+같/VA+긴/ETN+JX+한데/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 유튜브에 나오는 게 전부일 수도 키키 암튼 함 봐봐",
+            "norm_text": "유튜브에 나오는 게 전부일 수도 키키 암튼 함 봐봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "유튜브/NNP+에/JKB+나오/VV+는/ETM+게/NNB+JKS+전부/NNG+일/VCP+ETM+수/NNB+도/JX+키/NNG+키/XSV+ETN+암튼/MAJ+함/VV+EC+봐/VX+EC+봐/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

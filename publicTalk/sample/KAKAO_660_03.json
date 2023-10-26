@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34668,
+    "name": "KAKAO_660_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151110070664/KAKAO_660_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151110070664/KAKAO_660_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34521,
+      "filename": "KAKAO_660_03.txt",
+      "title": "KAKAO_660_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 371,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 371,
+        "word_size": 123,
+        "text": "1 : 용산 가려면 뭐가 제일 빠르냐?\n2 : 지하철이 아무래도 제일 빠르지 않을까?\n1 : 역시 지하철인가... 지하철 답답해서 싫은데\n2 : 답답하긴 하지. 그래도 젤 빠름\n1 : 지하 내려가고 올라가고 이 시간 다 합쳐도 빠르냐\n2 : 응 그래도 빠를걸? 아님 버스 타던가\n1 : 버스는 한방에 가서 좋은데 오래 걸려도\n2 : 그럼 버스 타서 환승 안 하고 한 번에 가\n1 : 지상철 있으면 딱 좋겠다 키키\n2 : 3호선 있잖아. 그거 타면 되지\n1 : 3호선 너무 높아서 무섭더라 ㅡㅡ\n2 : 아 너 고소공포증 있지 키키\n1 : 엉 그래서 3호선 웬만하면 잘 안 탐\n2 : 그렇겠다 좀 횡하게 높긴 하더라\n1 : 버스 타야겠다. 지하철 귀찮아!\n2 : 그래 버스 타고 가. 있다 보자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 용산 가려면 뭐가 제일 빠르냐?",
+            "norm_text": "용산 가려면 뭐가 제일 빠르냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "용산/NNP+가/VV+려면/EC+뭐/NP+가/JKS+제일/MAG+빠르/VA+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 지하철이 아무래도 제일 빠르지 않을까?",
+            "norm_text": "지하철이 아무래도 제일 빠르지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지하철/NNG+이/JKS+아무래도/MAG+제일/MAG+빠르/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 역시 지하철인가... 지하철 답답해서 싫은데",
+            "norm_text": "역시 지하철인가... 지하철 답답해서 싫은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+지하철/NNG+인가/VCP+EF+./SY+지하철/NNG+답답/XR+해서/XSA+EC+싫/VA+은데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 답답하긴 하지. 그래도 젤 빠름",
+            "norm_text": "답답하긴 하지. 그래도 젤 빠름",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "답답/XR+하/XSA+긴/ETN+JX+하/VX+지/EF+그래도/MAJ+젤/MAG+빠름/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 지하 내려가고 올라가고 이 시간 다 합쳐도 빠르냐",
+            "norm_text": "지하 내려가고 올라가고 이 시간 다 합쳐도 빠르냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지하/NNG+내려가/VV+고/EC+올라가/VV+고/EC+이/MM+시간/NNG+다/MAG+합쳐/VV+EC+도/JX+빠르/VA+냐/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 그래도 빠를걸? 아님 버스 타던가",
+            "norm_text": "응 그래도 빠를걸? 아님 버스 타던가",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+그래도/MAJ+빠를걸/VA+EF+아님/MAJ+버스/NNG+타/VV+던가/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 버스는 한방에 가서 좋은데 오래 걸려도",
+            "norm_text": "버스는 한방에 가서 좋은데 오래 걸려도",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스/NNG+는/JX+한/MM+방/NNBC+에/JKB+가/VV+서/EC+좋/VA+은데/EC+오래/MAG+걸려도/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 버스 타서 환승 안 하고 한 번에 가",
+            "norm_text": "그럼 버스 타서 환승 안 하고 한 번에 가",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+버스/NNG+타/VV+서/EC+환승/NNG+안/MAG+하/VV+고/EC+한/MM+번/NNBC+에/JKB+가/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 지상철 있으면 딱 좋겠다 키키",
+            "norm_text": "지상철 있으면 딱 좋겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지상철/NNP+있/VA+으면/EC+딱/MAG+좋/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 10,
+            "text": "2 : 3호선 있잖아. 그거 타면 되지",
+            "norm_text": "3호선 있잖아. 그거 타면 되지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "3/SN+호/NNBC+선/NNG+있/VA+잖아/EF+그거/NP+타/VV+면/EC+되/VV+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 3호선 너무 높아서 무섭더라 ㅡㅡ",
+            "norm_text": "3호선 너무 높아서 무섭더라 ㅡㅡ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "3/SN+호/NNBC+선/NNG+너무/MAG+높/VA+아서/EC+무섭/VA+더라/EF+ㅡㅡ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 너 고소공포증 있지 키키",
+            "norm_text": "아 너 고소공포증 있지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+너/NP+고소공포증/NNP+있/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 엉 그래서 3호선 웬만하면 잘 안 탐",
+            "norm_text": "엉 그래서 3호선 웬만하면 잘 안 탐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+그래서/MAJ+3/SN+호/NNBC+선/NNG+웬만/XR+하/XSA+면/EC+잘/MAG+안/MAG+탐/NNG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그렇겠다 좀 횡하게 높긴 하더라",
+            "norm_text": "그렇겠다 좀 횡하게 높긴 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+겠/EP+다/EF+좀/MAG+횡하/VA+게/EC+높/VA+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 버스 타야겠다. 지하철 귀찮아!",
+            "norm_text": "버스 타야겠다. 지하철 귀찮아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스타/NNP+야/JKV+겠/EP+다/EF+지하철/NNG+귀찮/VA+아/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 버스 타고 가. 있다 보자",
+            "norm_text": "그래 버스 타고 가. 있다 보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+버스타/NNP+고가/NNG+있/VV+다/EC+보/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

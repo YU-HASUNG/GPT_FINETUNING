@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 21209,
+    "name": "KAKAO_502_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405059687/KAKAO_502_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145405059687/KAKAO_502_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29073,
+      "filename": "KAKAO_502_02.txt",
+      "title": "KAKAO_502_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 547,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 547,
+        "word_size": 169,
+        "text": "1 : 얘들은 아파트가 좋다는데 담배를 못 펴서\n2 : 아...?! 아부지 그런 이유 떄문에 아파트에 안 가시는 건가요?!\n1 : 맞아 극구 반대하고 있어 키키\n2 : 와... 근데 또 그렇게 생각하면 남한테 민폐 안 끼치는 건 맞지만 그 이유는 ㅠㅠ 담배 끊자요!\n1 : 담배는 이제 아저씨 친구야 하하\n2 : 아니 오래오래 사셔야죠ㅠㅠ 담배는 몸에 해롭잖아여\n1 : 그래도 건강 검진 하면 아주 백점 만점이야 키키\n2 : 엥? 대박이네요? 그래도 진짜 다행이다!\n2 : 검진 주기적으로 하세요?\n1 : 옹 나라에서 하라고 쪼가리 날아 와 키키\n2 : 키키 쪼가리 키키 맞아\n2 : 그거 올 떄마다 꼭꼭 하시고 결과도 꼭꼭 보셔야해요\n1 : 응 하라면 또 해야지 말은 잘 들어 키키\n2 : 키키 다행이다 키키 수똥이가 덜 걱정 하겠어요\n1 : 옹 그래서 술도 당당하게 먹고 담배도 당당하게 펴 하하\n2 : 키키 아니 그치만 당당하게 하는건 조금 그런데여?!\n1 : 아저씨는 건강하니까! 안 하고 건강하지 않은 사람도 많아\n2 : 키키 그건 맞아... 그래도 어? 올해는 술도 좀 줄이고 담배도 좀 줄여봐여!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 얘들은 아파트가 좋다는데 담배를 못 펴서",
+            "norm_text": "얘들은 아파트가 좋다는데 담배를 못 펴서",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얘/NP+들/XSN+은/JX+아파트/NNG+가/JKS+좋/VA+다는데/EC+담배/NNG+를/JKO+못/MAG+펴/VV+서/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아...?! 아부지 그런 이유 떄문에 아파트에 안 가시는 건가요?!",
+            "norm_text": "아...?! 아부지 그런 이유 떄문에 아파트에 안 가시는 건가요?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+?/SY+아부지/MAG+그런/MM+이유/NNG+떄문/UNKNOWN+에/JKB+아파트/NNG+에/JKB+안/MAG+가시/VV+는/ETM+건가요/NNB+VCP+EC+?/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아 극구 반대하고 있어 키키",
+            "norm_text": "맞아 극구 반대하고 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+극구/MAG+반대/NNG+하/XSV+고/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 와... 근데 또 그렇게 생각하면 남한테 민폐 안 끼치는 건 맞지만 그 이유는 ㅠㅠ 담배 끊자요!",
+            "norm_text": "와... 근데 또 그렇게 생각하면 남한테 민폐 안 끼치는 건 맞지만 그 이유는 ㅠㅠ 담배 끊자요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "와/IC+./SY+근데/MAJ+또/MAG+그렇게/MAG+생각/NNG+하/XSV+면/EC+남/NNG+한테/JKB+민폐/NNG+안/MAG+끼치/VV+는/ETM+건/NNB+JX+맞/VV+지만/EC+그/MM+이유/NNG+는/JX+ㅠㅠ/UNKNOWN+담배/NNG+끊/VV+자/EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "1 : 담배는 이제 아저씨 친구야 하하",
+            "norm_text": "담배는 이제 아저씨 친구야 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "담배/NNG+는/JX+이제/MAG+아저씨/NNG+친구/NNG+야/JX+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 오래오래 사셔야죠ㅠㅠ 담배는 몸에 해롭잖아여",
+            "norm_text": "아니 오래오래 사셔야죠ㅠㅠ 담배는 몸에 해롭잖아여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+오래오래/MAG+사/VV+셔야죠/EP+EF+ㅠㅠ/UNKNOWN+담배/NNG+는/JX+몸/NNG+에/JKB+해롭/VA+잖/EC+아/VV+여/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래도 건강 검진 하면 아주 백점 만점이야 키키",
+            "norm_text": "그래도 건강 검진 하면 아주 백점 만점이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+건강/NNG+검진/NNG+하/XSV+면/EC+아주/MAG+백/NR+점/NNBC+만점/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 엥? 대박이네요? 그래도 진짜 다행이다!",
+            "norm_text": "엥? 대박이네요? 그래도 진짜 다행이다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+대박/NNG+이/VCP+네요/EF+그래도/MAJ+진짜/MAG+다행/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 검진 주기적으로 하세요?",
+            "norm_text": "검진 주기적으로 하세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "검진/NNG+주기/NNG+적/XSN+으로/JKB+하/VV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 옹 나라에서 하라고 쪼가리 날아 와 키키",
+            "norm_text": "옹 나라에서 하라고 쪼가리 날아 와 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옹/NNG+나라/NNG+에서/JKB+하/VV+라고/EC+쪼가리/NNG+날아와/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 쪼가리 키키 맞아",
+            "norm_text": "키키 쪼가리 키키 맞아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+쪼가리/NNG+키/NNG+키/XSV+ETN+맞/VV+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그거 올 떄마다 꼭꼭 하시고 결과도 꼭꼭 보셔야해요",
+            "norm_text": "그거 올 떄마다 꼭꼭 하시고 결과도 꼭꼭 보셔야해요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그거/NP+올떄/UNKNOWN+마다/JX+꼭꼭/MAG+하/VV+시/EP+고/EC+결과/NNG+도/JX+꼭꼭/MAG+보/VV+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 하라면 또 해야지 말은 잘 들어 키키",
+            "norm_text": "응 하라면 또 해야지 말은 잘 들어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응하/VV+라면/EC+또/MAG+해야지/VV+EC+말/NNG+은/JX+잘/MAG+들/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 다행이다 키키 수똥이가 덜 걱정 하겠어요",
+            "norm_text": "키키 다행이다 키키 수똥이가 덜 걱정 하겠어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+다행/NNG+이/JKS+다키키/NNP+수/NNG+똥/NNG+이/JKS+가/VV+덜/EC+걱정/NNG+하/XSV+겠/EP+어요/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 옹 그래서 술도 당당하게 먹고 담배도 당당하게 펴 하하",
+            "norm_text": "옹 그래서 술도 당당하게 먹고 담배도 당당하게 펴 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옹/NNG+그래서/MAJ+술/NNG+도/JX+당당/XR+하/XSA+게/EC+먹/VV+고/EC+담배/NNG+도/JX+당당/XR+하/XSA+게/EC+펴/VV+EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 아니 그치만 당당하게 하는건 조금 그런데여?!",
+            "norm_text": "키키 아니 그치만 당당하게 하는건 조금 그런데여?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+그치만/MAJ+당당/XR+하/XSA+게/EC+하/VV+는/ETM+건/NNB+JX+조금/MAG+그런데/MAJ+여/NNG+?/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아저씨는 건강하니까! 안 하고 건강하지 않은 사람도 많아",
+            "norm_text": "아저씨는 건강하니까! 안 하고 건강하지 않은 사람도 많아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아저씨/NNG+는/JX+건강/NNG+하/XSV+니까/EC+안/MAG+하/VV+고/EC+건강/NNG+하/XSV+지/EC+않/VX+은/ETM+사람/NNG+도/JX+많/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 그건 맞아... 그래도 어? 올해는 술도 좀 줄이고 담배도 좀 줄여봐여!",
+            "norm_text": "키키 그건 맞아... 그래도 어? 올해는 술도 좀 줄이고 담배도 좀 줄여봐여!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+맞/VV+아/EF+./SY+그래도/MAJ+어/IC+올해/NNG+는/JX+술/NNG+도/JX+좀/MAG+줄이/VV+고/EC+담배/NNG+도/JX+좀/MAG+줄여/VV+EC+봐/VX+EF+여/JKS+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 39220,
+    "name": "KAKAO_847_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402043886/KAKAO_847_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402043886/KAKAO_847_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39755,
+      "filename": "KAKAO_847_17.txt",
+      "title": "KAKAO_847_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 384,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 128,
+        "text": "1 : 엄마 식탁 위에 홍삼 있어\n2 : 이거 홍삼 어디서 났어?\n1 : 남자친구가 추석 선물이라고 엄마 아빠 먹으라고 줬어\n2 : 걔는 뭘 또 이런 걸 다 준비했대~\n1 : 엄마 아빠가 건강 챙길 나이잖아~\n2 : 너는 걔네 부모님한테 뭐 선물했어?\n1 : 나는 과일 보내드렸어~\n2 : 잘했네. 너도 차라리 건강식품 하지 왜 과일로 보냈어?\n1 : 남자친구네가 과일을 좋아하길래~\n2 : 그렇구나 잘했네~ 걔한테 고맙다고 잘 먹겠다고 전해 줘\n1 : 엉 알겠어~ 전해 줄게\n2 : 그리고 다음부터는 이런 거 안 보내 줘도 된다고 해~\n1 : 키키 왜~ 걔가 좋아서 한 건데~\n2 : 그래도 직장 안 다녀서 돈도 없을 텐데\n1 : 아니야 걔 모아 논 돈 많아~\n2 : 너 맨날 맛있는 거 사 주는 걸로 벅찰 듯~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 식탁 위에 홍삼 있어",
+            "norm_text": "엄마 식탁 위에 홍삼 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+식탁/NNG+위/NNG+에/JKB+홍삼/NNG+있/VV+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이거 홍삼 어디서 났어?",
+            "norm_text": "이거 홍삼 어디서 났어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이거/NP+홍삼/NNG+어디/NP+서/JKB+났/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 남자친구가 추석 선물이라고 엄마 아빠 먹으라고 줬어",
+            "norm_text": "남자친구가 추석 선물이라고 엄마 아빠 먹으라고 줬어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남자/NNG+친구/NNG+가/JKS+추석/NNG+선물/NNG+이/VCP+라고/EC+엄마/NNG+아빠/NNG+먹/VV+으라고/EC+줬/VX+EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 걔는 뭘 또 이런 걸 다 준비했대~",
+            "norm_text": "걔는 뭘 또 이런 걸 다 준비했대~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걔/NP+는/JX+뭘/NP+JKO+또/MAG+이런/MM+걸/NNB+JKO+다/MAG+준비/NNG+했/XSV+EP+대/EF+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엄마 아빠가 건강 챙길 나이잖아~",
+            "norm_text": "엄마 아빠가 건강 챙길 나이잖아~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+아빠/NNG+가/JKS+건강/NNG+챙길/VV+ETM+나이/NNG+잖아/VCP+EC+VX+EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너는 걔네 부모님한테 뭐 선물했어?",
+            "norm_text": "너는 걔네 부모님한테 뭐 선물했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+걔/NP+네/XSN+부모/NNG+님/XSN+한테/JKB+뭐/IC+선물/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나는 과일 보내드렸어~",
+            "norm_text": "나는 과일 보내드렸어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+과일/NNG+보내/VV+EC+드렸/VX+EP+어/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 잘했네. 너도 차라리 건강식품 하지 왜 과일로 보냈어?",
+            "norm_text": "잘했네. 너도 차라리 건강식품 하지 왜 과일로 보냈어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "잘/MAG+했/VV+EP+네/EF+너/NP+도/JX+차라리/MAG+건강/NNG+식품/NNG+하/XSV+지/EC+왜/MAG+과일/NNG+로/JKB+보냈/VV+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 남자친구네가 과일을 좋아하길래~",
+            "norm_text": "남자친구네가 과일을 좋아하길래~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+친구/NNG+네/XSN+가/JKS+과일/NNG+을/JKO+좋아하/VV+길래/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그렇구나 잘했네~ 걔한테 고맙다고 잘 먹겠다고 전해 줘",
+            "norm_text": "그렇구나 잘했네~ 걔한테 고맙다고 잘 먹겠다고 전해 줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+잘/MAG+했/VV+EP+네/EF+~/SY+걔/NP+한테/JKB+고맙/VA+다고/EC+잘/MAG+먹/VV+겠/EP+다고/EC+전해줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 엉 알겠어~ 전해 줄게",
+            "norm_text": "엉 알겠어~ 전해 줄게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+알/VV+겠/EP+어/EC+~/SY+전해/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그리고 다음부터는 이런 거 안 보내 줘도 된다고 해~",
+            "norm_text": "그리고 다음부터는 이런 거 안 보내 줘도 된다고 해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+다음/NNG+부터/JX+는/JX+이런/MM+거/NNB+안/MAG+보내/VV+줘도/EC+VX+EC+된다고/VV+EC+해/VV+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 왜~ 걔가 좋아서 한 건데~",
+            "norm_text": "키키 왜~ 걔가 좋아서 한 건데~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+왜/MAG+~/SY+걔/NP+가/JKS+좋/VA+아서/EC+한건데/VX+ETM+NNB+VCP+EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래도 직장 안 다녀서 돈도 없을 텐데",
+            "norm_text": "그래도 직장 안 다녀서 돈도 없을 텐데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+직장/NNG+안/MAG+다녀서/VV+EC+돈/NNG+도/JX+없/VA+을/ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니야 걔 모아 논 돈 많아~",
+            "norm_text": "아니야 걔 모아 논 돈 많아~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+걔/NP+모아논/VV+EC+VV+ETM+돈/NNG+많/VA+아/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 너 맨날 맛있는 거 사 주는 걸로 벅찰 듯~",
+            "norm_text": "너 맨날 맛있는 거 사 주는 걸로 벅찰 듯~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+맨날/MAG+맛있/VA+는/ETM+거/NNB+사/VV+EC+주/VX+는/ETM+걸로/NNB+JKB+벅찰/VA+ETM+듯/NNB+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

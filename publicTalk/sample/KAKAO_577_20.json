@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 24341,
+    "name": "KAKAO_577_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902070152/KAKAO_577_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902070152/KAKAO_577_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31511,
+      "filename": "KAKAO_577_20.txt",
+      "title": "KAKAO_577_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 663,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 663,
+        "word_size": 193,
+        "text": "1 : 뭐 볼 만한 것 없을까? 과거 거라도.\n2 : 어떤 장르 좋아해? 액션? 애니메이션? 코미디?\n1 : 애니메이션도 좋아하고 액션, 코미디도 좋아해. 스릴러만 빼고ㅜ\n2 : 그렇구나 그럼 혹시 코코 애니메이션 봤어?\n1 : 아니 안 봤는데 어떤 내용이야?\n2 : 음 대략 현실 세계에서 죽은 자를 기억하고 기리는 마음을 계속 가져야 사후 세계에서 그 사람들이 계속해서 기억되고 잊히지 않는다는 사후 세계 얘기?\n1 : 죽음에 대한 새로운 견해를 주네?\n2 : 응 나도 애니메이션에서 그런 생각을 갖게 할 줄은 꿈에도 몰랐어.\n1 : 애니메이션에는 꼭 어울리는 ost가 있던데, 이 작품도 그래?\n2 : 응 기억해줘라고 ost가 있는데 영화랑 같이 보면 정말 슬퍼.\n1 : 애니메이션이 슬프다고? 상상이 안 가네.\n2 : 응 애니메이션 보고 울은 적 처음이야.\n2 : 5살 조카랑 같이 봤는데 조카도 울더라.\n2 : 걔가 사후 세계가 뭔지 알까 모르겠어...\n1 : 그러게 어떻게 그런 걸 어떻게 이해하고 울었을까?\n1 : 배우들은 내가 알 만한 사람들이 있을까?\n2 : 아닐 거야. 배우들은 멕시코 이런 스페니쉬 쪽이라 잘 모를 거야.\n2 : 검색하면 한 명 정도나 얼굴 알 듯해.\n1 : 감독은 리언크리치라고 토이스토리 시리즈별로 다 작업한 사람이네\n2 : 응 그렇다고 하더라, 암튼 이 애니메이션 진짜 강추해!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 뭐 볼 만한 것 없을까? 과거 거라도.",
+            "norm_text": "뭐 볼 만한 것 없을까? 과거 거라도.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+볼/VV+ETM+만/NNB+한/XSA+ETM+것/NNB+없/VA+을까/EF+과거/NNG+거/VCP+라도/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어떤 장르 좋아해? 액션? 애니메이션? 코미디?",
+            "norm_text": "어떤 장르 좋아해? 액션? 애니메이션? 코미디?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+장르/NNG+좋/VA+아/EC+해/VX+EF+액션/NNG+?/SY+애니메이션/NNG+?/SY+코미디/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 애니메이션도 좋아하고 액션, 코미디도 좋아해. 스릴러만 빼고ㅜ",
+            "norm_text": "애니메이션도 좋아하고 액션, 코미디도 좋아해. 스릴러만 빼고ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애니메이션/NNG+도/JX+좋/VA+아/EC+하/VV+고/EC+액션/NNG+,/SC+코미디/NNG+도/JX+좋/VA+아/EC+해/VX+EF+스릴러만빼고ㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그렇구나 그럼 혹시 코코 애니메이션 봤어?",
+            "norm_text": "그렇구나 그럼 혹시 코코 애니메이션 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구나/EF+그럼/MAJ+혹시/MAG+코코/NNG+애니메이션/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 안 봤는데 어떤 내용이야?",
+            "norm_text": "아니 안 봤는데 어떤 내용이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+안/MAG+봤/VV+EP+는데/EC+어떤/MM+내용/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 음 대략 현실 세계에서 죽은 자를 기억하고 기리는 마음을 계속 가져야 사후 세계에서 그 사람들이 계속해서 기억되고 잊히지 않는다는 사후 세계 얘기?",
+            "norm_text": "음 대략 현실 세계에서 죽은 자를 기억하고 기리는 마음을 계속 가져야 사후 세계에서 그 사람들이 계속해서 기억되고 잊히지 않는다는 사후 세계 얘기?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+대략/MAG+현실/NNG+세계/NNG+에서/JKB+죽/VV+은/ETM+자/NNB+를/JKO+기억/NNG+하/XSV+고/EC+기리/VV+는/ETM+마음/NNG+을/JKO+계속/MAG+가져야/VV+EC+사후/NNG+세계/NNG+에서/JKB+그/MM+사람/NNG+들/XSN+이/JKS+계속/NNG+해서/XSV+EC+기억/NNG+되/XSV+고/EC+잊히/VV+지/EC+않/VX+는다는/ETM+사후/NNG+세계/NNG+얘기/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 죽음에 대한 새로운 견해를 주네?",
+            "norm_text": "죽음에 대한 새로운 견해를 주네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "죽음/NNG+에/JKB+대한/VV+ETM+새로운/VA+ETM+견해/NNG+를/JKO+주/VV+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 나도 애니메이션에서 그런 생각을 갖게 할 줄은 꿈에도 몰랐어.",
+            "norm_text": "응 나도 애니메이션에서 그런 생각을 갖게 할 줄은 꿈에도 몰랐어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+도/JX+애니메이션/NNG+에서/JKB+그런/MM+생각/NNG+을/JKO+갖/VV+게/EC+할/VX+ETM+줄/NNB+은/JX+꿈/NNG+에/JKB+도/JX+몰랐/VV+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 애니메이션에는 꼭 어울리는 ost가 있던데, 이 작품도 그래?",
+            "norm_text": "애니메이션에는 꼭 어울리는 ost가 있던데, 이 작품도 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "애니메이션/NNG+에/JKB+는/JX+꼭/MAG+어울리/VV+는/ETM+ost/SL+가/JKS+있/VA+던데/EF+,/SC+이/MM+작품/NNG+도/JX+그래/VA+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 기억해줘라고 ost가 있는데 영화랑 같이 보면 정말 슬퍼.",
+            "norm_text": "응 기억해줘라고 ost가 있는데 영화랑 같이 보면 정말 슬퍼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+기억/NNG+해/XSV+EC+줘/VX+EF+라고/JKQ+ost/SL+가/JKS+있/VA+는데/EC+영화/NNG+랑/JKB+같이/MAG+보/VV+면/EC+정말/MAG+슬퍼/VA+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 애니메이션이 슬프다고? 상상이 안 가네.",
+            "norm_text": "애니메이션이 슬프다고? 상상이 안 가네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애니메이션/NNG+이/JKS+슬프/VA+다고/EC+?/SY+상상/NNG+이/JKS+안/MAG+가/VV+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 애니메이션 보고 울은 적 처음이야.",
+            "norm_text": "응 애니메이션 보고 울은 적 처음이야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+애니메이션/NNG+보/VV+고/EC+울/VV+은/ETM+적/NNB+처음/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 5살 조카랑 같이 봤는데 조카도 울더라.",
+            "norm_text": "5살 조카랑 같이 봤는데 조카도 울더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "5/SN+살/NNBC+조카/NNG+랑/JKB+같이/MAG+봤/VV+EP+는데/EC+조카/NNG+도/JX+울/VV+더라/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 걔가 사후 세계가 뭔지 알까 모르겠어...",
+            "norm_text": "걔가 사후 세계가 뭔지 알까 모르겠어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걔/NP+가/JKS+사후/NNG+세계/NNG+가/JKS+뭔지/NP+VCP+EC+알/VV+까/EC+모르/VV+겠/EP+어/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러게 어떻게 그런 걸 어떻게 이해하고 울었을까?",
+            "norm_text": "그러게 어떻게 그런 걸 어떻게 이해하고 울었을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+어떻게/MAG+그런/MM+걸/NNB+JKO+어떻/VA+게/EC+이해/NNG+하/XSV+고/EC+울/VV+었/EP+을까/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 배우들은 내가 알 만한 사람들이 있을까?",
+            "norm_text": "배우들은 내가 알 만한 사람들이 있을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "배우/NNG+들/XSN+은/JX+내/NP+가/JKS+알/VV+ETM+만/NNB+한/XSA+ETM+사람/NNG+들/XSN+이/JKS+있/VA+을까/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아닐 거야. 배우들은 멕시코 이런 스페니쉬 쪽이라 잘 모를 거야.",
+            "norm_text": "아닐 거야. 배우들은 멕시코 이런 스페니쉬 쪽이라 잘 모를 거야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아닐/VCN+ETM+거/NNB+야/VCP+EF+배우/NNG+들/XSN+은/JX+멕시코/NNP+이런/MM+스/IC+페니/NNG+쉬/NNG+쪽/NNB+이/VCP+라/EC+잘/MAG+모를/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 검색하면 한 명 정도나 얼굴 알 듯해.",
+            "norm_text": "검색하면 한 명 정도나 얼굴 알 듯해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "검색/NNG+하/XSV+면/EC+한/MM+명/NNBC+정도/NNG+나/JC+얼굴/NNG+알/VV+듯/EC+해/VX+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 감독은 리언크리치라고 토이스토리 시리즈별로 다 작업한 사람이네",
+            "norm_text": "감독은 리언크리치라고 토이스토리 시리즈별로 다 작업한 사람이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "감독/NNG+은/JX+리/+언크리치/+라고/VCP+EC+토이/NNG+스토리/NNG+시리즈/NNG+별/XSN+로/JKB+다/MAG+작업/NNG+한/XSA+ETM+사람/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 응 그렇다고 하더라, 암튼 이 애니메이션 진짜 강추해!",
+            "norm_text": "응 그렇다고 하더라, 암튼 이 애니메이션 진짜 강추해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그렇/VA+다고/EC+하/VX+더라/EF+,/SC+암튼/MAJ+이/MM+애니메이션/NNG+진짜/MAG+강추/NNG+해/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

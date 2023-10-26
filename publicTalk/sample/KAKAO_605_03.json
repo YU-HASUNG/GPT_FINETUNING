@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34195,
+    "name": "KAKAO_605_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142937029756/KAKAO_605_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142937029756/KAKAO_605_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34261,
+      "filename": "KAKAO_605_03.txt",
+      "title": "KAKAO_605_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 392,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 392,
+        "word_size": 131,
+        "text": "1 : 아… 버스 기다리고 있는데 너무 안 와 ㅠㅠ\n2 : 날씨 더운데 힘들겠다 ㅠㅠ\n1 : 완전 죽겠어... 너무 더워 ㅠㅠ\n2 : 버스 몇 분 뒤에 온대?\n1 : 아까 4분이었는데 지금도 4분이야… 고장인가?\n2 : 주변에 사고 나서 밀리는 건가?\n1 : 이쪽에 오늘 사고 났어?!?!\n2 : 아까 보니까 그 쪽 길에 사고가 나서 차가 막히는 듯 하더라고\n1 : 아… 그래서 그런가 봐 ㅠㅠ\n1 : 나 얼른 가야 되는데…\n2 : 시간 얼마나 남았지?\n1 : 지금 버스 오면 딱 맞긴 하는데 안 와...\n2 : 그럼 얼른 지하철 타러 가자!\n1 : 지하철로 어떻게 가야 하지?\n2 : 오빠가 지금 길 알아봤는데 가는 법 보내줄게!\n1 : 응응 ㅠㅠ 아 힘들다 걸어가야지 일단\n2 : 조심히 걸어 가고 있어 하하 길 알려줄게 :)",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아… 버스 기다리고 있는데 너무 안 와 ㅠㅠ",
+            "norm_text": "아… 버스 기다리고 있는데 너무 안 와 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+…/SE+버스/NNG+기다리/VV+고/EC+있/VX+는데/EC+너무/MAG+안/MAG+와/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 날씨 더운데 힘들겠다 ㅠㅠ",
+            "norm_text": "날씨 더운데 힘들겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "날씨/NNG+더운데/VA+EC+힘들/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 완전 죽겠어... 너무 더워 ㅠㅠ",
+            "norm_text": "완전 죽겠어... 너무 더워 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/MAG+죽/VV+겠/EP+어/EF+./SY+너무더워ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 버스 몇 분 뒤에 온대?",
+            "norm_text": "버스 몇 분 뒤에 온대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "버스/NNG+몇/MM+분/NNBC+뒤/NNG+에/JKB+온대/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아까 4분이었는데 지금도 4분이야… 고장인가?",
+            "norm_text": "아까 4분이었는데 지금도 4분이야… 고장인가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아까/MAG+4/SN+분/NNBC+이/VCP+었/EP+는데/EC+지금/NNG+도/JX+4/SN+분/NNBC+이/VCP+야/EC+…/SE+고장/NNG+인가/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 주변에 사고 나서 밀리는 건가?",
+            "norm_text": "주변에 사고 나서 밀리는 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주변/NNG+에/JKB+사/VV+고/EC+나/VX+서/EC+밀리/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 이쪽에 오늘 사고 났어?!?!",
+            "norm_text": "이쪽에 오늘 사고 났어?!?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이쪽/NP+에/JKB+오늘/MAG+사/VV+고/EC+났/VV+EP+어/EF+!/SY+?/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아까 보니까 그 쪽 길에 사고가 나서 차가 막히는 듯 하더라고",
+            "norm_text": "아까 보니까 그 쪽 길에 사고가 나서 차가 막히는 듯 하더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아까/MAG+보/VV+니까/EC+그쪽/NP+길/NNG+에/JKB+사고/NNG+가/JKS+나/NP+서/JKB+차/NNG+가/JKS+막히/VV+는/ETM+듯/NNB+하/XSA+더라고/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아… 그래서 그런가 봐 ㅠㅠ",
+            "norm_text": "아… 그래서 그런가 봐 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "아/IC+…/SE+그래서/MAJ+그런가/VA+EC+봐/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나 얼른 가야 되는데…",
+            "norm_text": "나 얼른 가야 되는데…",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+얼른/MAG+가/VV+야/EC+되/VV+는데/EC+…/SE"
+          },
+          {
+            "id": 11,
+            "text": "2 : 시간 얼마나 남았지?",
+            "norm_text": "시간 얼마나 남았지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "시간/NNG+얼마나/MAG+남/VV+았/EP+지/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 지금 버스 오면 딱 맞긴 하는데 안 와...",
+            "norm_text": "지금 버스 오면 딱 맞긴 하는데 안 와...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+버스/NNG+오/VV+면/EC+딱/MAG+맞/VV+긴/ETN+JX+하/VX+는데/EC+안/MAG+와/VV+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그럼 얼른 지하철 타러 가자!",
+            "norm_text": "그럼 얼른 지하철 타러 가자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+얼른/MAG+지하철/NNG+타/VV+러/EC+가/VX+자/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 지하철로 어떻게 가야 하지?",
+            "norm_text": "지하철로 어떻게 가야 하지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지하철/NNG+로/JKB+어떻/VA+게/EC+가/VX+야/EC+하/VX+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오빠가 지금 길 알아봤는데 가는 법 보내줄게!",
+            "norm_text": "오빠가 지금 길 알아봤는데 가는 법 보내줄게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오빠/NNG+가/JKS+지금/MAG+길/NNG+알/VV+아/EC+봤/VX+EP+는데/EC+가/VX+는/ETM+법/NNB+보내/VV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응응 ㅠㅠ 아 힘들다 걸어가야지 일단",
+            "norm_text": "응응 ㅠㅠ 아 힘들다 걸어가야지 일단",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+ㅠㅠ/UNKNOWN+아/EC+힘들/VA+다/EC+걸어가/VV+야지/EF+일단/MAG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 조심히 걸어 가고 있어 하하 길 알려줄게 :)",
+            "norm_text": "조심히 걸어 가고 있어 하하 길 알려줄게 :)",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "조심히/MAG+걸어가/VV+고/EC+있/VX+어하/EC+하/VV+길/ETN+JKO+알려/VV+EC+줄게/VX+EF+:/SC"
+          }
+        ]
+      }
+    }
+  ]
+}

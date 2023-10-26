@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 71598,
+    "name": "KAKAO_720_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113021076435/KAKAO_720_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113021076435/KAKAO_720_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36583,
+      "filename": "KAKAO_720_19.txt",
+      "title": "KAKAO_720_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 733,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 733,
+        "word_size": 228,
+        "text": "1 : 드라마 잘 보는 편이심니꽈 ㅇㅅㅇ\n2 : 아니 나 드라마는 살면서 4번?도 안 봤어\n1 : 네? 영화만 보고 드라마는 잘 안보시나요.../\n2 : 응 나 영화는 진짜 다 보는데 드라마는 한 3년에 한 개 정듀? 키키\n1 : 와 씨 안 본 눈 삽니다...\n1 : 드라마를 안 보는 특별한 이유라도...?\n2 : 음 너무 길어 키키\n2 : 일단 드라마를 처음부터 끝까지 다 볼 시간적 여유가 없었어\n1 : 아 맞네 일을 계속 하니까...\n1 : 근데 나는 드라마는 드라마대로 매력 있어서 좋던데 키키 쉬는 날 몰아서 보는 거 너무 좋아\n2 : 키키 어떤 드라마가 제일 베스트였어?\n1 : 고르기 너무 어렵다... ㅎ ... 류덕환 좋아해서 신의 퀴즈 시즌 다 봤구\n1 : 아 진짜 미쳤다! 싶었던 건 미스터션샤인!\n2 : 아 진짜? 미스터션샤인 최고라고 말하는 사람 진짜 많다\n2 : 나도 한번 볼까 쉬는 동안\n1 : 제발... 미스터션샤인 봐주세요...\n1 : 연기 미쳤어... 일단 캐스팅이 변요한 유연석 이병헌이라구 키키\n2 : 변요한 이병헌... RGRG 그래서 고민을 했었어 키키\n1 : 후회하지 않을 것이야 ^^\n1 : 사실 김남희 배우를 미션 보고 알았는데 와 연기 진짜 잘하더라 혹시 알아?\n2 : 몰라 김남희 배우가 누구지 얼굴 보면 알려너\n1 : 연기 겁나 잘하는 분 있어...\n1 : 넷플릭스 스위트홈에서 칼 쓰는 선생님! 혹시 봤나\n2 : 아니 안 봤지 키키 스위트홈은 웹툰으로만 봤어 키키\n2 : 넷플로 한번도 뭐 본 적 없어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 드라마 잘 보는 편이심니꽈 ㅇㅅㅇ",
+            "norm_text": "드라마 잘 보는 편이심니꽈 ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "드라마/NNG+잘/MAG+보/VV+는/ETM+편/NNB+이/JKS+심/VV+니/EC+꽈ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 나 드라마는 살면서 4번?도 안 봤어",
+            "norm_text": "아니 나 드라마는 살면서 4번?도 안 봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+나/NP+드라마/NNG+는/JX+살/VV+면서/EC+4/SN+번/NNBC+도/JX+안/MAG+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 네? 영화만 보고 드라마는 잘 안보시나요.../",
+            "norm_text": "네? 영화만 보고 드라마는 잘 안보시나요.../",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+영화/NNG+만/JX+보/VV+고/EC+드라마/NNG+는/JX+잘/MAG+안/MAG+보/VV+시/EP+나요/EF+./SY+./SY+//SC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 나 영화는 진짜 다 보는데 드라마는 한 3년에 한 개 정듀? 키키",
+            "norm_text": "응 나 영화는 진짜 다 보는데 드라마는 한 3년에 한 개 정듀? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+영화/NNG+는/JX+진짜/MAG+다/MAG+보/VV+는데/EC+드라마/NNG+는/JX+한/MM+3/SN+년/NNBC+에/JKB+한개정/NNP+듀/NNP+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 와 씨 안 본 눈 삽니다...",
+            "norm_text": "와 씨 안 본 눈 삽니다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+씨/IC+안/MAG+본/VV+ETM+눈/NNG+삽니다/VV+EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 드라마를 안 보는 특별한 이유라도...?",
+            "norm_text": "드라마를 안 보는 특별한 이유라도...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "드라마/NNG+를/JKO+안/MAG+보/VV+는/ETM+특별/NNG+한/XSA+ETM+이유/NNG+라도/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 음 너무 길어 키키",
+            "norm_text": "음 너무 길어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+너무/MAG+길/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 일단 드라마를 처음부터 끝까지 다 볼 시간적 여유가 없었어",
+            "norm_text": "일단 드라마를 처음부터 끝까지 다 볼 시간적 여유가 없었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일단/MAG+드라마/NNG+를/JKO+처음/NNG+부터/JX+끝/NNG+까지/JX+다/MAG+볼/VV+ETM+시간/NNG+적/XSN+여유/NNG+가/JKS+없/VA+었/EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 맞네 일을 계속 하니까...",
+            "norm_text": "아 맞네 일을 계속 하니까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+네/EF+일/NNG+을/JKO+계속/NNG+하/XSV+니까/EC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 근데 나는 드라마는 드라마대로 매력 있어서 좋던데 키키 쉬는 날 몰아서 보는 거 너무 좋아",
+            "norm_text": "근데 나는 드라마는 드라마대로 매력 있어서 좋던데 키키 쉬는 날 몰아서 보는 거 너무 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나/NP+는/JX+드라마/NNG+는/JX+드라마/NNG+대로/JX+매력/NNG+있/VV+어서/EC+좋/VA+던데/EC+키/NNG+키/XSV+ETN+쉬/VV+는/ETM+날/NNG+몰/VV+아서/EC+보/VX+는/ETM+거/NNB+너무/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 어떤 드라마가 제일 베스트였어?",
+            "norm_text": "키키 어떤 드라마가 제일 베스트였어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+어떤/MM+드라마/NNG+가/JKS+제일/MAG+베스트/NNG+였/VCP+EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 고르기 너무 어렵다... ㅎ ... 류덕환 좋아해서 신의 퀴즈 시즌 다 봤구",
+            "norm_text": "고르기 너무 어렵다... ㅎ ... 류덕환 좋아해서 신의 퀴즈 시즌 다 봤구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고르/VA+기/ETN+너무/MAG+어렵/VA+다/EF+./SY+ㅎ/XSA+./SY+류덕환좋아해서신의퀴즈시즌다봤구/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 진짜 미쳤다! 싶었던 건 미스터션샤인!",
+            "norm_text": "아 진짜 미쳤다! 싶었던 건 미스터션샤인!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+미쳤/VV+EP+다/EF+싶었던건미스터션샤인/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아 진짜? 미스터션샤인 최고라고 말하는 사람 진짜 많다",
+            "norm_text": "아 진짜? 미스터션샤인 최고라고 말하는 사람 진짜 많다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+미스터션샤인최고라고말하는사람진짜많다/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나도 한번 볼까 쉬는 동안",
+            "norm_text": "나도 한번 볼까 쉬는 동안",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+한/MM+번/NNBC+볼까/VV+EC+쉬/VV+는/ETM+동안/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 제발... 미스터션샤인 봐주세요...",
+            "norm_text": "제발... 미스터션샤인 봐주세요...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "제발/MAG+./SY+./SY+미스터/NNP+션/NNP+샤인/NNP+봐/VV+EC+주/VX+세요/EP+EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 연기 미쳤어... 일단 캐스팅이 변요한 유연석 이병헌이라구 키키",
+            "norm_text": "연기 미쳤어... 일단 캐스팅이 변요한 유연석 이병헌이라구 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "연기/NNG+미쳤/VV+EP+어/EF+./SY+일단캐스팅이변요한유연석이병헌이라구키키/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 변요한 이병헌... RGRG 그래서 고민을 했었어 키키",
+            "norm_text": "변요한 이병헌... RGRG 그래서 고민을 했었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "변/NNG+요한/NNP+이병헌/NNP+./SY+./SY+RGRG/SL+그래서/MAJ+고민/NNG+을/JKO+했었/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 후회하지 않을 것이야 ^^",
+            "norm_text": "후회하지 않을 것이야 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "후회/NNG+하/XSV+지/EC+않/VX+을/ETM+것/NNB+이/VCP+야/EC+^/SY+^/SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 사실 김남희 배우를 미션 보고 알았는데 와 연기 진짜 잘하더라 혹시 알아?",
+            "norm_text": "사실 김남희 배우를 미션 보고 알았는데 와 연기 진짜 잘하더라 혹시 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "사실/MAG+김남희/NNP+배우/NNG+를/JKO+미션/NNG+보/VV+고/EC+알/VV+았/EP+는/ETM+데/NNB+와/JKB+연기/NNG+진짜/MAG+잘/MAG+하/VV+더라/EF+혹시/MAG+알/VV+아/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 몰라 김남희 배우가 누구지 얼굴 보면 알려너",
+            "norm_text": "몰라 김남희 배우가 누구지 얼굴 보면 알려너",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰라/NNP+김남희/NNP+배우/NNG+가/JKS+누구/NP+지/VCP+EC+얼굴/NNG+보/VV+면/EC+알려/VV+EC+너/NP"
+          },
+          {
+            "id": 22,
+            "text": "1 : 연기 겁나 잘하는 분 있어...",
+            "norm_text": "연기 겁나 잘하는 분 있어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "연기/NNG+겁나/VV+EC+잘/MAG+하/VV+는/ETM+분/NNB+있/VA+어/EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 넷플릭스 스위트홈에서 칼 쓰는 선생님! 혹시 봤나",
+            "norm_text": "넷플릭스 스위트홈에서 칼 쓰는 선생님! 혹시 봤나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넷플릭스/NNP+스위트/NNP+홈/NNG+에서/JKB+칼/NNG+쓰/VV+는/ETM+선생/NNG+님/XSN+혹시/MAG+봤/VV+EP+나/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 아니 안 봤지 키키 스위트홈은 웹툰으로만 봤어 키키",
+            "norm_text": "아니 안 봤지 키키 스위트홈은 웹툰으로만 봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+안/MAG+봤/VV+EP+지/EF+키키/NNP+스위트/NNP+홈/NNG+은/JX+웹툰/NNP+으로/JKB+만/JX+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 넷플로 한번도 뭐 본 적 없어",
+            "norm_text": "넷플로 한번도 뭐 본 적 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "넷/NR+플로/NNG+한/MM+번/NNBC+도/JX+뭐/IC+본/VV+ETM+적/NNB+없/VA+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

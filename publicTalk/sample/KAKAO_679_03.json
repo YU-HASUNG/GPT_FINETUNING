@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 33948,
+    "name": "KAKAO_679_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113106055787/KAKAO_679_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113106055787/KAKAO_679_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35322,
+      "filename": "KAKAO_679_03.txt",
+      "title": "KAKAO_679_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 676,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 676,
+        "word_size": 226,
+        "text": "1 : 야 집에 잘 갔나\n1 : 차 엄청 막히더만 오늘 ㅠㅠ\n2 : 나 아직 버스 안 ^^\n2 : 오늘 안에 갈 수 있을지 모르겠네 ^^ ?\n1 : 미쳤다 ^^ 오늘 날씨 좋아서 그런가 차 엄청 많은가 보네\n2 : 그러게 키키 다들 어디 가지~?\n2 : 요즘 우리 동네에 BRT 공사 한다고 차가 더 밀리더라고?\n1 : 아 진짜? 그건 뭐 하는 거고\n2 : 그 왜 도로 중간에 버스 전용차로 만들고 정류장 한 군데에 모아 놓는 거 있잖아 키키\n2 : 그거... 공사 연말에 끝난다던데... 막막하다 키키\n1 : 연말에...? 하하 근데 그런 도로공사는 생각보다 완공되는 거 지연되더라\n2 : 응 그러니까 요즘 비도 자주 와서 아마 더 늦게 끝나지 싶다...\n2 : 출퇴근 지옥이 더 심해졌네 하하\n1 : 키키 그러니까 ㅠ 아 출퇴근 하는 거 힘들어서 차 사고 싶다\n2 : 근데 의외로 출퇴근 시간 스트레스 받아서 차라리 대중교통 타는 사람 많더라 키키\n1 : 하긴 ㅠ 근데 겨울이나 눈, 비 올 때 차 있는 사람들 너무 부럽드라 키키\n2 : 맞다 ㅠㅠ 여름 겨울... 덥고 추울 땐 차가 최고지 ㅠㅠ\n2 : 알아본 차 있나?\n1 : 나는 요즘에 다들 차박하고 하니 suv 사고 싶더라\n2 : 맞다 차는 큰 게 최고다 하하\n2 : 나는 면허 없지만 차 산다면 suv 하하\n1 : 그러게 니는 면허 안 따나? ^^\n2 : 하하 언젠간 따겠지 뭐~ ^^",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야 집에 잘 갔나",
+            "norm_text": "야 집에 잘 갔나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야집/NNG+에/JKB+잘/MAG+갔/VV+EP+나/EC"
+          },
+          {
+            "id": 2,
+            "text": "1 : 차 엄청 막히더만 오늘 ㅠㅠ",
+            "norm_text": "차 엄청 막히더만 오늘 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+엄청/MAG+막히/VV+더만/EC+오늘/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나 아직 버스 안 ^^",
+            "norm_text": "나 아직 버스 안 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+아직/MAG+버스/NNG+안/MAG+^/SY+^/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오늘 안에 갈 수 있을지 모르겠네 ^^ ?",
+            "norm_text": "오늘 안에 갈 수 있을지 모르겠네 ^^ ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+안/NNG+에/JKB+갈/VV+ETM+수/NNB+있/VV+을지/EC+모르/VV+겠/EP+네/EF+^/SY+^/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 미쳤다 ^^ 오늘 날씨 좋아서 그런가 차 엄청 많은가 보네",
+            "norm_text": "미쳤다 ^^ 오늘 날씨 좋아서 그런가 차 엄청 많은가 보네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미쳤/VV+EP+다/EC+^/SY+^/SY+오늘/NNG+날씨/NNG+좋/VA+아서/EC+그런/MM+가차/NNG+엄청/MAG+많/VA+은가/EC+보/VX+네/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러게 키키 다들 어디 가지~?",
+            "norm_text": "그러게 키키 다들 어디 가지~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키/VV+다/EC+들/XSN+어디/NP+가지/JX+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 요즘 우리 동네에 BRT 공사 한다고 차가 더 밀리더라고?",
+            "norm_text": "요즘 우리 동네에 BRT 공사 한다고 차가 더 밀리더라고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+우리/NP+동네/NNG+에/JKB+BRT/SL+공사/NNG+한다고/XSV+EC+차/NNG+가/JKS+더/MAG+밀리/VV+더라고/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진짜? 그건 뭐 하는 거고",
+            "norm_text": "아 진짜? 그건 뭐 하는 거고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+그건/NP+JX+뭐/NP+하/VV+는/ETM+거/NNB+고/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그 왜 도로 중간에 버스 전용차로 만들고 정류장 한 군데에 모아 놓는 거 있잖아 키키",
+            "norm_text": "그 왜 도로 중간에 버스 전용차로 만들고 정류장 한 군데에 모아 놓는 거 있잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+왜도/NNG+로/JKB+중간/NNG+에/JKB+버스전용차로/NNP+만들/VV+고/EC+정류장/NNG+한/MM+군데/NNBC+에/JKB+모아/VV+EC+놓/VX+는/ETM+거/NNB+있/VA+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그거... 공사 연말에 끝난다던데... 막막하다 키키",
+            "norm_text": "그거... 공사 연말에 끝난다던데... 막막하다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+./SY+공사/NNG+연말/NNG+에/JKB+끝난다/VV+EF+던데/EF+./SY+막막/XR+하/XSA+다키키/NNP"
+          },
+          {
+            "id": 11,
+            "text": "1 : 연말에...? 하하 근데 그런 도로공사는 생각보다 완공되는 거 지연되더라",
+            "norm_text": "연말에...? 하하 근데 그런 도로공사는 생각보다 완공되는 거 지연되더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연말/NNG+에/JKB+./SY+./SY+하하/MAG+근데/MAJ+그런/MM+도로공사/NNP+는/JX+생각/NNG+보다/JKB+완공/NNG+되/XSV+는/ETM+거/NNB+지연/NNG+되/XSV+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 그러니까 요즘 비도 자주 와서 아마 더 늦게 끝나지 싶다...",
+            "norm_text": "응 그러니까 요즘 비도 자주 와서 아마 더 늦게 끝나지 싶다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그러니까/MAJ+요즘/MAG+비/NNG+도/JX+자주/MAG+와서/VV+EC+아마/MAG+더/MAG+늦/VA+게/EC+끝나/VV+지/EC+싶/VX+다/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 출퇴근 지옥이 더 심해졌네 하하",
+            "norm_text": "출퇴근 지옥이 더 심해졌네 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "출퇴근/NNG+지옥/NNG+이/JKS+더/MAG+심해졌/VA+EC+VX+EP+네/EF+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그러니까 ㅠ 아 출퇴근 하는 거 힘들어서 차 사고 싶다",
+            "norm_text": "키키 그러니까 ㅠ 아 출퇴근 하는 거 힘들어서 차 사고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러니까/MAJ+ㅠ아/UNKNOWN+출퇴근/NNG+하/XSV+는/ETM+거/NNB+힘들/VA+어서/EC+차/VV+사고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 근데 의외로 출퇴근 시간 스트레스 받아서 차라리 대중교통 타는 사람 많더라 키키",
+            "norm_text": "근데 의외로 출퇴근 시간 스트레스 받아서 차라리 대중교통 타는 사람 많더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+의외/NNG+로/JKB+출퇴근/NNG+시간/NNG+스트레스/NNG+받/VV+아서/EC+차라리/MAG+대중교통/NNG+타/VV+는/ETM+사람/NNG+많/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 하긴 ㅠ 근데 겨울이나 눈, 비 올 때 차 있는 사람들 너무 부럽드라 키키",
+            "norm_text": "하긴 ㅠ 근데 겨울이나 눈, 비 올 때 차 있는 사람들 너무 부럽드라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/VV+긴/ETN+JX+ㅠ/UNKNOWN+근데/MAJ+겨울/NNG+이나/JC+눈/NNG+,/SC+비올/NNG+때/NNG+차/VV+EC+있/VX+는/ETM+사람/NNG+들/XSN+너무/MAG+부럽/VA+드라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞다 ㅠㅠ 여름 겨울... 덥고 추울 땐 차가 최고지 ㅠㅠ",
+            "norm_text": "맞다 ㅠㅠ 여름 겨울... 덥고 추울 땐 차가 최고지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞다ㅠㅠ여름겨울/UNKNOWN+./SY+덥/VA+고/EC+추울/VA+ETM+땐/NNG+JX+차/NNG+가/JKS+최고/NNG+지/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 알아본 차 있나?",
+            "norm_text": "알아본 차 있나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "알아본/VV+ETM+차/NNG+있/VA+나/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 나는 요즘에 다들 차박하고 하니 suv 사고 싶더라",
+            "norm_text": "나는 요즘에 다들 차박하고 하니 suv 사고 싶더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+요즘/NNG+에다/JKB+들/VV+ETM+차/NNG+박하/VA+고/EC+하/VV+니/EC+suv/SL+사/VV+고/EC+싶/VX+더라/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 맞다 차는 큰 게 최고다 하하",
+            "norm_text": "맞다 차는 큰 게 최고다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+다/EC+차/NNG+는/JX+큰/VA+ETM+게/NNB+JKS+최고/NNG+다/MAG+하하/MAG"
+          },
+          {
+            "id": 21,
+            "text": "2 : 나는 면허 없지만 차 산다면 suv 하하",
+            "norm_text": "나는 면허 없지만 차 산다면 suv 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+면허/NNG+없/VA+지만/EC+차/NNG+산다면/VV+EC+suv/SL+하/XSV+하/XSA"
+          },
+          {
+            "id": 22,
+            "text": "1 : 그러게 니는 면허 안 따나? ^^",
+            "norm_text": "그러게 니는 면허 안 따나? ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+니/NP+는/JX+면허/NNG+안/MAG+따/VV+나/EF+^/SY+^/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 하하 언젠간 따겠지 뭐~ ^^",
+            "norm_text": "하하 언젠간 따겠지 뭐~ ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+언젠간/MAG+JX+따/VV+겠/EP+지/EF+뭐/IC+~/SY+^/SY+^/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

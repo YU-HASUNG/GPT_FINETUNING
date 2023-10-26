@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 34778,
+    "name": "KAKAO_863_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717012015/KAKAO_863_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717012015/KAKAO_863_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39867,
+      "filename": "KAKAO_863_09.txt",
+      "title": "KAKAO_863_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 373,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 373,
+        "word_size": 123,
+        "text": "1 : 엄마 약 타왔어?\n2 : 응 거북이 약 타왔어\n2 : 너가 네블라이저 해줘야 돼\n1 : 그런데 그거 식염수 어떤 거 사야 돼?\n2 : 그냥 약국 가서 달라고 하면 되지 않을까?\n1 : 아니 약국 가서 물어봤는데 어디는 식염수 어디는 증류수를 추천해줘서\n2 : 어렵네... 의사선생님한테 한번 물어볼까?\n1 : 응 ㅠㅠ 물어봐 봐\n2 : 물어봤는데 둘 다 상관없대\n1 : 아~ 그래? 어떤 약사 선생님이 식염수는 소금 들어갔다고 안 된다고 해서\n2 : 뭐 의사쌤이 괜찮다니까 괜찮겠지\n1 : 응! 엄마도 이거 하는 방법 알려줄게\n2 : 응 알려줘\n1 : 고장 내면 안 된다!\n2 : 키키 알겠어 니가 잘 알려줘\n1 : 이따 집에 가서 알려줄게!\n1 : 식염수 사간다!\n2 : 응~ 그걸로 사와",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 약 타왔어?",
+            "norm_text": "엄마 약 타왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+약/NNG+타/XSV+EC+왔/VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 거북이 약 타왔어",
+            "norm_text": "응 거북이 약 타왔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+거북/NNG+이/JKS+약/NNG+타/XSV+EC+왔/VX+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너가 네블라이저 해줘야 돼",
+            "norm_text": "너가 네블라이저 해줘야 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "너/NP+가/JKS+네/IC+블라이/NNP+저/NNG+해/XSV+EC+줘야/VX+EC+돼/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그런데 그거 식염수 어떤 거 사야 돼?",
+            "norm_text": "그런데 그거 식염수 어떤 거 사야 돼?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런데/MAJ+그거/NP+식염수/NNG+어떤/MM+거/NNB+사/VV+야/EC+돼/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그냥 약국 가서 달라고 하면 되지 않을까?",
+            "norm_text": "그냥 약국 가서 달라고 하면 되지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+약국/NNG+가/VV+서/EC+달/VX+라고/EC+하/VV+면/EC+되/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아니 약국 가서 물어봤는데 어디는 식염수 어디는 증류수를 추천해줘서",
+            "norm_text": "아니 약국 가서 물어봤는데 어디는 식염수 어디는 증류수를 추천해줘서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+약국/NNG+가/VV+서/EC+물/VV+어/EC+봤/VX+EP+는데/EC+어디/NP+는/JX+식염수/NNG+어디/NP+는/JX+증류수/NNG+를/JKO+추천/NNG+해/XSV+EC+줘서/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 어렵네... 의사선생님한테 한번 물어볼까?",
+            "norm_text": "어렵네... 의사선생님한테 한번 물어볼까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어렵/VA+네/EF+./SY+의사/NNG+선생/NNG+님/XSN+한테/JKB+한번/MAG+물어볼까/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응 ㅠㅠ 물어봐 봐",
+            "norm_text": "응 ㅠㅠ 물어봐 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "응ㅠㅠ물어봐봐/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 물어봤는데 둘 다 상관없대",
+            "norm_text": "물어봤는데 둘 다 상관없대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "물/VV+어/EC+봤/VX+EP+는데/EC+둘/VX+ETM+다/MAG+상관없/VA+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아~ 그래? 어떤 약사 선생님이 식염수는 소금 들어갔다고 안 된다고 해서",
+            "norm_text": "아~ 그래? 어떤 약사 선생님이 식염수는 소금 들어갔다고 안 된다고 해서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+~/SY+그래/IC+어떤/MM+약사/NNG+선생/NNG+님/XSN+이/JKS+식염수/NNG+는/JX+소금/NNG+들어갔/VV+EP+다고/EC+안/MAG+된다고/VV+EC+해서/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 뭐 의사쌤이 괜찮다니까 괜찮겠지",
+            "norm_text": "뭐 의사쌤이 괜찮다니까 괜찮겠지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+의사/NNG+쌤/NNG+이/JKS+괜찮/VA+다니까/EC+괜찮/VA+겠/EP+지/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응! 엄마도 이거 하는 방법 알려줄게",
+            "norm_text": "응! 엄마도 이거 하는 방법 알려줄게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+엄마/NNG+도/JX+이거/NP+하/VV+는/ETM+방법/NNG+알려/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 알려줘",
+            "norm_text": "응 알려줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "응/IC+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 고장 내면 안 된다!",
+            "norm_text": "고장 내면 안 된다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "고장/NNG+내면/NNG+안/MAG+된다/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 알겠어 니가 잘 알려줘",
+            "norm_text": "키키 알겠어 니가 잘 알려줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "키/NNG+키/XSV+ETN+알/VV+겠/EP+어/EF+니/NP+가/JKS+잘/MAG+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 이따 집에 가서 알려줄게!",
+            "norm_text": "이따 집에 가서 알려줄게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "이따/MAG+집/NNG+에/JKB+가/VV+서/EC+알려/VV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 식염수 사간다!",
+            "norm_text": "식염수 사간다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "식염/NNG+수사/NNG+간다/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응~ 그걸로 사와",
+            "norm_text": "응~ 그걸로 사와",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "응/IC+~/SY+그걸/NP+JKO+로사/NNG+와/JC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 35121,
+    "name": "KAKAO_874_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175245031334/KAKAO_874_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175245031334/KAKAO_874_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40469,
+      "filename": "KAKAO_874_11.txt",
+      "title": "KAKAO_874_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 564,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 564,
+        "word_size": 173,
+        "text": "1 : 오늘 쉬는 날인데 공포 게임 재밌는 거 추천 받는다!\n2 : 아웃라스트 2 추천 합니다!\n2 : 한번 해보시는 게 어떤가요!?\n1 : 그건 무슨 게임인데? 공포 게임이야?\n2 : 어 키키 진짜 엄청 무서운 공포 게임이야 키키\n1 : 어떤 게임인데? 뭐 탈출물 이런 건가?\n2 : 맞음! 1978년 11월 18일에 일어난 인민 사원 집단 자살 사건을 바탕으로 만들어진 1인칭 게임임\n1 : 와... 개요만 들어도 벌써부터 무서운데? 키키\n2 : 진짜 무서워 키키 나도 한번 해봤는데 끝까지 못했다...\n1 : 오 그 정도야? 키키 그래픽이랑 퀄리티는 어떤데?\n2 : 진짜 상상 그 이상이다...\n2 : 아웃라스트1 도 있는데 그것보다 훨씬 고퀄리티 버전임 키키\n1 : 멀티는 안됨? 혼자 해야 하는 거야?\n2 : 어 키키 1인용 게임이야 키키\n2 : 진짜 한번 해봐바\n1 : 난 공포 게임하면서 무서운걸 모르는 사람입니다!\n2 : 과연 키키 너가 직접 해보고 말씀해보시지요 키키\n1 : 무서워서 그러는 건 아니고 할 줄 모르니까 너가 옆에 있어줘 하하\n2 : 뭐야 키키 무서워서 그런 거 아닌가? 키키\n2 : 혼자 그냥 하면 되는데 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 쉬는 날인데 공포 게임 재밌는 거 추천 받는다!",
+            "norm_text": "오늘 쉬는 날인데 공포 게임 재밌는 거 추천 받는다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+쉬/VV+는/ETM+날/NNG+인데/VCP+EC+공포/NNG+게임/NNG+재밌/VA+는/ETM+거/NNB+추천/NNG+받/VV+는다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아웃라스트 2 추천 합니다!",
+            "norm_text": "아웃라스트 2 추천 합니다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아웃/NNG+라스트/NNG+2/SN+추천/NNG+합니다/XSV+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 한번 해보시는 게 어떤가요!?",
+            "norm_text": "한번 해보시는 게 어떤가요!?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+번/NNBC+해/VV+EC+보/VX+시/EP+는/ETM+게/NNB+JKS+어떤/MM+가요/NNG+!/SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그건 무슨 게임인데? 공포 게임이야?",
+            "norm_text": "그건 무슨 게임인데? 공포 게임이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+무슨/MM+게임/NNG+인데/VCP+EC+?/SY+공포/NNG+게임/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 어 키키 진짜 엄청 무서운 공포 게임이야 키키",
+            "norm_text": "어 키키 진짜 엄청 무서운 공포 게임이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+키/NNG+키/XSV+ETN+진짜/MAG+엄청/MAG+무서운/VA+ETM+공포/NNG+게임/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 어떤 게임인데? 뭐 탈출물 이런 건가?",
+            "norm_text": "어떤 게임인데? 뭐 탈출물 이런 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+게임/NNG+인데/VCP+EF+뭐/IC+탈/XPN+출물/NNG+이런/MM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 맞음! 1978년 11월 18일에 일어난 인민 사원 집단 자살 사건을 바탕으로 만들어진 1인칭 게임임",
+            "norm_text": "맞음! 1978년 11월 18일에 일어난 인민 사원 집단 자살 사건을 바탕으로 만들어진 1인칭 게임임",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞음/NNG+!/SY+1978/SN+년/NNBC+11/SN+월/NNBC+18/SN+일/NNBC+에/JKB+일어난/VV+ETM+인민/NNG+사원/NNG+집단/NNG+자살/NNG+사건/NNG+을/JKO+바탕/NNG+으로/JKB+만들/VV+어/EC+진/VX+ETM+1/SN+인칭/NNG+게임/NNG+임/VCP+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 와... 개요만 들어도 벌써부터 무서운데? 키키",
+            "norm_text": "와... 개요만 들어도 벌써부터 무서운데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+개요/NNG+만들/VV+어도/EC+벌써/MAG+부터/JX+무서운데/VA+EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 진짜 무서워 키키 나도 한번 해봤는데 끝까지 못했다...",
+            "norm_text": "진짜 무서워 키키 나도 한번 해봤는데 끝까지 못했다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+무서워/VA+EC+키/NNG+키나/XSA+ETN+JX+도/JX+한/MM+번/NNBC+해/VV+EC+봤/VX+EP+는데/EC+끝/NNG+까지/JX+못/MAG+했/VV+EP+다/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오 그 정도야? 키키 그래픽이랑 퀄리티는 어떤데?",
+            "norm_text": "오 그 정도야? 키키 그래픽이랑 퀄리티는 어떤데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+그/MM+정도/NNG+야/VCP+EF+키/NNG+키/NNG+그래픽/NNG+이랑/JC+퀄리티/NNP+는/JX+어떤데/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 진짜 상상 그 이상이다...",
+            "norm_text": "진짜 상상 그 이상이다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+상상/MAG+그/MM+이상/NNG+이/VCP+다/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아웃라스트1 도 있는데 그것보다 훨씬 고퀄리티 버전임 키키",
+            "norm_text": "아웃라스트1 도 있는데 그것보다 훨씬 고퀄리티 버전임 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아웃/NNG+라스트/NNG+1/SN+도/NNBC+있/VV+는데/EC+그것/NP+보다/JKB+훨씬/MAG+고/MM+퀄리티/NNP+버전/NNG+임/VCP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 멀티는 안됨? 혼자 해야 하는 거야?",
+            "norm_text": "멀티는 안됨? 혼자 해야 하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "멀티/NNG+는/JX+안/MAG+됨/VV+ETN+혼자/NNG+해야/XSV+EC+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 어 키키 1인용 게임이야 키키",
+            "norm_text": "어 키키 1인용 게임이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+키/NNG+키/XSV+ETN+1/SN+인용/NNG+게임/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 진짜 한번 해봐바",
+            "norm_text": "진짜 한번 해봐바",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+한/MM+번/NNBC+해/VV+EC+봐/VX+바/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 난 공포 게임하면서 무서운걸 모르는 사람입니다!",
+            "norm_text": "난 공포 게임하면서 무서운걸 모르는 사람입니다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+공포/NNG+게임/NNG+하/XSV+면서/EC+무서운/VA+ETM+걸/NNB+JKO+모르/VV+는/ETM+사람/NNG+입니다/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 과연 키키 너가 직접 해보고 말씀해보시지요 키키",
+            "norm_text": "과연 키키 너가 직접 해보고 말씀해보시지요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "과연/MAG+키/NNG+키/XSV+ETN+너/NP+가/JKS+직접/MAG+해/VV+EC+보/VX+고/EC+말씀/NNG+해/XSV+EC+보/VX+시/EP+지요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 무서워서 그러는 건 아니고 할 줄 모르니까 너가 옆에 있어줘 하하",
+            "norm_text": "무서워서 그러는 건 아니고 할 줄 모르니까 너가 옆에 있어줘 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무서워서/VA+EC+그러/VV+는/ETM+건/NNB+JX+아니/VCN+고/EC+할/VX+ETM+줄/NNB+모르/VV+니까/EC+너/NP+가/JKS+옆/NNG+에/JKB+있/VV+어/EC+줘/VX+EC+하하/MAG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 뭐야 키키 무서워서 그런 거 아닌가? 키키",
+            "norm_text": "뭐야 키키 무서워서 그런 거 아닌가? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+야/VCP+EF+키/NNG+키/XSV+ETN+무서워서/VA+EC+그런/MM+거/NNB+아닌가/VCN+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 혼자 그냥 하면 되는데 키키",
+            "norm_text": "혼자 그냥 하면 되는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혼자/NNG+그냥/MAG+하/VV+면/EC+되/VV+는데/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

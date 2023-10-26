@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 24220,
+    "name": "KAKAO_577_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902057736/KAKAO_577_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902057736/KAKAO_577_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31493,
+      "filename": "KAKAO_577_02.txt",
+      "title": "KAKAO_577_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 734,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 734,
+        "word_size": 228,
+        "text": "1 : 자기야 우리 결혼해서 살 곳 구해보자.\n1 : 아파트 오래된 곳 구해서 인테리어하는 거 어때?\n2 : 아주 좋은 생각이야. 그럼 매매할 때 가격도 더 저렴할 것 같아.\n1 : 인테리어만 잘해도 진짜 새 아파트 못지 않을 것 같아.\n2 : 응 여유가 엄청나게 많지 않는 이상 그렇게 하는 게 나을 것 같아.\n1 : 셀프로는 저렴하긴 한데 우리끼리 하기 힘드니깐 턴키로 알아보자.\n2 : 응 셀프는 정말 자신 없어. 턴키 업체 찾아볼게.\n1 : 난 전에 전세 살 때 방 더러워도 인테리어에 돈 쓰고 싶지 않더라구\n2 : 맞아, 나도 돈 쓰고 싶지 않았는데 전세로 계약 후 이사 가기 전에 도배가 너무 누렇게 떠 있어서 그것만 셀프로 하고 들어갔어.\n1 : 내 집 아닌 곳에 하는 건 왜 이리 아까운지... ㅎ\n2 : 주택이어서 정말 손 볼 곳이 한 두 군데가 아니었어.\n2 : 다른 곳은 엄두가 안 나더라,\n2 : 셀프 인테리어로는 내 능력 밖이었어.ㅎ\n1 : 셀프로 도배한 것도 대단하다.\n2 : 하숙부터 월세, 전세, 매매까지 순차적으로 여기까지 왔네, 휴~!\n1 : 고생했네~ 대단해~ 성공했어 자기 하하\n2 : 좀이라도 싸고 괜찮은 집 구할려고 부동산도 진짜 얼마나 많은 곳을 찾아다녔는지 몰라.\n1 : 부동산에서 진짜 집 알아보는 것 보통 일이 아닌 것 같아.\n2 : 응. 특히 난 주택이어서 나중에 집 뺄 때 그때 너무 안 나가서 고생했어.\n2 : 주택이라 매매 거래가 쉽지 않아서 세 들어 살 사람 구해놓고 가라고 해서... 휴;",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기야 우리 결혼해서 살 곳 구해보자.",
+            "norm_text": "자기야 우리 결혼해서 살 곳 구해보자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "자기/NP+야/VCP+EF+우리/NP+결혼/NNG+해서/XSV+EC+살/VV+ETM+곳/NNB+구해/VV+EC+보/VX+자/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 아파트 오래된 곳 구해서 인테리어하는 거 어때?",
+            "norm_text": "아파트 오래된 곳 구해서 인테리어하는 거 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아파트/NNG+오래/MAG+된/VV+ETM+곳/NNB+구해서/VV+EC+인테리어/NNG+하/XSV+는/ETM+거/NNB+어때/VA+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아주 좋은 생각이야. 그럼 매매할 때 가격도 더 저렴할 것 같아.",
+            "norm_text": "아주 좋은 생각이야. 그럼 매매할 때 가격도 더 저렴할 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아주/MAG+좋/VA+은/ETM+생각/NNG+이/VCP+야/EF+그럼/MAJ+매매/NNG+할/XSV+ETM+때/NNG+가격/NNG+도/JX+더/MAG+저렴/XR+할/XSA+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 인테리어만 잘해도 진짜 새 아파트 못지 않을 것 같아.",
+            "norm_text": "인테리어만 잘해도 진짜 새 아파트 못지 않을 것 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인테리어/NNG+만/JX+잘/MAG+해도/VV+EC+진짜/MAG+새/MM+아파트/NNG+못지않/VA+을/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 여유가 엄청나게 많지 않는 이상 그렇게 하는 게 나을 것 같아.",
+            "norm_text": "응 여유가 엄청나게 많지 않는 이상 그렇게 하는 게 나을 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+여유/NNG+가/JKS+엄청나/VA+게/EC+많/VA+지/EC+않/VX+는/ETM+이상/NNG+그렇게/MAG+하/VV+는/ETM+게/NNB+JKS+나을/VA+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 셀프로는 저렴하긴 한데 우리끼리 하기 힘드니깐 턴키로 알아보자.",
+            "norm_text": "셀프로는 저렴하긴 한데 우리끼리 하기 힘드니깐 턴키로 알아보자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "셀프/NNG+로/JKB+는/JX+저렴/XR+하/XSA+긴/ETN+JX+한데/VX+EC+우리/NP+끼리/XSN+하/VV+기/ETN+힘드/VA+니깐/EC+턴/NNG+키로/XSV+ETN+JKB+알아보/VV+자/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 셀프는 정말 자신 없어. 턴키 업체 찾아볼게.",
+            "norm_text": "응 셀프는 정말 자신 없어. 턴키 업체 찾아볼게.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+셀프/NNG+는/JX+정말/MAG+자신/NNG+없/VA+어/EF+턴키/NNG+업체/NNG+찾아볼게/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 난 전에 전세 살 때 방 더러워도 인테리어에 돈 쓰고 싶지 않더라구",
+            "norm_text": "난 전에 전세 살 때 방 더러워도 인테리어에 돈 쓰고 싶지 않더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난전/NNG+에/JKB+전/MM+세/MM+살/NNBC+때/NNG+방/NNG+더러/JKB+워/NNG+도/JX+인테리어/NNG+에/JKB+돈/NNG+쓰/VV+고/EC+싶/VX+지/EC+않/VX+더라구/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아, 나도 돈 쓰고 싶지 않았는데 전세로 계약 후 이사 가기 전에 도배가 너무 누렇게 떠 있어서 그것만 셀프로 하고 들어갔어.",
+            "norm_text": "맞아, 나도 돈 쓰고 싶지 않았는데 전세로 계약 후 이사 가기 전에 도배가 너무 누렇게 떠 있어서 그것만 셀프로 하고 들어갔어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+,/SC+나/NP+도/JX+돈/NNG+쓰/VV+고/EC+싶/VX+지/EC+않/VX+았/EP+는데/EC+전세/NNG+로/JKB+계약/NNG+후/NNG+이사/NNG+가/JKS+기전/NNG+에/JKB+도배/NNG+가/JKS+너무/MAG+누렇/VA+게/EC+떠/VV+EC+있/VX+어서/EC+그것/NP+만/JX+셀/VV+ETM+프로/NNG+하/XSV+고/EC+들어갔/VV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 내 집 아닌 곳에 하는 건 왜 이리 아까운지... ㅎ",
+            "norm_text": "내 집 아닌 곳에 하는 건 왜 이리 아까운지... ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+집/NNG+아닌/VCN+ETM+곳/NNG+에/JKB+하/VV+는/ETM+건/NNB+JX+왜/MAG+이리/MAG+아까/MAG+운지/NNG+./SY+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 11,
+            "text": "2 : 주택이어서 정말 손 볼 곳이 한 두 군데가 아니었어.",
+            "norm_text": "주택이어서 정말 손 볼 곳이 한 두 군데가 아니었어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주택/NNG+이/VCP+어서/EC+정말/MAG+손볼/VV+ETM+곳/NNG+이/JKS+한두/MM+군데/NNBC+가/JKC+아니/VCN+었/EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 다른 곳은 엄두가 안 나더라,",
+            "norm_text": "다른 곳은 엄두가 안 나더라,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다른/MM+곳/NNG+은/JX+엄두/NNG+가/JKS+안/MAG+나/VV+더라/EF+,/SC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 셀프 인테리어로는 내 능력 밖이었어.ㅎ",
+            "norm_text": "셀프 인테리어로는 내 능력 밖이었어.ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "셀프/NNG+인테리어/NNG+로/JKB+는/JX+내/NP+JKG+능력/NNG+밖/NNG+이/VCP+었/EP+어/EF+ㅎ/XSA"
+          },
+          {
+            "id": 14,
+            "text": "1 : 셀프로 도배한 것도 대단하다.",
+            "norm_text": "셀프로 도배한 것도 대단하다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "셀프/NNG+로/JKB+도배/NNG+한/XSA+ETM+것/NNB+도/JX+대단/XR+하/XSA+다/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 하숙부터 월세, 전세, 매매까지 순차적으로 여기까지 왔네, 휴~!",
+            "norm_text": "하숙부터 월세, 전세, 매매까지 순차적으로 여기까지 왔네, 휴~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하숙/NNG+부터/JX+월세/NNG+,/SC+전세/NNG+,/SC+매매/NNG+까지/JX+순차/NNG+적/XSN+으로/JKB+여기/NP+까지/JX+왔/VV+EP+네/EF+,/SC+휴/IC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 고생했네~ 대단해~ 성공했어 자기 하하",
+            "norm_text": "고생했네~ 대단해~ 성공했어 자기 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고생/NNG+했/XSV+EP+네/EF+~/SY+대단/XR+해/XSA+EC+~/SY+성공/NNG+했/XSV+EP+어/EF+자기/NP+하하/MAG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 좀이라도 싸고 괜찮은 집 구할려고 부동산도 진짜 얼마나 많은 곳을 찾아다녔는지 몰라.",
+            "norm_text": "좀이라도 싸고 괜찮은 집 구할려고 부동산도 진짜 얼마나 많은 곳을 찾아다녔는지 몰라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좀/MAG+이/VCP+라도/EC+싸/VX+고/EC+괜찮/VA+은/ETM+집구/NNG+할려고/XSV+EC+부동산/NNG+도/JX+진짜/MAG+얼마나/MAG+많/VA+은/ETM+곳/NNG+을/JKO+찾/VV+아/EC+다녔/VV+EP+는지/EC+몰라/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 부동산에서 진짜 집 알아보는 것 보통 일이 아닌 것 같아.",
+            "norm_text": "부동산에서 진짜 집 알아보는 것 보통 일이 아닌 것 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부동산/NNG+에서/JKB+진짜/MAG+집/NNG+알아보/VV+는/ETM+것/NNB+보통/NNG+일/NNG+이/JKC+아닌/VCN+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응. 특히 난 주택이어서 나중에 집 뺄 때 그때 너무 안 나가서 고생했어.",
+            "norm_text": "응. 특히 난 주택이어서 나중에 집 뺄 때 그때 너무 안 나가서 고생했어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+특히/MAG+난/VV+ETM+주택/NNG+이/VCP+어서/EC+나중/NNG+에/JKB+집/NNG+뺄/VV+ETM+때/NNG+그때/NNG+너무/MAG+안/MAG+나가/VV+서/EC+고생/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 주택이라 매매 거래가 쉽지 않아서 세 들어 살 사람 구해놓고 가라고 해서... 휴;",
+            "norm_text": "주택이라 매매 거래가 쉽지 않아서 세 들어 살 사람 구해놓고 가라고 해서... 휴;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주택/NNG+이/VCP+라/EC+매매/NNG+거래/NNG+가/JKS+쉽/VA+지/EC+않/VX+아서/EC+세/NNG+들/XSN+어살/NNG+사람/NNG+구해/VV+EC+놓/VX+고/EC+가/VX+라고/EC+해서/VV+EC+./SY+./SY+휴/IC+;/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

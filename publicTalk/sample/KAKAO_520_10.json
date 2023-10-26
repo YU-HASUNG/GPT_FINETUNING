@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25275,
+    "name": "KAKAO_520_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144206057548/KAKAO_520_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144206057548/KAKAO_520_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28961,
+      "filename": "KAKAO_520_10.txt",
+      "title": "KAKAO_520_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 396,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 396,
+        "word_size": 127,
+        "text": "1 : 요새 재밌는 스포츠 뭐 있냐\n2 : 요즘 메시랑 호날두 이적해서 이슈지\n1 : 아 그래 호날두는 거기 맨유 갔던데\n2 : 그래 몇 년 만에 복귀하는 건지...\n1 : 메시는 어디 갔냐 쩌리 팀 갔나 어디 갔지\n2 : 레전드는 레전드네 등 번호 7번 바로 뺏어버리네\n1 : 이제 끝났나 이제 음바페의 시대인가\n2 : 음바페는 레알 간다고 찌라시 나돌던데\n1 : 메시가 이적하면 거기 우승 가능?\n2 : 메시는 파리생제르맹 가서 데뷔전 뛰었더라\n1 : 원래 프랑스에서 강팀이 파리였나\n2 : 거기 스쿼드가 웬만한 팀 압살하는 거 같은데?\n1 : 아 진짜? 몰랐네 또 그렇게 강할 줄\n2 : 그 팀 감독이 예전에 손흥민이 뛰던 토트넘 감독이지?\n1 : 토트넘 감독이 누구였더라 모르겠어 키키\n2 : 이제 진짜로 축구 좀 볼 맛 나겠네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 재밌는 스포츠 뭐 있냐",
+            "norm_text": "요새 재밌는 스포츠 뭐 있냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요새/MAG+재밌/VA+는/ETM+스포츠/NNG+뭐/IC+있/VA+냐/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘 메시랑 호날두 이적해서 이슈지",
+            "norm_text": "요즘 메시랑 호날두 이적해서 이슈지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+메시/NNG+랑/JC+호날두/NNP+이적/NNG+해서/XSV+EC+이/MM+슈지/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래 호날두는 거기 맨유 갔던데",
+            "norm_text": "아 그래 호날두는 거기 맨유 갔던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+호날두/NNP+는/JX+거기/NP+맨/MM+유/NNG+갔/VV+EP+던데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그래 몇 년 만에 복귀하는 건지...",
+            "norm_text": "그래 몇 년 만에 복귀하는 건지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+몇/MM+년/NNBC+만/NNB+에/JKB+복귀/NNG+하/XSV+는/ETM+건지/NNB+VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 메시는 어디 갔냐 쩌리 팀 갔나 어디 갔지",
+            "norm_text": "메시는 어디 갔냐 쩌리 팀 갔나 어디 갔지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "메시/NNG+는/JX+어디/NP+갔/VV+EP+냐/EF+쩌리/UNKNOWN+팀/NNG+갔/VV+EP+나/EF+어디/NP+갔/VV+EP+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 레전드는 레전드네 등 번호 7번 바로 뺏어버리네",
+            "norm_text": "레전드는 레전드네 등 번호 7번 바로 뺏어버리네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "레전드/NNP+는/JX+레전드/NNP+네/XSN+등/NNB+번호/NNG+7/SN+번/NNBC+바로/MAG+뺏/VV+어/EC+버리/VX+네/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 이제 끝났나 이제 음바페의 시대인가",
+            "norm_text": "이제 끝났나 이제 음바페의 시대인가",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이제/MAG+끝/NNG+났/VV+EP+나/EF+이제/MAG+음/IC+바페/UNKNOWN+의/JKG+시대/NNG+인가/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 음바페는 레알 간다고 찌라시 나돌던데",
+            "norm_text": "음바페는 레알 간다고 찌라시 나돌던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+바페/UNKNOWN+는/JX+레알/MAG+간다고/VV+EC+찌/VV+라/EC+시/NNG+나돌/VV+던데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 메시가 이적하면 거기 우승 가능?",
+            "norm_text": "메시가 이적하면 거기 우승 가능?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "메시/NNG+가/JKS+이적/NNG+하/XSV+면/EC+거기/NP+우승/NNG+가능/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 메시는 파리생제르맹 가서 데뷔전 뛰었더라",
+            "norm_text": "메시는 파리생제르맹 가서 데뷔전 뛰었더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "메시/NNG+는/JX+파리/NNP+생제르맹/NNP+가/VV+서/EC+데뷔/NNG+전/NNG+뛰/VV+었/EP+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 원래 프랑스에서 강팀이 파리였나",
+            "norm_text": "원래 프랑스에서 강팀이 파리였나",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+프랑스/NNP+에서/JKB+강팀/NNG+이파리/NNG+였/VCP+EP+나/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 거기 스쿼드가 웬만한 팀 압살하는 거 같은데?",
+            "norm_text": "거기 스쿼드가 웬만한 팀 압살하는 거 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+스쿼드/NNP+가/JKS+웬만/XR+한/XSA+ETM+팀/NNG+압살/NNG+하/XSV+는/ETM+거/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 진짜? 몰랐네 또 그렇게 강할 줄",
+            "norm_text": "아 진짜? 몰랐네 또 그렇게 강할 줄",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+몰랐/VV+EP+네/EF+또/MAG+그렇게/MAG+강할/VV+ETM+줄/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그 팀 감독이 예전에 손흥민이 뛰던 토트넘 감독이지?",
+            "norm_text": "그 팀 감독이 예전에 손흥민이 뛰던 토트넘 감독이지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+팀/NNG+감독/NNG+이/JKS+예전/NNG+에/JKB+손흥민/NNP+이/JKS+뛰/VV+던/ETM+토트넘/NNP+감독/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 토트넘 감독이 누구였더라 모르겠어 키키",
+            "norm_text": "토트넘 감독이 누구였더라 모르겠어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "토트넘/NNP+감독/NNG+이/JKS+누구/NP+였/VCP+EP+더라/EC+모르/VV+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이제 진짜로 축구 좀 볼 맛 나겠네",
+            "norm_text": "이제 진짜로 축구 좀 볼 맛 나겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이제/MAG+진짜/NNG+로/JKB+축구/NNG+좀/MAG+볼/VV+ETM+맛나/VA+겠/EP+네/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 45568,
+    "name": "KAKAO_801_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647051088/KAKAO_801_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647051088/KAKAO_801_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38016,
+      "filename": "KAKAO_801_05.txt",
+      "title": "KAKAO_801_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 365,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 365,
+        "word_size": 129,
+        "text": "1 : 군대 육군 다녀왔나\n2 : 응 키키 육군 갔다 왓지\n1 : 몇 년 다녀왔어?\n2 : 2년 조금 안 되게 갔다 왔다\n1 : 군대 중에 육군이 제일 흔한 것 같다 하하\n2 : 맞다 키키 내 주변에는 공군 해군 아무도 없다\n1 : 진짜? 키키 거의 육군이가?\n2 : 응 키키 해병대는 있어도 다른 곳은 없다\n1 : 그래도 해병대 나오신 분 있나 봐?\n2 : 응 해병대는 몇 명 있다 키키\n1 : 귀신 잡는다는 그 해병대? 키키\n2 : 응 키키 해병대 나온 사람 만나면 맨날 해병대 얘기함 키키\n1 : 으 군대 얘기 듣기 싫은데 키키\n2 : 키키 남자들끼리 만나면 군대 얘기 무조건 나옴 키키\n1 : 이젠 지겹지 않아? 키키\n2 : 키키 해도 재밌지 키키\n2 : 여자들은 싫어하잖아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 군대 육군 다녀왔나",
+            "norm_text": "군대 육군 다녀왔나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "군대/NNG+육군/NNG+다녀왔/VV+EP+나/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 키키 육군 갔다 왓지",
+            "norm_text": "응 키키 육군 갔다 왓지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+육군/NNG+갔/VV+EP+다/EC+왓/VV+EP+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 몇 년 다녀왔어?",
+            "norm_text": "몇 년 다녀왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+년/NNBC+다녀왔/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 2년 조금 안 되게 갔다 왔다",
+            "norm_text": "2년 조금 안 되게 갔다 왔다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "2/SN+년/NNBC+조금/MAG+안/MAG+되/VV+게/EC+갔다왔/VV+EP+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 군대 중에 육군이 제일 흔한 것 같다 하하",
+            "norm_text": "군대 중에 육군이 제일 흔한 것 같다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+중/NNB+에/JKB+육군/NNG+이/JKS+제일/MAG+흔한/VA+ETM+것/NNB+같/VA+다/EC+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞다 키키 내 주변에는 공군 해군 아무도 없다",
+            "norm_text": "맞다 키키 내 주변에는 공군 해군 아무도 없다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/XPN+다키키/NNP+내/NP+JKG+주변/NNG+에/JKB+는/JX+공군/NNG+해군/NNG+아무/NP+도/JX+없/VA+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 진짜? 키키 거의 육군이가?",
+            "norm_text": "진짜? 키키 거의 육군이가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+키/NNG+키/NNG+거의/MAG+육군/NNG+이/VCP+가/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 키키 해병대는 있어도 다른 곳은 없다",
+            "norm_text": "응 키키 해병대는 있어도 다른 곳은 없다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+해병대/NNG+는/JX+있/VX+어도/EC+다른/MM+곳/NNG+은/JX+없/VA+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그래도 해병대 나오신 분 있나 봐?",
+            "norm_text": "그래도 해병대 나오신 분 있나 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+해병대/NNG+나오/VV+신/EP+ETM+분/NNB+있/VA+나/EC+봐/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 해병대는 몇 명 있다 키키",
+            "norm_text": "응 해병대는 몇 명 있다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+해병대/NNG+는/JX+몇/MM+명/NNBC+있/VA+다키키/NNP"
+          },
+          {
+            "id": 11,
+            "text": "1 : 귀신 잡는다는 그 해병대? 키키",
+            "norm_text": "귀신 잡는다는 그 해병대? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "귀신/NNG+잡/VV+는다는/ETM+그/MM+해병대/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 키키 해병대 나온 사람 만나면 맨날 해병대 얘기함 키키",
+            "norm_text": "응 키키 해병대 나온 사람 만나면 맨날 해병대 얘기함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+해병대/NNG+나온/VV+ETM+사람/NNG+만나/VV+면/EC+맨날/MAG+해병대/NNG+얘기/NNG+함/XSV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 으 군대 얘기 듣기 싫은데 키키",
+            "norm_text": "으 군대 얘기 듣기 싫은데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으/IC+군대/NNG+얘기/NNG+듣/VV+기/ETN+싫/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 남자들끼리 만나면 군대 얘기 무조건 나옴 키키",
+            "norm_text": "키키 남자들끼리 만나면 군대 얘기 무조건 나옴 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+남자/NNG+들/XSN+끼리/XSN+만나/VV+면/EC+군대/NNG+얘기/NNG+무조건/MAG+나옴/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 이젠 지겹지 않아? 키키",
+            "norm_text": "이젠 지겹지 않아? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이젠/NNG+JX+지겹/VA+지/EC+않/VX+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 해도 재밌지 키키",
+            "norm_text": "키키 해도 재밌지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+해도/XSV+EC+재밌/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 여자들은 싫어하잖아",
+            "norm_text": "여자들은 싫어하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여자/NNG+들/XSN+은/JX+싫/VA+어/EC+하/VV+잖아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

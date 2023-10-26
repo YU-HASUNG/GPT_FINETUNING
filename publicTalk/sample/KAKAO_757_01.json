@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 32738,
+    "name": "KAKAO_757_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135140035543/KAKAO_757_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135140035543/KAKAO_757_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37109,
+      "filename": "KAKAO_757_01.txt",
+      "title": "KAKAO_757_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 395,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 395,
+        "word_size": 140,
+        "text": "1 : 음료수 뭐 좋아 하노 키키\n2 : 아아지 키키 겨울에도 아이스로 먹는 아아\n1 : 와우 키키 난 겨울에는 무조건 따뜻한 거\n2 : 오 약하네 키키\n2 : 누나야도 아메리카노 마시나\n1 : 키키 마시긴 하는데 너무 늦게는 안 먹음 잠 못 자서\n2 : 글쿠먼 아메리카노가 베스트?\n1 : 노노 키키 난 그냥 다른 음료수 같은 거\n2 : 키키 오 커피는 원래 잘 안마시나\n1 : 딱 점심에 한 잔만 먹음 키키\n2 : 오 키키 그 정도로 잠을 못 자나\n1 : 옹 키키 저번에 오후 4시인가 커피 먹었다가 밤 샘...\n2 : 와... 그 정도면 녹차 이런 거로도 그러나?\n1 : 어 맞아 녹차도 그럼 키키\n2 : 와 진짜 카페인에 약한가 보네\n1 : 그런가 봄 키키\n1 : 커피 좋아 하는데 못 먹어 ㅜㅜ\n2 : 라떼 뭐 이런 것도 전부?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 음료수 뭐 좋아 하노 키키",
+            "norm_text": "음료수 뭐 좋아 하노 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음료수/NNG+뭐/IC+좋/VA+아/EC+하/VV+노/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아아지 키키 겨울에도 아이스로 먹는 아아",
+            "norm_text": "아아지 키키 겨울에도 아이스로 먹는 아아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+아지키/NNP+키/NNG+겨울/NNG+에/JKB+도/JX+아이스/NNG+로/JKB+먹/VV+는/ETM+아아/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 와우 키키 난 겨울에는 무조건 따뜻한 거",
+            "norm_text": "와우 키키 난 겨울에는 무조건 따뜻한 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와우/IC+키/NNG+키/XSV+ETN+난/VV+ETM+겨울/NNG+에/JKB+는/JX+무조건/MAG+따뜻/XR+한/XSA+ETM+거/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오 약하네 키키",
+            "norm_text": "오 약하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오약/NNG+하/XSV+네/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 누나야도 아메리카노 마시나",
+            "norm_text": "누나야도 아메리카노 마시나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누나야/NNP+도/JX+아메리카노/NNP+마시나/NNP"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 마시긴 하는데 너무 늦게는 안 먹음 잠 못 자서",
+            "norm_text": "키키 마시긴 하는데 너무 늦게는 안 먹음 잠 못 자서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+마시/VV+긴/ETN+JX+하/VX+는데/EC+너무/MAG+늦/VA+게/EC+는/JX+안/MAG+먹/VV+음/ETN+잠/NNG+못/MAG+자/VV+서/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 글쿠먼 아메리카노가 베스트?",
+            "norm_text": "글쿠먼 아메리카노가 베스트?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "글/NNG+쿠/MAG+먼/VA+ETM+아메리카노/NNP+가/JKS+베스트/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 노노 키키 난 그냥 다른 음료수 같은 거",
+            "norm_text": "노노 키키 난 그냥 다른 음료수 같은 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "노노/IC+키/NNG+키/XSV+ETN+난/NP+JX+그냥/MAG+다른/MM+음료수/NNG+같/VA+은/ETM+거/NNB"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 오 커피는 원래 잘 안마시나",
+            "norm_text": "키키 오 커피는 원래 잘 안마시나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/NR+커피/NNG+는/JX+원래/MAG+잘/MAG+안/MAG+마시/VV+나/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 딱 점심에 한 잔만 먹음 키키",
+            "norm_text": "딱 점심에 한 잔만 먹음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "딱/MAG+점심/NNG+에/JKB+한잔/NNG+만/JX+먹/VV+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 오 키키 그 정도로 잠을 못 자나",
+            "norm_text": "오 키키 그 정도로 잠을 못 자나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오키/NNP+키/NNG+그/MM+정도/NNG+로/JKB+잠/NNG+을/JKO+못/MAG+자/VV+나/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 옹 키키 저번에 오후 4시인가 커피 먹었다가 밤 샘...",
+            "norm_text": "옹 키키 저번에 오후 4시인가 커피 먹었다가 밤 샘...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옹/NNG+키/NNG+키/NNG+저번/NNG+에/JKB+오후/NNG+4/SN+시/NNBC+인가/VCP+EC+커피/NNG+먹/VV+었/EP+다가/EC+밤샘/NNG+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 와... 그 정도면 녹차 이런 거로도 그러나?",
+            "norm_text": "와... 그 정도면 녹차 이런 거로도 그러나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+그/MM+정도/NNG+면/VCP+EC+녹차/NNG+이런/MM+거/NNB+로/JKB+도/JX+그러/VV+나/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 어 맞아 녹차도 그럼 키키",
+            "norm_text": "어 맞아 녹차도 그럼 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞/VV+아/EC+녹차/NNG+도/JX+그럼/MAJ+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 와 진짜 카페인에 약한가 보네",
+            "norm_text": "와 진짜 카페인에 약한가 보네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+카페인/NNG+에/JKB+약한가/VA+EC+보/VX+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그런가 봄 키키",
+            "norm_text": "그런가 봄 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+봄/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 커피 좋아 하는데 못 먹어 ㅜㅜ",
+            "norm_text": "커피 좋아 하는데 못 먹어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "커피/NNG+좋/VA+아/EC+하/VV+는데/EC+못/MAG+먹/VV+어/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 라떼 뭐 이런 것도 전부?",
+            "norm_text": "라떼 뭐 이런 것도 전부?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "라떼/NNG+뭐/IC+이런/MM+것/NNB+도/JX+전부/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 20523,
+    "name": "KAKAO_476_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140731029949/KAKAO_476_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140731029949/KAKAO_476_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27988,
+      "filename": "KAKAO_476_18.txt",
+      "title": "KAKAO_476_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 525,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 525,
+        "word_size": 165,
+        "text": "1 : 자기 오늘부터 지마켓에서 프로모션하는 거 알아?\n2 : 아 추석 대할인인가 하는 프로모션?\n1 : 응응 할인률이 꽤 큰 거 같아!\n1 : 추석 선물 인터넷으로 사도 되겠지?\n2 : 포장만 문제 없음 괜찮지\n2 : 어떤 게 베스트 상품이래?\n1 : 홍삼 같은 게 인기 있는 상품이라고 베스트에 떠있더라구\n2 : 홍삼도 괜찮은 거 같은데\n2 : 부모님도 좋아하실 것 같네 ㅎ\n1 : 지금 지마켓에 1위하는 홍삼이 구매만 3000건이 넘어 대박이지?\n2 : 한 상품이 3000건 넘는다는 건 엄청 구매율이 높은 거 아냐?\n1 : 엄청 높은 거지! 그럼 그걸로 3세트 구매할까\n2 : 3세트면 충분할 거 같아\n2 : 카드로 결제할 거야?\n1 : 응응 카드사 추가 할인도 하고 있어서 카드로 할 계획이야\n2 : 그럼 내 카드로 결제해 주세요!\n1 : 안 돼! 본인 카드로만 결제가 가능해서 내 걸로 해야 해\n2 : 음 그럼 다른 결제 방법은 없을까?\n1 : 아니면 무통장 입금으로 진행할 수 있는데 카드사 할인은 못 받아\n2 : 그럼 자기가 결제하고 내가 자기한테 입금해줄게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자기 오늘부터 지마켓에서 프로모션하는 거 알아?",
+            "norm_text": "자기 오늘부터 지마켓에서 프로모션하는 거 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자기/NP+오늘/NNG+부터/JX+지/NNP+마켓/NNP+에서/JKB+프로모션/NNG+하/XSV+는/ETM+거/NNB+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 추석 대할인인가 하는 프로모션?",
+            "norm_text": "아 추석 대할인인가 하는 프로모션?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+추석/NNG+대/XPN+할인/NNG+인가/VCP+EC+하/VV+는/ETM+프로모션/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응응 할인률이 꽤 큰 거 같아!",
+            "norm_text": "응응 할인률이 꽤 큰 거 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+할인/NNG+률/XSN+이/JKS+꽤/MAG+큰/VA+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 추석 선물 인터넷으로 사도 되겠지?",
+            "norm_text": "추석 선물 인터넷으로 사도 되겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "추석/NNG+선물/NNG+인터넷/NNG+으로/JKB+사도/NNG+되/XSV+겠/EP+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 포장만 문제 없음 괜찮지",
+            "norm_text": "포장만 문제 없음 괜찮지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "포장/NNG+만/JX+문제없/VA+음/ETN+괜찮/VA+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어떤 게 베스트 상품이래?",
+            "norm_text": "어떤 게 베스트 상품이래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+게/NNB+JKS+베스트/NNG+상품/NNG+이/VCP+래/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 홍삼 같은 게 인기 있는 상품이라고 베스트에 떠있더라구",
+            "norm_text": "홍삼 같은 게 인기 있는 상품이라고 베스트에 떠있더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "홍삼/NNG+같/VA+은/ETM+게/NNB+JKS+인기/VCP+EC+있/VX+는/ETM+상품/NNG+이/VCP+라고/EC+베스트/NNG+에/JKB+떠/VV+EC+있/VX+더라구/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 홍삼도 괜찮은 거 같은데",
+            "norm_text": "홍삼도 괜찮은 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "홍삼/NNG+도/JX+괜찮/VA+은/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 부모님도 좋아하실 것 같네 ㅎ",
+            "norm_text": "부모님도 좋아하실 것 같네 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "부모/NNG+님/XSN+도/JX+좋/VA+아/EC+하/VX+실/EP+ETM+것/NNB+같/VA+네/EF+ㅎ/XSA"
+          },
+          {
+            "id": 10,
+            "text": "1 : 지금 지마켓에 1위하는 홍삼이 구매만 3000건이 넘어 대박이지?",
+            "norm_text": "지금 지마켓에 1위하는 홍삼이 구매만 3000건이 넘어 대박이지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+지/NNP+마켓/NNP+에/JKB+1/SN+위/NNBC+하/VV+는/ETM+홍삼/NNG+이/JKS+구매/NNG+만/JX+3000/SN+건/NNBC+이/JKS+넘/VV+어/EC+대박/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 한 상품이 3000건 넘는다는 건 엄청 구매율이 높은 거 아냐?",
+            "norm_text": "한 상품이 3000건 넘는다는 건 엄청 구매율이 높은 거 아냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+상품/NNG+이/JKS+3000/SN+건/NNBC+넘/VV+는다는/ETM+건/NNB+JX+엄청/MAG+구매/NNG+율/XSN+이/JKS+높/VA+은/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 엄청 높은 거지! 그럼 그걸로 3세트 구매할까",
+            "norm_text": "엄청 높은 거지! 그럼 그걸로 3세트 구매할까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄청/MAG+높/VA+은/ETM+거/NNB+지/VCP+EF+그럼/MAJ+그걸로/NP+JKB+3/SN+세트/NNG+구매/NNG+할까/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 3세트면 충분할 거 같아",
+            "norm_text": "3세트면 충분할 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "3/SN+세트/NNG+면/VCP+EC+충분/XR+할/XSA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 카드로 결제할 거야?",
+            "norm_text": "카드로 결제할 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카드/NNG+로/JKB+결제/NNG+할/XSV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응응 카드사 추가 할인도 하고 있어서 카드로 할 계획이야",
+            "norm_text": "응응 카드사 추가 할인도 하고 있어서 카드로 할 계획이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+카드/NNG+사추/NNG+가/JKS+할인/NNG+도/JX+하/VV+고/EC+있/VX+어서/EC+카드/NNG+로/JKB+할/VV+ETM+계획/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럼 내 카드로 결제해 주세요!",
+            "norm_text": "그럼 내 카드로 결제해 주세요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그럼/MAJ+내/MM+카드/NNG+로/JKB+결제/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 안 돼! 본인 카드로만 결제가 가능해서 내 걸로 해야 해",
+            "norm_text": "안 돼! 본인 카드로만 결제가 가능해서 내 걸로 해야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+돼/VV+EF+본인/NNG+카드/NNG+로/JKB+만/JX+결제/NNG+가/JKS+가능/NNG+해서/XSV+EC+내/MM+걸로/NNB+JKB+해야/VV+EC+해/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 음 그럼 다른 결제 방법은 없을까?",
+            "norm_text": "음 그럼 다른 결제 방법은 없을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+그럼/MAJ+다른/MM+결제/NNG+방법/NNG+은/JX+없/VA+을까/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 아니면 무통장 입금으로 진행할 수 있는데 카드사 할인은 못 받아",
+            "norm_text": "아니면 무통장 입금으로 진행할 수 있는데 카드사 할인은 못 받아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니면/MAJ+무/XPN+통장/NNG+입금/NNG+으로/JKB+진행/NNG+할/XSV+ETM+수/NNB+있/VV+는데/EC+카드/NNG+사/NR+할인/NNG+은/JX+못/MAG+받/VV+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그럼 자기가 결제하고 내가 자기한테 입금해줄게",
+            "norm_text": "그럼 자기가 결제하고 내가 자기한테 입금해줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+자기/NP+가/JKS+결제/NNG+하/XSV+고/EC+내/NP+가/JKS+자기/NP+한테/JKB+입금/NNG+해/XSV+EC+줄/VX+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

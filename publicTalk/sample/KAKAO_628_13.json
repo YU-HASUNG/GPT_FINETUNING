@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 35152,
+    "name": "KAKAO_628_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113045040556/KAKAO_628_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113045040556/KAKAO_628_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32005,
+      "filename": "KAKAO_628_13.txt",
+      "title": "KAKAO_628_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 495,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 495,
+        "word_size": 164,
+        "text": "1 : 오늘 날씨 너무 좋아서 산책 일찍 갔다 옴 키키\n2 : 강아지랑 같이 다녀온 거여? 나도 낼은 애기랑 산책 나가보려고\n1 : 응응 키키 뭔가 해 떠있는데도 안 덥던데?\n2 : 키키 아 진짜? 진짜 가을이구나 완전히 좋다 좋다\n1 : 응... 이 날씨가 진짜 몇 달 지속되면 좋을 텐데\n2 : 어... 근데 얼마 안 가겠딬 키키 웃겨\n2 : 봄 가을이 거의 없어진 듯\n1 : 이제 또 한 두 달 있음 추워지겠네 ㅜㅜ\n2 : ㅠㅠ응응 겨울이 다가오고 있다\n1 : 너 애기는 처음 겨울 맞아보는 거지? ㅠㅠ\n2 : 우리 애기 겨울에 태어났어 키키 겨울 베이비야\n1 : 아? 키키 벌써 그렇게 시간이 됐나? 키키 겨울 아가라니\n2 : 키키 지금 사계절을 경험하고 있어 키키\n1 : 근데 애기 있으면 밖은 겨울이라도 집은 봄이겠네 키키\n2 : 키키 아니 오히려 애기들 춥게 있어야 해\n1 : 아 진짜로? 나는 한 24도 이상 해야 하는 줄 알았는데\n2 : 키키 22도에서 24도 키키 더운 거보단 추운 게 나아 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 날씨 너무 좋아서 산책 일찍 갔다 옴 키키",
+            "norm_text": "오늘 날씨 너무 좋아서 산책 일찍 갔다 옴 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+날씨/NNG+너무/MAG+좋/VA+아서/EC+산책/NNG+일찍/MAG+갔/VV+EP+다/EC+옴/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 강아지랑 같이 다녀온 거여? 나도 낼은 애기랑 산책 나가보려고",
+            "norm_text": "강아지랑 같이 다녀온 거여? 나도 낼은 애기랑 산책 나가보려고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "강아지/NNG+랑/JKB+같이/MAG+다녀온/VV+ETM+거/NNB+여/VCP+EF+나/NP+도/JX+낼/NNG+은/JX+애기/NNG+랑/JKB+산책/NNG+나가/VV+EC+보/VX+려고/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응응 키키 뭔가 해 떠있는데도 안 덥던데?",
+            "norm_text": "응응 키키 뭔가 해 떠있는데도 안 덥던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+해/VV+EC+떠/VV+EC+있/VX+는/ETM+데/NNB+도/JX+안/MAG+덥/VA+던데/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 아 진짜? 진짜 가을이구나 완전히 좋다 좋다",
+            "norm_text": "키키 아 진짜? 진짜 가을이구나 완전히 좋다 좋다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+진짜/MAG+가을/NNG+이/VCP+구나/EF+완전히/MAG+좋/VA+다/EC+좋/VA+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응... 이 날씨가 진짜 몇 달 지속되면 좋을 텐데",
+            "norm_text": "응... 이 날씨가 진짜 몇 달 지속되면 좋을 텐데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+이/MM+날씨/NNG+가/JKS+진짜/MAG+몇/MM+달/NNBC+지속/NNG+되/XSV+면/EC+좋/VA+을/ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어... 근데 얼마 안 가겠딬 키키 웃겨",
+            "norm_text": "어... 근데 얼마 안 가겠딬 키키 웃겨",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+근데/MAJ+얼마/NNG+안/MAG+가/VV+겠/EP+딬키/UNKNOWN+키/NNG+웃겨/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 봄 가을이 거의 없어진 듯",
+            "norm_text": "봄 가을이 거의 없어진 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "봄/NNG+가을/NNG+이/JKS+거의/MAG+없/VA+어/EC+진/VX+ETM+듯/NNB"
+          },
+          {
+            "id": 8,
+            "text": "1 : 이제 또 한 두 달 있음 추워지겠네 ㅜㅜ",
+            "norm_text": "이제 또 한 두 달 있음 추워지겠네 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+또/MAG+한두/MM+달/NNBC+있/VV+음/ETN+추워/VA+EC+지/VX+겠/EP+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : ㅠㅠ응응 겨울이 다가오고 있다",
+            "norm_text": "ㅠㅠ응응 겨울이 다가오고 있다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+응응/MAG+겨울/NNG+이/JKS+다가오/VV+고/EC+있/VX+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 너 애기는 처음 겨울 맞아보는 거지? ㅠㅠ",
+            "norm_text": "너 애기는 처음 겨울 맞아보는 거지? ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+애기/NNG+는/JX+처음/NNG+겨울/NNG+맞/VV+아/EC+보/VX+는/ETM+거/NNB+지/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 우리 애기 겨울에 태어났어 키키 겨울 베이비야",
+            "norm_text": "우리 애기 겨울에 태어났어 키키 겨울 베이비야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+애기/NNG+겨울/NNG+에/JKB+태어났/VV+EP+어/EC+키/NNG+키/NNG+겨울/NNG+베이비/NNG+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아? 키키 벌써 그렇게 시간이 됐나? 키키 겨울 아가라니",
+            "norm_text": "아? 키키 벌써 그렇게 시간이 됐나? 키키 겨울 아가라니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+키/NNG+키/XSV+ETN+벌써/MAG+그렇게/MAG+시간/NNG+이/JKS+됐/VV+EP+나/EF+키키겨울아가라니/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 지금 사계절을 경험하고 있어 키키",
+            "norm_text": "키키 지금 사계절을 경험하고 있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+지금/MAG+사계절/NNG+을/JKO+경험/NNG+하/XSV+고/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 근데 애기 있으면 밖은 겨울이라도 집은 봄이겠네 키키",
+            "norm_text": "근데 애기 있으면 밖은 겨울이라도 집은 봄이겠네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+애기/NNG+있/VV+으면/EC+밖/NNG+은/JX+겨울/NNG+이/VCP+라도/EC+집/NNG+은/JX+봄/NNG+이/VCP+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 아니 오히려 애기들 춥게 있어야 해",
+            "norm_text": "키키 아니 오히려 애기들 춥게 있어야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+오히려/MAJ+애기/NNG+들/XSN+춥/VA+게/EC+있/VX+어야/EC+해/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 진짜로? 나는 한 24도 이상 해야 하는 줄 알았는데",
+            "norm_text": "아 진짜로? 나는 한 24도 이상 해야 하는 줄 알았는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜로/MAG+나/NP+는/JX+한/MM+24/SN+도/NNBC+이상/NNG+해야/XSV+EC+하/VV+는/ETM+줄/NNB+알/VV+았/EP+는데/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 22도에서 24도 키키 더운 거보단 추운 게 나아 키키",
+            "norm_text": "키키 22도에서 24도 키키 더운 거보단 추운 게 나아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+22/SN+도/NNBC+에서/JKB+24/SN+도키/NNG+키/XSV+ETN+더운/VA+ETM+거/NNB+보단/JKB+JX+추운/VA+ETM+게/NNB+JKS+나/NP+아키/NNP+키/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 32244,
+    "name": "KAKAO_693_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113007039157/KAKAO_693_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113007039157/KAKAO_693_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35231,
+      "filename": "KAKAO_693_12.txt",
+      "title": "KAKAO_693_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 587,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 587,
+        "word_size": 193,
+        "text": "1 : 아나 여행 가고 싶다!\n2 : 여행 갈 수는 있는 걸까? ㅜㅜ\n2 : 뱅기 타고 싶다꼬오오오오오오\n1 : 진짜 이대로 못 가는 거 아니겠지...\n1 : 비행기 겁나 타고 싶다고!\n2 : 응 국내 비행기 말고 해외로 나가는 비행기 말입니다아! 키키\n1 : 맞아. 새벽부터 설레는 그 기분 느끼고 싶다.\n1 : 풀리면 어디부터 갈 거임?\n2 : 나는 왠지 괜히 최대한 멀리 가고 싶은데? 키키\n2 : 돈과 시간이 없어서 그러치 후후\n1 : 나는 연차 내서라도 가려고 키키\n2 : 닌 어디로 가고 싶은데?\n1 : 도쿄지! 쇼핑하고 먹고 자고 쇼핑하고 쇼핑하고 하고 싶음 ^^\n2 : 도쿄가 또 우리 좋아하는 게 많긴 하지 키키\n2 : 그때까지 돈 왕창 모아놔야 할 거 같은데 키키\n1 : 맞아 참 하고 싶은 게 많단 말이지.\n1 : 넌 어디로 가고 싶어?\n2 : 가고 싶은 건 유럽 어딘가에 가고 싶은데 말이쥐 키키\n1 : 시간이 많이 필요하겠다... 키키\n1 : 빨리 코로나 끝나면 좋겠다\n2 : 웅 마스크 껴도 되니깐 큰 걱정 없이 비행기 타고 여행 가고 싶다궁 키키\n1 : 맞아... 여행 가는 꿈 꿔야겠다 잘 자!\n2 : 웅 키키 아쉬운 대로 국내 여행이라도 가자 키키 잘자요르~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아나 여행 가고 싶다!",
+            "norm_text": "아나 여행 가고 싶다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+여행/NNG+가/VV+고/EC+싶/VX+다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 여행 갈 수는 있는 걸까? ㅜㅜ",
+            "norm_text": "여행 갈 수는 있는 걸까? ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여행/NNG+갈/VV+ETM+수/NNB+는/JX+있/VX+는/ETM+걸까/NNB+VCP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 뱅기 타고 싶다꼬오오오오오오",
+            "norm_text": "뱅기 타고 싶다꼬오오오오오오",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뱅/MAG+기타/NNG+고/VCP+EC+싶/VX+다꼬/EC+오/NR+오/NR+오/NR+오/NR+오/NR+오/NR"
+          },
+          {
+            "id": 4,
+            "text": "1 : 진짜 이대로 못 가는 거 아니겠지...",
+            "norm_text": "진짜 이대로 못 가는 거 아니겠지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+이대로/MAG+못/MAG+가/VV+는/ETM+거/NNB+아니/VCN+겠/EP+지/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 비행기 겁나 타고 싶다고!",
+            "norm_text": "비행기 겁나 타고 싶다고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비행기/NNG+겁나/VV+EC+타/VV+고/EC+싶/VX+다고/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 국내 비행기 말고 해외로 나가는 비행기 말입니다아! 키키",
+            "norm_text": "응 국내 비행기 말고 해외로 나가는 비행기 말입니다아! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+국내/NNG+비행기/NNG+말/VV+고/EC+해외/NNG+로/JKB+나가/VV+는/ETM+비행기/NNG+말/NNG+입니다/VCP+EF+아/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아. 새벽부터 설레는 그 기분 느끼고 싶다.",
+            "norm_text": "맞아. 새벽부터 설레는 그 기분 느끼고 싶다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+새벽/NNG+부터/JX+설레/VV+는/ETM+그/MM+기분/NNG+느끼/VV+고/EC+싶/VX+다/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 풀리면 어디부터 갈 거임?",
+            "norm_text": "풀리면 어디부터 갈 거임?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "풀리/VV+면/EC+어디/NP+부터/JX+갈/VV+ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나는 왠지 괜히 최대한 멀리 가고 싶은데? 키키",
+            "norm_text": "나는 왠지 괜히 최대한 멀리 가고 싶은데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+왠지/MAG+괜히/MAG+최대한/NNG+멀리/MAG+가/VV+고/EC+싶/VX+은데/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 돈과 시간이 없어서 그러치 후후",
+            "norm_text": "돈과 시간이 없어서 그러치 후후",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+과/JC+시간/NNG+이/JKS+없/VA+어서/EC+그러/XR+치/XSA+EC+후후/NNP"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 연차 내서라도 가려고 키키",
+            "norm_text": "나는 연차 내서라도 가려고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+연차/NNG+내/NNB+서/JKB+라도/VCP+EC+가/VX+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 닌 어디로 가고 싶은데?",
+            "norm_text": "닌 어디로 가고 싶은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "닌/NNP+어디/NP+로/JKB+가/VV+고/EC+싶/VX+은데/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 도쿄지! 쇼핑하고 먹고 자고 쇼핑하고 쇼핑하고 하고 싶음 ^^",
+            "norm_text": "도쿄지! 쇼핑하고 먹고 자고 쇼핑하고 쇼핑하고 하고 싶음 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도쿄/NNP+지/VCP+EF+쇼핑/NNG+하/XSV+고/EC+먹/VV+고/EC+자/VV+고/EC+쇼핑/NNG+하/XSV+고/EC+쇼핑/NNG+하/XSV+고/EC+하/VV+고/EC+싶/VX+음/ETN+^/SY+^/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 도쿄가 또 우리 좋아하는 게 많긴 하지 키키",
+            "norm_text": "도쿄가 또 우리 좋아하는 게 많긴 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도쿄/NNP+가/JKS+또/MAG+우리/NP+좋/VA+아/EC+하/VV+는/ETM+게/NNB+JKS+많/VA+긴/ETN+JX+하/VX+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그때까지 돈 왕창 모아놔야 할 거 같은데 키키",
+            "norm_text": "그때까지 돈 왕창 모아놔야 할 거 같은데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그때/NNG+까지/JX+돈/NNG+왕창/MAG+모아/VV+EC+놔야/VX+EC+할/VX+ETM+거/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 맞아 참 하고 싶은 게 많단 말이지.",
+            "norm_text": "맞아 참 하고 싶은 게 많단 말이지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+참/NNG+하/XSV+고/EC+싶/VX+은/ETM+게/NNB+JKS+많/VA+단/ETM+말/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 넌 어디로 가고 싶어?",
+            "norm_text": "넌 어디로 가고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+어디/NP+로/JKB+가/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 가고 싶은 건 유럽 어딘가에 가고 싶은데 말이쥐 키키",
+            "norm_text": "가고 싶은 건 유럽 어딘가에 가고 싶은데 말이쥐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가/VV+고/EC+싶/VX+은/ETM+건/NNB+JX+유럽/NNP+어딘가/NP+VCP+EC+에/JKB+가/VV+고/EC+싶/VX+은데/EC+말/NNG+이/JKS+쥐/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 시간이 많이 필요하겠다... 키키",
+            "norm_text": "시간이 많이 필요하겠다... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시간/NNG+이/JKS+많이/MAG+필요/NNG+하/XSV+겠/EP+다/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 빨리 코로나 끝나면 좋겠다",
+            "norm_text": "빨리 코로나 끝나면 좋겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빨리/MAG+코로나/NNG+끝/NNG+나/VV+면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 웅 마스크 껴도 되니깐 큰 걱정 없이 비행기 타고 여행 가고 싶다궁 키키",
+            "norm_text": "웅 마스크 껴도 되니깐 큰 걱정 없이 비행기 타고 여행 가고 싶다궁 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+마스크/IC+껴도/VV+EC+되/VV+니깐/EC+큰/VA+ETM+걱정/NNG+없이/MAG+비행기/NNG+타/VV+고/EC+여행/NNG+가/VV+고/EC+싶/VX+다/EC+궁/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 맞아... 여행 가는 꿈 꿔야겠다 잘 자!",
+            "norm_text": "맞아... 여행 가는 꿈 꿔야겠다 잘 자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+여행가/NNG+는/JX+꿈/NNG+꿔야/VV+EC+겠다/VX+EP+EF+잘/MAG+자/IC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 웅 키키 아쉬운 대로 국내 여행이라도 가자 키키 잘자요르~",
+            "norm_text": "웅 키키 아쉬운 대로 국내 여행이라도 가자 키키 잘자요르~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+키/NNG+키/XSV+ETN+아쉬운/VA+ETM+대로/NNB+국내/NNG+여행/NNG+이/VCP+라도/EC+가/JKS+자키/NNG+키/XSV+ETN+잘/MAG+자요/NNG+르/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

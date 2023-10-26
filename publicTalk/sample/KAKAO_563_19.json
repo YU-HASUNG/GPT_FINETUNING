@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25204,
+    "name": "KAKAO_563_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160121077888/KAKAO_563_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160121077888/KAKAO_563_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31650,
+      "filename": "KAKAO_563_19.txt",
+      "title": "KAKAO_563_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 577,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 577,
+        "word_size": 173,
+        "text": "1 : 요즘 핸드폰으로 영상 많이 보던데 뭐 보는 거야~?\n2 : 나는 유튜브를 애용하고 있어\n1 : 유투브로 뭐 보는데~? 그러고 보니까 요즘 유투브로도 TV프로그램 볼 수 있더라 하하\n2 : 요즘 재미있는 유튜브 영상들이 많이 있더라고 뉴스도 보구 여행하는 것도 보구\n1 : 요즘 애들은 TV안보고 다 핸드폰으로 영상 보는 것 같더니 이유가 있었구나...\n2 : 요즘은 여행 유튜브를 보구 대리 만족을 하는 사람이 많은 거 같더라\n1 : 아~ 여행을 못 가니까... 그럼 너는 TV프로그램 중에는 보는 거 없어~?\n2 : 나는 엄마랑 골프를 보는 중이야\n1 : 아 요즘에 골프 관련된 예능이나 프로그램들이 많이 생겼더라?\n2 : 나도 폼은 프로 선수랑 비슷하거든\n1 : 키키 오 TV를 통한 간접 경험으로 배운 거야? 키키\n2 : 엄마 아빠의 골프 강의도 도움이 됐지\n1 : 하하 그러고 보니까 너가 집에서 TV를 찾아서 보는 건 못 봤네 요즘 재밌는 프로그램도 많이 한다던데 하하\n2 : 요즘은 유튜브를 많이 보는 거 같아\n1 : 하긴 요즘 TV에서 하는 게 다 유투브에도 있더라고 하하\n2 : 응 편집해서 재미있는 부분만 보여줘서 시간 아끼는 기분이야",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 핸드폰으로 영상 많이 보던데 뭐 보는 거야~?",
+            "norm_text": "요즘 핸드폰으로 영상 많이 보던데 뭐 보는 거야~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+핸드폰/NNG+으로/JKB+영상/NNG+많이/MAG+보/VV+던데/EC+뭐/IC+보/VV+는/ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 유튜브를 애용하고 있어",
+            "norm_text": "나는 유튜브를 애용하고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+유튜브/NNP+를/JKO+애용/NNG+하/XSV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 유투브로 뭐 보는데~? 그러고 보니까 요즘 유투브로도 TV프로그램 볼 수 있더라 하하",
+            "norm_text": "유투브로 뭐 보는데~? 그러고 보니까 요즘 유투브로도 TV프로그램 볼 수 있더라 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "유투/NNP+브/NNP+로/JKB+뭐/IC+보/VV+는데/EC+~/SY+그러/VV+고/EC+보/VX+니까/EC+요즘/MAG+유투/NNP+브로/NNP+도/JX+TV/SL+프로그램/NNG+볼/VV+ETM+수/NNB+있/VV+더라/EC+하하/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 요즘 재미있는 유튜브 영상들이 많이 있더라고 뉴스도 보구 여행하는 것도 보구",
+            "norm_text": "요즘 재미있는 유튜브 영상들이 많이 있더라고 뉴스도 보구 여행하는 것도 보구",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/MAG+재미있/VA+는/ETM+유튜브/NNP+영상/NNG+들/XSN+이/JKS+많이/MAG+있/VA+더라고/EC+뉴스/NNG+도/JX+보/VV+구/EC+여행/NNG+하/XSV+는/ETM+것/NNB+도/JX+보/VV+구/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 요즘 애들은 TV안보고 다 핸드폰으로 영상 보는 것 같더니 이유가 있었구나...",
+            "norm_text": "요즘 애들은 TV안보고 다 핸드폰으로 영상 보는 것 같더니 이유가 있었구나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+애/NNG+들/XSN+은/JX+TV/SL+안/MAG+보/VV+고/EC+다/MAG+핸드폰/NNG+으로/JKB+영상/NNG+보/VV+는/ETM+것/NNB+같/VA+더니/EC+이유/NNG+가/JKS+있/VA+었/EP+구나/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요즘은 여행 유튜브를 보구 대리 만족을 하는 사람이 많은 거 같더라",
+            "norm_text": "요즘은 여행 유튜브를 보구 대리 만족을 하는 사람이 많은 거 같더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+여행/NNG+유튜브/NNP+를/JKO+보/VV+구/EC+대리/NNG+만족/NNG+을/JKO+하/VV+는/ETM+사람/NNG+이/JKS+많/VA+은/ETM+거/NNB+같/VA+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아~ 여행을 못 가니까... 그럼 너는 TV프로그램 중에는 보는 거 없어~?",
+            "norm_text": "아~ 여행을 못 가니까... 그럼 너는 TV프로그램 중에는 보는 거 없어~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+~/SY+여행/NNG+을/JKO+못/MAG+가/VV+니까/EC+./SY+./SY+그럼/MAJ+너/NP+는/JX+TV/SL+프로그램/NNG+중/NNB+에/JKB+는/JX+보/VV+는/ETM+거/NNB+없/VA+어/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나는 엄마랑 골프를 보는 중이야",
+            "norm_text": "나는 엄마랑 골프를 보는 중이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+엄마/NNG+랑/JKB+골프/NNG+를/JKO+보/VV+는/ETM+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 요즘에 골프 관련된 예능이나 프로그램들이 많이 생겼더라?",
+            "norm_text": "아 요즘에 골프 관련된 예능이나 프로그램들이 많이 생겼더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+요즘/NNG+에/JKB+골프/NNG+관련/NNG+된/XSV+ETM+예능/NNG+이나/JC+프로그램/NNG+들/XSN+이/JKS+많이/MAG+생겼/VV+EP+더라/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 폼은 프로 선수랑 비슷하거든",
+            "norm_text": "나도 폼은 프로 선수랑 비슷하거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+폼/NNG+은/JX+프로/NNG+선수/NNG+랑/JC+비슷/XR+하/XSA+거든/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 오 TV를 통한 간접 경험으로 배운 거야? 키키",
+            "norm_text": "키키 오 TV를 통한 간접 경험으로 배운 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+오/EC+TV/SL+를/JKO+통한/VV+ETM+간접/NNG+경험/NNG+으로/JKB+배운/VV+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 엄마 아빠의 골프 강의도 도움이 됐지",
+            "norm_text": "엄마 아빠의 골프 강의도 도움이 됐지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+아빠/NNG+의/JKG+골프/NNG+강의/NNG+도/JX+도움/NNG+이/JKS+됐/VV+EP+지/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하하 그러고 보니까 너가 집에서 TV를 찾아서 보는 건 못 봤네 요즘 재밌는 프로그램도 많이 한다던데 하하",
+            "norm_text": "하하 그러고 보니까 너가 집에서 TV를 찾아서 보는 건 못 봤네 요즘 재밌는 프로그램도 많이 한다던데 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+그러/VV+고/EC+보/VX+니까/EC+너/NP+가/JKS+집/NNG+에서/JKB+TV/SL+를/JKO+찾/VV+아서/EC+보/VX+는/ETM+건/NNB+JX+못/MAG+봤/VV+EP+네/EF+요즘/MAG+재밌/VA+는/ETM+프로그램/NNG+도/JX+많이/MAG+한다던데/VV+EC+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 요즘은 유튜브를 많이 보는 거 같아",
+            "norm_text": "요즘은 유튜브를 많이 보는 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+유튜브/NNP+를/JKO+많이/MAG+보/VV+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 하긴 요즘 TV에서 하는 게 다 유투브에도 있더라고 하하",
+            "norm_text": "하긴 요즘 TV에서 하는 게 다 유투브에도 있더라고 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하긴/MAJ+요즘/NNG+TV/SL+에서/JKB+하/VV+는/ETM+게/NNB+JKS+다/MAG+유투/NNP+브/NNP+에/JKB+도/JX+있/VA+더라고/EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 편집해서 재미있는 부분만 보여줘서 시간 아끼는 기분이야",
+            "norm_text": "응 편집해서 재미있는 부분만 보여줘서 시간 아끼는 기분이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+편집/NNG+해서/XSV+EC+재미있/VA+는/ETM+부분/NNG+만/JX+보여/VV+EC+줘서/VX+EC+시간/NNG+아끼/VV+는/ETM+기분/NNG+이/VCP+야/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

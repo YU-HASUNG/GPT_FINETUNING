@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 71534,
+    "name": "KAKAO_807_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172130097340/KAKAO_807_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172130097340/KAKAO_807_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39065,
+      "filename": "KAKAO_807_12.txt",
+      "title": "KAKAO_807_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 800,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 800,
+        "word_size": 245,
+        "text": "1 : 나는 한 번도 패키지 해본 적 없는데 우리 엄마는 패키지로 세계여행을 하고 다니셔 키키\n2 : 난 패키지 별로 안 좋아하는데 자유여행처럼 여행 전에 딱히 준비하는 게 없어서 진짜 편한 게 패키지 여행 매력 ㅠ\n2 : 그래서 어머니들이 좋아하시나 봥\n1 : 키키 하긴 그렇겠다 근데 음식점이 정해져 있다는 게 내가 젤 단점으로 뽑는 거\n2 : 그치 우리처럼 여행에서 먹는 게 제일 중요한 사람들한테 그건 절대 용납할 수 없지 키키\n1 : 아 근데 당일투어 가이드 고용하는 건 진짜 추천이야\n2 : 오 해외여행 갔을 때 당일투어 해본 적 있어?\n1 : 엉엉 필리핀 가서 해상투어 취소돼서 급하게 가이드 구해서 육상투어 했는데 넘나 만족쓰~\n2 : 나도 나중에 필리핀 여행 가게 되면 참고하게쓰 키키\n2 : 아 나도 호주 여행 갔을 때 일일투어 해봤는데 호주는 운전을 오래해서 움직여야 하는 곳이 많아서 가이드가 운전해주니까 넘 편하드랑\n1 : 오 맞아 누가 운전해주는 여행이 가장 꿀인 듯 대신 돈이 들지\n2 : 그건 그래 키키 근데 생각해보면 여행은 돈을 많이 쓸수록 편하고 쾌적한 여행이 되는 거 같아 키키\n1 : 근데 한국에서 해외여행 할 때처럼 쓰면 만족감 해외여행보다 최상이지 않을까\n2 : 키햐 하루에 몇십 몇 백씩 쓰는 인생이면 어디서든 최고지 키키\n1 : 이번에 너랑 서울 여행 꼭 가고 싶다\n2 : 나도 벌써 기대된다구 같이 갈 수 있었으면 좋겠당!\n2 : 목포 친구도 같이 가고 싶은데 셋이서 시간 맞추기가 좀 힘들겠지 ㅠㅠ\n1 : 키키 흠 뭔가 될 것 같기도? 왜냐면 서울 좋아하는 친구자나\n2 : 그런가? 그럼 일단 물어보기라도 해볼까?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나는 한 번도 패키지 해본 적 없는데 우리 엄마는 패키지로 세계여행을 하고 다니셔 키키",
+            "norm_text": "나는 한 번도 패키지 해본 적 없는데 우리 엄마는 패키지로 세계여행을 하고 다니셔 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+한/MM+번/NNBC+도/JX+패키지/NNG+해/XSV+EC+본/VX+ETM+적/NNB+없/VA+는데/EC+우리/NP+엄마/NNG+는/JX+패키지/NNG+로/JKB+세계/NNG+여행/NNG+을/JKO+하/VV+고/EC+다니/VV+셔/EP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 패키지 별로 안 좋아하는데 자유여행처럼 여행 전에 딱히 준비하는 게 없어서 진짜 편한 게 패키지 여행 매력 ㅠ",
+            "norm_text": "난 패키지 별로 안 좋아하는데 자유여행처럼 여행 전에 딱히 준비하는 게 없어서 진짜 편한 게 패키지 여행 매력 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+패키지/NNG+별로/MAG+안/MAG+좋아하/VV+는데/EC+자유/NNG+여행/NNG+처럼/JKB+여행/NNG+전/NNG+에/JKB+딱히/MAG+준비/NNG+하/XSV+는/ETM+게/NNB+JKS+없/VA+어서/EC+진짜/MAG+편한/VA+ETM+게/NNB+JKS+패키지여행/NNG+매력/NNG+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 그래서 어머니들이 좋아하시나 봥",
+            "norm_text": "그래서 어머니들이 좋아하시나 봥",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+어머니/NNG+들/XSN+이/JKS+좋/VA+아/EC+하/VX+시/EP+나봥/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 하긴 그렇겠다 근데 음식점이 정해져 있다는 게 내가 젤 단점으로 뽑는 거",
+            "norm_text": "키키 하긴 그렇겠다 근데 음식점이 정해져 있다는 게 내가 젤 단점으로 뽑는 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+긴/ETN+JX+그렇/VA+겠/EP+다/EF+근데/MAJ+음식점/NNG+이/JKS+정해져/VV+EC+VX+EC+있/VX+다는/ETM+게/NNB+JKS+내/NP+가/JKS+젤/MAG+단점/NNG+으로/JKB+뽑/VV+는/ETM+거/NNB"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그치 우리처럼 여행에서 먹는 게 제일 중요한 사람들한테 그건 절대 용납할 수 없지 키키",
+            "norm_text": "그치 우리처럼 여행에서 먹는 게 제일 중요한 사람들한테 그건 절대 용납할 수 없지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+우리/NP+처럼/JKB+여행/NNG+에서/JKB+먹/VV+는/ETM+게/NNB+JKS+제일/MAG+중요/NNG+한/XSA+ETM+사람/NNG+들/XSN+한테/JKB+그건/NP+JX+절대/MAG+용납/NNG+할/XSV+ETM+수/NNB+없/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 근데 당일투어 가이드 고용하는 건 진짜 추천이야",
+            "norm_text": "아 근데 당일투어 가이드 고용하는 건 진짜 추천이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+근데/MAJ+당일/NNG+투어/NNG+가이드/NNG+고용/NNG+하/XSV+는/ETM+건/NNB+JX+진짜/MAG+추천/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오 해외여행 갔을 때 당일투어 해본 적 있어?",
+            "norm_text": "오 해외여행 갔을 때 당일투어 해본 적 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+해외여행/NNG+갔/VV+EP+을/ETM+때/NNG+당일/NNG+투어/NNG+해/XSV+EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 엉엉 필리핀 가서 해상투어 취소돼서 급하게 가이드 구해서 육상투어 했는데 넘나 만족쓰~",
+            "norm_text": "엉엉 필리핀 가서 해상투어 취소돼서 급하게 가이드 구해서 육상투어 했는데 넘나 만족쓰~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉엉필리핀가서해상투어취소돼서급하게가이드구해서육상투어했는데넘나만족쓰/UNKNOWN+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나도 나중에 필리핀 여행 가게 되면 참고하게쓰 키키",
+            "norm_text": "나도 나중에 필리핀 여행 가게 되면 참고하게쓰 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+나중/NNG+에/JKB+필리핀/NNP+여행/NNG+가게/NNG+되/XSV+면/EC+참고/NNG+하/XSV+게/EC+쓰키/NNP+키/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 나도 호주 여행 갔을 때 일일투어 해봤는데 호주는 운전을 오래해서 움직여야 하는 곳이 많아서 가이드가 운전해주니까 넘 편하드랑",
+            "norm_text": "아 나도 호주 여행 갔을 때 일일투어 해봤는데 호주는 운전을 오래해서 움직여야 하는 곳이 많아서 가이드가 운전해주니까 넘 편하드랑",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나/NP+도/JX+호주/NNP+여행/NNG+갔/VV+EP+을/ETM+때/NNG+일/NR+일/NNBC+투어/NNG+해/XSV+EC+봤/VX+EP+는데/EC+호주/NNP+는/JX+운전/NNG+을/JKO+오래/MAG+해서/VV+EC+움직여야/VV+EC+하/VV+는/ETM+곳/NNG+이/JKS+많/VA+아서/EC+가이드/NNG+가/JKS+운전/NNG+해/XSV+EC+주/VX+니까/EC+넘/MAG+편하/VA+드랑/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 맞아 누가 운전해주는 여행이 가장 꿀인 듯 대신 돈이 들지",
+            "norm_text": "오 맞아 누가 운전해주는 여행이 가장 꿀인 듯 대신 돈이 들지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+맞/VV+아/EC+누가/NP+JKS+운전/NNG+해/XSV+EC+주/VX+는/ETM+여행/NNG+이/JKS+가장/MAG+꿀/NNG+인/VCP+ETM+듯/NNB+대신/NNG+돈/NNG+이/JKS+들/VV+지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그건 그래 키키 근데 생각해보면 여행은 돈을 많이 쓸수록 편하고 쾌적한 여행이 되는 거 같아 키키",
+            "norm_text": "그건 그래 키키 근데 생각해보면 여행은 돈을 많이 쓸수록 편하고 쾌적한 여행이 되는 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그래/VA+EC+키/NNG+키/XSV+ETN+근데/MAJ+생각/NNG+해/XSV+EC+보/VX+면/EC+여행/NNG+은/JX+돈/NNG+을/JKO+많이/MAG+쓸수록/VV+EC+편하/VA+고/EC+쾌적/XR+한/XSA+ETM+여행/NNG+이/JKS+되/VV+는/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 한국에서 해외여행 할 때처럼 쓰면 만족감 해외여행보다 최상이지 않을까",
+            "norm_text": "근데 한국에서 해외여행 할 때처럼 쓰면 만족감 해외여행보다 최상이지 않을까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+한국/NNP+에서/JKB+해외여행/NNG+할/XSV+ETM+때/NNG+처럼/JKB+쓰/VV+면/EC+만족감/NNG+해외여행/NNG+보다/JKB+최상/NNG+이/VCP+지/EC+않/VX+을까/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키햐 하루에 몇십 몇 백씩 쓰는 인생이면 어디서든 최고지 키키",
+            "norm_text": "키햐 하루에 몇십 몇 백씩 쓰는 인생이면 어디서든 최고지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+햐/IC+하루/NNG+에/JKB+몇/MM+십/NR+몇/NR+백/NR+씩/XSN+쓰/VV+는/ETM+인생/NNG+이/VCP+면/EC+어디/NP+서/JKB+든/VCP+EC+최고/NNG+지키/NNP+키/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 이번에 너랑 서울 여행 꼭 가고 싶다",
+            "norm_text": "이번에 너랑 서울 여행 꼭 가고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+너/NP+랑/JC+서울/NNP+여행/NNG+꼭/MAG+가/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나도 벌써 기대된다구 같이 갈 수 있었으면 좋겠당!",
+            "norm_text": "나도 벌써 기대된다구 같이 갈 수 있었으면 좋겠당!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+벌써/MAG+기대/NNG+된다구/XSV+EC+같이/MAG+갈/VV+ETM+수/NNB+있/VV+었/EP+으면/EC+좋/VA+겠/EP+당/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 목포 친구도 같이 가고 싶은데 셋이서 시간 맞추기가 좀 힘들겠지 ㅠㅠ",
+            "norm_text": "목포 친구도 같이 가고 싶은데 셋이서 시간 맞추기가 좀 힘들겠지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "목포/NNP+친구/NNG+도/JX+같이/MAG+가/VV+고/EC+싶/VX+은데/EC+셋/NR+이/XSN+서/JKS+시간/NNG+맞추/VV+기/ETN+가/JKS+좀/MAG+힘들/VA+겠/EP+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 흠 뭔가 될 것 같기도? 왜냐면 서울 좋아하는 친구자나",
+            "norm_text": "키키 흠 뭔가 될 것 같기도? 왜냐면 서울 좋아하는 친구자나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+흠/IC+뭔가/NP+VCP+EC+될/VV+ETM+것/NNB+같/VA+기/ETN+도/JX+왜냐면/MAJ+서울/NNP+좋/VA+아/EC+하/VV+는/ETM+친구/NNG+자나/NNG"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그런가? 그럼 일단 물어보기라도 해볼까?",
+            "norm_text": "그런가? 그럼 일단 물어보기라도 해볼까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런가/VA+EF+그럼/MAJ+일단/MAG+물/VV+어/EC+보/VX+기/ETN+라도/VCP+EC+해/VV+EC+볼까/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

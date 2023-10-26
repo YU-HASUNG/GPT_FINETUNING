@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24290,
+    "name": "KAKAO_532_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150934057212/KAKAO_532_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150934057212/KAKAO_532_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29599,
+      "filename": "KAKAO_532_08.txt",
+      "title": "KAKAO_532_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 424,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 424,
+        "word_size": 128,
+        "text": "1 : 친구 결혼식 잘 다녀옴?\n2 : 응응 신라호텔 대박이더라...\n1 : 그치? 거기 호텔이 경관이랑 음식 맛있기로 소문났잖아.\n2 : 결혼식 하는 데 돈 얼마나 쓴 걸까?\n1 : 신라호텔에서 결혼식 하는 데 6천에서 8천까지 든다고 들었음.\n2 : 8천만 원이 든다고? 엄청나네 ㅠ\n1 : 응응 그게 기본이래.\n2 : 와... 나는 결혼식 어떡하냐... 벌써 걱정이다\n1 : 하긴... 결혼하는 비용이 요즘 장난 아니니까.\n2 : 너도 곧 결혼하잖아.\n2 : 준비 어떻게 하고 있어?\n1 : 말도 마... 지금 상견례 마치고 예산표 짜고 스케줄 짜는 중.\n2 : 느어어... 생각만 해도 골 때려\n1 : 응응 예산이 생각보다 많이 들어갈 거 같아... ㅠㅠ\n2 : 어디에 제일 많이 들어가?\n1 : 예식장에 비용이 많이 들어갈 거 같아...\n2 : 하... 열심히 돈 모아야겠다 ㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 친구 결혼식 잘 다녀옴?",
+            "norm_text": "친구 결혼식 잘 다녀옴?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친구/NNG+결혼식/NNG+잘/MAG+다녀옴/VV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 신라호텔 대박이더라...",
+            "norm_text": "응응 신라호텔 대박이더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "응/IC+응/IC+신라호텔/NNP+대박/NNG+이/VCP+더라/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그치? 거기 호텔이 경관이랑 음식 맛있기로 소문났잖아.",
+            "norm_text": "그치? 거기 호텔이 경관이랑 음식 맛있기로 소문났잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+거기/NP+호텔/NNG+이/JKS+경관/NNG+이랑/JKB+음식/NNG+맛있/VA+기/ETN+로/JKB+소문났/VV+EP+잖아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 결혼식 하는 데 돈 얼마나 쓴 걸까?",
+            "norm_text": "결혼식 하는 데 돈 얼마나 쓴 걸까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "결혼식/NNG+하/XSV+는/ETM+데/NNB+돈/NNG+얼마나/MAG+쓴/VV+ETM+걸까/NNB+VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 신라호텔에서 결혼식 하는 데 6천에서 8천까지 든다고 들었음.",
+            "norm_text": "신라호텔에서 결혼식 하는 데 6천에서 8천까지 든다고 들었음.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "신라호텔/NNP+에서/JKB+결혼식/NNG+하/XSV+는/ETM+데/NNB+6/SN+천/NR+에서/JKB+8/SN+천/NR+까지/JX+든다고들/VV+EC+XSN+었/EP+음/ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 8천만 원이 든다고? 엄청나네 ㅠ",
+            "norm_text": "8천만 원이 든다고? 엄청나네 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "8/SN+천만/NR+원/NNBC+이/JKS+든다고/VV+EC+?/SY+엄청나네ㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응응 그게 기본이래.",
+            "norm_text": "응응 그게 기본이래.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그게/NP+JKS+기본/NNG+이/VCP+래/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 와... 나는 결혼식 어떡하냐... 벌써 걱정이다",
+            "norm_text": "와... 나는 결혼식 어떡하냐... 벌써 걱정이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+나/NP+는/JX+결혼식/NNG+어떡/XR+하/XSA+냐/EF+./SY+벌써/MAG+걱정/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하긴... 결혼하는 비용이 요즘 장난 아니니까.",
+            "norm_text": "하긴... 결혼하는 비용이 요즘 장난 아니니까.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+./SY+결혼/NNG+하/XSV+는/ETM+비용/NNG+이/JKS+요즘/MAG+장난/NNG+아니/VCN+니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 너도 곧 결혼하잖아.",
+            "norm_text": "너도 곧 결혼하잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+도/JX+곧/MAG+결혼/NNG+하/XSV+잖아/EC+VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 준비 어떻게 하고 있어?",
+            "norm_text": "준비 어떻게 하고 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "준비/NNG+어떻게/MAG+하/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 말도 마... 지금 상견례 마치고 예산표 짜고 스케줄 짜는 중.",
+            "norm_text": "말도 마... 지금 상견례 마치고 예산표 짜고 스케줄 짜는 중.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "말/NNG+도/JX+마/VX+EF+./SY+지금/MAG+상견례/NNG+마치/VV+고/EC+예산표/NNG+짜/VV+고/EC+스케줄/NNG+짜/VV+는/ETM+중/NNB"
+          },
+          {
+            "id": 13,
+            "text": "2 : 느어어... 생각만 해도 골 때려",
+            "norm_text": "느어어... 생각만 해도 골 때려",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "느/VV+어/EF+어/IC+./SY+생각/NNG+만/JX+해도/VV+EC+골/NNG+때려/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응응 예산이 생각보다 많이 들어갈 거 같아... ㅠㅠ",
+            "norm_text": "응응 예산이 생각보다 많이 들어갈 거 같아... ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+예산/NNG+이/JKS+생각/NNG+보다/JKB+많이/MAG+들어갈/VV+ETM+거/NNB+같/VA+아/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 어디에 제일 많이 들어가?",
+            "norm_text": "어디에 제일 많이 들어가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+에/JKB+제일/MAG+많이/MAG+들어가/VV+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 예식장에 비용이 많이 들어갈 거 같아...",
+            "norm_text": "예식장에 비용이 많이 들어갈 거 같아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예식장/NNG+에/JKB+비용/NNG+이/JKS+많이/MAG+들어갈/VV+ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 하... 열심히 돈 모아야겠다 ㅠ",
+            "norm_text": "하... 열심히 돈 모아야겠다 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/IC+./SY+열심히/MAG+돈/NNG+모아야/VV+EC+겠다/VX+EP+EF+ㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

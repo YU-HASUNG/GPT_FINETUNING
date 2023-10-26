@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 20773,
+    "name": "KAKAO_471_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141357033491/KAKAO_471_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141357033491/KAKAO_471_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28095,
+      "filename": "KAKAO_471_05.txt",
+      "title": "KAKAO_471_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 724,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 724,
+        "word_size": 230,
+        "text": "1 : 언니 혹시 주변에 군인 없지? ㅠㅠ\n2 : 있어! 하하 이제 직업 군인들만이 주변에 있지...\n1 : 진짜? ㅠㅠ 나는 직업 군인이 주변에 없어!\n2 : 직업 군인 하다가 전역한 애들도 있고, 아직도 하고 있는 친구도 있는데 이야기 들을 때마다 참 군인들 대단하다 싶어 하하\n1 : 맞아 언니 ㅠㅠ 군인을 업으로 하는 건 정말 대단 한 거 같아!\n1 : 나는 주변에 군인이 없어서 얘기를 많이 못 들었어 ㅠㅠ\n2 : 나는 진짜 친한 친구가 여군이었는데 실감나게 들었었어!\n2 : 그럼 면회 같은 거 가본 적 없어?!\n1 : 웅 언니 나는 면회 안 가봤어!\n2 : 언니는 가봤어?\n2 : 응! 나 한 번 가봤는데 키키 친구가 하도 와 달라고 사정 해서 근데 진짜 좋더라\n1 : 키키 언니 어디로 면회 가봤어!?\n2 : 나 인천에 22사단인가? 거기 특수부대같은 거여서 면회 하는데 피자랑 막 편의점 이런 거 있어서 피자 먹고 왔어! 키키\n1 : 키키 오 진짜? 대박이네 피자 얘기하니까 피자 먹고 싶구만!\n2 : 아... 나도 어제 피자 사진 하나 봤는데 너무 맛있게 생긴 거야... 최애 음식 피자!\n1 : 언니 어떤 피자? 나는 치킨이 최애야 ㅠㅠ\n2 : 난 파파존스 피자가 일 순위야! 하하\n2 : 치킨도 맛있는데 그 토마토 소스 베이스로 하고 토핑은 없어도 치즈 듬뿍 있는 거!\n1 : 하하 오 언니! 역시 먹잘알\n1 : 날씨가 이래서 그런지 몸도 처지고 그러네 ㅜㅜ\n2 : 맞아 졸리다 하하 바람 좀 쐬고 와야겠어!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 혹시 주변에 군인 없지? ㅠㅠ",
+            "norm_text": "언니 혹시 주변에 군인 없지? ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+혹시/MAG+주변/NNG+에/JKB+군인/NNG+없/VA+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 있어! 하하 이제 직업 군인들만이 주변에 있지...",
+            "norm_text": "있어! 하하 이제 직업 군인들만이 주변에 있지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "있/VA+어/EF+하하/MAG+이제/MAG+직업/NNG+군인/NNG+들/XSN+만/JX+이/JKS+주변/NNG+에/JKB+있/VV+지/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 진짜? ㅠㅠ 나는 직업 군인이 주변에 없어!",
+            "norm_text": "진짜? ㅠㅠ 나는 직업 군인이 주변에 없어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+ㅠㅠ/UNKNOWN+나/NP+는/JX+직업/NNG+군인/NNG+이/JKS+주변/NNG+에/JKB+없/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 직업 군인 하다가 전역한 애들도 있고, 아직도 하고 있는 친구도 있는데 이야기 들을 때마다 참 군인들 대단하다 싶어 하하",
+            "norm_text": "직업 군인 하다가 전역한 애들도 있고, 아직도 하고 있는 친구도 있는데 이야기 들을 때마다 참 군인들 대단하다 싶어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "직업/NNG+군인/NNG+하/XSV+다가/EC+전역/NNG+한/XSA+ETM+애/NNG+들/XSN+도/JX+있/VA+고/EC+,/SC+아직/MAG+도/JX+하/VV+고/EC+있/VX+는/ETM+친구/NNG+도/JX+있/VA+는데/EC+이야기/NNG+들/XSN+을/JKO+때/NNG+마다/JX+참/MAG+군인/NNG+들/XSN+대단/XR+하/XSA+다/EC+싶/VX+어/EC+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 언니 ㅠㅠ 군인을 업으로 하는 건 정말 대단 한 거 같아!",
+            "norm_text": "맞아 언니 ㅠㅠ 군인을 업으로 하는 건 정말 대단 한 거 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+언니/NNG+ㅠㅠ/UNKNOWN+군인/NNG+을/JKO+업/NNG+으로/JKB+하/VV+는/ETM+건/NNB+JX+정말/MAG+대단/XR+한/XSA+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나는 주변에 군인이 없어서 얘기를 많이 못 들었어 ㅠㅠ",
+            "norm_text": "나는 주변에 군인이 없어서 얘기를 많이 못 들었어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+주변/NNG+에/JKB+군인/NNG+이/JKS+없/VA+어서/EC+얘기/NNG+를/JKO+많이/MAG+못/MAG+들/VV+었/EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나는 진짜 친한 친구가 여군이었는데 실감나게 들었었어!",
+            "norm_text": "나는 진짜 친한 친구가 여군이었는데 실감나게 들었었어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+진짜/MAG+친한/VA+ETM+친구/NNG+가/JKS+여군/NNG+이/VCP+었/EP+는데/EC+실감/NNG+나/VV+게/EC+들/VX+었었/EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 면회 같은 거 가본 적 없어?!",
+            "norm_text": "그럼 면회 같은 거 가본 적 없어?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+면회/NNG+같/VA+은/ETM+거/NNB+가/JKS+본/VV+ETM+적/NNB+없/VA+어/EC+?/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 웅 언니 나는 면회 안 가봤어!",
+            "norm_text": "웅 언니 나는 면회 안 가봤어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+언니/NNG+나/NP+는/JX+면회/NNG+안/MAG+가/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 언니는 가봤어?",
+            "norm_text": "언니는 가봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+가/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응! 나 한 번 가봤는데 키키 친구가 하도 와 달라고 사정 해서 근데 진짜 좋더라",
+            "norm_text": "응! 나 한 번 가봤는데 키키 친구가 하도 와 달라고 사정 해서 근데 진짜 좋더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+한/MM+번/NNBC+가/JKS+봤/VV+EP+는데/EC+키/NNG+키/NNG+친구/NNG+가/JKS+하도/MAG+와/VV+EC+달/VX+라고/EC+사정/NNG+해서/XSV+EC+근데/MAJ+진짜/MAG+좋/VA+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 언니 어디로 면회 가봤어!?",
+            "norm_text": "키키 언니 어디로 면회 가봤어!?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+언니/NNG+어디/NP+로/JKB+면회/NNG+가/JKS+봤/VV+EP+어/EC+!/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나 인천에 22사단인가? 거기 특수부대같은 거여서 면회 하는데 피자랑 막 편의점 이런 거 있어서 피자 먹고 왔어! 키키",
+            "norm_text": "나 인천에 22사단인가? 거기 특수부대같은 거여서 면회 하는데 피자랑 막 편의점 이런 거 있어서 피자 먹고 왔어! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나인/NR+천/NR+에/JKB+22/SN+사/NR+단/NNBC+인가/VCP+EF+거기/NP+특수/NNG+부대/NNG+같/VA+은/ETM+거/NNB+여서/VCP+EC+면회/NNG+하/XSV+는/ETM+데/NNB+피자/NNG+랑/JKB+막/NNG+편의점/NNG+이런/MM+거/NNB+있/VA+어서/EC+피자/NNG+먹/VV+고/EC+왔/VX+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 오 진짜? 대박이네 피자 얘기하니까 피자 먹고 싶구만!",
+            "norm_text": "키키 오 진짜? 대박이네 피자 얘기하니까 피자 먹고 싶구만!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EC+진짜/MAG+대박/NNG+이/JKS+네/MM+피자/NNG+얘기/NNG+하/XSV+니까/EC+피자/NNG+먹/VV+고/EC+싶/VX+구만/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아... 나도 어제 피자 사진 하나 봤는데 너무 맛있게 생긴 거야... 최애 음식 피자!",
+            "norm_text": "아... 나도 어제 피자 사진 하나 봤는데 너무 맛있게 생긴 거야... 최애 음식 피자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+나/NP+도/JX+어제/MAG+피자/NNG+사진/NNG+하/XSV+나/EC+봤/VX+EP+는데/EC+너무/MAG+맛있/VA+게/EC+생긴/VV+ETM+거/NNB+야/VCP+EF+./SY+최애/NNG+음식/NNG+피/VV+자/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 언니 어떤 피자? 나는 치킨이 최애야 ㅠㅠ",
+            "norm_text": "언니 어떤 피자? 나는 치킨이 최애야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+어떤/MM+피자/NNG+나/NP+는/JX+치킨/NNG+이/JKS+최애/NNG+야/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 난 파파존스 피자가 일 순위야! 하하",
+            "norm_text": "난 파파존스 피자가 일 순위야! 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+파파/NNP+존스/NNP+피자/NNG+가/JKS+일/NR+순위/NNG+야/VCP+EF+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 치킨도 맛있는데 그 토마토 소스 베이스로 하고 토핑은 없어도 치즈 듬뿍 있는 거!",
+            "norm_text": "치킨도 맛있는데 그 토마토 소스 베이스로 하고 토핑은 없어도 치즈 듬뿍 있는 거!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치킨/NNG+도/JX+맛있/VA+는데/EC+그/MM+토마토소스/NNG+베이스/NNG+로/JKB+하/VV+고/EC+토핑/NNG+은/JX+없/VA+어도/EC+치즈/NNG+듬뿍/MAG+있/VV+는/ETM+거/NNB"
+          },
+          {
+            "id": 19,
+            "text": "1 : 하하 오 언니! 역시 먹잘알",
+            "norm_text": "하하 오 언니! 역시 먹잘알",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+오/NR+언니/NNG+역시/MAJ+먹/VV+잘/ETM+알/NNG"
+          },
+          {
+            "id": 20,
+            "text": "1 : 날씨가 이래서 그런지 몸도 처지고 그러네 ㅜㅜ",
+            "norm_text": "날씨가 이래서 그런지 몸도 처지고 그러네 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "날씨/NNG+가/JKS+이래서/VV+EC+그런지/VA+EC+몸/NNG+도/JX+처지/VV+고/EC+그러/VV+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 맞아 졸리다 하하 바람 좀 쐬고 와야겠어!",
+            "norm_text": "맞아 졸리다 하하 바람 좀 쐬고 와야겠어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+졸리/VV+다/EC+하하/MAG+바람/NNG+좀/MAG+쐬/VV+고/EC+와야/VX+EC+VX+겠/EP+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

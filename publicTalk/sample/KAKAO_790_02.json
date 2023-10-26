@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 71572,
+    "name": "KAKAO_790_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150504061589/KAKAO_790_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150504061589/KAKAO_790_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38333,
+      "filename": "KAKAO_790_02.txt",
+      "title": "KAKAO_790_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 445,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 445,
+        "word_size": 141,
+        "text": "1 : 오빠~ 오빠 집이 몇 평이지?\n2 : 우리 집~? 아마 대략 13평 정도 될걸?\n1 : 그래~? 근데 사실 1평이 어느 정도인지 모르겠어 하하\n2 : 오빠가 알기로 1평이 대략 키 큰 사람 누울 수 있는 크기래!\n1 : 키 큰 사람이 누워?\n2 : 응응 하하 180 정도의 사람이 편하게 눕는 크기!\n1 : 오~ 그럼 1평만 해도 꽤 큰 거 아냐?\n2 : 응응 근데 보통 그냥 작은 원룸이 5~6평이래\n1 : 와... 그렇게 보니까 또 엄청 작네...\n2 : 맞아... 그리고 실제 사용하는 면적이랑 또 다르니까...\n1 : 오잉? 그건 왜 다른 거야?\n2 : 공급면적이라는건 베란다 테라스 이런 곳도 그냥 다 포함이래 하하\n1 : 아~ 야외인데도 그런 거 다 포함이구나...\n2 : 응응 하하 근데 평수는 왜?\n1 : 아니~ TV에서 나오는데 궁금했어 하하\n2 : 아~ 또 구해줘 홈즈 보고 있지?! 나도 봐야지~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~ 오빠 집이 몇 평이지?",
+            "norm_text": "오빠~ 오빠 집이 몇 평이지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+~/SY+오빠/NNG+집/NNG+이/JKS+몇/MM+평/NNBC+이/VCP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리 집~? 아마 대략 13평 정도 될걸?",
+            "norm_text": "우리 집~? 아마 대략 13평 정도 될걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+집/NNG+~/SY+아마/MAG+대략/MAG+13/SN+평/NNBC+정도/NNG+될걸/XSV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래~? 근데 사실 1평이 어느 정도인지 모르겠어 하하",
+            "norm_text": "그래~? 근데 사실 1평이 어느 정도인지 모르겠어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/VA+EC+~/SY+근데/MAJ+사실/MAG+1/SN+평/NNBC+이/JKS+어느/MM+정도/NNG+인지/VCP+EC+모르/VV+겠/EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오빠가 알기로 1평이 대략 키 큰 사람 누울 수 있는 크기래!",
+            "norm_text": "오빠가 알기로 1평이 대략 키 큰 사람 누울 수 있는 크기래!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오빠/NNG+가/JKS+알/VV+기/ETN+로/JKB+1/SN+평/NNBC+이/JKS+대략/MAG+키/NNG+큰/VA+ETM+사람/NNG+누울/VV+ETM+수/NNB+있/VV+는/ETM+크기/NNG+래/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키 큰 사람이 누워?",
+            "norm_text": "키 큰 사람이 누워?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+큰/VA+ETM+사람/NNG+이/JKS+누워/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응 하하 180 정도의 사람이 편하게 눕는 크기!",
+            "norm_text": "응응 하하 180 정도의 사람이 편하게 눕는 크기!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+하하/MAG+180/SN+정도/NNG+의/JKG+사람/NNG+이/JKS+편하/VA+게/EC+눕/VV+는/ETM+크기/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오~ 그럼 1평만 해도 꽤 큰 거 아냐?",
+            "norm_text": "오~ 그럼 1평만 해도 꽤 큰 거 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+그럼/MAJ+1/SN+평/NNBC+만/JX+해도/VV+EC+꽤/MAG+큰/VA+ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 근데 보통 그냥 작은 원룸이 5~6평이래",
+            "norm_text": "응응 근데 보통 그냥 작은 원룸이 5~6평이래",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+근데/MAJ+보통/NNG+그냥/MAG+작/VA+은/ETM+원룸/NNG+이/JKS+5/SN+~/SY+6/SN+평/NNBC+이래/NNB"
+          },
+          {
+            "id": 9,
+            "text": "1 : 와... 그렇게 보니까 또 엄청 작네...",
+            "norm_text": "와... 그렇게 보니까 또 엄청 작네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+그렇/VA+게/EC+보/VX+니까/EC+또/MAG+엄청/MAG+작/VA+네/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아... 그리고 실제 사용하는 면적이랑 또 다르니까...",
+            "norm_text": "맞아... 그리고 실제 사용하는 면적이랑 또 다르니까...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+./SY+그리고/MAJ+실제/NNG+사용/NNG+하/XSV+는/ETM+면적/NNG+이랑/JKB+또/MAG+다르/VA+니까/EC+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오잉? 그건 왜 다른 거야?",
+            "norm_text": "오잉? 그건 왜 다른 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오잉/NNP+그건/NP+JX+왜/MAG+다른/VA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 공급면적이라는건 베란다 테라스 이런 곳도 그냥 다 포함이래 하하",
+            "norm_text": "공급면적이라는건 베란다 테라스 이런 곳도 그냥 다 포함이래 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "공급/NNG+면적/NNG+이/VCP+라는/ETM+건/NNB+JX+베란다/NNG+테라스/NNG+이런/MM+곳/NNG+도/JX+그냥/MAG+다/MAG+포함/NNG+이래/NNB+하하/MAG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아~ 야외인데도 그런 거 다 포함이구나...",
+            "norm_text": "아~ 야외인데도 그런 거 다 포함이구나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+~/SY+야외/NNG+인데/VCP+EC+도/JX+그런/MM+거/NNB+다/MAG+포함/NNG+이/VCP+구나/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응응 하하 근데 평수는 왜?",
+            "norm_text": "응응 하하 근데 평수는 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+하하/MAG+근데/MAJ+평수/NNG+는/JX+왜/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니~ TV에서 나오는데 궁금했어 하하",
+            "norm_text": "아니~ TV에서 나오는데 궁금했어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+~/SY+TV/SL+에서/JKB+나오/VV+는데/EC+궁금/XR+했/XSA+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아~ 또 구해줘 홈즈 보고 있지?! 나도 봐야지~",
+            "norm_text": "아~ 또 구해줘 홈즈 보고 있지?! 나도 봐야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+~/SY+또/MAG+구해/VV+EC+줘/VX+EF+홈즈/NNP+보/VV+고/EC+있/VX+지/EF+!/SY+나/NP+도/JX+봐야지/VV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

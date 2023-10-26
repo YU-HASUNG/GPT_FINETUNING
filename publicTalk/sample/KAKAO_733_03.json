@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 38646,
+    "name": "KAKAO_733_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134550094152/KAKAO_733_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134550094152/KAKAO_733_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37433,
+      "filename": "KAKAO_733_03.txt",
+      "title": "KAKAO_733_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 594,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 594,
+        "word_size": 197,
+        "text": "1 : 아까 네일샵 갈 때 버스 타고 갔었어?\n2 : 아니 버스 타려고 했는데 늦어서 택시 탔어 돈 아까워 ㅠㅠ\n1 : 키키 ㄱ진짜 개 아깝다 우리 동네 버스 시간 거지 같애\n2 : 그치ㅠ 버스를 눈 앞에서 놓쳐 버렸다니까 근데 그 다음 버스가 30분 뒤에 온다는 거야\n1 : 헐 배차 간격 오지네요 버스는 내 인생에서 포기\n1 : 근데 우리 양산동 지하철 2호선 들어오는 거 아니?\n2 : 그런다고 하더라 근데 공사가 언제 끝날지 모른대\n1 : 헐 그래? 23년엔 끝나는 줄 알았드니 근데 그거 있음 시내 한방\n2 : 오 빨리 완공 되었으면 좋겠네\n2 : 근데 그 전에 새 차를 사고 싶어\n1 : 키키 ㄱ 오 니 생각 내 생각이야 난 현실에 맞춰 경차 사야지\n2 : 나도 첫 차는 욕심 안 부리고 중고로 작은 차 사려고\n1 : 키키 맞아 첫차는 스크래치 많을테니까 차 있음 거지 같은 위치인 우리 동네도 살만할 거야\n2 : 너는 차 있으면 강아지를 데리고 다니기도 훨씬 편하겠다 하하\n1 : 그치 그럼 너 데리고 같이 산책 다닐게\n2 : 그럼 첫째 강아지는 내가 담당할께 키키\n1 : 키키 그래 그럼 아랑이는 내가 케어할게 개꿀\n2 : 강아지를 데리고 근교로 나가서 노는 것도 좋을 꺼 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아까 네일샵 갈 때 버스 타고 갔었어?",
+            "norm_text": "아까 네일샵 갈 때 버스 타고 갔었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아까/MAG+네일/NNP+샵/NNP+갈/VV+ETM+때/NNG+버스/NNG+타/VV+고/EC+갔었/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 버스 타려고 했는데 늦어서 택시 탔어 돈 아까워 ㅠㅠ",
+            "norm_text": "아니 버스 타려고 했는데 늦어서 택시 탔어 돈 아까워 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+버스/NNG+타/VV+려고/EC+했/VX+EP+는데/EC+늦/VA+어서/EC+택시/NNG+탔/VV+EP+어/EC+돈/NNG+아까워/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 ㄱ진짜 개 아깝다 우리 동네 버스 시간 거지 같애",
+            "norm_text": "키키 ㄱ진짜 개 아깝다 우리 동네 버스 시간 거지 같애",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+ㄱ/NNG+진짜/MAG+개/NNG+아깝/VA+다/EF+우리/NP+동네/NNG+버스/NNG+시간/NNG+거지/NNG+같/VA+애/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그치ㅠ 버스를 눈 앞에서 놓쳐 버렸다니까 근데 그 다음 버스가 30분 뒤에 온다는 거야",
+            "norm_text": "그치ㅠ 버스를 눈 앞에서 놓쳐 버렸다니까 근데 그 다음 버스가 30분 뒤에 온다는 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+ㅠ/UNKNOWN+버스/NNG+를/JKO+눈앞/NNG+에서/JKB+놓쳐버렸/VV+EC+VX+EP+다니까/EC+근데/MAJ+그/MM+다음/NNG+버스/NNG+가/JKS+30/SN+분/NNBC+뒤/NNG+에/JKB+온다는/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 헐 배차 간격 오지네요 버스는 내 인생에서 포기",
+            "norm_text": "헐 배차 간격 오지네요 버스는 내 인생에서 포기",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헐/IC+배차/NNG+간격/NNG+오지/VV+네요/EF+버스/NNG+는/JX+내/NP+JKG+인생/NNG+에서/JKB+포기/NNG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 근데 우리 양산동 지하철 2호선 들어오는 거 아니?",
+            "norm_text": "근데 우리 양산동 지하철 2호선 들어오는 거 아니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+우리/NP+양산동/NNP+지하철/NNG+2/SN+호/NNBC+선/NNG+들어오/VV+는/ETM+거/NNB+아니/VCN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그런다고 하더라 근데 공사가 언제 끝날지 모른대",
+            "norm_text": "그런다고 하더라 근데 공사가 언제 끝날지 모른대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런다고/VV+EC+하/VX+더라/EF+근데/MAJ+공사/NNG+가/JKS+언제/MAG+끝날지/VV+EC+모른대/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 헐 그래? 23년엔 끝나는 줄 알았드니 근데 그거 있음 시내 한방",
+            "norm_text": "헐 그래? 23년엔 끝나는 줄 알았드니 근데 그거 있음 시내 한방",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헐/VV+JKO+그래/VV+EC+?/SY+23/SN+년/NNBC+엔/JKB+JX+끝/NNG+나/VV+는/ETM+줄/NNB+알/VV+았/EP+드니/EC+근데/MAJ+그거/NP+있/VV+음/ETN+시내/NNG+한/XSA+ETM+방/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 오 빨리 완공 되었으면 좋겠네",
+            "norm_text": "오 빨리 완공 되었으면 좋겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+빨리/MAG+완공/NNG+되/XSV+었/EP+으면/EC+좋/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 그 전에 새 차를 사고 싶어",
+            "norm_text": "근데 그 전에 새 차를 사고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그/MM+전/NNG+에/JKB+새/MM+차/NNG+를/JKO+사/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 ㄱ 오 니 생각 내 생각이야 난 현실에 맞춰 경차 사야지",
+            "norm_text": "키키 ㄱ 오 니 생각 내 생각이야 난 현실에 맞춰 경차 사야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+ㄱ/NNG+오니/NNG+생각/NNG+내/NNB+생각/NNG+이/VCP+야/EC+난/VX+ETM+현실/NNG+에/JKB+맞춰/VV+EC+경차/NNG+사/VV+야지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나도 첫 차는 욕심 안 부리고 중고로 작은 차 사려고",
+            "norm_text": "나도 첫 차는 욕심 안 부리고 중고로 작은 차 사려고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+첫차/NNG+는/JX+욕심/NNG+안/MAG+부리/VV+고/EC+중고/NNG+로/JKB+작/VA+은/ETM+차/NNG+사/VV+려고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 맞아 첫차는 스크래치 많을테니까 차 있음 거지 같은 위치인 우리 동네도 살만할 거야",
+            "norm_text": "키키 맞아 첫차는 스크래치 많을테니까 차 있음 거지 같은 위치인 우리 동네도 살만할 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+첫차/NNG+는/JX+스크래치/NNG+많/VA+을/ETM+테/NNB+VCP+니까/EC+차/VV+EC+있/VX+음/ETN+거/NNB+지/VCP+EF+같/VA+은/ETM+위치/NNG+인/VCP+ETM+우리/NP+동네/NNG+도/JX+살만/NNG+할/XSV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 너는 차 있으면 강아지를 데리고 다니기도 훨씬 편하겠다 하하",
+            "norm_text": "너는 차 있으면 강아지를 데리고 다니기도 훨씬 편하겠다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "너/NP+는/JX+차/VV+EC+있/VX+으면/EC+강아지/NNG+를/JKO+데리/VV+고/EC+다니/VV+기/ETN+도/JX+훨씬/MAG+편하/VA+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그치 그럼 너 데리고 같이 산책 다닐게",
+            "norm_text": "그치 그럼 너 데리고 같이 산책 다닐게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+그럼/MAJ+너/NP+데리/VV+고/EC+같이/MAG+산책/NNG+다닐/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럼 첫째 강아지는 내가 담당할께 키키",
+            "norm_text": "그럼 첫째 강아지는 내가 담당할께 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+첫째/NR+강아지/NNG+는/JX+내/NP+가/JKS+담당/NNG+할께/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 그래 그럼 아랑이는 내가 케어할게 개꿀",
+            "norm_text": "키키 그래 그럼 아랑이는 내가 케어할게 개꿀",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/IC+그럼/MAJ+아랑/NNG+이/NP+는/JX+내/NP+가/JKS+케어/NNG+할/XSV+ETM+게/NNB+JKS+개꿀/NNG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 강아지를 데리고 근교로 나가서 노는 것도 좋을 꺼 같아",
+            "norm_text": "강아지를 데리고 근교로 나가서 노는 것도 좋을 꺼 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "강아지/NNG+를/JKO+데리/VV+고/EC+근교/NNG+로/JKB+나가/VV+서/EC+노/VX+는/ETM+것/NNB+도/JX+좋/VA+을/ETM+꺼/NNB+VCP+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 44719,
+    "name": "KAKAO_783_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141009091515/KAKAO_783_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141009091515/KAKAO_783_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37696,
+      "filename": "KAKAO_783_06.txt",
+      "title": "KAKAO_783_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 461,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 461,
+        "word_size": 148,
+        "text": "1 : 엄마 나 컴활 합격했어!\n2 : 잘했어~ 엄마는 합격할 줄 알았어\n1 : 근데 2급은 쉬워서 다 합격한대\n2 : 그래도~ 너는 어렸을 때부터 컴퓨터를 잘해서 합격할 줄 알았어\n1 : 하긴 이번에 필기 준비할 때도 초등학교 때 워드프로세서 했던 거 기억 나더라\n2 : 넌 진짜 내 딸이지만 기억력이 좋아\n1 : 쓰잘떼기 없는 것만 기억력이 좋아\n2 : 기억나? 너가 하기 싫다는 거 엄마가 억지로 보냈는데 결국엔 좋잖아\n1 : 아니 근데 그땐 진짜로 워드프로세서 다니기 싫었어 키키\n2 : 그래도 지금 빛을 보잖아\n1 : 그러긴 하지 키키 그래도 다시 돌아가면 워드프로세서는 안 할 듯\n2 : 그래도 그때 해 놔서 중학생 때 가산점도 받았잖아\n1 : 그 자격증 지금도 사용은 가능해\n2 : 그래? 10년도 더 된 건데도?\n1 : 엉 키키 근데 거기 사진 진짜 귀엽더라 키키\n1 : 자격증에 나 초등학생 때 얼굴이야\n2 : 엄마도 한 번 보여줘 봐~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 나 컴활 합격했어!",
+            "norm_text": "엄마 나 컴활 합격했어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+나/JC+컴/NNP+활/NNG+합격/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 잘했어~ 엄마는 합격할 줄 알았어",
+            "norm_text": "잘했어~ 엄마는 합격할 줄 알았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+했/VV+EP+어/EC+~/SY+엄마/NNG+는/JX+합격/NNG+할/XSV+ETM+줄/NNB+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 근데 2급은 쉬워서 다 합격한대",
+            "norm_text": "근데 2급은 쉬워서 다 합격한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+2/SN+급/NNG+은/JX+쉬워서/VA+EC+다/MAG+합격/NNG+한대/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그래도~ 너는 어렸을 때부터 컴퓨터를 잘해서 합격할 줄 알았어",
+            "norm_text": "그래도~ 너는 어렸을 때부터 컴퓨터를 잘해서 합격할 줄 알았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+~/SY+너/NP+는/JX+어렸/VA+EP+을/ETM+때/NNG+부터/JX+컴퓨터/NNG+를/JKO+잘/MAG+해서/VV+EC+합격/NNG+할/XSV+ETM+줄/NNB+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 하긴 이번에 필기 준비할 때도 초등학교 때 워드프로세서 했던 거 기억 나더라",
+            "norm_text": "하긴 이번에 필기 준비할 때도 초등학교 때 워드프로세서 했던 거 기억 나더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하긴/MAJ+이번/NNG+에/JKB+필기/NNG+준비/NNG+할/XSV+ETM+때/NNG+도/JX+초등/NNG+학교/NNG+때/NNG+워드/NNG+프로세서/NNG+했/XSV+EP+던/ETM+거/NNB+기억나/VV+더라/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 넌 진짜 내 딸이지만 기억력이 좋아",
+            "norm_text": "넌 진짜 내 딸이지만 기억력이 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넌/NP+JX+진짜/MAG+내/NP+JKG+딸/NNG+이/VCP+지만/EC+기억력/NNG+이/JKS+좋/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 쓰잘떼기 없는 것만 기억력이 좋아",
+            "norm_text": "쓰잘떼기 없는 것만 기억력이 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쓰/IC+잘/MAG+떼/VV+기/ETN+없/VA+는/ETM+것/NNB+만/JX+기억력/NNG+이/JKS+좋/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 기억나? 너가 하기 싫다는 거 엄마가 억지로 보냈는데 결국엔 좋잖아",
+            "norm_text": "기억나? 너가 하기 싫다는 거 엄마가 억지로 보냈는데 결국엔 좋잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기억나/VV+EF+너/NP+가/JKS+하/VV+기/ETN+싫/VA+다는/ETM+거/NNB+엄마/NNG+가/JKS+억지로/MAG+보냈/VV+EP+는데/EC+결국/NNG+엔/JKB+JX+좋/VA+잖아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아니 근데 그땐 진짜로 워드프로세서 다니기 싫었어 키키",
+            "norm_text": "아니 근데 그땐 진짜로 워드프로세서 다니기 싫었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+근데/MAJ+그/MM+땐/NNG+JX+진짜/NNG+로/JKB+워드/NNG+프로세서/NNG+다니/VV+기/ETN+싫/VA+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래도 지금 빛을 보잖아",
+            "norm_text": "그래도 지금 빛을 보잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "그래도/MAJ+지금/MAG+빛/NNG+을/JKO+보/VV+잖아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러긴 하지 키키 그래도 다시 돌아가면 워드프로세서는 안 할 듯",
+            "norm_text": "그러긴 하지 키키 그래도 다시 돌아가면 워드프로세서는 안 할 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+긴/ETN+JX+하/VX+지/EC+키/NNG+키/XSV+ETN+그래도/MAJ+다시/MAG+돌아가/VV+면/EC+워드/NNG+프로세서/NNG+는/JX+안/MAG+할/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래도 그때 해 놔서 중학생 때 가산점도 받았잖아",
+            "norm_text": "그래도 그때 해 놔서 중학생 때 가산점도 받았잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+그때/NNG+해놔서/XSA+EC+VX+EC+중학생/NNG+때/NNG+가/JKS+산점/NNG+도/JX+받/VV+았/EP+잖아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그 자격증 지금도 사용은 가능해",
+            "norm_text": "그 자격증 지금도 사용은 가능해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+자격증/NNG+지금/NNG+도/JX+사용/NNG+은/JX+가능/NNG+해/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래? 10년도 더 된 건데도?",
+            "norm_text": "그래? 10년도 더 된 건데도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/VA+EC+?/SY+10/SN+년/NNBC+도/JX+더/MAG+된/VV+ETM+건데도/NNB+VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 엉 키키 근데 거기 사진 진짜 귀엽더라 키키",
+            "norm_text": "엉 키키 근데 거기 사진 진짜 귀엽더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+키/NNG+키/XSV+ETN+근데/MAJ+거기/NP+사진/NNG+진짜/MAG+귀엽/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 자격증에 나 초등학생 때 얼굴이야",
+            "norm_text": "자격증에 나 초등학생 때 얼굴이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자격증/NNG+에/JKB+나/JX+초등학생/NNG+때/NNG+얼굴/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 엄마도 한 번 보여줘 봐~",
+            "norm_text": "엄마도 한 번 보여줘 봐~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "엄마/NNG+도/JX+한/MM+번/NNBC+보여/VV+EC+줘/VX+EC+봐/VX+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

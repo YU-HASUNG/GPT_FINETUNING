@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 24083,
+    "name": "KAKAO_589_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822030269/KAKAO_589_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822030269/KAKAO_589_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31468,
+      "filename": "KAKAO_589_17.txt",
+      "title": "KAKAO_589_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 624,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 624,
+        "word_size": 203,
+        "text": "1 : 나 요즘 눈이 너무 안 좋아서 앞이 잘 안 보여...ㅜ\n2 : 에? 앞이 안 보인다고? 그 정도면 큰 병 아니야?\n1 : 큰 병은 아닌 거 같은데 시력을 잃어간달까...\n2 : 시력을 잃어가는 게 큰 병 아니니? 병원은 가봤어?\n1 : 아니... 너도 눈 안 좋잖아~! 요즘은 괜찮아?\n2 : 나? 난 괜찮아! 너 정도는 아닌 거 같아...\n1 : 병원 갔을 때 뭐라 그랬어?\n1 : 나는 좀 피곤하면 글씨가 흐릿한 거 같아\n2 : 음... 너 좀 심한 거 같은데? 건조증이 심해진 거 아냐?\n2 : 난 병원 처방 받은 안약 넣고 많이 좋아졌어~\n1 : 아 그래? 안약을 넣으면 좀 괜찮아지는구나~!\n1 : 나도 병원 가봐야겠네...\n1 : 너는 요즘 아픈 데 없어?\n2 : 응! 난 딱히 아픈 곳은 없는데 요즘 너무 피곤해ㅜㅜ\n1 : 으 피곤하면 진짜 아무것도 못하겠더라ㅜ\n2 : 응... 병든 닭마냥... 잠만 자 요즘 키키\n1 : 아 키키 병든 닭... 진짜 많이 피곤하구나...ㅜ\n2 : 응 왜 그런지 모르겠어;\n2 : 잠이 늘었나... 자도 자도 졸리더라구 키키\n1 : 그래도 잠은 푹 자야지~!\n1 : 깨 있는 시간을 줄이고 푹 자려 노력해 봐~\n2 : 웅 너도 병원 꼭 가보고! 그냥 약국 가지 말고!\n2 : 병원 처방 받는 게 좋아~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 요즘 눈이 너무 안 좋아서 앞이 잘 안 보여...ㅜ",
+            "norm_text": "나 요즘 눈이 너무 안 좋아서 앞이 잘 안 보여...ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+요즘/MAG+눈/NNG+이/JKS+너무/MAG+안/MAG+좋/VA+아서/EC+앞/NNG+이/JKS+잘/MAG+안/MAG+보여/VV+EF+./SY+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 에? 앞이 안 보인다고? 그 정도면 큰 병 아니야?",
+            "norm_text": "에? 앞이 안 보인다고? 그 정도면 큰 병 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "에/IC+앞/NNG+이/JKS+안/MAG+보인다고/VV+EC+그/MM+정도/NNG+면/VCP+EC+큰/VA+ETM+병/NNG+아니/VCN+야/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 큰 병은 아닌 거 같은데 시력을 잃어간달까...",
+            "norm_text": "큰 병은 아닌 거 같은데 시력을 잃어간달까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "큰/VA+ETM+병/NNG+은/JX+아닌/VCN+ETM+거/NNB+같/VA+은데/EC+시력/NNG+을/JKO+잃/VV+어/EC+간/VV+달까/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 시력을 잃어가는 게 큰 병 아니니? 병원은 가봤어?",
+            "norm_text": "시력을 잃어가는 게 큰 병 아니니? 병원은 가봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "시력/NNG+을/JKO+잃/VV+어/EC+가/VX+는/ETM+게/NNB+JKS+큰/VA+ETM+병/NNG+아니/VCN+니/EF+병원/NNG+은/JX+가/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니... 너도 눈 안 좋잖아~! 요즘은 괜찮아?",
+            "norm_text": "아니... 너도 눈 안 좋잖아~! 요즘은 괜찮아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+./SY+너/NP+도/JX+눈/NNG+안/MAG+좋/VA+잖아/EC+~/SY+요즘/NNG+은/JX+괜찮/VA+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나? 난 괜찮아! 너 정도는 아닌 거 같아...",
+            "norm_text": "나? 난 괜찮아! 너 정도는 아닌 거 같아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+난/NP+JX+괜찮/VA+아/EF+너/NP+정도/NNG+는/JX+아닌/VCN+ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 병원 갔을 때 뭐라 그랬어?",
+            "norm_text": "병원 갔을 때 뭐라 그랬어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "병원/NNG+갔/VV+EP+을/ETM+때/NNG+뭐/NP+라/VCP+EC+그랬/VV+EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나는 좀 피곤하면 글씨가 흐릿한 거 같아",
+            "norm_text": "나는 좀 피곤하면 글씨가 흐릿한 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+좀/MAG+피곤/NNG+하/XSV+면/EC+글씨/NNG+가/JKS+흐릿/XR+한/XSA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 음... 너 좀 심한 거 같은데? 건조증이 심해진 거 아냐?",
+            "norm_text": "음... 너 좀 심한 거 같은데? 건조증이 심해진 거 아냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+./SY+너/NP+좀/MAG+심한/VA+ETM+거/NNB+같/VA+은데/EF+건조증/NNG+이/JKS+심해진/VA+EC+VX+ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 난 병원 처방 받은 안약 넣고 많이 좋아졌어~",
+            "norm_text": "난 병원 처방 받은 안약 넣고 많이 좋아졌어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+병원/NNG+처방/NNG+받/VV+은/ETM+안약/NNG+넣/VV+고/EC+많이/MAG+좋/VA+아/EC+졌/VX+EP+어/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 그래? 안약을 넣으면 좀 괜찮아지는구나~!",
+            "norm_text": "아 그래? 안약을 넣으면 좀 괜찮아지는구나~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+안약/NNG+을/JKO+넣/VV+으면/EC+좀/MAG+괜찮/VA+아/EC+지/VX+는구나/EF+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나도 병원 가봐야겠네...",
+            "norm_text": "나도 병원 가봐야겠네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+병원/NNG+가/VV+봐야/EC+VX+EC+VX+겠/EP+네/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 너는 요즘 아픈 데 없어?",
+            "norm_text": "너는 요즘 아픈 데 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+요즘/MAG+아픈/VA+ETM+데/NNB+없/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응! 난 딱히 아픈 곳은 없는데 요즘 너무 피곤해ㅜㅜ",
+            "norm_text": "응! 난 딱히 아픈 곳은 없는데 요즘 너무 피곤해ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+난/NP+JX+딱히/MAG+아픈/VA+ETM+곳/NNG+은/JX+없/VA+는데/EC+요즘/MAG+너무/MAG+피곤/NNG+해/XSV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 으 피곤하면 진짜 아무것도 못하겠더라ㅜ",
+            "norm_text": "으 피곤하면 진짜 아무것도 못하겠더라ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으/IC+피곤/NNG+하/XSV+면/EC+진짜/MAG+아무것/NP+도/JX+못하/VX+겠/EP+더라/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응... 병든 닭마냥... 잠만 자 요즘 키키",
+            "norm_text": "응... 병든 닭마냥... 잠만 자 요즘 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+./SY+병든/VV+ETM+닭/NNG+마냥/JKB+./SY+잠만자요즘키키/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 키키 병든 닭... 진짜 많이 피곤하구나...ㅜ",
+            "norm_text": "아 키키 병든 닭... 진짜 많이 피곤하구나...ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키/NNG+병든/VV+ETM+닭/NNG+./SY+./SY+진짜/MAG+많이/MAG+피곤/NNG+하/XSA+구나/EF+./SY+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 왜 그런지 모르겠어;",
+            "norm_text": "응 왜 그런지 모르겠어;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+왜/MAG+그런지/VA+EC+모르/VV+겠/EP+어/EC+;/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 잠이 늘었나... 자도 자도 졸리더라구 키키",
+            "norm_text": "잠이 늘었나... 자도 자도 졸리더라구 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잠/NNG+이/JKS+늘/VV+었/EP+나/EF+./SY+자/IC+도자/NNG+도/JX+졸리/VA+더라구/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그래도 잠은 푹 자야지~!",
+            "norm_text": "그래도 잠은 푹 자야지~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+잠/NNG+은/JX+푹/MAG+자/VV+야지/EC+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 깨 있는 시간을 줄이고 푹 자려 노력해 봐~",
+            "norm_text": "깨 있는 시간을 줄이고 푹 자려 노력해 봐~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "깨/VV+EC+있/VX+는/ETM+시간/NNG+을/JKO+줄이/VV+고/EC+푹/MAG+자려/NNG+노력/NNG+해/XSV+EC+봐/VX+EC+~/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 웅 너도 병원 꼭 가보고! 그냥 약국 가지 말고!",
+            "norm_text": "웅 너도 병원 꼭 가보고! 그냥 약국 가지 말고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+너/NP+도/JX+병원/NNG+꼭/MAG+가/VV+EC+보/VX+고/EC+그냥/MAG+약국/NNG+가/VV+지/EC+말/VX+고/EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 병원 처방 받는 게 좋아~",
+            "norm_text": "병원 처방 받는 게 좋아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+처방/NNG+받/VV+는/ETM+게/NNB+JKS+좋/VA+아/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

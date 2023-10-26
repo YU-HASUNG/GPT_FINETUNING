@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 71581,
+    "name": "KAKAO_790_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150504066493/KAKAO_790_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150504066493/KAKAO_790_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38338,
+      "filename": "KAKAO_790_07.txt",
+      "title": "KAKAO_790_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 412,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 412,
+        "word_size": 132,
+        "text": "1 : 오빠~ 오빠도 휴대폰 가족결합했어?\n2 : 그 요금제 할인해주는 거 그거~?\n1 : 응응! 그거 하면 엄청 저렴해진대!\n2 : 맞아~ 그래서 오빠도 그거 알아봤어 하하\n1 : 나는 엄마랑 아빠랑 동생까지 다 합쳤어!\n2 : 오 엄청 저렴해졌겠다 그러면!\n1 : 그럴 것 같아 헤헤 하하 오빠는?\n2 : 오빤 엄마랑 둘이서만 합치다 보니까 크진 않아 ㅠㅠ\n1 : 아 그래? 아깝다 ㅠㅠ 다른 방법은 없나?\n2 : 음 휴대폰 합치고 인터넷도 합치고 그렇게 하면 더 저렴할 거야!\n1 : 그러면 그것도 전부 다 하자!\n2 : 하하 귀여워 그래서 먼저 다 해놨지~:) 하하\n1 : 오~! 오빠 이미 잘해놨네 하하\n2 : 할인해 주는 건 전부 다 받아먹기 키키\n1 : 맞아 그렇게 영리하게 받아 먹어야 해 키키\n2 : 좋다 좋다~ 또 다른 건 없는지 찾아봐야지 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~ 오빠도 휴대폰 가족결합했어?",
+            "norm_text": "오빠~ 오빠도 휴대폰 가족결합했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+~/SY+오빠/NNG+도/JX+휴대폰/NNG+가족/NNG+결합/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그 요금제 할인해주는 거 그거~?",
+            "norm_text": "그 요금제 할인해주는 거 그거~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+요금제/NNP+할인/NNG+해/XSV+EC+주/VX+는/ETM+거/NNB+그거/NP+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응응! 그거 하면 엄청 저렴해진대!",
+            "norm_text": "응응! 그거 하면 엄청 저렴해진대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+그거/NP+하/VV+면/EC+엄청/MAG+저렴/XR+해/XSA+EC+진대/VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아~ 그래서 오빠도 그거 알아봤어 하하",
+            "norm_text": "맞아~ 그래서 오빠도 그거 알아봤어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+~/SY+그래서/MAJ+오빠/NNG+도/JX+그거/NP+알/VV+아/EC+봤/VX+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나는 엄마랑 아빠랑 동생까지 다 합쳤어!",
+            "norm_text": "나는 엄마랑 아빠랑 동생까지 다 합쳤어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+엄마/NNG+랑/JKB+아빠/NNG+랑/JKB+동생/NNG+까지/JX+다/MAG+합쳤/VV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오 엄청 저렴해졌겠다 그러면!",
+            "norm_text": "오 엄청 저렴해졌겠다 그러면!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+엄청/MAG+저렴/XR+해졌/XSA+EC+VX+EP+겠/EP+다/EF+그러면/MAJ"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그럴 것 같아 헤헤 하하 오빠는?",
+            "norm_text": "그럴 것 같아 헤헤 하하 오빠는?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럴/VA+ETM+것/NNB+같/VA+아/EC+헤헤/MAG+하하/MAG+오빠/NNG+는/JX"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오빤 엄마랑 둘이서만 합치다 보니까 크진 않아 ㅠㅠ",
+            "norm_text": "오빤 엄마랑 둘이서만 합치다 보니까 크진 않아 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오빤/NNG+VCP+JX+엄마/NNG+랑/JC+둘/NR+이/XSN+서/JKS+만/JX+합치/VV+다/EC+보/VX+니까/EC+크/VA+진/EC+JX+않/VX+아/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그래? 아깝다 ㅠㅠ 다른 방법은 없나?",
+            "norm_text": "아 그래? 아깝다 ㅠㅠ 다른 방법은 없나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+아깝다ㅠㅠ다른방법은없나/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 음 휴대폰 합치고 인터넷도 합치고 그렇게 하면 더 저렴할 거야!",
+            "norm_text": "음 휴대폰 합치고 인터넷도 합치고 그렇게 하면 더 저렴할 거야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+휴대폰/NNG+합치/VV+고/EC+인터넷/NNG+도/JX+합치/VV+고/EC+그렇게/MAG+하/VV+면/EC+더/MAG+저렴/XR+할/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러면 그것도 전부 다 하자!",
+            "norm_text": "그러면 그것도 전부 다 하자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그러면/MAJ+그것/NP+도/JX+전부/MAG+다/MAG+하/VV+자/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 하하 귀여워 그래서 먼저 다 해놨지~:) 하하",
+            "norm_text": "하하 귀여워 그래서 먼저 다 해놨지~:) 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+귀여워/VA+EF+그래서/MAJ+먼저/MAG+다/MAG+해놨/VV+EC+VX+EP+지/EC+~/SY+:/SC+하하/NNP"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오~! 오빠 이미 잘해놨네 하하",
+            "norm_text": "오~! 오빠 이미 잘해놨네 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+~/SY+오빠/NNG+이미/MAG+잘/MAG+해놨/VV+EC+VX+EP+네/EF+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 할인해 주는 건 전부 다 받아먹기 키키",
+            "norm_text": "할인해 주는 건 전부 다 받아먹기 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "할인/NNG+해/XSV+EC+주/VX+는/ETM+건/NNB+JX+전부/MAG+다/MAG+받/VV+아/EC+먹/VV+기/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 그렇게 영리하게 받아 먹어야 해 키키",
+            "norm_text": "맞아 그렇게 영리하게 받아 먹어야 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그렇게/MAG+영리/NNG+하/XSV+게/EC+받/VV+아/EC+먹/VV+어야/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 좋다 좋다~ 또 다른 건 없는지 찾아봐야지 하하",
+            "norm_text": "좋다 좋다~ 또 다른 건 없는지 찾아봐야지 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+다/EC+좋/VA+다/EC+~/SY+또/MAG+다른/MM+건/NNB+JX+없/VA+는지/EC+찾/VV+아/EC+봐야/VX+EC+지하/NNG+하/XSV"
+          }
+        ]
+      }
+    }
+  ]
+}

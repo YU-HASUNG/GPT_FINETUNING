@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 33217,
+    "name": "KAKAO_862_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173731022045/KAKAO_862_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173731022045/KAKAO_862_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39890,
+      "filename": "KAKAO_862_12.txt",
+      "title": "KAKAO_862_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 444,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 444,
+        "word_size": 152,
+        "text": "1 : 아 여행 너무 가고 싶어\n2 : 나도 우리 여행 가기로 했잖아\n1 : 아 키키 맞아 너 남자친구 안 생기면 우리 커플이랑 같이 가기로 했었잖아 키키\n2 : 그니까 왜 안 간 건데 나 실망이야\n1 : 너가 남자친구 생겼잖아;\n1 : 그래놓고 안 가냐 왜\n2 : 너가 날 초대 안 했잖아\n1 : 아니 내 인생 첫 여행 제주도를 남자친구랑 처음 가는데 거기 끼고 싶니?\\\n2 : 웅 나도 제주도 가고 싶다\n1 : 아무리 그래도 첫 여행인데 ㅠㅠ 눈치 없어 너무\n2 : 어차피 방 따로 아니야?\n1 : 키키 방은 따론 데 같이 다녀야 하잖아 ㅠ 데이트 할 고양\n2 : 그래도, 더블데이트 내 소망이야\n1 : 더블데이트는 할 수 있어\n1 : 하지만 제주도는 같이 갈 수 없었어\n2 : 언제 가? 돈이 없잖아 너도 나도\n1 : 그것도 맞아... 그냥 우리 집으로 놀러 와서 넷이 놀자\n2 : 여기서 뭐하고 놀아 모캉스보다 별로야",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 여행 너무 가고 싶어",
+            "norm_text": "아 여행 너무 가고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+여행/NNG+너무/MAG+가/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나도 우리 여행 가기로 했잖아",
+            "norm_text": "나도 우리 여행 가기로 했잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+우리/NP+여행/NNG+가/VV+기/ETN+로/JKB+했잖아/VV+EP+EC+VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 키키 맞아 너 남자친구 안 생기면 우리 커플이랑 같이 가기로 했었잖아 키키",
+            "norm_text": "아 키키 맞아 너 남자친구 안 생기면 우리 커플이랑 같이 가기로 했었잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키/NNG+맞/VV+아/EC+너/NP+남자/NNG+친구/NNG+안/MAG+생기/VV+면/EC+우리/NP+커플/NNG+이랑/JKB+같이/MAG+가/VV+기/ETN+로/JKB+했었잖/VX+EP+EC+VX+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그니까 왜 안 간 건데 나 실망이야",
+            "norm_text": "그니까 왜 안 간 건데 나 실망이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "그니까/MAJ+왜/MAG+안/MAG+간/VV+ETM+건데/NNB+VCP+EC+나/NP+실망/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 너가 남자친구 생겼잖아;",
+            "norm_text": "너가 남자친구 생겼잖아;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+가/JKS+남자/NNG+친구/NNG+생겼잖아/VV+EP+EC+VX+EC+;/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그래놓고 안 가냐 왜",
+            "norm_text": "그래놓고 안 가냐 왜",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/VA+EC+놓/VX+고/EC+안/MAG+가/VV+냐/EF+왜/MAG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 너가 날 초대 안 했잖아",
+            "norm_text": "너가 날 초대 안 했잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+가/JKS+날/NNG+초대/NNG+안/MAG+했잖아/VV+EP+EC+VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아니 내 인생 첫 여행 제주도를 남자친구랑 처음 가는데 거기 끼고 싶니?\\",
+            "norm_text": "아니 내 인생 첫 여행 제주도를 남자친구랑 처음 가는데 거기 끼고 싶니?\\",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+내/NP+JKG+인생/NNG+첫/MM+여행/NNG+제주도/NNP+를/JKO+남자/NNG+친구/NNG+랑/JKB+처음/MAG+가/VV+는데/EC+거기/NP+끼/VV+고/EC+싶/VX+니/EF+\\/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 웅 나도 제주도 가고 싶다",
+            "norm_text": "웅 나도 제주도 가고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+나/NP+도/JX+제주/NNP+도/JX+가/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아무리 그래도 첫 여행인데 ㅠㅠ 눈치 없어 너무",
+            "norm_text": "아무리 그래도 첫 여행인데 ㅠㅠ 눈치 없어 너무",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무리/MAG+그래도/MAJ+첫/MM+여행/NNG+인데/VCP+EC+ㅠㅠ/UNKNOWN+눈치/NNG+없/VA+어/EC+너무/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 어차피 방 따로 아니야?",
+            "norm_text": "어차피 방 따로 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어차피/MAG+방/NNG+따로/MAG+아니/VCN+야/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 방은 따론 데 같이 다녀야 하잖아 ㅠ 데이트 할 고양",
+            "norm_text": "키키 방은 따론 데 같이 다녀야 하잖아 ㅠ 데이트 할 고양",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+방/NNG+은/JX+따론/UNKNOWN+데/NNB+같이/MAG+다녀야/VV+EC+하/VX+잖아/EF+ㅠ/UNKNOWN+데이트/NNG+할/XSV+ETM+고양/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그래도, 더블데이트 내 소망이야",
+            "norm_text": "그래도, 더블데이트 내 소망이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+,/SC+더블데이트/NNG+내/NNB+소망/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 더블데이트는 할 수 있어",
+            "norm_text": "더블데이트는 할 수 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "더블데이트/NNG+는/JX+할/VV+ETM+수/NNB+있/VV+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 하지만 제주도는 같이 갈 수 없었어",
+            "norm_text": "하지만 제주도는 같이 갈 수 없었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하지만/MAJ+제주도/NNP+는/JX+같이/MAG+갈/VV+ETM+수/NNB+없/VA+었/EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 언제 가? 돈이 없잖아 너도 나도",
+            "norm_text": "언제 가? 돈이 없잖아 너도 나도",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언제/NP+가/JKS+돈/NNG+이/JKS+없/VA+잖아/EF+너/NP+도/JX+나/NP+도/JX"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그것도 맞아... 그냥 우리 집으로 놀러 와서 넷이 놀자",
+            "norm_text": "그것도 맞아... 그냥 우리 집으로 놀러 와서 넷이 놀자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그것/NP+도/JX+맞/VV+아/EF+./SY+그냥/MAG+우리/NP+집/NNG+으로/JKB+놀/VV+러/EC+와서/VV+EC+넷/NR+이/JKS+놀/VV+자/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 여기서 뭐하고 놀아 모캉스보다 별로야",
+            "norm_text": "여기서 뭐하고 놀아 모캉스보다 별로야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+서/JKB+뭐/NP+하고/JKB+놀/VV+아/EC+모캉/NNG+스/XSN+보다/JKB+별로/MAG+야/IC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 21613,
+    "name": "KAKAO_527_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151829039624/KAKAO_527_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151829039624/KAKAO_527_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29803,
+      "filename": "KAKAO_527_12.txt",
+      "title": "KAKAO_527_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 562,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 562,
+        "word_size": 179,
+        "text": "1 : 여행팁을 한 번 공유해 보거라 하하\n2 : 키키 저는 음... 요즘엔 가고 싶은 대로 발 닿는 대로 가자?\n1 : 그래 발 닿는 대로라 그러다가 재밌는 일 있었어?\n2 : 그냥 뭐... 키키 계획 짜고 가서 안되면 그건 그거대로 화가 \n나더라구요? 그래서 요새는 그냥 가여\n1 : 그래 그럴 수도 있지\n1 : 계획대로 다 안 되는 게 인생이지\n2 : 키키 오 멋진 말 키키 인생 선배님의 말씀 인가여?\n1 : 그래 아저씨 말을 들으면 자다 가고 떡이 생겨요\n2 : 키키 아니 언제 제 신랑 찾아주시는 거져?\n1 : 비밀인데 지금 열심히 찾고 있는 거야\n1 : 몇 살 위까지 괜찮아?\n2 : 네? 키키 아니 몇 살 위까지 괜찮냐고 물어보시는 걸 보니... 안돼여\n1 : 뭐가 안 된다는 거야 나이 있어도 괜찮은 사람 많아\n2 : 아니 그렇지만 아부지 엄청나게 차이 나는 사람을 데리고 오실 것 같아여 키키\n1 : 아니야 우리 딸래미 친구인데 그럴 리가\n2 : 키키 오... 왜 믿음이... 안 가져... 아부지...? 키키\n1 : 아저씨가 믿음이 이렇게 없구나..\n2 : 키키 오? 그런 건가요? 아니~ 그럼 몇 살이 괜찮냐면요~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여행팁을 한 번 공유해 보거라 하하",
+            "norm_text": "여행팁을 한 번 공유해 보거라 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여행/NNG+팁/NNG+을/JKO+한번/MAG+공유/NNG+해/XSV+EC+보/VX+거라/EC+하하/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 저는 음... 요즘엔 가고 싶은 대로 발 닿는 대로 가자?",
+            "norm_text": "키키 저는 음... 요즘엔 가고 싶은 대로 발 닿는 대로 가자?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키저/NNG+는/JX+음/IC+./SY+요즘/NNG+엔/JKB+JX+가/VV+고/EC+싶/VX+은/ETM+대로/NNB+발/NNG+닿/VV+는/ETM+대로/NNB+가/VV+자/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래 발 닿는 대로라 그러다가 재밌는 일 있었어?",
+            "norm_text": "그래 발 닿는 대로라 그러다가 재밌는 일 있었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+발/NNG+닿/VV+는/ETM+대로/NNB+라/VCP+EC+그러/VV+다가/EC+재밌/VA+는/ETM+일/NNG+있/VV+었/EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그냥 뭐... 키키 계획 짜고 가서 안되면 그건 그거대로 화가 \n나더라구요? 그래서 요새는 그냥 가여",
+            "norm_text": "그냥 뭐... 키키 계획 짜고 가서 안되면 그건 그거대로 화가 \n나더라구요? 그래서 요새는 그냥 가여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+뭐/IC+./SY+키/NNG+키/NNG+계획/NNG+짜/VV+고/EC+가/VX+서/EC+안/MAG+되/VV+면/EC+그건/NP+JX+그거/NP+대로/JX+화가/NNG+나/NP+더라구요/VCP+EF+그래서/MAJ+요새/NNG+는/JX+그냥/MAG+가/VV+여/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래 그럴 수도 있지",
+            "norm_text": "그래 그럴 수도 있지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "그래/IC+그럴/VA+ETM+수/NNB+도/JX+있/VA+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 계획대로 다 안 되는 게 인생이지",
+            "norm_text": "계획대로 다 안 되는 게 인생이지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "계획/NNG+대로/JKB+다/MAG+안/MAG+되/VV+는/ETM+게/NNB+JKS+인생/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 오 멋진 말 키키 인생 선배님의 말씀 인가여?",
+            "norm_text": "키키 오 멋진 말 키키 인생 선배님의 말씀 인가여?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+오/EC+멋진/VA+ETM+말/NNG+키/NNG+키/NNG+인생/NNG+선배/NNG+님/XSN+의/JKG+말씀/NNG+인/VCP+ETM+가여/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그래 아저씨 말을 들으면 자다 가고 떡이 생겨요",
+            "norm_text": "그래 아저씨 말을 들으면 자다 가고 떡이 생겨요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+아저씨/NNG+말/NNG+을/JKO+들으면/VV+EC+자/VV+다/EC+가/VX+고/EC+떡/NNG+이/JKS+생겨요/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 아니 언제 제 신랑 찾아주시는 거져?",
+            "norm_text": "키키 아니 언제 제 신랑 찾아주시는 거져?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+언제/MAG+제/MM+신랑/NNG+찾/VV+아/EC+주/VX+시/EP+는/ETM+거/NNB+져/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 비밀인데 지금 열심히 찾고 있는 거야",
+            "norm_text": "비밀인데 지금 열심히 찾고 있는 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비밀/NNG+인데/VCP+EC+지금/MAG+열심히/MAG+찾/VV+고/EC+있/VX+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 몇 살 위까지 괜찮아?",
+            "norm_text": "몇 살 위까지 괜찮아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+살/NNBC+위/NNG+까지/JX+괜찮/VA+아/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 네? 키키 아니 몇 살 위까지 괜찮냐고 물어보시는 걸 보니... 안돼여",
+            "norm_text": "네? 키키 아니 몇 살 위까지 괜찮냐고 물어보시는 걸 보니... 안돼여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+키/NNG+키/XSV+ETN+아니/VCN+몇/MM+살/NNBC+위/NNG+까지/JX+괜찮/VA+냐고/EC+물/VV+어/EC+보/VX+시/EP+는/ETM+걸/NNB+JKO+보/VV+니/EF+./SY+안/MAG+돼/VV+여/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 뭐가 안 된다는 거야 나이 있어도 괜찮은 사람 많아",
+            "norm_text": "뭐가 안 된다는 거야 나이 있어도 괜찮은 사람 많아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+가/JKS+안/MAG+된다는/VV+ETM+거/NNB+야/VCP+EF+나이/NNG+있/VV+어도/EC+괜찮/VA+은/ETM+사람/NNG+많/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 그렇지만 아부지 엄청나게 차이 나는 사람을 데리고 오실 것 같아여 키키",
+            "norm_text": "아니 그렇지만 아부지 엄청나게 차이 나는 사람을 데리고 오실 것 같아여 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그렇지만/MAJ+아부지/MAG+엄청나/VA+게/EC+차이/NNG+나/NP+는/JX+사람/NNG+을/JKO+데리/VV+고/EC+오/VX+실/EP+ETM+것/NNB+같/VA+아여/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니야 우리 딸래미 친구인데 그럴 리가",
+            "norm_text": "아니야 우리 딸래미 친구인데 그럴 리가",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+우리/NP+딸래미/NNG+친구/NNG+인데/VCP+EC+그럴/VV+ETM+리/NNB+가/JKS"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 오... 왜 믿음이... 안 가져... 아부지...? 키키",
+            "norm_text": "키키 오... 왜 믿음이... 안 가져... 아부지...? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EF+./SY+왜/MAG+믿음/NNG+이/JKS+./SY+./SY+안/MAG+가져/VV+EF+./SY+아부지/NNG+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아저씨가 믿음이 이렇게 없구나..",
+            "norm_text": "아저씨가 믿음이 이렇게 없구나..",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아저씨/NNG+가/JKS+믿음/NNG+이/JKS+이렇게/MAG+없/VA+구나/EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 오? 그런 건가요? 아니~ 그럼 몇 살이 괜찮냐면요~",
+            "norm_text": "키키 오? 그런 건가요? 아니~ 그럼 몇 살이 괜찮냐면요~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EF+그런/MM+건가요/NNB+VCP+EF+아니/IC+~/SY+그럼/MAJ+몇/MM+살/NNBC+이/JKS+괜찮/VA+냐면/EC+요/JX+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

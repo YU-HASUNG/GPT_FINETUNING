@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45703,
+    "name": "KAKAO_803_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172218030793/KAKAO_803_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172218030793/KAKAO_803_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39599,
+      "filename": "KAKAO_803_01.txt",
+      "title": "KAKAO_803_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 385,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 385,
+        "word_size": 128,
+        "text": "1 : 오빠~ 오빠도 레몬물 마시자!\n2 : 레몬물? 레몬 음료수 말하는 건가? 하하\n1 : 아니 아니 그거 말고! 레몬 가루 타서!\n2 : 레몬 가루는 그럼 어디서 구해?\n1 : 그거 다이어트 식품에 있는데 나 있어!\n2 : 하하 아~ 그게 다이어트에 도움돼?\n1 : 응응 그거 물처럼 마시면 살 빠진대!\n2 : 오와 신기하다, 왜 빠지는 걸까 하하\n1 : 그게 디톡스라고 해서 독소를 빼 주나 봐 하하\n2 : 그럼 오빠도 그거 해서 살 뺴야겠네!\n1 : 응응 우리 둘 다 그거 마셔 보자!\n2 : 좋아~! 근데 맛은 있을까...\n1 : 맛은 그래도 레몬이라서 괜찮나 봐~!\n2 : 상큼하고 달달하고 그럴 듯하네 하하\n1 : 그럼 오빠 꺼도 챙겨 갈게~!\n2 : 그래~ 이따 올 때 오빠 꺼도 몇 개 챙겨 와 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~ 오빠도 레몬물 마시자!",
+            "norm_text": "오빠~ 오빠도 레몬물 마시자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오빠/NNG+~/SY+오빠/NNG+도/JX+레몬/NNG+물/NNG+마시/VV+자/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 레몬물? 레몬 음료수 말하는 건가? 하하",
+            "norm_text": "레몬물? 레몬 음료수 말하는 건가? 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "레몬/NNG+물/NNG+?/SY+레몬/NNG+음료수/NNG+말/NNG+하/XSV+는/ETM+건가/NNB+VCP+EF+하하/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 아니 그거 말고! 레몬 가루 타서!",
+            "norm_text": "아니 아니 그거 말고! 레몬 가루 타서!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "\u0027 \u0027 아니/IC+아니/IC+그거/NP+말/VV+고/EC+!/SY+레몬/NNG+가루/NNG+타/VV+서/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 레몬 가루는 그럼 어디서 구해?",
+            "norm_text": "레몬 가루는 그럼 어디서 구해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "레몬/NNG+가루/NNG+는/JX+그럼/MAJ+어디/NP+서/JKB+구해/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그거 다이어트 식품에 있는데 나 있어!",
+            "norm_text": "그거 다이어트 식품에 있는데 나 있어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+다이어트/NNG+식품/NNG+에/JKB+있/VV+는데/EC+나/VV+EC+있/VX+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 하하 아~ 그게 다이어트에 도움돼?",
+            "norm_text": "하하 아~ 그게 다이어트에 도움돼?,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하/NNG+하/XSV+아/EC+~/SY+그게/NP+JKS+다이어트/NNG+에/JKB+도움/NNG+돼/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응응 그거 물처럼 마시면 살 빠진대!",
+            "norm_text": "응응 그거 물처럼 마시면 살 빠진대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+그거/NP+물/NNG+처럼/JKB+마시/VV+면/EC+살/VV+ETM+빠진대/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오와 신기하다, 왜 빠지는 걸까 하하",
+            "norm_text": "오와 신기하다, 왜 빠지는 걸까 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오와/IC+신기/XR+하/XSA+다/EF+,/SC+왜/MAG+빠지/VV+는/ETM+걸까/NNB+VCP+EC+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그게 디톡스라고 해서 독소를 빼 주나 봐 하하",
+            "norm_text": "그게 디톡스라고 해서 독소를 빼 주나 봐 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그게/NP+JKS+디톡스/NNP+라고/VCP+EC+해서/VV+EC+독소/NNG+를/JKO+빼/VV+EC+주/VX+나/EC+봐/VX+EF+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그럼 오빠도 그거 해서 살 뺴야겠네!",
+            "norm_text": "그럼 오빠도 그거 해서 살 뺴야겠네!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+오빠/NNG+도/JX+그거/NP+해서/VV+EC+살/VV+ETM+뺴야/UNKNOWN+겠/EP+네/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응응 우리 둘 다 그거 마셔 보자!",
+            "norm_text": "응응 우리 둘 다 그거 마셔 보자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": ": 응/IC+응/IC+우리/NP+둘/NR+다/MAG+그거/NP+마셔/VV+EC+보/VX+자/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 좋아~! 근데 맛은 있을까...",
+            "norm_text": "좋아~! 근데 맛은 있을까...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+아/EC+~/SY+근데/MAJ+맛/NNG+은/JX+있/VA+을까/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맛은 그래도 레몬이라서 괜찮나 봐~!",
+            "norm_text": "맛은 그래도 레몬이라서 괜찮나 봐~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맛/NNG+은/JX+그래도/MAJ+레몬/NNG+이/VCP+라서/EC+괜찮/VA+나/EC+봐/VX+EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 상큼하고 달달하고 그럴 듯하네 하하",
+            "norm_text": "상큼하고 달달하고 그럴 듯하네 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "상큼/XR+하/XSA+고/EC+달달/MAG+하/VV+고/EC+그럴/VV+ETM+듯/NNB+하/XSA+네/EF+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼 오빠 꺼도 챙겨 갈게~!",
+            "norm_text": "그럼 오빠 꺼도 챙겨 갈게~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+오빠/NNG+꺼도/VV+EC+챙겨/VV+EC+갈/VX+ETM+게/NNB+JKS+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래~ 이따 올 때 오빠 꺼도 몇 개 챙겨 와 하하",
+            "norm_text": "그래~ 이따 올 때 오빠 꺼도 몇 개 챙겨 와 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/VA+EC+~/SY+이/JKS+따올/VV+ETM+때/NNG+오빠/NNG+꺼도/VV+EC+몇/MM+개/NNBC+챙겨와/VV+EC+VX+EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

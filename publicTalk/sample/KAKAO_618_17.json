@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 35441,
+    "name": "KAKAO_618_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109241205280588101/KAKAO_618_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109241205280588101/KAKAO_618_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32170,
+      "filename": "KAKAO_618_17.txt",
+      "title": "KAKAO_618_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 491,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 491,
+        "word_size": 161,
+        "text": "1 : ** 건강은 괜찮은 거지?\n1 : 어디 병원 가는 곳은 없고?\n2 : 키키 넹 키키 아직까지는 괜찮은 것 같아요\n1 : 그래 다들 건강해야지\n1 : 백신은 다 맞았다고 했지?\n2 : 네네 키키 저는 2차까지 끝났어용 ㅎ\n1 : 많이 안 아팠어?\n2 : 2차는 진짜 아팠어요 ㅠㅠ\n2 : 그래도 보면 저보다 아픈 애들도 많았어요\n1 : 그래 어린 애들이 더 아프다고 하더라\n1 : 아저씨도 하나도 안 아팠어\n2 : 오 진짜요? 2차까지 다 맞으신 거에요?\n1 : 아니야 아직 2차는 추석 지나고\n2 : 아니 아부지 1차는 저도 안 아팠어요!\n2 : 진짜 2차를 조심해야 해요 ㅠㅠ\n1 : 그래? 2차는 걱정되네\n1 : 그래도 1차 맞을 때 아저씨 술 일주일 안 먹었어\n2 : 오 대박 키키 진짜 멋지다잉! 2차도 도전!\n1 : 그럼! 술 먹으면 항체 형성이 안 된다고 하더라고\n2 : 맞아요 ㅠㅠ 그러니깐 2차는 더더욱 조심하셔야 해요\n1 : 응 아저씨가 또 한다면 해!\n2 : 굳 그렇다면 같이 담배도...?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : ** 건강은 괜찮은 거지?",
+            "norm_text": "** 건강은 괜찮은 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+건강/NNG+은/JX+괜찮/VA+은/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 어디 병원 가는 곳은 없고?",
+            "norm_text": "어디 병원 가는 곳은 없고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+병원/NNG+가/VV+는/ETM+곳/NNG+은/JX+없/VA+고/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 키키 넹 키키 아직까지는 괜찮은 것 같아요",
+            "norm_text": "키키 넹 키키 아직까지는 괜찮은 것 같아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+넹/NNP+키키/NNP+아직/MAG+까지/JX+는/JX+괜찮/VA+은/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그래 다들 건강해야지",
+            "norm_text": "그래 다들 건강해야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+다/MAG+들/XSN+건강/NNG+해야지/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 백신은 다 맞았다고 했지?",
+            "norm_text": "백신은 다 맞았다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+은/JX+다/MAG+맞/VV+았/EP+다고/EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 네네 키키 저는 2차까지 끝났어용 ㅎ",
+            "norm_text": "네네 키키 저는 2차까지 끝났어용 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/NP+네/XSN+키/NNG+키저/NNG+는/JX+2/SN+차/NNBC+까지/JX+끝/NNG+났/VV+EP+어/EC+용/XR+ㅎ/XSA"
+          },
+          {
+            "id": 7,
+            "text": "1 : 많이 안 아팠어?",
+            "norm_text": "많이 안 아팠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "많이/MAG+안/MAG+아팠/VA+EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 2차는 진짜 아팠어요 ㅠㅠ",
+            "norm_text": "2차는 진짜 아팠어요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "2/SN+차/NNBC+는/JX+진짜/MAG+아팠/VA+EP+어요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래도 보면 저보다 아픈 애들도 많았어요",
+            "norm_text": "그래도 보면 저보다 아픈 애들도 많았어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/VV+EC+보/VX+면/EC+저/NP+보다/JKB+아픈/VA+ETM+애/NNG+들/XSN+도/JX+많/VA+았/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그래 어린 애들이 더 아프다고 하더라",
+            "norm_text": "그래 어린 애들이 더 아프다고 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+어린애/NNG+들/XSN+이/JKS+더/MAG+아프/VA+다고/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아저씨도 하나도 안 아팠어",
+            "norm_text": "아저씨도 하나도 안 아팠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아저씨/NNG+도/JX+하나/NR+도/JX+안/MAG+아팠/VA+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오 진짜요? 2차까지 다 맞으신 거에요?",
+            "norm_text": "오 진짜요? 2차까지 다 맞으신 거에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+진짜/MAG+요/JX+?/SY+2/SN+차/NNBC+까지/JX+다/MAG+맞/VV+으신/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아니야 아직 2차는 추석 지나고",
+            "norm_text": "아니야 아직 2차는 추석 지나고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니야/IC+아직/MAG+2/SN+차/NNBC+는/JX+추석/NNG+지나/VV+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 아부지 1차는 저도 안 아팠어요!",
+            "norm_text": "아니 아부지 1차는 저도 안 아팠어요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+아부지/NNG+1/SN+차/NNBC+는/JX+저/NP+도/JX+안/MAG+아팠/VA+EP+어요/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 진짜 2차를 조심해야 해요 ㅠㅠ",
+            "norm_text": "진짜 2차를 조심해야 해요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+2/SN+차/NNBC+를/JKO+조심/NNG+해야/XSV+EC+해요/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그래? 2차는 걱정되네",
+            "norm_text": "그래? 2차는 걱정되네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+?/SY+2/SN+차/NNBC+는/JX+걱정/NNG+되/XSV+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그래도 1차 맞을 때 아저씨 술 일주일 안 먹었어",
+            "norm_text": "그래도 1차 맞을 때 아저씨 술 일주일 안 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+1/SN+차/NNBC+맞/VV+을/ETM+때/NNG+아저씨/NNG+술일/NNG+주일/NNG+안/MAG+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 오 대박 키키 진짜 멋지다잉! 2차도 도전!",
+            "norm_text": "오 대박 키키 진짜 멋지다잉! 2차도 도전!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+대/NNBC+박/NNP+키키/NNP+진짜/MAG+멋지/VA+다잉/EF+2/SN+차/NNBC+도/JX+도전/NNG"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그럼! 술 먹으면 항체 형성이 안 된다고 하더라고",
+            "norm_text": "그럼! 술 먹으면 항체 형성이 안 된다고 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+술/NNG+먹/VV+으면/EC+항체/NNG+형성/NNG+이/JKS+안/MAG+된다고/VV+EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 맞아요 ㅠㅠ 그러니깐 2차는 더더욱 조심하셔야 해요",
+            "norm_text": "맞아요 ㅠㅠ 그러니깐 2차는 더더욱 조심하셔야 해요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+ㅠㅠ/UNKNOWN+그러/VV+니깐/EC+2/SN+차/NNBC+는/JX+더더욱/MAG+조심/NNG+하/XSV+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 응 아저씨가 또 한다면 해!",
+            "norm_text": "응 아저씨가 또 한다면 해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+아저씨/NNG+가/JKS+또/MAG+한다면/VV+EC+해/VX+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 굳 그렇다면 같이 담배도...?",
+            "norm_text": "굳 그렇다면 같이 담배도...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "굳/NNG+그렇/VA+다면/EC+같이/MAG+담배/NNG+도/JX+./SY+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

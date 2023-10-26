@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 22338,
+    "name": "KAKAO_510_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150435035349/KAKAO_510_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150435035349/KAKAO_510_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29410,
+      "filename": "KAKAO_510_19.txt",
+      "title": "KAKAO_510_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 708,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 708,
+        "word_size": 219,
+        "text": "1 : 키키 니 넷플릭스 쓰낭?\n1 : 낸 안 쓰는데 요즘 만화카페 가니까 넷플 있더라고\n2 : 내 안 쓰노 키키\n2 : 만화카페에서 넷플로 뭘 볼 수 있게 해놨다는 거가? 대박스\n1 : 어엉 어제 벌툰 갔다가 넷플 드라마 봤거든 키키 D.P 아낭?\n2 : 그거 요즘 핫한 넷플 드라마? 영환가 키키\n2 : 정해인 나오는 거 아닌가?\n1 : 어어 정해인 나오는 드라만뎅 6회로 벌써 끝났더라 키키\n1 : 어제 몰아서 다 봤노\n2 : 6회면 몇 시간이고 ㄷㄷ\n2 : 몰아서 봐도 안 지루할 정도로 재밌는갑네 키키\n1 : 한 회당 4-50분 하더라 키키\n1 : 너무 현실적이고 다들 연기 잘해서 현실 빡침 올라오는 드라마였노\n2 : 딱히 볼 생각 없는데 무슨 내용이고 군대 내용이라고만 알고 있음 키키\n1 : 군대 내 괴롭힘으로 인해 탈영하거나 뭐 집안 사정 때문에 탈영하거나 그런 애들 얘기임 키키\n1 : 군대에 탈영병 잡으러 가는 애들도 있더라 그게 d.p래\n2 : 오 추노꾼 같은 느낌? 탈영병 잡으러 가는 내용인 거가?\n1 : 어어엉 탈영병 잡으러 가는 내용 키키 구교환이랑 정해인 케미도 볼만하너\n2 : 구교환은 신인 배우 이름인가? 처음 들어보는 이름인데\n1 : 구교환 배우 반도에도 나왔었다 키키\n2 : 반도라면 혹시 부산행 후속작인가?\n1 : 어어어엉 강동원하고 이정현? 나왔던 그 영화! 거기서 군인 생존자들 대빵으로 나왔음 키키\n2 : 내 그것도 안 봤노 키키 다음에 다 함 챙겨봐야지 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 키키 니 넷플릭스 쓰낭?",
+            "norm_text": "키키 니 넷플릭스 쓰낭?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+니/EC+넷플릭스/NNP+쓰/NNG+낭/NNG"
+          },
+          {
+            "id": 2,
+            "text": "1 : 낸 안 쓰는데 요즘 만화카페 가니까 넷플 있더라고",
+            "norm_text": "낸 안 쓰는데 요즘 만화카페 가니까 넷플 있더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "낸/VV+JX+안/MAG+쓰/VV+는데/EC+요즘/NNG+만화/NNG+카페/NNG+가/VV+니까/EC+넷/NR+플/NNG+있/VV+더라고/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 내 안 쓰노 키키",
+            "norm_text": "내 안 쓰노 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내안/NNP+쓰노/NNP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 만화카페에서 넷플로 뭘 볼 수 있게 해놨다는 거가? 대박스",
+            "norm_text": "만화카페에서 넷플로 뭘 볼 수 있게 해놨다는 거가? 대박스",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "만화/NNG+카페/NNG+에서/JKB+넷/NR+플로/NNG+뭘/NP+JKO+볼/VV+ETM+수/NNB+있/VV+게/EC+해놨/VX+EC+VX+EP+다는/ETM+거/NNB+가/JKS+?/SY+대/XPN+박스/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어엉 어제 벌툰 갔다가 넷플 드라마 봤거든 키키 D.P 아낭?",
+            "norm_text": "어엉 어제 벌툰 갔다가 넷플 드라마 봤거든 키키 D.P 아낭?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어엉/IC+어/IC+제벌/NNG+툰/NNP+갔/VV+EP+다가/EC+넷/NR+플/NNG+드라마/NNG+봤/VV+EP+거든/EF+키/NNG+키/XSV+ETN+D/SL+./SY+P/SL+아/IC+낭/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그거 요즘 핫한 넷플 드라마? 영환가 키키",
+            "norm_text": "그거 요즘 핫한 넷플 드라마? 영환가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+요즘/MAG+핫/IC+한/MM+넷/NR+플/NNG+드라마/NNG+?/SY+영환/NNG+JX+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 정해인 나오는 거 아닌가?",
+            "norm_text": "정해인 나오는 거 아닌가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "정해인/NNP+나오/VV+는/ETM+거/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어어 정해인 나오는 드라만뎅 6회로 벌써 끝났더라 키키",
+            "norm_text": "어어 정해인 나오는 드라만뎅 6회로 벌써 끝났더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+정해인/NNP+나오/VV+는/ETM+드라만/NNP+뎅/NNP+6/SN+회/NNBC+로/JKB+벌써/MAG+끝/NNG+났/VV+EP+더라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어제 몰아서 다 봤노",
+            "norm_text": "어제 몰아서 다 봤노",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+몰/VV+아서/EC+다/MAG+봤/VV+EP+노/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 6회면 몇 시간이고 ㄷㄷ",
+            "norm_text": "6회면 몇 시간이고 ㄷㄷ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "6/SN+회/NNBC+면/VCP+EC+몇/MM+시간/NNG+이/VCP+고/EC+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 몰아서 봐도 안 지루할 정도로 재밌는갑네 키키",
+            "norm_text": "몰아서 봐도 안 지루할 정도로 재밌는갑네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰/VV+아서/EC+봐도/VX+EC+안/MAG+지루/XR+할/XSA+ETM+정도/NNG+로/JKB+재밌/VA+는/ETM+갑/NNG+네/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 한 회당 4-50분 하더라 키키",
+            "norm_text": "한 회당 4-50분 하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한/MM+회/NNBC+당/XSN+4/SN+-/SY+50/SN+분/NNBC+하/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 너무 현실적이고 다들 연기 잘해서 현실 빡침 올라오는 드라마였노",
+            "norm_text": "너무 현실적이고 다들 연기 잘해서 현실 빡침 올라오는 드라마였노",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+현실/NNG+적/XSN+이/VCP+고/EC+다/MAG+들/XSN+연기/NNG+잘/MAG+해서/VV+EC+현실/NNG+빡/MAG+침/NNG+올라오/VV+는/ETM+드라마/NNG+였/VCP+EP+노/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 딱히 볼 생각 없는데 무슨 내용이고 군대 내용이라고만 알고 있음 키키",
+            "norm_text": "딱히 볼 생각 없는데 무슨 내용이고 군대 내용이라고만 알고 있음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "딱히/MAG+볼/VV+ETM+생각/NNG+없/VA+는데/EC+무슨/MM+내용/NNG+이/VCP+고/EC+군대/NNG+내용/NNG+이/VCP+라고/EC+만/JX+알/VV+고/EC+있/VX+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 군대 내 괴롭힘으로 인해 탈영하거나 뭐 집안 사정 때문에 탈영하거나 그런 애들 얘기임 키키",
+            "norm_text": "군대 내 괴롭힘으로 인해 탈영하거나 뭐 집안 사정 때문에 탈영하거나 그런 애들 얘기임 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+내/NNB+괴롭힘/VV+ETN+으로/JKB+인해/VV+EC+탈영/NNG+하/XSV+거나/EC+뭐/IC+집안/NNG+사정/NNG+때문/NNB+에/JKB+탈영/NNG+하/XSV+거나/EC+그런/MM+애/NNG+들/XSN+얘기/NNG+임/VCP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 군대에 탈영병 잡으러 가는 애들도 있더라 그게 d.p래",
+            "norm_text": "군대에 탈영병 잡으러 가는 애들도 있더라 그게 d.p래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+에/JKB+탈영병/NNG+잡/VV+으러/EC+가/VX+는/ETM+애/NNG+들/XSN+도/JX+있/VA+더라/EF+그게/NP+JKS+d/SL+./SY+p/SL+래/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오 추노꾼 같은 느낌? 탈영병 잡으러 가는 내용인 거가?",
+            "norm_text": "오 추노꾼 같은 느낌? 탈영병 잡으러 가는 내용인 거가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+추노/NNG+꾼/XSN+같/VA+은/ETM+느낌/NNG+?/SY+탈영병/NNG+잡/VV+으러/EC+가/VX+는/ETM+내용/NNG+인/VCP+ETM+거/NNB+가/JKS"
+          },
+          {
+            "id": 18,
+            "text": "1 : 어어엉 탈영병 잡으러 가는 내용 키키 구교환이랑 정해인 케미도 볼만하너",
+            "norm_text": "어어엉 탈영병 잡으러 가는 내용 키키 구교환이랑 정해인 케미도 볼만하너",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어어엉/IC+탈영병/NNG+잡/VV+으러/EC+가/VX+는/ETM+내용/NNG+키키/NNP+구교환/NNP+이랑/JC+정해인/NNP+케미/NNP+도/JX+볼/VV+ETM+만/NNB+하/XSA+너/NP"
+          },
+          {
+            "id": 19,
+            "text": "2 : 구교환은 신인 배우 이름인가? 처음 들어보는 이름인데",
+            "norm_text": "구교환은 신인 배우 이름인가? 처음 들어보는 이름인데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구교환/NNP+은/JX+신인/NNG+배우/NNG+이름/NNG+인가/VCP+EF+처음/MAG+들/VV+어/EC+보/VX+는/ETM+이름/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 구교환 배우 반도에도 나왔었다 키키",
+            "norm_text": "구교환 배우 반도에도 나왔었다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구교환/NNP+배우/NNG+반도/NNG+에/JKB+도/JX+나왔었/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 21,
+            "text": "2 : 반도라면 혹시 부산행 후속작인가?",
+            "norm_text": "반도라면 혹시 부산행 후속작인가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "반도/NNG+라면/VCP+EC+혹시/MAG+부산/NNP+행/XSN+후속작/NNP+인가/VCP+EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 어어어엉 강동원하고 이정현? 나왔던 그 영화! 거기서 군인 생존자들 대빵으로 나왔음 키키",
+            "norm_text": "어어어엉 강동원하고 이정현? 나왔던 그 영화! 거기서 군인 생존자들 대빵으로 나왔음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어어어엉/IC+강동원/NNP+하고/JC+이정현/NNP+나왔/VV+EP+던/ETM+그/MM+영화/NNG+거기/NP+서/JKB+군인/NNG+생존자/NNG+들/XSN+대/XPN+빵/NNG+으로/JKB+나왔/VV+EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 내 그것도 안 봤노 키키 다음에 다 함 챙겨봐야지 키키",
+            "norm_text": "내 그것도 안 봤노 키키 다음에 다 함 챙겨봐야지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+그것/NP+도/JX+안/MAG+봤/VV+EP+노/EC+키/NNG+키/NNG+다음/NNG+에/JKB+다함/VV+ETN+챙겨/VV+EC+봐야/VX+EC+VV+지/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

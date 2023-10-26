@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55358,
+    "name": "KAKAO_683_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113602030196/KAKAO_683_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113602030196/KAKAO_683_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35399,
+      "filename": "KAKAO_683_20.txt",
+      "title": "KAKAO_683_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 490,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 490,
+        "word_size": 163,
+        "text": "1 : 봉준호 감독 영화 그거 봄? 올드보이\n2 : 어릴 때 봐서 군만두 먹는 거 밖에 생각 안나 무슨 내용이야?\n1 : 그거 유튜브에서 일단 잘 정리된 거 봐봐 명작임\n2 : 왱? 무서운 영화는 아니지?\n1 : 특히 거기 영화 주인공은 최민식이 아니라 유지태여\n2 : 헐 대박 반전 최민식 아니였어?\n1 : 유지태라 할 수 있지 나도 커서 보고 아 이게 명장면이구나 한 게 유지태가 누나 손 놓고 총 쏘는 듯한 포즈 하는 거\n2 : 흠 뭔 내용인지 몰라서 유튜브 봐봐야겠다\n1 : 은근 충격적인 내용도 들어있음 가끔 봉준호 썰 들음 싫다가도 영화는 기가 막히게 잘 만드는 듯\n2 : 봉준호 무슨 썰도 있어? 역시 연예계\n1 : 응 근데 기억은 안나 그냥 헐 이랬던 기억만 있어\n2 : 아 진짜 키키 봉준호 하면 괴물 아닌가?\n1 : 오 괴물도 재밌게 봤지 아빠랑 갔자나\n2 : 맞아 괴물한테 잡혀 먹는 거 정말 충격이었는데\n1 : 영화는 근데 영화관 빨도 큰 듯\n2 : 맞아 꼭 샹치 영화관 가서 봐봐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 봉준호 감독 영화 그거 봄? 올드보이",
+            "norm_text": "봉준호 감독 영화 그거 봄? 올드보이",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "봉준호/NNP+감독/NNG+영화/NNG+그거/NP+봄/NNG+?/SY+올드보이/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어릴 때 봐서 군만두 먹는 거 밖에 생각 안나 무슨 내용이야?",
+            "norm_text": "어릴 때 봐서 군만두 먹는 거 밖에 생각 안나 무슨 내용이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+봐서/VV+EC+군만두/NNG+먹/VV+는/ETM+거/NNB+밖에/JX+생각/NNG+안/MAG+나/VV+EC+무슨/MM+내용/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그거 유튜브에서 일단 잘 정리된 거 봐봐 명작임",
+            "norm_text": "그거 유튜브에서 일단 잘 정리된 거 봐봐 명작임",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그거/NP+유튜브/NNP+에서/JKB+일단/MAG+잘/MAG+정리/NNG+된/XSV+ETM+거/NNB+봐/VV+EC+봐/VX+EF+명작/NNG+임/VCP+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 왱? 무서운 영화는 아니지?",
+            "norm_text": "왱? 무서운 영화는 아니지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왱/MAG+무서운/VA+ETM+영화/NNG+는/JX+아니/VCN+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 특히 거기 영화 주인공은 최민식이 아니라 유지태여",
+            "norm_text": "특히 거기 영화 주인공은 최민식이 아니라 유지태여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "특히/MAG+거기/NP+영화/NNG+주인공/NNG+은/JX+최민식/NNP+이/JKC+아니/VCN+라/EC+유지태/NNP+여/JKV"
+          },
+          {
+            "id": 6,
+            "text": "2 : 헐 대박 반전 최민식 아니였어?",
+            "norm_text": "헐 대박 반전 최민식 아니였어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+대박/NNG+반전/NNG+최민식/NNP+아니/VCN+였/EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 유지태라 할 수 있지 나도 커서 보고 아 이게 명장면이구나 한 게 유지태가 누나 손 놓고 총 쏘는 듯한 포즈 하는 거",
+            "norm_text": "유지태라 할 수 있지 나도 커서 보고 아 이게 명장면이구나 한 게 유지태가 누나 손 놓고 총 쏘는 듯한 포즈 하는 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "유지태/NNP+라/VCP+EC+할/VX+ETM+수/NNB+있/VV+지/EC+나/NP+도/JX+커서/VV+EC+보/VX+고/EC+아/IC+이게/NP+JKS+명장면/NNG+이/VCP+구나/EC+한게/VX+ETM+NNB+JKS+유지태/NNP+가/JKS+누나/NNG+손놓/VV+고/EC+총/MM+쏘/VV+는/ETM+듯/NNB+한/XSA+ETM+포즈/NNG+하/XSV+는/ETM+거/NNB"
+          },
+          {
+            "id": 8,
+            "text": "2 : 흠 뭔 내용인지 몰라서 유튜브 봐봐야겠다",
+            "norm_text": "흠 뭔 내용인지 몰라서 유튜브 봐봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "흠/IC+뭔/MM+내용/NNG+인지/VCP+EC+몰라서/VV+EC+유튜브/NNP+봐/VV+EC+봐야/VX+EC+VV+겠/EP+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 은근 충격적인 내용도 들어있음 가끔 봉준호 썰 들음 싫다가도 영화는 기가 막히게 잘 만드는 듯",
+            "norm_text": "은근 충격적인 내용도 들어있음 가끔 봉준호 썰 들음 싫다가도 영화는 기가 막히게 잘 만드는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "은근/NNG+충격/NNG+적/XSN+인/VCP+ETM+내용/NNG+도/JX+들/VV+어/EC+있/VX+음/ETN+가끔/MAG+봉준호/NNP+썰/VV+ETM+들/VV+음/ETN+싫/VA+다가/EC+도/JX+영화/NNG+는/JX+기/ETN+가/JKS+막히/VV+게/EC+잘/MAG+만드/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 봉준호 무슨 썰도 있어? 역시 연예계",
+            "norm_text": "봉준호 무슨 썰도 있어? 역시 연예계",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "봉준호/NNP+무슨/MM+썰/VV+도/EC+있/VX+어/EF+역시/MAJ+연예계/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 근데 기억은 안나 그냥 헐 이랬던 기억만 있어",
+            "norm_text": "응 근데 기억은 안나 그냥 헐 이랬던 기억만 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+근데/MAJ+기억/NNG+은/JX+안/MAG+나/VV+EC+그냥/MAG+헐/VV+JKO+이랬/VV+EP+던/ETM+기억/NNG+만/JX+있/VX+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 진짜 키키 봉준호 하면 괴물 아닌가?",
+            "norm_text": "아 진짜 키키 봉준호 하면 괴물 아닌가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+키키/NNP+봉준호/NNP+하/VV+면/EC+괴물/NNG+아닌가/VCN+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오 괴물도 재밌게 봤지 아빠랑 갔자나",
+            "norm_text": "오 괴물도 재밌게 봤지 아빠랑 갔자나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+괴물/NNG+도/JX+재밌/VA+게/EC+봤/VX+EP+지/EC+아빠/NNG+랑/JKB+갔/VV+EP+자/EC+나/VX"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞아 괴물한테 잡혀 먹는 거 정말 충격이었는데",
+            "norm_text": "맞아 괴물한테 잡혀 먹는 거 정말 충격이었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+괴물/NNG+한테/JKB+잡혀/VV+EC+먹/VV+는/ETM+거/NNB+정말/MAG+충격/NNG+이/VCP+었/EP+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 영화는 근데 영화관 빨도 큰 듯",
+            "norm_text": "영화는 근데 영화관 빨도 큰 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영화/NNG+는/JX+근데/MAJ+영화관/NNG+빨/VV+도/EC+큰/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞아 꼭 샹치 영화관 가서 봐봐",
+            "norm_text": "맞아 꼭 샹치 영화관 가서 봐봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "맞/VV+아/EC+꼭/MAG+샹치/NNP+영화관/NNG+가/VV+서/EC+봐/VX+EC+봐/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

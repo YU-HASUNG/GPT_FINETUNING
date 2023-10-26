@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 21820,
+    "name": "KAKAO_600_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109231133300683100/KAKAO_600_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109231133300683100/KAKAO_600_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30412,
+      "filename": "KAKAO_600_17.txt",
+      "title": "KAKAO_600_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 559,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 559,
+        "word_size": 177,
+        "text": "1 : 아까 백신 부작용 얘기 했잖아ㅠ\n1 : 계속 이럼 병원 가봐야겠다\n2 : 진짜 그거 그냥 놔두지 말고 혹시 모르니까 자궁 초음파도 해보는 것도 좋을 듯\n2 : 혹시나 ㅠ\n1 : 병원 중에 치과랑 산부인과는 정말 가기 싫은데ㅠㅠ\n2 : 진짜 산부인과랑 치과 ㅠㅠ\n2 : 아휴... 그래도 제일 중요하니 ㅠㅠ\n1 : 자궁경부암 검사는 국가검진으로 무료라 매년 받기는 하는데\n2 : 아 그건 정말 좋은 것 같아 ㅠ\n2 : 자궁검사가 부담스럽긴 하지 ㅠㅠ\n1 : 어떤 질병이든 초기에 발견하면 좋은 거니까...\n2 : 무조건 미리 예방하는 게 좋은 것 같아 !\n1 : 병원이랑 친해지는 게 좋지 키키\n1 : 무서워서 그렇지ㅠㅠ\n2 : 진짜 병원은 여기저기 자주 가서 검진 받는 게 좋아 키키\n1 : 나도 적어도 치과랑 산부인과는 6개월마다 한번은 가려고 키키\n2 : 키키 맞어 나는 매달 가는 산부인과 키키\n1 : 운동도 꾸준히 계속 해줘야겠어 키키\n2 : 운동이 제일 중요하더라...\n2 : 알면서도 하기가 귀찮아 키키\n1 : 나 운동 시작하고 비염이 엄청 줄었거덩\n2 : 아 진짜 ㅠㅠ 나는 비염때문에 괴로워\n2 : 지금도 콧물이 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아까 백신 부작용 얘기 했잖아ㅠ",
+            "norm_text": "아까 백신 부작용 얘기 했잖아ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아까/MAG+백/NR+신부/NNG+작용/NNG+얘기/NNG+했잖아/XSV+EP+EC+VX+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "1 : 계속 이럼 병원 가봐야겠다",
+            "norm_text": "계속 이럼 병원 가봐야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "계속/MAG+이럼/MAJ+병원/NNG+가/VV+봐야/EC+VX+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 진짜 그거 그냥 놔두지 말고 혹시 모르니까 자궁 초음파도 해보는 것도 좋을 듯",
+            "norm_text": "진짜 그거 그냥 놔두지 말고 혹시 모르니까 자궁 초음파도 해보는 것도 좋을 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "진짜/MAG+그거/NP+그냥/MAG+놔두/VV+지/EC+말/VX+고/EC+혹시/MAG+모르/VV+니까/EC+자궁/NNG+초음파/NNG+도/JX+해/VV+EC+보/VX+는/ETM+것/NNB+도/JX+좋/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 혹시나 ㅠ",
+            "norm_text": "혹시나 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혹시나ㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 병원 중에 치과랑 산부인과는 정말 가기 싫은데ㅠㅠ",
+            "norm_text": "병원 중에 치과랑 산부인과는 정말 가기 싫은데ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+중/NNB+에/JKB+치과/NNG+랑/JKB+산부인과/NNG+는/JX+정말/MAG+가/VV+기/ETN+싫/VA+은데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 진짜 산부인과랑 치과 ㅠㅠ",
+            "norm_text": "진짜 산부인과랑 치과 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+산부인과/NNG+랑/JKB+치과/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아휴... 그래도 제일 중요하니 ㅠㅠ",
+            "norm_text": "아휴... 그래도 제일 중요하니 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아휴/IC+./SY+그래도/MAJ+제일/MAG+중요/NNG+하/XSV+니/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 자궁경부암 검사는 국가검진으로 무료라 매년 받기는 하는데",
+            "norm_text": "자궁경부암 검사는 국가검진으로 무료라 매년 받기는 하는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자궁경부암/NNP+검사/NNG+는/JX+국가/NNG+검진/NNG+으로/JKB+무료/NNG+라/VCP+EC+매년/MAG+받/VV+기/ETN+는/JX+하/VV+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 그건 정말 좋은 것 같아 ㅠ",
+            "norm_text": "아 그건 정말 좋은 것 같아 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그건/NP+JX+정말/MAG+좋/VA+은/ETM+것/NNB+같/VA+아/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 자궁검사가 부담스럽긴 하지 ㅠㅠ",
+            "norm_text": "자궁검사가 부담스럽긴 하지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자궁/NNG+검사/NNG+가/JKS+부담/NNG+스럽/XSA+긴/ETN+JX+하/VX+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 어떤 질병이든 초기에 발견하면 좋은 거니까...",
+            "norm_text": "어떤 질병이든 초기에 발견하면 좋은 거니까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어떤/MM+질병/NNG+이/VCP+든/EC+초기/NNG+에/JKB+발견/NNG+하/XSV+면/EC+좋/VA+은/ETM+거/NNB+니까/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 무조건 미리 예방하는 게 좋은 것 같아 !",
+            "norm_text": "무조건 미리 예방하는 게 좋은 것 같아 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무조건/MAG+미리/MAG+예방/NNG+하/XSV+는/ETM+게/NNB+JKS+좋/VA+은/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 병원이랑 친해지는 게 좋지 키키",
+            "norm_text": "병원이랑 친해지는 게 좋지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "병원/NNG+이랑/JKB+친해/VA+EC+지/VX+는/ETM+게/NNB+JKS+좋/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 무서워서 그렇지ㅠㅠ",
+            "norm_text": "무서워서 그렇지ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무서워서/VA+EC+그렇/VA+지/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 진짜 병원은 여기저기 자주 가서 검진 받는 게 좋아 키키",
+            "norm_text": "진짜 병원은 여기저기 자주 가서 검진 받는 게 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "진짜/MAG+병원/NNG+은/JX+여기저기/NNG+자주/MAG+가/VV+서/EC+검진/NNG+받/VV+는/ETM+게/NNB+JKS+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나도 적어도 치과랑 산부인과는 6개월마다 한번은 가려고 키키",
+            "norm_text": "나도 적어도 치과랑 산부인과는 6개월마다 한번은 가려고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+적어도/MAG+치과/NNG+랑/JKB+산부인과/NNG+는/JX+6/SN+개월/NNBC+마다/JX+한/MM+번/NNBC+은/JX+가/VV+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 맞어 나는 매달 가는 산부인과 키키",
+            "norm_text": "키키 맞어 나는 매달 가는 산부인과 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+어/EC+나/NP+는/JX+매달/MAG+가/VV+는/ETM+산부인과/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 운동도 꾸준히 계속 해줘야겠어 키키",
+            "norm_text": "운동도 꾸준히 계속 해줘야겠어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "운동/NNG+도/JX+꾸준히/MAG+계속/MAG+해/VV+EC+줘야겠어/VX+EC+VX+EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 운동이 제일 중요하더라...",
+            "norm_text": "운동이 제일 중요하더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "운동/NNG+이/JKS+제일/MAG+중요/NNG+하/XSA+더라/EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 알면서도 하기가 귀찮아 키키",
+            "norm_text": "알면서도 하기가 귀찮아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+면서/EC+도/JX+하/VV+기/ETN+가/JKS+귀찮/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 나 운동 시작하고 비염이 엄청 줄었거덩",
+            "norm_text": "나 운동 시작하고 비염이 엄청 줄었거덩",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나운동/NNP+시작/NNG+하/XSV+고/EC+비염/NNG+이/JKS+엄청/MAG+줄/VV+었/EP+거덩/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 아 진짜 ㅠㅠ 나는 비염때문에 괴로워",
+            "norm_text": "아 진짜 ㅠㅠ 나는 비염때문에 괴로워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+ㅠㅠ/UNKNOWN+나/NP+는/JX+비염/NNG+때문/NNB+에/JKB+괴로워/VA+EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 지금도 콧물이 ㅠㅠ",
+            "norm_text": "지금도 콧물이 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금도콧물이ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

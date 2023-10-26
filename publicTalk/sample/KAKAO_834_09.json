@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 35523,
+    "name": "KAKAO_834_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170507094051/KAKAO_834_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170507094051/KAKAO_834_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38722,
+      "filename": "KAKAO_834_09.txt",
+      "title": "KAKAO_834_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 714,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 714,
+        "word_size": 221,
+        "text": "1 : 그냥 친구야 너는 햄스터나 키워...\n1 : 적어도 햄스터는 너 안 닮을 거 아니야\n2 : 난 강아지 키우고 싶은데...\n2 : 나처럼 귀엽잖아 하하\n1 : 엥 강아지들 속상해 이거 지나가는 강아지가 못 보게 해라\n2 : 강아지도 이거 들으면 춤추면서 두발로 걸어갈걸?\n1 : 엥 자의식 너무 강하신 듯...\n1 : 전국의 강아지 여러분 제가 다 죄송합니다\n2 : 어쨋든 난 예전부터 강아지는 한번 키워보고 싶었어...\n2 : 너는 뭐 키워보고 싶어?\n1 : 나는 고양이 강아지는 평생을 함께 해서... 나는 범고래...?\n2 : 혹시 집안에 아쿠아리움 만들 생각이야? 키키\n1 : 키키 범고래는 아무리 넓어도 운동량을 다 채울 수가 없대.\n1 : 그래서 집을 바다에 지으려고\n2 : 그거 좋다... 범고래랑 줄로 묶어서 바다 떠돌아다니면 무료 여행도 가능하겠네\n1 : 그런 말은 안 했잖아 ㅠ\n1 : 왜 방랑자로 만들어\n2 : 바다에 집 짓고 범고래도 돌보려면 저 방법이 좋지 않을까? 키키\n1 : 완전 뛰어난 우주 기술로 바다에 방공호를 만드는 거야\n2 : 그럼 갇혀 사는 건 너니까 범고래가 널 키우는 게 아닐까?\n1 : 아 그건 생각의 차이라고 할 수 있지.\n2 : 그럼 반려 인간으로 살 생각이 있는 거야? 키키\n2 : 나중에 구경 가야겠다\n1 : 구경 오는 길은 너가 알아서 구축해야 해 알지?\n1 : 오다가 죽을 수 있음 주의\n2 : 구경까지 가주는데 길도 내가 개척해야 되는 거야? 좀 너무하네...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 그냥 친구야 너는 햄스터나 키워...",
+            "norm_text": "그냥 친구야 너는 햄스터나 키워...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그냥/MAG+친구/NNG+야/VCP+EF+너/NP+는/JX+햄스터/NNG+나/JX+키워/VV+EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "1 : 적어도 햄스터는 너 안 닮을 거 아니야",
+            "norm_text": "적어도 햄스터는 너 안 닮을 거 아니야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "적어도/MAG+햄스터/NNG+는/JX+너/NP+안/MAG+닮/VV+을/ETM+거/NNB+아니/VCN+야/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 난 강아지 키우고 싶은데...",
+            "norm_text": "난 강아지 키우고 싶은데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+강아지/NNG+키우/VV+고/EC+싶/VX+은데/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나처럼 귀엽잖아 하하",
+            "norm_text": "나처럼 귀엽잖아 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+처럼/JKB+귀엽/VA+잖아/EC+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엥 강아지들 속상해 이거 지나가는 강아지가 못 보게 해라",
+            "norm_text": "엥 강아지들 속상해 이거 지나가는 강아지가 못 보게 해라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+강아지/NNG+들/XSN+속상해/VA+EC+이거/NP+지나가/VV+는/ETM+강아지/NNG+가/JKS+못/MAG+보/VV+게/EC+해라/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 강아지도 이거 들으면 춤추면서 두발로 걸어갈걸?",
+            "norm_text": "강아지도 이거 들으면 춤추면서 두발로 걸어갈걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+도/JX+이거/NP+들으면/VV+EC+춤추/VV+면서두/EC+발/NNG+로/JKB+걸/VV+어/EC+갈걸/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 엥 자의식 너무 강하신 듯...",
+            "norm_text": "엥 자의식 너무 강하신 듯...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+자의식/NNG+너무/MAG+강하/VA+신/EP+ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 전국의 강아지 여러분 제가 다 죄송합니다",
+            "norm_text": "전국의 강아지 여러분 제가 다 죄송합니다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 사과하기",
+            "morpheme": "전국/NNG+의/JKG+강아지/NNG+여러분/NP+제/NP+가/JKS+다/MAG+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 어쨋든 난 예전부터 강아지는 한번 키워보고 싶었어...",
+            "norm_text": "어쨋든 난 예전부터 강아지는 한번 키워보고 싶었어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쨋든/MAG+난/VV+ETM+예전/NNG+부터/JX+강아지/NNG+는/JX+한/MM+번/NNBC+키워/VV+EC+보/VX+고/EC+싶/VX+었/EP+어/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 너는 뭐 키워보고 싶어?",
+            "norm_text": "너는 뭐 키워보고 싶어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+뭐/IC+키워/VV+EC+보/VX+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 고양이 강아지는 평생을 함께 해서... 나는 범고래...?",
+            "norm_text": "나는 고양이 강아지는 평생을 함께 해서... 나는 범고래...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+고양이/NNG+강아지/NNG+는/JX+평생/NNG+을/JKO+함께/MAG+해서/VV+EC+./SY+./SY+나/NP+는/JX+범고래/NNG+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 혹시 집안에 아쿠아리움 만들 생각이야? 키키",
+            "norm_text": "혹시 집안에 아쿠아리움 만들 생각이야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혹시/MAG+집안/NNG+에/JKB+아쿠아리움/NNG+만들/VV+ETM+생각/NNG+이/VCP+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 범고래는 아무리 넓어도 운동량을 다 채울 수가 없대.",
+            "norm_text": "키키 범고래는 아무리 넓어도 운동량을 다 채울 수가 없대.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+범고래/NNG+는/JX+아무리/MAG+넓/VA+어도/EC+운동량/NNG+을/JKO+다/MAG+채울/VV+ETM+수/NNB+가/JKS+없/VA+대/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그래서 집을 바다에 지으려고",
+            "norm_text": "그래서 집을 바다에 지으려고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+집/NNG+을/JKO+바다/NNG+에/JKB+지으려고/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그거 좋다... 범고래랑 줄로 묶어서 바다 떠돌아다니면 무료 여행도 가능하겠네",
+            "norm_text": "그거 좋다... 범고래랑 줄로 묶어서 바다 떠돌아다니면 무료 여행도 가능하겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+좋/VA+다/EF+./SY+범고래/NNG+랑/JKB+줄/NNG+로/JKB+묶/VV+어서/EC+바다/NNG+떠돌/VV+아/EC+다니/VV+면/EC+무료/NNG+여행/NNG+도/JX+가능/NNG+하/XSV+겠/EP+네/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그런 말은 안 했잖아 ㅠ",
+            "norm_text": "그런 말은 안 했잖아 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+말/NNG+은/JX+안/MAG+했잖아/VV+EP+EC+VX+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 왜 방랑자로 만들어",
+            "norm_text": "왜 방랑자로 만들어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+방랑자/NNG+로/JKB+만들/VV+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 바다에 집 짓고 범고래도 돌보려면 저 방법이 좋지 않을까? 키키",
+            "norm_text": "바다에 집 짓고 범고래도 돌보려면 저 방법이 좋지 않을까? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "바다/NNG+에/JKB+집/NNG+짓/VV+고/EC+범고래/NNG+도/JX+돌보/VV+려면/EC+저/MM+방법/NNG+이/JKS+좋/VA+지/EC+않/VX+을까/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 완전 뛰어난 우주 기술로 바다에 방공호를 만드는 거야",
+            "norm_text": "완전 뛰어난 우주 기술로 바다에 방공호를 만드는 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/MAG+뛰어난/VA+ETM+우주/NNG+기술/NNG+로/JKB+바다/NNG+에/JKB+방공호/NNG+를/JKO+만드/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그럼 갇혀 사는 건 너니까 범고래가 널 키우는 게 아닐까?",
+            "norm_text": "그럼 갇혀 사는 건 너니까 범고래가 널 키우는 게 아닐까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+갇혀/VV+EC+사/VV+는/ETM+건/NNB+JX+너/NP+니까/VCP+EC+범고래/NNG+가/JKS+널/NP+JKO+키우/VV+는/ETM+게/NNB+JKC+아닐까/VCN+EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 아 그건 생각의 차이라고 할 수 있지.",
+            "norm_text": "아 그건 생각의 차이라고 할 수 있지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그건/NP+JX+생각/NNG+의/JKG+차이/NNG+라고/VCP+EC+할/VX+ETM+수/NNB+있/VV+지/EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그럼 반려 인간으로 살 생각이 있는 거야? 키키",
+            "norm_text": "그럼 반려 인간으로 살 생각이 있는 거야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+반려/NNG+인간/NNG+으로/JKB+살/VV+ETM+생각/NNG+이/JKS+있/VA+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나중에 구경 가야겠다",
+            "norm_text": "나중에 구경 가야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나중/NNG+에/JKB+구경/NNG+가/VV+야겠다/EC+VX+EP+EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 구경 오는 길은 너가 알아서 구축해야 해 알지?",
+            "norm_text": "구경 오는 길은 너가 알아서 구축해야 해 알지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구경/NNG+오/VV+는/ETM+길/NNG+은/JX+너/NP+가/JKS+알/VV+아서/EC+구축/NNG+해야/XSV+EC+해/VV+EC+알/VV+지/EF"
+          },
+          {
+            "id": 25,
+            "text": "1 : 오다가 죽을 수 있음 주의",
+            "norm_text": "오다가 죽을 수 있음 주의",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/VV+다가/EC+죽/VV+을/ETM+수/NNB+있/VV+음/ETN+주의/NNG"
+          },
+          {
+            "id": 26,
+            "text": "2 : 구경까지 가주는데 길도 내가 개척해야 되는 거야? 좀 너무하네...",
+            "norm_text": "구경까지 가주는데 길도 내가 개척해야 되는 거야? 좀 너무하네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구경/NNG+까지/JX+가/VV+EC+주/VX+는데/EC+길/NNG+도/JX+내/NP+가/JKS+개척/NNG+해야/XSV+EC+되/VV+는/ETM+거/NNB+야/VCP+EF+좀/MAG+너무/MAG+하/VV+네/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

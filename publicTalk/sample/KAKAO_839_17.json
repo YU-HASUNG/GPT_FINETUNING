@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 31760,
+    "name": "KAKAO_839_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165325037516/KAKAO_839_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165325037516/KAKAO_839_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38490,
+      "filename": "KAKAO_839_17.txt",
+      "title": "KAKAO_839_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 518,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 518,
+        "word_size": 170,
+        "text": "1 : 나 이번에 다이어트하니깐 병원에서 크롬을 챙겨 먹으래\n2 : 크롬 나는 크롬 처음 들어 봐 그게 뭐에 좋대?\n1 : 인슐린 생산에 좋대 그래서 혈당을 맞춘다고 하네\n2 : 아하 자기는 임신 때 당뇨 와서 고생했잖아\n1 : 응 출산하고는 이제 괜찮긴 한데 아직도 피곤하면 수치 안 좋아져\n2 : 그럼 미리미리 먹어 주면 좋겠네~\n1 : 응응 인슐린 부족하면 나이 들어 당뇨가 올 수 있대\n2 : 오 그럼 나도 미리미리 챙겨 먹을래!\n1 : 좋아 ㅎ 그리고 이번에 우리 비타민제도 다 떨어졌어 하하\n2 : 아 맞아 내가 아침에 한 알 남은 거는 먹었어\n1 : 퇴근하고 같이 약국 갈래 ?ㅎ\n1 : 재난 지원금 써야겠다 ㅎ\n2 : 응응 ㅎ 그래도 재난 지원금 쓰니깐 큰 부담 없어 좋네\n1 : 왠지 건강 챙기는 건데도 이건 돈이 부담스럽더라 그지? ㅎ\n2 : 맞아 배달 음식 먹는 거는 안 아까운데 이상하지?\n1 : 똑같이 2만 원 4만 원인데 왜 이렇게 돈이 아까운 건지 ㅎ\n2 : 오늘은 그럼 약국 가서 플랙스하자 내가 다 사 준다! 지원금으로 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 이번에 다이어트하니깐 병원에서 크롬을 챙겨 먹으래",
+            "norm_text": "나 이번에 다이어트하니깐 병원에서 크롬을 챙겨 먹으래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+이번/NNG+에/JKB+다이어트/NNG+하/XSV+니깐/EC+병원/NNG+에서/JKB+크롬/NNG+을/JKO+챙겨/VV+EC+먹/VV+으래/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 크롬 나는 크롬 처음 들어 봐 그게 뭐에 좋대?",
+            "norm_text": "크롬 나는 크롬 처음 들어 봐 그게 뭐에 좋대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "크롬/NNG+나/NP+는/JX+크롬/NNG+처음/NNG+들/VV+어/EC+봐/VX+EF+그게/NP+JKS+뭐/NP+에/JKB+좋/VA+대/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 인슐린 생산에 좋대 그래서 혈당을 맞춘다고 하네",
+            "norm_text": "인슐린 생산에 좋대 그래서 혈당을 맞춘다고 하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "인슐린/NNG+생산/NNG+에/JKB+좋/VA+대/EF+그래서/MAJ+혈당/NNG+을/JKO+맞춘다고/VV+EC+하네/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아하 자기는 임신 때 당뇨 와서 고생했잖아",
+            "norm_text": "아하 자기는 임신 때 당뇨 와서 고생했잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아하/IC+자기/NP+는/JX+임신/NNG+때/NNG+당뇨/NNG+와서/VV+EC+고생/NNG+했/XSV+EP+잖아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 출산하고는 이제 괜찮긴 한데 아직도 피곤하면 수치 안 좋아져",
+            "norm_text": "응 출산하고는 이제 괜찮긴 한데 아직도 피곤하면 수치 안 좋아져",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+출산/NNG+하/XSV+고/EC+는/JX+이제/MAG+괜찮/VA+긴/ETN+JX+한데/VX+EC+아직/MAG+도/JX+피곤/NNG+하/XSV+면/EC+수치/NNG+안/MAG+좋/VA+아/EC+져/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그럼 미리미리 먹어 주면 좋겠네~",
+            "norm_text": "그럼 미리미리 먹어 주면 좋겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+미리미리/MAG+먹/VV+어/EC+주/VX+면/EC+좋/VA+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응응 인슐린 부족하면 나이 들어 당뇨가 올 수 있대",
+            "norm_text": "응응 인슐린 부족하면 나이 들어 당뇨가 올 수 있대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+인슐린/NNG+부족/NNG+하/XSV+면/EC+나이/NNG+들/XSN+어/IC+당뇨/NNG+가/JKS+올/VV+ETM+수/NNB+있/VV+대/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오 그럼 나도 미리미리 챙겨 먹을래!",
+            "norm_text": "오 그럼 나도 미리미리 챙겨 먹을래!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오/IC+그럼/MAJ+나/NP+도/JX+미리미리/MAG+챙겨/VV+EC+먹/VV+을래/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 좋아 ㅎ 그리고 이번에 우리 비타민제도 다 떨어졌어 하하",
+            "norm_text": "좋아 ㅎ 그리고 이번에 우리 비타민제도 다 떨어졌어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+아/EC+ㅎ/XSA+그리고/MAJ+이번/NNG+에/JKB+우리/NP+비타민제/NNG+도/JX+다/MAG+떨어졌/VV+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 맞아 내가 아침에 한 알 남은 거는 먹었어",
+            "norm_text": "아 맞아 내가 아침에 한 알 남은 거는 먹었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞아/IC+내/NP+가/JKS+아침/NNG+에/JKB+한/MM+알/NNBC+남/VV+은/ETM+거/NNB+는/JX+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 퇴근하고 같이 약국 갈래 ?ㅎ",
+            "norm_text": "퇴근하고 같이 약국 갈래 ?ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "퇴근/NNG+하/XSV+고/EC+같이/MAG+약국/NNG+갈래/VV+EF+ㅎ/XSA"
+          },
+          {
+            "id": 12,
+            "text": "1 : 재난 지원금 써야겠다 ㅎ",
+            "norm_text": "재난 지원금 써야겠다 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "재난/NNG+지원금/NNG+써야/VV+EC+VX+겠/EP+다/EF+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응응 ㅎ 그래도 재난 지원금 쓰니깐 큰 부담 없어 좋네",
+            "norm_text": "응응 ㅎ 그래도 재난 지원금 쓰니깐 큰 부담 없어 좋네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+ㅎ/XSA+그래도/MAJ+재난/NNG+지원금/NNG+쓰/VV+니깐/EC+큰/VA+ETM+부담/NNG+없/VA+어/EC+좋/VA+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 왠지 건강 챙기는 건데도 이건 돈이 부담스럽더라 그지? ㅎ",
+            "norm_text": "왠지 건강 챙기는 건데도 이건 돈이 부담스럽더라 그지? ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왠지/MAG+건강/NNG+챙기/VV+는/ETM+건데/NNB+VCP+EC+도/JX+이건/NP+JX+돈/NNG+이/JKS+부담/NNG+스럽/XSA+더라/EF+그지/IC+ㅎ/XSA"
+          },
+          {
+            "id": 15,
+            "text": "2 : 맞아 배달 음식 먹는 거는 안 아까운데 이상하지?",
+            "norm_text": "맞아 배달 음식 먹는 거는 안 아까운데 이상하지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+배달/NNG+음식/NNG+먹/VV+는/ETM+거/NNB+는/JX+안/MAG+아까운/VA+ETM+데/NNB+이상/NNG+하/XSA+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 똑같이 2만 원 4만 원인데 왜 이렇게 돈이 아까운 건지 ㅎ",
+            "norm_text": "똑같이 2만 원 4만 원인데 왜 이렇게 돈이 아까운 건지 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "똑같이/MAG+2/SN+만/NR+원/NNBC+4/SN+만/NR+원/NNBC+인데/VCP+EC+왜/MAG+이렇게/MAG+돈/NNG+이/JKS+아까운/VA+ETM+건지/NNB+VCP+EC+ㅎ/XSA"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오늘은 그럼 약국 가서 플랙스하자 내가 다 사 준다! 지원금으로 하하",
+            "norm_text": "오늘은 그럼 약국 가서 플랙스하자 내가 다 사 준다! 지원금으로 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오늘/NNG+은/JX+그럼/MAJ+약국/NNG+가/VV+서/EC+플랙스/NNP+하/VV+자/EC+내/NP+가/JKS+다/MAG+사/VV+EC+준다/VX+EF+지원금/NNG+으로/JKB+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

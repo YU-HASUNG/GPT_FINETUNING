@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 45600,
+    "name": "KAKAO_801_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647065230/KAKAO_801_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647065230/KAKAO_801_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38031,
+      "filename": "KAKAO_801_20.txt",
+      "title": "KAKAO_801_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 384,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 127,
+        "text": "1 : 남자 배우 중에 누가 제일 괜찮아?\n2 : 박서준 멋있더라 남자가 봐도\n1 : 아 맞다 나도 박서준 팬인데 ㅠㅠ\n2 : 키키 나는 팬까지는 아니고 그냥 멋있더라\n1 : 키키 키도 크고 잘생기고 젠틀하고 멋잇고 짱이다 짱\n2 : 키키 연기도 잘하잖아\n2 : 저래 살아보고 싶다\n1 : 니는 남잔데 키키 여자 되고 싶나\n2 : 뭐 여자 키키 박서준처럼 살아보고 싶다고\n1 : 아 키키 박서준처럼 하루 살게 해준다 하면?\n2 : 키키 당연히 살아봐야지 하루라도 키키\n1 : 하루 살고 니가 죽는다면? 키키\n2 : 그럼 구지 그렇게 까지 해야 되나? 키키\n1 : 키키 극한의 상황까지 생각해봐야지\n2 : 키키 니는 박서준이랑 하루 살 수 있다면?\n1 : 그럼 그 다음에는 내 죽나? 키키\n2 : 어 키키 니도 죽는다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 남자 배우 중에 누가 제일 괜찮아?",
+            "norm_text": "남자 배우 중에 누가 제일 괜찮아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+배우/NNG+중/NNB+에/JKB+누가/NP+JKS+제일/MAG+괜찮/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 박서준 멋있더라 남자가 봐도",
+            "norm_text": "박서준 멋있더라 남자가 봐도",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "박/VV+서/EC+준/VX+ETM+멋있/VA+더라/EC+남자/NNG+가/JKS+봐도/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 맞다 나도 박서준 팬인데 ㅠㅠ",
+            "norm_text": "아 맞다 나도 박서준 팬인데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+다/EF+나/NP+도/JX+박/VV+서/EC+준/VX+ETM+팬/NNG+인데/VCP+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 나는 팬까지는 아니고 그냥 멋있더라",
+            "norm_text": "키키 나는 팬까지는 아니고 그냥 멋있더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+팬/NNG+까지/JX+는/JX+아니/VCN+고/EC+그냥/MAG+멋있/VA+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 키도 크고 잘생기고 젠틀하고 멋잇고 짱이다 짱",
+            "norm_text": "키키 키도 크고 잘생기고 젠틀하고 멋잇고 짱이다 짱",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+키/XSV+ETN+도/JX+크/VA+고/EC+잘/MAG+생기/VV+고/EC+젠틀/NNG+하/XSV+고/EC+멋/NNG+잇/VV+고/EC+짱/NNG+이/JKS+다/MAG+짱/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 연기도 잘하잖아",
+            "norm_text": "키키 연기도 잘하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+연기/NNG+도/JX+잘/MAG+하/VV+잖아/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 저래 살아보고 싶다",
+            "norm_text": "저래 살아보고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저래/VV+EC+VX+EC+살/VV+아/EC+보/VX+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 니는 남잔데 키키 여자 되고 싶나",
+            "norm_text": "니는 남잔데 키키 여자 되고 싶나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "니/NP+는/JX+남잔데/NNG+VCP+EC+키/NNG+키/NNG+여자/NNG+되/XSV+고/EC+싶/VX+나/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 뭐 여자 키키 박서준처럼 살아보고 싶다고",
+            "norm_text": "뭐 여자 키키 박서준처럼 살아보고 싶다고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+여자/NNG+키키/NNP+박서준/NNP+처럼/JKB+살/VV+아/EC+보/VX+고/EC+싶/VX+다고/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 키키 박서준처럼 하루 살게 해준다 하면?",
+            "norm_text": "아 키키 박서준처럼 하루 살게 해준다 하면?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+키키/NNP+박서준/NNP+처럼/JKB+하루/NNG+살/VV+게/EC+해준다/VX+EC+VX+EC+하/VV+면/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 당연히 살아봐야지 하루라도 키키",
+            "norm_text": "키키 당연히 살아봐야지 하루라도 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+당연히/MAG+살/VV+아/EC+봐야/VX+EC+VV+지/EC+하루/NNG+라도/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 하루 살고 니가 죽는다면? 키키",
+            "norm_text": "하루 살고 니가 죽는다면? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하루/NNG+살/VV+고/EC+니/NP+가/JKS+죽/VV+는다면/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그럼 구지 그렇게 까지 해야 되나? 키키",
+            "norm_text": "그럼 구지 그렇게 까지 해야 되나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+구지/NNG+그렇/VA+게/EC+까지/JX+해야/VV+EC+되/VV+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 극한의 상황까지 생각해봐야지",
+            "norm_text": "키키 극한의 상황까지 생각해봐야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+극한/NNG+의/JKG+상황/NNG+까지/JX+생각/NNG+해봐야/XSV+EC+VX+EC+VX+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 니는 박서준이랑 하루 살 수 있다면?",
+            "norm_text": "키키 니는 박서준이랑 하루 살 수 있다면?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+니/NP+는/JX+박서준/NNP+이랑/JC+하루/NNG+살/VV+ETM+수/NNB+있/VV+다면/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그럼 그 다음에는 내 죽나? 키키",
+            "norm_text": "그럼 그 다음에는 내 죽나? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+그/MM+다음/NNG+에/JKB+는/JX+내/NP+죽/VV+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 어 키키 니도 죽는다",
+            "norm_text": "어 키키 니도 죽는다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+키/NNG+키/VV+니/EC+도/JX+죽/VV+는다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

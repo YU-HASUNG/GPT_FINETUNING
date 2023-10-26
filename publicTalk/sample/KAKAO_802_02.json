@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45608,
+    "name": "KAKAO_802_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172236027233/KAKAO_802_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172236027233/KAKAO_802_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39620,
+      "filename": "KAKAO_802_02.txt",
+      "title": "KAKAO_802_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 418,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 418,
+        "word_size": 134,
+        "text": "1 : 오늘 엄마 아빠 여행 가시는 거 알고 있지?\n2 : 아 맞아 엄마 아빠 2주 동안 여행 가시지\n1 : 응 2주 동안 집안일 우리가 해야 해\n2 : 우리가 집 인테리어 좀 바꿔 볼까?\n1 : 키키 집안일부터 잘하고 인테리어든 나발이든 하지 않을까?\n2 : 흠… 크게는 빨래, 청소, 요리 정도?\n1 : 우리 집  베란다에 스파이더맨 살던데\n2 : 엥? 무슨 스파이더맨 타령이야 키키\n1 : 베란다에 거미줄 장난 아니던데 확인했어?\n2 : 아 아파트가 4층이다 보니까 바람에 날아왔나 보네…\n1 : 거미줄은 어떻게 치워야 하지...\n2 : 내가 보기에는 먼지떨이로 한번 치워 봐야겠어\n1 : 아 맞아 오늘 저녁에 수도 점검 있다고 공지 왔더라\n2 : 그러면 오늘 청소하기 힘들겠네\n1 : 응 내일 점심쯤에 하면 될 꺼 같아\n2 : 그래 그러면 내일 점심에는 시간 비워 놔",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 엄마 아빠 여행 가시는 거 알고 있지?",
+            "norm_text": "오늘 엄마 아빠 여행 가시는 거 알고 있지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+엄마/NNG+아빠/NNG+여행/NNG+가시/VV+는/ETM+거/NNB+알/VV+고/EC+있/VX+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 맞아 엄마 아빠 2주 동안 여행 가시지",
+            "norm_text": "아 맞아 엄마 아빠 2주 동안 여행 가시지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+아/EC+엄마/NNG+아빠/NNG+2/SN+주/NNBC+동안/NNG+여행/NNG+가/VV+시/EP+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 2주 동안 집안일 우리가 해야 해",
+            "norm_text": "응 2주 동안 집안일 우리가 해야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+2/SN+주/NNBC+동안/NNG+집안일/NNG+우리/NP+가/JKS+해야/VV+EC+해/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우리가 집 인테리어 좀 바꿔 볼까?",
+            "norm_text": "우리가 집 인테리어 좀 바꿔 볼까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+가/JKS+집/NNG+인테리어/NNG+좀/MAG+바꿔/VV+EC+볼까/VX+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 집안일부터 잘하고 인테리어든 나발이든 하지 않을까?",
+            "norm_text": "키키 집안일부터 잘하고 인테리어든 나발이든 하지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+집안일/NNG+부터/JX+잘/MAG+하/VV+고/EC+인테리어/NNG+든/VCP+EC+나발/NNG+이/VCP+든/EC+하/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 흠… 크게는 빨래, 청소, 요리 정도?",
+            "norm_text": "흠… 크게는 빨래, 청소, 요리 정도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "흠/IC+…/SE+크/VA+게/EC+는/JX+빨래/NNG+,/SC+청소/NNG+,/SC+요리/NNG+정도/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 우리 집  베란다에 스파이더맨 살던데",
+            "norm_text": "우리 집  베란다에 스파이더맨 살던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+집/NNG+베란다/NNG+에/JKB+스파이더맨/NNP+살/VV+던데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 엥? 무슨 스파이더맨 타령이야 키키",
+            "norm_text": "엥? 무슨 스파이더맨 타령이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엥/IC+무슨/MM+스파이더/NNG+맨/MM+타령/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 베란다에 거미줄 장난 아니던데 확인했어?",
+            "norm_text": "베란다에 거미줄 장난 아니던데 확인했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "베란다/NNG+에/JKB+거미줄/NNG+장난/NNG+아니/VCN+던데/EC+확인/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 아파트가 4층이다 보니까 바람에 날아왔나 보네…",
+            "norm_text": "아 아파트가 4층이다 보니까 바람에 날아왔나 보네…",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+아파트/NNG+가/JKS+4/SN+층/NNG+이/VCP+다/EC+보/VX+니까/EC+바람/NNG+에/JKB+날아왔/VV+EP+나/EC+보/VX+네/EC+…/SE"
+          },
+          {
+            "id": 11,
+            "text": "1 : 거미줄은 어떻게 치워야 하지...",
+            "norm_text": "거미줄은 어떻게 치워야 하지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거미줄/NNG+은/JX+어떻게/MAG+치워야/VV+EC+하/VX+지/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 내가 보기에는 먼지떨이로 한번 치워 봐야겠어",
+            "norm_text": "내가 보기에는 먼지떨이로 한번 치워 봐야겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+보/VV+기/ETN+에/JKB+는/JX+먼지떨이/NNG+로/JKB+한번/MAG+치워/VV+EC+봐야/VX+EC+VV+겠/EP+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 맞아 오늘 저녁에 수도 점검 있다고 공지 왔더라",
+            "norm_text": "아 맞아 오늘 저녁에 수도 점검 있다고 공지 왔더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞아/IC+오늘/MAG+저녁/NNG+에/JKB+수도/NNG+점검/NNG+있/VV+다고/EC+공지/NNG+왔/VV+EP+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러면 오늘 청소하기 힘들겠네",
+            "norm_text": "그러면 오늘 청소하기 힘들겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러면/MAJ+오늘/MAG+청소/NNG+하/XSV+기/ETN+힘들/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 내일 점심쯤에 하면 될 꺼 같아",
+            "norm_text": "응 내일 점심쯤에 하면 될 꺼 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+내일/MAG+점심/NNG+쯤/XSN+에/JKB+하/VV+면/EC+될/VV+ETM+꺼/NNB+VCP+같/VA+아/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 그러면 내일 점심에는 시간 비워 놔",
+            "norm_text": "그래 그러면 내일 점심에는 시간 비워 놔",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+그러면/MAJ+내일/MAG+점심/NNG+에/JKB+는/JX+시간/NNG+비워/VV+EC+놔/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 35694,
+    "name": "KAKAO_753_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134540032240/KAKAO_753_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134540032240/KAKAO_753_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37413,
+      "filename": "KAKAO_753_03.txt",
+      "title": "KAKAO_753_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 502,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 502,
+        "word_size": 163,
+        "text": "1 : 요즘 배달이 늘어나면서 오토바이도 늘고 있다는데 언니는 오토바이 타 본 적 있어?\n2 : 내가 운전 한 건 한 두번 정돈대 뒤에는 꽤 타봤어~\n1 : 아 진짜? 운전도 해봤어?\n2 : 그럼~ 근데 많지가 않을뿐이야\n1 : 오~ 오토바이 탈 때 안 무서웠어?\n2 : 응! 무섭기보다 오히려 재밌었어\n1 : 키키 그랬었구나~! 와 지금 비 엄청 쏟아지는데 비 올 때는 안탔지?\n2 : 안 그래도 방금 창문 닫고 왔어 키키\n2 : 당연히 비 오는 날은 안 탔지\n1 : 키키 잘했네 그럼 요즘 전동 킥보드 유행하던데 그거 타봤어?\n2 : 안 그래도 전동 킥보드 너무 타보고 싶어서 결국 탔지!\n1 : 오~ 그거는 타는 시간당 돈 내는 거야?\n2 : 응! 기본 요금이 있고 추가 요금이 따로 있더라구\n1 : 오 신기하다 키키 헬멧도 같이 포함 되어 있어?\n2 : 내가 탈 땐 헬멧 의무화 아니었어서 없이도 그냥 탔어\n1 : 아 그래? 위험했겠는걸?\n1 : 이제는 헬멧 꼭 착용하고 이용해~!\n2 : 응! 앞으론 꼭 헬멧 착용할게!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 배달이 늘어나면서 오토바이도 늘고 있다는데 언니는 오토바이 타 본 적 있어?",
+            "norm_text": "요즘 배달이 늘어나면서 오토바이도 늘고 있다는데 언니는 오토바이 타 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+배달/NNG+이/JKS+늘어나/VV+면서/EC+오토바이/NNG+도/JX+늘/VV+고/EC+있/VX+다는/ETM+데/NNB+언니/NNG+는/JX+오토바이/NNG+타/XSV+EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 내가 운전 한 건 한 두번 정돈대 뒤에는 꽤 타봤어~",
+            "norm_text": "내가 운전 한 건 한 두번 정돈대 뒤에는 꽤 타봤어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+운전/NNG+한/XSA+ETM+건/NNB+JX+한두/MM+번/NNBC+정돈/NNG+대/XPN+뒤/NNG+에/JKB+는/JX+꽤/MAG+타/VV+EC+봤/VX+EP+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 운전도 해봤어?",
+            "norm_text": "아 진짜? 운전도 해봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+운전/NNG+도/JX+해/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럼~ 근데 많지가 않을뿐이야",
+            "norm_text": "그럼~ 근데 많지가 않을뿐이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+~/SY+근데/MAJ+많/VA+지/EC+가/JX+않/VX+을/ETM+뿐/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오~ 오토바이 탈 때 안 무서웠어?",
+            "norm_text": "오~ 오토바이 탈 때 안 무서웠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+오토/NNP+바이탈/NNP+때/NNG+안/MAG+무서웠어/VA+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응! 무섭기보다 오히려 재밌었어",
+            "norm_text": "응! 무섭기보다 오히려 재밌었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+무섭/VA+기/ETN+보다/JKB+오히려/MAJ+재밌/VA+었/EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 그랬었구나~! 와 지금 비 엄청 쏟아지는데 비 올 때는 안탔지?",
+            "norm_text": "키키 그랬었구나~! 와 지금 비 엄청 쏟아지는데 비 올 때는 안탔지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그랬었/VV+EP+구나/EF+~/SY+!/SY+와/JKB+지금/MAG+비/NNG+엄청/MAG+쏟아지/VV+는데/EC+비올/NNG+때/NNG+는/JX+안/MAG+탔/VV+EP+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 안 그래도 방금 창문 닫고 왔어 키키",
+            "norm_text": "안 그래도 방금 창문 닫고 왔어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+방금/MAG+창문/NNG+닫/VV+고/EC+왔/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 당연히 비 오는 날은 안 탔지",
+            "norm_text": "당연히 비 오는 날은 안 탔지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+비오/VV+는/ETM+날/NNG+은/JX+안/MAG+탔/VV+EP+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 잘했네 그럼 요즘 전동 킥보드 유행하던데 그거 타봤어?",
+            "norm_text": "키키 잘했네 그럼 요즘 전동 킥보드 유행하던데 그거 타봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+잘/MAG+했/VV+EP+네/EF+그럼/MAJ+요즘/MAG+전동/NNG+킥/NNG+보드/NNP+유행/NNG+하/XSV+던데/EC+그거/NP+타/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 안 그래도 전동 킥보드 너무 타보고 싶어서 결국 탔지!",
+            "norm_text": "안 그래도 전동 킥보드 너무 타보고 싶어서 결국 탔지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+전동/NNG+킥/NNG+보드너/NNP+무타/NNG+보/VV+고/EC+싶/VX+어서/EC+결국/NNG+탔/VV+EP+지/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 오~ 그거는 타는 시간당 돈 내는 거야?",
+            "norm_text": "오~ 그거는 타는 시간당 돈 내는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+~/SY+그거/NP+는/JX+타/VV+는/ETM+시간/NNG+당/XSN+돈/NNG+내/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응! 기본 요금이 있고 추가 요금이 따로 있더라구",
+            "norm_text": "응! 기본 요금이 있고 추가 요금이 따로 있더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+기본요금/NNG+이/JKS+있/VV+고/EC+추가/NNG+요금/NNG+이/JKS+따로/MAG+있/VV+더라구/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오 신기하다 키키 헬멧도 같이 포함 되어 있어?",
+            "norm_text": "오 신기하다 키키 헬멧도 같이 포함 되어 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+신기/XR+하/XSA+다키키/NNP+헬멧/NNG+도/JX+같이/MAG+포함/NNG+되/XSV+어/EC+있/VX+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 내가 탈 땐 헬멧 의무화 아니었어서 없이도 그냥 탔어",
+            "norm_text": "내가 탈 땐 헬멧 의무화 아니었어서 없이도 그냥 탔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+탈/XPN+땐/NNG+JX+헬멧/NNG+의/JKG+무화/NNG+아니/VCN+었/EP+어서/EC+없이/MAG+도/JX+그냥/MAG+탔/VV+EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 그래? 위험했겠는걸?",
+            "norm_text": "아 그래? 위험했겠는걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+위험/NNG+했/XSV+EP+겠/EP+는걸/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 이제는 헬멧 꼭 착용하고 이용해~!",
+            "norm_text": "이제는 헬멧 꼭 착용하고 이용해~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이제/NNG+는/JX+헬멧/NNG+꼭/MAG+착용/NNG+하/XSV+고/EC+이용해/NNP+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응! 앞으론 꼭 헬멧 착용할게!",
+            "norm_text": "응! 앞으론 꼭 헬멧 착용할게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+앞/NNG+으론/JKB+JX+꼭/MAG+헬멧/NNG+착용/NNG+할게/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

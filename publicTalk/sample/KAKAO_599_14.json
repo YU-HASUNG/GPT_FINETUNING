@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 22148,
+    "name": "KAKAO_599_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113318047827/KAKAO_599_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113318047827/KAKAO_599_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30389,
+      "filename": "KAKAO_599_14.txt",
+      "title": "KAKAO_599_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 645,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 645,
+        "word_size": 209,
+        "text": "1 : 너 경기도에 고등학교 교사 사건 알아?\n2 : 요즘 워낙 사건 사고가 많아서...\n2 : 또 무슨 일 터졌어?\n1 : 수업 중에 나이트 부킹 한 거 썰 풀었대 키키\n2 : 나이트 부킹이 뭐야?\n1 : 머래 키키\n1 : 성적인 발언하고 해서 여학생들이 수치스러워 했다나 봐.\n1 : 뭔 생각으로 사고 친 거지?\n2 : 아니 나이트 부킹에서 성적일 게 뭐가 있지?\n2 : 그리고 그건 왜 말했대?\n1 : 모르지 그거야 키키\n1 : 어떻게 교사가 된 건지... 머릿속이 의심스럽당\n1 : 키키 별 사건이 다 있어 키키\n2 : 나는 요즘 그 영아 성폭행 살해 사건 너무 끔찍하더라\n1 : 그 사건은 보지도 못하겠던데...\n1 : 우리나라 아닌 줄 알았어\n2 : 진짜 너무 충격 받았어\n2 : 아버지가 사람이 아니더라 장모한테까지 이상한 문자 보내고\n1 : 나는 기사 제목만 보고 중국이겠거니 했는데...\n1 : 사건 장소가 울산 이었나?\n2 : 그러니깐 아니 근데 요즘 이런 자극적인 거 이상인 사건 사고가 하루에 몇 개씩 터져\n1 : 나는 두 살 아기한테 성폭행...\n1 : 여기까지 읽고 다신 안 봤어서 ㅠ\n2 : 나는 안 봐야지 하면서도 올라오면 다 봤는데 보고 나면 기분 안 좋아져\n1 : 아동 성범죄는 죄다 사형 때리면 좋겠다 정말로\n2 : 쉽게 죽이면 안돼 진짜 괴롭게 죽게 만들어야 해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 경기도에 고등학교 교사 사건 알아?",
+            "norm_text": "너 경기도에 고등학교 교사 사건 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+경기도/NNP+에/JKB+고등/NNG+학교/NNG+교사/NNG+사건/NNG+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘 워낙 사건 사고가 많아서...",
+            "norm_text": "요즘 워낙 사건 사고가 많아서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+워낙/MAG+사건/NNG+사고/NNG+가/JKS+많/VA+아서/EC+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 또 무슨 일 터졌어?",
+            "norm_text": "또 무슨 일 터졌어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또/MAG+무슨/MM+일/NNG+터졌/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 수업 중에 나이트 부킹 한 거 썰 풀었대 키키",
+            "norm_text": "수업 중에 나이트 부킹 한 거 썰 풀었대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "수업/NNG+중/NNB+에/JKB+나이트/NNP+부킹/NNP+한/XSA+ETM+거/NNB+썰/VV+ETM+풀/VV+었/EP+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나이트 부킹이 뭐야?",
+            "norm_text": "나이트 부킹이 뭐야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나이트/NNP+부킹/NNP+이/JKS+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 머래 키키",
+            "norm_text": "머래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "머/IC+래키/NNP+키/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 성적인 발언하고 해서 여학생들이 수치스러워 했다나 봐.",
+            "norm_text": "성적인 발언하고 해서 여학생들이 수치스러워 했다나 봐.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "성/NNG+적/XSN+인/VCP+ETM+발언/NNG+하/XSV+고/EC+해서/VV+EC+여학생/NNG+들/XSN+이/JKS+수치/NNG+스러워했/XSA+EC+VX+EP+다나/EC+봐/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 뭔 생각으로 사고 친 거지?",
+            "norm_text": "뭔 생각으로 사고 친 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭔/MM+생각/NNG+으로/JKB+사/VV+고/EC+친/VV+ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아니 나이트 부킹에서 성적일 게 뭐가 있지?",
+            "norm_text": "아니 나이트 부킹에서 성적일 게 뭐가 있지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+나이트/NNP+부킹/NNP+에서/JKB+성적/NNG+일/VCP+ETM+게/NNB+JKS+뭐/NP+가/JKS+있/VA+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그리고 그건 왜 말했대?",
+            "norm_text": "그리고 그건 왜 말했대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그리고/MAJ+그건/NP+JX+왜/MAG+말/NNG+했/XSV+EP+대/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 모르지 그거야 키키",
+            "norm_text": "모르지 그거야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "모르/VV+지/EC+그거/NP+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 어떻게 교사가 된 건지... 머릿속이 의심스럽당",
+            "norm_text": "어떻게 교사가 된 건지... 머릿속이 의심스럽당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떻게/MAG+교사/NNG+가/JKS+된/VV+ETM+건지/NNB+VCP+EC+./SY+./SY+머릿속/NNG+이/JKS+의심/NNG+스럽/XSA+당/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 별 사건이 다 있어 키키",
+            "norm_text": "키키 별 사건이 다 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+별/XSN+사건/NNG+이/VCP+다/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나는 요즘 그 영아 성폭행 살해 사건 너무 끔찍하더라",
+            "norm_text": "나는 요즘 그 영아 성폭행 살해 사건 너무 끔찍하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+요즘/MAG+그/MM+영아/NNG+성/XSN+폭행/NNG+살해/NNG+사건/NNG+너무/MAG+끔찍/XR+하/XSA+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그 사건은 보지도 못하겠던데...",
+            "norm_text": "그 사건은 보지도 못하겠던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+사건/NNG+은/JX+보/VV+지/EC+도/JX+못하/VX+겠/EP+던데/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 우리나라 아닌 줄 알았어",
+            "norm_text": "우리나라 아닌 줄 알았어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+아닌/VCN+ETM+줄/NNB+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 진짜 너무 충격 받았어",
+            "norm_text": "진짜 너무 충격 받았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+너무/MAG+충격/NNG+받/VV+았/EP+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아버지가 사람이 아니더라 장모한테까지 이상한 문자 보내고",
+            "norm_text": "아버지가 사람이 아니더라 장모한테까지 이상한 문자 보내고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아버지/NNG+가/JKS+사람/NNG+이/JKC+아니/VCN+더라/EC+장모/NNG+한테/JKB+까지/JX+이상/NNG+한/XSA+ETM+문자/NNG+보내/VV+고/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 나는 기사 제목만 보고 중국이겠거니 했는데...",
+            "norm_text": "나는 기사 제목만 보고 중국이겠거니 했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+기사/NNG+제목/NNG+만/JX+보/VV+고/EC+중국/NNP+이/VCP+겠/EP+거니/EC+했/VX+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 사건 장소가 울산 이었나?",
+            "norm_text": "사건 장소가 울산 이었나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "사건/NNG+장소/NNG+가/JKS+울산/NNP+이/VCP+었/EP+나/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그러니깐 아니 근데 요즘 이런 자극적인 거 이상인 사건 사고가 하루에 몇 개씩 터져",
+            "norm_text": "그러니깐 아니 근데 요즘 이런 자극적인 거 이상인 사건 사고가 하루에 몇 개씩 터져",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니깐/MAJ+아니/IC+근데/MAJ+요즘/MAG+이런/MM+자극/NNG+적/XSN+인/VCP+ETM+거/NNB+이상/NNG+인/VCP+ETM+사건/NNG+사고/NNG+가/JKS+하루/NNG+에/JKB+몇/MM+개/NNBC+씩/XSN+터져/VV+EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 나는 두 살 아기한테 성폭행...",
+            "norm_text": "나는 두 살 아기한테 성폭행...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+두/MM+살/NNBC+아기/NNG+한테/JKB+성폭행/NNG+./SY+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 여기까지 읽고 다신 안 봤어서 ㅠ",
+            "norm_text": "여기까지 읽고 다신 안 봤어서 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여기/NP+까지/JX+읽/VV+고/EC+다신/MAG+JX+안/MAG+봤/VV+EP+어서/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 나는 안 봐야지 하면서도 올라오면 다 봤는데 보고 나면 기분 안 좋아져",
+            "norm_text": "나는 안 봐야지 하면서도 올라오면 다 봤는데 보고 나면 기분 안 좋아져",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+안/MAG+봐야지/VV+EC+하/VV+면서/EC+도/JX+올라오/VV+면/EC+다/MAG+봤/VV+EP+는데/EC+보/VX+고/EC+나/VX+면/EC+기분/NNG+안/MAG+좋/VA+아/EC+져/VX+EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 아동 성범죄는 죄다 사형 때리면 좋겠다 정말로",
+            "norm_text": "아동 성범죄는 죄다 사형 때리면 좋겠다 정말로",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아동/NNG+성/XSN+범죄/NNG+는/JX+죄다/MAG+사형/NNG+때리/VV+면/EC+좋/VA+겠/EP+다/EF+정말로/MAG"
+          },
+          {
+            "id": 26,
+            "text": "2 : 쉽게 죽이면 안돼 진짜 괴롭게 죽게 만들어야 해",
+            "norm_text": "쉽게 죽이면 안돼 진짜 괴롭게 죽게 만들어야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쉽/VA+게/EC+죽이/VV+면/EC+안/MAG+돼/VV+EF+진짜/MAG+괴롭/VA+게/EC+죽/VV+게/EC+만들/VV+어야/EC+해/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 58270,
+    "name": "KAKAO_688_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710037531/KAKAO_688_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710037531/KAKAO_688_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35081,
+      "filename": "KAKAO_688_02.txt",
+      "title": "KAKAO_688_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 553,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 553,
+        "word_size": 178,
+        "text": "1 : 너는 그럼 지금 주택에 살고 있는 거지?\n2 : 응응 이층에서 언니랑 둘이서 키키 1층은 엄빠\n1 : 우와~ 그럼 거기 다 너희 집이니까 층간소음 걱정 없겠네\n2 : 글치? 그래서 좋아 ㅠㅠ 근데 룽지는 거의 뛰지도 않아서 ㅠㅠ 키키\n1 : 아 ㅜㅜ 너희 강아지는 우다다 타임 아예 없어?\n2 : 아에 없진 않은데 그래도 거의 없음 키키 나이도 있고 ㅠㅠ\n1 : 그래도 주택 살면... 뭔가 이웃 갈등 없을 듯\n2 : 근데 지난번에 깜시 잠시 왔을 때 생길 뻔... 키키 넘 시끄러워서\n1 : 아 진짜로? 키키 옆 주택까지 다 들릴 정도로? 키키\n2 : 응응... 아니 동네 다시 들어오면 길목에서부터 들리는 수준\n1 : ㅜㅜ 주택 살아도 어느 정도는 걱정 해야 되는구만?\n2 : 키키 아예 안 할 순 없는 것 같음 ㅠㅠ\n2 : 버디는 짖기도 짖어?\n1 : 응 얘도 가끔 짖고 우다다 해서... 주변 집에 미안해 ㅜㅜ\n2 : 아... ㅠㅠ 그럴 수 있지 ㅠㅠ 어쨌든 빌라? 같은 곳이니깐\n1 : 응 맞아 ㅜㅜ 빌라 살고 있으니까... 방음도 잘 안 되구\n2 : 맞아... 옆집에서 아직까지 머라고 하진 않았고?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 그럼 지금 주택에 살고 있는 거지?",
+            "norm_text": "너는 그럼 지금 주택에 살고 있는 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+그럼/MAJ+지금/MAG+주택/NNG+에/JKB+살/VV+고/EC+있/VX+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 이층에서 언니랑 둘이서 키키 1층은 엄빠",
+            "norm_text": "응응 이층에서 언니랑 둘이서 키키 1층은 엄빠",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+이/MM+층/NNG+에서/JKB+언니/NNG+랑/JC+둘/NR+이/XSN+서/JKS+키/NNG+키/XSV+ETN+1/SN+층/NNG+은/JX+엄빠/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우와~ 그럼 거기 다 너희 집이니까 층간소음 걱정 없겠네",
+            "norm_text": "우와~ 그럼 거기 다 너희 집이니까 층간소음 걱정 없겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/NNG+~/SY+그럼/MAJ+거기/NP+다/JX+너희/NP+집/NNG+이/VCP+니까/EC+층간/NNG+소음/NNG+걱정/NNG+없/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 글치? 그래서 좋아 ㅠㅠ 근데 룽지는 거의 뛰지도 않아서 ㅠㅠ 키키",
+            "norm_text": "글치? 그래서 좋아 ㅠㅠ 근데 룽지는 거의 뛰지도 않아서 ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/NNG+치/XSN+그래서/MAJ+좋/VA+아/EC+ㅠㅠ/UNKNOWN+근데/MAJ+룽/NNG+지는/XSV+EC+JX+거의/MAG+뛰/VV+EC+지/VX+도/EC+않/VX+아서/EC+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 ㅜㅜ 너희 강아지는 우다다 타임 아예 없어?",
+            "norm_text": "아 ㅜㅜ 너희 강아지는 우다다 타임 아예 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+너희/NP+강아지/NNG+는/JX+우/VV+다/EC+다/MAG+타임/NNG+아예/MAG+없/VA+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아에 없진 않은데 그래도 거의 없음 키키 나이도 있고 ㅠㅠ",
+            "norm_text": "아에 없진 않은데 그래도 거의 없음 키키 나이도 있고 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+에/IC+없/VA+진/EC+JX+않/VX+은데/EC+그래도/VV+EC+거의/MAG+없/VA+음/ETN+키/NNG+키나/XSA+ETN+JX+이/NP+도/JX+있/VA+고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래도 주택 살면... 뭔가 이웃 갈등 없을 듯",
+            "norm_text": "그래도 주택 살면... 뭔가 이웃 갈등 없을 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+주택/NNG+살/VV+면/EC+./SY+./SY+뭔가/NP+VCP+EC+이웃/NNG+갈등/NNG+없/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 지난번에 깜시 잠시 왔을 때 생길 뻔... 키키 넘 시끄러워서",
+            "norm_text": "근데 지난번에 깜시 잠시 왔을 때 생길 뻔... 키키 넘 시끄러워서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+지난번/NNG+에/JKB+깜/VV+시/EP+잠시/MAG+왔/VV+EP+을/ETM+때/NNG+생길/VV+ETM+뻔/NNB+./SY+키키넘시끄러워서/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 진짜로? 키키 옆 주택까지 다 들릴 정도로? 키키",
+            "norm_text": "아 진짜로? 키키 옆 주택까지 다 들릴 정도로? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜로/MAG+키/NNG+키/NNG+옆/NNG+주택/NNG+까지/JX+다/MAG+들릴/VV+ETM+정도/NNG+로/JKB+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응응... 아니 동네 다시 들어오면 길목에서부터 들리는 수준",
+            "norm_text": "응응... 아니 동네 다시 들어오면 길목에서부터 들리는 수준",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+./SY+아니/IC+동네/NNG+다시/MAG+들어오/VV+면/EC+길목/NNG+에서부터/JKB+들리/VV+는/ETM+수준/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : ㅜㅜ 주택 살아도 어느 정도는 걱정 해야 되는구만?",
+            "norm_text": "ㅜㅜ 주택 살아도 어느 정도는 걱정 해야 되는구만?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+주택/NNG+살/VV+아도/EC+어느/MM+정도/NNG+는/JX+걱정/NNG+해야/XSV+EC+되/VV+는구만/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 아예 안 할 순 없는 것 같음 ㅠㅠ",
+            "norm_text": "키키 아예 안 할 순 없는 것 같음 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아예/MAG+안/MAG+할/VV+ETM+순/NNB+JX+없/VA+는/ETM+것/NNB+같/VA+음/ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 버디는 짖기도 짖어?",
+            "norm_text": "버디는 짖기도 짖어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "버디/NNG+는/JX+짖/VV+기/ETN+도/JX+짖/VV+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응 얘도 가끔 짖고 우다다 해서... 주변 집에 미안해 ㅜㅜ",
+            "norm_text": "응 얘도 가끔 짖고 우다다 해서... 주변 집에 미안해 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+얘/NP+도/JX+가끔/MAG+짖/VV+고/EC+우/VV+다/EC+다/MAG+해서/VV+EC+./SY+./SY+주변/NNG+집/NNG+에/JKB+미안/NNG+해/XSV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아... ㅠㅠ 그럴 수 있지 ㅠㅠ 어쨌든 빌라? 같은 곳이니깐",
+            "norm_text": "아... ㅠㅠ 그럴 수 있지 ㅠㅠ 어쨌든 빌라? 같은 곳이니깐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+ㅠㅠ/UNKNOWN+그럴/VV+ETM+수/NNB+있/VV+지/EC+ㅠㅠ/UNKNOWN+어쨌든/VA+EP+EC+빌/VV+라/EF+같/VA+은/ETM+곳/NNG+이/VCP+니깐/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응 맞아 ㅜㅜ 빌라 살고 있으니까... 방음도 잘 안 되구",
+            "norm_text": "응 맞아 ㅜㅜ 빌라 살고 있으니까... 방음도 잘 안 되구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+ㅜㅜ/UNKNOWN+빌라/NNG+살/VV+고/EC+있/VX+으니까/EC+./SY+./SY+방음/NNG+도/JX+잘/MAG+안/MAG+되/VV+구/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞아... 옆집에서 아직까지 머라고 하진 않았고?",
+            "norm_text": "맞아... 옆집에서 아직까지 머라고 하진 않았고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EF+./SY+옆집/NNG+에서/JKB+아직/MAG+까지/JX+머/NP+라고/VCP+EC+하/VV+진/EC+JX+않/VX+았/EP+고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

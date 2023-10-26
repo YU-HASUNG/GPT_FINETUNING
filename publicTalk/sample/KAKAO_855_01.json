@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 38572,
+    "name": "KAKAO_855_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172426024857/KAKAO_855_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172426024857/KAKAO_855_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39779,
+      "filename": "KAKAO_855_01.txt",
+      "title": "KAKAO_855_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 665,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 665,
+        "word_size": 211,
+        "text": "1 : 언니 점심 챙겨 먹었어요~?\n2 : 이제 챙겨 먹으려고~ 오늘은 카레를 먹으려고!\n1 : 오 하하 어떤 카레요 ? 저는 한국식 일본식 인도식 다 좋아요!\n2 : 채담 카레라고 비건 카레인데 간이 쎄지 않아서 좋더라고~\n1 : 하하 오 채담 카레 맛있을 것 같아요!\n2 : 응 요즘에는 웬만하면 건강하게 먹으려고 하다 보니까 알게 된 카레인데 괜찮은 거 같아\n2 : 너도 한번 먹어봐 맛있어! 키키\n2 : 넌 뭐 먹었어?\n1 : 저는 아직 카페에 있어요\n1 : 아침에 크로크무슈 먹어서 아직 배가 안 고파요 히히\n2 : 크로크무슈 맛있겠다! 가끔 당근이랑 사과랑 뭐 이런 것들 갈아서 마시는데 아침에 그런 것도 괜찮은 거 같아 은근히 배부르고\n1 : 사당 주스라고 하죠?  너무 좋아해요 저도 ㅠ\n2 : 사당 키키 응 요즘에는 웬만하면 탄산이나 커피는 좀 줄이려고 하고 있어\n2 : 탄산은 거의 안 마셔\n1 : 저는 탄산은 못 끊고 트레비를 엄청 마셔요 ㅠㅠ\n2 : 아 트레비 좋아하는구나\n2 : 난 그건 그냥은 그렇고 유자청에 가끔 타서 먹으면 에이드 같고 좋더라 키키\n1 : 하하 맞아요 그럼 에이드 되고 너무 좋죠 ㅠ 커피를 못 끊겠어요!\n2 : 커피는 진짜 못 끊어… 그래도 한 잔씩만 마시려고 해 보자...\n1 : 하하 네 좋았어요 커피는 하루에 한 잔만 마시는 걸로!\n2 : 이 타임에 한 잔 마셔야겠다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 점심 챙겨 먹었어요~?",
+            "norm_text": "언니 점심 챙겨 먹었어요~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+점심/NNG+챙겨/VV+EC+먹/VV+었/EP+어요/EF+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이제 챙겨 먹으려고~ 오늘은 카레를 먹으려고!",
+            "norm_text": "이제 챙겨 먹으려고~ 오늘은 카레를 먹으려고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+챙겨/VV+EC+먹/VV+으려고/EC+~/SY+오늘/NNG+은/JX+카레/NNG+를/JKO+먹/VV+으려고/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 하하 어떤 카레요 ? 저는 한국식 일본식 인도식 다 좋아요!",
+            "norm_text": "오 하하 어떤 카레요 ? 저는 한국식 일본식 인도식 다 좋아요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오하/NNG+하/XSV+어떤/MM+카레/NNG+요/JX+저/NP+는/JX+한국식/NNP+일본식/NNG+인/VCP+ETM+도식/NNG+다/MAG+좋/VA+아요/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 채담 카레라고 비건 카레인데 간이 쎄지 않아서 좋더라고~",
+            "norm_text": "채담 카레라고 비건 카레인데 간이 쎄지 않아서 좋더라고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "채담/NNG+카레/NNG+라고/VCP+EC+비/VX+건/EC+카레/NNG+인데/VCP+EC+간/NNG+이/JKS+쎄/VA+지/EC+않/VX+아서/EC+좋/VA+더라고/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 하하 오 채담 카레 맛있을 것 같아요!",
+            "norm_text": "하하 오 채담 카레 맛있을 것 같아요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+오/NR+채담/NNG+카레/NNG+맛있/VA+을/ETM+것/NNB+같/VA+아요/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 요즘에는 웬만하면 건강하게 먹으려고 하다 보니까 알게 된 카레인데 괜찮은 거 같아",
+            "norm_text": "응 요즘에는 웬만하면 건강하게 먹으려고 하다 보니까 알게 된 카레인데 괜찮은 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+요즘/NNG+에/JKB+는/JX+웬만/XR+하/XSA+면/EC+건강/NNG+하/XSV+게/EC+먹/VV+으려고/EC+하/VV+다/EC+보/VX+니까/EC+알/VV+게/EC+된/VV+ETM+카레/NNG+인데/VCP+EC+괜찮/VA+은/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 너도 한번 먹어봐 맛있어! 키키",
+            "norm_text": "너도 한번 먹어봐 맛있어! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "너/NP+도/JX+한/MM+번/NNBC+먹/VV+어/EC+봐/VX+EF+맛있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 넌 뭐 먹었어?",
+            "norm_text": "넌 뭐 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+뭐/NP+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 저는 아직 카페에 있어요",
+            "norm_text": "저는 아직 카페에 있어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+아직/MAG+카페/NNG+에/JKB+있/VV+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아침에 크로크무슈 먹어서 아직 배가 안 고파요 히히",
+            "norm_text": "아침에 크로크무슈 먹어서 아직 배가 안 고파요 히히",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아침/NNG+에/JKB+크로크/NNP+무슈/NNP+먹/VV+어서/EC+아직/MAG+배/NNG+가/JKS+안/MAG+고파요/VA+EC+히히/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 크로크무슈 맛있겠다! 가끔 당근이랑 사과랑 뭐 이런 것들 갈아서 마시는데 아침에 그런 것도 괜찮은 거 같아 은근히 배부르고",
+            "norm_text": "크로크무슈 맛있겠다! 가끔 당근이랑 사과랑 뭐 이런 것들 갈아서 마시는데 아침에 그런 것도 괜찮은 거 같아 은근히 배부르고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "크로크/NNP+무슈/NNP+맛있/VA+겠/EP+다/EF+가끔/MAG+당근/NNG+이랑/JKB+사과/NNG+랑/JKB+뭐/IC+이런/MM+것/NNB+들/XSN+갈/VV+아서/EC+마시/VV+는데/EC+아침/NNG+에/JKB+그런/MM+것/NNB+도/JX+괜찮/VA+은/ETM+거/NNB+같/VA+아/EC+은근히/MAG+배부르/VV+고/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 사당 주스라고 하죠?  너무 좋아해요 저도 ㅠ",
+            "norm_text": "사당 주스라고 하죠?  너무 좋아해요 저도 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사당/NNG+주스/NNG+라고/VCP+EC+하/VX+죠/EF+너무/MAG+좋/VA+아/EC+해요/VX+EF+저/NP+도/JX+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 사당 키키 응 요즘에는 웬만하면 탄산이나 커피는 좀 줄이려고 하고 있어",
+            "norm_text": "사당 키키 응 요즘에는 웬만하면 탄산이나 커피는 좀 줄이려고 하고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사당/NNG+키/NNG+키/XSV+ETN+응/IC+요즘/NNG+에/JKB+는/JX+웬만/XR+하/XSA+면/EC+탄산/NNG+이나/JC+커피/NNG+는/JX+좀/MAG+줄이/VV+려고/EC+하/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 탄산은 거의 안 마셔",
+            "norm_text": "탄산은 거의 안 마셔",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "탄산/NNG+은/JX+거의/MAG+안/MAG+마셔/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 저는 탄산은 못 끊고 트레비를 엄청 마셔요 ㅠㅠ",
+            "norm_text": "저는 탄산은 못 끊고 트레비를 엄청 마셔요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+탄산/NNG+은/JX+못/MAG+끊/VV+고/EC+트레비/NNG+를/JKO+엄청/MAG+마셔요/VV+EP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 트레비 좋아하는구나",
+            "norm_text": "아 트레비 좋아하는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+트레비/NNG+좋/VA+아/EC+하/VV+는구나/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 난 그건 그냥은 그렇고 유자청에 가끔 타서 먹으면 에이드 같고 좋더라 키키",
+            "norm_text": "난 그건 그냥은 그렇고 유자청에 가끔 타서 먹으면 에이드 같고 좋더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+그건/NP+JX+그냥/MAG+은/JX+그렇/VA+고/EC+유자청/NNG+에/JKB+가끔/MAG+타/VV+서/EC+먹/VV+으면/EC+에이드/NNG+같/VA+고/EC+좋/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 하하 맞아요 그럼 에이드 되고 너무 좋죠 ㅠ 커피를 못 끊겠어요!",
+            "norm_text": "하하 맞아요 그럼 에이드 되고 너무 좋죠 ㅠ 커피를 못 끊겠어요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+맞/VV+아요/EF+그럼/MAJ+에이드/NNG+되/XSV+고/EC+너무/MAG+좋/VA+죠/EF+ㅠ/UNKNOWN+커피/NNG+를/JKO+못/MAG+끊/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 커피는 진짜 못 끊어… 그래도 한 잔씩만 마시려고 해 보자...",
+            "norm_text": "커피는 진짜 못 끊어… 그래도 한 잔씩만 마시려고 해 보자...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "커피/NNG+는/JX+진짜/MAG+못/MAG+끊/VV+어/EC+…/SE+그래도/MAJ+한잔/NNG+씩/XSN+만/JX+마시/VV+려고/EC+해/VV+EC+보/VX+자/EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 하하 네 좋았어요 커피는 하루에 한 잔만 마시는 걸로!",
+            "norm_text": "하하 네 좋았어요 커피는 하루에 한 잔만 마시는 걸로!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+네/IC+좋/VA+았/EP+어요/EF+커피/NNG+는/JX+하루/NNG+에/JKB+한잔/NNG+만/JX+마시/VV+는/ETM+걸로/NNB+JKB"
+          },
+          {
+            "id": 21,
+            "text": "2 : 이 타임에 한 잔 마셔야겠다 키키",
+            "norm_text": "이 타임에 한 잔 마셔야겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/MM+타임/NNG+에/JKB+한잔/NNG+마셔야/VV+EC+VX+겠/EP+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

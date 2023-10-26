@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 30533,
+    "name": "KAKAO_646_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145435099840/KAKAO_646_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145435099840/KAKAO_646_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34458,
+      "filename": "KAKAO_646_20.txt",
+      "title": "KAKAO_646_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 579,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 579,
+        "word_size": 195,
+        "text": "1 : 영화 안 좋아하는 장르 있어?\n2 : 음 공포만 아니면 된다 나는^^\n1 : 아아 키키 공포랑 좀비물 이런 거?\n2 : 음 좀비보다 나는 귀신이 더 무섭더라 ㅜㅜ\n1 : 오오~ 그렇단 말이지...?\n1 : 스릴러는 보긴 봐?\n2 : 스릴러도 잘 안 보는 편인 거 같아 키키\n2 : 너는 어떤 거 안 좋아해?\n1 : 나도 공포는 안 좋아해... ㅠ 귀신 싫어...\n2 : 그치! 역시 공포는 으 속이 울렁거리는 느낌이야\n1 : 근데 이상하게 궁금하긴 하지 않아? 키키\n1 : 누구랑 같이 보면 볼 수는 있을 거 같아\n2 : 아 그래? 나는 누구랑 같이 보는 것도 힘들더라 ㅠ 무서워,\n1 : 나는 보고 나서가 문제야\n1 : 공포는 혼자 있을 때 더 무서워... ㅠㅠ\n2 : 아 맞아, 나 전에 겟 아웃이라고 이거 봤거든?\n2 : 와 진짜 무서웠어 보고 나서\n1 : 아 그거 같은 사람이 나오는 거지?\n1 : 똑같은 사람이 죽이고 그런 거 아닌가?\n2 : 아닐걸? 이게 사람들 신체를 가져가서 쓰고 그런, 암튼 무서워 ㅠㅠ\n1 : 아 난 어스를 생각한 거구나 키키\n1 : 어쨌든 다 무서워...\n2 : 맞아, 다 무서워 ㅠ\n2 : 난 공포 영화 잘 보는 사람들 너무 신기해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 영화 안 좋아하는 장르 있어?",
+            "norm_text": "영화 안 좋아하는 장르 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영화/NNG+안/MAG+좋아하/VV+는/ETM+장르/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음 공포만 아니면 된다 나는^^",
+            "norm_text": "음 공포만 아니면 된다 나는^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+공포/NNG+만/JX+아니/VCN+면/EC+된다/VV+EF+나/NP+는/JX+^/SY+^/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아아 키키 공포랑 좀비물 이런 거?",
+            "norm_text": "아아 키키 공포랑 좀비물 이런 거?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+아키/NNP+키/NNG+공포/NNG+랑/JKB+좀/MAG+비/XPN+물/NNG+이런/MM+거/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 음 좀비보다 나는 귀신이 더 무섭더라 ㅜㅜ",
+            "norm_text": "음 좀비보다 나는 귀신이 더 무섭더라 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+좀/MAG+비/NNG+보다/JKB+나/NP+는/JX+귀신/NNG+이/JKS+더/MAG+무섭/VA+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오오~ 그렇단 말이지...?",
+            "norm_text": "오오~ 그렇단 말이지...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "오오/NNG+~/SY+그렇/VA+단/ETM+말/NNG+이/VCP+지/EF+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 스릴러는 보긴 봐?",
+            "norm_text": "스릴러는 보긴 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "스릴러/NNG+는/JX+보/VV+긴/ETN+JX+봐/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 스릴러도 잘 안 보는 편인 거 같아 키키",
+            "norm_text": "스릴러도 잘 안 보는 편인 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "스릴러/NNG+도/JX+잘/MAG+안/MAG+보/VV+는/ETM+편/NNB+인/VCP+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너는 어떤 거 안 좋아해?",
+            "norm_text": "너는 어떤 거 안 좋아해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+어떤/MM+거/NNB+안/MAG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 공포는 안 좋아해... ㅠ 귀신 싫어...",
+            "norm_text": "나도 공포는 안 좋아해... ㅠ 귀신 싫어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+공포/NNG+는/JX+안/MAG+좋/VA+아/EC+해/VX+EF+./SY+ㅠ귀신싫어/UNKNOWN+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그치! 역시 공포는 으 속이 울렁거리는 느낌이야",
+            "norm_text": "그치! 역시 공포는 으 속이 울렁거리는 느낌이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+역시/MAJ+공포/NNG+는/JX+으/IC+속/NNG+이/JKS+울렁거리/VV+는/ETM+느낌/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 이상하게 궁금하긴 하지 않아? 키키",
+            "norm_text": "근데 이상하게 궁금하긴 하지 않아? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+이상/NNG+하/XSV+게/EC+궁금/XR+하/XSA+긴/ETN+JX+하/VX+지/EC+않/VX+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 누구랑 같이 보면 볼 수는 있을 거 같아",
+            "norm_text": "누구랑 같이 보면 볼 수는 있을 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누구/NP+랑/JKB+같이/MAG+보/VV+면/EC+볼/VX+ETM+수/NNB+는/JX+있/VA+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 그래? 나는 누구랑 같이 보는 것도 힘들더라 ㅠ 무서워,",
+            "norm_text": "아 그래? 나는 누구랑 같이 보는 것도 힘들더라 ㅠ 무서워,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+나/NP+는/JX+누구/NP+랑/JKB+같이/MAG+보/VV+는/ETM+것/NNB+도/JX+힘들/VA+더라/EF+ㅠ/UNKNOWN+무서워/VA+EF+,/SC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나는 보고 나서가 문제야",
+            "norm_text": "나는 보고 나서가 문제야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+보/VV+고/EC+나/VX+서/EC+가문/VV+ETM+제야/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 공포는 혼자 있을 때 더 무서워... ㅠㅠ",
+            "norm_text": "공포는 혼자 있을 때 더 무서워... ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공포/NNG+는/JX+혼자/MAG+있/VV+을/ETM+때/NNG+더/MAG+무서워/VA+EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 맞아, 나 전에 겟 아웃이라고 이거 봤거든?",
+            "norm_text": "아 맞아, 나 전에 겟 아웃이라고 이거 봤거든?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞아/IC+,/SC+나전/NNG+에/JKB+겟/NNP+아웃/NNG+이/VCP+라고/EC+이거/NP+봤/VV+EP+거든/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 와 진짜 무서웠어 보고 나서",
+            "norm_text": "와 진짜 무서웠어 보고 나서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+무서웠/VA+EP+어/EC+보/VX+고/EC+나/VX+서/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 그거 같은 사람이 나오는 거지?",
+            "norm_text": "아 그거 같은 사람이 나오는 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그거/NP+같/VA+은/ETM+사람/NNG+이/JKS+나오/VV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 똑같은 사람이 죽이고 그런 거 아닌가?",
+            "norm_text": "똑같은 사람이 죽이고 그런 거 아닌가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "똑같/VA+은/ETM+사람/NNG+이/JKS+죽이/VV+고/EC+그런/MM+거/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아닐걸? 이게 사람들 신체를 가져가서 쓰고 그런, 암튼 무서워 ㅠㅠ",
+            "norm_text": "아닐걸? 이게 사람들 신체를 가져가서 쓰고 그런, 암튼 무서워 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아닐걸/VCN+EF+이게/NP+JKS+사람/NNG+들/XSN+신체/NNG+를/JKO+가져가/VV+서/EC+쓰/VV+고/EC+그런/MM+,/SC+암튼무서워ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 아 난 어스를 생각한 거구나 키키",
+            "norm_text": "아 난 어스를 생각한 거구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아난/NNP+어스/NNG+를/JKO+생각/NNG+한/XSA+ETM+거/NNB+구나/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 어쨌든 다 무서워...",
+            "norm_text": "어쨌든 다 무서워...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쨌든/MAJ+다/MAG+무서워/VA+EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 맞아, 다 무서워 ㅠ",
+            "norm_text": "맞아, 다 무서워 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+,/SC+다무서워ㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 난 공포 영화 잘 보는 사람들 너무 신기해",
+            "norm_text": "난 공포 영화 잘 보는 사람들 너무 신기해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+공포/NNG+영화/NNG+잘/MAG+보/VV+는/ETM+사람/NNG+들/XSN+너무/MAG+신기/NNG+해/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

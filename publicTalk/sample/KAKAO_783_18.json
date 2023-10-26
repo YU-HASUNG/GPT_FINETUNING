@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44806,
+    "name": "KAKAO_783_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141010000189/KAKAO_783_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141010000189/KAKAO_783_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37708,
+      "filename": "KAKAO_783_18.txt",
+      "title": "KAKAO_783_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 379,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 379,
+        "word_size": 126,
+        "text": "1 : 엄마 나 철분제 사줘~\n2 : 엉 철분제 알아 놨어?\n1 : 알아는 놨는데 진짜 철분제 먹는다고 빈혈 나아질까?\n2 : 엉 엄마도 철분제 꾸준히 먹고 있는데 괜찮아\n1 : 아 그래? 내가 봐 논 쇼핑몰에서 철분제 29000원이야\n2 : 몇 달 동안 먹을 수 있는데?\n1 : 하루에 한 알 총 60정이니까 2달?\n2 : 가격 너무 싼 거 아니야?\n1 : 너무 싸면 좀 그런가?\n2 : 그래도 너무 싸면 의심해 봐야지\n1 : 그래? 근데 이거 평균 가격인 거 같아\n2 : 다른 데는 얼마 정도 하는데?\n1 : 비싼 것도 있긴 한데 3달 분에 17000원도 있고 2달에 15000원 인 곳도 있고\n2 : 그럼 29000원이면 나쁘진 않나 보네\n1 : 그럼 이걸로 주문 해?\n2 : 엉 엄마가 돈 보내줄게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 나 철분제 사줘~",
+            "norm_text": "엄마 나 철분제 사줘~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "엄마/NNG+나/JC+철분제/NNG+사/VV+줘/EC+VV+EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엉 철분제 알아 놨어?",
+            "norm_text": "엉 철분제 알아 놨어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엉/IC+철분제/NNG+알/VV+아/EC+놨/VX+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 알아는 놨는데 진짜 철분제 먹는다고 빈혈 나아질까?",
+            "norm_text": "알아는 놨는데 진짜 철분제 먹는다고 빈혈 나아질까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "알/VV+아/EC+는/JX+놨는데/VX+EP+EF+진짜/MAG+철분제/NNG+먹/VV+는다고/EC+빈혈/NNG+나아질까/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 엉 엄마도 철분제 꾸준히 먹고 있는데 괜찮아",
+            "norm_text": "엉 엄마도 철분제 꾸준히 먹고 있는데 괜찮아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+엄마/NNG+도/JX+철분제/NNG+꾸준히/MAG+먹/VV+고/EC+있/VX+는/ETM+데/NNB+괜찮/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그래? 내가 봐 논 쇼핑몰에서 철분제 29000원이야",
+            "norm_text": "아 그래? 내가 봐 논 쇼핑몰에서 철분제 29000원이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+내/NP+가/JKS+봐/VV+EC+논/VX+ETM+쇼핑몰/NNG+에서/JKB+철분제/NNG+29000/SN+원/NNBC+이/VCP+야/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 몇 달 동안 먹을 수 있는데?",
+            "norm_text": "몇 달 동안 먹을 수 있는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+달/NNBC+동안/NNG+먹/VV+을/ETM+수/NNB+있/VV+는데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 하루에 한 알 총 60정이니까 2달?",
+            "norm_text": "하루에 한 알 총 60정이니까 2달?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하루/NNG+에/JKB+한/MM+알/NNG+총/MM+60/SN+정/NNBC+이/VCP+니까/EC+2/SN+달/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 가격 너무 싼 거 아니야?",
+            "norm_text": "가격 너무 싼 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가격/NNG+너무/MAG+싼/VA+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 너무 싸면 좀 그런가?",
+            "norm_text": "너무 싸면 좀 그런가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너무/MAG+싸/VA+면/EC+좀/MAG+그런가/VA+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래도 너무 싸면 의심해 봐야지",
+            "norm_text": "그래도 너무 싸면 의심해 봐야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+너무/MAG+싸/VA+면/EC+의심/NNG+해봐야/XSV+EC+VX+EC+VX+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래? 근데 이거 평균 가격인 거 같아",
+            "norm_text": "그래? 근데 이거 평균 가격인 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+근데/MAJ+이거/NP+평균/NNG+가격/NNG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 다른 데는 얼마 정도 하는데?",
+            "norm_text": "다른 데는 얼마 정도 하는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다른/MM+데/NNB+는/JX+얼마/NNG+정도/NNG+하/XSV+는데/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 비싼 것도 있긴 한데 3달 분에 17000원도 있고 2달에 15000원 인 곳도 있고",
+            "norm_text": "비싼 것도 있긴 한데 3달 분에 17000원도 있고 2달에 15000원 인 곳도 있고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비싼/VA+ETM+것/NNB+도/JX+있/VX+긴/ETN+JX+한데/VX+EC+3/SN+달/NNG+분/NNB+에/JKB+17000/SN+원/NNBC+도/JX+있/VA+고/EC+2/SN+달/NNG+에/JKB+15000/SN+원/NNBC+인/VCP+ETM+곳/NNG+도/JX+있/VA+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼 29000원이면 나쁘진 않나 보네",
+            "norm_text": "그럼 29000원이면 나쁘진 않나 보네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+29000/SN+원/NNBC+이/VCP+면/EC+나쁘/VA+진/EC+JX+않/VX+나/EC+보/VX+네/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼 이걸로 주문 해?",
+            "norm_text": "그럼 이걸로 주문 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+이걸로/NP+JKB+주문/NNG+해/XSV+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 엉 엄마가 돈 보내줄게",
+            "norm_text": "엉 엄마가 돈 보내줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "엉/IC+엄마/NNG+가/JKS+돈/NNG+보내/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

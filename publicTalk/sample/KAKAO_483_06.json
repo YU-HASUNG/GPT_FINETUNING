@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 30915,
+    "name": "KAKAO_483_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144544062285/KAKAO_483_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144544062285/KAKAO_483_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28216,
+      "filename": "KAKAO_483_06.txt",
+      "title": "KAKAO_483_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 790,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 790,
+        "word_size": 252,
+        "text": "1 : 나랑 고등학교 때 같은 곳에서 알바하던 친구 이번에 중학교 선생님 됐다\n2 : 오, 정말, 이쁘냐?\n1 : 남자친구 있는데 없어도 소개 안 시켜 줄 거야\n2 : 너는 오빠가 평생 혼자서 독방 생활하다가 갔으면 좋겠다는 거야?\n2 : 주변에 괜찮은 사람 있으면 소개 시켜주고 해야지\n1 : 그건 아닌데 내 친구 소개 받기에는 나이 차이가 조금 양심 없지.\n2 : 왜 양심이 없지? 엄빠도 6살 차인데?\n1 : 우린 9살 차이야\n1 : 내 친구들도 비슷한 또래 남친 만나서 치킨 뜯으러 가야지\n1 : 9살 연상 만나서 한방 능이 백숙 먹으러 갈 수는 없잔하.\n2 : 한방 능이 백숙 무시하는데 치킨 비싸야 3만 원이지? 능이 백숙 비싸면 15만 원이다\n1 : 그러니까 오빠는 15만 원 값어치를 알아볼 수 있는 여자친구를 만나야지.\n1 : 어린 나이에 선생님이 된 친구 말고\n2 : 어린 나이라니 이제 니가 어린 나인 아니지\n2 : 요즘 고등학교 친구랑 몇 살 차인지 아니?\n1 : 어린 나이지... 나는 고1 때 선생님 중에 7살 차이 나는 사람 없었어.\n2 : 니가 지금 고등학생이랑 차이 만큰보다 오빠랑 안 나자나\n1 : 그게 무슨 말이야 키키\n1 : 차이 만큰이 뭔데\n2 : 나랑 너랑 차이보다 너랑 고등학교 애들이랑 차이가 더 난다~ 이 말이야\n2 : 그르니 넌 어리지 않다~ 이 말이야\n1 : 에이 그건 아니지.\n1 : 나랑 오빠는 9살 차이고 난 고1이랑 7살 차이인걸.\n2 : 2살 차네? 별로 안 나네\n2 : 그럼 된 거 아니야?\n1 : 그렇게 선생님이 된 내 친구랑 이어지는데 합리화 시키지 마.\n2 : 2살 치인데 너무 빡빡하게 구시네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나랑 고등학교 때 같은 곳에서 알바하던 친구 이번에 중학교 선생님 됐다",
+            "norm_text": "나랑 고등학교 때 같은 곳에서 알바하던 친구 이번에 중학교 선생님 됐다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+랑/JKB+고등/NNG+학교/NNG+때/NNG+같/VA+은/ETM+곳/NNG+에서/JKB+알/VV+ETM+바/NNB+하/VV+던/ETM+친구/NNG+이번/NNG+에/JKB+중학교/NNG+선생/NNG+님/XSN+됐/VV+EP+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오, 정말, 이쁘냐?",
+            "norm_text": "오, 정말, 이쁘냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+,/SC+정말/MAG+,/SC+이쁘/VA+냐/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 남자친구 있는데 없어도 소개 안 시켜 줄 거야",
+            "norm_text": "남자친구 있는데 없어도 소개 안 시켜 줄 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+친구/NNG+있/VV+는데/EC+없/VA+어도/EC+소개/NNG+안/MAG+시켜/VV+EC+줄/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너는 오빠가 평생 혼자서 독방 생활하다가 갔으면 좋겠다는 거야?",
+            "norm_text": "너는 오빠가 평생 혼자서 독방 생활하다가 갔으면 좋겠다는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+오빠/NNG+가/JKS+평생/NNG+혼자/NNG+서/JKB+독방/NNG+생활/NNG+하/XSV+다가/EC+갔으면/VX+EP+EC+좋/VA+겠/EP+다는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 주변에 괜찮은 사람 있으면 소개 시켜주고 해야지",
+            "norm_text": "주변에 괜찮은 사람 있으면 소개 시켜주고 해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주변/NNG+에/JKB+괜찮/VA+은/ETM+사람/NNG+있/VV+으면/EC+소개/NNG+시켜/XSV+EC+주/VX+고/EC+해야지/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그건 아닌데 내 친구 소개 받기에는 나이 차이가 조금 양심 없지.",
+            "norm_text": "그건 아닌데 내 친구 소개 받기에는 나이 차이가 조금 양심 없지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+아닌데/VCN+EC+내/NP+JKG+친구/NNG+소개/NNG+받/VV+기/ETN+에/JKB+는/JX+나이/NNG+차이/NNG+가/JKS+조금/MAG+양심/NNG+없/VA+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 왜 양심이 없지? 엄빠도 6살 차인데?",
+            "norm_text": "왜 양심이 없지? 엄빠도 6살 차인데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+양심/NNG+이/JKS+없/VA+지/EF+엄/IC+빠/NNP+도/JX+6/SN+살/NNBC+차인데/NNG+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우린 9살 차이야",
+            "norm_text": "우린 9살 차이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우린/NP+JX+9/SN+살/NNBC+차이/VV+야/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 내 친구들도 비슷한 또래 남친 만나서 치킨 뜯으러 가야지",
+            "norm_text": "내 친구들도 비슷한 또래 남친 만나서 치킨 뜯으러 가야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+들/XSN+도/JX+비슷/XR+한/XSA+ETM+또래/NNG+남친/NNG+만나/VV+서/EC+치킨/NNG+뜯/VV+으러/EC+가/VX+야지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 9살 연상 만나서 한방 능이 백숙 먹으러 갈 수는 없잔하.",
+            "norm_text": "9살 연상 만나서 한방 능이 백숙 먹으러 갈 수는 없잔하.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "9/SN+살/NNBC+연상/NNG+만나/VV+서/EC+한방/NNG+능/NNG+이/JKS+백숙/NNG+먹/VV+으러/EC+갈/VX+ETM+수/NNB+는/JX+없/VA+잔/ETM+하/IC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 한방 능이 백숙 무시하는데 치킨 비싸야 3만 원이지? 능이 백숙 비싸면 15만 원이다",
+            "norm_text": "한방 능이 백숙 무시하는데 치킨 비싸야 3만 원이지? 능이 백숙 비싸면 15만 원이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한방/NNG+능/NNG+이/JKS+백숙/NNG+무시/NNG+하/XSV+는/ETM+데/NNB+치킨/VV+ETM+비싸/VA+야/EC+3/SN+만/NR+원/NNBC+이/VCP+지/EF+능/NNG+이/JKS+백숙/NNG+비싸/VA+면/EC+15/SN+만/NR+원/NNBC+이/VCP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그러니까 오빠는 15만 원 값어치를 알아볼 수 있는 여자친구를 만나야지.",
+            "norm_text": "그러니까 오빠는 15만 원 값어치를 알아볼 수 있는 여자친구를 만나야지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+오빠/NNG+는/JX+15/SN+만/NR+원/NNBC+값어치/NNG+를/JKO+알아볼/VV+ETM+수/NNB+있/VV+는/ETM+여자/NNG+친구/NNG+를/JKO+만나/VV+야지/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어린 나이에 선생님이 된 친구 말고",
+            "norm_text": "어린 나이에 선생님이 된 친구 말고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어린/VA+ETM+나이/NNG+에/JKB+선생/NNG+님/XSN+이/JKS+된/VV+ETM+친구/NNG+말/VV+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 어린 나이라니 이제 니가 어린 나인 아니지",
+            "norm_text": "어린 나이라니 이제 니가 어린 나인 아니지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+린나/NNP+이라니/NNP+이제니/NNP+가/JKS+어린/VA+ETM+나인/NNG+JX+아니/VCN+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 요즘 고등학교 친구랑 몇 살 차인지 아니?",
+            "norm_text": "요즘 고등학교 친구랑 몇 살 차인지 아니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+고등/NNG+학교/NNG+친구/NNG+랑/JC+몇/MM+살/NNBC+차/NNG+인지/VCP+EC+아니/IC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 어린 나이지... 나는 고1 때 선생님 중에 7살 차이 나는 사람 없었어.",
+            "norm_text": "어린 나이지... 나는 고1 때 선생님 중에 7살 차이 나는 사람 없었어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어린/VA+ETM+나이/NNG+지/VCP+EF+./SY+나/NP+는/JX+고/XPN+1/SN+때/NNG+선생/NNG+님/XSN+중/NNB+에/JKB+7/SN+살/NNBC+차이/NNG+나/NP+는/JX+사람/NNG+없/VA+었/EP+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 니가 지금 고등학생이랑 차이 만큰보다 오빠랑 안 나자나",
+            "norm_text": "니가 지금 고등학생이랑 차이 만큰보다 오빠랑 안 나자나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "니/NP+가/JKS+지금/MAG+고등/NNG+학생/NNG+이랑/JKB+차이/NNG+만/JX+큰/VA+ETM+보다/MAG+오빠/NNG+랑/JC+안/MAG+나/VV+자/EC+나/VX"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그게 무슨 말이야 키키",
+            "norm_text": "그게 무슨 말이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+무슨/MM+말/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 차이 만큰이 뭔데",
+            "norm_text": "차이 만큰이 뭔데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차이/NNG+만/JX+큰/VA+ETM+이/MM+뭔데/NP+VCP+EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 나랑 너랑 차이보다 너랑 고등학교 애들이랑 차이가 더 난다~ 이 말이야",
+            "norm_text": "나랑 너랑 차이보다 너랑 고등학교 애들이랑 차이가 더 난다~ 이 말이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+랑/JC+너/NP+랑/JKB+차이/NNG+보다/JKB+너/NP+랑/JKB+고등/NNG+학교/NNG+애/NNG+들/XSN+이랑/JKB+차이/NNG+가/JKS+더/MAG+난다/VV+EC+~/SY+이/JKS+말/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그르니 넌 어리지 않다~ 이 말이야",
+            "norm_text": "그르니 넌 어리지 않다~ 이 말이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그르/VV+니/EC+넌/NP+JX+어리/VA+지/EC+않/VX+다/EC+~/SY+이/JKS+말/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 에이 그건 아니지.",
+            "norm_text": "에이 그건 아니지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/IC+그건/NP+JX+아니/VCN+지/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 나랑 오빠는 9살 차이고 난 고1이랑 7살 차이인걸.",
+            "norm_text": "나랑 오빠는 9살 차이고 난 고1이랑 7살 차이인걸.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+랑/JKB+오빠/NNG+는/JX+9/SN+살/NNBC+차이/VV+고/EC+난고/NNG+1/SN+이랑/JC+7/SN+살/NNBC+차이/NNG+인걸/VCP+EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 2살 차네? 별로 안 나네",
+            "norm_text": "2살 차네? 별로 안 나네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "2/SN+살/NNBC+차/VV+네/EF+별로/MAG+안/MAG+나/NP+네/XSN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그럼 된 거 아니야?",
+            "norm_text": "그럼 된 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+된/VV+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 26,
+            "text": "1 : 그렇게 선생님이 된 내 친구랑 이어지는데 합리화 시키지 마.",
+            "norm_text": "그렇게 선생님이 된 내 친구랑 이어지는데 합리화 시키지 마.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇게/MAG+선생/NNG+님/XSN+이/JKS+된/VV+ETM+내/NP+JKG+친구/NNG+랑/JKB+이어지/VV+는데/EC+합리/NNG+화/XSN+시키/XSV+지/EC+마/VX+EF"
+          },
+          {
+            "id": 27,
+            "text": "2 : 2살 치인데 너무 빡빡하게 구시네",
+            "norm_text": "2살 치인데 너무 빡빡하게 구시네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "2/SN+살치/NNG+인데/VCP+EC+너무/MAG+빡빡/XR+하/XSA+게/EC+구/VX+시/EP+네/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

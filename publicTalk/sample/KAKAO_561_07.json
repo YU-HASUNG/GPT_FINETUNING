@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 24053,
+    "name": "KAKAO_561_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209017318/KAKAO_561_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161209017318/KAKAO_561_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30058,
+      "filename": "KAKAO_561_07.txt",
+      "title": "KAKAO_561_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 543,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 543,
+        "word_size": 183,
+        "text": "1 : 나는 형이랑 한 살 차이라서 자주 싸웠었는데 너도 형제 있어\n2 : 나는 언니 두 명 있어\n2 : 나는 나이 차이가 좀 나서 많이 싸우지는 않았어\n2 : 너는 형만 있어?\n1 : 아니 동생도 있는데 지금은 형하고 친구처럼 지내 하하\n2 : 한 살 차이니까 그렇겠다 동생이랑은 몇 살 차이야?\n1 : 동생은 나이 차이 많이 나\n1 : 너는 언니랑 나이 차이 많이 나?\n2 : 응 나도 많이 나 너는 얼마나 나는데?\n1 : 나는 8살 차이 나 너는 얼마나 나는데?\n2 : 와 동생이랑 8살이나 차이나? 그렇게 많이 나는 줄은 몰랐네\n2 : 나는 큰언니랑은 11살 차이 나고 작은 언니랑은 9살 차이야\n1 : 너도 많이 차이 나네 이쁨 많이 받았겠네\n2 : 음 언니들이 잘 챙겨 주긴 했지\n2 : 너는 동생 많이 예뻐해 줬니?\n1 : 애기 땐 이뻐해 줬는데 클수록 맘에 안 들어 너도 그렇겠네\n2 : 아니 나는 착한 동생인데?!\n1 : 그래? 그럼 다행이네 잘해 줘 언니들한테\n2 : 그래 너는 동생한테 잘해 주고 있어?\n1 : 잘해 주고 있지 너도 이쁨 받는 동생이 되렴\n2 : 그래 알았어 노력해 볼게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나는 형이랑 한 살 차이라서 자주 싸웠었는데 너도 형제 있어",
+            "norm_text": "나는 형이랑 한 살 차이라서 자주 싸웠었는데 너도 형제 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+형/NNG+이랑/JC+한/MM+살/NNBC+차이/NNG+라서/VCP+EC+자주/MAG+싸웠었/VV+EP+는데/EC+너/NP+도/JX+형제/NNG+있/VV+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 언니 두 명 있어",
+            "norm_text": "나는 언니 두 명 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+언니/NNG+두/MM+명/NNBC+있/VA+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나는 나이 차이가 좀 나서 많이 싸우지는 않았어",
+            "norm_text": "나는 나이 차이가 좀 나서 많이 싸우지는 않았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+나이/NNG+차이/NNG+가/JKS+좀/MAG+나/NP+서/JKB+많이/MAG+싸우/VV+지/EC+는/JX+않/VX+았/EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너는 형만 있어?",
+            "norm_text": "너는 형만 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+형/NNG+만/JX+있/VX+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 동생도 있는데 지금은 형하고 친구처럼 지내 하하",
+            "norm_text": "아니 동생도 있는데 지금은 형하고 친구처럼 지내 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+동생/NNG+도/JX+있/VA+는데/EC+지금/MAG+은/JX+형/NNG+하/XSV+고/EC+친구/NNG+처럼/JKB+지내/VV+EC+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 한 살 차이니까 그렇겠다 동생이랑은 몇 살 차이야?",
+            "norm_text": "한 살 차이니까 그렇겠다 동생이랑은 몇 살 차이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+살/NNBC+차이/VV+니까/EC+그렇/VA+겠/EP+다/EC+동생/NNG+이랑/JKB+은/JX+몇/MM+살/NNBC+차이/NNG+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 동생은 나이 차이 많이 나",
+            "norm_text": "동생은 나이 차이 많이 나",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "동생/NNG+은/JX+나이/NNG+차이/NNG+많이/MAG+나/JX"
+          },
+          {
+            "id": 8,
+            "text": "1 : 너는 언니랑 나이 차이 많이 나?",
+            "norm_text": "너는 언니랑 나이 차이 많이 나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+언니/NNG+랑/JKB+나이/NNG+차이/NNG+많이/MAG+나/JX"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응 나도 많이 나 너는 얼마나 나는데?",
+            "norm_text": "응 나도 많이 나 너는 얼마나 나는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+나/NP+도/JX+많이/MAG+나/JX+너/NP+는/JX+얼마나/MAG+나/VV+는데/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나는 8살 차이 나 너는 얼마나 나는데?",
+            "norm_text": "나는 8살 차이 나 너는 얼마나 나는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+8/SN+살/NNBC+차이/NNG+나/JC+너/NP+는/JX+얼마나/MAG+나/VV+는데/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 와 동생이랑 8살이나 차이나? 그렇게 많이 나는 줄은 몰랐네",
+            "norm_text": "와 동생이랑 8살이나 차이나? 그렇게 많이 나는 줄은 몰랐네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와동/NNG+생/XSN+이랑/JC+8/SN+살/NNBC+이나/JX+차이/VV+나/EF+그렇게/MAG+많이/MAG+나/VV+는/ETM+줄/NNB+은/JX+몰랐/VV+EP+네/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 큰언니랑은 11살 차이 나고 작은 언니랑은 9살 차이야",
+            "norm_text": "나는 큰언니랑은 11살 차이 나고 작은 언니랑은 9살 차이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+큰언니/NNG+랑/JKB+은/JX+11/SN+살/NNBC+차이/NNG+나/JC+고작/NNG+은/JX+언니/NNG+랑/JKB+은/JX+9/SN+살/NNBC+차이/VV+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 너도 많이 차이 나네 이쁨 많이 받았겠네",
+            "norm_text": "너도 많이 차이 나네 이쁨 많이 받았겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+많이/MAG+차이/NNG+나/NP+네/XSN+이쁨/VA+ETN+많이/MAG+받/VV+았/EP+겠/EP+네/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 음 언니들이 잘 챙겨 주긴 했지",
+            "norm_text": "음 언니들이 잘 챙겨 주긴 했지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+언니/NNG+들/XSN+이/JKS+잘/MAG+챙겨/VV+EC+주/VX+긴/ETN+JX+했/VX+EP+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 너는 동생 많이 예뻐해 줬니?",
+            "norm_text": "너는 동생 많이 예뻐해 줬니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+동생/NNG+많이/MAG+예뻐해/VA+EC+VX+EC+줬/VX+EP+니/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 애기 땐 이뻐해 줬는데 클수록 맘에 안 들어 너도 그렇겠네",
+            "norm_text": "애기 땐 이뻐해 줬는데 클수록 맘에 안 들어 너도 그렇겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애기/NNG+땐/NNG+JX+이뻐/VA+EC+해/VV+EC+줬/VX+EP+는데/EC+클수록/VV+EC+맘/NNG+에/JKB+안/MAG+들/VV+어/EC+너/NP+도/JX+그렇/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아니 나는 착한 동생인데?!",
+            "norm_text": "아니 나는 착한 동생인데?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+나/NP+는/JX+착한/VA+ETM+동생/NNG+인데/VCP+EC+?/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그래? 그럼 다행이네 잘해 줘 언니들한테",
+            "norm_text": "그래? 그럼 다행이네 잘해 줘 언니들한테",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그럼/MAJ+다행/NNG+이/VCP+네/EF+잘/MAG+해/VV+EC+줘/VX+EC+언니/NNG+들/XSN+한테/JKB"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그래 너는 동생한테 잘해 주고 있어?",
+            "norm_text": "그래 너는 동생한테 잘해 주고 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+너/NP+는/JX+동생/NNG+한테/JKB+잘/MAG+해/VV+EC+주/VX+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 잘해 주고 있지 너도 이쁨 받는 동생이 되렴",
+            "norm_text": "잘해 주고 있지 너도 이쁨 받는 동생이 되렴",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+해/VV+EC+주/VX+고/EC+있/VX+지/EF+너/NP+도/JX+이쁨/VA+ETN+받/VV+는/ETM+동생/NNG+이/JKS+되/VV+렴/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래 알았어 노력해 볼게",
+            "norm_text": "그래 알았어 노력해 볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+알/VV+았/EP+어/EC+노력/NNG+해/XSV+EC+볼/VX+게/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

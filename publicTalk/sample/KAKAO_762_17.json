@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 33858,
+    "name": "KAKAO_762_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929133723090263/KAKAO_762_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929133723090263/KAKAO_762_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36885,
+      "filename": "KAKAO_762_17.txt",
+      "title": "KAKAO_762_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 416,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 140,
+        "text": "1 : 건강을 위해서 요즘 뭔가 하는 거 있어?\n2 : 약을 꾸준히 먹고 있는 중이야\n1 : 영양제 같은 거 챙겨 먹는 거야?\n2 : 인삼이라든지 약을 먹고 있어\n1 : 나도 오메가3 칼슘 마그네슘 유산균 비타민 챙겨 먹어 키키\n2 : 나이가 들수록 꾸준히 먹어야 해\n1 : 맞아 나이 들수록 질병의 위험에 계속 노출되니까\n2 : 어릴수록 약을 꾸준히 챙겨 먹어야지 하하\n1 : 수술 같은 거 받아본 적 있어?\n2 : 포경 수술 어릴 때 받아본 적 있어\n1 : 나는 어릴 때 맹장 수술 말고는 없어 키키\n2 : 수술은 안 하는 게 가장 좋지\n1 : 맞아 너무 고통스러워 ㅠㅠ\n1 : 밥도 못 먹어서 맨날 울었어\n2 : 밥을 못 먹는다니 최고의 고통이네\n1 : 생각보다 그래도 신체가 건강한지 키키 그 이후로는 큰 병은 없었어\n2 : 다행이다 운동을 꾸준히 해서 그렇나 보네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 건강을 위해서 요즘 뭔가 하는 거 있어?",
+            "norm_text": "건강을 위해서 요즘 뭔가 하는 거 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "건강/NNG+을/JKO+위해서/VV+EC+요즘/MAG+뭔가/NP+VCP+EC+하/VV+는/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 약을 꾸준히 먹고 있는 중이야",
+            "norm_text": "약을 꾸준히 먹고 있는 중이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "약/NNG+을/JKO+꾸준히/MAG+먹/VV+고/EC+있/VX+는/ETM+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 영양제 같은 거 챙겨 먹는 거야?",
+            "norm_text": "영양제 같은 거 챙겨 먹는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영양제/NNG+같/VA+은/ETM+거/NNB+챙겨/VV+EC+먹/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 인삼이라든지 약을 먹고 있어",
+            "norm_text": "인삼이라든지 약을 먹고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "인삼/NNG+이라든지/JC+약/NNG+을/JKO+먹/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나도 오메가3 칼슘 마그네슘 유산균 비타민 챙겨 먹어 키키",
+            "norm_text": "나도 오메가3 칼슘 마그네슘 유산균 비타민 챙겨 먹어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+오메가/NNG+3/SN+칼슘/NNG+마그네슘/NNG+유산균/NNG+비타민/NNG+챙겨/VV+EC+먹/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나이가 들수록 꾸준히 먹어야 해",
+            "norm_text": "나이가 들수록 꾸준히 먹어야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나이/NNG+가/JKS+들/VV+수록/EC+꾸준히/MAG+먹/VV+어야/EC+해/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아 나이 들수록 질병의 위험에 계속 노출되니까",
+            "norm_text": "맞아 나이 들수록 질병의 위험에 계속 노출되니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+나이/NNG+들/XSN+수록/NNG+질병/NNG+의/JKG+위험/NNG+에/JKB+계속/MAG+노출/NNG+되/XSV+니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어릴수록 약을 꾸준히 챙겨 먹어야지 하하",
+            "norm_text": "어릴수록 약을 꾸준히 챙겨 먹어야지 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어릴수록/VA+EC+약/NNG+을/JKO+꾸준히/MAG+챙겨/VV+EC+먹/VV+어야/EC+지하/NNG+하/XSV"
+          },
+          {
+            "id": 9,
+            "text": "1 : 수술 같은 거 받아본 적 있어?",
+            "norm_text": "수술 같은 거 받아본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "수술/NNG+같/VA+은/ETM+거/NNB+받/VV+아/EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 포경 수술 어릴 때 받아본 적 있어",
+            "norm_text": "포경 수술 어릴 때 받아본 적 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "포경/NNG+수술/NNG+어릴/VA+ETM+때/NNG+받/VV+아/EC+본/VX+ETM+적/NNB+있/VA+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 어릴 때 맹장 수술 말고는 없어 키키",
+            "norm_text": "나는 어릴 때 맹장 수술 말고는 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+어릴/VA+ETM+때/NNG+맹장/NNG+수술/NNG+말/VV+고/EC+는/JX+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 수술은 안 하는 게 가장 좋지",
+            "norm_text": "수술은 안 하는 게 가장 좋지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수술/NNG+은/JX+안/MAG+하/VV+는/ETM+게/NNB+JKS+가장/MAG+좋/VA+지/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 너무 고통스러워 ㅠㅠ",
+            "norm_text": "맞아 너무 고통스러워 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+너무/MAG+고통/NNG+스러워/XSA+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 밥도 못 먹어서 맨날 울었어",
+            "norm_text": "밥도 못 먹어서 맨날 울었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밥/NNG+도/JX+못/MAG+먹/VV+어서/EC+맨날/MAG+울/VV+었/EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 밥을 못 먹는다니 최고의 고통이네",
+            "norm_text": "밥을 못 먹는다니 최고의 고통이네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밥/NNG+을/JKO+못/MAG+먹/VV+는다니/EC+최고/NNG+의/JKG+고통/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 생각보다 그래도 신체가 건강한지 키키 그 이후로는 큰 병은 없었어",
+            "norm_text": "생각보다 그래도 신체가 건강한지 키키 그 이후로는 큰 병은 없었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "생각/NNG+보다/JKB+그래도/VV+EC+신체/NNG+가/JKS+건강/NNG+한지/XSA+EC+키키/NNP+그/MM+이후/NNG+로/JKB+는/JX+큰/VA+ETM+병/NNG+은/JX+없/VA+었/EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 다행이다 운동을 꾸준히 해서 그렇나 보네",
+            "norm_text": "다행이다 운동을 꾸준히 해서 그렇나 보네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/JKS+다/MAG+운동/NNG+을/JKO+꾸준히/MAG+해서/VV+EC+그렇/VA+나/EC+보/VX+네/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

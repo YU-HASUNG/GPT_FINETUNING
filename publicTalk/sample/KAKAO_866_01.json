@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 40352,
+    "name": "KAKAO_866_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174130029161/KAKAO_866_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174130029161/KAKAO_866_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39999,
+      "filename": "KAKAO_866_01.txt",
+      "title": "KAKAO_866_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 522,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 522,
+        "word_size": 168,
+        "text": "1 : 저녁 부대찌개 겁나 먹고 싶다\n2 : 어디야? 부대찌개 먹으러 같이 가자 키키\n2 : 나도 갑자기 들으니깐 확 땡기네\n1 : 콜 있다가 마칠 때 말할게.\n1 : 어느 부대찌개 드실?\n2 : 원할머니보쌈 부대찌개로 부탁할게 후후후후\n1 : 용가리 부대찌개 먹을라고 했는데...\n2 : 그면 그냥 거기 가자 하지 왜 물어봄? 키키\n2 : 거기 가자\n1 : 아니면 킹콩 가실?\n1 : 거기는 씨레기 들어간다던데 키키\n2 : 아무 데나 가자 키키\n2 : 부대찌개 뭐 웬만하면 맛있지 후후\n1 : 부대찌개는 못 참지.\n1 : 아니면 홍콩할매 부대찌개도 있어 키키\n2 : 그냥 젤 가까운 데 가자 키키 그만 고민하고 키키\n1 : 그래. 그럼 원할머니로 ㄱㄱ\n1 : 원할머니 오리지날이지\n2 : 오케이 키키 햄사리랑 라면사리 추가해도 되는지!\n1 : 당연하지 햄은 못 참지.\n1 : 라면도 먹어줘야지 !\n2 : 조앗서! 돈은 제안한 니가 내라!\n1 : 나요? 제안은 니가 한 거 같은데...\n1 : 내가 내는 걸로 하죠 키키\n2 : 배 텅텅 비워서 가야겠군 ^^  많이 때려먹을라믄",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저녁 부대찌개 겁나 먹고 싶다",
+            "norm_text": "저녁 부대찌개 겁나 먹고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저녁/NNG+부대찌개/NNG+겁나/VV+EC+먹/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어디야? 부대찌개 먹으러 같이 가자 키키",
+            "norm_text": "어디야? 부대찌개 먹으러 같이 가자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "어디/NP+야/VCP+EF+부대찌개/NNG+먹/VV+으러/EC+같이/MAG+가/VV+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나도 갑자기 들으니깐 확 땡기네",
+            "norm_text": "나도 갑자기 들으니깐 확 땡기네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+갑자기/MAG+들/VV+으니깐/EC+확/MAG+땡기/VV+네/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 콜 있다가 마칠 때 말할게.",
+            "norm_text": "콜 있다가 마칠 때 말할게.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "콜/NNG+있/VV+다가/EC+마칠/VV+ETM+때/NNG+말/NNG+할게/XSV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어느 부대찌개 드실?",
+            "norm_text": "어느 부대찌개 드실?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어느/MM+부대찌개/NNG+드실/VV+EP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 원할머니보쌈 부대찌개로 부탁할게 후후후후",
+            "norm_text": "원할머니보쌈 부대찌개로 부탁할게 후후후후",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "원/NNG+할머니/NNG+보쌈/NNG+부대찌개/NNG+로/JKB+부탁/NNG+할/XSV+ETM+게/NNB+JKS+후후후/IC+후/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 용가리 부대찌개 먹을라고 했는데...",
+            "norm_text": "용가리 부대찌개 먹을라고 했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "용가리/NNP+부대찌개/NNG+먹/VV+을라고/EC+했/VX+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그면 그냥 거기 가자 하지 왜 물어봄? 키키",
+            "norm_text": "그면 그냥 거기 가자 하지 왜 물어봄? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그면/MAJ+그냥/MAG+거기/NP+가/JKS+자/XR+하/XSA+지/EF+왜/MAG+물어봄/VV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 거기 가자",
+            "norm_text": "거기 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "거기/NP+가/JKS+자/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아니면 킹콩 가실?",
+            "norm_text": "아니면 킹콩 가실?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아니면/MAJ+킹콩/NNP+가실/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 거기는 씨레기 들어간다던데 키키",
+            "norm_text": "거기는 씨레기 들어간다던데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+는/JX+씨/IC+레기/NNP+들어간다/VV+EC+던데/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아무 데나 가자 키키",
+            "norm_text": "아무 데나 가자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아무/MM+데/NNB+나가/VV+EC+자키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 부대찌개 뭐 웬만하면 맛있지 후후",
+            "norm_text": "부대찌개 뭐 웬만하면 맛있지 후후",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부대찌개/NNG+뭐/IC+웬만/XR+하/XSA+면/EC+맛있/VA+지/EC+후후/NNP"
+          },
+          {
+            "id": 14,
+            "text": "1 : 부대찌개는 못 참지.",
+            "norm_text": "부대찌개는 못 참지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부대찌개/NNG+는/JX+못/MAG+참/VV+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니면 홍콩할매 부대찌개도 있어 키키",
+            "norm_text": "아니면 홍콩할매 부대찌개도 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니면/MAJ+홍콩/NNP+할매/NNG+부대찌개/NNG+도/JX+있/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그냥 젤 가까운 데 가자 키키 그만 고민하고 키키",
+            "norm_text": "그냥 젤 가까운 데 가자 키키 그만 고민하고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그냥/MAG+젤/MAG+가까운/VA+ETM+데/NNB+가/JKS+자키/NNG+키/XSV+ETN+그만/MAG+고민/NNG+하/XSV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그래. 그럼 원할머니로 ㄱㄱ",
+            "norm_text": "그래. 그럼 원할머니로 ㄱㄱ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그럼/MAJ+원/NNG+할머니/NNG+로/JKB+ㄱ/NNG+ㄱ/NNG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 원할머니 오리지날이지",
+            "norm_text": "원할머니 오리지날이지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원/NNG+할머니/NNG+오리지날/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 오케이 키키 햄사리랑 라면사리 추가해도 되는지!",
+            "norm_text": "오케이 키키 햄사리랑 라면사리 추가해도 되는지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오케이/NNP+키키/NNP+햄/NNG+사리/NNG+랑/JKB+라면/VCP+EC+사리/NNG+추가/NNG+해도/XSV+EC+되/VV+는지/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 당연하지 햄은 못 참지.",
+            "norm_text": "당연하지 햄은 못 참지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EC+햄/NNG+은/JX+못/MAG+참/VV+지/EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 라면도 먹어줘야지 !",
+            "norm_text": "라면도 먹어줘야지 !",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "라면/NNG+도/JX+먹/VV+어/EC+줘야지/VX+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 조앗서! 돈은 제안한 니가 내라!",
+            "norm_text": "조앗서! 돈은 제안한 니가 내라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "조/NNG+앗/VV+서/EC+!/SY+돈/NNG+은/JX+제안/NNG+한/XSA+ETM+니/NP+가/JKS+내라/NNP"
+          },
+          {
+            "id": 23,
+            "text": "1 : 나요? 제안은 니가 한 거 같은데...",
+            "norm_text": "나요? 제안은 니가 한 거 같은데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+요/JX+제안/NNG+은/JX+니/NP+가/JKS+한/VV+ETM+거/NNB+같/VA+은데/EF+./SY"
+          },
+          {
+            "id": 24,
+            "text": "1 : 내가 내는 걸로 하죠 키키",
+            "norm_text": "내가 내는 걸로 하죠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "내/NP+가/JKS+내/VV+는/ETM+걸로/NNB+JKB+하/VV+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 배 텅텅 비워서 가야겠군 ^^  많이 때려먹을라믄",
+            "norm_text": "배 텅텅 비워서 가야겠군 ^^  많이 때려먹을라믄",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배/NNG+텅텅/MAG+비워서/VV+EC+가/VX+야/EC+VX+겠/EP+군/EC+^/SY+^/SY+많이/MAG+때려/VV+EC+먹/VV+을라믄/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22328,
+    "name": "KAKAO_509_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906065821/KAKAO_509_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145906065821/KAKAO_509_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29274,
+      "filename": "KAKAO_509_03.txt",
+      "title": "KAKAO_509_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 770,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 770,
+        "word_size": 226,
+        "text": "1 : 지금까진 집이랑 회사가 가까워서 자동차보단 버스, 전철로 출퇴근 했는데 곧 이사가는 김포는 거리가 멀어서 어쩌지?\n2 : 이젠 승용차로 출퇴근 해야 할 것 같아.\n1 : 그러게, 버스나 전철로는 시간대도 맞추기 힘든 것 같더라구\n2 : 응 , 서울은 버스,전철 배차 시간이 짧은데, 이사 갈 집 쪽은 배차 시간 엄청 길던데,\n1 : 응 대중교통이 요금은 싼데, 서울 아닌 이상 출퇴근 그걸로는 힘들 것 같아 ㅠㅠ\n2 : 응 우린 그나마 하이브리드 승용차라 유류비는 덜 들 것 같아.\n1 : 응. 전에 소형차 타다가 하이브리드로 바꿨던 게 유류비 덜 나오니 경제적이어서 바꾼 거였지.\n2 : 초반 비용은 좀 많이 들었지만 오래 탄다고 하면 이득 일 것 같아 .\n1 : 다행이 출퇴근 이동 경로도 자기 내려주고 나 가면 되니깐 괜찮을 거야.\n2 : 맞아, 완전 동 떨어진 길이었음 출퇴근 시간 더 걸릴 거야.\n1 : 그나마 같이 다니고 하니 편하게도 다니고 유류비도 좀 절감할 수 있겠다.\n2 : 응~ 난 전에 아빠가 suv만 사서 suv만 좋았는데 승용차 타니깐 조용해서 좋은 것 같아. 아빠꺼 타면 경유라 덜덜덜 소리가 컸거든.\n1 : 맞아 디젤은 소리가 그렇게 크게 나.\n2 : 친구 아빠의 승용차를 탔는데 휘발유차라 그런지 엄청 조용 했던 거지, 정말 충격이었어~ 차가 이렇게 조용한 거구나 라고… ㅎ\n1 : 맞아 휘발유차는 조용한 장점이 있어.\n2 : 전엔 경유가 저렴하다고 해서 자동차 종류에서 디젤만 아빠가 샀는데 이젠 그런 메리트가 없어서 차 산다면 전기차로 알아보겠다고 하시더라구 .",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 지금까진 집이랑 회사가 가까워서 자동차보단 버스, 전철로 출퇴근 했는데 곧 이사가는 김포는 거리가 멀어서 어쩌지?",
+            "norm_text": "지금까진 집이랑 회사가 가까워서 자동차보단 버스, 전철로 출퇴근 했는데 곧 이사가는 김포는 거리가 멀어서 어쩌지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+까진/JX+VCP+ETM+집/NNG+이랑/JKB+회사/NNG+가/JKS+가까워서/VA+EC+자동차/NNG+보단/JKB+JX+버스/NNG+,/SC+전철/NNG+로/JKB+출퇴근/NNG+했/XSV+EP+는데/EC+곧/MAG+이사/NNG+가/VV+는/ETM+김포/NNP+는/JX+거리/NNG+가/JKS+멀/VA+어서/EC+어쩌/VV+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이젠 승용차로 출퇴근 해야 할 것 같아.",
+            "norm_text": "이젠 승용차로 출퇴근 해야 할 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이젠/NNG+JX+승용차/NNG+로/JKB+출퇴근/NNG+해야/XSV+EC+할/VX+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러게, 버스나 전철로는 시간대도 맞추기 힘든 것 같더라구",
+            "norm_text": "그러게, 버스나 전철로는 시간대도 맞추기 힘든 것 같더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+,/SC+버스/NNG+나/JC+전철/NNG+로/JKB+는/JX+시간대/NNG+도/JX+맞추/VV+기/ETN+힘든/VA+ETM+것/NNB+같/VA+더라구/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 , 서울은 버스,전철 배차 시간이 짧은데, 이사 갈 집 쪽은 배차 시간 엄청 길던데,",
+            "norm_text": "응 , 서울은 버스,전철 배차 시간이 짧은데, 이사 갈 집 쪽은 배차 시간 엄청 길던데,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+,/SC+서울/NNP+은/JX+버스/NNG+,/SC+전철/NNG+배차/NNG+시간/NNG+이/JKS+짧/VA+은데/EC+,/SC+이/MM+사갈/NNG+집/NNG+쪽/NNB+은/JX+배차/NNG+시간/NNG+엄청/MAG+길/VA+던데/EF+,/SC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 대중교통이 요금은 싼데, 서울 아닌 이상 출퇴근 그걸로는 힘들 것 같아 ㅠㅠ",
+            "norm_text": "응 대중교통이 요금은 싼데, 서울 아닌 이상 출퇴근 그걸로는 힘들 것 같아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+대중교통/NNG+이/JKS+요금/NNG+은/JX+싼데/VA+EC+,/SC+서울/NNP+아닌/VCN+ETM+이상/NNG+출퇴근/NNG+그걸로/NP+JKB+는/JX+힘들/VA+ETM+것/NNB+같/VA+아/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 우린 그나마 하이브리드 승용차라 유류비는 덜 들 것 같아.",
+            "norm_text": "응 우린 그나마 하이브리드 승용차라 유류비는 덜 들 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+우린/NP+JX+그나마/MAG+하이브리드/NNG+승용차/NNG+라/VCP+EC+유류/NNG+비/NNG+는/JX+덜/MAG+들것/NNG+같/VA+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응. 전에 소형차 타다가 하이브리드로 바꿨던 게 유류비 덜 나오니 경제적이어서 바꾼 거였지.",
+            "norm_text": "응. 전에 소형차 타다가 하이브리드로 바꿨던 게 유류비 덜 나오니 경제적이어서 바꾼 거였지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+전/NNG+에/JKB+소형차/NNG+타/VV+다가/EC+하이브리드/NNG+로/JKB+바꿨/VV+EP+던/ETM+게/NNB+JKS+유류/NNG+비/NNG+덜/MAG+나오/VV+니/EC+경제/NNG+적/XSN+이/VCP+어서/EC+바꾼/VV+ETM+거/NNB+였/VCP+EP+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 초반 비용은 좀 많이 들었지만 오래 탄다고 하면 이득 일 것 같아 .",
+            "norm_text": "초반 비용은 좀 많이 들었지만 오래 탄다고 하면 이득 일 것 같아 .",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "초반/NNG+비용/NNG+은/JX+좀/MAG+많이/MAG+들/VV+었/EP+지만/EC+오래/MAG+탄다고/VV+EC+하/VV+면/EC+이득/NNG+일/VCP+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 다행이 출퇴근 이동 경로도 자기 내려주고 나 가면 되니깐 괜찮을 거야.",
+            "norm_text": "다행이 출퇴근 이동 경로도 자기 내려주고 나 가면 되니깐 괜찮을 거야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/JKS+출퇴근/NNG+이/JKS+동경/NNP+로/JKB+도/JX+자기/NP+내려/VV+EC+주/VX+고/EC+나가/VX+면/EC+되/VV+니깐/EC+괜찮/VA+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아, 완전 동 떨어진 길이었음 출퇴근 시간 더 걸릴 거야.",
+            "norm_text": "맞아, 완전 동 떨어진 길이었음 출퇴근 시간 더 걸릴 거야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+,/SC+완전/MAG+동떨어진/VV+ETM+길/NNG+이/VCP+었/EP+음/ETN+출퇴근/NNG+시간/NNG+더/MAG+걸릴/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그나마 같이 다니고 하니 편하게도 다니고 유류비도 좀 절감할 수 있겠다.",
+            "norm_text": "그나마 같이 다니고 하니 편하게도 다니고 유류비도 좀 절감할 수 있겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그나마/MAG+같이/MAG+다니/VV+고/EC+하/VV+니/EC+편하/VA+게/EC+도/JX+다니/VV+고/EC+유류/NNG+비/NNG+도/JX+좀/MAG+절감/NNG+할/XSV+ETM+수/NNB+있/VV+겠/EP+다/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응~ 난 전에 아빠가 suv만 사서 suv만 좋았는데 승용차 타니깐 조용해서 좋은 것 같아. 아빠꺼 타면 경유라 덜덜덜 소리가 컸거든.",
+            "norm_text": "응~ 난 전에 아빠가 suv만 사서 suv만 좋았는데 승용차 타니깐 조용해서 좋은 것 같아. 아빠꺼 타면 경유라 덜덜덜 소리가 컸거든.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+~/SY+난전/NNG+에/JKB+아빠/NNG+가/JKS+suv/SL+만/JX+사/VV+서/EC+suv/SL+만/JX+좋/VA+았/EP+는데/EC+승용차/NNG+타/VV+니깐/EC+조용/XR+해서/XSA+EC+좋/VA+은/ETM+것/NNB+같/VA+아/EF+아빠/NNG+꺼/VV+EC+타/VV+면/EC+경유/NNG+라/VCP+EC+덜/MAG+덜/MAG+덜/MAG+소리/NNG+가/JKS+컸/VA+EP+거든/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 디젤은 소리가 그렇게 크게 나.",
+            "norm_text": "맞아 디젤은 소리가 그렇게 크게 나.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+디젤/NNP+은/JX+소리/NNG+가/JKS+그렇게/MAG+크/VA+게나/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 친구 아빠의 승용차를 탔는데 휘발유차라 그런지 엄청 조용 했던 거지, 정말 충격이었어~ 차가 이렇게 조용한 거구나 라고… ㅎ",
+            "norm_text": "친구 아빠의 승용차를 탔는데 휘발유차라 그런지 엄청 조용 했던 거지, 정말 충격이었어~ 차가 이렇게 조용한 거구나 라고… ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "친구/NNG+아빠/NNG+의/JKG+승용차/NNG+를/JKO+탔/VV+EP+는데/EC+휘발유/NNG+차/NNG+라/VCP+EC+그런지/VA+EC+엄청/MAG+조용/XR+했/XSA+EP+던/ETM+거/NNB+지/VCP+EF+,/SC+정말/MAG+충격/NNG+이/VCP+었/EP+어/EC+~/SY+차/NNG+가/JKS+이렇게/MAG+조용/XR+한/XSA+ETM+거/NNB+구나라고/VCP+EF+JKQ+…/SE+ㅎ/XSA"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 휘발유차는 조용한 장점이 있어.",
+            "norm_text": "맞아 휘발유차는 조용한 장점이 있어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+휘발유/NNG+차/NNG+는/JX+조용/XR+한/XSA+ETM+장점/NNG+이/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 전엔 경유가 저렴하다고 해서 자동차 종류에서 디젤만 아빠가 샀는데 이젠 그런 메리트가 없어서 차 산다면 전기차로 알아보겠다고 하시더라구 .",
+            "norm_text": "전엔 경유가 저렴하다고 해서 자동차 종류에서 디젤만 아빠가 샀는데 이젠 그런 메리트가 없어서 차 산다면 전기차로 알아보겠다고 하시더라구 .",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전/NNG+엔/JKB+JX+경유/NNG+가/JKS+저렴/XR+하/XSA+다고/EC+해서/VV+EC+자동차/NNG+종류/NNG+에서/JKB+디젤/NNP+만/JX+아빠/NNG+가/JKS+샀/VV+EP+는데/EC+이젠/NNG+JX+그런/MM+메리트/NNG+가/JKS+없/VA+어서/EC+차/NNG+산다면/VV+EC+전기/NNG+차/NNG+로/JKB+알아보/VV+겠/EP+다고/EC+하/VX+시/EP+더라구/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

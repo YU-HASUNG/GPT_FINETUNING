@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 45577,
+    "name": "KAKAO_801_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647057645/KAKAO_801_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143647057645/KAKAO_801_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38023,
+      "filename": "KAKAO_801_12.txt",
+      "title": "KAKAO_801_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 387,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 133,
+        "text": "1 : 국내 여행지 중에 제일 좋았던 지역은 어디야?\n2 : 통영이랑 거제도가 좋았었다 키키\n1 : 오 바다 쪽이네 친구들이랑 갔었나?\n2 : 아니 키키 그때는 여친 있었다\n1 : 키키 여친 있을 때 가서 좋았던 건 아니제?\n2 : 그런 거일 수도 있다 키키\n1 : 키키 해외는 갔다 온 적 있나?\n2 : 두 번 가봤다 키키 일본이랑 대만\n1 : 몇 박씩 갔다 왔어?\n2 : 일본은 2박 3일 대만은 3박 4일 다녀왔다\n1 : 대만에서 잘 먹고 다녔낭?\n2 : 아니 키키 음식이 내랑 안 맞더라\n1 : 왜 키키 음식 어떻던데?\n2 : 향신료 냄새가 너무 심했다 ㅠ\n1 : 근데 나도 네팔 갔다 왔었는데 그때도 그랬다\n2 : 안 무섭더나? 친구랑 갔음?\n1 : 아니 키키 대학교 때 봉사 활동하러\n2 : 니 그런 것도 했나?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 국내 여행지 중에 제일 좋았던 지역은 어디야?",
+            "norm_text": "국내 여행지 중에 제일 좋았던 지역은 어디야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "국내/NNG+여행지/NNG+중/NNB+에/JKB+제일/MAG+좋/VA+았/EP+던/ETM+지역/NNG+은/JX+어디/NP+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 통영이랑 거제도가 좋았었다 키키",
+            "norm_text": "통영이랑 거제도가 좋았었다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "통영/NNG+이/JKS+랑거/NNP+제도/NNG+가/JKS+좋/VA+았었/EP+다키키/NNP"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 바다 쪽이네 친구들이랑 갔었나?",
+            "norm_text": "오 바다 쪽이네 친구들이랑 갔었나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+바다/NNG+쪽/NNB+이/VCP+네/EF+친구/NNG+들/XSN+이랑/JKB+갔었/VV+EP+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 키키 그때는 여친 있었다",
+            "norm_text": "아니 키키 그때는 여친 있었다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니키/NNP+키/NNG+그때/NNG+는/JX+여친/NNG+있/VV+었/EP+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 여친 있을 때 가서 좋았던 건 아니제?",
+            "norm_text": "키키 여친 있을 때 가서 좋았던 건 아니제?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+여친/NNG+있/VV+을/ETM+때/NNG+가/VV+서/EC+좋/VA+았/EP+던/ETM+건/NNB+JX+아니/VCN+제/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그런 거일 수도 있다 키키",
+            "norm_text": "그런 거일 수도 있다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런/MM+거/NNB+일/VCP+ETM+수/NNB+도/JX+있/VA+다키키/NNP"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 해외는 갔다 온 적 있나?",
+            "norm_text": "키키 해외는 갔다 온 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+해외/NNG+는/JX+갔다온/VV+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 두 번 가봤다 키키 일본이랑 대만",
+            "norm_text": "두 번 가봤다 키키 일본이랑 대만",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "두/MM+번/NNBC+가/JKS+봤/VV+EP+다키키/NNP+일본/NNP+이랑/JC+대만/NNP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 몇 박씩 갔다 왔어?",
+            "norm_text": "몇 박씩 갔다 왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+박/NNBC+씩/XSN+갔다왔/VV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 일본은 2박 3일 대만은 3박 4일 다녀왔다",
+            "norm_text": "일본은 2박 3일 대만은 3박 4일 다녀왔다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일본/NNP+은/JX+2/SN+박/NNBC+3/SN+일/NNBC+대만/NNP+은/JX+3/SN+박/NNBC+4/SN+일/NNBC+다녀왔/VV+EP+다/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 대만에서 잘 먹고 다녔낭?",
+            "norm_text": "대만에서 잘 먹고 다녔낭?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대만/NNP+에서/JKB+잘/MAG+먹/VV+고/EC+다녔/VV+EP+낭/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아니 키키 음식이 내랑 안 맞더라",
+            "norm_text": "아니 키키 음식이 내랑 안 맞더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니키/NNP+키/NNG+음식/NNG+이/JKS+내/NP+랑/JC+안/MAG+맞/VV+더라/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 왜 키키 음식 어떻던데?",
+            "norm_text": "왜 키키 음식 어떻던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+키/NNG+키/NNG+음식/NNG+어떻/VA+던데/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 향신료 냄새가 너무 심했다 ㅠ",
+            "norm_text": "향신료 냄새가 너무 심했다 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "향신료/NNG+냄새/NNG+가/JKS+너무/MAG+심했/VA+EP+다ㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 나도 네팔 갔다 왔었는데 그때도 그랬다",
+            "norm_text": "근데 나도 네팔 갔다 왔었는데 그때도 그랬다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+나/NP+도/JX+네/MM+팔/NR+갔다왔었/VV+EP+는데/EC+그때/NNG+도/JX+그랬/VV+EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 안 무섭더나? 친구랑 갔음?",
+            "norm_text": "안 무섭더나? 친구랑 갔음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "안/MAG+무섭/VA+더나/EF+친구/NNG+랑/JKB+갔/VV+EP+음/ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아니 키키 대학교 때 봉사 활동하러",
+            "norm_text": "아니 키키 대학교 때 봉사 활동하러",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니키/NNP+키/NNG+대학교/NNG+때/NNG+봉사/NNG+활동/NNG+하/XSV+러/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 니 그런 것도 했나?",
+            "norm_text": "니 그런 것도 했나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+그런/MM+것/NNB+도/JX+했/VV+EP+나/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

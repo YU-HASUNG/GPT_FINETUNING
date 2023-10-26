@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24040,
+    "name": "KAKAO_551_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151901049526/KAKAO_551_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151901049526/KAKAO_551_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29839,
+      "filename": "KAKAO_551_08.txt",
+      "title": "KAKAO_551_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 390,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 390,
+        "word_size": 139,
+        "text": "1 : 이번 주 결혼식 있는 거 알지?\n2 : 당연히 알지. 그거 잊어 버릴까 봐\n1 : 응 일요일 11시니까 빨리 와야 해\n2 : 11시까지만 가면 돼?\n2 : 일찍 갈 필요는 없지?\n1 : 근데 요즘 코로나 때문에 입장 제한 있어서 늦으면 안돼\n2 : 아 맞네 그럼 10시 30분 까지 갈게\n1 : 응 그 정도면 괜찮을 거 같다\n2 : 응. 근데 결혼을 해버렸네... 키키\n1 : 그니까 젤 늦게 할 거 같더니\n2 : 와이프 되는 분도 일찍 하시는 거 같던데\n1 : 두 사람 다 일찍 하는구만 키키\n2 : 그러게 빨리 축하 해 주고 싶다\n1 : 좀만 참아 이번 주니까 키키 얼마 안 남았어\n2 : 응 너는 여자친구랑 결혼 안 하냐?\n1 : 나는 아직 좀 더 있어야 돼 키키 너나 해\n2 : 나는 여친이 없... 일욜날 보자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번 주 결혼식 있는 거 알지?",
+            "norm_text": "이번 주 결혼식 있는 거 알지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+주/NNG+결혼식/NNG+있/VA+는/ETM+거/NNB+알/VV+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 당연히 알지. 그거 잊어 버릴까 봐",
+            "norm_text": "당연히 알지. 그거 잊어 버릴까 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+알/VV+지/EF+그거/NP+잊어버릴까/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 일요일 11시니까 빨리 와야 해",
+            "norm_text": "응 일요일 11시니까 빨리 와야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "응/IC+일요일/NNG+11/SN+시/NNBC+니까/VCP+EC+빨리/MAG+와야/VV+EC+해/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 11시까지만 가면 돼?",
+            "norm_text": "11시까지만 가면 돼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "11/SN+시/NNBC+까지/JX+만/JX+가/VV+면/EC+돼/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 일찍 갈 필요는 없지?",
+            "norm_text": "일찍 갈 필요는 없지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일찍/MAG+갈/VV+ETM+필요/NNG+는/JX+없/VA+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 근데 요즘 코로나 때문에 입장 제한 있어서 늦으면 안돼",
+            "norm_text": "근데 요즘 코로나 때문에 입장 제한 있어서 늦으면 안돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+요즘/MAG+코로나/NNG+때문/NNB+에/JKB+입장/NNG+제한/NNG+있/VV+어서/EC+늦/VA+으면/EC+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아 맞네 그럼 10시 30분 까지 갈게",
+            "norm_text": "아 맞네 그럼 10시 30분 까지 갈게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아/IC+맞/VV+네/EF+그럼/MAJ+10/SN+시/NNBC+30/SN+분/NNBC+까지/JX+갈게/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응 그 정도면 괜찮을 거 같다",
+            "norm_text": "응 그 정도면 괜찮을 거 같다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그/MM+정도/NNG+면/VCP+EC+괜찮/VA+을/ETM+거/NNB+같/VA+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응. 근데 결혼을 해버렸네... 키키",
+            "norm_text": "응. 근데 결혼을 해버렸네... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+근데/MAJ+결혼/NNG+을/JKO+해/VV+EC+버렸/VX+EP+네/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그니까 젤 늦게 할 거 같더니",
+            "norm_text": "그니까 젤 늦게 할 거 같더니",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+젤/MAG+늦/VA+게/EC+할/VX+ETM+거/NNB+같/VA+더니/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 와이프 되는 분도 일찍 하시는 거 같던데",
+            "norm_text": "와이프 되는 분도 일찍 하시는 거 같던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와이프/NNG+되/XSV+는/ETM+분/NNB+도/JX+일찍/MAG+하/VV+시/EP+는/ETM+거/NNB+같/VA+던데/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 두 사람 다 일찍 하는구만 키키",
+            "norm_text": "두 사람 다 일찍 하는구만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "두/MM+사람/NNG+다/MAG+일찍/MAG+하/VV+는/ETM+구만/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그러게 빨리 축하 해 주고 싶다",
+            "norm_text": "그러게 빨리 축하 해 주고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+빨리/MAG+축하/NNG+해/XSV+EC+주/VX+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 좀만 참아 이번 주니까 키키 얼마 안 남았어",
+            "norm_text": "좀만 참아 이번 주니까 키키 얼마 안 남았어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좀/MAG+만참/NNG+아이/NR+번/NNBC+주/VV+니까/EC+키/NNG+키/NNG+얼마/NNG+안/MAG+남/VV+았/EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 너는 여자친구랑 결혼 안 하냐?",
+            "norm_text": "응 너는 여자친구랑 결혼 안 하냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+너/NP+는/JX+여자/NNG+친구/NNG+랑/JKB+결혼/NNG+안/MAG+하/VV+냐/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나는 아직 좀 더 있어야 돼 키키 너나 해",
+            "norm_text": "나는 아직 좀 더 있어야 돼 키키 너나 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+아직/MAG+좀/MAG+더/MAG+있/VA+어야/EC+돼/VV+EC+키/NNG+키/XSV+ETN+너/NP+나/JX+해/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나는 여친이 없... 일욜날 보자",
+            "norm_text": "나는 여친이 없... 일욜날 보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+는/JX+여친/NNG+이/JKS+없/VA+./SY+일욜날보자/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

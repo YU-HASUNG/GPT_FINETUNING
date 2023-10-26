@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 47400,
+    "name": "KAKAO_830_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172206000283/KAKAO_830_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172206000283/KAKAO_830_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39587,
+      "filename": "KAKAO_830_09.txt",
+      "title": "KAKAO_830_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 417,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 417,
+        "word_size": 138,
+        "text": "1 : 햄스터 키워 본 적 있나?\n2 : 누나가 키워서 구경은 해 봤습니다 키키\n1 : 조그매 가지고 만지면 터질 것 같다... 키키\n2 : 키키 행님도 햄스터 키워 봤습니까?\n1 : 아니 키키 나는 키워 본 적 없다\n2 : 동물 키워 본 적 한 번도 없으니까?\n1 : 어릴 때 집에서 병아리 닭 거북이 물고기 이런 건 키워 본 듯?\n2 : 키키 저는 한 번도 키워 본 적 없습니다\n2 : 누나가 병아리는 몇 번 사 오기는 했습니다\n1 : 학교 앞에 병아리 많잖아 키키\n2 : 네 키키 누나가 꼭 사 오더라구요\n1 : 옛날에 병아리 염색시켜서 팔고 그랬다는데...\n2 : 염색이요? 그건 모르겠습니다\n1 : 어떤 글 보다가 나도 알았다 잔인한 어르들이더라\n2 : 헐 그 작은 병아리한테 염색이라니\n1 : 그러니까 얼마 못 가고 죽었을걸...\n2 : ㅠㅠ 이상한 사람들 많네요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 햄스터 키워 본 적 있나?",
+            "norm_text": "햄스터 키워 본 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "햄스터/NNG+키워본/VV+EC+VX+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 누나가 키워서 구경은 해 봤습니다 키키",
+            "norm_text": "누나가 키워서 구경은 해 봤습니다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "누나/NNG+가/JKS+키워서/VV+EC+구경/NNG+은/JX+해/VV+EC+봤/VX+EP+습니다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 조그매 가지고 만지면 터질 것 같다... 키키",
+            "norm_text": "조그매 가지고 만지면 터질 것 같다... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조그/NNP+매/VV+EC+가지/VX+고/EC+만지/VV+면/EC+터질/VX+ETM+것/NNB+같/VA+다/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 행님도 햄스터 키워 봤습니까?",
+            "norm_text": "키키 행님도 햄스터 키워 봤습니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+행/NNG+님/XSN+도/JX+햄스터/NNG+키워/VV+EC+봤/VX+EP+습니까/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 키키 나는 키워 본 적 없다",
+            "norm_text": "아니 키키 나는 키워 본 적 없다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+키/NNG+키나/XSA+ETN+JX+는/JX+키워본/VV+EC+VX+ETM+적/NNB+없/VA+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 동물 키워 본 적 한 번도 없으니까?",
+            "norm_text": "동물 키워 본 적 한 번도 없으니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동물/NNG+키워본/VV+EC+VX+ETM+적/NNB+한/MM+번/NNBC+도/JX+없/VA+으니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어릴 때 집에서 병아리 닭 거북이 물고기 이런 건 키워 본 듯?",
+            "norm_text": "어릴 때 집에서 병아리 닭 거북이 물고기 이런 건 키워 본 듯?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+집/NNG+에서/JKB+병아리/NNG+닭/NNG+거북/NNG+이/JKS+물고기/NNG+이런/MM+건/NNB+JX+키워본/VV+EC+VX+ETM+듯/NNB"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 저는 한 번도 키워 본 적 없습니다",
+            "norm_text": "키키 저는 한 번도 키워 본 적 없습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키저/NNG+는/JX+한/MM+번/NNBC+도/JX+키워본/VV+EC+VX+ETM+적/NNB+없/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 누나가 병아리는 몇 번 사 오기는 했습니다",
+            "norm_text": "누나가 병아리는 몇 번 사 오기는 했습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "누나/NNG+가/JKS+병아리/NNG+는/JX+몇/MM+번/NNBC+사오기/NNG+는/JX+했/VV+EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 학교 앞에 병아리 많잖아 키키",
+            "norm_text": "학교 앞에 병아리 많잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "학교/NNG+앞/NNG+에/JKB+병아리/NNG+많/VA+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 네 키키 누나가 꼭 사 오더라구요",
+            "norm_text": "네 키키 누나가 꼭 사 오더라구요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+키/NNG+키/NNG+누나/NNG+가/JKS+꼭/MAG+사/VV+EC+오/VV+더라구요/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 옛날에 병아리 염색시켜서 팔고 그랬다는데...",
+            "norm_text": "옛날에 병아리 염색시켜서 팔고 그랬다는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옛날/NNG+에/JKB+병아리/NNG+염색/NNG+시켜서/XSV+EC+팔/VV+고/EC+그랬/VV+EP+다는데/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 염색이요? 그건 모르겠습니다",
+            "norm_text": "염색이요? 그건 모르겠습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "염색/NNG+이/VCP+요/EF+그건/NP+JX+모르/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 어떤 글 보다가 나도 알았다 잔인한 어르들이더라",
+            "norm_text": "어떤 글 보다가 나도 알았다 잔인한 어르들이더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떤/MM+글/NNG+보/VV+다가/EC+나/NP+도/JX+알/VV+았/EP+다/EC+잔인/XR+한/XSA+ETM+어르/NNG+들/XSN+이/VCP+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 헐 그 작은 병아리한테 염색이라니",
+            "norm_text": "헐 그 작은 병아리한테 염색이라니",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+그/IC+작/VA+은/ETM+병아리/NNG+한테/JKB+염색/NNG+이/VCP+라니/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그러니까 얼마 못 가고 죽었을걸...",
+            "norm_text": "그러니까 얼마 못 가고 죽었을걸...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+얼마/NNG+못/MAG+가/VV+고/EC+죽/VV+었/EP+을걸/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : ㅠㅠ 이상한 사람들 많네요",
+            "norm_text": "ㅠㅠ 이상한 사람들 많네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+이상/NNG+한/XSA+ETM+사람/NNG+들/XSN+많/VA+네요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

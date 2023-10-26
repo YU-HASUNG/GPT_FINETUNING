@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 31928,
+    "name": "KAKAO_878_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175233093585/KAKAO_878_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175233093585/KAKAO_878_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40450,
+      "filename": "KAKAO_878_12.txt",
+      "title": "KAKAO_878_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 395,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 395,
+        "word_size": 138,
+        "text": "1 : 여행사 통해서 여행 간 적이 있어?\n2 : 아니 그렇게 간 적 한번도 없다\n2 : 돈 아깝잖아\n1 : 그래도 거기서 여행 계획 다 짜서 데려다 주잖아 키키\n2 : 키키 내 맘대로 못 하잖아\n1 : 그래도 여행사 상품으로 놀러 많이 다니던데\n2 : 니는 그렇게 가봤나?\n1 : 난 언니야 따라서 한번 그렇게 가 봤다 키키\n2 : 그럼 그냥 몸만 가면 되나?\n1 : 응 키키 신분증만 들고 가면 된다\n2 : 키키 근데 그래도 가면 비싸다 아니가?\n1 : 아니 거의 만 오천 원에서 삼만 원 정도 하던데?\n2 : 괜찮네 나도 그렇게 한번 가봐야겠다\n1 : 해외는 모르겠는데 일단 국내는 그렇더라\n2 : 키키 나는 많이 비쌀 줄 알았지\n1 : 키키 진짜 안 비싸다\n1 : 나도 처음 가본 거야\n2 : 키키 놀러 갈 때 한번 알아 봐야겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여행사 통해서 여행 간 적이 있어?",
+            "norm_text": "여행사 통해서 여행 간 적이 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여행사/NNG+통해서/VV+EC+여행/NNG+간적/NNG+이/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 그렇게 간 적 한번도 없다",
+            "norm_text": "아니 그렇게 간 적 한번도 없다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그렇게/MAG+간/NNG+적/XSN+한/MM+번/NNBC+도/JX+없/VA+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 돈 아깝잖아",
+            "norm_text": "돈 아깝잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+아깝잖/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그래도 거기서 여행 계획 다 짜서 데려다 주잖아 키키",
+            "norm_text": "그래도 거기서 여행 계획 다 짜서 데려다 주잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+거기/NP+서/JKB+여행/NNG+계획/NNG+다/MAG+짜/VV+서/EC+데려다/VV+EC+주/VX+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 내 맘대로 못 하잖아",
+            "norm_text": "키키 내 맘대로 못 하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내맘대로/NP+JKG+NNG+JX+못하/VX+잖아/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그래도 여행사 상품으로 놀러 많이 다니던데",
+            "norm_text": "그래도 여행사 상품으로 놀러 많이 다니던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+여행사/NNG+상품/NNG+으로/JKB+놀/VV+러/EC+많이/MAG+다니/VV+던데/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 니는 그렇게 가봤나?",
+            "norm_text": "니는 그렇게 가봤나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+그렇/VA+게/EC+가/JKS+봤/VV+EP+나/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 난 언니야 따라서 한번 그렇게 가 봤다 키키",
+            "norm_text": "난 언니야 따라서 한번 그렇게 가 봤다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+언니/NNG+야/VCP+EF+따라서/MAJ+한/MM+번/NNBC+그렇게/MAG+가/VV+EC+봤/VX+EP+다키키/NNP"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그럼 그냥 몸만 가면 되나?",
+            "norm_text": "그럼 그냥 몸만 가면 되나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+그냥/MAG+몸/NNG+만/JX+가/VV+면/EC+되/VV+나/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 키키 신분증만 들고 가면 된다",
+            "norm_text": "응 키키 신분증만 들고 가면 된다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+신분증/NNG+만들/VV+고/EC+가/VX+면/EC+된다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 근데 그래도 가면 비싸다 아니가?",
+            "norm_text": "키키 근데 그래도 가면 비싸다 아니가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+그래도/VV+EC+가/VX+면/EC+비싸/VA+다아/EC+니/NP+가/JKS"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아니 거의 만 오천 원에서 삼만 원 정도 하던데?",
+            "norm_text": "아니 거의 만 오천 원에서 삼만 원 정도 하던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+거의/MAG+만/NR+오/NR+천/NR+원/NNBC+에서/JKB+삼/NR+만/NR+원/NNBC+정도/NNG+하/XSA+던데/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 괜찮네 나도 그렇게 한번 가봐야겠다",
+            "norm_text": "괜찮네 나도 그렇게 한번 가봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜찮/VA+네/EF+나/NP+도/JX+그렇게/MAG+한번/MAG+가/VV+봐야/EC+VX+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 해외는 모르겠는데 일단 국내는 그렇더라",
+            "norm_text": "해외는 모르겠는데 일단 국내는 그렇더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "해외/NNG+는/JX+모르/VV+겠/EP+는데/EC+일단/MAG+국내/NNG+는/JX+그렇/VA+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 나는 많이 비쌀 줄 알았지",
+            "norm_text": "키키 나는 많이 비쌀 줄 알았지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+많이/MAG+비쌀/VA+ETM+줄/NNB+알/VV+았/EP+지/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 진짜 안 비싸다",
+            "norm_text": "키키 진짜 안 비싸다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+안/MAG+비싸/VA+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 나도 처음 가본 거야",
+            "norm_text": "나도 처음 가본 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+처음/MAG+가/VV+EC+본/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 놀러 갈 때 한번 알아 봐야겠다",
+            "norm_text": "키키 놀러 갈 때 한번 알아 봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+놀/VV+러/EC+갈/VX+ETM+때/NNG+한/MM+번/NNBC+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

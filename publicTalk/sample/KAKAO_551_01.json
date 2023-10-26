@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24005,
+    "name": "KAKAO_551_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151901044056/KAKAO_551_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151901044056/KAKAO_551_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29832,
+      "filename": "KAKAO_551_01.txt",
+      "title": "KAKAO_551_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 408,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 408,
+        "word_size": 137,
+        "text": "1 : 점심시간이다! 밥 먹으러 가즈아!\n2 : ㄴㄴ 나 오늘 밥 안 먹을 거야\n1 : 왜! 배고파 죽겠구만! 먹자고!\n2 : 어제 너무 과음해서 속이 안 좋아... 키키\n1 : 뭔솔? 술 혼자 마신 거처럼 말하시네 키키\n2 : 과장님이 자꾸 줘서 나 많이 마심\n1 : 그건 인정... 키키 어쩌겠냐 주는데 ㅠ 그니깐 해장하자~\n2 : 흠... 해장이라고 하니깐 좀 땡기네 갈까\n1 : 해장 하는 게 좋음 고고 뭐 드실?\n2 : 설렁탕 국밥 냉면 이런 거 땡기지 않냐?\n1 : 아니 나는 햄버거 땡기는데\n2 : 아 뭔 햄버거야 토할 거 같아 키키\n1 : 농담이야 키키 국밥 ㄱㄱ\n1 : 회사 건너편에 새로 생겼던데 거기 가볼래?\n2 : 안돼 거기 친구가 개 맛없다고 함\n1 : 아 진짜? 키키 그럼 그냥 가던 곳 가자\n2 : 오키 할배국밥 고고 1층에서 만나",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 점심시간이다! 밥 먹으러 가즈아!",
+            "norm_text": "점심시간이다! 밥 먹으러 가즈아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "점심/NNG+시간/NNG+이/VCP+다/EF+밥먹으러가즈아/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : ㄴㄴ 나 오늘 밥 안 먹을 거야",
+            "norm_text": "ㄴㄴ 나 오늘 밥 안 먹을 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+나/JC+오늘/NNG+밥/NNG+안/MAG+먹/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 왜! 배고파 죽겠구만! 먹자고!",
+            "norm_text": "왜! 배고파 죽겠구만! 먹자고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "왜/MAG+배고파/VA+EC+죽/VV+겠/EP+구만/EF+먹/VV+자고/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어제 너무 과음해서 속이 안 좋아... 키키",
+            "norm_text": "어제 너무 과음해서 속이 안 좋아... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+너무/MAG+과음/NNG+해서/XSV+EC+속/NNG+이/JKS+안/MAG+좋/VA+아/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭔솔? 술 혼자 마신 거처럼 말하시네 키키",
+            "norm_text": "뭔솔? 술 혼자 마신 거처럼 말하시네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔/MM+솔/NNG+?/SY+술/NNG+혼자/MAG+마신/VV+ETM+거/NNB+처럼/JKB+말/NNG+하/XSV+시/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 과장님이 자꾸 줘서 나 많이 마심",
+            "norm_text": "과장님이 자꾸 줘서 나 많이 마심",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "과장/NNG+님/XSN+이/JKS+자꾸/MAG+줘서/VV+VV+나/EC+많이/MAG+마심/VV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그건 인정... 키키 어쩌겠냐 주는데 ㅠ 그니깐 해장하자~",
+            "norm_text": "그건 인정... 키키 어쩌겠냐 주는데 ㅠ 그니깐 해장하자~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그건/NP+JX+인정/NNG+./SY+./SY+키/NNG+키/XSV+ETN+어쩌/VV+겠/EP+냐/EC+주/VX+는/ETM+데ㅠ/UNKNOWN+그니깐/MAJ+해장/NNG+하/XSV+자/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 흠... 해장이라고 하니깐 좀 땡기네 갈까",
+            "norm_text": "흠... 해장이라고 하니깐 좀 땡기네 갈까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흠/IC+./SY+해장/NNG+이/VCP+라고/EC+하/VV+니깐/EC+좀/MAG+땡기/VV+네/EF+갈까/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 해장 하는 게 좋음 고고 뭐 드실?",
+            "norm_text": "해장 하는 게 좋음 고고 뭐 드실?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해장/NNG+하/XSV+는/ETM+게/NNB+JKS+좋/VA+음/ETN+고/VV+고/EC+뭐/IC+드실/VV+EP"
+          },
+          {
+            "id": 10,
+            "text": "2 : 설렁탕 국밥 냉면 이런 거 땡기지 않냐?",
+            "norm_text": "설렁탕 국밥 냉면 이런 거 땡기지 않냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "설렁탕/NNG+국밥/NNG+냉면/NNG+이런/MM+거/NNB+땡기/VV+지/EC+않/VX+냐/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아니 나는 햄버거 땡기는데",
+            "norm_text": "아니 나는 햄버거 땡기는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+나/NP+는/JX+햄버거/NNG+땡기/VV+는데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 뭔 햄버거야 토할 거 같아 키키",
+            "norm_text": "아 뭔 햄버거야 토할 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+뭔/MM+햄버거/NNG+야토/NNG+할/XSV+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 농담이야 키키 국밥 ㄱㄱ",
+            "norm_text": "농담이야 키키 국밥 ㄱㄱ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "농담/NNG+이/VCP+야/EC+키/NNG+키/NNG+국밥/NNG+ㄱ/NNG+ㄱ/NNG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 회사 건너편에 새로 생겼던데 거기 가볼래?",
+            "norm_text": "회사 건너편에 새로 생겼던데 거기 가볼래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "회사/NNG+건너편/NNG+에/JKB+새로/MAG+생겼/VV+EP+던데/EF+거기/NP+가/JKS+볼래/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 안돼 거기 친구가 개 맛없다고 함",
+            "norm_text": "안돼 거기 친구가 개 맛없다고 함",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+돼/VV+EF+거기/NP+친구/NNG+가/JKS+개맛/NNG+없/VA+다고/EC+함/VX+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 진짜? 키키 그럼 그냥 가던 곳 가자",
+            "norm_text": "아 진짜? 키키 그럼 그냥 가던 곳 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/XSV+ETN+그럼/MAJ+그냥/MAG+가/VV+던/ETM+곳/NNB+가/VV+자/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오키 할배국밥 고고 1층에서 만나",
+            "norm_text": "오키 할배국밥 고고 1층에서 만나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오키할배국밥고고/UNKNOWN+1/SN+층/NNG+에서/JKB+만나/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

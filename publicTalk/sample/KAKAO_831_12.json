@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 47442,
+    "name": "KAKAO_831_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171738078493/KAKAO_831_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171738078493/KAKAO_831_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38825,
+      "filename": "KAKAO_831_12.txt",
+      "title": "KAKAO_831_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 380,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 380,
+        "word_size": 125,
+        "text": "1 : 여보는 여행 장소 정하고 경로 다 정해서 가?\n2 : 응 친구들끼리 갈 때는 정하고 가지.\n1 : 여보가 좋아하는 편이야?\n2 : 아니 의견 다 들어보고 같이 정해야지.\n1 : 돈 걷어서 가는 거야?\n2 : 당연하지 다들 똑같이 모아야지.\n1 : 친구들 지역 다르면 어떡해?\n2 : 전화로 하든가 놀러 가는 장소에서 만나서 정해야지.\n1 : 그런 게 번거롭겠네\n1 : 이번엔 어디 다녀왔어?\n2 : 경주 갔다 왔어\n2 : 맛있는 것도 많이 먹고 왔다.\n1 : 경주에 한옥 집이 예쁘지\n2 : 응 경주는 몇 번을 가도 참 예뻐.\n1 : 그러게 가을에 가면 더 예쁘겠다\n2 : 응 다음에 **랑 ** 데리고 가자.\n1 : 그럼 가족 여행은 경주로 갈까?\n2 : 응 좋아 맛집도 알아보라고 해야겠다 **한테.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여보는 여행 장소 정하고 경로 다 정해서 가?",
+            "norm_text": "여보는 여행 장소 정하고 경로 다 정해서 가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여보/NNG+는/JX+여행/NNG+장소/NNG+정하/VV+고/EC+경로/NNG+다정/NNG+해서/XSV+EC+가/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 친구들끼리 갈 때는 정하고 가지.",
+            "norm_text": "응 친구들끼리 갈 때는 정하고 가지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+친구/NNG+들/XSN+끼리/XSN+갈/VV+ETM+때/NNG+는/JX+정하/VV+고/EC+가/VX+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 여보가 좋아하는 편이야?",
+            "norm_text": "여보가 좋아하는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여보/NNG+가/JKS+좋/VA+아/EC+하/VV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 의견 다 들어보고 같이 정해야지.",
+            "norm_text": "아니 의견 다 들어보고 같이 정해야지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+의견/NNG+다/MAG+들/VV+어/EC+보/VX+고/EC+같이/MAG+정/NNG+해야지/XSV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 돈 걷어서 가는 거야?",
+            "norm_text": "돈 걷어서 가는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "돈/NNG+걷/VV+어서/EC+가/VX+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 당연하지 다들 똑같이 모아야지.",
+            "norm_text": "당연하지 다들 똑같이 모아야지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지다/EC+VX+EC+들/XSN+똑같이/MAG+모아야지/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 친구들 지역 다르면 어떡해?",
+            "norm_text": "친구들 지역 다르면 어떡해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친구/NNG+들/XSN+지역/NNG+다르/VA+면/EC+어떡/XR+해/XSA+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 전화로 하든가 놀러 가는 장소에서 만나서 정해야지.",
+            "norm_text": "전화로 하든가 놀러 가는 장소에서 만나서 정해야지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전화/NNG+로/JKB+하/VV+든가/EC+놀러가/VV+는/ETM+장소/NNG+에서/JKB+만나/VV+EC+서정/NNG+해야지/XSV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그런 게 번거롭겠네",
+            "norm_text": "그런 게 번거롭겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+게/NNB+JKS+번거롭/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 이번엔 어디 다녀왔어?",
+            "norm_text": "이번엔 어디 다녀왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+엔/JKB+JX+어디/NP+다녀왔/VV+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 경주 갔다 왔어",
+            "norm_text": "경주 갔다 왔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "경주/NNP+갔다왔/VV+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맛있는 것도 많이 먹고 왔다.",
+            "norm_text": "맛있는 것도 많이 먹고 왔다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맛있/VA+는/ETM+것/NNB+도/JX+많이/MAG+먹/VV+고/EC+왔/VX+EP+다/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 경주에 한옥 집이 예쁘지",
+            "norm_text": "경주에 한옥 집이 예쁘지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "경주/NNP+에/JKB+한/MM+옥집/NNG+이/JKS+예쁘/VA+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 경주는 몇 번을 가도 참 예뻐.",
+            "norm_text": "응 경주는 몇 번을 가도 참 예뻐.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+경주/NNP+는/JX+몇/MM+번/NNBC+을/JKO+가/VV+EC+도/JX+참/MAG+예뻐/VA+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러게 가을에 가면 더 예쁘겠다",
+            "norm_text": "그러게 가을에 가면 더 예쁘겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+가을/NNG+에/JKB+가/VV+면/EC+더/MAG+예쁘/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 다음에 **랑 ** 데리고 가자.",
+            "norm_text": "응 다음에 **랑 ** 데리고 가자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+다음/NNG+에/JKB+*/SY+*/SY+랑/JC+*/SY+*/SY+데리/VV+고/EC+가/VX+자/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그럼 가족 여행은 경주로 갈까?",
+            "norm_text": "그럼 가족 여행은 경주로 갈까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+가족/NNG+여행/NNG+은/JX+경주/NNP+로/JKB+갈까/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 좋아 맛집도 알아보라고 해야겠다 **한테.",
+            "norm_text": "응 좋아 맛집도 알아보라고 해야겠다 **한테.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+좋/VA+아/EC+맛집/NNG+도/JX+알아보/VV+라고/EC+해야/VX+EC+VX+겠/EP+다/EC+*/SY+*/SY+한테/JKB"
+          }
+        ]
+      }
+    }
+  ]
+}

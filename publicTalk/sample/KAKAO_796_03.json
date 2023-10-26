@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 45367,
+    "name": "KAKAO_796_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143600045598/KAKAO_796_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143600045598/KAKAO_796_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37934,
+      "filename": "KAKAO_796_03.txt",
+      "title": "KAKAO_796_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 682,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 682,
+        "word_size": 220,
+        "text": "1 : 그래도 수도권에 딱 교통권 되게 좋은 곳에 내 집 마련하고 사는 그날만 생각하면서 열심히 살란다 나는\n2 : 그래도 천안은 교통 좋은 편 아니냐\n1 : 그렇다고들 하는데 나는 평생 천안을 벗어나 본 적이 없어서 크게 모르겠어...\n1 : 지하철도 잘 안 돼있고.\n2 : 키키 그건 또 그러네...\n2 : 나는 우리 할머니 집 엄청 시골이라 천안은 도시구나 했음\n1 : 할머니 댁이 어디 쯤에 있는데?\n2 : 일본 시골이야...\n2 : 교통비도 너무 비싸\n1 : 아 외할머니 댁? 일본도 막 엄청 시골인 곳도 있구만...\n1 : 난 다 이쁘게 잘 꾸며진 동네만 있는 줄\n2 : 웅, 동네는 예쁜데 시골임...\n2 : 버스 한 시간에 두 대 다니고\n1 : 엑 진짜? 그래도 더 좋은데...?\n1 : 지금 이사한 우리 본가 버스 하루에 두 대 다님\n2 : 키키 앜 키키 아 웃겨 좋은 거였네...\n2 : 근데 교통비 비싸서 시내까지 자전거 1시간 30분 타고 갔음\n1 : 아 진짜? 한화로 얼마나 하는데?\n1 : 난 일본 진짜 몰라 ㅠㅠ\n2 : 2500원 정도 돌았멘\n2 : 전철도 그 정도 해... 그냥 시내버스가\n1 : 아 레알...? 너무 비싸다...\n1 : 자전거가 많은 이유가 있었네\n2 : 그치 일본 도쿄는 자가용 잘 안 가지고 다닌대 주차 비용이 비싸서\n1 : 아 그냥 교통 수단이 뭔가 다 비싸게 움직이네\n2 : 그니까 자전거 최고야... 맨날 탐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 그래도 수도권에 딱 교통권 되게 좋은 곳에 내 집 마련하고 사는 그날만 생각하면서 열심히 살란다 나는",
+            "norm_text": "그래도 수도권에 딱 교통권 되게 좋은 곳에 내 집 마련하고 사는 그날만 생각하면서 열심히 살란다 나는",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+수도/NNG+권/XSN+에/JKB+딱/MAG+교통/NNG+권/XSN+되게/MAG+좋/VA+은/ETM+곳/NNG+에/JKB+내/NP+JKG+집/NNG+마련/NNG+하/XSV+고/EC+사/VV+는/ETM+그날/NNG+만/JX+생각/NNG+하/XSV+면서/EC+열심히/MAG+살/VV+란다/EC+나/VX+는/ETM"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그래도 천안은 교통 좋은 편 아니냐",
+            "norm_text": "그래도 천안은 교통 좋은 편 아니냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+천안/NNP+은/JX+교통/NNG+좋/VA+은/ETM+편/NNB+아니/VCN+냐/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그렇다고들 하는데 나는 평생 천안을 벗어나 본 적이 없어서 크게 모르겠어...",
+            "norm_text": "그렇다고들 하는데 나는 평생 천안을 벗어나 본 적이 없어서 크게 모르겠어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+다고/EC+들/XSN+하/VV+는데/EC+나/NP+는/JX+평생/NNG+천안/NNG+을/JKO+벗어나/VV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어서/EC+크/VA+게/EC+모르/VV+겠/EP+어/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 지하철도 잘 안 돼있고.",
+            "norm_text": "지하철도 잘 안 돼있고.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지하철/NNG+도/JX+잘/MAG+안/MAG+돼/VV+EC+있/VX+고/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 그건 또 그러네...",
+            "norm_text": "키키 그건 또 그러네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+또/MAG+그러/VV+네/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 우리 할머니 집 엄청 시골이라 천안은 도시구나 했음",
+            "norm_text": "나는 우리 할머니 집 엄청 시골이라 천안은 도시구나 했음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+우리/NP+할머니/NNG+집/NNG+엄청/MAG+시골/NNG+이/VCP+라/EC+천안/NNP+은/JX+도시/NNG+구나/NNG+했/XSV+EP+음/ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 할머니 댁이 어디 쯤에 있는데?",
+            "norm_text": "할머니 댁이 어디 쯤에 있는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "할머니/NNG+댁/NNG+이/JKS+어디/NP+쯤/XSN+에/JKB+있/VV+는데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 일본 시골이야...",
+            "norm_text": "일본 시골이야...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일본/NNP+시골/NNG+이/VCP+야/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 교통비도 너무 비싸",
+            "norm_text": "교통비도 너무 비싸",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "교통비/NNG+도/JX+너무/MAG+비싸/VA+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 외할머니 댁? 일본도 막 엄청 시골인 곳도 있구만...",
+            "norm_text": "아 외할머니 댁? 일본도 막 엄청 시골인 곳도 있구만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+외할머니/NNG+댁/NNG+?/SY+일본/NNP+도막/NNG+엄청/MAG+시골/NNG+인/VCP+ETM+곳/NNG+도/JX+있/VA+구만/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 난 다 이쁘게 잘 꾸며진 동네만 있는 줄",
+            "norm_text": "난 다 이쁘게 잘 꾸며진 동네만 있는 줄",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+다/MAG+이쁘/VA+게/EC+잘/MAG+꾸며진/VV+EC+VX+ETM+동네/NNG+만/JX+있/VX+는/ETM+줄/NNB"
+          },
+          {
+            "id": 12,
+            "text": "2 : 웅, 동네는 예쁜데 시골임...",
+            "norm_text": "웅, 동네는 예쁜데 시골임...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+,/SC+동네/NNG+는/JX+예쁜데/VA+EC+시골/NNG+임/VCP+ETN+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 버스 한 시간에 두 대 다니고",
+            "norm_text": "버스 한 시간에 두 대 다니고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스/NNG+한/XSA+ETM+시간/NNG+에/JKB+두/MM+대/NNBC+다니/VV+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 엑 진짜? 그래도 더 좋은데...?",
+            "norm_text": "엑 진짜? 그래도 더 좋은데...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엑/IC+진짜/MAG+그래도/MAJ+더/MAG+좋/VA+은데/EF+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 지금 이사한 우리 본가 버스 하루에 두 대 다님",
+            "norm_text": "지금 이사한 우리 본가 버스 하루에 두 대 다님",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+이사/NNG+한/XSA+ETM+우리/NP+본/VV+ETM+가버스/NNP+하루/NNG+에/JKB+두/MM+대/NNBC+다님/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 앜 키키 아 웃겨 좋은 거였네...",
+            "norm_text": "키키 앜 키키 아 웃겨 좋은 거였네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+앜키/UNKNOWN+키/VV+아/EC+웃겨/VV+EC+좋/VA+은/ETM+거/NNB+였/VCP+EP+네/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 근데 교통비 비싸서 시내까지 자전거 1시간 30분 타고 갔음",
+            "norm_text": "근데 교통비 비싸서 시내까지 자전거 1시간 30분 타고 갔음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+교통비/NNG+비싸/VA+서/EC+시내/NNG+까지/JX+자전거/NNG+1/SN+시간/NNG+30/SN+분/NNBC+타/VV+고/EC+갔/VV+EP+음/ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 진짜? 한화로 얼마나 하는데?",
+            "norm_text": "아 진짜? 한화로 얼마나 하는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+한화/NNG+로/JKB+얼마나/MAG+하/VV+는데/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 난 일본 진짜 몰라 ㅠㅠ",
+            "norm_text": "난 일본 진짜 몰라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+일본/NNP+진짜/MAG+몰라/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 2500원 정도 돌았멘",
+            "norm_text": "2500원 정도 돌았멘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "2500/SN+원/NNBC+정도/NNG+돌/VV+았/EP+멘/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 전철도 그 정도 해... 그냥 시내버스가",
+            "norm_text": "전철도 그 정도 해... 그냥 시내버스가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전철/NNG+도/JX+그/MM+정도/NNG+해/XSV+EF+./SY+그냥/MAG+시내버스/NNG+가/JKS"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아 레알...? 너무 비싸다...",
+            "norm_text": "아 레알...? 너무 비싸다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+레알/MAG+./SY+./SY+너무/MAG+비싸/VA+다/EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 자전거가 많은 이유가 있었네",
+            "norm_text": "자전거가 많은 이유가 있었네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자전거/NNG+가/JKS+많/VA+은/ETM+이유/NNG+가/JKS+있/VA+었/EP+네/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그치 일본 도쿄는 자가용 잘 안 가지고 다닌대 주차 비용이 비싸서",
+            "norm_text": "그치 일본 도쿄는 자가용 잘 안 가지고 다닌대 주차 비용이 비싸서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+일본/NNP+도쿄/NNP+는/JX+자가용/NNG+잘/MAG+안/MAG+가지/VV+고/EC+다닌대/VV+EF+주차/NNG+비용/NNG+이/JKS+비싸/VA+서/EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 아 그냥 교통 수단이 뭔가 다 비싸게 움직이네",
+            "norm_text": "아 그냥 교통 수단이 뭔가 다 비싸게 움직이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그냥/MAG+교통수단/NNG+이/JKS+뭔가/NP+VCP+EC+다/MAG+비싸/VA+게/EC+움직이/VV+네/EC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 그니까 자전거 최고야... 맨날 탐",
+            "norm_text": "그니까 자전거 최고야... 맨날 탐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+자전거/NNG+최고/NNG+야/VCP+EF+./SY+맨날/MAG+탐/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

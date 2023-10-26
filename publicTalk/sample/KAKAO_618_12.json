@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 33076,
+    "name": "KAKAO_618_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109241205280539107/KAKAO_618_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109241205280539107/KAKAO_618_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32165,
+      "filename": "KAKAO_618_12.txt",
+      "title": "KAKAO_618_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 495,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 495,
+        "word_size": 164,
+        "text": "1 : 돈이 없어서 여행은 어떻게 가\n2 : 그래서 요새 아무 데도 못 가고 있어요 ㅠㅠ\n1 : 어릴 때 여행 가야지 늙어서는 몸 아파서 못 가\n2 : 그것도 맞아요 ㅠㅠ\n2 : 근데 시간도 없고 돈도 없고 ㅠㅠ\n1 : 어휴 건강이라도 챙기면서 돈을 벌어\n2 : 그래야죠 하하 근데 건강이 안 좋은 것 같기도 하고... 키키\n1 : 안 돼 그러면 국내 여행도 못 가고 예쁜 곳이 얼마나 많은데\n2 : 아부지의 추천 여행지는 어디인가요?\n1 : 아저씨 고향 문경 아주 좋아요\n2 : 오 문경이요? 한 번도 못 갔는데 뭐가 좋죠?\n1 : 뭐야 문경을 안 와 봤단 말이야?\n1 : 이거 또 가이드를 해줘야겠는데?\n2 : 키키 좋은데요? 문경에는 뭐가 있죠?\n1 : 문경에는 왕건 세트장이 있고 요새는 동굴도 있고 레일바이크 그런 것도 있어\n2 : 오 왕건 세트장이라니 키키\n2 : 아부지 맘에 쏙 들겠네요\n1 : 그럼 아주 쏙 들지 아저씨가 왕건 팬이거든\n2 : 키키 그럴 것 같아요 키키\n2 : 아니 세트장에 뭐가 있어요?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 돈이 없어서 여행은 어떻게 가",
+            "norm_text": "돈이 없어서 여행은 어떻게 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "돈/NNG+이/JKS+없/VA+어서/EC+여행/NNG+은/JX+어떻/VA+게/EC+가/VX"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그래서 요새 아무 데도 못 가고 있어요 ㅠㅠ",
+            "norm_text": "그래서 요새 아무 데도 못 가고 있어요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+요새/MAG+아무데/NP+도/JX+못/MAG+가/VV+고/EC+있/VX+어요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어릴 때 여행 가야지 늙어서는 몸 아파서 못 가",
+            "norm_text": "어릴 때 여행 가야지 늙어서는 몸 아파서 못 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+여행/NNG+가야지/NNG+늙/VV+어서/EC+는/JX+몸/NNG+아파서/VA+EC+못가/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그것도 맞아요 ㅠㅠ",
+            "norm_text": "그것도 맞아요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+도/JX+맞/VV+아요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 근데 시간도 없고 돈도 없고 ㅠㅠ",
+            "norm_text": "근데 시간도 없고 돈도 없고 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+시간/NNG+도/JX+없/VA+고/EC+돈/NNG+도/JX+없/VA+고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 어휴 건강이라도 챙기면서 돈을 벌어",
+            "norm_text": "어휴 건강이라도 챙기면서 돈을 벌어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "어휴/IC+건강/NNG+이/VCP+라도/EC+챙기/VV+면서/EC+돈/NNG+을/JKO+벌/VV+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그래야죠 하하 근데 건강이 안 좋은 것 같기도 하고... 키키",
+            "norm_text": "그래야죠 하하 근데 건강이 안 좋은 것 같기도 하고... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래야/VA+EC+VX+죠/EF+하하/IC+근데/MAJ+건강/NNG+이/JKS+안/MAG+좋/VA+은/ETM+것/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 안 돼 그러면 국내 여행도 못 가고 예쁜 곳이 얼마나 많은데",
+            "norm_text": "안 돼 그러면 국내 여행도 못 가고 예쁜 곳이 얼마나 많은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+돼/VV+EF+그러면/MAJ+국내/NNG+여행/NNG+도/JX+못/MAG+가/VV+고/EC+예쁜/VA+ETM+곳/NNG+이/JKS+얼마나/MAG+많/VA+은데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아부지의 추천 여행지는 어디인가요?",
+            "norm_text": "아부지의 추천 여행지는 어디인가요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아부지/NNG+의/JKG+추천/NNG+여행지/NNG+는/JX+어디/NP+인가요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아저씨 고향 문경 아주 좋아요",
+            "norm_text": "아저씨 고향 문경 아주 좋아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아저씨/NNG+고향/NNG+문경/NNG+아주/MAG+좋/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 오 문경이요? 한 번도 못 갔는데 뭐가 좋죠?",
+            "norm_text": "오 문경이요? 한 번도 못 갔는데 뭐가 좋죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오문경/NNP+이/VCP+요/EF+한/MM+번/NNBC+도/JX+못/MAG+갔/VV+EP+는데/EC+뭐/NP+가/JKS+좋/VA+죠/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 뭐야 문경을 안 와 봤단 말이야?",
+            "norm_text": "뭐야 문경을 안 와 봤단 말이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+야/VCP+EF+문경/NNG+을/JKO+안/MAG+와/VV+EC+봤/VX+EP+단/ETM+말/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 이거 또 가이드를 해줘야겠는데?",
+            "norm_text": "이거 또 가이드를 해줘야겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이거/NP+또/MAG+가이드/NNG+를/JKO+해줘야/VV+EC+VX+EC+VX+겠/EP+는데/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 좋은데요? 문경에는 뭐가 있죠?",
+            "norm_text": "키키 좋은데요? 문경에는 뭐가 있죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+은데요/EF+문경/NNP+에/JKB+는/JX+뭐/NP+가/JKS+있/VA+죠/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 문경에는 왕건 세트장이 있고 요새는 동굴도 있고 레일바이크 그런 것도 있어",
+            "norm_text": "문경에는 왕건 세트장이 있고 요새는 동굴도 있고 레일바이크 그런 것도 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "문경/NNP+에/JKB+는/JX+왕건/NNP+세트/NNG+장/NNG+이/JKS+있/VV+고/EC+요새/NNG+는/JX+동굴/NNG+도/JX+있/VA+고/EC+레일바이크/NNP+그런/MM+것/NNB+도/JX+있/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오 왕건 세트장이라니 키키",
+            "norm_text": "오 왕건 세트장이라니 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+왕건/NNP+세트/NNP+장/NNP+이라니/NNP+키키/NNP"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아부지 맘에 쏙 들겠네요",
+            "norm_text": "아부지 맘에 쏙 들겠네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아부지/NNG+맘/NNG+에/JKB+쏙/MAG+들/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그럼 아주 쏙 들지 아저씨가 왕건 팬이거든",
+            "norm_text": "그럼 아주 쏙 들지 아저씨가 왕건 팬이거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+아주/MAG+쏙/MAG+들/VV+지/EC+아저씨/NNG+가/JKS+왕건/NNP+팬/NNG+이/JKS+거든/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 그럴 것 같아요 키키",
+            "norm_text": "키키 그럴 것 같아요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럴/VV+ETM+것/NNB+같/VA+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아니 세트장에 뭐가 있어요?",
+            "norm_text": "아니 세트장에 뭐가 있어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+세트/NNG+장/NNG+에/JKB+뭐/NP+가/JKS+있/VA+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

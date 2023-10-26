@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 22179,
+    "name": "KAKAO_599_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113318046493/KAKAO_599_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113318046493/KAKAO_599_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30387,
+      "filename": "KAKAO_599_12.txt",
+      "title": "KAKAO_599_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 542,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 542,
+        "word_size": 175,
+        "text": "1 : 일본여행 가고 싶다 키키 갑자기 키키\n2 : 나는 올해 초부터 계~속 일본 가고 싶었어\n1 : 일본은 디즈니랜드랑 USJ같은 테마파크 너무 좋아\n2 : 우리나라랑 사이가 안 좋아 그렇지 일본 만한 여행지가 없는데 너무 아쉬워\n1 : 맞지 치안 좋고 먹을 거 많고 가깝고 짱이야\n2 : 맞어 제주도는 너무 많이 갔고 제주도 가느니 그 비용으로 일본 가는 게 나아\n1 : 제주도도 조금 지겹지 키키\n1 :  슈젠지라는 곳 알아?\n2 : 아니?\n2 : 유명한 데야?\n2 : 나는 진짜 남들 다 알만한 데밖에 못 가봤어\n1 : 시즈오카에 있는 건데 나혼자 산다에 나와서 유명해진 스팟이야\n2 : 아 역시 티비를 타면 유명해지는구나\n2 : 거긴 뭐가 좋아?\n1 : 마을 전체가 온천이야 키키\n2 : 우와 유후인처럼?\n2 : 료칸 많고 그런 데야?\n1 : 응 키키 료칸도 싼 편이래 유후인 보다는 키키\n1 : 후지산이랑도 가깝고 명물도 많대 키키\n2 : 으아 너무 가고 싶다\n2 : 이놈의 코로나 언제 끝나\n1 : 와사비 아이스크림이 유명하다는데 시도해보고 싶당\n2 : 맛있겠다\n2 : 와사비 과자도 엄청 맛있잖아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 일본여행 가고 싶다 키키 갑자기 키키",
+            "norm_text": "일본여행 가고 싶다 키키 갑자기 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일본/NNP+여행/NNG+가/VV+고/EC+싶/VX+다키키/NNP+갑자기/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 올해 초부터 계~속 일본 가고 싶었어",
+            "norm_text": "나는 올해 초부터 계~속 일본 가고 싶었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+올해/NNG+초/NNB+부터/JX+계/NNG+~/SY+속/NNG+일본/NNP+가/VV+고/EC+싶/VX+었/EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 일본은 디즈니랜드랑 USJ같은 테마파크 너무 좋아",
+            "norm_text": "일본은 디즈니랜드랑 USJ같은 테마파크 너무 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일본/NNP+은/JX+디즈니/NNP+랜/VCP+ETM+드랑/NNG+USJ/SL+같/VA+은/ETM+테마파크/NNG+너무/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우리나라랑 사이가 안 좋아 그렇지 일본 만한 여행지가 없는데 너무 아쉬워",
+            "norm_text": "우리나라랑 사이가 안 좋아 그렇지 일본 만한 여행지가 없는데 너무 아쉬워",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+랑/JKB+사이/NNG+가/JKS+안/MAG+좋/VA+아/EC+그렇/VA+지/EC+일본/NNP+만/JX+한/MM+여행지/NNG+가/JKS+없/VA+는데/EC+너무/MAG+아쉬워/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞지 치안 좋고 먹을 거 많고 가깝고 짱이야",
+            "norm_text": "맞지 치안 좋고 먹을 거 많고 가깝고 짱이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/XPN+지치/NNG+안/MAG+좋/VA+고/EC+먹/VV+을/ETM+거/NNB+많/VA+고/EC+가깝/VA+고/EC+짱/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞어 제주도는 너무 많이 갔고 제주도 가느니 그 비용으로 일본 가는 게 나아",
+            "norm_text": "맞어 제주도는 너무 많이 갔고 제주도 가느니 그 비용으로 일본 가는 게 나아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+제주도/NNP+는/JX+너무/MAG+많이/MAG+갔/VV+EP+고/EC+제주/NNP+도/JX+가/VV+느니/EC+그/MM+비용/NNG+으로/JKB+일본/NNP+가/VV+는/ETM+게/NNB+JKS+나/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 제주도도 조금 지겹지 키키",
+            "norm_text": "제주도도 조금 지겹지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제주도/NNP+도/JX+조금/MAG+지겹/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 :  슈젠지라는 곳 알아?",
+            "norm_text": "슈젠지라는 곳 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "슈/NNP+젠지라/NNP+는/JX+곳/NNG+알/VV+아/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아니?",
+            "norm_text": "아니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 유명한 데야?",
+            "norm_text": "유명한 데야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "유명/NNG+한/XSA+ETM+데/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 진짜 남들 다 알만한 데밖에 못 가봤어",
+            "norm_text": "나는 진짜 남들 다 알만한 데밖에 못 가봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+진짜/MAG+남들/VV+다/EC+알/VV+ETM+만/NNB+한/XSA+ETM+데/NNB+밖에/JX+못/MAG+가/VV+EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 시즈오카에 있는 건데 나혼자 산다에 나와서 유명해진 스팟이야",
+            "norm_text": "시즈오카에 있는 건데 나혼자 산다에 나와서 유명해진 스팟이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시즈오카/NNP+에/JKB+있/VV+는/ETM+건데/NNB+VCP+EC+나/NP+혼자/NNG+산다/NNG+에/JKB+나와서/VV+EC+유명/XR+해진/XSA+EC+VX+ETM+스팟/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 역시 티비를 타면 유명해지는구나",
+            "norm_text": "아 역시 티비를 타면 유명해지는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+역시/MAJ+티비/NNG+를/JKO+타/VV+면/EC+유명/NNG+해/XSV+EC+지/VX+는구나/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 거긴 뭐가 좋아?",
+            "norm_text": "거긴 뭐가 좋아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거긴/NP+JX+뭐/NP+가/JKS+좋/VA+아/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 마을 전체가 온천이야 키키",
+            "norm_text": "마을 전체가 온천이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마을/NNG+전체/NNG+가/JKS+온천/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 우와 유후인처럼?",
+            "norm_text": "우와 유후인처럼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+유후인/NNP+처럼/JKB"
+          },
+          {
+            "id": 17,
+            "text": "2 : 료칸 많고 그런 데야?",
+            "norm_text": "료칸 많고 그런 데야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "료칸/NNP+많/VA+고/EC+그런/MM+데/NNB+야/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 응 키키 료칸도 싼 편이래 유후인 보다는 키키",
+            "norm_text": "응 키키 료칸도 싼 편이래 유후인 보다는 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키키/NNP+료칸/NNP+도/JX+싼/VA+ETM+편/NNB+이/VCP+래유/EF+후인/NNG+보다/JKB+는/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 후지산이랑도 가깝고 명물도 많대 키키",
+            "norm_text": "후지산이랑도 가깝고 명물도 많대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "후지/NNP+산/XSN+이랑/JKB+도/JX+가깝/VA+고/EC+명물/NNG+도/JX+많/VA+대/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 으아 너무 가고 싶다",
+            "norm_text": "으아 너무 가고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으아/IC+너무/MAG+가/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 이놈의 코로나 언제 끝나",
+            "norm_text": "이놈의 코로나 언제 끝나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이놈/NP+의/JKG+코로나/NNG+언제/MAG+끝나/VV+EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 와사비 아이스크림이 유명하다는데 시도해보고 싶당",
+            "norm_text": "와사비 아이스크림이 유명하다는데 시도해보고 싶당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와사비/NNG+아이스크림/NNG+이/JKS+유명/NNG+하/XSV+다는데/EC+시도/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+당/EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 맛있겠다",
+            "norm_text": "맛있겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맛있/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 와사비 과자도 엄청 맛있잖아",
+            "norm_text": "와사비 과자도 엄청 맛있잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와사비/NNG+과자/NNG+도/JX+엄청/MAG+맛있/VA+잖아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 33484,
+    "name": "KAKAO_622_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113035024297/KAKAO_622_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113035024297/KAKAO_622_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31980,
+      "filename": "KAKAO_622_08.txt",
+      "title": "KAKAO_622_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 462,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 462,
+        "word_size": 145,
+        "text": "1 : 언니는 남자친구랑 결혼하고 싶어?\n2 : 돈만 있으면 하고 싶지.\n1 : 언니 장거리 어때?\n2 : 장거리 연애 진짜 많이 해봤는데 역시나 힘들군.\n1 : 언니는 장거리 연애 많이 해봤지 나는 지금 처음이야.\n2 : 뭔가 강원도나 스페인에 있을 때는 아예 못 만나는 상황이니까 그러려니 했는데.\n1 : 지금은 뭔가 만나려면 만날 수 있으니까 더 힘든가?\n2 : 맞아, 딱 그거야.\n1 : 그런데 언니도 스케줄 근무라.\n2 : 웅... 남자친구는 주말에 쉬는데 나는 주말에 거의 일하니까 맞는 시간이  없긴 해.\n1 : 항상 돈이 있으면 시간이 없고 시간이 있으면 돈이 없어.\n2 : 인생이 이런 걸까, 넘 힘들군...\n1 : 언제쯤 이런 생각 안 하고 살 수 있을까?\n2 : ㅠㅠ결혼하면 그래도 매일 볼 수라도 있으니까 너무 좋을  것 같아.\n1 : 진짜 너무 보고 싶겠다, 언니두.\n2 : 항상 보고 싶어, 서로 제일 많이 하는 말인 것 같아.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니는 남자친구랑 결혼하고 싶어?",
+            "norm_text": "언니는 남자친구랑 결혼하고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+남자/NNG+친구/NNG+랑/JKB+결혼/NNG+하/XSV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 돈만 있으면 하고 싶지.",
+            "norm_text": "돈만 있으면 하고 싶지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+만/JX+있/VX+으면/EC+하/VV+고/EC+싶/VX+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 언니 장거리 어때?",
+            "norm_text": "언니 장거리 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+장거리/NNG+어때/VA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 장거리 연애 진짜 많이 해봤는데 역시나 힘들군.",
+            "norm_text": "장거리 연애 진짜 많이 해봤는데 역시나 힘들군.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장거리/NNG+연애/NNG+진짜/MAG+많이/MAG+해/VV+EC+봤/VX+EP+는데/EC+역시/MAJ+나/NP+힘들/VA+군/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 언니는 장거리 연애 많이 해봤지 나는 지금 처음이야.",
+            "norm_text": "언니는 장거리 연애 많이 해봤지 나는 지금 처음이야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "언니/NNG+는/JX+장거리/NNG+연애/NNG+많이/MAG+해/VV+EC+봤/VX+EP+지/EF+나/NP+는/JX+지금/MAG+처음/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 뭔가 강원도나 스페인에 있을 때는 아예 못 만나는 상황이니까 그러려니 했는데.",
+            "norm_text": "뭔가 강원도나 스페인에 있을 때는 아예 못 만나는 상황이니까 그러려니 했는데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭔가/NP+VCP+EC+강원도/NNP+나/JC+스페인/NNP+에/JKB+있/VV+을/ETM+때/NNG+는/JX+아예/MAG+못/MAG+만나/VV+는/ETM+상황/NNG+이/VCP+니까/EC+그러/VV+려니/EC+했/VX+EP+는데/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 지금은 뭔가 만나려면 만날 수 있으니까 더 힘든가?",
+            "norm_text": "지금은 뭔가 만나려면 만날 수 있으니까 더 힘든가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+은/JX+뭔가/NP+VCP+EC+만나/VV+려면/EC+만날/VV+ETM+수/NNB+있/VV+으니까/EC+더/MAG+힘든가/VA+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아, 딱 그거야.",
+            "norm_text": "맞아, 딱 그거야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+,/SC+딱/MAG+그거/NP+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그런데 언니도 스케줄 근무라.",
+            "norm_text": "그런데 언니도 스케줄 근무라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런데/MAJ+언니/NNG+도/JX+스케줄/NNG+근무/NNG+라/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 웅... 남자친구는 주말에 쉬는데 나는 주말에 거의 일하니까 맞는 시간이  없긴 해.",
+            "norm_text": "웅... 남자친구는 주말에 쉬는데 나는 주말에 거의 일하니까 맞는 시간이  없긴 해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+./SY+남자/NNG+친구/NNG+는/JX+주말/NNG+에/JKB+쉬/VV+는데/EC+나/NP+는/JX+주말/NNG+에/JKB+거의/MAG+일/NNG+하/XSV+니까/EC+맞/VV+는/ETM+시간/NNG+이/JKS+없/VA+긴/ETN+JX+해/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 항상 돈이 있으면 시간이 없고 시간이 있으면 돈이 없어.",
+            "norm_text": "항상 돈이 있으면 시간이 없고 시간이 있으면 돈이 없어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "항상/MAG+돈/NNG+이/JKS+있/VV+으면/EC+시간/NNG+이/JKS+없/VA+고/EC+시간/NNG+이/JKS+있/VV+으면/EC+돈/NNG+이/JKS+없/VA+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 인생이 이런 걸까, 넘 힘들군...",
+            "norm_text": "인생이 이런 걸까, 넘 힘들군...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인생/NNG+이/JKS+이런/MM+걸까/NNB+VCP+EF+,/SC+넘/MAG+힘들/VA+군/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 언제쯤 이런 생각 안 하고 살 수 있을까?",
+            "norm_text": "언제쯤 이런 생각 안 하고 살 수 있을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언제/NP+쯤/XSN+이런/MM+생각/NNG+안/MAG+하/VV+고/EC+살/VV+ETM+수/NNB+있/VV+을까/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : ㅠㅠ결혼하면 그래도 매일 볼 수라도 있으니까 너무 좋을  것 같아.",
+            "norm_text": "ㅠㅠ결혼하면 그래도 매일 볼 수라도 있으니까 너무 좋을  것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+결혼/NNG+하/XSV+면/EC+그래도/VV+EC+매일/MAG+볼/VV+ETM+수/NNB+라도/JX+있/VA+으니까/EC+너무/MAG+좋/VA+을/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 진짜 너무 보고 싶겠다, 언니두.",
+            "norm_text": "진짜 너무 보고 싶겠다, 언니두.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+너무/MAG+보/VV+고/EC+싶/VX+겠/EP+다/EF+,/SC+언니/NNG+두/JX"
+          },
+          {
+            "id": 16,
+            "text": "2 : 항상 보고 싶어, 서로 제일 많이 하는 말인 것 같아.",
+            "norm_text": "항상 보고 싶어, 서로 제일 많이 하는 말인 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "항상/MAG+보/VV+고/EC+싶/VX+어/EF+,/SC+서로/MAG+제일/MAG+많이/MAG+하/VV+는/ETM+말/NNG+인/VCP+ETM+것/NNB+같/VA+아/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

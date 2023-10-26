@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 71326,
+    "name": "KAKAO_820_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172119040128/KAKAO_820_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172119040128/KAKAO_820_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39045,
+      "filename": "KAKAO_820_12.txt",
+      "title": "KAKAO_820_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 458,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 458,
+        "word_size": 144,
+        "text": "1 : 나 이번에 친구랑 여행 가려 하는데 추천하는 여행지 있어?\n2 : 나 얼마 전에 군산 다녀왔는데 좋더라구~\n1 : 군산? 군산에는 뭐가 유명해?\n2 : 선유도라는 섬이 있는데 되게 예뻐!\n1 : 아 거기가 군산이야?\n1 : 들어본 거 같아 선유도!\n2 : 선유도 유명하지~ 암튼 나는 군산 추천!\n1 : 언니도 그럼 선유도 갔다 온 거야?\n2 : 응응 나도 선유도 갔다 왔었지~\n1 : 군산 가서 그럼 선유도 갔다가 뭐 먹고 왔어?\n2 : 거기 중국집 유명한 데가 있어서 물짜장을 먹고 왔어\n1 : 우와 물짜장 짜장면에 국물이 있는 거야?\n2 : 아니야! 전혀 다르게 생겼어!\n2 : 음... 비슷한 느낌에 음식이 있었는데\n1 : 아 그래? 근데 왜 물짜장이지... 물을 한 컵 같이 주나?\n2 : 약간 유산슬 같은 느낌이야! 짜장이랑 색도 전혀 다르고\n1 : 오~ 이번 여행은 선유도로 확정이다!\n2 : 선유도 말고도 군산 다른 곳도 가봐~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 이번에 친구랑 여행 가려 하는데 추천하는 여행지 있어?",
+            "norm_text": "나 이번에 친구랑 여행 가려 하는데 추천하는 여행지 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+이번/NNG+에/JKB+친구/NNG+랑/JKB+여행/NNG+가려/NNG+하/XSV+는/ETM+데/NNB+추천/NNG+하/XSV+는/ETM+여행지/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 얼마 전에 군산 다녀왔는데 좋더라구~",
+            "norm_text": "나 얼마 전에 군산 다녀왔는데 좋더라구~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+얼마/NNG+전/NNG+에/JKB+군산/NNG+다녀왔/VV+EP+는데/EC+좋/VA+더라구/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 군산? 군산에는 뭐가 유명해?",
+            "norm_text": "군산? 군산에는 뭐가 유명해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "군산/NNP+?/SY+군산/NNP+에/JKB+는/JX+뭐/NP+가/JKS+유명/NNG+해/XSV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 선유도라는 섬이 있는데 되게 예뻐!",
+            "norm_text": "선유도라는 섬이 있는데 되게 예뻐!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "선유도/NNG+라는/VCP+ETM+섬/NNG+이/JKS+있/VV+는데/EC+되게/MAG+예뻐/VA+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 거기가 군산이야?",
+            "norm_text": "아 거기가 군산이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+거기/NP+가/JKS+군산/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 들어본 거 같아 선유도!",
+            "norm_text": "들어본 거 같아 선유도!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "들/VV+어/EC+본/VX+ETM+거/NNB+같/VA+아/EC+선유도/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 선유도 유명하지~ 암튼 나는 군산 추천!",
+            "norm_text": "선유도 유명하지~ 암튼 나는 군산 추천!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "선유/NNG+도/JX+유명/NNG+하/XSV+지/EC+~/SY+암튼/MAJ+나/NP+는/JX+군산/NNP+추천/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 언니도 그럼 선유도 갔다 온 거야?",
+            "norm_text": "언니도 그럼 선유도 갔다 온 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+도/JX+그럼/MAJ+선유/NNG+도/JX+갔다온/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응응 나도 선유도 갔다 왔었지~",
+            "norm_text": "응응 나도 선유도 갔다 왔었지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+나/NP+도/JX+선유/NNG+도/JX+갔다왔었/VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 군산 가서 그럼 선유도 갔다가 뭐 먹고 왔어?",
+            "norm_text": "군산 가서 그럼 선유도 갔다가 뭐 먹고 왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "군산/NNG+가/VV+서/EC+그럼/MAJ+선유/NNG+도/JX+갔/VV+EP+다가/EC+뭐/IC+먹/VV+고/EC+왔/VX+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 거기 중국집 유명한 데가 있어서 물짜장을 먹고 왔어",
+            "norm_text": "거기 중국집 유명한 데가 있어서 물짜장을 먹고 왔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+중국집/NNG+유명/NNG+한/XSA+ETM+데/NNB+가/JKS+있/VA+어서/EC+물/NNG+짜/VV+EC+장/NNG+을/JKO+먹/VV+고/EC+왔/VX+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 우와 물짜장 짜장면에 국물이 있는 거야?",
+            "norm_text": "우와 물짜장 짜장면에 국물이 있는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+물/NNG+짜장/MAG+짜장면/NNG+에/JKB+국물/NNG+이/JKS+있/VA+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니야! 전혀 다르게 생겼어!",
+            "norm_text": "아니야! 전혀 다르게 생겼어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+전혀/MAG+다르/VA+게/EC+생겼/VV+EP+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 음... 비슷한 느낌에 음식이 있었는데",
+            "norm_text": "음... 비슷한 느낌에 음식이 있었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+비슷/XR+한/XSA+ETM+느낌/NNG+에/JKB+음식/NNG+이/JKS+있/VA+었/EP+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 그래? 근데 왜 물짜장이지... 물을 한 컵 같이 주나?",
+            "norm_text": "아 그래? 근데 왜 물짜장이지... 물을 한 컵 같이 주나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+근데/MAJ+왜/MAG+물/NNG+짜장/MAG+이/VCP+지/EF+./SY+물/NNG+을/JKO+한/VV+ETM+컵/NNG+같이/JKB+주/VV+나/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 약간 유산슬 같은 느낌이야! 짜장이랑 색도 전혀 다르고",
+            "norm_text": "약간 유산슬 같은 느낌이야! 짜장이랑 색도 전혀 다르고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "약간/MAG+유산/NNG+슬/VV+ETM+같/VA+은/ETM+느낌/NNG+이/VCP+야/EF+짜장/MAG+이/XSN+랑/JKB+색/NNG+도/JX+전혀/MAG+다르/VA+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 오~ 이번 여행은 선유도로 확정이다!",
+            "norm_text": "오~ 이번 여행은 선유도로 확정이다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+이번/NNG+여행/NNG+은/JX+선유도/NNG+로/JKB+확정/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 선유도 말고도 군산 다른 곳도 가봐~",
+            "norm_text": "선유도 말고도 군산 다른 곳도 가봐~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "선유도말고도군산다른곳도가봐/UNKNOWN+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

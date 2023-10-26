@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 44445,
+    "name": "KAKAO_776_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142105082888/KAKAO_776_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142105082888/KAKAO_776_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37833,
+      "filename": "KAKAO_776_03.txt",
+      "title": "KAKAO_776_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 347,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 347,
+        "word_size": 120,
+        "text": "1 : 엄마 집이야?\n2 : 집에 있는데 오늘 일찍 와~\n1 : 왜? 무슨 일 있어?\n2 : 엄마가 부탁할 일이 있어서...\n1 : 뭔데? 지금 말해죠!\n1 : 나 오늘 좀 늦어서\n2 : 엄마 회사에서 출장 가는데 길을 잘 모르겠네\n1 : 아 그래? 내가 찾아줄게\n2 : 충북 쪽인 것 같은데 엄마 친구랑 같이 갈 거거든\n1 : 주소 문자로 보내줘 봐\n2 : 문자 받았니? 어떻게 가야 돼?\n1 : 지하철 타고 내려서 갈아타야 되네! 버스로\n2 : 아~ 그래? 그냥 타면 돼?\n1 : 그게 버스가 배차 간격이 좀 기네 ㅠㅠ\n2 : 그러면 어떡해? ㅠㅠ\n1 : 좀 돌아가긴 하는데 지하철로 좀 돌아서 가야 할 것 같아\n2 : 그래 알았어 얼른 들어와!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 집이야?",
+            "norm_text": "엄마 집이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+집/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 집에 있는데 오늘 일찍 와~",
+            "norm_text": "집에 있는데 오늘 일찍 와~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "집/NNG+에/JKB+있/VV+는데/EC+오늘/MAG+일찍/MAG+와/VV+EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 왜? 무슨 일 있어?",
+            "norm_text": "왜? 무슨 일 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+무슨/MM+일/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 엄마가 부탁할 일이 있어서...",
+            "norm_text": "엄마가 부탁할 일이 있어서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+가/JKS+부탁/NNG+할/XSV+ETM+일/NNG+이/JKS+있/VV+어서/EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭔데? 지금 말해죠!",
+            "norm_text": "뭔데? 지금 말해죠!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭔데/NP+VCP+EF+지금/MAG+말해/NNG+죠/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나 오늘 좀 늦어서",
+            "norm_text": "나 오늘 좀 늦어서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+오늘/MAG+좀/MAG+늦/VA+어서/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 엄마 회사에서 출장 가는데 길을 잘 모르겠네",
+            "norm_text": "엄마 회사에서 출장 가는데 길을 잘 모르겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+회사/NNG+에서/JKB+출장/NNG+가/VV+는데/EC+길/NNG+을/JKO+잘/MAG+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 그래? 내가 찾아줄게",
+            "norm_text": "아 그래? 내가 찾아줄게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+내/NP+가/JKS+찾/VV+아/EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 9,
+            "text": "2 : 충북 쪽인 것 같은데 엄마 친구랑 같이 갈 거거든",
+            "norm_text": "충북 쪽인 것 같은데 엄마 친구랑 같이 갈 거거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "충북/NNP+쪽/NNB+인/VCP+ETM+것/NNB+같/VA+은데/EC+엄마/NNG+친구/NNG+랑/JKB+같이/MAG+갈/VV+ETM+거/NNB+거든/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 주소 문자로 보내줘 봐",
+            "norm_text": "주소 문자로 보내줘 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "주소/NNG+문자/NNG+로/JKB+보내/VV+줘/EC+VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 문자 받았니? 어떻게 가야 돼?",
+            "norm_text": "문자 받았니? 어떻게 가야 돼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "문자/NNG+받/VV+았/EP+니/EF+어떻/VA+게/EC+가/VX+야/EC+돼/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 지하철 타고 내려서 갈아타야 되네! 버스로",
+            "norm_text": "지하철 타고 내려서 갈아타야 되네! 버스로",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지하철/NNG+타/VV+고/EC+내려서/VV+EC+갈아타/VV+야/EC+되/VV+네/EF+버스/NNG+로/JKB"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아~ 그래? 그냥 타면 돼?",
+            "norm_text": "아~ 그래? 그냥 타면 돼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+~/SY+그래/IC+그냥/MAG+타/VV+면/EC+돼/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그게 버스가 배차 간격이 좀 기네 ㅠㅠ",
+            "norm_text": "그게 버스가 배차 간격이 좀 기네 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+버스/NNG+가/JKS+배차/NNG+간격/NNG+이/JKS+좀/MAG+기/VV+네/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그러면 어떡해? ㅠㅠ",
+            "norm_text": "그러면 어떡해? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러면/MAJ+어떡/XR+해/XSA+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 좀 돌아가긴 하는데 지하철로 좀 돌아서 가야 할 것 같아",
+            "norm_text": "좀 돌아가긴 하는데 지하철로 좀 돌아서 가야 할 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좀/MAG+돌아가/VV+긴/ETN+JX+하/VX+는데/EC+지하철/NNG+로/JKB+좀/MAG+돌/VV+아서/EC+가/VX+야/EC+할/VX+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래 알았어 얼른 들어와!",
+            "norm_text": "그래 알았어 얼른 들어와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그래/VA+EC+알/VV+았/EP+어/EC+얼른/MAG+들어와/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

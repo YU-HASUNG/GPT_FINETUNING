@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 29148,
+    "name": "KAKAO_550_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934042383/KAKAO_550_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934042383/KAKAO_550_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30009,
+      "filename": "KAKAO_550_18.txt",
+      "title": "KAKAO_550_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 600,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 600,
+        "word_size": 184,
+        "text": "1 : 일본 음식 파는 쇼핑몰 같은 곳 알고 있나?\n2 : 일본 음식은 모르겠네? 나는 쇼핑몰에서 산 적이 없는 것 같애\n1 : 아 그래? 뭔 가루 같은 거는 아무 데서나 사도 똑같은가?\n2 : 무슨 가루를 사는 거야? 키키 가루?\n1 : 뭐 뿌려 먹고 물에 타 먹고 하는 건데 이름을 몰라서... 키키\n2 : 에...? 키키 혹시 밥 먹는 거야? 오차즈케?\n1 : 쇼핑몰 사이트 있으면 들어가서 그림 보고 사려고 했지 키키\n2 : 키키 뭐지? 너무 궁금하다 ㅜㅜ 힌트를 더 주세여\n1 : 오... 그건가? 키키 뭔 귀여운 그림 있어... 생선, 닭 사람 그림... 배 그림...\n2 : 엥... 뭐지? 밥에 말아 먹는 거면 오차즈케일 텐데... 뭐지...? 뭐랑 먹었어?\n1 : 밥 위에 뿌려서 비벼 먹었어! 조그맣게 낱개 포장 되어 있었거든...\n2 : 후리카케인가...? 근데 그런 건 요새 한국에도 많지 않아?\n1 : 오! 그건가? 키키 몰라 이름을 몰라서 찾아볼 생각을 못 했네 키키\n2 : 키키 모르겠네? 좀 찾아보고 정답을 알려주라\n1 : 한국 꺼도 맛이 똑같은 건가? 키키 응응\n1 : 내가 담에 찾아보고 알려줄게! 키키\n2 : 키키 비슷하지 않을까? 애기들 밥 먹을 때 잘 비벼 주더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 일본 음식 파는 쇼핑몰 같은 곳 알고 있나?",
+            "norm_text": "일본 음식 파는 쇼핑몰 같은 곳 알고 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일본/NNP+음식/NNG+파/VV+는/ETM+쇼핑몰/NNG+같/VA+은/ETM+곳/NNB+알/VV+고/EC+있/VX+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 일본 음식은 모르겠네? 나는 쇼핑몰에서 산 적이 없는 것 같애",
+            "norm_text": "일본 음식은 모르겠네? 나는 쇼핑몰에서 산 적이 없는 것 같애",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일본/NNP+음식/NNG+은/JX+모르/VV+겠/EP+네/EF+나/NP+는/JX+쇼핑몰/NNG+에서/JKB+산적/NNG+이/JKS+없/VA+는/ETM+것/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래? 뭔 가루 같은 거는 아무 데서나 사도 똑같은가?",
+            "norm_text": "아 그래? 뭔 가루 같은 거는 아무 데서나 사도 똑같은가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+뭔가/NP+VCP+EC+루/JX+같/VA+은/ETM+거/NNB+는/JX+아무/MM+데/NNB+서/JKB+나사/NNG+도/JX+똑같/VA+은가/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 무슨 가루를 사는 거야? 키키 가루?",
+            "norm_text": "무슨 가루를 사는 거야? 키키 가루?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+가루/NNG+를/JKO+사/VV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키가/XSV+ETN+JKS+루/JKB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭐 뿌려 먹고 물에 타 먹고 하는 건데 이름을 몰라서... 키키",
+            "norm_text": "뭐 뿌려 먹고 물에 타 먹고 하는 건데 이름을 몰라서... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+뿌려/VV+EC+먹/VV+고/EC+물/NNG+에/JKB+타/VV+EC+먹/VV+고/EC+하/VV+는/ETM+건데/NNB+VCP+EC+이름/NNG+을/JKO+몰라서/VV+EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 에...? 키키 혹시 밥 먹는 거야? 오차즈케?",
+            "norm_text": "에...? 키키 혹시 밥 먹는 거야? 오차즈케?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "에/IC+./SY+./SY+키/NNG+키/XSV+ETN+혹시/MAG+밥/NNG+먹/VV+는/ETM+거/NNB+야/VCP+EF+오/IC+차즈케/NNP"
+          },
+          {
+            "id": 7,
+            "text": "1 : 쇼핑몰 사이트 있으면 들어가서 그림 보고 사려고 했지 키키",
+            "norm_text": "쇼핑몰 사이트 있으면 들어가서 그림 보고 사려고 했지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쇼핑몰/NNG+사이트/NNG+있/VV+으면/EC+들어가/VV+서/EC+그림/NNG+보/VV+고/EC+사/VV+려고/EC+했/VX+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 뭐지? 너무 궁금하다 ㅜㅜ 힌트를 더 주세여",
+            "norm_text": "키키 뭐지? 너무 궁금하다 ㅜㅜ 힌트를 더 주세여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/NP+지/VCP+EF+너무/MAG+궁금/XR+하/XSA+다/EF+ㅜㅜ/UNKNOWN+힌트/NNG+를/JKO+더/MAG+주/NNG+세여/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오... 그건가? 키키 뭔 귀여운 그림 있어... 생선, 닭 사람 그림... 배 그림...",
+            "norm_text": "오... 그건가? 키키 뭔 귀여운 그림 있어... 생선, 닭 사람 그림... 배 그림...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+./SY+그건가/NP+VCP+EF+키/NNG+키/XSV+ETN+뭔/NP+JX+귀여운/VA+ETM+그림/NNG+있/VA+어/EF+./SY+생선/NNG+,/SC+닭/NNG+사람/NNG+그림/NNG+./SY+./SY+배/NNG+그림/NNG+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 엥... 뭐지? 밥에 말아 먹는 거면 오차즈케일 텐데... 뭐지...? 뭐랑 먹었어?",
+            "norm_text": "엥... 뭐지? 밥에 말아 먹는 거면 오차즈케일 텐데... 뭐지...? 뭐랑 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+./SY+뭐/NP+지/VCP+EF+밥/NNG+에/JKB+말아먹/VV+는/ETM+거/NNB+면/VCP+EC+오/VX+차즈케/NNP+일텐데/VCP+ETM+NNB+VCP+EF+./SY+뭐/NP+지/VCP+EF+./SY+./SY+뭐/NP+랑/JKB+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 밥 위에 뿌려서 비벼 먹었어! 조그맣게 낱개 포장 되어 있었거든...",
+            "norm_text": "밥 위에 뿌려서 비벼 먹었어! 조그맣게 낱개 포장 되어 있었거든...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "밥/NNG+위/NNG+에/JKB+뿌려서/VV+EC+비벼/VV+EC+먹/VV+었/EP+어/EF+조그맣/VA+게/EC+낱개/NNG+포장/NNG+되/XSV+어/EC+있/VX+었/EP+거든/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 후리카케인가...? 근데 그런 건 요새 한국에도 많지 않아?",
+            "norm_text": "후리카케인가...? 근데 그런 건 요새 한국에도 많지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "후리카케/NNP+인가/VCP+EF+./SY+./SY+근데/MAJ+그런/MM+건/NNB+JX+요새/NNG+한국/NNP+에/JKB+도/JX+많/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오! 그건가? 키키 몰라 이름을 몰라서 찾아볼 생각을 못 했네 키키",
+            "norm_text": "오! 그건가? 키키 몰라 이름을 몰라서 찾아볼 생각을 못 했네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그건가/NP+VCP+EF+키/NNG+키/XSV+ETN+몰라/VV+EC+이름/NNG+을/JKO+몰라서/VV+EC+찾아볼/VV+ETM+생각/NNG+을/JKO+못/MAG+했/VV+EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 모르겠네? 좀 찾아보고 정답을 알려주라",
+            "norm_text": "키키 모르겠네? 좀 찾아보고 정답을 알려주라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "키/NNG+키/XSV+ETN+모르/VV+겠/EP+네/EF+좀/MAG+찾아보/VV+고/EC+정답/NNG+을/JKO+알려/VV+EC+주/VX+라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 한국 꺼도 맛이 똑같은 건가? 키키 응응",
+            "norm_text": "한국 꺼도 맛이 똑같은 건가? 키키 응응",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한국/NNP+꺼도/VV+EC+맛/NNG+이/JKS+똑같/VA+은/ETM+건가/NNB+VCP+EF+키키응응/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 내가 담에 찾아보고 알려줄게! 키키",
+            "norm_text": "내가 담에 찾아보고 알려줄게! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "내/NP+JKG+가담/NNG+에/JKB+찾아보/VV+고/EC+알려/VV+EC+줄게/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 비슷하지 않을까? 애기들 밥 먹을 때 잘 비벼 주더라",
+            "norm_text": "키키 비슷하지 않을까? 애기들 밥 먹을 때 잘 비벼 주더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+비슷/XR+하/XSA+지/EC+않/VX+을까/EF+애기/NNG+들/XSN+밥/NNG+먹/VV+을/ETM+때/NNG+잘/MAG+비벼/VV+EC+주/VX+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

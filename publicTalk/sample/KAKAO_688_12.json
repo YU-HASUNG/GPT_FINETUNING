@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 58271,
+    "name": "KAKAO_688_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710045262/KAKAO_688_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710045262/KAKAO_688_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35091,
+      "filename": "KAKAO_688_12.txt",
+      "title": "KAKAO_688_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 660,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 660,
+        "word_size": 206,
+        "text": "1 : 너 여름 휴가는 어디로 여행 갔다 왔어? 키키\n2 : 못 갔음... ㅠㅠ 두 번의 기회가 있었는데... ㅠㅠ\n1 : 진짜? 그럼 올해 여행 한번도 못 간 거야?\n2 : 응응 ㅠㅠ 한 번은 깜순이가 있어서 못 가고 한 번은 룽지 수술해서 ㅠㅠ\n1 : 아... ㅜㅜ 너의 삶은 다 강아지에 맞춰져 있네 ㅜㅜ\n2 : 그러게... 키키 어쩔 수 없지 ㅠㅠ 언니도 **도 곧 그렇게 될 껄...? (이미 지금도...?)\n1 : 키키 응... 이미 지금도... 키키 여행도 무조건 강아지랑 키키\n2 : 글치 키키 그래도 좋겠다 버디는! 룽지는 요즘 되어서 많이 같이 가는 건데 ㅠㅠ 버디는 처음부터 그래서 좋다\n1 : 아 진짜로? ㅜㅜ 그럼 옛날에는 너 여행갈 때 강아지 혼자 있었어?\n2 : 글치...? 밖에서 키우기도 했고... 룽지 생각하면 너무 미안해 ㅠㅠ\n1 : 아이구ㅜㅜ 그래서 니가 더 신경 많이 쓰나 보네 ㅜㅜ 여행 많이 가자\n2 : 맞아 이번에 수술 하고 겨울에는 좀 더 많이 델꼬 다녀야지!\n1 : 웅웅 ㅜㅜ 아 룽지는 겨울에 추위 많이 타는 편이야?\n2 : 나는 그런 줄 알았는데 집에 들어오고 나서 보니 더위를 더 타는 것 같기도...? 나이를 먹어서 그런 것 같기도 하고\n1 : 그럼 겨울 여행 같이 가면 되겠네 키키\n2 : 웅웅 키키 어디로 가면 좋으려나~\n2 : 버디는 어디 또 가나유",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 여름 휴가는 어디로 여행 갔다 왔어? 키키",
+            "norm_text": "너 여름 휴가는 어디로 여행 갔다 왔어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+여름휴가/NNG+는/JX+어디/NP+로/JKB+여행/NNG+갔다왔/VV+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 못 갔음... ㅠㅠ 두 번의 기회가 있었는데... ㅠㅠ",
+            "norm_text": "못 갔음... ㅠㅠ 두 번의 기회가 있었는데... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "못/MAG+갔/VV+EP+음/ETN+./SY+ㅠㅠ/UNKNOWN+두/MM+번/NNBC+의/JKG+기회/NNG+가/JKS+있/VA+었/EP+는데/EC+./SY+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 진짜? 그럼 올해 여행 한번도 못 간 거야?",
+            "norm_text": "진짜? 그럼 올해 여행 한번도 못 간 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+그럼/MAJ+올해/NNG+여행/NNG+한/MM+번/NNBC+도/JX+못/MAG+간/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 ㅠㅠ 한 번은 깜순이가 있어서 못 가고 한 번은 룽지 수술해서 ㅠㅠ",
+            "norm_text": "응응 ㅠㅠ 한 번은 깜순이가 있어서 못 가고 한 번은 룽지 수술해서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+ㅠㅠ/UNKNOWN+한/MM+번/NNBC+은/JX+깜/NNP+순이/NNP+가/JKS+있/VA+어서/EC+못/MAG+가/VV+고/EC+한/MM+번/NNBC+은/JX+룽/NNG+지수/NNG+술/NNG+해서/XSV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아... ㅜㅜ 너의 삶은 다 강아지에 맞춰져 있네 ㅜㅜ",
+            "norm_text": "아... ㅜㅜ 너의 삶은 다 강아지에 맞춰져 있네 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+ㅜㅜ/UNKNOWN+너/NP+의/JKG+삶/NNG+은/JX+다/MAG+강아지/NNG+에/JKB+맞춰져/VV+EC+VX+EC+있/VX+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러게... 키키 어쩔 수 없지 ㅠㅠ 언니도 **도 곧 그렇게 될 껄...? (이미 지금도...?)",
+            "norm_text": "그러게... 키키 어쩔 수 없지 ㅠㅠ 언니도 **도 곧 그렇게 될 껄...? (이미 지금도...?)",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+./SY+키/NNG+키/XSV+ETN+어쩔/VV+ETM+수/NNB+없/VA+지/EC+ㅠㅠ/UNKNOWN+언니/NNG+도/JX+*/SY+*/SY+도곧그렇게될껄/UNKNOWN+./SY+?/SY+이미/MAG+지금/MAG+도/JX+./SY+./SY+?/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 응... 이미 지금도... 키키 여행도 무조건 강아지랑 키키",
+            "norm_text": "키키 응... 이미 지금도... 키키 여행도 무조건 강아지랑 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+이미/MAG+지금/MAG+도/JX+./SY+./SY+키/NNG+키/NNG+여행/NNG+도/JX+무조건/MAG+강아지/NNG+랑/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 글치 키키 그래도 좋겠다 버디는! 룽지는 요즘 되어서 많이 같이 가는 건데 ㅠㅠ 버디는 처음부터 그래서 좋다",
+            "norm_text": "글치 키키 그래도 좋겠다 버디는! 룽지는 요즘 되어서 많이 같이 가는 건데 ㅠㅠ 버디는 처음부터 그래서 좋다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/NNG+치/XSN+키/NNG+키/XSV+ETN+그래도/MAJ+좋/VA+겠/EP+다/EC+버디/NNG+는/JX+룽/NNG+지/VV+는/ETM+요즘/NNG+되/XSV+어서/EC+많이/MAG+같이/MAG+가/VV+는/ETM+건데/NNB+VCP+EC+ㅠㅠ/UNKNOWN+버디/NNG+는/JX+처음/NNG+부터/JX+그래서/MAJ+좋/VA+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 진짜로? ㅜㅜ 그럼 옛날에는 너 여행갈 때 강아지 혼자 있었어?",
+            "norm_text": "아 진짜로? ㅜㅜ 그럼 옛날에는 너 여행갈 때 강아지 혼자 있었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜로/MAG+ㅜㅜ/UNKNOWN+그럼/MAJ+옛날/NNG+에/JKB+는/JX+너/NP+여행/NNG+갈/VV+ETM+때/NNG+강아지/NNG+혼자/MAG+있/VV+었/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 글치...? 밖에서 키우기도 했고... 룽지 생각하면 너무 미안해 ㅠㅠ",
+            "norm_text": "글치...? 밖에서 키우기도 했고... 룽지 생각하면 너무 미안해 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/NNG+치/XSN+./SY+./SY+밖/NNG+에서/JKB+키우/VV+기/ETN+도/JX+했/VV+EP+고/EC+./SY+./SY+룽/NNG+지/XSV+EC+생각/NNG+하/XSV+면/EC+너무/MAG+미안/NNG+해/XSV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아이구ㅜㅜ 그래서 니가 더 신경 많이 쓰나 보네 ㅜㅜ 여행 많이 가자",
+            "norm_text": "아이구ㅜㅜ 그래서 니가 더 신경 많이 쓰나 보네 ㅜㅜ 여행 많이 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이구/IC+ㅜㅜ/UNKNOWN+그래서/MAJ+니/NP+가/JKS+더/MAG+신경/NNG+많이/MAG+쓰/VV+나/EC+보/VX+네/EF+ㅜㅜ/UNKNOWN+여행/NNG+많이/MAG+가/VV+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아 이번에 수술 하고 겨울에는 좀 더 많이 델꼬 다녀야지!",
+            "norm_text": "맞아 이번에 수술 하고 겨울에는 좀 더 많이 델꼬 다녀야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+이번/NNG+에/JKB+수술/NNG+하/XSV+고/EC+겨울/NNG+에/JKB+는/JX+좀/MAG+더/MAG+많이/MAG+델/VV+꼬/EC+다녀야지/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 웅웅 ㅜㅜ 아 룽지는 겨울에 추위 많이 타는 편이야?",
+            "norm_text": "웅웅 ㅜㅜ 아 룽지는 겨울에 추위 많이 타는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "웅웅/MAG+ㅜㅜ/UNKNOWN+아룽/NNP+지/VV+는/ETM+겨울/NNG+에/JKB+추위/NNG+많이/MAG+타/VV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나는 그런 줄 알았는데 집에 들어오고 나서 보니 더위를 더 타는 것 같기도...? 나이를 먹어서 그런 것 같기도 하고",
+            "norm_text": "나는 그런 줄 알았는데 집에 들어오고 나서 보니 더위를 더 타는 것 같기도...? 나이를 먹어서 그런 것 같기도 하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+그런/MM+줄/NNB+알/VV+았/EP+는데/EC+집/NNG+에/JKB+들어오/VV+고/EC+나/VX+서/EC+보/VX+니/EC+더위/NNG+를/JKO+더/MAG+타/VV+는/ETM+것/NNB+같/VA+기/ETN+도/JX+./SY+./SY+나이/NNG+를/JKO+먹/VV+어서/EC+그런/MM+것/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼 겨울 여행 같이 가면 되겠네 키키",
+            "norm_text": "그럼 겨울 여행 같이 가면 되겠네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+겨울/NNG+여행/NNG+같이/JKB+가/VV+면/EC+되/VV+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 웅웅 키키 어디로 가면 좋으려나~",
+            "norm_text": "웅웅 키키 어디로 가면 좋으려나~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "웅웅/MAG+키/NNG+키/XSV+ETN+어디/NP+로/JKB+가/VV+면/EC+좋/VA+으려나/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 버디는 어디 또 가나유",
+            "norm_text": "버디는 어디 또 가나유",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "버디/NNG+는/JX+어디/NP+또/MAG+가/VV+나유/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

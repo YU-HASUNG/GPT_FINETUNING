@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 35092,
+    "name": "KAKAO_738_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135511058562/KAKAO_738_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135511058562/KAKAO_738_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37309,
+      "filename": "KAKAO_738_01.txt",
+      "title": "KAKAO_738_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 542,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 542,
+        "word_size": 176,
+        "text": "1 : 방금 치킨 배달 도착했는데 뼈 시켰는데 순살로 왔네...\n2 : 키키 어떻게 함? 전화 해서 바꿔 달라 했음?\n1 : 전화했는데 죄송한데 그냥 드시면 다음에 서비스 준다고 하네?\n2 : 뭐여 키키 다음에 거기로 시킬지 안 시킬지 어떻게 알아 키키\n1 : 그러니까 키키 그래서 그냥 바꿔 달라고 했어\n2 : 그래서? 바꿔 준대? 키키 근데 바꿔 주는 게 맞긴 하지 키키\n1 : 기분 나쁘게 한숨 쉬면서 알겠다고 하네 키키\n2 : 아니 왜 기분 나쁨? 자기들이 실수해 놓고?\n1 : 그러니까 키키 아 진심 싸울 뻔했다 키키\n2 : 키키 진짜 어이가 없네 키키\n2 : 자기들 실수해 놓고 키키 기분 나쁜 건 시킨 쪽이지 키키\n1 : 자영업 하시니까 이해하려고 하는데 가끔 저런 태도 보이면 화남 키키\n2 : 아니 나였어도 화났지 키키\n2 : 손님이 컴플레인 걸었는데 기분 나쁜 태도 보이면 화나지 키키\n1 : 그니까 키키 근데 그냥 이번 건 참았음 키키\n2 : 그래서 지금 바꿔서 왔음?\n1 : 아직 오진 않았는데 바꿔 준대 근데 뭔가 기분 나쁘네\n2 : 걍 담부터 거기 안 시켜 먹으면 되지 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 방금 치킨 배달 도착했는데 뼈 시켰는데 순살로 왔네...",
+            "norm_text": "방금 치킨 배달 도착했는데 뼈 시켰는데 순살로 왔네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "방금/MAG+치킨/VV+ETM+배달/NNG+도착/NNG+했/XSV+EP+는데/EC+뼈/NNG+시켰/XSV+EP+는데/EC+순/MM+살/NNG+로/JKB+왔/VV+EP+네/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 어떻게 함? 전화 해서 바꿔 달라 했음?",
+            "norm_text": "키키 어떻게 함? 전화 해서 바꿔 달라 했음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+어떻/VA+게/EC+함/VX+ETN+전화/NNG+해서/XSV+EC+바꿔/VV+EC+달/VX+라/EC+했/VX+EP+음/ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 전화했는데 죄송한데 그냥 드시면 다음에 서비스 준다고 하네?",
+            "norm_text": "전화했는데 죄송한데 그냥 드시면 다음에 서비스 준다고 하네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전화/NNG+했/XSV+EP+는데/EC+죄송/XR+한데/XSA+EC+그냥/MAG+드/VV+시/EP+면/EC+다음/NNG+에/JKB+서비스/NNG+준다고/VV+EC+하/VX+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 뭐여 키키 다음에 거기로 시킬지 안 시킬지 어떻게 알아 키키",
+            "norm_text": "뭐여 키키 다음에 거기로 시킬지 안 시킬지 어떻게 알아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/IC+여/NNG+키/NNG+키/NNG+다음/NNG+에/JKB+거기/NP+로/JKB+시킬지/VV+EC+안/MAG+시킬지/VV+EC+어떻게/MAG+알/VV+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러니까 키키 그래서 그냥 바꿔 달라고 했어",
+            "norm_text": "그러니까 키키 그래서 그냥 바꿔 달라고 했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/XSV+ETN+그래서/MAJ+그냥/MAG+바꿔/VV+EC+달/VX+라고/EC+했/VX+EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래서? 바꿔 준대? 키키 근데 바꿔 주는 게 맞긴 하지 키키",
+            "norm_text": "그래서? 바꿔 준대? 키키 근데 바꿔 주는 게 맞긴 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+바꿔/VV+EC+준대/VX+EF+키/NNG+키/XSV+ETN+근데/MAJ+바꿔/VV+EC+주/VX+는/ETM+게/NNB+JKS+맞/VV+긴/ETN+JX+하/VX+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 기분 나쁘게 한숨 쉬면서 알겠다고 하네 키키",
+            "norm_text": "기분 나쁘게 한숨 쉬면서 알겠다고 하네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기분/NNG+나쁘/VA+게/EC+한숨/NNG+쉬/VV+면서/EC+알/VV+겠/EP+다고/EC+하/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니 왜 기분 나쁨? 자기들이 실수해 놓고?",
+            "norm_text": "아니 왜 기분 나쁨? 자기들이 실수해 놓고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+왜/MAG+기분/NNG+나쁨/VA+ETN+자기/NP+들/XSN+이/JKS+실수/NNG+해/XSV+EC+놓/VX+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러니까 키키 아 진심 싸울 뻔했다 키키",
+            "norm_text": "그러니까 키키 아 진심 싸울 뻔했다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/VV+아/EC+진심/NNG+싸울/VV+ETM+뻔/NNB+했/XSA+EP+다키키/NNP"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 진짜 어이가 없네 키키",
+            "norm_text": "키키 진짜 어이가 없네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+어/IC+이/NP+가/JKS+없/VA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 자기들 실수해 놓고 키키 기분 나쁜 건 시킨 쪽이지 키키",
+            "norm_text": "자기들 실수해 놓고 키키 기분 나쁜 건 시킨 쪽이지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+들/XSN+실수/NNG+해/XSV+EC+놓/VX+고/EC+키/NNG+키/NNG+기분/NNG+나쁜/VA+ETM+건/NNB+JX+시킨/VV+ETM+쪽/NNB+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 자영업 하시니까 이해하려고 하는데 가끔 저런 태도 보이면 화남 키키",
+            "norm_text": "자영업 하시니까 이해하려고 하는데 가끔 저런 태도 보이면 화남 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자영업/NNG+하/XSV+시/EP+니까/EC+이해/NNG+하/XSV+려고/EC+하/VV+는데/EC+가끔/MAG+저런/MM+태도/NNG+보이/VV+면/EC+화남/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니 나였어도 화났지 키키",
+            "norm_text": "아니 나였어도 화났지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+나/NP+였/VCP+EP+어도/EC+화났/VV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 손님이 컴플레인 걸었는데 기분 나쁜 태도 보이면 화나지 키키",
+            "norm_text": "손님이 컴플레인 걸었는데 기분 나쁜 태도 보이면 화나지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "손/NNG+님/XSN+이/JKS+컴/NNP+플레인/NNP+걸/NNB+JKO+었/EP+는데/EC+기분/NNG+나쁜/VA+ETM+태도/NNG+보이/VV+면/EC+화나/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그니까 키키 근데 그냥 이번 건 참았음 키키",
+            "norm_text": "그니까 키키 근데 그냥 이번 건 참았음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+키/NNG+키/XSV+ETN+근데/MAJ+그냥/MAG+이번/NNG+건/VCP+EC+참/VV+았/EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래서 지금 바꿔서 왔음?",
+            "norm_text": "그래서 지금 바꿔서 왔음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+지금/MAG+바꿔서/VV+EC+왔/VX+EP+음/ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아직 오진 않았는데 바꿔 준대 근데 뭔가 기분 나쁘네",
+            "norm_text": "아직 오진 않았는데 바꿔 준대 근데 뭔가 기분 나쁘네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+오/VV+진/EC+JX+않/VX+았/EP+는데/EC+바꿔/VV+EC+준대/VX+EF+근데/MAJ+뭔가/NP+VCP+EC+기분/NNG+나쁘/VA+네/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 걍 담부터 거기 안 시켜 먹으면 되지 키키",
+            "norm_text": "걍 담부터 거기 안 시켜 먹으면 되지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걍담/UNKNOWN+부터/JX+거기/NP+안/MAG+시켜/VV+EC+먹/VV+으면/EC+되/VV+지/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

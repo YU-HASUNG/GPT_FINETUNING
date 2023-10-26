@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34768,
+    "name": "KAKAO_847_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402031052/KAKAO_847_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402031052/KAKAO_847_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39742,
+      "filename": "KAKAO_847_04.txt",
+      "title": "KAKAO_847_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 415,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 415,
+        "word_size": 135,
+        "text": "1 : 엄마 나 오늘 면접 다녀왔어\n2 : 엥? 무슨 면접?\n1 : 이력서 넣었던 회사에서 오늘 면접 올 수 있냐고 물어봤어\n2 : 오늘 면접 보는 걸 오늘 물어봤다고?\n1 : 엉 그래서 가능하다 했지\n2 : 몇 시에 면접 봤어?\n1 : 오후 1시에 괜찮냐고 하시길래 1시에 보고 왔지\n2 : 면접은 어땠어? 안 떨고 잘했어?\n1 : 몰라~ 떨진 않았는데 질문한 거에 답을 못했어\n2 : 무슨 질문을 했길래 답을 못했어\n1 : 내가 대학교 때 법 공부했다고 하니까 5인 미만 회사에서 적용되지 않는 법에 대해 말하라고 하더라고 키키\n2 : 너 대학교 때 그런 거 안 배웠어?\n1 : 배웠는데 까먹었지~ 그래서 열심히 배우겠다고 했어\n2 : 그래... 잘 했어~ 좋은 결과 있길 바라자\n1 : 엉 제발 그랬으면 좋겠다 ㅠㅠ\n2 : 넘 신경 쓰지 말어~ 언제 결과 나온대?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 나 오늘 면접 다녀왔어",
+            "norm_text": "엄마 나 오늘 면접 다녀왔어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+나/JC+오늘/NNG+면접/NNG+다녀왔/VV+EP+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥? 무슨 면접?",
+            "norm_text": "엥? 무슨 면접?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+무슨/MM+면접/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 이력서 넣었던 회사에서 오늘 면접 올 수 있냐고 물어봤어",
+            "norm_text": "이력서 넣었던 회사에서 오늘 면접 올 수 있냐고 물어봤어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이력서/NNG+넣/VV+었/EP+던/ETM+회사/NNG+에서/JKB+오늘/MAG+면접/NNG+올/VV+ETM+수/NNB+있/VV+냐고/EC+물/VV+어/EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오늘 면접 보는 걸 오늘 물어봤다고?",
+            "norm_text": "오늘 면접 보는 걸 오늘 물어봤다고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+면접/NNG+보/VV+는/ETM+걸/NNB+JKO+오늘/MAG+물/VV+어/EC+봤/VX+EP+다고/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엉 그래서 가능하다 했지",
+            "norm_text": "엉 그래서 가능하다 했지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+그래서/MAJ+가능/NNG+하/XSV+다/EC+했/VX+EP+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 몇 시에 면접 봤어?",
+            "norm_text": "몇 시에 면접 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+시/NNBC+에/JKB+면접/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오후 1시에 괜찮냐고 하시길래 1시에 보고 왔지",
+            "norm_text": "오후 1시에 괜찮냐고 하시길래 1시에 보고 왔지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오후/NNG+1/SN+시/NNBC+에/JKB+괜찮/VA+냐고/EC+하/VX+시/EP+길래/EC+1/SN+시/NNBC+에/JKB+보/VV+고/EC+왔/VX+EP+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 면접은 어땠어? 안 떨고 잘했어?",
+            "norm_text": "면접은 어땠어? 안 떨고 잘했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "면접/NNG+은/JX+어땠어/VA+EP+EF+안/MAG+떨/VV+고/EC+잘/MAG+했/VV+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 몰라~ 떨진 않았는데 질문한 거에 답을 못했어",
+            "norm_text": "몰라~ 떨진 않았는데 질문한 거에 답을 못했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몰라/VV+EC+~/SY+떨/VV+진/EC+JX+않/VX+았/EP+는데/EC+질문/NNG+한/XSA+ETM+거/NNB+에/JKB+답/NNG+을/JKO+못/MAG+했/VV+EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 무슨 질문을 했길래 답을 못했어",
+            "norm_text": "무슨 질문을 했길래 답을 못했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+질문/NNG+을/JKO+했/VV+EP+길래/EC+답/NNG+을/JKO+못/MAG+했/VV+EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 내가 대학교 때 법 공부했다고 하니까 5인 미만 회사에서 적용되지 않는 법에 대해 말하라고 하더라고 키키",
+            "norm_text": "내가 대학교 때 법 공부했다고 하니까 5인 미만 회사에서 적용되지 않는 법에 대해 말하라고 하더라고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+대학교/NNG+때/NNG+법/NNG+공부/NNG+했/XSV+EP+다고/EC+하/VV+니까/EC+5/SN+인/NNG+미만/NNG+회사/NNG+에서/JKB+적용/NNG+되/XSV+지/EC+않/VX+는/ETM+법/NNB+에/JKB+대해/VV+EC+말/NNG+하/XSV+라고/EC+하/VV+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너 대학교 때 그런 거 안 배웠어?",
+            "norm_text": "너 대학교 때 그런 거 안 배웠어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+대학교/NNG+때/NNG+그런/MM+거/NNB+안/MAG+배웠/VV+EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 배웠는데 까먹었지~ 그래서 열심히 배우겠다고 했어",
+            "norm_text": "배웠는데 까먹었지~ 그래서 열심히 배우겠다고 했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "배웠/VV+EP+는데/EC+까먹/VV+었/EP+지/EC+~/SY+그래서/MAJ+열심히/MAG+배우/VV+겠/EP+다고/EC+했/VX+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래... 잘 했어~ 좋은 결과 있길 바라자",
+            "norm_text": "그래... 잘 했어~ 좋은 결과 있길 바라자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+./SY+잘/MAG+했/VV+EP+어/EC+~/SY+좋/VA+은/ETM+결과/NNG+있/VV+길/ETN+JKO+바라/VV+자/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 엉 제발 그랬으면 좋겠다 ㅠㅠ",
+            "norm_text": "엉 제발 그랬으면 좋겠다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+제발/MAG+그랬/VV+EP+으면/EC+좋/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 넘 신경 쓰지 말어~ 언제 결과 나온대?",
+            "norm_text": "넘 신경 쓰지 말어~ 언제 결과 나온대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넘/MAG+신경/NNG+쓰/VV+지/EC+말/VX+어/EC+~/SY+언제/MAG+결과/NNG+나온대/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

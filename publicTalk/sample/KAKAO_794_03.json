@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 45139,
+    "name": "KAKAO_794_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141022081294/KAKAO_794_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141022081294/KAKAO_794_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37713,
+      "filename": "KAKAO_794_03.txt",
+      "title": "KAKAO_794_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 416,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 133,
+        "text": "1 : 너는 드림카가 뭐야?\n2 : 나는 레인지로버 같이 큰 차\n1 : 오 남자들은 큰 차 좋아하더라\n2 : 차가 커야 무시 안 당하니까 하하\n1 : 운전하기 무서울 거 같은데 키키\n1 : 큰 차는 JEEP가 예쁘던데\n2 : 지프도 아주 예쁘지 여자들은 작은 차 좋아하지?\n1 : 아무래도? 소형차가 운전하기도 편하고 그러니까\n2 : 근데 사고 나면 아주 위험하거든 ㅠㅠ\n1 : 그것도 맞지 경차는 진짜 사고에 취약해\n2 : 응 운전 험하게 하시니까 위험해\n1 : 그래서 저는 늘 안전 운전 한답니다 양보 운전\n2 : 자의가 맞아? 타의가 아니야?\n1 : 도로에 빌런이 많은 영향도 크지 스트레스 받아...\n1 : 그래서 대중교통 탈 때도 많고\n2 : 부산이 가장 운전하기 힘들다더라\n1 : 그렇다 하대 아무래도 길이 좀 험해서 키키\n2 : 사람들 성격도 워낙 급하니까 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 드림카가 뭐야?",
+            "norm_text": "너는 드림카가 뭐야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+드림/VV+ETM+카/NNG+가/JKS+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 레인지로버 같이 큰 차",
+            "norm_text": "나는 레인지로버 같이 큰 차",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+레인지/NNG+로버/NNG+같이/JKB+큰/VA+ETM+차/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 남자들은 큰 차 좋아하더라",
+            "norm_text": "오 남자들은 큰 차 좋아하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+남자/NNG+들/XSN+은/JX+큰/VA+ETM+차/NNG+좋/VA+아/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 차가 커야 무시 안 당하니까 하하",
+            "norm_text": "차가 커야 무시 안 당하니까 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+가/JKS+커야/VA+EC+무시/NNG+안/MAG+당하/VV+니까/EC+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 운전하기 무서울 거 같은데 키키",
+            "norm_text": "운전하기 무서울 거 같은데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "운전/NNG+하/XSV+기/ETN+무서울/VA+ETM+거/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 큰 차는 JEEP가 예쁘던데",
+            "norm_text": "큰 차는 JEEP가 예쁘던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "큰/VA+ETM+차/NNG+는/JX+JEEP/SL+가/JKS+예쁘/VA+던데/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 지프도 아주 예쁘지 여자들은 작은 차 좋아하지?",
+            "norm_text": "지프도 아주 예쁘지 여자들은 작은 차 좋아하지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지프/NNG+도/JX+아주/MAG+예쁘/VA+지/EC+여자/NNG+들/XSN+은/JX+작/VA+은/ETM+차/NNG+좋/VA+아/EC+하/VX+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아무래도? 소형차가 운전하기도 편하고 그러니까",
+            "norm_text": "아무래도? 소형차가 운전하기도 편하고 그러니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "아무래도/MAG+소형차/NNG+가/JKS+운전/NNG+하/XSV+기/ETN+도/JX+편하/VA+고/EC+그러/VV+니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 근데 사고 나면 아주 위험하거든 ㅠㅠ",
+            "norm_text": "근데 사고 나면 아주 위험하거든 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+사/VV+고/EC+나/VX+면/EC+아주/MAG+위험/NNG+하/XSA+거든/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그것도 맞지 경차는 진짜 사고에 취약해",
+            "norm_text": "그것도 맞지 경차는 진짜 사고에 취약해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+도/JX+맞/VV+지/EC+경차/NNG+는/JX+진짜/MAG+사고/NNG+에/JKB+취약/NNG+해/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 운전 험하게 하시니까 위험해",
+            "norm_text": "응 운전 험하게 하시니까 위험해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+운전/NNG+험하/VA+게/EC+하/VX+시/EP+니까/EC+위험/NNG+해/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래서 저는 늘 안전 운전 한답니다 양보 운전",
+            "norm_text": "그래서 저는 늘 안전 운전 한답니다 양보 운전",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+저/NP+는/JX+늘/MAG+안전/NNG+운전/NNG+한답니다/XSV+EF+양보/NNG+운전/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 자의가 맞아? 타의가 아니야?",
+            "norm_text": "자의가 맞아? 타의가 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자의/NNG+가/JKS+맞/VV+아/EF+타의/NNG+가/JKC+아니/VCN+야/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 도로에 빌런이 많은 영향도 크지 스트레스 받아...",
+            "norm_text": "도로에 빌런이 많은 영향도 크지 스트레스 받아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도로/NNG+에/JKB+빌/VV+ETM+런/NNG+이/JKS+많/VA+은/ETM+영향/NNG+도/JX+크/VA+지/EC+스트레스/NNG+받/VV+아/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래서 대중교통 탈 때도 많고",
+            "norm_text": "그래서 대중교통 탈 때도 많고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+대중교통/NNG+탈/XPN+때/NNG+도/JX+많/VA+고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 부산이 가장 운전하기 힘들다더라",
+            "norm_text": "부산이 가장 운전하기 힘들다더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부산/NNP+이/JKS+가장/MAG+운전/NNG+하/XSV+기/ETN+힘들/VA+다더라/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그렇다 하대 아무래도 길이 좀 험해서 키키",
+            "norm_text": "그렇다 하대 아무래도 길이 좀 험해서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+다/EC+하/VX+대/EF+아무래도/MAG+길/NNG+이/JKS+좀/MAG+험해서/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 사람들 성격도 워낙 급하니까 키키",
+            "norm_text": "사람들 성격도 워낙 급하니까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사람/NNG+들/XSN+성격/NNG+도/JX+워낙/MAG+급하/VA+니까/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 24555,
+    "name": "KAKAO_640_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009077117/KAKAO_640_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009077117/KAKAO_640_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31801,
+      "filename": "KAKAO_640_10.txt",
+      "title": "KAKAO_640_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 582,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 582,
+        "word_size": 178,
+        "text": "1 : 언니 요즘 계속 필라테스 다니고 있어?\n2 : 응. 근데 요새 좀 힘들어서 쉬엄쉬엄 가~ ㅠㅠ 키키\n1 : 필라테스 유연성 없어도 따라가기 괜찮아~?\n2 : 유연성보다는 유산소 근력 운동이야 자세가 좋아져~\n1 : 정말? 어느 정도 하면 좀 하기 수월해지는 거 같어?\n2 : 나는 지금도 힘든데 키키 최소 석 달은 해야~\n1 : 헙... 3달 넘게 꾸준히 다니다니 대단해!\n2 : 어느 순간 시원한 순간이 오더라구.\n2 : 너는 스피닝 다니지 않았어?\n1 : 맞아 근데 요즘 코로나 때문에 못 가고 있어\n1 : 마스크 쓰고 너무 힘들어서...ㅜㅜ\n2 : 코로나 시국에 운동도 쉬게 되니 나날이 살만 찌고 있어. 하하\n1 : 맞어 맞어 요즘 집에서 홈트도 많이 한다던데\n2 : 홈트는 작심 삼일 키키 운동 기구도 사 놨는데 빨래 걸이야 ㅜ 키키\n1 : 하하 맞어 요즘 어떤 곳은 바이크 인데 온라인으로 사람들 만나서 같이 타는 홈 바이크도 있더라구 그거 너무 사고 싶드랑\n2 : 홈 바이크? 싸이클이랑 다른가? 첨 들어 봐\n1 : 싸이클 하하 싸이클 맞아 ㅎ\n1 : 패드로 접속해서 사람들이랑 같이 달리더라구!\n2 : 와우. 그런 방법이! 단체수업듣는거같고 재밌겠다!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 요즘 계속 필라테스 다니고 있어?",
+            "norm_text": "언니 요즘 계속 필라테스 다니고 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+요즘/MAG+계속/MAG+필라테스/NNP+다니/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응. 근데 요새 좀 힘들어서 쉬엄쉬엄 가~ ㅠㅠ 키키",
+            "norm_text": "응. 근데 요새 좀 힘들어서 쉬엄쉬엄 가~ ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+근데/MAJ+요새/MAG+좀/MAG+힘들/VA+어서/EC+쉬엄쉬엄/MAG+가/VV+EC+~/SY+ㅠㅠ키키/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 필라테스 유연성 없어도 따라가기 괜찮아~?",
+            "norm_text": "필라테스 유연성 없어도 따라가기 괜찮아~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "필라테스/NNP+유연/XR+성/XSN+없/VA+어도/EC+따라가/VV+기/ETN+괜찮/VA+아/EC+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 유연성보다는 유산소 근력 운동이야 자세가 좋아져~",
+            "norm_text": "유연성보다는 유산소 근력 운동이야 자세가 좋아져~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "유연/XR+성/XSN+보다/JKB+는/JX+유산소/NNP+근력/NNG+운동/NNG+이/VCP+야/EC+자세/NNG+가/JKS+좋/VA+아/EC+져/VX+EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 정말? 어느 정도 하면 좀 하기 수월해지는 거 같어?",
+            "norm_text": "정말? 어느 정도 하면 좀 하기 수월해지는 거 같어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "정말/MAG+어느/MM+정도/NNG+하/XSV+면/EC+좀/MAG+하/VV+기/ETN+수월/NNG+해/XSV+EC+지/VX+는/ETM+거/NNB+같/VA+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 지금도 힘든데 키키 최소 석 달은 해야~",
+            "norm_text": "나는 지금도 힘든데 키키 최소 석 달은 해야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+지금/NNG+도/JX+힘든데/VA+EC+키/NNG+키/XSV+ETN+최/XPN+소석/NNG+달/NNG+은/JX+해야/VV+EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헙... 3달 넘게 꾸준히 다니다니 대단해!",
+            "norm_text": "헙... 3달 넘게 꾸준히 다니다니 대단해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헙/UNKNOWN+./SY+./SY+3/SN+달/NNBC+넘/VV+게/EC+꾸준히/MAG+다니/VV+다니/EC+대단/XR+해/XSA+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어느 순간 시원한 순간이 오더라구.",
+            "norm_text": "어느 순간 시원한 순간이 오더라구.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어느/MM+순간/NNG+시원/XR+한/XSA+ETM+순간/NNG+이/JKS+오/VV+더라구/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 너는 스피닝 다니지 않았어?",
+            "norm_text": "너는 스피닝 다니지 않았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+스/IC+피닝/NNG+다니/VV+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맞아 근데 요즘 코로나 때문에 못 가고 있어",
+            "norm_text": "맞아 근데 요즘 코로나 때문에 못 가고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+근데/MAJ+요즘/MAG+코로나/NNG+때문/NNB+에/JKB+못/MAG+가/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 마스크 쓰고 너무 힘들어서...ㅜㅜ",
+            "norm_text": "마스크 쓰고 너무 힘들어서...ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마스크/NNG+쓰/VV+고/EC+너무/MAG+힘들/VA+어서/EC+./SY+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 코로나 시국에 운동도 쉬게 되니 나날이 살만 찌고 있어. 하하",
+            "norm_text": "코로나 시국에 운동도 쉬게 되니 나날이 살만 찌고 있어. 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코로나/NNG+시국/NNG+에/JKB+운동/NNG+도/JX+쉬/VV+게/EC+되/VV+니/EC+나날이/MAG+살/NNG+만/JX+찌/VV+고/EC+있/VX+어/EF+하하/MAG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞어 맞어 요즘 집에서 홈트도 많이 한다던데",
+            "norm_text": "맞어 맞어 요즘 집에서 홈트도 많이 한다던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+맞/VV+어/EC+요즘/NNG+집/NNG+에서/JKB+홈/NNG+트/NNG+도/JX+많이/MAG+한다던데/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 홈트는 작심 삼일 키키 운동 기구도 사 놨는데 빨래 걸이야 ㅜ 키키",
+            "norm_text": "홈트는 작심 삼일 키키 운동 기구도 사 놨는데 빨래 걸이야 ㅜ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "홈/NNG+트/VV+는/ETM+작심/NNG+삼/NR+일/NNBC+키/NNG+키/NNG+운동/NNG+기구/NNG+도/JX+사/VV+EC+놨는데/VX+EP+EC+빨래/NNG+걸이/NNG+야/VCP+EF+ㅜ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 하하 맞어 요즘 어떤 곳은 바이크 인데 온라인으로 사람들 만나서 같이 타는 홈 바이크도 있더라구 그거 너무 사고 싶드랑",
+            "norm_text": "하하 맞어 요즘 어떤 곳은 바이크 인데 온라인으로 사람들 만나서 같이 타는 홈 바이크도 있더라구 그거 너무 사고 싶드랑",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+맞/VV+어/EC+요즘/MAG+어떤/MM+곳/NNG+은/JX+바이크/NNP+인데/VCP+EC+온라인/NNG+으로/JKB+사람/NNG+들/XSN+만나/VV+서/EC+같이/MAG+타/VV+는/ETM+홈/NNG+바이크/NNP+도/JX+있/VA+더라구/EF+그거/NP+너무/MAG+사/VV+고/EC+싶/VX+드랑/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 홈 바이크? 싸이클이랑 다른가? 첨 들어 봐",
+            "norm_text": "홈 바이크? 싸이클이랑 다른가? 첨 들어 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "홈/NNG+바이크/NNP+?/SY+싸이클/NNP+이/XSN+랑/JKB+다른가/VA+EF+첨/MAG+들/VV+어/EC+봐/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 싸이클 하하 싸이클 맞아 ㅎ",
+            "norm_text": "싸이클 하하 싸이클 맞아 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "싸이클/NNP+하하/MAG+싸이클/NNP+맞/VV+아/EC+ㅎ/XSA"
+          },
+          {
+            "id": 18,
+            "text": "1 : 패드로 접속해서 사람들이랑 같이 달리더라구!",
+            "norm_text": "패드로 접속해서 사람들이랑 같이 달리더라구!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "패드/NNG+로/JKB+접속/NNG+해서/XSV+EC+사람/NNG+들/XSN+이랑/JKB+같이/MAG+달리/VV+더라구/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 와우. 그런 방법이! 단체수업듣는거같고 재밌겠다!",
+            "norm_text": "와우. 그런 방법이! 단체수업듣는거같고 재밌겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와우/IC+그런/MM+방법/NNG+이/JKS+!/SY+단체/NNG+수업/NNG+듣/VV+는/ETM+거/NNB+같/VA+고/EC+재밌/VA+겠/EP+다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

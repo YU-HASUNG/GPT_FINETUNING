@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24317,
+    "name": "KAKAO_512_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145429098536/KAKAO_512_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145429098536/KAKAO_512_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29114,
+      "filename": "KAKAO_512_03.txt",
+      "title": "KAKAO_512_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 410,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 410,
+        "word_size": 131,
+        "text": "1 : 솨야 수원까지는 버스가 편해? 기차가 편해?\n2 : 버스가 편한 거 같아!\n1 : 버스 타면 얼마나 걸리지?\n2 : 생각보다 경기도가 대중교통이 별로야ㅠㅠ\n1 : 요즘 버스 타기도 좀 그런데...\n2 : 맞아 코로나 시국이라 대중교통 넘 신경 쓰여ㅜㅜ\n1 : 응 차 타고 가면 얼마 걸리니...?\n2 : 차 타고 가면 엄청 가까운데 버스 타면 한 시간이 넘게 걸려...\n1 : 나 수원에 결혼식 가야 해서 ㅠ\n2 : 차이가 엄청나 진주랑은 엄청 달라ㅜㅜ\n1 : 엥 아 진짜?  차 안 끌고 가기 어렵넹\n2 : 어우 주말이면 차도 밀리니까 한참 걸릴거야\n1 : 아 그래? 차도 밀린다고? ㄷㄷ\n2 : 주말에는 백프로 밀릴거야...아기 없으니까 대중교통 추천해!\n1 : 응 그래야겠당 엄청 머네 진짜 하하\n2 : 응 한번 갈 때마다 큰맘 먹고 가야 해 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 솨야 수원까지는 버스가 편해? 기차가 편해?",
+            "norm_text": "솨야 수원까지는 버스가 편해? 기차가 편해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "솨/MAG+야/IC+수원/NNP+까지/JX+는/JX+버스/NNG+가/JKS+편해/VA+EF+기차/NNG+가/JKS+편해/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 버스가 편한 거 같아!",
+            "norm_text": "버스가 편한 거 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "버스/NNG+가/JKS+편한/VA+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 버스 타면 얼마나 걸리지?",
+            "norm_text": "버스 타면 얼마나 걸리지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "버스/NNG+타/VV+면/EC+얼마나/MAG+걸리/VV+지/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 생각보다 경기도가 대중교통이 별로야ㅠㅠ",
+            "norm_text": "생각보다 경기도가 대중교통이 별로야ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "생각/NNG+보다/JKB+경기도/NNP+가/JKS+대중교통/NNG+이/JKS+별로/MAG+야/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 요즘 버스 타기도 좀 그런데...",
+            "norm_text": "요즘 버스 타기도 좀 그런데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+버스/NNG+타/VV+기/ETN+도/JX+좀/MAG+그런데/MAJ+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 코로나 시국이라 대중교통 넘 신경 쓰여ㅜㅜ",
+            "norm_text": "맞아 코로나 시국이라 대중교통 넘 신경 쓰여ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+코로나/NNG+시국/NNG+이/VCP+라/EC+대중교통/NNG+넘/MAG+신경/NNG+쓰여/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 차 타고 가면 얼마 걸리니...?",
+            "norm_text": "응 차 타고 가면 얼마 걸리니...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+차/NNG+타/VV+고/EC+가/VX+면/EC+얼마/NNG+걸리/VV+니/EF+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 차 타고 가면 엄청 가까운데 버스 타면 한 시간이 넘게 걸려...",
+            "norm_text": "차 타고 가면 엄청 가까운데 버스 타면 한 시간이 넘게 걸려...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "차/NNG+타/VV+고/EC+가/VX+면/EC+엄청/MAG+가까운/VA+ETM+데/NNB+버스/NNG+타/VV+면/EC+한/MM+시간/NNG+이/JKS+넘/VV+게/EC+걸려/VV+EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나 수원에 결혼식 가야 해서 ㅠ",
+            "norm_text": "나 수원에 결혼식 가야 해서 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+수원/NNP+에/JKB+결혼식/NNG+가/VV+야/EC+해서/VV+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 차이가 엄청나 진주랑은 엄청 달라ㅜㅜ",
+            "norm_text": "차이가 엄청나 진주랑은 엄청 달라ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "차이/NNG+가/JKS+엄청/MAG+나진/VA+EC+VX+ETM+주랑/NNG+은/JX+엄청/MAG+달라/VA+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 엥 아 진짜?  차 안 끌고 가기 어렵넹",
+            "norm_text": "엥 아 진짜?  차 안 끌고 가기 어렵넹",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+아/IC+진짜/MAG+차/NNG+안/MAG+끌/VV+고/EC+가/VX+기/ETN+어렵/NNG+넹/NNP"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어우 주말이면 차도 밀리니까 한참 걸릴거야",
+            "norm_text": "어우 주말이면 차도 밀리니까 한참 걸릴거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어우/IC+주말/NNG+이/VCP+면/EC+차/NNG+도/JX+밀리/VV+니까/EC+한참/MAG+걸릴/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 그래? 차도 밀린다고? ㄷㄷ",
+            "norm_text": "아 그래? 차도 밀린다고? ㄷㄷ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+차/NNG+도/JX+밀린다고/VV+EC+?/SY+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 주말에는 백프로 밀릴거야...아기 없으니까 대중교통 추천해!",
+            "norm_text": "주말에는 백프로 밀릴거야...아기 없으니까 대중교통 추천해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "주말/NNG+에/JKB+는/JX+백/NR+프로/NNBC+밀릴/VV+ETM+거/NNB+야/VCP+EF+./SY+아기/NNG+없/VA+으니까/EC+대중교통/NNG+추천/NNG+해/XSV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 그래야겠당 엄청 머네 진짜 하하",
+            "norm_text": "응 그래야겠당 엄청 머네 진짜 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래야/VA+EC+VX+겠/EP+당/EF+엄청/MAG+머/NP+네/XSN+진짜/MAG+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 한번 갈 때마다 큰맘 먹고 가야 해 키키",
+            "norm_text": "응 한번 갈 때마다 큰맘 먹고 가야 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+한/MM+번/NNBC+갈/VV+ETM+때/NNG+마다/JX+큰/VA+ETM+맘/NNG+먹/VV+고/EC+가/VX+야/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

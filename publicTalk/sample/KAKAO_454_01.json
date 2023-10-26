@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 20129,
+    "name": "KAKAO_454_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109161359400801108/KAKAO_454_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109161359400801108/KAKAO_454_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27851,
+      "filename": "KAKAO_454_01.txt",
+      "title": "KAKAO_454_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 421,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 421,
+        "word_size": 129,
+        "text": "1 : 국밥 종류 좋아하시나요\n2 : 친구들이 저 보고 국밥충이라고 불러요.\n2 : 어떤 거 좋아하세요?\n1 : 순대국밥 땡기네요\n2 : 순대 말고 콩나물 국밥은 안 좋아하세요?\n1 : 콩나물 국밥도 가끔 먹으면 좋죠\n2 : 순대 국밥은 순대만 드세요? 부속까지 다 드세요?\n1 : 부속은 안 먹어요 다 드시나요?\n2 : 전 다 먹어요. 그러면은 사골 순대국은 어때요?\n1 : 좋죠 순대국에 그럼 다대기 넣어드시나요?\n2 : 처음에 그냥 먹다가 나중에 넣어요.\n2 : 어떻게 드세요?\n1 : 저는 거의 안 넣어서 먹어요 소금이나 후추간만 해요\n2 : 그러면 새우젓은 안 넣어서 드세요?\n1 : 아 새우젓 넣어서 먹어요 그게 제일 맛있어요\n2 : 김치랑 깍두기 중에서 어떤 거 드세요?\n1 : 둘 다 좋아해요 배추김치랑 깍두기를 너무 좋아해서\n2 : 밥은 말아서 드세요. 따로 드세요?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 국밥 종류 좋아하시나요",
+            "norm_text": "국밥 종류 좋아하시나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "국밥/NNG+종류/NNG+좋/VA+아/EC+하/VX+시/EP+나요/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 친구들이 저 보고 국밥충이라고 불러요.",
+            "norm_text": "친구들이 저 보고 국밥충이라고 불러요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "친구/NNG+들/XSN+이/JKS+저/NP+보고/JKB+국밥/NNG+충이/NNG+라고/VCP+EC+불러요/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 어떤 거 좋아하세요?",
+            "norm_text": "어떤 거 좋아하세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+거/NNB+좋/VA+아/EC+하/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 순대국밥 땡기네요",
+            "norm_text": "순대국밥 땡기네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "순대/NNG+국밥/NNG+땡기/VV+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 순대 말고 콩나물 국밥은 안 좋아하세요?",
+            "norm_text": "순대 말고 콩나물 국밥은 안 좋아하세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "순대/NNG+말/VV+고/EC+콩나물국/NNG+밥/NNG+은/JX+안/MAG+좋/VA+아/EC+하/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 콩나물 국밥도 가끔 먹으면 좋죠",
+            "norm_text": "콩나물 국밥도 가끔 먹으면 좋죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "콩나물국/NNG+밥/NNG+도/JX+가끔/MAG+먹/VV+으면/EC+좋/VA+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 순대 국밥은 순대만 드세요? 부속까지 다 드세요?",
+            "norm_text": "순대 국밥은 순대만 드세요? 부속까지 다 드세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "순대/NNG+국밥/NNG+은/JX+순대/NNG+만/JX+드세요/VV+EP+EF+부속/NNG+까지/JX+다/MAG+드세요/VV+EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 부속은 안 먹어요 다 드시나요?",
+            "norm_text": "부속은 안 먹어요 다 드시나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부속/NNG+은/JX+안/MAG+먹/VV+어요/EF+다/MAG+드/VV+시/EP+나요/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 전 다 먹어요. 그러면은 사골 순대국은 어때요?",
+            "norm_text": "전 다 먹어요. 그러면은 사골 순대국은 어때요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "전/NP+JX+다/MAG+먹/VV+어요/EF+그러면은/MAJ+사골/NNG+순/NNG+대국/NNG+은/JX+어때요/VA+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 좋죠 순대국에 그럼 다대기 넣어드시나요?",
+            "norm_text": "좋죠 순대국에 그럼 다대기 넣어드시나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+죠/EF+순/MM+대국/NNG+에/JKB+그럼/MAJ+다/MAG+대기/NNG+넣/VV+어/EC+드/VX+시/EP+나요/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 처음에 그냥 먹다가 나중에 넣어요.",
+            "norm_text": "처음에 그냥 먹다가 나중에 넣어요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "처음/NNG+에/JKB+그냥/MAG+먹/VV+다가/EC+나중/NNG+에/JKB+넣/VV+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어떻게 드세요?",
+            "norm_text": "어떻게 드세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떻게/MAG+드세요/VV+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 저는 거의 안 넣어서 먹어요 소금이나 후추간만 해요",
+            "norm_text": "저는 거의 안 넣어서 먹어요 소금이나 후추간만 해요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+거의/MAG+안/MAG+넣/VV+어서/EC+먹/VV+어요/EF+소금/NNG+이나/JC+후/NNG+추간/NNG+만/JX+해요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러면 새우젓은 안 넣어서 드세요?",
+            "norm_text": "그러면 새우젓은 안 넣어서 드세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러면/MAJ+새우젓/NNG+은/JX+안/MAG+넣/VV+어서/EC+드세요/VV+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 새우젓 넣어서 먹어요 그게 제일 맛있어요",
+            "norm_text": "아 새우젓 넣어서 먹어요 그게 제일 맛있어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+새우젓/NNG+넣/VV+어서/EC+먹/VV+어요/EF+그게/NP+JKS+제일/MAG+맛있/VA+어요/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 김치랑 깍두기 중에서 어떤 거 드세요?",
+            "norm_text": "김치랑 깍두기 중에서 어떤 거 드세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "김치/NNG+랑/JKB+깍두기/NNG+중/NNB+에서/JKB+어떤/MM+거/NNB+드세요/VV+EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 둘 다 좋아해요 배추김치랑 깍두기를 너무 좋아해서",
+            "norm_text": "둘 다 좋아해요 배추김치랑 깍두기를 너무 좋아해서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "둘/NR+다/MAG+좋/VA+아/EC+해요/VX+EF+배추김치/NNG+랑/JKB+깍두기/NNG+를/JKO+너무/MAG+좋/VA+아/EC+해서/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 밥은 말아서 드세요. 따로 드세요?",
+            "norm_text": "밥은 말아서 드세요. 따로 드세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "밥/NNG+은/JX+말/VV+아서/EC+드세요/VV+EP+EF+따로/MAG+드세요/VV+EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

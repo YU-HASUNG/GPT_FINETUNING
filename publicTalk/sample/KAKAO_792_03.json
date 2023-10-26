@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45002,
+    "name": "KAKAO_792_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143911034535/KAKAO_792_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143911034535/KAKAO_792_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38094,
+      "filename": "KAKAO_792_03.txt",
+      "title": "KAKAO_792_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 675,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 675,
+        "word_size": 208,
+        "text": "1 : 언니네 집 시외버스 터미널이랑 위치 가깝던가?\n2 : 우리 집 글케 멀진 않아 택시 타면 5분 걸어선 한 15분? ㅎ\n1 : 아니 말 나온 김에 조만간 얼라들 보러 갈까 했는데 생각해보니까 맨날 아빠 차만 타고 갔어 키키\n2 : 키키 그냥 유성에서 시외버스 타고 공주 시외버스 터미널에서 내리면 댜ㅎ\n1 : 옹 그렇군... 날씨 좋으면 뭐 내려서 사부작 걸어가도 되긴 하는디 걸어갈만 한가?\n2 : 짐 있으면 살짝 빡센데... 뭐 어차피 아무것도 안 가져올 거잖아 ㅋ\n1 : 키키 빈 몸으로 갔다가 반찬 훔쳐서 양손 가득 나오는 거지 ^0^!\n2 : 이 자식 키키 걸어오면 길은 알고 오는 겨?ㅎ\n1 : 네이버 지도와 함께 라면 나는 전국 어디든 다닐 수 있다. 누굴 길치로 아나!\n2 : 걱정 돼서 그러지~ 여긴 그래도 은근 시골이라 길이 헷갈릴 수도 있잖여 ㅎ\n1 : 노놉 동생을 그렇게 띄엄띄엄 보지 마시게. 해외에서도 구글 지도로 잘 다녔다 키키\n2 : 올 키키 그럼 알아서 찾아와 주소만 찍어서 보내줄게 ㅎ\n1 : 웅 키키 아 근데 언젠가 한번 씽씽이 타고 국도 타 보고 싶다 키키\n2 : 동생? 키키 위험해 ㅜ 대전권 벗어나는 것도 힘들지 않겠니\n1 : 아니 저번에 보니까 대청호 가는데 누가 씽씽이 타고 가더라고... 그래서 어씨 갈만한가? 했짘키키\n2 : 그 사람도 대단하다 ㅋ 중간에 배터리 나가면 어떻게 해?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니네 집 시외버스 터미널이랑 위치 가깝던가?",
+            "norm_text": "언니네 집 시외버스 터미널이랑 위치 가깝던가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니네/NNP+집/NNG+시외버스/NNG+터미널/NNG+이랑/JKB+위치/NNG+가깝/VA+던가/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리 집 글케 멀진 않아 택시 타면 5분 걸어선 한 15분? ㅎ",
+            "norm_text": "우리 집 글케 멀진 않아 택시 타면 5분 걸어선 한 15분? ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+집/NNG+글/NNG+케/XSV+EC+멀/VA+진/EC+JX+않/VX+아/EC+택시/NNG+타/VV+면/EC+5/SN+분/NNBC+걸/VV+어/EC+선한/VA+ETM+15/SN+분/NNBC+ㅎ/XSA"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 말 나온 김에 조만간 얼라들 보러 갈까 했는데 생각해보니까 맨날 아빠 차만 타고 갔어 키키",
+            "norm_text": "아니 말 나온 김에 조만간 얼라들 보러 갈까 했는데 생각해보니까 맨날 아빠 차만 타고 갔어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+말/NNG+나온/VV+ETM+김/NNB+에/JKB+조만간/MAG+얼라/NNG+들/XSN+보/VV+러/EC+갈까/VV+EC+했/VX+EP+는데/EC+생각/NNG+해/XSV+EC+보/VX+니까/EC+맨날/MAG+아빠/NNG+차/NNG+만/JX+타/VV+고/EC+갔/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 그냥 유성에서 시외버스 타고 공주 시외버스 터미널에서 내리면 댜ㅎ",
+            "norm_text": "키키 그냥 유성에서 시외버스 타고 공주 시외버스 터미널에서 내리면 댜ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+그냥/MAG+유성/NNP+에서/JKB+시외버스/NNG+타/VV+고/EC+공주/NNG+시외버스/NNG+터미널/NNG+에서/JKB+내리/VV+면/EC+댜/VV+EF+ㅎ/XSA"
+          },
+          {
+            "id": 5,
+            "text": "1 : 옹 그렇군... 날씨 좋으면 뭐 내려서 사부작 걸어가도 되긴 하는디 걸어갈만 한가?",
+            "norm_text": "옹 그렇군... 날씨 좋으면 뭐 내려서 사부작 걸어가도 되긴 하는디 걸어갈만 한가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "옹/NNG+그렇/VA+군/EF+./SY+날씨/NNG+좋/VA+으면/EC+뭐/IC+내려서/VV+EC+사부작/XR+걸어가/VV+EC+도/JX+되/VV+긴/ETN+JX+하/VX+는디/EC+걸어갈/VV+ETM+만/NNB+한가/XSA+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 짐 있으면 살짝 빡센데... 뭐 어차피 아무것도 안 가져올 거잖아 ㅋ",
+            "norm_text": "짐 있으면 살짝 빡센데... 뭐 어차피 아무것도 안 가져올 거잖아 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짐/NNG+있/VV+으면/EC+살짝/MAG+빡/MAG+센데/VA+EF+./SY+뭐/IC+어차피/MAG+아무것/NP+도/JX+안/MAG+가져올/VV+ETM+거/NNB+잖아/VCP+EC+VX+EC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 빈 몸으로 갔다가 반찬 훔쳐서 양손 가득 나오는 거지 ^0^!",
+            "norm_text": "키키 빈 몸으로 갔다가 반찬 훔쳐서 양손 가득 나오는 거지 ^0^!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+빈/VV+ETM+몸/NNG+으로/JKB+갔/VV+EP+다가/EC+반찬/NNG+훔쳐서/VV+EC+양손/NNG+가득/MAG+나오/VV+는/ETM+거/NNB+지/VCP+EC+^/SY+0/SN+^/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 이 자식 키키 걸어오면 길은 알고 오는 겨?ㅎ",
+            "norm_text": "이 자식 키키 걸어오면 길은 알고 오는 겨?ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이/MM+자식/NNG+키/NNG+키/XSV+ETN+걸어오/VV+면/EC+길/NNG+은/JX+알/VV+고/EC+오/VX+는겨/EF+ㅎ/XSA"
+          },
+          {
+            "id": 9,
+            "text": "1 : 네이버 지도와 함께 라면 나는 전국 어디든 다닐 수 있다. 누굴 길치로 아나!",
+            "norm_text": "네이버 지도와 함께 라면 나는 전국 어디든 다닐 수 있다. 누굴 길치로 아나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네이버/NNP+지도/NNG+와/JKB+함께/MAG+라면/VCP+EC+나/NP+는/JX+전국/NNG+어디/NP+든/VCP+EC+다닐/VV+ETM+수/NNB+있/VV+다/EF+누굴/NP+JKO+길치/NNG+로/JKB+아/VV+나/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 걱정 돼서 그러지~ 여긴 그래도 은근 시골이라 길이 헷갈릴 수도 있잖여 ㅎ",
+            "norm_text": "걱정 돼서 그러지~ 여긴 그래도 은근 시골이라 길이 헷갈릴 수도 있잖여 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걱정/NNG+돼서/XSV+EC+그러/VV+지/EC+~/SY+여긴/NP+JX+그래도/VV+EC+은근/NNG+시골/NNG+이/VCP+라/EC+길/NNG+이/JKS+헷갈릴/VV+ETM+수/NNB+도/JX+있/VA+잖여/EC+VX+EF+ㅎ/XSA"
+          },
+          {
+            "id": 11,
+            "text": "1 : 노놉 동생을 그렇게 띄엄띄엄 보지 마시게. 해외에서도 구글 지도로 잘 다녔다 키키",
+            "norm_text": "노놉 동생을 그렇게 띄엄띄엄 보지 마시게. 해외에서도 구글 지도로 잘 다녔다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "노/NNP+놉/NNG+동생/NNG+을/JKO+그렇게/MAG+띄엄띄엄/MAG+보/VV+지/EC+마시/VV+게/EC+./SY+해외/NNG+에서/JKB+도/JX+구글/NNG+지도/NNG+로/JKB+잘/MAG+다녔/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 12,
+            "text": "2 : 올 키키 그럼 알아서 찾아와 주소만 찍어서 보내줄게 ㅎ",
+            "norm_text": "올 키키 그럼 알아서 찾아와 주소만 찍어서 보내줄게 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "올키/NNG+키/XSV+ETN+그럼/MAJ+알/VV+아서/EC+찾아와/VV+EC+주/VX+소만/EC+찍/VV+어서/EC+보내/VV+EC+줄/VX+ETM+게/NNB+JKS+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "1 : 웅 키키 아 근데 언젠가 한번 씽씽이 타고 국도 타 보고 싶다 키키",
+            "norm_text": "웅 키키 아 근데 언젠가 한번 씽씽이 타고 국도 타 보고 싶다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/NNG+키/XSV+ETN+키/VV+아/EC+근데/MAJ+언젠가/MAG+한/MM+번/NNBC+씽씽이/NNG+타/VV+고/EC+국도/NNG+타/XSV+EC+보/VX+고/EC+싶/VX+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 동생? 키키 위험해 ㅜ 대전권 벗어나는 것도 힘들지 않겠니",
+            "norm_text": "동생? 키키 위험해 ㅜ 대전권 벗어나는 것도 힘들지 않겠니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+?/SY+키/NNG+키/NNG+위험/NNG+해/XSV+EC+ㅜ대/UNKNOWN+전권/NNG+벗어나/VV+는/ETM+것/NNB+도/JX+힘들/VA+지/EC+않/VX+겠/EP+니/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니 저번에 보니까 대청호 가는데 누가 씽씽이 타고 가더라고... 그래서 어씨 갈만한가? 했짘키키",
+            "norm_text": "아니 저번에 보니까 대청호 가는데 누가 씽씽이 타고 가더라고... 그래서 어씨 갈만한가? 했짘키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+저번/NNG+에/JKB+보/VV+니까/EC+대/XPN+청호/NNG+가/VV+는데/EC+누가/NP+JKS+씽씽이/NNG+타/VV+고/EC+가/VX+더라고/EF+./SY+그래서/MAJ+어/IC+씨갈/NNG+만/JX+한가/VV+EF+했짘키키/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그 사람도 대단하다 ㅋ 중간에 배터리 나가면 어떻게 해?",
+            "norm_text": "그 사람도 대단하다 ㅋ 중간에 배터리 나가면 어떻게 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+사람/NNG+도/JX+대단/XR+하/XSA+다/EF+ㅋ/UNKNOWN+중간/NNG+에/JKB+배터리/NNG+나가/VV+면/EC+어떻게/MAG+해/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

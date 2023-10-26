@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34775,
+    "name": "KAKAO_811_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170457006131/KAKAO_811_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170457006131/KAKAO_811_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38694,
+      "filename": "KAKAO_811_01.txt",
+      "title": "KAKAO_811_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 401,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 401,
+        "word_size": 132,
+        "text": "1 : 뭔가 해 먹기가 너무 귀찮아요 ㅠ\n2 : 아~ 그런 날 있지 키키 이해해 키키\n1 : 나가서 뭔가 가져오기도 싫고~\n2 : 그렇다고 아무거나 생으로 주워 먹기도 싫고~\n1 : 이런 날엔 역시 배달인 거 같은데 뭐 먹을까요?\n2 : 한국인은 국물이라고 역시 국물 있는 거?\n1 : 아~ 오늘은 또 국물 각이 아닌데 ㅠ\n2 : 그럼 간편한 패스트푸드? 어때?\n1 : 요즘 소화가 잘 안 되어서 패스트푸드도 좀 ㅠ\n2 : 디저트는 안 돼 ㅠ\n2 : 디저트는 식사가 아냐\n1 : 중식도 소화가 안 되니 역시 한식이 낫겠죠?\n2 : 한국인은 한국 음식을 먹어줘야지~\n1 : 아 키키 그냥 국물 있는 거 시킬래요\n2 : 아까는 국물 각 아니라더니?\n1 : 해장국 맛있어 보여서 ㅠ 어쩔 수가 없네요~\n2 : 키키 끌리면 시킬 수밖에 없지~! 달려~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 뭔가 해 먹기가 너무 귀찮아요 ㅠ",
+            "norm_text": "뭔가 해 먹기가 너무 귀찮아요 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+해/VV+EC+먹/VV+기/ETN+가/JKS+너무/MAG+귀찮/VA+아요/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아~ 그런 날 있지 키키 이해해 키키",
+            "norm_text": "아~ 그런 날 있지 키키 이해해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+그런/MM+날/NNG+있/VV+지/EC+키/NNG+키/NNG+이해/NNG+해/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나가서 뭔가 가져오기도 싫고~",
+            "norm_text": "나가서 뭔가 가져오기도 싫고~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나가/VV+서/EC+뭔가/NP+VCP+EC+가져오/VV+기/ETN+도/JX+싫/VA+고/EC+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그렇다고 아무거나 생으로 주워 먹기도 싫고~",
+            "norm_text": "그렇다고 아무거나 생으로 주워 먹기도 싫고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+다고/EC+아무/VV+거나/EC+생/NNG+으로/JKB+주워먹/VV+기/ETN+도/JX+싫/VA+고/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 이런 날엔 역시 배달인 거 같은데 뭐 먹을까요?",
+            "norm_text": "이런 날엔 역시 배달인 거 같은데 뭐 먹을까요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이런/MM+날/NNG+엔/JKB+JX+역시/MAJ+배달/NNG+인/VCP+ETM+거/NNB+같/VA+은데/EC+뭐/IC+먹/VV+을까요/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 한국인은 국물이라고 역시 국물 있는 거?",
+            "norm_text": "한국인은 국물이라고 역시 국물 있는 거?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한국인/NNG+은/JX+국물/NNG+이/VCP+라고/EC+역시/MAJ+국물/NNG+있/VA+는/ETM+거/NNB"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아~ 오늘은 또 국물 각이 아닌데 ㅠ",
+            "norm_text": "아~ 오늘은 또 국물 각이 아닌데 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+오늘/NNG+은/JX+또/MAG+국물/NNG+각/NNG+이/JKC+아닌데/VCN+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 간편한 패스트푸드? 어때?",
+            "norm_text": "그럼 간편한 패스트푸드? 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+간편/XR+한/XSA+ETM+패스트푸드/NNG+어때/VA+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 요즘 소화가 잘 안 되어서 패스트푸드도 좀 ㅠ",
+            "norm_text": "요즘 소화가 잘 안 되어서 패스트푸드도 좀 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+소화/NNG+가/JKS+잘/MAG+안/MAG+되/VV+어서/EC+패스트푸드/NNG+도/JX+좀ㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 디저트는 안 돼 ㅠ",
+            "norm_text": "디저트는 안 돼 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "디저트/NNG+는/JX+안/MAG+돼/VV+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 디저트는 식사가 아냐",
+            "norm_text": "디저트는 식사가 아냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "디저트/NNG+는/JX+식사/NNG+가/JKC+아냐/VCN+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 중식도 소화가 안 되니 역시 한식이 낫겠죠?",
+            "norm_text": "중식도 소화가 안 되니 역시 한식이 낫겠죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "중식/NNG+도/JX+소화/NNG+가/JKS+안/MAG+되/VV+니/EC+역시/MAJ+한식/NNG+이/JKS+낫/VV+겠/EP+죠/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 한국인은 한국 음식을 먹어줘야지~",
+            "norm_text": "한국인은 한국 음식을 먹어줘야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한국인/NNG+은/JX+한국/NNP+음식/NNG+을/JKO+먹/VV+어/EC+줘야지/VX+EF+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 키키 그냥 국물 있는 거 시킬래요",
+            "norm_text": "아 키키 그냥 국물 있는 거 시킬래요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+그냥/MAG+국물/NNG+있/VA+는/ETM+거/NNB+시킬/VV+ETM+래요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아까는 국물 각 아니라더니?",
+            "norm_text": "아까는 국물 각 아니라더니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아까/NNG+는/JX+국물/NNG+각/NNG+아니/VCN+라더니/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 해장국 맛있어 보여서 ㅠ 어쩔 수가 없네요~",
+            "norm_text": "해장국 맛있어 보여서 ㅠ 어쩔 수가 없네요~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해장국/NNG+맛있/VA+어/EC+보여/VV+EC+서ㅠ/UNKNOWN+어쩔/VV+ETM+수/NNB+가/JKS+없/VA+네요/EF+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 끌리면 시킬 수밖에 없지~! 달려~!",
+            "norm_text": "키키 끌리면 시킬 수밖에 없지~! 달려~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+끌리/VV+면/EC+시킬/VV+ETM+수/NNB+밖에/JX+없/VA+지/EC+~/SY+달려/VV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

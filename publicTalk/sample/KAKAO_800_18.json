@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45562,
+    "name": "KAKAO_800_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150443050858/KAKAO_800_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150443050858/KAKAO_800_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38329,
+      "filename": "KAKAO_800_18.txt",
+      "title": "KAKAO_800_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 382,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 382,
+        "word_size": 131,
+        "text": "1 : 도매 쇼핑몰 많다 키키\n2 : 몰랐습니다 거기서 마스크 도매가로 살 수 있습니까?\n1 : 그치 키키 근데 대량 구매해야 싸게 살 수 있다\n2 : 친구랑 같이 사서 반띵 해야겠습니다\n1 : 그런 사람도 많더라 키키 배송비도 나누고\n2 : 저도 그렇게 해야겠습니닼 키키 사이트 좀 알려 주세요\n1 : 알았다 키키 뭐 살 때 내한테 물어봐야 된다\n2 : 행님이 주문해 주시게요?\n1 : 아니 키키 주문은 니가 하고 니 살 때 필요한 거 있을 수도 있잖아\n2 : 아 키키 말씀드리겠습니다\n1 : 그래 키키 사이트 한번 봐 바라 좋은 거 많다\n2 : 구경 좀 해 봐야 될 거 같습니다\n1 : 마스크는 내가 알려 줄게\n2 : 네 옷 같은 것도 파네요\n1 : 옷은 사면 안 되더라...\n2 : 한 벌 사 보셨습니까?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 도매 쇼핑몰 많다 키키",
+            "norm_text": "도매 쇼핑몰 많다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도매/NNG+쇼핑몰/NNG+많/VA+다키키/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 몰랐습니다 거기서 마스크 도매가로 살 수 있습니까?",
+            "norm_text": "몰랐습니다 거기서 마스크 도매가로 살 수 있습니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몰랐/VV+EP+습니다/EF+거기/NP+서/JKB+마스크/NNG+도매가/NNG+로/JKB+살/VV+ETM+수/NNB+있/VV+습니까/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그치 키키 근데 대량 구매해야 싸게 살 수 있다",
+            "norm_text": "그치 키키 근데 대량 구매해야 싸게 살 수 있다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키/NNG+키/XSV+ETN+근데/MAJ+대량/NNG+구매/NNG+해야/XSV+EC+싸/VX+게/EC+살/VV+ETM+수/NNB+있/VV+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 친구랑 같이 사서 반띵 해야겠습니다",
+            "norm_text": "친구랑 같이 사서 반띵 해야겠습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "친구/NNG+랑/JKB+같이/MAG+사/VV+서/EC+반/NNG+띵/MAG+해야/VV+EC+VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런 사람도 많더라 키키 배송비도 나누고",
+            "norm_text": "그런 사람도 많더라 키키 배송비도 나누고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+사람/NNG+도/JX+많/VA+더라/EC+키/NNG+키/NNG+배송/NNG+비/NNG+도/JX+나누/VV+고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 저도 그렇게 해야겠습니닼 키키 사이트 좀 알려 주세요",
+            "norm_text": "저도 그렇게 해야겠습니닼 키키 사이트 좀 알려 주세요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "저/NP+도/JX+그렇/VA+게/EC+해야/VX+EC+VX+겠/EP+습니/EC+닼/NNG+키/NNG+키/NNG+사이트/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 알았다 키키 뭐 살 때 내한테 물어봐야 된다",
+            "norm_text": "알았다 키키 뭐 살 때 내한테 물어봐야 된다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "알/VV+았/EP+다키키/NNP+뭐/IC+살/VV+ETM+때/NNG+내/NNB+한테/JKB+물어봐야/VV+EC+된다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 행님이 주문해 주시게요?",
+            "norm_text": "행님이 주문해 주시게요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "행/NNG+님/XSN+이/JKS+주문/NNG+해/XSV+EC+주/VX+시/EP+게요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아니 키키 주문은 니가 하고 니 살 때 필요한 거 있을 수도 있잖아",
+            "norm_text": "아니 키키 주문은 니가 하고 니 살 때 필요한 거 있을 수도 있잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니키/NNP+키/NNG+주문/NNG+은/JX+니/NP+가/JKS+하/VV+고/EC+니/NP+살/VV+ETM+때/NNG+필요/NNG+한/XSA+ETM+거/NNB+있/VA+을/ETM+수/NNB+도/JX+있/VA+잖아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 키키 말씀드리겠습니다",
+            "norm_text": "아 키키 말씀드리겠습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아키/NNP+키/NNG+말씀/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래 키키 사이트 한번 봐 바라 좋은 거 많다",
+            "norm_text": "그래 키키 사이트 한번 봐 바라 좋은 거 많다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래/IC+키/NNG+키/NNG+사이트/NNG+한/MM+번/NNBC+봐/VV+EC+바라/VV+EC+좋/VA+은/ETM+거/NNB+많/VA+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 구경 좀 해 봐야 될 거 같습니다",
+            "norm_text": "구경 좀 해 봐야 될 거 같습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구경/NNG+좀/MAG+해/VV+EC+봐야/VX+EC+될/VV+ETM+거/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 마스크는 내가 알려 줄게",
+            "norm_text": "마스크는 내가 알려 줄게",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마스크/NNG+는/JX+내/NP+가/JKS+알려/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 14,
+            "text": "2 : 네 옷 같은 것도 파네요",
+            "norm_text": "네 옷 같은 것도 파네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+옷/NNG+같/VA+은/ETM+것/NNB+도/JX+파/VV+네요/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 옷은 사면 안 되더라...",
+            "norm_text": "옷은 사면 안 되더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "옷/NNG+은/JX+사면/NNG+안/MAG+되/VV+더라/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 한 벌 사 보셨습니까?",
+            "norm_text": "한 벌 사 보셨습니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+벌/NNBC+사/VV+EC+보/VX+셨/EP+EP+습니까/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

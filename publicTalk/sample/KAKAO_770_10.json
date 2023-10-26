@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44175,
+    "name": "KAKAO_770_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142043089114/KAKAO_770_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142043089114/KAKAO_770_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37800,
+      "filename": "KAKAO_770_10.txt",
+      "title": "KAKAO_770_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 364,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 364,
+        "word_size": 124,
+        "text": "1 : 너 설마 오늘도 밤에 운동할 거야?\n2 : 응 해야지 운동량이 없어서 큰일이야 ㅜ\n1 : 왜 그래 쉬엄 쉬엄 해\n2 : 하루에 30분씩 밖에 안 하는데 그거라도 해야지!\n1 : 그래도 너 되게 꾸준히 한다?\n2 : 아니야 하려고 노력하는 거지 나 피티 받고 싶어!\n1 : 너 피티가 얼만 줄 알고 하는 소리야?\n2 : 알지 비싸서 못 하는 거야 ㅜ\n1 : 사실 나도 하고 싶어\n2 : 야 요즘 논산 피티는 얼마냐?\n1 : 논산 30부터 시작 한다고 알고 있어\n2 : 야 30이면 완전 싼 거 아니냐?\n1 : 왜 서울은 얼마인데 그래?\n2 : 야 여기는 기본 50부터 시작한다고!\n1 : 대신 트레이너가 다르겠지 비싸\n2 : 키키 야 거기서 거기야 식단만 잘 조절하면 돼!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 설마 오늘도 밤에 운동할 거야?",
+            "norm_text": "너 설마 오늘도 밤에 운동할 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+설마/MAG+오늘/NNG+도/JX+밤/NNG+에/JKB+운동/NNG+할/XSV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 해야지 운동량이 없어서 큰일이야 ㅜ",
+            "norm_text": "응 해야지 운동량이 없어서 큰일이야 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+해야지/VV+EC+운동량/NNG+이/JKS+없/VA+어서/EC+큰일/NNG+이/VCP+야/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 왜 그래 쉬엄 쉬엄 해",
+            "norm_text": "왜 그래 쉬엄 쉬엄 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "왜/MAG+그래/IC+쉬엄쉬엄/MAG+해/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 하루에 30분씩 밖에 안 하는데 그거라도 해야지!",
+            "norm_text": "하루에 30분씩 밖에 안 하는데 그거라도 해야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하루/NNG+에/JKB+30/SN+분/NNBC+씩/XSN+밖에/JX+안/MAG+하/VV+는데/EC+그거/NP+라도/VCP+EC+해야지/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래도 너 되게 꾸준히 한다?",
+            "norm_text": "그래도 너 되게 꾸준히 한다?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+너/NP+되게/MAG+꾸준히/MAG+한다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니야 하려고 노력하는 거지 나 피티 받고 싶어!",
+            "norm_text": "아니야 하려고 노력하는 거지 나 피티 받고 싶어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+하/VV+려고/EC+노력/NNG+하/XSV+는/ETM+거/NNB+지나/VV+EC+피티/NNG+받/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 너 피티가 얼만 줄 알고 하는 소리야?",
+            "norm_text": "너 피티가 얼만 줄 알고 하는 소리야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+피티/NNG+가/JKS+얼만/NNG+VCP+ETM+줄/NNB+알/VV+고/EC+하/VV+는/ETM+소리/NNG+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 알지 비싸서 못 하는 거야 ㅜ",
+            "norm_text": "알지 비싸서 못 하는 거야 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+지/EC+비싸/VA+서/EC+못하/VX+는/ETM+거/NNB+야/VCP+EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 사실 나도 하고 싶어",
+            "norm_text": "사실 나도 하고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+나/NP+도/JX+하/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 야 요즘 논산 피티는 얼마냐?",
+            "norm_text": "야 요즘 논산 피티는 얼마냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+요즘/MAG+논산/NNP+피티/NNG+는/JX+얼마/NNG+냐/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 논산 30부터 시작 한다고 알고 있어",
+            "norm_text": "논산 30부터 시작 한다고 알고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "논산/NNP+30/SN+부터/JX+시작/NNG+한다고/XSV+EC+알/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 야 30이면 완전 싼 거 아니냐?",
+            "norm_text": "야 30이면 완전 싼 거 아니냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+30/SN+이/VCP+면/EC+완전/MAG+싼/VA+ETM+거/NNB+아니/VCN+냐/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 왜 서울은 얼마인데 그래?",
+            "norm_text": "왜 서울은 얼마인데 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+서울/NNP+은/JX+얼마/NNG+인데/VCP+EC+그래/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 야 여기는 기본 50부터 시작한다고!",
+            "norm_text": "야 여기는 기본 50부터 시작한다고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+여기/NP+는/JX+기본/NNG+50/SN+부터/JX+시작/NNG+한다고/XSV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 대신 트레이너가 다르겠지 비싸",
+            "norm_text": "대신 트레이너가 다르겠지 비싸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대신/NNG+트레이너/NNG+가/JKS+다르/VA+겠/EP+지/EC+비싸/VA+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 야 거기서 거기야 식단만 잘 조절하면 돼!",
+            "norm_text": "키키 야 거기서 거기야 식단만 잘 조절하면 돼!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+야/JKV+거기/NP+서/JKB+거기/NP+야/VCP+EF+식단/NNG+만/JX+잘/MAG+조절/NNG+하/XSV+면/EC+돼/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

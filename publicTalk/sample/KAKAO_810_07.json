@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 43950,
+    "name": "KAKAO_810_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202110011721420322107/KAKAO_810_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202110011721420322107/KAKAO_810_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39545,
+      "filename": "KAKAO_810_07.txt",
+      "title": "KAKAO_810_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 591,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 591,
+        "word_size": 174,
+        "text": "1 : 나도 둘째 낳고 혜택 받아 볼까 봐\n2 : 그래 둘째 낳는 게 좋아 외동은 애들도 외로워하더라구\n1 : 너... 둘째 아기 출산일이 언제였지?\n2 : 나? 올해 12월 말쯤 나와, 왜?\n1 : 그럼 자녀가 2명이 되는 건가?\n2 : 출생신고 하면 그렇게 되는 거지... 하하\n1 : 뉴스 보니까 요즘 다자녀 기준에 3명 적합이 많지 않아서, 내년부터는 다자녀 기준을 2인으로 축소 적용시켜 준대\n2 : 어? 2명부터 다자녀에 들어간다고?\n1 : 응 다자녀 해당자들이 많지 않아서 출산 장려 차원에서? 2명부터 다자녀 혜택을 내년부터 적용시켜 준다고 해서\n2 : 하긴, 요즘 주변만 봐도 외동이 대세이지, 2명도 많진 않더라\n1 : 나는 4남매인데 그런 혜택도 없었는데,\n1 : 심지어 난 대학교에서 가족 3명이 등록하면 마지막 들어온 사람 등록금 면제다.\n1 : 그래서 셋째까지 지원해서 붙었는데 그 년도에 그 혜택이 사라진 거야\n2 : 헐 너무 허망했겠는데? 어이없다.\n1 : 완전 어이없었지. 그래서 이 대학교로 지원한 건데.\n2 : 없어졌다는데 따질 수도 없고…\n1 : 응 그러니까... 너도 알아 둬라, 그리고, 혜택 잘 챙겨 먹구\n2 : 어, 이런 고급 정보 고마워 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나도 둘째 낳고 혜택 받아 볼까 봐",
+            "norm_text": "나도 둘째 낳고 혜택 받아 볼까 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+둘째/NR+낳/VV+고/EC+혜택/NNG+받/VV+아/EC+볼까/VX+EC+봐/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그래 둘째 낳는 게 좋아 외동은 애들도 외로워하더라구",
+            "norm_text": "그래 둘째 낳는 게 좋아 외동은 애들도 외로워하더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+둘째/NR+낳/VV+는/ETM+게/NNB+JKS+좋/VA+아/EC+외동/NNG+은/JX+애/NNG+들/XSN+도/JX+외로워/VA+EC+하/VV+더라구/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 너... 둘째 아기 출산일이 언제였지?",
+            "norm_text": "너... 둘째 아기 출산일이 언제였지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+./SY+둘째/NR+아기/NNG+출산/NNG+일/NNG+이/JKS+언제/NP+였/VCP+EP+지/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나? 올해 12월 말쯤 나와, 왜?",
+            "norm_text": "나? 올해 12월 말쯤 나와, 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+올해/NNG+12/SN+월/NNBC+말/NNB+쯤/XSN+나와/VV+EC+,/SC+왜/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그럼 자녀가 2명이 되는 건가?",
+            "norm_text": "그럼 자녀가 2명이 되는 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+자녀/NNG+가/JKS+2/SN+명/NNBC+이/JKS+되/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 출생신고 하면 그렇게 되는 거지... 하하",
+            "norm_text": "출생신고 하면 그렇게 되는 거지... 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "출생/NNG+신고/NNG+하/XSV+면/EC+그렇게/MAG+되/VV+는/ETM+거/NNB+지/VCP+EF+./SY+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 뉴스 보니까 요즘 다자녀 기준에 3명 적합이 많지 않아서, 내년부터는 다자녀 기준을 2인으로 축소 적용시켜 준대",
+            "norm_text": "뉴스 보니까 요즘 다자녀 기준에 3명 적합이 많지 않아서, 내년부터는 다자녀 기준을 2인으로 축소 적용시켜 준대",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뉴스/NNG+보/VV+니까/EC+요즘/NNG+다자녀/NNG+기준/NNG+에/JKB+3/SN+명/NNBC+적합/NNG+이/JKS+많/VA+지/EC+않/VX+아서/EC+,/SC+내년/NNG+부터/JX+는/JX+다자녀/NNG+기준/NNG+을/JKO+2/SN+인/NNG+으로/JKB+축소/NNG+적용/NNG+시켜/XSV+EC+준대/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어? 2명부터 다자녀에 들어간다고?",
+            "norm_text": "어? 2명부터 다자녀에 들어간다고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+?/SY+2/SN+명/NNBC+부터/JX+다자녀/NNG+에/JKB+들어간다고/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 다자녀 해당자들이 많지 않아서 출산 장려 차원에서? 2명부터 다자녀 혜택을 내년부터 적용시켜 준다고 해서",
+            "norm_text": "응 다자녀 해당자들이 많지 않아서 출산 장려 차원에서? 2명부터 다자녀 혜택을 내년부터 적용시켜 준다고 해서",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+다자녀/NNG+해당자/NNG+들/XSN+이/JKS+많/VA+지/EC+않/VX+아서/EC+출산/NNG+장려/NNG+차원/NNG+에서/JKB+?/SY+2/SN+명/NNBC+부터/JX+다자녀/NNG+혜택/NNG+을/JKO+내년/NNG+부터/JX+적용/NNG+시켜/XSV+EC+준다고/VX+EC+해서/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 하긴, 요즘 주변만 봐도 외동이 대세이지, 2명도 많진 않더라",
+            "norm_text": "하긴, 요즘 주변만 봐도 외동이 대세이지, 2명도 많진 않더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하긴/MAJ+,/SC+요즘/MAG+주변/NNG+만/JX+봐도/VV+EC+외동/NNG+이/JKS+대세/NNG+이/VCP+지/EF+,/SC+2/SN+명/NNBC+도/JX+많/VA+진/EC+JX+않/VX+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 4남매인데 그런 혜택도 없었는데,",
+            "norm_text": "나는 4남매인데 그런 혜택도 없었는데,",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+4/SN+남매/NNG+인데/VCP+EC+그런/MM+혜택/NNG+도/JX+없/VA+었/EP+는데/EC+,/SC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 심지어 난 대학교에서 가족 3명이 등록하면 마지막 들어온 사람 등록금 면제다.",
+            "norm_text": "심지어 난 대학교에서 가족 3명이 등록하면 마지막 들어온 사람 등록금 면제다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "심지어/MAG+난/VV+ETM+대학교/NNG+에서/JKB+가족/NNG+3/SN+명/NNBC+이/JKS+등록/NNG+하/XSV+면/EC+마지막/NNG+들어온/VV+ETM+사람/NNG+등록금/NNG+면제/NNG+다/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래서 셋째까지 지원해서 붙었는데 그 년도에 그 혜택이 사라진 거야",
+            "norm_text": "그래서 셋째까지 지원해서 붙었는데 그 년도에 그 혜택이 사라진 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+셋째/NR+까지/JX+지원/NNG+해서/XSV+EC+붙/VV+었/EP+는데/EC+그년/NP+도/JX+에/IC+그/MM+혜택/NNG+이/JKS+사라진/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 헐 너무 허망했겠는데? 어이없다.",
+            "norm_text": "헐 너무 허망했겠는데? 어이없다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+너무/MAG+허망/NNG+했/XSV+EP+겠/EP+는데/EF+어이없/VA+다/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 완전 어이없었지. 그래서 이 대학교로 지원한 건데.",
+            "norm_text": "완전 어이없었지. 그래서 이 대학교로 지원한 건데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "완전/MAG+어이없/VA+었/EP+지/EF+그래서/MAJ+이/MM+대학교/NNG+로/JKB+지원/NNG+한/XSA+ETM+건데/NNB+VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 없어졌다는데 따질 수도 없고…",
+            "norm_text": "없어졌다는데 따질 수도 없고…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "없/VA+어/EC+졌/VX+EP+다는/ETM+데/NNB+따질/VV+ETM+수/NNB+도/JX+없/VA+고/EC+…/SE"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 그러니까... 너도 알아 둬라, 그리고, 혜택 잘 챙겨 먹구",
+            "norm_text": "응 그러니까... 너도 알아 둬라, 그리고, 혜택 잘 챙겨 먹구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그러니까/MAJ+./SY+너/NP+도/JX+알/VV+아/EC+둬라/VX+EF+,/SC+그리고/MAJ+,/SC+혜택/NNG+잘/MAG+챙겨/VV+EC+먹/VV+구/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 어, 이런 고급 정보 고마워 하하",
+            "norm_text": "어, 이런 고급 정보 고마워 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "어/IC+,/SC+이런/MM+고급/NNG+정보/NNG+고마워/VA+EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

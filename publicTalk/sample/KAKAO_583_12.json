@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 28730,
+    "name": "KAKAO_583_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155950006852/KAKAO_583_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155950006852/KAKAO_583_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31583,
+      "filename": "KAKAO_583_12.txt",
+      "title": "KAKAO_583_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 391,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 391,
+        "word_size": 114,
+        "text": "1 : 미국에 가보셨나요?\n2 : 미국의 캘리포니아 비슷한 서귀포는 가봤네요\n1 : 서귀포는 어떤가요 한번도 안 가봤네요\n2 : 거기에 송악산이라고 있는데요 진짜로 예뻐요\n1 : 거기서 뭐가 이쁜가요 한라산보다 이쁜가여\n2 : 해안 절벽이고 평평한 초원 지대가 있어서 사진 찍기 좋아요\n1 : 초원 지대에 말도 뛰어다니나요\n2 : 눈앞에 가파도도 보이고 마라도도 보이고\n1 : 마라도 가서 짜장면 한번 먹어봤으면...\n2 : 산방산도 보여서 진짜로 좋아요\n1 : 그렇군요 거기 결혼 사진 많이 찍던데\n2 : 그리고 단산이라고도 있는데요 둘레길 최고죠\n1 : 둘레길 걸으면서 사진 찍고 싶네요\n2 : 그리고 수학여행 때 갔던 천지연 폭포 아세요?\n1 : 아니요 처음 들어보네요\n2 : 제주 3대 폭포 중 하나인데 물줄기가 예뻐요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 미국에 가보셨나요?",
+            "norm_text": "미국에 가보셨나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "미국/NNP+에/JKB+가/VV+EC+보/VX+셨/EP+EP+나요/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 미국의 캘리포니아 비슷한 서귀포는 가봤네요",
+            "norm_text": "미국의 캘리포니아 비슷한 서귀포는 가봤네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "미국/NNP+의/JKG+캘리포니아/NNP+비슷/XR+한/XSA+ETM+서귀포/NNG+는/JX+가/VV+EC+봤/VX+EP+네요/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 서귀포는 어떤가요 한번도 안 가봤네요",
+            "norm_text": "서귀포는 어떤가요 한번도 안 가봤네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "서귀포/NNG+는/JX+어떤/MM+가요/NNG+한/MM+번/NNBC+도/JX+안/MAG+가/VV+EC+봤/VX+EP+네요/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 거기에 송악산이라고 있는데요 진짜로 예뻐요",
+            "norm_text": "거기에 송악산이라고 있는데요 진짜로 예뻐요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+에/JKB+송악산/NNP+이/VCP+라고/EC+있/VX+는데요/EF+진짜로/MAG+예뻐요/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 거기서 뭐가 이쁜가요 한라산보다 이쁜가여",
+            "norm_text": "거기서 뭐가 이쁜가요 한라산보다 이쁜가여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+서/JKB+뭐/NP+가/JKS+이쁜/VA+ETM+가요/NNG+한/XSA+ETM+라산/NNG+보다/JKB+이쁜/VA+ETM+가여/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 해안 절벽이고 평평한 초원 지대가 있어서 사진 찍기 좋아요",
+            "norm_text": "해안 절벽이고 평평한 초원 지대가 있어서 사진 찍기 좋아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "해안/NNG+절벽/NNG+이/VCP+고/EC+평평/XR+한/XSA+ETM+초원/NNG+지대/NNG+가/JKS+있/VA+어서/EC+사진/NNG+찍/VV+기/ETN+좋/VA+아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 초원 지대에 말도 뛰어다니나요",
+            "norm_text": "초원 지대에 말도 뛰어다니나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "초원/NNG+지대/NNG+에/JKB+말/NNG+도/JX+뛰어다니/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 눈앞에 가파도도 보이고 마라도도 보이고",
+            "norm_text": "눈앞에 가파도도 보이고 마라도도 보이고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "눈앞/NNG+에/JKB+가/JKS+파도/NNG+도/JX+보이/VV+고/EC+마/VX+라도/EC+도/JX+보이/VV+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 마라도 가서 짜장면 한번 먹어봤으면...",
+            "norm_text": "마라도 가서 짜장면 한번 먹어봤으면...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마/NNG+라도/VCP+EC+가/VX+서/EC+짜장면/NNG+한/MM+번/NNBC+먹/VV+어/EC+봤/VX+EP+으면/EC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 산방산도 보여서 진짜로 좋아요",
+            "norm_text": "산방산도 보여서 진짜로 좋아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "산방산/NNP+도/JX+보여서/VV+EC+진짜/NNG+로/JKB+좋/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그렇군요 거기 결혼 사진 많이 찍던데",
+            "norm_text": "그렇군요 거기 결혼 사진 많이 찍던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+군요/EF+거기/NP+결혼사진/NNG+많이/MAG+찍/VV+던데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그리고 단산이라고도 있는데요 둘레길 최고죠",
+            "norm_text": "그리고 단산이라고도 있는데요 둘레길 최고죠",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+단산/NNG+이/VCP+라고/EC+도/JX+있/VA+는데요/EF+둘레길/NNP+최고/NNG+죠/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 둘레길 걸으면서 사진 찍고 싶네요",
+            "norm_text": "둘레길 걸으면서 사진 찍고 싶네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "둘레길/NNP+걸으면서/VV+EC+사진/NNG+찍/VV+고/EC+싶/VX+네요/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그리고 수학여행 때 갔던 천지연 폭포 아세요?",
+            "norm_text": "그리고 수학여행 때 갔던 천지연 폭포 아세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그리고/MAJ+수학여행/NNG+때/NNG+갔/VV+EP+던/ETM+천지/NNG+연폭/NNG+포아/NNG+세요/VCP+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니요 처음 들어보네요",
+            "norm_text": "아니요 처음 들어보네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니요/IC+처음/MAG+들/VV+어/EC+보/VX+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 제주 3대 폭포 중 하나인데 물줄기가 예뻐요",
+            "norm_text": "제주 3대 폭포 중 하나인데 물줄기가 예뻐요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제주/NNP+3/SN+대/NNBC+폭포/NNG+중/NNB+하나/NR+인데/VCP+EC+물줄기/NNG+가/JKS+예뻐요/VA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

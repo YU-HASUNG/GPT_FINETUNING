@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 25098,
+    "name": "KAKAO_479_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144520034049/KAKAO_479_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144520034049/KAKAO_479_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28182,
+      "filename": "KAKAO_479_12.txt",
+      "title": "KAKAO_479_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 611,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 611,
+        "word_size": 195,
+        "text": "1 : 제주도 갔다 왔는데 여행 팁 좀 줘 키키\n2 : 여행 팁? 키키 음...나는 계획적이게 갔다 온 게 아니라서 팁을 주기도 뭐 하네 키키\n1 : 앗... 키키 휴양지처럼 갔다 왔나 보네\n2 : 어 맞아 근데 느낀 점이 있어\n1 : 느낀 점? 키키 제주도 여행의 느낀 점이 뭐야 키키\n2 : 숙소 주변으로 여행지를 다녀야 된다는 거... 키키\n2 : 제주도 가까운 거린데도 신호가 많아서 진짜 오래 걸리더라...\n1 : 아아... 그래도 차는 별로 안 막히는 편 아닌가?\n1 : 반대쪽으로 일정 잡으면 곤란하지 키키\n2 : 어! 맞아 그리고 얼마 안 가서 어린이 보호 구역이야 키키\n1 : 키키 그건 다 천천히 풍경을 즐기라는 뜻이야\n2 : 어린이 보호 구역이 천지야... 난 성격이 급해서 빨리 가고 싶은데\n1 : 키키 여행을 가서 힐링하고 돌아와야지 키키 거기서도 빨리 빨리 키키\n2 : 키키 성격이 굉장히 화닥 화닥 한다 키키\n2 : 넌 제주도 여행 언제 갔니\n1 : 나 겨울에 갔었는데... 난 제주도 갈 때마다 비가 와... 엄청...\n2 : 아 겨울에도 비가 엄청 왔었어?\n1 : 응응 얼어 죽는 줄 알았지...\n1 : 진짜 몇 주 동안 맑다가 여행만 가면 비가 와 키키\n2 : 와... 비를 몰고 다니는 여자네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 제주도 갔다 왔는데 여행 팁 좀 줘 키키",
+            "norm_text": "제주도 갔다 왔는데 여행 팁 좀 줘 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "제주/NNP+도/JX+갔다왔/VV+EP+는데/EC+여행/NNG+팁/NNG+좀/MAG+줘/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 여행 팁? 키키 음...나는 계획적이게 갔다 온 게 아니라서 팁을 주기도 뭐 하네 키키",
+            "norm_text": "여행 팁? 키키 음...나는 계획적이게 갔다 온 게 아니라서 팁을 주기도 뭐 하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행/NNG+팁/NNG+?/SY+키/NNG+키/XSV+ETN+음/IC+./SY+나/NP+는/JX+계획/NNG+적/XSN+이/VCP+게/EC+갔다온/VV+ETM+게/NNB+JKC+아니/VCN+라서/EC+팁/NNG+을/JKO+주/VV+기/ETN+도/JX+뭐/IC+하네/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 앗... 키키 휴양지처럼 갔다 왔나 보네",
+            "norm_text": "앗... 키키 휴양지처럼 갔다 왔나 보네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앗/IC+./SY+키/NNG+키/NNG+휴양지/NNG+처럼/JKB+갔다왔/VV+EP+나/EC+보/VX+네/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어 맞아 근데 느낀 점이 있어",
+            "norm_text": "어 맞아 근데 느낀 점이 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞아/IC+근데/MAJ+느낀/VV+ETM+점/NNG+이/JKS+있/VV+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 느낀 점? 키키 제주도 여행의 느낀 점이 뭐야 키키",
+            "norm_text": "느낀 점? 키키 제주도 여행의 느낀 점이 뭐야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "느낀/VV+ETM+점/NNG+?/SY+키키/NNP+제주도/NNP+여행/NNG+의/JKG+느낀/VV+ETM+점/NNG+이/JKS+뭐/IC+야키/NNP+키/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 숙소 주변으로 여행지를 다녀야 된다는 거... 키키",
+            "norm_text": "숙소 주변으로 여행지를 다녀야 된다는 거... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "숙소/NNG+주변/NNG+으로/JKB+여행지/NNG+를/JKO+다녀야/VV+EC+된다는/VV+ETM+거/NNB+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 제주도 가까운 거린데도 신호가 많아서 진짜 오래 걸리더라...",
+            "norm_text": "제주도 가까운 거린데도 신호가 많아서 진짜 오래 걸리더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제주/NNP+도/JX+가까운/VA+ETM+거린데/NNG+VCP+EC+도/JX+신호/NNG+가/JKS+많/VA+아서/EC+진짜/MAG+오래/MAG+걸리/VV+더라/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아아... 그래도 차는 별로 안 막히는 편 아닌가?",
+            "norm_text": "아아... 그래도 차는 별로 안 막히는 편 아닌가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+./SY+그래도/MAJ+차/NNG+는/JX+별로/MAG+안/MAG+막히/VV+는/ETM+편/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 반대쪽으로 일정 잡으면 곤란하지 키키",
+            "norm_text": "반대쪽으로 일정 잡으면 곤란하지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "반대/NNG+쪽/NNB+으로/JKB+일정/NNG+잡/VV+으면/EC+곤란/NNG+하/XSV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 어! 맞아 그리고 얼마 안 가서 어린이 보호 구역이야 키키",
+            "norm_text": "어! 맞아 그리고 얼마 안 가서 어린이 보호 구역이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞아/IC+그리고/MAJ+얼마/NNG+안/MAG+가/VV+서/EC+어린이/NNG+보호구역/NNP+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 그건 다 천천히 풍경을 즐기라는 뜻이야",
+            "norm_text": "키키 그건 다 천천히 풍경을 즐기라는 뜻이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그건/NP+JX+다/MAG+천천히/MAG+풍경/NNG+을/JKO+즐기/VV+라는/ETM+뜻/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어린이 보호 구역이 천지야... 난 성격이 급해서 빨리 가고 싶은데",
+            "norm_text": "어린이 보호 구역이 천지야... 난 성격이 급해서 빨리 가고 싶은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어린이/NNG+보호구역/NNP+이/JKS+천지/NNG+야/VCP+EF+./SY+난/NP+JX+성격/NNG+이/JKS+급해서/VA+EC+빨리/MAG+가/VV+고/EC+싶/VX+은데/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 여행을 가서 힐링하고 돌아와야지 키키 거기서도 빨리 빨리 키키",
+            "norm_text": "키키 여행을 가서 힐링하고 돌아와야지 키키 거기서도 빨리 빨리 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+여행/NNG+을/JKO+가/VV+서/EC+힐링/NNG+하/XSV+고/EC+돌아와야/VV+EC+VX+지/EC+키/NNG+키/XSV+ETN+거기/NP+서/JKB+도/JX+빨리빨리/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 성격이 굉장히 화닥 화닥 한다 키키",
+            "norm_text": "키키 성격이 굉장히 화닥 화닥 한다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+성격/NNG+이/JKS+굉장히/MAG+화/NNG+닥/NNG+화/XSN+닥/NNG+한/XSA+ETM+다키키/NNP"
+          },
+          {
+            "id": 15,
+            "text": "2 : 넌 제주도 여행 언제 갔니",
+            "norm_text": "넌 제주도 여행 언제 갔니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+제주도/NNP+여행/NNG+언제/MAG+갔/VV+EP+니/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나 겨울에 갔었는데... 난 제주도 갈 때마다 비가 와... 엄청...",
+            "norm_text": "나 겨울에 갔었는데... 난 제주도 갈 때마다 비가 와... 엄청...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+겨울/NNG+에/JKB+갔었/VV+EP+는데/EC+./SY+./SY+난/NP+JX+제주/NNP+도/JX+갈/VV+ETM+때/NNG+마다/JX+비/NNG+가/JKS+와/VV+EF+./SY+엄청/MAG+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 겨울에도 비가 엄청 왔었어?",
+            "norm_text": "아 겨울에도 비가 엄청 왔었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+겨울/NNG+에/JKB+도비/NNG+가/JKS+엄청/MAG+왔었/VV+EP+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 응응 얼어 죽는 줄 알았지...",
+            "norm_text": "응응 얼어 죽는 줄 알았지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+얼/VV+어/EC+죽/VV+는/ETM+줄/NNB+알/VV+았/EP+지/EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 진짜 몇 주 동안 맑다가 여행만 가면 비가 와 키키",
+            "norm_text": "진짜 몇 주 동안 맑다가 여행만 가면 비가 와 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+몇/MM+주/NNBC+동안/NNG+맑/VA+다가/EC+여행/NNG+만/JX+가/VV+면/EC+비가/NNG+와/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 와... 비를 몰고 다니는 여자네",
+            "norm_text": "와... 비를 몰고 다니는 여자네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+비/NNG+를/JKO+몰/VV+고/EC+다니/VV+는/ETM+여자/NNG+네/XSN"
+          }
+        ]
+      }
+    }
+  ]
+}

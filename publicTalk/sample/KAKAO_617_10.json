@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32156,
+    "name": "KAKAO_617_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109241217390143104/KAKAO_617_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109241217390143104/KAKAO_617_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32323,
+      "filename": "KAKAO_617_10.txt",
+      "title": "KAKAO_617_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 385,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 385,
+        "word_size": 131,
+        "text": "1 : 이번 주에 강아지 데리고 펜션 갔다 오려구요 키키\n2 : 펜션에 강아지 데리고 가도 돼?\n1 : 요즘은 동반 가능한 펜션 많아요 키키\n2 : 사람이 가는 거냐 개가 가는 거냐 대체~\n1 : 사람이랑 개랑 같이 가는 거죠 키키\n2 : 강아지 똥 오줌은 어쩌려구\n1 : 펜션에서도 그런 거 다 신경 써서 괜찮아요 키키\n2 : 그게 장난이 아닐 텐데…\n1 : 거기 뭐 강아지 수영장도 있는걸요 키키\n2 : 강아지 수영장? 펜션에\n1 : 네네 키키 요즘은 그런 거도 많이 해요 키키\n2 : 물에 개털이 아주 난리것네~\n1 : 청소하고 그러겠죠 키키\n1 : 안 그럼 안 되죠 키키\n2 : 하긴 그런 덴 청소도 엄청 해 놓을 거다\n1 : 안 그럼 손님 못 받죠 키키\n2 : 그러니깐~ 조심해서 다녀와 강아지도 잘 보살피고",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번 주에 강아지 데리고 펜션 갔다 오려구요 키키",
+            "norm_text": "이번 주에 강아지 데리고 펜션 갔다 오려구요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+주/NNG+에/JKB+강아지/NNG+데리/VV+고/EC+펜션/NNG+갔다오/VV+려구/EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 펜션에 강아지 데리고 가도 돼?",
+            "norm_text": "펜션에 강아지 데리고 가도 돼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "펜션/NNG+에/JKB+강아지/NNG+데리/VV+고/EC+가/VX+도/EC+돼/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 요즘은 동반 가능한 펜션 많아요 키키",
+            "norm_text": "요즘은 동반 가능한 펜션 많아요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+동반/NNG+가능/NNG+한/XSA+ETM+펜션/NNG+많/VA+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 사람이 가는 거냐 개가 가는 거냐 대체~",
+            "norm_text": "사람이 가는 거냐 개가 가는 거냐 대체~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사람/NNG+이/JKS+가/VV+는/ETM+거/NNB+냐/VCP+EC+개/NNG+가/JKS+가/VV+는/ETM+거/NNB+냐/VCP+EC+대체/NNG+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 사람이랑 개랑 같이 가는 거죠 키키",
+            "norm_text": "사람이랑 개랑 같이 가는 거죠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사람/NNG+이랑/JC+개/NNBC+랑/JKB+같이/MAG+가/VV+는/ETM+거/NNB+죠/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 강아지 똥 오줌은 어쩌려구",
+            "norm_text": "강아지 똥 오줌은 어쩌려구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "강아지똥/NNP+오줌/NNG+은/JX+어쩌/VV+려구/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 펜션에서도 그런 거 다 신경 써서 괜찮아요 키키",
+            "norm_text": "펜션에서도 그런 거 다 신경 써서 괜찮아요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "펜션/NNG+에서/JKB+도/JX+그런/MM+거/NNB+다/MAG+신경/NNG+써서/VV+EC+괜찮/VA+아요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그게 장난이 아닐 텐데…",
+            "norm_text": "그게 장난이 아닐 텐데…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+장난/NNG+이/JKC+아닐/VCN+ETM+텐데/NNB+VCP+EC+…/SE"
+          },
+          {
+            "id": 9,
+            "text": "1 : 거기 뭐 강아지 수영장도 있는걸요 키키",
+            "norm_text": "거기 뭐 강아지 수영장도 있는걸요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+뭐/IC+강아지/NNG+수영장/NNG+도/JX+있/VX+는/ETM+걸/NNB+JKO+요키/NNP+키/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 강아지 수영장? 펜션에",
+            "norm_text": "강아지 수영장? 펜션에",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "강아지/NNG+수영장/NNG+?/SY+펜션/NNG+에/JKB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 네네 키키 요즘은 그런 거도 많이 해요 키키",
+            "norm_text": "네네 키키 요즘은 그런 거도 많이 해요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/NP+네/XSN+키/NNG+키/NNG+요즘/NNG+은/JX+그런/MM+거/NNB+도/JX+많이/MAG+해요/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 물에 개털이 아주 난리것네~",
+            "norm_text": "물에 개털이 아주 난리것네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "물/NNG+에/JKB+개털/NNG+이/JKS+아주/MAG+난리/NNG+것/NNB+네/XSN+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 청소하고 그러겠죠 키키",
+            "norm_text": "청소하고 그러겠죠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "청소/NNG+하/XSV+고/EC+그러/VV+겠/EP+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 안 그럼 안 되죠 키키",
+            "norm_text": "안 그럼 안 되죠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그럼/VV+EC+안/MAG+되/VV+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 하긴 그런 덴 청소도 엄청 해 놓을 거다",
+            "norm_text": "하긴 그런 덴 청소도 엄청 해 놓을 거다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+그런/MM+덴/NNB+JKB+JX+청소/NNG+도/JX+엄청/MAG+해/VV+EC+놓/VX+을/ETM+거/NNB+다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 안 그럼 손님 못 받죠 키키",
+            "norm_text": "안 그럼 손님 못 받죠 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그럼/VV+EC+손/NNG+님/XSN+못/MAG+받/VV+죠/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그러니깐~ 조심해서 다녀와 강아지도 잘 보살피고",
+            "norm_text": "그러니깐~ 조심해서 다녀와 강아지도 잘 보살피고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니깐/MAJ+~/SY+조심/NNG+해서/XSV+EC+다녀와/VV+EC+강아지/NNG+도/JX+잘/MAG+보살피/VV+고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 24299,
+    "name": "KAKAO_590_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141523063071/KAKAO_590_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141523063071/KAKAO_590_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30537,
+      "filename": "KAKAO_590_04.txt",
+      "title": "KAKAO_590_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 585,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 585,
+        "word_size": 193,
+        "text": "1 : 넌 직장 생활할 때 야근 많았어?\n2 : 아니... 우린 그 야근 수당 안 줄려고 하지 마라고 했엉 키키\n1 : 아 키키 그게 좋은 건가? 그럼 매일 칼퇴 했겠네\n2 : 아니지 키키 어쩔 수 없이 남아서 일할 때도 많았지 키키\n2 : 그래서 요새는 다시 주는 거 같더라 말이 많이 나와서\n1 : 아 진짜? 키키 그래 일이 많으면 해야지 어쩌겠노\n2 : 응응 ㅠㅠ 돈 안 받고 하면 너무 억울해 뭔가가 ㅠㅠ\n1 : 난 연봉에 야근도 다 포함돼 있어서 해도 안 해도 돈이 똑같아 ㅠ\n2 : 헐 아 진짜로? 최악이다 ㅠㅠ 그럼 안 해야지\n1 : 그래서 업무 시간에 최대한 집중하게 된다 키키\n2 : 맞아... 난 진짜 칼퇴 하려고 점심 시간에도 일하고 했어 남아서 하는 게 더 싫어서\n1 : 헐... 그래도 점심시간엔 커피 마시고 좀 쉬어야지\n2 : 우린 근데 바빠서 점심시간도 따로 없었다는... 30분이 다야\n1 : 헐 30분? ㅜㅜ 그건 너무 가혹한 업무 환경인데\n2 : 키키 병원이란 곳이 다 그렇답니다 키키 최악의 직장이야\n1 : 키키 그래도... 뭔가 장점이 있긴 하지?\n2 : 음… 딱히 없는 거 같애 키키\n2 : 나 지금 삼교대 안 하는 거? 오직 그거  하나",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 넌 직장 생활할 때 야근 많았어?",
+            "norm_text": "넌 직장 생활할 때 야근 많았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+직장/NNG+생활/NNG+할/XSV+ETM+때/NNG+야근/NNG+많/VA+았/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니... 우린 그 야근 수당 안 줄려고 하지 마라고 했엉 키키",
+            "norm_text": "아니... 우린 그 야근 수당 안 줄려고 하지 마라고 했엉 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+./SY+우린/NP+JX+그/MM+야근/NNG+수당/NNG+안/MAG+줄려고/VV+EC+하/VV+지/EC+마/VX+라고/EC+했/VX+EP+엉/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 키키 그게 좋은 건가? 그럼 매일 칼퇴 했겠네",
+            "norm_text": "아 키키 그게 좋은 건가? 그럼 매일 칼퇴 했겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아키/NNP+키/NNG+그게/NP+JKS+좋/VA+은/ETM+건가/NNB+VCP+EF+그럼/MAJ+매일/MAG+칼/NNG+퇴/NNG+했/XSV+EP+겠/EP+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니지 키키 어쩔 수 없이 남아서 일할 때도 많았지 키키",
+            "norm_text": "아니지 키키 어쩔 수 없이 남아서 일할 때도 많았지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/VCN+지/EC+키/NNG+키/XSV+ETN+어쩔/VV+ETM+수/NNB+없이/MAG+남/VV+아서/EC+일/NNG+할/XSV+ETM+때/NNG+도/JX+많/VA+았/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그래서 요새는 다시 주는 거 같더라 말이 많이 나와서",
+            "norm_text": "그래서 요새는 다시 주는 거 같더라 말이 많이 나와서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+요새/NNG+는/JX+다시/MAG+주/VV+는/ETM+거/NNB+같/VA+더라/EC+말/NNG+이/JKS+많이/MAG+나와서/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 진짜? 키키 그래 일이 많으면 해야지 어쩌겠노",
+            "norm_text": "아 진짜? 키키 그래 일이 많으면 해야지 어쩌겠노",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/XSV+ETN+그래/VA+EC+일/NNG+이/JKS+많/VA+으면/EC+해야지/VX+EC+어쩌/VV+겠/EP+노/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응응 ㅠㅠ 돈 안 받고 하면 너무 억울해 뭔가가 ㅠㅠ",
+            "norm_text": "응응 ㅠㅠ 돈 안 받고 하면 너무 억울해 뭔가가 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+ㅠㅠ/UNKNOWN+돈/NNG+안/MAG+받/VV+고/EC+하/VV+면/EC+너무/MAG+억울/XR+해/XSA+EC+뭔가/NP+VCP+EC+가/VX+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 난 연봉에 야근도 다 포함돼 있어서 해도 안 해도 돈이 똑같아 ㅠ",
+            "norm_text": "난 연봉에 야근도 다 포함돼 있어서 해도 안 해도 돈이 똑같아 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+연봉/NNG+에/JKB+야근/NNG+도/JX+다/MAG+포함/NNG+돼/XSV+EC+있/VX+어서/EC+해도/VV+EC+안/MAG+해도/VV+EC+돈/NNG+이/JKS+똑같/VA+아/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 헐 아 진짜로? 최악이다 ㅠㅠ 그럼 안 해야지",
+            "norm_text": "헐 아 진짜로? 최악이다 ㅠㅠ 그럼 안 해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+아/IC+진짜로/MAG+최악/NNG+이/VCP+다/EF+ㅠㅠ/UNKNOWN+그럼/MAJ+안/MAG+해야지/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그래서 업무 시간에 최대한 집중하게 된다 키키",
+            "norm_text": "그래서 업무 시간에 최대한 집중하게 된다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+업무/NNG+시간/NNG+에/JKB+최대한/NNG+집중/NNG+하/XSV+게/EC+된/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 11,
+            "text": "2 : 맞아... 난 진짜 칼퇴 하려고 점심 시간에도 일하고 했어 남아서 하는 게 더 싫어서",
+            "norm_text": "맞아... 난 진짜 칼퇴 하려고 점심 시간에도 일하고 했어 남아서 하는 게 더 싫어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+./SY+난/NP+JX+진짜/MAG+칼/NNG+퇴/NNG+하/XSV+려고/EC+점심/NNG+시간/NNG+에/JKB+도/JX+일/NNG+하/XSV+고/EC+했/VX+EP+어/EC+남/VV+아서/EC+하/VV+는/ETM+게/NNB+JKS+더/MAG+싫/VA+어서/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 헐... 그래도 점심시간엔 커피 마시고 좀 쉬어야지",
+            "norm_text": "헐... 그래도 점심시간엔 커피 마시고 좀 쉬어야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+그래도/MAJ+점심/NNG+시간/NNG+엔/JKB+JX+커피/NNG+마시/VV+고/EC+좀/MAG+쉬/VV+어야지/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 우린 근데 바빠서 점심시간도 따로 없었다는... 30분이 다야",
+            "norm_text": "우린 근데 바빠서 점심시간도 따로 없었다는... 30분이 다야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우린/NP+JX+근데/MAJ+바빠서/VA+EC+점심/NNG+시간/NNG+도/JX+따로/MAG+없/VA+었/EP+다는/ETM+./SY+./SY+30/SN+분/NNBC+이/JKS+다야/NNG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 헐 30분? ㅜㅜ 그건 너무 가혹한 업무 환경인데",
+            "norm_text": "헐 30분? ㅜㅜ 그건 너무 가혹한 업무 환경인데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+ETM+30/SN+분/NNBC+ㅜㅜ/UNKNOWN+그건/NP+JX+너무/MAG+가혹/XR+한/XSA+ETM+업무/NNG+환경/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 병원이란 곳이 다 그렇답니다 키키 최악의 직장이야",
+            "norm_text": "키키 병원이란 곳이 다 그렇답니다 키키 최악의 직장이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+병원/NNG+이/VCP+란/ETM+곳/NNG+이/JKS+다/MAG+그렇/VA+답니다/EC+키/NNG+키/NNG+최악/NNG+의/JKG+직장/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 그래도... 뭔가 장점이 있긴 하지?",
+            "norm_text": "키키 그래도... 뭔가 장점이 있긴 하지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+./SY+뭔가/NP+VCP+EC+장점/NNG+이/JKS+있/VV+긴/ETN+JX+하/VX+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 음… 딱히 없는 거 같애 키키",
+            "norm_text": "음… 딱히 없는 거 같애 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+…/SE+딱히/MAG+없/VA+는/ETM+거/NNB+같/VA+애/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나 지금 삼교대 안 하는 거? 오직 그거  하나",
+            "norm_text": "나 지금 삼교대 안 하는 거? 오직 그거  하나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+지금/MAG+삼교/NNG+대안/NNG+하/XSV+는/ETM+거/NNB+오직/MAG+그거/NP+하나/NR"
+          }
+        ]
+      }
+    }
+  ]
+}

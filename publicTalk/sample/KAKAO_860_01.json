@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 48670,
+    "name": "KAKAO_860_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202110011746500150106/KAKAO_860_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202110011746500150106/KAKAO_860_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40199,
+      "filename": "KAKAO_860_01.txt",
+      "title": "KAKAO_860_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 535,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 535,
+        "word_size": 185,
+        "text": "1 : 오늘 저녁 메뉴는 무엇인가요 키키\n2 : 백신 2차를 맞기 때문에 아마 고기 먹을 것 같아!\n1 : 오호! 백신 2차 오늘 맞는 거야?\n2 : 응응 잔여 잡아서 오늘 맞으러 갈 거임 키키\n1 : 오호 키키 몇 주 만에 맞는 거야?\n2 : 나 3주! 딱 3주에 걸려서 맞으러 감\n1 : 오호 짧게 맞아도 괜찮은가 보네 키키\n1 : 길게 텀 두고 맞는 게 좋다고 해서\n2 : 정부 보도자료 보니까 화이자는 3주 이상의 텀만 있으면 되더라고 키키\n1 : 아하 키키 나도 백신 2차 앞당길까 고민 중이거든 키키\n2 : 최소 기간만 채웠다면 빨리 맞아도 될 거임 응응 함 확인해 봐\n1 : 응 키키 고기 맛있게 먹어 키키 2차 안 아프길 키키\n2 : 안 그래도 1차 때 고생해서 2차는 덜하길 기원 중…\n1 : 1차 때 심하면 2차 때 덜하다는 소리 있으니까 괜찮을 거야 키키\n2 : 제발 그러길 키키\n2 : 이번에 맞고 나면 추석 연휴 때 쉴 수 있으니까 그래도 좀 낫다\n1 : 응 키키 백신 맞고 집에서 푹 쉬면서 맛난 거 먹고 딱 좋다 키키\n2 : 날씨가 좀 안 도와주기는 하네 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 저녁 메뉴는 무엇인가요 키키",
+            "norm_text": "오늘 저녁 메뉴는 무엇인가요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+저녁/NNG+메뉴/NNG+는/JX+무엇/NP+인/VCP+ETM+가요/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 백신 2차를 맞기 때문에 아마 고기 먹을 것 같아!",
+            "norm_text": "백신 2차를 맞기 때문에 아마 고기 먹을 것 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백신/NNG+2/SN+차/NNBC+를/JKO+맞/VV+기/ETN+때문/NNB+에/JKB+아마/MAG+고기/NNG+먹/VV+을/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오호! 백신 2차 오늘 맞는 거야?",
+            "norm_text": "오호! 백신 2차 오늘 맞는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/IC+백신/NNG+2/SN+차/NNBC+오늘/MAG+맞/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 잔여 잡아서 오늘 맞으러 갈 거임 키키",
+            "norm_text": "응응 잔여 잡아서 오늘 맞으러 갈 거임 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+잔여/NNG+잡/VV+아서/EC+오늘/MAG+맞/VV+으러/EC+갈/VX+ETM+거/NNB+임/VCP+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오호 키키 몇 주 만에 맞는 거야?",
+            "norm_text": "오호 키키 몇 주 만에 맞는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/IC+키/NNG+키/XSV+ETN+몇/MM+주/NNBC+만/NNB+에/JKB+맞/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나 3주! 딱 3주에 걸려서 맞으러 감",
+            "norm_text": "나 3주! 딱 3주에 걸려서 맞으러 감",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+3/SN+주/NNBC+딱/MAG+3/SN+주/NNBC+에/JKB+걸려서/VV+EC+맞/VV+으러/EC+감/VX+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오호 짧게 맞아도 괜찮은가 보네 키키",
+            "norm_text": "오호 짧게 맞아도 괜찮은가 보네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+짧/VA+게/EC+맞/VV+아도/EC+괜찮/VA+은가/EC+보/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 길게 텀 두고 맞는 게 좋다고 해서",
+            "norm_text": "길게 텀 두고 맞는 게 좋다고 해서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "길/VA+게/EC+텀/NNG+두/VV+고/EC+맞/VV+는/ETM+게/NNB+JKS+좋/VA+다고/EC+해서/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 정부 보도자료 보니까 화이자는 3주 이상의 텀만 있으면 되더라고 키키",
+            "norm_text": "정부 보도자료 보니까 화이자는 3주 이상의 텀만 있으면 되더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정부/NNG+보도/NNG+자료/NNG+보/VV+니까/EC+화이자/NNP+는/JX+3/SN+주/NNBC+이상/NNG+의/JKG+텀/NNG+만/JX+있/VX+으면/EC+되/VV+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아하 키키 나도 백신 2차 앞당길까 고민 중이거든 키키",
+            "norm_text": "아하 키키 나도 백신 2차 앞당길까 고민 중이거든 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+하키/NNG+키나/XSA+ETN+JX+도/JX+백신/NNG+2/SN+차/NNBC+앞/NNG+당길까/VV+EF+고민/NNG+중/NNB+이/VCP+거든/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 최소 기간만 채웠다면 빨리 맞아도 될 거임 응응 함 확인해 봐",
+            "norm_text": "최소 기간만 채웠다면 빨리 맞아도 될 거임 응응 함 확인해 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "최소/NNG+기간/NNG+만/JX+채웠/VV+EP+다면/EC+빨리/MAG+맞/VV+아도/EC+될/VV+ETM+거/NNB+임/VCP+ETN+응응/MAG+함/XSA+ETN+확인/NNG+해/XSV+EC+봐/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응 키키 고기 맛있게 먹어 키키 2차 안 아프길 키키",
+            "norm_text": "응 키키 고기 맛있게 먹어 키키 2차 안 아프길 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+고기/NNG+맛있/VA+게/EC+먹/VV+어/EC+키/NNG+키/XSV+ETN+2/SN+차/NNBC+안/MAG+아프/VA+길/ETN+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 안 그래도 1차 때 고생해서 2차는 덜하길 기원 중…",
+            "norm_text": "안 그래도 1차 때 고생해서 2차는 덜하길 기원 중…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+1/SN+차/NNBC+때/NNG+고생/NNG+해서/XSV+EC+2/SN+차/NNBC+는/JX+덜/MAG+하/VV+길/ETN+JKO+기원/NNG+중/NNB+…/SE"
+          },
+          {
+            "id": 14,
+            "text": "1 : 1차 때 심하면 2차 때 덜하다는 소리 있으니까 괜찮을 거야 키키",
+            "norm_text": "1차 때 심하면 2차 때 덜하다는 소리 있으니까 괜찮을 거야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "1/SN+차/NNBC+때/NNG+심하/VA+면/EC+2/SN+차/NNBC+때/NNG+덜하/VA+다는/ETM+소리/NNG+있/VV+으니까/EC+괜찮/VA+을/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 제발 그러길 키키",
+            "norm_text": "제발 그러길 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제발/MAG+그러/VV+길/ETN+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이번에 맞고 나면 추석 연휴 때 쉴 수 있으니까 그래도 좀 낫다",
+            "norm_text": "이번에 맞고 나면 추석 연휴 때 쉴 수 있으니까 그래도 좀 낫다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+맞/VV+고/EC+나/VX+면/EC+추석/NNG+연휴/NNG+때/NNG+쉴/VV+ETM+수/NNB+있/VV+으니까/EC+그래도/VV+EC+좀/MAG+낫/VA+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 키키 백신 맞고 집에서 푹 쉬면서 맛난 거 먹고 딱 좋다 키키",
+            "norm_text": "응 키키 백신 맞고 집에서 푹 쉬면서 맛난 거 먹고 딱 좋다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+백신/NNG+맞/VV+고/EC+집/NNG+에서/JKB+푹/MAG+쉬/VV+면서/EC+맛난/VA+ETM+거/NNB+먹/VV+고/EC+딱/MAG+좋/VA+다키키/NNP"
+          },
+          {
+            "id": 18,
+            "text": "2 : 날씨가 좀 안 도와주기는 하네 키키",
+            "norm_text": "날씨가 좀 안 도와주기는 하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "날씨/NNG+가/JKS+좀/MAG+안/MAG+도와/VV+EC+주/VX+기/ETN+는/JX+하네/NNG+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

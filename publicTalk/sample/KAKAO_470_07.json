@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 21068,
+    "name": "KAKAO_470_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150900033328/KAKAO_470_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150900033328/KAKAO_470_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28557,
+      "filename": "KAKAO_470_07.txt",
+      "title": "KAKAO_470_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 635,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 635,
+        "word_size": 190,
+        "text": "1 : 너희 어머니 이제 몸 완전 괜찮으셔?\n2 : 아직;; 거기다 계속 일하니까... 더 나빠지는 것 같아;;\n1 : 헐? 어떡해 무리하시는 거 아니가 ㅠ\n2 : 쉬라고 해도 그게 잘 안되나 봐;;\n2 : 집에서도 계속 멀 하고;;\n1 : 가만히 계시는 게 힘든가 보다 아님 할 일이 계속 생기거나\n2 : 거기다가 예전 생각으로 계속 몸을 움직여;;\n2 : 저번에는 나무에 올라가더라니까;;\n1 : 아? 키키 당황스럽네 나무를 키키\n2 : 감 따다가 높은 곳에 있으니까 거길 올라가는 거야;;\n2 : 내가 놀라서 내려오라니까 어릴 때 자주 올라갔다면서;;\n1 : 키키 그래도 대단하시다 키키\n1 : 난 어릴 때도 감히 도전 못했는데 키키\n2 : 나도;; 이제 나이 있으니까 예전처럼 막 움직이면 안 된다고 하는데 그게 안되나 봐;;\n1 : 응응 키키 예전이랑 다르니까 확실히 조심하긴 하셔야겠다 키키\n2 : 엄마랑 아빠는 이제 나이가 있어서 아프면 병원도 가고 조심해야 하는데 그냥 잔소리라고 하지 뭐;;\n1 : 키키 니가 걱정이 진짜 많겠다 키키\n2 : 예전에는 내가 잔소리를 들었는데 요즘은 반대야;;\n2 : 내가 하고 엄마, 아빠가 듣고;;\n1 : 키키 그래도 부모님은 안 들으시겠지 알아서 한다고 키키\n2 : 예전에 내가 그렇게 엄마 말을 안 들었는데... 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너희 어머니 이제 몸 완전 괜찮으셔?",
+            "norm_text": "너희 어머니 이제 몸 완전 괜찮으셔?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+어머니/NNG+이제/MAG+몸/NNG+완전/NNG+괜찮/VA+으셔/EP+EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아직;; 거기다 계속 일하니까... 더 나빠지는 것 같아;;",
+            "norm_text": "아직;; 거기다 계속 일하니까... 더 나빠지는 것 같아;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+;/SY+;/SY+거기/NP+다/JX+계속/MAG+일/NNG+하/XSV+니까/EC+./SY+./SY+더/MAG+나빠/VA+EC+지/VX+는/ETM+것/NNB+같/VA+아/EC+;/SY+;/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐? 어떡해 무리하시는 거 아니가 ㅠ",
+            "norm_text": "헐? 어떡해 무리하시는 거 아니가 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+어떡/XR+해/XSA+EC+무리/NNG+하/XSV+시/EP+는/ETM+거/NNB+아니/VCN+가ㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 쉬라고 해도 그게 잘 안되나 봐;;",
+            "norm_text": "쉬라고 해도 그게 잘 안되나 봐;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "쉬/VV+라고/EC+해도/VV+EC+그게/NP+JKS+잘/MAG+안/MAG+되/VV+나/EC+봐/VX+EC+;/SY+;/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 집에서도 계속 멀 하고;;",
+            "norm_text": "집에서도 계속 멀 하고;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집/NNG+에서/JKB+도/JX+계속/MAG+멀/NP+JKO+하/VV+고/EC+;/SY+;/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 가만히 계시는 게 힘든가 보다 아님 할 일이 계속 생기거나",
+            "norm_text": "가만히 계시는 게 힘든가 보다 아님 할 일이 계속 생기거나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "가만히/MAG+계시/VV+는/ETM+게/NNB+JKS+힘든가/VA+EC+보다/MAG+아님/VCN+EC+할/VX+ETM+일/NNG+이/JKS+계속/MAG+생기/VV+거나/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 거기다가 예전 생각으로 계속 몸을 움직여;;",
+            "norm_text": "거기다가 예전 생각으로 계속 몸을 움직여;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+다가/JX+예전/NNG+생각/NNG+으로/JKB+계속/MAG+몸/NNG+을/JKO+움직여/VV+EC+;/SY+;/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 저번에는 나무에 올라가더라니까;;",
+            "norm_text": "저번에는 나무에 올라가더라니까;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저번/NNG+에/JKB+는/JX+나무/NNG+에/JKB+올라가/VV+더라니까/EC+;/SY+;/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아? 키키 당황스럽네 나무를 키키",
+            "norm_text": "아? 키키 당황스럽네 나무를 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+키/NNG+키/NNG+당황/NNG+스럽/XSA+네/EF+나무/NNG+를/JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 감 따다가 높은 곳에 있으니까 거길 올라가는 거야;;",
+            "norm_text": "감 따다가 높은 곳에 있으니까 거길 올라가는 거야;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "감/NNG+따/VV+다가/EC+높/VA+은/ETM+곳/NNG+에/JKB+있/VV+으니까/EC+거길/NP+JKO+올라가/VV+는/ETM+거/NNB+야/VCP+EF+;/SY+;/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 내가 놀라서 내려오라니까 어릴 때 자주 올라갔다면서;;",
+            "norm_text": "내가 놀라서 내려오라니까 어릴 때 자주 올라갔다면서;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+놀라/VV+서/EC+내려오/VV+라니까/EC+어릴/VA+ETM+때/NNG+자주/MAG+올라갔/VV+EP+다면서/EC+;/SY+;/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 그래도 대단하시다 키키",
+            "norm_text": "키키 그래도 대단하시다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/VV+EC+대단/XR+하/XSA+시/EP+다키키/NNP"
+          },
+          {
+            "id": 13,
+            "text": "1 : 난 어릴 때도 감히 도전 못했는데 키키",
+            "norm_text": "난 어릴 때도 감히 도전 못했는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+어릴/VA+ETM+때/NNG+도/JX+감히/MAG+도전/NNG+못/MAG+했/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나도;; 이제 나이 있으니까 예전처럼 막 움직이면 안 된다고 하는데 그게 안되나 봐;;",
+            "norm_text": "나도;; 이제 나이 있으니까 예전처럼 막 움직이면 안 된다고 하는데 그게 안되나 봐;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+;/SY+;/SY+이제/MAG+나이/NNG+있/VV+으니까/EC+예전/NNG+처럼/JKB+막/NNG+움직이/VV+면/EC+안/MAG+된다고/VV+EC+하/VV+는데/EC+그게/NP+JKS+안/MAG+되/VV+나/EC+봐/VX+EC+;/SY+;/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응응 키키 예전이랑 다르니까 확실히 조심하긴 하셔야겠다 키키",
+            "norm_text": "응응 키키 예전이랑 다르니까 확실히 조심하긴 하셔야겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/NNG+예전/NNG+이랑/JKB+다르/VA+니까/EC+확실히/MAG+조심/NNG+하/XSV+긴/ETN+JX+하/VX+셔야/EP+EC+VX+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 16,
+            "text": "2 : 엄마랑 아빠는 이제 나이가 있어서 아프면 병원도 가고 조심해야 하는데 그냥 잔소리라고 하지 뭐;;",
+            "norm_text": "엄마랑 아빠는 이제 나이가 있어서 아프면 병원도 가고 조심해야 하는데 그냥 잔소리라고 하지 뭐;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+랑/JKB+아빠/NNG+는/JX+이제/MAG+나이/NNG+가/JKS+있/VA+어서/EC+아프/VA+면/EC+병원/NNG+도/JX+가/VV+고/EC+조심/NNG+해야/XSV+EC+하/VV+는데/EC+그냥/MAG+잔소리/NNG+라고/VCP+EC+하/VX+지/EF+뭐/IC+;/SY+;/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 니가 걱정이 진짜 많겠다 키키",
+            "norm_text": "키키 니가 걱정이 진짜 많겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+니/NP+가/JKS+걱정/NNG+이/JKS+진짜/MAG+많/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 18,
+            "text": "2 : 예전에는 내가 잔소리를 들었는데 요즘은 반대야;;",
+            "norm_text": "예전에는 내가 잔소리를 들었는데 요즘은 반대야;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "예전/NNG+에/JKB+는/JX+내/NP+가/JKS+잔소리/NNG+를/JKO+들/VV+었/EP+는데/EC+요즘/NNG+은/JX+반대/NNG+야/JKV+;/SY+;/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 내가 하고 엄마, 아빠가 듣고;;",
+            "norm_text": "내가 하고 엄마, 아빠가 듣고;;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+하/VV+고/EC+엄마/NNG+,/SC+아빠/NNG+가/JKS+듣/VV+고/EC+;/SY+;/SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 그래도 부모님은 안 들으시겠지 알아서 한다고 키키",
+            "norm_text": "키키 그래도 부모님은 안 들으시겠지 알아서 한다고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+부모/NNG+님/XSN+은/JX+안/MAG+들/VV+으시/EC+겠지/VX+EP+EC+알/VV+아서/EC+한다고/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 예전에 내가 그렇게 엄마 말을 안 들었는데... 키키",
+            "norm_text": "예전에 내가 그렇게 엄마 말을 안 들었는데... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "예전/NNG+에/JKB+내/NP+가/JKS+그렇게/MAG+엄마/NNG+말/NNG+을/JKO+안/MAG+들/VV+었/EP+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

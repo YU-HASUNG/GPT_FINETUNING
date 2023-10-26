@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22389,
+    "name": "KAKAO_523_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163926050542/KAKAO_523_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163926050542/KAKAO_523_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30199,
+      "filename": "KAKAO_523_08.txt",
+      "title": "KAKAO_523_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 421,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 421,
+        "word_size": 129,
+        "text": "1 : 이번 주에 결혼식 간다 그랬나 아빠?\n2 : 가려고 했는데 인원 제한 때문에 갈 수 있을까 모르겠네~\n1 : 근데 누구 결혼식인데?\n2 : 아빠 회사 동료 아들래미 결혼식이야~\n1 : 아빠 이번에도 남의 결혼식 가서 우나 했는데...키키\n2 : 아빠는 결혼하는 거 보면 그렇게 눈물이 나더라~ 왜 이러나\n1 : 아빠 결혼식 때도 울었어?\n2 : 아빠 결혼할 때는 안 울었는데 ~ 그러니 더 신기하네 키키\n1 : 키키 아빠랑 엄마는 연애 기간이 얼마나 되는데?\n2 : 아빠 엄마는 5년 만나고 결혼했지~\n1 : 그럼 나도 남자친구랑 5년 만나고 결혼해야겠다 키키\n2 : 딸은 10년 만나고 결혼해라~\n1 : 그럼 내 나이에 결혼이 가능할까...?\n2 : 그 녀석이랑 하면 되니까 가능하지~!\n1 : 그걸 아빠가 어떻게 알아~\n2 : 아빠는 전부 다 알아~ 원래 그래~! 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번 주에 결혼식 간다 그랬나 아빠?",
+            "norm_text": "이번 주에 결혼식 간다 그랬나 아빠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+주/NNG+에/JKB+결혼식/NNG+간다/VV+EC+그랬/VV+EP+나/EC+아빠/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 가려고 했는데 인원 제한 때문에 갈 수 있을까 모르겠네~",
+            "norm_text": "가려고 했는데 인원 제한 때문에 갈 수 있을까 모르겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가/VV+려고/EC+했/VX+EP+는데/EC+인원/NNG+제한/NNG+때문/NNB+에/JKB+갈/VV+ETM+수/NNB+있/VV+을까/EC+모르/VV+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 근데 누구 결혼식인데?",
+            "norm_text": "근데 누구 결혼식인데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+누구/NP+결혼식/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아빠 회사 동료 아들래미 결혼식이야~",
+            "norm_text": "아빠 회사 동료 아들래미 결혼식이야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+회사/NNG+동료/NNG+아들/NNG+래미/NNG+결혼식/NNG+이/VCP+야/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아빠 이번에도 남의 결혼식 가서 우나 했는데...키키",
+            "norm_text": "아빠 이번에도 남의 결혼식 가서 우나 했는데...키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+이번/NNG+에/JKB+도/JX+남/NNG+의/JKG+결혼식/NNG+가/VV+서/EC+우/VV+나/EC+했/VX+EP+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아빠는 결혼하는 거 보면 그렇게 눈물이 나더라~ 왜 이러나",
+            "norm_text": "아빠는 결혼하는 거 보면 그렇게 눈물이 나더라~ 왜 이러나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+는/JX+결혼/NNG+하/XSV+는/ETM+거/NNB+보/VV+면/EC+그렇게/MAG+눈물/NNG+이나/JC+더라/VCP+EC+~/SY+왜/MAG+이러/VV+나/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아빠 결혼식 때도 울었어?",
+            "norm_text": "아빠 결혼식 때도 울었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+결혼식/NNG+때/NNG+도/JX+울/VV+었/EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아빠 결혼할 때는 안 울었는데 ~ 그러니 더 신기하네 키키",
+            "norm_text": "아빠 결혼할 때는 안 울었는데 ~ 그러니 더 신기하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+결혼/NNG+할/XSV+ETM+때/NNG+는/JX+안/MAG+울/VV+었/EP+는데/EC+~/SY+그러/VV+니/EC+더/MAG+신기/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 아빠랑 엄마는 연애 기간이 얼마나 되는데?",
+            "norm_text": "키키 아빠랑 엄마는 연애 기간이 얼마나 되는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+아빠/NNG+랑/JKB+엄마/NNG+는/JX+연애/NNG+기간/NNG+이/JKS+얼마나/MAG+되/VV+는데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아빠 엄마는 5년 만나고 결혼했지~",
+            "norm_text": "아빠 엄마는 5년 만나고 결혼했지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+엄마/NNG+는/JX+5/SN+년/NNBC+만나/VV+고/EC+결혼/NNG+했/XSV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 나도 남자친구랑 5년 만나고 결혼해야겠다 키키",
+            "norm_text": "그럼 나도 남자친구랑 5년 만나고 결혼해야겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+나/NP+도/JX+남자/NNG+친구/NNG+랑/JKB+5/SN+년/NNBC+만나/VV+고/EC+결혼/NNG+해야/XSV+EC+VX+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 12,
+            "text": "2 : 딸은 10년 만나고 결혼해라~",
+            "norm_text": "딸은 10년 만나고 결혼해라~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "딸/NNG+은/JX+10/SN+년/NNBC+만나/VV+고/EC+결혼/NNG+해라/XSV+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 내 나이에 결혼이 가능할까...?",
+            "norm_text": "그럼 내 나이에 결혼이 가능할까...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+내/MM+나이/NNG+에/JKB+결혼/NNG+이/JKS+가능/NNG+할까/XSV+EF+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그 녀석이랑 하면 되니까 가능하지~!",
+            "norm_text": "그 녀석이랑 하면 되니까 가능하지~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+녀석/NNB+이랑/JKB+하/VV+면/EC+되/VV+니까/EC+가능/NNG+하/XSV+지/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그걸 아빠가 어떻게 알아~",
+            "norm_text": "그걸 아빠가 어떻게 알아~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그걸/NP+JKO+아빠/NNG+가/JKS+어떻게/MAG+알/VV+아/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아빠는 전부 다 알아~ 원래 그래~! 하하",
+            "norm_text": "아빠는 전부 다 알아~ 원래 그래~! 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+는/JX+전부/MAG+다/MAG+알/VV+아/EC+~/SY+원래/MAG+그래/VV+EC+~/SY+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 71349,
+    "name": "KAKAO_715_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113038074180/KAKAO_715_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113038074180/KAKAO_715_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36587,
+      "filename": "KAKAO_715_03.txt",
+      "title": "KAKAO_715_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 822,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 822,
+        "word_size": 260,
+        "text": "1 : 너의 드림카는 무엇이냥\n2 : 저 SUV! 사륜구동 차요 키키 쏘렌토? 키키\n2 : 언니 드림카는 뭐에요?\n1 : 오오 나는 미니! ㅠㅠ... 미니만 있으면 벤츠도 필요 없어... 키키\n2 : 키키 미니 완전 큐트, 귀여운 게 최고죵 키키\n2 : 언니 저 이제 매주 하루씩 효도하러 시골집에 갈 건데 차를 사야 되나 말아야 되나 고민이에요 ㅠㅠ\n1 : 음... 거리가 얼마나 되는뎅?\n2 : 차로 가면 1시간인데 버스 타고 들어가면 배로 늘어나요...키키 그래서 고민이에요 키키\n2 : 매주 가면 소형 차 한 대 있어야 하는 거 아닌가... 키키\n1 : 아 구러면 중고로 하나 하는 게 낫겠는데?! ㅠㅠ 차이 어마어마하데잉 차 있고 없고 키키\n2 : 근데 일단 제가 운전을 할 줄 몰라요... 키키\n2 : 이미 상상은 차 사구 드라이브하고 난리 났는데 현실은 면허는 있지만 운전을 못해서 키키 버스 타고 다녀야 할 판 키키\n1 : 키키 운전 누가 처음부터 잘하닝 하다 보면 느는 거야!\n1 : 카이 첫 차는 비싼 거 필요 없어 키키 혼자 가다가 쳐박기도 하고 하거든\n2 : 키키 전 면허 돈 주고 샀잖아요 키키\n1 : 엥 진짜? 키키 어떻게 그럴 수가...?!\n2 : 키키 한... 오 년 전인가? 운전면허 쉬웠던 시기가 있었잖아요\n2 : 키키 5일 만에 취득 했쥬 키키\n1 : 아아! 그때 딱 그럴 때 있었지\n1 : 도로연수 한번 더 받는 게 낫겠는데?\n2 : 응응 후진도 잘 못하구 키키 주차는 가능할런지 키키\n1 : 키키 아냐! 하다 보면 운전은 진짜 늘어 키키\n1 : 나도 주차 진짜 못했었음...\n2 : ㅜ 키키 저도 그랬으면 키키 베스트 드라이버 키키\n2 : 그래서 혼자 차박 여행도 가구 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너의 드림카는 무엇이냥",
+            "norm_text": "너의 드림카는 무엇이냥",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+의/JKG+드림/NNG+카/NNG+는/JX+무엇/NP+이냥/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 저 SUV! 사륜구동 차요 키키 쏘렌토? 키키",
+            "norm_text": "저 SUV! 사륜구동 차요 키키 쏘렌토? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/MM+SUV/SL+!/SY+사륜구동차요키키쏘렌토/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 언니 드림카는 뭐에요?",
+            "norm_text": "언니 드림카는 뭐에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+드림/VV+ETM+카/NNG+는/JX+뭐/NP+에/JKB+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오오 나는 미니! ㅠㅠ... 미니만 있으면 벤츠도 필요 없어... 키키",
+            "norm_text": "오오 나는 미니! ㅠㅠ... 미니만 있으면 벤츠도 필요 없어... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+나/NP+는/JX+미니/NNG+!/SY+ㅠㅠ/UNKNOWN+./SY+미니/NNG+만/JX+있/VX+으면/EC+벤츠/NNP+도/JX+필요/NNG+없/VA+어/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 미니 완전 큐트, 귀여운 게 최고죵 키키",
+            "norm_text": "키키 미니 완전 큐트, 귀여운 게 최고죵 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키미니완전큐트/UNKNOWN+,/SC+귀여운게최고죵키키/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 언니 저 이제 매주 하루씩 효도하러 시골집에 갈 건데 차를 사야 되나 말아야 되나 고민이에요 ㅠㅠ",
+            "norm_text": "언니 저 이제 매주 하루씩 효도하러 시골집에 갈 건데 차를 사야 되나 말아야 되나 고민이에요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+저/IC+이제/MAG+매주/NNG+하루/NNG+씩/XSN+효도/NNG+하/XSV+러/EC+시골집/NNG+에/JKB+갈/VV+ETM+건데/NNB+VCP+EC+차/NNG+를/JKO+사/VV+야/EC+되/VV+나/EC+말/VX+아야/EC+되/VV+나/EC+고민/NNG+이/VCP+에요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 음... 거리가 얼마나 되는뎅?",
+            "norm_text": "음... 거리가 얼마나 되는뎅?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+./SY+거리/NNG+가/JKS+얼마나/MAG+되/VV+는/ETM+뎅/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 차로 가면 1시간인데 버스 타고 들어가면 배로 늘어나요...키키 그래서 고민이에요 키키",
+            "norm_text": "차로 가면 1시간인데 버스 타고 들어가면 배로 늘어나요...키키 그래서 고민이에요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+로/JKB+가/VV+면/EC+1/SN+시간/NNBC+인데/VCP+EC+버스/NNG+타/VV+고/EC+들어가/VV+면/EC+배/NNG+로/JKB+늘어나/VV+요/EF+./SY+키키그래서고민이에요키키/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 매주 가면 소형 차 한 대 있어야 하는 거 아닌가... 키키",
+            "norm_text": "매주 가면 소형 차 한 대 있어야 하는 거 아닌가... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매주/MAG+가/VV+면/EC+소형차/NNG+한대/VV+EC+있/VX+어야/EC+하/VV+는/ETM+거/NNB+아닌가/VCN+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 구러면 중고로 하나 하는 게 낫겠는데?! ㅠㅠ 차이 어마어마하데잉 차 있고 없고 키키",
+            "norm_text": "아 구러면 중고로 하나 하는 게 낫겠는데?! ㅠㅠ 차이 어마어마하데잉 차 있고 없고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아구러면중고로하나하는게낫겠는데/UNKNOWN+!/SY+ㅠㅠ차이어마어마하데잉차있고없고키키/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 근데 일단 제가 운전을 할 줄 몰라요... 키키",
+            "norm_text": "근데 일단 제가 운전을 할 줄 몰라요... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+일단/MAG+제/NP+가/JKS+운전/NNG+을/JKO+할/VV+ETM+줄/NNB+몰라요/VV+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 이미 상상은 차 사구 드라이브하고 난리 났는데 현실은 면허는 있지만 운전을 못해서 키키 버스 타고 다녀야 할 판 키키",
+            "norm_text": "이미 상상은 차 사구 드라이브하고 난리 났는데 현실은 면허는 있지만 운전을 못해서 키키 버스 타고 다녀야 할 판 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이미/MAG+상상/NNG+은/JX+차/NNG+사구/NNG+드라이브/NNG+하/XSV+고/EC+난리/NNG+났/VV+EP+는데/EC+현실/NNG+은/JX+면허/NNG+는/JX+있/VX+지만/EC+운전/NNG+을/JKO+못/MAG+해서/VV+EC+키/NNG+키/NNG+버스/NNG+타/VV+고/EC+다녀야/VV+EC+할/VX+ETM+판/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 운전 누가 처음부터 잘하닝 하다 보면 느는 거야!",
+            "norm_text": "키키 운전 누가 처음부터 잘하닝 하다 보면 느는 거야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+운전/NNG+누가/NP+JKS+처음/NNG+부터/JX+잘/MAG+하닝/NNP+하/VV+다/EC+보/VX+면/EC+느/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 카이 첫 차는 비싼 거 필요 없어 키키 혼자 가다가 쳐박기도 하고 하거든",
+            "norm_text": "카이 첫 차는 비싼 거 필요 없어 키키 혼자 가다가 쳐박기도 하고 하거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "카이/NNP+첫차/NNG+는/JX+비싼/VA+ETM+거/NNB+필요/NNG+없/VA+어/EC+키/NNG+키/NNG+혼자/MAG+가/VV+다가/EC+쳐/VV+EC+박/VV+기/ETN+도/JX+하/VV+고/EC+하/VV+거든/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 전 면허 돈 주고 샀잖아요 키키",
+            "norm_text": "키키 전 면허 돈 주고 샀잖아요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+전/MM+면허/NNG+돈/NNG+주/VV+고/EC+샀/VV+EP+잖아요/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 엥 진짜? 키키 어떻게 그럴 수가...?!",
+            "norm_text": "엥 진짜? 키키 어떻게 그럴 수가...?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+진짜/MAG+키/NNG+키/XSV+ETN+어떻/VA+게/EC+그럴/VV+ETM+수/NNB+가/JKS+./SY+?/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 한... 오 년 전인가? 운전면허 쉬웠던 시기가 있었잖아요",
+            "norm_text": "키키 한... 오 년 전인가? 운전면허 쉬웠던 시기가 있었잖아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+한/XSA+ETM+./SY+./SY+오/NR+년/NNBC+전/NNG+인가/VCP+EF+운전/NNG+면허/NNG+쉬웠/VA+EP+던/ETM+시기/NNG+가/JKS+있/VA+었/EP+잖아요/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 5일 만에 취득 했쥬 키키",
+            "norm_text": "키키 5일 만에 취득 했쥬 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+5/SN+일/NNBC+만/NNB+에/JKB+취득/NNG+했/XSV+EP+쥬/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 아아! 그때 딱 그럴 때 있었지",
+            "norm_text": "아아! 그때 딱 그럴 때 있었지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+그때/NNG+딱/MAG+그럴/VV+ETM+때/NNG+있/VV+었/EP+지/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 도로연수 한번 더 받는 게 낫겠는데?",
+            "norm_text": "도로연수 한번 더 받는 게 낫겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도로/NNG+연수/NNG+한/MM+번/NNBC+더/MAG+받/VV+는/ETM+게/NNB+JKS+낫/VA+겠/EP+는데/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 응응 후진도 잘 못하구 키키 주차는 가능할런지 키키",
+            "norm_text": "응응 후진도 잘 못하구 키키 주차는 가능할런지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+후진/NNG+도/JX+잘못/MAG+하/VV+구/EC+키/NNG+키/NNG+주차/NNG+는/JX+가능/NNG+할런지/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 아냐! 하다 보면 운전은 진짜 늘어 키키",
+            "norm_text": "키키 아냐! 하다 보면 운전은 진짜 늘어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아냐/VCN+EF+하/VV+다/EC+보/VX+면/EC+운전/NNG+은/JX+진짜/MAG+늘/MAG+어/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 나도 주차 진짜 못했었음...",
+            "norm_text": "나도 주차 진짜 못했었음...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+주차/NNG+진짜/MAG+못/MAG+했었/VV+EP+음/ETN+./SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : ㅜ 키키 저도 그랬으면 키키 베스트 드라이버 키키",
+            "norm_text": "ㅜ 키키 저도 그랬으면 키키 베스트 드라이버 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜ키/UNKNOWN+키저/NNG+도/JX+그랬/VV+EP+으면/EC+키키/NNP+베스트/NNP+드라이버/NNP+키키/NNP"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그래서 혼자 차박 여행도 가구 키키",
+            "norm_text": "그래서 혼자 차박 여행도 가구 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+혼자/NNG+차/NNG+박/NNP+여행/NNG+도/JX+가구/NNG+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 33817,
+    "name": "KAKAO_609_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120220011968/KAKAO_609_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120220011968/KAKAO_609_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32107,
+      "filename": "KAKAO_609_14.txt",
+      "title": "KAKAO_609_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 492,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 492,
+        "word_size": 153,
+        "text": "1 : 요즘 코로나가 난리잖아 특히 부산이랑 서울\n2 : 응 맞지 확진자 많고 위험하지...\n1 : 그래서 백신 맞으라고 다들 권장하는데 너는 맞을 꺼야?\n2 : 흠 잘 모르겠다 일단 예약은 했는데...\n1 : 백신 예약도 노쇼가 진짜 많다더라 키키\n1 : 니가 그중 한 명\n2 : 키키 아니 근데 부작용이 복불복이니깐...\n1 : 나도 요즘 보험 청구 접수 업무하면 백신 부작용 많더라\n2 : 대충 어떤 증상이 제일 많던데?\n1 : 일단 흉통, 두통, 고열 많던데...\n2 : 그러다 괜찮아지면 다행인데 죽는 사람도 있잖아\n1 : 마자 흉통으로 며칠 후 급성 심근경색 와서 사망 하시는 분 많더라\n2 : 또 급성 백혈병 많던데... 이렇게 위험한데 백신 맞는 거 괜찮을까?\n1 : 근데 또 내 주변에는 다들 괜찮음 키키\n2 : 너무 복불복이네 무섭다\n2 : 사망은 둘째 치고 탈모 어쩌냐...\n1 : 아 나도 봤어 20대 여성 분인데 백신 맞고 탈모로 머리카락 없던데\n2 : 어 사진으로 봤는데 진짜 심하더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 코로나가 난리잖아 특히 부산이랑 서울",
+            "norm_text": "요즘 코로나가 난리잖아 특히 부산이랑 서울",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+코로나/NNG+가/JKS+난리/NNG+잖아/VCP+EC+VX+EC+특히/MAG+부산/NNP+이랑/JC+서울/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 맞지 확진자 많고 위험하지...",
+            "norm_text": "응 맞지 확진자 많고 위험하지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+지/EC+확진/NNG+자/XSN+많/VA+고/EC+위험/NNG+하/XSA+지/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래서 백신 맞으라고 다들 권장하는데 너는 맞을 꺼야?",
+            "norm_text": "그래서 백신 맞으라고 다들 권장하는데 너는 맞을 꺼야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+백신/NNG+맞/VV+으라고/EC+다/MAG+들/XSN+권장/NNG+하/XSV+는데/EC+너/NP+는/JX+맞/VV+을/ETM+꺼/NNB+VCP+야/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 흠 잘 모르겠다 일단 예약은 했는데...",
+            "norm_text": "흠 잘 모르겠다 일단 예약은 했는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흠/IC+잘/MAG+모르/VV+겠/EP+다/EF+일단/MAG+예약/NNG+은/JX+했/VV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 백신 예약도 노쇼가 진짜 많다더라 키키",
+            "norm_text": "백신 예약도 노쇼가 진짜 많다더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "백신/NNG+예약/NNG+도노쇼/NNP+가/JKS+진짜/MAG+많/VA+다더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 니가 그중 한 명",
+            "norm_text": "니가 그중 한 명",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/JKS+그/MM+중/NNB+한/MM+명/NNBC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 아니 근데 부작용이 복불복이니깐...",
+            "norm_text": "키키 아니 근데 부작용이 복불복이니깐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+근데/MAJ+부작용/NNG+이/JKS+복불복/NNG+이/VCP+니깐/EC+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나도 요즘 보험 청구 접수 업무하면 백신 부작용 많더라",
+            "norm_text": "나도 요즘 보험 청구 접수 업무하면 백신 부작용 많더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+요즘/NNG+보험/NNG+청구/NNG+접수/NNG+업무/NNG+하/XSV+면/EC+백/NR+신부/NNG+작용/NNG+많/VA+더라/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 대충 어떤 증상이 제일 많던데?",
+            "norm_text": "대충 어떤 증상이 제일 많던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대충/MAG+어떤/MM+증상/NNG+이/JKS+제일/MAG+많/VA+던데/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 일단 흉통, 두통, 고열 많던데...",
+            "norm_text": "일단 흉통, 두통, 고열 많던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일단/MAG+흉통/NNG+,/SC+두통/NNG+,/SC+고열/NNG+많/VA+던데/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그러다 괜찮아지면 다행인데 죽는 사람도 있잖아",
+            "norm_text": "그러다 괜찮아지면 다행인데 죽는 사람도 있잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+다/EC+괜찮/VA+아/EC+지/VX+면/EC+다행/NNG+인데/VCP+EC+죽/VV+는/ETM+사람/NNG+도/JX+있/VA+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 마자 흉통으로 며칠 후 급성 심근경색 와서 사망 하시는 분 많더라",
+            "norm_text": "마자 흉통으로 며칠 후 급성 심근경색 와서 사망 하시는 분 많더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마자/NNG+흉통/NNG+으로/JKB+며칠/NNG+후급/NNG+성/XSN+심근/NNG+경색/NNG+와서/VV+EC+사망/NNG+하/XSV+시/EP+는/ETM+분/NNB+많/VA+더라/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 또 급성 백혈병 많던데... 이렇게 위험한데 백신 맞는 거 괜찮을까?",
+            "norm_text": "또 급성 백혈병 많던데... 이렇게 위험한데 백신 맞는 거 괜찮을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또/MAG+급성/NNG+백혈병/NNG+많/VA+던데/EF+./SY+이렇게/MAG+위험/NNG+한데/XSA+EC+백신/NNG+맞/VV+는/ETM+거/NNB+괜찮/VA+을까/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 근데 또 내 주변에는 다들 괜찮음 키키",
+            "norm_text": "근데 또 내 주변에는 다들 괜찮음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+또/MAG+내/NP+JKG+주변/NNG+에/JKB+는/JX+다/MAG+들/XSN+괜찮/VA+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 너무 복불복이네 무섭다",
+            "norm_text": "너무 복불복이네 무섭다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+복불복/NNG+이/JKS+네/IC+무섭/VA+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 사망은 둘째 치고 탈모 어쩌냐...",
+            "norm_text": "사망은 둘째 치고 탈모 어쩌냐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사망/NNG+은/JX+둘째치/VV+고/EC+탈모/NNG+어쩌/VV+냐/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 나도 봤어 20대 여성 분인데 백신 맞고 탈모로 머리카락 없던데",
+            "norm_text": "아 나도 봤어 20대 여성 분인데 백신 맞고 탈모로 머리카락 없던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나/NP+도/JX+봤/VV+EP+어/EC+20/SN+대여/NNG+성분/NNG+인데/VCP+EC+백신/NNG+맞/VV+고/EC+탈모/NNG+로/JKB+머리카락/NNG+없/VA+던데/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 어 사진으로 봤는데 진짜 심하더라",
+            "norm_text": "어 사진으로 봤는데 진짜 심하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+사진/NNG+으로/JKB+봤/VV+EP+는데/EC+진짜/MAG+심하/VA+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

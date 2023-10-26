@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 21543,
+    "name": "KAKAO_485_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109161451460662106/KAKAO_485_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109161451460662106/KAKAO_485_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28411,
+      "filename": "KAKAO_485_01.txt",
+      "title": "KAKAO_485_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 675,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 675,
+        "word_size": 208,
+        "text": "1 : 나는 계란간장밥 좋아하는데 너는 먹어본 적 있어?\n2 : 음... 들어본 거 같긴 한데... 한번도 안 먹어봤어! 맛있어?\n1 : 아 진짜? 완전 맛있지~ 계란이랑 버터랑 간장 넣고 비벼 먹는 거야~!\n2 : 우와 재료가 그게 다야?\n1 : 응응 어른들은 옛날에 돈 없을 때 자주 해서 먹었다더라구\n1 : 나는 그냥 계란이 좋아서 자주 먹었고 키키\n2 : 오호 그렇구나~ 레시피도 굉장히 간단하겠다!\n1 : 응응 키키 쉽고 간단하게 해 먹을 수 있는데 심지어 맛있어...\n1 : 너는 계란 좋아해?\n2 : 아니 ㅜㅜ 나는 계란 알러지가 있어서... 계란 들어간 음식은 못 먹어;\n1 : 아 진짜? 계란 알러지도 있구나... 하루에 2알씩 먹어야 좋다던데...\n1 : 그럼 너는 단백질을 뭐로 채워?\n2 : 나는 닭가슴살이나 음료 같은 걸 많이 먹어!\n2 : 닭은 괜찮은데 알은 안맞더라구...\n1 : 아 닭은 또 괜찮아? 키키\n1 : 그럼 닭이 알을 품고 있는데 그거 먹으면 알러지 일어나?\n2 : 응? 뭔 소리야; 알만 안 먹으면 돼 키키\n1 : 아 키키 국물 우러나거나 뭐 그런 건 상관 없는 거구나 키키\n1 : 왜 옻오르는 사람들은 쳐다만 봐도 오른다 잖아 키키 그래서 물어봤어\n2 : 아아 키키 그 정돈 아냐!\n2 : 먹지만 않으면 괜찮더라구\n1 : 그렇구나~ 힘들겠다 계란 엄청 맛있는데...\n2 : 난 계란 생각하면 괴로워 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나는 계란간장밥 좋아하는데 너는 먹어본 적 있어?",
+            "norm_text": "나는 계란간장밥 좋아하는데 너는 먹어본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+계란/NNG+간장/NNG+밥/NNG+좋/VA+아/EC+하/VV+는데/EC+너/NP+는/JX+먹/VV+어/EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음... 들어본 거 같긴 한데... 한번도 안 먹어봤어! 맛있어?",
+            "norm_text": "음... 들어본 거 같긴 한데... 한번도 안 먹어봤어! 맛있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+./SY+들/VV+어/EC+본/VX+ETM+거/NNB+같/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+한/MM+번/NNBC+도/JX+안/MAG+먹/VV+어/EC+봤/VX+EP+어/EF+맛있/VA+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 완전 맛있지~ 계란이랑 버터랑 간장 넣고 비벼 먹는 거야~!",
+            "norm_text": "아 진짜? 완전 맛있지~ 계란이랑 버터랑 간장 넣고 비벼 먹는 거야~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+완전/MAG+맛있/VA+지/EC+~/SY+계란/NNG+이랑/JKB+버터/NNG+랑/JKB+간장/NNG+넣/VV+고/EC+비벼/VV+EC+먹/VV+는/ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우와 재료가 그게 다야?",
+            "norm_text": "우와 재료가 그게 다야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+재료/NNG+가/JKS+그게/NP+JKS+다/MAG+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응응 어른들은 옛날에 돈 없을 때 자주 해서 먹었다더라구",
+            "norm_text": "응응 어른들은 옛날에 돈 없을 때 자주 해서 먹었다더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+어른/NNG+들/XSN+은/JX+옛날/NNG+에/JKB+돈/NNG+없/VA+을/ETM+때/NNG+자주/MAG+해서/VV+EC+먹/VV+었/EP+다/EF+더라구/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나는 그냥 계란이 좋아서 자주 먹었고 키키",
+            "norm_text": "나는 그냥 계란이 좋아서 자주 먹었고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+그냥/MAG+계란/NNG+이/JKS+좋/VA+아서/EC+자주/MAG+먹/VV+었/EP+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 오호 그렇구나~ 레시피도 굉장히 간단하겠다!",
+            "norm_text": "오호 그렇구나~ 레시피도 굉장히 간단하겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+그렇/VA+구나/EF+~/SY+레시피/NNG+도/JX+굉장히/MAG+간단/XR+하/XSA+겠/EP+다/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응응 키키 쉽고 간단하게 해 먹을 수 있는데 심지어 맛있어...",
+            "norm_text": "응응 키키 쉽고 간단하게 해 먹을 수 있는데 심지어 맛있어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+쉽/VA+고/EC+간단/XR+하/XSA+게/EC+해/VV+EC+먹/VV+을/ETM+수/NNB+있/VV+는데/EC+심지어/MAG+맛있/VA+어/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 너는 계란 좋아해?",
+            "norm_text": "너는 계란 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+계란/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니 ㅜㅜ 나는 계란 알러지가 있어서... 계란 들어간 음식은 못 먹어;",
+            "norm_text": "아니 ㅜㅜ 나는 계란 알러지가 있어서... 계란 들어간 음식은 못 먹어;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+ㅜㅜ/UNKNOWN+나/NP+는/JX+계란/NNG+알/VV+러지/EF+가/JKS+있/VA+어서/EC+./SY+./SY+계란/NNG+들어간/VV+ETM+음식/NNG+은/JX+못/MAG+먹/VV+어/EC+;/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 진짜? 계란 알러지도 있구나... 하루에 2알씩 먹어야 좋다던데...",
+            "norm_text": "아 진짜? 계란 알러지도 있구나... 하루에 2알씩 먹어야 좋다던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+계란/NNG+알/VV+러/EC+지/VX+도/EC+있/VX+구나/EF+./SY+하루/NNG+에/JKB+2/SN+알/NNBC+씩/XSN+먹/VV+어야/EC+좋/VA+다던데/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그럼 너는 단백질을 뭐로 채워?",
+            "norm_text": "그럼 너는 단백질을 뭐로 채워?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+너/NP+는/JX+단백질/NNG+을/JKO+뭐/NP+로/JKB+채워/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나는 닭가슴살이나 음료 같은 걸 많이 먹어!",
+            "norm_text": "나는 닭가슴살이나 음료 같은 걸 많이 먹어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+닭/NNG+가슴살/NNG+이나/JC+음료/NNG+같/VA+은/ETM+걸/NNB+JKO+많이/MAG+먹/VV+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 닭은 괜찮은데 알은 안맞더라구...",
+            "norm_text": "닭은 괜찮은데 알은 안맞더라구...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "닭/NNG+은/JX+괜찮/VA+은데/EC+알/NNG+은/JX+안/MAG+맞/VV+더라구/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 닭은 또 괜찮아? 키키",
+            "norm_text": "아 닭은 또 괜찮아? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+닭/NNG+은/JX+또/MAG+괜찮/VA+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그럼 닭이 알을 품고 있는데 그거 먹으면 알러지 일어나?",
+            "norm_text": "그럼 닭이 알을 품고 있는데 그거 먹으면 알러지 일어나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+닭/NNG+이/JKS+알/NNG+을/JKO+품/VV+고/EC+있/VX+는데/EC+그거/NP+먹/VV+으면/EC+알/VV+러지/EF+일어나/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응? 뭔 소리야; 알만 안 먹으면 돼 키키",
+            "norm_text": "응? 뭔 소리야; 알만 안 먹으면 돼 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+뭔/MM+소리야/NNG+;/SY+알/NNG+만/JX+안/MAG+먹/VV+으면/EC+돼/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 키키 국물 우러나거나 뭐 그런 건 상관 없는 거구나 키키",
+            "norm_text": "아 키키 국물 우러나거나 뭐 그런 건 상관 없는 거구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+국물/NNG+우러나/VV+거나/EC+뭐/IC+그런/MM+건/NNB+JX+상관없/VA+는/ETM+거/NNB+구나/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 왜 옻오르는 사람들은 쳐다만 봐도 오른다 잖아 키키 그래서 물어봤어",
+            "norm_text": "왜 옻오르는 사람들은 쳐다만 봐도 오른다 잖아 키키 그래서 물어봤어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+옻/NNG+오르/VV+는/ETM+사람/NNG+들/XSN+은/JX+쳐다/VV+EC+만/JX+봐도/VV+EC+오른다/VV+EC+잖아/VCP+EC+VX+EC+키/NNG+키/XSV+ETN+그래서/MAJ+물/VV+어/EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아아 키키 그 정돈 아냐!",
+            "norm_text": "아아 키키 그 정돈 아냐!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+키키/NNP+그/MM+정돈/NNG+JX+아냐/VCN+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 먹지만 않으면 괜찮더라구",
+            "norm_text": "먹지만 않으면 괜찮더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "먹/VV+지만/EC+않/VX+으면/EC+괜찮/VA+더라구/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 그렇구나~ 힘들겠다 계란 엄청 맛있는데...",
+            "norm_text": "그렇구나~ 힘들겠다 계란 엄청 맛있는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+~/SY+힘들/VA+겠/EP+다/EC+계란/NNG+엄청/MAG+맛있/VA+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 난 계란 생각하면 괴로워 ㅠㅠ",
+            "norm_text": "난 계란 생각하면 괴로워 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+계란/NNG+생각/NNG+하/XSV+면/EC+괴로워/VA+EC+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

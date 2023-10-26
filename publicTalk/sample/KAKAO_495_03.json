@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 29144,
+    "name": "KAKAO_495_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144152049922/KAKAO_495_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144152049922/KAKAO_495_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28934,
+      "filename": "KAKAO_495_03.txt",
+      "title": "KAKAO_495_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 601,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 601,
+        "word_size": 192,
+        "text": "1 : 우리 집은 지하철 10분 정도는 걸어야 하는데 역세권인가\n2 : 아 10분 정도 그럼 역세권이지 않나? 키키\n1 : 키키 그런가... 근데 집 위치가 너무 오르막길에 있는 편이야\n2 : 아 ㅠㅠ 퇴근하고 차 안 가지고 갔을 땐 걸어서 올라갈 때 토 나오겠노...\n1 : 키키 마을 버스 타면 되는데... 키키 그래서 차 타고 출근하지\n2 : 그래 차 있는 게 최고징 키키\n2 : 나는 언제 사지 키키\n1 : 키키 자동차는 있으면 절대 없던 때로 못 돌아간다\n2 : 키키 그래 얼마나 편리하겠노...\n2 : 근데 어디 놀러 가거나 하면 주차 때메 골머리긴 하지 키키\n1 : 그러니까 ㅜㅜ 어딜 이동하든 늘 주차가 문제인 거 같아\n2 : 맞아 저녁에 퇴근하고 오면 주차 대란이고 막 키키\n1 : 그래 주차 대란 ㅜㅜ 땅이 좁아서 그런가 ㅜㅜ 왜 이리 없냐 주차할 데가\n2 : 그러니까 다닥다닥... 주차 공간도 진짜 협소하고... 키키\n1 : 응 그니까 키키 그렇게 치면 소형차가 좋은데 난 큰 차로 바꾸고 싶어\n2 : 소형차 타면 무시하잖아 ㅠㅠ 그게 너무 싫던데 뭘로 바꾸고 싶니\n1 : 키키 나 SUV 큰 걸로 바꾸고 싶은데... 뭐 마음만 있을 뿐 키키\n2 : 나는 차도 없는데 언제 사지 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 집은 지하철 10분 정도는 걸어야 하는데 역세권인가",
+            "norm_text": "우리 집은 지하철 10분 정도는 걸어야 하는데 역세권인가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+집/NNG+은/JX+지하철/NNG+10/SN+분/NNBC+정도/NNG+는/JX+걸어야/VV+EC+하/VV+는데/EC+역세/NNG+권/XSN+인가/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 10분 정도 그럼 역세권이지 않나? 키키",
+            "norm_text": "아 10분 정도 그럼 역세권이지 않나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+10/SN+분/NNBC+정도/NNG+그럼/MAJ+역세/NNG+권/XSN+이/VCP+지/EC+않/VX+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 그런가... 근데 집 위치가 너무 오르막길에 있는 편이야",
+            "norm_text": "키키 그런가... 근데 집 위치가 너무 오르막길에 있는 편이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그런가/VA+EF+./SY+근데/MAJ+집/NNG+위치/NNG+가/JKS+너무/MAG+오르막길/NNG+에/JKB+있/VV+는/ETM+편/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 ㅠㅠ 퇴근하고 차 안 가지고 갔을 땐 걸어서 올라갈 때 토 나오겠노...",
+            "norm_text": "아 ㅠㅠ 퇴근하고 차 안 가지고 갔을 땐 걸어서 올라갈 때 토 나오겠노...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+ㅠㅠ/UNKNOWN+퇴근/NNG+하/XSV+고/EC+차/NNG+안/MAG+가지/VV+고/EC+갔/VV+EP+을/ETM+땐/NNG+JX+걸어서/VV+EC+올라갈/VV+ETM+때/NNG+토/XSV+EC+나오/VV+겠/EP+노/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 마을 버스 타면 되는데... 키키 그래서 차 타고 출근하지",
+            "norm_text": "키키 마을 버스 타면 되는데... 키키 그래서 차 타고 출근하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+마을버스/NNG+타/VV+면/EC+되/VV+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN+그래서/MAJ+차/NNG+타/VV+고/EC+출근/NNG+하/XSV+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래 차 있는 게 최고징 키키",
+            "norm_text": "그래 차 있는 게 최고징 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+차/VV+EC+있/VX+는/ETM+게/NNB+JKS+최고/NNG+징/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나는 언제 사지 키키",
+            "norm_text": "나는 언제 사지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+언제/MAG+사지/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 자동차는 있으면 절대 없던 때로 못 돌아간다",
+            "norm_text": "키키 자동차는 있으면 절대 없던 때로 못 돌아간다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+자동차/NNG+는/JX+있/VX+으면/EC+절대/MAG+없/VA+던/ETM+때로/MAG+못/MAG+돌아간다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 그래 얼마나 편리하겠노...",
+            "norm_text": "키키 그래 얼마나 편리하겠노...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/JX+얼마나/MAG+편리/NNG+하/XSV+겠/EP+노/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 어디 놀러 가거나 하면 주차 때메 골머리긴 하지 키키",
+            "norm_text": "근데 어디 놀러 가거나 하면 주차 때메 골머리긴 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+어디/NP+놀/VV+러/EC+가/VX+거나/EC+하/VV+면/EC+주차/NNG+때메/NNB+JKB+골머리/NNG+긴/VCP+ETN+JX+하/VX+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러니까 ㅜㅜ 어딜 이동하든 늘 주차가 문제인 거 같아",
+            "norm_text": "그러니까 ㅜㅜ 어딜 이동하든 늘 주차가 문제인 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+ㅜㅜ/UNKNOWN+어딜/NP+JKO+이동/NNG+하/XSV+든/EC+늘/MAG+주차/NNG+가/JKS+문제/NNG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아 저녁에 퇴근하고 오면 주차 대란이고 막 키키",
+            "norm_text": "맞아 저녁에 퇴근하고 오면 주차 대란이고 막 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+저녁/NNG+에/JKB+퇴근/NNG+하/XSV+고/EC+오/VV+면/EC+주차/NNG+대란/NNG+이/VCP+고/EC+막/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래 주차 대란 ㅜㅜ 땅이 좁아서 그런가 ㅜㅜ 왜 이리 없냐 주차할 데가",
+            "norm_text": "그래 주차 대란 ㅜㅜ 땅이 좁아서 그런가 ㅜㅜ 왜 이리 없냐 주차할 데가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+래주/NNG+차대/NNG+란/JX+ㅜㅜ/UNKNOWN+땅/NNG+이/JKS+좁/VA+아서/EC+그런가/VA+EC+ㅜㅜ/UNKNOWN+왜/MAG+이리/MAG+없/VA+냐/EC+주차/NNG+할/XSV+ETM+데/NNB+가/JKS"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러니까 다닥다닥... 주차 공간도 진짜 협소하고... 키키",
+            "norm_text": "그러니까 다닥다닥... 주차 공간도 진짜 협소하고... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+다닥다닥/MAG+./SY+주차/NNG+공간/NNG+도/JX+진짜/MAG+협소/XR+하/XSA+고/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 그니까 키키 그렇게 치면 소형차가 좋은데 난 큰 차로 바꾸고 싶어",
+            "norm_text": "응 그니까 키키 그렇게 치면 소형차가 좋은데 난 큰 차로 바꾸고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그니까/MAJ+키/NNG+키/XSV+ETN+그렇게/MAG+치/VV+면/EC+소형차/NNG+가/JKS+좋/VA+은데/EC+난/NP+JX+큰/VA+ETM+차/NNG+로/JKB+바꾸/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 소형차 타면 무시하잖아 ㅠㅠ 그게 너무 싫던데 뭘로 바꾸고 싶니",
+            "norm_text": "소형차 타면 무시하잖아 ㅠㅠ 그게 너무 싫던데 뭘로 바꾸고 싶니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "소형차/NNG+타/VV+면/EC+무시/NNG+하/XSV+잖아/EC+VX+EF+ㅠㅠ/UNKNOWN+그게/NP+JKS+너무/MAG+싫/VA+던데/EC+뭘로/NP+JKB+바꾸/VV+고/EC+싶/VX+니/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 나 SUV 큰 걸로 바꾸고 싶은데... 뭐 마음만 있을 뿐 키키",
+            "norm_text": "키키 나 SUV 큰 걸로 바꾸고 싶은데... 뭐 마음만 있을 뿐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+SUV/SL+큰/VA+ETM+걸로/NNB+JKB+바꾸/VV+고/EC+싶/VX+은데/EF+./SY+뭐/IC+마음/NNG+만/JX+있/VV+을/ETM+뿐/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나는 차도 없는데 언제 사지 키키",
+            "norm_text": "나는 차도 없는데 언제 사지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+차/NNG+도/JX+없/VA+는데/EC+언제/MAG+사지/NNG+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

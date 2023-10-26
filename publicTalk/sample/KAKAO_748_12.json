@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 71651,
+    "name": "KAKAO_748_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134506090790/KAKAO_748_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134506090790/KAKAO_748_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37362,
+      "filename": "KAKAO_748_12.txt",
+      "title": "KAKAO_748_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 643,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 643,
+        "word_size": 203,
+        "text": "1 : 니 해외여행 가본 곳 어디 있어?\n2 : 나 해외여행은 일본밖에 안 가봤어 ㅠ 아쉬워\n1 : 아아...ㅜㅜ 아쉽겠다...ㅜㅜ\n1 : 요즘 막 해외여행 가본 사람이 승자란 말이 있더라고 ㅜㅜ\n2 : 응 진짜 우리 대학생 때 선배나 교수님들이 유럽 여행 적극 추천 했었자나 그 때 그 말 듣고 가볼껄 ㅠ\n1 : 그니까... 나도 대학생 때 진짜 유럽 여행 같은 걸 가봤어야 했다! ㅜㅜ\n2 : 가고 싶었지만 가난한 대학생이였는데 어떻게 가 ㅠ\n1 : 그건 그렇지만...ㅜㅜ\n1 : 지금은 막 기차에서 쪽잠 자면서 이동하는 그런 여행 할 수 있겠나? ㅜㅜ\n2 : 지금은 절대 그런 불편 감수해서 여행 안 하려고 할 거 같아 나는...\n1 : 어릴 때 열정으로 해 볼 수 있는 여행이지 않겠나 ㅜㅜ\n2 : 맞아 그 땐 용감하기라도 했지 지금은 집 밖에 나가는 것도 무서워\n1 : 키키 나도... 키키 휴... 그리고 지금은 가고 싶어도 못 가잖아...ㅜㅜ\n2 : 지금은 돈은 있는데 시간이 없다 시간이 ㅠㅠ 슬퍼\n1 : ㅠㅠ 다 늙어서 돈 있고 시간 있는데 체력 없을 때 가겠네... ㅜㅜ\n2 : 그래서 운동을 해야 돼\n2 : 친구 우리 운동해서 체력 키워 놓자\n1 : 키키 그래 그러자! 우리 애들이랑 여행은 갈 수 있겠나?\n2 : 2021년 가기 전에 한 번 가야지! 계획해보자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 해외여행 가본 곳 어디 있어?",
+            "norm_text": "니 해외여행 가본 곳 어디 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+해외/NNG+여행가/NNG+본곳/NNG+어디/NP+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 해외여행은 일본밖에 안 가봤어 ㅠ 아쉬워",
+            "norm_text": "나 해외여행은 일본밖에 안 가봤어 ㅠ 아쉬워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+해외여행/NNG+은/JX+일본/NNP+밖에/JX+안/MAG+가/VV+EC+봤/VX+EP+어ㅠ/UNKNOWN+아쉬워/VA+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아아...ㅜㅜ 아쉽겠다...ㅜㅜ",
+            "norm_text": "아아...ㅜㅜ 아쉽겠다...ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+./SY+ㅜㅜ/UNKNOWN+아쉽/VA+겠/EP+다/EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 요즘 막 해외여행 가본 사람이 승자란 말이 있더라고 ㅜㅜ",
+            "norm_text": "요즘 막 해외여행 가본 사람이 승자란 말이 있더라고 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+막/MAJ+해외여행/NNG+가본/NNG+사람/NNG+이/JKS+승자/NNG+란/JX+말/NNG+이/JKS+있/VA+더라고/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 진짜 우리 대학생 때 선배나 교수님들이 유럽 여행 적극 추천 했었자나 그 때 그 말 듣고 가볼껄 ㅠ",
+            "norm_text": "응 진짜 우리 대학생 때 선배나 교수님들이 유럽 여행 적극 추천 했었자나 그 때 그 말 듣고 가볼껄 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+진짜/MAG+우리/NP+대학생/NNG+때/NNG+선배/NNG+나/JC+교수/NNG+님/XSN+들/XSN+이/JKS+유럽/NNP+여행/NNG+적극/NNG+추천/NNG+했었/XSV+EP+자/EF+나/NP+그때/NNG+그/MM+말/NNG+듣/VV+고/EC+가/JKS+볼/VV+ETM+껄ㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그니까... 나도 대학생 때 진짜 유럽 여행 같은 걸 가봤어야 했다! ㅜㅜ",
+            "norm_text": "그니까... 나도 대학생 때 진짜 유럽 여행 같은 걸 가봤어야 했다! ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+나/NP+도/JX+대학생/NNG+때/NNG+진짜/MAG+유럽/NNP+여행/NNG+같/VA+은/ETM+걸/NNB+JKO+가/VV+EC+봤/VX+EP+어야/EC+했/VX+EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 가고 싶었지만 가난한 대학생이였는데 어떻게 가 ㅠ",
+            "norm_text": "가고 싶었지만 가난한 대학생이였는데 어떻게 가 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가/VV+고/EC+싶/VX+었/EP+지만/EC+가난/NNG+한/XSA+ETM+대학/NNG+생/XSN+이/VCP+였/EP+는데/EC+어떻/VA+게/EC+가ㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그건 그렇지만...ㅜㅜ",
+            "norm_text": "그건 그렇지만...ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그렇/VA+지만/EC+./SY+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 지금은 막 기차에서 쪽잠 자면서 이동하는 그런 여행 할 수 있겠나? ㅜㅜ",
+            "norm_text": "지금은 막 기차에서 쪽잠 자면서 이동하는 그런 여행 할 수 있겠나? ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+은/JX+막/VV+기/ETN+차/NNG+에서/JKB+쪽잠/NNG+자/VV+면서/EC+이동/NNG+하/XSV+는/ETM+그런/MM+여행/NNG+할/XSV+ETM+수/NNB+있/VV+겠/EP+나/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 지금은 절대 그런 불편 감수해서 여행 안 하려고 할 거 같아 나는...",
+            "norm_text": "지금은 절대 그런 불편 감수해서 여행 안 하려고 할 거 같아 나는...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+은/JX+절대/MAG+그런/MM+불편/NNG+감수/NNG+해서/XSV+EC+여행/NNG+안/MAG+하/VV+려고/EC+할/VX+ETM+거/NNB+같/VA+아/EC+나/NP+는/JX+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 어릴 때 열정으로 해 볼 수 있는 여행이지 않겠나 ㅜㅜ",
+            "norm_text": "어릴 때 열정으로 해 볼 수 있는 여행이지 않겠나 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+열정/NNG+으로/JKB+해/VV+EC+볼/VX+ETM+수/NNB+있/VV+는/ETM+여행/NNG+이/VCP+지/EC+않/VX+겠/EP+나/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아 그 땐 용감하기라도 했지 지금은 집 밖에 나가는 것도 무서워",
+            "norm_text": "맞아 그 땐 용감하기라도 했지 지금은 집 밖에 나가는 것도 무서워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+그땐/NNG+JX+용감/XR+하/XSA+기/ETN+라도/VCP+EC+했/VX+EP+지/EF+지금/MAG+은/JX+집/NNG+밖에/JX+나가/VV+는/ETM+것/NNB+도/JX+무서워/VA+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 나도... 키키 휴... 그리고 지금은 가고 싶어도 못 가잖아...ㅜㅜ",
+            "norm_text": "키키 나도... 키키 휴... 그리고 지금은 가고 싶어도 못 가잖아...ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+./SY+./SY+키/NNG+키/XSV+ETN+휴/IC+./SY+그리고/MAJ+지금/MAG+은/JX+가/VV+고/EC+싶/VX+어도/EC+못/MAG+가/VV+잖아/EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 지금은 돈은 있는데 시간이 없다 시간이 ㅠㅠ 슬퍼",
+            "norm_text": "지금은 돈은 있는데 시간이 없다 시간이 ㅠㅠ 슬퍼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+은/JX+돈/NNG+은/JX+있/VA+는데/EC+시간/NNG+이/JKS+없/VA+다/EC+시간/NNG+이/JKS+ㅠㅠ/UNKNOWN+슬퍼/VA+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : ㅠㅠ 다 늙어서 돈 있고 시간 있는데 체력 없을 때 가겠네... ㅜㅜ",
+            "norm_text": "ㅠㅠ 다 늙어서 돈 있고 시간 있는데 체력 없을 때 가겠네... ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ다늙어서돈있고시간있는데체력없을때가겠네/UNKNOWN+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래서 운동을 해야 돼",
+            "norm_text": "그래서 운동을 해야 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+운동/NNG+을/JKO+해야/VV+EC+돼/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 친구 우리 운동해서 체력 키워 놓자",
+            "norm_text": "친구 우리 운동해서 체력 키워 놓자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "친구/NNG+우리/NP+운동/NNG+해서/XSV+EC+체력/NNG+키워/VV+EC+놓/VX+자/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 그래 그러자! 우리 애들이랑 여행은 갈 수 있겠나?",
+            "norm_text": "키키 그래 그러자! 우리 애들이랑 여행은 갈 수 있겠나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VA+EC+그러/VV+자/EF+우리/NP+애/NNG+들/XSN+이랑/JKB+여행/NNG+은/JX+갈/VV+ETM+수/NNB+있/VV+겠/EP+나/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 2021년 가기 전에 한 번 가야지! 계획해보자",
+            "norm_text": "2021년 가기 전에 한 번 가야지! 계획해보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "2021/SN+년/NNBC+가/VV+기/ETN+전/NNG+에/JKB+한/MM+번/NNBC+가/VV+야지/EF+계획/NNG+해/XSV+EC+보/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 30088,
+    "name": "KAKAO_870_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174832047496/KAKAO_870_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174832047496/KAKAO_870_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40290,
+      "filename": "KAKAO_870_12.txt",
+      "title": "KAKAO_870_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 387,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 132,
+        "text": "1 : 나 취직하기 전에 같이 놀러 갔다 올까?\n2 : 엄마가 여수 같이 가자고 했잖아~\n1 : 근데 여수는 버스 타고 가기엔 멀지 않아?\n2 : 버스로 1시간 50분 걸려\n1 : 아니면 야경이 보고 싶은 거면 아빠 퇴근하고 같이 가자고 하자\n2 : 아빠가 퍽이나 데리고 가겠다\n1 : 그런가? 그럼 여수 같이 가자\n2 : 오키~\n2 : 언제 갈까?\n1 : 사람 별로 없는 평일에 가게\n2 : 아빠 출근 시켜 놓고 10시나 11시쯤 가자\n1 : 그래 키키\n1 : 어디 어디 가고 싶어?\n2 : 케이블카 지금도 운행하나?\n1 : 엉 케이블카 아직도 운행 해\n1 : 타보고 싶어?\n2 : 아빠랑 연애할 때 타보고 그 후로 타본 적이 없어서 타고 싶네~\n1 : 그럼 나랑 케이블카도 같이 타자~\n2 : 오키~ 같이 맛난 것도 먹자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 취직하기 전에 같이 놀러 갔다 올까?",
+            "norm_text": "나 취직하기 전에 같이 놀러 갔다 올까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+취직/NNG+하/XSV+기/ETN+전/NNG+에/JKB+같이/MAG+놀러갔/VV+EP+다/EC+올까/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엄마가 여수 같이 가자고 했잖아~",
+            "norm_text": "엄마가 여수 같이 가자고 했잖아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+가/JKS+여수/NNG+같이/JKB+가/VV+자고/EC+했잖아/VX+EP+EC+VX+EF+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 근데 여수는 버스 타고 가기엔 멀지 않아?",
+            "norm_text": "근데 여수는 버스 타고 가기엔 멀지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+여수/NNP+는/JX+버스/NNG+타/VV+고/EC+가/VX+기엔/EC+JX+멀/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 버스로 1시간 50분 걸려",
+            "norm_text": "버스로 1시간 50분 걸려",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "버스/NNG+로/JKB+1/SN+시간/NNG+50/SN+분/NNBC+걸려/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니면 야경이 보고 싶은 거면 아빠 퇴근하고 같이 가자고 하자",
+            "norm_text": "아니면 야경이 보고 싶은 거면 아빠 퇴근하고 같이 가자고 하자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니면/MAJ+야경/NNG+이/JKS+보/VV+고/EC+싶/VX+은/ETM+거/NNB+면/VCP+EC+아빠/NNG+퇴근/NNG+하/XSV+고/EC+같이/MAG+가/VV+자고/EC+하/VV+자/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아빠가 퍽이나 데리고 가겠다",
+            "norm_text": "아빠가 퍽이나 데리고 가겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+가/JKS+퍽/MAG+이나/JX+데리/VV+고/EC+가/VX+겠/EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그런가? 그럼 여수 같이 가자",
+            "norm_text": "그런가? 그럼 여수 같이 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EF+그럼/MAJ+여수/NNG+같이/JKB+가/VV+자/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오키~",
+            "norm_text": "오키~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 언제 갈까?",
+            "norm_text": "언제 갈까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언제/MAG+갈까/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 사람 별로 없는 평일에 가게",
+            "norm_text": "사람 별로 없는 평일에 가게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사람/NNG+별/XSN+로/JKB+없/VA+는/ETM+평일/NNG+에/JKB+가/VV+게/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아빠 출근 시켜 놓고 10시나 11시쯤 가자",
+            "norm_text": "아빠 출근 시켜 놓고 10시나 11시쯤 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+출근/NNG+시켜/XSV+EC+놓/VX+고/EC+10/SN+시/NNBC+나/JX+11/SN+시/NNBC+쯤/XSN+가/VV+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래 키키",
+            "norm_text": "그래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어디 어디 가고 싶어?",
+            "norm_text": "어디 어디 가고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+어디/NP+가/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 케이블카 지금도 운행하나?",
+            "norm_text": "케이블카 지금도 운행하나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "케이블카/NNG+지금/NNG+도/JX+운행/NNG+하나/NR"
+          },
+          {
+            "id": 15,
+            "text": "1 : 엉 케이블카 아직도 운행 해",
+            "norm_text": "엉 케이블카 아직도 운행 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+케이블카/NNG+아직/MAG+도/JX+운행/NNG+해/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 타보고 싶어?",
+            "norm_text": "타보고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "타/VV+EC+보/VX+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아빠랑 연애할 때 타보고 그 후로 타본 적이 없어서 타고 싶네~",
+            "norm_text": "아빠랑 연애할 때 타보고 그 후로 타본 적이 없어서 타고 싶네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+랑/JKB+연애/NNG+할/XSV+ETM+때/NNG+타/XSV+EC+보/VX+고/EC+그/MM+후/NNG+로/JKB+타/VV+본/EC+VX+ETM+적/NNB+이/JKS+없/VA+어서/EC+타/VV+고/EC+싶/VX+네/EF+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그럼 나랑 케이블카도 같이 타자~",
+            "norm_text": "그럼 나랑 케이블카도 같이 타자~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그럼/MAJ+나/NP+랑/JKB+케이블카/NNG+도/JX+같이/MAG+타자/NNG+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 오키~ 같이 맛난 것도 먹자",
+            "norm_text": "오키~ 같이 맛난 것도 먹자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오키/NNP+~/SY+같이/MAG+맛난/VA+ETM+것/NNB+도/JX+먹/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

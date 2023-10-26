@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 44465,
+    "name": "KAKAO_884_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095033030939/KAKAO_884_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095033030939/KAKAO_884_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40613,
+      "filename": "KAKAO_884_14.txt",
+      "title": "KAKAO_884_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 556,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 556,
+        "word_size": 174,
+        "text": "1 : 니 장도로 사람 살해한 거 봄?\n2 : 맞아 아내가 이혼하자고 장인어른 보는 앞에서 찔러 죽여버렸대\n2 : 미친 거 아니냐\n1 : ㅁㅊ... 나 자세히 안 봄 더 말해 봐\n2 : 원래 가정 폭력이 있어서 아내가 집 나갔다가 이혼 서류 들고 찾아왔는데 화를 못 참고 찔러 죽였다더라...\n2 : 아내 아빠도 있었는데...\n1 : 와 개에바다 근데 한국인인데 장도를 왜 들고 있었던 거임?\n2 : 아내가 마지막으로 한 말이 우리 애들 어떡해... 이거래 ㅜ\n1 : 난 장도만 보고 일본에서 그런 줄 ㅜㅜ\n2 : 요 근래 있었던 사건이래 진짜 세상이 미친 듯\n1 : 가정 폭력은 진짜 답이 없다...\n2 : 장도는 일부러 아내 위협하려고 사 놨었대\n1 : 도라이네 그냥? 뭐 하는 놈이고\n2 : 생활비도 안 주고 가정 폭력에 배째라 식으로 나오다가 아내가 한번 못 참고 집 나갔다고 죽여버렸다는데... 사형됐으면 ㅜ\n1 : 애들은 우짜노 진짜... 안타깝다 ㅜㅜ\n2 : 그니까 ㅜㅜ 내가 자식이면 아빠 찢어 죽일 듯\n1 : 양육비를 더 못 줄 망정 뭐 하는 거고.\n2 : 그니까, 어떻게 장인어른 앞에서 와이프를 죽이냐 ;",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 장도로 사람 살해한 거 봄?",
+            "norm_text": "니 장도로 사람 살해한 거 봄?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니장/NNG+도로/NNG+사람/NNG+살해/NNG+한/XSA+ETM+거/NNB+봄/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 아내가 이혼하자고 장인어른 보는 앞에서 찔러 죽여버렸대",
+            "norm_text": "맞아 아내가 이혼하자고 장인어른 보는 앞에서 찔러 죽여버렸대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+아내/NNG+가/JKS+이혼/NNG+하/XSV+자고/EC+장인어른/NNG+보/VV+는/ETM+앞/NNG+에서/JKB+찔러/VV+EC+죽여버렸/VV+EC+VX+EP+대/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 미친 거 아니냐",
+            "norm_text": "미친 거 아니냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미친/VV+ETM+거/NNB+아니/VCN+냐/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : ㅁㅊ... 나 자세히 안 봄 더 말해 봐",
+            "norm_text": "ㅁㅊ... 나 자세히 안 봄 더 말해 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "ㅁㅊ/UNKNOWN+./SY+나/NP+자세히/MAG+안/MAG+봄/VV+ETN+더/MAG+말/NNG+해/XSV+EC+봐/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 원래 가정 폭력이 있어서 아내가 집 나갔다가 이혼 서류 들고 찾아왔는데 화를 못 참고 찔러 죽였다더라...",
+            "norm_text": "원래 가정 폭력이 있어서 아내가 집 나갔다가 이혼 서류 들고 찾아왔는데 화를 못 참고 찔러 죽였다더라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+가정폭력/NNP+이/JKS+있/VV+어서/EC+아내/NNG+가/JKS+집/NNG+나갔/VV+EP+다가/EC+이혼/NNG+서류/NNG+들/VV+고/EC+찾아왔/VV+EP+는데/EC+화/NNG+를/JKO+못/MAG+참/VV+고/EC+찔러/VV+EC+죽였/VV+EP+다더라/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아내 아빠도 있었는데...",
+            "norm_text": "아내 아빠도 있었는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아내/NNG+아빠/NNG+도/JX+있/VA+었/EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 와 개에바다 근데 한국인인데 장도를 왜 들고 있었던 거임?",
+            "norm_text": "와 개에바다 근데 한국인인데 장도를 왜 들고 있었던 거임?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+개/NNG+에/JKB+바다/NNG+근데/MAJ+한국인/NNG+인데/VCP+EC+장도/NNG+를/JKO+왜/MAG+들/VV+고/EC+있/VX+었/EP+던/ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아내가 마지막으로 한 말이 우리 애들 어떡해... 이거래 ㅜ",
+            "norm_text": "아내가 마지막으로 한 말이 우리 애들 어떡해... 이거래 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아내/NNG+가/JKS+마지막/NNG+으로/JKB+한/MM+말/NNG+이/JKS+우리/NP+애/NNG+들/XSN+어떡/XR+해/XSA+EF+./SY+이거/NP+래ㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 난 장도만 보고 일본에서 그런 줄 ㅜㅜ",
+            "norm_text": "난 장도만 보고 일본에서 그런 줄 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+장도/NNG+만/JX+보/VV+고/EC+일본/NNP+에서/JKB+그런/MM+줄/NNB+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 요 근래 있었던 사건이래 진짜 세상이 미친 듯",
+            "norm_text": "요 근래 있었던 사건이래 진짜 세상이 미친 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요/MM+근래/NNG+있/VV+었/EP+던/ETM+사건/NNG+이/VCP+래/EF+진짜/MAG+세상/NNG+이/JKS+미친/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 가정 폭력은 진짜 답이 없다...",
+            "norm_text": "가정 폭력은 진짜 답이 없다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가정폭력/NNP+은/JX+진짜/MAG+답/NNG+이/JKS+없/VA+다/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 장도는 일부러 아내 위협하려고 사 놨었대",
+            "norm_text": "장도는 일부러 아내 위협하려고 사 놨었대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "장도/NNG+는/JX+일부러/MAG+아내/NNG+위협/NNG+하/XSV+려고/EC+사/VV+EC+놨었/VX+EP+대/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 도라이네 그냥? 뭐 하는 놈이고",
+            "norm_text": "도라이네 그냥? 뭐 하는 놈이고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도라/NNG+이/VCP+네/EF+그냥/MAG+뭐/IC+하/VV+는/ETM+놈/NNB+이/VCP+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 생활비도 안 주고 가정 폭력에 배째라 식으로 나오다가 아내가 한번 못 참고 집 나갔다고 죽여버렸다는데... 사형됐으면 ㅜ",
+            "norm_text": "생활비도 안 주고 가정 폭력에 배째라 식으로 나오다가 아내가 한번 못 참고 집 나갔다고 죽여버렸다는데... 사형됐으면 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "생활비/NNG+도/JX+안/MAG+주/VV+고/EC+가정폭력/NNP+에/JKB+배/NNG+째/XSN+라식/NNG+으로/JKB+나오/VV+다가/EC+아내/NNG+가/JKS+한번/MAG+못/MAG+참/VV+고/EC+집/NNG+나갔/VV+EP+다고/EC+죽여버렸/VV+EC+VX+EP+다는데/EF+./SY+사형됐으면ㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 애들은 우짜노 진짜... 안타깝다 ㅜㅜ",
+            "norm_text": "애들은 우짜노 진짜... 안타깝다 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애/NNG+들/XSN+은/JX+우짜/VV+노/EC+진짜/MAG+./SY+안타깝다ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그니까 ㅜㅜ 내가 자식이면 아빠 찢어 죽일 듯",
+            "norm_text": "그니까 ㅜㅜ 내가 자식이면 아빠 찢어 죽일 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+ㅜㅜ/UNKNOWN+내/NP+가/JKS+자식/NNG+이/VCP+면/EC+아빠/NNG+찢/VV+어/EC+죽일/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 17,
+            "text": "1 : 양육비를 더 못 줄 망정 뭐 하는 거고.",
+            "norm_text": "양육비를 더 못 줄 망정 뭐 하는 거고.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "양육비/NNG+를/JKO+더/MAG+못/MAG+줄망정/VV+EC+뭐/IC+하/VV+는/ETM+거/NNB+고/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그니까, 어떻게 장인어른 앞에서 와이프를 죽이냐 ;",
+            "norm_text": "그니까, 어떻게 장인어른 앞에서 와이프를 죽이냐 ;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+,/SC+어떻게/MAG+장인어른/NNG+앞/NNG+에서/JKB+와이프/NNG+를/JKO+죽/VV+이냐/EC+;/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

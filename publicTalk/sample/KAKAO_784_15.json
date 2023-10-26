@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 34680,
+    "name": "KAKAO_784_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930144004099096/KAKAO_784_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930144004099096/KAKAO_784_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38146,
+      "filename": "KAKAO_784_15.txt",
+      "title": "KAKAO_784_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 640,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 640,
+        "word_size": 209,
+        "text": "1 : 오늘 뉴스 보니까 북한 열병식 끝나고 김정은 살이 한 20키로 끝난 거 같더라 키키\n2 : 살이 20키로 끝났다는 게 무슨 소리지?\n1 : 어 미안 개떡 같이 쳤네^^\n1 : 20키로 빠졌더라 키키\n2 : 키키 열병식이 먼데? 난 몰라\n1 : 그냥 지들 축하파티 키키 정권 73주년이래 키키\n2 : 와 소름 끼쳐 칠십삼주년\n2 : 니는 북한에서 살 수 있냐\n1 : 아마 누구 목 따고 내가 위로 올라가는 게 낫지 않을까? 닌 살 수 있나... 맨날 각 잡혀서\n2 : 키키 목 딴데 왜 이렇게 살벌하냐…\n2 : 난 찍소리 못하고 기어 살겟지\n1 : 키키 앞으로 우리나라랑 관계가 어떻게 될란지 모르겠넹...\n2 : 키키 닌 남북통일 됐으면 좋겠나\n1 : 아니?  절대 불가능이다 키키 통일은 됐고 그냥 김정은이 시야가 좀 넓어져서 오갈 수 있게만 해줘도 좋겠다\n2 : 키키 오 시야가 넓어져서래\n2 : 니가 이런 문제 이야기하니까 이상하네\n1 : 나 매일 뉴스 보는 여자야 키키\n1 : 니는 통일되면 힘 쎄져서 좀 다른 나라 견제하고 그럴 수 있을 거 같지 않나 키키 북한 핵도 있고\n2 : 나…노관심이야… 진짜… 키키 뉴스 본다니 키키\n1 : 요즘 어느  나라든 돌아가는 게 앵간한 개그 프로보다 웃기다 키키\n2 : 키키 아 키키 그 말 다들 공감할걸 왜 이르케 말 잘하냐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 뉴스 보니까 북한 열병식 끝나고 김정은 살이 한 20키로 끝난 거 같더라 키키",
+            "norm_text": "오늘 뉴스 보니까 북한 열병식 끝나고 김정은 살이 한 20키로 끝난 거 같더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+뉴스/NNG+보/VV+니까/EC+북한/NNP+열병식/NNG+끝/NNG+나/VV+고/EC+김정은/NNP+살/NNG+이/JKS+한/MM+20/SN+키/NNG+로/JKB+끝난/VV+ETM+거/NNB+같/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 살이 20키로 끝났다는 게 무슨 소리지?",
+            "norm_text": "살이 20키로 끝났다는 게 무슨 소리지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "살/NNG+이/JKS+20/SN+키로/XSV+ETN+JKB+끝/NNG+났/VV+EP+다는/ETM+게/NNB+JKS+무슨/MM+소리/NNG+지/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어 미안 개떡 같이 쳤네^^",
+            "norm_text": "어 미안 개떡 같이 쳤네^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+미안/NNG+개떡/NNG+같이/JKB+쳤/VV+EP+네/EF+^/SY+^/SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 20키로 빠졌더라 키키",
+            "norm_text": "20키로 빠졌더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "20/SN+키/NNG+로/JKB+빠졌/VV+EP+더라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 열병식이 먼데? 난 몰라",
+            "norm_text": "키키 열병식이 먼데? 난 몰라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+열병식/NNG+이/JKS+먼데/VA+EF+난/NP+JX+몰라/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그냥 지들 축하파티 키키 정권 73주년이래 키키",
+            "norm_text": "그냥 지들 축하파티 키키 정권 73주년이래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그냥/MAG+지/NP+들/XSN+축하/NNG+파티/NNG+키/NNG+키/NNG+정권/NNG+73/SN+주년/NNBC+이래/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 와 소름 끼쳐 칠십삼주년",
+            "norm_text": "와 소름 끼쳐 칠십삼주년",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+소름/NNG+끼쳐/VV+EC+칠/NR+십/NR+삼/NR+주년/NNBC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 니는 북한에서 살 수 있냐",
+            "norm_text": "니는 북한에서 살 수 있냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+북한/NNP+에서/JKB+살/VV+ETM+수/NNB+있/VV+냐/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아마 누구 목 따고 내가 위로 올라가는 게 낫지 않을까? 닌 살 수 있나... 맨날 각 잡혀서",
+            "norm_text": "아마 누구 목 따고 내가 위로 올라가는 게 낫지 않을까? 닌 살 수 있나... 맨날 각 잡혀서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+누구/NP+목/NNG+따/VV+고/EC+내/NP+가/JKS+위/NNG+로/JKB+올라가/VV+는/ETM+게/NNB+JKS+낫/VA+지/EC+않/VX+을까/EF+닌/NNP+살/VV+ETM+수/NNB+있/VV+나/EF+./SY+맨날/MAG+각/MM+잡혀서/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 목 딴데 왜 이렇게 살벌하냐…",
+            "norm_text": "키키 목 딴데 왜 이렇게 살벌하냐…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+목/NNG+딴/MM+데/NNB+왜/MAG+이렇게/MAG+살벌/NNG+하/XSV+냐/EC+…/SE"
+          },
+          {
+            "id": 11,
+            "text": "2 : 난 찍소리 못하고 기어 살겟지",
+            "norm_text": "난 찍소리 못하고 기어 살겟지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+찍소리/NNG+못/MAG+하/VV+고/EC+기/VV+어/EC+살/VV+겟/EP+지/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 앞으로 우리나라랑 관계가 어떻게 될란지 모르겠넹...",
+            "norm_text": "키키 앞으로 우리나라랑 관계가 어떻게 될란지 모르겠넹...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+앞/NNG+으로/JKB+우리나라/NNG+랑/JKB+관계/NNG+가/JKS+어떻게/MAG+될/VV+ETM+란지/NNP+모르/VV+겠/EP+넹/NNP+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 닌 남북통일 됐으면 좋겠나",
+            "norm_text": "키키 닌 남북통일 됐으면 좋겠나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키닌/NNG+남북통일/NNG+됐/XSV+EP+으면/EC+좋/VA+겠/EP+나/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아니?  절대 불가능이다 키키 통일은 됐고 그냥 김정은이 시야가 좀 넓어져서 오갈 수 있게만 해줘도 좋겠다",
+            "norm_text": "아니?  절대 불가능이다 키키 통일은 됐고 그냥 김정은이 시야가 좀 넓어져서 오갈 수 있게만 해줘도 좋겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+절대/MAG+불/XPN+가능/NNG+이/JKS+다키키/NNP+통일/NNG+은/JX+됐/VV+EP+고/EC+그냥/MAG+김정은/NNP+이/JKS+시야/NNG+가/JKS+좀/MAG+넓/VA+어/EC+져서/VX+EC+오갈/VV+ETM+수/NNB+있/VV+게/EC+만/JX+해줘도/VX+EC+VX+EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 오 시야가 넓어져서래",
+            "norm_text": "키키 오 시야가 넓어져서래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/NR+시야/NNG+가/JKS+넓/VA+어/EC+져/VX+EC+서래/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 니가 이런 문제 이야기하니까 이상하네",
+            "norm_text": "니가 이런 문제 이야기하니까 이상하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/JKS+이런/MM+문제/NNG+이야기/NNG+하/XSV+니까/EC+이상/NNG+하/XSV+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 나 매일 뉴스 보는 여자야 키키",
+            "norm_text": "나 매일 뉴스 보는 여자야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+매일/MAG+뉴스/NNG+보/VV+는/ETM+여자/NNG+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 니는 통일되면 힘 쎄져서 좀 다른 나라 견제하고 그럴 수 있을 거 같지 않나 키키 북한 핵도 있고",
+            "norm_text": "니는 통일되면 힘 쎄져서 좀 다른 나라 견제하고 그럴 수 있을 거 같지 않나 키키 북한 핵도 있고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+는/JX+통일/NNG+되/XSV+면/EC+힘쎄/VA+져서/EC+VX+EC+좀/MAG+다른/MM+나라/NNG+견제/NNG+하/XSV+고/EC+그럴/VV+ETM+수/NNB+있/VV+을/ETM+거/NNB+같/VA+지/EC+않/VX+나/EC+키키/NNP+북한/NNP+핵/NNG+도/JX+있/VA+고/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 나…노관심이야… 진짜… 키키 뉴스 본다니 키키",
+            "norm_text": "나…노관심이야… 진짜… 키키 뉴스 본다니 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+…/SE+노/XPN+관심/NNG+이/VCP+야/EC+…/SE+진짜/MAG+…/SE+키/NNG+키/NNG+뉴스/NNG+본다니/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 요즘 어느  나라든 돌아가는 게 앵간한 개그 프로보다 웃기다 키키",
+            "norm_text": "요즘 어느  나라든 돌아가는 게 앵간한 개그 프로보다 웃기다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+어느/MM+나라/NNG+든/VCP+EC+돌아가/VV+는/ETM+게/NNB+JKS+앵/IC+간/NNG+한/XSA+ETM+개그/NNG+프로/NNG+보다/JKB+웃/VV+기/ETN+다키키/NNP"
+          },
+          {
+            "id": 21,
+            "text": "2 : 키키 아 키키 그 말 다들 공감할걸 왜 이르케 말 잘하냐",
+            "norm_text": "키키 아 키키 그 말 다들 공감할걸 왜 이르케 말 잘하냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+아키/NNP+키/NNG+그/MM+말다/NNG+들/XSN+공감/NNG+할/XSV+ETM+걸/NNB+JKO+왜/MAG+이르케/MAG+말/NNG+잘/MAG+하/VV+냐/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

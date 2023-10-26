@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55804,
+    "name": "KAKAO_700_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114643078866/KAKAO_700_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114643078866/KAKAO_700_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35697,
+      "filename": "KAKAO_700_18.txt",
+      "title": "KAKAO_700_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 527,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 527,
+        "word_size": 164,
+        "text": "1 : 너 이번에 아마존 몰인가 그거 우리나라에 들어온다는 소식 봤어?\n2 : 응 키키 너무 신기하지? 계산 안 하고 그냥 나가는데 계산이 된대!\n1 : 그러니까 세상 진짜 빠르게 변하는 것 같아\n2 : 웅 하하 나 인터넷 쇼핑 처음 할 때도 되게 신기했었는데\n1 : 맞아 키키 나는 무인 가게에서 계산할 때도 신기했어\n2 : 그치? 나도 요즘 키오스크 쓸 때 되게 신기해\n1 : 신기할 게 많은 세상이 되어버렸어!\n2 : 이제 진짜 현금 쓸 일은 없어지겠다 그치?\n1 : 응 키키 진짜 신용카드도 조만간 없어질 것 같아\n2 : 응 하하 근데 아마존 그건 어떻게 결제가 되는 거래?\n1 : 나도 자세히는 모르는데 카드 정보를 미리 등록한 거 아닐까?\n2 : 그런가? 그럼 스캐너로 사람 정보랑 물건 바코드를 다 스캔하는 건가?\n1 : 그럴 것 같아 키키 이제 오프라인 매장은 다 그렇게 바뀌겠지?\n2 : 아무래도 돈이 적게 들 테니까 그렇지 않을까?\n1 : 이런 시스템이면 할머니 할아버지들도 오히려 편하시겠다\n2 : 그치? 키오스크는 직접 가서 뭘 해야 하니까 힘든데",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 이번에 아마존 몰인가 그거 우리나라에 들어온다는 소식 봤어?",
+            "norm_text": "너 이번에 아마존 몰인가 그거 우리나라에 들어온다는 소식 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+이번/NNG+에/JKB+아마/MAG+존몰/NNG+인가/VCP+EC+그거/NP+우리/NP+나라/NNG+에/JKB+들어온다는/VV+ETM+소식/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 키키 너무 신기하지? 계산 안 하고 그냥 나가는데 계산이 된대!",
+            "norm_text": "응 키키 너무 신기하지? 계산 안 하고 그냥 나가는데 계산이 된대!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+너무/MAG+신기/XR+하/XSA+지/EF+계산/NNG+안/MAG+하/VV+고/EC+그냥/MAG+나가/VV+는데/EC+계산/NNG+이/JKS+된대/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러니까 세상 진짜 빠르게 변하는 것 같아",
+            "norm_text": "그러니까 세상 진짜 빠르게 변하는 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+세상/NNG+진짜/MAG+빠르/VA+게/EC+변하/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 웅 하하 나 인터넷 쇼핑 처음 할 때도 되게 신기했었는데",
+            "norm_text": "웅 하하 나 인터넷 쇼핑 처음 할 때도 되게 신기했었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/NNG+하/XSV+하나/NR+인터넷/NNG+쇼핑/NNG+처음/NNG+할/XSV+ETM+때/NNG+도/JX+되게/MAG+신기/XR+했었/XSA+EP+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 키키 나는 무인 가게에서 계산할 때도 신기했어",
+            "norm_text": "맞아 키키 나는 무인 가게에서 계산할 때도 신기했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키나/XSA+ETN+JX+는/JX+무인/NNG+가게/NNG+에서/JKB+계산/NNG+할/XSV+ETM+때/NNG+도/JX+신기/XR+했/XSA+EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그치? 나도 요즘 키오스크 쓸 때 되게 신기해",
+            "norm_text": "그치? 나도 요즘 키오스크 쓸 때 되게 신기해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+나/NP+도/JX+요즘/MAG+키오스/NNP+크/MAG+쓸/VV+ETM+때/NNG+되게/MAG+신기/NNG+해/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 신기할 게 많은 세상이 되어버렸어!",
+            "norm_text": "신기할 게 많은 세상이 되어버렸어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "신기/NNG+할/XSV+ETM+게/NNB+JKS+많/VA+은/ETM+세상/NNG+이/JKS+되/VV+어/EC+버렸/VX+EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 이제 진짜 현금 쓸 일은 없어지겠다 그치?",
+            "norm_text": "이제 진짜 현금 쓸 일은 없어지겠다 그치?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이제/MAG+진짜/MAG+현금/NNG+쓸/VV+ETM+일/NNG+은/JX+없/VA+어/EC+지/VX+겠/EP+다/EF+그치/IC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 키키 진짜 신용카드도 조만간 없어질 것 같아",
+            "norm_text": "응 키키 진짜 신용카드도 조만간 없어질 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+진짜/MAG+신용/NNG+카드/NNG+도/JX+조만간/MAG+없/VA+어/EC+질/VX+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 하하 근데 아마존 그건 어떻게 결제가 되는 거래?",
+            "norm_text": "응 하하 근데 아마존 그건 어떻게 결제가 되는 거래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+하하/MAG+근데/MAJ+아마존/NNP+그건/NP+JX+어떻/VA+게/EC+결제/NNG+가/JKS+되/VV+는/ETM+거/NNB+래/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나도 자세히는 모르는데 카드 정보를 미리 등록한 거 아닐까?",
+            "norm_text": "나도 자세히는 모르는데 카드 정보를 미리 등록한 거 아닐까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+자세히/MAG+는/JX+모르/VV+는데/EC+카드/NNG+정보/NNG+를/JKO+미리/MAG+등록/NNG+한/XSA+ETM+거/NNB+아닐까/VCN+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그런가? 그럼 스캐너로 사람 정보랑 물건 바코드를 다 스캔하는 건가?",
+            "norm_text": "그런가? 그럼 스캐너로 사람 정보랑 물건 바코드를 다 스캔하는 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런가/VA+EF+그럼/MAJ+스캐너/NNG+로/JKB+사람/NNG+정보/NNG+랑/JKB+물건/NNG+바코드/NNG+를/JKO+다스/NNG+캔/NNG+하/XSV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럴 것 같아 키키 이제 오프라인 매장은 다 그렇게 바뀌겠지?",
+            "norm_text": "그럴 것 같아 키키 이제 오프라인 매장은 다 그렇게 바뀌겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+것/NNB+같/VA+아/EC+키/NNG+키/NNG+이제/MAG+오프라인/NNG+매장/NNG+은/JX+다/MAG+그렇게/MAG+바뀌/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아무래도 돈이 적게 들 테니까 그렇지 않을까?",
+            "norm_text": "아무래도 돈이 적게 들 테니까 그렇지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+돈/NNG+이/JKS+적/VA+게/EC+들/VX+ETM+테/NNB+VCP+니까/EC+그렇/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 이런 시스템이면 할머니 할아버지들도 오히려 편하시겠다",
+            "norm_text": "이런 시스템이면 할머니 할아버지들도 오히려 편하시겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이런/MM+시스템/NNG+이/VCP+면/EC+할머니/NNG+할아버지/NNG+들/XSN+도/JX+오히려/MAJ+편하/VA+시/EP+겠/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그치? 키오스크는 직접 가서 뭘 해야 하니까 힘든데",
+            "norm_text": "그치? 키오스크는 직접 가서 뭘 해야 하니까 힘든데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키오스/NNP+크/NNP+는/JX+직접/MAG+가/VV+서/EC+뭘/NP+JKO+해야/VV+EC+하/VV+니까/EC+힘든데/VA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

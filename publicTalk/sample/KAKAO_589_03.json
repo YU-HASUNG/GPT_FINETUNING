@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 23815,
+    "name": "KAKAO_589_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822020679/KAKAO_589_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154822020679/KAKAO_589_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31454,
+      "filename": "KAKAO_589_03.txt",
+      "title": "KAKAO_589_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 754,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 754,
+        "word_size": 229,
+        "text": "1 : 나 이번에 중고차 구매해보려 하는데 어떤 준비를 해야 될까?\n2 : 돈을 준비해야지! 키키\n2 : 어떤 차를 구매하려고?\n1 : 아 그렇구나! 돈은 미리 준비했지 키키\n1 : 음... 나는 경차보다는승용차가 더 안전할 거 같아서 승용차 쪽으로 보고 있어~!\n2 : 승용차 어떤 거? 사고 싶은 차종이 있는 거 아니야?\n2 : 종류가 얼마나 많은데~\n1 : 음... 나는 아반떼 보고 있어~!\n2 : 그래? 차는 처음 구매하는 거야?\n1 : 응 키키 그래서 뭘 어떻게 해야 될지 모르겠네...\n1 : 아무 정보가 없는 상태야...\n2 : 음... 일단 아반떼라고 해도 종류가 많아~\n2 : 금액대에 맞는 차종을 정하는 게 좋을 거 같아!\n1 : 아 그렇겠네... 그래서 돈을 준비하라 한 거구나! 키키\n1 : 나는 지금 2020 아반떼 보고 있는데 새 차보다는 중고차가 더 저렴하겠지?\n2 : 응응 아무래도 중고차가 당연히 저렴하기는 하지만~ 상태 좋은 중고차는 새 차랑 별 차이 안 나는 경우도 많다더라~\n1 : 아 그래? 너는 중고차 구매해봤어?\n2 : 응! 나는 지금 타는 차 중고로 구매했어~\n2 : 내 차는 새 차랑 중고차랑 천만 원 정도 차이 나서 중고로 구매했지!\n1 : 그렇구나! 구매할 때 차 상태 같은 건 어떻게 확인했어?\n2 : 직접 확인하지! 외관 상태나 내부 상태 엔진, 주행 거리 다 직접 보고 확인해야지!\n1 : 아 그렇네 내가 직접 보고 사야 되는구나~\n1 : 차에 대해서 더 알아봐야겠다~\n2 : 응! 잘 확인해보고~ 직접 살펴보고 좋은 구매하길 바라~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 이번에 중고차 구매해보려 하는데 어떤 준비를 해야 될까?",
+            "norm_text": "나 이번에 중고차 구매해보려 하는데 어떤 준비를 해야 될까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+이번/NNG+에/JKB+중고차/NNG+구매/NNG+해/XSV+EC+보/VX+려/EC+하/VV+는데/EC+어떤/MM+준비/NNG+를/JKO+해야/VV+EC+될까/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 돈을 준비해야지! 키키",
+            "norm_text": "돈을 준비해야지! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+을/JKO+준비/NNG+해야지/XSV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 어떤 차를 구매하려고?",
+            "norm_text": "어떤 차를 구매하려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+차/NNG+를/JKO+구매/NNG+하/XSA+려고/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아 그렇구나! 돈은 미리 준비했지 키키",
+            "norm_text": "아 그렇구나! 돈은 미리 준비했지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그렇/VA+구나/EF+돈/NNG+은/JX+미리/MAG+준비/NNG+했/XSV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 음... 나는 경차보다는승용차가 더 안전할 거 같아서 승용차 쪽으로 보고 있어~!",
+            "norm_text": "음... 나는 경차보다는승용차가 더 안전할 거 같아서 승용차 쪽으로 보고 있어~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+나/NP+는/JX+경차/NNG+보다/JKB+는/JX+승용차/NNG+가/JKS+더/MAG+안전/NNG+할/XSV+ETM+거/NNB+같/VA+아서/EC+승용차/NNG+쪽/NNB+으로/JKB+보/VV+고/EC+있/VX+어/EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 승용차 어떤 거? 사고 싶은 차종이 있는 거 아니야?",
+            "norm_text": "승용차 어떤 거? 사고 싶은 차종이 있는 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "승용차/NNG+어떤/MM+거/NNB+사/VV+고/EC+싶/VX+은/ETM+차종/NNG+이/JKS+있/VA+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 종류가 얼마나 많은데~",
+            "norm_text": "종류가 얼마나 많은데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "종류/NNG+가/JKS+얼마나/MAG+많/VA+은데/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 음... 나는 아반떼 보고 있어~!",
+            "norm_text": "음... 나는 아반떼 보고 있어~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+./SY+나/NP+는/JX+아반떼/NNP+보/VV+고/EC+있/VX+어/EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그래? 차는 처음 구매하는 거야?",
+            "norm_text": "그래? 차는 처음 구매하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+차/VV+는/ETM+처음/NNG+구매/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 키키 그래서 뭘 어떻게 해야 될지 모르겠네...",
+            "norm_text": "응 키키 그래서 뭘 어떻게 해야 될지 모르겠네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+그래서/MAJ+뭘/NP+JKO+어떻게/MAG+해야/VV+EC+될지/VV+EC+모르/VV+겠/EP+네/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아무 정보가 없는 상태야...",
+            "norm_text": "아무 정보가 없는 상태야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아무/MM+정보/NNG+가/JKS+없/VA+는/ETM+상태/NNG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 음... 일단 아반떼라고 해도 종류가 많아~",
+            "norm_text": "음... 일단 아반떼라고 해도 종류가 많아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+./SY+일단/MAG+아반떼/NNP+라고/VCP+EC+해도/VV+EC+종류/NNG+가/JKS+많/VA+아/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 금액대에 맞는 차종을 정하는 게 좋을 거 같아!",
+            "norm_text": "금액대에 맞는 차종을 정하는 게 좋을 거 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "금액/NNG+대/XSN+에/JKB+맞/VV+는/ETM+차종/NNG+을/JKO+정하/VV+는/ETM+게/NNB+JKS+좋/VA+을/ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 그렇겠네... 그래서 돈을 준비하라 한 거구나! 키키",
+            "norm_text": "아 그렇겠네... 그래서 돈을 준비하라 한 거구나! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇/VA+겠/EP+네/EF+./SY+그래서/MAJ+돈/NNG+을/JKO+준비/NNG+하/XSV+라/EC+한/VX+ETM+거/NNB+구나/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나는 지금 2020 아반떼 보고 있는데 새 차보다는 중고차가 더 저렴하겠지?",
+            "norm_text": "나는 지금 2020 아반떼 보고 있는데 새 차보다는 중고차가 더 저렴하겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+지금/MAG+2020/SN+아반떼/NNP+보/VV+고/EC+있/VX+는데/EC+새/MM+차/NNG+보다/JKB+는/JX+중고차/NNG+가/JKS+더/MAG+저렴/XR+하/XSA+겠/EP+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응응 아무래도 중고차가 당연히 저렴하기는 하지만~ 상태 좋은 중고차는 새 차랑 별 차이 안 나는 경우도 많다더라~",
+            "norm_text": "응응 아무래도 중고차가 당연히 저렴하기는 하지만~ 상태 좋은 중고차는 새 차랑 별 차이 안 나는 경우도 많다더라~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+아무래도/MAG+중고차/NNG+가/JKS+당연히/MAG+저렴/XR+하/XSA+기/ETN+는/JX+하/VV+지만/EC+~/SY+상태/NNG+좋/VA+은/ETM+중고차/NNG+는/JX+새/MM+차/NNG+랑/JKB+별/MM+차이/NNG+안/MAG+나/VV+는/ETM+경우/NNG+도/JX+많/VA+다더라/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 그래? 너는 중고차 구매해봤어?",
+            "norm_text": "아 그래? 너는 중고차 구매해봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+너/NP+는/JX+중고차/NNG+구매/NNG+해/XSV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응! 나는 지금 타는 차 중고로 구매했어~",
+            "norm_text": "응! 나는 지금 타는 차 중고로 구매했어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+는/JX+지금/MAG+타/VV+는/ETM+차/NNG+중고/NNG+로/JKB+구매/NNG+했/XSV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 내 차는 새 차랑 중고차랑 천만 원 정도 차이 나서 중고로 구매했지!",
+            "norm_text": "내 차는 새 차랑 중고차랑 천만 원 정도 차이 나서 중고로 구매했지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+차/NNG+는/JX+새/MM+차/NNG+랑/JKB+중고차/NNG+랑/JC+천만/NR+원/NNBC+정도/NNG+차이/NNG+나/NP+서/JKB+중고/NNG+로/JKB+구매/NNG+했/XSV+EP+지/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그렇구나! 구매할 때 차 상태 같은 건 어떻게 확인했어?",
+            "norm_text": "그렇구나! 구매할 때 차 상태 같은 건 어떻게 확인했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구나/EF+구매/NNG+할/XSV+ETM+때/NNG+차/NNG+상태/NNG+같/VA+은/ETM+건/NNB+JX+어떻/VA+게/EC+확인/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 직접 확인하지! 외관 상태나 내부 상태 엔진, 주행 거리 다 직접 보고 확인해야지!",
+            "norm_text": "직접 확인하지! 외관 상태나 내부 상태 엔진, 주행 거리 다 직접 보고 확인해야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "직접/MAG+확인/NNG+하/XSA+지/EF+외관/NNG+상태/NNG+나/JC+내부/NNP+상태/NNG+엔진/NNG+,/SC+주행/NNG+거리/XSV+다/EC+직접/MAG+보/VV+고/EC+확인/NNG+해야지/XSV+EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아 그렇네 내가 직접 보고 사야 되는구나~",
+            "norm_text": "아 그렇네 내가 직접 보고 사야 되는구나~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇/VA+네/EF+내/NP+가/JKS+직접/MAG+보/VV+고/EC+사/VV+야/EC+되/VV+는구나/EC+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 차에 대해서 더 알아봐야겠다~",
+            "norm_text": "차에 대해서 더 알아봐야겠다~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+에/JKB+대해서/VV+EC+더/MAG+알아봐야겠다/VV+EC+VX+EP+EF+~/SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : 응! 잘 확인해보고~ 직접 살펴보고 좋은 구매하길 바라~",
+            "norm_text": "응! 잘 확인해보고~ 직접 살펴보고 좋은 구매하길 바라~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+잘/MAG+확인/NNG+해/XSV+EC+보/VX+고/EC+~/SY+직접/MAG+살펴보/VV+고/EC+좋/VA+은/ETM+구매/NNG+하/XSV+길/ETN+JKO+바라/VV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 56012,
+    "name": "KAKAO_710_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256065226/KAKAO_710_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256065226/KAKAO_710_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35604,
+      "filename": "KAKAO_710_05.txt",
+      "title": "KAKAO_710_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 519,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 519,
+        "word_size": 159,
+        "text": "1 : 니 강철부대 재밌게 봤다 그랬지?\n2 : 응! 강철부대 훈련하는 게 너무 신기하고 멋있더라!\n1 : 그거 뭐 특수 부대들이 경쟁하는 거야? ㅠㅠ\n2 : 응 특수 부대원들끼리 여러 훈련하면서 경쟁해서 최고의 부대를 뽑는 거얌!\n1 : 오 대박 키키 결국에 어느 팀이 이겼어?\n2 : UDT팀이 이겼어!\n2 : 진해 출신 분들이라 더 신기했어~!\n1 : 오 키키 역시 UDT 키키\n1 : 진짜 훈련 강도가 장난 아니더라\n2 : 그러니까... 오래 숨 참기 이런 것도 한대!\n1 : 오... 키키 근데 막 훈련하면 발톱 다 빠진다던데\n2 : 발톱까지 빠져...? 와 너무 고난이도 훈련이다...\n2 : 난 못 견딜 듯...\n1 : 응응... 10개 다 빠진데 ㅜㅜ\n2 : 10개 다 빠지면 없는 채로 또 훈련하는 거야...? 대단하다!\n1 : 응 ㅜㅜ 그리고 일주일 동안 잠도 안자고 그런다더만\n2 : 진짜 대단하다! 군인들에게 진짜 잘해야 한다 키키\n1 : 그니까... 키키 근데 어떻게 잘해주지?\n2 : 국군의 날 편지 써야 하나? 키키 10월 1일 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 강철부대 재밌게 봤다 그랬지?",
+            "norm_text": "니 강철부대 재밌게 봤다 그랬지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+강철/NNG+부대/NNG+재밌/VA+게/EC+봤/VX+EP+다/EC+그랬/VV+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응! 강철부대 훈련하는 게 너무 신기하고 멋있더라!",
+            "norm_text": "응! 강철부대 훈련하는 게 너무 신기하고 멋있더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+강철/NNG+부대/NNG+훈련/NNG+하/XSV+는/ETM+게/NNB+JKS+너무/MAG+신기/XR+하/XSA+고/EC+멋있/VA+더라/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그거 뭐 특수 부대들이 경쟁하는 거야? ㅠㅠ",
+            "norm_text": "그거 뭐 특수 부대들이 경쟁하는 거야? ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+뭐/IC+특수/NNG+부대/NNG+들/XSN+이/JKS+경쟁/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 특수 부대원들끼리 여러 훈련하면서 경쟁해서 최고의 부대를 뽑는 거얌!",
+            "norm_text": "응 특수 부대원들끼리 여러 훈련하면서 경쟁해서 최고의 부대를 뽑는 거얌!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응특수부대원들끼리여러훈련하면서경쟁해서최고의부대를뽑는거얌/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 대박 키키 결국에 어느 팀이 이겼어?",
+            "norm_text": "오 대박 키키 결국에 어느 팀이 이겼어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+대/NNBC+박/NNP+키키/NNP+결국/NNG+에/JKB+어느/MM+팀/NNG+이/JKS+이겼/VV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : UDT팀이 이겼어!",
+            "norm_text": "UDT팀이 이겼어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "UDT/SL+팀/NNG+이/JKS+이겼/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 진해 출신 분들이라 더 신기했어~!",
+            "norm_text": "진해 출신 분들이라 더 신기했어~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진해/NNP+출신/NNG+분/XSN+들/XSN+이/VCP+라/EC+더/MAG+신기/XR+했/XSA+EP+어/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오 키키 역시 UDT 키키",
+            "norm_text": "오 키키 역시 UDT 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+역시/MAJ+UDT/SL+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 진짜 훈련 강도가 장난 아니더라",
+            "norm_text": "진짜 훈련 강도가 장난 아니더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+훈련/NNG+강/NNG+도/JX+가장/MAG+난/NP+JX+아니/VCN+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그러니까... 오래 숨 참기 이런 것도 한대!",
+            "norm_text": "그러니까... 오래 숨 참기 이런 것도 한대!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+./SY+오래/MAG+숨참/VA+ETN+기/ETN+이런/MM+것/NNB+도/JX+한대/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오... 키키 근데 막 훈련하면 발톱 다 빠진다던데",
+            "norm_text": "오... 키키 근데 막 훈련하면 발톱 다 빠진다던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+./SY+키키근데막훈련하면발톱다빠진다던데/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 발톱까지 빠져...? 와 너무 고난이도 훈련이다...",
+            "norm_text": "발톱까지 빠져...? 와 너무 고난이도 훈련이다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "발톱/NNG+까지/JX+빠져/VV+EF+./SY+?/SY+와/JKB+너무/MAG+고난/NNG+이/VCP+도/EC+훈련/NNG+이/VCP+다/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 못 견딜 듯...",
+            "norm_text": "난 못 견딜 듯...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+못/MAG+견딜/VV+ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응응... 10개 다 빠진데 ㅜㅜ",
+            "norm_text": "응응... 10개 다 빠진데 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+./SY+./SY+10/SN+개다빠진데ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 10개 다 빠지면 없는 채로 또 훈련하는 거야...? 대단하다!",
+            "norm_text": "10개 다 빠지면 없는 채로 또 훈련하는 거야...? 대단하다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "10/SN+개/NNBC+다/MAG+빠지/VV+면/EC+없/VA+는/ETM+채/NNB+로/JKB+또/MAG+훈련/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF+./SY+./SY+대단/XR+하/XSA+다/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응 ㅜㅜ 그리고 일주일 동안 잠도 안자고 그런다더만",
+            "norm_text": "응 ㅜㅜ 그리고 일주일 동안 잠도 안자고 그런다더만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응ㅜㅜ그리고일주일동안잠도안자고그런다더만/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 진짜 대단하다! 군인들에게 진짜 잘해야 한다 키키",
+            "norm_text": "진짜 대단하다! 군인들에게 진짜 잘해야 한다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+대단/XR+하/XSA+다/EF+군인/NNG+들/XSN+에게/JKB+진짜/MAG+잘/MAG+해야/VV+EC+한/VX+ETM+다키키/NNP"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그니까... 키키 근데 어떻게 잘해주지?",
+            "norm_text": "그니까... 키키 근데 어떻게 잘해주지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그니까/MAJ+./SY+키/NNG+키/XSV+ETN+근데/MAJ+어떻게/MAG+잘/MAG+해/VV+EC+주/VX+지/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 국군의 날 편지 써야 하나? 키키 10월 1일 키키",
+            "norm_text": "국군의 날 편지 써야 하나? 키키 10월 1일 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "국군/NNG+의/JKG+날/NNG+편지/NNG+써야/VV+EC+하나/NR+키/NNG+키/XSV+ETN+10/SN+월/NNBC+1/SN+일/NNBC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

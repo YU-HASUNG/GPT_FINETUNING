@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55472,
+    "name": "KAKAO_727_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134354024865/KAKAO_727_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134354024865/KAKAO_727_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36969,
+      "filename": "KAKAO_727_01.txt",
+      "title": "KAKAO_727_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 347,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 347,
+        "word_size": 119,
+        "text": "1 : 오늘 저녁 뭐 먹을까?\n2 : 그러게 ㅜㅠ 매번 메뉴 선택 진짜 어려워 ㅜㅜ\n1 : 저번에 갔던 맛집 또 갈까?\n2 : 응? 어디 말하는 거야?\n1 : 아니 왜 우리 파스타 먹으러 갔었잖아!\n2 : 아 맞다 키키 근데 거기 웨이팅 장난 아니잖아 ㅠㅠ\n1 : 아... 그걸 생각 못했네\n2 : 그냥 가까운 데서 배달 시켜 먹쟈\n1 : 야 배달 시간이나 웨이팅이나 같은 거 아냐? 키키\n2 : 키키 그래도 나 오늘 좀 피곤\n1 : 오키 그럼 오늘만 봐준다\n2 : 하하 고마워 배달은 내가 찾아볼게!\n1 : 음... 그럼 중식 맛집으로 부탁해~\n2 : 알았어 중식? 탕수육 추가?\n1 : 뭘 물어 당연히 추가 키키\n2 : 웅 키키 열심히 찾아볼겡",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 저녁 뭐 먹을까?",
+            "norm_text": "오늘 저녁 뭐 먹을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+저녁/NNG+뭐/IC+먹/VV+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그러게 ㅜㅠ 매번 메뉴 선택 진짜 어려워 ㅜㅜ",
+            "norm_text": "그러게 ㅜㅠ 매번 메뉴 선택 진짜 어려워 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+ㅜㅠ/UNKNOWN+매번/MAG+메뉴/NNG+선택/NNG+진짜/MAG+어려워/VA+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 저번에 갔던 맛집 또 갈까?",
+            "norm_text": "저번에 갔던 맛집 또 갈까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "저번/NNG+에/JKB+갔/VV+EP+던/ETM+맛집/NNG+또/MAG+갈까/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응? 어디 말하는 거야?",
+            "norm_text": "응? 어디 말하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+어디/NP+말/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 왜 우리 파스타 먹으러 갔었잖아!",
+            "norm_text": "아니 왜 우리 파스타 먹으러 갔었잖아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+왜/MAG+우리/NP+파스타/NNG+먹/VV+으러/EC+갔었/VV+EP+잖아/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 맞다 키키 근데 거기 웨이팅 장난 아니잖아 ㅠㅠ",
+            "norm_text": "아 맞다 키키 근데 거기 웨이팅 장난 아니잖아 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+다/EC+키/NNG+키/XSV+ETN+근데/MAJ+거기/NP+웨이팅/NNG+장난/NNG+아니/VCN+잖아/EC+VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아... 그걸 생각 못했네",
+            "norm_text": "아... 그걸 생각 못했네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+그걸/NP+JKO+생각/NNG+못/MAG+했/VV+EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그냥 가까운 데서 배달 시켜 먹쟈",
+            "norm_text": "그냥 가까운 데서 배달 시켜 먹쟈",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그냥/MAG+가까운/VA+ETM+데/NNB+서/JKB+배달/NNG+시켜/XSV+EC+먹/VV+쟈/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 야 배달 시간이나 웨이팅이나 같은 거 아냐? 키키",
+            "norm_text": "야 배달 시간이나 웨이팅이나 같은 거 아냐? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+배달/NNG+시간/NNG+이나/JC+웨이팅/NNG+이나/JX+같/VA+은/ETM+거/NNB+아냐/VCN+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 그래도 나 오늘 좀 피곤",
+            "norm_text": "키키 그래도 나 오늘 좀 피곤",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래도/MAJ+나/NP+오늘/MAG+좀/MAG+피곤/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오키 그럼 오늘만 봐준다",
+            "norm_text": "오키 그럼 오늘만 봐준다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+그럼/MAJ+오늘/MAG+만/JX+봐준다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 하하 고마워 배달은 내가 찾아볼게!",
+            "norm_text": "하하 고마워 배달은 내가 찾아볼게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "하하/MAG+고마워/VA+EC+배달/NNG+은/JX+내/NP+가/JKS+찾아볼게/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 음... 그럼 중식 맛집으로 부탁해~",
+            "norm_text": "음... 그럼 중식 맛집으로 부탁해~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "음/IC+./SY+그럼/MAJ+중식/NNG+맛집/NNG+으로/JKB+부탁/NNG+해/XSV+EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 알았어 중식? 탕수육 추가?",
+            "norm_text": "알았어 중식? 탕수육 추가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "알/VV+았/EP+어/EC+중식/NNG+?/SY+탕수육/NNG+추가/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 뭘 물어 당연히 추가 키키",
+            "norm_text": "뭘 물어 당연히 추가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭘/NP+JKO+물/VV+어/EC+당연히/MAG+추가/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 웅 키키 열심히 찾아볼겡",
+            "norm_text": "웅 키키 열심히 찾아볼겡",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+키/NNG+키/NNG+열심히/MAG+찾아볼/VV+ETM+겡/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

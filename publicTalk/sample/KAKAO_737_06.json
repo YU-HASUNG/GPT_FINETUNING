@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34326,
+    "name": "KAKAO_737_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134953026357/KAKAO_737_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134953026357/KAKAO_737_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37496,
+      "filename": "KAKAO_737_06.txt",
+      "title": "KAKAO_737_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 463,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 463,
+        "word_size": 150,
+        "text": "1 : 너는 학교 말고 다른 거 수업 듣는 거 있어?\n2 : 학교 수업 이외에는 연구실에서 교육 받아\n1 : 오호! 그건 무슨 교육이야? 키키\n2 : 과에 맞게 암호학이라는 걸 배우는데 이게 비트코인을 생성하는 원리랑 비슷해\n1 : 우와 키키 그럼 너 코인에 대해 잘 알겠네!\n2 : 아니 키키 근데 그냥 코인을 만드는 원리만 배우고 있어\n1 : 아하! 그래도 되게 생소한 거 배운다~\n2 : 응 맞아 키키 이게 수학 관련된 정보를 좀 많이 요구해\n1 : 그러면 그거는 학교에서 공짜로 들어?\n2 : 응 내가 학점을 잘 맞아서 신청해서 들어갔어\n1 : 와 그거도 교육 신청이 치열하구나!\n2 : 응 그래도 나름 5명중에 1명 정도를 뽑는 수준이였어\n1 : 아 완전 너 엘리트구나 키키 대단하네\n2 : 그냥 적당히 놀면서 적당히 하고 있어 키키\n1 : 그 교육 듣고 나면 좋은 점은 뭐야?\n2 : 이게 사실 원래 석박사 준비하는 데 정말 중요한 논문에 쓰여",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 학교 말고 다른 거 수업 듣는 거 있어?",
+            "norm_text": "너는 학교 말고 다른 거 수업 듣는 거 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+학교/NNG+말/VV+고/EC+다른/MM+거/NNB+수업/NNG+듣/VV+는/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 학교 수업 이외에는 연구실에서 교육 받아",
+            "norm_text": "학교 수업 이외에는 연구실에서 교육 받아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "학교/NNG+수업/NNG+이외/NNG+에/JKB+는/JX+연구실/NNG+에서/JKB+교육/NNG+받/VV+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오호! 그건 무슨 교육이야? 키키",
+            "norm_text": "오호! 그건 무슨 교육이야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/IC+그건/NP+JX+무슨/MM+교육/NNG+이/VCP+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 과에 맞게 암호학이라는 걸 배우는데 이게 비트코인을 생성하는 원리랑 비슷해",
+            "norm_text": "과에 맞게 암호학이라는 걸 배우는데 이게 비트코인을 생성하는 원리랑 비슷해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "과/NNG+에/JKB+맞/VV+게/EC+암호학/NNP+이/VCP+라는/ETM+걸/NNB+JKO+배우/VV+는데/EC+이게/NP+JKS+비트코인/NNP+을/JKO+생성/NNG+하/XSV+는/ETM+원리/NNG+랑/JC+비슷/XR+해/XSA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 우와 키키 그럼 너 코인에 대해 잘 알겠네!",
+            "norm_text": "우와 키키 그럼 너 코인에 대해 잘 알겠네!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+키/NNG+키/XSV+ETN+그럼/MAJ+너/NP+코인/NNG+에/JKB+대해/VV+EC+잘/MAG+알/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 키키 근데 그냥 코인을 만드는 원리만 배우고 있어",
+            "norm_text": "아니 키키 근데 그냥 코인을 만드는 원리만 배우고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+키/NNG+키/XSV+ETN+근데/MAJ+그냥/MAG+코인/NNG+을/JKO+만드/VV+는/ETM+원리/NNG+만/JX+배우/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아하! 그래도 되게 생소한 거 배운다~",
+            "norm_text": "아하! 그래도 되게 생소한 거 배운다~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+그래도/MAJ+되게/MAG+생소/XR+한/XSA+ETM+거/NNB+배운다/VV+EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 맞아 키키 이게 수학 관련된 정보를 좀 많이 요구해",
+            "norm_text": "응 맞아 키키 이게 수학 관련된 정보를 좀 많이 요구해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+키/NNG+키/XSV+ETN+이게/NP+JKS+수학/NNG+관련/NNG+된/XSV+ETM+정보/NNG+를/JKO+좀/MAG+많이/MAG+요구/NNG+해/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러면 그거는 학교에서 공짜로 들어?",
+            "norm_text": "그러면 그거는 학교에서 공짜로 들어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러면/MAJ+그거/NP+는/JX+학교/NNG+에서/JKB+공짜/NNG+로/JKB+들/VV+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 내가 학점을 잘 맞아서 신청해서 들어갔어",
+            "norm_text": "응 내가 학점을 잘 맞아서 신청해서 들어갔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+내/NP+가/JKS+학점/NNG+을/JKO+잘/MAG+맞/VV+아서/EC+신청/NNG+해서/XSV+EC+들어갔/VV+EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 와 그거도 교육 신청이 치열하구나!",
+            "norm_text": "와 그거도 교육 신청이 치열하구나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+그거/NP+도/JX+교육/NNG+신청/NNG+이/JKS+치열/XR+하/XSA+구나/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 그래도 나름 5명중에 1명 정도를 뽑는 수준이였어",
+            "norm_text": "응 그래도 나름 5명중에 1명 정도를 뽑는 수준이였어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그래도/MAJ+나름/NNB+5/SN+명/NNBC+중/NNB+에/JKB+1/SN+명/NNBC+정도/NNG+를/JKO+뽑/VV+는/ETM+수준/NNG+이/VCP+였/EP+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 완전 너 엘리트구나 키키 대단하네",
+            "norm_text": "아 완전 너 엘리트구나 키키 대단하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "아/IC+완전/MAG+너/NP+엘리트/NNG+구나/VCP+EC+키/NNG+키/XSV+ETN+대단/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그냥 적당히 놀면서 적당히 하고 있어 키키",
+            "norm_text": "그냥 적당히 놀면서 적당히 하고 있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+적당히/MAG+놀/VV+면서/EC+적당히/MAG+하/VV+고/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그 교육 듣고 나면 좋은 점은 뭐야?",
+            "norm_text": "그 교육 듣고 나면 좋은 점은 뭐야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+교육/NNG+듣/VV+고/EC+나/VX+면/EC+좋/VA+은/ETM+점/NNG+은/JX+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이게 사실 원래 석박사 준비하는 데 정말 중요한 논문에 쓰여",
+            "norm_text": "이게 사실 원래 석박사 준비하는 데 정말 중요한 논문에 쓰여",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이게/NP+JKS+사실/MAG+원래/MAG+석/MM+박사/NNG+준비/NNG+하/XSV+는데/EC+정말/MAG+중요/XR+한/XSA+ETM+논문/NNG+에/JKB+쓰여/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

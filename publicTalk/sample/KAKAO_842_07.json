@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "identifier": 47802,
+    "name": "KAKAO_842_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154013358/KAKAO_842_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154013358/KAKAO_842_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40045,
+      "filename": "KAKAO_842_07.txt",
+      "title": "KAKAO_842_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 734,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 734,
+        "word_size": 238,
+        "text": "1 : 내일 집에 가면 부모님이랑 동생이랑 다 있나 ㅇㅅㅇ?ㅎ\n2 : 응 다 있지 아 동생은 알바 갔을걸?\n2 : 내일은 거의 친구들 보러 가는 거라 키키\n1 : 아 진짜? 키키 집 가자마자 나가면 안 서운해 하시려나!\n2 : 아냐 괜찮아 맨날 그래와가지구 키키\n1 : 내심 서운하실 수도...!\n1 : 어머니는 음식 잘하셔 ㅇㅅㅇ?\n2 : 응 우리 엄마 음식 잘해 키키\n2 : 웬만하면 다 맛있어\n1 : 오호! 추석 음식 하시려나 내일?\n2 : 음 안 할 것 같아\n2 : 사실 그 돈으로 고기 사 먹으면 더 맛있어... 키키\n1 : ㅎ 말해 뭐해 고기는 언제나 옳지...\n1 : 동생은 무슨 알바해? 키키\n2 : 동생 청년다방에서 일해 키키 카페에서도 일하고\n1 : 오 동생 열심히 사는구나 추석연휴인데 일하네 ㅜㅅㅜ\n1 : 너도 집이 멀어서 부모님 뵈러 자주는 못 가것다 키키\n2 : 응 자주는 못 가지... 빠르면 한 달에 한번 정도? 누나는?\n1 : 나는... 나도 평균 한 달에 한 번 정도...\n1 : 집은 가까운데 반찬 훔치러 가는 거 아니면 잘 안 가...\n1 : 엄빠가 말이 어어엄청 많으셔서 갔다 오면 완전 진빠져 키키\n2 : 키키 반찬서리 키키\n2 : 아 엄빠가 말이 많으셔? 키키\n2 : 잔소리야?\n1 : 놉 우리 집에선 아무도 나에게 잔소리를 하지 않아... 내가 해... 키키\n1 : 그냥 뭐 이런저런 말을 많이 하셔 얘기할 사람이 필요하신 느낌? 키키\n2 : 아 키키 언니도 나가서 사시나 보네\n2 : 대화 할 사람이 필요하신가 보다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 내일 집에 가면 부모님이랑 동생이랑 다 있나 ㅇㅅㅇ?ㅎ",
+            "norm_text": "내일 집에 가면 부모님이랑 동생이랑 다 있나 ㅇㅅㅇ?ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내일집에가면부모님이랑동생이랑다있나ㅇㅅㅇ/UNKNOWN+ㅎ/XSA"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 다 있지 아 동생은 알바 갔을걸?",
+            "norm_text": "응 다 있지 아 동생은 알바 갔을걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+다/MAG+있/VA+지/EC+아동/NNG+생/XSN+은/JX+알/VV+ETM+바/NNB+갔/VV+EP+을걸/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 내일은 거의 친구들 보러 가는 거라 키키",
+            "norm_text": "내일은 거의 친구들 보러 가는 거라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내일/NNG+은/JX+거의/MAG+친구/NNG+들/XSN+보/VV+러/EC+가/VX+는/ETM+거/NNB+라/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아 진짜? 키키 집 가자마자 나가면 안 서운해 하시려나!",
+            "norm_text": "아 진짜? 키키 집 가자마자 나가면 안 서운해 하시려나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+키키집가자마자나가면안서운해하시려나/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아냐 괜찮아 맨날 그래와가지구 키키",
+            "norm_text": "아냐 괜찮아 맨날 그래와가지구 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+괜찮/VA+아/EC+맨날/MAG+그래/VV+EC+와/VV+EC+가지/VX+구/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 내심 서운하실 수도...!",
+            "norm_text": "내심 서운하실 수도...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내심/NNG+서운/NNG+하/XSV+실/EP+ETM+수/NNB+도/JX+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어머니는 음식 잘하셔 ㅇㅅㅇ?",
+            "norm_text": "어머니는 음식 잘하셔 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머니/NNG+는/JX+음식/NNG+잘/MAG+하/XSA+셔ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 우리 엄마 음식 잘해 키키",
+            "norm_text": "응 우리 엄마 음식 잘해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+우리/NP+엄마/NNG+음식/NNG+잘/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 웬만하면 다 맛있어",
+            "norm_text": "웬만하면 다 맛있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웬만/XR+하/XSA+면/EC+다/MAG+맛있/VA+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오호! 추석 음식 하시려나 내일?",
+            "norm_text": "오호! 추석 음식 하시려나 내일?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/IC+추석/NNG+음식/NNG+하/XSV+시/EP+려나/EC+내일/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 음 안 할 것 같아",
+            "norm_text": "음 안 할 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+안/MAG+할/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 사실 그 돈으로 고기 사 먹으면 더 맛있어... 키키",
+            "norm_text": "사실 그 돈으로 고기 사 먹으면 더 맛있어... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+그/MM+돈/NNG+으로/JKB+고/XPN+기사/NNG+먹/VV+으면/EC+더/MAG+맛있/VA+어/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㅎ 말해 뭐해 고기는 언제나 옳지...",
+            "norm_text": "ㅎ 말해 뭐해 고기는 언제나 옳지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅎ말해뭐해고기는언제나옳지/UNKNOWN+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 동생은 무슨 알바해? 키키",
+            "norm_text": "동생은 무슨 알바해? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동생/NNG+은/JX+무슨/MM+알/VV+ETM+바/NNB+해/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 동생 청년다방에서 일해 키키 카페에서도 일하고",
+            "norm_text": "동생 청년다방에서 일해 키키 카페에서도 일하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "동생/NNG+청년/NNG+다방/NNG+에서/JKB+일/NNG+해/XSV+EC+키/NNG+키/NNG+카페/NNG+에서/JKB+도/JX+일/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오 동생 열심히 사는구나 추석연휴인데 일하네 ㅜㅅㅜ",
+            "norm_text": "오 동생 열심히 사는구나 추석연휴인데 일하네 ㅜㅅㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오동/NNG+생/XSN+열심히/MAG+사/VV+는구나/EF+추석/NNG+연휴/NNG+인데/VCP+EC+일/NNG+하/XSV+네ㅜ/UNKNOWN+ㅅㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 너도 집이 멀어서 부모님 뵈러 자주는 못 가것다 키키",
+            "norm_text": "너도 집이 멀어서 부모님 뵈러 자주는 못 가것다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+집/NNG+이/JKS+멀/VA+어서/EC+부모/NNG+님/XSN+뵈/VV+러/EC+자주/NNG+는/JX+못/MAG+가/VV+것/EP+다키키/NNP"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 자주는 못 가지... 빠르면 한 달에 한번 정도? 누나는?",
+            "norm_text": "응 자주는 못 가지... 빠르면 한 달에 한번 정도? 누나는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+자주/MAG+는/JX+못/MAG+가/VV+지/EF+./SY+빠르/VA+면/EC+한/MM+달/NNG+에/JKB+한/MM+번/NNBC+정도/NNG+?/SY+누나/NNG+는/JX"
+          },
+          {
+            "id": 19,
+            "text": "1 : 나는... 나도 평균 한 달에 한 번 정도...",
+            "norm_text": "나는... 나도 평균 한 달에 한 번 정도...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+./SY+나/NP+도/JX+평균/NNG+한/XSA+ETM+달/NNG+에/JKB+한/MM+번/NNBC+정도/NNG+./SY+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 집은 가까운데 반찬 훔치러 가는 거 아니면 잘 안 가...",
+            "norm_text": "집은 가까운데 반찬 훔치러 가는 거 아니면 잘 안 가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집/NNG+은/JX+가까운/VA+ETM+데/NNB+반찬/NNG+훔치/VV+러/EC+가/VX+는/ETM+거/NNB+아니/VCN+면/EC+잘/MAG+안/MAG+가/VV+EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 엄빠가 말이 어어엄청 많으셔서 갔다 오면 완전 진빠져 키키",
+            "norm_text": "엄빠가 말이 어어엄청 많으셔서 갔다 오면 완전 진빠져 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄/IC+빠/NNP+가/JKS+말/NNG+이/JKS+어/IC+어/IC+엄청/MAG+많/VA+으셔서/EP+EC+갔다오/VV+면/EC+완전/NNG+진/XSV+EC+JX+빠져/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 키키 반찬서리 키키",
+            "norm_text": "키키 반찬서리 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "키키반찬서리키키/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 아 엄빠가 말이 많으셔? 키키",
+            "norm_text": "아 엄빠가 말이 많으셔? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아엄빠가말이많으셔/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 잔소리야?",
+            "norm_text": "잔소리야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "잔소리/NNG+야/VCP+EF"
+          },
+          {
+            "id": 25,
+            "text": "1 : 놉 우리 집에선 아무도 나에게 잔소리를 하지 않아... 내가 해... 키키",
+            "norm_text": "놉 우리 집에선 아무도 나에게 잔소리를 하지 않아... 내가 해... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "놉/NNG+우리/NP+집/NNG+에선/JKB+JX+아무/NP+도/JX+나/NP+에게/JKB+잔소리/NNG+를/JKO+하/VV+지/EC+않/VX+아/EF+./SY+내/NP+가/JKS+해/VV+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 그냥 뭐 이런저런 말을 많이 하셔 얘기할 사람이 필요하신 느낌? 키키",
+            "norm_text": "그냥 뭐 이런저런 말을 많이 하셔 얘기할 사람이 필요하신 느낌? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+뭐/IC+이런/MM+저런/MM+말/NNG+을/JKO+많이/MAG+하/VV+셔/EP+EC+얘기/NNG+할/XSV+ETM+사람/NNG+이/JKS+필요/NNG+하/XSV+신/EP+ETM+느낌/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 아 키키 언니도 나가서 사시나 보네",
+            "norm_text": "아 키키 언니도 나가서 사시나 보네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아키/NNP+키/NNG+언니/NNG+도/JX+나/NP+가/JKS+서사시/NNG+나/JC+보네/NNG"
+          },
+          {
+            "id": 28,
+            "text": "2 : 대화 할 사람이 필요하신가 보다",
+            "norm_text": "대화 할 사람이 필요하신가 보다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대화/NNG+할/XSV+ETM+사람/NNG+이/JKS+필요/NNG+하/XSV+신가/EP+EC+보/VX+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

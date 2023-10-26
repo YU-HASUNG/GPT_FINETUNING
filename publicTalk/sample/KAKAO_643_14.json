@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25446,
+    "name": "KAKAO_643_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923172049098331/KAKAO_643_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923172049098331/KAKAO_643_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31825,
+      "filename": "KAKAO_643_14.txt",
+      "title": "KAKAO_643_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 503,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 503,
+        "word_size": 152,
+        "text": "1 : 국민재난지원금 신청했어?\n2 : 나는 진작 신청했지~\n1 : 잉? 언제 신청했대? 키키\n2 : 나 월요일 날이 내 신청 일이라서 했는데? 몰랐어?\n1 : 아아 키키 난 내가 끝자리가 5라서 금요일만 생각하고 있었어\n2 : 오늘 신청했으면 내일 돈 바로 들어오겠네~\n1 : 응? 이거 하루 만에 들어와?\n2 : 난 월요일에 신청했는데 화요일날 바로 들어왔어~ 내가 자랑했잖아! 기억 안 나?\n1 : 아... 그랬었나 하하 근데 내일 토요일인데도 들어 오려나?\n2 : 아마도 내일 바로 들어올 거야!\n1 : 오오오 그럼 좋겠다 ㅠㅠ 이거 못 받는 사람도 있다며?\n2 : 가구 소득 80%나 부자들은 대상 아니야\n1 : 키키 나도 25만 원 말고 부자이고 싶다.\n2 : 지금 부자들은 왜 본인들이 재난지원금 대상이 아닌지에 대해서 화나 있는데 키키\n1 : 아 진짜? 하긴 부자들은 꼬박꼬박 세금 내면서 이런 거 못 받으면 부당하다고 느끼려나\n2 : 그럴 수 있지. 세금 꼬박꼬박 내는데 이런 혜택 못 받으면 화날 수도 있지.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 국민재난지원금 신청했어?",
+            "norm_text": "국민재난지원금 신청했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "국민/NNG+재난/NNG+지원금/NNG+신청/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 진작 신청했지~",
+            "norm_text": "나는 진작 신청했지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+진작/MAG+신청/NNG+했/XSV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 잉? 언제 신청했대? 키키",
+            "norm_text": "잉? 언제 신청했대? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "잉/IC+언제/MAG+신청/NNG+했/XSV+EP+대/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 월요일 날이 내 신청 일이라서 했는데? 몰랐어?",
+            "norm_text": "나 월요일 날이 내 신청 일이라서 했는데? 몰랐어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+월요일/NNG+날/NNG+이/JKS+내신/NNP+청일/NNG+이/VCP+라서/EC+했/VX+EP+는데/EF+몰랐/VV+EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아아 키키 난 내가 끝자리가 5라서 금요일만 생각하고 있었어",
+            "norm_text": "아아 키키 난 내가 끝자리가 5라서 금요일만 생각하고 있었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아아/IC+키/NNG+키/XSV+ETN+난/NP+JX+내/NP+가/JKS+끝/NNG+자리/NNG+가/JKS+5/SN+라서/VCP+EC+금요일/NNG+만/JX+생각/NNG+하/XSV+고/EC+있/VX+었/EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오늘 신청했으면 내일 돈 바로 들어오겠네~",
+            "norm_text": "오늘 신청했으면 내일 돈 바로 들어오겠네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+신청/NNG+했/XSV+EP+으면/EC+내일/MAG+돈/NNG+바로/MAG+들어오/VV+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응? 이거 하루 만에 들어와?",
+            "norm_text": "응? 이거 하루 만에 들어와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+이거/NP+하루/NNG+만/NNB+에/JKB+들어와/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 난 월요일에 신청했는데 화요일날 바로 들어왔어~ 내가 자랑했잖아! 기억 안 나?",
+            "norm_text": "난 월요일에 신청했는데 화요일날 바로 들어왔어~ 내가 자랑했잖아! 기억 안 나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+월요일/NNG+에/JKB+신청/NNG+했/XSV+EP+는데/EC+화요일/NNG+날/NNG+바로/MAG+들어왔/VV+EP+어/EC+~/SY+내/NP+가/JKS+자랑/NNG+했잖아/XSV+EP+EC+VX+EF+기억/NNG+안/MAG+나/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아... 그랬었나 하하 근데 내일 토요일인데도 들어 오려나?",
+            "norm_text": "아... 그랬었나 하하 근데 내일 토요일인데도 들어 오려나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+그랬었/VV+EP+나/EF+하하/IC+근데/MAJ+내일/MAG+토요일/NNG+인데/VCP+EC+도/JX+들어오/VV+려나/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아마도 내일 바로 들어올 거야!",
+            "norm_text": "아마도 내일 바로 들어올 거야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마도/MAG+내일/MAG+바로/MAG+들어올/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오오오 그럼 좋겠다 ㅠㅠ 이거 못 받는 사람도 있다며?",
+            "norm_text": "오오오 그럼 좋겠다 ㅠㅠ 이거 못 받는 사람도 있다며?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+오/NR+오/NR+그럼/MAJ+좋/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN+이거/NP+못/MAG+받/VV+는/ETM+사람/NNG+도/JX+있/VA+다며/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 가구 소득 80%나 부자들은 대상 아니야",
+            "norm_text": "가구 소득 80%나 부자들은 대상 아니야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가구/NNG+소득/NNG+80/SN+%/SY+나/JX+부자/NNG+들/XSN+은/JX+대상/NNG+아니/VCN+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 나도 25만 원 말고 부자이고 싶다.",
+            "norm_text": "키키 나도 25만 원 말고 부자이고 싶다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+25/SN+만/NR+원/NNBC+말/VV+고/EC+부자/NNG+이/VCP+고/EC+싶/VX+다/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 지금 부자들은 왜 본인들이 재난지원금 대상이 아닌지에 대해서 화나 있는데 키키",
+            "norm_text": "지금 부자들은 왜 본인들이 재난지원금 대상이 아닌지에 대해서 화나 있는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+부자/NNG+들/XSN+은/JX+왜/MAG+본인/NNG+들/XSN+이/JKS+재난/NNG+지원금/NNG+대상/NNG+이/JKC+아닌지/VCN+EC+에/JKB+대해서/VV+EC+화나/VV+EC+있/VX+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 진짜? 하긴 부자들은 꼬박꼬박 세금 내면서 이런 거 못 받으면 부당하다고 느끼려나",
+            "norm_text": "아 진짜? 하긴 부자들은 꼬박꼬박 세금 내면서 이런 거 못 받으면 부당하다고 느끼려나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+하긴/MAJ+부자/NNG+들/XSN+은/JX+꼬박꼬박/MAG+세금/NNG+내/VV+면서/EC+이런/MM+거/NNB+못/MAG+받/VV+으면/EC+부당/NNG+하/XSV+다고/EC+느끼/VV+려나/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럴 수 있지. 세금 꼬박꼬박 내는데 이런 혜택 못 받으면 화날 수도 있지.",
+            "norm_text": "그럴 수 있지. 세금 꼬박꼬박 내는데 이런 혜택 못 받으면 화날 수도 있지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+수/NNB+있/VV+지/EF+세금/NNG+꼬박꼬박/MAG+내/VV+는데/EC+이런/MM+혜택/NNG+못/MAG+받/VV+으면/EC+화날/VV+ETM+수/NNB+도/JX+있/VA+지/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

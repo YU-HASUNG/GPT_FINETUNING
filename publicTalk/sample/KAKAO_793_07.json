@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 45093,
+    "name": "KAKAO_793_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141035086039/KAKAO_793_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930141035086039/KAKAO_793_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37737,
+      "filename": "KAKAO_793_07.txt",
+      "title": "KAKAO_793_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 630,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 630,
+        "word_size": 213,
+        "text": "1 : 동생 분은 어떤 일 하셔?\n2 : 우리 동생은 금융 계통에서 일해.\n1 : 오 멋있땅 키키 금전 관리 같은 거 잘하겠네?\n2 : 응 ㅠㅠ 그래서 아빠 엄마 용돈을 잘 줘서 키키\n2 : 나 대신 효도를 하고 있지\n1 : 자산 관리나 그런 쪽으로 도움도 받고 있어? 키키\n2 : 응 키키 주식 같은 거 내가 막 매도나 매수 전에 전화해서 물어봐\n1 : 난 진짜 재테크 이런 쪽 몰라서 ㅠ\n1 : 엄마가 적금 넣어라 넣어라 해서 겨우 조금씩 넣는 중 키키\n2 : 요즘에는 주식보다는 적금이 오히려 나은 것 같아.\n2 : 손해는 보지 않으니깐 키키\n1 : 키키 그것도 그래 키키 부모님이랑 외식도 자주 하는 편이야?\n2 : 주 2회 정도 하는 것 같아.\n2 : 엄마가 이제 요리하기 싫다고 하셔서 키키 반은 내가 하고 반은 외식하고\n1 : 오 요리도 해줘? 착한 딸이네 키키\n2 : 키키 내가 취미가 요리라서\n2 : 키키 엄마한테 좋은 취미인가\n1 : 나는 엄마랑 맨날 저녁에 술 먹어서 둘이서 맨날 금주 다짐하는데 키키\n2 : 울 엄마는 술을 잘 못 드셔 가지고 ㅠ\n2 : 아빠만 맨날 반주 해\n1 : 우리 아빠가 못 마시는데 키키\n1 : 난 오늘도 집에 갈 때 필라이트를 사 들고 엄마한테 전화를 하겠지 키키\n2 : 나도 엄마랑 오손도손 둘이 맥주 마셔보고 싶다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 동생 분은 어떤 일 하셔?",
+            "norm_text": "동생 분은 어떤 일 하셔?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동생/NNG+분/NNB+은/JX+어떤/MM+일/NNG+하/XSV+셔/EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리 동생은 금융 계통에서 일해.",
+            "norm_text": "우리 동생은 금융 계통에서 일해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+동생/NNG+은/JX+금융/NNG+계통/NNG+에서/JKB+일/NNG+해/XSV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 멋있땅 키키 금전 관리 같은 거 잘하겠네?",
+            "norm_text": "오 멋있땅 키키 금전 관리 같은 거 잘하겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+멋있/VA+땅/NNG+키/NNG+키/NNG+금전/NNG+관리/NNG+같/VA+은/ETM+거/NNB+잘/MAG+하/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 ㅠㅠ 그래서 아빠 엄마 용돈을 잘 줘서 키키",
+            "norm_text": "응 ㅠㅠ 그래서 아빠 엄마 용돈을 잘 줘서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+ㅠㅠ/UNKNOWN+그래서/MAJ+아빠/NNG+엄마/NNG+용돈/NNG+을/JKO+잘/MAG+줘서/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나 대신 효도를 하고 있지",
+            "norm_text": "나 대신 효도를 하고 있지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+대신/NNG+효도/NNG+를/JKO+하/VV+고/EC+있/VX+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 자산 관리나 그런 쪽으로 도움도 받고 있어? 키키",
+            "norm_text": "자산 관리나 그런 쪽으로 도움도 받고 있어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자산관리/NNP+나/JC+그런/MM+쪽/NNB+으로/JKB+도움/NNG+도/JX+받/VV+고/EC+있/VX+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 키키 주식 같은 거 내가 막 매도나 매수 전에 전화해서 물어봐",
+            "norm_text": "응 키키 주식 같은 거 내가 막 매도나 매수 전에 전화해서 물어봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+주식/NNG+같/VA+은/ETM+거/NNB+내/NP+가/JKS+막/NNG+매도/NNG+나/JC+매수/NNG+전/NNG+에/JKB+전화/NNG+해서/XSV+EC+물어봐/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 난 진짜 재테크 이런 쪽 몰라서 ㅠ",
+            "norm_text": "난 진짜 재테크 이런 쪽 몰라서 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+진짜/MAG+재테크/NNG+이런/MM+쪽/NNB+몰라서/VV+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 엄마가 적금 넣어라 넣어라 해서 겨우 조금씩 넣는 중 키키",
+            "norm_text": "엄마가 적금 넣어라 넣어라 해서 겨우 조금씩 넣는 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+가/JKS+적금/NNG+넣/VV+어라/EC+넣/VV+어라/EC+해서/VV+EC+겨우/MAG+조금/MAG+씩/XSN+넣/VV+는/ETM+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 요즘에는 주식보다는 적금이 오히려 나은 것 같아.",
+            "norm_text": "요즘에는 주식보다는 적금이 오히려 나은 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+에/JKB+는/JX+주식/NNG+보다/JKB+는/JX+적금/NNG+이/JKS+오히려/MAJ+나/VA+은/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 손해는 보지 않으니깐 키키",
+            "norm_text": "손해는 보지 않으니깐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "손해/NNG+는/JX+보/VV+지/EC+않/VX+으니깐/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 그것도 그래 키키 부모님이랑 외식도 자주 하는 편이야?",
+            "norm_text": "키키 그것도 그래 키키 부모님이랑 외식도 자주 하는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그것/NP+도/JX+그래/VA+EC+키/NNG+키/NNG+부모/NNG+님/XSN+이랑/JKB+외식/NNG+도/JX+자주/MAG+하/VV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 주 2회 정도 하는 것 같아.",
+            "norm_text": "주 2회 정도 하는 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주/NNG+2/SN+회/NNBC+정도/NNG+하/XSV+는/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 엄마가 이제 요리하기 싫다고 하셔서 키키 반은 내가 하고 반은 외식하고",
+            "norm_text": "엄마가 이제 요리하기 싫다고 하셔서 키키 반은 내가 하고 반은 외식하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+가/JKS+이제/MAG+요리/NNG+하/XSV+기/ETN+싫/VA+다고/EC+하/VX+셔서/EP+EC+키/NNG+키/NNG+반/NNG+은/JX+내/NP+가/JKS+하/VV+고/EC+반/NNG+은/JX+외식/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오 요리도 해줘? 착한 딸이네 키키",
+            "norm_text": "오 요리도 해줘? 착한 딸이네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+요리/NNG+도/JX+해/VV+EC+줘/VX+EF+착한/VA+ETM+딸/NNG+이/JKS+네/MM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 내가 취미가 요리라서",
+            "norm_text": "키키 내가 취미가 요리라서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+가/JKS+취미/NNG+가/JKS+요리/NNG+라서/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 엄마한테 좋은 취미인가",
+            "norm_text": "키키 엄마한테 좋은 취미인가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+엄마/NNG+한테/JKB+좋/VA+은/ETM+취미/NNG+인가/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 나는 엄마랑 맨날 저녁에 술 먹어서 둘이서 맨날 금주 다짐하는데 키키",
+            "norm_text": "나는 엄마랑 맨날 저녁에 술 먹어서 둘이서 맨날 금주 다짐하는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+엄마/NNG+랑/JKB+맨날/MAG+저녁/NNG+에/JKB+술/NNG+먹/VV+어서/EC+둘/NR+이/XSN+서/JKS+맨날/MAG+금주/NNG+다짐/NNG+하/XSV+는/ETM+데/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 울 엄마는 술을 잘 못 드셔 가지고 ㅠ",
+            "norm_text": "울 엄마는 술을 잘 못 드셔 가지고 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "울엄마/NNP+는/JX+술/NNG+을/JKO+잘못/MAG+드셔/VV+EP+EC+가지/VX+고/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아빠만 맨날 반주 해",
+            "norm_text": "아빠만 맨날 반주 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+만/JX+맨날/MAG+반주/NNG+해/XSV+EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 우리 아빠가 못 마시는데 키키",
+            "norm_text": "우리 아빠가 못 마시는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+아빠/NNG+가/JKS+못/MAG+마시/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 난 오늘도 집에 갈 때 필라이트를 사 들고 엄마한테 전화를 하겠지 키키",
+            "norm_text": "난 오늘도 집에 갈 때 필라이트를 사 들고 엄마한테 전화를 하겠지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+오늘/NNG+도/JX+집/NNG+에/JKB+갈/VV+ETM+때/NNG+필/VV+ETM+라이트/NNG+를/JKO+사/VV+EC+들/VV+고/EC+엄마/NNG+한테/JKB+전화/NNG+를/JKO+하/VV+겠/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나도 엄마랑 오손도손 둘이 맥주 마셔보고 싶다",
+            "norm_text": "나도 엄마랑 오손도손 둘이 맥주 마셔보고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+엄마/NNG+랑/JKB+오손도손/MAG+둘/NR+이/NR+맥주/NNG+마셔/VV+EC+보/VX+고/EC+싶/VX+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

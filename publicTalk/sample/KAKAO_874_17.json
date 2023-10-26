@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 32214,
+    "name": "KAKAO_874_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175245036915/KAKAO_874_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175245036915/KAKAO_874_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40475,
+      "filename": "KAKAO_874_17.txt",
+      "title": "KAKAO_874_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 681,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 681,
+        "word_size": 215,
+        "text": "1 : 너 다이어트 한다고 한지 3개월 된 거 같은데 어때?\n2 : 정상적인 식단까지는 아니지만 점심 먹고 저녁 먹고 야식만 안 먹으니까 살 빠지더라?\n1 : 오 키키 식단 조절 잘하고 있나 보네? 키키\n1 : 운동은 하고 있어?\n2 : 요즘 헬스장 가기엔 코로나 때문에 좀 그래서 퇴근하고 동네공원 한 바퀴 도는 거밖에 안 해 키키\n1 : 그래도 유산소 운동은 될 꺼야 키키\n1 : 열심히 하고 있네 키키\n2 : 걷기 운동이라도 해야지... 맨날 작업실에 앉아만 있으니까... 키키\n1 : 맞아 키키 아무것도 안 하는 것보다 그렇게라도 하는 게 좋아 키키\n2 : 그래도 3개월 전과 지금의 차이는 많이 나는 거 같긴 해 키키 턱선 생긴 거 같아 키키\n1 : 오 키키 턱선이 생겼어? 키키\n1 : 뱃살은? 뱃살은 좀 들어갔나?\n2 : 확실히 시작하기 전보단? 많이 들어간 거 같아 키키\n1 : 지금까지 몸무게 몇 키로나 빠졌는데?\n2 : 지금 한 8키로 빠진 거 같은데?\n1 : 이야 키키 너 진짜 몸무게 많이 나갔었나 보네 키키\n2 : 많이 나갔었지... 맨날 술 먹고 야식 먹고... 이것만 끊으니까 쑥 빠지더라 키키\n1 : 오 키키 이제 슬슬 웨이트 운동도 겸해서 해봐바\n1 : 살만 빼면 안되지 근육도 만들어야지 키키\n2 : 조금만 더 빼고 웨이트 운동해보려고 키키\n2 : 그때는 집에서는 힘들 꺼 같아... 마스크 쓰고 헬스장 가야 할 듯...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 다이어트 한다고 한지 3개월 된 거 같은데 어때?",
+            "norm_text": "너 다이어트 한다고 한지 3개월 된 거 같은데 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+다이어트/NNG+한다고/XSV+EC+한지/VX+EC+3/SN+개월/NNBC+된/VV+ETM+거/NNB+같/VA+은/ETM+데/NNB+어때/VA+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 정상적인 식단까지는 아니지만 점심 먹고 저녁 먹고 야식만 안 먹으니까 살 빠지더라?",
+            "norm_text": "정상적인 식단까지는 아니지만 점심 먹고 저녁 먹고 야식만 안 먹으니까 살 빠지더라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정상/NNG+적/XSN+인/VCP+ETM+식단/NNG+까지/JX+는/JX+아니/VCN+지만/EC+점심/NNG+먹/VV+고/EC+저녁/NNG+먹/VV+고/EC+야식/NNG+만/JX+안/MAG+먹/VV+으니까/EC+살/VV+ETM+빠지/VV+더라/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 키키 식단 조절 잘하고 있나 보네? 키키",
+            "norm_text": "오 키키 식단 조절 잘하고 있나 보네? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오키/NNP+키/NNG+식단/NNG+조절/NNG+잘/MAG+하/VV+고/EC+있/VX+나/EC+보/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 운동은 하고 있어?",
+            "norm_text": "운동은 하고 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "운동/NNG+은/JX+하/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 요즘 헬스장 가기엔 코로나 때문에 좀 그래서 퇴근하고 동네공원 한 바퀴 도는 거밖에 안 해 키키",
+            "norm_text": "요즘 헬스장 가기엔 코로나 때문에 좀 그래서 퇴근하고 동네공원 한 바퀴 도는 거밖에 안 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+헬스/NNG+장/NNG+가/VV+기/ETN+엔/JKB+JX+코로나/NNG+때문/NNB+에/JKB+좀/MAG+그래서/MAJ+퇴근/NNG+하/XSV+고/EC+동네/NNG+공원/NNG+한/MM+바퀴/NNBC+도는/VV+ETM+거/NNB+밖에/JX+안/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그래도 유산소 운동은 될 꺼야 키키",
+            "norm_text": "그래도 유산소 운동은 될 꺼야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+유산소/NNP+운동/NNG+은/JX+될/VV+ETM+꺼/NNB+VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 열심히 하고 있네 키키",
+            "norm_text": "열심히 하고 있네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "열심히/MAG+하/VV+고/EC+있/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 걷기 운동이라도 해야지... 맨날 작업실에 앉아만 있으니까... 키키",
+            "norm_text": "걷기 운동이라도 해야지... 맨날 작업실에 앉아만 있으니까... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걷기/NNG+운동/NNG+이/VCP+라도/EC+해야지/VV+EF+./SY+맨날/MAG+작업실/NNG+에/JKB+앉/VV+아만/EC+있/VX+으니까/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞아 키키 아무것도 안 하는 것보다 그렇게라도 하는 게 좋아 키키",
+            "norm_text": "맞아 키키 아무것도 안 하는 것보다 그렇게라도 하는 게 좋아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+아무것/NNG+도/JX+안/MAG+하/VV+는/ETM+것/NNB+보다/JKB+그렇게/MAG+라도/VCP+EC+하/VV+는/ETM+게/NNB+JKS+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래도 3개월 전과 지금의 차이는 많이 나는 거 같긴 해 키키 턱선 생긴 거 같아 키키",
+            "norm_text": "그래도 3개월 전과 지금의 차이는 많이 나는 거 같긴 해 키키 턱선 생긴 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+3/SN+개월/NNBC+전/NNG+과/JC+지금/NNG+의/JKG+차이/NNG+는/JX+많이/MAG+나/VV+는/ETM+거/NNB+같/VA+긴/ETN+JX+해/VX+EC+키/NNG+키/NNG+턱/MAG+선생/NNG+긴/VA+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 키키 턱선이 생겼어? 키키",
+            "norm_text": "오 키키 턱선이 생겼어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오키/NNP+키/NNG+턱/MAG+선/NNG+이/JKS+생겼/VV+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 뱃살은? 뱃살은 좀 들어갔나?",
+            "norm_text": "뱃살은? 뱃살은 좀 들어갔나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뱃살/NNG+은/JX+?/SY+뱃살/NNG+은/JX+좀/MAG+들어갔/VV+EP+나/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 확실히 시작하기 전보단? 많이 들어간 거 같아 키키",
+            "norm_text": "확실히 시작하기 전보단? 많이 들어간 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "확실히/MAG+시작/NNG+하/XSV+기/ETN+전/NNG+보단/JKB+JX+많이/MAG+들어간/VV+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 지금까지 몸무게 몇 키로나 빠졌는데?",
+            "norm_text": "지금까지 몸무게 몇 키로나 빠졌는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/NNG+까지/JX+몸무게/NNG+몇/MM+키/NNG+로/JKB+나빠졌/VV+EP+는데/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 지금 한 8키로 빠진 거 같은데?",
+            "norm_text": "지금 한 8키로 빠진 거 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+한/MM+8/SN+키/NNG+로/JKB+빠진/VV+ETM+거/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 이야 키키 너 진짜 몸무게 많이 나갔었나 보네 키키",
+            "norm_text": "이야 키키 너 진짜 몸무게 많이 나갔었나 보네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이야/IC+키/NNG+키/XSV+ETN+너/NP+진짜/MAG+몸무게/NNG+많이/MAG+나갔었/VV+EP+나/EC+보/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 많이 나갔었지... 맨날 술 먹고 야식 먹고... 이것만 끊으니까 쑥 빠지더라 키키",
+            "norm_text": "많이 나갔었지... 맨날 술 먹고 야식 먹고... 이것만 끊으니까 쑥 빠지더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "많이/MAG+나갔었/VV+EP+지/EF+./SY+맨날/MAG+술/NNG+먹/VV+고/EC+야식/NNG+먹/VV+고/EC+./SY+./SY+이것/NP+만/JX+끊/VV+으니까/EC+쑥/MAG+빠지/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 오 키키 이제 슬슬 웨이트 운동도 겸해서 해봐바",
+            "norm_text": "오 키키 이제 슬슬 웨이트 운동도 겸해서 해봐바",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오키/NNP+키/NNG+이제/MAG+슬슬/MAG+웨이트/NNG+운동/NNG+도/JX+겸해서/VV+EC+해/VV+EC+봐/VX+바/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 살만 빼면 안되지 근육도 만들어야지 키키",
+            "norm_text": "살만 빼면 안되지 근육도 만들어야지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "살/NNG+만/JX+빼/VV+면/EC+안/MAG+되/VV+지/EC+근육/NNG+도/JX+만들/VV+어야지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 조금만 더 빼고 웨이트 운동해보려고 키키",
+            "norm_text": "조금만 더 빼고 웨이트 운동해보려고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조금/MAG+만/JX+더/MAG+빼/VV+고/EC+웨이트/NNG+운동/NNG+해/XSV+EC+보/VX+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그때는 집에서는 힘들 꺼 같아... 마스크 쓰고 헬스장 가야 할 듯...",
+            "norm_text": "그때는 집에서는 힘들 꺼 같아... 마스크 쓰고 헬스장 가야 할 듯...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그때/NNG+는/JX+집/NNG+에서/JKB+는/JX+힘/NNG+들/XSN+꺼/MAG+같/VA+아/EF+./SY+마스크/IC+쓰/VV+고/EC+헬스/NNG+장가/NNG+야/VCP+EF+할/VV+ETM+듯/NNB+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

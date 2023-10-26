@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24525,
+    "name": "KAKAO_570_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923152014007538/KAKAO_570_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923152014007538/KAKAO_570_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31383,
+      "filename": "KAKAO_570_12.txt",
+      "title": "KAKAO_570_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 412,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 412,
+        "word_size": 130,
+        "text": "1 : 친구가 호텔 예약한다고 가자는데 하루 자는데 20만원이더라... 키키\n2 : 이야 키키 추석에 가냐\n1 : 키키 아니 다음 주에 가자는데 다음 주가 추석이냐\n2 : 다음 주 지나면 추석이지\n1 : 뭐 자기네 간다고 가자고 하는데 비싸서... 키키\n2 : 내주는 거 아님 친구가? 키키\n1 : 비싸서 못 가것어... 아무리 엔빵한다고 해도...\n2 : 20이면 5성급 호텔 정도 됨?\n1 : 그걸 누가 내주냐 키키 비싼 걸 키키\n2 : 키키 그런가 가서 놀다 와 키키\n1 : 5성급...? 키키 아니지 않을까 키키\n1 : 걍 주말이라 그러지 않을까\n2 : 조식도 다 주고 하는 거 아님?\n1 : 아휴 키키 이제 그렇게 못 가것더라고 키키\n2 : 연휴라 가격 뻥튀기 된 건가 키키\n1 : 조식보다 라면이 맛있어지는 인간...\n2 : 조식으로 라면 달라하면 안됨?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 친구가 호텔 예약한다고 가자는데 하루 자는데 20만원이더라... 키키",
+            "norm_text": "친구가 호텔 예약한다고 가자는데 하루 자는데 20만원이더라... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "친구/NNG+가/JKS+호텔/NNG+예약/NNG+한다고/XSV+EC+가/VX+자는/ETM+데/NNB+하루/NNG+자는/VCP+ETM+데/NNB+20/SN+만/NR+원/NNBC+이/VCP+더라/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이야 키키 추석에 가냐",
+            "norm_text": "이야 키키 추석에 가냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이야/IC+키/NNG+키/NNG+추석/NNG+에/JKB+가/VV+냐/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 아니 다음 주에 가자는데 다음 주가 추석이냐",
+            "norm_text": "키키 아니 다음 주에 가자는데 다음 주가 추석이냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+다/EC+음주/NNG+에/JKB+가/VV+자는데/EC+다음/NNG+주가/NNG+추석/NNG+이/VCP+냐/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 다음 주 지나면 추석이지",
+            "norm_text": "다음 주 지나면 추석이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+주/NNG+지나/VV+면/EC+추석/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭐 자기네 간다고 가자고 하는데 비싸서... 키키",
+            "norm_text": "뭐 자기네 간다고 가자고 하는데 비싸서... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+자기/NP+네/XSN+간다고/VV+EC+가/VX+자고/EC+하/VV+는/ETM+데/NNB+비싸/VA+서/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 내주는 거 아님 친구가? 키키",
+            "norm_text": "내주는 거 아님 친구가? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내주/VV+는/ETM+거/NNB+아님/VCN+ETN+친구/NNG+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 비싸서 못 가것어... 아무리 엔빵한다고 해도...",
+            "norm_text": "비싸서 못 가것어... 아무리 엔빵한다고 해도...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비싸/VA+서/EC+못/MAG+가/VV+EC+것어/VX+EP+EF+./SY+아무리/MAG+엔/NNG+빵/NNG+한다고/XSV+EC+해도/VX+EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 20이면 5성급 호텔 정도 됨?",
+            "norm_text": "20이면 5성급 호텔 정도 됨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "20/SN+이/VCP+면/EC+5/SN+성급/NNG+호텔/NNG+정도/NNG+됨/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그걸 누가 내주냐 키키 비싼 걸 키키",
+            "norm_text": "그걸 누가 내주냐 키키 비싼 걸 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그걸/NP+JKO+누가/NP+JKS+내주/VV+냐/EC+키/NNG+키/XSV+ETN+비싼/VA+ETM+걸/NNB+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 그런가 가서 놀다 와 키키",
+            "norm_text": "키키 그런가 가서 놀다 와 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그런가/VA+EC+가/VX+서/EC+놀/VV+다/EF+와/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 5성급...? 키키 아니지 않을까 키키",
+            "norm_text": "5성급...? 키키 아니지 않을까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "5/SN+성급/NNG+./SY+./SY+키/NNG+키/XSV+ETN+아니/VCN+지/EC+않/VX+을까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 걍 주말이라 그러지 않을까",
+            "norm_text": "걍 주말이라 그러지 않을까",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걍/UNKNOWN+주말/NNG+이/VCP+라/EC+그러/VV+지/EC+않/VX+을까/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 조식도 다 주고 하는 거 아님?",
+            "norm_text": "조식도 다 주고 하는 거 아님?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "조식/NNG+도/JX+다/MAG+주/VV+고/EC+하/VV+는/ETM+거/NNB+아님/VCN+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아휴 키키 이제 그렇게 못 가것더라고 키키",
+            "norm_text": "아휴 키키 이제 그렇게 못 가것더라고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아휴/IC+키/NNG+키/NNG+이제/MAG+그렇게/MAG+못/MAG+가/VV+것/EP+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 연휴라 가격 뻥튀기 된 건가 키키",
+            "norm_text": "연휴라 가격 뻥튀기 된 건가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "연휴/NNG+라/VCP+EC+가격/NNG+뻥튀기/NNG+된/XSV+ETM+건가/NNB+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 조식보다 라면이 맛있어지는 인간...",
+            "norm_text": "조식보다 라면이 맛있어지는 인간...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "조식/NNG+보다/JKB+라면/NNG+이/JKS+맛있/VA+어/EC+지/VX+는/ETM+인간/NNG+./SY+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 조식으로 라면 달라하면 안됨?",
+            "norm_text": "조식으로 라면 달라하면 안됨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "조식/NNG+으로/JKB+라면/VCP+EC+달/VX+라/EC+하/VV+면/EC+안/MAG+됨/VV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

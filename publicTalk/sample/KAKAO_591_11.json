@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 25270,
+    "name": "KAKAO_591_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141637005430/KAKAO_591_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141637005430/KAKAO_591_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30564,
+      "filename": "KAKAO_591_11.txt",
+      "title": "KAKAO_591_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 600,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 600,
+        "word_size": 186,
+        "text": "1 : 니 항아리 게임 플레이 해본 적 있나 키키\n2 : 항아리 게임? 그거 항아리 깨면 되나 키키\n1 : 항아리 타고 있는 남자로 플레이 하는 건데... 곡괭이로 올라가야 하거든... 근데 자꾸 떨어짐\n2 : 아 키키 나 그거 유투브로 막 해설하는 거 본 거 같아 되게 힘들어 보이던데\n1 : 진짜 잘 올라가다 떨어질 때마다 화가 머리 끝까지 난다 키키\n2 : 키키 그거 보니까 내 같아도 화가 치밀어 오를 거 같은데 다운 받아서 해?\n1 : 그리고 한번 떨어지면... 어디까지 떨어질지 몰라서 리셋되는 느낌\n2 : ...나 그럼... 집어던질지도... 성격이 많이 더럽거든\n1 : 아 응 유료긴 한데... 한번 해보면 진짜 다 던지고 싶을걸\n2 : 심지어 유료까지 해!? 얼만데? 갑자기 열 받네\n1 : 키키 만원은 아니고 몇천 원 했던 거 같은데 키키\n2 : 키키 해보고 싶긴 하다 폰으로 가능하나\n1 : 키키 응 폰으로도 할 수 있는데 컴터가 편할걸?\n2 : 키키 집구석에 컴터라곤... 노트북 있는데 고대 유물이라서 될라나 키키\n1 : 다음에 우리 집에 놀러 오면 해봐...\n1 : 내 친구들 다 화나서 돌아갔어 사실 키키\n2 : 응 나 니 컴터 부수는 거 아니야? 키키 우는 거 아니가...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 항아리 게임 플레이 해본 적 있나 키키",
+            "norm_text": "니 항아리 게임 플레이 해본 적 있나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+항아리/NNG+게임/NNG+플레이/NNG+해/XSV+EC+본/VX+ETM+적/NNB+있/VA+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 항아리 게임? 그거 항아리 깨면 되나 키키",
+            "norm_text": "항아리 게임? 그거 항아리 깨면 되나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "항아리/NNG+게임/NNG+그거/NP+항아리/NNG+깨/VV+면/EC+되/VV+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 항아리 타고 있는 남자로 플레이 하는 건데... 곡괭이로 올라가야 하거든... 근데 자꾸 떨어짐",
+            "norm_text": "항아리 타고 있는 남자로 플레이 하는 건데... 곡괭이로 올라가야 하거든... 근데 자꾸 떨어짐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "항아리/NNG+타/VV+고/EC+있/VX+는/ETM+남자/NNG+로/JKB+플레이/NNG+하/XSV+는/ETM+건데/NNB+VCP+EF+./SY+곡괭이/NNG+로/JKB+올라가/VV+야/EC+하/VX+거든/EF+./SY+근데/MAJ+자꾸/MAG+떨어짐/VV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 키키 나 그거 유투브로 막 해설하는 거 본 거 같아 되게 힘들어 보이던데",
+            "norm_text": "아 키키 나 그거 유투브로 막 해설하는 거 본 거 같아 되게 힘들어 보이던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+키/NNG+키나/XSA+ETN+JX+그거/NP+유투/NNP+브로/NNP+막/NNP+해설/NNG+하/XSV+는/ETM+거/NNB+본/VV+ETM+거/NNB+같/VA+아/EC+되게/MAG+힘들/VA+어/EC+보이/VV+던데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 진짜 잘 올라가다 떨어질 때마다 화가 머리 끝까지 난다 키키",
+            "norm_text": "진짜 잘 올라가다 떨어질 때마다 화가 머리 끝까지 난다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+잘/MAG+올라가/VV+다/EC+떨어질/VV+ETM+때/NNG+마다/JX+화/NNG+가/JKS+머리/NNG+끝/NNG+까지/JX+난/NP+JX+다키키/NNP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 그거 보니까 내 같아도 화가 치밀어 오를 거 같은데 다운 받아서 해?",
+            "norm_text": "키키 그거 보니까 내 같아도 화가 치밀어 오를 거 같은데 다운 받아서 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그거/NP+보/VV+니까/EC+내/NP+JKG+같/VA+아도/EC+화/NNG+가/JKS+치밀/VV+어/EC+오를/VV+ETM+거/NNB+같/VA+은데/EC+다운/NNG+받/VV+아서/EC+해/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그리고 한번 떨어지면... 어디까지 떨어질지 몰라서 리셋되는 느낌",
+            "norm_text": "그리고 한번 떨어지면... 어디까지 떨어질지 몰라서 리셋되는 느낌",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+한/MM+번/NNBC+떨어지/VV+면/EC+./SY+./SY+어디/NP+까지/JX+떨어질지/VV+EC+몰라서/VV+EC+리셋/NNG+되/XSV+는/ETM+느낌/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : ...나 그럼... 집어던질지도... 성격이 많이 더럽거든",
+            "norm_text": "...나 그럼... 집어던질지도... 성격이 많이 더럽거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "./SY+./SY+나/NP+그럼/MAJ+./SY+집어던질/VV+ETM+지도/NNG+./SY+./SY+성격/NNG+이/JKS+많이/MAG+더럽/VA+거든/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 응 유료긴 한데... 한번 해보면 진짜 다 던지고 싶을걸",
+            "norm_text": "아 응 유료긴 한데... 한번 해보면 진짜 다 던지고 싶을걸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아응/IC+유료/NNG+긴/VCP+ETN+JX+한데/VX+EC+./SY+./SY+한번/MAG+해/VV+EC+보/VX+면/EC+진짜/MAG+다/MAG+던지/VV+고/EC+싶/VX+을/ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 10,
+            "text": "2 : 심지어 유료까지 해!? 얼만데? 갑자기 열 받네",
+            "norm_text": "심지어 유료까지 해!? 얼만데? 갑자기 열 받네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "심지어/MAG+유료/NNG+까지/JX+해/VV+EF+?/SY+얼만데/NNG+VCP+EF+갑자기/MAG+열받/VV+네/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 만원은 아니고 몇천 원 했던 거 같은데 키키",
+            "norm_text": "키키 만원은 아니고 몇천 원 했던 거 같은데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+만/NR+원/NNBC+은/JX+아니/VCN+고/EC+몇/MM+천/NR+원/NNBC+했/VV+EP+던/ETM+거/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 해보고 싶긴 하다 폰으로 가능하나",
+            "norm_text": "키키 해보고 싶긴 하다 폰으로 가능하나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+해/XSV+EC+보/VX+고/EC+싶/VX+긴/ETN+JX+하/VX+다/EC+폰/NNG+으로/JKB+가능/NNG+하/XSV+나/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 응 폰으로도 할 수 있는데 컴터가 편할걸?",
+            "norm_text": "키키 응 폰으로도 할 수 있는데 컴터가 편할걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+폰/NNG+으로/JKB+도/JX+할/VV+ETM+수/NNB+있/VV+는데/EC+컴터/UNKNOWN+가편/NNG+할걸/XSV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 집구석에 컴터라곤... 노트북 있는데 고대 유물이라서 될라나 키키",
+            "norm_text": "키키 집구석에 컴터라곤... 노트북 있는데 고대 유물이라서 될라나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+집구석/NNG+에/JKB+컴/NNP+터/NNB+라곤/VCP+EC+ETM+./SY+./SY+노트북/NNG+있/VV+는데/EC+고대/NNG+유물/NNG+이/VCP+라서/EC+될라나/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 다음에 우리 집에 놀러 오면 해봐...",
+            "norm_text": "다음에 우리 집에 놀러 오면 해봐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+에/JKB+우리/NP+집/NNG+에/JKB+놀러오/VV+면/EC+해/VV+EC+봐/VX+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 내 친구들 다 화나서 돌아갔어 사실 키키",
+            "norm_text": "내 친구들 다 화나서 돌아갔어 사실 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+친구/NNG+들/XSN+다/MAG+화나/VV+서/EC+돌아갔/VV+EP+어/EF+사실/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 나 니 컴터 부수는 거 아니야? 키키 우는 거 아니가...",
+            "norm_text": "응 나 니 컴터 부수는 거 아니야? 키키 우는 거 아니가...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+니/VCP+EC+컴터/UNKNOWN+부수/VV+는/ETM+거/NNB+아니/VCN+야/EF+키/NNG+키우/VV+는/ETM+거/NNB+아니/VCN+가/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 21461,
+    "name": "KAKAO_521_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145947007336/KAKAO_521_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145947007336/KAKAO_521_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29340,
+      "filename": "KAKAO_521_09.txt",
+      "title": "KAKAO_521_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 422,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 422,
+        "word_size": 143,
+        "text": "1 : 너 집에서 강아지 키울 수 있어?\n2 : 아니 우리 가족 다 비염 있어서ㅠㅜ 털 있는 거 못 키워ㅠ\n1 : 아... 큰일이네 진짜 ㅠㅜㅠㅠ\n2 : 강아지 키우고 싶어서?ㅠㅠ\n1 : 아니 사정이 생겨서\n1 : 못 키운다는 사람이 있어서 ㅠㅜㅠ\n2 : 아 진짜? 헐 너무 키우고 싶다 진짜...\n1 : ㅠㅜㅠㅠ 강아지인데 너무 예뻐\n2 : 흐에에 진짜 키우고 싶다...\n2 : 언니 집은 안된대?\n1 : 너도 알다시피 우리 집은 안돼 ㅠㅜㅠㅠㅜㅠㅠ\n2 : 흑구...근데 진짜 여건이 되면 한 마리 키우고 싶다\n1 : 나 자취하면 반드시 키운다 하하\n2 : 진짜 키우면 맨날 놀러 간다 키키\n1 : 안돼 내 강아지야 너도 키워 너 닮은 걸로 하하\n2 : 키키 내 강아지래 키키 난 사실 아직 준비가 덜 된 듯...\n1 : 하하 그래 넌 날 키워\n2 : 키키 오 좋아 그건 할 수 있지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 집에서 강아지 키울 수 있어?",
+            "norm_text": "너 집에서 강아지 키울 수 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+집/NNG+에서/JKB+강아지/NNG+키울/VV+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 우리 가족 다 비염 있어서ㅠㅜ 털 있는 거 못 키워ㅠ",
+            "norm_text": "아니 우리 가족 다 비염 있어서ㅠㅜ 털 있는 거 못 키워ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+우리/NP+가족/NNG+다/MAG+비염/NNG+있/VV+어서/EC+ㅠㅜ/UNKNOWN+털/NNG+있/VA+는/ETM+거/NNB+못/MAG+키워/VV+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아... 큰일이네 진짜 ㅠㅜㅠㅠ",
+            "norm_text": "아... 큰일이네 진짜 ㅠㅜㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+큰일/NNG+이/VCP+네/EF+진짜/MAG+ㅠㅜ/UNKNOWN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 강아지 키우고 싶어서?ㅠㅠ",
+            "norm_text": "강아지 키우고 싶어서?ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "강아지/NNG+키우/VV+고/EC+싶/VX+어서/EC+?/SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 사정이 생겨서",
+            "norm_text": "아니 사정이 생겨서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+사정/NNG+이/JKS+생겨서/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 못 키운다는 사람이 있어서 ㅠㅜㅠ",
+            "norm_text": "못 키운다는 사람이 있어서 ㅠㅜㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "못/MAG+키운다는/VV+ETM+사람/NNG+이/JKS+있/VV+어서/EC+ㅠ/UNKNOWN+ㅜㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아 진짜? 헐 너무 키우고 싶다 진짜...",
+            "norm_text": "아 진짜? 헐 너무 키우고 싶다 진짜...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+헐/IC+너무/MAG+키우/VV+고/EC+싶/VX+다/EF+진짜/MAG+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : ㅠㅜㅠㅠ 강아지인데 너무 예뻐",
+            "norm_text": "ㅠㅜㅠㅠ 강아지인데 너무 예뻐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅜ/UNKNOWN+ㅠㅠ/UNKNOWN+강아지/NNG+인데/VCP+EC+너무/MAG+예뻐/VA+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 흐에에 진짜 키우고 싶다...",
+            "norm_text": "흐에에 진짜 키우고 싶다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흐/IC+에에/IC+진짜/MAG+키우/VV+고/EC+싶/VX+다/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 언니 집은 안된대?",
+            "norm_text": "언니 집은 안된대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+집/NNG+은/JX+안/MAG+된대/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너도 알다시피 우리 집은 안돼 ㅠㅜㅠㅠㅜㅠㅠ",
+            "norm_text": "너도 알다시피 우리 집은 안돼 ㅠㅜㅠㅠㅜㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+도/JX+알/VV+다시피/EC+우리/NP+집/NNG+은/JX+안/MAG+돼/VV+EF+ㅠ/UNKNOWN+ㅜㅠ/UNKNOWN+ㅠㅜ/UNKNOWN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 흑구...근데 진짜 여건이 되면 한 마리 키우고 싶다",
+            "norm_text": "흑구...근데 진짜 여건이 되면 한 마리 키우고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흑구/NNG+./SY+./SY+근데/MAJ+진짜/MAG+여건/NNG+이/JKS+되/VV+면/EC+한/MM+마리/NNBC+키우/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나 자취하면 반드시 키운다 하하",
+            "norm_text": "나 자취하면 반드시 키운다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+자취/NNG+하/XSV+면/EC+반드시/MAG+키운다/VV+EC+하하/MAG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 진짜 키우면 맨날 놀러 간다 키키",
+            "norm_text": "진짜 키우면 맨날 놀러 간다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+키우/VV+면/EC+맨날/MAG+놀/VV+러/EC+간다키/NNP+키/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 안돼 내 강아지야 너도 키워 너 닮은 걸로 하하",
+            "norm_text": "안돼 내 강아지야 너도 키워 너 닮은 걸로 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "안/MAG+돼/VV+EF+내/NP+JKG+강아지/NNG+야/VCP+EF+너/NP+도/JX+키워/VV+EC+너/NP+닮/VV+은/ETM+걸로/NNB+JKB+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 내 강아지래 키키 난 사실 아직 준비가 덜 된 듯...",
+            "norm_text": "키키 내 강아지래 키키 난 사실 아직 준비가 덜 된 듯...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+내강/NNP+아지래/NNG+키/NNG+키/XSV+ETN+난/NP+JX+사실/MAG+아직/MAG+준비/NNG+가/JKS+덜된/VA+ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 하하 그래 넌 날 키워",
+            "norm_text": "하하 그래 넌 날 키워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+그래/IC+넌/NP+JX+날/NNG+키워/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 오 좋아 그건 할 수 있지",
+            "norm_text": "키키 오 좋아 그건 할 수 있지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/VV+좋아/EC+그건/NP+JX+할/VV+ETM+수/NNB+있/VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

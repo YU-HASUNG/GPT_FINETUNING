@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 24906,
+    "name": "KAKAO_592_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154753010329/KAKAO_592_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154753010329/KAKAO_592_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31418,
+      "filename": "KAKAO_592_07.txt",
+      "title": "KAKAO_592_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 572,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 572,
+        "word_size": 186,
+        "text": "1 : 친구 동생 벌써 시집 간대 하하\n2 : 어? 동생이 몇 살인데 벌써 가?\n1 : 우리보다 3살 어린가? 하하\n1 : 우리 오빠야는 아직 결혼 생각 없어 보이던데\n2 : 아... ㅎ 니네 오빠 몇 살이지? 우리 언니랑 동갑이셨너?\n1 : 키키 아마? 근데 오빠야도 천천히 가면 좋겠다 하하\n2 : 왜 키키 니도 가야 할 거 같은 그 무언가의 압박감...?\n1 : 키키 그런 건 아니고 오빠야 가면 아빠 심심하자나 키키\n2 : 아 키키 그카면 니가 아빠랑 통화도 자주 하고 챙겨드리면 되징\n1 : 키키 통화해주는 거랑 같이 있어주는 거랑 또 다르지...ㅎ\n2 : 니가 돈을 많이 벌어서 아부지를 모시고 살아... ㅠ\n1 : 키키 아빠가 그건 또 싫대 키키\n1 : 나중에 시골 가서 살 꺼래 키키\n2 : 아... 하하 울 아빠도 나중에 시골 가서 소 키우고 살고 싶어하든데... 다 비슷하시네\n1 : 키키 너희들 다 시집 장가 가면 아빤 시골 가서 살 꺼다! 하시더라 키키\n2 : 키키 기다리고 계실지도 모른다\n2 : 키키 이미 준비가 다 끝나셨을지도\n1 : 키키 그니까 키키 왜 안 가지? 카면서 키키\n2 : 키키 아 진짜 그런 거면 내 맘 아프데이!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 친구 동생 벌써 시집 간대 하하",
+            "norm_text": "친구 동생 벌써 시집 간대 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "친구/NNG+동생/NNG+벌써/MAG+시집간/VV+ETM+대하/NNG+하/XSV"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어? 동생이 몇 살인데 벌써 가?",
+            "norm_text": "어? 동생이 몇 살인데 벌써 가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+동생/NNG+이/JKS+몇/MM+살/NNBC+인데/VCP+EC+벌써/MAG+가/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리보다 3살 어린가? 하하",
+            "norm_text": "우리보다 3살 어린가? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+보다/JKB+3/SN+살/NNBC+어린가/VA+EF+하하/MAG"
+          },
+          {
+            "id": 4,
+            "text": "1 : 우리 오빠야는 아직 결혼 생각 없어 보이던데",
+            "norm_text": "우리 오빠야는 아직 결혼 생각 없어 보이던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+오빠/NNG+야/VCP+EF+는/JX+아직/MAG+결혼/NNG+생각/NNG+없/VA+어/EC+보이/VV+던데/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아... ㅎ 니네 오빠 몇 살이지? 우리 언니랑 동갑이셨너?",
+            "norm_text": "아... ㅎ 니네 오빠 몇 살이지? 우리 언니랑 동갑이셨너?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+ㅎ/XSA+니/EC+네/MM+오빠/NNG+몇/MM+살/NNBC+이/VCP+지/EF+우리/NP+언니/NNG+랑/JKB+동갑/NNG+이/VCP+셨/EP+EP+너/NP"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 아마? 근데 오빠야도 천천히 가면 좋겠다 하하",
+            "norm_text": "키키 아마? 근데 오빠야도 천천히 가면 좋겠다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아마/MAG+근데/MAJ+오빠/NNG+야/JKV+도/JX+천천히/MAG+가/VV+면/EC+좋/VA+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 왜 키키 니도 가야 할 거 같은 그 무언가의 압박감...?",
+            "norm_text": "왜 키키 니도 가야 할 거 같은 그 무언가의 압박감...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+키/NNG+키/VV+니/EC+도/JX+가/VV+야/EC+할/VX+ETM+거/NNB+같/VA+은/ETM+그/MM+무언가/NNG+의/JKG+압박감/NNG+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 그런 건 아니고 오빠야 가면 아빠 심심하자나 키키",
+            "norm_text": "키키 그런 건 아니고 오빠야 가면 아빠 심심하자나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+그런/MM+건/NNB+JX+아니/VCN+고/EC+오빠/NNG+야/VCP+EF+가/VV+면/EC+아빠/NNG+심심/XR+하/XSA+자/EC+나/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 키키 그카면 니가 아빠랑 통화도 자주 하고 챙겨드리면 되징",
+            "norm_text": "아 키키 그카면 니가 아빠랑 통화도 자주 하고 챙겨드리면 되징",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아키/NNP+키/NNG+그카/VV+면/EC+니/NP+가/JKS+아빠/NNG+랑/JKB+통화/NNG+도/JX+자주/MAG+하/VV+고/EC+챙겨/VV+EC+드리/VX+면/EC+되/VV+징/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 통화해주는 거랑 같이 있어주는 거랑 또 다르지...ㅎ",
+            "norm_text": "키키 통화해주는 거랑 같이 있어주는 거랑 또 다르지...ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+통화/NNG+해/XSV+EC+주/VX+는/ETM+거/NNB+랑/JKB+같이/MAG+있/VV+어/EC+주/VX+는/ETM+거/NNB+랑/JKB+또/MAG+다르/VA+지/EF+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 11,
+            "text": "2 : 니가 돈을 많이 벌어서 아부지를 모시고 살아... ㅠ",
+            "norm_text": "니가 돈을 많이 벌어서 아부지를 모시고 살아... ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/JKS+돈/NNG+을/JKO+많이/MAG+벌/VV+어서/EC+아부지/NNG+를/JKO+모시/VV+고/EC+살/VV+아/EF+./SY+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 아빠가 그건 또 싫대 키키",
+            "norm_text": "키키 아빠가 그건 또 싫대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+아빠/NNG+가/JKS+그건/NP+JX+또/MAG+싫/VA+대/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나중에 시골 가서 살 꺼래 키키",
+            "norm_text": "나중에 시골 가서 살 꺼래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나중/NNG+에/JKB+시골/NNG+가/VV+서/EC+살/VV+ETM+꺼/NNB+VCP+래/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아... 하하 울 아빠도 나중에 시골 가서 소 키우고 살고 싶어하든데... 다 비슷하시네",
+            "norm_text": "아... 하하 울 아빠도 나중에 시골 가서 소 키우고 살고 싶어하든데... 다 비슷하시네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+하하/MAG+울/VV+ETM+아빠/NNG+도/JX+나중/NNG+에/JKB+시골/NNG+가/JKS+서소/NNG+키우/VV+고/EC+살/VV+고/EC+싶/VX+어/EC+하/VX+든데/EF+./SY+다/MAG+비슷/XR+하/XSA+시/EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 너희들 다 시집 장가 가면 아빤 시골 가서 살 꺼다! 하시더라 키키",
+            "norm_text": "키키 너희들 다 시집 장가 가면 아빤 시골 가서 살 꺼다! 하시더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+너희/NP+들/XSN+다시/MAG+집장가/NNG+가/VV+면/EC+아빤/NNG+JX+시골/NNG+가/VV+서/EC+살/VV+ETM+꺼/NNB+VCP+다/EF+하/VV+시/EP+더라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 기다리고 계실지도 모른다",
+            "norm_text": "키키 기다리고 계실지도 모른다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+기다리/VV+고/EC+계실지/VX+EC+도/JX+모른다/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 이미 준비가 다 끝나셨을지도",
+            "norm_text": "키키 이미 준비가 다 끝나셨을지도",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+이미/MAG+준비/NNG+가/JKS+다/MAG+끝나/VV+셨/EP+EP+을/ETM+지도/NNG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 그니까 키키 왜 안 가지? 카면서 키키",
+            "norm_text": "키키 그니까 키키 왜 안 가지? 카면서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그니까/MAJ+키/NNG+키/XSV+ETN+왜/MAG+안/MAG+가/VV+지/EF+카/VV+면서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 아 진짜 그런 거면 내 맘 아프데이!",
+            "norm_text": "키키 아 진짜 그런 거면 내 맘 아프데이!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+그런/MM+거/NNB+면/VCP+EC+내/NP+JKG+맘/NNG+아프/VA+데이/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

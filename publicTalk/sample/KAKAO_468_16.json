@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 28998,
+    "name": "KAKAO_468_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150809016257/KAKAO_468_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150809016257/KAKAO_468_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28486,
+      "filename": "KAKAO_468_16.txt",
+      "title": "KAKAO_468_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 509,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 509,
+        "word_size": 174,
+        "text": "1 : 요새 미용실을 못 가서 머리 엄청 김 키키\n2 : 엥 대박 키키 왜 미용실을 못 갔어?\n1 : 키키 집에서 그냥 머리 올리고 있으니까 이렇게 긴 줄 몰랐음\n2 : 키키 대단하네? 키키 그래도 친구 결혼식 가기 전에  정리하는 게 낫지 않겠나\n1 : 시험 치고 바로 자르려고 파마도 좀 하고 키키\n2 : 올~ 파마~ 키키\n2 : 기대하겠음\n1 : 키키 난 파마 계속 해야 함 직모라서 ㅜㅜ\n2 : 아? 진짜? 근데 왜 직모인데 파마를 해?\n1 : 직모는 머리 만지기가 너무 힘듬 키키\n2 : 아... 그럴 수 있겠다 키키\n2 : 나는 직모였음 좋겠다 ㅠㅠ\n1 : 휴 직모랑 곱슬이랑 서로 부러워 하더라 키키\n2 : 키키 맞아 키키 진짜 난 머리숱도 많은데 다들 좋다는데\n2 : 난 아직까진 모르겠어 키키\n1 : 나도 머리숱 진짜 많은데 관리 진짜 안 되는데 키키\n2 : 키키 맞아 진짜 관리도 힘들고 파마 하면 난 항상 해그리드야...\n1 : 키키 아 진짜 그 모습은 못 본 거 같노\n2 : 키키 지금 그래...\n2 : 히피펌 했거든 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 미용실을 못 가서 머리 엄청 김 키키",
+            "norm_text": "요새 미용실을 못 가서 머리 엄청 김 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/NNG+미용실/NNG+을/JKO+못/MAG+가/VV+서/EC+머리/NNG+엄청/MAG+김/NNP+키키/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥 대박 키키 왜 미용실을 못 갔어?",
+            "norm_text": "엥 대박 키키 왜 미용실을 못 갔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+대박/NNG+키/NNG+키/XSV+ETN+왜/MAG+미용실/NNG+을/JKO+못/MAG+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 집에서 그냥 머리 올리고 있으니까 이렇게 긴 줄 몰랐음",
+            "norm_text": "키키 집에서 그냥 머리 올리고 있으니까 이렇게 긴 줄 몰랐음",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+집/NNG+에서/JKB+그냥/MAG+머리/NNG+올리/VV+고/EC+있/VX+으니까/EC+이렇게/MAG+긴/VA+ETM+줄/NNB+몰랐/VV+EP+음/ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 대단하네? 키키 그래도 친구 결혼식 가기 전에  정리하는 게 낫지 않겠나",
+            "norm_text": "키키 대단하네? 키키 그래도 친구 결혼식 가기 전에  정리하는 게 낫지 않겠나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+대단/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN+그래도/MAJ+친구/NNG+결혼식/NNG+가/VV+기/ETN+전/NNG+에/JKB+정리/NNG+하/XSV+는/ETM+게/NNB+JKS+낫/VA+지/EC+않/VX+겠/EP+나/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 시험 치고 바로 자르려고 파마도 좀 하고 키키",
+            "norm_text": "시험 치고 바로 자르려고 파마도 좀 하고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시험/NNG+치고/JX+바로/MAG+자르/VV+려고/EC+파마/NNG+도/JX+좀/MAG+하/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 올~ 파마~ 키키",
+            "norm_text": "올~ 파마~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "올/MM+~/SY+파마/NNG+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 기대하겠음",
+            "norm_text": "기대하겠음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기대/NNG+하/XSV+겠/EP+음/ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 난 파마 계속 해야 함 직모라서 ㅜㅜ",
+            "norm_text": "키키 난 파마 계속 해야 함 직모라서 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/VV+ETM+파마/NNG+계속/MAG+해야함/VV+EC+VX+ETN+직모/NNG+라서/VCP+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아? 진짜? 근데 왜 직모인데 파마를 해?",
+            "norm_text": "아? 진짜? 근데 왜 직모인데 파마를 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+근데/MAJ+왜/MAG+직모/NNG+인데/VCP+EC+파마/NNG+를/JKO+해/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 직모는 머리 만지기가 너무 힘듬 키키",
+            "norm_text": "직모는 머리 만지기가 너무 힘듬 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "직모/NNG+는/JX+머리/NNG+만/JX+지/VX+기/ETN+가/JKS+너무/MAG+힘/NNG+듬/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아... 그럴 수 있겠다 키키",
+            "norm_text": "아... 그럴 수 있겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+그럴/VV+ETM+수/NNB+있/VV+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 직모였음 좋겠다 ㅠㅠ",
+            "norm_text": "나는 직모였음 좋겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+직모/NNG+였/VCP+EP+음/ETN+좋/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 휴 직모랑 곱슬이랑 서로 부러워 하더라 키키",
+            "norm_text": "휴 직모랑 곱슬이랑 서로 부러워 하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴/IC+직모/NNG+랑/JKB+곱슬/MAG+이/XSN+랑/JKB+서로/MAG+부러워하/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 맞아 키키 진짜 난 머리숱도 많은데 다들 좋다는데",
+            "norm_text": "키키 맞아 키키 진짜 난 머리숱도 많은데 다들 좋다는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+키/NNG+키/XSV+ETN+진짜/MAG+난/NP+JX+머리숱/NNG+도/JX+많/VA+은데/EC+다/MAG+들/XSN+좋/VA+다는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 난 아직까진 모르겠어 키키",
+            "norm_text": "난 아직까진 모르겠어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+아직/MAG+까진/JX+JX+모르/VV+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나도 머리숱 진짜 많은데 관리 진짜 안 되는데 키키",
+            "norm_text": "나도 머리숱 진짜 많은데 관리 진짜 안 되는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+머리숱/NNG+진짜/MAG+많/VA+은데/EC+관리/NNG+진짜/MAG+안/MAG+되/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 맞아 진짜 관리도 힘들고 파마 하면 난 항상 해그리드야...",
+            "norm_text": "키키 맞아 진짜 관리도 힘들고 파마 하면 난 항상 해그리드야...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+진짜/MAG+관리/NNG+도/JX+힘들/VA+고/EC+파마/NNG+하/XSV+면/EC+난/NP+JX+항상/MAG+해/VV+EC+그리드/NNG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 아 진짜 그 모습은 못 본 거 같노",
+            "norm_text": "키키 아 진짜 그 모습은 못 본 거 같노",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+그/MM+모습/NNG+은/JX+못/MAG+본/VV+ETM+거/NNB+같/VA+노/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 지금 그래...",
+            "norm_text": "키키 지금 그래...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+지금/MAG+그래/IC+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 히피펌 했거든 하하",
+            "norm_text": "히피펌 했거든 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "히피/NNG+펌/NNG+했/XSV+EP+거든/EF+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 24100,
+    "name": "KAKAO_535_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917160200028719/KAKAO_535_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917160200028719/KAKAO_535_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30043,
+      "filename": "KAKAO_535_12.txt",
+      "title": "KAKAO_535_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 533,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 533,
+        "word_size": 174,
+        "text": "1 : 여보야~ 우리 이번 여름 휴가 3박 4일 정도 나올 것 같아\n2 : 아 그래? 난 2박 3일 나올 것 같네\n1 : 연차 좀 더 붙여서 3박 4일 제주도 여행 가고 싶은데 연차 좀 써 봐요~\n2 : 그럴까!? 알았어 연차 얘기해서 제주도 가자!\n2 : 나도 가고 싶었어 키키\n1 : 그래 좋아 좋아 그럼 여행은 제주도 정했구~! 계획을 좀 세워 볼까?\n2 : 키키 그래 각자 가고 싶은 곳이랑 먹고 싶은 거 해서 4가지씩 정하자!\n1 : 오호~ 괜찮네~? 계획을 좀 많이 짜 보셨나 봐요~?\n2 : 그럼 웬만한 여행 계획은 내가 짰지~ 키키\n1 : 좋아~ 키키 비행기는 어떻게 할까?\n2 : 비행기는 평일에 가야 싸니까 평일로 알아보자\n1 : 웅웅 렌트카는 내가 알아볼께\n2 : 키키 웅웅 운전도 물론 자기가 해야 해 하하 난 면허증이 없어~ 키키\n1 : 키키 그럼 그럼 이번에 내가 타고 싶은 차로 예약해도 되지? ㅋ\n2 : 키키 뭐 타고 싶은 거 있어?\n1 : 그럼~ SUV 차량을 너무 타고 싶었거든... 키키\n2 : 키키 그래 일단 차량 비행기는 됐고~ 숙박 알아보자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여보야~ 우리 이번 여름 휴가 3박 4일 정도 나올 것 같아",
+            "norm_text": "여보야~ 우리 이번 여름 휴가 3박 4일 정도 나올 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여보/NNG+야/JKV+~/SY+우리/NP+이번/NNG+여름휴가/NNG+3/SN+박/NNBC+4/SN+일/NNBC+정도/NNG+나올/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 그래? 난 2박 3일 나올 것 같네",
+            "norm_text": "아 그래? 난 2박 3일 나올 것 같네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+난/NP+JX+2/SN+박/NNBC+3/SN+일/NNBC+나올/VV+ETM+것/NNB+같/VA+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 연차 좀 더 붙여서 3박 4일 제주도 여행 가고 싶은데 연차 좀 써 봐요~",
+            "norm_text": "연차 좀 더 붙여서 3박 4일 제주도 여행 가고 싶은데 연차 좀 써 봐요~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "연차/MAG+좀/MAG+더/MAG+붙여서/VV+EC+3/SN+박/NNBC+4/SN+일/NNBC+제주도/NNP+여행/NNG+가/VV+고/EC+싶/VX+은데/EC+연차/MAG+좀/MAG+써/VV+EC+봐요/VX+EF+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럴까!? 알았어 연차 얘기해서 제주도 가자!",
+            "norm_text": "그럴까!? 알았어 연차 얘기해서 제주도 가자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴까/VV+EF+?/SY+알/VV+았/EP+어/EF+연차/MAG+얘기/NNG+해서/XSV+EC+제주도/NNP+가/JKS+자/IC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나도 가고 싶었어 키키",
+            "norm_text": "나도 가고 싶었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+가/VV+고/EC+싶/VX+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그래 좋아 좋아 그럼 여행은 제주도 정했구~! 계획을 좀 세워 볼까?",
+            "norm_text": "그래 좋아 좋아 그럼 여행은 제주도 정했구~! 계획을 좀 세워 볼까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+좋/VA+아/EC+좋/VA+아/EC+그럼/MAJ+여행/NNG+은/JX+제주/NNP+도/JX+정했/VV+EP+구/EC+~/SY+계획/NNG+을/JKO+좀/MAG+세워/VV+EC+볼까/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 그래 각자 가고 싶은 곳이랑 먹고 싶은 거 해서 4가지씩 정하자!",
+            "norm_text": "키키 그래 각자 가고 싶은 곳이랑 먹고 싶은 거 해서 4가지씩 정하자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/IC+각자/MAG+가/VV+고/EC+싶/VX+은/ETM+곳/NNG+이랑/JKB+먹/VV+고/EC+싶/VX+은/ETM+거/NNB+해서/VV+EC+4/SN+가지/NNBC+씩/XSN+정하/VV+자/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오호~ 괜찮네~? 계획을 좀 많이 짜 보셨나 봐요~?",
+            "norm_text": "오호~ 괜찮네~? 계획을 좀 많이 짜 보셨나 봐요~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/NNG+~/SY+괜찮/VA+네/EF+~/SY+계획/NNG+을/JKO+좀/MAG+많이/MAG+짜/VV+EC+보/VX+셨/EP+EP+나/EC+봐요/VX+EF+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그럼 웬만한 여행 계획은 내가 짰지~ 키키",
+            "norm_text": "그럼 웬만한 여행 계획은 내가 짰지~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+웬만/XR+한/XSA+ETM+여행/NNG+계획/NNG+은/JX+내/NP+가/JKS+짰/VV+EP+지/EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 좋아~ 키키 비행기는 어떻게 할까?",
+            "norm_text": "좋아~ 키키 비행기는 어떻게 할까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+아/EC+~/SY+키/NNG+키/NNG+비행기/NNG+는/JX+어떻게/MAG+할까/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 비행기는 평일에 가야 싸니까 평일로 알아보자",
+            "norm_text": "비행기는 평일에 가야 싸니까 평일로 알아보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "비행기/NNG+는/JX+평일/NNG+에/JKB+가/VV+야/EC+싸/VX+니까/EC+평일/NNG+로/JKB+알아보/VV+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 웅웅 렌트카는 내가 알아볼께",
+            "norm_text": "웅웅 렌트카는 내가 알아볼께",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅웅/MAG+렌트카/NNG+는/JX+내/NP+가/JKS+알아볼/VV+ETM+께/NNB"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 웅웅 운전도 물론 자기가 해야 해 하하 난 면허증이 없어~ 키키",
+            "norm_text": "키키 웅웅 운전도 물론 자기가 해야 해 하하 난 면허증이 없어~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+웅웅/MAG+운전/NNG+도/JX+물론/MAG+자기/NP+가/JKS+해야/VV+EC+해/NNG+하/XSV+하난/NR+JX+면허증/NNG+이/JKS+없/VA+어/EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그럼 그럼 이번에 내가 타고 싶은 차로 예약해도 되지? ㅋ",
+            "norm_text": "키키 그럼 그럼 이번에 내가 타고 싶은 차로 예약해도 되지? ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+그럼/MAJ+이번/NNG+에/JKB+내/NP+가/JKS+타/VV+고/EC+싶/VX+은/ETM+차/NNG+로/JKB+예약/NNG+해도/XSV+EC+되/VV+지/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 뭐 타고 싶은 거 있어?",
+            "norm_text": "키키 뭐 타고 싶은 거 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/IC+타/VV+고/EC+싶/VX+은/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그럼~ SUV 차량을 너무 타고 싶었거든... 키키",
+            "norm_text": "그럼~ SUV 차량을 너무 타고 싶었거든... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+~/SY+SUV/SL+차량/NNG+을/JKO+너무/MAG+타/VV+고/EC+싶/VX+었/EP+거든/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 그래 일단 차량 비행기는 됐고~ 숙박 알아보자!",
+            "norm_text": "키키 그래 일단 차량 비행기는 됐고~ 숙박 알아보자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/IC+일단/MAG+차량/NNG+비행기/NNG+는/JX+됐/VV+EP+고/EC+~/SY+숙박/NNG+알아보/VV+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

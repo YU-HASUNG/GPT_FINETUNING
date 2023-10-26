@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24087,
+    "name": "KAKAO_540_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210924110248000934/KAKAO_540_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210924110248000934/KAKAO_540_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31836,
+      "filename": "KAKAO_540_04.txt",
+      "title": "KAKAO_540_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 484,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 484,
+        "word_size": 154,
+        "text": "1 : 다음 주에 아르바이트 자리 하나 났는데 하실래요?\n2 : 아르바이트? 뭐 하는 아르바이트인데?\n1 : 회사 가서 서류만 정리하면 돼요 키키 별로 어렵지 않을 거예요\n2 : 해 볼까? 근데 내가 지금 하고 있는 일이 있어서 겸업으로 해도 될지 모르겠네\n1 : 계약서 작성할 때 그런 거 다 적혀 있을 텐데\n2 : 계약서를 내가 기억 못 하지 지금은\n1 : 아 키키 그런 조항들 들어간 계약서들이 있더라구요\n2 : 그럼 회사 전화해서 물어봐야 하나?\n1 : 계약서 작성하고 한 장 받아 오지 않으셨어요?\n2 : 아 그랬던 거 같으네?\n1 : 거기 한번 읽어보세요 키키 적혀 있을 거예요\n2 : 한번 알아봐야겠네 내가 찾아보고 연락해 줄게\n1 : 네네 키키 그럼 일단 자리는 빼 둘게요 키키\n2 : 그래~ 고마워~ 찾는 대로 바로 연락 줄게~\n1 : 네네 키키 만약 그런 조항 있어도 연락 주세요 키키 안 한다고 연락해 줘야 되니까 키키\n2 : 그런 조항 없길 바래야지~ 나도 돈 벌어야지~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 다음 주에 아르바이트 자리 하나 났는데 하실래요?",
+            "norm_text": "다음 주에 아르바이트 자리 하나 났는데 하실래요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다음/NNG+주/NNG+에/JKB+아르바이트/NNG+자리/NNG+하나/NR+났/VV+EP+는데/EC+하/VX+실래요/EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아르바이트? 뭐 하는 아르바이트인데?",
+            "norm_text": "아르바이트? 뭐 하는 아르바이트인데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아르바이트/NNG+뭐/IC+하/VV+는/ETM+아르바이트/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 회사 가서 서류만 정리하면 돼요 키키 별로 어렵지 않을 거예요",
+            "norm_text": "회사 가서 서류만 정리하면 돼요 키키 별로 어렵지 않을 거예요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "회사/NNG+가/VV+서/EC+서류/NNG+만/JX+정리/NNG+하/XSV+면/EC+돼요/VV+EF+키/NNG+키/NNG+별/XSN+로/JKB+어렵/VA+지/EC+않/VX+을/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 해 볼까? 근데 내가 지금 하고 있는 일이 있어서 겸업으로 해도 될지 모르겠네",
+            "norm_text": "해 볼까? 근데 내가 지금 하고 있는 일이 있어서 겸업으로 해도 될지 모르겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해/VV+EC+볼까/VX+EF+근데/MAJ+내/NP+가/JKS+지금/MAG+하/VV+고/EC+있/VX+는/ETM+일/NNG+이/JKS+있/VV+어서/EC+겸업/NNG+으로/JKB+해도/VV+EC+될지/VV+EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 계약서 작성할 때 그런 거 다 적혀 있을 텐데",
+            "norm_text": "계약서 작성할 때 그런 거 다 적혀 있을 텐데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "계약서/NNG+작성/NNG+할/XSV+ETM+때/NNG+그런/MM+거/NNB+다/MAG+적혀/VV+EC+있/VX+을/ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 계약서를 내가 기억 못 하지 지금은",
+            "norm_text": "계약서를 내가 기억 못 하지 지금은",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "계약서/NNG+를/JKO+내/NP+가/JKS+기억/NNG+못/MAG+하/VV+지/EC+지금/MAG+은/JX"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 키키 그런 조항들 들어간 계약서들이 있더라구요",
+            "norm_text": "아 키키 그런 조항들 들어간 계약서들이 있더라구요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키/NNG+그런/MM+조항/NNG+들/XSN+들어간/VV+ETM+계약서/NNG+들/XSN+이/JKS+있/VV+더라구요/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그럼 회사 전화해서 물어봐야 하나?",
+            "norm_text": "그럼 회사 전화해서 물어봐야 하나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+회사/NNG+전화/NNG+해서/XSV+EC+물어봐야/VV+EC+하나/NR"
+          },
+          {
+            "id": 9,
+            "text": "1 : 계약서 작성하고 한 장 받아 오지 않으셨어요?",
+            "norm_text": "계약서 작성하고 한 장 받아 오지 않으셨어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "계약서/NNG+작성/NNG+하/XSV+고/EC+한/MM+장/NNBC+받/VV+아/EC+오/VV+지/EC+않/VX+으셨어요/EP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 그랬던 거 같으네?",
+            "norm_text": "아 그랬던 거 같으네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그랬/VV+EP+던/ETM+거/NNB+같/VA+으네/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 거기 한번 읽어보세요 키키 적혀 있을 거예요",
+            "norm_text": "거기 한번 읽어보세요 키키 적혀 있을 거예요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "거기/NP+한번/MAG+읽/VV+어/EC+보/VX+세요/EP+EF+키/NNG+키/XSV+ETN+적혀/VV+EC+있/VX+을/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 한번 알아봐야겠네 내가 찾아보고 연락해 줄게",
+            "norm_text": "한번 알아봐야겠네 내가 찾아보고 연락해 줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "한/MM+번/NNBC+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+네/EF+내/NP+가/JKS+찾아보/VV+고/EC+연락/NNG+해/XSV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 13,
+            "text": "1 : 네네 키키 그럼 일단 자리는 빼 둘게요 키키",
+            "norm_text": "네네 키키 그럼 일단 자리는 빼 둘게요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/NP+네/XSN+키/NNG+키/XSV+ETN+그럼/MAJ+일단/MAG+자리/NNG+는/JX+빼/VV+둘/EC+VX+ETM+게/NNB+JKS+요키/NNP+키/NNG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래~ 고마워~ 찾는 대로 바로 연락 줄게~",
+            "norm_text": "그래~ 고마워~ 찾는 대로 바로 연락 줄게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/VA+EC+~/SY+고마워/VA+EC+~/SY+찾/VV+는/ETM+대로/NNB+바로/MAG+연락/NNG+줄/VV+게/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 네네 키키 만약 그런 조항 있어도 연락 주세요 키키 안 한다고 연락해 줘야 되니까 키키",
+            "norm_text": "네네 키키 만약 그런 조항 있어도 연락 주세요 키키 안 한다고 연락해 줘야 되니까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "네/NP+네/XSN+키/NNG+키/XSV+ETN+만약/MAG+그런/MM+조항/NNG+있/VV+어도/EC+연락/NNG+주세요/NNP+키/NNG+키/NNG+안/MAG+한다고/VV+EC+연락/NNG+해/XSV+EC+줘야/VX+EC+되/VV+니까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그런 조항 없길 바래야지~ 나도 돈 벌어야지~",
+            "norm_text": "그런 조항 없길 바래야지~ 나도 돈 벌어야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+조항/NNG+없/VA+길/ETN+JKO+바래/VV+야지/EC+~/SY+나/NP+도/JX+돈/NNG+벌/VV+어야지/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

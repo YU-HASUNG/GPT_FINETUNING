@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 27333,
+    "name": "KAKAO_507_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151245088760/KAKAO_507_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151245088760/KAKAO_507_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28667,
+      "filename": "KAKAO_507_17.txt",
+      "title": "KAKAO_507_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 478,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 478,
+        "word_size": 151,
+        "text": "1 : 너 백신 맞았다고 했었나?\n2 : 응 나는 1차까지 맞았어 왜?\n1 : 너 1차에 뭐 맞았다고 했지?\n2 : 나는 화이자 언니는 뭐 맞아?\n1 : 나도 화이자 너 그거 맞고 괜찮았어?\n2 : 딱히 증상이랄 건 없었는데 나는 두통이 좀 심했어\n1 : 헐 그거 위험한 거 아냐? 약 먹었어?\n2 : 응 편두통이 계속 있어서 약 먹고 쉬었어\n1 : 다른 증상은 없었어?\n1 : 뭐 막 심장이 아프다거나 화이자 부작용이 그거라면서\n2 : 응 뇌랑 심장이라고 하더라고\n2 : 근데 나는 좀 근육통이랑 피곤함, 두통 이거 정도?\n1 : 아 그래? 약도 소염진통제 말고 해열진통제 먹어야 된다면서\n2 : 응 소염진통제는 항체 생성을 방해한다더라고?\n1 : 맞아 그렇다더라 나는 이제 곧 맞는데 어떨지 걱정이야\n2 : 근데 생각보다 별거 없어 엄마도 괜찮다던데?\n1 : 아 그래? 흠... 맞고 나서 좀 많이 자면 괜찮으려나?\n2 : 응 그리고 좀 오래 아프다 싶으면 바로 큰 병원 가라더라고",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 백신 맞았다고 했었나?",
+            "norm_text": "너 백신 맞았다고 했었나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+백신/NNG+맞/VV+았/EP+다고/EC+했었/VX+EP+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 나는 1차까지 맞았어 왜?",
+            "norm_text": "응 나는 1차까지 맞았어 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+1/SN+차/NNBC+까지/JX+맞/VV+았/EP+어/EF+왜/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 너 1차에 뭐 맞았다고 했지?",
+            "norm_text": "너 1차에 뭐 맞았다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+1/SN+차/NNBC+에/JKB+뭐/IC+맞/VV+았/EP+다고/EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나는 화이자 언니는 뭐 맞아?",
+            "norm_text": "나는 화이자 언니는 뭐 맞아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+화이자/NNP+언니/NNG+는/JX+뭐/IC+맞/VV+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나도 화이자 너 그거 맞고 괜찮았어?",
+            "norm_text": "나도 화이자 너 그거 맞고 괜찮았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+화이자/NNP+너/NP+그거/NP+맞/VV+고/EC+괜찮/VA+았/EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 딱히 증상이랄 건 없었는데 나는 두통이 좀 심했어",
+            "norm_text": "딱히 증상이랄 건 없었는데 나는 두통이 좀 심했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "딱히/MAG+증상/NNG+이/VCP+랄/ETM+건/NNB+JX+없/VA+었/EP+는데/EC+나/NP+는/JX+두통/NNG+이/JKS+좀/MAG+심했/VA+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헐 그거 위험한 거 아냐? 약 먹었어?",
+            "norm_text": "헐 그거 위험한 거 아냐? 약 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+그거/NP+위험/NNG+한/XSA+ETM+거/NNB+아냐/VCN+EF+약/NNG+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 편두통이 계속 있어서 약 먹고 쉬었어",
+            "norm_text": "응 편두통이 계속 있어서 약 먹고 쉬었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+편두통/NNG+이/JKS+계속/MAG+있/VV+어서/EC+약/NNG+먹/VV+고/EC+쉬/VV+었/EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 다른 증상은 없었어?",
+            "norm_text": "다른 증상은 없었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다른/MM+증상/NNG+은/JX+없/VA+었/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 뭐 막 심장이 아프다거나 화이자 부작용이 그거라면서",
+            "norm_text": "뭐 막 심장이 아프다거나 화이자 부작용이 그거라면서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+막/MAJ+심장/NNG+이/JKS+아프/VA+다거나/EC+화이자/NNP+부작용/NNG+이/JKS+그거/NP+라면서/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 뇌랑 심장이라고 하더라고",
+            "norm_text": "응 뇌랑 심장이라고 하더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+뇌/NNG+랑/JKB+심장/NNG+이/VCP+라고/EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 나는 좀 근육통이랑 피곤함, 두통 이거 정도?",
+            "norm_text": "근데 나는 좀 근육통이랑 피곤함, 두통 이거 정도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+나/NP+는/JX+좀/MAG+근육통/NNG+이랑/JKB+피곤/NNG+함/XSV+ETN+,/SC+두통/NNG+이거/NP+정도/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아 그래? 약도 소염진통제 말고 해열진통제 먹어야 된다면서",
+            "norm_text": "아 그래? 약도 소염진통제 말고 해열진통제 먹어야 된다면서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+약도/NNG+소염/NNG+진통제/NNG+말/VV+고/EC+해열/NNG+진통제/NNG+먹/VV+어야/EC+된다면서/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 소염진통제는 항체 생성을 방해한다더라고?",
+            "norm_text": "응 소염진통제는 항체 생성을 방해한다더라고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응소/NNG+염진/NNG+통제/NNG+는/JX+항체/NNG+생성/NNG+을/JKO+방해/NNG+한다/XSV+EF+더라고/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 그렇다더라 나는 이제 곧 맞는데 어떨지 걱정이야",
+            "norm_text": "맞아 그렇다더라 나는 이제 곧 맞는데 어떨지 걱정이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그렇/VA+다더라/EC+나/NP+는/JX+이제/MAG+곧/MAG+맞/VV+는데/EC+어떨지/VA+EC+걱정/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 생각보다 별거 없어 엄마도 괜찮다던데?",
+            "norm_text": "근데 생각보다 별거 없어 엄마도 괜찮다던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+생각/NNG+보다/JKB+별거/NNG+없/VA+어/EC+엄마/NNG+도/JX+괜찮/VA+다던데/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 그래? 흠... 맞고 나서 좀 많이 자면 괜찮으려나?",
+            "norm_text": "아 그래? 흠... 맞고 나서 좀 많이 자면 괜찮으려나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+흠/IC+./SY+맞/VV+고/EC+나/VX+서/EC+좀/MAG+많이/MAG+자/VV+면/EC+괜찮/VA+으려나/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 그리고 좀 오래 아프다 싶으면 바로 큰 병원 가라더라고",
+            "norm_text": "응 그리고 좀 오래 아프다 싶으면 바로 큰 병원 가라더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그리고/MAJ+좀/MAG+오래/MAG+아프/VA+다/EC+싶/VX+으면/EC+바로/MAG+큰/VA+ETM+병원/NNG+가라/VV+더라고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

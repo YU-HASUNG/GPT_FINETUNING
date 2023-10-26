@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 28612,
+    "name": "KAKAO_560_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109171612560142108/KAKAO_560_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109171612560142108/KAKAO_560_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30115,
+      "filename": "KAKAO_560_04.txt",
+      "title": "KAKAO_560_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 384,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 131,
+        "text": "1 : 언니 이번에 일 그만둠?\n2 : 웅 손가락 부상 때문에 그만 뒀어.\n1 : 헐? 어쩌다 키키 손가락이 ㅠㅠ\n2 : 미용 할 개한테 물려서 많이 다쳤지.\n1 : 아 그래? 산재는 받았어?\n2 : 웅 산재 다 받고 퇴사했어.\n1 : 아하... 이제 뭐할 생각이야? ㅠㅠ\n2 : 생각 한 건 많은데 뭐부터 해야 할 지 모르겠어.\n1 : 음 그럼 일단 쉬고 나중에 생각하자 키키\n2 : 그래 일단 손이 나아야 뭘 할 것 같아.\n1 : 그러게 ㅠㅠ 치료 잘하고 관리 해야겠다\n2 : 웅 지금 물리 치료 열심히 받고 있어.\n1 : 아하! 그럼 퇴직금은 받았겠지?\n2 : 아니 1년을 못 채워서 퇴직금은 못 받았어\n1 : 헐 ㅠㅠ 아깝겠다...\n1 : 실업 급여도 안 나오지?\n2 : 응 내가 자진 퇴사한 거라 안 나와.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 이번에 일 그만둠?",
+            "norm_text": "언니 이번에 일 그만둠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+이번/NNG+에/JKB+일/NNG+그만둠/VV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 웅 손가락 부상 때문에 그만 뒀어.",
+            "norm_text": "웅 손가락 부상 때문에 그만 뒀어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+손가락/NNG+부상/NNG+때문/NNB+에/JKB+그만뒀/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐? 어쩌다 키키 손가락이 ㅠㅠ",
+            "norm_text": "헐? 어쩌다 키키 손가락이 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+어/IC+쩌/IC+다키키/NNP+손가락/NNG+이/JKS+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 미용 할 개한테 물려서 많이 다쳤지.",
+            "norm_text": "미용 할 개한테 물려서 많이 다쳤지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미용/NNG+할/XSV+ETM+개/NNG+한테/JKB+물려서/VV+EC+많이/MAG+다쳤/VV+EP+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그래? 산재는 받았어?",
+            "norm_text": "아 그래? 산재는 받았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+산재/NNG+는/JX+받/VV+았/EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 웅 산재 다 받고 퇴사했어.",
+            "norm_text": "웅 산재 다 받고 퇴사했어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅산/NNG+재/VV+다/EC+받/VV+고/EC+퇴사/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아하... 이제 뭐할 생각이야? ㅠㅠ",
+            "norm_text": "아하... 이제 뭐할 생각이야? ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하/IC+./SY+이제/IC+뭐/IC+할/VV+ETM+생각/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 생각 한 건 많은데 뭐부터 해야 할 지 모르겠어.",
+            "norm_text": "생각 한 건 많은데 뭐부터 해야 할 지 모르겠어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "생각/NNG+한/XSA+ETM+건/NNB+JX+많/VA+은데/EC+뭐/NP+부터/JX+해야/VV+EC+할지/VX+EC+모르/VV+겠/EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 음 그럼 일단 쉬고 나중에 생각하자 키키",
+            "norm_text": "음 그럼 일단 쉬고 나중에 생각하자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "음/IC+그럼/MAJ+일단/MAG+쉬/VV+고/EC+나중/NNG+에/JKB+생각/NNG+하/XSV+자/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래 일단 손이 나아야 뭘 할 것 같아.",
+            "norm_text": "그래 일단 손이 나아야 뭘 할 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+일단/MAG+손/NNG+이/JKS+나아야/VV+EC+뭘/NP+JKO+할/VV+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러게 ㅠㅠ 치료 잘하고 관리 해야겠다",
+            "norm_text": "그러게 ㅠㅠ 치료 잘하고 관리 해야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+ㅠㅠ/UNKNOWN+치료/NNG+잘/MAG+하/VV+고/EC+관리/NNG+해야/XSV+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 웅 지금 물리 치료 열심히 받고 있어.",
+            "norm_text": "웅 지금 물리 치료 열심히 받고 있어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+지금/MAG+물리/NNG+치료/NNG+열심히/MAG+받/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아하! 그럼 퇴직금은 받았겠지?",
+            "norm_text": "아하! 그럼 퇴직금은 받았겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하/IC+그럼/MAJ+퇴직금/NNG+은/JX+받/VV+았/EP+겠/EP+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니 1년을 못 채워서 퇴직금은 못 받았어",
+            "norm_text": "아니 1년을 못 채워서 퇴직금은 못 받았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+1/SN+년/NNBC+을/JKO+못/MAG+채워서/VV+EC+퇴직금/NNG+은/JX+못/MAG+받/VV+았/EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐 ㅠㅠ 아깝겠다...",
+            "norm_text": "헐 ㅠㅠ 아깝겠다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+ㅠㅠ/UNKNOWN+아깝/VA+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 실업 급여도 안 나오지?",
+            "norm_text": "실업 급여도 안 나오지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "실업/NNG+급여/NNG+도/JX+안/MAG+나오/VV+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 내가 자진 퇴사한 거라 안 나와.",
+            "norm_text": "응 내가 자진 퇴사한 거라 안 나와.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+내/NP+가/JKS+자진/NNG+퇴사/NNG+한/XSA+ETM+거/NNB+라/VCP+EC+안/MAG+나와/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 21502,
+    "name": "KAKAO_485_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146070464/KAKAO_485_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146070464/KAKAO_485_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28417,
+      "filename": "KAKAO_485_07.txt",
+      "title": "KAKAO_485_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 538,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 538,
+        "word_size": 175,
+        "text": "1 : 너는 친척들이랑 친하게 지내고 있어?\n2 : 응! 우리 집은 친척들도 그렇고 모두가 화목한 편이야~\n1 : 아 그래? 친척 중에 제일 친한 사람 있어?\n2 : 응 나는 친척 오빠랑 엄청 친해!\n1 : 친척 오빠랑 몇 살 차이인데?\n2 : 오빠랑 5살 차이야 키키\n2 : 우리 친척 중에 남자는 오빠 한 명이야 키키\n1 : 아 진짜? 오빠면 친해지기 어려웠을 것 같은데\n2 : 글쎄... 어릴 때부터 워낙 나만 유독 잘 챙겨줬거든~\n2 : 태어날 때부터 친해져 있는 느낌이랄까 키키\n1 : 우와 신기하다 하하\n1 : 너만 여자도 아닌데 너만 챙겨준 거야?\n2 : 응 키키 다른 언니나 동생들보다 유독 내가 이쁜 짓도 많이 하고 귀여웠데 키키\n1 : 아 그래? 친척 오빠는 그럼 동생이 없어?\n2 : 아니 여동생있어 키키\n2 : 근데 걔보다 나를 더 좋아하고 잘 챙겨줘~\n1 : 아 진짜? 너가 진짜 이쁜짓 많이 했나부다\n2 : 그랬나바 키키 지금은 다 커서 모르겠는데 어릴 땐 많이 했나바\n1 : 그렇구나 나도 나중에 너랑 친한 친척 오빠 좀 소개 시켜줘~\n2 : 그래! 다음에 같이 보자~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 친척들이랑 친하게 지내고 있어?",
+            "norm_text": "너는 친척들이랑 친하게 지내고 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+친척/NNG+들/XSN+이랑/JKB+친하/VA+게/EC+지내/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응! 우리 집은 친척들도 그렇고 모두가 화목한 편이야~",
+            "norm_text": "응! 우리 집은 친척들도 그렇고 모두가 화목한 편이야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+우리/NP+집/NNG+은/JX+친척/NNG+들/XSN+도/JX+그렇/VA+고/EC+모두/NNG+가/JKS+화목/NNG+한편/NNG+이/VCP+야/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래? 친척 중에 제일 친한 사람 있어?",
+            "norm_text": "아 그래? 친척 중에 제일 친한 사람 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+친척/NNG+중/NNB+에/JKB+제일/MAG+친한/VA+ETM+사람/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 나는 친척 오빠랑 엄청 친해!",
+            "norm_text": "응 나는 친척 오빠랑 엄청 친해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+친척/NNG+오빠/NNG+랑/JKB+엄청/MAG+친해/VA+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 친척 오빠랑 몇 살 차이인데?",
+            "norm_text": "친척 오빠랑 몇 살 차이인데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친척/NNG+오빠/NNG+랑/JC+몇/MM+살/NNBC+차이/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오빠랑 5살 차이야 키키",
+            "norm_text": "오빠랑 5살 차이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오빠/NNG+랑/JKB+5/SN+살/NNBC+차이/NNG+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 우리 친척 중에 남자는 오빠 한 명이야 키키",
+            "norm_text": "우리 친척 중에 남자는 오빠 한 명이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+친척/NNG+중/NNB+에/JKB+남자/NNG+는/JX+오빠/NNG+한/MM+명/NNBC+이/JKS+야키/NNP+키/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진짜? 오빠면 친해지기 어려웠을 것 같은데",
+            "norm_text": "아 진짜? 오빠면 친해지기 어려웠을 것 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+오빠/NNG+면/VCP+EC+친해/VA+EC+지/VX+기/ETN+어려웠을/VA+EP+ETM+것/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 글쎄... 어릴 때부터 워낙 나만 유독 잘 챙겨줬거든~",
+            "norm_text": "글쎄... 어릴 때부터 워낙 나만 유독 잘 챙겨줬거든~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글쎄/IC+./SY+어릴/VA+ETM+때/NNG+부터/JX+워낙/MAG+나/NP+만/JX+유독/MAG+잘/MAG+챙겨/VV+EC+줬/VX+EP+거든/EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 태어날 때부터 친해져 있는 느낌이랄까 키키",
+            "norm_text": "태어날 때부터 친해져 있는 느낌이랄까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "태어날/VV+ETM+때/NNG+부터/JX+친해져/VA+EC+VX+EC+있/VX+는/ETM+느낌/NNG+이/VCP+랄까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 우와 신기하다 하하",
+            "norm_text": "우와 신기하다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+신기/XR+하/XSA+다/EC+하하/MAG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 너만 여자도 아닌데 너만 챙겨준 거야?",
+            "norm_text": "너만 여자도 아닌데 너만 챙겨준 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+만/JX+여자/NNG+도/JX+아닌데/VCN+EC+너/NP+만/JX+챙겨준/VV+EC+VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 키키 다른 언니나 동생들보다 유독 내가 이쁜 짓도 많이 하고 귀여웠데 키키",
+            "norm_text": "응 키키 다른 언니나 동생들보다 유독 내가 이쁜 짓도 많이 하고 귀여웠데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키키/NNP+다른/MM+언니/NNG+나/JC+동생/NNG+들/XSN+보다/JKB+유독/MAG+내/NP+가/JKS+이쁜/VA+ETM+짓/NNG+도/JX+많이/MAG+하/VV+고/EC+귀여웠/VA+EP+데/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 그래? 친척 오빠는 그럼 동생이 없어?",
+            "norm_text": "아 그래? 친척 오빠는 그럼 동생이 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+친척/NNG+오빠/NNG+는/JX+그럼/MAJ+동생/NNG+이/JKS+없/VA+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아니 여동생있어 키키",
+            "norm_text": "아니 여동생있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+여동생/NNG+있/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 걔보다 나를 더 좋아하고 잘 챙겨줘~",
+            "norm_text": "근데 걔보다 나를 더 좋아하고 잘 챙겨줘~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+걔/NP+보다/JKB+나/NP+를/JKO+더/MAG+좋/VA+아/EC+하/VV+고/EC+잘/MAG+챙겨줘/VV+EC+VX+EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 진짜? 너가 진짜 이쁜짓 많이 했나부다",
+            "norm_text": "아 진짜? 너가 진짜 이쁜짓 많이 했나부다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+너/NP+가/JKS+진짜/MAG+이쁜/VA+ETM+짓/NNB+많이/MAG+했/VV+EP+나/EC+부/VX+다/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그랬나바 키키 지금은 다 커서 모르겠는데 어릴 땐 많이 했나바",
+            "norm_text": "그랬나바 키키 지금은 다 커서 모르겠는데 어릴 땐 많이 했나바",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그랬나/VA+EP+EC+바키/NNP+키/NNG+지금/MAG+은/JX+다/MAG+커서/VV+EC+모르/VV+겠/EP+는데/EC+어릴/VA+ETM+땐/NNG+JX+많이/MAG+했/VV+EP+나바/NNP"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그렇구나 나도 나중에 너랑 친한 친척 오빠 좀 소개 시켜줘~",
+            "norm_text": "그렇구나 나도 나중에 너랑 친한 친척 오빠 좀 소개 시켜줘~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그렇/VA+구나/EF+나/NP+도/JX+나중/NNG+에/JKB+너/NP+랑/JKB+친한/VA+ETM+친척/NNG+오빠/NNG+좀/MAG+소개/NNG+시켜/XSV+EC+줘/VX+EC+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그래! 다음에 같이 보자~",
+            "norm_text": "그래! 다음에 같이 보자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+다음/NNG+에/JKB+같이/MAG+보/VV+자/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

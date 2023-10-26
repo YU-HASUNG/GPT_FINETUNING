@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 69659,
+    "name": "KAKAO_713_03",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132137099791/KAKAO_713_03/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132137099791/KAKAO_713_03/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36650,
+      "filename": "KAKAO_713_03.txt",
+      "title": "KAKAO_713_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 638,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 638,
+        "word_size": 194,
+        "text": "1 : 요즘 서울 자주 온다며? 주로 뭐 타고 와?\n2 : 서울 갈 때 제일 빨리 갈 수 있는 KTX 타고 가 키키\n1 : 키키 그래 ktx가 제일 편하고 빠르지...\n1 : 키키 비행기는 타고 와본 적 없제?\n2 : 안 그래도 요즘 국내선 비행기가 저렴해서 타볼까 고민했었어\n1 : 평일에는 ktx보다 저렴할 수도 있을걸? 하하\n2 : 응! 나도 그거 보고 찾아봤는데 오빠네 집에서 멀더라구 ㅠ 그래서 그냥 기차 타고 가\n1 : 아아... ㅜㅜ 맞제 ㅜㅜ 공항은 내려서 집으로 가는 게 멀어서 별로야 ㅜ\n2 : 응 ㅠ 가까웠으면 진짜 비행기 타고 서울 가보고 싶은데 아쉬워\n1 : 하하 나도 명절에 기차표 못 구하면 비행기 타고 가봐야지 했는데... 명절엔 엄청 비싸... 키키\n2 : 키키 아 진짜? 이번에 기차표 예매했어?\n1 : 키키 올라오는 것만 예약했어...하하\n1 : 내려 오는 거 아직 표 못 구했어 ㅜㅜ\n2 : 엥 서울에서 대구 내려오는 기차표 예매 못한 거야?\n1 : 응... 키키 결제하는 날짜를 지나쳐서...ㅜㅜ 날라가 버렸지 모...ㅜㅜ\n2 : 헐 ㅠ 안되면 버스라도 타고 내려와 키키\n1 : 키키 그래야지... ㅜㅜ 일단 예약 대기해 논 상태라...하하 한자리쯤은 안 나겠나? 하하\n2 : 키키 응 한자리 정도는 나올 거 같다 누군가는 취소하겠지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 서울 자주 온다며? 주로 뭐 타고 와?",
+            "norm_text": "요즘 서울 자주 온다며? 주로 뭐 타고 와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/MAG+서울/NNP+자주/MAG+온다며/VV+EC+주로/MAG+뭐/IC+타/VV+고/EC+와/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 서울 갈 때 제일 빨리 갈 수 있는 KTX 타고 가 키키",
+            "norm_text": "서울 갈 때 제일 빨리 갈 수 있는 KTX 타고 가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "서울갈때제일빨리갈수있는/UNKNOWN+KTX/SL+타고/NNG+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 그래 ktx가 제일 편하고 빠르지...",
+            "norm_text": "키키 그래 ktx가 제일 편하고 빠르지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/JX+ktx/SL+가/JKS+제일/MAG+편하/VA+고/EC+빠르/VA+지/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 비행기는 타고 와본 적 없제?",
+            "norm_text": "키키 비행기는 타고 와본 적 없제?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+비행기/NNG+는/JX+타/VV+고/EC+와본/VV+EC+VX+ETM+적/NNB+없/VA+제/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 안 그래도 요즘 국내선 비행기가 저렴해서 타볼까 고민했었어",
+            "norm_text": "안 그래도 요즘 국내선 비행기가 저렴해서 타볼까 고민했었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+요즘/NNG+국내선/NNG+비행기/NNG+가/JKS+저렴/XR+해서/XSA+EC+타/VV+볼까/EC+VX+EC+고민/NNG+했었/XSV+EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 평일에는 ktx보다 저렴할 수도 있을걸? 하하",
+            "norm_text": "평일에는 ktx보다 저렴할 수도 있을걸? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "평일/NNG+에/JKB+는/JX+ktx/SL+보다/JKB+저렴/XR+할/XSA+ETM+수/NNB+도/JX+있/VA+을걸/EF+하하/MAG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응! 나도 그거 보고 찾아봤는데 오빠네 집에서 멀더라구 ㅠ 그래서 그냥 기차 타고 가",
+            "norm_text": "응! 나도 그거 보고 찾아봤는데 오빠네 집에서 멀더라구 ㅠ 그래서 그냥 기차 타고 가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나도그거보고찾아봤는데오빠네집에서멀더라구ㅠ그래서그냥기차타고가/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아아... ㅜㅜ 맞제 ㅜㅜ 공항은 내려서 집으로 가는 게 멀어서 별로야 ㅜ",
+            "norm_text": "아아... ㅜㅜ 맞제 ㅜㅜ 공항은 내려서 집으로 가는 게 멀어서 별로야 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+./SY+ㅜㅜ맞제ㅜㅜ공항은내려서집으로가는게멀어서별로야ㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응 ㅠ 가까웠으면 진짜 비행기 타고 서울 가보고 싶은데 아쉬워",
+            "norm_text": "응 ㅠ 가까웠으면 진짜 비행기 타고 서울 가보고 싶은데 아쉬워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응ㅠ/UNKNOWN+가까웠으면/VA+EP+EC+진짜/MAG+비행기/NNG+타/VV+고/EC+서울/NNP+가/JKS+보/VV+고/EC+싶/VX+은데/EC+아쉬워/VA+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 하하 나도 명절에 기차표 못 구하면 비행기 타고 가봐야지 했는데... 명절엔 엄청 비싸... 키키",
+            "norm_text": "하하 나도 명절에 기차표 못 구하면 비행기 타고 가봐야지 했는데... 명절엔 엄청 비싸... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하나도명절에기차표못구하면비행기타고가봐야지했는데/UNKNOWN+./SY+명절/NNG+엔/JKB+JX+엄청/MAG+비싸/VA+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 아 진짜? 이번에 기차표 예매했어?",
+            "norm_text": "키키 아 진짜? 이번에 기차표 예매했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+이번/NNG+에/JKB+기차표/NNG+예매/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 올라오는 것만 예약했어...하하",
+            "norm_text": "키키 올라오는 것만 예약했어...하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+올라오/VV+는/ETM+것/NNB+만/JX+예약/NNG+했/XSV+EP+어/EF+./SY+하하/MAG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 내려 오는 거 아직 표 못 구했어 ㅜㅜ",
+            "norm_text": "내려 오는 거 아직 표 못 구했어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내려오/VV+는/ETM+거/NNB+아직/MAG+표/NNG+못/MAG+구했/VV+EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 엥 서울에서 대구 내려오는 기차표 예매 못한 거야?",
+            "norm_text": "엥 서울에서 대구 내려오는 기차표 예매 못한 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+서울/NNP+에서/JKB+대/VV+구/EC+내려오/VV+는/ETM+기차표/NNG+예매/NNG+못/MAG+한/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응... 키키 결제하는 날짜를 지나쳐서...ㅜㅜ 날라가 버렸지 모...ㅜㅜ",
+            "norm_text": "응... 키키 결제하는 날짜를 지나쳐서...ㅜㅜ 날라가 버렸지 모...ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+키/NNG+키/NNG+결제/NNG+하/XSV+는/ETM+날짜/NNG+를/JKO+지나쳐서/VV+EC+./SY+./SY+ㅜㅜ날라가버렸지모/UNKNOWN+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 헐 ㅠ 안되면 버스라도 타고 내려와 키키",
+            "norm_text": "헐 ㅠ 안되면 버스라도 타고 내려와 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐ㅠ/UNKNOWN+안/MAG+되/VV+면/EC+버스/NNG+라도/VCP+EC+타/VV+고/EC+내려와/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 그래야지... ㅜㅜ 일단 예약 대기해 논 상태라...하하 한자리쯤은 안 나겠나? 하하",
+            "norm_text": "키키 그래야지... ㅜㅜ 일단 예약 대기해 논 상태라...하하 한자리쯤은 안 나겠나? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래야지/VV+EF+./SY+ㅜㅜ일단예약대기해논상태라/UNKNOWN+./SY+하하/MAG+한/XSA+ETM+자리/NNG+쯤/XSN+은/JX+안/MAG+나/VV+겠/EP+나/EF+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 응 한자리 정도는 나올 거 같다 누군가는 취소하겠지",
+            "norm_text": "키키 응 한자리 정도는 나올 거 같다 누군가는 취소하겠지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응한/VV+ETM+자리/NNG+정도/NNG+는/JX+나올/VV+ETM+거/NNB+같/VA+다/EF+누군가/NP+VCP+EC+는/JX+취소/NNG+하/XSV+겠/EP+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

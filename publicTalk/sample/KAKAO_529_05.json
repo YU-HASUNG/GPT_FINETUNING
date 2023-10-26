@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 22406,
+    "name": "KAKAO_529_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151421030313/KAKAO_529_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151421030313/KAKAO_529_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29736,
+      "filename": "KAKAO_529_05.txt",
+      "title": "KAKAO_529_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 438,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 438,
+        "word_size": 140,
+        "text": "1 : 야 내 동생 요번 주 군대 간다\n2 : 키키 맛있는 거 사준다고 연락해야겠다\n1 : 시간 되냐? 난 공익이라 조언 좀 해주라\n2 : 난 남는 게 시간이지 키키 동생한테 연락할게 키키\n1 : 근데 내 동생도 특전사 지원한대\n2 : 아 정말? 내 후배 기수 되겠네\n1 : 근데 특전사 훈련 정말 힘드냐?\n2 : 말 이라고 키키 요즘 티비 프로그램에서도 많이 나오잖아\n1 : 난 그거 안 봐서 키키 그래봤자 군대가 똑같지\n2 : 너 밖에서 그런 소리 하면 돌 맞을 수도 있어\n1 : 그럼 대표적인 훈련이 뭔데?\n2 : 천리행군 들어봤지?\n2 : 400킬로미터를 군장 메고 10일 동안 걷는다\n1 : 헐 그거 하다가 쓰러지는 사람도 있었냐?\n2 : 당연하지 중간에 전술 훈련하는데 총 600킬로미터야\n1 : 난 다음에 태어나도 못 가겠다\n2 : 그러니까 너도 동생한테 미리 잘해줘라.\n2 : 파이팅이라고 전해주고!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 야 내 동생 요번 주 군대 간다",
+            "norm_text": "야 내 동생 요번 주 군대 간다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야/IC+내/NP+JKG+동생/NNG+요번/NNG+주/NNG+군대/NNG+간다/VV+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 맛있는 거 사준다고 연락해야겠다",
+            "norm_text": "키키 맛있는 거 사준다고 연락해야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맛있/VA+는/ETM+거/NNB+사/VV+EC+준다고/VX+EC+연락/NNG+해야/XSV+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 시간 되냐? 난 공익이라 조언 좀 해주라",
+            "norm_text": "시간 되냐? 난 공익이라 조언 좀 해주라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "시간/NNG+되/XSV+냐/EF+난/NP+JX+공익/NNG+이/VCP+라/EC+조언/NNG+좀/MAG+해/VV+EC+주/VX+라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 난 남는 게 시간이지 키키 동생한테 연락할게 키키",
+            "norm_text": "난 남는 게 시간이지 키키 동생한테 연락할게 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+남/VV+는/ETM+게/NNB+JKS+시간/NNG+이/VCP+지/EC+키/NNG+키/NNG+동생/NNG+한테/JKB+연락/NNG+할/XSV+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 내 동생도 특전사 지원한대",
+            "norm_text": "근데 내 동생도 특전사 지원한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+내/MM+동생/NNG+도/JX+특전/NNG+사지원/NNP+한대/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 정말? 내 후배 기수 되겠네",
+            "norm_text": "아 정말? 내 후배 기수 되겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+내/NP+JKG+후배/NNG+기수/NNG+되/XSV+겠/EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 특전사 훈련 정말 힘드냐?",
+            "norm_text": "근데 특전사 훈련 정말 힘드냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+특전/NNG+사훈/NNG+련/VCP+EC+JX+정말/MAG+힘드/VA+냐/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 말 이라고 키키 요즘 티비 프로그램에서도 많이 나오잖아",
+            "norm_text": "말 이라고 키키 요즘 티비 프로그램에서도 많이 나오잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "말/NNG+이/VCP+라고/EC+키/NNG+키/NNG+요즘/NNG+티비/NNG+프로그램/NNG+에서/JKB+도/JX+많이/MAG+나오/VV+잖아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 난 그거 안 봐서 키키 그래봤자 군대가 똑같지",
+            "norm_text": "난 그거 안 봐서 키키 그래봤자 군대가 똑같지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+그거/NP+안/MAG+봐서/VV+EC+키/NNG+키/XSV+ETN+그래/VA+EC+봤/VX+EP+자/EC+군대/NNG+가/JKS+똑같/VA+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 너 밖에서 그런 소리 하면 돌 맞을 수도 있어",
+            "norm_text": "너 밖에서 그런 소리 하면 돌 맞을 수도 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+밖/NNG+에서/JKB+그런/MM+소리/NNG+하/XSV+면/EC+돌/NNG+맞/VV+을/ETM+수/NNB+도/JX+있/VA+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 대표적인 훈련이 뭔데?",
+            "norm_text": "그럼 대표적인 훈련이 뭔데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+대표/NNG+적/XSN+인/VCP+ETM+훈련/NNG+이/JKS+뭔데/NP+VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 천리행군 들어봤지?",
+            "norm_text": "천리행군 들어봤지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "천리/NNG+행군/NNG+들/VV+어/EC+봤/VX+EP+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 400킬로미터를 군장 메고 10일 동안 걷는다",
+            "norm_text": "400킬로미터를 군장 메고 10일 동안 걷는다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "400/SN+킬로미터/NNBC+를/JKO+군장/NNG+메/VV+고/EC+10/SN+일/NNBC+동안/NNG+걷/VV+는다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 헐 그거 하다가 쓰러지는 사람도 있었냐?",
+            "norm_text": "헐 그거 하다가 쓰러지는 사람도 있었냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+그거/NP+하/VV+다가/EC+쓰러지/VV+는/ETM+사람/NNG+도/JX+있/VA+었/EP+냐/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 당연하지 중간에 전술 훈련하는데 총 600킬로미터야",
+            "norm_text": "당연하지 중간에 전술 훈련하는데 총 600킬로미터야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "당연/XR+하/XSA+지/EC+중간/NNG+에/JKB+전술/NNG+훈련/NNG+하/XSV+는데/EC+총/MM+600/SN+킬로미터/NNBC+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 난 다음에 태어나도 못 가겠다",
+            "norm_text": "난 다음에 태어나도 못 가겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+다음/NNG+에/JKB+태어나/VV+EC+도/JX+못/MAG+가/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그러니까 너도 동생한테 미리 잘해줘라.",
+            "norm_text": "그러니까 너도 동생한테 미리 잘해줘라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+너/NP+도/JX+동생/NNG+한테/JKB+미리/MAG+잘/MAG+해/VV+EC+줘라/VX+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 파이팅이라고 전해주고!",
+            "norm_text": "파이팅이라고 전해주고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "파이팅/NNP+이/VCP+라고/EC+전해/VV+EC+주/VX+고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

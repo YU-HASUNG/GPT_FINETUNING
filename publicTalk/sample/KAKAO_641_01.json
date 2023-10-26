@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34575,
+    "name": "KAKAO_641_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140625048559/KAKAO_641_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140625048559/KAKAO_641_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34099,
+      "filename": "KAKAO_641_01.txt",
+      "title": "KAKAO_641_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 488,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 488,
+        "word_size": 154,
+        "text": "1 : 너 김밥 떡볶이 순대 좋아해?\n2 : 오~ 분식~ 김떡순 완전 좋아하지 키키\n1 : 키키 그럼 만두랑 오뎅 이런 것도 다 좋아하겠네?\n2 : 당연하지 키키 나는 김치 만두를 특히 좋아해!\n1 : 나는 고기만두! 만두는 고기가 진리지~!\n2 : 아냐 김치가 진리야! 떡볶이 국물에 김치 만두 찍어 먹으면 진짜 맛있지~!\n1 : 캬 침 고이네 오늘 저녁은 분식인건가...\n2 : 키키 좋지~ 완전 풀코스로다가 떡볶이 김밥 순대 만두 튀김까지!\n1 : 너가 해준 떡볶이에 들어간 라면 먹고 싶다!\n2 : 라볶이~ 내가 또 한 요리 하지 키키\n1 : 인정~ 너가 해주는 요리 다 맛있어~ 언제 또 해줄 꺼야?\n2 : 음... 다음에 너가 먹고 싶다는 떡볶이 해 줄게!\n1 : 오~ 좋다 그럼 떡볶이는 너가 만들고 순대랑 튀김 이런 걸 내가 사갈게!\n2 : 키키 좋지~ 날을 한 번 잡아보자고~!\n1 : 응응 이번 주 주말 어때! 주말에 내가 너네 집 갈게~!\n2 : 그래 주말에 떡볶이 만들어 줄게~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 김밥 떡볶이 순대 좋아해?",
+            "norm_text": "너 김밥 떡볶이 순대 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+김밥/NNG+떡볶이/NNG+순대/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오~ 분식~ 김떡순 완전 좋아하지 키키",
+            "norm_text": "오~ 분식~ 김떡순 완전 좋아하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+~/SY+분식/NNG+~/SY+김/NNP+떡/NNG+순/NNB+JX+완전/MAG+좋/VA+아/EC+하/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 그럼 만두랑 오뎅 이런 것도 다 좋아하겠네?",
+            "norm_text": "키키 그럼 만두랑 오뎅 이런 것도 다 좋아하겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+만두/NNG+랑/JKB+오뎅/NNG+이런/MM+것/NNB+도/JX+다/MAG+좋/VA+아/EC+하/VX+겠/EP+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 당연하지 키키 나는 김치 만두를 특히 좋아해!",
+            "norm_text": "당연하지 키키 나는 김치 만두를 특히 좋아해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "당연/XR+하/XSA+지/EC+키/NNG+키나/XSA+ETN+JX+는/JX+김치/NNG+만두/NNG+를/JKO+특히/MAG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나는 고기만두! 만두는 고기가 진리지~!",
+            "norm_text": "나는 고기만두! 만두는 고기가 진리지~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+고기만두/NNG+!/SY+만두/NNG+는/JX+고기/NNG+가/JKS+진리/NNG+지/VCP+EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아냐 김치가 진리야! 떡볶이 국물에 김치 만두 찍어 먹으면 진짜 맛있지~!",
+            "norm_text": "아냐 김치가 진리야! 떡볶이 국물에 김치 만두 찍어 먹으면 진짜 맛있지~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+김치/NNG+가/JKS+진리/NNG+야/VCP+EF+떡볶이/NNG+국물/NNG+에/JKB+김치/NNG+만/JX+두/JX+찍/VV+어/EC+먹/VV+으면/EC+진짜/MAG+맛있/VA+지/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 캬 침 고이네 오늘 저녁은 분식인건가...",
+            "norm_text": "캬 침 고이네 오늘 저녁은 분식인건가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "캬/IC+침고/NNG+이/VCP+네/EF+오늘/MAG+저녁/NNG+은/JX+분식/NNG+인/VCP+ETM+건가/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 좋지~ 완전 풀코스로다가 떡볶이 김밥 순대 만두 튀김까지!",
+            "norm_text": "키키 좋지~ 완전 풀코스로다가 떡볶이 김밥 순대 만두 튀김까지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+지/EC+~/SY+완전/NNG+풀코스/NNG+로다가/JKB+떡볶이/NNG+김밥/NNG+순대/NNG+만/JX+두/MM+튀김/NNG+까지/JX"
+          },
+          {
+            "id": 9,
+            "text": "1 : 너가 해준 떡볶이에 들어간 라면 먹고 싶다!",
+            "norm_text": "너가 해준 떡볶이에 들어간 라면 먹고 싶다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+가/JKS+해/VV+EC+준/VX+ETM+떡볶이/NNG+에/JKB+들어간/VV+ETM+라면/NNG+먹/VV+고/EC+싶/VX+다/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 라볶이~ 내가 또 한 요리 하지 키키",
+            "norm_text": "라볶이~ 내가 또 한 요리 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "라볶이/NNG+~/SY+내/NP+가/JKS+또/MAG+한/MM+요리/NNG+하/XSV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 인정~ 너가 해주는 요리 다 맛있어~ 언제 또 해줄 꺼야?",
+            "norm_text": "인정~ 너가 해주는 요리 다 맛있어~ 언제 또 해줄 꺼야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "인정/NNG+~/SY+너/NP+가/JKS+해/VV+EC+주/VX+는/ETM+요리/NNG+다/MAG+맛있/VA+어/EC+~/SY+언제/MAG+또/MAG+해/VV+EC+줄/VX+ETM+꺼/NNB+VCP+야/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 음... 다음에 너가 먹고 싶다는 떡볶이 해 줄게!",
+            "norm_text": "음... 다음에 너가 먹고 싶다는 떡볶이 해 줄게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "음/IC+./SY+다음/NNG+에/JKB+너/NP+가/JKS+먹/VV+고/EC+싶/VX+다는/ETM+떡볶이/NNG+해/XSV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오~ 좋다 그럼 떡볶이는 너가 만들고 순대랑 튀김 이런 걸 내가 사갈게!",
+            "norm_text": "오~ 좋다 그럼 떡볶이는 너가 만들고 순대랑 튀김 이런 걸 내가 사갈게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "오/NR+~/SY+좋/VA+다/EF+그럼/MAJ+떡볶이/NNG+는/JX+너/NP+가/JKS+만들/VV+고/EC+순대/NNG+랑/JKB+튀김/NNG+이런/MM+걸/NNB+JKO+내/NP+가/JKS+사/VV+EC+갈게/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 좋지~ 날을 한 번 잡아보자고~!",
+            "norm_text": "키키 좋지~ 날을 한 번 잡아보자고~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+지/EC+~/SY+날/NNG+을/JKO+한번/MAG+잡/VV+아/EC+보/VX+자고/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응응 이번 주 주말 어때! 주말에 내가 너네 집 갈게~!",
+            "norm_text": "응응 이번 주 주말 어때! 주말에 내가 너네 집 갈게~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+응/IC+이번/NNG+주주/NNG+말/NNG+어때/VA+EF+주말/NNG+에/JKB+내/NP+가/JKS+너/NP+네/XSN+집/NNG+갈/VV+ETM+게/NNB+JKS+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 주말에 떡볶이 만들어 줄게~",
+            "norm_text": "그래 주말에 떡볶이 만들어 줄게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+주말/NNG+에/JKB+떡볶이/NNG+만들/VV+어/EC+줄/VX+ETM+게/NNB+JKS+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

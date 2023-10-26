@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 71830,
+    "name": "KAKAO_691_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112803097666/KAKAO_691_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112803097666/KAKAO_691_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35200,
+      "filename": "KAKAO_691_01.txt",
+      "title": "KAKAO_691_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 499,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 499,
+        "word_size": 160,
+        "text": "1 : 언니야 오늘 점심 식사는 뭐 먹음? 키키\n2 : 나는 오늘 아점으로 그릭요거트 키키\n1 : 오 언니야 그릭 요거트 좋아하네 키키\n2 : 키키 웅 키키 요새 완전 빠졌어... 너무 맛있어...\n1 : 오호 키키 전 그냥 인스타로 보기만 했는데\n2 : 요새 나름 그릭 요거트 다이어트 해 키키\n1 : 키키 다이어트가 되나용 키키\n1 : 저도 한번 도전해 봐야겠어요 키키\n2 : 키키 아니 하루에 한 끼를 그릭요거트 먹거든? 꿀이랑 해서\n1 : 오 대박 키키 한 끼를 그 정도로 배 안 고파용? 하하\n2 : 근데 과일도 먹고 해서 그런지 생각보다 배가 부른데 화장실을 잘 가서 나름 성공적이야\n1 : 아 키키 잘 비워서 다이어트가 되나 봐용 키키\n2 : 키키 그런 것 같애 키키 아니 나중에 함 먹어봐 진짜 맛있어...\n1 : 키키 아니 아빠도 얘기 하더라고용 키키 도전!\n2 : 키키 내가 아부지한테도 맛있다고 맛있다고 말했즤\n1 : 키키 언니가 전파한 거였군요? 키키\n2 : 키키 응 키키 사 달라고 하시더나? 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니야 오늘 점심 식사는 뭐 먹음? 키키",
+            "norm_text": "언니야 오늘 점심 식사는 뭐 먹음? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+야/VCP+EF+오늘/MAG+점심/NNG+식사/NNG+는/JX+뭐/IC+먹/VV+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 오늘 아점으로 그릭요거트 키키",
+            "norm_text": "나는 오늘 아점으로 그릭요거트 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+오늘/MAG+아점/NNG+으로/JKB+그릭/NNP+요/VCP+EC+거트/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 언니야 그릭 요거트 좋아하네 키키",
+            "norm_text": "오 언니야 그릭 요거트 좋아하네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+언니/NNG+야/VCP+EF+그/MM+릭/NNG+요/VCP+EC+거트/NNG+좋/VA+아/EC+하/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 웅 키키 요새 완전 빠졌어... 너무 맛있어...",
+            "norm_text": "키키 웅 키키 요새 완전 빠졌어... 너무 맛있어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키웅키키요새완전빠졌어/UNKNOWN+./SY+너무/MAG+맛있/VA+어/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오호 키키 전 그냥 인스타로 보기만 했는데",
+            "norm_text": "오호 키키 전 그냥 인스타로 보기만 했는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+키/NNG+키/XSV+ETN+전/NP+JX+그냥/MAG+인/VCP+ETM+스타/NNG+로/JKB+보/VV+기/ETN+만/JX+했/VV+EP+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요새 나름 그릭 요거트 다이어트 해 키키",
+            "norm_text": "요새 나름 그릭 요거트 다이어트 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+나름/NNB+그/MM+릭/NNG+요/VCP+EC+거트/NNG+다이어트/NNG+해/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 다이어트가 되나용 키키",
+            "norm_text": "키키 다이어트가 되나용 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+다이어트/NNG+가/JKS+되/VV+EC+나용/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 저도 한번 도전해 봐야겠어요 키키",
+            "norm_text": "저도 한번 도전해 봐야겠어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+도/JX+한/MM+번/NNBC+도/JX+전해/VV+EC+봐야/VX+EC+VV+겠/EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 아니 하루에 한 끼를 그릭요거트 먹거든? 꿀이랑 해서",
+            "norm_text": "키키 아니 하루에 한 끼를 그릭요거트 먹거든? 꿀이랑 해서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키아니하루에한끼를그릭요거트먹거든/UNKNOWN+꿀/NNG+이랑/JKB+해서/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오 대박 키키 한 끼를 그 정도로 배 안 고파용? 하하",
+            "norm_text": "오 대박 키키 한 끼를 그 정도로 배 안 고파용? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오대박키키한끼를그정도로배안고파용/UNKNOWN+하하/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 근데 과일도 먹고 해서 그런지 생각보다 배가 부른데 화장실을 잘 가서 나름 성공적이야",
+            "norm_text": "근데 과일도 먹고 해서 그런지 생각보다 배가 부른데 화장실을 잘 가서 나름 성공적이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+과일/NNG+도/JX+먹/VV+고/EC+해서/VV+EC+그런지/VA+EC+생각/NNG+보다/JKB+배/NNG+가/JKS+부른데/VV+EC+화장실/NNG+을/JKO+잘/MAG+가/VV+서/EC+나름/NNB+성공/NNG+적/XSN+이/VCP+야/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 키키 잘 비워서 다이어트가 되나 봐용 키키",
+            "norm_text": "아 키키 잘 비워서 다이어트가 되나 봐용 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+잘/MAG+비워서/VV+EC+다이어트/NNG+가/JKS+되/VV+나/EC+봐/VX+EF+용/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 그런 것 같애 키키 아니 나중에 함 먹어봐 진짜 맛있어...",
+            "norm_text": "키키 그런 것 같애 키키 아니 나중에 함 먹어봐 진짜 맛있어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키그런것같애키키아니나중에함먹어봐진짜맛있어/UNKNOWN+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 아니 아빠도 얘기 하더라고용 키키 도전!",
+            "norm_text": "키키 아니 아빠도 얘기 하더라고용 키키 도전!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+아빠/NNG+도/JX+얘기/NNG+하/XSV+더라/EC+고용/NNG+키/NNG+키/XSV+ETN+도/JX+전/NNG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 내가 아부지한테도 맛있다고 맛있다고 말했즤",
+            "norm_text": "키키 내가 아부지한테도 맛있다고 맛있다고 말했즤",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+가/JKS+아부지/NNG+한테/JKB+도/JX+맛있/VA+다고/EC+맛있/VA+다고/EC+말/NNG+했/XSV+EP+즤/NP"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 언니가 전파한 거였군요? 키키",
+            "norm_text": "키키 언니가 전파한 거였군요? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+언니/NNG+가/JKS+전파/NNG+한/XSA+ETM+거/NNB+였/VCP+EP+군요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 응 키키 사 달라고 하시더나? 키키",
+            "norm_text": "키키 응 키키 사 달라고 하시더나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키응키키사달라고하시더나/UNKNOWN+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

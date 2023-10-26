@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 35123,
+    "name": "KAKAO_690_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055016968/KAKAO_690_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113055016968/KAKAO_690_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35306,
+      "filename": "KAKAO_690_07.txt",
+      "title": "KAKAO_690_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 563,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 563,
+        "word_size": 179,
+        "text": "1 : 너네 가족들 다 백신 접종 완료했어?\n2 : 아직 우리 엄마 2차 남았어!\n2 : 추석 전에 맞으실 듯\n1 : 오오! 어머니 1차 맞으시고 괜찮으셨나?\n2 : 응 우리 엄마는 1차 맞고 팔만 아프다 하셨고 다른 증상은 없었어\n1 : 다행이다! 울 아빠랑 오빠야도 다 접종했는데 다들 안 아팠다고 하더라!\n2 : 진짜 아무 이상 없는 게 천만 다행이야 ㅠ\n2 : 나는 두통이 와서 무서웠어\n1 : 아... 맞다! 니도 1차 맞은 거제? ㅜㅜ\n1 : 백신 뭐 맞았어?\n2 : 나는 모더나 신청했는데 화이자로 돼서 화이자 접종받았어\n1 : 아 진짜? ㅜㅜ 어머니도 화이자 맞으신 거야?\n2 : 응 엄마도 모더나 했다가 안 돼서 화이자로 접종했어\n1 : 아... ㅜㅜ 모더나 신청하고 화이자로 바뀌는 경우도 있구나... ㅜㅜ\n2 : 모더나 물량이 안 돼서 화이자로 다들 바뀌더라구\n1 : 아아... ㅜㅜ 난 아직 접종 전인데... 안 맞고 싶어 ㅜㅜ\n2 : 사실 나도 안 맞고 싶었어 기사 보고 너무 걱정이 돼서\n1 : ㅜㅜ 근데 이미 예약해 놓은 거면 꼭 맞아야 하는 거지? ㅜㅜ\n2 : 아니야 예약해 놔도 맞으러 안 가면 안 맞는 거야",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너네 가족들 다 백신 접종 완료했어?",
+            "norm_text": "너네 가족들 다 백신 접종 완료했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+가족/NNG+들/XSN+다/MAG+백신/NNG+접종/NNG+완료/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아직 우리 엄마 2차 남았어!",
+            "norm_text": "아직 우리 엄마 2차 남았어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+우리/NP+엄마/NNG+2/SN+차/NNBC+남/VV+았/EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 추석 전에 맞으실 듯",
+            "norm_text": "추석 전에 맞으실 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추석/NNG+전/NNG+에/JKB+맞/VV+으실/EP+ETM+듯/NNB"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오오! 어머니 1차 맞으시고 괜찮으셨나?",
+            "norm_text": "오오! 어머니 1차 맞으시고 괜찮으셨나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+어머니/NNG+1/SN+차/NNBC+맞/VV+으시/EP+고/EC+괜찮/VA+으셨/EP+EP+나/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 우리 엄마는 1차 맞고 팔만 아프다 하셨고 다른 증상은 없었어",
+            "norm_text": "응 우리 엄마는 1차 맞고 팔만 아프다 하셨고 다른 증상은 없었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+우리/NP+엄마/NNG+는/JX+1/SN+차/NNBC+맞/VV+고/EC+팔/NNG+만/JX+아프/VA+다/EC+하/VX+셨/EP+EP+고/EC+다른/MM+증상/NNG+은/JX+없/VA+었/EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 다행이다! 울 아빠랑 오빠야도 다 접종했는데 다들 안 아팠다고 하더라!",
+            "norm_text": "다행이다! 울 아빠랑 오빠야도 다 접종했는데 다들 안 아팠다고 하더라!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다행/NNG+이/VCP+다/EF+울/VV+ETM+아빠/NNG+랑/JKB+오빠/NNG+야/JKV+도/JX+다/MAG+접종/NNG+했/XSV+EP+는데다/EC+들/XSN+안/MAG+아팠/VA+EP+다고/EC+하/VX+더라/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 진짜 아무 이상 없는 게 천만 다행이야 ㅠ",
+            "norm_text": "진짜 아무 이상 없는 게 천만 다행이야 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+아무/MM+이상/NNG+없/VA+는/ETM+게/NNB+JKS+천만다행/NNG+이/VCP+야/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나는 두통이 와서 무서웠어",
+            "norm_text": "나는 두통이 와서 무서웠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+두통/NNG+이/JKS+와서/VV+EC+무서웠/VA+EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아... 맞다! 니도 1차 맞은 거제? ㅜㅜ",
+            "norm_text": "아... 맞다! 니도 1차 맞은 거제? ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+맞/VV+다/EF+니/NP+도/JX+1/SN+차/NNBC+맞/VV+은/ETM+거/NNB+제/VCP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 백신 뭐 맞았어?",
+            "norm_text": "백신 뭐 맞았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+뭐/IC+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 모더나 신청했는데 화이자로 돼서 화이자 접종받았어",
+            "norm_text": "나는 모더나 신청했는데 화이자로 돼서 화이자 접종받았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+모더/NNP+나/JC+신청/NNG+했/XSV+EP+는데/EC+화이자/NNP+로/JKB+돼서/VV+EC+화이자/NNP+접종/NNG+받/VV+았/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 진짜? ㅜㅜ 어머니도 화이자 맞으신 거야?",
+            "norm_text": "아 진짜? ㅜㅜ 어머니도 화이자 맞으신 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+ㅜㅜ/UNKNOWN+어머니/NNG+도/JX+화이자/NNP+맞/VV+으신/EP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 엄마도 모더나 했다가 안 돼서 화이자로 접종했어",
+            "norm_text": "응 엄마도 모더나 했다가 안 돼서 화이자로 접종했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+엄마/NNG+도/JX+모/NP+더나/VV+EC+했/VX+EP+다가/EC+안/MAG+돼서/VV+EC+화이자/NNP+로/JKB+접종/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아... ㅜㅜ 모더나 신청하고 화이자로 바뀌는 경우도 있구나... ㅜㅜ",
+            "norm_text": "아... ㅜㅜ 모더나 신청하고 화이자로 바뀌는 경우도 있구나... ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+ㅜㅜ/UNKNOWN+모더/NNP+나/JC+신청/NNG+하/XSV+고/EC+화이자/NNP+로/JKB+바뀌/VV+는/ETM+경우/NNG+도/JX+있/VA+구나/EF+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 모더나 물량이 안 돼서 화이자로 다들 바뀌더라구",
+            "norm_text": "모더나 물량이 안 돼서 화이자로 다들 바뀌더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "모더/NNP+나/JC+물량/NNG+이/JKS+안/MAG+돼서/VV+EC+화이자/NNP+로/JKB+다/MAG+들/XSN+바뀌/VV+더라구/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아아... ㅜㅜ 난 아직 접종 전인데... 안 맞고 싶어 ㅜㅜ",
+            "norm_text": "아아... ㅜㅜ 난 아직 접종 전인데... 안 맞고 싶어 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+./SY+ㅜㅜ/UNKNOWN+난/NP+JX+아직/MAG+접종/NNG+전/NNG+인데/VCP+EC+./SY+./SY+안/MAG+맞/VV+고/EC+싶/VX+어/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 사실 나도 안 맞고 싶었어 기사 보고 너무 걱정이 돼서",
+            "norm_text": "사실 나도 안 맞고 싶었어 기사 보고 너무 걱정이 돼서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+나/NP+도/JX+안/MAG+맞/VV+고/EC+싶/VX+었/EP+어/EC+기사/NNG+보/VV+고/EC+너무/MAG+걱정/NNG+이/JKS+돼서/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : ㅜㅜ 근데 이미 예약해 놓은 거면 꼭 맞아야 하는 거지? ㅜㅜ",
+            "norm_text": "ㅜㅜ 근데 이미 예약해 놓은 거면 꼭 맞아야 하는 거지? ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+근데/MAJ+이미/MAG+예약/NNG+해/XSV+EC+놓/VX+은/ETM+거/NNB+면/VCP+EC+꼭/MAG+맞/VV+아야/EC+하/VV+는/ETM+거/NNB+지/VCP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아니야 예약해 놔도 맞으러 안 가면 안 맞는 거야",
+            "norm_text": "아니야 예약해 놔도 맞으러 안 가면 안 맞는 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+예약/NNG+해/XSV+EC+놔도/VX+EC+맞/VV+으러/EC+안/MAG+가/VV+면/EC+안/MAG+맞/VV+는/ETM+거/NNB+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 21229,
+    "name": "KAKAO_485_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146071892/KAKAO_485_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145146071892/KAKAO_485_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28419,
+      "filename": "KAKAO_485_09.txt",
+      "title": "KAKAO_485_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 651,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 651,
+        "word_size": 200,
+        "text": "1 : 너 고슴도치 키워 본 적 있어?\n2 : 아니~ 무서워 ㅜ TV에서 장도연이 키우는 거 봤는데 그건 귀엽더라\n1 : 응응 나도 키워본 적은 없는데 장도연이 키우는 거 봤어 키키\n2 : 이름이 츄였나?\n2 : 나는 근데 반려동물은 이름 불렀을 때 달려오는 게 좋아~\n1 : 응응 고츄~ 키키 아 그 맛에 반려동물 키우지...\n1 : 열심히 일하고 온 빈집에서 나를 반겨주는 반려동물 키키\n2 : 그런 동물이 강아지 말고 또 있나?\n1 : 음... 고양이도 성격 좋으면 그러는 애들 있대~!\n2 : 아! 맞아~ 개냥이라고 하더라 하하\n2 : 나는 반려동물을 키워본 적이 없어서 겁나 ㅜ\n1 : 응응 맞아 키키 얼마나 귀여울까 나는 강아지 한 번 밖에 키워본 적 없어...\n2 : 오 한번이라도 키웠다니 부럽다~\n2 : 지금은 같이 안 지내?\n1 : 응 아파서 하늘나라 보낸 이후로는 마음 아파서 못 키우겠어...ㅜ\n2 : 아 ㅜㅜ 맞아 나도 그 생각에 여태 한번도 키워본 적이 없어 ㅜㅜ 속상했겠다 ㅜㅜ\n1 : 응응 ㅜㅜ 진짜 한 일주일은 밥도 안 먹고 울기만 했었어\n2 : 니가? 얼마나 속상했으면...ㅜㅜ\n2 : 다시 키우기도 정말 겁나겠다\n1 : 니가라니... 너무 키우고 싶은데 그때 상처가 너무 커서 이제는 안 키우려고~\n2 : 그래? 그 정도라니...ㅠㅠ\n2 : 정말 키워보고 싶은데...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 고슴도치 키워 본 적 있어?",
+            "norm_text": "너 고슴도치 키워 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+고슴도치/NNG+키워본/VV+EC+VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니~ 무서워 ㅜ TV에서 장도연이 키우는 거 봤는데 그건 귀엽더라",
+            "norm_text": "아니~ 무서워 ㅜ TV에서 장도연이 키우는 거 봤는데 그건 귀엽더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+~/SY+무서워ㅜ/UNKNOWN+TV/SL+에서/JKB+장도연/NNP+이/JKS+키우/VV+는/ETM+거/NNB+봤/VV+EP+는데/EC+그건/NP+JX+귀엽/VA+더라/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응응 나도 키워본 적은 없는데 장도연이 키우는 거 봤어 키키",
+            "norm_text": "응응 나도 키워본 적은 없는데 장도연이 키우는 거 봤어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+나/NP+도/JX+키워본/VV+EC+VX+ETM+적/NNB+은/JX+없/VA+는데/EC+장도연/NNP+이/JKS+키우/VV+는/ETM+거/NNB+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 이름이 츄였나?",
+            "norm_text": "이름이 츄였나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이름/NNG+이/JKS+츄/MAG+였/VCP+EP+나/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나는 근데 반려동물은 이름 불렀을 때 달려오는 게 좋아~",
+            "norm_text": "나는 근데 반려동물은 이름 불렀을 때 달려오는 게 좋아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+근데/MAJ+반려/NNG+동물/NNG+은/JX+이름/NNG+불렀/VV+EP+을/ETM+때/NNG+달려오/VV+는/ETM+게/NNB+JKS+좋/VA+아/EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응응 고츄~ 키키 아 그 맛에 반려동물 키우지...",
+            "norm_text": "응응 고츄~ 키키 아 그 맛에 반려동물 키우지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응고/NNG+츄/MAG+~/SY+키/NNG+키/VV+아/EC+그/MM+맛/NNG+에/JKB+반려/NNG+동물/NNG+키우/VV+지/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 열심히 일하고 온 빈집에서 나를 반겨주는 반려동물 키키",
+            "norm_text": "열심히 일하고 온 빈집에서 나를 반겨주는 반려동물 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "열심히/MAG+일/NNG+하/XSV+고/EC+온/VX+ETM+빈집/NNG+에서/JKB+나/NP+를/JKO+반겨/VV+EC+주/VX+는/ETM+반려/NNG+동물/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그런 동물이 강아지 말고 또 있나?",
+            "norm_text": "그런 동물이 강아지 말고 또 있나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런/MM+동물/NNG+이/JKS+강아지/NNG+말/VV+고/EC+또/MAG+있/VV+나/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 음... 고양이도 성격 좋으면 그러는 애들 있대~!",
+            "norm_text": "음... 고양이도 성격 좋으면 그러는 애들 있대~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+./SY+고양이/NNG+도/JX+성격/NNG+좋/VA+으면/EC+그러/VV+는/ETM+애/NNG+들/XSN+있/VA+대/EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아! 맞아~ 개냥이라고 하더라 하하",
+            "norm_text": "아! 맞아~ 개냥이라고 하더라 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+아/EC+~/SY+개/NNBC+냥/NNBC+이/VCP+라고/EC+하/VV+더라/EC+하하/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 반려동물을 키워본 적이 없어서 겁나 ㅜ",
+            "norm_text": "나는 반려동물을 키워본 적이 없어서 겁나 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+반려/NNG+동물/NNG+을/JKO+키워본/VV+EC+VX+ETM+적/NNB+이/JKS+없/VA+어서/EC+겁나/VV+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응응 맞아 키키 얼마나 귀여울까 나는 강아지 한 번 밖에 키워본 적 없어...",
+            "norm_text": "응응 맞아 키키 얼마나 귀여울까 나는 강아지 한 번 밖에 키워본 적 없어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응응/MAG+맞/VV+아/EC+키/NNG+키/NNG+얼마나/MAG+귀여울/VA+ETM+까/MAJ+나/NP+는/JX+강아지/NNG+한/MM+번/NNBC+밖에/JX+키워본/VV+EC+VX+ETM+적/NNB+없/VA+어/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 오 한번이라도 키웠다니 부럽다~",
+            "norm_text": "오 한번이라도 키웠다니 부럽다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+한/MM+번/NNBC+이라도/JX+키웠/VV+EP+다니/EC+부럽/VA+다/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 지금은 같이 안 지내?",
+            "norm_text": "지금은 같이 안 지내?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+은/JX+같이/MAG+안/MAG+지내/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 아파서 하늘나라 보낸 이후로는 마음 아파서 못 키우겠어...ㅜ",
+            "norm_text": "응 아파서 하늘나라 보낸 이후로는 마음 아파서 못 키우겠어...ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아파서/VA+EC+하늘/NNG+나라/NNG+보낸/VV+ETM+이후/NNG+로/JKB+는/JX+마음/NNG+아파서/VA+EC+못/MAG+키우/VV+겠/EP+어/EF+./SY+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 ㅜㅜ 맞아 나도 그 생각에 여태 한번도 키워본 적이 없어 ㅜㅜ 속상했겠다 ㅜㅜ",
+            "norm_text": "아 ㅜㅜ 맞아 나도 그 생각에 여태 한번도 키워본 적이 없어 ㅜㅜ 속상했겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+맞/VV+아/EC+나/NP+도/JX+그/MM+생각/NNG+에/JKB+여태/MAG+한/MM+번/NNBC+도/JX+키워본/VV+EC+VX+ETM+적/NNB+이/JKS+없/VA+어/EC+ㅜㅜ/UNKNOWN+속상했/VA+EP+겠/EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응응 ㅜㅜ 진짜 한 일주일은 밥도 안 먹고 울기만 했었어",
+            "norm_text": "응응 ㅜㅜ 진짜 한 일주일은 밥도 안 먹고 울기만 했었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+ㅜㅜ/UNKNOWN+진짜/MAG+한/MM+일/NR+주일/NNBC+은/JX+밥/NNG+도/JX+안/MAG+먹/VV+고/EC+울/VV+기/ETN+만/JX+했었/VV+EP+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 니가? 얼마나 속상했으면...ㅜㅜ",
+            "norm_text": "니가? 얼마나 속상했으면...ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/JKS+얼마나/MAG+속상했/VA+EP+으면/EC+./SY+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 다시 키우기도 정말 겁나겠다",
+            "norm_text": "다시 키우기도 정말 겁나겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다시/MAG+키우/VV+기/ETN+도/JX+정말/MAG+겁나/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 니가라니... 너무 키우고 싶은데 그때 상처가 너무 커서 이제는 안 키우려고~",
+            "norm_text": "니가라니... 너무 키우고 싶은데 그때 상처가 너무 커서 이제는 안 키우려고~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/VV+라니/EF+./SY+너무/MAG+키우/VV+고/EC+싶/VX+은데/EC+그때/NNG+상처/NNG+가/JKS+너무/MAG+커서/VV+EC+이제/NNG+는/JX+안/MAG+키우/VV+려고/EC+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래? 그 정도라니...ㅠㅠ",
+            "norm_text": "그래? 그 정도라니...ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "그래/IC+그/MM+정도/NNG+라니/VCP+EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 정말 키워보고 싶은데...",
+            "norm_text": "정말 키워보고 싶은데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+키워/VV+EC+보/VX+고/EC+싶/VX+은데/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

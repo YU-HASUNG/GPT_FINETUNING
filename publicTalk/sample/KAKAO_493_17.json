@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 25221,
+    "name": "KAKAO_493_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144305013921/KAKAO_493_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144305013921/KAKAO_493_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29048,
+      "filename": "KAKAO_493_17.txt",
+      "title": "KAKAO_493_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 499,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 499,
+        "word_size": 165,
+        "text": "1 : 너 요즘 허리는 어때 저번에 삐끗 했잖아\n2 : 요즘엔 좀 괜찮은데 비 오는 날은 좀 쑤셔\n1 : 병원 갈 정도는 아닌 거야?\n1 : 꾸준히 관리해야 하잖아\n2 : 응 맞아 근데 이런 건 골병드는 병이지 수술하는 건 아냐\n1 : 그렇구나 약간 발목 한번 삐면 계속 아픈 그런 느낌인가?\n2 : 응 키키 염증이 생기기도 하더라고 가끔은\n1 : 염증이 생겨? 그럼 어떻게 해야 되는 거야?\n2 : 정형외과 가서 주사 맞거나 아니면 물리치료 해\n1 : 와... 주사도 맞아야 해?\n1 : 그 정도면 많이 아픈 거네\n2 : 그래 너도 건강할 때 잘 지켜 평생 쓰는 몸이잖아\n1 : 맞아 나도 요즘 그런 거 되게 심하게 느끼고 있어\n2 : 나이가 드니까 이제 건강도 챙기게 되지?\n1 : 응 키키 나도 요즘에 체력이 너무 떨어지는 게 느껴져서 속상해\n2 : 나도 그래 운동 열심히 안 하면 진짜 바로 티나더라\n1 : 맞아 그렇다고 운동을 너무 열심히 하면 아파,,,\n2 : 제발 무리 하지마 너는 너무 극단적으로 하잖아 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 요즘 허리는 어때 저번에 삐끗 했잖아",
+            "norm_text": "너 요즘 허리는 어때 저번에 삐끗 했잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+요즘/MAG+허리/NNG+는/JX+어때/VA+EC+저번/NNG+에/JKB+삐끗/MAG+했잖아/VV+EP+EC+VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘엔 좀 괜찮은데 비 오는 날은 좀 쑤셔",
+            "norm_text": "요즘엔 좀 괜찮은데 비 오는 날은 좀 쑤셔",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+엔/JKB+JX+좀/MAG+괜찮/VA+은/ETM+데/NNB+비오/VV+는/ETM+날/NNG+은/JX+좀/MAG+쑤셔/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 병원 갈 정도는 아닌 거야?",
+            "norm_text": "병원 갈 정도는 아닌 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "병원/NNG+갈/VV+ETM+정도/NNG+는/JX+아닌/VCN+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 꾸준히 관리해야 하잖아",
+            "norm_text": "꾸준히 관리해야 하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "꾸준히/MAG+관리/NNG+해야/XSV+EC+하/VV+잖아/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 맞아 근데 이런 건 골병드는 병이지 수술하는 건 아냐",
+            "norm_text": "응 맞아 근데 이런 건 골병드는 병이지 수술하는 건 아냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+맞아/IC+근데/MAJ+이런/MM+건골/NNG+병드/VV+는/ETM+병/NNG+이/VCP+지/EC+수술/NNG+하/XSV+는/ETM+건/NNB+JX+아냐/VCN+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그렇구나 약간 발목 한번 삐면 계속 아픈 그런 느낌인가?",
+            "norm_text": "그렇구나 약간 발목 한번 삐면 계속 아픈 그런 느낌인가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+구나/EF+약간/MAG+발목/NNG+한/MM+번/NNBC+삐/VV+면/EC+계속/MAG+아픈/VA+ETM+그런/MM+느낌/NNG+인가/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 키키 염증이 생기기도 하더라고 가끔은",
+            "norm_text": "응 키키 염증이 생기기도 하더라고 가끔은",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+염증/NNG+이/JKS+생기/VV+기/ETN+도/JX+하/VV+더라고/EF+가끔/MAG+은/JX"
+          },
+          {
+            "id": 8,
+            "text": "1 : 염증이 생겨? 그럼 어떻게 해야 되는 거야?",
+            "norm_text": "염증이 생겨? 그럼 어떻게 해야 되는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "염증/NNG+이/JKS+생겨/VV+EF+그럼/MAJ+어떻게/MAG+해야/VV+EC+되/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 정형외과 가서 주사 맞거나 아니면 물리치료 해",
+            "norm_text": "정형외과 가서 주사 맞거나 아니면 물리치료 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정형외과/NNG+가/VV+서/EC+주사/NNG+맞/VV+거나/EC+아니/VCN+면/EC+물리/NNG+치료/NNG+해/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 와... 주사도 맞아야 해?",
+            "norm_text": "와... 주사도 맞아야 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+주사/NNG+도/JX+맞/VV+아야/EC+해/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그 정도면 많이 아픈 거네",
+            "norm_text": "그 정도면 많이 아픈 거네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+정도/NNG+면/VCP+EC+많이/MAG+아픈/VA+ETM+거/NNB+네/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래 너도 건강할 때 잘 지켜 평생 쓰는 몸이잖아",
+            "norm_text": "그래 너도 건강할 때 잘 지켜 평생 쓰는 몸이잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+너/NP+도/JX+건강/NNG+할/XSV+ETM+때/NNG+잘/MAG+지켜/VV+EC+평생/NNG+쓰/VV+는/ETM+몸/NNG+이/VCP+잖아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 나도 요즘 그런 거 되게 심하게 느끼고 있어",
+            "norm_text": "맞아 나도 요즘 그런 거 되게 심하게 느끼고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+나/NP+도/JX+요즘/MAG+그런/MM+거/NNB+되게/MAG+심하/VA+게/EC+느끼/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나이가 드니까 이제 건강도 챙기게 되지?",
+            "norm_text": "나이가 드니까 이제 건강도 챙기게 되지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나이/NNG+가/JKS+드/VV+니까/EC+이제/MAG+건강/NNG+도/JX+챙기/VV+게/EC+되/VV+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 키키 나도 요즘에 체력이 너무 떨어지는 게 느껴져서 속상해",
+            "norm_text": "응 키키 나도 요즘에 체력이 너무 떨어지는 게 느껴져서 속상해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키나/XSA+ETN+JX+도/JX+요즘/NNG+에/JKB+체력/NNG+이/JKS+너무/MAG+떨어지/VV+는/ETM+게/NNB+JKS+느껴져서/VV+EC+VX+EC+속상해/VA+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나도 그래 운동 열심히 안 하면 진짜 바로 티나더라",
+            "norm_text": "나도 그래 운동 열심히 안 하면 진짜 바로 티나더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+그래/VA+EC+운동/NNG+열심히/MAG+안/MAG+하/VV+면/EC+진짜/MAG+바로/MAG+티나/VV+더라/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 맞아 그렇다고 운동을 너무 열심히 하면 아파,,,",
+            "norm_text": "맞아 그렇다고 운동을 너무 열심히 하면 아파,,,",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그렇/VA+다고/EC+운동/NNG+을/JKO+너무/MAG+열심히/MAG+하/VV+면/EC+아파/VA+EC+,/SC+,/SY+,/SC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 제발 무리 하지마 너는 너무 극단적으로 하잖아 키키",
+            "norm_text": "제발 무리 하지마 너는 너무 극단적으로 하잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제발/MAG+무리/NNG+하/XSV+지/EC+마/VX+EF+너/NP+는/JX+너무/MAG+극단/NNG+적/XSN+으로/JKB+하/VV+잖아/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

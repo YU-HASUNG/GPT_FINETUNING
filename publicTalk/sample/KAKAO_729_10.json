@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 34713,
+    "name": "KAKAO_729_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135131013983/KAKAO_729_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135131013983/KAKAO_729_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37098,
+      "filename": "KAKAO_729_10.txt",
+      "title": "KAKAO_729_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 440,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 440,
+        "word_size": 152,
+        "text": "1 : 얼른 헬스장 가고 싶다 운동하고 싶어\n2 : 헬스장? 가면 되잖아 언제 가게\n1 : 아니 헬스장 가고 싶은데 회사에서 눈치 주잖아\n2 : 왜? 너네 회사가 뭔데 헬스 하는 거 눈치 주는겨\n1 : 아니 올 초에 코로나 확진자랑 동선 2번이나 겹쳤는데\n2 : 응 그런데 동선 겹친 게 어때서\n1 : 그거 때문에 엄청 예민해 하더니 만날 때 마나 헬스장 안 가지? 이래...\n2 : 와 너네 회사 진짜 이상하다\n1 : 응 마자 그래서 그만 둘 거잖아\n2 : 그래그래 좋은 생각이다 그래서 헬스장은 언제부터 가게?\n1 : 다음 달부터 가게.\n1 : 그냥 갈 거야 난 몰라 이제\n2 : 키키 아예 맘 떴구나.\n2 : 그래 그래 너 건강이 우선이지\n1 : 그니까 나 살도 엄청 쪘어 헬스 안 해 가지고\n2 : 근데 걱정 마 티 안나 여전히 예뻐\n1 : 키키 고맙다 내 친구 밖에 없네\n2 : 잘해 나한테 키키 알았냥 친구",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 얼른 헬스장 가고 싶다 운동하고 싶어",
+            "norm_text": "얼른 헬스장 가고 싶다 운동하고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼른/MAG+헬스/NNG+장가/NNG+고/VCP+EC+싶/VX+다/EC+운동/NNG+하/XSV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 헬스장? 가면 되잖아 언제 가게",
+            "norm_text": "헬스장? 가면 되잖아 언제 가게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헬스/NNG+장/NNG+가/VV+면/EC+되/VV+잖아/EF+언제/MAG+가/VV+게/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 헬스장 가고 싶은데 회사에서 눈치 주잖아",
+            "norm_text": "아니 헬스장 가고 싶은데 회사에서 눈치 주잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+헬스/NNG+장가/NNG+고/VCP+EC+싶/VX+은데/EC+회사/NNG+에서/JKB+눈/NNG+치/XSA+EC+주/VX+잖아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 왜? 너네 회사가 뭔데 헬스 하는 거 눈치 주는겨",
+            "norm_text": "왜? 너네 회사가 뭔데 헬스 하는 거 눈치 주는겨",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+너/NP+네/XSN+회사/NNG+가/JKS+뭔데/NP+VCP+EC+헬스/NNG+하/XSV+는/ETM+거/NNB+눈/NNG+치/XSA+EC+주/VX+는겨/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 올 초에 코로나 확진자랑 동선 2번이나 겹쳤는데",
+            "norm_text": "아니 올 초에 코로나 확진자랑 동선 2번이나 겹쳤는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/MAG+올/VV+ETM+초/NNB+에/JKB+코로나/NNG+확진/NNG+자랑/NNG+동선/NNG+2/SN+번/NNBC+이나/JX+겹쳤/VV+EP+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 그런데 동선 겹친 게 어때서",
+            "norm_text": "응 그런데 동선 겹친 게 어때서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+그런데/MAJ+동선/NNG+겹친/VV+ETM+게/NNB+JKS+어때서/VA+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그거 때문에 엄청 예민해 하더니 만날 때 마나 헬스장 안 가지? 이래...",
+            "norm_text": "그거 때문에 엄청 예민해 하더니 만날 때 마나 헬스장 안 가지? 이래...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+때문/NNB+에/JKB+엄청/MAG+예/IC+민해/NNG+하/XSV+더니/EC+만날/VV+ETM+때/NNG+마나/NNG+헬스/NNG+장/NNG+안/MAG+가/VV+지/EF+이래/VV+EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 와 너네 회사 진짜 이상하다",
+            "norm_text": "와 너네 회사 진짜 이상하다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+너/NP+네/XSN+회사/NNG+진짜/MAG+이상/NNG+하/XSV+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 마자 그래서 그만 둘 거잖아",
+            "norm_text": "응 마자 그래서 그만 둘 거잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+마자/NNG+그래서/MAJ+그만/MAG+둘/VV+ETM+거/NNB+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래그래 좋은 생각이다 그래서 헬스장은 언제부터 가게?",
+            "norm_text": "그래그래 좋은 생각이다 그래서 헬스장은 언제부터 가게?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래그래/IC+좋/VA+은/ETM+생각/NNG+이/VCP+다/EF+그래서/MAJ+헬스/NNG+장/NNG+은/JX+언제/NP+부터/JX+가/VV+게/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 다음 달부터 가게.",
+            "norm_text": "다음 달부터 가게.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+달/NNG+부터/JX+가/VV+게/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그냥 갈 거야 난 몰라 이제",
+            "norm_text": "그냥 갈 거야 난 몰라 이제",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+갈/VV+ETM+거/NNB+야/VCP+EF+난/NP+JX+몰라/VV+EF+이제/MAG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 아예 맘 떴구나.",
+            "norm_text": "키키 아예 맘 떴구나.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아예/MAG+맘/NNG+떴/VV+EP+구나/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래 그래 너 건강이 우선이지",
+            "norm_text": "그래 그래 너 건강이 우선이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래그래/IC+너/NP+건강/NNG+이/JKS+우선/MAG+이/VCP+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그니까 나 살도 엄청 쪘어 헬스 안 해 가지고",
+            "norm_text": "그니까 나 살도 엄청 쪘어 헬스 안 해 가지고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니까/MAJ+나살/NNG+도/JX+엄청/MAG+쪘/VV+EP+어/EC+헬스/NNG+안/MAG+해/VV+EC+가지/VX+고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 걱정 마 티 안나 여전히 예뻐",
+            "norm_text": "근데 걱정 마 티 안나 여전히 예뻐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+걱정/NNG+마티/NNP+안나/NNP+여전히/MAG+예뻐/VA+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 고맙다 내 친구 밖에 없네",
+            "norm_text": "키키 고맙다 내 친구 밖에 없네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "키/NNG+키/XSV+ETN+고맙/VA+다/EF+내/NP+JKG+친구/NNG+밖에/JX+없/VA+네/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 잘해 나한테 키키 알았냥 친구",
+            "norm_text": "잘해 나한테 키키 알았냥 친구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+해/VV+EC+나/NP+한테/JKB+키/NNG+키/XSV+ETN+알/VV+았/EP+냥/NNBC+친구/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

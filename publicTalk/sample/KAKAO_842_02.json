@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "identifier": 35082,
+    "name": "KAKAO_842_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202110011741540087105/KAKAO_842_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202110011741540087105/KAKAO_842_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40040,
+      "filename": "KAKAO_842_02.txt",
+      "title": "KAKAO_842_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 724,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 724,
+        "word_size": 250,
+        "text": "1 : 추석인데 집에 언제 가유 ㅇㅅㅇ\n2 : 나 내일 가려구 친구들도 내일 온다고 해서\n1 : 아항 집에 가면 집에 안 있고 친구들 만나? 키키\n2 : 응 집에 잘 안 박혀있어 키키\n2 : 밥 먹자고 하면 그때 가서 밥 같이 먹구 키키\n1 : 아 맞다 가만히 못 있지... 키키\n1 : 너에겐 집이란 그저 자는 곳인 거냐 키키\n2 : 맞아 키키 본가 가면 잠을 더 잘 못 자서 보통 오래 있지도 않아 키키\n1 : 아 그래? 낯설어서 그런가 왜 그러지 ㅠ0ㅠ\n1 : 그럼 추석 다 안 보내고 올 거야? 키키\n2 : 추석 당일에 올 것 같아 지금 계획으로는 키키\n2 : 아니면 그 전날?\n2 : 누나는 집에 안 가?\n1 : 오호 그래도 좀 푹 있다 오네 키키\n1 : 나는 음 19일에 점심만 먹고 올 거야...\n2 : 누나는 집 어딘데?\n2 : 대전이야?\n1 : 웅 대전이야 버스 타고 20분이면 가... 키키\n1 : 씽씽이 타고 간 적도 있어 키키\n2 : 아 키키 뭐야 엄청 가깝네 키키\n2 : 왤케 짧게 갔다 와\n1 : 나 원래 집에 잘 안 붙어있어 불편해...\n1 : 집 불편해서 스무살 때 출가했는데 뭐 키키\n2 : 키키 나랑 똑같네 나도 집 불편해서 20살 때부터 출가한 건데... 키키\n1 : 어 뭐지 너 진짜 뭐 평행이론 그런 거야...? 키키\n1 : 그리고 일단 집에 오래있으면 담배를 잘 못 핀다 강제금연...\n2 : 키키 맞아 키키 담배를 잘 못 펴 집에 있으면...\n2 : 낮에는 왔다 갔다 피는데 밤에는 나갔다 오기 그래서",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 추석인데 집에 언제 가유 ㅇㅅㅇ",
+            "norm_text": "추석인데 집에 언제 가유 ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "추석/NNG+인데/VCP+EC+집/NNG+에/JKB+언제/NP+가/JKS+유ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 내일 가려구 친구들도 내일 온다고 해서",
+            "norm_text": "나 내일 가려구 친구들도 내일 온다고 해서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+내일/MAG+가/VV+려구/EC+친구/NNG+들/XSN+도/JX+내일/MAG+온다고/VV+EC+해서/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아항 집에 가면 집에 안 있고 친구들 만나? 키키",
+            "norm_text": "아항 집에 가면 집에 안 있고 친구들 만나? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아항/IC+집/NNG+에/JKB+가/VV+면/EC+집/NNG+에/JKB+안/MAG+있/VV+고/EC+친구/NNG+들/XSN+만나/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 집에 잘 안 박혀있어 키키",
+            "norm_text": "응 집에 잘 안 박혀있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응집/NNG+에/JKB+잘/MAG+안/MAG+박혀/VV+EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 밥 먹자고 하면 그때 가서 밥 같이 먹구 키키",
+            "norm_text": "밥 먹자고 하면 그때 가서 밥 같이 먹구 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밥/NNG+먹/VV+자고/EC+하/VV+면/EC+그때/NNG+가/VV+서/EC+밥/NNG+같이/JKB+먹/VV+구/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 맞다 가만히 못 있지... 키키",
+            "norm_text": "아 맞다 가만히 못 있지... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+다/EC+가만히/MAG+못/MAG+있/VV+지/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 너에겐 집이란 그저 자는 곳인 거냐 키키",
+            "norm_text": "너에겐 집이란 그저 자는 곳인 거냐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+에겐/JKB+JX+집/NNG+이란/JX+그/MM+저자/NNG+는/JX+곳/NNG+인/VCP+ETM+거/NNB+냐/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아 키키 본가 가면 잠을 더 잘 못 자서 보통 오래 있지도 않아 키키",
+            "norm_text": "맞아 키키 본가 가면 잠을 더 잘 못 자서 보통 오래 있지도 않아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+본가/NNG+가/JKS+면잠/NNG+을/JKO+더/MAG+잘못/MAG+자서/NNG+보통/NNG+오래/MAG+있/VV+지/EC+도/JX+않/VX+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그래? 낯설어서 그런가 왜 그러지 ㅠ0ㅠ",
+            "norm_text": "아 그래? 낯설어서 그런가 왜 그러지 ㅠ0ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+낯설/VA+어서/EC+그런가/VA+EC+왜/MAG+그러/VV+지/EC+ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그럼 추석 다 안 보내고 올 거야? 키키",
+            "norm_text": "그럼 추석 다 안 보내고 올 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+추석/NNG+다/MAG+안/MAG+보내/VV+고/EC+올/VV+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 추석 당일에 올 것 같아 지금 계획으로는 키키",
+            "norm_text": "추석 당일에 올 것 같아 지금 계획으로는 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추석/NNG+당일/NNG+에/JKB+올/VV+ETM+것/NNB+같/VA+아/EC+지금/MAG+계획/NNG+으로/JKB+는/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아니면 그 전날?",
+            "norm_text": "아니면 그 전날?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니면/MAJ+그/MM+전날/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 누나는 집에 안 가?",
+            "norm_text": "누나는 집에 안 가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누나/NNG+는/JX+집/NNG+에/JKB+안/MAG+가/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오호 그래도 좀 푹 있다 오네 키키",
+            "norm_text": "오호 그래도 좀 푹 있다 오네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+그래도/MAJ+좀/MAG+푹/MAG+있/VV+다오/EC+네/MM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나는 음 19일에 점심만 먹고 올 거야...",
+            "norm_text": "나는 음 19일에 점심만 먹고 올 거야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+음/IC+19/SN+일/NNBC+에/JKB+점심/NNG+만/JX+먹/VV+고/EC+올/VV+ETM+거/NNB+야/VCP+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 누나는 집 어딘데?",
+            "norm_text": "누나는 집 어딘데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누나/NNG+는/JX+집/NNG+어딘데/NP+VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 대전이야?",
+            "norm_text": "대전이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대전/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 웅 대전이야 버스 타고 20분이면 가... 키키",
+            "norm_text": "웅 대전이야 버스 타고 20분이면 가... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+대전/NNG+이/VCP+야/EC+버스/NNG+타/VV+고/EC+20/SN+분/NNBC+이/VCP+면/EC+가/JKS+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 씽씽이 타고 간 적도 있어 키키",
+            "norm_text": "씽씽이 타고 간 적도 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "씽씽이/NNG+타/VV+고/EC+간적/NNG+도/JX+있/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아 키키 뭐야 엄청 가깝네 키키",
+            "norm_text": "아 키키 뭐야 엄청 가깝네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+뭐/NP+야/JX+엄청/MAG+가깝/VA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 왤케 짧게 갔다 와",
+            "norm_text": "왤케 짧게 갔다 와",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왤케/UNKNOWN+짧/VA+게/EC+갔다와/VV+EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 나 원래 집에 잘 안 붙어있어 불편해...",
+            "norm_text": "나 원래 집에 잘 안 붙어있어 불편해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+원래/MAG+집/NNG+에/JKB+잘/MAG+안/MAG+붙/VV+어/EC+있/VX+어/EC+불편/NNG+해/XSV+EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 집 불편해서 스무살 때 출가했는데 뭐 키키",
+            "norm_text": "집 불편해서 스무살 때 출가했는데 뭐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+불편/NNG+해서/XSV+EC+스무/MM+살/NNBC+때/NNG+출가/NNG+했/XSV+EP+는데/EC+뭐/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 키키 나랑 똑같네 나도 집 불편해서 20살 때부터 출가한 건데... 키키",
+            "norm_text": "키키 나랑 똑같네 나도 집 불편해서 20살 때부터 출가한 건데... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+랑/JKB+똑같/VA+네/EF+나/NP+도/JX+집/NNG+불편/NNG+해서/XSV+EC+20/SN+살/NNBC+때/NNG+부터/JX+출가/NNG+한/XSA+ETM+건데/NNB+VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 어 뭐지 너 진짜 뭐 평행이론 그런 거야...? 키키",
+            "norm_text": "어 뭐지 너 진짜 뭐 평행이론 그런 거야...? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+뭐/IC+지너/NNP+진짜/MAG+뭐/IC+평행/NNG+이론/NNG+그런/MM+거/NNB+야/VCP+EF+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 그리고 일단 집에 오래있으면 담배를 잘 못 핀다 강제금연...",
+            "norm_text": "그리고 일단 집에 오래있으면 담배를 잘 못 핀다 강제금연...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+일단/MAG+집/NNG+에/JKB+오래/MAG+있/VV+으면/EC+담배/NNG+를/JKO+잘못/MAG+핀다/VV+EC+강제/NNG+금연/NNG+./SY+./SY"
+          },
+          {
+            "id": 27,
+            "text": "2 : 키키 맞아 키키 담배를 잘 못 펴 집에 있으면...",
+            "norm_text": "키키 맞아 키키 담배를 잘 못 펴 집에 있으면...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+키/NNG+키/NNG+담배/NNG+를/JKO+잘못/MAG+펴/VV+EC+집/NNG+에/JKB+있/VV+으면/EC+./SY+./SY"
+          },
+          {
+            "id": 28,
+            "text": "2 : 낮에는 왔다 갔다 피는데 밤에는 나갔다 오기 그래서",
+            "norm_text": "낮에는 왔다 갔다 피는데 밤에는 나갔다 오기 그래서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "낮/NNG+에/JKB+는/JX+왔다갔다/MAG+피/VV+는데/EC+밤/NNG+에/JKB+는/JX+나갔/VV+EP+다/EC+오/VV+기/ETN+그래서/MAJ"
+          }
+        ]
+      }
+    }
+  ]
+}

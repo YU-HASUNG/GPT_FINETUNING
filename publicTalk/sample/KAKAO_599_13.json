@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 22168,
+    "name": "KAKAO_599_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109231133180471109/KAKAO_599_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109231133180471109/KAKAO_599_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30388,
+      "filename": "KAKAO_599_13.txt",
+      "title": "KAKAO_599_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 505,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 505,
+        "word_size": 171,
+        "text": "1 : 너는 여름에 태어났지 않아?\n2 : 맞아 난 여름에 태어났어\n2 : 너는 봄인가?\n1 : 여름에 태어났는데 여름을 싫어하다니...\n1 : 나는 봄 맞아 키키\n2 : 여름을 싫어하긴 하는데 확실한 건 난 여름을 안타\n2 : 잘 안 더워해\n1 : 오 그것도 의외네 키키\n1 : 난 겨울 추위 엄청 타는데\n2 : 너는 좀 이른 봄이라 약간 추울 때 태어난 거 아닌가?\n1 : 약간?\n1 : 겨울에는 아침에 눈뜨는 것부터가 지옥이야\n2 : 이게 계절이랑 상관없이 나이 들 수록 그냥 힘든 것 같아...\n1 : 키키 나는 겨울 빼곤 머 키키\n1 : 추운 게 싫어 걍\n2 : 추운 건 사람을 지긋지긋하게 해\n2 : 짜치게 만든달까\n1 : 부산 사람들 눈 좋아하는데 난 눈도 싫어\n2 : 군대 다녀오면 눈은 하늘에서 내리는 쓰레기야\n1 : 눈 내리면 더 춥기만 해 키키\n1 : 화이트크리스마스 꺼졍\n2 : 그러고 보니 화이트 크리스마스 한 번도 못 겪어봤어 키키\n1 : 정말? 부산에 한 번씩 있었는데 키키\n2 : 그땐 아마 내가 부산에 없었을 거야",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 여름에 태어났지 않아?",
+            "norm_text": "너는 여름에 태어났지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+여름/NNG+에/JKB+태어났/VV+EP+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 난 여름에 태어났어",
+            "norm_text": "맞아 난 여름에 태어났어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+난/VX+ETM+여름/NNG+에/JKB+태어났/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 너는 봄인가?",
+            "norm_text": "너는 봄인가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+봄/NNG+인가/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 여름에 태어났는데 여름을 싫어하다니...",
+            "norm_text": "여름에 태어났는데 여름을 싫어하다니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+에/JKB+태어났/VV+EP+는데/EC+여름/NNG+을/JKO+싫/VA+어/EC+하/VX+다니/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나는 봄 맞아 키키",
+            "norm_text": "나는 봄 맞아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+봄/NNG+맞/VV+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 여름을 싫어하긴 하는데 확실한 건 난 여름을 안타",
+            "norm_text": "여름을 싫어하긴 하는데 확실한 건 난 여름을 안타",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+을/JKO+싫어하/VV+긴/ETN+JX+하/VX+는데/EC+확실/XR+한/XSA+ETM+건/NNB+JX+난/NP+JX+여름/NNG+을/JKO+안타/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 잘 안 더워해",
+            "norm_text": "잘 안 더워해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+안/MAG+더워/VA+EC+해/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오 그것도 의외네 키키",
+            "norm_text": "오 그것도 의외네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그것/NP+도/JX+의외/NNG+네/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 난 겨울 추위 엄청 타는데",
+            "norm_text": "난 겨울 추위 엄청 타는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+겨울/NNG+추위/NNG+엄청/MAG+타/VV+는데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 너는 좀 이른 봄이라 약간 추울 때 태어난 거 아닌가?",
+            "norm_text": "너는 좀 이른 봄이라 약간 추울 때 태어난 거 아닌가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+는/JX+좀/MAG+이른/VA+ETM+봄/NNG+이/VCP+라/EC+약간/MAG+추울/VA+ETM+때/NNG+태어난/VV+ETM+거/NNB+아닌가/VCN+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 약간?",
+            "norm_text": "약간?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "약간/MAG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 겨울에는 아침에 눈뜨는 것부터가 지옥이야",
+            "norm_text": "겨울에는 아침에 눈뜨는 것부터가 지옥이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "겨울/NNG+에/JKB+는/JX+아침/NNG+에/JKB+눈뜨/VV+는/ETM+것/NNB+부터/JX+가/JKS+지옥/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 이게 계절이랑 상관없이 나이 들 수록 그냥 힘든 것 같아...",
+            "norm_text": "이게 계절이랑 상관없이 나이 들 수록 그냥 힘든 것 같아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이게/NP+JKS+계절/NNG+이랑/JKB+상관없이/MAG+나이/NNG+들/XSN+수록/NNG+그냥/MAG+힘든/VA+ETM+것/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 나는 겨울 빼곤 머 키키",
+            "norm_text": "키키 나는 겨울 빼곤 머 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+겨울/NNG+빼/VV+곤/EC+머/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 추운 게 싫어 걍",
+            "norm_text": "추운 게 싫어 걍",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "추운/VA+ETM+게/NNB+JKS+싫/VA+어/EC+걍/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 추운 건 사람을 지긋지긋하게 해",
+            "norm_text": "추운 건 사람을 지긋지긋하게 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "추운/VA+ETM+건/NNB+JX+사람/NNG+을/JKO+지긋지긋하/VA+게/EC+해/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 짜치게 만든달까",
+            "norm_text": "짜치게 만든달까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짜치/VV+게/EC+만든/VV+달까/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 부산 사람들 눈 좋아하는데 난 눈도 싫어",
+            "norm_text": "부산 사람들 눈 좋아하는데 난 눈도 싫어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부산/NNP+사람/NNG+들/XSN+눈/NNG+좋/VA+아/EC+하/VV+는데/EC+난/VX+ETM+눈/NNG+도/JX+싫/VA+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 군대 다녀오면 눈은 하늘에서 내리는 쓰레기야",
+            "norm_text": "군대 다녀오면 눈은 하늘에서 내리는 쓰레기야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+다녀오/VV+면/EC+눈/NNG+은/JX+하늘/NNG+에서/JKB+내리/VV+는/ETM+쓰레기/NNG+야/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 눈 내리면 더 춥기만 해 키키",
+            "norm_text": "눈 내리면 더 춥기만 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "눈/NNG+내리/VV+면/EC+더/MAG+춥/VA+기/ETN+만/JX+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 화이트크리스마스 꺼졍",
+            "norm_text": "화이트크리스마스 꺼졍",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "화이트/NNP+크리스마스/NNP+꺼/VV+EC+졍/NNG"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그러고 보니 화이트 크리스마스 한 번도 못 겪어봤어 키키",
+            "norm_text": "그러고 보니 화이트 크리스마스 한 번도 못 겪어봤어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+고/EC+보/VX+니/EC+화이트/NNP+크리스마스/NNP+한/MM+번/NNBC+도/JX+못/MAG+겪/VV+어/EC+봤/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 정말? 부산에 한 번씩 있었는데 키키",
+            "norm_text": "정말? 부산에 한 번씩 있었는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정말/MAG+부산/NNP+에/JKB+한/MM+번/NNBC+씩/XSN+있/VA+었/EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그땐 아마 내가 부산에 없었을 거야",
+            "norm_text": "그땐 아마 내가 부산에 없었을 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+땐/NNG+JX+아마/MAG+내/NP+가/JKS+부산/NNP+에/JKB+없/VA+었/EP+을/ETM+거/NNB+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

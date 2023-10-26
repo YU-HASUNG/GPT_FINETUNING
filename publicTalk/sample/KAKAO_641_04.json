@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 33450,
+    "name": "KAKAO_641_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140625050759/KAKAO_641_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140625050759/KAKAO_641_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34102,
+      "filename": "KAKAO_641_04.txt",
+      "title": "KAKAO_641_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 571,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 571,
+        "word_size": 173,
+        "text": "1 : 너는 지금 어떤 회사에서 일하고 있어?\n2 : 나 핸드폰 개통 센터에서 일하고 있어~\n1 : 핸드폰 개통? 일하면서 힘든 점 없어?\n2 : 많지~ 아무래도 개인정보를 다루다 보니까 입력하는 것도 조심해야 되고 옵션이라고 해야 되나 그런 것도 잘못 가입하면 큰일나지...\n1 : 아 그럼 그런 거 잘못 가입하면 너가 돈 물어야 되?\n2 : 응 내가 물어야 될 때도 있고 회사에서 반정도 물어줄 때도 있고...\n1 : 와 실수가 있으면 안되겠다\n2 : 저번에는 핸드폰 기종을 잘못 입력해서 기계가 붕 뜬 적이 있었지...\n1 : 헉 그럼 그 기계는 어떡해?\n2 : 내가 직접 팔거나 대리점에 부탁하거나...\n1 : 너가 직접? 정확도가 필요하겠네 잘못 입력하는 게 한 두개가 아니면 큰일 나겠는데?!\n2 : 응 그래서 맨날 야근하고 있어...\n2 : 하루에 30~40건을 개통하니까 업무 끝나고 검수를 꼭 해야 되거든\n1 : 검수하고 잘못 가입한 거 있으면 고칠 수 있어?\n2 : 응 그날 한거는 다시 연락해서 고칠수 있어!\n1 : 아 그럼 무조건 검수 해야 되네 개통 너무 많이 해도 힘들겠다\n2 : 무조건이지 검수할 때도 진짜 꼼꼼히 봐야 돼",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 지금 어떤 회사에서 일하고 있어?",
+            "norm_text": "너는 지금 어떤 회사에서 일하고 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+지금/MAG+어떤/MM+회사/NNG+에서/JKB+일/NNG+하/XSV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 핸드폰 개통 센터에서 일하고 있어~",
+            "norm_text": "나 핸드폰 개통 센터에서 일하고 있어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+핸드폰/NNG+개통/NNG+센터/NNG+에서/JKB+일/NNG+하/XSV+고/EC+있/VX+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 핸드폰 개통? 일하면서 힘든 점 없어?",
+            "norm_text": "핸드폰 개통? 일하면서 힘든 점 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "핸드폰/NNG+개통/NNG+?/SY+일/NNG+하/XSV+면서/EC+힘든/VA+ETM+점/NNB+없/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 많지~ 아무래도 개인정보를 다루다 보니까 입력하는 것도 조심해야 되고 옵션이라고 해야 되나 그런 것도 잘못 가입하면 큰일나지...",
+            "norm_text": "많지~ 아무래도 개인정보를 다루다 보니까 입력하는 것도 조심해야 되고 옵션이라고 해야 되나 그런 것도 잘못 가입하면 큰일나지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "많/VA+지/EC+~/SY+아무래도/MAG+개인/NNG+정보/NNG+를/JKO+다루/VV+다/EC+보/VX+니까/EC+입력/NNG+하/XSV+는/ETM+것/NNB+도/JX+조심/NNG+해야/XSV+EC+되/VV+고/EC+옵션/NNG+이/VCP+라고/EC+해야/VV+EC+되/VV+나/EC+그런/MM+것/NNB+도/JX+잘못/MAG+가입/NNG+하/XSV+면/EC+큰일나/VV+지/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그럼 그런 거 잘못 가입하면 너가 돈 물어야 되?",
+            "norm_text": "아 그럼 그런 거 잘못 가입하면 너가 돈 물어야 되?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그럼/MAJ+그런/MM+거/NNB+잘못/MAG+가입/NNG+하/XSV+면/EC+너/NP+가/JKS+돈/NNG+물어야/VV+EC+VX+되/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 내가 물어야 될 때도 있고 회사에서 반정도 물어줄 때도 있고...",
+            "norm_text": "응 내가 물어야 될 때도 있고 회사에서 반정도 물어줄 때도 있고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+내/NP+가/JKS+물어야/VV+EC+될/VV+ETM+때/NNG+도/JX+있/VA+고/EC+회사/NNG+에서/JKB+반/NNG+정도/NNG+물/VV+어/EC+줄/VX+ETM+때/NNG+도/JX+있/VA+고/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 와 실수가 있으면 안되겠다",
+            "norm_text": "와 실수가 있으면 안되겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+실수/NNG+가/JKS+있/VA+으면/EC+안/MAG+되/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 저번에는 핸드폰 기종을 잘못 입력해서 기계가 붕 뜬 적이 있었지...",
+            "norm_text": "저번에는 핸드폰 기종을 잘못 입력해서 기계가 붕 뜬 적이 있었지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저번/NNG+에/JKB+는/JX+핸드폰/NNG+기종/NNG+을/JKO+잘못/MAG+입력/NNG+해서/XSV+EC+기계/NNG+가/JKS+붕/MAG+뜬/VV+ETM+적/NNB+이/JKS+있/VA+었/EP+지/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 헉 그럼 그 기계는 어떡해?",
+            "norm_text": "헉 그럼 그 기계는 어떡해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+그럼/MAJ+그/MM+기계/NNG+는/JX+어떡/XR+해/XSA+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 내가 직접 팔거나 대리점에 부탁하거나...",
+            "norm_text": "내가 직접 팔거나 대리점에 부탁하거나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+직접/MAG+팔/VV+거나/EC+대리점/NNG+에/JKB+부탁/NNG+하/XSV+거나/EC+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너가 직접? 정확도가 필요하겠네 잘못 입력하는 게 한 두개가 아니면 큰일 나겠는데?!",
+            "norm_text": "너가 직접? 정확도가 필요하겠네 잘못 입력하는 게 한 두개가 아니면 큰일 나겠는데?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+가/JKS+직접/MAG+정확도/NNG+가/JKS+필요/NNG+하/XSV+겠/EP+네/EF+잘못/MAG+입력/NNG+하/XSV+는/ETM+게/NNB+JKS+한두/MM+개/NNBC+가/JKC+아니/VCN+면/EC+큰일나/VV+겠/EP+는데/EC+?/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 그래서 맨날 야근하고 있어...",
+            "norm_text": "응 그래서 맨날 야근하고 있어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래서/MAJ+맨날/MAG+야근/NNG+하/XSV+고/EC+있/VX+어/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 하루에 30~40건을 개통하니까 업무 끝나고 검수를 꼭 해야 되거든",
+            "norm_text": "하루에 30~40건을 개통하니까 업무 끝나고 검수를 꼭 해야 되거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하루/NNG+에/JKB+30/SN+~/SY+40/SN+건/NNBC+을/JKO+개통/NNG+하/XSV+니까/EC+업무/NNG+끝/NNG+나/VV+고/EC+검수/NNG+를/JKO+꼭/MAG+해야/VV+EC+되/VV+거든/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 검수하고 잘못 가입한 거 있으면 고칠 수 있어?",
+            "norm_text": "검수하고 잘못 가입한 거 있으면 고칠 수 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "검수/NNG+하/XSV+고/EC+잘못/MAG+가입/NNG+한/XSA+ETM+거/NNB+있/VA+으면/EC+고칠/VV+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 그날 한거는 다시 연락해서 고칠수 있어!",
+            "norm_text": "응 그날 한거는 다시 연락해서 고칠수 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그날/NNG+한/XSA+ETM+거/NNB+는/JX+다시/MAG+연락/NNG+해서/XSV+EC+고칠/VV+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 그럼 무조건 검수 해야 되네 개통 너무 많이 해도 힘들겠다",
+            "norm_text": "아 그럼 무조건 검수 해야 되네 개통 너무 많이 해도 힘들겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럼/MAJ+무조건/MAG+검수/NNG+해야/XSV+EC+되/VV+네/EF+개통/NNG+너무/MAG+많이/MAG+해도/VV+EC+힘들/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 무조건이지 검수할 때도 진짜 꼼꼼히 봐야 돼",
+            "norm_text": "무조건이지 검수할 때도 진짜 꼼꼼히 봐야 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무조건/NNG+이/VCP+지/EC+검수/NNG+할/XSV+ETM+때/NNG+도/JX+진짜/MAG+꼼꼼히/MAG+봐야/VV+EC+돼/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

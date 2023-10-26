@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 71469,
+    "name": "KAKAO_818_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172107035546/KAKAO_818_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930172107035546/KAKAO_818_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39025,
+      "filename": "KAKAO_818_12.txt",
+      "title": "KAKAO_818_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 653,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 653,
+        "word_size": 205,
+        "text": "1 : 여행은 어딜 가느냐 보다 누구랑 가냐가 진짜 중요한 것 같아\n2 : 맞아 키키 근데 왜 갑자기 그런 생각을 하게 됐어?\n1 : 아 매년 전라도 여행을 가는데 혼자도 갔다가 친구들 돌아가며 같이 갔었거든\n2 : 아 진짜? 그럼 넌 매년 전라도 여행을 가는 거네?\n1 : 응 키키 나 순천 여수 여행이 너무너무 좋아서 매년 가고 있거든\n2 : 뭔가 좋다 여행지는. 같지만 매년 조금씩 달라지는 나와의 여행이라고 보면 되겠넹 키키\n1 : 응 근데 어떤 사람하고 가느냐에 따라 같은 곳을 다녀와도 느낌이 천지차이더라고\n2 : 아무래도 그렇지... 사람마다 여행 스타일도 다르고 취향도 다르고 키키\n1 : 맞아 키키 난 사실 식도락보다는 관광 쪽을 더 즐기는 편이거든\n2 : 아 그럼 맛집. 찾아다니는 사람들 하고는 조금 안 맞겠당\n1 : 응 그럼 서로 불편하징 ㅜㅜ\n1 : 그래서 여행 메이트가 진짜 중요한 것 같애 키키\n2 : 맞아 키키 오래 만나도 여행 한번 안 간 사람이랑 오래 안 만났어도 여행 한 번이라도 갔다 온 사람은 친밀도가 좀 달라\n1 : 오 그렇게. 생각해? 나도 그래! 키키\n1 : 그래서 더 친해지고 싶은 친구들한테 여행 제안 많이 해\n2 : 키키 우리도 한번 가야지!?\n1 : 응 우리도 전라도 여행 한번 어때!?\n2 : 난 완전 콜이지 키키 한 번도 안 가봤거든 그쪽으로는",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여행은 어딜 가느냐 보다 누구랑 가냐가 진짜 중요한 것 같아",
+            "norm_text": "여행은 어딜 가느냐 보다 누구랑 가냐가 진짜 중요한 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행/NNG+은/JX+어딜/NP+JKO+가/VV+느냐/EC+보/VX+다/EF+누구/NP+랑/JKB+가/VV+냐/EF+가/JKS+진짜/MAG+중요/XR+한/XSA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 키키 근데 왜 갑자기 그런 생각을 하게 됐어?",
+            "norm_text": "맞아 키키 근데 왜 갑자기 그런 생각을 하게 됐어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+근데/MAJ+왜/MAG+갑자기/MAG+그런/MM+생각/NNG+을/JKO+하/VV+게/EC+됐/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 매년 전라도 여행을 가는데 혼자도 갔다가 친구들 돌아가며 같이 갔었거든",
+            "norm_text": "아 매년 전라도 여행을 가는데 혼자도 갔다가 친구들 돌아가며 같이 갔었거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+매년/MAG+전라도/NNP+여행/NNG+을/JKO+가/VV+는데/EC+혼자/NNG+도/JX+갔/VV+EP+다가/EC+친구/NNG+들/XSN+돌아가/VV+며/EC+같이/MAG+갔었/VV+EP+거든/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 진짜? 그럼 넌 매년 전라도 여행을 가는 거네?",
+            "norm_text": "아 진짜? 그럼 넌 매년 전라도 여행을 가는 거네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+그럼/MAJ+넌/NP+JX+매년/MAG+전라도/NNP+여행/NNG+을/JKO+가/VV+는/ETM+거/NNB+네/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 키키 나 순천 여수 여행이 너무너무 좋아서 매년 가고 있거든",
+            "norm_text": "응 키키 나 순천 여수 여행이 너무너무 좋아서 매년 가고 있거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키나/XSA+ETN+JX+순천/NNP+여수/NNP+여행/NNG+이/JKS+너무너무/MAG+좋/VA+아서/EC+매년/MAG+가/VV+고/EC+있/VX+거든/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 뭔가 좋다 여행지는. 같지만 매년 조금씩 달라지는 나와의 여행이라고 보면 되겠넹 키키",
+            "norm_text": "뭔가 좋다 여행지는. 같지만 매년 조금씩 달라지는 나와의 여행이라고 보면 되겠넹 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+좋/VA+다/EC+여행지/NNG+는/JX+같/VA+지만/EC+매년/MAG+조금/MAG+씩/XSN+달라지/VV+는/ETM+나/NP+와/JKB+의/JKG+여행/NNG+이/VCP+라고/EC+보/VX+면/EC+되/VV+겠/EP+넹/NNP+키키/NNP"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 근데 어떤 사람하고 가느냐에 따라 같은 곳을 다녀와도 느낌이 천지차이더라고",
+            "norm_text": "응 근데 어떤 사람하고 가느냐에 따라 같은 곳을 다녀와도 느낌이 천지차이더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+근데/MAJ+어떤/MM+사람/NNG+하/XSV+고/EC+가/VX+느냐/EF+에/JKB+따라/VV+EC+같/VA+은/ETM+곳/NNG+을/JKO+다녀와도/VV+EC+느낌/NNG+이/JKS+천지/NNG+차이/NNG+더라고/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아무래도 그렇지... 사람마다 여행 스타일도 다르고 취향도 다르고 키키",
+            "norm_text": "아무래도 그렇지... 사람마다 여행 스타일도 다르고 취향도 다르고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+그렇/VA+지/EF+./SY+사람/NNG+마다/JX+여행/NNG+스타일/NNG+도/JX+다르/VA+고/EC+취향/NNG+도/JX+다르/VA+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞아 키키 난 사실 식도락보다는 관광 쪽을 더 즐기는 편이거든",
+            "norm_text": "맞아 키키 난 사실 식도락보다는 관광 쪽을 더 즐기는 편이거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+난/NP+JX+사실/MAG+식도락/NNG+보다/JKB+는/JX+관광/NNG+쪽/NNB+을/JKO+더/MAG+즐기/VV+는/ETM+편/NNB+이/VCP+거든/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 그럼 맛집. 찾아다니는 사람들 하고는 조금 안 맞겠당",
+            "norm_text": "아 그럼 맛집. 찾아다니는 사람들 하고는 조금 안 맞겠당",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럼/MAJ+맛집/NNG+찾아다니/VV+는/ETM+사람/NNG+들/XSN+하고/JKB+는/JX+조금/MAG+안/MAG+맞/VV+겠/EP+당/XSN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 그럼 서로 불편하징 ㅜㅜ",
+            "norm_text": "응 그럼 서로 불편하징 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그럼/MAJ+서로/MAG+불편/NNG+하/XSA+징/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래서 여행 메이트가 진짜 중요한 것 같애 키키",
+            "norm_text": "그래서 여행 메이트가 진짜 중요한 것 같애 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+여행/NNG+메이트/NNG+가/JKS+진짜/MAG+중요/XR+한/XSA+ETM+것/NNB+같/VA+애/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 맞아 키키 오래 만나도 여행 한번 안 간 사람이랑 오래 안 만났어도 여행 한 번이라도 갔다 온 사람은 친밀도가 좀 달라",
+            "norm_text": "맞아 키키 오래 만나도 여행 한번 안 간 사람이랑 오래 안 만났어도 여행 한 번이라도 갔다 온 사람은 친밀도가 좀 달라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+오래/MAG+만나/VV+EC+도/JX+여행/NNG+한번/MAG+안/MAG+간/VV+ETM+사람/NNG+이랑/JKB+오래/MAG+안/MAG+만났/VV+EP+어도/EC+여행/NNG+한/MM+번/NNBC+이라도/JX+갔다온/VV+ETM+사람/NNG+은/JX+친/XPN+밀도/NNG+가/JKS+좀/MAG+달라/VA+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오 그렇게. 생각해? 나도 그래! 키키",
+            "norm_text": "오 그렇게. 생각해? 나도 그래! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+그렇게/MAG+생각/NNG+해/XSV+EF+나/NP+도/JX+그래/VA+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래서 더 친해지고 싶은 친구들한테 여행 제안 많이 해",
+            "norm_text": "그래서 더 친해지고 싶은 친구들한테 여행 제안 많이 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+더/MAG+친해/VA+EC+지/VX+고/EC+싶/VX+은/ETM+친구/NNG+들/XSN+한테/JKB+여행/NNG+제안/NNG+많이/MAG+해/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 우리도 한번 가야지!?",
+            "norm_text": "키키 우리도 한번 가야지!?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우리/NP+도/JX+한/MM+번/NNBC+가야지/NNG+!/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 우리도 전라도 여행 한번 어때!?",
+            "norm_text": "응 우리도 전라도 여행 한번 어때!?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+우리/NP+도/JX+전라도/NNP+여행/NNG+한/MM+번/NNBC+어때/VA+EC+!/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 난 완전 콜이지 키키 한 번도 안 가봤거든 그쪽으로는",
+            "norm_text": "난 완전 콜이지 키키 한 번도 안 가봤거든 그쪽으로는",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+완전/MAG+콜/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN+한/MM+번/NNBC+도/JX+안/MAG+가/VV+EC+봤/VX+EP+거든/EF+그쪽/NP+으로/JKB+는/JX"
+          }
+        ]
+      }
+    }
+  ]
+}

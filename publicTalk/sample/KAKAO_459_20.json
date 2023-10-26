@@ -1,0 +1,419 @@
+{
+  "dataset": {
+    "identifier": 29732,
+    "name": "KAKAO_459_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150754088771/KAKAO_459_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150754088771/KAKAO_459_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28470,
+      "filename": "KAKAO_459_20.txt",
+      "title": "KAKAO_459_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 818,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 818,
+        "word_size": 267,
+        "text": "1 : 최근에 영화관 가서 봤던 영화 있어?\n2 : 요즘 영화관 못 간 지 진짜 오래된 것 같아 ㅜ\n2 : 마지막으로 본 게 블랙위도우? 키키\n2 : 니는 마지막으로 본 게 뭐야?\n1 : 오 블위 재밌었지 키키\n1 : 나도 그거랑 모가디슈 봤었당!\n2 : 모가디슈 재밌더나? 키키\n2 : 사람들 많이 보던데\n1 : 어어 키키 별 기대 안 했는데 장르가 약간 액션 코미디?\n1 : 이런 느낌이었는데 생각보다 재밌더라\n2 : 아 액션 코미디였어? 키키 몰랐네 키키\n2 : 나는 약간 진지한 내용인 줄 키키\n2 : 이번에 마블에서도 뭐 많이 나올 것 같드만 키키\n1 : 어어 근데 진지한 얘기도 있어서 감동적인 내용도 있더라 키키\n1 : 아 나도 마블 좋아하는데 기대되네\n2 : 나도 마블 진짜 좋아하거든 키키\n2 : 그래서 기다리는 중인데 마동석 나오는 거 넘 기대됨 키키\n1 : 아 맞아 마동석 나온다더라! 나도 완전 기대 중 키키\n1 : 어떤 역할로 나오려나\n2 : 예고편 살짝 봤는데 마블리 거의 안 나와서 무슨 역인지도 모르겠더라 ㅜㅜ\n2 : 많이 나왔으면 좋겠다\n1 : 허걱 좀 작은 역할로 나오려나 ㅠㅠ\n1 : 비중 있는 역할이었으면 좋겠구만\n1 : 마동석 영어도 잘하잖아\n2 : 그러니까 ㅜㅜ 그리고 박서준도 마블 찍는대 키키\n1 : 헐 진짜? 키키 대박이네 키키\n1 :  우리나라 배우들 해외로 많이 진출하는 거 보니까 보기 좋다\n2 : 응응 키키 우리나라 엔터 점점 발전하는 거 진짜 보기 좋은 것 같다 키키\n2 : 마블이면 엄청 유명한 곳인데 그런 곳에 딱! 가고 키키\n1 : 그러니까 자랑스럽다 키키\n1 :  앞으로도 좋은 영화에 많이 나왔으면 좋겠다\n2 : 응응 자랑스럽게 볼 수 있을 것 같음 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 최근에 영화관 가서 봤던 영화 있어?",
+            "norm_text": "최근에 영화관 가서 봤던 영화 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "최근/NNG+에/JKB+영화관/NNG+가/VV+서/EC+봤/VX+EP+던/ETM+영화/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘 영화관 못 간 지 진짜 오래된 것 같아 ㅜ",
+            "norm_text": "요즘 영화관 못 간 지 진짜 오래된 것 같아 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+영화관/NNG+못/MAG+간지/VV+EC+진짜/MAG+오래/MAG+된/VV+ETM+것/NNB+같/VA+아/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 마지막으로 본 게 블랙위도우? 키키",
+            "norm_text": "마지막으로 본 게 블랙위도우? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마지막/NNG+으로/JKB+본/VV+ETM+게/NNB+JKS+블랙/NNG+위/NNG+도우/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 니는 마지막으로 본 게 뭐야?",
+            "norm_text": "니는 마지막으로 본 게 뭐야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+마지막/NNG+으로/JKB+본/VV+ETM+게/NNB+JKS+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 블위 재밌었지 키키",
+            "norm_text": "오 블위 재밌었지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+블/NNG+위/NNG+재밌/VA+었/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나도 그거랑 모가디슈 봤었당!",
+            "norm_text": "나도 그거랑 모가디슈 봤었당!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+그거/NP+랑/JC+모가디슈/NNP+봤었/VV+EP+당/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 모가디슈 재밌더나? 키키",
+            "norm_text": "모가디슈 재밌더나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "모가디슈/NNP+재밌/VA+더나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 사람들 많이 보던데",
+            "norm_text": "사람들 많이 보던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사람/NNG+들/XSN+많이/MAG+보/VV+던데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어어 키키 별 기대 안 했는데 장르가 약간 액션 코미디?",
+            "norm_text": "어어 키키 별 기대 안 했는데 장르가 약간 액션 코미디?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+키/NNG+키/NNG+별/XSN+기대/NNG+안/MAG+했/VV+EP+는데/EC+장르/NNG+가/JKS+약간/MAG+액션/NNG+코미디/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 이런 느낌이었는데 생각보다 재밌더라",
+            "norm_text": "이런 느낌이었는데 생각보다 재밌더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이런/MM+느낌/NNG+이/VCP+었/EP+는데/EC+생각/NNG+보다/JKB+재밌/VA+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아 액션 코미디였어? 키키 몰랐네 키키",
+            "norm_text": "아 액션 코미디였어? 키키 몰랐네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+액션/NNG+코미디/NNG+였/VCP+EP+어/EF+키키몰랐네키키/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 약간 진지한 내용인 줄 키키",
+            "norm_text": "나는 약간 진지한 내용인 줄 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+약간/MAG+진지/XR+한/XSA+ETM+내용/NNG+인/VCP+ETM+줄/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 이번에 마블에서도 뭐 많이 나올 것 같드만 키키",
+            "norm_text": "이번에 마블에서도 뭐 많이 나올 것 같드만 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+마블/NNG+에서/JKB+도/JX+뭐/IC+많이/MAG+나올/VV+ETM+것/NNB+같/VA+드만/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 어어 근데 진지한 얘기도 있어서 감동적인 내용도 있더라 키키",
+            "norm_text": "어어 근데 진지한 얘기도 있어서 감동적인 내용도 있더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+근데/MAJ+진지/XR+한/XSA+ETM+얘기/NNG+도/JX+있/VA+어서/EC+감동/NNG+적/XSN+인/VCP+ETM+내용/NNG+도/JX+있/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 나도 마블 좋아하는데 기대되네",
+            "norm_text": "아 나도 마블 좋아하는데 기대되네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+도/JX+마블/NNG+좋/VA+아/EC+하/VV+는데/EC+기대/NNG+되/XSV+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나도 마블 진짜 좋아하거든 키키",
+            "norm_text": "나도 마블 진짜 좋아하거든 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+마블/NNG+진짜/MAG+좋/VA+아/EC+하/VX+거든/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래서 기다리는 중인데 마동석 나오는 거 넘 기대됨 키키",
+            "norm_text": "그래서 기다리는 중인데 마동석 나오는 거 넘 기대됨 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+기다리/VV+는/ETM+중/NNB+인데/VCP+EC+마동석/NNP+나오/VV+는/ETM+거/NNB+넘/MAG+기대/NNG+됨/XSV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 맞아 마동석 나온다더라! 나도 완전 기대 중 키키",
+            "norm_text": "아 맞아 마동석 나온다더라! 나도 완전 기대 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞아/IC+마동석/NNP+나/JX+온다더라/VV+EF+나/NP+도/JX+완전/NNG+기대/NNG+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 어떤 역할로 나오려나",
+            "norm_text": "어떤 역할로 나오려나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떤/MM+역할/NNG+로/JKB+나오/VV+려나/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 예고편 살짝 봤는데 마블리 거의 안 나와서 무슨 역인지도 모르겠더라 ㅜㅜ",
+            "norm_text": "예고편 살짝 봤는데 마블리 거의 안 나와서 무슨 역인지도 모르겠더라 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예고편/NNG+살짝/MAG+봤/VV+EP+는데/EC+마블리/NNP+거의/MAG+안/MAG+나와서/VV+EC+무슨/MM+역/NNG+인지/VCP+EC+도/JX+모르/VV+겠/EP+더라/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 많이 나왔으면 좋겠다",
+            "norm_text": "많이 나왔으면 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "많이/MAG+나왔/VV+EP+으면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 허걱 좀 작은 역할로 나오려나 ㅠㅠ",
+            "norm_text": "허걱 좀 작은 역할로 나오려나 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "허걱/IC+좀/MAG+작/VA+은/ETM+역할/NNG+로/JKB+나오/VV+려나/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 비중 있는 역할이었으면 좋겠구만",
+            "norm_text": "비중 있는 역할이었으면 좋겠구만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비중/NNG+있/VA+는/ETM+역할/NNG+이/VCP+었/EP+으면/EC+좋/VA+겠/EP+구만/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 마동석 영어도 잘하잖아",
+            "norm_text": "마동석 영어도 잘하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마동석/NNP+영어/NNG+도/JX+잘/MAG+하/VV+잖아/EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그러니까 ㅜㅜ 그리고 박서준도 마블 찍는대 키키",
+            "norm_text": "그러니까 ㅜㅜ 그리고 박서준도 마블 찍는대 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+ㅜㅜ/UNKNOWN+그리고/MAJ+박서준/NNP+도/JX+마블/NNG+찍/VV+는/ETM+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 헐 진짜? 키키 대박이네 키키",
+            "norm_text": "헐 진짜? 키키 대박이네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+진짜/MAG+키키대박이네키키/UNKNOWN"
+          },
+          {
+            "id": 27,
+            "text": "1 :  우리나라 배우들 해외로 많이 진출하는 거 보니까 보기 좋다",
+            "norm_text": "우리나라 배우들 해외로 많이 진출하는 거 보니까 보기 좋다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+배우/NNG+들/XSN+해외/NNG+로/JKB+많이/MAG+진출/NNG+하/XSV+는/ETM+거/NNB+보/VV+니까/EC+보/VX+기/ETN+좋/VA+다/EC"
+          },
+          {
+            "id": 28,
+            "text": "2 : 응응 키키 우리나라 엔터 점점 발전하는 거 진짜 보기 좋은 것 같다 키키",
+            "norm_text": "응응 키키 우리나라 엔터 점점 발전하는 거 진짜 보기 좋은 것 같다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+우리/NP+나라/NNG+엔터/NNP+점점/MAG+발전/NNG+하/XSV+는/ETM+거/NNB+진짜/MAG+보/VV+기/ETN+좋/VA+은/ETM+것/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 29,
+            "text": "2 : 마블이면 엄청 유명한 곳인데 그런 곳에 딱! 가고 키키",
+            "norm_text": "마블이면 엄청 유명한 곳인데 그런 곳에 딱! 가고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마블/NNG+이/VCP+면/EC+엄청/MAG+유명/NNG+한/XSA+ETM+곳/NNB+인데/VCP+EC+그런/MM+곳/NNG+에/JKB+딱/MAG+가/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "1 : 그러니까 자랑스럽다 키키",
+            "norm_text": "그러니까 자랑스럽다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+자랑/NNG+스럽/XSA+다키키/NNP"
+          },
+          {
+            "id": 31,
+            "text": "1 :  앞으로도 좋은 영화에 많이 나왔으면 좋겠다",
+            "norm_text": "앞으로도 좋은 영화에 많이 나왔으면 좋겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앞/NNG+으로/JKB+도/JX+좋/VA+은/ETM+영화/NNG+에/JKB+많이/MAG+나왔/VV+EP+으면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 32,
+            "text": "2 : 응응 자랑스럽게 볼 수 있을 것 같음 키키",
+            "norm_text": "응응 자랑스럽게 볼 수 있을 것 같음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+자랑/NNG+스럽/XSA+게/EC+볼/VX+ETM+수/NNB+있/VV+을/ETM+것/NNB+같/VA+음/ETN+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

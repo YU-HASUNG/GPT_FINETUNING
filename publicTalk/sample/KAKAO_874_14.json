@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 39815,
+    "name": "KAKAO_874_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175245034134/KAKAO_874_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175245034134/KAKAO_874_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40472,
+      "filename": "KAKAO_874_14.txt",
+      "title": "KAKAO_874_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 361,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 361,
+        "word_size": 101,
+        "text": "2 : 20대 여성 공무원이 자살을 했다고? 왜?\n1 : 직장에서 팀원 가방 훼손 사건으로 팀원들이 범인으로 그 여성을 지목해서 압박감에 못이기고 안타까운 사고로 이어졌다네?\n2 : 아 진짜? 근데 그 여성이 범인이 확실해?\n1 : 그 여성이 자기 동생과 SNS로 대화 내용이 커뮤니티에 올라오긴 했는데 아직 조사 중 인가 봐\n2 : SNS 대화 내용이 무슨 내용이었는데?\n2 : 아니 정확한 범인도 못 찾고 팀원들이 그냥 그 여성을 지목한 거네?\n2 : 범인인지 아닌지 확실하지도 않은데 지목해서 신고했다니...\n1 : 그러니까 말이야... 가방 주인이 개인 SNS에 작성 후 삭제한 글도 공유했다고 하더라고\n2 : 가방 주인 SNS엔 무슨 글이 올라왔길래?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "2 : 20대 여성 공무원이 자살을 했다고? 왜?",
+            "norm_text": "20대 여성 공무원이 자살을 했다고? 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "20/SN+대/NNBC+여성/NNG+공무원/NNG+이/JKS+자살/NNG+을/JKO+했/VV+EP+다고/EF+왜/MAG"
+          },
+          {
+            "id": 2,
+            "text": "1 : 직장에서 팀원 가방 훼손 사건으로 팀원들이 범인으로 그 여성을 지목해서 압박감에 못이기고 안타까운 사고로 이어졌다네?",
+            "norm_text": "직장에서 팀원 가방 훼손 사건으로 팀원들이 범인으로 그 여성을 지목해서 압박감에 못이기고 안타까운 사고로 이어졌다네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "직장/NNG+에서/JKB+팀원/NNG+가방/NNG+훼손/NNG+사건/NNG+으로/JKB+팀원/NNG+들/XSN+이/JKS+범인/NNG+으로/JKB+그/MM+여성/NNG+을/JKO+지목/NNG+해서/XSV+EC+압박감/NNG+에/JKB+못/MAG+이기/VV+고/EC+안타까운/VA+ETM+사고/NNG+로/JKB+이어졌/VV+EP+다네/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아 진짜? 근데 그 여성이 범인이 확실해?",
+            "norm_text": "아 진짜? 근데 그 여성이 범인이 확실해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+근데/MAJ+그/MM+여성/NNG+이/JKS+범인/NNG+이/JKS+확실/XR+해/XSA+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그 여성이 자기 동생과 SNS로 대화 내용이 커뮤니티에 올라오긴 했는데 아직 조사 중 인가 봐",
+            "norm_text": "그 여성이 자기 동생과 SNS로 대화 내용이 커뮤니티에 올라오긴 했는데 아직 조사 중 인가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+여성/NNG+이/JKS+자기/NP+동생/NNG+과/JC+SNS/SL+로/JKB+대화/NNG+내용/NNG+이/JKS+커뮤니티/NNG+에/JKB+올라오/VV+긴/ETN+JX+했/VX+EP+는데/EC+아직/MAG+조사/NNG+중/NNB+인가/VCP+EC+봐/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : SNS 대화 내용이 무슨 내용이었는데?",
+            "norm_text": "SNS 대화 내용이 무슨 내용이었는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "SNS/SL+대화/NNG+내용/NNG+이/JKS+무슨/MM+내용/NNG+이/VCP+었/EP+는데/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 정확한 범인도 못 찾고 팀원들이 그냥 그 여성을 지목한 거네?",
+            "norm_text": "아니 정확한 범인도 못 찾고 팀원들이 그냥 그 여성을 지목한 거네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+정확/XR+한/XSA+ETM+범인/NNG+도/JX+못/MAG+찾/VV+고/EC+팀원/NNG+들/XSN+이/JKS+그냥/MAG+그/MM+여성/NNG+을/JKO+지목/NNG+한/XSA+ETM+거/NNB+네/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 범인인지 아닌지 확실하지도 않은데 지목해서 신고했다니...",
+            "norm_text": "범인인지 아닌지 확실하지도 않은데 지목해서 신고했다니...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "범인/NNG+인지/VCP+EC+아닌지/VCN+EC+확실/XR+하/XSA+지/EC+도/JX+않/VX+은데/EC+지목/NNG+해서/XSV+EC+신고/NNG+했/XSV+EP+다니/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그러니까 말이야... 가방 주인이 개인 SNS에 작성 후 삭제한 글도 공유했다고 하더라고",
+            "norm_text": "그러니까 말이야... 가방 주인이 개인 SNS에 작성 후 삭제한 글도 공유했다고 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+말/NNG+이/VCP+야/EF+./SY+./SY+가/JKS+방주인/NNG+이/JKS+개인/NNG+SNS/SL+에/JKB+작성/NNG+후삭/NNG+제한/NNG+글/NNG+도/JX+공유/NNG+했/XSV+EP+다고/EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 가방 주인 SNS엔 무슨 글이 올라왔길래?",
+            "norm_text": "가방 주인 SNS엔 무슨 글이 올라왔길래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가방/NNG+주인/NNG+SNS/SL+엔/JKB+JX+무슨/MM+글/NNG+이/JKS+올라왔/VV+EP+길래/ETN+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

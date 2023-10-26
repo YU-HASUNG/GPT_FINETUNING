@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 31313,
+    "name": "KAKAO_577_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902066670/KAKAO_577_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902066670/KAKAO_577_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31506,
+      "filename": "KAKAO_577_15.txt",
+      "title": "KAKAO_577_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 944,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 944,
+        "word_size": 261,
+        "text": "1 : 일본 도쿄 올림픽 홈페이지에서 독도를 일본 영토인 것처럼 그려 놓은 것 봤어?\n2 : 어 정말 웃기더라.\n2 : IOC가 크림 반도를 러시아 영토인 것으로 표기했다가 우크라이나의 항의를 받고서 그땐 서비스 제공자 실수라고 인정하고 수정했잖아.\n2 : 러시아가 반발했어도 수정해줬어~\n1 : 응 거긴 바로 인정하고 수정했는데, 독도 표기는 순수한 지형학적 표기한 거라고 이중 잣대 갖고 있더라.\n2 : 그니깐~! IOC가 지금 일본 눈치 엄청 봐.\n1 : 올림픽 유치 당시에도 일본에서 뇌물 공여 의혹이 많았었지.  그러면 눈치 많이 볼 수밖에.\n2 : 심지어 IOC 위원장이 일본 호텔에서 묵는데 1박에 250만엔 짜리 초호화 호텔을 일본 정부에서 예약해 줬다던데...ㅎ\n2 : 그러면서 선수들은 골판지 침대에...\n1 : 그러게, 그래서 그렇게 IOC 편인가 보네;\n1 : 일본은 저런 식으로 하면 국제 관계가 더 안 좋아지는데 왜 저렇게까지 하는지 모르겠다.\n2 : 그리고 올림픽 사이클 남자 도로 경기 중에 욱일기 등장한 것도 봤지?\n1 : 응 봤지~ 그런 전범기가 나대는데 막지는 못할 망정 홈페이지에 버젓이 올라와 있더라\n2 : 독일 나치 하켄크로이츠를 아직까지 흔들고 있는 거랑 뭐가 달라?\n1 : 너무 개념 없더라… 문제라고 생각지 못해서 올린 홈페이지 관계자나 흔들고 있는 저 사람들이나...\n2 : 전에 FIFA에서 축구 경기에 욱일기 응원 금지했잖아,\n2 : 욱일기 건 일본 구단에 대해서도 벌금 많이 부과했던 걸로 기억하는데…\n1 : 어~ IOC랑은 너무 다른 행보다.\n1 : 정신 못 차린 사람들도 아직 있고\n2 : 그니깐 아직까지 나치 하켄크로이츠는 전범기라고 아는 사람들이 많은데 아직 욱일기는 전범기라는 걸 모르는 사람들도 많더라고...\n1 : 진짜 그런 것 같아. 이번 기회를 통해 많이 알려지길 기원해!\n2 : 응! 암튼 한국에서도 엄청 항의 메일 보내고 있다는데 어떻게 될지 모르겠어.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 일본 도쿄 올림픽 홈페이지에서 독도를 일본 영토인 것처럼 그려 놓은 것 봤어?",
+            "norm_text": "일본 도쿄 올림픽 홈페이지에서 독도를 일본 영토인 것처럼 그려 놓은 것 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일본/NNP+도쿄/NNP+올림픽/NNP+홈페이지/NNG+에서/JKB+독도/NNP+를/JKO+일본/NNP+영토/NNG+인/VCP+ETM+것/NNB+처럼/JKB+그려/VV+EC+놓/VX+은/ETM+것/NNB+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어 정말 웃기더라.",
+            "norm_text": "어 정말 웃기더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+정말/MAG+웃기/VV+더라/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : IOC가 크림 반도를 러시아 영토인 것으로 표기했다가 우크라이나의 항의를 받고서 그땐 서비스 제공자 실수라고 인정하고 수정했잖아.",
+            "norm_text": "IOC가 크림 반도를 러시아 영토인 것으로 표기했다가 우크라이나의 항의를 받고서 그땐 서비스 제공자 실수라고 인정하고 수정했잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "IOC/SL+가/JKS+크림/+반도/+를/JKO+러시아/NNP+영토/NNG+인/VCP+ETM+것/NNB+으로/JKB+표기/NNG+했/XSV+EP+다가/EC+우크라이나/NNP+의/JKG+항의/NNG+를/JKO+받/VV+고서/EC+그/MM+땐/NNG+JX+서비스/NNG+제공/NNG+자/XSN+실수/NNG+라고/VCP+EC+인정/NNG+하/XSV+고/EC+수정/NNG+했잖아/XSV+EP+EC+VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 러시아가 반발했어도 수정해줬어~",
+            "norm_text": "러시아가 반발했어도 수정해줬어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "러시아/NNP+가/JKS+반발/NNG+했/XSV+EP+어도/EC+수정/NNG+해/XSV+EC+줬/VX+EP+어/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 거긴 바로 인정하고 수정했는데, 독도 표기는 순수한 지형학적 표기한 거라고 이중 잣대 갖고 있더라.",
+            "norm_text": "응 거긴 바로 인정하고 수정했는데, 독도 표기는 순수한 지형학적 표기한 거라고 이중 잣대 갖고 있더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+거긴/NP+JX+바로/MAG+인정/NNG+하/XSV+고/EC+수정/NNG+했/XSV+EP+는데/EC+,/SC+독도/NNP+표기/NNG+는/JX+순수/NNG+한/XSA+ETM+지형학/NNG+적/XSN+표기/NNG+한/XSA+ETM+거/NNB+라고/VCP+EC+이중/NNG+잣대/NNG+갖/VV+고/EC+있/VX+더라/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그니깐~! IOC가 지금 일본 눈치 엄청 봐.",
+            "norm_text": "그니깐~! IOC가 지금 일본 눈치 엄청 봐.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+~/SY+!/SY+IOC/SL+가/JKS+지금/MAG+일본/NNP+눈치/NNG+엄청/MAG+봐/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 올림픽 유치 당시에도 일본에서 뇌물 공여 의혹이 많았었지.  그러면 눈치 많이 볼 수밖에.",
+            "norm_text": "올림픽 유치 당시에도 일본에서 뇌물 공여 의혹이 많았었지.  그러면 눈치 많이 볼 수밖에.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "올림픽/NNP+유치/NNG+당시/NNG+에/JKB+도/JX+일본/NNP+에서/JKB+뇌물/NNG+공여/NNG+의혹/NNG+이/JKS+많/VA+았었/EP+지/EF+그러면/MAJ+눈치/NNG+많이/MAG+볼/VV+ETM+수/NNB+밖에/JX"
+          },
+          {
+            "id": 8,
+            "text": "2 : 심지어 IOC 위원장이 일본 호텔에서 묵는데 1박에 250만엔 짜리 초호화 호텔을 일본 정부에서 예약해 줬다던데...ㅎ",
+            "norm_text": "심지어 IOC 위원장이 일본 호텔에서 묵는데 1박에 250만엔 짜리 초호화 호텔을 일본 정부에서 예약해 줬다던데...ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "심지어/MAG+IOC/SL+위원장/NNG+이/JKS+일본/NNP+호텔/NNG+에서/JKB+묵/VV+는데/EC+1/SN+박/NNBC+에/JKB+250/SN+만/NR+엔/NNBC+짜리/XSN+초호/NNG+화/XSN+호텔/NNG+을/JKO+일본/NNP+정부/NNG+에서/JKB+예약/NNG+해/XSV+EC+줬/VX+EP+다던데/EF+./SY+ㅎ/XSA"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그러면서 선수들은 골판지 침대에...",
+            "norm_text": "그러면서 선수들은 골판지 침대에...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+면서/EC+선수/NNG+들/XSN+은/JX+골판지/NNG+침대/NNG+에/JKB+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그러게, 그래서 그렇게 IOC 편인가 보네;",
+            "norm_text": "그러게, 그래서 그렇게 IOC 편인가 보네;",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+,/SC+그래서/MAJ+그렇게/MAG+IOC/SL+편/NNB+인가/VCP+EC+보/VX+네/EF+;/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 일본은 저런 식으로 하면 국제 관계가 더 안 좋아지는데 왜 저렇게까지 하는지 모르겠다.",
+            "norm_text": "일본은 저런 식으로 하면 국제 관계가 더 안 좋아지는데 왜 저렇게까지 하는지 모르겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일본/NNP+은/JX+저런/MM+식/NNB+으로/JKB+하/VV+면/EC+국제/NNG+관계/NNG+가/JKS+더/MAG+안/MAG+좋/VA+아/EC+지/VX+는데/EC+왜/MAG+저렇/VA+게/EC+까지/JX+하/VV+는지/EC+모르/VV+겠/EP+다/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그리고 올림픽 사이클 남자 도로 경기 중에 욱일기 등장한 것도 봤지?",
+            "norm_text": "그리고 올림픽 사이클 남자 도로 경기 중에 욱일기 등장한 것도 봤지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그리고/MAJ+올림픽/NNP+사이클/NNG+남자/NNG+도로/NNG+경기/NNG+중/NNB+에/JKB+욱일기/NNP+등장/NNG+한/XSA+ETM+것/NNB+도/JX+봤/VV+EP+지/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 봤지~ 그런 전범기가 나대는데 막지는 못할 망정 홈페이지에 버젓이 올라와 있더라",
+            "norm_text": "응 봤지~ 그런 전범기가 나대는데 막지는 못할 망정 홈페이지에 버젓이 올라와 있더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+봤/VV+EP+지/EC+~/SY+그런/MM+전범/NNG+기/XSN+가/JKS+나대/VV+는데/EC+막지/NNG+는/JX+못/MAG+할망정/VV+EC+홈페이지/NNG+에/JKB+버젓이/MAG+올라와/VV+EC+있/VX+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 독일 나치 하켄크로이츠를 아직까지 흔들고 있는 거랑 뭐가 달라?",
+            "norm_text": "독일 나치 하켄크로이츠를 아직까지 흔들고 있는 거랑 뭐가 달라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "독일/NNP+나치/NNG+하켄크로이츠/NNG+를/JKO+아직/MAG+까지/JX+흔들/VV+고/EC+있/VX+는/ETM+거/NNB+랑/JC+뭐/NP+가/JKS+달라/VA+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 너무 개념 없더라… 문제라고 생각지 못해서 올린 홈페이지 관계자나 흔들고 있는 저 사람들이나...",
+            "norm_text": "너무 개념 없더라… 문제라고 생각지 못해서 올린 홈페이지 관계자나 흔들고 있는 저 사람들이나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+개념/NNG+없/VA+더라/EC+…/SE+문제/NNG+라고/VCP+EC+생각/NNG+지/XSV+EC+못해서/VX+EC+올린/VV+ETM+홈페이지/NNG+관계자/NNG+나/JX+흔들/VV+고/EC+있/VX+는/ETM+저/MM+사람/NNG+들/XSN+이나/JC+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 전에 FIFA에서 축구 경기에 욱일기 응원 금지했잖아,",
+            "norm_text": "전에 FIFA에서 축구 경기에 욱일기 응원 금지했잖아,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전/NNG+에/JKB+FIFA/SL+에서/JKB+축구/NNG+경기/NNG+에/JKB+욱일기/NNP+응원/NNG+금지/NNG+했잖아/XSV+EP+EC+VX+EF+,/SC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 욱일기 건 일본 구단에 대해서도 벌금 많이 부과했던 걸로 기억하는데…",
+            "norm_text": "욱일기 건 일본 구단에 대해서도 벌금 많이 부과했던 걸로 기억하는데…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "욱일기/NNP+건/NNB+JX+일본/NNP+구단/NNG+에/JKB+대해서/VV+EC+도/JX+벌금/NNG+많이/MAG+부과/NNG+했/XSV+EP+던/ETM+걸로/NNB+JKB+기억/NNG+하/XSV+는데/EC+…/SE"
+          },
+          {
+            "id": 18,
+            "text": "1 : 어~ IOC랑은 너무 다른 행보다.",
+            "norm_text": "어~ IOC랑은 너무 다른 행보다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+~/SY+IOC/SL+랑/JKB+은/JX+너무/MAG+다른/MM+행보/NNG+다/VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 정신 못 차린 사람들도 아직 있고",
+            "norm_text": "정신 못 차린 사람들도 아직 있고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정신/NNG+못/MAG+차린/VV+ETM+사람/NNG+들/XSN+도/JX+아직/MAG+있/VV+고/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그니깐 아직까지 나치 하켄크로이츠는 전범기라고 아는 사람들이 많은데 아직 욱일기는 전범기라는 걸 모르는 사람들도 많더라고...",
+            "norm_text": "그니깐 아직까지 나치 하켄크로이츠는 전범기라고 아는 사람들이 많은데 아직 욱일기는 전범기라는 걸 모르는 사람들도 많더라고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+아직/MAG+까지/JX+나치/NNG+하켄크로이츠/NNG+는/JX+전범/NNG+기/NNG+라고/VCP+EC+아/VV+는/ETM+사람/NNG+들/XSN+이/JKS+많/VA+은데/EC+아직/MAG+욱일기/NNP+는/JX+전범/NNG+기/XSN+라는/VCP+ETM+걸/NNB+JKO+모르/VV+는/ETM+사람/NNG+들/XSN+도/JX+많/VA+더라고/EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 진짜 그런 것 같아. 이번 기회를 통해 많이 알려지길 기원해!",
+            "norm_text": "진짜 그런 것 같아. 이번 기회를 통해 많이 알려지길 기원해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+그런/MM+것/NNB+같/VA+아/EF+이번/NNG+기회/NNG+를/JKO+통해/VV+EC+많이/MAG+알려/VV+EC+지/VX+길/ETN+JKO+기원/NNG+해/XSV+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 응! 암튼 한국에서도 엄청 항의 메일 보내고 있다는데 어떻게 될지 모르겠어.",
+            "norm_text": "응! 암튼 한국에서도 엄청 항의 메일 보내고 있다는데 어떻게 될지 모르겠어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+암튼/MAJ+한국/NNP+에서/JKB+도/JX+엄청/MAG+항/NNG+의/JKG+메일/NNG+보내/VV+고/EC+있/VX+다는/ETM+데/NNB+어떻/VA+게/EC+될지/VV+EC+모르/VV+겠/EP+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

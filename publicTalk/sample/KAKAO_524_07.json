@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 30542,
+    "name": "KAKAO_524_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151342057146/KAKAO_524_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151342057146/KAKAO_524_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29678,
+      "filename": "KAKAO_524_07.txt",
+      "title": "KAKAO_524_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 550,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 550,
+        "word_size": 179,
+        "text": "1 : 너희 어머니 잘 계시지? 키키 안 뵌 지 좀 된 거 같은데\n2 : 응 키키 우리 엄마는 항상 잘 계시지 키키 너희 어머니는?\n1 : 우리도 그렇지 키키 일하던 곳이 되게  멀어져서 힘들어하는 중...\n2 : 그러시겠다 진짜 확실히 교통편도 불편해지시고...\n1 : 한 3분 거리에서 1시간 거리가 돼버림 키키\n2 : 헐 그러시네 키키 진짜 엄청 멀어졌다; 너무 차이나 버렸네\n1 : 응... ㅠ 동생은 요즘 학교 다녀?\n2 : 지금은 방학이고 아마 2학기 개강해도 온라인 수업일 듯 키키\n1 : 생각해 보니 너 동생 되게 많이 봤었는데도 대화한 적은 드무네 키키\n2 : 내 동생 아주 미스테리한 애야 뭐 나오질 않아\n1 : 키키 집에서도 밖으로 안 나오는 거야?\n2 : 아 나가긴 하지 키키 하루에 한번 운동하러 키키\n1 : 와 키키 너 동생은 운동도 공부하려고 할 거 같아\n2 : 아니야 그냥 살려고 한 바퀴 뛰고 오는 거야 키키\n2 : 너 동생은 잘 지내냠\n1 : 뭐... 요즘 공익 하고 있으니까 살이 찌더라 키키\n2 : 키키 공익도 얼마 안 남지 않았나?\n2 : 끝나면 다시 힘들어서 빠질 거야 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너희 어머니 잘 계시지? 키키 안 뵌 지 좀 된 거 같은데",
+            "norm_text": "너희 어머니 잘 계시지? 키키 안 뵌 지 좀 된 거 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+어머니/NNG+잘/MAG+계시/VV+지/EF+키/NNG+키/NNG+안/MAG+뵌/VV+ETM+지/NNB+좀/MAG+된/VV+ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 키키 우리 엄마는 항상 잘 계시지 키키 너희 어머니는?",
+            "norm_text": "응 키키 우리 엄마는 항상 잘 계시지 키키 너희 어머니는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+우리/NP+엄마/NNG+는/JX+항상/MAG+잘/MAG+계시/VV+지/EC+키/NNG+키/XSV+ETN+너희/NP+어머니/NNG+는/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리도 그렇지 키키 일하던 곳이 되게  멀어져서 힘들어하는 중...",
+            "norm_text": "우리도 그렇지 키키 일하던 곳이 되게  멀어져서 힘들어하는 중...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+도/JX+그렇/VA+지/EC+키/NNG+키/NNG+일/NNG+하/XSV+던/ETM+곳/NNG+이/JKS+되게/MAG+멀/VA+어/EC+져서/VX+EC+힘들/VA+어/EC+하/VV+는/ETM+중/NNB+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그러시겠다 진짜 확실히 교통편도 불편해지시고...",
+            "norm_text": "그러시겠다 진짜 확실히 교통편도 불편해지시고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+시/EP+겠/EP+다/EF+진짜/MAG+확실히/MAG+교통편/NNG+도/JX+불편/NNG+해/XSV+EC+지/VX+시/EP+고/EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 한 3분 거리에서 1시간 거리가 돼버림 키키",
+            "norm_text": "한 3분 거리에서 1시간 거리가 돼버림 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한/MM+3/SN+분/NNBC+거리/NNG+에서/JKB+1/SN+시간/NNBC+거리/NNG+가/JKS+돼/VV+EC+버림/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 헐 그러시네 키키 진짜 엄청 멀어졌다; 너무 차이나 버렸네",
+            "norm_text": "헐 그러시네 키키 진짜 엄청 멀어졌다; 너무 차이나 버렸네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헐/VV+JKO+그러/VV+시/EP+네/EF+키/NNG+키/XSV+ETN+진짜/MAG+엄청/MAG+멀/VA+어/EC+졌/VX+EP+다/EC+;/SY+너무/MAG+차이/VV+나/EC+버렸/VX+EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응... ㅠ 동생은 요즘 학교 다녀?",
+            "norm_text": "응... ㅠ 동생은 요즘 학교 다녀?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+./SY+ㅠ/UNKNOWN+동생/NNG+은/JX+요즘/NNG+학교/NNG+다녀/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 지금은 방학이고 아마 2학기 개강해도 온라인 수업일 듯 키키",
+            "norm_text": "지금은 방학이고 아마 2학기 개강해도 온라인 수업일 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+방학/NNG+이/VCP+고/EC+아마/MAG+2/SN+학기/NNG+개강/NNG+해도/XSV+EC+온라인/NNG+수업/NNG+일/VCP+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 생각해 보니 너 동생 되게 많이 봤었는데도 대화한 적은 드무네 키키",
+            "norm_text": "생각해 보니 너 동생 되게 많이 봤었는데도 대화한 적은 드무네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "생각/NNG+해/XSV+EC+보/VX+니/EC+너/NP+동생/NNG+되게/MAG+많이/MAG+봤었/VV+EP+는데/EC+도/JX+대화/NNG+한/XSA+ETM+적/NNB+은/JX+드/VV+무/EC+네/MM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 내 동생 아주 미스테리한 애야 뭐 나오질 않아",
+            "norm_text": "내 동생 아주 미스테리한 애야 뭐 나오질 않아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+동생/NNG+아주/MAG+미스테리/NNG+한/XSA+ETM+애/NNG+야/VCP+EF+뭐/IC+나오/VV+질/EC+JX+않/VX+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 집에서도 밖으로 안 나오는 거야?",
+            "norm_text": "키키 집에서도 밖으로 안 나오는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+집/NNG+에서/JKB+도/JX+밖/NNG+으로/JKB+안/MAG+나오/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 나가긴 하지 키키 하루에 한번 운동하러 키키",
+            "norm_text": "아 나가긴 하지 키키 하루에 한번 운동하러 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나가/VV+긴/ETN+JX+하/VX+지/EC+키/NNG+키/NNG+하루/NNG+에/JKB+한/MM+번/NNBC+운동/NNG+하/XSV+러/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 와 키키 너 동생은 운동도 공부하려고 할 거 같아",
+            "norm_text": "와 키키 너 동생은 운동도 공부하려고 할 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와키/NNP+키너/NNP+동생/NNG+은/JX+운동/NNG+도/JX+공부/NNG+하/XSV+려고/EC+할/VX+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아니야 그냥 살려고 한 바퀴 뛰고 오는 거야 키키",
+            "norm_text": "아니야 그냥 살려고 한 바퀴 뛰고 오는 거야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니야/IC+그냥/MAG+살/VV+려고/EC+한/MM+바퀴/NNBC+뛰/VV+고/EC+오/VV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 너 동생은 잘 지내냠",
+            "norm_text": "너 동생은 잘 지내냠",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+동생/NNG+은/JX+잘/MAG+지내/VV+EC+냠/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 뭐... 요즘 공익 하고 있으니까 살이 찌더라 키키",
+            "norm_text": "뭐... 요즘 공익 하고 있으니까 살이 찌더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+./SY+요즘/MAG+공익/NNG+하/XSV+고/EC+있/VX+으니까/EC+살/NNG+이/JKS+찌/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 공익도 얼마 안 남지 않았나?",
+            "norm_text": "키키 공익도 얼마 안 남지 않았나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+공익/NNG+도/JX+얼마/NNG+안/MAG+남/VV+지/EC+않/VX+았/EP+나/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 끝나면 다시 힘들어서 빠질 거야 키키",
+            "norm_text": "끝나면 다시 힘들어서 빠질 거야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "끝/NNG+나/VV+면/EC+다시/MAG+힘들/VA+어서/EC+빠질/VX+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 30572,
+    "name": "KAKAO_506_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151220088273/KAKAO_506_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151220088273/KAKAO_506_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28626,
+      "filename": "KAKAO_506_16.txt",
+      "title": "KAKAO_506_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 524,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 524,
+        "word_size": 163,
+        "text": "1 : 요즘 화장품 어디서 사?\n2 : 나는 올리브영 많이 이용해 요즘 특히 세일 많이 해서\n1 : 남자들도 미용에 관심이 많네 요즘 키키\n2 : 당연하지 내 주변 남자친구들 대단해 나는 덜한 편이야\n1 : 내 친구도 남자앤데 비비 안 바르면 외출 안 함 키키 맨날 화장해\n2 : 나도 눈썹 그려... 반영구 할까 생각 중이야\n1 : 아! 남자들도 미용 목적으로 눈썹 시술 많이 받던데 인상이 달라지더라\n2 : 남자는 특히 눈썹이 중요하거든 인상이 많이 달라져\n1 : 나는 아파서 시술 못 받겠더라고...\n2 : 나도 그게 무서워서 그리는데 땀 때문에 지워지니깐 해야 하나 싶어\n1 : 엄살이 심해서 그런가 시술은 안 아픈 시술이 없는 거 같어\n2 : 여자들 참 대단해 아이라인 문신도 하잖아\n1 : 시술도 아픈데 성형수술은 얼마나 아플까\n2 : 나 코 수술했는데 이건 아픈 정도가 아냐 진짜 수술이야\n1 : 쌍커풀 수술을 그래서 20년째 고민만 하는 중이야 키키\n2 : 쌍커플은 요즘 뭐 10분이면 하니깐 나도 눈 찝었는데 금방했어\n2 : 그리고 마취해서 안 아파",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 화장품 어디서 사?",
+            "norm_text": "요즘 화장품 어디서 사?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+화장품/NNG+어디/NP+서/JKB+사/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 올리브영 많이 이용해 요즘 특히 세일 많이 해서",
+            "norm_text": "나는 올리브영 많이 이용해 요즘 특히 세일 많이 해서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+올리브/NNG+영/MAG+많이/MAG+이용/NNG+해/XSV+EC+요즘/MAG+특히/MAG+세일/NNG+많이/MAG+해서/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 남자들도 미용에 관심이 많네 요즘 키키",
+            "norm_text": "남자들도 미용에 관심이 많네 요즘 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남자/NNG+들/XSN+도/JX+미용/NNG+에/JKB+관심/NNG+이/JKS+많/VA+네/EF+요즘/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 당연하지 내 주변 남자친구들 대단해 나는 덜한 편이야",
+            "norm_text": "당연하지 내 주변 남자친구들 대단해 나는 덜한 편이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+내/NP+JKG+주변/NNG+남자/NNG+친구/NNG+들/XSN+대단/XR+해/XSA+EC+나/NP+는/JX+덜/MAG+한편/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 내 친구도 남자앤데 비비 안 바르면 외출 안 함 키키 맨날 화장해",
+            "norm_text": "내 친구도 남자앤데 비비 안 바르면 외출 안 함 키키 맨날 화장해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+도/JX+남자/NNG+앤데/NNG+VCP+EC+비비/MAG+안/MAG+바르/VV+면/EC+외출/MAG+안/MAG+함/VV+ETN+키/NNG+키/NNG+맨날/MAG+화장/NNG+해/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도 눈썹 그려... 반영구 할까 생각 중이야",
+            "norm_text": "나도 눈썹 그려... 반영구 할까 생각 중이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+눈썹/NNG+그려/VV+EF+./SY+반영구/NNG+할까/XSV+EC+생각/NNG+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아! 남자들도 미용 목적으로 눈썹 시술 많이 받던데 인상이 달라지더라",
+            "norm_text": "아! 남자들도 미용 목적으로 눈썹 시술 많이 받던데 인상이 달라지더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+남자/NNG+들/XSN+도/JX+미용/NNG+목적/NNG+으로/JKB+눈썹/NNG+시술/NNG+많이/MAG+받/VV+던데/EC+인상/NNG+이/JKS+달라지/VV+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 남자는 특히 눈썹이 중요하거든 인상이 많이 달라져",
+            "norm_text": "남자는 특히 눈썹이 중요하거든 인상이 많이 달라져",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남자/NNG+는/JX+특히/MAG+눈썹/NNG+이/JKS+중요/NNG+하/XSV+거든/EC+인상/NNG+이/JKS+많이/MAG+달라져/VA+EC+VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나는 아파서 시술 못 받겠더라고...",
+            "norm_text": "나는 아파서 시술 못 받겠더라고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+아파서/VA+EC+시술/NNG+못/MAG+받/VV+겠/EP+더라고/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 그게 무서워서 그리는데 땀 때문에 지워지니깐 해야 하나 싶어",
+            "norm_text": "나도 그게 무서워서 그리는데 땀 때문에 지워지니깐 해야 하나 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그게/NP+JKS+무서워서/VA+EC+그리/VV+는데/EC+땀/NNG+때문/NNB+에/JKB+지워/VV+EC+지/VX+니깐/EC+해야/VV+EC+하/VV+나/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 엄살이 심해서 그런가 시술은 안 아픈 시술이 없는 거 같어",
+            "norm_text": "엄살이 심해서 그런가 시술은 안 아픈 시술이 없는 거 같어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄살/NNG+이/JKS+심해서/VA+EC+그런가/VA+EC+시술/NNG+은/JX+안/MAG+아픈/VA+ETM+시술/NNG+이/JKS+없/VA+는/ETM+거/NNB+같/VA+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 여자들 참 대단해 아이라인 문신도 하잖아",
+            "norm_text": "여자들 참 대단해 아이라인 문신도 하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여자/NNG+들/XSN+참/MAG+대단/XR+해/XSA+EC+아이라인/NNG+문신/NNG+도/JX+하/VV+잖아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 시술도 아픈데 성형수술은 얼마나 아플까",
+            "norm_text": "시술도 아픈데 성형수술은 얼마나 아플까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "시술/NNG+도/JX+아픈데/VA+EC+성형수술/NNP+은/JX+얼마나/MAG+아플까/VA+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나 코 수술했는데 이건 아픈 정도가 아냐 진짜 수술이야",
+            "norm_text": "나 코 수술했는데 이건 아픈 정도가 아냐 진짜 수술이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나코/NNP+수술/NNG+했/XSV+EP+는데/EC+이건/NP+JX+아픈/VA+ETM+정도/NNG+가/JKC+아냐/VCN+EF+진짜/MAG+수술/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 쌍커풀 수술을 그래서 20년째 고민만 하는 중이야 키키",
+            "norm_text": "쌍커풀 수술을 그래서 20년째 고민만 하는 중이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "쌍/IC+커/VA+EC+풀/VV+ETM+수술/NNG+을/JKO+그래서/VV+EC+20/SN+년/NNBC+째/XSN+고민/NNG+만/JX+하/VV+는/ETM+중/NNB+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 쌍커플은 요즘 뭐 10분이면 하니깐 나도 눈 찝었는데 금방했어",
+            "norm_text": "쌍커플은 요즘 뭐 10분이면 하니깐 나도 눈 찝었는데 금방했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "쌍/NNG+커플/NNG+은/JX+요즘/MAG+뭐/IC+10/SN+분/NNBC+이/VCP+면/EC+하/VV+니깐/EC+나/NP+도/JX+눈/NNG+찝/VV+었/EP+는데/EC+금방/MAG+했/VV+EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그리고 마취해서 안 아파",
+            "norm_text": "그리고 마취해서 안 아파",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+마취/NNG+해서/XSV+EC+안/MAG+아파/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

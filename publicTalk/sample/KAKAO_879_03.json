@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40725,
+    "name": "KAKAO_879_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175222000461/KAKAO_879_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175222000461/KAKAO_879_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40421,
+      "filename": "KAKAO_879_03.txt",
+      "title": "KAKAO_879_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 310,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 310,
+        "word_size": 108,
+        "text": "1 : 여보는 배 많이 타 봤어?\n2 : 아니 오리배 같은 것도 많이 안 타봤어\n1 : 오리배는 요즘도 있으려나?\n2 : 수성못에 아직 있지 않을까?\n1 : 그런가? 두류 공원은 못 봤던 거 같아\n2 : 우리 같이 오리배 탄 적이 있었는가?\n1 : 여보랑 연애할 때 타 봤지\n2 : 그때가 언제야 20년은 더 지났네.\n1 : 애들 크면서 어디 못 갔으니\n2 : 응 다음에 둘이서 타러 가자.\n1 : 그래 한번 찾아서 가보자\n2 : 응 여보가 열심히 운전해야지.\n1 : 여보는 안 할 거야?\n2 : 여보 힘들면 도와줄게.\n1 : 에이 난 힘든 거 없어\n2 : 그러면 여보 믿고 갈게.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여보는 배 많이 타 봤어?",
+            "norm_text": "여보는 배 많이 타 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여보/NNG+는/JX+배/NNG+많이/MAG+타/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 오리배 같은 것도 많이 안 타봤어",
+            "norm_text": "아니 오리배 같은 것도 많이 안 타봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/VCN+오리/EC+배/NNG+같/VA+은/ETM+것/NNB+도/JX+많이/MAG+안/MAG+타/VV+EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오리배는 요즘도 있으려나?",
+            "norm_text": "오리배는 요즘도 있으려나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오리/NNG+배/NNG+는/JX+요즘/NNG+도/JX+있/VA+으려나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 수성못에 아직 있지 않을까?",
+            "norm_text": "수성못에 아직 있지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수성/NNG+못/NNG+에/JKB+아직/MAG+있/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런가? 두류 공원은 못 봤던 거 같아",
+            "norm_text": "그런가? 두류 공원은 못 봤던 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EF+두류/NNG+공원/NNG+은/JX+못/MAG+봤/VV+EP+던/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 우리 같이 오리배 탄 적이 있었는가?",
+            "norm_text": "우리 같이 오리배 탄 적이 있었는가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+같이/MAG+오리/NNG+배탄/NNG+적/XSN+이/JKC+있/VV+었/EP+는가/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 여보랑 연애할 때 타 봤지",
+            "norm_text": "여보랑 연애할 때 타 봤지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여보/NNG+랑/JKB+연애/NNG+할/XSV+ETM+때/NNG+타/XSV+EC+봤/VX+EP+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그때가 언제야 20년은 더 지났네.",
+            "norm_text": "그때가 언제야 20년은 더 지났네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그때/NNG+가/JKS+언제/NP+야/JX+20/SN+년/NNBC+은/JX+더/MAG+지났/VV+EP+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 애들 크면서 어디 못 갔으니",
+            "norm_text": "애들 크면서 어디 못 갔으니",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "애/NNG+들/XSN+크/VA+면서/EC+어디/NP+못/MAG+갔으니/VV+EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 다음에 둘이서 타러 가자.",
+            "norm_text": "응 다음에 둘이서 타러 가자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+다음/NNG+에/JKB+둘/NR+이/XSN+서/JKS+타/VV+러/EC+가/VX+자/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래 한번 찾아서 가보자",
+            "norm_text": "그래 한번 찾아서 가보자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+한/MM+번/NNBC+찾/VV+아서/EC+가/JKS+보/VV+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 여보가 열심히 운전해야지.",
+            "norm_text": "응 여보가 열심히 운전해야지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+여보/NNG+가/JKS+열심히/MAG+운전/NNG+해야지/XSV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 여보는 안 할 거야?",
+            "norm_text": "여보는 안 할 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여보/NNG+는/JX+안/MAG+할/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 여보 힘들면 도와줄게.",
+            "norm_text": "여보 힘들면 도와줄게.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "여보/IC+힘들/VA+면/EC+도와/VV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 에이 난 힘든 거 없어",
+            "norm_text": "에이 난 힘든 거 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/IC+난/NP+JX+힘든/VA+ETM+거/NNB+없/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그러면 여보 믿고 갈게.",
+            "norm_text": "그러면 여보 믿고 갈게.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러면/MAJ+여보/IC+믿/VV+고/EC+갈게/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

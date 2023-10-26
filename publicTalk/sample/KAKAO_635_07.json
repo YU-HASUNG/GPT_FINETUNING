@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 33236,
+    "name": "KAKAO_635_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113016032563/KAKAO_635_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113016032563/KAKAO_635_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31939,
+      "filename": "KAKAO_635_07.txt",
+      "title": "KAKAO_635_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 887,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 887,
+        "word_size": 267,
+        "text": "1 : 하하 맞아 언니 그래도 이번 달엔 추석 있어서 가족들 보고 좋다!\n2 : 하하 나도! 비록 부모님이 오시지만, 맛있는 식당 예약해뒀어!\n2 : 하하 남산도 가볼까 해!\n2 : 너는 계획 있어?\n1 : 아니 ! 나 사실 무 계획이야ㅠㅠ\n1 : 언니 식당도 예약해두다니 부모님 모시고 어디 가는 거야? 찐 효녀...\n2 : 아 일 순위는 예약 다 찼다 그래서 ㅠㅠ 퓨전 한식당? 같은 거 이태원에 예약 했어 하하\n1 : 너무 좋지 ! 딱이다 하하\n1 : 남산 안에도 한식당 있었는데 이제 코로나 때문에 없어졌으려나ㅠㅠ\n2 : 키키 남산 안 간 지 오래된 듯...\n2 : 부모님이랑 뭔가 야경을 한 번도 보러 안 간 거 같아서 가 보려구 하하\n1 : 너무 좋지 나도 부모님이랑 남산 갔었는데 ! 가고 싶네\n1 : 하하 서울 야경 부모님이랑 보면 좋겠다\n2 : 하하 맞아 부모님이 여기저기 구경하는가 좋아하셔서 나도 덕분에 힐링 하겠다\n1 : 짱이다 하하 인사동 같은데도 좋겠다!\n1 : 나는 조카들이 있어서 조카들 맞춤으로 움직여야 해 나가려면...\n2 : 하하 맞아 나도 근데 조카랑 언니랑 서울 놀러 왔으면 좋겠다 ㅠㅠ 어린이 대공원 데려가게 키키\n1 : 나도 조카한데 서울대공원 데려간다고 했거든 동물 보여주러 동물들이 갇혀있어서 마음이 아프지만 다양한 동물들 보여주고 싶기도 해 ㅠㅠ\n2 : 맞아 ㅠㅠ 그리고 놀이동산도 있고! 놀이터도 잘되어 있고 잔디밭도 넓어서 진짜 꼭 같이 가고 싶어\n1 : 언니 어린이 대공원 근처에 오감 체험 하는 거 있어 그거 예약해줬는데 너무 좋아하더라구! 언니 조카도 동갑이니까 좋아할 것 같아!\n2 : 우와 나도 다음에 해줘야겠다! 주변에 어린이 소방관? 그런 체험도 있고 좋은 거 같아!\n1 : 하하 우리는 가족들은 참 잘 생각해 그렇지?\n2 : 맞아 하하 가족이랑 노는 거 재밌어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 하하 맞아 언니 그래도 이번 달엔 추석 있어서 가족들 보고 좋다!",
+            "norm_text": "하하 맞아 언니 그래도 이번 달엔 추석 있어서 가족들 보고 좋다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+맞/VV+아/EC+언니/NNG+그래도/VV+EC+이번/NNG+달/NNG+엔/JKB+JX+추석/NNG+있/VV+어서/EC+가족/NNG+들/XSN+보/VV+고/EC+좋/VA+다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 하하 나도! 비록 부모님이 오시지만, 맛있는 식당 예약해뒀어!",
+            "norm_text": "하하 나도! 비록 부모님이 오시지만, 맛있는 식당 예약해뒀어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하/IC+하나/NR+도/JX+비록/MAG+부모/NNG+님/XSN+이/JKS+오/VV+시/EP+지만/EC+,/SC+맛있/VA+는/ETM+식당/NNG+예약/NNG+해뒀/XSV+EC+VX+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 하하 남산도 가볼까 해!",
+            "norm_text": "하하 남산도 가볼까 해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하하/MAG+남산도/NNG+가/JKS+볼까/VV+EC+해/VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너는 계획 있어?",
+            "norm_text": "너는 계획 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+계획/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 ! 나 사실 무 계획이야ㅠㅠ",
+            "norm_text": "아니 ! 나 사실 무 계획이야ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+나/NP+사실/MAG+무계획/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 언니 식당도 예약해두다니 부모님 모시고 어디 가는 거야? 찐 효녀...",
+            "norm_text": "언니 식당도 예약해두다니 부모님 모시고 어디 가는 거야? 찐 효녀...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+식당/NNG+도/JX+예약/NNG+해/XSV+EC+두/VX+다니/EC+부모/NNG+님/XSN+모시/VV+고/EC+어디/NP+가/VV+는/ETM+거/NNB+야/VCP+EF+찐/VV+ETM+효녀/NNG+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아 일 순위는 예약 다 찼다 그래서 ㅠㅠ 퓨전 한식당? 같은 거 이태원에 예약 했어 하하",
+            "norm_text": "아 일 순위는 예약 다 찼다 그래서 ㅠㅠ 퓨전 한식당? 같은 거 이태원에 예약 했어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아일/NNG+순위/NNG+는/JX+예약/NNG+다/MAG+찼/VV+EP+다/EF+그래서/MAJ+ㅠㅠ/UNKNOWN+퓨전/NNG+한/XSA+ETM+식당/NNG+같/VA+은/ETM+거/NNB+이태원/NNP+에/JKB+예약/NNG+했/XSV+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 너무 좋지 ! 딱이다 하하",
+            "norm_text": "너무 좋지 ! 딱이다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+좋/VA+지/EF+딱이/MAG+다/MAG+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 남산 안에도 한식당 있었는데 이제 코로나 때문에 없어졌으려나ㅠㅠ",
+            "norm_text": "남산 안에도 한식당 있었는데 이제 코로나 때문에 없어졌으려나ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남산/NNP+안/NNG+에/JKB+도/JX+한/MM+식당/NNG+있/VV+었/EP+는데/EC+이제/MAG+코로나/NNG+때문/NNB+에/JKB+없/VA+어/EC+졌/VX+EP+으려나/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 남산 안 간 지 오래된 듯...",
+            "norm_text": "키키 남산 안 간 지 오래된 듯...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+남산/NNG+안/MAG+간지/VV+EC+오래/MAG+된/VV+ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 부모님이랑 뭔가 야경을 한 번도 보러 안 간 거 같아서 가 보려구 하하",
+            "norm_text": "부모님이랑 뭔가 야경을 한 번도 보러 안 간 거 같아서 가 보려구 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "부모/NNG+님/XSN+이랑/JC+뭔가/NP+VCP+EC+야경/NNG+을/JKO+한/MM+번/NNBC+도/JX+보/VV+러/EC+안/MAG+간/VV+ETM+거/NNB+같/VA+아서/EC+가/JKS+보/VV+려구/EC+하하/MAG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 너무 좋지 나도 부모님이랑 남산 갔었는데 ! 가고 싶네",
+            "norm_text": "너무 좋지 나도 부모님이랑 남산 갔었는데 ! 가고 싶네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+좋/VA+지/EF+나/NP+도/JX+부모/NNG+님/XSN+이랑/JKB+남산/NNG+갔었/VV+EP+는데/EF+가/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하하 서울 야경 부모님이랑 보면 좋겠다",
+            "norm_text": "하하 서울 야경 부모님이랑 보면 좋겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+서울/NNP+야경/NNG+부모/NNG+님/XSN+이랑/JKB+보/VV+면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 하하 맞아 부모님이 여기저기 구경하는가 좋아하셔서 나도 덕분에 힐링 하겠다",
+            "norm_text": "하하 맞아 부모님이 여기저기 구경하는가 좋아하셔서 나도 덕분에 힐링 하겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+맞/VV+아/EC+부모/NNG+님/XSN+이/JKS+여기저기/NNG+구경/NNG+하/XSV+는가/EC+좋/VA+아/EC+하/VX+셔서/EP+EC+나/NP+도/JX+덕분/NNG+에/JKB+힐링/NNG+하/XSV+겠/EP+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 짱이다 하하 인사동 같은데도 좋겠다!",
+            "norm_text": "짱이다 하하 인사동 같은데도 좋겠다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짱/NNG+이/JKS+다/MAG+하하/MAG+인사동/NNP+같/VA+은/ETM+데/NNB+도/JX+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나는 조카들이 있어서 조카들 맞춤으로 움직여야 해 나가려면...",
+            "norm_text": "나는 조카들이 있어서 조카들 맞춤으로 움직여야 해 나가려면...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+조카/NNG+들/XSN+이/JKS+있/VV+어서/EC+조카/NNG+들/XSN+맞춤/NNG+으로/JKB+움직여야/VV+EC+해/VV+EC+나가/VX+려면/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 하하 맞아 나도 근데 조카랑 언니랑 서울 놀러 왔으면 좋겠다 ㅠㅠ 어린이 대공원 데려가게 키키",
+            "norm_text": "하하 맞아 나도 근데 조카랑 언니랑 서울 놀러 왔으면 좋겠다 ㅠㅠ 어린이 대공원 데려가게 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+맞/VV+아/EC+나/NP+도/JX+근데/MAJ+조카/NNG+랑/JKB+언니/NNG+랑/JC+서울/NNP+놀러왔/VV+EP+으면/EC+좋/VA+겠/EP+다/EF+ㅠㅠ/UNKNOWN+어린이/NNG+대공원/NNG+데려가/VV+게/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 나도 조카한데 서울대공원 데려간다고 했거든 동물 보여주러 동물들이 갇혀있어서 마음이 아프지만 다양한 동물들 보여주고 싶기도 해 ㅠㅠ",
+            "norm_text": "나도 조카한데 서울대공원 데려간다고 했거든 동물 보여주러 동물들이 갇혀있어서 마음이 아프지만 다양한 동물들 보여주고 싶기도 해 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+조카/NNG+한데/XSA+EC+서울대/NNP+공원/NNG+데려/VV+EC+간다고/VX+EC+했/VX+EP+거든/EF+동물/NNG+보여/VV+EC+주/VX+러/EC+동물/NNG+들/XSN+이/JKS+갇혀/VV+EC+있/VX+어서/EC+마음/NNG+이/JKS+아프/VA+지만/EC+다양/XR+한/XSA+ETM+동물/NNG+들/XSN+보여/VV+EC+주/VX+고/EC+싶/VX+기/ETN+도/JX+해/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 맞아 ㅠㅠ 그리고 놀이동산도 있고! 놀이터도 잘되어 있고 잔디밭도 넓어서 진짜 꼭 같이 가고 싶어",
+            "norm_text": "맞아 ㅠㅠ 그리고 놀이동산도 있고! 놀이터도 잘되어 있고 잔디밭도 넓어서 진짜 꼭 같이 가고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+그리고/MAJ+놀이동산/NNG+도/JX+있/VA+고/EC+!/SY+놀이터/NNG+도/JX+잘/MAG+되/VV+어/EC+있/VX+고/EC+잔디밭/NNG+도/JX+넓/VA+어서/EC+진짜/MAG+꼭/MAG+같이/MAG+가/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 언니 어린이 대공원 근처에 오감 체험 하는 거 있어 그거 예약해줬는데 너무 좋아하더라구! 언니 조카도 동갑이니까 좋아할 것 같아!",
+            "norm_text": "언니 어린이 대공원 근처에 오감 체험 하는 거 있어 그거 예약해줬는데 너무 좋아하더라구! 언니 조카도 동갑이니까 좋아할 것 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+어린이/NNG+대공원/NNG+근처/NNG+에/JKB+오감/NNG+체험/NNG+하/XSV+는/ETM+거/NNB+있/VA+어/EC+그거/NP+예약/NNG+해/XSV+EC+줬/VX+EP+는데/EC+너무/MAG+좋/VA+아/EC+하/VX+더라구/EF+언니/NNG+조카/NNG+도/JX+동갑/NNG+이/VCP+니까/EC+좋아할/VV+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 우와 나도 다음에 해줘야겠다! 주변에 어린이 소방관? 그런 체험도 있고 좋은 거 같아!",
+            "norm_text": "우와 나도 다음에 해줘야겠다! 주변에 어린이 소방관? 그런 체험도 있고 좋은 거 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+나/NP+도/JX+다음/NNG+에/JKB+해/VV+EC+줘야겠다/VX+EC+VX+EP+EF+주변/NNG+에/JKB+어린이/NNG+소방관/NNG+그런/MM+체험/NNG+도/JX+있/VA+고/EC+좋/VA+은/ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 하하 우리는 가족들은 참 잘 생각해 그렇지?",
+            "norm_text": "하하 우리는 가족들은 참 잘 생각해 그렇지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+우리/NP+는/JX+가족/NNG+들/XSN+은/JX+참/MAG+잘/MAG+생각/NNG+해/XSV+EC+그렇/VA+지/EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 맞아 하하 가족이랑 노는 거 재밌어",
+            "norm_text": "맞아 하하 가족이랑 노는 거 재밌어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+하하/MAG+가족/NNG+이랑/JKB+노/VV+는/ETM+거/NNB+재밌/VA+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

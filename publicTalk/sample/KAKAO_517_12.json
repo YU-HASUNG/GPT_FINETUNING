@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 31809,
+    "name": "KAKAO_517_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144217099799/KAKAO_517_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144217099799/KAKAO_517_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28983,
+      "filename": "KAKAO_517_12.txt",
+      "title": "KAKAO_517_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 676,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 676,
+        "word_size": 232,
+        "text": "1 : 진짜 차 타고 여행 가고 싶음 뻥 뚫린 해안도로\n2 : 나 월요일에 동해 바다 보러 감\n2 : 진짜 바다 주기적으로 안 보면 죽는 병이야\n1 : 바다에 미쳐 살면서 왜 우린 완전 산 동네 출신이냐 키키\n1 : 난 여길 벗어나 본 적이 없어\n2 : 나도 뭐 장거리 연애의 몇 안 되는 장점이랄까...\n2 : 남친 보러 간다면서 여행 갈 수 있음\n1 : 아 맞다 남자 친구 멀리 살지.\n1 : 아 나도 여행 가고 싶어 미치겠음 요즘\n2 : 시험 끝나고 바로 바다로 떠나자\n2 : 요즘 국내도 좋은 데 많음\n1 : 아 나 고등학생 때 지금 남친이랑 만날 때 통영 갔었는데 거기가 아직도 잊혀지지가 않아.\n1 : 첫 여행이었어서 그럴 수도 있는데 너무 좋았음.\n2 : 이번에 제주도보다 좋았어?\n1 : 으응 제주도는 내 인생 최고였어 ...!\n2 : 한겨울에 제주도 가보고 싶당 눈 덮인 제주도\n1 : 아 진짜 나도 너무 가고 싶음.\n1 : 얼마나 이쁠까\n2 : 코로나도 끝나야 해외를 가던가 할 텐데...\n2 : 고립된 거 같다\n1 : 난 진자 해외여행 처음 갈 때 눈물 날듯.\n1 : 언제 가보냐\n2 : 그러니까 비행기 타본 게...\n2 : 얼마 안 됐네 생각해보니까 ㅎ\n2 : 부산 갈 때 뱅기 탐\n1 : 난 부산도 간 지 왕 오래됐어.\n1 : 부산도 가고 싶다 재밌었는데\n2 : 난 진짜 부산 너무 좋아...\n2 : 해운대 광안리 쪽 살아보고 싶다니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 진짜 차 타고 여행 가고 싶음 뻥 뚫린 해안도로",
+            "norm_text": "진짜 차 타고 여행 가고 싶음 뻥 뚫린 해안도로",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+차/NNG+타/VV+고/EC+여행/NNG+가/VV+고/EC+싶/VX+음/ETN+뻥/NNG+뚫린/VV+ETM+해안도/NNG+로/JKB"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 월요일에 동해 바다 보러 감",
+            "norm_text": "나 월요일에 동해 바다 보러 감",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+월요일/NNG+에/JKB+동해/VV+EC+바다/NNG+보/VV+러/EC+감/VX+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 진짜 바다 주기적으로 안 보면 죽는 병이야",
+            "norm_text": "진짜 바다 주기적으로 안 보면 죽는 병이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+바다/NNG+주기/NNG+적/XSN+으로/JKB+안/MAG+보/VV+면/EC+죽/VV+는/ETM+병/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 바다에 미쳐 살면서 왜 우린 완전 산 동네 출신이냐 키키",
+            "norm_text": "바다에 미쳐 살면서 왜 우린 완전 산 동네 출신이냐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "바다/NNG+에/JKB+미쳐/VV+EC+살/VV+면서/EC+왜/MAG+우린/NP+JX+완전/MAG+산동네/NNG+출신/NNG+이냐키/NNP+키/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 난 여길 벗어나 본 적이 없어",
+            "norm_text": "난 여길 벗어나 본 적이 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+여길/NP+JKO+벗어나/VV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도 뭐 장거리 연애의 몇 안 되는 장점이랄까...",
+            "norm_text": "나도 뭐 장거리 연애의 몇 안 되는 장점이랄까...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+뭐/IC+장거리/NNG+연애/NNG+의/JKG+몇/MM+안/NNG+되/XSV+는/ETM+장점/NNG+이/VCP+랄까/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 남친 보러 간다면서 여행 갈 수 있음",
+            "norm_text": "남친 보러 간다면서 여행 갈 수 있음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남친/NNG+보/VV+러/EC+간다면서/VX+EC+여행/NNG+갈/VV+ETM+수/NNB+있/VV+음/ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 맞다 남자 친구 멀리 살지.",
+            "norm_text": "아 맞다 남자 친구 멀리 살지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+다/EC+남자/NNG+친구/NNG+멀리/MAG+살/VV+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 나도 여행 가고 싶어 미치겠음 요즘",
+            "norm_text": "아 나도 여행 가고 싶어 미치겠음 요즘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+도/JX+여행/NNG+가/VV+고/EC+싶/VX+어/EC+미치/VV+겠/EP+음/ETN+요즘/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 시험 끝나고 바로 바다로 떠나자",
+            "norm_text": "시험 끝나고 바로 바다로 떠나자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시험/NNG+끝/NNG+나/VV+고/EC+바로/MAG+바다/NNG+로/JKB+떠나/VV+자/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 요즘 국내도 좋은 데 많음",
+            "norm_text": "요즘 국내도 좋은 데 많음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+국내/NNG+도/JX+좋/VA+은/ETM+데/NNB+많/VA+음/ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 나 고등학생 때 지금 남친이랑 만날 때 통영 갔었는데 거기가 아직도 잊혀지지가 않아.",
+            "norm_text": "아 나 고등학생 때 지금 남친이랑 만날 때 통영 갔었는데 거기가 아직도 잊혀지지가 않아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아나고/NNG+등/NNB+학생/NNG+때/NNG+지금/MAG+남친/NNG+이랑/JKB+만날/VV+ETM+때/NNG+통영/NNG+갔었/VV+EP+는데/EC+거기/NP+가/JKS+아직/MAG+도/JX+잊혀/VV+EC+지/VX+지/EC+가/JX+않/VX+아/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 첫 여행이었어서 그럴 수도 있는데 너무 좋았음.",
+            "norm_text": "첫 여행이었어서 그럴 수도 있는데 너무 좋았음.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "첫/MM+여행/NNG+이/VCP+었/EP+어서/EC+그럴/VV+ETM+수/NNB+도/JX+있/VA+는데/EC+너무/MAG+좋/VA+았/EP+음/ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 이번에 제주도보다 좋았어?",
+            "norm_text": "이번에 제주도보다 좋았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+에/JKB+제주도/NNP+보다/JKB+좋/VA+았/EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 으응 제주도는 내 인생 최고였어 ...!",
+            "norm_text": "으응 제주도는 내 인생 최고였어 ...!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으응/IC+제주도/NNP+는/JX+내/NP+JKG+인생/NNG+최고/NNG+였/VCP+EP+어/EF+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 한겨울에 제주도 가보고 싶당 눈 덮인 제주도",
+            "norm_text": "한겨울에 제주도 가보고 싶당 눈 덮인 제주도",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+겨울/NNG+에/JKB+제주도/NNP+가/JKS+보/VV+고/EC+싶/VX+당/EF+눈/NNG+덮인/VV+ETM+제주도/NNP"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 진짜 나도 너무 가고 싶음.",
+            "norm_text": "아 진짜 나도 너무 가고 싶음.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+나/NP+도/JX+너무/MAG+가/VV+고/EC+싶/VX+음/ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 얼마나 이쁠까",
+            "norm_text": "얼마나 이쁠까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼마나/MAG+이쁠까/VA+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 코로나도 끝나야 해외를 가던가 할 텐데...",
+            "norm_text": "코로나도 끝나야 해외를 가던가 할 텐데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코로나/NNG+도/JX+끝/NNG+나야/VV+EC+해외/NNG+를/JKO+가/VV+던가/EC+할텐데/VX+ETM+NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 고립된 거 같다",
+            "norm_text": "고립된 거 같다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고립/NNG+된/XSV+ETM+거/NNB+같/VA+다/EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 난 진자 해외여행 처음 갈 때 눈물 날듯.",
+            "norm_text": "난 진자 해외여행 처음 갈 때 눈물 날듯.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+진자/MAG+해외여행/NNG+처음/NNG+갈/VV+ETM+때/NNG+눈물/NNG+날/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 22,
+            "text": "1 : 언제 가보냐",
+            "norm_text": "언제 가보냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언제/NP+가/JKS+보/VV+냐/EC"
+          },
+          {
+            "id": 23,
+            "text": "2 : 그러니까 비행기 타본 게...",
+            "norm_text": "그러니까 비행기 타본 게...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+비행기/NNG+타/XSV+EC+본/VX+ETM+게/NNB+JKS+./SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : 얼마 안 됐네 생각해보니까 ㅎ",
+            "norm_text": "얼마 안 됐네 생각해보니까 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "얼마/NNG+안/MAG+됐/VV+EP+네/EF+생각/NNG+해/XSV+EC+보/VX+니까/EC+ㅎ/XSA"
+          },
+          {
+            "id": 25,
+            "text": "2 : 부산 갈 때 뱅기 탐",
+            "norm_text": "부산 갈 때 뱅기 탐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "부산갈때뱅기탐/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 난 부산도 간 지 왕 오래됐어.",
+            "norm_text": "난 부산도 간 지 왕 오래됐어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+부산/NNP+도/JX+간지/VV+EC+왕/IC+오래/MAG+됐/VV+EP+어/EF"
+          },
+          {
+            "id": 27,
+            "text": "1 : 부산도 가고 싶다 재밌었는데",
+            "norm_text": "부산도 가고 싶다 재밌었는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부산/NNP+도/JX+가/VV+고/EC+싶/VX+다/EC+재밌/VA+었/EP+는데/EC"
+          },
+          {
+            "id": 28,
+            "text": "2 : 난 진짜 부산 너무 좋아...",
+            "norm_text": "난 진짜 부산 너무 좋아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+진짜/MAG+부산/NNP+너무/MAG+좋/VA+아/EF+./SY"
+          },
+          {
+            "id": 29,
+            "text": "2 : 해운대 광안리 쪽 살아보고 싶다니까",
+            "norm_text": "해운대 광안리 쪽 살아보고 싶다니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해운대/NNP+광안리/NNP+쪽/NNB+살/VV+아/EC+보/VX+고/EC+싶/VX+다니까/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 27336,
+    "name": "KAKAO_488_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404022291/KAKAO_488_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404022291/KAKAO_488_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29368,
+      "filename": "KAKAO_488_17.txt",
+      "title": "KAKAO_488_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 458,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 458,
+        "word_size": 146,
+        "text": "1 : 오늘 내 친구 건강검진받았다는데~\n2 : 그래~? 우리 딸은 검진 언제 받나?\n1 : 나는 아직 계획이 없는데... 내 친구 이번에 첫 건강 검진이래!\n2 : 처음 받은 거구나~\n2 : 건강 검진 받아야지~\n2 : 아빠도 받아야겠네\n1 : 아빠 이번 년도에 받아야 돼지?\n2 : 이번에 아빠도 받아야 돼~\n2 : 하루를 빼야 하니 걱정이네~\n1 : 그래도 건강 검진하면 수면 내시경도 하고 해야 되니까 쉬는 게 좋지~\n2 : 건강 검진 날짜를 언제로 잡아야 하나~\n2 : 다음 주로 할까 아빠?\n1 : 다음 주에 일 빼는 게 더 쉽겠어~?\n2 : 다음 주가 그래도 일이 널널하니까~\n1 : 그래 그럼 내가 예약 잡아줄게!\n2 : 그래~ 좋다~ 가까운 곳으로 한 번 잡아줘~\n1 : 시간은 언제가 좋아?\n2 : 시간은 아침 시간대가 좋겠네~!\n1 : 그래 아침에 일찍 갔다가 빨리 끝내는 게 좋지!\n2 : 그래~ 예약하고 나면 아빠한테도 말해줘~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 내 친구 건강검진받았다는데~",
+            "norm_text": "오늘 내 친구 건강검진받았다는데~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+내/NP+JKG+친구/NNG+건강/NNG+검진/NNG+받/VV+았/EP+다는데/EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그래~? 우리 딸은 검진 언제 받나?",
+            "norm_text": "그래~? 우리 딸은 검진 언제 받나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/VA+EC+~/SY+우리/NP+딸/NNG+은/JX+검진/NNG+언제/MAG+받/VV+나/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나는 아직 계획이 없는데... 내 친구 이번에 첫 건강 검진이래!",
+            "norm_text": "나는 아직 계획이 없는데... 내 친구 이번에 첫 건강 검진이래!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+아직/MAG+계획/NNG+이/JKS+없/VA+는데/EC+./SY+./SY+내/NP+JKG+친구/NNG+이번/NNG+에/JKB+첫/MM+건강/NNG+검진/NNG+이/VCP+래/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 처음 받은 거구나~",
+            "norm_text": "처음 받은 거구나~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "처음/MAG+받/VV+은/ETM+거/NNB+구나/VCP+EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 건강 검진 받아야지~",
+            "norm_text": "건강 검진 받아야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "건강/NNG+검진/NNG+받/VV+아야지/EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아빠도 받아야겠네",
+            "norm_text": "아빠도 받아야겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "아빠/NNG+도/JX+받/VV+아야/EC+겠/EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아빠 이번 년도에 받아야 돼지?",
+            "norm_text": "아빠 이번 년도에 받아야 돼지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+이번/NNG+년/NNB+도/NNG+에/JKB+받/VV+아야/EC+돼지/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 이번에 아빠도 받아야 돼~",
+            "norm_text": "이번에 아빠도 받아야 돼~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이번/NNG+에/JKB+아빠/NNG+도/JX+받/VV+아야/EC+돼/VV+EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 하루를 빼야 하니 걱정이네~",
+            "norm_text": "하루를 빼야 하니 걱정이네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하루/NNG+를/JKO+빼/VV+야/EC+하/VV+니/EC+걱정/NNG+이/VCP+네/EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그래도 건강 검진하면 수면 내시경도 하고 해야 되니까 쉬는 게 좋지~",
+            "norm_text": "그래도 건강 검진하면 수면 내시경도 하고 해야 되니까 쉬는 게 좋지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+건강/NNG+검진/NNG+하/XSV+면/EC+수면/NNG+내시경/NNG+도/JX+하/VV+고/EC+해야/VV+EC+되/VV+니까/EC+쉬/VV+는/ETM+게/NNB+JKS+좋/VA+지/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 건강 검진 날짜를 언제로 잡아야 하나~",
+            "norm_text": "건강 검진 날짜를 언제로 잡아야 하나~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "건강/NNG+검진/NNG+날짜/NNG+를/JKO+언제/NP+로/JKB+잡/VV+아야/EC+하나/NR+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 다음 주로 할까 아빠?",
+            "norm_text": "다음 주로 할까 아빠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다음/NNG+주로/MAG+할까/VV+EC+아빠/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 다음 주에 일 빼는 게 더 쉽겠어~?",
+            "norm_text": "다음 주에 일 빼는 게 더 쉽겠어~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다음/NNG+주/NNG+에/JKB+일/NNG+빼/VV+는/ETM+게/NNB+JKS+더/MAG+쉽/VA+겠/EP+어/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 다음 주가 그래도 일이 널널하니까~",
+            "norm_text": "다음 주가 그래도 일이 널널하니까~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+주/NNG+가/JKS+그래도/VV+EC+일/NNG+이/JKS+널널/XR+하/XSA+니까/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래 그럼 내가 예약 잡아줄게!",
+            "norm_text": "그래 그럼 내가 예약 잡아줄게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+그럼/MAJ+내/NP+가/JKS+예약/NNG+잡/VV+아/EC+줄게/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래~ 좋다~ 가까운 곳으로 한 번 잡아줘~",
+            "norm_text": "그래~ 좋다~ 가까운 곳으로 한 번 잡아줘~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그래/VA+EC+~/SY+좋/VA+다/EC+~/SY+가까운/VA+ETM+곳/NNG+으로/JKB+한/MM+번/NNBC+잡/VV+아/EC+줘/VX+EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 시간은 언제가 좋아?",
+            "norm_text": "시간은 언제가 좋아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "시간/NNG+은/JX+언제/NP+가/JKS+좋/VA+아/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 시간은 아침 시간대가 좋겠네~!",
+            "norm_text": "시간은 아침 시간대가 좋겠네~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시간/NNG+은/JX+아침/NNG+시간대/NNG+가/JKS+좋/VA+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그래 아침에 일찍 갔다가 빨리 끝내는 게 좋지!",
+            "norm_text": "그래 아침에 일찍 갔다가 빨리 끝내는 게 좋지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+아침/NNG+에/JKB+일찍/MAG+갔/VV+EP+다가/EC+빨리/MAG+끝내/VV+는/ETM+게/NNB+JKS+좋/VA+지/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그래~ 예약하고 나면 아빠한테도 말해줘~!",
+            "norm_text": "그래~ 예약하고 나면 아빠한테도 말해줘~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그래/VA+EC+~/SY+예약/NNG+하/XSV+고/EC+나/VX+면/EC+아빠/NNG+한테/JKB+도/JX+말/NNG+해/XSV+EC+줘/VX+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

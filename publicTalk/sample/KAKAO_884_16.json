@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 63994,
+    "name": "KAKAO_884_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095033032574/KAKAO_884_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095033032574/KAKAO_884_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40615,
+      "filename": "KAKAO_884_16.txt",
+      "title": "KAKAO_884_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 397,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 397,
+        "word_size": 132,
+        "text": "1 : 다이어트 보조제 추천 좀 ㅜ\n2 : 니가 무슨 다이어트 해?\n2 : 세상에서 없어지려고?\n1 : 뭔 소리고. 살이 너무 쪄서 미치겠다\n2 : 주소 좀 불러봐 오함마 들고 갈게\n1 : 아니 진짜 곧 80kg 나감 키키\n2 : 와, 맞다 니 고도 비만이였지 딴 애랑 착각했네\n1 : 넌 보조제 안 먹어서 모르려나...\n2 : 맞아 나는 170에 47키로라서 더 찌워야 해 ㅜ\n1 : 하긴... 닌 게이너 먹어야겠다\n2 : 키키 어제도 길거리 캐스팅 될 뻔 ㅜ\n1 : 다이어트는 평생 과제라는데 닌 모르제\n2 : 에이 나도 다 하지... 알게 모르게\n1 : 평생 마르면 어떤 기분이야?\n2 : 몰라 ㅜㅜ 남들은 다 부럽다고 하던데 난 별로\n1 : 부럽다... 내 살 좀 가져가라 ㅜㅜ\n2 : 아니야 너처럼 적당히 떡대 있는 게 보기 좋아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 다이어트 보조제 추천 좀 ㅜ",
+            "norm_text": "다이어트 보조제 추천 좀 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "다이어트/NNG+보조제/NNG+추천/NNG+좀ㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 니가 무슨 다이어트 해?",
+            "norm_text": "니가 무슨 다이어트 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+가/JKS+무슨/MM+다이어트/NNG+해/XSV+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 세상에서 없어지려고?",
+            "norm_text": "세상에서 없어지려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "세상/NNG+에서/JKB+없/VA+어/EC+지/VX+려고/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 뭔 소리고. 살이 너무 쪄서 미치겠다",
+            "norm_text": "뭔 소리고. 살이 너무 쪄서 미치겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "뭔/MM+소리/NNG+고/VCP+EC+./SY+살/NNG+이/JKS+너무/MAG+쪄서/VV+EC+미치/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 주소 좀 불러봐 오함마 들고 갈게",
+            "norm_text": "주소 좀 불러봐 오함마 들고 갈게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주소/NNG+좀/MAG+불러/VV+EC+봐/VX+EF+오/IC+함마/NNP+들/VV+고/EC+갈/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아니 진짜 곧 80kg 나감 키키",
+            "norm_text": "아니 진짜 곧 80kg 나감 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+진짜/MAG+곧/MAG+80/SN+kg/SL+나감/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 와, 맞다 니 고도 비만이였지 딴 애랑 착각했네",
+            "norm_text": "와, 맞다 니 고도 비만이였지 딴 애랑 착각했네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+,/SC+맞/VV+다니/EC+고도/NNG+비만/NNG+이/VCP+였/EP+지/EF+딴/MM+애/NNG+랑/JKB+착각/NNG+했/XSV+EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 넌 보조제 안 먹어서 모르려나...",
+            "norm_text": "넌 보조제 안 먹어서 모르려나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넌/NP+JX+보조제/NNG+안/MAG+먹/VV+어서/EC+모르/VV+려나/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아 나는 170에 47키로라서 더 찌워야 해 ㅜ",
+            "norm_text": "맞아 나는 170에 47키로라서 더 찌워야 해 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+나/NP+는/JX+170/SN+에/JKB+47/SN+키로/XSV+ETN+JKB+라서/VCP+EC+더/MAG+찌워/VV+EC+야/JX+해ㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 하긴... 닌 게이너 먹어야겠다",
+            "norm_text": "하긴... 닌 게이너 먹어야겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+./SY+./SY+닌/NNP+게이너/NNP+먹/VV+어야/EC+겠다/VX+EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 어제도 길거리 캐스팅 될 뻔 ㅜ",
+            "norm_text": "키키 어제도 길거리 캐스팅 될 뻔 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키어/NNG+제도/NNG+길거리/NNG+캐스팅/NNG+될/XSV+ETM+뻔ㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 다이어트는 평생 과제라는데 닌 모르제",
+            "norm_text": "다이어트는 평생 과제라는데 닌 모르제",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다이어트/NNG+는/JX+평생/NNG+과제/NNG+라는/VCP+ETM+데닌/UNKNOWN+모르/VV+제/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 에이 나도 다 하지... 알게 모르게",
+            "norm_text": "에이 나도 다 하지... 알게 모르게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/IC+나/NP+도/JX+다/MAG+하/VV+지/EF+./SY+알/VV+게/EC+모르/VV+게/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 평생 마르면 어떤 기분이야?",
+            "norm_text": "평생 마르면 어떤 기분이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "평생/NNG+마르/VV+면/EC+어떤/MM+기분/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 몰라 ㅜㅜ 남들은 다 부럽다고 하던데 난 별로",
+            "norm_text": "몰라 ㅜㅜ 남들은 다 부럽다고 하던데 난 별로",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰라/VV+EF+ㅜㅜ/UNKNOWN+남/NNG+들/XSN+은/JX+다/MAG+부럽/VA+다고/EC+하/VV+던데/EC+난/NP+JX+별로/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 부럽다... 내 살 좀 가져가라 ㅜㅜ",
+            "norm_text": "부럽다... 내 살 좀 가져가라 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "부럽/VA+다/EF+./SY+내살좀가져가라ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아니야 너처럼 적당히 떡대 있는 게 보기 좋아",
+            "norm_text": "아니야 너처럼 적당히 떡대 있는 게 보기 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아니야/IC+너/NP+처럼/JKB+적당히/MAG+떡대/NNG+있/VA+는/ETM+게/NNB+JKS+보기좋/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

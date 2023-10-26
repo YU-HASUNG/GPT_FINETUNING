@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32832,
+    "name": "KAKAO_847_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402039923/KAKAO_847_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402039923/KAKAO_847_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39751,
+      "filename": "KAKAO_847_13.txt",
+      "title": "KAKAO_847_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 375,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 375,
+        "word_size": 132,
+        "text": "1 : 으우 엄마 이제 난방 텐트 슬슬 꺼내야 하나\n2 : 난방 텐트를 벌써 꺼내?\n1 : 아니 새벽에 너무 추워 ㅠㅠ\n2 : 그럼 문을 닫고 자\n1 : 자기 전엔 덥단 말이야 ㅠㅠ\n2 : 난방 텐트 안에서 자는 거나 문 닫고 자는 거나 똑같지\n1 : 그럼 뭐라도 걸치고 잘까?\n2 : 차라리 그게 낫겠다.\n2 : 반팔 입고 자면서 춥다고 하지 말고 긴팔 입어\n1 : 나 긴팔 잠옷이 없어~\n2 : 잠옷 말고 굴러다니는 긴팔 입어\n1 : 평상복을 어떻게 잠 잘 때 입는가~\n2 : 그럼 이쁜 걸로 잠옷 하나 주문해~\n1 : 잠옷 엄마가 사 주는 거야?\n2 : 아니~ 너가 입는 건데 너 돈으로 너가 사\n1 : 너무하네~ 커플 잠옷 하게 엄마가 사 주라~\n2 : 엄마는 굴러다니는 긴팔 입고 자면 돼~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 으우 엄마 이제 난방 텐트 슬슬 꺼내야 하나",
+            "norm_text": "으우 엄마 이제 난방 텐트 슬슬 꺼내야 하나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으/IC+우/IC+엄마/NNG+이제/MAG+난방/NNG+텐트/NNG+슬슬/MAG+꺼내/VV+야/EF+하나/NR"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난방 텐트를 벌써 꺼내?",
+            "norm_text": "난방 텐트를 벌써 꺼내?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "난방/NNG+텐트/NNG+를/JKO+벌써/MAG+꺼내/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 새벽에 너무 추워 ㅠㅠ",
+            "norm_text": "아니 새벽에 너무 추워 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+새벽/NNG+에/JKB+너무/MAG+추워/VA+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그럼 문을 닫고 자",
+            "norm_text": "그럼 문을 닫고 자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그럼/MAJ+문/NNG+을/JKO+닫/VV+고자/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 자기 전엔 덥단 말이야 ㅠㅠ",
+            "norm_text": "자기 전엔 덥단 말이야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자기/NP+전/NNG+엔/JKB+JX+덥/VA+단/ETM+말/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 난방 텐트 안에서 자는 거나 문 닫고 자는 거나 똑같지",
+            "norm_text": "난방 텐트 안에서 자는 거나 문 닫고 자는 거나 똑같지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난방/NNG+텐트/NNG+안/NNG+에서/JKB+자/VV+는/ETM+거/NNB+나문/NNG+닫/VV+고/EC+자/VV+는/ETM+거/NNB+나/JX+똑같/VA+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그럼 뭐라도 걸치고 잘까?",
+            "norm_text": "그럼 뭐라도 걸치고 잘까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+뭐/NP+라도/VCP+EC+걸치/VV+고/EC+잘까/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 차라리 그게 낫겠다.",
+            "norm_text": "차라리 그게 낫겠다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차라리/MAG+그게/NP+JKS+낫/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 반팔 입고 자면서 춥다고 하지 말고 긴팔 입어",
+            "norm_text": "반팔 입고 자면서 춥다고 하지 말고 긴팔 입어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "반팔/NNG+입/VV+고/EC+자/VV+면서/EC+춥/VA+다고/EC+하/VV+지/EC+말/VX+고/EC+긴팔/NNG+입/VV+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나 긴팔 잠옷이 없어~",
+            "norm_text": "나 긴팔 잠옷이 없어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+긴팔/NNG+잠옷/NNG+이/JKS+없/VA+어/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 잠옷 말고 굴러다니는 긴팔 입어",
+            "norm_text": "잠옷 말고 굴러다니는 긴팔 입어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "잠옷/NNG+말/VV+고/EC+굴러다니/VV+는/ETM+긴팔/NNG+입/VV+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 평상복을 어떻게 잠 잘 때 입는가~",
+            "norm_text": "평상복을 어떻게 잠 잘 때 입는가~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평상복/NNG+을/JKO+어떻게/MAG+잠잘/VV+ETM+때/NNG+입/VV+는가/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그럼 이쁜 걸로 잠옷 하나 주문해~",
+            "norm_text": "그럼 이쁜 걸로 잠옷 하나 주문해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그럼/MAJ+이쁜/VA+ETM+걸로/NNB+JKB+잠옷/NNG+하나/NR+주문/NNG+해/XSV+EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 잠옷 엄마가 사 주는 거야?",
+            "norm_text": "잠옷 엄마가 사 주는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "잠옷/NNG+엄마/NNG+가/JKS+사/VV+EC+주/VX+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아니~ 너가 입는 건데 너 돈으로 너가 사",
+            "norm_text": "아니~ 너가 입는 건데 너 돈으로 너가 사",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 거절하기",
+            "morpheme": "아니/IC+~/SY+너/NP+가/JKS+입/VV+는/ETM+건데/NNB+VCP+EC+너/NP+돈/NNG+으로/JKB+너/NP+가/JKS+사/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 너무하네~ 커플 잠옷 하게 엄마가 사 주라~",
+            "norm_text": "너무하네~ 커플 잠옷 하게 엄마가 사 주라~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "너무/MAG+하네/NNG+~/SY+커플/NNG+잠옷/NNG+하/XSV+게/EC+엄마/NNG+가/JKS+사/VV+EC+주/VX+라/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 엄마는 굴러다니는 긴팔 입고 자면 돼~",
+            "norm_text": "엄마는 굴러다니는 긴팔 입고 자면 돼~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+는/JX+굴러다니/VV+는/ETM+긴팔/NNG+입/VV+고/EC+자면/NNG+돼/XSV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

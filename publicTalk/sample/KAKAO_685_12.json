@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 32932,
+    "name": "KAKAO_685_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113026059374/KAKAO_685_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113026059374/KAKAO_685_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35271,
+      "filename": "KAKAO_685_12.txt",
+      "title": "KAKAO_685_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 461,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 461,
+        "word_size": 156,
+        "text": "1 : 여행지 좀 추천해봐유 하하\n2 : 여행지? 요즘 국내 여행이 핫하잖아~\n2 : 엄청 많지!\n1 : 추천해 줘 ㅠ 넘 떠나고 싶당\n2 : 나 얼마 전에 서해안 쫙 돌고 왔는데 넘 좋더라 ㅠㅠ\n1 : 서해안? 서해안은 또 안 가봤넹\n2 : 응응 우리 잘 안 가는 동네잖아 남해랑 동해만 가니까 키키\n1 : 넌 여행 진짜 많이 다니더라\n2 : 나 요즘 여행 유튜브하고 있으니까 엄청 열심히 가지 키키\n1 : 응 서해는 안 가봄\n1 : 꽃게가 유명한 건 알아 키키\n2 : 여기저기 다녀왔는데 목포가 정말 좋더라?\n1 : 여행 유튜브를 한다고?\n1 : 그런 건 왜 이제 알려줘\n2 : 아직 영상 4개밖에 못 올린 초보 유튜버얌 키키\n1 : 키키 구독할게 주소 알려줘 키키\n2 : 웅웅 내가 난중에 링크 보내줄게요\n2 : 구독 좋아요 해주세여 키키!\n1 : 키키 얼굴도 나오게 찍는 거야?\n2 : 얼굴은 잘 안 나오고 목소리만!\n2 : 여행지 중에 안동도 좋더라!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 여행지 좀 추천해봐유 하하",
+            "norm_text": "여행지 좀 추천해봐유 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "여행지/NNG+좀/MAG+추천/NNG+해/XSV+EC+봐/VX+EF+유하/NNG+하/XSV"
+          },
+          {
+            "id": 2,
+            "text": "2 : 여행지? 요즘 국내 여행이 핫하잖아~",
+            "norm_text": "여행지? 요즘 국내 여행이 핫하잖아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행지/NNG+요즘/MAG+국내/NNG+여행/NNG+이/JKS+핫/NNG+하/XSV+잖아/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 엄청 많지!",
+            "norm_text": "엄청 많지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄청/MAG+많/VA+지/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 추천해 줘 ㅠ 넘 떠나고 싶당",
+            "norm_text": "추천해 줘 ㅠ 넘 떠나고 싶당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "추천/NNG+해/XSV+EC+줘/VX+EF+ㅠ넘/UNKNOWN+떠나/VV+고/EC+싶/VX+당/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나 얼마 전에 서해안 쫙 돌고 왔는데 넘 좋더라 ㅠㅠ",
+            "norm_text": "나 얼마 전에 서해안 쫙 돌고 왔는데 넘 좋더라 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+얼마/NNG+전/NNG+에서/JKB+해안/NNG+쫙/MAG+돌/VV+고/EC+왔/VX+EP+는데/EC+넘/MAG+좋/VA+더라/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 서해안? 서해안은 또 안 가봤넹",
+            "norm_text": "서해안? 서해안은 또 안 가봤넹",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "서해안/NNP+?/SY+서해안/NNP+은/JX+또/MAG+안/MAG+가/VV+EC+봤/VX+EP+넹/NNP"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응응 우리 잘 안 가는 동네잖아 남해랑 동해만 가니까 키키",
+            "norm_text": "응응 우리 잘 안 가는 동네잖아 남해랑 동해만 가니까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+우리/NP+잘/MAG+안/MAG+가/VV+는/ETM+동네/NNG+잖아/VCP+EC+VX+EC+남해/NNP+랑/JC+동해/NNP+만/JX+가/VV+니까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 넌 여행 진짜 많이 다니더라",
+            "norm_text": "넌 여행 진짜 많이 다니더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넌/NP+JX+여행/NNG+진짜/MAG+많이/MAG+다니/VV+더라/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나 요즘 여행 유튜브하고 있으니까 엄청 열심히 가지 키키",
+            "norm_text": "나 요즘 여행 유튜브하고 있으니까 엄청 열심히 가지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+요즘/MAG+여행/NNG+유튜브/NNP+하/VV+고/EC+있/VX+으니까/EC+엄청/MAG+열심히/MAG+가지키/NNP+키/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 서해는 안 가봄",
+            "norm_text": "응 서해는 안 가봄",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+서해/NNP+는/JX+안/MAG+가/VV+EC+봄/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 꽃게가 유명한 건 알아 키키",
+            "norm_text": "꽃게가 유명한 건 알아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "꽃게/NNG+가/JKS+유명/XR+한/XSA+ETM+건/NNB+JX+알/VV+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 여기저기 다녀왔는데 목포가 정말 좋더라?",
+            "norm_text": "여기저기 다녀왔는데 목포가 정말 좋더라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기저기/NNG+다녀왔/VV+EP+는데/EC+목포/NNG+가/JKS+정말/MAG+좋/VA+더라/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 여행 유튜브를 한다고?",
+            "norm_text": "여행 유튜브를 한다고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여행/NNG+유튜브/NNP+를/JKO+한다고/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그런 건 왜 이제 알려줘",
+            "norm_text": "그런 건 왜 이제 알려줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+건/NNB+JX+왜/MAG+이제/MAG+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아직 영상 4개밖에 못 올린 초보 유튜버얌 키키",
+            "norm_text": "아직 영상 4개밖에 못 올린 초보 유튜버얌 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+영상/NNG+4/SN+개/NNBC+밖에/JX+못/MAG+올린/VV+ETM+초/XPN+보유/NNG+튜버/NNP+얌/NNP+키키/NNP"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 구독할게 주소 알려줘 키키",
+            "norm_text": "키키 구독할게 주소 알려줘 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/NNG+구독/NNG+할/XSV+ETM+게/NNB+JKS+주소/NNG+알려줘/VV+EC+VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 웅웅 내가 난중에 링크 보내줄게요",
+            "norm_text": "웅웅 내가 난중에 링크 보내줄게요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "웅웅/MAG+내/NP+가/JKS+난중/NNG+에/JKB+링크/NNG+보내/VV+EC+줄/VX+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 구독 좋아요 해주세여 키키!",
+            "norm_text": "구독 좋아요 해주세여 키키!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "구독/NNG+좋/VA+아/EC+요해/VV+EC+주/VX+세여/EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 얼굴도 나오게 찍는 거야?",
+            "norm_text": "키키 얼굴도 나오게 찍는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+얼굴/NNG+도/JX+나오/VV+게/EC+찍/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 얼굴은 잘 안 나오고 목소리만!",
+            "norm_text": "얼굴은 잘 안 나오고 목소리만!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼굴/NNG+은/JX+잘/MAG+안/MAG+나오/VV+고/EC+목소리/NNG+만/JX"
+          },
+          {
+            "id": 21,
+            "text": "2 : 여행지 중에 안동도 좋더라!",
+            "norm_text": "여행지 중에 안동도 좋더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행지/NNG+중/NNB+에/JKB+안동/NNG+도/JX+좋/VA+더라/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

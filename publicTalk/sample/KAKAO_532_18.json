@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24276,
+    "name": "KAKAO_532_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150934064176/KAKAO_532_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150934064176/KAKAO_532_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29609,
+      "filename": "KAKAO_532_18.txt",
+      "title": "KAKAO_532_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 383,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 383,
+        "word_size": 124,
+        "text": "1 : 대한민국 수산대전이라고 들어봄?\n2 : ㄴㄴ 그건 또 뭐여...?\n1 : 수산물 행사지 뭐. 키키\n2 : 오 그럼 모든 종류 다 하는 거야?\n1 : 그건 아니고 국산만! 그것도 종류 제한 있어\n2 : 오... 뭐 살 수 있는데?\n1 : 농어랑 새우랑 전복 정도? 아 더 있더라\n2 : 나 새우 완전 좋아하는데! 찾아봐야지\n1 : 응응 그래서 새우 사라고 이야기하려고 꺼냈어\n2 : 헐 꿀팁 감사! 당장 사러 가야지\n1 : 아 잠깐만! 정해진 쇼핑몰에 가서 사야 해\n2 : ? 아무 데서나 다 되는 거 아니었어?\n1 : 응 마켓이랑 품목들 정해져 있어.\n2 : 구매 가능 품목들 제일 많은 데가 어디야?\n1 : 어... 그거까지는 나도 알아봐야 할 거 같아.\n2 : 아하... 오케오케 나도 한번 알아봐야지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 대한민국 수산대전이라고 들어봄?",
+            "norm_text": "대한민국 수산대전이라고 들어봄?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대한민국/NNP+수산/NNG+대전/NNG+이/VCP+라고/EC+들/VV+어/EC+봄/VX+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : ㄴㄴ 그건 또 뭐여...?",
+            "norm_text": "ㄴㄴ 그건 또 뭐여...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+그건/NP+JX+또/MAG+뭐/NP+여/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 수산물 행사지 뭐. 키키",
+            "norm_text": "수산물 행사지 뭐. 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수산물/NNG+행사/NNG+지/VCP+EF+뭐/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오 그럼 모든 종류 다 하는 거야?",
+            "norm_text": "오 그럼 모든 종류 다 하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+그럼/MAJ+모든/MM+종류/NNG+다/MAG+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그건 아니고 국산만! 그것도 종류 제한 있어",
+            "norm_text": "그건 아니고 국산만! 그것도 종류 제한 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그건/NP+JX+아니/VCN+고/EC+국산/NNG+만/JX+그것/NP+도/JX+종류/NNG+제한/NNG+있/VV+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오... 뭐 살 수 있는데?",
+            "norm_text": "오... 뭐 살 수 있는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+뭐/IC+살/VV+ETM+수/NNB+있/VV+는데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 농어랑 새우랑 전복 정도? 아 더 있더라",
+            "norm_text": "농어랑 새우랑 전복 정도? 아 더 있더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "농어/NNG+랑/JC+새/MM+우랑/NNG+전복/NNG+정도/NNG+아/IC+더/MAG+있/VA+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나 새우 완전 좋아하는데! 찾아봐야지",
+            "norm_text": "나 새우 완전 좋아하는데! 찾아봐야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+새우/NNG+완전/NNG+좋/VA+아/EC+하/VV+는데/EC+찾/VV+아/EC+봐야/VX+EC+VV+지/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응응 그래서 새우 사라고 이야기하려고 꺼냈어",
+            "norm_text": "응응 그래서 새우 사라고 이야기하려고 꺼냈어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그래서/MAJ+새/MM+우사/NNG+라고/VCP+EC+이야기/NNG+하/XSV+려고/EC+꺼냈/VV+EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐 꿀팁 감사! 당장 사러 가야지",
+            "norm_text": "헐 꿀팁 감사! 당장 사러 가야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "헐/VV+JKO+꿀/VV+ETM+팁/NNG+감사/NNG+!/SY+당장/NNG+사러가/NNP+야지/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 잠깐만! 정해진 쇼핑몰에 가서 사야 해",
+            "norm_text": "아 잠깐만! 정해진 쇼핑몰에 가서 사야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+잠깐/MAG+만/JX+정해진/VV+EC+VX+ETM+쇼핑몰/NNG+에/JKB+가/VV+서/EC+사/VV+야/EC+해/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : ? 아무 데서나 다 되는 거 아니었어?",
+            "norm_text": "? 아무 데서나 다 되는 거 아니었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "?/SY+아무/MM+데/NNB+서/JKB+나/JX+다/MAG+되/VV+는/ETM+거/NNB+아니/VCN+었/EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 마켓이랑 품목들 정해져 있어.",
+            "norm_text": "응 마켓이랑 품목들 정해져 있어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+마켓/NNP+이랑/JKB+품목/NNG+들/XSN+정해져/VV+EC+VX+EC+있/VX+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 구매 가능 품목들 제일 많은 데가 어디야?",
+            "norm_text": "구매 가능 품목들 제일 많은 데가 어디야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "구매/NNG+가능/NNG+품목/NNG+들/XSN+제일/MAG+많/VA+은/ETM+데/NNB+가/JKS+어디/NP+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 어... 그거까지는 나도 알아봐야 할 거 같아.",
+            "norm_text": "어... 그거까지는 나도 알아봐야 할 거 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+그거/NP+까지/JX+는/JX+나/NP+도/JX+알/VV+아/EC+봐야/VX+EC+할/VX+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아하... 오케오케 나도 한번 알아봐야지",
+            "norm_text": "아하... 오케오케 나도 한번 알아봐야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+./SY+오케/IC+오케/IC+나/NP+도/JX+한/MM+번/NNBC+알/VV+아/EC+봐야/VX+EC+VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

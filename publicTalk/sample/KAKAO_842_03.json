@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 33352,
+    "name": "KAKAO_842_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154009636/KAKAO_842_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154009636/KAKAO_842_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40041,
+      "filename": "KAKAO_842_03.txt",
+      "title": "KAKAO_842_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 757,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 757,
+        "word_size": 240,
+        "text": "1 : 헿 동질감 느껴지네... 키키\n1 : 본가는 버스 타고 가?\n2 : 지하철 2시간 버스 30분?\n2 : 조금 멀어 여기서 갈라면... ㅠㅠ\n1 : 아... 조금이 아니라 엄청 머네...?\n1 : 아 남양주 지하철 타고 가 ㅇㅅㅇ?\n2 : 응 서울 끝자락까지 지하철 타고 가서 거기서 버스 타고 집으로 가 키키\n1 : 으악 키키 그렇구나\n1 : 그럼 지하철은 무슨 역에서 무슨 역으로 가? 키키\n2 : 화곡에서 당고개로 키키 끝에서 끝이야 봐봐 키키\n1 : 와 진짜 키키 완전 끝이네\n1 : 아아 경기도 쪽까지 가서 버스 타고 남양주로 가는 거구나\n1 : 어우; 겁나 빡세겠다\n2 : 응 키키 진짜 아무 생각 없이 유튜브 보면서 몸이 움직이는 대로 가야 돼 키키\n1 : 그러네 으 지루하겠다 ㅠ\n1 : 남양주는 뭐 시외버스 터미널 그런 거 없썽?\n2 : 응 우리 동네에는 없어 ㅠㅠ 키키\n1 : DP 명대사 생각난다... 경기도 교통은 미래가 없어요 라는... 키키\n1 : 진짜 불편하네\n2 : 키키 아 디피에 그런 대사가 있어? 키키\n2 : 진짜 경기도 교통은... 아휴 특히 남양주는...\n1 : 응 키키 구교환이 하는 대사야 키키\n1 : 나 남양주 한번도 안 가봤는데 거긴 뭐가 있어... ㅇㅅㅇ?\n2 : 거기... 물과 산 그리고 쓸데없이 많은 아파트? 키키\n2 : 진짜 암 것도 없어\n1 : 대충 아무것도 없구나...\n1 : 그럼 거기 사는 사람들은 서울이 직장이면 대부분 자차로 출퇴근 하겠네 ㅇㅅㅇ?\n2 : 그치 차만 있으면 진짜 교통은 좋아 키키\n2 : 근데 뚜벅이로는 하... 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 헿 동질감 느껴지네... 키키",
+            "norm_text": "헿 동질감 느껴지네... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헿동질감느껴지네/UNKNOWN+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "1 : 본가는 버스 타고 가?",
+            "norm_text": "본가는 버스 타고 가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "본가/NNG+는/JX+버스/NNG+타/VV+고/EC+가/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 지하철 2시간 버스 30분?",
+            "norm_text": "지하철 2시간 버스 30분?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지하철/NNG+2/SN+시간/NNBC+버스/NNG+30/SN+분/NNBC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 조금 멀어 여기서 갈라면... ㅠㅠ",
+            "norm_text": "조금 멀어 여기서 갈라면... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조금/MAG+멀/VA+어/EC+여기/NP+서/JKB+갈라면/VV+EC+./SY+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아... 조금이 아니라 엄청 머네...?",
+            "norm_text": "아... 조금이 아니라 엄청 머네...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+조금/NNG+이/JKC+아니/VCN+라/EC+엄청/MAG+머/VA+네/EF+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 남양주 지하철 타고 가 ㅇㅅㅇ?",
+            "norm_text": "아 남양주 지하철 타고 가 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+남양주/NNG+지하철/NNG+타/VV+고/EC+가ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 서울 끝자락까지 지하철 타고 가서 거기서 버스 타고 집으로 가 키키",
+            "norm_text": "응 서울 끝자락까지 지하철 타고 가서 거기서 버스 타고 집으로 가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+서울/NNP+끝자락/NNG+까지/JX+지하철/NNG+타/VV+고/EC+가/VX+서/EC+거기/NP+서/JKB+버스타/NNP+고집/NNG+으로/JKB+가/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 으악 키키 그렇구나",
+            "norm_text": "으악 키키 그렇구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "으악/IC+키/NNG+키/XSV+ETN+그렇/VA+구나/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그럼 지하철은 무슨 역에서 무슨 역으로 가? 키키",
+            "norm_text": "그럼 지하철은 무슨 역에서 무슨 역으로 가? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+지하철/NNG+은/JX+무슨/MM+역/NNG+에서/JKB+무슨/MM+역/NNG+으로/JKB+가/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 화곡에서 당고개로 키키 끝에서 끝이야 봐봐 키키",
+            "norm_text": "화곡에서 당고개로 키키 끝에서 끝이야 봐봐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "화곡/NNG+에서/JKB+당고개/NNP+로키/NNG+키/NNG+끝/NNG+에서/JKB+끝/NNG+이/VCP+야/EC+봐/VX+EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 와 진짜 키키 완전 끝이네",
+            "norm_text": "와 진짜 키키 완전 끝이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+키/NNG+키/NNG+완전/NNG+끝/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아아 경기도 쪽까지 가서 버스 타고 남양주로 가는 거구나",
+            "norm_text": "아아 경기도 쪽까지 가서 버스 타고 남양주로 가는 거구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+경기도/NNP+쪽/NNB+까지/JX+가/VV+서/EC+버스/NNG+타/VV+고/EC+남양주/NNG+로/JKB+가/VV+는/ETM+거/NNB+구나/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어우; 겁나 빡세겠다",
+            "norm_text": "어우; 겁나 빡세겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어우/NNG+;/SY+겁나/VV+EC+빡세/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 키키 진짜 아무 생각 없이 유튜브 보면서 몸이 움직이는 대로 가야 돼 키키",
+            "norm_text": "응 키키 진짜 아무 생각 없이 유튜브 보면서 몸이 움직이는 대로 가야 돼 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+진짜/MAG+아무/MM+생각/NNG+없이/MAG+유튜브/NNP+보/VV+면서/EC+몸/NNG+이/JKS+움직이/VV+는/ETM+대로/NNB+가/VV+야/EC+돼/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러네 으 지루하겠다 ㅠ",
+            "norm_text": "그러네 으 지루하겠다 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+네/EF+으/IC+지루/XR+하/XSA+겠/EP+다ㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 남양주는 뭐 시외버스 터미널 그런 거 없썽?",
+            "norm_text": "남양주는 뭐 시외버스 터미널 그런 거 없썽?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "남양주/NNG+는/JX+뭐/IC+시외버스/NNG+터미널/NNG+그런/MM+거/NNB+없썽/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 우리 동네에는 없어 ㅠㅠ 키키",
+            "norm_text": "응 우리 동네에는 없어 ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+우리/NP+동네/NNG+에/JKB+는/JX+없/VA+어/EC+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : DP 명대사 생각난다... 경기도 교통은 미래가 없어요 라는... 키키",
+            "norm_text": "DP 명대사 생각난다... 경기도 교통은 미래가 없어요 라는... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "DP/SL+명대사/NNG+생각/NNG+난다/VV+EF+./SY+./SY+경기도/NNP+교통/NNG+은/JX+미래/NNG+가/JKS+없/VA+어요/EF+라는/ETM+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 진짜 불편하네",
+            "norm_text": "진짜 불편하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+불편/NNG+하/XSV+네/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 아 디피에 그런 대사가 있어? 키키",
+            "norm_text": "키키 아 디피에 그런 대사가 있어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+아/EC+디피/NNG+에/JKB+그런/MM+대사/NNG+가/JKS+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 진짜 경기도 교통은... 아휴 특히 남양주는...",
+            "norm_text": "진짜 경기도 교통은... 아휴 특히 남양주는...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+경기도/NNP+교통/NNG+은/JX+./SY+./SY+아휴/IC+특히/MAG+남양주/NNG+는/JX+./SY"
+          },
+          {
+            "id": 22,
+            "text": "1 : 응 키키 구교환이 하는 대사야 키키",
+            "norm_text": "응 키키 구교환이 하는 대사야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키키/NNP+구교환/NNP+이/JKS+하/VV+는/ETM+대사/NNG+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 나 남양주 한번도 안 가봤는데 거긴 뭐가 있어... ㅇㅅㅇ?",
+            "norm_text": "나 남양주 한번도 안 가봤는데 거긴 뭐가 있어... ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+남양주/NNG+한/MM+번/NNBC+도/JX+안/MAG+가/VV+EC+봤/VX+EP+는데/EC+거긴/NP+JX+뭐/NP+가/JKS+있/VA+어/EF+./SY+ㅇㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 거기... 물과 산 그리고 쓸데없이 많은 아파트? 키키",
+            "norm_text": "거기... 물과 산 그리고 쓸데없이 많은 아파트? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+./SY+물/NNG+과/JC+산/NNG+그리고/MAJ+쓸데없이/MAG+많/VA+은/ETM+아파트/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 진짜 암 것도 없어",
+            "norm_text": "진짜 암 것도 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+암것도/MM+NNB+JX+없/VA+어/EC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 대충 아무것도 없구나...",
+            "norm_text": "대충 아무것도 없구나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대충/MAG+아무것/NP+도/JX+없/VA+구나/EF+./SY"
+          },
+          {
+            "id": 27,
+            "text": "1 : 그럼 거기 사는 사람들은 서울이 직장이면 대부분 자차로 출퇴근 하겠네 ㅇㅅㅇ?",
+            "norm_text": "그럼 거기 사는 사람들은 서울이 직장이면 대부분 자차로 출퇴근 하겠네 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+거기/NP+사/VV+는/ETM+사람/NNG+들/XSN+은/JX+서울/NNP+이/JKS+직장/NNG+이/VCP+면/EC+대부분/NNG+자차/NNG+로/JKB+출퇴근/NNG+하/XSV+겠/EP+네ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 28,
+            "text": "2 : 그치 차만 있으면 진짜 교통은 좋아 키키",
+            "norm_text": "그치 차만 있으면 진짜 교통은 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+치차/NNG+만/JX+있/VX+으면/EC+진짜/MAG+교통/NNG+은/JX+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 29,
+            "text": "2 : 근데 뚜벅이로는 하... 키키",
+            "norm_text": "근데 뚜벅이로는 하... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+뚜벅/MAG+이/XSN+로/JKB+는/JX+하/IC+./SY+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

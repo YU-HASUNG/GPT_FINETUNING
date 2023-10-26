@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 30393,
+    "name": "KAKAO_774_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165208047477/KAKAO_774_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165208047477/KAKAO_774_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38391,
+      "filename": "KAKAO_774_18.txt",
+      "title": "KAKAO_774_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 369,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 369,
+        "word_size": 127,
+        "text": "1 : 오늘 옷 살려고 봤는데 쇼핑몰이 왜 이렇게 많냐?\n2 : 오, 무슨 옷 사게?\n1 : 이제 가을이니까 하나씩 살려고 ㅜㅜ\n2 : 맞아 환절기마다 옷 살 생각하니 머리 아픔\n1 : 근데 나갈 일이 없으니까 옷도 잘 안 사는 듯\n2 : 그냥 츄리닝이나 사자 아디다스 이쁘더라\n1 : 키키 쇼핑몰에 파나 그것도?\n2 : 응응 온라인 쇼핑몰 쿠폰도 준대\n1 : 오 그러면 또 사야지\n2 : ㅇㅈ 내가 추천인 코드 줄게 입력해~\n1 : 추천인 코드? 그게 뭐 하는 건데\n2 : 내가 번호 주며 니가 입력하고 둘 다 혜택 받는 거임\n1 : 사기 치는 건 줄 하하 감사여 오늘 하나 사야겠네\n2 : ㅇㅋ 같이 하나 장만하자\n1 : 그래 다른 걸로 사자 좀.\n2 : 배송도 빠르다고 하니까 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 옷 살려고 봤는데 쇼핑몰이 왜 이렇게 많냐?",
+            "norm_text": "오늘 옷 살려고 봤는데 쇼핑몰이 왜 이렇게 많냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+옷/NNG+살/VV+려고/EC+봤/VX+EP+는데/EC+쇼핑몰/NNG+이/JKS+왜/MAG+이렇게/MAG+많/VA+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오, 무슨 옷 사게?",
+            "norm_text": "오, 무슨 옷 사게?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+,/SC+무슨/MM+옷/NNG+사/VV+게/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 이제 가을이니까 하나씩 살려고 ㅜㅜ",
+            "norm_text": "이제 가을이니까 하나씩 살려고 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+가을/NNG+이/VCP+니까/EC+하나/NR+씩/XSN+살/VV+려고/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아 환절기마다 옷 살 생각하니 머리 아픔",
+            "norm_text": "맞아 환절기마다 옷 살 생각하니 머리 아픔",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+환절기/NNG+마다/JX+옷/NNG+살/VV+ETM+생각/NNG+하/XSV+니/EC+머리/NNG+아픔/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 나갈 일이 없으니까 옷도 잘 안 사는 듯",
+            "norm_text": "근데 나갈 일이 없으니까 옷도 잘 안 사는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나갈/VV+ETM+일/NNG+이/JKS+없/VA+으니까/EC+옷/NNG+도/JX+잘/MAG+안/MAG+사/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그냥 츄리닝이나 사자 아디다스 이쁘더라",
+            "norm_text": "그냥 츄리닝이나 사자 아디다스 이쁘더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그냥/MAG+츄리닝/NNG+이나/JC+사자/NNG+아디/NNG+다스/NNG+이쁘/VA+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 쇼핑몰에 파나 그것도?",
+            "norm_text": "키키 쇼핑몰에 파나 그것도?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+쇼핑몰/NNG+에/JKB+파나/NNG+그것/NP+도/JX"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 온라인 쇼핑몰 쿠폰도 준대",
+            "norm_text": "응응 온라인 쇼핑몰 쿠폰도 준대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+온라인/NNG+쇼핑몰/NNG+쿠폰/NNG+도/JX+준대/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 그러면 또 사야지",
+            "norm_text": "오 그러면 또 사야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그러면/MAJ+또/MAG+사/VV+야지/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : ㅇㅈ 내가 추천인 코드 줄게 입력해~",
+            "norm_text": "ㅇㅈ 내가 추천인 코드 줄게 입력해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅇㅈ/UNKNOWN+내/NP+가/JKS+추천인/NNG+코드/NNG+줄/VV+게/EC+입력/NNG+해/XSV+EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 추천인 코드? 그게 뭐 하는 건데",
+            "norm_text": "추천인 코드? 그게 뭐 하는 건데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "추천인/NNG+코드/NNG+그게/NP+JKS+뭐/IC+하/VV+는/ETM+건데/NNB+VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 내가 번호 주며 니가 입력하고 둘 다 혜택 받는 거임",
+            "norm_text": "내가 번호 주며 니가 입력하고 둘 다 혜택 받는 거임",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+번호/NNG+주/VV+며/EC+니/NP+가/JKS+입력/NNG+하/XSV+고/EC+둘/VX+ETM+다/MAG+혜택/NNG+받/VV+는/ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 사기 치는 건 줄 하하 감사여 오늘 하나 사야겠네",
+            "norm_text": "사기 치는 건 줄 하하 감사여 오늘 하나 사야겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사기/NNG+치/VV+는/ETM+건/NNB+VCP+ETM+줄/NNB+하하/MAG+감사/NNG+여/JKV+오늘/MAG+하나/NR+사/NR+야/VCP+EF+겠/EP+네/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : ㅇㅋ 같이 하나 장만하자",
+            "norm_text": "ㅇㅋ 같이 하나 장만하자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "ㅇㅋ/UNKNOWN+같이/MAG+하나/NR+장/NNBC+만/JX+하/VV+자/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래 다른 걸로 사자 좀.",
+            "norm_text": "그래 다른 걸로 사자 좀.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+다른/MM+걸로/NNB+JKB+사자/NNG+좀/MAG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 배송도 빠르다고 하니까 하하",
+            "norm_text": "배송도 빠르다고 하니까 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배송/NNG+도/JX+빠르/VA+다고/EC+하/VV+니까/EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

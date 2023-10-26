@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 44505,
+    "name": "KAKAO_777_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150356059930/KAKAO_777_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150356059930/KAKAO_777_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38288,
+      "filename": "KAKAO_777_17.txt",
+      "title": "KAKAO_777_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 719,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 719,
+        "word_size": 223,
+        "text": "1 : 오늘 치과 다녀오는데... 하늘이 너무 예쁘다\n2 : 이야... 사진이 엽서네 엽서...\n2 : 근데, 치과는 무슨 일로?\n1 : 어금니 뿌리 충치라서 치료 하는 건데, 인접한 면에 또 다른 충치 치료가 난해한가 봐\n1 : 마취가 5시간 넘게 가고 있어\n2 : 신경 치료도 같이 한 거야?\n1 : 아니, 다행스럽게도 신경까진 건드리지 않는 거 같아서...\n1 : 그냥 마취하고 충치 치료만...\n1 : 근데, 너무 아프다\n2 : 아 난 치과 치료 너무 오래 안 가다가 올해 처음으로 다녀왔는데...\n2 : 이미 많이 썩어서 그거 이를 아예 본떠서 덮었다\n1 : 얼마나 오랜만에 갔길래... 이를 그냥 방치했구만...\n2 : 이가 안 아프면 자주 갈 일이 없으니까...\n2 : 그러다가 반 정도 땜빵한 곳이 커져서... 이를 덮어야 한다고 하더라고\n1 : 치과 보험 들었어?\n1 : 치과 치료하면 돈 엄청 깨지잖아.\n2 : 아니, 이런 건 무신경해서 또 그런 보험은 안 들었지...\n1 : 그럼 너 치료비 좀 많이 나왔겠다.\n2 : 안 그래도 치과에 열심히 기부하는 중이다.\n2 : 하나 치료하면 하나가 보이고?\n2 : 그거 치료하면 이가 또 시리고?\n2 : 가지가지 한다\n1 : 그러니까, 이도 오복 중에 하나라고 꾸준히 관리 해야 해.\n2 : 그러게 말이다, 너도 얼른 집에 가서 쉬어...\n1 : 응 이제 거의 다 왔어,\n1 : 너도 얼른 점심 먹고 일해 하하\n2 : 그래. 마취 풀리면 기분 나쁘게 아픔이 몰려오더라 ㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 치과 다녀오는데... 하늘이 너무 예쁘다",
+            "norm_text": "오늘 치과 다녀오는데... 하늘이 너무 예쁘다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+치과/NNG+다녀오/VV+는데/EC+./SY+./SY+하늘/NNG+이/JKS+너무/MAG+예쁘/VA+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이야... 사진이 엽서네 엽서...",
+            "norm_text": "이야... 사진이 엽서네 엽서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/NP+야/VCP+EF+./SY+사진/NNG+이/JKS+엽서/NNG+네/XSN+엽서/NNG+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 근데, 치과는 무슨 일로?",
+            "norm_text": "근데, 치과는 무슨 일로?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+,/SC+치과/NNG+는/JX+무슨/MM+일/NNG+로/JKB"
+          },
+          {
+            "id": 4,
+            "text": "1 : 어금니 뿌리 충치라서 치료 하는 건데, 인접한 면에 또 다른 충치 치료가 난해한가 봐",
+            "norm_text": "어금니 뿌리 충치라서 치료 하는 건데, 인접한 면에 또 다른 충치 치료가 난해한가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어금니/NNG+뿌리/NNG+충치/NNG+라서/VCP+EC+치료/NNG+하/XSV+는/ETM+건데/NNB+VCP+EC+,/SC+인접/NNG+한/XSA+ETM+면/NNG+에/JKB+또/MAG+다른/MM+충치/NNG+치료/NNG+가/JKS+난해/XR+한가/XSA+EC+봐/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 마취가 5시간 넘게 가고 있어",
+            "norm_text": "마취가 5시간 넘게 가고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마취/NNG+가/JKS+5/SN+시간/NNBC+넘/VV+게/EC+가/VX+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 신경 치료도 같이 한 거야?",
+            "norm_text": "신경 치료도 같이 한 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "신경/NNG+치료/NNG+도/JX+같이/MAG+한/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니, 다행스럽게도 신경까진 건드리지 않는 거 같아서...",
+            "norm_text": "아니, 다행스럽게도 신경까진 건드리지 않는 거 같아서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+,/SC+다행/NNG+스럽/XSA+게/EC+도/JX+신경/NNG+까진/JX+VCP+ETM+건/NNB+JX+드리/VV+지/EC+않/VX+는/ETM+거/NNB+같/VA+아서/EC+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그냥 마취하고 충치 치료만...",
+            "norm_text": "그냥 마취하고 충치 치료만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그냥/MAG+마취/NNG+하/XSV+고/EC+충치/NNG+치료/NNG+만/JX+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 근데, 너무 아프다",
+            "norm_text": "근데, 너무 아프다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "근데/MAJ+,/SC+너무/MAG+아프/VA+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 난 치과 치료 너무 오래 안 가다가 올해 처음으로 다녀왔는데...",
+            "norm_text": "아 난 치과 치료 너무 오래 안 가다가 올해 처음으로 다녀왔는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아난/NNP+치과/NNG+치료/NNG+너무/MAG+오래/MAG+안/MAG+가/VV+다가/EC+올해/NNG+처음/NNG+으로/JKB+다녀왔/VV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 이미 많이 썩어서 그거 이를 아예 본떠서 덮었다",
+            "norm_text": "이미 많이 썩어서 그거 이를 아예 본떠서 덮었다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이미/MAG+많이/MAG+썩/VV+어서/EC+그거/NP+이/NP+를/JKO+아예/MAG+본떠서/VV+EC+덮/VV+었/EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 얼마나 오랜만에 갔길래... 이를 그냥 방치했구만...",
+            "norm_text": "얼마나 오랜만에 갔길래... 이를 그냥 방치했구만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼마나/MAG+오랜만/NNG+에/JKB+갔/VV+EP+길래/ETN+EF+./SY+이/NP+를/JKO+그냥/MAG+방치/NNG+했/XSV+EP+구만/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 이가 안 아프면 자주 갈 일이 없으니까...",
+            "norm_text": "이가 안 아프면 자주 갈 일이 없으니까...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/NP+가/JKS+안/MAG+아프/VA+면/EC+자주/MAG+갈일/NNG+이/JKS+없/VA+으니까/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러다가 반 정도 땜빵한 곳이 커져서... 이를 덮어야 한다고 하더라고",
+            "norm_text": "그러다가 반 정도 땜빵한 곳이 커져서... 이를 덮어야 한다고 하더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러다가/MAJ+반/NNG+정도/NNG+땜/NNB+빵/NNG+한/XSA+ETM+곳/NNG+이/JKS+커져서/VA+EC+VX+EC+./SY+./SY+이/NP+를/JKO+덮/VV+어야/EC+한다고/VX+EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 치과 보험 들었어?",
+            "norm_text": "치과 보험 들었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "치과/NNG+보험/NNG+들/VV+었/EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 치과 치료하면 돈 엄청 깨지잖아.",
+            "norm_text": "치과 치료하면 돈 엄청 깨지잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치과/NNG+치료/NNG+하/XSV+면/EC+돈/NNG+엄청/MAG+깨지/VV+잖아/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아니, 이런 건 무신경해서 또 그런 보험은 안 들었지...",
+            "norm_text": "아니, 이런 건 무신경해서 또 그런 보험은 안 들었지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+,/SC+이런/MM+건무/NNG+신경/NNG+해서/XSV+EC+또/MAG+그런/MM+보험/NNG+은/JX+안/MAG+들/VV+었/EP+지/EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그럼 너 치료비 좀 많이 나왔겠다.",
+            "norm_text": "그럼 너 치료비 좀 많이 나왔겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+너/NP+치료비/NNG+좀/MAG+많이/MAG+나왔/VV+EP+겠/EP+다/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 안 그래도 치과에 열심히 기부하는 중이다.",
+            "norm_text": "안 그래도 치과에 열심히 기부하는 중이다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+치과/NNG+에/JKB+열심히/MAG+기부/NNG+하/XSV+는/ETM+중/NNB+이/VCP+다/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 하나 치료하면 하나가 보이고?",
+            "norm_text": "하나 치료하면 하나가 보이고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하나/NR+치료/NNG+하/XSV+면/EC+하나/NR+가/JKS+보이/VV+고/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그거 치료하면 이가 또 시리고?",
+            "norm_text": "그거 치료하면 이가 또 시리고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+치료/NNG+하/XSV+면/EC+이/NP+가/JKS+또/MAG+시리/VA+고/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 가지가지 한다",
+            "norm_text": "가지가지 한다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가지가지/NNG+한다/XSV+EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 그러니까, 이도 오복 중에 하나라고 꾸준히 관리 해야 해.",
+            "norm_text": "그러니까, 이도 오복 중에 하나라고 꾸준히 관리 해야 해.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+,/SC+이/NP+도/JX+오복/NNG+중/NNB+에/JKB+하나/NR+라고/VCP+EC+꾸준히/MAG+관리/NNG+해야/XSV+EC+해/VX+EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그러게 말이다, 너도 얼른 집에 가서 쉬어...",
+            "norm_text": "그러게 말이다, 너도 얼른 집에 가서 쉬어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+말/NNG+이/VCP+다/EF+,/SC+너/NP+도/JX+얼른/MAG+집/NNG+에/JKB+가/VV+서/EC+쉬/VV+어/EF+./SY"
+          },
+          {
+            "id": 25,
+            "text": "1 : 응 이제 거의 다 왔어,",
+            "norm_text": "응 이제 거의 다 왔어,",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+이제/MAG+거의/MAG+다/MAG+왔/VV+EP+어/EF+,/SC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 너도 얼른 점심 먹고 일해 하하",
+            "norm_text": "너도 얼른 점심 먹고 일해 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+얼른/MAG+점심/NNG+먹/VV+고/EC+일/NNG+해/XSV+EC+하하/MAG"
+          },
+          {
+            "id": 27,
+            "text": "2 : 그래. 마취 풀리면 기분 나쁘게 아픔이 몰려오더라 ㅠ",
+            "norm_text": "그래. 마취 풀리면 기분 나쁘게 아픔이 몰려오더라 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+마취/NNG+풀리/VV+면/EC+기분/NNG+나쁘/VA+게/EC+아픔/NNG+이/JKS+몰려오/VV+더라/EF+ㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22185,
+    "name": "KAKAO_553_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163945018896/KAKAO_553_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917163945018896/KAKAO_553_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30214,
+      "filename": "KAKAO_553_03.txt",
+      "title": "KAKAO_553_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 495,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 495,
+        "word_size": 161,
+        "text": "1 : 골라봐 봐 30분 걷기 vs 10분 버스 타기\n2 : 오 나 사실 둘 다 좋아하는데 걷기?\n1 : 그럼 10분 버스인데 20분 기다려야 하고 30분 걷기 중 10분은 오르막길이면?\n2 : 너무 어렵다 ... 그럼 그냥 걷는다 !\n1 : 키키 오 오르막길 안 걷잖아 니\n2 : 키키 아 그래도 버스 기다리는 게 더 힘들 듯 ㅠㅠ\n1 : 와 인정 나도 버스 못 기다려서 그냥 걸음 키키\n2 : 키키 맞제 차라리 걷고 말지 근데 걷다가 후회한 적도 많아 ...\n1 : 그런 거 보면 시간 정해진 지하철이 좋은 것 같기두? 버스 VS 지하철은?\n2 : 나 지하철은 절대 싫어 !\n1 : 왜! 배차 시간 딱딱 맞게 오잖아\n2 : 그게 장점이지만 뭔가 어둠칙칙해 키키\n1 : 그것도 인정 하하 나도 그래서 버스 좋아 밖에 구경하면서...\n2 : 맞지 지하철보단 버스 ! 근데 지하철이 빠르긴 하지\n1 : 그래도 빠름보단 갬성이지~ 버스 갬성 좋아\n2 : 키키 나 같은 지각쟁이한텐 지하철이 도움이 되기도 한다 ...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 골라봐 봐 30분 걷기 vs 10분 버스 타기",
+            "norm_text": "골라봐 봐 30분 걷기 vs 10분 버스 타기",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "골라/VV+EC+봐/VX+EC+봐/VX+EC+30/SN+분/NNBC+걷/VV+기/ETN+vs/SL+10/SN+분/NNBC+버스/NNG+타/VV+기/ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 나 사실 둘 다 좋아하는데 걷기?",
+            "norm_text": "오 나 사실 둘 다 좋아하는데 걷기?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/VV+나/EF+사실/MAG+둘/NR+다/MAG+좋/VA+아/EC+하/VV+는/ETM+데/NNB+걷/VV+기/ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그럼 10분 버스인데 20분 기다려야 하고 30분 걷기 중 10분은 오르막길이면?",
+            "norm_text": "그럼 10분 버스인데 20분 기다려야 하고 30분 걷기 중 10분은 오르막길이면?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+10/SN+분/NNBC+버스/NNG+인데/VCP+EC+20/SN+분/NNBC+기다려야/VV+EC+하/VV+고/EC+30/SN+분/NNBC+걷기/NNG+중/NNB+10/SN+분/NNBC+은/JX+오르막길/NNG+이/VCP+면/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너무 어렵다 ... 그럼 그냥 걷는다 !",
+            "norm_text": "너무 어렵다 ... 그럼 그냥 걷는다 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+어렵/VA+다/EF+./SY+그럼/MAJ+그냥/MAG+걷/VV+는다/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 오 오르막길 안 걷잖아 니",
+            "norm_text": "키키 오 오르막길 안 걷잖아 니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/NR+오르막길/NNG+안/MAG+걷/VV+잖/EC+아니/VCN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 아 그래도 버스 기다리는 게 더 힘들 듯 ㅠㅠ",
+            "norm_text": "키키 아 그래도 버스 기다리는 게 더 힘들 듯 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+그래도/VV+EC+버스/NNG+기다리/VV+는/ETM+게/NNB+JKS+더/MAG+힘들/VA+듯/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 와 인정 나도 버스 못 기다려서 그냥 걸음 키키",
+            "norm_text": "와 인정 나도 버스 못 기다려서 그냥 걸음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와인/NNG+정나/NNG+도/JX+버스/NNG+못/MAG+기다려서/VV+EC+그냥/MAG+걸음/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 맞제 차라리 걷고 말지 근데 걷다가 후회한 적도 많아 ...",
+            "norm_text": "키키 맞제 차라리 걷고 말지 근데 걷다가 후회한 적도 많아 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+제/EC+차라리/MAG+걷/VV+고/EC+말/VX+지/EF+근데/MAJ+걷/VV+다가/EC+후회/NNG+한/XSA+ETM+적/NNB+도/JX+많/VA+아/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그런 거 보면 시간 정해진 지하철이 좋은 것 같기두? 버스 VS 지하철은?",
+            "norm_text": "그런 거 보면 시간 정해진 지하철이 좋은 것 같기두? 버스 VS 지하철은?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런/MM+거/NNB+보/VV+면/EC+시간/NNG+정해진/VV+EC+VX+ETM+지하철/NNG+이/JKS+좋/VA+은/ETM+것/NNB+같/VA+기/ETN+두/JX+버스/NNG+VS/SL+지하철/NNG+은/JX"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나 지하철은 절대 싫어 !",
+            "norm_text": "나 지하철은 절대 싫어 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+지하철/NNG+은/JX+절대/MAG+싫/VA+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 왜! 배차 시간 딱딱 맞게 오잖아",
+            "norm_text": "왜! 배차 시간 딱딱 맞게 오잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+배차/NNG+시간/NNG+딱딱/MAG+맞/VV+게/EC+오/VV+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그게 장점이지만 뭔가 어둠칙칙해 키키",
+            "norm_text": "그게 장점이지만 뭔가 어둠칙칙해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+장점/NNG+이/VCP+지만/EC+뭔가/NP+VCP+EC+어둠/NNG+칙칙/XR+해/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그것도 인정 하하 나도 그래서 버스 좋아 밖에 구경하면서...",
+            "norm_text": "그것도 인정 하하 나도 그래서 버스 좋아 밖에 구경하면서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+도/JX+인정/NNG+하/XSV+하나/NR+도/JX+그래서/MAJ+버스/NNG+좋/VA+아/EC+밖/NNG+에/JKB+구경/NNG+하/XSV+면서/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞지 지하철보단 버스 ! 근데 지하철이 빠르긴 하지",
+            "norm_text": "맞지 지하철보단 버스 ! 근데 지하철이 빠르긴 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EC+지하철/NNG+보단/JKB+JX+버스/NNG+근데/MAJ+지하철/NNG+이/JKS+빠르/VA+긴/ETN+JX+하/VX+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래도 빠름보단 갬성이지~ 버스 갬성 좋아",
+            "norm_text": "그래도 빠름보단 갬성이지~ 버스 갬성 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+빠름/NNG+보단/JKB+JX+갬/VV+ETN+성/XSN+이/VCP+지/EC+~/SY+버스갬성좋아/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 나 같은 지각쟁이한텐 지하철이 도움이 되기도 한다 ...",
+            "norm_text": "키키 나 같은 지각쟁이한텐 지하철이 도움이 되기도 한다 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+같/VA+은/ETM+지각/NNG+쟁이/XSN+한텐/JKB+JX+지하철/NNG+이/JKS+도움/NNG+이/JKS+되/VV+기/ETN+도/JX+한다/VV+EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

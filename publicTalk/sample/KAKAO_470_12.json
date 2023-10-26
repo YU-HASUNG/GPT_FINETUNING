@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 20112,
+    "name": "KAKAO_470_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150900036996/KAKAO_470_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150900036996/KAKAO_470_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28562,
+      "filename": "KAKAO_470_12.txt",
+      "title": "KAKAO_470_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 660,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 660,
+        "word_size": 213,
+        "text": "1 : 넌 여행 자연이 좋아 휴양지가 좋아 키키\n2 : 나는 자연!\n2 : 나는 구경하고 다니는 여행이 좋아!\n2 : 너는?\n1 : 아 진짜? 키키 나도 어릴 땐 그랬는데 지금은 휴양지 키키\n2 : 너는 휴양지?\n2 : 여행 스타일이 다들 있기는 하더라.\n2 : 나랑 반대네~\n1 : 그러게 키키 아직 젊구만~\n1 : 구경할 힘이 있다니 키키\n2 : 키키 나는 어릴 때부터 구경하고 다니고 그런 걸 좋아했어...\n2 : 평소에는 절대 안 걸어 다니는데; 다들 신기하대;\n1 : 여행 스타일이 많이 바꼈어\n1 : 예전엔 진짜 빡세게 돌아다녔는데 키키\n2 : 바뀌기도 하구나~\n2 : 나는 아직 바뀐 적은 없어\n1 : 우리 여행은 안 맞을 수 있겠구만 키키\n1 : 난 진짜 여유로움이 필수여야 해 키키\n2 : 나랑 다르네~\n2 : 내 동생도 휴양지를 좋아해서 나를 달라;\n2 : 그래서 여행하다 보면 동생이 투덜거리지; 키키\n1 : 키키 쉬어줘야 하거든 키키\n1 : 난 여행 가면 뒹걸거리다가 12시부터 여행 시작함 키키\n2 : 나는 내가 제일 먼저 조식 먹고 나가는 스타일 키키\n1 : 키키 여행 가서 빠릿빠릿해지는 스타일이구먼 키키\n2 : 그럼 여행 때 돌아다니기 위해 평소에 에너지를 비축하는 거지~ 키키\n1 : 키키 같이 함 여행 가 보자고 키키\n1 : 서로 욕하는 거 아니가 키키\n2 : 키키 서로 돌아오면서 싸워... 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 넌 여행 자연이 좋아 휴양지가 좋아 키키",
+            "norm_text": "넌 여행 자연이 좋아 휴양지가 좋아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+여행/NNG+자연/NNG+이/JKS+좋/VA+아/EC+휴양지/NNG+가/JKS+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 자연!",
+            "norm_text": "나는 자연!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+자연/NNG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나는 구경하고 다니는 여행이 좋아!",
+            "norm_text": "나는 구경하고 다니는 여행이 좋아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+구경/NNG+하/XSV+고/EC+다니/VV+는/ETM+여행/NNG+이/JKS+좋/VA+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너는?",
+            "norm_text": "너는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 진짜? 키키 나도 어릴 땐 그랬는데 지금은 휴양지 키키",
+            "norm_text": "아 진짜? 키키 나도 어릴 땐 그랬는데 지금은 휴양지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키나/XSA+ETN+JX+도/JX+어릴/VA+ETM+땐/NNG+JX+그랬/VV+EP+는데/EC+지금/MAG+은/JX+휴양지/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너는 휴양지?",
+            "norm_text": "너는 휴양지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+는/JX+휴양지/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 여행 스타일이 다들 있기는 하더라.",
+            "norm_text": "여행 스타일이 다들 있기는 하더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행/NNG+스타일/NNG+이/JKS+다/MAG+들/XSN+있/VV+기/ETN+는/JX+하/VV+더라/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나랑 반대네~",
+            "norm_text": "나랑 반대네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+랑/JKB+반대/NNG+네/XSN+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러게 키키 아직 젊구만~",
+            "norm_text": "그러게 키키 아직 젊구만~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키/NNG+아직/MAG+젊/VA+구만/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 구경할 힘이 있다니 키키",
+            "norm_text": "구경할 힘이 있다니 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구경/NNG+할/XSV+ETM+힘/NNG+이/JKS+있/VV+다니/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 나는 어릴 때부터 구경하고 다니고 그런 걸 좋아했어...",
+            "norm_text": "키키 나는 어릴 때부터 구경하고 다니고 그런 걸 좋아했어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+어릴/VA+ETM+때/NNG+부터/JX+구경/NNG+하/XSV+고/EC+다니/VV+고/EC+그런/MM+걸/NNB+JKO+좋/VA+아/EC+했/VX+EP+어/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 평소에는 절대 안 걸어 다니는데; 다들 신기하대;",
+            "norm_text": "평소에는 절대 안 걸어 다니는데; 다들 신기하대;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평소/NNG+에/JKB+는/JX+절대/MAG+안/MAG+걸어다니/VV+는데/EC+;/SY+다들신기하대/UNKNOWN+;/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 여행 스타일이 많이 바꼈어",
+            "norm_text": "여행 스타일이 많이 바꼈어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행/NNG+스타일/NNG+이/JKS+많이/MAG+바꼈/VV+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 예전엔 진짜 빡세게 돌아다녔는데 키키",
+            "norm_text": "예전엔 진짜 빡세게 돌아다녔는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예전/NNG+엔/JKB+JX+진짜/MAG+빡세/VA+게/EC+돌아다녔/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 바뀌기도 하구나~",
+            "norm_text": "바뀌기도 하구나~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "바뀌/VV+기/ETN+도/JX+하/VV+구나/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나는 아직 바뀐 적은 없어",
+            "norm_text": "나는 아직 바뀐 적은 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+아직/MAG+바뀐/VV+ETM+적/NNB+은/JX+없/VA+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 우리 여행은 안 맞을 수 있겠구만 키키",
+            "norm_text": "우리 여행은 안 맞을 수 있겠구만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+여행/NNG+은/JX+안/MAG+맞/VV+을/ETM+수/NNB+있/VV+겠/EP+구/EC+만/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 난 진짜 여유로움이 필수여야 해 키키",
+            "norm_text": "난 진짜 여유로움이 필수여야 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+진짜/MAG+여유/NNG+로움/XSA+ETN+이/JKS+필수/NNG+여야/VCP+EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 나랑 다르네~",
+            "norm_text": "나랑 다르네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+랑/JKB+다르/VA+네/EF+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 내 동생도 휴양지를 좋아해서 나를 달라;",
+            "norm_text": "내 동생도 휴양지를 좋아해서 나를 달라;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+동생/NNG+도/JX+휴양지/NNG+를/JKO+좋아해서/VV+EC+나/NP+를/JKO+달/VV+라/EC+;/SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래서 여행하다 보면 동생이 투덜거리지; 키키",
+            "norm_text": "그래서 여행하다 보면 동생이 투덜거리지; 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+여행/NNG+하/XSV+다/EC+보/VX+면/EC+동생/NNG+이/JKS+투덜거리/VV+지/EC+;/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 쉬어줘야 하거든 키키",
+            "norm_text": "키키 쉬어줘야 하거든 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+쉬/VV+어/EC+줘야/VX+EC+하/VX+거든/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 난 여행 가면 뒹걸거리다가 12시부터 여행 시작함 키키",
+            "norm_text": "난 여행 가면 뒹걸거리다가 12시부터 여행 시작함 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+여행/NNG+가/VV+면/EC+뒹걸/UNKNOWN+거리/XSV+다가/EC+12/SN+시/NNBC+부터/JX+여행/NNG+시작/NNG+함/XSV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 나는 내가 제일 먼저 조식 먹고 나가는 스타일 키키",
+            "norm_text": "나는 내가 제일 먼저 조식 먹고 나가는 스타일 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+내/NP+가/JKS+제일/MAG+먼저/MAG+조식/NNG+먹/VV+고/EC+나가/VX+는/ETM+스타일/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 키키 여행 가서 빠릿빠릿해지는 스타일이구먼 키키",
+            "norm_text": "키키 여행 가서 빠릿빠릿해지는 스타일이구먼 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+여행/NNG+가/VV+서/EC+빠릿빠릿/XR+해/XSA+EC+지/VX+는/ETM+스타일/NNG+이/VCP+구/EC+먼/VA+ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 그럼 여행 때 돌아다니기 위해 평소에 에너지를 비축하는 거지~ 키키",
+            "norm_text": "그럼 여행 때 돌아다니기 위해 평소에 에너지를 비축하는 거지~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+여행/NNG+때/NNG+돌아다니/VV+기/ETN+위해/VV+EC+평소/NNG+에/JKB+에너지/NNG+를/JKO+비축/NNG+하/XSV+는/ETM+거/NNB+지/VCP+EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "1 : 키키 같이 함 여행 가 보자고 키키",
+            "norm_text": "키키 같이 함 여행 가 보자고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+같이/JKB+함여/NNG+행가/NNG+보/VV+자고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 서로 욕하는 거 아니가 키키",
+            "norm_text": "서로 욕하는 거 아니가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서로/MAG+욕하/VV+는/ETM+거/NNB+아니/VCN+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 29,
+            "text": "2 : 키키 서로 돌아오면서 싸워... 키키",
+            "norm_text": "키키 서로 돌아오면서 싸워... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+서로/MAG+돌아오/VV+면서/EC+싸워/VV+EF+./SY+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

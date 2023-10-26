@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 45483,
+    "name": "KAKAO_799_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143635074370/KAKAO_799_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143635074370/KAKAO_799_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37999,
+      "filename": "KAKAO_799_08.txt",
+      "title": "KAKAO_799_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 366,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 366,
+        "word_size": 121,
+        "text": "1 : 우리 결혼기념일 다와 가네\n2 : 응 이번에도 애들이 챙겨 줄려나?\n1 : 애들한테 뭘 바래 우리 기념일인데\n2 : 기념일에 집에서 파티 해야겠네.\n1 : 파티는 무슨 파티야 외식 한 번 하면 되지\n2 : 코로나 때문에 외식은 무슨 외식이야.\n1 : 집에서 요리하면 여보만 피곤하지\n1 : 방역 수칙 잘 지키면 돼\n2 : 외식 안 한 지도 참 오래 됐다.\n1 : 그러니까 맛있는 거 먹으러 가자구\n2 : 응 애들도 좋아하겠다.\n1 : 그래 잘 하면 애들이 사것지 ㅋ\n2 : **가 살려나?\n2 : 작년에는 애들이 챙겨줬잖아.\n1 : 작년에는 집에서 케이크 불었지\n2 : 응 이번에는 안 챙겨주겠지?\n1 : 모르지 챙겨 주면 좋은 거고 ㅋ\n2 : 기대하면 안 되는데 기대하게 돼.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 결혼기념일 다와 가네",
+            "norm_text": "우리 결혼기념일 다와 가네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+결혼기념일/NNG+다/NNG+와/JC+가네/NNP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 이번에도 애들이 챙겨 줄려나?",
+            "norm_text": "응 이번에도 애들이 챙겨 줄려나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+이번/NNG+에/JKB+도/JX+애/NNG+들/XSN+이/JKS+챙겨/VV+EC+줄려나/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 애들한테 뭘 바래 우리 기념일인데",
+            "norm_text": "애들한테 뭘 바래 우리 기념일인데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애/NNG+들/XSN+한테/JKB+뭘/NP+JKO+바래/VV+EC+우리/NP+기념일/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 기념일에 집에서 파티 해야겠네.",
+            "norm_text": "기념일에 집에서 파티 해야겠네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기념일/NNG+에/JKB+집/NNG+에서/JKB+파티/NNG+해야/XSV+EC+VX+겠/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 파티는 무슨 파티야 외식 한 번 하면 되지",
+            "norm_text": "파티는 무슨 파티야 외식 한 번 하면 되지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "파티/NNG+는/JX+무슨/MM+파티/NNG+야/VCP+EF+외식/NNG+한/MM+번/NNBC+하/VV+면/EC+되/VV+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 코로나 때문에 외식은 무슨 외식이야.",
+            "norm_text": "코로나 때문에 외식은 무슨 외식이야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코로나/NNG+때문/NNB+에/JKB+외식/NNG+은/JX+무슨/MM+외식/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 집에서 요리하면 여보만 피곤하지",
+            "norm_text": "집에서 요리하면 여보만 피곤하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+에서/JKB+요리/NNG+하/XSV+면/EC+여보/NNG+만/JX+피곤/NNG+하/XSV+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 방역 수칙 잘 지키면 돼",
+            "norm_text": "방역 수칙 잘 지키면 돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "방역/NNG+수칙/NNG+잘/MAG+지키/VV+면/EC+돼/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 외식 안 한 지도 참 오래 됐다.",
+            "norm_text": "외식 안 한 지도 참 오래 됐다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "외식/NNG+안/MAG+한지/VV+EC+도/JX+참/MAG+오래/MAG+됐/VV+EP+다/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그러니까 맛있는 거 먹으러 가자구",
+            "norm_text": "그러니까 맛있는 거 먹으러 가자구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+맛있/VA+는/ETM+거/NNB+먹/VV+으러/EC+가/VX+자구/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 애들도 좋아하겠다.",
+            "norm_text": "응 애들도 좋아하겠다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응애/NNG+들/XSN+도/JX+좋/VA+아/EC+하/VX+겠/EP+다/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래 잘 하면 애들이 사것지 ㅋ",
+            "norm_text": "그래 잘 하면 애들이 사것지 ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+잘/MAG+하/VV+면/EC+애/NNG+들/XSN+이/JKS+사/VV+것/EP+지ㅋ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : **가 살려나?",
+            "norm_text": "**가 살려나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+가/JKS+살/VV+려나/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 작년에는 애들이 챙겨줬잖아.",
+            "norm_text": "작년에는 애들이 챙겨줬잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "작년/NNG+에/JKB+는/JX+애/NNG+들/XSN+이/JKS+챙겨/VV+EC+줬/VX+EP+잖아/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 작년에는 집에서 케이크 불었지",
+            "norm_text": "작년에는 집에서 케이크 불었지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "작년/NNG+에/JKB+는/JX+집/NNG+에서/JKB+케이크/NNG+불/VV+었/EP+지/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 이번에는 안 챙겨주겠지?",
+            "norm_text": "응 이번에는 안 챙겨주겠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+이번/NNG+에/JKB+는/JX+안/MAG+챙겨/VV+EC+주/VX+겠/EP+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 모르지 챙겨 주면 좋은 거고 ㅋ",
+            "norm_text": "모르지 챙겨 주면 좋은 거고 ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "모르/VV+지/EC+챙겨/VV+EC+주/VX+면/EC+좋/VA+은/ETM+거/NNB+고/VCP+EC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 기대하면 안 되는데 기대하게 돼.",
+            "norm_text": "기대하면 안 되는데 기대하게 돼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기대/NNG+하/XSV+면/EC+안/MAG+되/VV+는데/EC+기대/NNG+하/XSV+게/EC+돼/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

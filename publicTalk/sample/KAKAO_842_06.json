@@ -1,0 +1,407 @@
+{
+  "dataset": {
+    "identifier": 47795,
+    "name": "KAKAO_842_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154012456/KAKAO_842_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174154012456/KAKAO_842_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40044,
+      "filename": "KAKAO_842_06.txt",
+      "title": "KAKAO_842_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 925,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 925,
+        "word_size": 301,
+        "text": "1 : 너는 외국어를 배운다면 어떤 나라 언어를 배우고 싶어 ㅇㅅㅇ?\n2 : 나 중국어랑 태국어 배워 보고 싶어\n1 : 와 태국어 뜬금없다 신기하네 키키\n1 : 태국어는 왜 태국 놀러 가게?\n2 : 응 키키 태국 너무 좋았어서 거기서 대화하면서 여행하고 싶어\n2 : 현지인들 착하고 재밌는 사람 많았거든\n1 : 오 키키 그렇구나\n1 : 근데 태국어 그냥 쓰는 것 자체가 너무 어려워 보여... 어흨 키키\n1 : 나도 베트남 가서 간단한 인사 같은 건 했는데 발음도 어렵더라 ㅇ\u003c-\u003c\n2 : 맞아 그냥 누가 봐도 외국인이 하는 느낌이야\n2 : 비슷하게도 못 따라하겠어 키키\n1 : 맞아 키키 근데 나도 비슷한 게 러시아 여행 가기 전에 거긴 영어 잘 안 쓴다고 해서 오 좀 공부하고 갈까 했다가 알파벳부터 다른 거 보고 걍 바로 접고 번역기 씀 ㅇㅅㅇ\n2 : 키키 바로 접었대 키키\n2 : 누난 학교 다닐 때 무슨 과목 제일 좋아했어?\n2 : 체육? 키키\n1 : 나는 그 어떤 과목도 좋아하지 않았어...\n1 : 음 그래 그나마 체육을 좋아했지 대부분 실기로 점수를 많이 받을 수 있으니까 키키\n1 : 체력장 하는 날 개꿀! 너는?\n2 : 아 키키 나도 체육을 제일 좋아했지 키키\n2 : 가만히 있는 걸 못해서 키키 그래서 항상 체육부장...\n1 : 체육부장 키키\n1 : 근데 난 또 뭔 장 그런 건 싫고 조용히 티 안 나게 놀고 싶어서 적당히 했던 것 같아 키키\n1 : 아 그리고 국사 의외로 좋아했어!\n2 : 아 키키 맞아 국사!\n2 : 나도 역사 좋아해 근현대사 전까지만... 키키\n1 : 어 맞아 근현대사 전까지만 키키\n1 : 아씨 뭐야 진짜 비슷하네 키키\n1 : 조선시대 고구려 막 이런 시기 너무 재밌어\n2 : 맞아 키키 옛날 역사 공부하면 재밌는 거 엄청 많아\n1 : 응 키키 일본어도 잘하고 싶었는데 히라가나까지만 하고 파워 포기해쓰 ㅇㅅㅇ\n2 : 키키 오 누나 뭔가 일본어랑 잘 어울린다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 외국어를 배운다면 어떤 나라 언어를 배우고 싶어 ㅇㅅㅇ?",
+            "norm_text": "너는 외국어를 배운다면 어떤 나라 언어를 배우고 싶어 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+외국어/NNG+를/JKO+배운다면/VV+EC+어떤/MM+나라/NNG+언어/NNG+를/JKO+배우/VV+고/EC+싶/VX+어/EC+ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 중국어랑 태국어 배워 보고 싶어",
+            "norm_text": "나 중국어랑 태국어 배워 보고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나중/NNG+국어/NNG+랑/JC+태국어/NNP+배워/VV+EC+보/VX+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 와 태국어 뜬금없다 신기하네 키키",
+            "norm_text": "와 태국어 뜬금없다 신기하네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와태/NNG+국어/NNG+뜬금없/VA+다/EC+신기/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 태국어는 왜 태국 놀러 가게?",
+            "norm_text": "태국어는 왜 태국 놀러 가게?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "태국어/NNP+는/JX+왜/MAG+태국/NNP+놀러/NNP+가게/NNG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응 키키 태국 너무 좋았어서 거기서 대화하면서 여행하고 싶어",
+            "norm_text": "응 키키 태국 너무 좋았어서 거기서 대화하면서 여행하고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키키/NNP+태국/NNP+너무/MAG+좋/VA+았/EP+어서/EC+거기/NP+서/JKB+대화/NNG+하/XSV+면서/EC+여행/NNG+하/XSV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 현지인들 착하고 재밌는 사람 많았거든",
+            "norm_text": "현지인들 착하고 재밌는 사람 많았거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "현지/NNG+인들/JKB+착하/VA+고/EC+재밌/VA+는/ETM+사람/NNG+많/VA+았/EP+거든/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오 키키 그렇구나",
+            "norm_text": "오 키키 그렇구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "오키/NNP+키/NNG+그렇/VA+구나/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 근데 태국어 그냥 쓰는 것 자체가 너무 어려워 보여... 어흨 키키",
+            "norm_text": "근데 태국어 그냥 쓰는 것 자체가 너무 어려워 보여... 어흨 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+태국어/NNP+그냥/MAG+쓰/VV+는/ETM+것/NNB+자체/NNG+가/JKS+너무/MAG+어려워/VA+EC+보여/VV+EF+./SY+어흨키키/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 베트남 가서 간단한 인사 같은 건 했는데 발음도 어렵더라 ㅇ\u003c-\u003c",
+            "norm_text": "나도 베트남 가서 간단한 인사 같은 건 했는데 발음도 어렵더라 ㅇ\u003c-\u003c",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나도베트남가서간단한인사같은건했는데발음도어렵더라ㅇ/UNKNOWN+\u003c/SY+-/SY+\u003c/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 그냥 누가 봐도 외국인이 하는 느낌이야",
+            "norm_text": "맞아 그냥 누가 봐도 외국인이 하는 느낌이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그냥/MAG+누가/NP+JKS+봐도/VV+EC+외국인/NNG+이/JKS+하/VV+는/ETM+느낌/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 비슷하게도 못 따라하겠어 키키",
+            "norm_text": "비슷하게도 못 따라하겠어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비슷/XR+하/XSA+게/EC+도/JX+못/MAG+따라/VV+EC+하/VX+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞아 키키 근데 나도 비슷한 게 러시아 여행 가기 전에 거긴 영어 잘 안 쓴다고 해서 오 좀 공부하고 갈까 했다가 알파벳부터 다른 거 보고 걍 바로 접고 번역기 씀 ㅇㅅㅇ",
+            "norm_text": "맞아 키키 근데 나도 비슷한 게 러시아 여행 가기 전에 거긴 영어 잘 안 쓴다고 해서 오 좀 공부하고 갈까 했다가 알파벳부터 다른 거 보고 걍 바로 접고 번역기 씀 ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+근데/MAJ+나/NP+도/JX+비슷/XR+한/XSA+ETM+게/NNB+JKS+러시아/NNP+여행/NNG+가/VV+기/ETN+전/NNG+에/JKB+거긴/NP+JX+영어/NNG+잘/MAG+안/MAG+쓴다고/VV+EC+해서/VV+EC+오좀/NNG+공부/NNG+하/XSV+고/EC+갈까/VV+EC+했/VX+EP+다가/EC+알파벳/NNG+부터/JX+다른/MM+거/NNB+보고/JKB+걍/UNKNOWN+바로/MAG+접/VV+고/EC+번역기/NNG+씀ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 바로 접었대 키키",
+            "norm_text": "키키 바로 접었대 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키바/NNP+로/JKB+접/VV+었/EP+대/XPN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 누난 학교 다닐 때 무슨 과목 제일 좋아했어?",
+            "norm_text": "누난 학교 다닐 때 무슨 과목 제일 좋아했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누난/NNG+JX+학교/NNG+다닐/VV+ETM+때/NNG+무슨/MM+과목/NNG+제일/MAG+좋/VA+아/EC+했/VX+EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 체육? 키키",
+            "norm_text": "체육? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "체육/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나는 그 어떤 과목도 좋아하지 않았어...",
+            "norm_text": "나는 그 어떤 과목도 좋아하지 않았어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+그/IC+어떤/MM+과목/NNG+도/JX+좋/VA+아/EC+하/VV+지/EC+않/VX+았/EP+어/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 음 그래 그나마 체육을 좋아했지 대부분 실기로 점수를 많이 받을 수 있으니까 키키",
+            "norm_text": "음 그래 그나마 체육을 좋아했지 대부분 실기로 점수를 많이 받을 수 있으니까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+그래/IC+그나마/MAG+체육/NNG+을/JKO+좋아했/VV+EP+지/EC+대부분/NNG+실기/NNG+로/JKB+점수/NNG+를/JKO+많이/MAG+받/VV+을/ETM+수/NNB+있/VV+으니까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 체력장 하는 날 개꿀! 너는?",
+            "norm_text": "체력장 하는 날 개꿀! 너는?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "체력장/NNG+하/XSV+는/ETM+날/NNG+개꿀/NNG+너/NP+는/JX"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아 키키 나도 체육을 제일 좋아했지 키키",
+            "norm_text": "아 키키 나도 체육을 제일 좋아했지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아키/NNP+키나/NNG+도/JX+체육/NNG+을/JKO+제일/MAG+좋/VA+아/EC+했/VX+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 가만히 있는 걸 못해서 키키 그래서 항상 체육부장...",
+            "norm_text": "가만히 있는 걸 못해서 키키 그래서 항상 체육부장...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "가만히/MAG+있/VV+는/ETM+걸/NNB+JKO+못/MAG+해서/VV+EC+키/NNG+키/XSV+ETN+그래서/MAJ+항상/MAG+체육부/NNG+장/NNG+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 체육부장 키키",
+            "norm_text": "체육부장 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "체육부/NNG+장/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 근데 난 또 뭔 장 그런 건 싫고 조용히 티 안 나게 놀고 싶어서 적당히 했던 것 같아 키키",
+            "norm_text": "근데 난 또 뭔 장 그런 건 싫고 조용히 티 안 나게 놀고 싶어서 적당히 했던 것 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+난/NP+JX+또/MAG+뭔/MM+장/NNG+그런/MM+건/NNB+JX+싫/VA+고/EC+조용히/MAG+티/NNG+안/MAG+나/VV+게/EC+놀/VV+고/EC+싶/VX+어서/EC+적당히/MAG+했/VV+EP+던/ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 아 그리고 국사 의외로 좋아했어!",
+            "norm_text": "아 그리고 국사 의외로 좋아했어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그리고/MAJ+국사/NNG+의외/NNG+로/JKB+좋/VA+아/EC+했/VX+EP+어/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 아 키키 맞아 국사!",
+            "norm_text": "아 키키 맞아 국사!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아키키맞아국사/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 나도 역사 좋아해 근현대사 전까지만... 키키",
+            "norm_text": "나도 역사 좋아해 근현대사 전까지만... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+역사/NNG+좋/VA+아/EC+해/VV+EC+근현대/NNG+사전/NNG+까지/JX+만/JX+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 어 맞아 근현대사 전까지만 키키",
+            "norm_text": "어 맞아 근현대사 전까지만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞/VV+아/EC+근현대/NNG+사전/NNG+까지/JX+만/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "1 : 아씨 뭐야 진짜 비슷하네 키키",
+            "norm_text": "아씨 뭐야 진짜 비슷하네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아씨/IC+뭐/NP+야/VCP+EF+진짜/MAG+비슷/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 조선시대 고구려 막 이런 시기 너무 재밌어",
+            "norm_text": "조선시대 고구려 막 이런 시기 너무 재밌어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조선/NNP+시대/NNG+고구려/NNG+막/MAJ+이런/MM+시기/NNG+너무/MAG+재밌/VA+어/EC"
+          },
+          {
+            "id": 29,
+            "text": "2 : 맞아 키키 옛날 역사 공부하면 재밌는 거 엄청 많아",
+            "norm_text": "맞아 키키 옛날 역사 공부하면 재밌는 거 엄청 많아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+옛날/NNG+역사/NNG+공부/NNG+하/XSV+면/EC+재밌/VA+는/ETM+거/NNB+엄청/MAG+많/VA+아/EC"
+          },
+          {
+            "id": 30,
+            "text": "1 : 응 키키 일본어도 잘하고 싶었는데 히라가나까지만 하고 파워 포기해쓰 ㅇㅅㅇ",
+            "norm_text": "응 키키 일본어도 잘하고 싶었는데 히라가나까지만 하고 파워 포기해쓰 ㅇㅅㅇ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+일본어/NNG+도/JX+잘/MAG+하/VV+고/EC+싶/VX+었/EP+는데/EC+히라가나/NNP+까지/JX+만/JX+하/VV+고/EC+파워/NNG+포기/NNG+해/XSV+EC+쓰ㅇ/UNKNOWN+ㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 31,
+            "text": "2 : 키키 오 누나 뭔가 일본어랑 잘 어울린다 키키",
+            "norm_text": "키키 오 누나 뭔가 일본어랑 잘 어울린다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/VV+누나/EC+뭔가/NP+VCP+EC+일본어/NNG+랑/JKB+잘/MAG+어울린/VV+ETM+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

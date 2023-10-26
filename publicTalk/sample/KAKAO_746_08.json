@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 52710,
+    "name": "KAKAO_746_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134807090353/KAKAO_746_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134807090353/KAKAO_746_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37036,
+      "filename": "KAKAO_746_08.txt",
+      "title": "KAKAO_746_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 604,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 604,
+        "word_size": 187,
+        "text": "1 : 너는 결혼 생각은 있어? 난 없어 키키\n2 : 키키 나는 좋은 사람 있음 하겠지만 요샌 없긴 해...\n1 : 키키 그치? ㅜㅜ 진짜 중대한 결정인데 대부분 안 행복하던데\n2 : 오... 그건 슬프네 ㅠㅠ 근데 나는 요새는 뭔가 너무 여자가 손해 보는 것 같아서 ㅠㅠ\n1 : 아... 그것도 그렇지 ㅜㅜ 사실 많이 좋아졌다고는 하지만...\n2 : 맞아... 솔직히 요새는 맞벌이도 하는데도 여자가 더 손해야\n1 : 응... 애기 낳고 나면 진짜 거의 백프로 여자 손해 ㅜㅜ\n2 : 맞아... 근데 집안일도 해야 해 일도 해야 해... 별로야\n1 : 키키 우린 그럼 결혼 하지 말고 행복하게 살자 키키\n2 : 키키 좋지 좋아 키키 근데 좀 쓸쓸할 것도 같애 ㅠㅠ\n1 : 응... 근데 우리 시대는 앞으로 비혼인 사람 많아져서 괜찮지 않을까?\n2 : 오... 그럼 일단 우리 좀 근처에 살자...\n2 : 나는 짝꿍도 없는데 아프면 어떻게 해...? ㅠㅠ\n1 : 아 그래 ㅜㅜ 일단 혼자 살면 주변에 도와줄 사람 있어야 해\n2 : 맞아... 그니깐 비혼인 사람들끼리 근처에서 살아야 해\n1 : 키키 그럼 나 말구 니가 이쪽 동네로 오는 건 어때? 키키\n2 : 하... 근데 서울은... 너~무 정이 없어...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 결혼 생각은 있어? 난 없어 키키",
+            "norm_text": "너는 결혼 생각은 있어? 난 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+결혼/NNG+생각/NNG+은/JX+있/VA+어/EF+난/NP+JX+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 나는 좋은 사람 있음 하겠지만 요샌 없긴 해...",
+            "norm_text": "키키 나는 좋은 사람 있음 하겠지만 요샌 없긴 해...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+좋/VA+은/ETM+사람/NNG+있/VV+음/ETN+하/VV+겠/EP+지만/EC+요샌/MAG+JX+없/VA+긴/ETN+JX+해/VX+EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 그치? ㅜㅜ 진짜 중대한 결정인데 대부분 안 행복하던데",
+            "norm_text": "키키 그치? ㅜㅜ 진짜 중대한 결정인데 대부분 안 행복하던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치/IC+ㅜㅜ/UNKNOWN+진짜/MAG+중대/XR+한/XSA+ETM+결정/NNG+인데/VCP+EC+대부분/NNG+안/NNG+행복/NNG+하/XSV+던데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오... 그건 슬프네 ㅠㅠ 근데 나는 요새는 뭔가 너무 여자가 손해 보는 것 같아서 ㅠㅠ",
+            "norm_text": "오... 그건 슬프네 ㅠㅠ 근데 나는 요새는 뭔가 너무 여자가 손해 보는 것 같아서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+그건/NP+JX+슬프/VA+네/EF+ㅠㅠ/UNKNOWN+근데/MAJ+나/NP+는/JX+요새/NNG+는/JX+뭔가/NP+VCP+EC+너무/MAG+여자/NNG+가/JKS+손/NNG+해/XSV+EC+보/VX+는/ETM+것/NNB+같/VA+아서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아... 그것도 그렇지 ㅜㅜ 사실 많이 좋아졌다고는 하지만...",
+            "norm_text": "아... 그것도 그렇지 ㅜㅜ 사실 많이 좋아졌다고는 하지만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+그것/NP+도/JX+그렇/VA+지/EC+ㅜㅜ/UNKNOWN+사실/MAG+많이/MAG+좋/VA+아/EC+졌/VX+EP+다고/EC+는/JX+하/VV+지만/EC+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아... 솔직히 요새는 맞벌이도 하는데도 여자가 더 손해야",
+            "norm_text": "맞아... 솔직히 요새는 맞벌이도 하는데도 여자가 더 손해야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+솔직히/MAG+요새/NNG+는/JX+맞벌이/NNG+도/JX+하/VV+는/ETM+데/NNB+도/JX+여자/NNG+가/JKS+더/MAG+손/NNG+해야/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응... 애기 낳고 나면 진짜 거의 백프로 여자 손해 ㅜㅜ",
+            "norm_text": "응... 애기 낳고 나면 진짜 거의 백프로 여자 손해 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+애기/NNG+낳/VV+고/EC+나/VX+면/EC+진짜/MAG+거의/MAG+백/NR+프로/NNBC+여자/NNG+손해/NNG+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아... 근데 집안일도 해야 해 일도 해야 해... 별로야",
+            "norm_text": "맞아... 근데 집안일도 해야 해 일도 해야 해... 별로야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+근데/MAJ+집안일/NNG+도/JX+해야/VV+EC+해일/NNG+도/JX+해야/VV+EC+해/VX+EF+./SY+별로/MAG+야/IC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 우린 그럼 결혼 하지 말고 행복하게 살자 키키",
+            "norm_text": "키키 우린 그럼 결혼 하지 말고 행복하게 살자 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우린/NP+JX+그럼/MAJ+결혼/NNG+하/XSV+지/EC+말/VX+고/EC+행복/NNG+하/XSV+게/EC+살/VV+ETM+자키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 좋지 좋아 키키 근데 좀 쓸쓸할 것도 같애 ㅠㅠ",
+            "norm_text": "키키 좋지 좋아 키키 근데 좀 쓸쓸할 것도 같애 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+지/EC+좋/VA+아/EC+키/NNG+키/XSV+ETN+근데/MAJ+좀/MAG+쓸쓸/XR+할/XSA+ETM+것/NNB+도/JX+같/VA+애/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응... 근데 우리 시대는 앞으로 비혼인 사람 많아져서 괜찮지 않을까?",
+            "norm_text": "응... 근데 우리 시대는 앞으로 비혼인 사람 많아져서 괜찮지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+./SY+근데/MAJ+우리/NP+시대/NNG+는/JX+앞/NNG+으로/JKB+비/XPN+혼인/NNG+사람/NNG+많/VA+아/EC+져서/VX+EC+괜찮/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 오... 그럼 일단 우리 좀 근처에 살자...",
+            "norm_text": "오... 그럼 일단 우리 좀 근처에 살자...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "오/IC+./SY+그럼/MAJ+일단/MAG+우리/NP+좀/MAG+근처/NNG+에/JKB+살/VV+자/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나는 짝꿍도 없는데 아프면 어떻게 해...? ㅠㅠ",
+            "norm_text": "나는 짝꿍도 없는데 아프면 어떻게 해...? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+짝꿍/NNG+도/JX+없/VA+는데/EC+아프/VA+면/EC+어떻게/MAG+해/VV+EF+./SY+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 그래 ㅜㅜ 일단 혼자 살면 주변에 도와줄 사람 있어야 해",
+            "norm_text": "아 그래 ㅜㅜ 일단 혼자 살면 주변에 도와줄 사람 있어야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+ㅜㅜ/UNKNOWN+일단/MAG+혼자/MAG+살/VV+면/EC+주변/NNG+에/JKB+도와/VV+EC+줄/VX+ETM+사람/NNG+있/VV+어야/EC+해/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 맞아... 그니깐 비혼인 사람들끼리 근처에서 살아야 해",
+            "norm_text": "맞아... 그니깐 비혼인 사람들끼리 근처에서 살아야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+그니깐/MAJ+비/XPN+혼인/NNG+사람/NNG+들/XSN+끼리/XSN+근처/NNG+에서/JKB+살/VV+아야/EC+해/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 그럼 나 말구 니가 이쪽 동네로 오는 건 어때? 키키",
+            "norm_text": "키키 그럼 나 말구 니가 이쪽 동네로 오는 건 어때? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+나말/NNG+구니/NNG+가/JKS+이쪽/NP+동네/NNG+로/JKB+오/VV+는/ETM+건/NNB+JX+어때/VA+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 하... 근데 서울은... 너~무 정이 없어...",
+            "norm_text": "하... 근데 서울은... 너~무 정이 없어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "하/IC+./SY+근데/MAJ+서울/NNP+은/JX+./SY+./SY+너/NP+~/SY+무정/NNP+이/JKS+없/VA+어/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

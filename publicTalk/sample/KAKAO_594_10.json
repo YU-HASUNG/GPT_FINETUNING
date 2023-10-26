@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24802,
+    "name": "KAKAO_594_10_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160136081229/KAKAO_594_10_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160136081229/KAKAO_594_10_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31661,
+      "filename": "KAKAO_594_10.txt",
+      "title": "KAKAO_594_10",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 460,
+      "annotations": {
+        "subject": "스포츠/레저",
+        "speaker_type": "1:1",
+        "size": 460,
+        "word_size": 157,
+        "text": "1 : 스포츠 중에 잘하는 거 있어?\n2 : 어... 없는 거 같아...\n1 : 키키 나도... 그래서 나 다음 달부터 수영 등록하려고...\n2 : 나 몸이 뜨지도 않아서 배울 엄두가 안 나는데 ㅠㅠ\n1 : 진짜? 킥판 이런 거 하면 뜨는데 배워본 적 있나?\n2 : 엥 그게 뭐야 킥판?\n1 : 그거 잡고 나가는 거 있어! 근데 너 운동 신경이 은근 있잖아 키키 잘할 것 같은데?\n2 : 아 그걸 킥판이라고 하는구나 정말? 진심이야?\n1 : 응 하하 근데 그냥 하지 마 그게 좋을 것 같아 키키\n2 : 키키 아 왜 너 하니까 나도 수영할래\n1 : 같이 할래? 근데 난 새벽에 할 거야 하하 6시? 7시?\n2 : 안 할래 하하 사실 나 헬스 배워보고 싶어 피티 !\n1 : 근데 PT는 너무 비싸 ㅜㅜ\n2 : 그러니까 ㅠㅠ 내가 언젠간 배운다\n1 : 그러자! 우리 친구 중에도 PT 하는 애 있잖아 키키\n2 : 오 맞네 나 그럼 달려가서 해 달라 해야지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 스포츠 중에 잘하는 거 있어?",
+            "norm_text": "스포츠 중에 잘하는 거 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "스포츠/NNG+중/NNB+에/JKB+잘/MAG+하/VV+는/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어... 없는 거 같아...",
+            "norm_text": "어... 없는 거 같아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+없/VA+는/ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 나도... 그래서 나 다음 달부터 수영 등록하려고...",
+            "norm_text": "키키 나도... 그래서 나 다음 달부터 수영 등록하려고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+./SY+./SY+그래서/MAJ+나/NP+다음/NNG+달/NNG+부터/JX+수영/NNG+등록/NNG+하/XSV+려고/EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 몸이 뜨지도 않아서 배울 엄두가 안 나는데 ㅠㅠ",
+            "norm_text": "나 몸이 뜨지도 않아서 배울 엄두가 안 나는데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+몸/NNG+이/JKS+뜨/VV+지/EC+도/JX+않/VX+아서/EC+배울/VV+ETM+엄두/NNG+가/JKS+안/MAG+나/VV+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 진짜? 킥판 이런 거 하면 뜨는데 배워본 적 있나?",
+            "norm_text": "진짜? 킥판 이런 거 하면 뜨는데 배워본 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+킥/MAG+판/VV+ETM+이런/MM+거/NNB+하/VV+면/EC+뜨/VV+는/ETM+데/NNB+배워/VV+EC+본/VX+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 엥 그게 뭐야 킥판?",
+            "norm_text": "엥 그게 뭐야 킥판?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+그게/NP+JKS+뭐/NP+야/VCP+EF+킥/IC+판/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그거 잡고 나가는 거 있어! 근데 너 운동 신경이 은근 있잖아 키키 잘할 것 같은데?",
+            "norm_text": "그거 잡고 나가는 거 있어! 근데 너 운동 신경이 은근 있잖아 키키 잘할 것 같은데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+잡/VV+고/EC+나가/VX+는/ETM+거/NNB+있/VA+어/EF+근데/MAJ+너/NP+운동/NNG+신경/NNG+이/JKS+은근/NNG+있/VV+잖아/EC+키/NNG+키/XSV+ETN+잘/MAG+할/VV+ETM+것/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 그걸 킥판이라고 하는구나 정말? 진심이야?",
+            "norm_text": "아 그걸 킥판이라고 하는구나 정말? 진심이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그걸/NP+JKO+킥/NNG+판/NNB+이/VCP+라고/EC+하/VX+는구나/EF+정말/MAG+진심/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 하하 근데 그냥 하지 마 그게 좋을 것 같아 키키",
+            "norm_text": "응 하하 근데 그냥 하지 마 그게 좋을 것 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+하하/MAG+근데/MAJ+그냥/MAG+하/VV+지/EC+마/VX+EF+그게/NP+JKS+좋/VA+을/ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 아 왜 너 하니까 나도 수영할래",
+            "norm_text": "키키 아 왜 너 하니까 나도 수영할래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+왜/MAG+너/NP+하/VV+니까/EC+나도수영/NNG+할래/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 같이 할래? 근데 난 새벽에 할 거야 하하 6시? 7시?",
+            "norm_text": "같이 할래? 근데 난 새벽에 할 거야 하하 6시? 7시?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "같이/MAG+할래/VV+EF+근데/MAJ+난/NP+JX+새벽/NNG+에/JKB+할/VV+ETM+거/NNB+야/VCP+EF+하하/MAG+6/SN+시/NNBC+?/SY+7/SN+시/NNBC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 안 할래 하하 사실 나 헬스 배워보고 싶어 피티 !",
+            "norm_text": "안 할래 하하 사실 나 헬스 배워보고 싶어 피티 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+할래/VV+EC+하하/MAG+사실/MAG+나/NP+헬스/NNG+배워/VV+EC+보/VX+고/EC+싶/VX+어/EC+피티/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 PT는 너무 비싸 ㅜㅜ",
+            "norm_text": "근데 PT는 너무 비싸 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+PT/SL+는/JX+너무/MAG+비싸/VA+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러니까 ㅠㅠ 내가 언젠간 배운다",
+            "norm_text": "그러니까 ㅠㅠ 내가 언젠간 배운다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+ㅠㅠ/UNKNOWN+내/NP+가/JKS+언젠간/MAG+JX+배운다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러자! 우리 친구 중에도 PT 하는 애 있잖아 키키",
+            "norm_text": "그러자! 우리 친구 중에도 PT 하는 애 있잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+자/EF+우리/NP+친구/NNG+중/NNB+에/JKB+도/JX+PT/SL+하/XSV+는/ETM+애/NNG+있/VV+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오 맞네 나 그럼 달려가서 해 달라 해야지",
+            "norm_text": "오 맞네 나 그럼 달려가서 해 달라 해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+맞/VV+네/EF+나/NP+그럼/MAJ+달려가/VV+서/EC+해/VV+EC+달/VX+라/EC+해야지/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

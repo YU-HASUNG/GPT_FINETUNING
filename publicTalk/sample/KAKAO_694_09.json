@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 64221,
+    "name": "KAKAO_694_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112728075213/KAKAO_694_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112728075213/KAKAO_694_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35128,
+      "filename": "KAKAO_694_09.txt",
+      "title": "KAKAO_694_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 609,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 609,
+        "word_size": 194,
+        "text": "1 : 나는 그냥 고양이 카페나 가고 싶어. 너무 귀엽잖아 고양이\n2 : 나 고양이 카페 갔었는데 아무래도 고양이가 예민해서 할게 구경 뿐이야\n1 : 나는 오래 고양이 키웠잖아. 그래서 그런가 집 같고 좋앙 ㅠㅠ 도도한 녀석들\n2 : 난 나중에 결혼하면 강아지 키우고 싶어 근데 사실 시간보다 돈이 문제지\n1 : 돈도 문제고 집에서 키우는 건 내가 그만큼 시간을 할애하고 책임감이 있어야 하는데 먹고사느라 바쁠 듯\n2 : 알아봤는데 사료,패드 제외 순수 강아지를 위한 병원비 같은 걸로 달에 50만원을 쓸 수 있을 때 키워야 한대\n1 : 와 ... 난 평생 못 키울 것 같은데 ,?\n2 : 이건 당연히 금전적인 부분이고 시간은 당연히, 그래서 솔직히 자신 없어\n1 : 맞아... 근데 진짜 혼자 사니까 외로워서 그런가 너무 키우고 싶긴 해 근데 또 자신도 없고 에휴\n2 : 그냥 동거를 하자 동물은 말도 못 하는데 ㅜ\n1 : 너 나랑 동거하는 거 까버렸잖아\n2 : 미안한데 애인이랑 하자 널 챙길 자신이 없단다\n1 : 나 청소도 잘하고 잠도 잘 자고 똥도 잘 싸\n2 : 그래, 강아지 같고 좋다\n1 : 용돈 주면 묘기도 부려 줄 수 있어.\n1 : 내가 좀 더 나은 것 같은데 어때\n2 : 강아지는 귀여운데 넌 아니잖아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나는 그냥 고양이 카페나 가고 싶어. 너무 귀엽잖아 고양이",
+            "norm_text": "나는 그냥 고양이 카페나 가고 싶어. 너무 귀엽잖아 고양이",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+그냥/MAG+고양이/NNG+카페/NNG+나가/VV+고/EC+싶/VX+어/EF+너무/MAG+귀엽/VA+잖아/EC+고양이/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 고양이 카페 갔었는데 아무래도 고양이가 예민해서 할게 구경 뿐이야",
+            "norm_text": "나 고양이 카페 갔었는데 아무래도 고양이가 예민해서 할게 구경 뿐이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+고양이/NNG+카페/NNG+갔었/VV+EP+는데/EC+아무래도/MAG+고양이/NNG+가/JKS+예민/XR+해서/XSA+EC+할/VX+ETM+게/NNB+JKS+구경/NNG+뿐/JX+이/VCP+야/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나는 오래 고양이 키웠잖아. 그래서 그런가 집 같고 좋앙 ㅠㅠ 도도한 녀석들",
+            "norm_text": "나는 오래 고양이 키웠잖아. 그래서 그런가 집 같고 좋앙 ㅠㅠ 도도한 녀석들",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+오래/MAG+고양이/NNG+키웠/VV+EP+잖아/EF+그래서/MAJ+그런/MM+가집/NNG+같/VA+고/EC+좋/VA+앙/EC+ㅠㅠ/UNKNOWN+도도/XR+한/XSA+ETM+녀석/NNB+들/XSN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 난 나중에 결혼하면 강아지 키우고 싶어 근데 사실 시간보다 돈이 문제지",
+            "norm_text": "난 나중에 결혼하면 강아지 키우고 싶어 근데 사실 시간보다 돈이 문제지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+나중/NNG+에/JKB+결혼/NNG+하/XSV+면/EC+강아지/NNG+키우/VV+고/EC+싶/VX+어/EF+근데/MAJ+사실/MAG+시간/NNG+보다/JKB+돈/NNG+이/JKS+문제지/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 돈도 문제고 집에서 키우는 건 내가 그만큼 시간을 할애하고 책임감이 있어야 하는데 먹고사느라 바쁠 듯",
+            "norm_text": "돈도 문제고 집에서 키우는 건 내가 그만큼 시간을 할애하고 책임감이 있어야 하는데 먹고사느라 바쁠 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "돈/NNG+도/JX+문제/NNG+고집/NNG+에서/JKB+키우/VV+는/ETM+건/NNB+JX+내/NP+가/JKS+그만큼/MAG+시간/NNG+을/JKO+할애/NNG+하/XSV+고/EC+책임/NNG+감/XSN+이/JKS+있/VV+어야/EC+하/VV+는/ETM+데/NNB+먹/VV+고/EC+사/VV+느라/EC+바쁠/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 6,
+            "text": "2 : 알아봤는데 사료,패드 제외 순수 강아지를 위한 병원비 같은 걸로 달에 50만원을 쓸 수 있을 때 키워야 한대",
+            "norm_text": "알아봤는데 사료,패드 제외 순수 강아지를 위한 병원비 같은 걸로 달에 50만원을 쓸 수 있을 때 키워야 한대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "알/VV+아/EC+봤/VX+EP+는데/EC+사료/NNG+,/SC+패드/NNG+제외/NNG+순수/NNG+강아지/NNG+를/JKO+위한/VV+ETM+병원/NNG+비/NNG+같/VA+은/ETM+걸로/NNB+JKB+달/NNG+에/JKB+50/SN+만/NR+원/NNBC+을/JKO+쓸/VV+ETM+수/NNB+있/VV+을/ETM+때/NNG+키워야/VV+EC+한대/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 와 ... 난 평생 못 키울 것 같은데 ,?",
+            "norm_text": "와 ... 난 평생 못 키울 것 같은데 ,?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+./SY+난/NP+JX+평생/MAG+못/MAG+키울/VV+ETM+것/NNB+같/VA+은데/EC+,/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 이건 당연히 금전적인 부분이고 시간은 당연히, 그래서 솔직히 자신 없어",
+            "norm_text": "이건 당연히 금전적인 부분이고 시간은 당연히, 그래서 솔직히 자신 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이건/NP+JX+당연히/MAG+금전/NNG+적/XSN+인/VCP+ETM+부분/NNG+이/VCP+고/EC+시간/NNG+은/JX+당연히/MAG+,/SC+그래서/MAJ+솔직히/MAG+자신/NNG+없/VA+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞아... 근데 진짜 혼자 사니까 외로워서 그런가 너무 키우고 싶긴 해 근데 또 자신도 없고 에휴",
+            "norm_text": "맞아... 근데 진짜 혼자 사니까 외로워서 그런가 너무 키우고 싶긴 해 근데 또 자신도 없고 에휴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+./SY+근데/MAJ+진짜/MAG+혼자/MAG+사/VV+니까/EC+외로워서/VA+EC+그런가/VA+EC+너무/MAG+키우/VV+고/EC+싶/VX+긴/ETN+JX+해/VX+EF+근데/MAJ+또/MAG+자신/NNG+도/JX+없/VA+고/EC+에휴/IC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그냥 동거를 하자 동물은 말도 못 하는데 ㅜ",
+            "norm_text": "그냥 동거를 하자 동물은 말도 못 하는데 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그냥/MAG+동거/NNG+를/JKO+하/VV+자/EC+동물/NNG+은/JX+말/NNG+도/JX+못/MAG+하/VV+는/ETM+데ㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너 나랑 동거하는 거 까버렸잖아",
+            "norm_text": "너 나랑 동거하는 거 까버렸잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+나/NP+랑/JKB+동거/NNG+하/XSV+는/ETM+거/NNB+까/VCP+EC+버렸/VX+EP+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 미안한데 애인이랑 하자 널 챙길 자신이 없단다",
+            "norm_text": "미안한데 애인이랑 하자 널 챙길 자신이 없단다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 사과하기",
+            "morpheme": "미안/NNG+한데/XSA+EC+애인/NNG+이랑/JKB+하/VV+자/EC+널/NP+JKO+챙길/VV+ETM+자신/NNG+이/JKS+없/VA+단다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나 청소도 잘하고 잠도 잘 자고 똥도 잘 싸",
+            "norm_text": "나 청소도 잘하고 잠도 잘 자고 똥도 잘 싸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+청소/NNG+도/JX+잘/MAG+하/VV+고/EC+잠/NNG+도/JX+잘/VA+자고/EC+똥/NNG+도/JX+잘/MAG+싸/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래, 강아지 같고 좋다",
+            "norm_text": "그래, 강아지 같고 좋다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+,/SC+강아지/NNG+같/VA+고/EC+좋/VA+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 용돈 주면 묘기도 부려 줄 수 있어.",
+            "norm_text": "용돈 주면 묘기도 부려 줄 수 있어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "용돈/NNG+주/VV+면/EC+묘기/NNG+도/JX+부려/VV+EC+줄/VX+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 내가 좀 더 나은 것 같은데 어때",
+            "norm_text": "내가 좀 더 나은 것 같은데 어때",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내/NP+가/JKS+좀/MAG+더/MAG+나/VA+은/ETM+것/NNB+같/VA+은/ETM+데/NNB+어때/VA+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 강아지는 귀여운데 넌 아니잖아",
+            "norm_text": "강아지는 귀여운데 넌 아니잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "강아지/NNG+는/JX+귀여운데/VA+EC+넌/NP+JX+아니/VCN+잖아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

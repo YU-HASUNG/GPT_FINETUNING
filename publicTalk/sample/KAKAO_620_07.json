@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 34434,
+    "name": "KAKAO_620_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142923083047/KAKAO_620_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142923083047/KAKAO_620_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34245,
+      "filename": "KAKAO_620_07.txt",
+      "title": "KAKAO_620_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 522,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 522,
+        "word_size": 168,
+        "text": "1 : 우리 누나 코로나 확진...\n2 : 엥 대박 진짜? 서울 사는 누나? 큰 누나?\n1 : 어... 매형 회사에 확진자 나와서 어제 검사 받았는데 확진됐대 ㅜㅜ\n2 : 헐... 미쳤다... 애기 있는 집 아니야?\n1 : 맞아 조카까지 다 확진 ㅜㅜ\n1 : 매형은 얀센 맞았는데도 확진\n2 : 헐...? 헐?! 얀센 맞았는데 확진이라고?\n1 : 어 진짜 그게 더 충격... 얀센이 1차만 맞아서 그럴 수도 있고\n2 : 와... 니는 얀센 맞았어?\n2 : 아님 못 맞았어?\n1 : 난 얀센 안 맞음 그때 그래서 다음 주에 화이자 맞는다\n2 : 아 맞다 맞다 **이랑 같이 맞는다고 했제 와... 미쳤다 무서워 ㅠㅠ\n1 : 어 진짜... 지금 **이 설득 시킨다고 미친다 키키\n2 : 키키 아니 아예 안 맞을 생각도 있어?\n1 : 키키 난 맞을 건데 **이 계속 안 맞는다고 키키\n2 : 아 키키 그래 맞긴 해야 할 것 같애 ㅠㅠ\n1 : 그러니까 진짜 같이 맞으러 가기로 해서 억지로 설득했다 키키\n2 : 그래 설득 잘했다... 그래도 맞는 게 더 낫지 않겠나...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 누나 코로나 확진...",
+            "norm_text": "우리 누나 코로나 확진...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+누나/NNG+코로나/NNG+확진/NNG+./SY+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥 대박 진짜? 서울 사는 누나? 큰 누나?",
+            "norm_text": "엥 대박 진짜? 서울 사는 누나? 큰 누나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+대박/NNG+진짜/MAG+서울/NNP+사/VV+는/ETM+누나/NNG+큰/VA+ETM+누나/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어... 매형 회사에 확진자 나와서 어제 검사 받았는데 확진됐대 ㅜㅜ",
+            "norm_text": "어... 매형 회사에 확진자 나와서 어제 검사 받았는데 확진됐대 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+./SY+매형/NNG+회사/NNG+에/JKB+확진/NNG+자/XSN+나와서/VV+EC+어제/MAG+검사/NNG+받/VV+았/EP+는데/EC+확진/NNG+됐/XSV+EP+대/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헐... 미쳤다... 애기 있는 집 아니야?",
+            "norm_text": "헐... 미쳤다... 애기 있는 집 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+./SY+미쳤/VV+EP+다/EF+./SY+애기/NNG+있/VA+는/ETM+집/NNG+아니/VCN+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 조카까지 다 확진 ㅜㅜ",
+            "norm_text": "맞아 조카까지 다 확진 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+조카/NNG+까지/JX+다/MAG+확진/NNG+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 매형은 얀센 맞았는데도 확진",
+            "norm_text": "매형은 얀센 맞았는데도 확진",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "매형/NNG+은/JX+얀센/NNG+맞/VV+았/EP+는데/EC+도/JX+확진/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 헐...? 헐?! 얀센 맞았는데 확진이라고?",
+            "norm_text": "헐...? 헐?! 얀센 맞았는데 확진이라고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+./SY+./SY+헐/IC+!/SY+얀센/NNP+맞/VV+았/EP+는데/EC+확진/NNG+이/VCP+라고/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어 진짜 그게 더 충격... 얀센이 1차만 맞아서 그럴 수도 있고",
+            "norm_text": "어 진짜 그게 더 충격... 얀센이 1차만 맞아서 그럴 수도 있고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+진짜/MAG+그게/NP+JKS+더/MAG+충격/NNG+./SY+./SY+얀센/NNP+이/JKS+1/SN+차/NNBC+만/JX+맞/VV+아서/EC+그럴/VV+ETM+수/NNB+도/JX+있/VA+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 와... 니는 얀센 맞았어?",
+            "norm_text": "와... 니는 얀센 맞았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+니/NP+는/JX+얀센/NNG+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아님 못 맞았어?",
+            "norm_text": "아님 못 맞았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아님/MAJ+못/MAG+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 난 얀센 안 맞음 그때 그래서 다음 주에 화이자 맞는다",
+            "norm_text": "난 얀센 안 맞음 그때 그래서 다음 주에 화이자 맞는다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+얀센/NNG+안/MAG+맞/VV+음/ETN+그때/NNG+그래서/MAJ+다음/NNG+주/NNG+에/JKB+화이자/NNP+맞/VV+는다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 맞다 맞다 **이랑 같이 맞는다고 했제 와... 미쳤다 무서워 ㅠㅠ",
+            "norm_text": "아 맞다 맞다 **이랑 같이 맞는다고 했제 와... 미쳤다 무서워 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+다/EC+맞/VV+다/EC+*/SY+*/SY+이랑/JKB+같이/MAG+맞/VV+는다고/EC+했/VX+EP+제/XSN+와/JC+./SY+./SY+미쳤다무서워ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어 진짜... 지금 **이 설득 시킨다고 미친다 키키",
+            "norm_text": "어 진짜... 지금 **이 설득 시킨다고 미친다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+진짜/MAG+./SY+지금/MAG+*/SY+*/SY+이/JKS+설득/NNG+시킨/XSV+다고/EC+미친/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 아니 아예 안 맞을 생각도 있어?",
+            "norm_text": "키키 아니 아예 안 맞을 생각도 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+아예/MAG+안/MAG+맞/VV+을/ETM+생각/NNG+도/JX+있/VA+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 난 맞을 건데 **이 계속 안 맞는다고 키키",
+            "norm_text": "키키 난 맞을 건데 **이 계속 안 맞는다고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/NP+JX+맞/VV+을/ETM+건데/NNB+VCP+EC+*/SY+*/SY+이/JKS+계속/MAG+안/MAG+맞/VV+는다고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 키키 그래 맞긴 해야 할 것 같애 ㅠㅠ",
+            "norm_text": "아 키키 그래 맞긴 해야 할 것 같애 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+그래/VA+EC+맞/VV+긴/ETN+JX+해야/VX+EC+할/VX+ETM+것/NNB+같/VA+애/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그러니까 진짜 같이 맞으러 가기로 해서 억지로 설득했다 키키",
+            "norm_text": "그러니까 진짜 같이 맞으러 가기로 해서 억지로 설득했다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+진짜/MAG+같이/MAG+맞/VV+으러/EC+가/VX+기/ETN+로/JKB+해서/VV+EC+억지로/MAG+설득/NNG+했/XSV+EP+다키키/NNP"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그래 설득 잘했다... 그래도 맞는 게 더 낫지 않겠나...",
+            "norm_text": "그래 설득 잘했다... 그래도 맞는 게 더 낫지 않겠나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+설득/NNG+잘/MAG+했/VV+EP+다/EF+./SY+그래도/VV+EC+맞/VV+는/ETM+게/NNB+JKS+더/MAG+낫/VA+지/EC+않/VX+겠/EP+나/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

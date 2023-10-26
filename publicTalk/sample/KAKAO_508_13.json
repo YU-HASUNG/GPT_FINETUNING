@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 28738,
+    "name": "KAKAO_508_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302090092/KAKAO_508_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302090092/KAKAO_508_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28683,
+      "filename": "KAKAO_508_13.txt",
+      "title": "KAKAO_508_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 409,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 409,
+        "word_size": 124,
+        "text": "1 : 요새 날씨가 선선하네요\n2 : 선풍기 자연풍 같은 바람이 솔솔 부네요\n1 : 그러게요 밤에도 시원하네여\n2 : 사계절 내내 이런 날씨였으면 좋겠다고 생각했어요\n1 : 오늘 하늘 봤는데 구름이 예쁘더라고요\n2 : 뭉게구름 보고 싶은데 보신 적 있으세요?\n1 : 네 구름도 선선하니 딱 산책하기 좋죠\n2 : 솜사탕처럼 폭신폭신 정말 사진 찍고 싶어요\n1 : 요새 아주 사진을 많이들 찍더라고요\n2 : 근데 우리나라에도 오로라 현상 같은 거 있어요?\n1 : 오로라 없을걸요\n1 : 하늘이 높으니 식욕이 돋네요 또\n2 : 미국에는 허리케인도 오고 날씨에 따라서 자연 현상이 있네요\n1 : 오로라는 북쪽 지역에만 있나요\n2 : 전 잘 몰라서요 요즘에 해가 짧아져서 6시에 어둡네요?\n1 : 네 해가 금방 떨어지네요\n2 : 새벽에는 이불 안 덮으면 발 시렵더라고요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 날씨가 선선하네요",
+            "norm_text": "요새 날씨가 선선하네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/NNG+날씨/NNG+가/JKS+선선/NNG+하/XSV+네요/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 선풍기 자연풍 같은 바람이 솔솔 부네요",
+            "norm_text": "선풍기 자연풍 같은 바람이 솔솔 부네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "선풍기/NNG+자연/NNG+풍/XSN+같/VA+은/ETM+바람/NNG+이/JKS+솔솔/MAG+부네/NNG+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러게요 밤에도 시원하네여",
+            "norm_text": "그러게요 밤에도 시원하네여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/MAJ+요/MM+밤/NNG+에/JKB+도/JX+시원/XR+하/XSA+네여/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 사계절 내내 이런 날씨였으면 좋겠다고 생각했어요",
+            "norm_text": "사계절 내내 이런 날씨였으면 좋겠다고 생각했어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사계절/NNG+내내/MAG+이런/MM+날씨/NNG+였/VCP+EP+으면/EC+좋/VA+겠/EP+다고/EC+생각/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오늘 하늘 봤는데 구름이 예쁘더라고요",
+            "norm_text": "오늘 하늘 봤는데 구름이 예쁘더라고요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+하늘/NNG+봤/VV+EP+는데/EC+구름/NNG+이/JKS+예쁘/VA+더라고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 뭉게구름 보고 싶은데 보신 적 있으세요?",
+            "norm_text": "뭉게구름 보고 싶은데 보신 적 있으세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭉게구름/NNG+보/VV+고/EC+싶/VX+은데/EC+보/VX+신/EP+ETM+적/NNB+있/VA+으세요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 네 구름도 선선하니 딱 산책하기 좋죠",
+            "norm_text": "네 구름도 선선하니 딱 산책하기 좋죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+구름/NNG+도/JX+선선/NNG+하/XSV+니/EC+딱/MAG+산책/NNG+하/XSV+기/ETN+좋/VA+죠/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 솜사탕처럼 폭신폭신 정말 사진 찍고 싶어요",
+            "norm_text": "솜사탕처럼 폭신폭신 정말 사진 찍고 싶어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "솜사탕/NNG+처럼/JKB+폭신폭신/MAG+정말/MAG+사진/NNG+찍/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 요새 아주 사진을 많이들 찍더라고요",
+            "norm_text": "요새 아주 사진을 많이들 찍더라고요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/MAG+아주/MAG+사진/NNG+을/JKO+많이/MAG+들/XSN+찍/VV+더라고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 우리나라에도 오로라 현상 같은 거 있어요?",
+            "norm_text": "근데 우리나라에도 오로라 현상 같은 거 있어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+우리/NP+나라/NNG+에/JKB+도/JX+오로라/NNG+현상/NNG+같/VA+은/ETM+거/NNB+있/VA+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오로라 없을걸요",
+            "norm_text": "오로라 없을걸요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오로라/NNG+없/VA+을걸요/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 하늘이 높으니 식욕이 돋네요 또",
+            "norm_text": "하늘이 높으니 식욕이 돋네요 또",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하늘/NNG+이/JKS+높/VA+으니/EC+식욕/NNG+이/JKS+돋/VV+EP+네요/EF+또/MAG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 미국에는 허리케인도 오고 날씨에 따라서 자연 현상이 있네요",
+            "norm_text": "미국에는 허리케인도 오고 날씨에 따라서 자연 현상이 있네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "미국/NNP+에/JKB+는/JX+허리케인/NNG+도/JX+오/VV+고/EC+날씨/NNG+에/JKB+따라서/VV+EC+자연/NNG+현상/NNG+이/JKS+있/VV+네요/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오로라는 북쪽 지역에만 있나요",
+            "norm_text": "오로라는 북쪽 지역에만 있나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오로/NNG+라는/VCP+ETM+북쪽/NNG+지역/NNG+에/JKB+만/JX+있/VX+나요/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 전 잘 몰라서요 요즘에 해가 짧아져서 6시에 어둡네요?",
+            "norm_text": "전 잘 몰라서요 요즘에 해가 짧아져서 6시에 어둡네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "전/NP+JX+잘/MAG+몰/VV+라서요/EC+요즘/NNG+에/JKB+해/NNG+가/JKS+짧아져서/VV+EC+6/SN+시/NNBC+에/JKB+어둡/VA+네요/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 네 해가 금방 떨어지네요",
+            "norm_text": "네 해가 금방 떨어지네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+해/NNG+가/JKS+금방/MAG+떨어지/VV+네요/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 새벽에는 이불 안 덮으면 발 시렵더라고요",
+            "norm_text": "새벽에는 이불 안 덮으면 발 시렵더라고요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "새벽/NNG+에/JKB+는/JX+이불/NNG+안/MAG+덮/VV+으면/EC+발/NNG+시렵/VV+더라고요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

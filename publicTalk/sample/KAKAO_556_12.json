@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 22474,
+    "name": "KAKAO_556_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151408069547/KAKAO_556_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151408069547/KAKAO_556_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29723,
+      "filename": "KAKAO_556_12.txt",
+      "title": "KAKAO_556_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 478,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 478,
+        "word_size": 155,
+        "text": "1 : 결국 모든 건 돈으로 해결되는구만 키키\n2 : 그렇지 돈 많으면 모든 게 해결되고 편해지지\n1 : 맞앙 나는 일본 여행 가서 그 프라모델 엄청 모아 논 매장 있다는데 거기 가보고 싶어\n2 : 흠 일본은 너무 위험한 거 아니야? 키키\n1 : 엥 일본이 왜 위험해?\n2 : 후쿠시마 때문에 위험하지? 방사능이자나\n1 : 아아 그래도 가서 편의점 음식 먹어보고 싶어!\n2 : 난 일본 말구 저기 가고 싶어\n1 : 저기? 저기가 어디여 키키\n2 : 우리 집에 있는 내 방속 침대 위 이불 속\n1 : 아 나도 ㅠ 거기 지금 내 옆에도 있는데 못 가는 중임. 가까운데 너무 멀어\n2 : 나두 얼른 들어가서 포옥 감싸지고 싶다\n1 : 오빠도 컴퓨터 하고 있는겨?\n2 : 그럼... 핸드폰으로 어떻게 하고 있어... 너무 쬐깐해서 안돼\n1 : 아 여행은 고사하고 컴퓨터 의자 먼저 사야겠어.\n1 : 싸구려 샀더니 너무 딱딱해서 엉덩이 아파\n2 : ㄷㄷ; 그거 사장님 의자 아님? 좋던데 왜?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 결국 모든 건 돈으로 해결되는구만 키키",
+            "norm_text": "결국 모든 건 돈으로 해결되는구만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "결국/MAG+모든/MM+건/NNB+JX+돈/NNG+으로/JKB+해결/NNG+되/XSV+는/ETM+구만/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그렇지 돈 많으면 모든 게 해결되고 편해지지",
+            "norm_text": "그렇지 돈 많으면 모든 게 해결되고 편해지지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EC+돈/NNG+많/VA+으면/EC+모든/MM+게/NNB+JKS+해결/NNG+되/XSV+고/EC+편해/VA+EC+지/VX+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞앙 나는 일본 여행 가서 그 프라모델 엄청 모아 논 매장 있다는데 거기 가보고 싶어",
+            "norm_text": "맞앙 나는 일본 여행 가서 그 프라모델 엄청 모아 논 매장 있다는데 거기 가보고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+앙/EC+나/NP+는/JX+일본/NNP+여행/NNG+가/VV+서/EC+그/MM+프라모델/NNP+엄청/MAG+모아논/VV+EC+VV+ETM+매장/NNG+있/VV+다는데/EC+거기/NP+가/JKS+보/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 흠 일본은 너무 위험한 거 아니야? 키키",
+            "norm_text": "흠 일본은 너무 위험한 거 아니야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "흠/IC+일본/NNP+은/JX+너무/MAG+위험/NNG+한/XSA+ETM+거/NNB+아니/VCN+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엥 일본이 왜 위험해?",
+            "norm_text": "엥 일본이 왜 위험해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+일본/NNP+이/JKS+왜/MAG+위험/NNG+해/XSV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 후쿠시마 때문에 위험하지? 방사능이자나",
+            "norm_text": "후쿠시마 때문에 위험하지? 방사능이자나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "후쿠시마/NNP+때문/NNB+에/JKB+위험/NNG+하/XSA+지/EF+방사능/NNG+이/JKS+자나/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아아 그래도 가서 편의점 음식 먹어보고 싶어!",
+            "norm_text": "아아 그래도 가서 편의점 음식 먹어보고 싶어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+그래도/VV+EC+가/VX+서/EC+편의점/NNG+음식/NNG+먹/VV+어/EC+보/VX+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 난 일본 말구 저기 가고 싶어",
+            "norm_text": "난 일본 말구 저기 가고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+일본/NNP+말구/NNG+저기/NP+가/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 저기? 저기가 어디여 키키",
+            "norm_text": "저기? 저기가 어디여 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저기/IC+저기/NP+가/JKS+어디여/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 우리 집에 있는 내 방속 침대 위 이불 속",
+            "norm_text": "우리 집에 있는 내 방속 침대 위 이불 속",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+집/NNG+에/JKB+있/VV+는/ETM+내방/NNP+속/NNG+침대위/NNP+이불속/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 나도 ㅠ 거기 지금 내 옆에도 있는데 못 가는 중임. 가까운데 너무 멀어",
+            "norm_text": "아 나도 ㅠ 거기 지금 내 옆에도 있는데 못 가는 중임. 가까운데 너무 멀어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+도/JX+ㅠ/UNKNOWN+거기/NP+지금/MAG+내/NP+JKG+옆/NNG+에/JKB+도/JX+있/VA+는데/EC+못/MAG+가/VV+는/ETM+중임/NNG+가까운/VA+ETM+데/NNB+너무/MAG+멀/VA+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나두 얼른 들어가서 포옥 감싸지고 싶다",
+            "norm_text": "나두 얼른 들어가서 포옥 감싸지고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+두/JX+얼른/MAG+들어가/VV+서/EC+포옥/MAG+감싸/VV+EC+지/VX+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오빠도 컴퓨터 하고 있는겨?",
+            "norm_text": "오빠도 컴퓨터 하고 있는겨?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+도/JX+컴퓨터/NNG+하/XSV+고/EC+있/VX+는겨/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼... 핸드폰으로 어떻게 하고 있어... 너무 쬐깐해서 안돼",
+            "norm_text": "그럼... 핸드폰으로 어떻게 하고 있어... 너무 쬐깐해서 안돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+./SY+핸드폰/NNG+으로/JKB+어떻게/MAG+하/VV+고/EC+있/VX+어/EF+./SY+너무/MAG+쬐/VV+깐/NNG+해서/XSV+EC+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 여행은 고사하고 컴퓨터 의자 먼저 사야겠어.",
+            "norm_text": "아 여행은 고사하고 컴퓨터 의자 먼저 사야겠어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+여행/NNG+은/JX+고사하고/MAG+컴퓨터/NNG+의/JKG+자/IC+먼저/MAG+사/VV+야/EC+VX+겠/EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 싸구려 샀더니 너무 딱딱해서 엉덩이 아파",
+            "norm_text": "싸구려 샀더니 너무 딱딱해서 엉덩이 아파",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "싸구려/NNG+샀/VV+EP+더니/EC+너무/MAG+딱딱/XR+해서/XSA+EC+엉덩이/NNG+아파/VA+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : ㄷㄷ; 그거 사장님 의자 아님? 좋던데 왜?",
+            "norm_text": "ㄷㄷ; 그거 사장님 의자 아님? 좋던데 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㄷ/NNG+ㄷ/NNG+;/SY+그거/NP+사장/NNG+님/XSN+의/JKG+자아/NNG+님/XSN+좋/VA+던데/EC+왜/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

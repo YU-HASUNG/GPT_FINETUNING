@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44680,
+    "name": "KAKAO_782_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413036224/KAKAO_782_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413036224/KAKAO_782_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38308,
+      "filename": "KAKAO_782_17.txt",
+      "title": "KAKAO_782_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 476,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 476,
+        "word_size": 151,
+        "text": "1 : 집에 할머니 계신다며 요즘은 어떠셔!\n2 : 91살이신데 아직 몸이 정정하셔\n1 : 우와 너네 할머니 자세도 엄청 좋잖아 되게 곧으시던데!\n2 : 요즘은 그렇지는 않아. 그래도 기력이 많이 딸리시는 것 같아\n1 : 니가 보약 한 첩 지어드려 키키\n2 : 보약도 몸이 흡수를 못 해서 그냥 유산균 드려\n1 : 아 그래? 그럼 할머니 드시는 거 뭐 없어?\n2 : 변비 때문에 유산균이나 두유 같은 거 많이 드셔\n1 : 아하 이제 소화력이 많이 안 좋아지셨나 봐 ㅠㅠ\n2 : 응 그런 것 같아 기력도 많이 딸리셔서 주무실 때 많이 움직이셔\n1 : 곧 겨울인데 큰일이네 연세가 많이 들어서\n2 : 응 맞아 그래도 나이에 비해는 정정하셔 가지고 그나마 다행이야\n1 : 그러게 얼마 전에 우리 할머니 돌아가셨어 ㅠㅠ\n2 : ㅜㅜ 슬픈 일이네 나이가 많으셔서 돌아가신 거야?\n1 : 아니 85이신데 적당하게 사시다 가신 것 같아 마음이 아파\n2 : 마음이 아프네 그럴수록 더 힘을 내",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 집에 할머니 계신다며 요즘은 어떠셔!",
+            "norm_text": "집에 할머니 계신다며 요즘은 어떠셔!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+에/JKB+할머니/NNG+계신다며/VV+EC+요즘/NNG+은/JX+어떠/VA+셔/EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 91살이신데 아직 몸이 정정하셔",
+            "norm_text": "91살이신데 아직 몸이 정정하셔",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "91/SN+살/NNBC+이/VCP+신데/EP+EC+아직/MAG+몸/NNG+이/JKS+정정/NNG+하/XSV+셔/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우와 너네 할머니 자세도 엄청 좋잖아 되게 곧으시던데!",
+            "norm_text": "우와 너네 할머니 자세도 엄청 좋잖아 되게 곧으시던데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+너/NP+네/XSN+할머니/NNG+자세/NNG+도/JX+엄청/MAG+좋/VA+잖아/EC+되게/MAG+곧/VA+으시/EP+던데/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 요즘은 그렇지는 않아. 그래도 기력이 많이 딸리시는 것 같아",
+            "norm_text": "요즘은 그렇지는 않아. 그래도 기력이 많이 딸리시는 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+그렇/VA+지/EC+는/JX+않/VX+아/EF+그래도/MAJ+기력/NNG+이/JKS+많이/MAG+딸리/VV+시/EP+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 니가 보약 한 첩 지어드려 키키",
+            "norm_text": "니가 보약 한 첩 지어드려 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "니/NP+가/JKS+보약/NNG+한/XSA+ETM+첩지/NNG+어/IC+드려/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 보약도 몸이 흡수를 못 해서 그냥 유산균 드려",
+            "norm_text": "보약도 몸이 흡수를 못 해서 그냥 유산균 드려",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보약/NNG+도/JX+몸/NNG+이/JKS+흡수/NNG+를/JKO+못/MAG+해서/VV+EC+그냥/MAG+유산균/NNG+드려/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 그래? 그럼 할머니 드시는 거 뭐 없어?",
+            "norm_text": "아 그래? 그럼 할머니 드시는 거 뭐 없어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+그럼/MAJ+할머니/NNG+드/VV+시/EP+는/ETM+거/NNB+뭐/IC+없/VA+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 변비 때문에 유산균이나 두유 같은 거 많이 드셔",
+            "norm_text": "변비 때문에 유산균이나 두유 같은 거 많이 드셔",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "변비/NNG+때문/NNB+에/JKB+유산균/NNG+이나/JC+두유/NNG+같/VA+은/ETM+거/NNB+많이/MAG+드셔/VV+EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아하 이제 소화력이 많이 안 좋아지셨나 봐 ㅠㅠ",
+            "norm_text": "아하 이제 소화력이 많이 안 좋아지셨나 봐 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+이제/MAG+소화력/NNG+이/JKS+많이/MAG+안/MAG+좋/VA+아/EC+지/VX+셨/EP+EP+나/EC+봐/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 그런 것 같아 기력도 많이 딸리셔서 주무실 때 많이 움직이셔",
+            "norm_text": "응 그런 것 같아 기력도 많이 딸리셔서 주무실 때 많이 움직이셔",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그런/MM+것/NNB+같/VA+아/EC+기력/NNG+도/JX+많이/MAG+딸리/VV+셔서/EP+EC+주무실/VV+ETM+때/NNG+많이/MAG+움직이/VV+셔/EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 곧 겨울인데 큰일이네 연세가 많이 들어서",
+            "norm_text": "곧 겨울인데 큰일이네 연세가 많이 들어서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곧/MAG+겨울/NNG+인데/VCP+EC+큰일/NNG+이/JKS+네/MM+연세/NNG+가/JKS+많이/MAG+들/VV+어서/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 맞아 그래도 나이에 비해는 정정하셔 가지고 그나마 다행이야",
+            "norm_text": "응 맞아 그래도 나이에 비해는 정정하셔 가지고 그나마 다행이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+그래도/VV+EC+나이/NNG+에/JKB+비해/VV+EC+는/JX+정정/NNG+하/XSV+셔/EP+EC+가지/VX+고/EC+그나마/MAG+다행/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그러게 얼마 전에 우리 할머니 돌아가셨어 ㅠㅠ",
+            "norm_text": "그러게 얼마 전에 우리 할머니 돌아가셨어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+게/EC+얼마/NNG+전/NNG+에/JKB+우리/NP+할머니/NNG+돌아가/VV+셨/EP+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : ㅜㅜ 슬픈 일이네 나이가 많으셔서 돌아가신 거야?",
+            "norm_text": "ㅜㅜ 슬픈 일이네 나이가 많으셔서 돌아가신 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+슬픈/VA+ETM+일/NNG+이/JKS+네/MM+나이/NNG+가/JKS+많/VA+으셔서/EP+EC+돌아가/VV+신/EP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니 85이신데 적당하게 사시다 가신 것 같아 마음이 아파",
+            "norm_text": "아니 85이신데 적당하게 사시다 가신 것 같아 마음이 아파",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+85/SN+이/VCP+신데/EP+EC+적당/XR+하/XSA+게/EC+사/VV+시다/EC+가신/VV+ETM+것/NNB+같/VA+아/EC+마음/NNG+이/JKS+아파/VA+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 마음이 아프네 그럴수록 더 힘을 내",
+            "norm_text": "마음이 아프네 그럴수록 더 힘을 내",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "마음/NNG+이/JKS+아프/VA+네/EF+그럴수록/VA+EC+더/MAG+힘/NNG+을/JKO+내/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

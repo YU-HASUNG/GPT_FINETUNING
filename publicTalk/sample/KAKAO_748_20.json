@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 71668,
+    "name": "KAKAO_748_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134506098271/KAKAO_748_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134506098271/KAKAO_748_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37370,
+      "filename": "KAKAO_748_20.txt",
+      "title": "KAKAO_748_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 634,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 634,
+        "word_size": 203,
+        "text": "1 : 나 영화 추천 하나만 해줘 키키 주말에 심심할 듯\n2 : 어떤 장르로 추천해줄까?\n2 : 로맨스 좋아하니\n1 : 오 로맨스 좋아해 키키\n1 : 추천해주면 감상평 남길게 키키\n2 : 나는 음 가족이랑 연인에 대해 생각해 볼 수 있는 어바웃 타임이란 영화 추천할게\n1 : 어바웃 타임? 오 많이 들어봤는데 키키 유명한 영화지?\n2 : 응! 나 이 영화 진짜 많이 봤어 풀로 한 4번 본 거 같아\n1 : 4번이나? 키키 우와...\n1 : 뭔가 슬프거나 그런 영화는 아니지?\n2 : 슬픈 부분도 있는데 해피엔딩이고 너무 아름다운 영화가 꼭 봐줬으면 좋겠다\n1 : 알겠다 키키 이번 주 주말에 할 일도 없는데 봐야겠다 키키\n1 : 누구 나와?\n2 : 마고 로비랑 레이첼 맥 아담스 나와!\n1 : 우와... 키키 외국 배우는 이름을 들어도 잘 모르겠네 키키\n1 : 유명한 배우들이야?\n2 : 응 혹시 영화 수어사이드 봤어?\n2 : 거기서 할리퀸 역할 했던 배우가 마고 로비야\n1 : 수어사이드? 자살? 음... 그 영화도 안 봤는데...\n1 : 키키 아 근데 지금 찾아봤는데 얼굴이 익숙해\n2 : 키키 응 보면 알 거야 엄청 유명한 배우야\n1 : 키키 이번 주에 보고 꼭 말해줄게 키키 재밌을 거 같아 키키\n2 : 응 키키 어바웃 타임이랑 또 노트북이란 고전 영화도 추천할게!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 영화 추천 하나만 해줘 키키 주말에 심심할 듯",
+            "norm_text": "나 영화 추천 하나만 해줘 키키 주말에 심심할 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "나/NP+영화/NNG+추천/NNG+하나/NR+만/JX+해/VV+EC+줘/VX+EC+키/NNG+키/NNG+주말/NNG+에/JKB+심심/XR+할/XSA+ETM+듯/NNB"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어떤 장르로 추천해줄까?",
+            "norm_text": "어떤 장르로 추천해줄까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+장르/NNG+로/JKB+추천/NNG+해/XSV+EC+줄까/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 로맨스 좋아하니",
+            "norm_text": "로맨스 좋아하니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "로맨스/NNG+좋/VA+아/EC+하/VV+니/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오 로맨스 좋아해 키키",
+            "norm_text": "오 로맨스 좋아해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+로맨스/NNG+좋/VA+아/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 추천해주면 감상평 남길게 키키",
+            "norm_text": "추천해주면 감상평 남길게 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "추천/NNG+해/XSV+EC+주/VX+면/EC+감/VX+ETN+상평/NNG+남길/VV+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 음 가족이랑 연인에 대해 생각해 볼 수 있는 어바웃 타임이란 영화 추천할게",
+            "norm_text": "나는 음 가족이랑 연인에 대해 생각해 볼 수 있는 어바웃 타임이란 영화 추천할게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나/NP+는/JX+음/IC+가족/NNG+이랑/JKB+연인/NNG+에/JKB+대해/VV+EC+생각/NNG+해볼/XSV+EC+VX+ETM+수/NNB+있/VV+는/ETM+어/IC+바웃/UNKNOWN+타임/NNG+이/VCP+란/ETM+영화/NNG+추천/NNG+할/XSV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어바웃 타임? 오 많이 들어봤는데 키키 유명한 영화지?",
+            "norm_text": "어바웃 타임? 오 많이 들어봤는데 키키 유명한 영화지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어바웃타임/UNKNOWN+오/IC+많이/MAG+들/VV+어/EC+봤/VX+EP+는데/EC+키/NNG+키/XSV+ETN+유명/XR+한/XSA+ETM+영화/NNG+지/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응! 나 이 영화 진짜 많이 봤어 풀로 한 4번 본 거 같아",
+            "norm_text": "응! 나 이 영화 진짜 많이 봤어 풀로 한 4번 본 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나이/NNG+영화/NNG+진짜/MAG+많이/MAG+봤/VV+EP+어/EC+풀로/NNG+한/XSA+ETM+4/SN+번/NNBC+본/VV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 4번이나? 키키 우와...",
+            "norm_text": "4번이나? 키키 우와...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "4/SN+번/NNBC+이나/JX+키/NNG+키/XSV+ETN+우와/IC+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 뭔가 슬프거나 그런 영화는 아니지?",
+            "norm_text": "뭔가 슬프거나 그런 영화는 아니지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭔가/NP+VCP+EC+슬프/VA+거나/EC+그런/MM+영화/NNG+는/JX+아니/VCN+지/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 슬픈 부분도 있는데 해피엔딩이고 너무 아름다운 영화가 꼭 봐줬으면 좋겠다",
+            "norm_text": "슬픈 부분도 있는데 해피엔딩이고 너무 아름다운 영화가 꼭 봐줬으면 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "슬픈/VA+ETM+부분/NNG+도/JX+있/VA+는데/EC+해피/NNG+엔딩/NNG+이/VCP+고/EC+너무/MAG+아름다운/VA+ETM+영화/NNG+가/JKS+꼭/MAG+봐/VV+EC+줬/VX+EP+으면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 알겠다 키키 이번 주 주말에 할 일도 없는데 봐야겠다 키키",
+            "norm_text": "알겠다 키키 이번 주 주말에 할 일도 없는데 봐야겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "알/VV+겠/EP+다키키/NNP+이번/NNG+주주/NNG+말/NNG+에/JKB+할/VV+ETM+일/NNG+도/JX+없/VA+는데/EC+봐야/VX+EC+VV+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 13,
+            "text": "1 : 누구 나와?",
+            "norm_text": "누구 나와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누구/NP+나와/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 마고 로비랑 레이첼 맥 아담스 나와!",
+            "norm_text": "마고 로비랑 레이첼 맥 아담스 나와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마고/+로비/+랑/JC+레이첼/+맥아담스/+나와/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 우와... 키키 외국 배우는 이름을 들어도 잘 모르겠네 키키",
+            "norm_text": "우와... 키키 외국 배우는 이름을 들어도 잘 모르겠네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+./SY+키키외국배우는이름을들어도잘모르겠네키키/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 유명한 배우들이야?",
+            "norm_text": "유명한 배우들이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "유명/NNG+한/XSA+ETM+배우/NNG+들/XSN+이/VCP+야/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 혹시 영화 수어사이드 봤어?",
+            "norm_text": "응 혹시 영화 수어사이드 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+혹시/MAG+영화/NNG+수어사/NNG+이/VCP+드/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 거기서 할리퀸 역할 했던 배우가 마고 로비야",
+            "norm_text": "거기서 할리퀸 역할 했던 배우가 마고 로비야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+서/JKB+할리퀸/NNG+역할/NNG+했/XSV+EP+던/ETM+배우/NNG+가/JKS+마고/NNG+로/JKB+비야/NNG"
+          },
+          {
+            "id": 19,
+            "text": "1 : 수어사이드? 자살? 음... 그 영화도 안 봤는데...",
+            "norm_text": "수어사이드? 자살? 음... 그 영화도 안 봤는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "수어/NNG+사이드/NNP+?/SY+자살/NNG+음/IC+./SY+그/MM+영화/NNG+도/JX+안/MAG+봤/VV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 아 근데 지금 찾아봤는데 얼굴이 익숙해",
+            "norm_text": "키키 아 근데 지금 찾아봤는데 얼굴이 익숙해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아/IC+근데/MAJ+지금/MAG+찾/VV+아/EC+봤/VX+EP+는데/EC+얼굴/NNG+이/JKS+익숙/XR+해/XSA+EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 키키 응 보면 알 거야 엄청 유명한 배우야",
+            "norm_text": "키키 응 보면 알 거야 엄청 유명한 배우야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+보/VV+면/EC+알/VV+ETM+거/NNB+야/VCP+EF+엄청/MAG+유명/NNG+한/XSA+ETM+배우/VV+야/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 이번 주에 보고 꼭 말해줄게 키키 재밌을 거 같아 키키",
+            "norm_text": "키키 이번 주에 보고 꼭 말해줄게 키키 재밌을 거 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/NNG+이번/NNG+주/NNG+에/JKB+보/VV+고/EC+꼭/MAG+말/NNG+해/XSV+EC+줄/VX+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN+재밌/VA+을/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 응 키키 어바웃 타임이랑 또 노트북이란 고전 영화도 추천할게!",
+            "norm_text": "응 키키 어바웃 타임이랑 또 노트북이란 고전 영화도 추천할게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+키/NNG+키/VV+어/EC+바웃/UNKNOWN+타임/NNG+이랑/JKB+또/MAG+노트북/NNG+이/VCP+란/ETM+고전/NNG+영화/NNG+도/JX+추천/NNG+할게/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 67175,
+    "name": "KAKAO_667_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112312051026/KAKAO_667_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112312051026/KAKAO_667_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35008,
+      "filename": "KAKAO_667_09.txt",
+      "title": "KAKAO_667_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 847,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 847,
+        "word_size": 261,
+        "text": "1 : 토끼가 완전 잡식 동물이라매 키키 머리카락도 뜯어 먹는다던데\n2 : 어? 사람 머리카락? 그걸 토끼가 먹어서 소화가 가능한 거가? 키키\n1 : 어어엉 키키 소화되는 갑더라 키키\n1 : 가끔 토끼 키우는 분들이 자기 앞머리 뜯겼다고 사진 올린 거 보면 개웃 키키\n2 : 아 완전 대박 키키 좀 더러운 얘긴데 잡식성이면 똥 냄시 장난 아니겠다 키키 ㅌㅌ\n1 : 헐 똥냄새는 생각도 못했너 키키\n2 : 인간도 잡식성이라 지독하다이가 키키\n2 : 토끼도 똥 겁내 싼다던데 맞나? 키키\n1 : 어엉 똥은 진짜 많이 싼다더라 키키 으아 토끼는 못 키울 듯\n2 : 나도ㅠㅠ 글고 토끼 생각보다 엄청 커지더만 산책도 시키거 키키\n1 : 산책도 시켜야나? 토끼도 좀 번거로운 친구네\n2 : 강아지처럼 산책을 안 하면 스트레스 받고 그러는지까지는 모르겠노\n2 : 주인이 하고 싶어서 하는 걸 수도 있는데 목줄 해가꼬 산책시키더라고 키키 풀 뜯어먹고 키키\n1 : 키키 웃기너 산책하는 토끼는 한 번도 본 적이 없는데 실제로 보면 개귀여울 듯 산책하는 고양이는 봤는데 키키\n2 : 산책하는 토끼랑 고양이 다 인터넷에서 사진으로 봤너 키키\n2 : 실물로 보고 싶다 진짜 귀여울 듯\n2 : 근데 고양이는 좀 위험한데 그쟈 걔네 엄청 유연해서 가슴줄 해도 빠져 나갈 수 있다이가\n1 : 실제로 보면 고양이 졸귀임 ㅠㅠ\n1 : 하네스? 그거 하고 총총총 걸어 다니던데 졸귀 ㅜㅜ 다리랑 가슴 다 입어야지 ㅜㅜ\n2 : 너네 동네에 산책하는 고양이 있나?\n2 : 대박 진짜 잘 없잖아 산책 가능한 고양이!\n1 : 아니아니 나도 서울에서만 봤당 ㅜㅜ\n1 : 저녁에 수영 가는 시간에 늘 하더라고 ㅠㅠ\n2 : 아하 ㅠㅠ 아숩네 ㅠㅠ\n2 : 너네 동네였으면 거기까지 원정 산책 갔다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 토끼가 완전 잡식 동물이라매 키키 머리카락도 뜯어 먹는다던데",
+            "norm_text": "토끼가 완전 잡식 동물이라매 키키 머리카락도 뜯어 먹는다던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "토끼/NNG+가/JKS+완전/MAG+잡식/NNG+동물/NNG+이/VCP+라매/EF+키키/NNP+머리카락/NNG+도/JX+뜯어먹/VV+는다던데/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어? 사람 머리카락? 그걸 토끼가 먹어서 소화가 가능한 거가? 키키",
+            "norm_text": "어? 사람 머리카락? 그걸 토끼가 먹어서 소화가 가능한 거가? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+사람/NNG+머리카락/NNG+그걸/NP+JKO+토끼/NNG+가/JKS+먹/VV+어서/EC+소화/NNG+가/JKS+가능/NNG+한/XSA+ETM+거/NNB+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어어엉 키키 소화되는 갑더라 키키",
+            "norm_text": "어어엉 키키 소화되는 갑더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어어엉/IC+키/NNG+키/NNG+소화/NNG+되/XSV+는/ETM+갑/NNG+더라/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 가끔 토끼 키우는 분들이 자기 앞머리 뜯겼다고 사진 올린 거 보면 개웃 키키",
+            "norm_text": "가끔 토끼 키우는 분들이 자기 앞머리 뜯겼다고 사진 올린 거 보면 개웃 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가끔/MAG+토끼/NNG+키우/VV+는/ETM+분/NNB+들/XSN+이/JKS+자기/NP+앞머리/NNG+뜯겼/VV+EP+다고/EC+사진/NNG+올린/VV+ETM+거/NNB+보/VV+면/EC+개웃/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아 완전 대박 키키 좀 더러운 얘긴데 잡식성이면 똥 냄시 장난 아니겠다 키키 ㅌㅌ",
+            "norm_text": "아 완전 대박 키키 좀 더러운 얘긴데 잡식성이면 똥 냄시 장난 아니겠다 키키 ㅌㅌ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+완전/MAG+대박/NNG+키/NNG+키/NNG+좀/MAG+더러운/VA+ETM+얘긴데/NNG+VCP+EC+잡식성/NNG+이/VCP+면/EC+똥/NNG+냄/NNG+시장/NNG+난/NP+JX+아니/VCN+겠/EP+다키키/NNP+ㅌㅌ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 헐 똥냄새는 생각도 못했너 키키",
+            "norm_text": "헐 똥냄새는 생각도 못했너 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+똥/NNG+냄새/NNG+는/JX+생각/NNG+도/JX+못/MAG+했/VV+EP+너/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 인간도 잡식성이라 지독하다이가 키키",
+            "norm_text": "인간도 잡식성이라 지독하다이가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인간/NNG+도/JX+잡식성/NNG+이/VCP+라/EC+지독/XR+하/XSA+다/EF+이/NP+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 토끼도 똥 겁내 싼다던데 맞나? 키키",
+            "norm_text": "토끼도 똥 겁내 싼다던데 맞나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "토끼도똥겁내싼다던데맞나/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어엉 똥은 진짜 많이 싼다더라 키키 으아 토끼는 못 키울 듯",
+            "norm_text": "어엉 똥은 진짜 많이 싼다더라 키키 으아 토끼는 못 키울 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어엉/IC+똥/NNG+은/JX+진짜/MAG+많이/MAG+싼다/VV+EC+더/MAG+라키/NNP+키/NNG+으아/MAG+토끼/NNG+는/JX+못/MAG+키울/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도ㅠㅠ 글고 토끼 생각보다 엄청 커지더만 산책도 시키거 키키",
+            "norm_text": "나도ㅠㅠ 글고 토끼 생각보다 엄청 커지더만 산책도 시키거 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+ㅠㅠ/UNKNOWN+글/VV+고/EC+토끼/NNG+생각/NNG+보다/JKB+엄청/MAG+커지/VV+더만/EC+산책/NNG+도/JX+시키/VV+거/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 산책도 시켜야나? 토끼도 좀 번거로운 친구네",
+            "norm_text": "산책도 시켜야나? 토끼도 좀 번거로운 친구네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "산책/NNG+도/JX+시켜야/VV+EC+VX+나/EF+토끼/NNG+도/JX+좀/MAG+번거로운/VA+ETM+친구/NNG+네/XSN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 강아지처럼 산책을 안 하면 스트레스 받고 그러는지까지는 모르겠노",
+            "norm_text": "강아지처럼 산책을 안 하면 스트레스 받고 그러는지까지는 모르겠노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+처럼/JKB+산책/NNG+을/JKO+안/MAG+하/VV+면/EC+스트레스/NNG+받/VV+고/EC+그러/VV+는지/EC+까지/JX+는/JX+모르/VV+겠/EP+노/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 주인이 하고 싶어서 하는 걸 수도 있는데 목줄 해가꼬 산책시키더라고 키키 풀 뜯어먹고 키키",
+            "norm_text": "주인이 하고 싶어서 하는 걸 수도 있는데 목줄 해가꼬 산책시키더라고 키키 풀 뜯어먹고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주인/NNG+이/JKS+하/VV+고/EC+싶/VX+어서/EC+하/VV+는/ETM+걸/NNB+JKO+수/NNB+도/JX+있/VA+는데/EC+목줄/NNG+해/XSV+EC+가/VX+꼬/EC+산책/NNG+시키/XSV+더라고/EC+키/NNG+키/NNG+풀/NNG+뜯어먹/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 웃기너 산책하는 토끼는 한 번도 본 적이 없는데 실제로 보면 개귀여울 듯 산책하는 고양이는 봤는데 키키",
+            "norm_text": "키키 웃기너 산책하는 토끼는 한 번도 본 적이 없는데 실제로 보면 개귀여울 듯 산책하는 고양이는 봤는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+웃/VV+기/ETN+너/NP+산책/NNG+하/XSV+는/ETM+토끼/NNG+는/JX+한/MM+번/NNBC+도/JX+본/VX+ETM+적/NNB+이/JKS+없/VA+는데/EC+실제로/MAG+보/VV+면/EC+개/NNG+귀여울/VA+ETM+듯/NNB+산책/NNG+하/XSV+는/ETM+고양이/NNG+는/JX+봤/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 산책하는 토끼랑 고양이 다 인터넷에서 사진으로 봤너 키키",
+            "norm_text": "산책하는 토끼랑 고양이 다 인터넷에서 사진으로 봤너 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "산책/NNG+하/XSV+는/ETM+토끼/NNG+랑/JKB+고양이/NNG+다/MAG+인터넷/NNG+에서/JKB+사진/NNG+으로/JKB+봤/VV+EP+너/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 실물로 보고 싶다 진짜 귀여울 듯",
+            "norm_text": "실물로 보고 싶다 진짜 귀여울 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "실물/NNG+로/JKB+보/VV+고/EC+싶/VX+다/EF+진짜/MAG+귀여울/VA+ETM+듯/NNB"
+          },
+          {
+            "id": 17,
+            "text": "2 : 근데 고양이는 좀 위험한데 그쟈 걔네 엄청 유연해서 가슴줄 해도 빠져 나갈 수 있다이가",
+            "norm_text": "근데 고양이는 좀 위험한데 그쟈 걔네 엄청 유연해서 가슴줄 해도 빠져 나갈 수 있다이가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+고양이/NNG+는/JX+좀/MAG+위험/NNG+한데/XSA+EC+그/MM+쟈/NNG+걔/NP+네/XSN+엄청/MAG+유연/XR+해서/XSA+EC+가슴/NNG+줄/NNG+해도/XSV+EC+빠져/VV+EC+나갈/VX+ETM+수/NNB+있/VV+다/EF+이/NP+가/JKS"
+          },
+          {
+            "id": 18,
+            "text": "1 : 실제로 보면 고양이 졸귀임 ㅠㅠ",
+            "norm_text": "실제로 보면 고양이 졸귀임 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "실제로/MAG+보/VV+면/EC+고양이/NNG+졸/VA+ETM+귀임/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 하네스? 그거 하고 총총총 걸어 다니던데 졸귀 ㅜㅜ 다리랑 가슴 다 입어야지 ㅜㅜ",
+            "norm_text": "하네스? 그거 하고 총총총 걸어 다니던데 졸귀 ㅜㅜ 다리랑 가슴 다 입어야지 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하네스/NNP+?/SY+그거하고총총총걸어다니던데졸귀ㅜㅜ다리랑가슴다입어야지ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 너네 동네에 산책하는 고양이 있나?",
+            "norm_text": "너네 동네에 산책하는 고양이 있나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+동네/NNG+에/JKB+산책/NNG+하/XSV+는/ETM+고양이/NNG+있/VA+나/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 대박 진짜 잘 없잖아 산책 가능한 고양이!",
+            "norm_text": "대박 진짜 잘 없잖아 산책 가능한 고양이!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대박/NNG+진짜/MAG+잘/MAG+없/VA+잖아/EC+산책/NNG+가능/NNG+한/XSA+ETM+고양이/NNG"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아니아니 나도 서울에서만 봤당 ㅜㅜ",
+            "norm_text": "아니아니 나도 서울에서만 봤당 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+아니/IC+나/NP+도/JX+서울/NNP+에서/JKB+만/JX+봤/VV+EP+당/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 저녁에 수영 가는 시간에 늘 하더라고 ㅠㅠ",
+            "norm_text": "저녁에 수영 가는 시간에 늘 하더라고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저녁/NNG+에/JKB+수영/NNG+가/VV+는/ETM+시간/NNG+에/JKB+늘/MAG+하/VV+더라고/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 아하 ㅠㅠ 아숩네 ㅠㅠ",
+            "norm_text": "아하 ㅠㅠ 아숩네 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+ㅠㅠ/UNKNOWN+아/EC+숩/NNG+네/XSN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 너네 동네였으면 거기까지 원정 산책 갔다 키키",
+            "norm_text": "너네 동네였으면 거기까지 원정 산책 갔다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+네/XSN+동네/NNG+였/VCP+EP+으면/EC+거기/NP+까지/JX+원정산/NNG+책/NNG+갔/VV+EP+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 64024,
+    "name": "KAKAO_875_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095045018120/KAKAO_875_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095045018120/KAKAO_875_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40626,
+      "filename": "KAKAO_875_07.txt",
+      "title": "KAKAO_875_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 766,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 766,
+        "word_size": 242,
+        "text": "1 : 너희 집은 이번에 친척 집 안 가?\n2 : 응응 우리는 양가 어른들 다 돌아가셨잖아 작년에 키키 그래서 이제 갠플이야\n1 : ㅇㅎ 키키 자유를 얻었구나 키키\n1 : 그럼 제사 음식도 안 하겠네?\n2 : 우리 먹을 것만 조금 할걸?\n2 : 우리 할머니랑 할아버지한테 올릴 것만\n1 : ㅇㅎ 차례 지내기는 하는구나 키키 그래도 너희 어머니 수고 좀 많이 덜겠다\n2 : 그래도 우리가 그것조차 그냥 하지 말고 백화점에서 사자고 하니까 기어코 하시겠다 길래 키키 안 도와주고 있음\n2 : 응응 알아서 포기하시게 하려고\n1 : 키키 요즘 제사 음식 진짜 맛있게 잘 나오는데 ㅠ\n2 : ㄱㄴㄲ 키키 얼마 안 하니까 만들겠다고 하시는데 키키\n2 : 걍 그 얼마 안 하는 것조차 안 했으면 좋겠다는 거임\n1 : ㅠㅠ 아직 어른들은 정성이다 생각하시나 보다 키키\n2 : 절레절레다 진짜 키키 사서 고생하는 이유를 모르겠음\n1 : 키키 이제 고생 그만 하실 때도 됐는데\n2 : 내 말이 키키 자꾸 우리 먹을 것만 한다고 강조하시는데 키키\n2 : 코시국 끝나고 우리 집에 사람들 모이기라도 하면 어쩌려고?\n2 : 아빠랑 둘이 한다 지만 두분 다 나이도 있으신데 골병 날 일 있냐며\n1 : 키키 일단 제사 음식 자체가 손이 많이 가는데 조금 한다고... 수고가 덜하진 않지\n2 : ㅁㅈ 그래서 나랑 동생이랑 그냥 안 도와준다고 미리 선포해 놨음 키키\n2 : 아빠랑 둘이 만드니까 지금은 괜찮나 본데 뭐 키키 알아서 하시라지\n1 : 키키 좋네 두 분이서 오손도손 키키\n2 : ㅁㅈ 키키 하고 싶은 사람들끼리 정겹게 해야지 뭐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너희 집은 이번에 친척 집 안 가?",
+            "norm_text": "너희 집은 이번에 친척 집 안 가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+집/NNG+은/JX+이번/NNG+에/JKB+친척/NNG+집/NNG+안/MAG+가/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 우리는 양가 어른들 다 돌아가셨잖아 작년에 키키 그래서 이제 갠플이야",
+            "norm_text": "응응 우리는 양가 어른들 다 돌아가셨잖아 작년에 키키 그래서 이제 갠플이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+우리/NP+는/JX+양가/NNG+어른/NNG+들/XSN+다/MAG+돌아가/VV+셨/EP+EP+잖아/EF+작년/NNG+에/JKB+키/NNG+키/XSV+ETN+그래서/MAJ+이제/MAG+갠/VV+ETM+플/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : ㅇㅎ 키키 자유를 얻었구나 키키",
+            "norm_text": "ㅇㅎ 키키 자유를 얻었구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅇㅎ/UNKNOWN+키/NNG+키/NNG+자유/NNG+를/JKO+얻/VV+었/EP+구나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그럼 제사 음식도 안 하겠네?",
+            "norm_text": "그럼 제사 음식도 안 하겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+제사/NNG+음식/NNG+도/JX+안/MAG+하/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 우리 먹을 것만 조금 할걸?",
+            "norm_text": "우리 먹을 것만 조금 할걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+먹/VV+을/ETM+것/NNB+만/JX+조금/MAG+할걸/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 우리 할머니랑 할아버지한테 올릴 것만",
+            "norm_text": "우리 할머니랑 할아버지한테 올릴 것만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+할머니/NNG+랑/JKB+할아버지/NNG+한테/JKB+올릴/VV+ETM+것/NNB+만/JX"
+          },
+          {
+            "id": 7,
+            "text": "1 : ㅇㅎ 차례 지내기는 하는구나 키키 그래도 너희 어머니 수고 좀 많이 덜겠다",
+            "norm_text": "ㅇㅎ 차례 지내기는 하는구나 키키 그래도 너희 어머니 수고 좀 많이 덜겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅇㅎ/UNKNOWN+차례/NNG+지내/VV+기/ETN+는/JX+하/VV+는구나/EF+키/NNG+키/XSV+ETN+그래도/MAJ+너희/NP+어머니/NNG+수고/NNG+좀/MAG+많이/MAG+덜/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그래도 우리가 그것조차 그냥 하지 말고 백화점에서 사자고 하니까 기어코 하시겠다 길래 키키 안 도와주고 있음",
+            "norm_text": "그래도 우리가 그것조차 그냥 하지 말고 백화점에서 사자고 하니까 기어코 하시겠다 길래 키키 안 도와주고 있음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+우리/NP+가/JKS+그것/NP+조차/JX+그냥/MAG+하/VV+지/EC+말/VX+고/EC+백화점/NNG+에서/JKB+사/VV+자고/EC+하/VV+니까/EC+기어코/MAG+하/XSA+시/EP+겠/EP+다길래/EC+키/NNG+키/NNG+안/MAG+도와/VV+EC+주/VX+고/EC+있/VX+음/ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응응 알아서 포기하시게 하려고",
+            "norm_text": "응응 알아서 포기하시게 하려고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+알/VV+아서/EC+포기/NNG+하/XSV+시/EP+게/EC+하/VV+려고/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 요즘 제사 음식 진짜 맛있게 잘 나오는데 ㅠ",
+            "norm_text": "키키 요즘 제사 음식 진짜 맛있게 잘 나오는데 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+요즘/NNG+제사/NNG+음식/NNG+진짜/MAG+맛있/VA+게/EC+잘/MAG+나오/VV+는/ETM+데ㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : ㄱㄴㄲ 키키 얼마 안 하니까 만들겠다고 하시는데 키키",
+            "norm_text": "ㄱㄴㄲ 키키 얼마 안 하니까 만들겠다고 하시는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㄱ/NNG+ㄴㄲ/UNKNOWN+키/NNG+키/NNG+얼마/NNG+안/MAG+하/VV+니까/EC+만들/VV+겠/EP+다고/EC+하/VX+시/EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 걍 그 얼마 안 하는 것조차 안 했으면 좋겠다는 거임",
+            "norm_text": "걍 그 얼마 안 하는 것조차 안 했으면 좋겠다는 거임",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걍그/UNKNOWN+얼마/NNG+안/MAG+하/VV+는/ETM+것/NNB+조차/JX+안/MAG+했/VV+EP+으면/EC+좋/VA+겠/EP+다는/ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㅠㅠ 아직 어른들은 정성이다 생각하시나 보다 키키",
+            "norm_text": "ㅠㅠ 아직 어른들은 정성이다 생각하시나 보다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+아직/MAG+어른/NNG+들/XSN+은/JX+정성/NNG+이/JKS+다/MAG+생각/NNG+하/XSV+시/EP+나/NP+보다/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 절레절레다 진짜 키키 사서 고생하는 이유를 모르겠음",
+            "norm_text": "절레절레다 진짜 키키 사서 고생하는 이유를 모르겠음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "절레절레/MAG+다/MAG+진짜/MAG+키/NNG+키/XSV+ETN+사/VV+서/EC+고생/NNG+하/XSV+는/ETM+이유/NNG+를/JKO+모르/VV+겠/EP+음/ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 이제 고생 그만 하실 때도 됐는데",
+            "norm_text": "키키 이제 고생 그만 하실 때도 됐는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+이제/MAG+고생/NNG+그만/MAG+하/VV+실/EP+ETM+때/NNG+도/JX+됐/VV+EP+는데/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 내 말이 키키 자꾸 우리 먹을 것만 한다고 강조하시는데 키키",
+            "norm_text": "내 말이 키키 자꾸 우리 먹을 것만 한다고 강조하시는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+키/NNG+키/XSV+ETN+자꾸/MAG+우리/NP+먹/VV+을/ETM+것/NNB+만/JX+한다고/VV+EC+강조/NNG+하/XSV+시/EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 코시국 끝나고 우리 집에 사람들 모이기라도 하면 어쩌려고?",
+            "norm_text": "코시국 끝나고 우리 집에 사람들 모이기라도 하면 어쩌려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "코/NNG+시국/NNG+끝/NNG+나/VV+고/EC+우리/NP+집/NNG+에/JKB+사람/NNG+들/XSN+모이/VV+기/ETN+라도/VCP+EC+하/VV+면/EC+어쩌/VV+려고/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아빠랑 둘이 한다 지만 두분 다 나이도 있으신데 골병 날 일 있냐며",
+            "norm_text": "아빠랑 둘이 한다 지만 두분 다 나이도 있으신데 골병 날 일 있냐며",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+랑/JC+둘/NR+이/JKS+한다지만/VV+EC+두/MM+분/NNBC+다/MAG+나이/NNG+도/JX+있/VA+으신/EP+ETM+데/NNB+골병/NNG+날일/NNG+있/VV+냐며/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 일단 제사 음식 자체가 손이 많이 가는데 조금 한다고... 수고가 덜하진 않지",
+            "norm_text": "키키 일단 제사 음식 자체가 손이 많이 가는데 조금 한다고... 수고가 덜하진 않지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+일단/MAG+제사/NNG+음식/NNG+자체/NNG+가/JKS+손/NNG+이/JKS+많이/MAG+가/VV+는데/EC+조금/MAG+한다고/VV+EF+./SY+수고/NNG+가/JKS+덜하/VA+진/EC+JX+않/VX+지/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : ㅁㅈ 그래서 나랑 동생이랑 그냥 안 도와준다고 미리 선포해 놨음 키키",
+            "norm_text": "ㅁㅈ 그래서 나랑 동생이랑 그냥 안 도와준다고 미리 선포해 놨음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅁ/NNG+ㅈ/NNG+그래서/MAJ+나/NP+랑/JKB+동생/NNG+이랑/JKB+그냥/MAG+안/MAG+도와/VV+EC+준다고/VX+EC+미리/MAG+선포/NNG+해놨/XSV+EC+VX+EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 아빠랑 둘이 만드니까 지금은 괜찮나 본데 뭐 키키 알아서 하시라지",
+            "norm_text": "아빠랑 둘이 만드니까 지금은 괜찮나 본데 뭐 키키 알아서 하시라지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아빠/NNG+랑/JC+둘/NR+이/JKS+만드/VV+니까/EC+지금/MAG+은/JX+괜찮/VA+나/EC+본데/VX+EF+뭐/IC+키/NNG+키/XSV+ETN+알/VV+아서/EC+하/VX+시/EP+라지/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 좋네 두 분이서 오손도손 키키",
+            "norm_text": "키키 좋네 두 분이서 오손도손 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+좋/VA+네/EF+두/MM+분/NNBC+이/XSN+서/JKS+오손도손/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : ㅁㅈ 키키 하고 싶은 사람들끼리 정겹게 해야지 뭐",
+            "norm_text": "ㅁㅈ 키키 하고 싶은 사람들끼리 정겹게 해야지 뭐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅁ/NNG+ㅈ/NNG+키/NNG+키/NNG+하/XSV+고/EC+싶/VX+은/ETM+사람/NNG+들/XSN+끼리/XSN+정겹/VA+게/EC+해야지/VV+EF+뭐/IC"
+          }
+        ]
+      }
+    }
+  ]
+}

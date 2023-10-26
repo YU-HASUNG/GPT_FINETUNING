@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34587,
+    "name": "KAKAO_620_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142923080238/KAKAO_620_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927142923080238/KAKAO_620_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34242,
+      "filename": "KAKAO_620_04.txt",
+      "title": "KAKAO_620_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 504,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 504,
+        "word_size": 166,
+        "text": "1 : 스케줄 근무면 야근 수당도 받고 그럼? 급여 더 높겠다\n2 : 응응 야근 수당이 있긴 해 그리고 내가 다니는 곳이 좀 잘 쳐 주기도 하고\n1 : 오 괜찮다 야근 수당 받아도 쏠쏠하지 키키\n2 : 근데 또 그 정도는 아닌 것 같기도 하고, 예전 회사 생각하면 쏠쏠하고 키키\n1 : 키키 아 진짜? 그런데 스케줄이라서 힘들겠다\n2 : 키키 맞아 시간이 왔다 갔다 하다 보니 ㅠㅠ\n1 : 그러니까 잠은 제대로 자나? ㅜㅜ\n2 : 난 다행히 잠은 진짜 잘 자 키키 언제 어디서든\n1 : 오 대박이네 그러면 또 괜찮긴 하다 키키\n2 : 키키 맞아 키키 진짜 누우면 잠드는 편\n1 : 와 대박이다 나도 그런 편이다 그런데 키키\n2 : 키키 오? 나 예전에 일본 여행에서 더위 먹고 길바닥에서도 잠 키키\n1 : 헐? 뭐야 아니 너무 위험한 거 아니가? 키키\n2 : 키키 진짜 너무 힘들어서 길바닥에서 잠시 잤어... 키키\n1 : 키키 진짜 누가 안 업어가서 다행이다\n2 : 엉... 키키 그때 일본인 친구랑 있어서 더 다행이었음 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 스케줄 근무면 야근 수당도 받고 그럼? 급여 더 높겠다",
+            "norm_text": "스케줄 근무면 야근 수당도 받고 그럼? 급여 더 높겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "스케줄/NNG+근무/NNG+면/VCP+EC+야근/NNG+수당/NNG+도/JX+받/VV+고/EC+그럼/MAJ+급여/NNG+더/MAG+높/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 야근 수당이 있긴 해 그리고 내가 다니는 곳이 좀 잘 쳐 주기도 하고",
+            "norm_text": "응응 야근 수당이 있긴 해 그리고 내가 다니는 곳이 좀 잘 쳐 주기도 하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+야근/NNG+수당/NNG+이/JKS+있/VV+긴/ETN+JX+해/VX+EF+그리고/MAJ+내/NP+가/JKS+다니/VV+는/ETM+곳/NNG+이/JKS+좀/MAG+잘/MAG+쳐/VV+EC+주/VX+기/ETN+도/JX+하/VV+고/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 괜찮다 야근 수당 받아도 쏠쏠하지 키키",
+            "norm_text": "오 괜찮다 야근 수당 받아도 쏠쏠하지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+괜찮/VA+다/EC+야근/NNG+수당/NNG+받/VV+아도/EC+쏠쏠/XR+하/XSA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 또 그 정도는 아닌 것 같기도 하고, 예전 회사 생각하면 쏠쏠하고 키키",
+            "norm_text": "근데 또 그 정도는 아닌 것 같기도 하고, 예전 회사 생각하면 쏠쏠하고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+또/MAG+그/MM+정도/NNG+는/JX+아닌/VCN+ETM+것/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC+,/SC+예전/NNG+회사/NNG+생각/NNG+하/XSV+면/EC+쏠쏠/XR+하/XSA+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 아 진짜? 그런데 스케줄이라서 힘들겠다",
+            "norm_text": "키키 아 진짜? 그런데 스케줄이라서 힘들겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+진짜/MAG+그런데/MAJ+스케줄/NNG+이/VCP+라서/EC+힘들/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 맞아 시간이 왔다 갔다 하다 보니 ㅠㅠ",
+            "norm_text": "키키 맞아 시간이 왔다 갔다 하다 보니 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+시간/NNG+이/JKS+왔다갔다/MAG+하/VV+다/EC+보/VX+니/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러니까 잠은 제대로 자나? ㅜㅜ",
+            "norm_text": "그러니까 잠은 제대로 자나? ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러니까/MAJ+잠/NNG+은/JX+제대로/MAG+자/VV+나/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 난 다행히 잠은 진짜 잘 자 키키 언제 어디서든",
+            "norm_text": "난 다행히 잠은 진짜 잘 자 키키 언제 어디서든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+다행히/MAG+잠/NNG+은/JX+진짜/MAG+잘/MAG+자키/NNG+키/NNG+언제/MAG+어디/NP+서/JKB+든/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 오 대박이네 그러면 또 괜찮긴 하다 키키",
+            "norm_text": "오 대박이네 그러면 또 괜찮긴 하다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+대박/NNG+이/VCP+네/EF+그러면/MAJ+또/MAG+괜찮/VA+긴/ETN+JX+하/VX+다키키/NNP"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 맞아 키키 진짜 누우면 잠드는 편",
+            "norm_text": "키키 맞아 키키 진짜 누우면 잠드는 편",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+키/NNG+키/XSV+ETN+진짜/MAG+누우/VV+면/EC+잠드/VV+는/ETM+편/NNB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 와 대박이다 나도 그런 편이다 그런데 키키",
+            "norm_text": "와 대박이다 나도 그런 편이다 그런데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+대박/NNG+이/VCP+다/EF+나/NP+도/JX+그런/MM+편/NNB+이/VCP+다/EF+그런데/MAJ+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 오? 나 예전에 일본 여행에서 더위 먹고 길바닥에서도 잠 키키",
+            "norm_text": "키키 오? 나 예전에 일본 여행에서 더위 먹고 길바닥에서도 잠 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EF+나/NP+예전/NNG+에/JKB+일본/NNP+여행/NNG+에서/JKB+더위/NNG+먹/VV+고/EC+길바닥/NNG+에서/JKB+도/JX+잠/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 헐? 뭐야 아니 너무 위험한 거 아니가? 키키",
+            "norm_text": "헐? 뭐야 아니 너무 위험한 거 아니가? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+뭐/NP+야/VCP+EF+아니/IC+너무/MAG+위험/NNG+한/XSA+ETM+거/NNB+아니/VCN+가/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 진짜 너무 힘들어서 길바닥에서 잠시 잤어... 키키",
+            "norm_text": "키키 진짜 너무 힘들어서 길바닥에서 잠시 잤어... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+너무/MAG+힘들/VA+어서/EC+길바닥/NNG+에서/JKB+잠시/MAG+잤/VV+EP+어/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 진짜 누가 안 업어가서 다행이다",
+            "norm_text": "키키 진짜 누가 안 업어가서 다행이다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+누가/NP+JKS+안/MAG+업/VV+어/EC+가/VX+서/EC+다행/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 엉... 키키 그때 일본인 친구랑 있어서 더 다행이었음 키키",
+            "norm_text": "엉... 키키 그때 일본인 친구랑 있어서 더 다행이었음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+./SY+키/NNG+키/NNG+그때/NNG+일본인/NNG+친구/NNG+랑/JKB+있/VA+어서/EC+더/MAG+다행/NNG+이/VCP+었/EP+음/ETN+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 38838,
+    "name": "KAKAO_768_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150249069288/KAKAO_768_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150249069288/KAKAO_768_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38172,
+      "filename": "KAKAO_768_01.txt",
+      "title": "KAKAO_768_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 532,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 532,
+        "word_size": 172,
+        "text": "1 : 닌 배달 음식 뭐 주로 시켜 먹어?\n2 : 난 중국집 많이 시켜 먹는 거 같아 키키 집에선 못하니까\n1 : 오! 그렇지 집에서 못 해먹는 거 많이 시켜 먹지 키키\n2 : 응응 키키 넌 주로 뭐 시켜 먹는 편인데?\n1 : 난... 치킨? 족발? 중국집? 마라탕...? 키키 이 정도 키키\n2 : 응? 키키 배달을 엄청 많이 시켜 먹네? 키키\n1 : 다 집에서 못해먹는 음식이잖아 ^^\n2 : 키키 그래... 그건 맞는데... 키키\n2 : 배달음식 좋아하는구나\n1 : 키키 아니... 자주 시켜 먹는 건 또 아니구... 키키\n2 : 키키 한 달에 몇 번 정도 시켜 먹는데? 키키\n1 : 음... 한 두 번? 키키 얼마 안 시켜 먹제? 키키\n2 : 키키 오? 저기 메뉴를 다 돌아가면서 시키는구나? 키키\n1 : 키키 그렇지 키키 근데 진짜 한 달에 한 번 치킨은 시켜 먹어줘야 하는 것 같아! 키키\n2 : 키키 나는 치킨 진짜 싫어하는데 키키 맛없어\n1 : 헐... 치킨 싫어하는 사람이 내 주변에 존재하다니...\n2 : 키키 뭔가... 간장치킨은 먹을만한데 다른 건 별로 ㅜㅜ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 닌 배달 음식 뭐 주로 시켜 먹어?",
+            "norm_text": "닌 배달 음식 뭐 주로 시켜 먹어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "닌/NNP+배달/NNG+음식/NNG+뭐/IC+주로/MAG+시켜/VV+EC+먹/VV+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 중국집 많이 시켜 먹는 거 같아 키키 집에선 못하니까",
+            "norm_text": "난 중국집 많이 시켜 먹는 거 같아 키키 집에선 못하니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+중국집/NNG+많이/MAG+시켜/VV+EC+먹/VV+는/ETM+거/NNB+같/VA+아/EC+키/NNG+키/NNG+집/NNG+에선/JKB+JX+못하/VX+니까/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오! 그렇지 집에서 못 해먹는 거 많이 시켜 먹지 키키",
+            "norm_text": "오! 그렇지 집에서 못 해먹는 거 많이 시켜 먹지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그렇/VA+지/EC+집/NNG+에서/JKB+못/MAG+해/VV+EC+먹/VV+는/ETM+거/NNB+많이/MAG+시켜/VV+EC+먹/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 키키 넌 주로 뭐 시켜 먹는 편인데?",
+            "norm_text": "응응 키키 넌 주로 뭐 시켜 먹는 편인데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+넌/JX+주로/MAG+뭐/IC+시켜/VV+EC+먹/VV+는/ETM+편/NNB+인데/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 난... 치킨? 족발? 중국집? 마라탕...? 키키 이 정도 키키",
+            "norm_text": "난... 치킨? 족발? 중국집? 마라탕...? 키키 이 정도 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+./SY+치킨/NNG+?/SY+족발/NNG+?/SY+중국/NNP+집/NNG+마라/VV+EC+탕/NNG+./SY+./SY+키/NNG+키/XSV+ETN+이/JKS+정도/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응? 키키 배달을 엄청 많이 시켜 먹네? 키키",
+            "norm_text": "응? 키키 배달을 엄청 많이 시켜 먹네? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+배달/NNG+을/JKO+엄청/MAG+많이/MAG+시켜/VV+EC+먹/VV+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 다 집에서 못해먹는 음식이잖아 ^^",
+            "norm_text": "다 집에서 못해먹는 음식이잖아 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+집/NNG+에서/JKB+못/MAG+해/VV+EC+먹/VV+는/ETM+음식/NNG+이/VCP+잖아/EC+^/SY+^/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 그래... 그건 맞는데... 키키",
+            "norm_text": "키키 그래... 그건 맞는데... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VV+EF+./SY+그건/NP+JX+맞/VV+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 배달음식 좋아하는구나",
+            "norm_text": "배달음식 좋아하는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배달/NNG+음식/NNG+좋/VA+아/EC+하/VV+는구나/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 아니... 자주 시켜 먹는 건 또 아니구... 키키",
+            "norm_text": "키키 아니... 자주 시켜 먹는 건 또 아니구... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+./SY+./SY+자주/MAG+시켜/VV+EC+먹/VV+는/ETM+건/NNB+JX+또/MAG+아니/VCN+구/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 한 달에 몇 번 정도 시켜 먹는데? 키키",
+            "norm_text": "키키 한 달에 몇 번 정도 시켜 먹는데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+한/XSA+ETM+달/NNG+에/JKB+몇/MM+번/NNBC+정도/NNG+시켜/XSV+EC+먹/VV+는데/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 음... 한 두 번? 키키 얼마 안 시켜 먹제? 키키",
+            "norm_text": "음... 한 두 번? 키키 얼마 안 시켜 먹제? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "음/IC+./SY+한두/MM+번/NNBC+키/NNG+키/NNG+얼마/NNG+안/MAG+시켜/VV+EC+먹/VV+제/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 오? 저기 메뉴를 다 돌아가면서 시키는구나? 키키",
+            "norm_text": "키키 오? 저기 메뉴를 다 돌아가면서 시키는구나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+오/EF+저기/NP+메뉴/NNG+를/JKO+다/MAG+돌아가/VV+면서/EC+시키/VV+는구나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그렇지 키키 근데 진짜 한 달에 한 번 치킨은 시켜 먹어줘야 하는 것 같아! 키키",
+            "norm_text": "키키 그렇지 키키 근데 진짜 한 달에 한 번 치킨은 시켜 먹어줘야 하는 것 같아! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+지/EC+키/NNG+키/XSV+ETN+근데/MAJ+진짜/MAG+한/MM+달/NNG+에/JKB+한/MM+번/NNBC+치킨/NNG+은/JX+시켜/VV+EC+먹/VV+어/EC+줘야/VX+EC+하/VV+는/ETM+것/NNB+같/VA+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 나는 치킨 진짜 싫어하는데 키키 맛없어",
+            "norm_text": "키키 나는 치킨 진짜 싫어하는데 키키 맛없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+치킨/NNG+진짜/MAG+싫/VA+어/EC+하/VV+는데/EC+키/NNG+키/XSV+ETN+맛없/VA+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 헐... 치킨 싫어하는 사람이 내 주변에 존재하다니...",
+            "norm_text": "헐... 치킨 싫어하는 사람이 내 주변에 존재하다니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+치킨/VV+ETM+싫/VA+어/EC+하/VV+는/ETM+사람/NNG+이/JKS+내/NP+JKG+주변/NNG+에/JKB+존재/NNG+하/XSA+다니/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 뭔가... 간장치킨은 먹을만한데 다른 건 별로 ㅜㅜ",
+            "norm_text": "키키 뭔가... 간장치킨은 먹을만한데 다른 건 별로 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭔가/NP+VCP+EF+./SY+간장/NNG+치킨/NNG+은/JX+먹/VV+을/ETM+만/NNB+한/XSA+ETM+데/NNB+다른/VA+ETM+건/NNB+JX+별로/MAG+ㅜㅜ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

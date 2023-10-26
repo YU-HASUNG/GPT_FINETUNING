@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 46135,
+    "name": "KAKAO_810_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172142025962/KAKAO_810_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172142025962/KAKAO_810_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39539,
+      "filename": "KAKAO_810_01.txt",
+      "title": "KAKAO_810_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 753,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 753,
+        "word_size": 227,
+        "text": "1 : 추석 음식 준비하고 있냐?\n2 : 말도 말아라, 추석이 코앞인데 물가가 너무 올라서... 뭐 하나 사려고 해도 고민된다\n1 : 안 그래도 나도 마트 나갔다가 걱정만 안고 다시 돌아왔다\n1 : 와, 무슨 과일 한 박스 사기도 후덜덜해;\n2 : 그러게 말야, 안 그래도 큰집 갈 때 과일은 하나 필요할 거 같아서 배를 사 가려고 했는데...\n2 : 완전 배 값이 금값이야  ㅜ_ㅠ\n1 : 그거는 하나 깎아서 온 식구들 한 조각씩만 먹어야 할 거 같은데? 하하\n1 : 안 그래도 배가 몸에 좋다고 해서 나도 구매하려고 했는데...\n2 : 참 내가 어디서 봤는데... 배는 깎아서 먹는 거 보단 껍질째 먹는 게 항산화 효과에 좋대\n1 : 어? 야... 항산화 좋다고 껍질 농약을 먹기에는 조금 너무하지 않아?\n2 : 배를 깎기 전에 깨끗하게 씻는 거지...\n2 : 정 걱정되면 식초나 베이킹 소다 이용하고\n1 : 하하 차라리 항산화는 다른 곳에서 찾고\n1 : 배는 그냥 껍질 벗겨서 먹으련다 하하\n2 : 뭐... 그냥 배 껍질이 좋다는 얘기였어 하하\n1 : 암튼 추석 음식은 배달해서 먹으면 좋은데 어르신들이 싫어한다.\n2 : 그니깐 정말 음식 준비하기 너무 힘들다...\n1 : 또 손님들 와서 음식 내놓는 것도 힘들고...\n1 : 그것만이라도 배달 앱으로 주문해서 먹고 싶다...ㅋ\n2 : 어 맛집들 많은데 왜 집에서 만들게 시키는지... 힘들게... ㅠㅠ\n1 : 내년엔 시장에서 사다가 전 먹자고 해 볼려고.\n2 : 응 그래 좋은 생각이야... 요샌 그렇게 많이 하던 추세더라구~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 추석 음식 준비하고 있냐?",
+            "norm_text": "추석 음식 준비하고 있냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "추석/NNG+음식/NNG+준비/NNG+하/XSV+고/EC+있/VX+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 말도 말아라, 추석이 코앞인데 물가가 너무 올라서... 뭐 하나 사려고 해도 고민된다",
+            "norm_text": "말도 말아라, 추석이 코앞인데 물가가 너무 올라서... 뭐 하나 사려고 해도 고민된다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "말/NNG+도/JX+말/VX+아라/EF+,/SC+추석/NNG+이/JKS+코앞/NNG+인데/VCP+EC+물가/NNG+가/JKS+너무/MAG+올라서/VV+EF+./SY+뭐/IC+하나/NR+사/VV+려고/EC+해도/VV+EC+고민/NNG+된다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 안 그래도 나도 마트 나갔다가 걱정만 안고 다시 돌아왔다",
+            "norm_text": "안 그래도 나도 마트 나갔다가 걱정만 안고 다시 돌아왔다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+나/NP+도/JX+마트/NNG+나갔/VV+EP+다가/EC+걱정/NNG+만/JX+안/VV+고/EC+다시/MAG+돌아왔/VV+EP+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 와, 무슨 과일 한 박스 사기도 후덜덜해;",
+            "norm_text": "와, 무슨 과일 한 박스 사기도 후덜덜해;",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+,/SC+무슨/MM+과일/NNG+한/XSA+ETM+박스/NNG+사/VV+기/ETN+도/JX+후/NNG+덜덜/MAG+해/VV+EC+;/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그러게 말야, 안 그래도 큰집 갈 때 과일은 하나 필요할 거 같아서 배를 사 가려고 했는데...",
+            "norm_text": "그러게 말야, 안 그래도 큰집 갈 때 과일은 하나 필요할 거 같아서 배를 사 가려고 했는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+말/VX+야/EF+,/SC+안/MAG+그래도/VV+EC+큰/VA+ETM+집/NNG+갈/VV+ETM+때/NNG+과일/NNG+은/JX+하나/NR+필요/NNG+할/XSV+ETM+거/NNB+같/VA+아서/EC+배/NNG+를/JKO+사/VV+EC+가/VX+려고/EC+했/VX+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 완전 배 값이 금값이야  ㅜ_ㅠ",
+            "norm_text": "완전 배 값이 금값이야  ㅜ_ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "완전/NNG+배/NNG+값/NNG+이/JKS+금값/NNG+이/VCP+야/EF+ㅜ/UNKNOWN+_/SY+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그거는 하나 깎아서 온 식구들 한 조각씩만 먹어야 할 거 같은데? 하하",
+            "norm_text": "그거는 하나 깎아서 온 식구들 한 조각씩만 먹어야 할 거 같은데? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+는/JX+하나/NR+깎/VV+아서/EC+온/VX+ETM+식구/NNG+들/XSN+한/MM+조각/NNG+씩/XSN+만/JX+먹/VV+어야/EC+할/VX+ETM+거/NNB+같/VA+은데/EF+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 안 그래도 배가 몸에 좋다고 해서 나도 구매하려고 했는데...",
+            "norm_text": "안 그래도 배가 몸에 좋다고 해서 나도 구매하려고 했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+그래도/VV+EC+배/NNG+가/JKS+몸/NNG+에/JKB+좋/VA+다고/EC+해서/VV+EC+나/NP+도/JX+구매/NNG+하/XSV+려고/EC+했/VX+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 참 내가 어디서 봤는데... 배는 깎아서 먹는 거 보단 껍질째 먹는 게 항산화 효과에 좋대",
+            "norm_text": "참 내가 어디서 봤는데... 배는 깎아서 먹는 거 보단 껍질째 먹는 게 항산화 효과에 좋대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "참/IC+내/NP+가/JKS+어디/NP+서/JKB+봤/VV+EP+는데/EC+./SY+./SY+배/NNG+는/JX+깎/VV+아서/EC+먹/VV+는/ETM+거/NNB+보단/JKB+JX+껍질/NNG+째/XSN+먹/VV+는/ETM+게/NNB+JKS+항산/NNG+화/XSN+효과/NNG+에/JKB+좋/VA+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 어? 야... 항산화 좋다고 껍질 농약을 먹기에는 조금 너무하지 않아?",
+            "norm_text": "어? 야... 항산화 좋다고 껍질 농약을 먹기에는 조금 너무하지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+야/IC+./SY+항산/NNG+화/XSN+좋/VA+다고/EC+껍질/NNG+농약/NNG+을/JKO+먹/VV+기/ETN+에/JKB+는/JX+조금/MAG+너무/MAG+하/VV+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 배를 깎기 전에 깨끗하게 씻는 거지...",
+            "norm_text": "배를 깎기 전에 깨끗하게 씻는 거지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배/NNG+를/JKO+깎/VV+기/ETN+전/NNG+에/JKB+깨끗/XR+하/XSA+게/EC+씻/VV+는/ETM+거/NNB+지/VCP+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 정 걱정되면 식초나 베이킹 소다 이용하고",
+            "norm_text": "정 걱정되면 식초나 베이킹 소다 이용하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "정/NNP+걱정/NNG+되/XSV+면/EC+식초/NNG+나베이/NNP+킹/NNP+소다/NNG+이용/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하하 차라리 항산화는 다른 곳에서 찾고",
+            "norm_text": "하하 차라리 항산화는 다른 곳에서 찾고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+차라리/MAG+항산/NNG+화/XSN+는/JX+다른/MM+곳/NNG+에서/JKB+찾/VV+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 배는 그냥 껍질 벗겨서 먹으련다 하하",
+            "norm_text": "배는 그냥 껍질 벗겨서 먹으련다 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배/NNG+는/JX+그냥/MAG+껍질/NNG+벗겨서/VV+EC+먹/VV+으련다/EC+하하/MAG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 뭐... 그냥 배 껍질이 좋다는 얘기였어 하하",
+            "norm_text": "뭐... 그냥 배 껍질이 좋다는 얘기였어 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+./SY+그냥/MAG+배/NNG+껍질/NNG+이/JKS+좋/VA+다는/ETM+얘기/NNG+였/VCP+EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 암튼 추석 음식은 배달해서 먹으면 좋은데 어르신들이 싫어한다.",
+            "norm_text": "암튼 추석 음식은 배달해서 먹으면 좋은데 어르신들이 싫어한다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "암튼/MAJ+추석/NNG+음식/NNG+은/JX+배달/NNG+해서/XSV+EC+먹/VV+으면/EC+좋/VA+은데/EC+어르신/NNG+들/XSN+이/JKS+싫/VA+어/EC+한다/VX+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그니깐 정말 음식 준비하기 너무 힘들다...",
+            "norm_text": "그니깐 정말 음식 준비하기 너무 힘들다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+정말/MAG+음식/NNG+준비/NNG+하/XSV+기/ETN+너무/MAG+힘들/VA+다/EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 또 손님들 와서 음식 내놓는 것도 힘들고...",
+            "norm_text": "또 손님들 와서 음식 내놓는 것도 힘들고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "또/MAG+손님/NNG+들/XSN+와서/VV+EC+음식/NNG+내놓/VV+는/ETM+것/NNB+도/JX+힘들/VA+고/EC+./SY+./SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그것만이라도 배달 앱으로 주문해서 먹고 싶다...ㅋ",
+            "norm_text": "그것만이라도 배달 앱으로 주문해서 먹고 싶다...ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그것/NP+만/JX+이라도/JX+배달/NNG+앱/NNG+으로/JKB+주문/NNG+해서/XSV+EC+먹/VV+고/EC+싶/VX+다/EF+./SY+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 어 맛집들 많은데 왜 집에서 만들게 시키는지... 힘들게... ㅠㅠ",
+            "norm_text": "어 맛집들 많은데 왜 집에서 만들게 시키는지... 힘들게... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맛집/NNG+들/XSN+많/VA+은데/EC+왜/MAG+집/NNG+에서/JKB+만들/VV+게/EC+시키/VV+는지/EF+./SY+힘들/VA+게/EC+./SY+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 내년엔 시장에서 사다가 전 먹자고 해 볼려고.",
+            "norm_text": "내년엔 시장에서 사다가 전 먹자고 해 볼려고.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내년/NNG+엔/JKB+JX+시장/NNG+에서/JKB+사/VV+다가/EC+전/NNG+먹/VV+자고/EC+해/VV+EC+볼려고/VX+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 응 그래 좋은 생각이야... 요샌 그렇게 많이 하던 추세더라구~",
+            "norm_text": "응 그래 좋은 생각이야... 요샌 그렇게 많이 하던 추세더라구~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그래/IC+좋/VA+은/ETM+생각/NNG+이/VCP+야/EF+./SY+요샌/MAG+JX+그렇게/MAG+많이/MAG+하/VV+던/ETM+추세/NNG+더라구/VCP+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

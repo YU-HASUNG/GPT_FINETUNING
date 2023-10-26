@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 64104,
+    "name": "KAKAO_780_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143859097359/KAKAO_780_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143859097359/KAKAO_780_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38073,
+      "filename": "KAKAO_780_02.txt",
+      "title": "KAKAO_780_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 460,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 460,
+        "word_size": 147,
+        "text": "1 : 귀농의 단점은 배달이 안 오는 거야?\n2 : 단점 음식점이 없다 주변에 사람이 없어서 무섭다 벌레가 많다 등등 키키\n1 : 난 그거 장점인 듯 강제 다이어트 키키\n2 : 아니야 차 타고 나가더라고 ... 다이어트 못하고 기름 값만 나가 키키\n1 : 키키 자주 나가시나 봐요...?\n1 : 집에 들어갈 때 사가는 건...?\n2 : 꼭 다이어트 할라고 다짐하면 그날 밤에 더 먹고 싶더라고 키키\n1 : 아냐 근데 꼭 야식이 땡기쥐...\n2 : 맞아 맞아 얼마 전에 엄청 무서운 일 있었잖아\n1 : 키키 몬데 몬데... 너무 무서우면 말하지 마\n2 : 밤에 어떤 모르는 차가 내 차 따라 들어와서 울 집 주차장에 섰잖아 ㅠㅠ\n1 : 엥 그래서 뭐야 그게 ㄷㄷ\n2 : 그날 따라 하필이면 또 *씨는 덕산에 친구 와서 친구 펜션에서 자고 있었거든\n1 : 엉 미쳐버리네? 너무 무서운데?\n2 : 그래서 누구냐고 하니까 차를 따라 왔다는 거야? 뭥미 ?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 귀농의 단점은 배달이 안 오는 거야?",
+            "norm_text": "귀농의 단점은 배달이 안 오는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "귀농/NNG+의/JKG+단점/NNG+은/JX+배달/NNG+이/JKS+안/MAG+오/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 단점 음식점이 없다 주변에 사람이 없어서 무섭다 벌레가 많다 등등 키키",
+            "norm_text": "단점 음식점이 없다 주변에 사람이 없어서 무섭다 벌레가 많다 등등 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "단점/NNG+음식점/NNG+이/JKS+없/VA+다/EC+주변/NNG+에/JKB+사람/NNG+이/JKS+없/VA+어서/EC+무섭/VA+다/EC+벌레/NNG+가/JKS+많/VA+다/EC+등등/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 난 그거 장점인 듯 강제 다이어트 키키",
+            "norm_text": "난 그거 장점인 듯 강제 다이어트 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+그거/NP+장점/NNG+인/VCP+ETM+듯/NNB+강제/NNG+다이어트/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니야 차 타고 나가더라고 ... 다이어트 못하고 기름 값만 나가 키키",
+            "norm_text": "아니야 차 타고 나가더라고 ... 다이어트 못하고 기름 값만 나가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+차/NNG+타/VV+고/EC+나가/VX+더라고/EF+./SY+다이어트/NNG+못/MAG+하/VV+고/EC+기름/NNG+값/NNG+만/JX+나가/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 자주 나가시나 봐요...?",
+            "norm_text": "키키 자주 나가시나 봐요...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+자주/MAG+나가/VV+시/EP+나/EC+봐요/VX+EF+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 집에 들어갈 때 사가는 건...?",
+            "norm_text": "집에 들어갈 때 사가는 건...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+에/JKB+들어갈/VV+ETM+때/NNG+사/VV+EC+가/VX+는/ETM+건/NNB+JX+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 꼭 다이어트 할라고 다짐하면 그날 밤에 더 먹고 싶더라고 키키",
+            "norm_text": "꼭 다이어트 할라고 다짐하면 그날 밤에 더 먹고 싶더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "꼭/MAG+다이어트/NNG+할라고/XSV+EC+다짐/NNG+하/XSV+면/EC+그날/NNG+밤/NNG+에/JKB+더/MAG+먹/VV+고/EC+싶/VX+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아냐 근데 꼭 야식이 땡기쥐...",
+            "norm_text": "아냐 근데 꼭 야식이 땡기쥐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+근데/MAJ+꼭/MAG+야식/NNG+이/JKS+땡기/VV+쥐/NNG+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아 맞아 얼마 전에 엄청 무서운 일 있었잖아",
+            "norm_text": "맞아 맞아 얼마 전에 엄청 무서운 일 있었잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아/EC+얼마/NNG+전/NNG+에/JKB+엄청/MAG+무서운/VA+ETM+일/NNG+있/VV+었잖/EC+VX+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 키키 몬데 몬데... 너무 무서우면 말하지 마",
+            "norm_text": "키키 몬데 몬데... 너무 무서우면 말하지 마",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+몬데/NP+VCP+EF+몬데/NP+VCP+EF+./SY+너무/MAG+무서우/VA+면/EC+말/NNG+하/XSV+지/EC+마/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 밤에 어떤 모르는 차가 내 차 따라 들어와서 울 집 주차장에 섰잖아 ㅠㅠ",
+            "norm_text": "밤에 어떤 모르는 차가 내 차 따라 들어와서 울 집 주차장에 섰잖아 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "밤/NNG+에/JKB+어떤/MM+모르/VV+는/ETM+차/NNG+가/JKS+내/NP+JKG+차/NNG+따라들어와/VV+EC+VV+EC+서울/NNP+집/NNG+주차장/NNG+에/JKB+섰/VV+EP+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 엥 그래서 뭐야 그게 ㄷㄷ",
+            "norm_text": "엥 그래서 뭐야 그게 ㄷㄷ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+그래서/MAJ+뭐/NP+야/VCP+EF+그게/NP+JKS+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그날 따라 하필이면 또 *씨는 덕산에 친구 와서 친구 펜션에서 자고 있었거든",
+            "norm_text": "그날 따라 하필이면 또 *씨는 덕산에 친구 와서 친구 펜션에서 자고 있었거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그날/NNG+따라/VV+EC+하필/MAG+이/VCP+면/EC+또/MAG+*/SY+씨/NNB+는/JX+덕산/NNP+에/JKB+친구/NNG+와서/VV+EC+친구/NNG+펜션/NNG+에서/JKB+자/VV+고/EC+있/VX+었/EP+거든/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 엉 미쳐버리네? 너무 무서운데?",
+            "norm_text": "엉 미쳐버리네? 너무 무서운데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+미쳐/VV+EC+버리/VX+네/EF+너무/MAG+무서운데/VA+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그래서 누구냐고 하니까 차를 따라 왔다는 거야? 뭥미 ?",
+            "norm_text": "그래서 누구냐고 하니까 차를 따라 왔다는 거야? 뭥미 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+누구/NP+냐고/VCP+EC+하/VV+니까/EC+차/NNG+를/JKO+따라왔/VV+EP+다는/ETM+거/NNB+야/VCP+EF+뭥미/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 28713,
+    "name": "KAKAO_571_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135539030324/KAKAO_571_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135539030324/KAKAO_571_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30487,
+      "filename": "KAKAO_571_14.txt",
+      "title": "KAKAO_571_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 467,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 467,
+        "word_size": 150,
+        "text": "1 : 아빠 이번 주에 벌초하러 가신다고 했지?\n2 : 응 낼 모레 벌초하러 가신대 혼자서 난 일 땜에 못 가\n1 : 고창에서 벌초하러 갔다가 시신으로 발견됐대 ㅠㅠ\n2 : 왜? 벌에 쏘였나? 벌 무서워\n1 : 벌초 도중 말벌에 쏘여 사망한 것으로 추정된대\n2 : 진짜? 해마다 벌초하다 사람 죽고 누구한테 하소연 하냐?\n1 : 그러니깐 ㅠㅠ 참 말하기가 그렇다\n2 : 참 안 할 수도 없고 사람 노릇하기 어렵다\n1 : 맞아 어려워 요즘 말벌들도 엄청 크던데 무서워 ㅠㅠ\n2 : 나도 벌에 쏘여봐서 아는데 엄청 아퍼\n1 : 나도 키키 따라오길래 도망치다가 엄지 손가락 물렸어 ㅠㅠ 울었잖아\n2 : 도망가면 끝까지 쫓아온대 아예 벌은 보면 안돼\n1 : 그냥 얼음이 되는 거 같애\n2 : 순간 돌이 돼버리지 어떻게 할 수가 없어\n1 : 요즘 벌 주위에 많이 보이는데 조심해야 해\n1 : 아빠한테도 조심하라고 해\n2 : 네 알았어요 내일 꼭 전달 해줄께요 벌 조심하라고",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아빠 이번 주에 벌초하러 가신다고 했지?",
+            "norm_text": "아빠 이번 주에 벌초하러 가신다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아빠/NNG+이번/NNG+주/NNG+에/JKB+벌초/NNG+하/XSV+러/EC+가/VX+신다고/EP+EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 낼 모레 벌초하러 가신대 혼자서 난 일 땜에 못 가",
+            "norm_text": "응 낼 모레 벌초하러 가신대 혼자서 난 일 땜에 못 가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+낼모레/MAG+벌초/NNG+하/XSV+러/EC+가/VX+신대/EC+혼자/NNG+서/JKB+난일/NNG+땜/NNB+에/JKB+못가/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 고창에서 벌초하러 갔다가 시신으로 발견됐대 ㅠㅠ",
+            "norm_text": "고창에서 벌초하러 갔다가 시신으로 발견됐대 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고창/NNG+에서/JKB+벌초/NNG+하/XSV+러/EC+갔/VV+EP+다가/EC+시신/NNG+으로/JKB+발견/NNG+됐/XSV+EP+대/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 왜? 벌에 쏘였나? 벌 무서워",
+            "norm_text": "왜? 벌에 쏘였나? 벌 무서워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+벌/NNG+에/JKB+쏘였/VV+EP+나/EF+벌/NNG+무서워/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 벌초 도중 말벌에 쏘여 사망한 것으로 추정된대",
+            "norm_text": "벌초 도중 말벌에 쏘여 사망한 것으로 추정된대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "벌초/NNG+도중/NNG+말벌/NNG+에/JKB+쏘여/VV+EC+사망/NNG+한/XSA+ETM+것/NNB+으로/JKB+추정/NNG+된/XSV+ETM+대/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 진짜? 해마다 벌초하다 사람 죽고 누구한테 하소연 하냐?",
+            "norm_text": "진짜? 해마다 벌초하다 사람 죽고 누구한테 하소연 하냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+해마다/MAG+벌초/NNG+하/XSV+다/EC+사람/NNG+죽/VV+고/EC+누구/NP+한테/JKB+하소연/NNG+하/XSA+냐/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러니깐 ㅠㅠ 참 말하기가 그렇다",
+            "norm_text": "그러니깐 ㅠㅠ 참 말하기가 그렇다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니깐/MAJ+ㅠㅠ/UNKNOWN+참말/NNG+하/XSV+기/ETN+가/JKS+그렇/VA+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 참 안 할 수도 없고 사람 노릇하기 어렵다",
+            "norm_text": "참 안 할 수도 없고 사람 노릇하기 어렵다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "참/MAG+안/MAG+할/VV+ETM+수/NNB+도/JX+없/VA+고/EC+사람/NNG+노릇/NNG+하/XSV+기/ETN+어렵/VA+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞아 어려워 요즘 말벌들도 엄청 크던데 무서워 ㅠㅠ",
+            "norm_text": "맞아 어려워 요즘 말벌들도 엄청 크던데 무서워 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+어려워/VA+EC+요즘/NNG+말벌/NNG+들/XSN+도/JX+엄청/MAG+크/VA+던데/EC+무서워/VA+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 벌에 쏘여봐서 아는데 엄청 아퍼",
+            "norm_text": "나도 벌에 쏘여봐서 아는데 엄청 아퍼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+벌/NNG+에/JKB+쏘여/VV+EC+봐서/VV+EC+아/VV+는데/EC+엄청/MAG+아퍼/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나도 키키 따라오길래 도망치다가 엄지 손가락 물렸어 ㅠㅠ 울었잖아",
+            "norm_text": "나도 키키 따라오길래 도망치다가 엄지 손가락 물렸어 ㅠㅠ 울었잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+키/NNG+키/XSV+ETN+따라오/VV+길래/EC+도망치/VV+다가/EC+엄지손가락/NNG+물렸/VV+EP+어/EF+ㅠㅠ/UNKNOWN+울/VV+었잖/EC+VX+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 도망가면 끝까지 쫓아온대 아예 벌은 보면 안돼",
+            "norm_text": "도망가면 끝까지 쫓아온대 아예 벌은 보면 안돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "도망가/VV+면/EC+끝/NNG+까지/JX+쫓/VV+아/EC+온대/VV+EF+아예/MAG+벌/NNG+은/JX+보/VV+면/EC+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그냥 얼음이 되는 거 같애",
+            "norm_text": "그냥 얼음이 되는 거 같애",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+얼음/NNG+이/JKS+되/VV+는/ETM+거/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 순간 돌이 돼버리지 어떻게 할 수가 없어",
+            "norm_text": "순간 돌이 돼버리지 어떻게 할 수가 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "순간/NNG+돌/NNG+이/JKS+돼/VV+EC+버리/VX+지/EF+어떻게/MAG+할/VV+ETM+수/NNB+가/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 요즘 벌 주위에 많이 보이는데 조심해야 해",
+            "norm_text": "요즘 벌 주위에 많이 보이는데 조심해야 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "요즘/NNG+벌/NNG+주위/NNG+에/JKB+많이/MAG+보이/VV+는데/EC+조심/NNG+해야/XSV+EC+해/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아빠한테도 조심하라고 해",
+            "norm_text": "아빠한테도 조심하라고 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아빠/NNG+한테/JKB+도/JX+조심/NNG+하/XSV+라고/EC+해/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 네 알았어요 내일 꼭 전달 해줄께요 벌 조심하라고",
+            "norm_text": "네 알았어요 내일 꼭 전달 해줄께요 벌 조심하라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "네/IC+알/VV+았/EP+어요/EF+내일/MAG+꼭/MAG+전달/NNG+해/XSV+EC+줄께요/VX+EF+벌/NNG+조심/NNG+하/XSV+라고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

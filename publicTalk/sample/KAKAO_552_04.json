@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 29021,
+    "name": "KAKAO_552_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155950045899/KAKAO_552_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155950045899/KAKAO_552_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30015,
+      "filename": "KAKAO_552_04.txt",
+      "title": "KAKAO_552_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 661,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 661,
+        "word_size": 185,
+        "text": "1 : 우리 회사는 한 달에 한 번씩 회식하는데 너네 회사는 회식 자주 하는 편이야?\n2 : 응응 우리 회사는 회식을 너무 자주 해...\n1 : 아 진짜? 나는 한 달에 한 번도 많다 생각했는데 그거보다 더 자주 하는 거야?\n2 : 응 우리는 거의 2주에 한 번씩 회식해\n1 : 키키 사원들끼리 사이가 좋은가 봐?\n2 : 응 대표님 빼고 우리끼리는 사이가 좋아~\n1 : 대표님은 모든 사원의 적인 건가... 키키 우리 대표님은 성격이 너무 좋으셔서 전 직원들이 다 좋아하는데\n2 : 우리 대표님은 좀 자기만의 세계가 강하달까... 맞추기가 너무 힘들어...\n1 : 아 그러시구나... 뭐 어떤 일이 있었어?\n2 : 아니 저번에 광복절이 일요일이어서 그 다음날이 대체 공휴일로 빨간 날이였단 말야?\n1 : 응응 근데? 벌써 흥미진진하구먼~!\n2 : 빨간 날이니까 당연히 쉬는 줄 알았는데 아니라고 우리 회사는 출근해야 된다고...\n2 : 거래처고 은행이고 다 쉬는 날인데... 그렇게 말씀하시는 거지... 쉴 꺼면 연차 쓰고 쉬라고...\n1 : 어머... 빨간 날 쉬는 건 당연한 거 아닌가? 그래서 대체 공휴일인 건데...\n2 : 그러니까... 그래서 그날 결국 출근했어...\n1 : 아 진짜? 헐... 힘들었겠다...ㅜ 대표도 잘 만나야 되네...\n2 : 응... 정말 이랬다저랬다여서... 많이 힘들어...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 회사는 한 달에 한 번씩 회식하는데 너네 회사는 회식 자주 하는 편이야?",
+            "norm_text": "우리 회사는 한 달에 한 번씩 회식하는데 너네 회사는 회식 자주 하는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+회사/NNG+는/JX+한/MM+달/NNG+에/JKB+한/MM+번/NNBC+씩/XSN+회식/NNG+하/XSV+는데/EC+너/NP+네/XSN+회사/NNG+는/JX+회식/NNG+자주/NNG+하/XSV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 우리 회사는 회식을 너무 자주 해...",
+            "norm_text": "응응 우리 회사는 회식을 너무 자주 해...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+우리/NP+회사/NNG+는/JX+회식/NNG+을/JKO+너무/MAG+자주/MAG+해/VV+EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 나는 한 달에 한 번도 많다 생각했는데 그거보다 더 자주 하는 거야?",
+            "norm_text": "아 진짜? 나는 한 달에 한 번도 많다 생각했는데 그거보다 더 자주 하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+나/NP+는/JX+한/MM+달/NNG+에/JKB+한/MM+번/NNBC+도/JX+많/VA+다/EC+생각/NNG+했/XSV+EP+는데/EC+그거/NP+보다/JKB+더/MAG+자주/MAG+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 우리는 거의 2주에 한 번씩 회식해",
+            "norm_text": "응 우리는 거의 2주에 한 번씩 회식해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+우리/NP+는/JX+거의/MAG+2/SN+주/NNBC+에/JKB+한/MM+번/NNBC+씩/XSN+회식/NNG+해/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 사원들끼리 사이가 좋은가 봐?",
+            "norm_text": "키키 사원들끼리 사이가 좋은가 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+사원/NNG+들/XSN+끼리/XSN+사이/NNG+가/JKS+좋/VA+은가/EC+봐/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 대표님 빼고 우리끼리는 사이가 좋아~",
+            "norm_text": "응 대표님 빼고 우리끼리는 사이가 좋아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+대표/NNG+님/XSN+빼/VV+고/EC+우리/NP+끼리/VV+는/ETM+사이/NNG+가/JKS+좋/VA+아/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 대표님은 모든 사원의 적인 건가... 키키 우리 대표님은 성격이 너무 좋으셔서 전 직원들이 다 좋아하는데",
+            "norm_text": "대표님은 모든 사원의 적인 건가... 키키 우리 대표님은 성격이 너무 좋으셔서 전 직원들이 다 좋아하는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대표/NNG+님/XSN+은/JX+모든/MM+사원/NNG+의/JKG+적/XSN+인/VCP+ETM+건가/NNB+VCP+EF+./SY+키/NNG+키/XSV+ETN+우리/NP+대표/NNG+님/XSN+은/JX+성격/NNG+이/JKS+너무/MAG+좋/VA+으셔서/EP+EC+전/MM+직원/NNG+들/XSN+이/JKS+다/MAG+좋/VA+아/EC+하/VV+는데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 우리 대표님은 좀 자기만의 세계가 강하달까... 맞추기가 너무 힘들어...",
+            "norm_text": "우리 대표님은 좀 자기만의 세계가 강하달까... 맞추기가 너무 힘들어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+대표/NNG+님/XSN+은/JX+좀/MAG+자기/NP+만/JX+의/JKG+세계/NNG+가/JKS+강하/VA+달까/EF+./SY+맞추/VV+기/ETN+가/JKS+너무/MAG+힘들/VA+어/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그러시구나... 뭐 어떤 일이 있었어?",
+            "norm_text": "아 그러시구나... 뭐 어떤 일이 있었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그러/VV+시/EP+구나/EF+./SY+뭐/IC+어떤/MM+일/NNG+이/JKS+있/VA+었/EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니 저번에 광복절이 일요일이어서 그 다음날이 대체 공휴일로 빨간 날이였단 말야?",
+            "norm_text": "아니 저번에 광복절이 일요일이어서 그 다음날이 대체 공휴일로 빨간 날이였단 말야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+저번/NNG+에/JKB+광복절/NNG+이/JKS+일요일/NNG+이/VCP+어서/EC+그/MM+다음/NNG+날/NNG+이/JKS+대체/MAG+공휴일/NNG+로/JKB+빨간/VA+ETM+날/NNG+이/VCP+였/EP+단/ETM+말/NNG+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응응 근데? 벌써 흥미진진하구먼~!",
+            "norm_text": "응응 근데? 벌써 흥미진진하구먼~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "응/IC+응/IC+근데/MAJ+벌써/MAG+흥미진진/XR+하/XSA+구먼/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 빨간 날이니까 당연히 쉬는 줄 알았는데 아니라고 우리 회사는 출근해야 된다고...",
+            "norm_text": "빨간 날이니까 당연히 쉬는 줄 알았는데 아니라고 우리 회사는 출근해야 된다고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "빨간/VA+ETM+날/NNG+이/VCP+니까/EC+당연히/MAG+쉬/VV+는/ETM+줄/NNB+알/VV+았/EP+는데/EC+아니/VCN+라고/EC+우리/NP+회사/NNG+는/JX+출근/NNG+해야/XSV+EC+된다고/VV+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 거래처고 은행이고 다 쉬는 날인데... 그렇게 말씀하시는 거지... 쉴 꺼면 연차 쓰고 쉬라고...",
+            "norm_text": "거래처고 은행이고 다 쉬는 날인데... 그렇게 말씀하시는 거지... 쉴 꺼면 연차 쓰고 쉬라고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거래처/NNG+고/VCP+EC+은행/NNG+이/VCP+고/EC+다/MAG+쉬/VV+는/ETM+날/NNG+인데/VCP+EC+./SY+./SY+그렇게/MAG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+지/VCP+EF+./SY+쉴/VV+ETM+꺼/NNB+VCP+면/EC+연차/MAG+쓰/VV+고/EC+쉬/VV+라고/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 어머... 빨간 날 쉬는 건 당연한 거 아닌가? 그래서 대체 공휴일인 건데...",
+            "norm_text": "어머... 빨간 날 쉬는 건 당연한 거 아닌가? 그래서 대체 공휴일인 건데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어머/IC+./SY+빨간/VA+ETM+날/NNG+쉬/VV+는/ETM+건/NNB+JX+당연/XR+한/XSA+ETM+거/NNB+아닌가/VCN+EF+그래서/MAJ+대체/MAG+공휴일/NNG+인/VCP+ETM+건데/NNB+VCP+EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그러니까... 그래서 그날 결국 출근했어...",
+            "norm_text": "그러니까... 그래서 그날 결국 출근했어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+./SY+그래서/MAJ+그날/NNG+결국/NNG+출근/NNG+했/XSV+EP+어/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 진짜? 헐... 힘들었겠다...ㅜ 대표도 잘 만나야 되네...",
+            "norm_text": "아 진짜? 헐... 힘들었겠다...ㅜ 대표도 잘 만나야 되네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+헐/IC+./SY+힘들/VA+었/EP+겠/EP+다/EF+./SY+ㅜ/UNKNOWN+대표/NNG+도/JX+잘/MAG+만나/VV+야/EC+되/VV+네/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응... 정말 이랬다저랬다여서... 많이 힘들어...",
+            "norm_text": "응... 정말 이랬다저랬다여서... 많이 힘들어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+정말/MAG+이랬다저랬다/VV+EP+EC+VV+EP+EC+여서/VCP+EC+./SY+./SY+많이/MAG+힘들/VA+어/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

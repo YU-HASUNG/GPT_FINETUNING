@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 35087,
+    "name": "KAKAO_740_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049031645/KAKAO_740_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135049031645/KAKAO_740_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37610,
+      "filename": "KAKAO_740_20.txt",
+      "title": "KAKAO_740_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 827,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 827,
+        "word_size": 256,
+        "text": "1 : 요즘 영화 볼 거 너무 없어 크루엘라 같은 거 또 나와라 얼른!\n2 : 너 마지막 영화가 혹시 크루엘라?\n2 : 아니 난 보고 싶은 건 있는데 극장 갈 사람이 없음 ㅠㅠ\n1 : 응응 일 년 넘게 영화관 안 가다 크루엘라가 그렇게 재밌대서 보러 갔었어 키키\n1 : 그리고 합정 정도까지만 오면 내가 같이 가 줄 수 있는데 ^^\n2 : 키키 합정 정도야 대입 끝나면 갈 수 있을 거 같음 근데 너 취향은 아닐 것 같아 키키\n1 : 어... 공포야? 아니면 슬레셔...? 아니면 드라마...? 다큐...?\n2 : 마블 영화라서... ^^ 그리고 해외 영화가 더 취향이 많아 가지고 키키\n1 : 아하 이번에 마블 영화 뭐 나왔던데!\n1 : 음... 뭐 세계관 전작이랑 연결만 아니면 볼 수 있어!\n2 : 아 진짜?그럼 나랑 상치와 텐링즈의 전설 보자\n2 : 이거는 이번에 새로 열린 세계관이라 연결되는 거 없음!\n1 : 오 이름이 뭔가 중국 느낌이다 상치 상치 그래 보자!\n2 : 앗싸 앗싸 마블 거라 오래 있다가 내릴 거 같음!\n2 : 그리고 동양권 배우들이 많이 나오는 거 맞어! 그래서 더 흑인이 블랙팬서 보는 느낌으로 보고 싶었어 키키\n1 : 이 진짜?혹시 박서준 나오는 마블도 저거야?\n2 : 아녀 아녀 그건 아님! 그건 뭐더라 나도 기사는 봤는데 제목이 생각 안 난다 마동석 나오는 것도 있었는데\n1 : 마동석도 마블 영화 찍었어? 대박 영화관에서 보면 신기하겠더\n2 : 그니까 거의 주연급이었는데 진짜 신기할 거 같음 한국 배우 더 세계로 유명해졌으면~\n1 : 그럼 한국어 쓰나? 영어 쓰나? 박서준 영어 잘하나? 마동석은 당연히 잘할 거고\n2 : 영어 베이스에 한국어 가끔 쓸 듯! 상치도 그랬거든!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 영화 볼 거 너무 없어 크루엘라 같은 거 또 나와라 얼른!",
+            "norm_text": "요즘 영화 볼 거 너무 없어 크루엘라 같은 거 또 나와라 얼른!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+영화/NNG+볼/VV+ETM+거/NNB+너무/MAG+없/VA+어/EC+크루/NNP+엘라/NNP+같/VA+은/ETM+거/NNB+또/MAG+나와라/VV+EC+얼른/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 너 마지막 영화가 혹시 크루엘라?",
+            "norm_text": "너 마지막 영화가 혹시 크루엘라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+마지막/NNG+영화/NNG+가/JKS+혹시/MAG+크루/NNP+엘라/NNP"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아니 난 보고 싶은 건 있는데 극장 갈 사람이 없음 ㅠㅠ",
+            "norm_text": "아니 난 보고 싶은 건 있는데 극장 갈 사람이 없음 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+난/NP+JX+보/VV+고/EC+싶/VX+은/ETM+건/NNB+JX+있/VA+는데/EC+극장/NNG+갈/VV+ETM+사람/NNG+이/JKS+없/VA+음/ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응응 일 년 넘게 영화관 안 가다 크루엘라가 그렇게 재밌대서 보러 갔었어 키키",
+            "norm_text": "응응 일 년 넘게 영화관 안 가다 크루엘라가 그렇게 재밌대서 보러 갔었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+일/NR+년/NNBC+넘/VV+게/EC+영화관/NNG+안/MAG+가/VV+다/EC+크루/NNP+엘라/NNP+가/JKS+그렇게/MAG+재밌/VA+대서/EC+보/VX+러/EC+갔었/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그리고 합정 정도까지만 오면 내가 같이 가 줄 수 있는데 ^^",
+            "norm_text": "그리고 합정 정도까지만 오면 내가 같이 가 줄 수 있는데 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+합정/NNP+정도/NNG+까지/JX+만/JX+오/VV+면/EC+내/NP+가/JKS+같이/MAG+가/VV+EC+줄/VX+ETM+수/NNB+있/VV+는데/EC+^/SY+^/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 합정 정도야 대입 끝나면 갈 수 있을 거 같음 근데 너 취향은 아닐 것 같아 키키",
+            "norm_text": "키키 합정 정도야 대입 끝나면 갈 수 있을 거 같음 근데 너 취향은 아닐 것 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+합정/NNP+정도/NNG+야/VCP+EF+대입/NNG+끝/NNG+나/VV+면/EC+갈/VX+ETM+수/NNB+있/VV+을/ETM+거/NNB+같/VA+음/ETN+근데/MAJ+너/NP+취향/NNG+은/JX+아닐/VCN+ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어... 공포야? 아니면 슬레셔...? 아니면 드라마...? 다큐...?",
+            "norm_text": "어... 공포야? 아니면 슬레셔...? 아니면 드라마...? 다큐...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+./SY+공포/NNG+야/VCP+EF+아니/VCN+면/EC+슬/VV+ETM+레셔/NNP+./SY+./SY+아니면/MAJ+드라마/NNG+./SY+./SY+다큐/NNG+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 마블 영화라서... ^^ 그리고 해외 영화가 더 취향이 많아 가지고 키키",
+            "norm_text": "마블 영화라서... ^^ 그리고 해외 영화가 더 취향이 많아 가지고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마블/NNG+영화/NNG+라서/VCP+EC+./SY+./SY+^/SY+^/SY+그리고/MAJ+해외/NNG+영화/NNG+가/JKS+더/MAG+취향/NNG+이/JKS+많/VA+아/EC+가지/VX+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아하 이번에 마블 영화 뭐 나왔던데!",
+            "norm_text": "아하 이번에 마블 영화 뭐 나왔던데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+이번/NNG+에/JKB+마블/NNG+영화/NNG+뭐/IC+나왔/VV+EP+던데/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 음... 뭐 세계관 전작이랑 연결만 아니면 볼 수 있어!",
+            "norm_text": "음... 뭐 세계관 전작이랑 연결만 아니면 볼 수 있어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+뭐/IC+세계관/NNG+전작/NNG+이랑/JKB+연결/NNG+만/JX+아니/VCN+면/EC+볼/VX+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아 진짜?그럼 나랑 상치와 텐링즈의 전설 보자",
+            "norm_text": "아 진짜?그럼 나랑 상치와 텐링즈의 전설 보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아/IC+진짜/MAG+그럼/MAJ+나/NP+랑/JKB+상치/NNG+와/JC+텐/NNG+링/JKO+즈/NP+의/JKG+전설/NNG+보/VV+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 이거는 이번에 새로 열린 세계관이라 연결되는 거 없음!",
+            "norm_text": "이거는 이번에 새로 열린 세계관이라 연결되는 거 없음!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이거/NP+는/JX+이번/NNG+에/JKB+새로/MAG+열린/VV+ETM+세계관/NNG+이/VCP+라/EC+연결/NNG+되/XSV+는/ETM+거/NNB+없/VA+음/ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오 이름이 뭔가 중국 느낌이다 상치 상치 그래 보자!",
+            "norm_text": "오 이름이 뭔가 중국 느낌이다 상치 상치 그래 보자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+이름/NNG+이/JKS+뭔가/NP+VCP+EC+중국/NNP+느낌/NNG+이/JKS+다/MAG+상치/NNG+상치/NNG+그래/VA+EC+보/VX+자/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 앗싸 앗싸 마블 거라 오래 있다가 내릴 거 같음!",
+            "norm_text": "앗싸 앗싸 마블 거라 오래 있다가 내릴 거 같음!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앗싸/IC+앗싸/IC+마블/NNP+거/NNB+라/VCP+EC+오래/MAG+있/VV+다가/EC+내릴/VV+ETM+거/NNB+같/VA+음/ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그리고 동양권 배우들이 많이 나오는 거 맞어! 그래서 더 흑인이 블랙팬서 보는 느낌으로 보고 싶었어 키키",
+            "norm_text": "그리고 동양권 배우들이 많이 나오는 거 맞어! 그래서 더 흑인이 블랙팬서 보는 느낌으로 보고 싶었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+동양/NNG+권/XSN+배우/NNG+들/XSN+이/JKS+많이/MAG+나오/VV+는/ETM+거/NNB+맞/VV+어/EF+그래서/MAJ+더/MAG+흑인/NNG+이/JKS+블랙/NNG+팬/NNG+서/JKB+보/VV+는/ETM+느낌/NNG+으로/JKB+보/VV+고/EC+싶/VX+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 이 진짜?혹시 박서준 나오는 마블도 저거야?",
+            "norm_text": "이 진짜?혹시 박서준 나오는 마블도 저거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이/MM+진짜/MAG+혹시/MAG+박/VV+서/EC+준/VX+ETM+나오/VV+는/ETM+마블/NNG+도/JX+저거/NP+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아녀 아녀 그건 아님! 그건 뭐더라 나도 기사는 봤는데 제목이 생각 안 난다 마동석 나오는 것도 있었는데",
+            "norm_text": "아녀 아녀 그건 아님! 그건 뭐더라 나도 기사는 봤는데 제목이 생각 안 난다 마동석 나오는 것도 있었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아녀/VCN+EC+아녀/VCN+EC+그건/NP+JX+아님/VCN+ETN+그건/NP+JX+뭐/NP+더라/VCP+EF+나/NP+도/JX+기사/NNG+는/JX+봤/VV+EP+는데/EC+제목/NNG+이/JKS+생각/NNG+안/MAG+난/VV+ETM+다마/NNG+동석/NNG+나오/VV+는/ETM+것/NNB+도/JX+있/VA+었/EP+는데/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 마동석도 마블 영화 찍었어? 대박 영화관에서 보면 신기하겠더",
+            "norm_text": "마동석도 마블 영화 찍었어? 대박 영화관에서 보면 신기하겠더",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마동석/NNP+도/JX+마블/NNG+영화/NNG+찍/VV+었/EP+어/EF+대박/NNG+영화관/NNG+에서/JKB+보/VV+면/EC+신기/XR+하/XSA+겠/EP+더/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그니까 거의 주연급이었는데 진짜 신기할 거 같음 한국 배우 더 세계로 유명해졌으면~",
+            "norm_text": "그니까 거의 주연급이었는데 진짜 신기할 거 같음 한국 배우 더 세계로 유명해졌으면~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+거의/MAG+주연/NNG+급/NNG+이/VCP+었/EP+는데/EC+진짜/MAG+신기/XR+할/XSA+ETM+거/NNB+같/VA+음/EC+한국/NNP+배우/NNG+더/MAG+세계/NNG+로/JKB+유명/NNG+해졌으면/XSA+EC+VX+EP+EC+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그럼 한국어 쓰나? 영어 쓰나? 박서준 영어 잘하나? 마동석은 당연히 잘할 거고",
+            "norm_text": "그럼 한국어 쓰나? 영어 쓰나? 박서준 영어 잘하나? 마동석은 당연히 잘할 거고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+한국어/NNG+쓰/VV+나/EF+영어/NNG+쓰/VV+나/EF+박/VV+서/EC+준/VX+ETM+영어/NNG+잘/MAG+하나/NR+마동석/NNP+은/JX+당연히/MAG+잘/MAG+할거/XSA+ETM+NNB+VCP+고/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 영어 베이스에 한국어 가끔 쓸 듯! 상치도 그랬거든!",
+            "norm_text": "영어 베이스에 한국어 가끔 쓸 듯! 상치도 그랬거든!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영어/NNG+베이스/NNG+에/JKB+한국어/NNG+가끔/MAG+쓸/VV+ETM+듯/NNB+상치/NNG+도/JX+그랬/VV+EP+거든/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

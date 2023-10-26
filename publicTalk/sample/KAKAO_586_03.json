@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 31277,
+    "name": "KAKAO_586_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143614061022/KAKAO_586_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923143614061022/KAKAO_586_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30716,
+      "filename": "KAKAO_586_03.txt",
+      "title": "KAKAO_586_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 413,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 413,
+        "word_size": 136,
+        "text": "1 : 동생 차 사려는데 어떤 게 괜찮냐?\n2 : 동생이면 미니suv가 괜찮을 거 같은데...\n1 : 안 그래도 그거 중에 보고 있거든\n2 : 소형은 혹시 사고 나면 너무 위험해 보여 가지고...\n1 : 응 세단이나 suv보는데 고민 되네\n2 : 대형까진 필요 없고 소형이면 될 거 같아\n1 : 셀토스랑 트레일 블레이져 고민 중 키키\n2 : 여동생이면 셀토스가 잘 어울리긴 함 키키\n1 : 흠 셀토스의 장점은 뭐냐?\n2 : 현기차의 유지 보수 용이성, 경제성, 옵션 장점 정도 ?\n1 : 그럼 쉐보레 장점은 뭐 있어?\n2 : 쉐보레의 단단함, 디자인, 크기 정도 일까?\n1 : 흠... 괜히 더 고민 되는 건 기분 탓 인가 키키\n2 : 잘 고민 해보고 사 첫 차니깐\n1 : 응 그래야지 중고차 보러 갈 때 같이 가자\n2 : 그래 키키 나도 잘은 모르지만 같이 가보자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 동생 차 사려는데 어떤 게 괜찮냐?",
+            "norm_text": "동생 차 사려는데 어떤 게 괜찮냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동생/NNG+차/NNG+사/VV+려는데/EC+어떤/MM+게/NNB+JKS+괜찮/VA+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 동생이면 미니suv가 괜찮을 거 같은데...",
+            "norm_text": "동생이면 미니suv가 괜찮을 거 같은데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+이/VCP+면/EC+미니/NNG+suv/SL+가/JKS+괜찮/VA+을/ETM+거/NNB+같/VA+은데/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 안 그래도 그거 중에 보고 있거든",
+            "norm_text": "안 그래도 그거 중에 보고 있거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+그거/NP+중/NNB+에/JKB+보/VV+고/EC+있/VX+거든/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 소형은 혹시 사고 나면 너무 위험해 보여 가지고...",
+            "norm_text": "소형은 혹시 사고 나면 너무 위험해 보여 가지고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "소형/NNG+은/JX+혹시/MAG+사/VV+고/EC+나/VX+면/EC+너무/MAG+위험/NNG+해/XSV+EC+보여/VV+EC+가지/VX+고/EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 세단이나 suv보는데 고민 되네",
+            "norm_text": "응 세단이나 suv보는데 고민 되네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+세단/NNG+이나/JC+suv/SL+보/VV+는데/EC+고민/NNG+되/XSV+네/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 대형까진 필요 없고 소형이면 될 거 같아",
+            "norm_text": "대형까진 필요 없고 소형이면 될 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대형/NNG+까진/JX+VCP+ETM+필요/NNG+없/VA+고/EC+소형/NNG+이/VCP+면/EC+될/VV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 셀토스랑 트레일 블레이져 고민 중 키키",
+            "norm_text": "셀토스랑 트레일 블레이져 고민 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "셀/VA+ETM+토스/NNG+랑/JC+트레일/NNP+블레/NNP+이/VCP+져/EC+VX+EC+고민/NNG+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 여동생이면 셀토스가 잘 어울리긴 함 키키",
+            "norm_text": "여동생이면 셀토스가 잘 어울리긴 함 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여동생/NNG+이/VCP+면/EC+셀/VV+ETM+토스/NNG+가/JKS+잘/MAG+어울리/VV+긴/ETN+JX+함/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 흠 셀토스의 장점은 뭐냐?",
+            "norm_text": "흠 셀토스의 장점은 뭐냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "흠/IC+셀/VV+ETM+토스/NNG+의/JKG+장점/NNG+은/JX+뭐/NP+냐/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 현기차의 유지 보수 용이성, 경제성, 옵션 장점 정도 ?",
+            "norm_text": "현기차의 유지 보수 용이성, 경제성, 옵션 장점 정도 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "현/MM+기차/NNG+의/JKG+유지/NNG+보수/NNG+용이성/NNG+,/SC+경제/NNG+성/XSN+,/SC+옵션/NNG+장점/NNG+정도/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 쉐보레 장점은 뭐 있어?",
+            "norm_text": "그럼 쉐보레 장점은 뭐 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+쉐보레/NNP+장점/NNG+은/JX+뭐/IC+있/VA+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 쉐보레의 단단함, 디자인, 크기 정도 일까?",
+            "norm_text": "쉐보레의 단단함, 디자인, 크기 정도 일까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "쉐보레/NNP+의/JKG+단단/XR+함/XSA+ETN+,/SC+디자인/NNG+,/SC+크기/NNG+정도/NNG+일까/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 흠... 괜히 더 고민 되는 건 기분 탓 인가 키키",
+            "norm_text": "흠... 괜히 더 고민 되는 건 기분 탓 인가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흠/IC+./SY+괜히/MAG+더/MAG+고민/NNG+되/XSV+는/ETM+건/NNB+JX+기분/NNG+탓/NNG+인가/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 잘 고민 해보고 사 첫 차니깐",
+            "norm_text": "잘 고민 해보고 사 첫 차니깐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+고민/NNG+해/XSV+EC+보/VX+고/EC+사/VV+EC+첫차/NNG+니깐/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 그래야지 중고차 보러 갈 때 같이 가자",
+            "norm_text": "응 그래야지 중고차 보러 갈 때 같이 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래야지/VV+EC+중고차/NNG+보/VV+러/EC+갈/VX+ETM+때/NNG+같이/JKB+가/VV+자/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 키키 나도 잘은 모르지만 같이 가보자",
+            "norm_text": "그래 키키 나도 잘은 모르지만 같이 가보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+키/NNG+키나/XSA+ETN+JX+도/JX+잘/MAG+은/JX+모르/VV+지만/EC+같이/MAG+가/VV+EC+보/VX+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

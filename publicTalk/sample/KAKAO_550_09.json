@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 23914,
+    "name": "KAKAO_550_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934036219/KAKAO_550_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934036219/KAKAO_550_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30000,
+      "filename": "KAKAO_550_09.txt",
+      "title": "KAKAO_550_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 534,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 534,
+        "word_size": 164,
+        "text": "1 : 지금은 강아지나 열심히 키워야지 하하\n2 : 키키 그래 지금은 열심히 키우는 것도 좋지\n1 : 강아지랑 연애하는 기분이다 키키 싸우고 달래 주고 놀러 가고\n2 : 키키 악 키키 웃겨 키키 연애는 그런 거니...?\n1 : 그런 거 같던데 다들? 키키 밥 먹고 영화 보고 산책하고... 그런 거 아니겠니?\n2 : 키키 그래...? 슬픈데? 연애를 강아지랑 하고 있네...?\n1 : 갑자기 드는 생각인데 고양이는 산책 같은 걸 못 해서 심심하겠다...\n2 : 근데 고양이는 정적인 걸 좋아하니 괜찮지 않을까?\n1 : 길고양이들은 혼자 동네 마실 다니잖아\n2 : 그건 글치? 근데 집에서 장난감 갖고 놀고 하면 되지 않을까?\n1 : 흠... 집에서 막 같이 안 놀아 줘도 되는가?\n2 : 근데 약간 활동량이 달라서 괜찮지 않을까?\n1 : 키키 그런가? 키키 나 공원 가서 고양이 산책시키는 사람 봤었는데\n2 : 그런 사람도 있긴 하더라 키키 냥바냥\n1 : 하네스 차고 걸어가고 있었어 키키 웃겨 정말 키키\n2 : 키키 맞아 키키 근데 난 실제로 하는 건 못 봤어 키키 졸귀겠다 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 지금은 강아지나 열심히 키워야지 하하",
+            "norm_text": "지금은 강아지나 열심히 키워야지 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+은/JX+강아지/NNG+나/JX+열심히/MAG+키워야/VV+EC+지하/NNG+하/XSV"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 그래 지금은 열심히 키우는 것도 좋지",
+            "norm_text": "키키 그래 지금은 열심히 키우는 것도 좋지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/IC+지금/MAG+은/JX+열심히/MAG+키우/VV+는/ETM+것/NNB+도/JX+좋/VA+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 강아지랑 연애하는 기분이다 키키 싸우고 달래 주고 놀러 가고",
+            "norm_text": "강아지랑 연애하는 기분이다 키키 싸우고 달래 주고 놀러 가고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강아지/NNG+랑/JKB+연애/NNG+하/XSV+는/ETM+기분/NNG+이/JKS+다키키/NNP+싸우/VV+고/EC+달래/VV+EC+주/VX+고/EC+놀/VV+러/EC+가/VX+고/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 악 키키 웃겨 키키 연애는 그런 거니...?",
+            "norm_text": "키키 악 키키 웃겨 키키 연애는 그런 거니...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+악/XPN+키/NNG+키/XSV+ETN+웃겨/VV+EC+키/NNG+키/NNG+연애/NNG+는/JX+그런/MM+거/NNB+니/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런 거 같던데 다들? 키키 밥 먹고 영화 보고 산책하고... 그런 거 아니겠니?",
+            "norm_text": "그런 거 같던데 다들? 키키 밥 먹고 영화 보고 산책하고... 그런 거 아니겠니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런/MM+거/NNB+같/VA+던데/EC+다/MAG+들/XSN+키/NNG+키/NNG+밥/NNG+먹/VV+고/EC+영화/NNG+보고/JKB+산책/NNG+하/XSV+고/EC+./SY+./SY+그런/MM+거/NNB+아니/VCN+겠/EP+니/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 그래...? 슬픈데? 연애를 강아지랑 하고 있네...?",
+            "norm_text": "키키 그래...? 슬픈데? 연애를 강아지랑 하고 있네...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VV+EF+./SY+./SY+슬픈데/VA+EC+?/SY+연애/NNG+를/JKO+강아지/NNG+랑/JKB+하/VV+고/EC+있/VX+네/EF+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 갑자기 드는 생각인데 고양이는 산책 같은 걸 못 해서 심심하겠다...",
+            "norm_text": "갑자기 드는 생각인데 고양이는 산책 같은 걸 못 해서 심심하겠다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "갑자기/MAG+드/VV+는/ETM+생각/NNG+인데/VCP+EC+고양이/NNG+는/JX+산책/NNG+같/VA+은/ETM+걸/NNB+JKO+못/MAG+해서/VV+EC+심심/XR+하/XSA+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 고양이는 정적인 걸 좋아하니 괜찮지 않을까?",
+            "norm_text": "근데 고양이는 정적인 걸 좋아하니 괜찮지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+고양이/NNG+는/JX+정적/NNG+인/VCP+ETM+걸/NNB+JKO+좋/VA+아/EC+하/VV+니/EC+괜찮/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 길고양이들은 혼자 동네 마실 다니잖아",
+            "norm_text": "길고양이들은 혼자 동네 마실 다니잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "길/NNG+고양이/NNG+들/XSN+은/JX+혼자/NNG+동네/NNG+마실/NNG+다니/VV+잖아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그건 글치? 근데 집에서 장난감 갖고 놀고 하면 되지 않을까?",
+            "norm_text": "그건 글치? 근데 집에서 장난감 갖고 놀고 하면 되지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+글/NNG+치/XSN+근데/MAJ+집/NNG+에서/JKB+장난감/NNG+갖/VV+고/EC+놀/VV+고/EC+하/VV+면/EC+되/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 흠... 집에서 막 같이 안 놀아 줘도 되는가?",
+            "norm_text": "흠... 집에서 막 같이 안 놀아 줘도 되는가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "흠/IC+./SY+집/NNG+에서/JKB+막/IC+같이/MAG+안/MAG+놀/VV+아/EC+줘도/VX+EC+되/VV+는가/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 약간 활동량이 달라서 괜찮지 않을까?",
+            "norm_text": "근데 약간 활동량이 달라서 괜찮지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+약간/MAG+활동/NNG+량/NNG+이/JKS+달라서/VA+EC+괜찮/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 그런가? 키키 나 공원 가서 고양이 산책시키는 사람 봤었는데",
+            "norm_text": "키키 그런가? 키키 나 공원 가서 고양이 산책시키는 사람 봤었는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그런가/VA+EF+키/NNG+키나/XSA+ETN+JX+공원/NNG+가/VV+서/EC+고양이/NNG+산책/NNG+시키/XSV+는/ETM+사람/NNG+봤었/VV+EP+는데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그런 사람도 있긴 하더라 키키 냥바냥",
+            "norm_text": "그런 사람도 있긴 하더라 키키 냥바냥",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+사람/NNG+도/JX+있/VX+긴/ETN+JX+하/VX+더라/EC+키/NNG+키/XSV+ETN+냥바/UNKNOWN+냥/NNBC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 하네스 차고 걸어가고 있었어 키키 웃겨 정말 키키",
+            "norm_text": "하네스 차고 걸어가고 있었어 키키 웃겨 정말 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하네스/NNP+차/VV+고/EC+걸어가/VV+고/EC+있/VX+었/EP+어/EC+키/NNG+키/XSV+ETN+웃겨/VV+EF+정말/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 맞아 키키 근데 난 실제로 하는 건 못 봤어 키키 졸귀겠다 ㅠㅠ",
+            "norm_text": "키키 맞아 키키 근데 난 실제로 하는 건 못 봤어 키키 졸귀겠다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+키/NNG+키/XSV+ETN+근데/MAJ+난/NP+JX+실제로/MAG+하/VV+는/ETM+건/NNB+JX+못/MAG+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN+졸/VA+ETM+귀/NNG+겠/VCP+EP+다/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

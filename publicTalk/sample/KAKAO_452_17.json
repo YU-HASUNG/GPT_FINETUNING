@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 20183,
+    "name": "KAKAO_452_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916134443037415/KAKAO_452_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916134443037415/KAKAO_452_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27687,
+      "filename": "KAKAO_452_17.txt",
+      "title": "KAKAO_452_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 403,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 403,
+        "word_size": 136,
+        "text": "1 : 치료 받거나 수술 받은 곳은 없지?\n2 : 척추측만증으로 치료 받은 적은 있지\n1 : 그건 이제 괜찮아? 그때 실비 보험 많이 타 먹었지?\n2 : 그때 거의 다 타 먹었을걸 키키\n1 : 니가 제일 많이 탔을 거다 키키\n2 : 맞아 키키 띵주는 타 먹을 줄도 모르던데\n1 : 띵주는 왜 그래 타 먹을 거 있으면 아빠한테 말하라고 해\n2 : 키키 아빠한테 말해도 아빠 안 해 주잖아\n1 : 아빠가 다 해주지 척척박사야\n2 : 앙? 아빠 척척박사야? 키키\n1 : 그럼 이제 알았어? 아빠는 못하는 게 없어\n2 : 어 이제 띵주 아빠한테 다 물어 보라고 해야겠네\n1 : 그래 아빠한테 싹 다 물어보라고 해\n2 : 아 근데 요즘은 아빠가 띵주한테 더 많이 물어보던데...\n1 : 아니야 그럴 리가 아빠는 다 아는 걸?\n2 : 진짜? 확실한 거야 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 치료 받거나 수술 받은 곳은 없지?",
+            "norm_text": "치료 받거나 수술 받은 곳은 없지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "치료/NNG+받/VV+거나/EC+수술/NNG+받/VV+은/ETM+곳/NNG+은/JX+없/VA+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 척추측만증으로 치료 받은 적은 있지",
+            "norm_text": "척추측만증으로 치료 받은 적은 있지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "척추측만증/NNP+으로/JKB+치료/NNG+받/VV+은/ETM+적/NNB+은/JX+있/VA+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그건 이제 괜찮아? 그때 실비 보험 많이 타 먹었지?",
+            "norm_text": "그건 이제 괜찮아? 그때 실비 보험 많이 타 먹었지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+이제/MAG+괜찮/VA+아/EF+그때/NNG+실비/NNG+보험/NNG+많이/MAG+타/VV+EC+먹/VV+었/EP+지/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그때 거의 다 타 먹었을걸 키키",
+            "norm_text": "그때 거의 다 타 먹었을걸 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그때/NNG+거의/MAG+다/MAG+타/VV+EC+먹/VV+었/EP+을/ETM+걸/NNB+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 니가 제일 많이 탔을 거다 키키",
+            "norm_text": "니가 제일 많이 탔을 거다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "니/NP+가/JKS+제일/MAG+많이/MAG+탔/VV+EP+을/ETM+거/NNB+다키키/NNP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 키키 띵주는 타 먹을 줄도 모르던데",
+            "norm_text": "맞아 키키 띵주는 타 먹을 줄도 모르던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+띵/MAG+주/VV+는/ETM+타/NNG+먹/VV+을/ETM+줄/NNB+도/JX+모르/VV+던데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 띵주는 왜 그래 타 먹을 거 있으면 아빠한테 말하라고 해",
+            "norm_text": "띵주는 왜 그래 타 먹을 거 있으면 아빠한테 말하라고 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "띵/MAG+주/VV+는/ETM+왜/MAG+그래/VA+EC+타/VV+EC+먹/VV+을/ETM+거/NNB+있/VA+으면/EC+아빠/NNG+한테/JKB+말/NNG+하/XSV+라고/EC+해/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 아빠한테 말해도 아빠 안 해 주잖아",
+            "norm_text": "키키 아빠한테 말해도 아빠 안 해 주잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+아빠/NNG+한테/JKB+말/NNG+해도/XSV+EC+아빠/NNG+안/MAG+해/VV+EC+주/VX+잖아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아빠가 다 해주지 척척박사야",
+            "norm_text": "아빠가 다 해주지 척척박사야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+가/JKS+다/MAG+해/VV+EC+주/VX+지/EC+척척박사/NNG+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 앙? 아빠 척척박사야? 키키",
+            "norm_text": "앙? 아빠 척척박사야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "앙/IC+아빠/NNG+척척박사/NNG+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럼 이제 알았어? 아빠는 못하는 게 없어",
+            "norm_text": "그럼 이제 알았어? 아빠는 못하는 게 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+이제/MAG+알/VV+았/EP+어/EF+아빠/NNG+는/JX+못/MAG+하/VV+는/ETM+게/NNB+JKS+없/VA+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어 이제 띵주 아빠한테 다 물어 보라고 해야겠네",
+            "norm_text": "어 이제 띵주 아빠한테 다 물어 보라고 해야겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+이제/MAG+띵/MAG+주/NNG+아빠/NNG+한테/JKB+다물/VV+어/EC+보/VX+라고/EC+해야겠네/VV+EC+VX+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래 아빠한테 싹 다 물어보라고 해",
+            "norm_text": "그래 아빠한테 싹 다 물어보라고 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래/IC+아빠/NNG+한테/JKB+싹/MAG+다물/VV+어/EC+보/VX+라고/EC+해/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아 근데 요즘은 아빠가 띵주한테 더 많이 물어보던데...",
+            "norm_text": "아 근데 요즘은 아빠가 띵주한테 더 많이 물어보던데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+근데/MAJ+요즘/NNG+은/JX+아빠/NNG+가/JKS+띵/MAG+주/NNG+한테/JKB+더/MAG+많이/MAG+물/VV+어/EC+보/VX+던데/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아니야 그럴 리가 아빠는 다 아는 걸?",
+            "norm_text": "아니야 그럴 리가 아빠는 다 아는 걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니야/IC+그럴/VA+ETM+리/NNB+가/JKS+아빠/NNG+는/JX+다/MAG+아/VV+는/ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 16,
+            "text": "2 : 진짜? 확실한 거야 키키",
+            "norm_text": "진짜? 확실한 거야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+확실/XR+한/XSA+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

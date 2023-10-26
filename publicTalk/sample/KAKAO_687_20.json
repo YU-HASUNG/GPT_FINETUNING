@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 66987,
+    "name": "KAKAO_687_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112424063276/KAKAO_687_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112424063276/KAKAO_687_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35079,
+      "filename": "KAKAO_687_20.txt",
+      "title": "KAKAO_687_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 527,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 527,
+        "word_size": 165,
+        "text": "1 : 너는 영화 배우 누구 제일 좋아해?\n2 : 나는 ** 좋아해! 웃는 게 너무 예뻐\n1 : **? 누구야? 남자야? 나 연예인 진짜 몰라\n2 : 응응 알고 있지만 좋아하면 울리면 나오는 남자 배우인데 분위기도 있고 잘 생겼어 키키\n1 : 아... 키키 이런 스타일의 남자를 좋아하는구나?\n2 : 응 현실에는 없지...\n2 : 지인이라도 됐으면 좋겠다... 키키\n1 : 연기도 잘해? 키키 배우는 연기를 잘해야지\n2 : 연기도 잘해 키키\n2 : 발음이 조금 문제긴 하지만 감정선이 좋아 키키\n1 : 근데 친구야... 외모 안 본다고 하지 않았니... 키키\n2 : 배우는 봐야지 키키\n2 : 여기로 눈 호강을 해야지 키키\n1 : 키키 나 지금 찾아봤는데 키키 훈훈하게 생겼네\n2 : 완전 훈훈하지 키키\n2 : 커피차도 보낼 뻔했어 키키\n1 : 내 친구는 ** 좋아하던데 너도 좋아해?\n2 : **도 좋지! **는 나이가 들수록 더 멋있어지는 거 같아!\n1 : 키키 그러게 **는 진짜 아예 안 늙나 봐 키키\n2 : 그러니까 커피프린스 그대로야!\n2 : 여전히 멋진 스타일 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 영화 배우 누구 제일 좋아해?",
+            "norm_text": "너는 영화 배우 누구 제일 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+영화배우/NNG+누구/NP+제일/MAG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 ** 좋아해! 웃는 게 너무 예뻐",
+            "norm_text": "나는 ** 좋아해! 웃는 게 너무 예뻐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+*/SY+*/SY+좋/VA+아/EC+해/VX+EF+웃/VV+는/ETM+게/NNB+JKS+너무/MAG+예뻐/VA+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : **? 누구야? 남자야? 나 연예인 진짜 몰라",
+            "norm_text": "**? 누구야? 남자야? 나 연예인 진짜 몰라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "*/SY+*/SY+누구/NP+야/VCP+EF+남자/NNG+야/VCP+EF+나/NP+연예인/NNG+진짜/MAG+몰라/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 알고 있지만 좋아하면 울리면 나오는 남자 배우인데 분위기도 있고 잘 생겼어 키키",
+            "norm_text": "응응 알고 있지만 좋아하면 울리면 나오는 남자 배우인데 분위기도 있고 잘 생겼어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+알/VV+고/EC+있/VX+지만/EC+좋/VA+아/EC+하/VV+면/EC+울리/VV+면/EC+나오/VV+는/ETM+남자/NNG+배우/NNG+인데/VCP+EC+분위기/NNG+도/JX+있/VA+고/EC+잘/MAG+생겼/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아... 키키 이런 스타일의 남자를 좋아하는구나?",
+            "norm_text": "아... 키키 이런 스타일의 남자를 좋아하는구나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+./SY+키키/NNP+이런/MM+스타일/NNG+의/JKG+남자/NNG+를/JKO+좋아하/VV+는구나/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 현실에는 없지...",
+            "norm_text": "응 현실에는 없지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+현실/NNG+에/JKB+는/JX+없/VA+지/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 지인이라도 됐으면 좋겠다... 키키",
+            "norm_text": "지인이라도 됐으면 좋겠다... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지인/NNG+이/VCP+라도/EC+됐/VV+EP+으면/EC+좋/VA+겠/EP+다/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 연기도 잘해? 키키 배우는 연기를 잘해야지",
+            "norm_text": "연기도 잘해? 키키 배우는 연기를 잘해야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연기/NNG+도/JX+잘/MAG+해/VV+EF+키/NNG+키/XSV+ETN+배우/VV+는/ETM+연기/NNG+를/JKO+잘/MAG+해야지/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 연기도 잘해 키키",
+            "norm_text": "연기도 잘해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연기/NNG+도/JX+잘/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 발음이 조금 문제긴 하지만 감정선이 좋아 키키",
+            "norm_text": "발음이 조금 문제긴 하지만 감정선이 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "발음/NNG+이/JKS+조금/MAG+문제/NNG+긴/VCP+ETN+JX+하/VX+지만/EC+감정선/NNG+이/JKS+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 친구야... 외모 안 본다고 하지 않았니... 키키",
+            "norm_text": "근데 친구야... 외모 안 본다고 하지 않았니... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+친구/NNG+야/VCP+EF+./SY+외모/NNG+안/MAG+본다고/VV+EC+하/VV+지/EC+않/VX+았/EP+니/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 배우는 봐야지 키키",
+            "norm_text": "배우는 봐야지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "배우/NNG+는/JX+봐야지/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 여기로 눈 호강을 해야지 키키",
+            "norm_text": "여기로 눈 호강을 해야지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+로/JKB+눈/NNG+호강/NNG+을/JKO+해야지/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 나 지금 찾아봤는데 키키 훈훈하게 생겼네",
+            "norm_text": "키키 나 지금 찾아봤는데 키키 훈훈하게 생겼네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+지금/MAG+찾/VV+아/EC+봤/VX+EP+는데/EC+키/NNG+키/XSV+ETN+훈훈/XR+하/XSA+게/EC+생겼/VV+EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 완전 훈훈하지 키키",
+            "norm_text": "완전 훈훈하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전/MAG+훈훈/XR+하/XSA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 커피차도 보낼 뻔했어 키키",
+            "norm_text": "커피차도 보낼 뻔했어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "커피차/NNG+도/JX+보낼/VV+ETM+뻔/NNB+했/XSA+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 내 친구는 ** 좋아하던데 너도 좋아해?",
+            "norm_text": "내 친구는 ** 좋아하던데 너도 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내/NP+JKG+친구/NNG+는/JX+*/SY+*/SY+좋/VA+아/EC+하/VV+던데/EC+너/NP+도/JX+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : **도 좋지! **는 나이가 들수록 더 멋있어지는 거 같아!",
+            "norm_text": "**도 좋지! **는 나이가 들수록 더 멋있어지는 거 같아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "*/SY+*/SY+도/JX+좋/VA+지/EF+*/SY+*/SY+는/JX+나이/NNG+가/JKS+들/VV+수록/EC+더/MAG+멋있/VA+어/EC+지/VX+는/ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 그러게 **는 진짜 아예 안 늙나 봐 키키",
+            "norm_text": "키키 그러게 **는 진짜 아예 안 늙나 봐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+게/EC+*/SY+*/SY+는/JX+진짜/MAG+아예/MAG+안/MAG+늙/VV+나/EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그러니까 커피프린스 그대로야!",
+            "norm_text": "그러니까 커피프린스 그대로야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+커피프린스/NNP+그대로/MAG+야/VCP+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 여전히 멋진 스타일 키키",
+            "norm_text": "여전히 멋진 스타일 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여전히/MAG+멋진/VA+ETM+스타일/NNG+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

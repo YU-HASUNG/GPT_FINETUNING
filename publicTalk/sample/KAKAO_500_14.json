@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22584,
+    "name": "KAKAO_500_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145827099438/KAKAO_500_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145827099438/KAKAO_500_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29225,
+      "filename": "KAKAO_500_14.txt",
+      "title": "KAKAO_500_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 665,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 665,
+        "word_size": 184,
+        "text": "1 : 아 맞다! 얼마 전에 선릉역 오토바이 사고 봤나?ㅜ\n2 : 아 ㅠㅠ 봤지... 인스타에 많이 뜨더라고... 근데 나 출퇴근 걸어 다니는 길이 거기야... 자꾸 상상하게 되더라구 ㅠ\n1 : 그니까... ㅜㅜ 아... 니 그 길로 출근하는 구나ㅜㅜ\n2 : 응 ㅠㅠ 소름이더라고... 나는 인스타에 봤는데 그 상황 설명이 너무 자세히 적혀있어서 ... 안타깝더라 ㅠㅠ\n1 : 아...ㅜㅜ 난 사고 상황은 잘 모르는데 누가 과실인데ㅜ\n2 : 신호가 바뀌는 시점이였는데 오토바이가 자기가 더 빨리 갈 수 있을 거라 생각하고 옆에서 들어온 거 같더라구...\n1 : 아... ㅜㅜ 진짜 오토바이... 위험하다... 정말 ㅜ\n2 : 내말이... 완전 덤프 트럭에 깔렸다하더라... ㅠㅠ 조심히 좀 타지 ㅠㅠ\n1 : 와... 진짜...ㅜㅜ 그 오토바이도 세워 놓고 추모? 하는 것 같던데\n2 : 아 진짜? 하...추모도 하는구나... ㅠㅠ 주변에 추모하러 간 사람 있어?\n1 : 아니 아니 나도 인스타?로 봤었어 무슨 오토바이 세워 놨던데\n2 : 아 대박... 키키... 오토바이인들 다 갔겠노\n1 : 아... 근데 덤프 트럭 기사는 무슨 일이고ㅜㅜ\n2 : 맞제 ... 그 사람은 솔직히 잘못 없는데...\n1 : 그니까... 트럭기사 트라우마도 장난 아니겠다ㅜ\n2 : 그럴 듯... 내라면 넘 충격적이라서 운전 못할 거 같애",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 맞다! 얼마 전에 선릉역 오토바이 사고 봤나?ㅜ",
+            "norm_text": "아 맞다! 얼마 전에 선릉역 오토바이 사고 봤나?ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+맞/VV+다/EF+얼마/NNG+전/NNG+에/JKB+선릉역/NNP+오토바이/NNG+사/VV+고/EC+봤/VX+EP+나/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아 ㅠㅠ 봤지... 인스타에 많이 뜨더라고... 근데 나 출퇴근 걸어 다니는 길이 거기야... 자꾸 상상하게 되더라구 ㅠ",
+            "norm_text": "아 ㅠㅠ 봤지... 인스타에 많이 뜨더라고... 근데 나 출퇴근 걸어 다니는 길이 거기야... 자꾸 상상하게 되더라구 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+ㅠㅠ/UNKNOWN+봤/VV+EP+지/EF+./SY+./SY+인/VCP+ETM+스타/NNG+에/JKB+많이/MAG+뜨/VV+더라고/EF+./SY+근데/MAJ+나/NP+출퇴근/NNG+걸어다니/VV+는/ETM+길/NNG+이/JKS+거기/NP+야/VCP+EF+./SY+자꾸/MAG+상상/NNG+하/XSV+게/EC+되/VV+더라구/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그니까... ㅜㅜ 아... 니 그 길로 출근하는 구나ㅜㅜ",
+            "norm_text": "그니까... ㅜㅜ 아... 니 그 길로 출근하는 구나ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+ㅜㅜ아/UNKNOWN+./SY+니/NP+그길로/MAG+출근/NNG+하/XSA+는구나/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 ㅠㅠ 소름이더라고... 나는 인스타에 봤는데 그 상황 설명이 너무 자세히 적혀있어서 ... 안타깝더라 ㅠㅠ",
+            "norm_text": "응 ㅠㅠ 소름이더라고... 나는 인스타에 봤는데 그 상황 설명이 너무 자세히 적혀있어서 ... 안타깝더라 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+ㅠㅠ/UNKNOWN+소름/NNG+이/VCP+더라고/EF+./SY+나/NP+는/JX+인/VCP+ETM+스타/NNG+에/JKB+봤/VV+EP+는데/EC+그/MM+상황/NNG+설명/NNG+이/JKS+너무/MAG+자세히/MAG+적혀/VV+EC+있/VX+어서/EC+./SY+./SY+안타깝더라ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아...ㅜㅜ 난 사고 상황은 잘 모르는데 누가 과실인데ㅜ",
+            "norm_text": "아...ㅜㅜ 난 사고 상황은 잘 모르는데 누가 과실인데ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+ㅜㅜ/UNKNOWN+난/NP+JX+사고/NNG+상황/NNG+은/JX+잘/MAG+모르/VV+는데/EC+누가/NP+JKS+과실/NNG+인데/VCP+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 신호가 바뀌는 시점이였는데 오토바이가 자기가 더 빨리 갈 수 있을 거라 생각하고 옆에서 들어온 거 같더라구...",
+            "norm_text": "신호가 바뀌는 시점이였는데 오토바이가 자기가 더 빨리 갈 수 있을 거라 생각하고 옆에서 들어온 거 같더라구...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "신호/NNG+가/JKS+바뀌/VV+는/ETM+시점/NNG+이/VCP+였/EP+는데/EC+오토바이/NNG+가/JKS+자기/NP+가/JKS+더/MAG+빨리/MAG+갈/VV+ETM+수/NNB+있/VV+을/ETM+거/NNB+라/VCP+EC+생각/NNG+하/XSV+고/EC+옆/NNG+에서/JKB+들어온/VV+ETM+거/NNB+같/VA+더라구/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아... ㅜㅜ 진짜 오토바이... 위험하다... 정말 ㅜ",
+            "norm_text": "아... ㅜㅜ 진짜 오토바이... 위험하다... 정말 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+./SY+ㅜㅜ진짜오토바이/UNKNOWN+./SY+위험/NNG+하/XSA+다/EF+./SY+정말/MAG+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 내말이... 완전 덤프 트럭에 깔렸다하더라... ㅠㅠ 조심히 좀 타지 ㅠㅠ",
+            "norm_text": "내말이... 완전 덤프 트럭에 깔렸다하더라... ㅠㅠ 조심히 좀 타지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+./SY+완전/MAG+덤프트럭/NNG+에/JKB+깔렸/VV+EP+다/EC+하/VX+더라/EF+./SY+ㅠㅠ/UNKNOWN+조심히/MAG+좀/MAG+타/VV+지/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 와... 진짜...ㅜㅜ 그 오토바이도 세워 놓고 추모? 하는 것 같던데",
+            "norm_text": "와... 진짜...ㅜㅜ 그 오토바이도 세워 놓고 추모? 하는 것 같던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+./SY+진짜/MAG+./SY+ㅜㅜ/UNKNOWN+그/MM+오토바이/NNG+도/JX+세워/VV+EC+놓/VX+고/EC+추모/NNG+하/VV+는/ETM+것/NNB+같/VA+던데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 진짜? 하...추모도 하는구나... ㅠㅠ 주변에 추모하러 간 사람 있어?",
+            "norm_text": "아 진짜? 하...추모도 하는구나... ㅠㅠ 주변에 추모하러 간 사람 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+하/IC+./SY+추모/NNG+도/JX+하/VV+는구나/EF+./SY+ㅠㅠ/UNKNOWN+주변/NNG+에/JKB+추모/NNG+하/XSV+러/EC+간/VV+ETM+사람/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아니 아니 나도 인스타?로 봤었어 무슨 오토바이 세워 놨던데",
+            "norm_text": "아니 아니 나도 인스타?로 봤었어 무슨 오토바이 세워 놨던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+아니/IC+나/NP+도/JX+인/VCP+ETM+스타/NNG+?/SY+로/JKB+봤었/VV+EP+어/EC+무슨/MM+오토바이/NNG+세워놨/VV+EC+VX+EP+던데/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 대박... 키키... 오토바이인들 다 갔겠노",
+            "norm_text": "아 대박... 키키... 오토바이인들 다 갔겠노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+대박/NNG+./SY+./SY+키/NNG+키/XSV+ETN+./SY+오토바이/NNG+인/XSN+들/XSN+다/MAG+갔/VV+EP+겠/EP+노/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아... 근데 덤프 트럭 기사는 무슨 일이고ㅜㅜ",
+            "norm_text": "아... 근데 덤프 트럭 기사는 무슨 일이고ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+근데/MAJ+덤프트럭/NNG+기사/NNG+는/JX+무슨/MM+일/NNG+이/VCP+고/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞제 ... 그 사람은 솔직히 잘못 없는데...",
+            "norm_text": "맞제 ... 그 사람은 솔직히 잘못 없는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+제/EF+./SY+그/MM+사람/NNG+은/JX+솔직히/MAG+잘못/MAG+없/VA+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그니까... 트럭기사 트라우마도 장난 아니겠다ㅜ",
+            "norm_text": "그니까... 트럭기사 트라우마도 장난 아니겠다ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+트럭/NNG+기사/NNG+트라우마/NNP+도/JX+장난/NNG+아니/VCN+겠/EP+다ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럴 듯... 내라면 넘 충격적이라서 운전 못할 거 같애",
+            "norm_text": "그럴 듯... 내라면 넘 충격적이라서 운전 못할 거 같애",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴듯/VA+ETM+NNB+./SY+내/NP+라면/VCP+EC+넘/MAG+충격/NNG+적/XSN+이/VCP+라서/EC+운전/NNG+못/MAG+할/VV+ETM+거/NNB+같/VA+애/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

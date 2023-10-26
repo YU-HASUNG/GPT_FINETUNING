@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 40907,
+    "name": "KAKAO_784_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930144004093555/KAKAO_784_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930144004093555/KAKAO_784_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38139,
+      "filename": "KAKAO_784_08.txt",
+      "title": "KAKAO_784_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 642,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 642,
+        "word_size": 212,
+        "text": "1 : 결혼이란... 뭘까... 복잡해 ㅠㅠ\n2 : 너희 결혼하면 오빠 집 해둔 데로 들어 가제? 자가가?\n1 : 아마도 그럴 듯? 키키 응 자가\n1 : 키키 육아 지옥 시작되기 전에 엄마 근처로 이사갈 거다\n2 : 키키 꺄오 오빠 최고시다 언넝 딴사람이 데리고가기 전에 니가 델꼬 가자\n1 : 오빠가 잘해야지 키키 결혼식 때 몇 명이나 올란고 키키\n2 : 키키 자신감 보소? 키키 난 하객 없을 듯\n1 : 키키 난 아쉬울 거 없다 쳇 키키\n1 : 나도 몇 없을 듯 키키 캐서 스몰 웨딩 더 간절한 걸지도...\n2 : 키키 휴우 키키 스몰 웨딩 안 하고 싶어도 하객이 그냥 스몰웨딩일 듯\n1 : 키키 웃기네 키키\n1 : 니 남자친구랑 몇 일 됐지? 키키 기념일 챙기나 키키\n2 : … 몇 일 안 세알린다... 사 년 됐네 키키 2017년 구월쯤 만나서\n1 : 키키 와... 토 나오네 4년이라니... 키키 난 남자친구랑 그렇게 만난 적이 없는데\n2 : 그래서 결혼 하겠나 니 남편 버리고 이혼 한다는 거 아니가\n1 : 왜 나쁜 거 아니잖아? 뭐 어때 두 번 세 번 결혼하면 되지 키키 캬캬캬\n2 : 키키 정상적인 정신 상태가 아닌 거 같다 내 친구\n1 : 인생 뭐 없쟈나? 키키 사실 한 번도 가기 어려운데... 키키 개소리에 가깝지\n2 : 키키 니가 빨리 철 좀 들었으면 좋겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 결혼이란... 뭘까... 복잡해 ㅠㅠ",
+            "norm_text": "결혼이란... 뭘까... 복잡해 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "결혼/NNG+이란/JX+./SY+./SY+뭘까/NP+VCP+EF+./SY+복잡해ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 너희 결혼하면 오빠 집 해둔 데로 들어 가제? 자가가?",
+            "norm_text": "너희 결혼하면 오빠 집 해둔 데로 들어 가제? 자가가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+결혼/NNG+하/XSV+면/EC+오빠/NNG+집/NNG+해/XSV+EC+둔/VX+ETM+데/NNB+로/JKB+들어가/VV+제/EF+자가/NNG+가/JKS"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아마도 그럴 듯? 키키 응 자가",
+            "norm_text": "아마도 그럴 듯? 키키 응 자가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마도/MAG+그럴듯/VA+ETM+NNB+키키응자가/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 육아 지옥 시작되기 전에 엄마 근처로 이사갈 거다",
+            "norm_text": "키키 육아 지옥 시작되기 전에 엄마 근처로 이사갈 거다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+육아/NNG+지옥/NNG+시작/NNG+되/XSV+기/ETN+전/NNG+에/JKB+엄마/NNG+근처/NNG+로/JKB+이사/NNG+갈/VV+ETM+거/NNB+다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 꺄오 오빠 최고시다 언넝 딴사람이 데리고가기 전에 니가 델꼬 가자",
+            "norm_text": "키키 꺄오 오빠 최고시다 언넝 딴사람이 데리고가기 전에 니가 델꼬 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키키/NNP+꺄오/NNP+오빠/NNG+최/XPN+고시/NNG+다언/NNG+넝/NNG+딴사람/NNG+이/JKS+데리/VV+고/EC+가/VX+기/ETN+전/NNG+에/JKB+니/NP+가/JKS+델/VV+꼬/EC+가/VX+자/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오빠가 잘해야지 키키 결혼식 때 몇 명이나 올란고 키키",
+            "norm_text": "오빠가 잘해야지 키키 결혼식 때 몇 명이나 올란고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오빠/NNG+가/JKS+잘/MAG+해야지/VV+EC+키/NNG+키/NNG+결혼식/NNG+때/NNG+몇/MM+명/NNBC+이/JKS+나올/VV+란/ETN+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 자신감 보소? 키키 난 하객 없을 듯",
+            "norm_text": "키키 자신감 보소? 키키 난 하객 없을 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+자신/NNG+감/XSN+보/VV+소/EF+키키난하객없을듯/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 난 아쉬울 거 없다 쳇 키키",
+            "norm_text": "키키 난 아쉬울 거 없다 쳇 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/NP+JX+아쉬울/VA+ETM+거/NNB+없/VA+다/EF+쳇/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 몇 없을 듯 키키 캐서 스몰 웨딩 더 간절한 걸지도...",
+            "norm_text": "나도 몇 없을 듯 키키 캐서 스몰 웨딩 더 간절한 걸지도...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+몇/MM+없/VA+을/ETM+듯/NNB+키/NNG+키/XSV+ETN+캐서/VV+EC+스몰/NNP+웨딩/NNP+더/MAG+간절/XR+한/XSA+ETM+걸/NNB+JKO+지도/NNG+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 휴우 키키 스몰 웨딩 안 하고 싶어도 하객이 그냥 스몰웨딩일 듯",
+            "norm_text": "키키 휴우 키키 스몰 웨딩 안 하고 싶어도 하객이 그냥 스몰웨딩일 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+휴우/IC+키키/NNP+스몰/NNP+웨딩/NNP+안/MAG+하/VV+고/EC+싶/VX+어도/EC+하객/NNG+이/JKS+그냥/MAG+스몰/NNP+웨딩/NNP+일/VCP+ETM+듯/NNB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 웃기네 키키",
+            "norm_text": "키키 웃기네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키웃기네키키/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 니 남자친구랑 몇 일 됐지? 키키 기념일 챙기나 키키",
+            "norm_text": "니 남자친구랑 몇 일 됐지? 키키 기념일 챙기나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/MM+남자/NNG+친구/NNG+랑/JKB+몇일/NNG+됐/XSV+EP+지/EF+키/NNG+키/NNG+기념일/NNG+챙기/VV+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : … 몇 일 안 세알린다... 사 년 됐네 키키 2017년 구월쯤 만나서",
+            "norm_text": "… 몇 일 안 세알린다... 사 년 됐네 키키 2017년 구월쯤 만나서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "…/SE+몇/MM+일/NR+안세/NNG+알린다/VV+EF+./SY+사년/NNG+됐/XSV+EP+네/EF+키키/NNP+2017/SN+년/NNBC+구월/NNG+쯤/XSN+만나/VV+서/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 와... 토 나오네 4년이라니... 키키 난 남자친구랑 그렇게 만난 적이 없는데",
+            "norm_text": "키키 와... 토 나오네 4년이라니... 키키 난 남자친구랑 그렇게 만난 적이 없는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+와/JC+./SY+./SY+토/XSV+EC+나오/VV+네/EC+4/SN+년/NNBC+이/VCP+라니/EF+./SY+키/NNG+키/XSV+ETN+난/VV+ETM+남자/NNG+친구/NNG+랑/JKB+그렇게/MAG+만난/VV+ETM+적/NNB+이/JKS+없/VA+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그래서 결혼 하겠나 니 남편 버리고 이혼 한다는 거 아니가",
+            "norm_text": "그래서 결혼 하겠나 니 남편 버리고 이혼 한다는 거 아니가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+결혼/NNG+하/XSV+겠/EP+나니/EC+남편/NNG+버리/VV+고/EC+이혼/NNG+한다는/XSV+ETM+거/NNB+아니/VCN+가/JKS"
+          },
+          {
+            "id": 16,
+            "text": "1 : 왜 나쁜 거 아니잖아? 뭐 어때 두 번 세 번 결혼하면 되지 키키 캬캬캬",
+            "norm_text": "왜 나쁜 거 아니잖아? 뭐 어때 두 번 세 번 결혼하면 되지 키키 캬캬캬",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+나쁜/VA+ETM+거/NNB+아니/VCN+잖아/EC+VX+EF+뭐/IC+어때/IC+두/MM+번/NNBC+세/MM+번/NNBC+결혼/NNG+하/XSV+면/EC+되/VV+지/EC+키/NNG+키/XSV+ETN+캬/IC+캬/IC+캬/IC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 정상적인 정신 상태가 아닌 거 같다 내 친구",
+            "norm_text": "키키 정상적인 정신 상태가 아닌 거 같다 내 친구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+정상/NNG+적/XSN+인/VCP+ETM+정신/NNG+상태/NNG+가/JKC+아닌/VCN+ETM+거/NNB+같/VA+다/EF+내/NP+JKG+친구/NNG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 인생 뭐 없쟈나? 키키 사실 한 번도 가기 어려운데... 키키 개소리에 가깝지",
+            "norm_text": "인생 뭐 없쟈나? 키키 사실 한 번도 가기 어려운데... 키키 개소리에 가깝지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인생/NNG+뭐/IC+없/VA+쟈/EC+나/VX+EF+키/NNG+키/XSV+ETN+사실/MAG+한/MM+번/NNBC+도/JX+가/VV+기/ETN+어려운데/VA+EF+./SY+키/NNG+키/NNG+개소리/NNG+에/JKB+가깝/VA+지/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 니가 빨리 철 좀 들었으면 좋겠다",
+            "norm_text": "키키 니가 빨리 철 좀 들었으면 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+니/NP+가/JKS+빨리/MAG+철/NNG+좀/MAG+들/VV+었/EP+으면/EC+좋/VA+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

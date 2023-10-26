@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 25133,
+    "name": "KAKAO_560_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256020121/KAKAO_560_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256020121/KAKAO_560_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30124,
+      "filename": "KAKAO_560_13.txt",
+      "title": "KAKAO_560_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 360,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 360,
+        "word_size": 124,
+        "text": "1 : 어제 오늘 비 엄청 내려...\n2 : 맞아 너무 비가 많이 와서 싫다.\n1 : 응 나 집에 가야 하는데 못 가고 있어\n2 : 우산도 없잖아 ㅠ 내가 빌려줄게.\n1 : 그래 언니네 가서 우산 가져가야지 키키\n2 : 가을이라 그런가 비가 왜 많이 오지!\n1 : 그러게... 뉴스에서 가을 장마라 하더라 키키\n2 : 참 가을 장마도 있구나!\n1 : 비 다 오면 이제 금방 춥겠지?\n2 : 지금도 날씨가 추워서 긴팔 입고 다녀.\n1 : 아 벌써? 우리 동네는 아직 습해\n2 : 날씨 습한 것도 너무 싫어!\n1 : 그래서 나는 집에서 제습기 돌려 키키\n2 : 제습기는 여름에 항상 필수야!\n1 : 맞아 그래도 곧 쌀쌀할 거야 키키\n2 : 긴 옷 장만 해야 할 시기가 왔어.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어제 오늘 비 엄청 내려...",
+            "norm_text": "어제 오늘 비 엄청 내려...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+오늘/MAG+비/NNG+엄청/MAG+내려/VV+EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 너무 비가 많이 와서 싫다.",
+            "norm_text": "맞아 너무 비가 많이 와서 싫다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+너무/MAG+비/NNG+가/JKS+많이/MAG+와서/VV+EC+싫/VA+다/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 나 집에 가야 하는데 못 가고 있어",
+            "norm_text": "응 나 집에 가야 하는데 못 가고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+집/NNG+에/JKB+가/VV+야/EC+하/VV+는데/EC+못/MAG+가/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우산도 없잖아 ㅠ 내가 빌려줄게.",
+            "norm_text": "우산도 없잖아 ㅠ 내가 빌려줄게.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우산/NNG+도/JX+없/VA+잖아/EF+ㅠ/UNKNOWN+내/NP+가/JKS+빌려/VV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래 언니네 가서 우산 가져가야지 키키",
+            "norm_text": "그래 언니네 가서 우산 가져가야지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+언니네/NNP+가/VV+서/EC+우산/NNG+가져가/VV+야지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 가을이라 그런가 비가 왜 많이 오지!",
+            "norm_text": "가을이라 그런가 비가 왜 많이 오지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가을/NNG+이/VCP+라/EC+그런/MM+가비/NNG+가/JKS+왜/MAG+많이/MAG+오/VV+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러게... 뉴스에서 가을 장마라 하더라 키키",
+            "norm_text": "그러게... 뉴스에서 가을 장마라 하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/IC+./SY+뉴스/NNG+에서/JKB+가을/NNG+장마/VV+라/EC+하/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 참 가을 장마도 있구나!",
+            "norm_text": "참 가을 장마도 있구나!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "참가/NNG+을/JKO+장마/VV+도/EC+있/VX+구나/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 비 다 오면 이제 금방 춥겠지?",
+            "norm_text": "비 다 오면 이제 금방 춥겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "비다/NNP+오/VV+면/EC+이제/MAG+금방/MAG+춥/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 지금도 날씨가 추워서 긴팔 입고 다녀.",
+            "norm_text": "지금도 날씨가 추워서 긴팔 입고 다녀.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/NNG+도/JX+날씨/NNG+가/JKS+추워서/VA+EC+긴팔/NNG+입/VV+고/EC+다녀/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 벌써? 우리 동네는 아직 습해",
+            "norm_text": "아 벌써? 우리 동네는 아직 습해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+벌써/MAG+우리/NP+동네/NNG+는/JX+아직/MAG+습해/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 날씨 습한 것도 너무 싫어!",
+            "norm_text": "날씨 습한 것도 너무 싫어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "날씨/NNG+습한/VA+ETM+것/NNB+도/JX+너무/MAG+싫/VA+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래서 나는 집에서 제습기 돌려 키키",
+            "norm_text": "그래서 나는 집에서 제습기 돌려 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+나/NP+는/JX+집/NNG+에서/JKB+제습기/NNP+돌려/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 제습기는 여름에 항상 필수야!",
+            "norm_text": "제습기는 여름에 항상 필수야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제습기/NNP+는/JX+여름/NNG+에/JKB+항상/MAG+필수/NNG+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 그래도 곧 쌀쌀할 거야 키키",
+            "norm_text": "맞아 그래도 곧 쌀쌀할 거야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그래도/VV+EC+곧/MAG+쌀쌀/XR+할/XSA+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 긴 옷 장만 해야 할 시기가 왔어.",
+            "norm_text": "긴 옷 장만 해야 할 시기가 왔어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "긴/VA+ETM+옷장/NNG+만/JX+해야/VV+EC+할/VX+ETM+시기/NNG+가/JKS+왔/VV+EP+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 32313,
+    "name": "KAKAO_849_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174702038162/KAKAO_849_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174702038162/KAKAO_849_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40222,
+      "filename": "KAKAO_849_04.txt",
+      "title": "KAKAO_849_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 625,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 625,
+        "word_size": 203,
+        "text": "1 : 요즘 알바 잘 구해지냐?\n2 : 음… 막 안 구해지지는 않는 듯?\n1 : 오오 그래?\n1 : 너는 어디 알바 한다고 했지?\n2 : 나 CU! 아니 여기서 알바 한 지가 언젠데 아직도 모르는 거죠...?\n1 : 앗… 그럴 수도 있…! 죄송함다…키키 이번엔 절대 안 까먹을게\n2 : 키키 그래 키키\n2 : 너 그럼 다른 애들도 어디서 알바 하는지 모름?\n1 : 음 다들 편의점이긴 했던 것 같은데…\n2 : 키키 저기요 우리한테 관심 좀…\n1 : 키키 아니 근데 처음에는 외웠었는데 전에 한번 되게 자주 바껴 가지고!\n1 : 그 이후로 못 외우겠음!\n2 : 아니 너 진짜 선택적 기억력이냐고 키키\n1 : 진짜 그건 나도 신기함 키키 이상한 건 기억 잘 하면서 키키 나 진짜 전에 알바 할 때 손님들이 메뉴 말하는 거 외우는 거 너무 힘들었다\n2 : 엥 거기 메뉴 많던데 뭐 메모지에 적으면서 하지 그랬어\n1 : 아니 내가 적으려고 했는데 사장님이 적지 말라는 거야!\n2 : ? 왜?\n2 : 오히려 안 적고 실수하면 더 안 좋은 거 아니야?\n1 : 시간 오래 걸린다고 키키 테라스까지 곳이라 테이블 20개가 넘는데 나 혼자 홀 서빙이랑 포장이랑 전화에 주방 보조까지 다 시켜 놨으니까 시간이 없지\n2 : 와… 그래도 거기 3개월 했잖아 진짜 잘 버텼네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 알바 잘 구해지냐?",
+            "norm_text": "요즘 알바 잘 구해지냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+알/VV+ETM+바/NNB+잘/MAG+구해/VV+EC+지/VX+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음… 막 안 구해지지는 않는 듯?",
+            "norm_text": "음… 막 안 구해지지는 않는 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+…/SE+막/MAJ+안/MAG+구해/VV+EC+지지/NNG+는/JX+않/VX+는/ETM+듯/NNB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오오 그래?",
+            "norm_text": "오오 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+그래/IC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 너는 어디 알바 한다고 했지?",
+            "norm_text": "너는 어디 알바 한다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+어디/NP+알/VV+ETM+바/NNB+한다고/VV+EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나 CU! 아니 여기서 알바 한 지가 언젠데 아직도 모르는 거죠...?",
+            "norm_text": "나 CU! 아니 여기서 알바 한 지가 언젠데 아직도 모르는 거죠...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+CU/SL+아니/IC+여기/NP+서/JKB+알/VV+ETM+바/NNB+한/XSA+ETM+지/NNB+가/JKS+언젠데/MAG+VCP+EF+아직/MAG+도/JX+모르/VV+는/ETM+거/NNB+죠/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 앗… 그럴 수도 있…! 죄송함다…키키 이번엔 절대 안 까먹을게",
+            "norm_text": "앗… 그럴 수도 있…! 죄송함다…키키 이번엔 절대 안 까먹을게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앗/IC+…/SE+그럴/VA+ETM+수/NNB+도/JX+있/VX+…/SE+죄송/XR+함다/XSA+EF+…/SE+키/NNG+키/NNG+이번/NNG+엔/JKB+JX+절대/MAG+안/MAG+까먹/VV+을/ETM+게/NNB+JKS"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 그래 키키",
+            "norm_text": "키키 그래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너 그럼 다른 애들도 어디서 알바 하는지 모름?",
+            "norm_text": "너 그럼 다른 애들도 어디서 알바 하는지 모름?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+그럼/MAJ+다른/MM+애/NNG+들/XSN+도/JX+어디/NP+서/JKB+알/VV+ETM+바/NNB+하/VV+는지/EC+모름/VV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 음 다들 편의점이긴 했던 것 같은데…",
+            "norm_text": "음 다들 편의점이긴 했던 것 같은데…",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+다/MAG+들/XSN+편의점/NNG+이/VCP+긴/ETN+JX+했/VX+EP+던/ETM+것/NNB+같/VA+은데/EC+…/SE"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 저기요 우리한테 관심 좀…",
+            "norm_text": "키키 저기요 우리한테 관심 좀…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+저기요/IC+우리/NP+한테/JKB+관심/NNG+좀/MAG+…/SE"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 아니 근데 처음에는 외웠었는데 전에 한번 되게 자주 바껴 가지고!",
+            "norm_text": "키키 아니 근데 처음에는 외웠었는데 전에 한번 되게 자주 바껴 가지고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+근데/MAJ+처음/NNG+에/JKB+는/JX+외웠/VV+EP+었/EP+는데/EC+전/NNG+에/JKB+한/MM+번/NNBC+되게/MAG+자주/MAG+바/NNB+껴/VV+EC+가지/VX+고/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그 이후로 못 외우겠음!",
+            "norm_text": "그 이후로 못 외우겠음!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+이후/NNG+로/JKB+못/MAG+외우/VV+겠/EP+음/ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아니 너 진짜 선택적 기억력이냐고 키키",
+            "norm_text": "아니 너 진짜 선택적 기억력이냐고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+너/NP+진짜/MAG+선택/NNG+적/XSN+기억력/NNG+이/VCP+냐고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 진짜 그건 나도 신기함 키키 이상한 건 기억 잘 하면서 키키 나 진짜 전에 알바 할 때 손님들이 메뉴 말하는 거 외우는 거 너무 힘들었다",
+            "norm_text": "진짜 그건 나도 신기함 키키 이상한 건 기억 잘 하면서 키키 나 진짜 전에 알바 할 때 손님들이 메뉴 말하는 거 외우는 거 너무 힘들었다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+그건/NP+JX+나/NP+도/JX+신기/XR+함/XSA+ETN+키/NNG+키/NNG+이상/NNG+한/XSA+ETM+건/NNB+JX+기억/NNG+잘/MAG+하/VV+면서/EC+키/NNG+키나/XSA+ETN+JX+진짜/MAG+전/NNG+에/JKB+알/VV+ETM+바/NNB+할/VV+ETM+때/NNG+손님/NNG+들/XSN+이/JKS+메뉴/NNG+말/NNG+하/XSV+는/ETM+거/NNB+외우/VV+는/ETM+거/NNB+너무/MAG+힘들/VA+었/EP+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 엥 거기 메뉴 많던데 뭐 메모지에 적으면서 하지 그랬어",
+            "norm_text": "엥 거기 메뉴 많던데 뭐 메모지에 적으면서 하지 그랬어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+거기/NP+메뉴/NNG+많/VA+던데/EF+뭐/IC+메모지/NNG+에/JKB+적/VV+으면서/EC+하/VV+지/EC+그랬/VV+EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아니 내가 적으려고 했는데 사장님이 적지 말라는 거야!",
+            "norm_text": "아니 내가 적으려고 했는데 사장님이 적지 말라는 거야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+내/NP+가/JKS+적/VA+으려고/EC+했/VX+EP+는데/EC+사장/NNG+님/XSN+이/JKS+적/VA+지/EC+말/VX+라는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : ? 왜?",
+            "norm_text": "? 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 오히려 안 적고 실수하면 더 안 좋은 거 아니야?",
+            "norm_text": "오히려 안 적고 실수하면 더 안 좋은 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오히려/MAJ+안/MAG+적/VV+고/EC+실수/NNG+하/XSV+면/EC+더/MAG+안/MAG+좋/VA+은/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 시간 오래 걸린다고 키키 테라스까지 곳이라 테이블 20개가 넘는데 나 혼자 홀 서빙이랑 포장이랑 전화에 주방 보조까지 다 시켜 놨으니까 시간이 없지",
+            "norm_text": "시간 오래 걸린다고 키키 테라스까지 곳이라 테이블 20개가 넘는데 나 혼자 홀 서빙이랑 포장이랑 전화에 주방 보조까지 다 시켜 놨으니까 시간이 없지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시간/NNG+오래/MAG+걸린다고/VV+EC+키/NNG+키/NNG+테라스/NNG+까지/JX+곳/NNG+이/VCP+라/EC+테이블/NNG+20/SN+개/NNBC+가/JKS+넘/VV+는/ETM+데/NNB+나/JC+혼자/NNG+홀/NNP+서빙/NNG+이랑/JKB+포장/NNG+이랑/JKB+전화/NNG+에/JKB+주방/NNG+보조/NNG+까지/JX+다시/MAG+켜/VV+EC+놨으니까/VX+EP+EC+시간/NNG+이/JKS+없/VA+지/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 와… 그래도 거기 3개월 했잖아 진짜 잘 버텼네",
+            "norm_text": "와… 그래도 거기 3개월 했잖아 진짜 잘 버텼네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+…/SE+그래도/MAJ+거기/NP+3/SN+개월/NNBC+했/VV+EP+잖아/EF+진짜/MAG+잘/MAG+버텼/VV+EP+네/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

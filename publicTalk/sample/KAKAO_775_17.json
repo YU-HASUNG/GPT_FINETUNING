@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 44432,
+    "name": "KAKAO_775_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142054045431/KAKAO_775_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142054045431/KAKAO_775_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37827,
+      "filename": "KAKAO_775_17.txt",
+      "title": "KAKAO_775_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 393,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 393,
+        "word_size": 137,
+        "text": "1 : 언니 요즘 헬스 진짜 열심히 하더라.\n2 : 웅 나중에 골병 안 들려면 젊을 때부터 열심히 해야 돼.\n1 : ;아 키키 미래 생각해서 하는 거야?\n2 : 원래 젊을 때부터 해 놔야 나중에 골병 안 들어.\n1 : 언니 말하는 거 너무 웃겨.\n2 : 너도 얼른 시작해!\n1 : 언니한테 배울까?\n2 : 나 잘 가르쳐 줄 수 있어 내 경력 10년 차 너에게 전수해 준다.\n1 : 언니 다니는 데 가면 언니가 나 가르쳐 줄래?\n2 : 당연히 하지! 가르쳐 줄게 얼른 와.\n1 : 내일 신청하러 갈게. ;\n2 : 내일 7시에 와!\n2 : 나도 퇴근하고 갈 테니까.\n1 : 웅 내일부터 바로 시작이야?\n2 : 웅 옷 챙겨 입고 와 키키 바로 가르쳐 줄게.\n1 : 언니라면 뭔가 기본부터 잘 가르쳐 줄 거 같아.\n2 : 그럼 나만 믿어.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 요즘 헬스 진짜 열심히 하더라.",
+            "norm_text": "언니 요즘 헬스 진짜 열심히 하더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "언니/NNG+요즘/NNG+헬스/NNG+진짜/MAG+열심히/MAG+하/VV+더라/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 웅 나중에 골병 안 들려면 젊을 때부터 열심히 해야 돼.",
+            "norm_text": "웅 나중에 골병 안 들려면 젊을 때부터 열심히 해야 돼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+나중/NNG+에/JKB+골병/NNG+안/MAG+들려/VV+면/EC+젊/VA+을/ETM+때/NNG+부터/JX+열심히/MAG+해야/VV+EC+돼/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : ;아 키키 미래 생각해서 하는 거야?",
+            "norm_text": ";아 키키 미래 생각해서 하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": ";/SY+아키/NNP+키/NNG+미래/NNG+생각/NNG+해서/XSV+EC+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 원래 젊을 때부터 해 놔야 나중에 골병 안 들어.",
+            "norm_text": "원래 젊을 때부터 해 놔야 나중에 골병 안 들어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+젊/VA+을/ETM+때/NNG+부터/JX+해/VV+EC+놔야/VX+EC+나중/NNG+에/JKB+골병/NNG+안/MAG+들/VV+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 언니 말하는 거 너무 웃겨.",
+            "norm_text": "언니 말하는 거 너무 웃겨.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+말/NNG+하/XSV+는/ETM+거/NNB+너무/MAG+웃겨/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너도 얼른 시작해!",
+            "norm_text": "너도 얼른 시작해!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "너/NP+도/JX+얼른/MAG+시작/NNG+해/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 언니한테 배울까?",
+            "norm_text": "언니한테 배울까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+한테/JKB+배울까/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나 잘 가르쳐 줄 수 있어 내 경력 10년 차 너에게 전수해 준다.",
+            "norm_text": "나 잘 가르쳐 줄 수 있어 내 경력 10년 차 너에게 전수해 준다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+잘/MAG+가르쳐/VV+EC+줄/VX+ETM+수/NNB+있/VV+어/EC+내/NP+JKG+경력/NNG+10/SN+년/NNBC+차/NNG+너/NP+에게/JKB+전수/NNG+해/XSV+EC+준다/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 언니 다니는 데 가면 언니가 나 가르쳐 줄래?",
+            "norm_text": "언니 다니는 데 가면 언니가 나 가르쳐 줄래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+다니/VV+는데/EC+가/VX+면/EC+언니/NNG+가/JKS+나/NP+가르쳐/VV+EC+줄래/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 당연히 하지! 가르쳐 줄게 얼른 와.",
+            "norm_text": "당연히 하지! 가르쳐 줄게 얼른 와.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+하/VV+지/EF+가르쳐/VV+EC+줄/VX+ETM+게/NNB+JKS+얼른/MAG+와/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 내일 신청하러 갈게. ;",
+            "norm_text": "내일 신청하러 갈게. ;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "내일/MAG+신청/NNG+하/XSV+러/EC+갈게/VV+EF+;/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 내일 7시에 와!",
+            "norm_text": "내일 7시에 와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "내일/MAG+7/SN+시/NNBC+에/JKB+와/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나도 퇴근하고 갈 테니까.",
+            "norm_text": "나도 퇴근하고 갈 테니까.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+도/JX+퇴근/NNG+하/XSV+고/EC+갈테/VV+ETM+NNB+VCP+니까/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 웅 내일부터 바로 시작이야?",
+            "norm_text": "웅 내일부터 바로 시작이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "웅/IC+내일/NNG+부터/JX+바로/MAG+시작/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 웅 옷 챙겨 입고 와 키키 바로 가르쳐 줄게.",
+            "norm_text": "웅 옷 챙겨 입고 와 키키 바로 가르쳐 줄게.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "웅/IC+옷/NNG+챙겨/VV+EC+입/VV+고/EC+와키/NNP+키바/NNP+로/JKB+가르쳐/VV+EC+줄게/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 언니라면 뭔가 기본부터 잘 가르쳐 줄 거 같아.",
+            "norm_text": "언니라면 뭔가 기본부터 잘 가르쳐 줄 거 같아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+라면/VCP+EC+뭔가/NP+VCP+EC+기본/NNG+부터/JX+잘/MAG+가르쳐/VV+EC+줄/VX+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그럼 나만 믿어.",
+            "norm_text": "그럼 나만 믿어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+나/NP+만/JX+믿/VV+어/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

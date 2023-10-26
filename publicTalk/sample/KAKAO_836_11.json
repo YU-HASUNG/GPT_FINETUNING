@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34333,
+    "name": "KAKAO_836_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165339066344/KAKAO_836_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165339066344/KAKAO_836_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38504,
+      "filename": "KAKAO_836_11.txt",
+      "title": "KAKAO_836_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 422,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 422,
+        "word_size": 128,
+        "text": "1 : 왜 전화했어? 급한 일이야?\n2 : 아니~ 어디인가 해서~\n1 : 나 PC방에서 게임 중~ 이 판 끝나고 전화할게\n2 : 넌 독서실 간다는 애가 PC방이니?\n1 : 공부하다가 머리 식힐 겸 게임도 하고 하는 거지~\n2 : 공부하는 시간보다 게임하는 시간이 더 많은 것 같다?\n1 : 응 아니야~ 공부하는 시간이 더 많아\n2 : 너는 집에 와서는 핸드폰으로 게임하고 밖에서는 PC방 가서 게임하고\n1 : 공부도 한다니까~ 진짜야~\n2 : 알겠어. 집에서도 열심히 하는 모습 좀 보여 봐\n1 : 알아서 잘한다니깐 집에서라도 좀 쉬자\n2 : 집에서만 쉬면 다행이지. 맨날 PC방이나 다니고\n1 : 이번 주에 처음으로 피시방에 갔어!\n2 : PC방뿐만 아니라 너 맨날 카페도 가고 그러잖아\n1 : 카페에는 공부하러 가는 거지 ㅡㅡ\n2 : 그래? 독서실 놔두고 왜 카페에서 공부한대~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 왜 전화했어? 급한 일이야?",
+            "norm_text": "왜 전화했어? 급한 일이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+전화/NNG+했/XSV+EP+어/EF+급한/VA+ETM+일/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니~ 어디인가 해서~",
+            "norm_text": "아니~ 어디인가 해서~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+~/SY+어디/NP+인가/VCP+EC+해서/VV+EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 PC방에서 게임 중~ 이 판 끝나고 전화할게",
+            "norm_text": "나 PC방에서 게임 중~ 이 판 끝나고 전화할게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+PC/SL+방/NNG+에서/JKB+게임/NNG+중/NNB+~/SY+이/JKS+판/VV+ETM+끝/NNG+나/VV+고/EC+전화/NNG+할/XSV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 4,
+            "text": "2 : 넌 독서실 간다는 애가 PC방이니?",
+            "norm_text": "넌 독서실 간다는 애가 PC방이니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+독서실/NNG+간다는/VV+ETM+애/NNG+가/JKS+PC/SL+방/NNG+이/VCP+니/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 공부하다가 머리 식힐 겸 게임도 하고 하는 거지~",
+            "norm_text": "공부하다가 머리 식힐 겸 게임도 하고 하는 거지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공부/NNG+하/XSV+다가/EC+머리/NNG+식힐/VV+ETM+겸/NNB+게임/NNG+도/JX+하/VV+고/EC+하/VV+는/ETM+거/NNB+지/VCP+EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 공부하는 시간보다 게임하는 시간이 더 많은 것 같다?",
+            "norm_text": "공부하는 시간보다 게임하는 시간이 더 많은 것 같다?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공부/NNG+하/XSV+는/ETM+시간/NNG+보다/JKB+게임/NNG+하/XSV+는/ETM+시간/NNG+이/JKS+더/MAG+많/VA+은/ETM+것/NNB+같/VA+다/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 아니야~ 공부하는 시간이 더 많아",
+            "norm_text": "응 아니야~ 공부하는 시간이 더 많아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아니야/IC+~/SY+공부/NNG+하/XSV+는/ETM+시간/NNG+이/JKS+더/MAG+많/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너는 집에 와서는 핸드폰으로 게임하고 밖에서는 PC방 가서 게임하고",
+            "norm_text": "너는 집에 와서는 핸드폰으로 게임하고 밖에서는 PC방 가서 게임하고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+는/JX+집/NNG+에/JKB+와서/VV+EC+는/JX+핸드폰/NNG+으로/JKB+게임/NNG+하/XSV+고/EC+밖/NNG+에서/JKB+는/JX+PC/SL+방가/NNG+서/JKB+게임/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 공부도 한다니까~ 진짜야~",
+            "norm_text": "공부도 한다니까~ 진짜야~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공부/NNG+도/JX+한다니까/VV+EC+~/SY+진짜/NNG+야/JKV+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 알겠어. 집에서도 열심히 하는 모습 좀 보여 봐",
+            "norm_text": "알겠어. 집에서도 열심히 하는 모습 좀 보여 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "알/VV+겠/EP+어/EF+집/NNG+에서/JKB+도/JX+열심히/MAG+하/VV+는/ETM+모습/NNG+좀/MAG+보여/VV+EC+봐/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 알아서 잘한다니깐 집에서라도 좀 쉬자",
+            "norm_text": "알아서 잘한다니깐 집에서라도 좀 쉬자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+아서/EC+잘/MAG+한다/VV+EC+VCP+니깐/EC+집/NNG+에서/JKB+라도/VCP+EC+좀/MAG+쉬/VV+자/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 집에서만 쉬면 다행이지. 맨날 PC방이나 다니고",
+            "norm_text": "집에서만 쉬면 다행이지. 맨날 PC방이나 다니고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+에서/JKB+만/JX+쉬/VV+면/EC+다행/NNG+이/VCP+지/EF+맨날/MAG+PC/SL+방/NNG+이나/JX+다니/VV+고/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 이번 주에 처음으로 피시방에 갔어!",
+            "norm_text": "이번 주에 처음으로 피시방에 갔어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "이번/NNG+주/NNG+에/JKB+처음/NNG+으로/JKB+피시방/NNG+에/JKB+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : PC방뿐만 아니라 너 맨날 카페도 가고 그러잖아",
+            "norm_text": "PC방뿐만 아니라 너 맨날 카페도 가고 그러잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "PC/SL+방/NNG+뿐/JX+만/JX+아니/VCN+라/EC+너/NP+맨날/MAG+카페/NNG+도/JX+가/VV+고/EC+그러/VV+잖아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 카페에는 공부하러 가는 거지 ㅡㅡ",
+            "norm_text": "카페에는 공부하러 가는 거지 ㅡㅡ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "카페/NNG+에/JKB+는/JX+공부/NNG+하/XSV+러/EC+가/VX+는/ETM+거/NNB+지/VCP+EF+ㅡㅡ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래? 독서실 놔두고 왜 카페에서 공부한대~",
+            "norm_text": "그래? 독서실 놔두고 왜 카페에서 공부한대~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+독서실/NNG+놔두/VV+고/EC+왜/MAG+카페/NNG+에서/JKB+공부/NNG+한대/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

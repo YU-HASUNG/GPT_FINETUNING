@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 35379,
+    "name": "KAKAO_652_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423023040/KAKAO_652_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423023040/KAKAO_652_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34431,
+      "filename": "KAKAO_652_13.txt",
+      "title": "KAKAO_652_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 461,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 461,
+        "word_size": 152,
+        "text": "1 : 요즘 날씨가 좀 이상해\n2 : 아침 저녁으론 쌀쌀 낮엔 햇빛이 작렬\n1 : 아침엔 먹구름이 잔뜩 껴서 비 오는 줄 알았잖아\n2 : 비도 조금 왔었어 아주 조금\n1 : 아 진짜 거긴 좀 왔었구나\n2 : 응 아까 밭에 갔었는데 비가 와서 고추를 따다 말았었거든\n1 : 나 있는 곳은 해 났다가 구름 꼈다가 그랬었어\n2 : 여긴 좀 왔었어\n2 : 땅 덩어리는 조그만한데 웃겨\n1 : 신기해 진짜 키키 왔다 갔다 하다가 해가 엄청 쨍쨍하더라고\n2 : 응 시원하다가 더워지니까 미치겠더라\n2 : 한여름보다 더 더운 것 같아\n1 : 원래 흐린 날 더 덥잖아 ㅠㅠ\n1 : 언제까지 여름 날씨인 거야\n2 : 낮엔 더운 줄 모르고 모자 안 쓰고 나갔다가 혼쭐 났다\n1 : 에고 선크림은 바르고 나갔겠지?\n2 : 기본이지 선크림 안 바르고 나가면 왠지 불편\n1 : 좋은 습관이야 선크림은 365일 발라야 한대\n2 : 알았어 나도 그렇게 들어서 열심히 사용하고 관리할게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 날씨가 좀 이상해",
+            "norm_text": "요즘 날씨가 좀 이상해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+날씨/NNG+가/JKS+좀/MAG+이상/NNG+해/XSV+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아침 저녁으론 쌀쌀 낮엔 햇빛이 작렬",
+            "norm_text": "아침 저녁으론 쌀쌀 낮엔 햇빛이 작렬",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아침/NNG+저녁/NNG+으론/JKB+JX+쌀쌀/MAG+낮/NNG+엔/JKB+JX+햇빛/NNG+이/JKS+작렬/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아침엔 먹구름이 잔뜩 껴서 비 오는 줄 알았잖아",
+            "norm_text": "아침엔 먹구름이 잔뜩 껴서 비 오는 줄 알았잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아침/NNG+엔/JKB+JX+먹구름/NNG+이/JKS+잔뜩/MAG+껴서/VV+EC+비오/VV+는/ETM+줄/NNB+알/VV+았/EP+잖아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 비도 조금 왔었어 아주 조금",
+            "norm_text": "비도 조금 왔었어 아주 조금",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비/NNG+도/JX+조금/MAG+왔었/VV+EP+어/EC+아주/MAG+조금/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 진짜 거긴 좀 왔었구나",
+            "norm_text": "아 진짜 거긴 좀 왔었구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아/IC+진짜/MAG+거긴/NP+JX+좀/MAG+왔었/VV+EP+구나/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 아까 밭에 갔었는데 비가 와서 고추를 따다 말았었거든",
+            "norm_text": "응 아까 밭에 갔었는데 비가 와서 고추를 따다 말았었거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+아까/MAG+밭/NNG+에/JKB+갔었/VV+EP+는데/EC+비/NNG+가/JKS+와서/VV+EC+고추/NNG+를/JKO+따/VV+다/EC+말/VX+았었/EP+거든/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나 있는 곳은 해 났다가 구름 꼈다가 그랬었어",
+            "norm_text": "나 있는 곳은 해 났다가 구름 꼈다가 그랬었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+있/VA+는/ETM+곳/NNG+은/JX+해/VV+EC+났/VV+EP+다가/EC+구름/NNG+꼈/VV+EP+다가/EC+그랬었/VV+EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 여긴 좀 왔었어",
+            "norm_text": "여긴 좀 왔었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여긴/NP+JX+좀/MAG+왔었/VV+EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 땅 덩어리는 조그만한데 웃겨",
+            "norm_text": "땅 덩어리는 조그만한데 웃겨",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "땅덩어리/NNG+는/JX+조그만/XR+한/XSA+ETM+데/NNB+웃겨/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 신기해 진짜 키키 왔다 갔다 하다가 해가 엄청 쨍쨍하더라고",
+            "norm_text": "신기해 진짜 키키 왔다 갔다 하다가 해가 엄청 쨍쨍하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "신기/NNG+해/XSV+EC+진짜/MAG+키/NNG+키/XSV+ETN+왔다갔다하/VV+다가/EC+해/NNG+가/JKS+엄청/MAG+쨍쨍/MAG+하/VV+더라고/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 시원하다가 더워지니까 미치겠더라",
+            "norm_text": "응 시원하다가 더워지니까 미치겠더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+시원/XR+하/XSA+다가/EC+더워/VA+EC+지/VX+니까/EC+미치/VV+겠/EP+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 한여름보다 더 더운 것 같아",
+            "norm_text": "한여름보다 더 더운 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+여름/NNG+보다/JKB+더/MAG+더운/VA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 원래 흐린 날 더 덥잖아 ㅠㅠ",
+            "norm_text": "원래 흐린 날 더 덥잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+흐린/VV+ETM+날/NNG+더/MAG+덥/VA+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 언제까지 여름 날씨인 거야",
+            "norm_text": "언제까지 여름 날씨인 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "언제/NP+까지/JX+여름/NNG+날씨/NNG+인/VCP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 낮엔 더운 줄 모르고 모자 안 쓰고 나갔다가 혼쭐 났다",
+            "norm_text": "낮엔 더운 줄 모르고 모자 안 쓰고 나갔다가 혼쭐 났다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "낮/NNG+엔/JKB+JX+더운/VA+ETM+줄/NNB+모르/VV+고/EC+모자/NNG+안/MAG+쓰/VV+고/EC+나갔/VV+EP+다가/EC+혼쭐났/VV+EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 에고 선크림은 바르고 나갔겠지?",
+            "norm_text": "에고 선크림은 바르고 나갔겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "에고/IC+선크림/NNG+은/JX+바르/VA+고/EC+나갔/VV+EP+겠/EP+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 기본이지 선크림 안 바르고 나가면 왠지 불편",
+            "norm_text": "기본이지 선크림 안 바르고 나가면 왠지 불편",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기본/NNG+이지선/NNP+크림/NNG+안/MAG+바르/VV+고/EC+나가/VX+면/EC+왠지/MAG+불편/NNG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 좋은 습관이야 선크림은 365일 발라야 한대",
+            "norm_text": "좋은 습관이야 선크림은 365일 발라야 한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+은/ETM+습관/NNG+이/VCP+야/EC+선크림/NNG+은/JX+365/SN+일/NNBC+발라야/VV+EC+한대/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 알았어 나도 그렇게 들어서 열심히 사용하고 관리할게",
+            "norm_text": "알았어 나도 그렇게 들어서 열심히 사용하고 관리할게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+았/EP+어/EF+나/NP+도/JX+그렇게/MAG+들/VV+어서/EC+열심히/MAG+사용/NNG+하/XSV+고/EC+관리/NNG+할/XSV+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

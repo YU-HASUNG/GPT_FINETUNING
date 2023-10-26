@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 56003,
+    "name": "KAKAO_710_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256063632/KAKAO_710_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256063632/KAKAO_710_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35602,
+      "filename": "KAKAO_710_03.txt",
+      "title": "KAKAO_710_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 570,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 570,
+        "word_size": 190,
+        "text": "1 : 니는 비행기 자주 타는 편이야?\n2 : 응응 주로 비행기를 이용하지! 어딜 가든~\n1 : 아 진짜? 근데 비행기는 일찍 가서 기다려야 하잖아 ㅜㅜ\n2 : 키키 난 국내선은 30분 전에 간당 키키\n2 : 그래도 짐이 없어서 바로 탈 수 있더라구!\n1 : 맞다 그래 키키 수화물만 안 맡기면 키키 30분만 일찍 가도 되겠네\n2 : 응 그래서 기차 타는 거랑 별 차이가 없더라고!\n2 : 너두 비행기 자주 타?\n1 : 키키 응 나도 원래 ktx 자주 타다가 요즘 비행기 많이 타\n2 : 키키 김포공항에서 집은 가까워? 키키\n1 : 키키 응응 내 차 타고 가면 40분? 50분 걸려\n2 : 40분이면 엄청 먼데? 키키\n2 : 서울역도 그 정도 걸리는 거야?\n1 : 키키 아 서울역은 차 타고 한... 30분? 키키\n2 : 그럼 비행기가 이동 시간이 더 짧으니 효율적이겠다 키키\n1 : 키키 응 맞아... 키키 그리고 어쩔 땐 비행기가 훨씬 싸\n2 : 맞아 특가 나오면 비행기가 더 쌀 때도 있어~\n2 : 그래서 더 자주 타는 듯\n1 : 응응 나 예전에 서울 부산 왕복으로 3만 원 들었어 키키\n2 : 3만 원이면 진짜 싸다!\n2 : 특가로 잘 잡았넹 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니는 비행기 자주 타는 편이야?",
+            "norm_text": "니는 비행기 자주 타는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+비행기/NNG+자주/MAG+타/VV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 주로 비행기를 이용하지! 어딜 가든~",
+            "norm_text": "응응 주로 비행기를 이용하지! 어딜 가든~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+주로/MAG+비행기/NNG+를/JKO+이용/NNG+하/XSA+지/EF+어딜/NP+JKO+가/VV+든/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜? 근데 비행기는 일찍 가서 기다려야 하잖아 ㅜㅜ",
+            "norm_text": "아 진짜? 근데 비행기는 일찍 가서 기다려야 하잖아 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+근데비행기는일찍가서기다려야하잖아ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 난 국내선은 30분 전에 간당 키키",
+            "norm_text": "키키 난 국내선은 30분 전에 간당 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/VV+ETM+국내선/NNG+은/JX+30/SN+분전/NNG+에/JKB+간당/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그래도 짐이 없어서 바로 탈 수 있더라구!",
+            "norm_text": "그래도 짐이 없어서 바로 탈 수 있더라구!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+짐/NNG+이/JKS+없/VA+어서/EC+바로/MAG+탈/VV+ETM+수/NNB+있/VV+더라구/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 맞다 그래 키키 수화물만 안 맡기면 키키 30분만 일찍 가도 되겠네",
+            "norm_text": "맞다 그래 키키 수화물만 안 맡기면 키키 30분만 일찍 가도 되겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞다그래키키수화물만안맡기면키키/UNKNOWN+30/SN+분/NNBC+만/JX+일찍/MAG+가도/NNG+되/XSV+겠/EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 응 그래서 기차 타는 거랑 별 차이가 없더라고!",
+            "norm_text": "응 그래서 기차 타는 거랑 별 차이가 없더라고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래서/MAJ+기차/NNG+타/VV+는/ETM+거/NNB+랑/JKB+별/MM+차이/NNG+가/JKS+없/VA+더라고/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너두 비행기 자주 타?",
+            "norm_text": "너두 비행기 자주 타?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+두/JX+비행기/NNG+자주/MAG+타/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 응 나도 원래 ktx 자주 타다가 요즘 비행기 많이 타",
+            "norm_text": "키키 응 나도 원래 ktx 자주 타다가 요즘 비행기 많이 타",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+나/NP+도/JX+원래/MAG+ktx/SL+자주/MAG+타/VV+다가/EC+요즘/NNG+비행기/NNG+많이/MAG+타/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 김포공항에서 집은 가까워? 키키",
+            "norm_text": "키키 김포공항에서 집은 가까워? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+김포/NNP+공항/NNG+에서/JKB+집/NNG+은/JX+가까워/VA+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 응응 내 차 타고 가면 40분? 50분 걸려",
+            "norm_text": "키키 응응 내 차 타고 가면 40분? 50분 걸려",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키응응내차타고가면/UNKNOWN+40/SN+분/NNBC+?/SY+50/SN+분/NNBC+걸려/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 40분이면 엄청 먼데? 키키",
+            "norm_text": "40분이면 엄청 먼데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "40/SN+분/NNBC+이/VCP+면/EC+엄청/MAG+먼데/VA+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 서울역도 그 정도 걸리는 거야?",
+            "norm_text": "서울역도 그 정도 걸리는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "서울/NNP+역/NNG+도/JX+그/MM+정도/NNG+걸리/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 아 서울역은 차 타고 한... 30분? 키키",
+            "norm_text": "키키 아 서울역은 차 타고 한... 30분? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키아서울역은차타고한/UNKNOWN+./SY+./SY+30/SN+분/NNBC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그럼 비행기가 이동 시간이 더 짧으니 효율적이겠다 키키",
+            "norm_text": "그럼 비행기가 이동 시간이 더 짧으니 효율적이겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+비행기/NNG+가/JKS+이동/NNG+시간/NNG+이/JKS+더/MAG+짧/VA+으니/EC+효율/NNG+적/XSN+이/VCP+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 응 맞아... 키키 그리고 어쩔 땐 비행기가 훨씬 싸",
+            "norm_text": "키키 응 맞아... 키키 그리고 어쩔 땐 비행기가 훨씬 싸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+맞/VV+아/EF+./SY+키/NNG+키/XSV+ETN+그리고/MAJ+어쩔/VV+ETM+땐/NNG+JX+비행기/NNG+가/JKS+훨씬/MAG+싸/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞아 특가 나오면 비행기가 더 쌀 때도 있어~",
+            "norm_text": "맞아 특가 나오면 비행기가 더 쌀 때도 있어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+특가/NNG+나오/VV+면/EC+비행기/NNG+가/JKS+더/MAG+쌀/NNG+때/NNG+도/JX+있/VA+어/EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그래서 더 자주 타는 듯",
+            "norm_text": "그래서 더 자주 타는 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+더/MAG+자주/MAG+타/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 19,
+            "text": "1 : 응응 나 예전에 서울 부산 왕복으로 3만 원 들었어 키키",
+            "norm_text": "응응 나 예전에 서울 부산 왕복으로 3만 원 들었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+나/NP+예전/NNG+에/JKB+서울/NNP+부산/NNP+왕복/NNG+으로/JKB+3/SN+만/NR+원/NNBC+들/VV+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 3만 원이면 진짜 싸다!",
+            "norm_text": "3만 원이면 진짜 싸다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "3/SN+만/NR+원/NNBC+이/VCP+면/EC+진짜/MAG+싸/VA+다/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 특가로 잘 잡았넹 키키",
+            "norm_text": "특가로 잘 잡았넹 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "특가로잘잡았넹키키/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

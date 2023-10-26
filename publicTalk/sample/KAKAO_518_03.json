@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 28626,
+    "name": "KAKAO_518_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144230042695/KAKAO_518_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144230042695/KAKAO_518_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28994,
+      "filename": "KAKAO_518_03.txt",
+      "title": "KAKAO_518_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 661,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 661,
+        "word_size": 217,
+        "text": "1 : 그런데 내가 일하는 곳 근처에는 그런 집이 없어서 일자리를 옮기던가 자동차를 사거나 뭐 그런 게 있어야 할 거 같아\n2 : 면허부터 있어야 차를 살지 말지 하는 거 아닙니까?\n1 : 키키 맞지 그럼에도 자동차 종류 알아보고 그래 요즘 히히\n2 : 있으면 진짜 삶의 질이 달라지긴 하지\n1 : 근데 뭔가 어른들의 것 같아서 무서워 난 아직 어린이라서\n2 : 원래 운전이 힘들긴 해 특히나 교통이 많은 도심 지역은 더욱더 신경 쓸 것도 많고\n1 : 진짜 나만 잘한다고 되는 게 아닌 것 같더라 운전은\n2 : 그릏긴한데 일단 내가 잘해야지 사고 날 확률이 확 줄어들지 ㅋ\n1 : 키키 맞지 진짜 자동차 종류만 알아보면 뭐하냐고 ㅠㅠ\n1 : 난 쫄보라 어려워\n2 : 보통 보면 내가 좀만 더 천천히 가고 양보할 생각하고 방어할 생각만 하면 안 날 사고들이 엄청 많아\n1 : 아 그래? 힉 명심하겠습니다.\n2 : 옆 차가 분명 들어올 거 같은 느낌이 쌔하게 드는데\n2 : 그냥 내가 좀만 천천히 가면 될 것을 끼어드는 게 싫다고 악셀 밟고 머 그런식? 암튼 이런 게 대게 많음\n1 : 그냥 나는 어른이 되면 살래 아직은 너무 어려워\n2 : 일단 면허부터 따세여 키키 멀 사여 키키\n1 : 키키 아니 면허 따는 것도 너무 비싸!\n2 : 키키 그냥 시험 보러 가 키키\n2 : 떨어지다 보면 붙겠지 학원 등록하지 말고 ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 그런데 내가 일하는 곳 근처에는 그런 집이 없어서 일자리를 옮기던가 자동차를 사거나 뭐 그런 게 있어야 할 거 같아",
+            "norm_text": "그런데 내가 일하는 곳 근처에는 그런 집이 없어서 일자리를 옮기던가 자동차를 사거나 뭐 그런 게 있어야 할 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런데/MAJ+내/NP+가/JKS+일/NNG+하/XSV+는/ETM+곳/NNG+근처/NNG+에/JKB+는/JX+그런/MM+집/NNG+이/JKS+없/VA+어서/EC+일자리/NNG+를/JKO+옮기/VV+던가/EC+자동차/NNG+를/JKO+사/VV+거나/EC+뭐/IC+그런/MM+게/NNB+JKS+있/VA+어야/EC+할/VX+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 면허부터 있어야 차를 살지 말지 하는 거 아닙니까?",
+            "norm_text": "면허부터 있어야 차를 살지 말지 하는 거 아닙니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "면허/NNG+부터/JX+있/VV+어야/EC+차/NNG+를/JKO+살/VV+지/EC+말지/NNG+하/XSV+는/ETM+거/NNB+아닙니까/VCN+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 맞지 그럼에도 자동차 종류 알아보고 그래 요즘 히히",
+            "norm_text": "키키 맞지 그럼에도 자동차 종류 알아보고 그래 요즘 히히",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+지/EC+그럼에도/VA+ETN+JKB+JX+자동차/NNG+종류/NNG+알아보/VV+고/EC+그래/IC+요즘/MAG+히히/MAG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 있으면 진짜 삶의 질이 달라지긴 하지",
+            "norm_text": "있으면 진짜 삶의 질이 달라지긴 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "있/VA+으면/EC+진짜/MAG+삶/NNG+의/JKG+질/NNG+이/JKS+달라지/VV+긴/ETN+JX+하/VX+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 뭔가 어른들의 것 같아서 무서워 난 아직 어린이라서",
+            "norm_text": "근데 뭔가 어른들의 것 같아서 무서워 난 아직 어린이라서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+뭔가/NP+VCP+EC+어른/NNG+들/XSN+의/JKG+것/NNB+같/VA+아서/EC+무서워/VA+EC+난/NP+JX+아직/MAG+어린이/NNG+라서/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 원래 운전이 힘들긴 해 특히나 교통이 많은 도심 지역은 더욱더 신경 쓸 것도 많고",
+            "norm_text": "원래 운전이 힘들긴 해 특히나 교통이 많은 도심 지역은 더욱더 신경 쓸 것도 많고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "원래/MAG+운전/NNG+이/JKS+힘들/VA+긴/ETN+JX+해/VX+EC+특히/MAG+나/JX+교통/NNG+이/JKS+많/VA+은/ETM+도심/NNG+지역/NNG+은/JX+더욱더/MAG+신경/NNG+쓸/VV+ETM+것/NNB+도/JX+많/VA+고/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 진짜 나만 잘한다고 되는 게 아닌 것 같더라 운전은",
+            "norm_text": "진짜 나만 잘한다고 되는 게 아닌 것 같더라 운전은",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+나/NP+만/JX+잘/MAG+한다고/VV+EC+되/VV+는/ETM+게/NNB+JKC+아닌/VCN+ETM+것/NNB+같/VA+더라/EC+운전/NNG+은/JX"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그릏긴한데 일단 내가 잘해야지 사고 날 확률이 확 줄어들지 ㅋ",
+            "norm_text": "그릏긴한데 일단 내가 잘해야지 사고 날 확률이 확 줄어들지 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그릏/VA+긴/ETN+JX+한데/VX+EC+일단/MAG+내/NP+가/JKS+잘/MAG+해야지/VV+EC+사고/NNG+날/NNG+확률/NNG+이/JKS+확/MAG+줄어들/VV+지/EC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 맞지 진짜 자동차 종류만 알아보면 뭐하냐고 ㅠㅠ",
+            "norm_text": "키키 맞지 진짜 자동차 종류만 알아보면 뭐하냐고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+지/EF+진짜/MAG+자동차/NNG+종류/NNG+만/JX+알아보/VV+면/EC+뭐/IC+하/VV+냐고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 난 쫄보라 어려워",
+            "norm_text": "난 쫄보라 어려워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+쫄/VV+ETM+보라/NNG+어려워/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 보통 보면 내가 좀만 더 천천히 가고 양보할 생각하고 방어할 생각만 하면 안 날 사고들이 엄청 많아",
+            "norm_text": "보통 보면 내가 좀만 더 천천히 가고 양보할 생각하고 방어할 생각만 하면 안 날 사고들이 엄청 많아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "보통/NNG+보/VV+면/EC+내/NP+가/JKS+좀/MAG+만/JX+더/MAG+천천히/MAG+가/VV+고/EC+양보/NNG+할/XSV+ETM+생각/NNG+하/XSV+고/EC+방어/NNG+할/XSV+ETM+생각/NNG+만/JX+하/VV+면/EC+안/MAG+날/VV+ETM+사고/NNG+들/XSN+이/JKS+엄청/MAG+많/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 그래? 힉 명심하겠습니다.",
+            "norm_text": "아 그래? 힉 명심하겠습니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+힉명/UNKNOWN+심하/VA+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 옆 차가 분명 들어올 거 같은 느낌이 쌔하게 드는데",
+            "norm_text": "옆 차가 분명 들어올 거 같은 느낌이 쌔하게 드는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "옆/NNG+차/NNG+가/JKS+분명/MAG+들어올/VV+ETM+거/NNB+같/VA+은/ETM+느낌/NNG+이/JKS+쌔/NNG+하/XSV+게/EC+드는데/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그냥 내가 좀만 천천히 가면 될 것을 끼어드는 게 싫다고 악셀 밟고 머 그런식? 암튼 이런 게 대게 많음",
+            "norm_text": "그냥 내가 좀만 천천히 가면 될 것을 끼어드는 게 싫다고 악셀 밟고 머 그런식? 암튼 이런 게 대게 많음",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+내/NP+가/JKS+좀/MAG+만/JX+천천히/MAG+가/VV+면/EC+될/VV+ETM+것/NNB+을/JKO+끼어드/VV+는/ETM+게/NNB+JKS+싫/VA+다고/EC+악셀/NNG+밟/VV+고/EC+머/IC+그런/MM+식/NNB+암튼/MAJ+이런/MM+게/NNB+JKS+대/VV+게/EC+많/VA+음/ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그냥 나는 어른이 되면 살래 아직은 너무 어려워",
+            "norm_text": "그냥 나는 어른이 되면 살래 아직은 너무 어려워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+나/NP+는/JX+어른/NNG+이/JKS+되/VV+면/EC+살래/VV+EC+아직/MAG+은/JX+너무/MAG+어려워/VA+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 일단 면허부터 따세여 키키 멀 사여 키키",
+            "norm_text": "일단 면허부터 따세여 키키 멀 사여 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "일단/MAG+면허/NNG+부터/JX+따/VV+EC+세여/NNG+키/XSV+ETN+키멀/NNP+사여/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 아니 면허 따는 것도 너무 비싸!",
+            "norm_text": "키키 아니 면허 따는 것도 너무 비싸!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+면/EC+허/VV+EC+따/VV+는/ETM+것/NNB+도/JX+너무/MAG+비싸/VA+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 그냥 시험 보러 가 키키",
+            "norm_text": "키키 그냥 시험 보러 가 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/NNG+그냥/MAG+시험/NNG+보/VV+러/EC+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 떨어지다 보면 붙겠지 학원 등록하지 말고 ㅋ",
+            "norm_text": "떨어지다 보면 붙겠지 학원 등록하지 말고 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "떨어지/VV+다/EC+보/VX+면/EC+붙/VV+겠/EP+지/EC+학원/NNG+등록/NNG+하/XSV+지/EC+말/VX+고/EC+ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

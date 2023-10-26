@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24241,
+    "name": "KAKAO_560_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256022847/KAKAO_560_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256022847/KAKAO_560_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30128,
+      "filename": "KAKAO_560_17.txt",
+      "title": "KAKAO_560_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 365,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 365,
+        "word_size": 122,
+        "text": "1 : 요즘 배가 너무 꾸륵꾸륵거려 ㅠㅠ\n2 : 뭐 잘못 먹은 거 있어?\n1 : 응 나 요즘 기름진 거 많이 먹음 ㅠㅠ\n2 : 맞아 기름진 고기 많이 먹으면 가스 차더라!\n1 : 유산균 먹었는데도 배가 빵빵해!\n2 : 요즘에 나도 배에 가스가 많이 차더라고.\n1 : 병원을 가도 원인을 잘 모른대 키키\n2 : 과민성 대장 증후군 일 수도 있어 ㅜ\n1 : 아 그래? 그건 어떻게 관리히지...\n2 : 젤 유명한 채소 식이섬유 많이 먹기!\n1 : 헐... 나는 채소 싫은데 ㅠㅠ\n2 : 나도 채소가 넘 싫어 맛없어!\n1 : 키키 샐러드 이런 건 맛있긴 하던데\n2 : 그럼 샐러드부터 시작할까? 키키\n1 : 맞아 키키 건강하게 식단 해야겠어 ㅠㅠ\n2 : 좋아 우리 건강한 장을 만들자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 배가 너무 꾸륵꾸륵거려 ㅠㅠ",
+            "norm_text": "요즘 배가 너무 꾸륵꾸륵거려 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+배/NNG+가/JKS+너무/MAG+꾸/VV+륵꾸/UNKNOWN+륵/NNG+거려/XSV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 뭐 잘못 먹은 거 있어?",
+            "norm_text": "뭐 잘못 먹은 거 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+잘못/MAG+먹/VV+은/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 나 요즘 기름진 거 많이 먹음 ㅠㅠ",
+            "norm_text": "응 나 요즘 기름진 거 많이 먹음 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+요즘/MAG+기름진/VA+ETM+거/NNB+많이/MAG+먹/VV+음/ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아 기름진 고기 많이 먹으면 가스 차더라!",
+            "norm_text": "맞아 기름진 고기 많이 먹으면 가스 차더라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+기름진/VA+ETM+고기/NNG+많이/MAG+먹/VV+으면/EC+가스/NNG+차/NNG+더라/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 유산균 먹었는데도 배가 빵빵해!",
+            "norm_text": "유산균 먹었는데도 배가 빵빵해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "유산균/NNG+먹/VV+었/EP+는데/EC+도배/NNG+가/JKS+빵빵/MAG+해/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요즘에 나도 배에 가스가 많이 차더라고.",
+            "norm_text": "요즘에 나도 배에 가스가 많이 차더라고.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+에/JKB+나/NP+도/JX+배/NNG+에/JKB+가스/NNG+가/JKS+많이/MAG+차/VV+더라고/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 병원을 가도 원인을 잘 모른대 키키",
+            "norm_text": "병원을 가도 원인을 잘 모른대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+을/JKO+가/VV+도/EC+원인/NNG+을/JKO+잘/MAG+모른대/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 과민성 대장 증후군 일 수도 있어 ㅜ",
+            "norm_text": "과민성 대장 증후군 일 수도 있어 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "과민성/NNG+대장/NNG+증후군/NNG+일/VCP+ETM+수/NNB+도/JX+있/VA+어/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그래? 그건 어떻게 관리히지...",
+            "norm_text": "아 그래? 그건 어떻게 관리히지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+그건/NP+JX+어떻/VA+게/EC+관리/NNG+히/VCP+지/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 젤 유명한 채소 식이섬유 많이 먹기!",
+            "norm_text": "젤 유명한 채소 식이섬유 많이 먹기!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "젤/MAG+유명/NNG+한/XSA+ETM+채/NNB+소식/NNG+이/JKS+섬유/NNG+많이/MAG+먹/VV+기/ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 헐... 나는 채소 싫은데 ㅠㅠ",
+            "norm_text": "헐... 나는 채소 싫은데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+나/NP+는/JX+채소/NNG+싫/VA+은데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나도 채소가 넘 싫어 맛없어!",
+            "norm_text": "나도 채소가 넘 싫어 맛없어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+채소/NNG+가/JKS+넘/MAG+싫/VA+어/EC+맛없/VA+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 샐러드 이런 건 맛있긴 하던데",
+            "norm_text": "키키 샐러드 이런 건 맛있긴 하던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+샐러드/NNG+이런/MM+건/NNB+JX+맛있/VA+긴/ETN+JX+하/VX+던데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼 샐러드부터 시작할까? 키키",
+            "norm_text": "그럼 샐러드부터 시작할까? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+샐러드/NNG+부터/JX+시작/NNG+할까/XSV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 키키 건강하게 식단 해야겠어 ㅠㅠ",
+            "norm_text": "맞아 키키 건강하게 식단 해야겠어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+건강/NNG+하/XSV+게/EC+식단/NNG+해야겠어/XSV+EC+VX+EP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 좋아 우리 건강한 장을 만들자!",
+            "norm_text": "좋아 우리 건강한 장을 만들자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "좋/VA+아/EC+우리/NP+건강/NNG+한/MM+장/NNBC+을/JKO+만들/VV+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

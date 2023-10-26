@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 20552,
+    "name": "KAKAO_505_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151234075654/KAKAO_505_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151234075654/KAKAO_505_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28649,
+      "filename": "KAKAO_505_19.txt",
+      "title": "KAKAO_505_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 572,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 572,
+        "word_size": 181,
+        "text": "1 : 요즘 이무진이라는 가수 노래 너무 좋아\n2 : 이무진? 이 누구지 키키 트롯 가수인가\n1 : 트롯 가수는 아니고 키키 무슨 프로그램에 나왔다던데 키키 싱어게인인가 하는\n2 : 아 맞다 맞다 키키 갑자기... 얼굴이 생각남...이름은 긴가 민가 했는데\n1 : 우리 엄마 맨날 트롯 프로그램 봐서 싫어 키키\n2 : 아 키키 정말 키키 이제 트롯 살짝...질려지는 듯한 느낌 ㅠㅠ\n1 : 장민호 가수 팬인데 아주 지긋지긋해 키키\n2 : 키키 계속 하잖아 키키 티비 조선에서\n1 : 봉숭아학당, 사랑의 콜센터 할 시간 되면 아주 진절머리 키키\n2 : 와 챙겨보시는구나...\n2 : 나는 이제 안 보는데 키키 질리더라 ...\n1 : 나는 그나마 영탁 가수 괜찮았는데 이번에 뭔 사건 있었지 않아? 막걸리 회사하고 키키\n2 : 아 맞아 키키 막걸리 회사에서 영탁이라는 상호를 쓴 듯... 이건 참 애매해 키키\n1 : 다 필요 없고 방탄 소년단이 짱이야\n2 : 키키 맞아 방탄 소년단이 짱이지\n2 : 진짜 최고야 노래도 다 좋고!\n1 : 뷔 너무 잘생겼어 ㅠ\n1 : 연기자 해도 될 거 같아 ㅠ\n2 : 키키 뷔 잘생겼지...\n2 : 진짜 뭘 해도 괜찮을 듯 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 이무진이라는 가수 노래 너무 좋아",
+            "norm_text": "요즘 이무진이라는 가수 노래 너무 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+이/JKS+무진/NNP+이/VCP+라는/ETM+가수/NNG+노래/NNG+너무/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이무진? 이 누구지 키키 트롯 가수인가",
+            "norm_text": "이무진? 이 누구지 키키 트롯 가수인가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이무진/NNP+?/SY+이/JKS+누구/NP+지/VCP+EC+키/NNG+키/NNG+트롯/NNG+가수/NNG+인가/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 트롯 가수는 아니고 키키 무슨 프로그램에 나왔다던데 키키 싱어게인인가 하는",
+            "norm_text": "트롯 가수는 아니고 키키 무슨 프로그램에 나왔다던데 키키 싱어게인인가 하는",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "트롯/NNG+가수/NNG+는/JX+아니/VCN+고/EC+키/NNG+키/XSV+ETN+무슨/MM+프로그램/NNG+에/JKB+나왔/VV+EP+다던데/EC+키/NNG+키/NNG+싱어/NNG+게인/NNG+인가/VCP+EC+하/VV+는/ETM"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 맞다 맞다 키키 갑자기... 얼굴이 생각남...이름은 긴가 민가 했는데",
+            "norm_text": "아 맞다 맞다 키키 갑자기... 얼굴이 생각남...이름은 긴가 민가 했는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+다/EC+맞/VV+다/EC+키/NNG+키/NNG+갑자기/MAG+./SY+얼굴/NNG+이/JKS+생각/NNG+남/NNG+./SY+./SY+이름/NNG+은/JX+긴가민가/MAG+했/VV+EP+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 우리 엄마 맨날 트롯 프로그램 봐서 싫어 키키",
+            "norm_text": "우리 엄마 맨날 트롯 프로그램 봐서 싫어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+엄마/NNG+맨날/MAG+트롯/NNG+프로그램/NNG+봐서/VV+EC+싫/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 키키 정말 키키 이제 트롯 살짝...질려지는 듯한 느낌 ㅠㅠ",
+            "norm_text": "아 키키 정말 키키 이제 트롯 살짝...질려지는 듯한 느낌 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+정말/MAG+키/NNG+키/NNG+이제/MAG+트롯/NNG+살짝/MAG+./SY+질려/VV+EC+지/VX+는/ETM+듯/NNB+한/XSA+ETM+느낌/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 장민호 가수 팬인데 아주 지긋지긋해 키키",
+            "norm_text": "장민호 가수 팬인데 아주 지긋지긋해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장민호/NNP+가수/NNG+팬/NNG+인데/VCP+EC+아주/MAG+지긋지긋/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 계속 하잖아 키키 티비 조선에서",
+            "norm_text": "키키 계속 하잖아 키키 티비 조선에서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+계속/NNG+하/XSV+잖아/EC+키/NNG+키/NNG+티비/NNG+조선/NNP+에서/JKB"
+          },
+          {
+            "id": 9,
+            "text": "1 : 봉숭아학당, 사랑의 콜센터 할 시간 되면 아주 진절머리 키키",
+            "norm_text": "봉숭아학당, 사랑의 콜센터 할 시간 되면 아주 진절머리 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "봉숭아/NNG+학당/NNG+,/SC+사랑/NNG+의/JKG+콜/NNG+센터/NNG+할/XSV+ETM+시간/NNG+되/XSV+면/EC+아주/MAG+진절머리/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 와 챙겨보시는구나...",
+            "norm_text": "와 챙겨보시는구나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/VV+EC+챙겨/VV+EC+보/VX+시/EP+는구나/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 이제 안 보는데 키키 질리더라 ...",
+            "norm_text": "나는 이제 안 보는데 키키 질리더라 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+이제/MAG+안/MAG+보/VV+는데/EC+키/NNG+키/XSV+ETN+질리/VV+더라/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나는 그나마 영탁 가수 괜찮았는데 이번에 뭔 사건 있었지 않아? 막걸리 회사하고 키키",
+            "norm_text": "나는 그나마 영탁 가수 괜찮았는데 이번에 뭔 사건 있었지 않아? 막걸리 회사하고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+그나마/MAG+영탁/NNG+가수/NNG+괜찮/VA+았/EP+는데/EC+이번/NNG+에/JKB+뭔/MM+사건/NNG+있/VV+었/EP+지/EC+않/VX+아/EF+막걸리/NNG+회사/NNG+하/XSV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 맞아 키키 막걸리 회사에서 영탁이라는 상호를 쓴 듯... 이건 참 애매해 키키",
+            "norm_text": "아 맞아 키키 막걸리 회사에서 영탁이라는 상호를 쓴 듯... 이건 참 애매해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+아/EC+키/NNG+키/NNG+막걸리/NNG+회사/NNG+에서/JKB+영탁/NNG+이/VCP+라는/ETM+상호/NNG+를/JKO+쓴/VV+ETM+듯/NNB+./SY+이건/NP+JX+참/MAG+애매/XR+해/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 다 필요 없고 방탄 소년단이 짱이야",
+            "norm_text": "다 필요 없고 방탄 소년단이 짱이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+필요/NNG+없/VA+고/EC+방탄소년단/NNP+이/JKS+짱/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 맞아 방탄 소년단이 짱이지",
+            "norm_text": "키키 맞아 방탄 소년단이 짱이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+방탄소년단/NNP+이/JKS+짱/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 진짜 최고야 노래도 다 좋고!",
+            "norm_text": "진짜 최고야 노래도 다 좋고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+최고/NNG+야/VCP+EF+노래/NNG+도/JX+다/MAG+좋/VA+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 뷔 너무 잘생겼어 ㅠ",
+            "norm_text": "뷔 너무 잘생겼어 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뷔너무잘생겼어ㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 연기자 해도 될 거 같아 ㅠ",
+            "norm_text": "연기자 해도 될 거 같아 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연기자/NNG+해도/XSV+EC+될/VV+ETM+거/NNB+같/VA+아/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 뷔 잘생겼지...",
+            "norm_text": "키키 뷔 잘생겼지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+뷔/NNG+잘/MAG+생겼/VV+EP+지/EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 진짜 뭘 해도 괜찮을 듯 키키",
+            "norm_text": "진짜 뭘 해도 괜찮을 듯 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+뭘/NP+JKO+해도/VV+EC+괜찮/VA+을/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

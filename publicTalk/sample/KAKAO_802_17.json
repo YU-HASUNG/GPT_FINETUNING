@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45677,
+    "name": "KAKAO_802_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172236041890/KAKAO_802_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172236041890/KAKAO_802_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39635,
+      "filename": "KAKAO_802_17.txt",
+      "title": "KAKAO_802_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 369,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 369,
+        "word_size": 138,
+        "text": "1 : 요즘 잠을 못 자\n2 : 잠을 잘 자야 키가 크지\n1 : 잠 많이 자서 키 클 나이는 지났는데...\n2 : 근데 나도 요즘 못 자\n1 : 너는 왜 못 자\n2 : 그러게 비행기 소리도 들리고 그래서 중간에 깨\n1 : 누나도 이사 온 지 얼마 안 돼서 비행기 소리 때문에 고생 좀 했다\n2 : 누나는 비행기 소리 때문에 못 자는 게 아니네\n1 : 비행기도 이유가 있어 그 소리는 익숙해지지 않아\n2 : 낮에 낮잠 자는 거 아냐?\n1 : 낮잠 잘 때도 있고 안 잘 때도 있는데 늘 못 자\n2 : 나는 낮잠 자는 게 문제인 것 같아\n1 : 너는 그럼 하루를 종일 자지 말고 참아 봐\n2 : 그거는 너무 힘들 것 같은데\n1 : 그래야 밤낮을 되돌릴 수 있어\n2 : 좋아 한 번 시도해 볼게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 잠을 못 자",
+            "norm_text": "요즘 잠을 못 자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+잠/NNG+을/JKO+못자/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 잠을 잘 자야 키가 크지",
+            "norm_text": "잠을 잘 자야 키가 크지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잠/NNG+을/JKO+잘/MAG+자야/NNG+키가/XSV+ETN+JKS+크/VA+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 잠 많이 자서 키 클 나이는 지났는데...",
+            "norm_text": "잠 많이 자서 키 클 나이는 지났는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "잠/NNG+많이/MAG+자서/NNG+키/XSV+ETN+클/VA+ETM+나이/NNG+는/JX+지났/VV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 근데 나도 요즘 못 자",
+            "norm_text": "근데 나도 요즘 못 자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+나/NP+도/JX+요즘/NNG+못자/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 너는 왜 못 자",
+            "norm_text": "너는 왜 못 자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+왜/MAG+못자/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러게 비행기 소리도 들리고 그래서 중간에 깨",
+            "norm_text": "그러게 비행기 소리도 들리고 그래서 중간에 깨",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+게/EC+비행기/NNG+소리/NNG+도/JX+들리/VV+고/EC+그래서/MAJ+중간/NNG+에/JKB+깨/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 누나도 이사 온 지 얼마 안 돼서 비행기 소리 때문에 고생 좀 했다",
+            "norm_text": "누나도 이사 온 지 얼마 안 돼서 비행기 소리 때문에 고생 좀 했다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누나/NNG+도/JX+이사/NNG+온지/NR+VCP+EC+얼마/NNG+안/MAG+돼서/VV+EC+비행기/NNG+소리/NNG+때문/NNB+에/JKB+고생/NNG+좀/MAG+했/VV+EP+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 누나는 비행기 소리 때문에 못 자는 게 아니네",
+            "norm_text": "누나는 비행기 소리 때문에 못 자는 게 아니네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누나/NNG+는/JX+비행기/NNG+소리/NNG+때문/NNB+에/JKB+못/MAG+자/VV+는/ETM+게/NNB+JKC+아니/VCN+네/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 비행기도 이유가 있어 그 소리는 익숙해지지 않아",
+            "norm_text": "비행기도 이유가 있어 그 소리는 익숙해지지 않아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비행기/NNG+도/JX+이유/NNG+가/JKS+있/VA+어/EC+그/MM+소리/NNG+는/JX+익숙/XR+해지지/XSA+EC+않/VX+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 낮에 낮잠 자는 거 아냐?",
+            "norm_text": "낮에 낮잠 자는 거 아냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "낮/NNG+에/JKB+낮잠/NNG+자/VV+는/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 낮잠 잘 때도 있고 안 잘 때도 있는데 늘 못 자",
+            "norm_text": "낮잠 잘 때도 있고 안 잘 때도 있는데 늘 못 자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "낮잠/NNG+잘/MAG+때/NNG+도/JX+있/VA+고/EC+안/MAG+잘/MAG+때/NNG+도/JX+있/VA+는데/EC+늘/MAG+못자/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 낮잠 자는 게 문제인 것 같아",
+            "norm_text": "나는 낮잠 자는 게 문제인 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+낮잠/NNG+자/VV+는/ETM+게/NNB+JKS+문제/NNG+인/VCP+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 너는 그럼 하루를 종일 자지 말고 참아 봐",
+            "norm_text": "너는 그럼 하루를 종일 자지 말고 참아 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "너/NP+는/JX+그럼/MAJ+하루/NNG+를/JKO+종일/NNG+자/VV+지/EC+말/VX+고/EC+참/VV+아/EC+봐/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그거는 너무 힘들 것 같은데",
+            "norm_text": "그거는 너무 힘들 것 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+는/JX+너무/MAG+힘들/VA+ETM+것/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래야 밤낮을 되돌릴 수 있어",
+            "norm_text": "그래야 밤낮을 되돌릴 수 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래야/MAJ+밤낮/NNG+을/JKO+되돌릴/VV+ETM+수/NNB+있/VV+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 좋아 한 번 시도해 볼게",
+            "norm_text": "좋아 한 번 시도해 볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아/EC+한/MM+번/NNBC+시도/NNG+해/XSV+EC+볼/VX+게/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

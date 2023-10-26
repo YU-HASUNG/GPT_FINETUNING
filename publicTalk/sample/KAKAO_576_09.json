@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 28618,
+    "name": "KAKAO_576_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt202109231548360399101/KAKAO_576_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt202109231548360399101/KAKAO_576_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31480,
+      "filename": "KAKAO_576_09.txt",
+      "title": "KAKAO_576_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 568,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 568,
+        "word_size": 187,
+        "text": "1 : 어제 엄빠가 밥을 부실하게 줬나 봐\n2 : 왜 배고파 해?\n2 : 근데 걔네는 좀 배고파도 돼 사료를 안 먹어!\n1 : 키키 글긴 해 아 맞다 엄빠 보고 경비실에서 찾아오라 해봐 사료\n2 : 아직도 안 찾음? 어제 말하긴 했는데\n2 : 택배 아저씨 짜증 나네 왜 거기다 사료를 맡겨 가지고는\n1 : 그니까 자꾸 잊어 먹어지잖아 경비실은\n2 : 그니깐 내가 집에 가져다 놓으라 했는데\n2 : 낼은 찾으라 해야지\n1 : 응응 키키 근데 어제 새벽에 아랑이 밥 한 톨도 안 먹어서 아랑이 것만 이유식 만들었거든?\n2 : 이유식이요...? 걍 사료를 으깨주는 건 어땜?\n1 : 으 절대 안 먹어\n1 : 근데 기무연 평소에 거들떠도 안 보는데 애절하게 쳐다봐서 줬더니 잘 먹어\n2 : 에휴 보고 싶다 아랑이 우연이 넘나 보고 싶은 것\n1 : 그니까 얘네 죽기 전에 자주 봐야 후회 눈물 안 흘린다9\n2 : 근데 아무리 잘해줘도 후회는 무조건 남음\n1 : 그렇겠지? 난 진짜 우울증 오고도 남겠지?\n2 : 흠 그건 모르겠지만 그럴 확률이 더 높지 ㅎ\n1 : 진짜 내 자식 빨리 보내는 느낌이야\n2 : 슬프게 죽는 이야기 그만하자\n2 : 아랑이 지금 뭐해?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어제 엄빠가 밥을 부실하게 줬나 봐",
+            "norm_text": "어제 엄빠가 밥을 부실하게 줬나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어제/MAG+엄/IC+빠/NNP+가/JKS+밥/NNG+을/JKO+부실/NNG+하/XSV+게/EC+줬/VX+EP+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜 배고파 해?",
+            "norm_text": "왜 배고파 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+배고파/VA+EC+해/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 근데 걔네는 좀 배고파도 돼 사료를 안 먹어!",
+            "norm_text": "근데 걔네는 좀 배고파도 돼 사료를 안 먹어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+걔/NP+네/XSN+는/JX+좀/MAG+배고파도/VA+EC+돼/VV+EC+사료/NNG+를/JKO+안/MAG+먹/VV+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 글긴 해 아 맞다 엄빠 보고 경비실에서 찾아오라 해봐 사료",
+            "norm_text": "키키 글긴 해 아 맞다 엄빠 보고 경비실에서 찾아오라 해봐 사료",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+글/VV+긴/ETN+JX+해/VX+EF+아/IC+맞/VV+다/EF+엄빠/UNKNOWN+보/VV+고/EC+경비실/NNG+에서/JKB+찾아오/VV+라/EC+해/VV+EC+봐/VX+EF+사료/NNG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아직도 안 찾음? 어제 말하긴 했는데",
+            "norm_text": "아직도 안 찾음? 어제 말하긴 했는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아직/MAG+도/JX+안/MAG+찾/VV+음/ETN+어제/MAG+말/NNG+하/XSV+긴/ETN+JX+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 택배 아저씨 짜증 나네 왜 거기다 사료를 맡겨 가지고는",
+            "norm_text": "택배 아저씨 짜증 나네 왜 거기다 사료를 맡겨 가지고는",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "택배/NNG+아저씨/NNG+짜증/NNG+나/NP+네/XSN+왜/MAG+거기/NP+다/JX+사료/NNG+를/JKO+맡겨/VV+EC+가지/VX+고는/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그니까 자꾸 잊어 먹어지잖아 경비실은",
+            "norm_text": "그니까 자꾸 잊어 먹어지잖아 경비실은",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+자꾸/MAG+잊어먹/VV+어/EC+지/VX+잖아/EC+경비실/NNG+은/JX"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그니깐 내가 집에 가져다 놓으라 했는데",
+            "norm_text": "그니깐 내가 집에 가져다 놓으라 했는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+내/NP+가/JKS+집/NNG+에/JKB+가져다/VV+EC+놓/VX+으라/EC+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 낼은 찾으라 해야지",
+            "norm_text": "낼은 찾으라 해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "낼/NNG+은/JX+찾/VV+으라/EC+해야지/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응응 키키 근데 어제 새벽에 아랑이 밥 한 톨도 안 먹어서 아랑이 것만 이유식 만들었거든?",
+            "norm_text": "응응 키키 근데 어제 새벽에 아랑이 밥 한 톨도 안 먹어서 아랑이 것만 이유식 만들었거든?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+근데/MAJ+어제/MAG+새벽/NNG+에/JKB+아랑/NNG+이/JKS+밥/NNG+한/MM+톨/NNBC+도/JX+안/MAG+먹/VV+어서/EC+아랑/NNG+이것/NP+만/JX+이/JKS+유식/NNG+만들/VV+었/EP+거든/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 이유식이요...? 걍 사료를 으깨주는 건 어땜?",
+            "norm_text": "이유식이요...? 걍 사료를 으깨주는 건 어땜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이유식/NNP+이/VCP+요/EF+./SY+./SY+걍/UNKNOWN+사료/NNG+를/JKO+으깨/VV+EC+주/VX+는/ETM+건어/NNG+땜/NNB"
+          },
+          {
+            "id": 12,
+            "text": "1 : 으 절대 안 먹어",
+            "norm_text": "으 절대 안 먹어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으/IC+절대/MAG+안/MAG+먹/VV+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 기무연 평소에 거들떠도 안 보는데 애절하게 쳐다봐서 줬더니 잘 먹어",
+            "norm_text": "근데 기무연 평소에 거들떠도 안 보는데 애절하게 쳐다봐서 줬더니 잘 먹어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+기/ETN+무연/NNG+평소/NNG+에/JKB+거들떠/VV+EC+도/JX+안/MAG+보/VV+는데/EC+애절/XR+하/XSA+게/EC+쳐다봐서/VV+EC+줬/VX+EP+더니/EC+잘/MAG+먹/VV+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 에휴 보고 싶다 아랑이 우연이 넘나 보고 싶은 것",
+            "norm_text": "에휴 보고 싶다 아랑이 우연이 넘나 보고 싶은 것",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에휴/IC+보/VV+고/EC+싶/VX+다/EC+아랑/NNG+이/JKS+우연/NNG+이/JKS+넘/VV+나/EC+보/VX+고/EC+싶/VX+은/ETM+것/NNB"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그니까 얘네 죽기 전에 자주 봐야 후회 눈물 안 흘린다9",
+            "norm_text": "그니까 얘네 죽기 전에 자주 봐야 후회 눈물 안 흘린다9",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+얘/NP+네/XSN+죽/VV+기/ETN+전/NNG+에/JKB+자주/MAG+봐야/VV+EC+후회/NNG+눈물/NNG+안/MAG+흘린다/VV+EC+9/SN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 아무리 잘해줘도 후회는 무조건 남음",
+            "norm_text": "근데 아무리 잘해줘도 후회는 무조건 남음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+아무리/MAG+잘/MAG+해줘도/VV+EC+VX+EC+후회/NNG+는/JX+무조건/MAG+남음/NNG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그렇겠지? 난 진짜 우울증 오고도 남겠지?",
+            "norm_text": "그렇겠지? 난 진짜 우울증 오고도 남겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇/VA+겠/EP+지/EF+난/NP+JX+진짜/MAG+우울증/NNG+오/VV+고/EC+도/JX+남/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 흠 그건 모르겠지만 그럴 확률이 더 높지 ㅎ",
+            "norm_text": "흠 그건 모르겠지만 그럴 확률이 더 높지 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "흠/IC+그건/NP+JX+모르/VV+겠/EP+지만/EC+그럴/VV+ETM+확률/NNG+이/JKS+더/MAG+높/VA+지/EF+ㅎ/XSA"
+          },
+          {
+            "id": 19,
+            "text": "1 : 진짜 내 자식 빨리 보내는 느낌이야",
+            "norm_text": "진짜 내 자식 빨리 보내는 느낌이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+내/NP+JKG+자식/NNG+빨리/MAG+보내/VV+는/ETM+느낌/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 슬프게 죽는 이야기 그만하자",
+            "norm_text": "슬프게 죽는 이야기 그만하자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "슬프/VA+게/EC+죽/VV+는/ETM+이야기/NNG+그만/MAG+하/VV+자/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 아랑이 지금 뭐해?",
+            "norm_text": "아랑이 지금 뭐해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아랑/NNG+이/JKS+지금/MAG+뭐/IC+해/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

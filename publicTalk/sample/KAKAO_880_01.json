@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 32870,
+    "name": "KAKAO_880_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175159032550/KAKAO_880_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175159032550/KAKAO_880_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40379,
+      "filename": "KAKAO_880_01.txt",
+      "title": "KAKAO_880_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 426,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 426,
+        "word_size": 142,
+        "text": "1 : 밥 먹었니 나의 친구야?\n2 : 먹었지 방금 먹었당~ 배불러\n1 : 뭐 먹었니 오늘 저녁은?\n2 : 오늘 동생이 전역해서 파티했어\n1 : 헐 진짜? 이제 전역했어?\n2 : 응응! 대박이지 오늘 나왔어\n1 : 헐 맛있는 거 먹었겠네 그럼?\n2 : 오늘 마트 가서 회랑 초밥이랑 삼겹살이랑 사서 파티했어\n1 : 헐 맛있겠다...\n1 : 근데 너 나랑 메뉴 완전 겹친다 키키\n2 : 오 진짜? 너 뭐 먹었오\n1 : 나 오늘 매장에서 초밥 받았는데 시간 없어서 2피스 먹고 저녁으로 삼겹살 먹음 키키\n2 : 와 키키 진짜 똑같다 어쩜 이러니\n1 : 그니까 키키 겁나 웃겨\n1 : 무슨 초밥 먹음 혹시...?\n2 : 키키 모둠 초밥 먹었는뎅 키키\n2 : 몰라 연어랑 새우랑 뭐 하얀 회 있었음\n1 : 하 연어까지 같은 건 그냥 운명이야,?\n2 : 데스티니... 우린 어쩔 수 없나 봐... 넘 똑",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 밥 먹었니 나의 친구야?",
+            "norm_text": "밥 먹었니 나의 친구야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "밥/NNG+먹/VV+었/EP+니/EC+나/NP+의/JKG+친구/NNG+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 먹었지 방금 먹었당~ 배불러",
+            "norm_text": "먹었지 방금 먹었당~ 배불러",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "먹었지방금먹었당/UNKNOWN+~/SY+배불러/VA+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 뭐 먹었니 오늘 저녁은?",
+            "norm_text": "뭐 먹었니 오늘 저녁은?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+먹/VV+었/EP+니/EC+오늘/MAG+저녁/NNG+은/JX"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오늘 동생이 전역해서 파티했어",
+            "norm_text": "오늘 동생이 전역해서 파티했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+동생/NNG+이/JKS+전역/NNG+해서/XSV+EC+파티/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 헐 진짜? 이제 전역했어?",
+            "norm_text": "헐 진짜? 이제 전역했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+진짜/MAG+이제/MAG+전역/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응! 대박이지 오늘 나왔어",
+            "norm_text": "응응! 대박이지 오늘 나왔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+대박/NNG+이/VCP+지/EF+오늘/MAG+나왔/VV+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헐 맛있는 거 먹었겠네 그럼?",
+            "norm_text": "헐 맛있는 거 먹었겠네 그럼?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+맛있/VA+는/ETM+거/NNB+먹/VV+었/EP+겠/EP+네/EF+그럼/MAJ"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오늘 마트 가서 회랑 초밥이랑 삼겹살이랑 사서 파티했어",
+            "norm_text": "오늘 마트 가서 회랑 초밥이랑 삼겹살이랑 사서 파티했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+마트/NNG+가/JKS+서회/NNG+랑/JKB+초밥/NNG+이랑/JKB+삼겹살/NNG+이랑/JKB+사/VV+서/EC+파티/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 헐 맛있겠다...",
+            "norm_text": "헐 맛있겠다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+맛있/VA+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 근데 너 나랑 메뉴 완전 겹친다 키키",
+            "norm_text": "근데 너 나랑 메뉴 완전 겹친다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+너/NP+나/NP+랑/JKB+메뉴/NNG+완전/MAG+겹친/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 11,
+            "text": "2 : 오 진짜? 너 뭐 먹었오",
+            "norm_text": "오 진짜? 너 뭐 먹었오",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+진짜/MAG+너/NP+뭐/IC+먹/VV+었/EP+오/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나 오늘 매장에서 초밥 받았는데 시간 없어서 2피스 먹고 저녁으로 삼겹살 먹음 키키",
+            "norm_text": "나 오늘 매장에서 초밥 받았는데 시간 없어서 2피스 먹고 저녁으로 삼겹살 먹음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+오늘/MAG+매장/NNG+에서/JKB+초밥/NNG+받/VV+았/EP+는데/EC+시간/NNG+없/VA+어서/EC+2/SN+피스/NNG+먹/VV+고/EC+저녁/NNG+으로/JKB+삼겹살/NNG+먹/VV+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 와 키키 진짜 똑같다 어쩜 이러니",
+            "norm_text": "와 키키 진짜 똑같다 어쩜 이러니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와키/NNP+키/NNG+진짜/MAG+똑같/VA+다/EF+어쩜/IC+이러/VV+니/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그니까 키키 겁나 웃겨",
+            "norm_text": "그니까 키키 겁나 웃겨",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+키/NNG+키/XSV+ETN+겁나/VV+EC+웃겨/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 무슨 초밥 먹음 혹시...?",
+            "norm_text": "무슨 초밥 먹음 혹시...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+초밥/NNG+먹/VV+음/ETN+혹시/MAG+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 모둠 초밥 먹었는뎅 키키",
+            "norm_text": "키키 모둠 초밥 먹었는뎅 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+모둠/NNG+초밥/NNG+먹/VV+었/EP+는/ETM+뎅/NNP+키키/NNP"
+          },
+          {
+            "id": 17,
+            "text": "2 : 몰라 연어랑 새우랑 뭐 하얀 회 있었음",
+            "norm_text": "몰라 연어랑 새우랑 뭐 하얀 회 있었음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몰라/VV+EC+연어/NNG+랑/JKB+새우/NNG+랑/JKB+뭐/IC+하얀/VA+ETM+회/NNG+있/VV+었/EP+음/ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 하 연어까지 같은 건 그냥 운명이야,?",
+            "norm_text": "하 연어까지 같은 건 그냥 운명이야,?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하/IC+연어/NNG+까지/JX+같/VA+은/ETM+건/NNB+JX+그냥/MAG+운명/NNG+이/VCP+야/EF+,/SC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 데스티니... 우린 어쩔 수 없나 봐... 넘 똑",
+            "norm_text": "데스티니... 우린 어쩔 수 없나 봐... 넘 똑",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "데스티니/NNP+./SY+./SY+우린/NP+JX+어쩔/VV+ETM+수/NNB+없/VA+나/EC+봐/VX+EF+./SY+넘똑/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

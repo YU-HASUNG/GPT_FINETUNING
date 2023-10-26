@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20221,
+    "name": "KAKAO_466_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145025033064/KAKAO_466_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916145025033064/KAKAO_466_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28314,
+      "filename": "KAKAO_466_04.txt",
+      "title": "KAKAO_466_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 373,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 373,
+        "word_size": 120,
+        "text": "1 : 요새 취업난이 장난 아니야\n2 : 맞아... 뭐 먹고 살ㅈ\n1 : 우리가 벌써 취업 걱정 할 나이라니 ㅜㅜ\n2 : 그러게 ㅠㅜ 가끔 고등학생으로 돌아가고 싶어\n1 : 내 주변 친구들도 취업 걱정이더라...\n2 : 너는 요즘 어떤 준비해 ?\n1 : 자격증 준비 중이야\n2 : 그렇구나 나는 그냥 시험 준비 열심히 하는데 잘 안된다 ㅠ\n1 : 고생하네 ㅜㅜ 너는 무슨 자격증 준비 중이야?\n2 : 시험 과목이 개편돼서 한능검이랑 지텔프 해야 해\n1 : 뭐가 뭔지 모르겠다\n2 : 한국능력시험이랑 지텔프 몰라?\n1 : 아아~ 줄임말이구나!\n1 : 지텔프 뭐야?\n2 : 지텔프 약간 음... 토익 다운그레이 느낌 키키?\n1 : 오 그런 게 있었구나 화이팅!\n2 : 그래 너도 자격증 준비 잘 하렴",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요새 취업난이 장난 아니야",
+            "norm_text": "요새 취업난이 장난 아니야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요새/NNG+취업/NNG+난이/NNG+장난/NNG+아니/VCN+야/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아... 뭐 먹고 살ㅈ",
+            "norm_text": "맞아... 뭐 먹고 살ㅈ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+뭐/IC+먹/VV+고/EC+살/VV+ETM+ㅈ/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리가 벌써 취업 걱정 할 나이라니 ㅜㅜ",
+            "norm_text": "우리가 벌써 취업 걱정 할 나이라니 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+가/JKS+벌써/MAG+취업/NNG+걱정/NNG+할/XSV+ETM+나이/NNG+라니/VCP+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그러게 ㅠㅜ 가끔 고등학생으로 돌아가고 싶어",
+            "norm_text": "그러게 ㅠㅜ 가끔 고등학생으로 돌아가고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러/VV+게/EC+ㅠㅜ/UNKNOWN+가끔/MAG+고등/NNG+학생/NNG+으로/JKB+돌아가/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 내 주변 친구들도 취업 걱정이더라...",
+            "norm_text": "내 주변 친구들도 취업 걱정이더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+주변/NNG+친구/NNG+들/XSN+도/JX+취업/NNG+걱정/NNG+이/VCP+더라/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너는 요즘 어떤 준비해 ?",
+            "norm_text": "너는 요즘 어떤 준비해 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+요즘/MAG+어떤/MM+준비/NNG+해/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 자격증 준비 중이야",
+            "norm_text": "자격증 준비 중이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자격증/NNG+준비/NNG+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그렇구나 나는 그냥 시험 준비 열심히 하는데 잘 안된다 ㅠ",
+            "norm_text": "그렇구나 나는 그냥 시험 준비 열심히 하는데 잘 안된다 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+나/NP+는/JX+그냥/MAG+시험/NNG+준비/NNG+열심히/MAG+하/VV+는데/EC+잘/MAG+안/MAG+된/VV+ETM+다ㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 고생하네 ㅜㅜ 너는 무슨 자격증 준비 중이야?",
+            "norm_text": "고생하네 ㅜㅜ 너는 무슨 자격증 준비 중이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고생/NNG+하/XSA+네/EF+ㅜㅜ/UNKNOWN+너/NP+는/JX+무슨/MM+자격증/NNG+준비/NNG+중/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 시험 과목이 개편돼서 한능검이랑 지텔프 해야 해",
+            "norm_text": "시험 과목이 개편돼서 한능검이랑 지텔프 해야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시험/NNG+과목/NNG+이/JKS+개편/NNG+돼서/XSV+EC+한/MM+능/NNG+검/NNG+이랑/JC+지/EC+텔프/UNKNOWN+해야/VV+EC+해/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 뭐가 뭔지 모르겠다",
+            "norm_text": "뭐가 뭔지 모르겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+가/JKS+뭔지/NP+VCP+EC+모르/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 한국능력시험이랑 지텔프 몰라?",
+            "norm_text": "한국능력시험이랑 지텔프 몰라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한국/NNP+능력/NNG+시험/NNG+이랑/JC+지/EC+텔프/UNKNOWN+몰라/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아아~ 줄임말이구나!",
+            "norm_text": "아아~ 줄임말이구나!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/NNG+~/SY+줄임/VV+ETN+말/NNG+이/VCP+구나/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 지텔프 뭐야?",
+            "norm_text": "지텔프 뭐야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지텔프뭐야/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 지텔프 약간 음... 토익 다운그레이 느낌 키키?",
+            "norm_text": "지텔프 약간 음... 토익 다운그레이 느낌 키키?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지텔프약간음/UNKNOWN+./SY+토익/NNG+다운/XSA+ETM+그레이/NNP+느낌/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오 그런 게 있었구나 화이팅!",
+            "norm_text": "오 그런 게 있었구나 화이팅!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+그런/MM+게/NNB+JKS+있/VA+었/EP+구나/EF+화이팅/IC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래 너도 자격증 준비 잘 하렴",
+            "norm_text": "그래 너도 자격증 준비 잘 하렴",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+너/NP+도/JX+자격증/NNG+준비/NNG+잘/MAG+하/VV+렴/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

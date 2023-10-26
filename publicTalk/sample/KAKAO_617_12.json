@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34135,
+    "name": "KAKAO_617_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121739015953/KAKAO_617_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121739015953/KAKAO_617_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32325,
+      "filename": "KAKAO_617_12.txt",
+      "title": "KAKAO_617_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 367,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 367,
+        "word_size": 126,
+        "text": "1 : 친구가 이번 주 주말에 호캉스 가자는데 ㅠ\n2 : 가자는데 왜?\n2 : 뭔 일 있어?\n1 : 너무 비싸서요 ㅠㅠ 키키 호텔 비가\n2 : 아니 대체 얼마길래?\n1 : 1박에 20만 원이 넘더라구요 ㅠㅠ\n2 : 호텔이 그 정도 하지 않아 원래?\n1 : 원래 10만 원 아래였거든요 키키\n2 : 그럼 두 배 가까이 오른 거네?\n1 : 네네 키키 추석도 껴 있고 그래서 그런가 봐요\n2 : 하긴 그럴 만도 하겠다~ 성수기니~\n1 : 어차피 나눠 내지만 부담되네요 ㅠㅠ\n2 : 그래도 하루 갔다 오지 왜?\n1 : 요즘은 돈 쓰는 게 겁나서리… 키키\n2 : 호텔 뭐 자주 가는 거도 아닌데 갔다 와~\n1 : 키키 이 부담을 안고 가서 잘 놀 수 있을까...\n2 : 하이고오 쫌시럽기는 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 친구가 이번 주 주말에 호캉스 가자는데 ㅠ",
+            "norm_text": "친구가 이번 주 주말에 호캉스 가자는데 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "친구/NNG+가/JKS+이번/NNG+주주/NNG+말/NNG+에/JKB+호/NNG+캉/JKB+스/IC+가/VV+자는/ETM+데ㅠ/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 가자는데 왜?",
+            "norm_text": "가자는데 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가/VV+자는데/EC+왜/MAG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 뭔 일 있어?",
+            "norm_text": "뭔 일 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭔일/NP+있/VA+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 너무 비싸서요 ㅠㅠ 키키 호텔 비가",
+            "norm_text": "너무 비싸서요 ㅠㅠ 키키 호텔 비가",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+비싸/VA+서요/EP+EF+ㅠㅠ/UNKNOWN+키/NNG+키/NNG+호텔/NNG+비/NNG+가/JKS"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아니 대체 얼마길래?",
+            "norm_text": "아니 대체 얼마길래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+대체/MAG+얼마/NNG+길래/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 1박에 20만 원이 넘더라구요 ㅠㅠ",
+            "norm_text": "1박에 20만 원이 넘더라구요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "1/SN+박/NNBC+에/JKB+20/SN+만/NR+원/NNBC+이/JKS+넘/VV+더라구요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 호텔이 그 정도 하지 않아 원래?",
+            "norm_text": "호텔이 그 정도 하지 않아 원래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "호텔/NNG+이/JKS+그/MM+정도/NNG+하/XSV+지/EC+않/VX+아/EC+원래/MAG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 원래 10만 원 아래였거든요 키키",
+            "norm_text": "원래 10만 원 아래였거든요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+10/SN+만/NR+원/NNBC+아래/NNG+였/VCP+EP+거든요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그럼 두 배 가까이 오른 거네?",
+            "norm_text": "그럼 두 배 가까이 오른 거네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+두/MM+배/NNBC+가까이/MAG+오른/VV+ETM+거/NNB+네/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 네네 키키 추석도 껴 있고 그래서 그런가 봐요",
+            "norm_text": "네네 키키 추석도 껴 있고 그래서 그런가 봐요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/NP+네/XSN+키/NNG+키/NNG+추석/NNG+도/JX+껴/VV+EC+있/VX+고/EC+그래서/MAJ+그런가/VA+EC+봐요/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 하긴 그럴 만도 하겠다~ 성수기니~",
+            "norm_text": "하긴 그럴 만도 하겠다~ 성수기니~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+그럴만도/VA+ETM+JX+JX+하/VV+겠/EP+다/EC+~/SY+성수/NNG+기니/NNG+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 어차피 나눠 내지만 부담되네요 ㅠㅠ",
+            "norm_text": "어차피 나눠 내지만 부담되네요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어차피/MAG+나눠/VV+EC+내/VX+지만/EC+부담/NNG+되/XSV+네요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그래도 하루 갔다 오지 왜?",
+            "norm_text": "그래도 하루 갔다 오지 왜?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+하루/NNG+갔다오/VV+지/EF+왜/MAG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 요즘은 돈 쓰는 게 겁나서리… 키키",
+            "norm_text": "요즘은 돈 쓰는 게 겁나서리… 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+돈/NNG+쓰/VV+는/ETM+게/NNB+JKS+겁나/MAG+서리/NNG+…/SE+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 호텔 뭐 자주 가는 거도 아닌데 갔다 와~",
+            "norm_text": "호텔 뭐 자주 가는 거도 아닌데 갔다 와~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "호텔/NNG+뭐/IC+자주/MAG+가/VV+는/ETM+거/NNB+도/JX+아닌데/VCN+EC+갔다와/VV+EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 이 부담을 안고 가서 잘 놀 수 있을까...",
+            "norm_text": "키키 이 부담을 안고 가서 잘 놀 수 있을까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+이/JKS+부담/NNG+을/JKO+안/VV+고/EC+가/VX+서/EC+잘/MAG+놀/VV+ETM+수/NNB+있/VV+을까/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 하이고오 쫌시럽기는 키키",
+            "norm_text": "하이고오 쫌시럽기는 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "하이/IC+고오/IC+쫌/MAG+시럽/XSA+기/ETN+는/JX+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

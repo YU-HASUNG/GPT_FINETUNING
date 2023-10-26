@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67732,
+    "name": "KAKAO_613_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927144319037618/KAKAO_613_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927144319037618/KAKAO_613_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34321,
+      "filename": "KAKAO_613_03.txt",
+      "title": "KAKAO_613_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 412,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 412,
+        "word_size": 131,
+        "text": "1 : 요즘 지하철은 현금으로 내면 얼만 줄 아나?\n2 : 엥 얼마 정도야?\n1 : 맨날 카드만 찍고 타니까 몰랐는데 1300원이나 하더라!\n2 : 헐? 진짜 비싸졌네 ㅜ\n1 : 그치... 나 옛날에 마을버스 250원 주고 탔는데 키키\n2 : 이젠 카드로밖에 안 써서 더 몰랐나 봐...\n1 : 그니까 ㅜㅜ 그래도 카드 하니까 1250원인가 그랬음\n2 : 요즘 선불제로 쓰는 사람 있을까?\n1 : 나 친구 중에 딱 1명 있음...\n2 : 헐 진짜? 불편하겠다 ㅜ\n1 : 근데 막상 그렇게 쓰는 애들은 불편한 거 모르더라 키키\n2 : 나는 이제 현금도 안 들고 다녀\n1 : 맞아 현금 뽑으러 가는 것도 일임 ㅜ\n2 : 만약에 타려는데 잔액 부족 뜨면 어떡해 키키\n1 : 그럼 아... 기사님 죄송한데... 내릴게요 키키\n2 : 키키 으악 완전 부끄러울 것 같아...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 지하철은 현금으로 내면 얼만 줄 아나?",
+            "norm_text": "요즘 지하철은 현금으로 내면 얼만 줄 아나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+지하철/NNG+은/JX+현금/NNG+으로/JKB+내/VV+면/EC+얼만/NNG+VCP+ETM+줄/NNB+아/VV+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥 얼마 정도야?",
+            "norm_text": "엥 얼마 정도야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+얼마/NNG+정도/NNG+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맨날 카드만 찍고 타니까 몰랐는데 1300원이나 하더라!",
+            "norm_text": "맨날 카드만 찍고 타니까 몰랐는데 1300원이나 하더라!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맨날/MAG+카드/NNG+만/JX+찍/VV+고/EC+타/VV+니까/EC+몰랐/VV+EP+는데/EC+1300/SN+원/NNBC+이나/JX+하/VV+더라/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헐? 진짜 비싸졌네 ㅜ",
+            "norm_text": "헐? 진짜 비싸졌네 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+진짜비싸졌네ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그치... 나 옛날에 마을버스 250원 주고 탔는데 키키",
+            "norm_text": "그치... 나 옛날에 마을버스 250원 주고 탔는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+./SY+나/NP+옛날/NNG+에/JKB+마을버스/NNG+250/SN+원/NNBC+주/VV+고/EC+탔/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 이젠 카드로밖에 안 써서 더 몰랐나 봐...",
+            "norm_text": "이젠 카드로밖에 안 써서 더 몰랐나 봐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이젠/NNG+JX+카드/NNG+로/JKB+밖에/JX+안/MAG+써서/VV+EC+더/MAG+몰랐/VV+EP+나/EC+봐/VX+EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그니까 ㅜㅜ 그래도 카드 하니까 1250원인가 그랬음",
+            "norm_text": "그니까 ㅜㅜ 그래도 카드 하니까 1250원인가 그랬음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니까/MAJ+ㅜㅜ/UNKNOWN+그래도/VV+EC+카드/NNG+하/XSV+니까/EC+1250/SN+원/NNBC+인가/VCP+EC+그랬음/VA+EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 요즘 선불제로 쓰는 사람 있을까?",
+            "norm_text": "요즘 선불제로 쓰는 사람 있을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+선불/NNG+제/XSN+로/JKB+쓰/VV+는/ETM+사람/NNG+있/VA+을까/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나 친구 중에 딱 1명 있음...",
+            "norm_text": "나 친구 중에 딱 1명 있음...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+친구/NNG+중/NNB+에/JKB+딱/MAG+1/SN+명/NNBC+있/VA+음/ETN+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐 진짜? 불편하겠다 ㅜ",
+            "norm_text": "헐 진짜? 불편하겠다 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+진짜/MAG+불편/NNG+하/XSV+겠/EP+다ㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 막상 그렇게 쓰는 애들은 불편한 거 모르더라 키키",
+            "norm_text": "근데 막상 그렇게 쓰는 애들은 불편한 거 모르더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+막상/MAG+그렇게/MAG+쓰/VV+는/ETM+애/NNG+들/XSN+은/JX+불편/NNG+한/XSA+ETM+거/NNB+모르/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 이제 현금도 안 들고 다녀",
+            "norm_text": "나는 이제 현금도 안 들고 다녀",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+이제/MAG+현금/NNG+도/JX+안/MAG+들/VV+고/EC+다녀/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 현금 뽑으러 가는 것도 일임 ㅜ",
+            "norm_text": "맞아 현금 뽑으러 가는 것도 일임 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+현금/NNG+뽑/VV+으러/EC+가/VX+는/ETM+것/NNB+도/JX+일/NNG+임ㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 만약에 타려는데 잔액 부족 뜨면 어떡해 키키",
+            "norm_text": "만약에 타려는데 잔액 부족 뜨면 어떡해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "만약/NNG+에/JKB+타/VV+려는/ETM+데/NNB+잔액/NNG+부족/NNG+뜨/VV+면/EC+어떡/XR+해/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그럼 아... 기사님 죄송한데... 내릴게요 키키",
+            "norm_text": "그럼 아... 기사님 죄송한데... 내릴게요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+아/IC+./SY+기사/NNG+님/XSN+죄송/XR+한데/XSA+EF+./SY+내릴/VV+ETM+게/NNB+JKS+요키/NNP+키/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 으악 완전 부끄러울 것 같아...",
+            "norm_text": "키키 으악 완전 부끄러울 것 같아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+으악/IC+완전/MAG+부끄러울/VA+ETM+것/NNB+같/VA+아/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

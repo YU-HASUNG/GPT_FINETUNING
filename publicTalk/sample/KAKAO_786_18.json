@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 40343,
+    "name": "KAKAO_786_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142023001591/KAKAO_786_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142023001591/KAKAO_786_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37768,
+      "filename": "KAKAO_786_18.txt",
+      "title": "KAKAO_786_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 674,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 674,
+        "word_size": 207,
+        "text": "1 : 저는 두 군데 아는데 한 군데는 연남동이고 한 군데는 서촌이에요!\n2 : 오 좋아 꼭 데려가 줘 키키\n1 : 하하 너무 좋죠 그리고 요즘엔 인터넷 쇼핑몰에도 저탄고지 식품 많이 팔더라구요!\n2 : 키키 맞아 다이어터들이 많아서 그런가 봐 건강에 신경을 많이 써서 사람들이\n1 : 언니 그때 제가 인터넷으로 구매해서 보냈던 그래놀라 프로틴도 괜찮아요?\n2 : 응응 엄청 맛있게 먹고 있어! 너무 맛있어\n1 : 하하 우유에 넣어서 먹고 있어요?\n2 : 응 나는 우유를 좋아해서 우유를 넣고 있어 키키 알갱이가 씹혀서 더 좋아\n1 : 하하 인터넷 쇼핑몰이 있으니까 자주 못 만나도 선물을 전달할 수 있어서 좋은 것 같아요!\n2 : 맞아 인터넷으로 요즘에는 사면 금방 금방 오니까 너무 좋은 거 같아 다양한 상품도 알 수 있고\n1 : 하하 그렇죠? 요즘 돌아다니지도 못하는데 핫플 음식들도 다 팔더라구요!\n2 : 근데 비슷한 물건도 쇼핑몰들 마다도 가격이 다 달라서 잘 찾아보고 비교해 보고 사야 할 거 같아\n1 : 맞아요 저도 뭐하나 구매하려면 비교 꼭 하는 것 같아요\n1 : 언니도 그래요?\n2 : 응 비교는 꼭 해야 하더라고 안 하고 했다가 후회 한 적이 많아서\n1 : 그쵸 쿠폰 받고 이러면 가격도 천차만별이라 꼭 해야 해요 ㅠㅠ\n2 : 맞아 귀찮아서 어릴 때는 비회원 구매로도 많이 했었는데 키키 요즘에는 꼭 챙겨서 해 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저는 두 군데 아는데 한 군데는 연남동이고 한 군데는 서촌이에요!",
+            "norm_text": "저는 두 군데 아는데 한 군데는 연남동이고 한 군데는 서촌이에요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+두/MM+군데/NNBC+아/VV+는데/EC+한/MM+군데/NNBC+는/JX+연남동/NNP+이/VCP+고/EC+한/MM+군데/NNBC+는/JX+서촌/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 좋아 꼭 데려가 줘 키키",
+            "norm_text": "오 좋아 꼭 데려가 줘 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "오/NR+좋/VA+아/EC+꼭/MAG+데려가/VV+EC+줘/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 하하 너무 좋죠 그리고 요즘엔 인터넷 쇼핑몰에도 저탄고지 식품 많이 팔더라구요!",
+            "norm_text": "하하 너무 좋죠 그리고 요즘엔 인터넷 쇼핑몰에도 저탄고지 식품 많이 팔더라구요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+너무/MAG+좋/VA+죠/EF+그리고/MAJ+요즘/NNG+엔/JKB+JX+인터넷/NNG+쇼핑몰/NNG+에/JKB+도/JX+저탄/NNG+고지/NNG+식품/NNG+많이/MAG+팔/VV+더라구요/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 맞아 다이어터들이 많아서 그런가 봐 건강에 신경을 많이 써서 사람들이",
+            "norm_text": "키키 맞아 다이어터들이 많아서 그런가 봐 건강에 신경을 많이 써서 사람들이",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+다이어터/NNP+들/XSN+이/JKS+많/VA+아서/EC+그런가/VA+EC+봐/VX+EF+건강/NNG+에/JKB+신경/NNG+을/JKO+많이/MAG+써서/VV+EC+사람/NNG+들/XSN+이/JKS"
+          },
+          {
+            "id": 5,
+            "text": "1 : 언니 그때 제가 인터넷으로 구매해서 보냈던 그래놀라 프로틴도 괜찮아요?",
+            "norm_text": "언니 그때 제가 인터넷으로 구매해서 보냈던 그래놀라 프로틴도 괜찮아요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+그때/NNG+제/NP+가/JKS+인터넷/NNG+으로/JKB+구매/NNG+해서/XSV+EC+보냈/VV+EP+던/ETM+그래/VA+EC+놀라/VV+EC+프로/NNG+틴/NNG+도/JX+괜찮/VA+아요/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응 엄청 맛있게 먹고 있어! 너무 맛있어",
+            "norm_text": "응응 엄청 맛있게 먹고 있어! 너무 맛있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+엄청/MAG+맛있/VA+게/EC+먹/VV+고/EC+있/VX+어/EF+너무/MAG+맛있/VA+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 하하 우유에 넣어서 먹고 있어요?",
+            "norm_text": "하하 우유에 넣어서 먹고 있어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+우유/NNG+에/JKB+넣/VV+어서/EC+먹/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 나는 우유를 좋아해서 우유를 넣고 있어 키키 알갱이가 씹혀서 더 좋아",
+            "norm_text": "응 나는 우유를 좋아해서 우유를 넣고 있어 키키 알갱이가 씹혀서 더 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+우유/NNG+를/JKO+좋아해서/VV+EC+우유/NNG+를/JKO+넣/VV+고/EC+있/VX+어/EC+키/NNG+키/NNG+알갱이/NNG+가/JKS+씹/NNG+혀서/XSV+EC+더/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 하하 인터넷 쇼핑몰이 있으니까 자주 못 만나도 선물을 전달할 수 있어서 좋은 것 같아요!",
+            "norm_text": "하하 인터넷 쇼핑몰이 있으니까 자주 못 만나도 선물을 전달할 수 있어서 좋은 것 같아요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+인터넷/NNG+쇼핑몰/NNG+이/JKS+있/VV+으니까/EC+자주/MAG+못/MAG+만나/VV+EC+도/JX+선물/NNG+을/JKO+전달/NNG+할/XSV+ETM+수/NNB+있/VV+어서/EC+좋/VA+은/ETM+것/NNB+같/VA+아요/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 인터넷으로 요즘에는 사면 금방 금방 오니까 너무 좋은 거 같아 다양한 상품도 알 수 있고",
+            "norm_text": "맞아 인터넷으로 요즘에는 사면 금방 금방 오니까 너무 좋은 거 같아 다양한 상품도 알 수 있고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+인터넷/NNG+으로/JKB+요즘/NNG+에/JKB+는/JX+사면/NNG+금방/MAG+금방/MAG+오/VV+니까/EC+너무/MAG+좋/VA+은/ETM+거/NNB+같/VA+아/EC+다양/XR+한/XSA+ETM+상품/NNG+도/JX+알/VV+ETM+수/NNB+있/VV+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 하하 그렇죠? 요즘 돌아다니지도 못하는데 핫플 음식들도 다 팔더라구요!",
+            "norm_text": "하하 그렇죠? 요즘 돌아다니지도 못하는데 핫플 음식들도 다 팔더라구요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+그렇/VA+죠/EF+요즘/MAG+돌아다니/VV+지/EC+도/JX+못하/VX+는데/EC+핫/NNG+플/NNG+음식/NNG+들/XSN+도/JX+다/MAG+팔/VV+더라구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 비슷한 물건도 쇼핑몰들 마다도 가격이 다 달라서 잘 찾아보고 비교해 보고 사야 할 거 같아",
+            "norm_text": "근데 비슷한 물건도 쇼핑몰들 마다도 가격이 다 달라서 잘 찾아보고 비교해 보고 사야 할 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+비슷/XR+한/XSA+ETM+물건/NNG+도/JX+쇼핑몰/NNG+들/XSN+마다/JX+도/JX+가격/NNG+이/JKS+다/MAG+달라서/VA+EC+잘/MAG+찾아보/VV+고/EC+비교/NNG+해/XSV+EC+보/VX+고/EC+사/VV+야/EC+할/VX+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아요 저도 뭐하나 구매하려면 비교 꼭 하는 것 같아요",
+            "norm_text": "맞아요 저도 뭐하나 구매하려면 비교 꼭 하는 것 같아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+저/NP+도/JX+뭐/IC+하나/NR+구매/NNG+하/XSV+려면/EC+비교/NNG+꼭/MAG+하/VV+는/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 언니도 그래요?",
+            "norm_text": "언니도 그래요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+도/JX+그래요/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 비교는 꼭 해야 하더라고 안 하고 했다가 후회 한 적이 많아서",
+            "norm_text": "응 비교는 꼭 해야 하더라고 안 하고 했다가 후회 한 적이 많아서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+비교/NNG+는/JX+꼭/MAG+해야/VV+EC+하/VV+더라고/EC+안/MAG+하/VV+고/EC+했/VX+EP+다가/EC+후회/NNG+한/XSA+ETM+적/NNB+이/JKS+많/VA+아서/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그쵸 쿠폰 받고 이러면 가격도 천차만별이라 꼭 해야 해요 ㅠㅠ",
+            "norm_text": "그쵸 쿠폰 받고 이러면 가격도 천차만별이라 꼭 해야 해요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그쵸/IC+쿠폰/NNG+받/VV+고/EC+이러/VV+면/EC+가격/NNG+도/JX+천차만별/NNG+이/VCP+라/EC+꼭/MAG+해야/VV+EC+해요/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞아 귀찮아서 어릴 때는 비회원 구매로도 많이 했었는데 키키 요즘에는 꼭 챙겨서 해 키키",
+            "norm_text": "맞아 귀찮아서 어릴 때는 비회원 구매로도 많이 했었는데 키키 요즘에는 꼭 챙겨서 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+귀찮/VA+아서/EC+어릴/VA+ETM+때/NNG+는/JX+비회원/NNG+구매/NNG+로/JKB+도/JX+많이/MAG+했었/VV+EP+는데/EC+키/NNG+키/NNG+요즘/NNG+에/JKB+는/JX+꼭/MAG+챙겨/VV+EC+서해/NNP+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

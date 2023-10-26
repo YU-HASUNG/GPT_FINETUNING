@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 34432,
+    "name": "KAKAO_827_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171845054861/KAKAO_827_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171845054861/KAKAO_827_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38931,
+      "filename": "KAKAO_827_18.txt",
+      "title": "KAKAO_827_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 653,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 653,
+        "word_size": 227,
+        "text": "1 : 아 나 이번에 해외 직구로 가방 샀는데 한 달 만에 옴... 키키\n2 : 직구 원래 배송 오래 걸리잖아 ㅋ\n2 : 그래도 추석 전에 왔네 ㅎ\n1 : 응 아니 캉골 원래 컨버스 백만 파는데 소량으로 가죽 사첼백 있다길래 보니까 너무 예쁜겨!\n2 : 오 예쁘겠다 나 구경 시켜주 ㅋ\n2 : 얼마 주고 샀어?\n1 : 근데 이게 정식 판매되는 게 아니라서 비쌀 줄 알았는데 걍 2만 원...?\n2 : 헐 싸네;\n2 : 해외 배송비 같은 거 안 붙이고?\n1 : 응 걍 2만 원... 모지 짭인가...\n1 : 근데 가방 엄청 예뻐! 새 거 냄새 나는 거 빼곤 키키\n2 : 난 해외 직구 같은 거 어려워서 잘 못하겠던데 ㅎ\n1 : ㄴㄴ 요새는 해외 구매대행 사이트도 엄청 많고 그래서 걍 수수료 쫌만 더 주면 싸고 좋은 물건 살 수 있쓰\n2 : 나도 한번 찾아봐야겠다 ㅋ\n1 : 웅 키키 아니면 뭐 살 거 있음 말해\n1 : 내가 찾아봐줄게 응응\n2 : 오 ㅋ 그럼 나 옷 사고 싶어 큰 사이즈 옷\n2 : 한국에서 파는 건 안 예뻐 ㅜ\n1 : 하긴 미쿡인들이 또 사이즈가 다양하니까 키키\n1 : 맞아 나 직구로 옷도 종종 사는데\n2 : 그럼 사이트 하나만 알려주라\n2 : 거기서 보고 고르면 주문해주 ㅎ\n1 : ㅇㅋㅇㅋ 아니면 어플로도 가능한디 어플 이름 알려줘?\n2 : 어플도 있어? ㅎ\n2 : 응 그럼 어플로 볼게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 나 이번에 해외 직구로 가방 샀는데 한 달 만에 옴... 키키",
+            "norm_text": "아 나 이번에 해외 직구로 가방 샀는데 한 달 만에 옴... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나/NP+이번/NNG+에/JKB+해외/NNG+직구/NNG+로/JKB+가방/NNG+샀/VV+EP+는데/EC+한/MM+달/NNBC+만/NNB+에/JKB+옴/VV+ETN+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 직구 원래 배송 오래 걸리잖아 ㅋ",
+            "norm_text": "직구 원래 배송 오래 걸리잖아 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "직구/NNG+원래/MAG+배송/NNG+오래/MAG+걸리/VV+잖아/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 그래도 추석 전에 왔네 ㅎ",
+            "norm_text": "그래도 추석 전에 왔네 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+추석/NNG+전/NNG+에/JKB+왔/VV+EP+네/EF+ㅎ/XSA"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응 아니 캉골 원래 컨버스 백만 파는데 소량으로 가죽 사첼백 있다길래 보니까 너무 예쁜겨!",
+            "norm_text": "응 아니 캉골 원래 컨버스 백만 파는데 소량으로 가죽 사첼백 있다길래 보니까 너무 예쁜겨!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아니/IC+캉/MAG+골/NNG+원래/MAG+컨버스/NNP+백/NR+만/JX+파/VV+는데/EC+소량/NNG+으로/JKB+가죽/NNG+사첼/NNP+백/NR+있/VV+다길래/EC+보/VX+니까/EC+너무/MAG+예쁜/VA+ETM+겨/NNB+VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 오 예쁘겠다 나 구경 시켜주 ㅋ",
+            "norm_text": "오 예쁘겠다 나 구경 시켜주 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "오/NR+예쁘/VA+겠/EP+다나/EC+구경/NNG+시켜/XSV+EC+주ㅋ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 얼마 주고 샀어?",
+            "norm_text": "얼마 주고 샀어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "얼마/NNG+주/VV+고/EC+샀/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 이게 정식 판매되는 게 아니라서 비쌀 줄 알았는데 걍 2만 원...?",
+            "norm_text": "근데 이게 정식 판매되는 게 아니라서 비쌀 줄 알았는데 걍 2만 원...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+이게/NP+JKS+정식/NNG+판매/NNG+되/XSV+는/ETM+게/NNB+JKC+아니/VCN+라서/EC+비쌀/VA+ETM+줄/NNB+알/VV+았/EP+는데/EC+걍/UNKNOWN+2/SN+만/NR+원/NNBC+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 헐 싸네;",
+            "norm_text": "헐 싸네;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+싸/VA+네/EF+;/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 해외 배송비 같은 거 안 붙이고?",
+            "norm_text": "해외 배송비 같은 거 안 붙이고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "해외/NNG+배송/NNG+비/NNG+같/VA+은/ETM+거/NNB+안/MAG+붙이/VV+고/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 걍 2만 원... 모지 짭인가...",
+            "norm_text": "응 걍 2만 원... 모지 짭인가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응걍/UNKNOWN+2/SN+만/NR+원/NNBC+./SY+모지짭인가/UNKNOWN+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 가방 엄청 예뻐! 새 거 냄새 나는 거 빼곤 키키",
+            "norm_text": "근데 가방 엄청 예뻐! 새 거 냄새 나는 거 빼곤 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+가방/NNG+엄청/MAG+예뻐/VA+EF+새/MM+거/NNB+냄새나/VV+는/ETM+거/NNB+빼/VV+곤/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 난 해외 직구 같은 거 어려워서 잘 못하겠던데 ㅎ",
+            "norm_text": "난 해외 직구 같은 거 어려워서 잘 못하겠던데 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+해외/NNG+직구/NNG+같/VA+은/ETM+거/NNB+어려워서/VA+EC+잘못/MAG+하/VV+겠/EP+던/ETM+데/NNB+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㄴㄴ 요새는 해외 구매대행 사이트도 엄청 많고 그래서 걍 수수료 쫌만 더 주면 싸고 좋은 물건 살 수 있쓰",
+            "norm_text": "ㄴㄴ 요새는 해외 구매대행 사이트도 엄청 많고 그래서 걍 수수료 쫌만 더 주면 싸고 좋은 물건 살 수 있쓰",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+요새/NNG+는/JX+해외/NNG+구매/NNG+대행/NNG+사이트/NNG+도/JX+엄청/MAG+많/VA+고/EC+그래서/VV+EC+걍수/UNKNOWN+수료/NNG+쫌/XSN+만/JX+더/MAG+주/VV+면/EC+싸/VX+고/EC+좋/VA+은/ETM+물건/NNG+살/VV+ETM+수/NNB+있/VA+쓰/NNP"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나도 한번 찾아봐야겠다 ㅋ",
+            "norm_text": "나도 한번 찾아봐야겠다 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+한/MM+번/NNBC+찾/VV+아/EC+봐야/VX+EC+VV+겠/EP+다ㅋ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 웅 키키 아니면 뭐 살 거 있음 말해",
+            "norm_text": "웅 키키 아니면 뭐 살 거 있음 말해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+키/NNG+키/XSV+ETN+아니/VCN+면/EC+뭐/IC+살/VV+ETM+거/NNB+있/VA+음/ETN+말/NNG+해/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 내가 찾아봐줄게 응응",
+            "norm_text": "내가 찾아봐줄게 응응",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "내/NP+가/JKS+찾아봐/VV+EC+줄/VX+ETM+게/NNB+JKS+응응/MAG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오 ㅋ 그럼 나 옷 사고 싶어 큰 사이즈 옷",
+            "norm_text": "오 ㅋ 그럼 나 옷 사고 싶어 큰 사이즈 옷",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오ㅋ/UNKNOWN+그럼/VV+EC+나/VX+옷/EC+사/VV+고/EC+싶/VX+어/EC+큰/VA+ETM+사이즈/NNG+옷/NNG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 한국에서 파는 건 안 예뻐 ㅜ",
+            "norm_text": "한국에서 파는 건 안 예뻐 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한국/NNP+에서/JKB+파/VV+는/ETM+건/NNB+JX+안/MAG+예뻐/VA+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 하긴 미쿡인들이 또 사이즈가 다양하니까 키키",
+            "norm_text": "하긴 미쿡인들이 또 사이즈가 다양하니까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하긴/MAJ+미/NNP+쿡/NNP+인/XSN+들/XSN+이/JKS+또/MAG+사이즈/NNG+가/JKS+다양/NNG+하/XSV+니까/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 맞아 나 직구로 옷도 종종 사는데",
+            "norm_text": "맞아 나 직구로 옷도 종종 사는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아나/EC+직구/NNG+로/JKB+옷/NNG+도/JX+종종/MAG+사/VV+는데/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그럼 사이트 하나만 알려주라",
+            "norm_text": "그럼 사이트 하나만 알려주라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그럼/MAJ+사이트/NNG+하나/NR+만/JX+알려/VV+EC+주/VX+라/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 거기서 보고 고르면 주문해주 ㅎ",
+            "norm_text": "거기서 보고 고르면 주문해주 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "거기/NP+서/JKB+보/VV+고/EC+고르/VV+면/EC+주문/NNG+해/XSV+EC+주/VX+ㅎ/XSA"
+          },
+          {
+            "id": 23,
+            "text": "1 : ㅇㅋㅇㅋ 아니면 어플로도 가능한디 어플 이름 알려줘?",
+            "norm_text": "ㅇㅋㅇㅋ 아니면 어플로도 가능한디 어플 이름 알려줘?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅇㅋ/UNKNOWN+ㅇㅋ/UNKNOWN+아니/VCN+면/EC+어/IC+플로/NNG+도/JX+가능/NNG+한디/XSV+EC+어/IC+플/NNG+이름/NNG+알려/VV+EC+줘/VX+EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 어플도 있어? ㅎ",
+            "norm_text": "어플도 있어? ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+플/NNG+도/JX+있/VA+어/EF+ㅎ/XSA"
+          },
+          {
+            "id": 25,
+            "text": "2 : 응 그럼 어플로 볼게",
+            "norm_text": "응 그럼 어플로 볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+그럼/MAJ+어/IC+플/NNG+로/JKB+볼/VV+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

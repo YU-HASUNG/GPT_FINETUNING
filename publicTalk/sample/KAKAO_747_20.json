@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 71713,
+    "name": "KAKAO_747_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134454019348/KAKAO_747_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134454019348/KAKAO_747_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37350,
+      "filename": "KAKAO_747_20.txt",
+      "title": "KAKAO_747_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 526,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 526,
+        "word_size": 177,
+        "text": "1 : 닌 영화 자주 보러 다니는 편이가?\n2 : 음... 옛날에는 자주 봤는데 요즘은 아예 못 갔지 ㅜㅜ\n1 : 아 맞나? 어떤 영화 장르 좋아해?\n2 : 나 코미디도 좋아하고 액션도 좋아해 키키\n1 : 오오 로맨스나 드라마 이런 건 안 좋아하나?\n2 : 키키 아 그런 것도 좋아해 키키 공포만 아니면 됨\n1 : 키키 나도 공포영화 빼고는 다 보는 편인 듯 키키\n2 : 키키 응... 진짜 난 귀신 무서워 한단 말이야 ㅜㅜ\n1 : 예전 영환데 헬로우 고스트란 영화 본 적 있나?\n1 : 엄청 재밌는데 엄청 슬펐음 키키\n2 : 아아 응! 봤었다 키키 차태현 나오는 거 맞지? 키키\n1 : 응응! 키키 믿고 보는 배우인 듯 차태현은 키키\n2 : 키키 진짜! 키키 연기 엄청 잘해 키키 성격도 좋은 거 같던데\n1 : 응응 키키 엽기적인 그녀랑 신과 함께도 생각나네 키키 차태현 나온 작품 키키\n2 : 키키 헐 그러고 보니 차태현 나온 건 다 잘된 거 같노\n1 : 키키 맞제 키키 최근엔 뭐 찍은 거 있는가?\n2 : 음... 아니 모르겠다 키키 요즘 영화를 통 못 봐서 ㅜㅜ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 닌 영화 자주 보러 다니는 편이가?",
+            "norm_text": "닌 영화 자주 보러 다니는 편이가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "닌/NNP+영화/NNG+자주/MAG+보/VV+러/EC+다니/VV+는/ETM+편이/NNG+가/JKS"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음... 옛날에는 자주 봤는데 요즘은 아예 못 갔지 ㅜㅜ",
+            "norm_text": "음... 옛날에는 자주 봤는데 요즘은 아예 못 갔지 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+./SY+옛날/NNG+에/JKB+는/JX+자주/MAG+봤/VV+EP+는데/EC+요즘/NNG+은/JX+아예/MAG+못/MAG+갔/VV+EP+지/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 맞나? 어떤 영화 장르 좋아해?",
+            "norm_text": "아 맞나? 어떤 영화 장르 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+맞/VV+나/EF+어떤/MM+영화/NNG+장르/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 코미디도 좋아하고 액션도 좋아해 키키",
+            "norm_text": "나 코미디도 좋아하고 액션도 좋아해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+코미디/NNG+도/JX+좋/VA+아/EC+하/VV+고/EC+액션/NNG+도/JX+좋/VA+아/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오오 로맨스나 드라마 이런 건 안 좋아하나?",
+            "norm_text": "오오 로맨스나 드라마 이런 건 안 좋아하나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+오/NR+로맨스/NNG+나/JC+드라마/NNG+이런/MM+건/NNB+JX+안/MAG+좋/VA+아/EC+하나/NR"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 아 그런 것도 좋아해 키키 공포만 아니면 됨",
+            "norm_text": "키키 아 그런 것도 좋아해 키키 공포만 아니면 됨",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+그런/MM+것/NNB+도/JX+좋/VA+아/EC+해/VV+EC+키/NNG+키/NNG+공포/NNG+만/JX+아니/VCN+면/EC+됨/VV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 나도 공포영화 빼고는 다 보는 편인 듯 키키",
+            "norm_text": "키키 나도 공포영화 빼고는 다 보는 편인 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+공포/NNG+영화/NNG+빼/VV+고/EC+는다/VV+EC+보/VX+는/ETM+편/NNB+인/VCP+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 응... 진짜 난 귀신 무서워 한단 말이야 ㅜㅜ",
+            "norm_text": "키키 응... 진짜 난 귀신 무서워 한단 말이야 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+진짜난귀신무서워한단말이야ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 예전 영환데 헬로우 고스트란 영화 본 적 있나?",
+            "norm_text": "예전 영환데 헬로우 고스트란 영화 본 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "예전/NNG+영환데/NNG+VCP+EC+헬로우/IC+고스트/NNG+란/JX+영화/NNG+본/VV+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 엄청 재밌는데 엄청 슬펐음 키키",
+            "norm_text": "엄청 재밌는데 엄청 슬펐음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄청/MAG+재밌/VA+는데/EC+엄청/MAG+슬펐/VA+EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아아 응! 봤었다 키키 차태현 나오는 거 맞지? 키키",
+            "norm_text": "아아 응! 봤었다 키키 차태현 나오는 거 맞지? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+응/IC+봤었/VV+EP+다키키/NNP+차태현/NNP+나오/VV+는/ETM+거/NNB+맞/VV+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 응응! 키키 믿고 보는 배우인 듯 차태현은 키키",
+            "norm_text": "응응! 키키 믿고 보는 배우인 듯 차태현은 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키키믿고보는배우인듯차태현은키키/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 진짜! 키키 연기 엄청 잘해 키키 성격도 좋은 거 같던데",
+            "norm_text": "키키 진짜! 키키 연기 엄청 잘해 키키 성격도 좋은 거 같던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+키키연기엄청잘해키키성격도좋은거같던데/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응응 키키 엽기적인 그녀랑 신과 함께도 생각나네 키키 차태현 나온 작품 키키",
+            "norm_text": "응응 키키 엽기적인 그녀랑 신과 함께도 생각나네 키키 차태현 나온 작품 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/NNG+엽기/NNG+적/XSN+인/VCP+ETM+그녀/NP+랑/JKB+신/XPN+과함/NNG+께/JKB+도/JX+생각/NNG+나/NP+네/XSN+키/NNG+키/NNG+차태현/NNP+나온/VV+ETM+작품/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 헐 그러고 보니 차태현 나온 건 다 잘된 거 같노",
+            "norm_text": "키키 헐 그러고 보니 차태현 나온 건 다 잘된 거 같노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+헐/XSV+JKO+그러/VV+고/EC+보/VX+니/EC+차태현/NNP+나온/VV+ETM+건/NNB+JX+다/MAG+잘/MAG+된/VV+ETM+거/NNB+같/VA+노/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 맞제 키키 최근엔 뭐 찍은 거 있는가?",
+            "norm_text": "키키 맞제 키키 최근엔 뭐 찍은 거 있는가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+제/EC+키/NNG+키/NNG+최근/NNG+엔/JKB+JX+뭐/NP+찍/VV+은/ETM+거/NNB+있/VA+는가/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 음... 아니 모르겠다 키키 요즘 영화를 통 못 봐서 ㅜㅜ",
+            "norm_text": "음... 아니 모르겠다 키키 요즘 영화를 통 못 봐서 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+아니모르겠다키키요즘영화를통못봐서ㅜㅜ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32162,
+    "name": "KAKAO_628_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113045046044/KAKAO_628_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113045046044/KAKAO_628_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32011,
+      "filename": "KAKAO_628_19.txt",
+      "title": "KAKAO_628_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 552,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 552,
+        "word_size": 171,
+        "text": "1 : 김태호 피티 MBC 그만둔다는 거 들었나\n2 : 어... 봤어 ㅠㅠ 놀면 뭐하니 어쩌니 이제\n1 : ㅜㅜ 그니까 그래도 올해까진 한다던데?\n2 : 응응 ㅠㅠ 끝내야 하는 거 아니가 ㅠㅠ 결국 피디가 바뀌면 프로그램은 산으로 갈듯\n1 : 맞재 ㅜㅜ 진짜 무한도전 때부터 엄청 잘하는 거 같더만\n2 : 그러니까 ㅠㅠ 어디로 가는 거지 거기서 다시 무도하면 좋겠다\n1 : 오 대박 키키 근데 그 인원을 그대로 섭외할 수 있을까\n2 : 힘들긴 하지 ㅠㅠ 이번에도 멤버들 같이 촬영하자 했는데 노홍철이랑 정형돈은 힘들 거 같다고 했대\n1 : 진짜? ㅜㅜ 노홍철이랑 정형돈은 왜 힘들대?\n2 : 그냥 뭐 시간 맞추기도 힘들고 그리고 무한도전을 한다는 거에 부담을 느끼는 듯\n1 : 하긴 ㅜㅜ 진짜 우리나라 최고의 프로그램이었긴 하지 ㅜㅜ\n2 : 응응 우리 학창 시절을 함께 보낸 프로그램이다야 ㅠㅠ\n1 : 맞재 키키 월요일만 되면 무도 얘기 했는데 키키\n2 : 응응 지금 봐도 재밌다 무도는 ㅌ키키\n1 : 키키 응 요즘 재방 많이 하더라 키키 너도 보는구나?\n2 : 당연하지 키키 볼 거 없으면 무도 보고 있다잉 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 김태호 피티 MBC 그만둔다는 거 들었나",
+            "norm_text": "김태호 피티 MBC 그만둔다는 거 들었나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "김태호/NNP+피티/NNG+MBC/SL+그만둔다는/VV+ETM+거/NNB+들/VV+었/EP+나/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어... 봤어 ㅠㅠ 놀면 뭐하니 어쩌니 이제",
+            "norm_text": "어... 봤어 ㅠㅠ 놀면 뭐하니 어쩌니 이제",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+봤/VV+EP+어/EF+ㅠㅠ/UNKNOWN+놀/VV+면/EC+뭐/IC+하/VV+니/EC+어쩌/VV+니/EC+이제/MAG"
+          },
+          {
+            "id": 3,
+            "text": "1 : ㅜㅜ 그니까 그래도 올해까진 한다던데?",
+            "norm_text": "ㅜㅜ 그니까 그래도 올해까진 한다던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그니까/MAJ+그래도/MAJ+올해/NNG+까진/JX+JX+한다던데/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응응 ㅠㅠ 끝내야 하는 거 아니가 ㅠㅠ 결국 피디가 바뀌면 프로그램은 산으로 갈듯",
+            "norm_text": "응응 ㅠㅠ 끝내야 하는 거 아니가 ㅠㅠ 결국 피디가 바뀌면 프로그램은 산으로 갈듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+ㅠㅠ/UNKNOWN+끝/NNG+내야/NNG+하/XSV+는/ETM+거/NNB+아니/VCN+가/JKS+ㅠㅠ/UNKNOWN+결국/NNG+피디/NNG+가/JKS+바뀌/VV+면/EC+프로그램/NNG+은/JX+산/NNG+으로/JKB+갈/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞재 ㅜㅜ 진짜 무한도전 때부터 엄청 잘하는 거 같더만",
+            "norm_text": "맞재 ㅜㅜ 진짜 무한도전 때부터 엄청 잘하는 거 같더만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞재/VV+ㅜㅜ/UNKNOWN+진짜/MAG+무한도전/NNP+때/NNG+부터/JX+엄청/MAG+잘/MAG+하/VV+는/ETM+거/NNB+같/VA+더만/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러니까 ㅠㅠ 어디로 가는 거지 거기서 다시 무도하면 좋겠다",
+            "norm_text": "그러니까 ㅠㅠ 어디로 가는 거지 거기서 다시 무도하면 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+ㅠㅠ/UNKNOWN+어디/NP+로/JKB+가/VV+는/ETM+거/NNB+지/VCP+EF+거기/NP+서/JKB+다시/MAG+무도/XR+하/XSA+면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오 대박 키키 근데 그 인원을 그대로 섭외할 수 있을까",
+            "norm_text": "오 대박 키키 근데 그 인원을 그대로 섭외할 수 있을까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+대박/NNG+키/NNG+키/XSV+ETN+근데/MAJ+그/MM+인원/NNG+을/JKO+그대로/MAG+섭외/NNG+할/XSV+ETM+수/NNB+있/VV+을까/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 힘들긴 하지 ㅠㅠ 이번에도 멤버들 같이 촬영하자 했는데 노홍철이랑 정형돈은 힘들 거 같다고 했대",
+            "norm_text": "힘들긴 하지 ㅠㅠ 이번에도 멤버들 같이 촬영하자 했는데 노홍철이랑 정형돈은 힘들 거 같다고 했대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "힘들/VA+긴/ETN+JX+하/VX+지/EF+ㅠㅠ/UNKNOWN+이번/NNG+에/JKB+도/JX+멤버/NNG+들/XSN+같이/MAG+촬영/NNG+하/XSV+자/EC+했/VX+EP+는데/EC+노홍철/NNP+이랑/JC+정형돈/NNP+은/JX+힘들/VA+ETM+거/NNB+같/VA+다고/EC+했/VX+EP+대/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 진짜? ㅜㅜ 노홍철이랑 정형돈은 왜 힘들대?",
+            "norm_text": "진짜? ㅜㅜ 노홍철이랑 정형돈은 왜 힘들대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+ㅜㅜ/UNKNOWN+노홍철/NNP+이랑/JC+정형돈/NNP+은/JX+왜/MAG+힘들/VA+대/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그냥 뭐 시간 맞추기도 힘들고 그리고 무한도전을 한다는 거에 부담을 느끼는 듯",
+            "norm_text": "그냥 뭐 시간 맞추기도 힘들고 그리고 무한도전을 한다는 거에 부담을 느끼는 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그냥/MAG+뭐/IC+시간/NNG+맞추/VV+기/ETN+도/JX+힘들/VA+고/EC+그리고/MAJ+무한/NNG+도전/NNG+을/JKO+한다는/VV+ETM+거/NNB+에/JKB+부담/NNG+을/JKO+느끼/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 하긴 ㅜㅜ 진짜 우리나라 최고의 프로그램이었긴 하지 ㅜㅜ",
+            "norm_text": "하긴 ㅜㅜ 진짜 우리나라 최고의 프로그램이었긴 하지 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/VV+긴/ETN+JX+ㅜㅜ/UNKNOWN+진짜/MAG+우리/NP+나라/NNG+최고/NNG+의/JKG+프로그램/NNG+이/VCP+었/EP+긴/ETN+JX+하/VX+지/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응응 우리 학창 시절을 함께 보낸 프로그램이다야 ㅠㅠ",
+            "norm_text": "응응 우리 학창 시절을 함께 보낸 프로그램이다야 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+우리/NP+학창/NNG+시절/NNG+을/JKO+함께/MAG+보낸/VV+ETM+프로그램/NNG+이/VCP+다야/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞재 키키 월요일만 되면 무도 얘기 했는데 키키",
+            "norm_text": "맞재 키키 월요일만 되면 무도 얘기 했는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+재/EC+키/NNG+키/NNG+월요일/NNG+만/JX+되/VV+면/EC+무도/NNG+얘기/NNG+했/XSV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응응 지금 봐도 재밌다 무도는 ㅌ키키",
+            "norm_text": "응응 지금 봐도 재밌다 무도는 ㅌ키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+지금/MAG+봐도/VV+EC+재밌/VA+다/EC+무도/NNG+는/JX+ㅌ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 응 요즘 재방 많이 하더라 키키 너도 보는구나?",
+            "norm_text": "키키 응 요즘 재방 많이 하더라 키키 너도 보는구나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+요즘/MAG+재방/NNG+많이/MAG+하/VV+더라/EC+키/NNG+키/XSV+ETN+너도/VV+EC+보/VX+는구나/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 당연하지 키키 볼 거 없으면 무도 보고 있다잉 키키",
+            "norm_text": "당연하지 키키 볼 거 없으면 무도 보고 있다잉 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "당연/XR+하/XSA+지/EC+키/NNG+키/XSV+ETN+볼/VV+ETM+거/NNB+없/VA+으면/EC+무도/NNG+보/VV+고/EC+있/VX+다잉/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 21635,
+    "name": "KAKAO_528_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151841040388/KAKAO_528_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151841040388/KAKAO_528_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29812,
+      "filename": "KAKAO_528_01.txt",
+      "title": "KAKAO_528_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 467,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 467,
+        "word_size": 152,
+        "text": "1 : 언니야 오늘은 점심 음식 뭐 먹었어? 하하\n2 : 불닭 먹었어 키키 매콤한 게 땡기더라고 너는 맛점? 키키\n1 : 우와 대박 하하 난 자매국수 집 가서 국수 먹었어\n2 : 아 진짜? 돔베국수 맞나? 어땠어? 키키\n1 : 맞아요! 하하 맛있었어요 역시나\n2 : 키키 역시 제주도에서만 먹을 수 있는 거라 맛 보장 키키\n1 : 맞아요 하하 제주도에 진짜 맛집이 너무 많아서 고민 돼요 뭐 먹을지\n2 : 키키 어제는 뭐 맛있는 거 먹었어?\n1 : 어제는 흑돼지 먹었어요! 하하\n1 : 천혜향도 나왔길래 집에도 보냈어요\n2 : 대박 키키 흑돼지 존맛탱이지 키키\n2 : 천혜향 !부모님 좋아하시겠다\n1 : 넵 하하 어제 배송 보내서 오늘 오지 싶어요\n2 : 키키 와 진짜 배송 빠르다 키키\n1 : 글쵸 키키 저보다 더 빨리 가요\n2 : 키키 넌 언제 돌아오는데? 키키\n1 : 전 금요일에 갈 예정 입니당! 하하\n2 : 와 대박 부럽다 진짜 제주도 만끽하고 돌아오는구나",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니야 오늘은 점심 음식 뭐 먹었어? 하하",
+            "norm_text": "언니야 오늘은 점심 음식 뭐 먹었어? 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+야/VCP+EF+오늘/MAG+은/JX+점심/NNG+음식/NNG+뭐/IC+먹/VV+었/EP+어/EF+하하/MAG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 불닭 먹었어 키키 매콤한 게 땡기더라고 너는 맛점? 키키",
+            "norm_text": "불닭 먹었어 키키 매콤한 게 땡기더라고 너는 맛점? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "불닭/NNP+먹/VV+었/EP+어/EC+키/NNG+키/XSV+ETN+매콤/XR+한/XSA+ETM+게/NNB+JKS+땡기/VV+더라고/EF+너/NP+는/JX+맛/NNG+점/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우와 대박 하하 난 자매국수 집 가서 국수 먹었어",
+            "norm_text": "우와 대박 하하 난 자매국수 집 가서 국수 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우와/IC+대박/NNG+하/XSV+하난/NR+JX+자매/NNG+국수집/NNG+가/VV+서/EC+국수/NNG+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 진짜? 돔베국수 맞나? 어땠어? 키키",
+            "norm_text": "아 진짜? 돔베국수 맞나? 어땠어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+돔베/NNG+국수/NNG+맞/VV+나/EF+어땠어/VA+EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아요! 하하 맛있었어요 역시나",
+            "norm_text": "맞아요! 하하 맛있었어요 역시나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+하하/MAG+맛있/VA+었/EP+어요/EF+역시/MAJ+나/NP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 역시 제주도에서만 먹을 수 있는 거라 맛 보장 키키",
+            "norm_text": "키키 역시 제주도에서만 먹을 수 있는 거라 맛 보장 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+역시/MAJ+제주도/NNP+에서/JKB+만/JX+먹/VV+을/ETM+수/NNB+있/VV+는/ETM+거/NNB+라/VCP+EC+맛/NNG+보장/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아요 하하 제주도에 진짜 맛집이 너무 많아서 고민 돼요 뭐 먹을지",
+            "norm_text": "맞아요 하하 제주도에 진짜 맛집이 너무 많아서 고민 돼요 뭐 먹을지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+하하/MAG+제주도/NNP+에/JKB+진짜/MAG+맛집/NNG+이/JKS+너무/MAG+많/VA+아서/EC+고민/NNG+돼요/XSV+EF+뭐/IC+먹/VV+을지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 어제는 뭐 맛있는 거 먹었어?",
+            "norm_text": "키키 어제는 뭐 맛있는 거 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+어제/NNG+는/JX+뭐/IC+맛있/VA+는/ETM+거/NNB+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어제는 흑돼지 먹었어요! 하하",
+            "norm_text": "어제는 흑돼지 먹었어요! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/NNG+는/JX+흑/IC+돼지/NNG+먹/VV+었/EP+어요/EF+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 천혜향도 나왔길래 집에도 보냈어요",
+            "norm_text": "천혜향도 나왔길래 집에도 보냈어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "천/NR+혜향/NNG+도/JX+나왔/VV+EP+길래/EC+집/NNG+에/JKB+도/JX+보냈/VV+EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 대박 키키 흑돼지 존맛탱이지 키키",
+            "norm_text": "대박 키키 흑돼지 존맛탱이지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대박/NNG+키/NNG+키/NNG+흑/NNG+돼/XSV+EC+지존/NNG+맛/NNG+탱/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 천혜향 !부모님 좋아하시겠다",
+            "norm_text": "천혜향 !부모님 좋아하시겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "천/NR+혜향/NNG+!/SY+부모/NNG+님/XSN+좋/VA+아/EC+하/VX+시/EP+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 넵 하하 어제 배송 보내서 오늘 오지 싶어요",
+            "norm_text": "넵 하하 어제 배송 보내서 오늘 오지 싶어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넵/NNG+하하/MAG+어제/MAG+배송/NNG+보내/VV+서/EC+오늘/MAG+오/VV+지/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 와 진짜 배송 빠르다 키키",
+            "norm_text": "키키 와 진짜 배송 빠르다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+와/JKB+진짜/MAG+배송/NNG+빠르/VA+다키키/NNP"
+          },
+          {
+            "id": 15,
+            "text": "1 : 글쵸 키키 저보다 더 빨리 가요",
+            "norm_text": "글쵸 키키 저보다 더 빨리 가요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글/NNG+쵸/NNG+키/NNG+키저/NNG+보다/JKB+더/MAG+빨리/MAG+가요/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 넌 언제 돌아오는데? 키키",
+            "norm_text": "키키 넌 언제 돌아오는데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+넌/JX+언제/NP+돌아오/VV+는데/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 전 금요일에 갈 예정 입니당! 하하",
+            "norm_text": "전 금요일에 갈 예정 입니당! 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "전/MM+금요일/NNG+에/JKB+갈/VV+ETM+예정/NNG+입/VV+니당/EF+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 와 대박 부럽다 진짜 제주도 만끽하고 돌아오는구나",
+            "norm_text": "와 대박 부럽다 진짜 제주도 만끽하고 돌아오는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+대박/NNG+부럽/VA+다/EF+진짜/MAG+제주도/NNP+만끽/NNG+하/XSV+고/EC+돌아오/VV+는구나/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 24203,
+    "name": "KAKAO_577_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902061214/KAKAO_577_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154902061214/KAKAO_577_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31498,
+      "filename": "KAKAO_577_07.txt",
+      "title": "KAKAO_577_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 846,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 846,
+        "word_size": 248,
+        "text": "1 : 이번에 추석에 내려갈 거야?\n2 : 아니 아직 수도권이 코로나에 안전하지 못해서 이번에는 안 내려갈까? 하고,\n2 : 언니, 동생도 내려갈지 말지 고민이라더라구 .\n1 : 응~ 나두 안 내려가는 게 나을 거 같단 생각이 든다\n2 : 부모님이 섭섭해 하시려나?\n1 : 요즘 그런 게 어디 있어?\n1 : 코로나로 위험한 지경에 서로 건강한 게 최고지;\n2 : 그지? 안 내려가는 게 더 안전한 거지?\n1 : 이번에는 우리도 큰집 작은집 모두 안 모이고 각자 집에서 식구들만 모이자고 했어\n1 : 음식은 만들어서 서로 나눠주던지 하고 같이 모이는 건 각자 집에서 하자구\n2 : 라디오 들으니까... 수도권 거주가 약 40% 정도? 안 내려간다고 하더라\n1 : 시골 어르신들도 가족 다같이 모여서 추석 보내면 좋은데 워낙에 뉴스에서 코로나 2000명 육박이라고 하니까… 불안하신가 봐\n2 : 응~ 그래서 더더욱 조심스럽더라구...\n1 : 야! 우리 집은 모여서 음식이라도 만들어 먹지 넌 어떻게 보내려고?\n2 : 난 내가 평소 먹고 싶은 거나 사다 먹고, 가족들하고 영상 통화나 해야 할 듯;\n1 : 해외 거주자 같구나... 영상 통화라니;\n1 : 뭐, 요즘 백신들도 많이 맞고 하니까...\n1 : 조금만 더 기다리면 온 가족이 함께 어울려서 명절 보낼 날이 곧 오겠지\n2 : 그러니까... 생각만 하면 달려가서 볼 수 있는 가족이었는데... 갑자기, 보는 것도 힘든 가족이 되어버리니까... 기분도 이상하고...\n2 : 평소에 좀 더 잘해야 하겠어\n2 : 희한하게 이번 명절은 유독 가족들이 많이 보고 싶네\n1 : 그래, 우선 가장 가까운 나부터 잘 챙겨봐...\n1 : 생각보다 넌 날 가장 오래 볼 거야~\n2 : 뭐래... 평소에 잘 해주고 있잖아.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번에 추석에 내려갈 거야?",
+            "norm_text": "이번에 추석에 내려갈 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+에/JKB+추석/NNG+에/JKB+내려갈/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 아직 수도권이 코로나에 안전하지 못해서 이번에는 안 내려갈까? 하고,",
+            "norm_text": "아니 아직 수도권이 코로나에 안전하지 못해서 이번에는 안 내려갈까? 하고,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+아직/MAG+수도/NNG+권/XSN+이/JKS+코로나/NNG+에/JKB+안전/NNG+하/XSV+지/EC+못해서/VX+EC+이번/NNG+에/JKB+는/JX+안/MAG+내려갈까/VV+EF+하/VV+고/EC+,/SC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 언니, 동생도 내려갈지 말지 고민이라더라구 .",
+            "norm_text": "언니, 동생도 내려갈지 말지 고민이라더라구 .",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+,/SC+동생/NNG+도/JX+내려/VV+EC+갈지/VV+EC+말/VX+지/EC+고민/NNG+이/VCP+라/EC+더라구/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 응~ 나두 안 내려가는 게 나을 거 같단 생각이 든다",
+            "norm_text": "응~ 나두 안 내려가는 게 나을 거 같단 생각이 든다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+~/SY+나/NP+두/JX+안/MAG+내려가/VV+는/ETM+게/NNB+JKS+나을/VA+ETM+거/NNB+같/VA+단/ETM+생각/NNG+이/JKS+든다/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 부모님이 섭섭해 하시려나?",
+            "norm_text": "부모님이 섭섭해 하시려나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부모/NNG+님/XSN+이/JKS+섭섭/XR+해/XSA+EC+하/VX+시/EP+려나/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 요즘 그런 게 어디 있어?",
+            "norm_text": "요즘 그런 게 어디 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/MAG+그런/MM+게/NNB+JKS+어디/NP+있/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 코로나로 위험한 지경에 서로 건강한 게 최고지;",
+            "norm_text": "코로나로 위험한 지경에 서로 건강한 게 최고지;",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코로나/NNG+로/JKB+위험/NNG+한/XSA+ETM+지경/NNB+에/JKB+서로/MAG+건강/NNG+한/XSA+ETM+게/NNB+JKS+최/XPN+고지/NNG+;/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그지? 안 내려가는 게 더 안전한 거지?",
+            "norm_text": "그지? 안 내려가는 게 더 안전한 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그지/IC+안/MAG+내려가/VV+는/ETM+게/NNB+JKS+더/MAG+안전/NNG+한/XSA+ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 이번에는 우리도 큰집 작은집 모두 안 모이고 각자 집에서 식구들만 모이자고 했어",
+            "norm_text": "이번에는 우리도 큰집 작은집 모두 안 모이고 각자 집에서 식구들만 모이자고 했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+는/JX+우리/NP+도/JX+큰/VA+ETM+집작/NNG+은/JX+집/NNG+모두/MAG+안/MAG+모이/VV+고/EC+각자/MAG+집/NNG+에서/JKB+식구/NNG+들/XSN+만/JX+모이/VV+자고/EC+했/VX+EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 음식은 만들어서 서로 나눠주던지 하고 같이 모이는 건 각자 집에서 하자구",
+            "norm_text": "음식은 만들어서 서로 나눠주던지 하고 같이 모이는 건 각자 집에서 하자구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음식/NNG+은/JX+만들/VV+어서/EC+서로/MAG+나눠/VV+EC+주/VX+던지/EC+하/VV+고/EC+같이/MAG+모이/VV+는/ETM+건/NNB+JX+각자/NNG+집/NNG+에서/JKB+하/VV+자구/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 라디오 들으니까... 수도권 거주가 약 40% 정도? 안 내려간다고 하더라",
+            "norm_text": "라디오 들으니까... 수도권 거주가 약 40% 정도? 안 내려간다고 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "라디오/NNG+들으니까/VV+EC+./SY+./SY+수도/NNG+권/XSN+거주/NNG+가/JKS+약/MM+40/SN+%/SY+정도/NNG+안/MAG+내려간다고/VV+EC+하/VV+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 시골 어르신들도 가족 다같이 모여서 추석 보내면 좋은데 워낙에 뉴스에서 코로나 2000명 육박이라고 하니까… 불안하신가 봐",
+            "norm_text": "시골 어르신들도 가족 다같이 모여서 추석 보내면 좋은데 워낙에 뉴스에서 코로나 2000명 육박이라고 하니까… 불안하신가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시골/NNG+어르신/NNG+들/XSN+도/JX+가족/NNG+다/MAG+같이/MAG+모여서/VV+EC+추석/NNG+보내/VV+면/EC+좋/VA+은데/EC+워낙에/MAG+뉴스/NNG+에서/JKB+코로나/NNG+2000/SN+명/NNBC+육박/NNG+이/VCP+라고/EC+하/VV+니까/EC+…/SE+불안/NNG+하/XSV+신가봐/EP+EC+VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응~ 그래서 더더욱 조심스럽더라구...",
+            "norm_text": "응~ 그래서 더더욱 조심스럽더라구...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+~/SY+그래서/MAJ+더더욱/MAG+조심/NNG+스럽/XSA+더라구/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 야! 우리 집은 모여서 음식이라도 만들어 먹지 넌 어떻게 보내려고?",
+            "norm_text": "야! 우리 집은 모여서 음식이라도 만들어 먹지 넌 어떻게 보내려고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+우리/NP+집/NNG+은/JX+모여서/VV+EC+음식/NNG+이/VCP+라도/EC+만들/VV+어/EC+먹/VV+지/EC+넌/NP+JX+어떻/VA+게/EC+보내/VV+려고/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 난 내가 평소 먹고 싶은 거나 사다 먹고, 가족들하고 영상 통화나 해야 할 듯;",
+            "norm_text": "난 내가 평소 먹고 싶은 거나 사다 먹고, 가족들하고 영상 통화나 해야 할 듯;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+내/NP+가/JKS+평소/NNG+먹/VV+고/EC+싶/VX+은/ETM+거/NNB+나사/NNG+다/MAG+먹/VV+고/EC+,/SC+가족/NNG+들/XSN+하고/JKB+영상/NNG+통화/NNG+나/JX+해야/VV+EC+할/VX+ETM+듯/NNB+;/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 해외 거주자 같구나... 영상 통화라니;",
+            "norm_text": "해외 거주자 같구나... 영상 통화라니;",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해외/NNG+거주자/NNG+같/VA+구나/EF+./SY+영상/NNG+통화/NNG+라니/VCP+EC+;/SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 뭐, 요즘 백신들도 많이 맞고 하니까...",
+            "norm_text": "뭐, 요즘 백신들도 많이 맞고 하니까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/IC+,/SC+요즘/MAG+백신/NNG+들/XSN+도/JX+많이/MAG+맞/VV+고/EC+하/VV+니까/EC+./SY+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 조금만 더 기다리면 온 가족이 함께 어울려서 명절 보낼 날이 곧 오겠지",
+            "norm_text": "조금만 더 기다리면 온 가족이 함께 어울려서 명절 보낼 날이 곧 오겠지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조금/MAG+만/JX+더/MAG+기다리/VV+면/EC+온/VX+ETM+가족/NNG+이/JKS+함께/MAG+어울려서/VV+EC+명절/NNG+보낼/VV+ETM+날/NNG+이/JKS+곧/MAG+오/VV+겠/EP+지/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그러니까... 생각만 하면 달려가서 볼 수 있는 가족이었는데... 갑자기, 보는 것도 힘든 가족이 되어버리니까... 기분도 이상하고...",
+            "norm_text": "그러니까... 생각만 하면 달려가서 볼 수 있는 가족이었는데... 갑자기, 보는 것도 힘든 가족이 되어버리니까... 기분도 이상하고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+./SY+생각/NNG+만/JX+하/VV+면/EC+달려가/VV+서/EC+볼/VX+ETM+수/NNB+있/VV+는/ETM+가족/NNG+이/VCP+었/EP+는데/EC+./SY+./SY+갑자기/MAG+,/SC+보/VV+는/ETM+것/NNB+도/JX+힘든/VA+ETM+가족/NNG+이/JKS+되/VV+어/EC+버리/VX+니까/EC+./SY+./SY+기분/NNG+도/JX+이상/NNG+하/XSV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 평소에 좀 더 잘해야 하겠어",
+            "norm_text": "평소에 좀 더 잘해야 하겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "평소/NNG+에/JKB+좀/MAG+더/MAG+잘/MAG+해야/VV+EC+하/VX+겠/EP+어/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 희한하게 이번 명절은 유독 가족들이 많이 보고 싶네",
+            "norm_text": "희한하게 이번 명절은 유독 가족들이 많이 보고 싶네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "희한/XR+하/XSA+게/EC+이번/NNG+명절/NNG+은/JX+유독/MAG+가족/NNG+들/XSN+이/JKS+많이/MAG+보/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 그래, 우선 가장 가까운 나부터 잘 챙겨봐...",
+            "norm_text": "그래, 우선 가장 가까운 나부터 잘 챙겨봐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그래/IC+,/SC+우선/MAG+가장/MAG+가까운/VA+ETM+나/NP+부터/JX+잘/MAG+챙겨/VV+EC+봐/VX+EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 생각보다 넌 날 가장 오래 볼 거야~",
+            "norm_text": "생각보다 넌 날 가장 오래 볼 거야~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "생각/NNG+보다/JKB+넌/NP+JX+날/NNG+가장/MAG+오래/MAG+볼/VV+ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : 뭐래... 평소에 잘 해주고 있잖아.",
+            "norm_text": "뭐래... 평소에 잘 해주고 있잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+래/VCP+EF+./SY+평소/NNG+에/JKB+잘/MAG+해/VV+EC+주/VX+고/EC+있/VX+잖아/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

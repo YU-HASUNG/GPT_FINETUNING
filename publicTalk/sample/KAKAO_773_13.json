@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 35739,
+    "name": "KAKAO_773_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150301023212/KAKAO_773_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150301023212/KAKAO_773_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38204,
+      "filename": "KAKAO_773_13.txt",
+      "title": "KAKAO_773_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 671,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 671,
+        "word_size": 212,
+        "text": "1 : 부산 날씨 어떻노 태풍 지나갔나\n2 : 폭풍전야다 완전 바람 엄청 부는 중 ㅠㅠ\n1 : 헐... 미치겠다\n1 : 오늘 여기도 바람이 세차긴 하던데 태풍 바람까진 아닌데 ㅠ\n2 : 근데 태풍 진로 봤나 키키\n2 : 애가 자꾸 오락가락 하더라\n1 : 아니 안 봤다 왜?\n1 : 어디로 가드노?\n2 : 점점 일본 쪽으로 내려갈라 하드라 키키 쭉쭉 내려가주세요 ㅠ\n1 : 오 그래 ㅠ 아니면 오다가 소멸돼라 무섭다\n2 : 그러니까 ㅠㅠ 태풍은 올 때마다 무섭다... 지진 또한...\n1 : 그니까 태풍은 소리가... 한몫한다 다 날아가는 소리 나고 ㅠㅠ\n2 : 그러니까 키키 지붕 날아간다...\n2 : 바람 소리에 밤에 잠 못 자서 귀마개 하고 잔다...\n1 : 나도 태풍 오면 이불에 파묻혀서 잔다 키키\n1 : 근데 저번 태풍은 무슨... 천둥번개도 계속 쳐서 밝아서 못 자겠더라\n2 : 맞제 키키 진짜 새벽에 누가 내 방에 불 킨 줄...\n1 : 그니까 키키 근데 이랬던 적은 없는 것 같은데 기후변화 심각 ㅠ\n2 : 내 말이... 근데 태풍 레전드는 작년이었다...\n2 : 큰 거 두 개 연속으로 와가지고 부산 쑥대밭 됐었다... ㅠㅠ\n1 : 그니까 ㅠㅠ 부산은 진짜 비 많이 오면 물도 차고 대중교통은 거의 다 언덕으로 다녀야 되는데 빗길이고 ㅠㅠ 더 살벌하다\n2 : 어어 진짜 살벌하다 ㅜㅜ\n2 : 지형이 어떻게 이렇노 키키 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부산 날씨 어떻노 태풍 지나갔나",
+            "norm_text": "부산 날씨 어떻노 태풍 지나갔나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부산/NNP+날씨/NNG+어떻/VA+노/EC+태풍/NNG+지나갔/VV+EP+나/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 폭풍전야다 완전 바람 엄청 부는 중 ㅠㅠ",
+            "norm_text": "폭풍전야다 완전 바람 엄청 부는 중 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "폭풍전야/NNP+다/MAG+완전/MAG+바람/NNG+엄청/MAG+부/VV+는/ETM+중/NNB+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐... 미치겠다",
+            "norm_text": "헐... 미치겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+./SY+미치/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오늘 여기도 바람이 세차긴 하던데 태풍 바람까진 아닌데 ㅠ",
+            "norm_text": "오늘 여기도 바람이 세차긴 하던데 태풍 바람까진 아닌데 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+여기/NP+도/JX+바람/NNG+이/JKS+세차/VA+긴/ETN+JX+하/VX+던데/EC+태풍/NNG+바람/NNG+까진/JX+JX+아닌데/VCN+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 근데 태풍 진로 봤나 키키",
+            "norm_text": "근데 태풍 진로 봤나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+태풍/NNG+진로/NNG+봤/VV+EP+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 애가 자꾸 오락가락 하더라",
+            "norm_text": "애가 자꾸 오락가락 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애/NNG+가/JKS+자꾸/MAG+오락가락/MAG+하/VV+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니 안 봤다 왜?",
+            "norm_text": "아니 안 봤다 왜?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+안/MAG+봤/VV+EP+다/EF+왜/MAG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어디로 가드노?",
+            "norm_text": "어디로 가드노?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+로/JKB+가/VV+드/EC+VV+노/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 점점 일본 쪽으로 내려갈라 하드라 키키 쭉쭉 내려가주세요 ㅠ",
+            "norm_text": "점점 일본 쪽으로 내려갈라 하드라 키키 쭉쭉 내려가주세요 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "점점/MAG+일본/NNP+쪽/NNB+으로/JKB+내려갈라/VV+EC+하/VV+드라/EC+키/NNG+키/XSV+ETN+쭉쭉/MAG+내려가/VV+EC+주/VX+세요/EP+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오 그래 ㅠ 아니면 오다가 소멸돼라 무섭다",
+            "norm_text": "오 그래 ㅠ 아니면 오다가 소멸돼라 무섭다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "오그/NNP+래ㅠ/UNKNOWN+아니/VCN+면/EC+오/VV+다가/EC+소멸/NNG+돼라/VV+EC+무섭/VA+다/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그러니까 ㅠㅠ 태풍은 올 때마다 무섭다... 지진 또한...",
+            "norm_text": "그러니까 ㅠㅠ 태풍은 올 때마다 무섭다... 지진 또한...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "그러니까/MAJ+ㅠㅠ/UNKNOWN+태풍/NNG+은/JX+올/MM+때/NNG+마다/JX+무섭/VA+다/EF+./SY+지진/NNG+또한/MAJ+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그니까 태풍은 소리가... 한몫한다 다 날아가는 소리 나고 ㅠㅠ",
+            "norm_text": "그니까 태풍은 소리가... 한몫한다 다 날아가는 소리 나고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+태풍/NNG+은/JX+소리/NNG+가/JKS+./SY+한/MM+몫/NNG+한다/XSV+EC+다/MAG+날아가/VV+는/ETM+소리/NNG+나/VV+고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그러니까 키키 지붕 날아간다...",
+            "norm_text": "그러니까 키키 지붕 날아간다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/NNG+지붕/NNG+날아간다/VV+EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 바람 소리에 밤에 잠 못 자서 귀마개 하고 잔다...",
+            "norm_text": "바람 소리에 밤에 잠 못 자서 귀마개 하고 잔다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "바람/NNG+소리/NNG+에/JKB+밤/NNG+에/JKB+잠/NNG+못자/NNG+서/JKB+귀마개/NNG+하/XSV+고/EC+잔다/VV+EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나도 태풍 오면 이불에 파묻혀서 잔다 키키",
+            "norm_text": "나도 태풍 오면 이불에 파묻혀서 잔다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+태풍/NNG+오/VV+면/EC+이불/NNG+에/JKB+파묻혀서/VV+EC+잔다/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 근데 저번 태풍은 무슨... 천둥번개도 계속 쳐서 밝아서 못 자겠더라",
+            "norm_text": "근데 저번 태풍은 무슨... 천둥번개도 계속 쳐서 밝아서 못 자겠더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+저번/NNG+태풍/NNG+은/JX+무슨/MM+./SY+천둥/NNG+번개/NNG+도/JX+계속/MAG+쳐서/VV+EC+밝/VA+아서/EC+못/MAG+자/VV+겠/EP+더라/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞제 키키 진짜 새벽에 누가 내 방에 불 킨 줄...",
+            "norm_text": "맞제 키키 진짜 새벽에 누가 내 방에 불 킨 줄...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+키/NNG+키/XSV+ETN+진짜/MAG+새벽/NNG+에/JKB+누가/NP+JKS+내방/NNP+에/JKB+불/NNG+킨/XSV+ETN+JX+줄/NNG+./SY+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그니까 키키 근데 이랬던 적은 없는 것 같은데 기후변화 심각 ㅠ",
+            "norm_text": "그니까 키키 근데 이랬던 적은 없는 것 같은데 기후변화 심각 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+키/NNG+키/XSV+ETN+근데/MAJ+이랬/VV+EP+던/ETM+적/NNB+은/JX+없/VA+는/ETM+것/NNB+같/VA+은데/EC+기후/NNG+변화/NNG+심/XSN+각ㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 내 말이... 근데 태풍 레전드는 작년이었다...",
+            "norm_text": "내 말이... 근데 태풍 레전드는 작년이었다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+./SY+근데/MAJ+태풍/NNG+레전드/NNP+는/JX+작년/NNG+이/VCP+었/EP+다/EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 큰 거 두 개 연속으로 와가지고 부산 쑥대밭 됐었다... ㅠㅠ",
+            "norm_text": "큰 거 두 개 연속으로 와가지고 부산 쑥대밭 됐었다... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "큰/VA+ETM+거/NNB+두/MM+개/NNBC+연속/NNG+으로/JKB+와/VV+EC+가지/VX+고/EC+부산/NNP+쑥대밭/NNG+됐었/XSV+EP+다/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그니까 ㅠㅠ 부산은 진짜 비 많이 오면 물도 차고 대중교통은 거의 다 언덕으로 다녀야 되는데 빗길이고 ㅠㅠ 더 살벌하다",
+            "norm_text": "그니까 ㅠㅠ 부산은 진짜 비 많이 오면 물도 차고 대중교통은 거의 다 언덕으로 다녀야 되는데 빗길이고 ㅠㅠ 더 살벌하다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+ㅠㅠ/UNKNOWN+부산/NNP+은/JX+진짜/MAG+비/NNG+많이/MAG+오/VV+면/EC+물/NNG+도/JX+차/VV+고/EC+대중교통/NNG+은/JX+거의/MAG+다/MAG+언덕/NNG+으로/JKB+다녀야/VV+EC+되/VV+는데/EC+빗길/NNG+이/VCP+고/EC+ㅠㅠ/UNKNOWN+더/MAG+살벌/NNG+하/XSV+다/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 어어 진짜 살벌하다 ㅜㅜ",
+            "norm_text": "어어 진짜 살벌하다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+진짜/MAG+살벌/XR+하/XSA+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 지형이 어떻게 이렇노 키키 ㅠㅠ",
+            "norm_text": "지형이 어떻게 이렇노 키키 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지형/NNG+이/JKS+어떻게/MAG+이렇/VA+노/EC+키/NNG+키/XSV+ETN+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

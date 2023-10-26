@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 32956,
+    "name": "KAKAO_607_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924115850037284/KAKAO_607_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924115850037284/KAKAO_607_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32040,
+      "filename": "KAKAO_607_07.txt",
+      "title": "KAKAO_607_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 703,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 703,
+        "word_size": 213,
+        "text": "1 : 너 빨리 취업했을 때 엄마 아빠가 뭐라고 하셨어?\n2 : 딱히 뭐라고 한 건 없고 그냥, 첫 직장에 교수님이니까 잘 해라 이런 거 정도?\n1 : 그래도 엄마 아빠는 너가 빨리 취업해서 걱정 좀 덜으셨겠다...\n2 : 음 근데 딱히 그러지도 않았어 ㅠ 워낙 급여가 적었었어서 ㅜ\n1 : 아 그래? 부모님이 되게 좋아하셨을 거라고 생각했는데...\n2 : 그랬구나 근데 딱히 그렇게까진 없었고 돈 버니까 이제 교통비랑 통신비 가져가라, 이래서 부담이 컸지 키키\n1 : 그래서 엄마 아빠는 좋아하셨을 거란... 키키\n1 : 난 요즘 엄마가 부담이 좀 덜어서...\n2 : 아 그렇지 확실히 키키\n2 : 거기다 너는 생활비처럼 드리잖아\n1 : 그치... 그래서 나도 좀 부담이 되면서도 덜은 거 같기도 하고... 엄마 아빠는 아무래도 좀 낫겠지?\n2 : 진짜 많이 나아지셨을걸? 키키\n2 : 난 맨날 내빼는데,\n1 : 키키 그러니... 그래도 너는 취업하고 좀 시간이 지났고 동생도 학교 잘 다니니까 부모님이 좋아하실 거 같아\n2 : 그렇지 아무래도 키키 동생도 장학금 잘 받아오니까 등록금 걱정도 별로 없고,\n1 : 와 진짜 대단하네 부모님 어디 자랑 안 하시니 키키\n2 : 엄 거의 안 하는 것 같아 키키\n2 : 한 번씩 누가 좀 자랑한다 하면 그때서야 약간? 키키\n1 : 오~ 그것도 대단하시다 부모님들 그런 자랑 되게 많이 하시잖아\n2 : 그렁가 그래도 좋아하시는 건 눈에 보이더라 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 빨리 취업했을 때 엄마 아빠가 뭐라고 하셨어?",
+            "norm_text": "너 빨리 취업했을 때 엄마 아빠가 뭐라고 하셨어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+빨리/MAG+취업/NNG+했/XSV+EP+을/ETM+때/NNG+엄마/NNG+아빠/NNG+가/JKS+뭐/NP+라고/VCP+EC+하/VX+셨/EP+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 딱히 뭐라고 한 건 없고 그냥, 첫 직장에 교수님이니까 잘 해라 이런 거 정도?",
+            "norm_text": "딱히 뭐라고 한 건 없고 그냥, 첫 직장에 교수님이니까 잘 해라 이런 거 정도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "딱히/MAG+뭐/NP+라고/VCP+EC+한건/VX+ETM+NNB+JX+없/VA+고/EC+그냥/MAG+,/SC+첫/MM+직장/NNG+에/JKB+교수/NNG+님/XSN+이/VCP+니까/EC+잘/MAG+해라/VV+EF+이런/MM+거/NNB+정도/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래도 엄마 아빠는 너가 빨리 취업해서 걱정 좀 덜으셨겠다...",
+            "norm_text": "그래도 엄마 아빠는 너가 빨리 취업해서 걱정 좀 덜으셨겠다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+엄마/NNG+아빠/NNG+는/JX+너/NP+가/JKS+빨리/MAG+취업/NNG+해서/XSV+EC+걱정/NNG+좀/MAG+덜/VV+으셨/EP+EP+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 음 근데 딱히 그러지도 않았어 ㅠ 워낙 급여가 적었었어서 ㅜ",
+            "norm_text": "음 근데 딱히 그러지도 않았어 ㅠ 워낙 급여가 적었었어서 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+근데/MAJ+딱히/MAG+그러/VV+지/EC+도/JX+않/VX+았/EP+어ㅠ/UNKNOWN+워낙/MAG+급여/NNG+가/JKS+적/VA+었었/EP+어서/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그래? 부모님이 되게 좋아하셨을 거라고 생각했는데...",
+            "norm_text": "아 그래? 부모님이 되게 좋아하셨을 거라고 생각했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+부모/NNG+님/XSN+이/JKS+되게/MAG+좋/VA+아/EC+하/VX+셨/EP+EP+을/ETM+거/NNB+라고/VCP+EC+생각/NNG+했/XSV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그랬구나 근데 딱히 그렇게까진 없었고 돈 버니까 이제 교통비랑 통신비 가져가라, 이래서 부담이 컸지 키키",
+            "norm_text": "그랬구나 근데 딱히 그렇게까진 없었고 돈 버니까 이제 교통비랑 통신비 가져가라, 이래서 부담이 컸지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그랬/VV+EP+구나/EF+근데/MAJ+딱히/MAG+그렇게/MAG+까진/JX+JX+없/VA+었/EP+고/EC+돈/NNG+버/VV+니까/EC+이제/MAG+교통비/NNG+랑/JKB+통신비/NNG+가져가/VV+라/EC+,/SC+이래서/VV+EC+부담/NNG+이/JKS+컸/VA+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래서 엄마 아빠는 좋아하셨을 거란... 키키",
+            "norm_text": "그래서 엄마 아빠는 좋아하셨을 거란... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+엄마/NNG+아빠/NNG+는/JX+좋/VA+아/EC+하/VX+셨/EP+EP+을/ETM+거/NNB+란/VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 난 요즘 엄마가 부담이 좀 덜어서...",
+            "norm_text": "난 요즘 엄마가 부담이 좀 덜어서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+요즘/MAG+엄마/NNG+가/JKS+부담/NNG+이/JKS+좀/MAG+덜/VV+어서/EC+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 그렇지 확실히 키키",
+            "norm_text": "아 그렇지 확실히 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "아/IC+그렇/VA+지/EF+확실히/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 거기다 너는 생활비처럼 드리잖아",
+            "norm_text": "거기다 너는 생활비처럼 드리잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+다/JX+너/NP+는/JX+생활비/NNG+처럼/JKB+드리/VV+잖아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그치... 그래서 나도 좀 부담이 되면서도 덜은 거 같기도 하고... 엄마 아빠는 아무래도 좀 낫겠지?",
+            "norm_text": "그치... 그래서 나도 좀 부담이 되면서도 덜은 거 같기도 하고... 엄마 아빠는 아무래도 좀 낫겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+./SY+그래서/MAJ+나/NP+도/JX+좀/MAG+부담/NNG+이/JKS+되/VV+면서/EC+도/JX+덜/VV+은/ETM+거/NNB+같/VA+기/ETN+도/JX+하/VV+고/EC+./SY+./SY+엄마/NNG+아빠/NNG+는/JX+아무래도/MAG+좀/MAG+낫/VA+겠/EP+지/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 진짜 많이 나아지셨을걸? 키키",
+            "norm_text": "진짜 많이 나아지셨을걸? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+많이/MAG+나아지/VV+셨/EP+EP+을걸/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 맨날 내빼는데,",
+            "norm_text": "난 맨날 내빼는데,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+맨날/MAG+내빼/VV+는데/EC+,/SC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그러니... 그래도 너는 취업하고 좀 시간이 지났고 동생도 학교 잘 다니니까 부모님이 좋아하실 거 같아",
+            "norm_text": "키키 그러니... 그래도 너는 취업하고 좀 시간이 지났고 동생도 학교 잘 다니니까 부모님이 좋아하실 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+니/EF+./SY+그래도/MAJ+너/NP+는/JX+취업/NNG+하/XSV+고/EC+좀/MAG+시간/NNG+이/JKS+지났/VV+EP+고/EC+동생/NNG+도/JX+학교/NNG+잘/MAG+다니/VV+니까/EC+부모/NNG+님/XSN+이/JKS+좋/VA+아/EC+하/VX+실/EP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그렇지 아무래도 키키 동생도 장학금 잘 받아오니까 등록금 걱정도 별로 없고,",
+            "norm_text": "그렇지 아무래도 키키 동생도 장학금 잘 받아오니까 등록금 걱정도 별로 없고,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+아무래도/MAG+키/NNG+키/NNG+동생/NNG+도/JX+장학금/NNG+잘/MAG+받/VV+아/EC+오/VV+니까/EC+등록금/NNG+걱정/NNG+도/JX+별로/MAG+없/VA+고/EC+,/SC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 와 진짜 대단하네 부모님 어디 자랑 안 하시니 키키",
+            "norm_text": "와 진짜 대단하네 부모님 어디 자랑 안 하시니 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+진짜/MAG+대단/XR+하/XSA+네/EF+부모/NNG+님/XSN+어디/NP+자랑/NNG+안/MAG+하/VV+시/EP+니/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 엄 거의 안 하는 것 같아 키키",
+            "norm_text": "엄 거의 안 하는 것 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄/IC+거의/MAG+안/MAG+하/VV+는/ETM+것/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 한 번씩 누가 좀 자랑한다 하면 그때서야 약간? 키키",
+            "norm_text": "한 번씩 누가 좀 자랑한다 하면 그때서야 약간? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+번/NNBC+씩/XSN+누가/NP+JKS+좀/MAG+자랑/NNG+한다/XSV+EC+하/VV+면/EC+그때/NNG+서/JKB+야/JX+약간/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 오~ 그것도 대단하시다 부모님들 그런 자랑 되게 많이 하시잖아",
+            "norm_text": "오~ 그것도 대단하시다 부모님들 그런 자랑 되게 많이 하시잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+그것/NP+도/JX+대단/XR+하/XSA+시다/EC+부모/NNG+님/XSN+들/XSN+그런/MM+자랑/NNG+되게/MAG+많이/MAG+하/VV+시/EP+잖아/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그렁가 그래도 좋아하시는 건 눈에 보이더라 키키",
+            "norm_text": "그렁가 그래도 좋아하시는 건 눈에 보이더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렁/VA+가/JKS+그래도/VV+EC+좋/VA+아/EC+하/VX+시/EP+는/ETM+건/NNB+JX+눈/NNG+에/JKB+보이/VV+더라/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21389,
+    "name": "KAKAO_562_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710045092/KAKAO_562_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917164710045092/KAKAO_562_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30318,
+      "filename": "KAKAO_562_05.txt",
+      "title": "KAKAO_562_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 485,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 485,
+        "word_size": 143,
+        "text": "1 : 오빠~! 오빠 군대 육군이야?\n2 : 응 하하 맞아 육군! 강원도에서...\n1 : 강원도? 하하 우리 오빠 고생했네\n2 : 와 정말 눈이란 눈은 다 봤고 추위란 추위는 다 겪은듯해 키키\n1 : 아니... 동생이 슬슬 군대 가야 해서 이야기 중이야ㅠ\n2 : 아, 그러네 이제 가야겠구나ㅠㅠ 어떻게 할 거래?\n1 : 동생은 카투사 가려고 준비할 거라던데...흐음...\n2 : 오~ 맞아 영어 잘하니까 카투사 가면 좋겠다 하하\n1 : 근데 준비할게 많은가 봐 토스도 보고 그러더라고 하하\n2 : 음... 오빠가 잘 모르지만 쉽진 않은 듯 했어!\n1 : 그래도 유학을 갔다 오고 그래서 회화는 충분한데...시험이...\n2 : 카투사 준비하는 거에도 시험 성적이 필요하구나 음...\n1 : 성적도 거의 다 완성했는데 조금 부족하대 하하\n2 : 얼른 시험부터 준비해야겠다!\n1 : 응응 하하 학원 잠깐 다니면서 준비하기로 했어 키키\n2 : 오~ 이번에 잘 준비하면 한 번에 될 거야 하하 걱정마~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오빠~! 오빠 군대 육군이야?",
+            "norm_text": "오빠~! 오빠 군대 육군이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+~/SY+오빠/NNG+군대/NNG+육군/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 하하 맞아 육군! 강원도에서...",
+            "norm_text": "응 하하 맞아 육군! 강원도에서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+하하/MAG+맞/VV+아/EC+육군/NNG+!/SY+강원도/NNP+에서/JKB+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 강원도? 하하 우리 오빠 고생했네",
+            "norm_text": "강원도? 하하 우리 오빠 고생했네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강원도/NNP+하하/IC+우리/NP+오빠/NNG+고생/NNG+했/XSV+EP+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 와 정말 눈이란 눈은 다 봤고 추위란 추위는 다 겪은듯해 키키",
+            "norm_text": "와 정말 눈이란 눈은 다 봤고 추위란 추위는 다 겪은듯해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+정말/MAG+눈/NNG+이/VCP+란/ETM+눈/NNG+은/JX+다/MAG+봤/VV+EP+고/EC+추위/NNG+란/JX+추위/NNG+는/JX+다/MAG+겪/VV+은/ETM+듯/NNB+해/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니... 동생이 슬슬 군대 가야 해서 이야기 중이야ㅠ",
+            "norm_text": "아니... 동생이 슬슬 군대 가야 해서 이야기 중이야ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+./SY+동생/NNG+이/JKS+슬슬/MAG+군대/NNG+가/JKS+야해서/VA+EC+이야기/NNG+중/NNB+이/VCP+야/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아, 그러네 이제 가야겠구나ㅠㅠ 어떻게 할 거래?",
+            "norm_text": "아, 그러네 이제 가야겠구나ㅠㅠ 어떻게 할 거래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+,/SC+그러/VV+네/EF+이제/MAG+가/VV+야/EC+VX+겠/EP+구나/EF+ㅠㅠ/UNKNOWN+어떻게/MAG+할/VV+ETM+거/NNB+래/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 동생은 카투사 가려고 준비할 거라던데...흐음...",
+            "norm_text": "동생은 카투사 가려고 준비할 거라던데...흐음...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "동생/NNG+은/JX+카투사/NNG+가/VV+려고/EC+준비/NNG+할/XSV+ETM+거/NNB+라던데/VCP+EF+./SY+흐음/IC+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오~ 맞아 영어 잘하니까 카투사 가면 좋겠다 하하",
+            "norm_text": "오~ 맞아 영어 잘하니까 카투사 가면 좋겠다 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+맞/VV+아/EC+영어/NNG+잘/MAG+하/VV+니까/EC+카투사/NNG+가/VV+면/EC+좋/VA+겠/EP+다/EF+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 근데 준비할게 많은가 봐 토스도 보고 그러더라고 하하",
+            "norm_text": "근데 준비할게 많은가 봐 토스도 보고 그러더라고 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+준비/NNG+할/XSV+ETM+게/NNB+JKS+많/VA+은가/EC+봐/VX+EF+토스/NNG+도/JX+보/VV+고/EC+그러/VV+더라고/EC+하하/MAG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 음... 오빠가 잘 모르지만 쉽진 않은 듯 했어!",
+            "norm_text": "음... 오빠가 잘 모르지만 쉽진 않은 듯 했어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+오빠/NNG+가/JKS+잘/MAG+모르/VV+지만/EC+쉽/VA+진/EC+JX+않/VX+은/ETM+듯/NNB+했/XSA+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래도 유학을 갔다 오고 그래서 회화는 충분한데...시험이...",
+            "norm_text": "그래도 유학을 갔다 오고 그래서 회화는 충분한데...시험이...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+유학/NNG+을/JKO+갔다오/VV+고/EC+그래서/MAJ+회화/NNG+는/JX+충분/XR+한데/XSA+EF+./SY+시험/NNG+이/JKS+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 카투사 준비하는 거에도 시험 성적이 필요하구나 음...",
+            "norm_text": "카투사 준비하는 거에도 시험 성적이 필요하구나 음...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "카투사/NNG+준비/NNG+하/XSV+는/ETM+거/NNB+에/JKB+도/JX+시험/NNG+성적/NNG+이/JKS+필요/NNG+하/XSA+구나/EF+음/IC+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 성적도 거의 다 완성했는데 조금 부족하대 하하",
+            "norm_text": "성적도 거의 다 완성했는데 조금 부족하대 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "성적/NNG+도/JX+거의/MAG+다/MAG+완성/NNG+했/XSV+EP+는데/EC+조금/MAG+부족/NNG+하/XSV+대하/NNG+하/XSV"
+          },
+          {
+            "id": 14,
+            "text": "2 : 얼른 시험부터 준비해야겠다!",
+            "norm_text": "얼른 시험부터 준비해야겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼른/MAG+시험/NNG+부터/JX+준비/NNG+해야/XSV+EC+VX+겠/EP+다/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응응 하하 학원 잠깐 다니면서 준비하기로 했어 키키",
+            "norm_text": "응응 하하 학원 잠깐 다니면서 준비하기로 했어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+하하/MAG+학원/NNG+잠깐/MAG+다니/VV+면서/EC+준비/NNG+하/XSV+기/ETN+로/JKB+했/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오~ 이번에 잘 준비하면 한 번에 될 거야 하하 걱정마~!",
+            "norm_text": "오~ 이번에 잘 준비하면 한 번에 될 거야 하하 걱정마~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+이번/NNG+에/JKB+잘/MAG+준비/NNG+하/XSV+면/EC+한/MM+번/NNBC+에/JKB+될/VV+ETM+거/NNB+야/VCP+EF+하하/MAG+걱정/NNG+마/NNG+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

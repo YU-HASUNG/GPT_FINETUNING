@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32651,
+    "name": "KAKAO_804_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170529055929/KAKAO_804_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170529055929/KAKAO_804_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38765,
+      "filename": "KAKAO_804_12.txt",
+      "title": "KAKAO_804_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 478,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 478,
+        "word_size": 163,
+        "text": "1 : 너 이번에도 제주도 여행 혼자서 갈 거야?\n2 : 웅 나 이번에도 혼자서 갈 거야\n1 : 나는 너처럼 혼자 여행 다니는 사람들 너무 신기해\n2 : 왜 ~ 요즘 제주 한 달 살기 이런 것도 많이 하잖아\n1 : 맞아 키키 그건 여행 개념은 아닌 거지?\n2 : 여행이야 ~ 다들 거기서 일은 안 하니까\n1 : 아 그래? 그럼 한 달 내내 여행만 다니는 거야?\n2 : 내 지인은 게스트하우스 카운터 점심때만 봐주고 여행 다녀\n1 : 우와 키키 신기하다 키키 돈 많이 벌어서 가야겠네?\n2 : 웅 키키 걔는 거의 1년 모은 돈 다 썼대\n1 : 와... 여행에 돈 많이 쓰는 것도 너무 신기해\n2 : 너는 여행 안 좋아해?\n2 : 나랑도 많이 다녔잖아\n1 : 여행을 딱히 좋아하진 않아 그냥 같이 가는 사람이 좋은 거지\n2 : 허어... 감동이다 ㅠㅠ 나는 너가 계획 잘 세우길래 몰랐어\n1 : 계획은 뭐 키키 성격이 그런 거니까 키키\n2 : 그럼 다음에 갈 때는 좀 가까운 곳으로 가쟈",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 이번에도 제주도 여행 혼자서 갈 거야?",
+            "norm_text": "너 이번에도 제주도 여행 혼자서 갈 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+이번/NNG+에/JKB+도/JX+제주도/NNP+여행/NNG+혼자/NNG+서/JKB+갈/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 웅 나 이번에도 혼자서 갈 거야",
+            "norm_text": "웅 나 이번에도 혼자서 갈 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+나/NP+이번/NNG+에/JKB+도/JX+혼자/NNG+서/JKB+갈/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나는 너처럼 혼자 여행 다니는 사람들 너무 신기해",
+            "norm_text": "나는 너처럼 혼자 여행 다니는 사람들 너무 신기해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+너/NP+처럼/JKB+혼자/NNG+여행/NNG+다니/VV+는/ETM+사람/NNG+들/XSN+너무/MAG+신기/NNG+해/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 왜 ~ 요즘 제주 한 달 살기 이런 것도 많이 하잖아",
+            "norm_text": "왜 ~ 요즘 제주 한 달 살기 이런 것도 많이 하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "왜/MAG+~/SY+요즘/NNG+제주/NNP+한/MM+달/NNBC+살/VV+기/ETN+이런/MM+것/NNB+도/JX+많이/MAG+하/VV+잖아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 키키 그건 여행 개념은 아닌 거지?",
+            "norm_text": "맞아 키키 그건 여행 개념은 아닌 거지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+그건/NP+JX+여행/NNG+개념/NNG+은/JX+아닌/VCN+ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 여행이야 ~ 다들 거기서 일은 안 하니까",
+            "norm_text": "여행이야 ~ 다들 거기서 일은 안 하니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여행/NNG+이/VCP+야/EC+~/SY+다/NNG+들/XSN+거기/NP+서/JKB+일/NNG+은/JX+안/MAG+하/VV+니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 그래? 그럼 한 달 내내 여행만 다니는 거야?",
+            "norm_text": "아 그래? 그럼 한 달 내내 여행만 다니는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+그럼/MAJ+한/MM+달/NNBC+내내/MAG+여행/NNG+만/JX+다니/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 내 지인은 게스트하우스 카운터 점심때만 봐주고 여행 다녀",
+            "norm_text": "내 지인은 게스트하우스 카운터 점심때만 봐주고 여행 다녀",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+지인/NNG+은/JX+게스트/NNP+하우스/NNP+카운터/NNP+점심때/NNG+만/JX+봐/VV+EC+주/VX+고/EC+여행/NNG+다녀/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 우와 키키 신기하다 키키 돈 많이 벌어서 가야겠네?",
+            "norm_text": "우와 키키 신기하다 키키 돈 많이 벌어서 가야겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+키키/NNP+신기하/NNP+다키키/NNP+돈/NNG+많이/MAG+벌/VV+어서/EC+가/VX+야/EC+VX+겠/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 웅 키키 걔는 거의 1년 모은 돈 다 썼대",
+            "norm_text": "웅 키키 걔는 거의 1년 모은 돈 다 썼대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "웅/IC+키/NNG+키/XSV+ETN+걔/NP+는/JX+거의/MAG+1/SN+년/NNBC+모은/VV+ETM+돈/NNG+다/MAG+썼/VV+EP+대/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 와... 여행에 돈 많이 쓰는 것도 너무 신기해",
+            "norm_text": "와... 여행에 돈 많이 쓰는 것도 너무 신기해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+여행/NNG+에/JKB+돈/NNG+많이/MAG+쓰/VV+는/ETM+것/NNB+도/JX+너무/MAG+신기/NNG+해/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너는 여행 안 좋아해?",
+            "norm_text": "너는 여행 안 좋아해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+여행/NNG+안/MAG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나랑도 많이 다녔잖아",
+            "norm_text": "나랑도 많이 다녔잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+랑/JKB+도/JX+많이/MAG+다녔/VV+EP+잖아/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 여행을 딱히 좋아하진 않아 그냥 같이 가는 사람이 좋은 거지",
+            "norm_text": "여행을 딱히 좋아하진 않아 그냥 같이 가는 사람이 좋은 거지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여행/NNG+을/JKO+딱히/MAG+좋/VA+아/EC+하/VV+진/EC+JX+않/VX+아/EC+그냥/MAG+같이/MAG+가/VV+는/ETM+사람/NNG+이/JKS+좋/VA+은/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 허어... 감동이다 ㅠㅠ 나는 너가 계획 잘 세우길래 몰랐어",
+            "norm_text": "허어... 감동이다 ㅠㅠ 나는 너가 계획 잘 세우길래 몰랐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "허어/IC+./SY+감동/NNG+이/VCP+다/EF+ㅠㅠ/UNKNOWN+나/NP+는/JX+너/NP+가/JKS+계획/NNG+잘/MAG+세우/VV+길래/EC+몰랐/VV+EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 계획은 뭐 키키 성격이 그런 거니까 키키",
+            "norm_text": "계획은 뭐 키키 성격이 그런 거니까 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "계획/NNG+은/JX+뭐/IC+키/NNG+키/NNG+성격/NNG+이/JKS+그런/MM+거/NNB+니까/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그럼 다음에 갈 때는 좀 가까운 곳으로 가쟈",
+            "norm_text": "그럼 다음에 갈 때는 좀 가까운 곳으로 가쟈",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+다음/NNG+에/JKB+갈/VV+ETM+때/NNG+는/JX+좀/MAG+가까운/VA+ETM+곳/NNG+으로/JKB+가/VV+쟈/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

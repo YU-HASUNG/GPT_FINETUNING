@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 32698,
+    "name": "KAKAO_827_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171845053086/KAKAO_827_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171845053086/KAKAO_827_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38929,
+      "filename": "KAKAO_827_16.txt",
+      "title": "KAKAO_827_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 668,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 668,
+        "word_size": 220,
+        "text": "1 : 언니는 피부과 다니면 제일 하고 싶은 게 뭐야? 키키\n2 : 나 코에 땜빵 ㅜ 이거 진짜 너무 컴플렉스야\n2 : 사람들이 점인 줄 알아\n1 : 아 그거 수두 땜빵이지?\n1 : 나도 입 옆에 있어 ㅡㅡ\n2 : 응 그래서 한번 알아봤는데 엄청 비싸더라고;\n1 : 그거 요샌 뭐 레이저로 해서 메꿔주던데 약간 구멍 난 자리에 상처 내서 새 살 돋게 해 가지고 채우는 방식이었나\n2 : 오... 똑똑하다\n2 : 그러네 패인 흉터니까 살이 다시 차오르면 되는 거네?\n1 : 그칰 키키 똑똑하니까 다들 병원 의사하겠지?\n1 : 근데 신기한 게 그거 한의원에서도 한대\n2 : 헐 피부 관련 한의원도 있어?\n2 : 처음 들어봐 ㅎ\n1 : 엉 나 예전에 두드러기 땜에 개고생 했잖아 키키\n1 : 근데 한의원에서 침 놔 가지고 그 살 차오르게 한다던데?\n2 : 신기하다... 그래도 비싸겠지 ㅎ\n2 : 돈이 없다 ㅜ\n1 : 피부과는 확실히 비싸지 ㅜㅜ\n1 : 아 진짜 근데 나는 얼굴 박피하고 싶다 개빡쳐 키키\n2 : 박피 키키 예전엔 박피도 화학으로 많이 했다던데 ㅋ\n1 : 그래서 요새는 약간 천연 성분 박피? 뭐 그런 걸로 해서 자극이 덜 한가벼 키키\n2 : 동생 왜케 잘 알아...\n2 : 엄청 알아봤어? ㅋ\n1 : 엉 돈만 생기면 하려고 알아봤는데! 돈이 없어!\n2 : 키키 로또를 사 동생...\n2 : 많이 비싼가?\n2 : 언니가 보태주까?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니는 피부과 다니면 제일 하고 싶은 게 뭐야? 키키",
+            "norm_text": "언니는 피부과 다니면 제일 하고 싶은 게 뭐야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+피부과/NNG+다니/VV+면/EC+제일/NNG+하/XSV+고/EC+싶/VX+은/ETM+게/NNB+JKS+뭐/NP+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 코에 땜빵 ㅜ 이거 진짜 너무 컴플렉스야",
+            "norm_text": "나 코에 땜빵 ㅜ 이거 진짜 너무 컴플렉스야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+코/NNG+에/JKB+땜/VV+ETN+빵ㅜ/UNKNOWN+이거/NP+진짜/MAG+너무/MAG+컴플렉스/NNP+야/JKV"
+          },
+          {
+            "id": 3,
+            "text": "2 : 사람들이 점인 줄 알아",
+            "norm_text": "사람들이 점인 줄 알아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사람/NNG+들/XSN+이/JKS+점/NNG+인/VCP+ETM+줄/NNB+알/VV+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아 그거 수두 땜빵이지?",
+            "norm_text": "아 그거 수두 땜빵이지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그거/NP+수두/NNG+땜/NNB+빵/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나도 입 옆에 있어 ㅡㅡ",
+            "norm_text": "나도 입 옆에 있어 ㅡㅡ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+입/NNG+옆/NNG+에/JKB+있/VV+어/EC+ㅡㅡ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 그래서 한번 알아봤는데 엄청 비싸더라고;",
+            "norm_text": "응 그래서 한번 알아봤는데 엄청 비싸더라고;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래서/MAJ+한/MM+번/NNBC+알/VV+아/EC+봤/VX+EP+는데/EC+엄청/MAG+비싸/VA+더라고/EC+;/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그거 요샌 뭐 레이저로 해서 메꿔주던데 약간 구멍 난 자리에 상처 내서 새 살 돋게 해 가지고 채우는 방식이었나",
+            "norm_text": "그거 요샌 뭐 레이저로 해서 메꿔주던데 약간 구멍 난 자리에 상처 내서 새 살 돋게 해 가지고 채우는 방식이었나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+요샌/MAG+JX+뭐/IC+레이저/NNG+로/JKB+해서/VV+EC+메꿔/VV+EC+주/VX+던데/EC+약간/MAG+구멍/NNG+난/VV+ETM+자리/NNG+에/JKB+상처/NNG+내서/NNP+새살/NNG+돋/VV+게/EC+해/VV+EC+가지/VX+고/EC+채우/VV+는/ETM+방식/NNG+이/VCP+었/EP+나/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 오... 똑똑하다",
+            "norm_text": "오... 똑똑하다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+똑똑/XR+하/XSA+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그러네 패인 흉터니까 살이 다시 차오르면 되는 거네?",
+            "norm_text": "그러네 패인 흉터니까 살이 다시 차오르면 되는 거네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+러네/NNP+패인/VV+ETM+흉터/NNG+니까/VCP+EC+살/NNG+이/JKS+다시/MAG+차오르/VV+면/EC+되/VV+는/ETM+거/NNB+네/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그칰 키키 똑똑하니까 다들 병원 의사하겠지?",
+            "norm_text": "그칰 키키 똑똑하니까 다들 병원 의사하겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+칰/NNG+키/NNG+키/XSV+ETN+똑똑/XR+하/XSA+니까/EC+다/MAG+들/XSN+병원/NNG+의사/NNG+하/XSV+겠/EP+지/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 신기한 게 그거 한의원에서도 한대",
+            "norm_text": "근데 신기한 게 그거 한의원에서도 한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+신기/XR+한/XSA+ETM+게/NNB+JKS+그거/NP+한/MM+의원/NNG+에서/JKB+도/JX+한대/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 헐 피부 관련 한의원도 있어?",
+            "norm_text": "헐 피부 관련 한의원도 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+피부/NNG+관련/NNG+한/XSA+ETM+의원/NNG+도/JX+있/VA+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 처음 들어봐 ㅎ",
+            "norm_text": "처음 들어봐 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "처음/MAG+들/VV+어/EC+봐/VX+EF+ㅎ/XSA"
+          },
+          {
+            "id": 14,
+            "text": "1 : 엉 나 예전에 두드러기 땜에 개고생 했잖아 키키",
+            "norm_text": "엉 나 예전에 두드러기 땜에 개고생 했잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+나/NP+예전/NNG+에/JKB+두드러기/NNG+땜/NNB+에/JKB+개고생/NNG+했잖아/XSV+EP+EC+VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 한의원에서 침 놔 가지고 그 살 차오르게 한다던데?",
+            "norm_text": "근데 한의원에서 침 놔 가지고 그 살 차오르게 한다던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+한/MM+의원/NNG+에서/JKB+침/NNG+놔/VV+EC+가지/VX+고/EC+그/MM+살/NNBC+차오르/VV+게/EC+한다던데/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 신기하다... 그래도 비싸겠지 ㅎ",
+            "norm_text": "신기하다... 그래도 비싸겠지 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "신기/XR+하/XSA+다/EF+./SY+그래도/MAJ+비싸/VA+겠/EP+지/EF+ㅎ/XSA"
+          },
+          {
+            "id": 17,
+            "text": "2 : 돈이 없다 ㅜ",
+            "norm_text": "돈이 없다 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+이/JKS+없/VA+다/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 피부과는 확실히 비싸지 ㅜㅜ",
+            "norm_text": "피부과는 확실히 비싸지 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "피부과/NNG+는/JX+확실히/MAG+비싸/VA+지/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 아 진짜 근데 나는 얼굴 박피하고 싶다 개빡쳐 키키",
+            "norm_text": "아 진짜 근데 나는 얼굴 박피하고 싶다 개빡쳐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+근데/MAJ+나/NP+는/JX+얼굴/NNG+박피/NNG+하/XSV+고/EC+싶/VX+다/EF+개/NNBC+빡/MAG+쳐/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 박피 키키 예전엔 박피도 화학으로 많이 했다던데 ㅋ",
+            "norm_text": "박피 키키 예전엔 박피도 화학으로 많이 했다던데 ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "박피/NNG+키/NNG+키/NNG+예전/NNG+엔/JKB+JX+박피/NNG+도/JX+화학/NNG+으로/JKB+많이/MAG+했/VV+EP+다던데/EC+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그래서 요새는 약간 천연 성분 박피? 뭐 그런 걸로 해서 자극이 덜 한가벼 키키",
+            "norm_text": "그래서 요새는 약간 천연 성분 박피? 뭐 그런 걸로 해서 자극이 덜 한가벼 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+요새/NNG+는/JX+약간/MAG+천연/NNG+성분/NNG+박피/NNG+뭐/IC+그런/MM+걸로/NNB+JKB+해서/VV+EC+자극/NNG+이/JKS+덜/MAG+한가/XSA+EC+벼/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 동생 왜케 잘 알아...",
+            "norm_text": "동생 왜케 잘 알아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동생/NNG+왜/MAG+케/XSA+EC+잘/MAG+알/VV+아/EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 엄청 알아봤어? ㅋ",
+            "norm_text": "엄청 알아봤어? ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄청/MAG+알/VV+아/EC+봤/VX+EP+어/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 엉 돈만 생기면 하려고 알아봤는데! 돈이 없어!",
+            "norm_text": "엉 돈만 생기면 하려고 알아봤는데! 돈이 없어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+돈/NNG+만/JX+생기/VV+면/EC+하/VV+려고/EC+알/VV+아/EC+봤/VX+EP+는데/EC+!/SY+돈/NNG+이/JKS+없/VA+어/EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 키키 로또를 사 동생...",
+            "norm_text": "키키 로또를 사 동생...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키로/XSV+ETN+JKB+또/MAG+를/JKO+사/VV+EC+동생/NNG+./SY+./SY"
+          },
+          {
+            "id": 26,
+            "text": "2 : 많이 비싼가?",
+            "norm_text": "많이 비싼가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "많이/MAG+비싼가/VA+EF"
+          },
+          {
+            "id": 27,
+            "text": "2 : 언니가 보태주까?",
+            "norm_text": "언니가 보태주까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "언니/NNG+가/JKS+보태/VV+EC+주/VX+까/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

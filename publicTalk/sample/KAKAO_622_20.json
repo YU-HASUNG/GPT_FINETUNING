@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40475,
+    "name": "KAKAO_622_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113035033742/KAKAO_622_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113035033742/KAKAO_622_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31992,
+      "filename": "KAKAO_622_20.txt",
+      "title": "KAKAO_622_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 359,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 359,
+        "word_size": 121,
+        "text": "1 : 마블 영화 나왔던데\n2 : 마블 좋아해?\n1 : 웅 마블 좋아해!\n2 : 다 챙겨 봤어?\n1 : 아니, 다는 못 봤는데 나오는 거 대부분 다 보려고 해!\n2 : 나도 뭔가 보고 싶은데 너무 방대해서 못 보겠어!\n1 : 그래도 따로따로 봐도 재미있지 않아?\n2 : 웅 따로따로 봐도 재밌어!\n1 : 그래도 뭔가 한 번에 일대기처럼 보고 싶지 않아?\n2 : 웅 그렇게 보면 재미있을 거 같긴 해.\n1 : 하루 날 잡고 한번 정주행 해!\n2 : 헉 정주행 하기에 너무 많은 양 아니야?\n1 : 하루 만에 다는 못 보겠지만 키키\n2 : 유튜브에 정리해 놓은 영상 있던데 그것도 5시간이더라.\n1 : 헐 정리한 게 5시간이라니.\n2 : 하루 날 잡아서 그거라도 볼까 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 마블 영화 나왔던데",
+            "norm_text": "마블 영화 나왔던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마블/NNG+영화/NNG+나왔/VV+EP+던데/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 마블 좋아해?",
+            "norm_text": "마블 좋아해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "마블/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 웅 마블 좋아해!",
+            "norm_text": "웅 마블 좋아해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+마블/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 다 챙겨 봤어?",
+            "norm_text": "다 챙겨 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다/MAG+챙겨/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니, 다는 못 봤는데 나오는 거 대부분 다 보려고 해!",
+            "norm_text": "아니, 다는 못 봤는데 나오는 거 대부분 다 보려고 해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+,/SC+다/MAG+는/JX+못/MAG+봤/VV+EP+는데/EC+나오/VV+는/ETM+거/NNB+대부분/MAG+다/MAG+보/VV+려고/EC+해/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나도 뭔가 보고 싶은데 너무 방대해서 못 보겠어!",
+            "norm_text": "나도 뭔가 보고 싶은데 너무 방대해서 못 보겠어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+뭔가/NP+VCP+EC+보/VX+고/EC+싶/VX+은데/EC+너무/MAG+방대/XR+해서/XSA+EC+못/MAG+보/VV+겠/EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래도 따로따로 봐도 재미있지 않아?",
+            "norm_text": "그래도 따로따로 봐도 재미있지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+따로따로/MAG+봐도/VV+EC+재미있/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 웅 따로따로 봐도 재밌어!",
+            "norm_text": "웅 따로따로 봐도 재밌어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+따로따로/MAG+봐도/VV+EC+재밌/VA+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그래도 뭔가 한 번에 일대기처럼 보고 싶지 않아?",
+            "norm_text": "그래도 뭔가 한 번에 일대기처럼 보고 싶지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+뭔가/NP+VCP+EC+한/MM+번/NNBC+에/JKB+일대기/NNG+처럼/JKB+보/VV+고/EC+싶/VX+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 웅 그렇게 보면 재미있을 거 같긴 해.",
+            "norm_text": "웅 그렇게 보면 재미있을 거 같긴 해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅/IC+그렇게/MAG+보/VV+면/EC+재미있/VA+을/ETM+거/NNB+같/VA+긴/ETN+JX+해/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 하루 날 잡고 한번 정주행 해!",
+            "norm_text": "하루 날 잡고 한번 정주행 해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "하루/NNG+날/NNG+잡/VV+고/EC+한/MM+번/NNBC+정주/NNG+행해/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 헉 정주행 하기에 너무 많은 양 아니야?",
+            "norm_text": "헉 정주행 하기에 너무 많은 양 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+정주/NNG+행하/VV+기/ETN+에/JKB+너무/MAG+많/VA+은/ETM+양/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하루 만에 다는 못 보겠지만 키키",
+            "norm_text": "하루 만에 다는 못 보겠지만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하루/NNG+만/JX+에다/JKB+는/JX+못/MAG+보/VV+겠/EP+지만/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 유튜브에 정리해 놓은 영상 있던데 그것도 5시간이더라.",
+            "norm_text": "유튜브에 정리해 놓은 영상 있던데 그것도 5시간이더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "유튜브/NNP+에/JKB+정리/NNG+해/XSV+EC+놓/VX+은/ETM+영상/NNG+있/VV+던데/EC+그것/NP+도/JX+5/SN+시간/NNG+이/VCP+더라/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐 정리한 게 5시간이라니.",
+            "norm_text": "헐 정리한 게 5시간이라니.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+정리/NNG+한/XSA+ETM+게/NNB+JKS+5/SN+시간/NNG+이/VCP+라니/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 하루 날 잡아서 그거라도 볼까 키키",
+            "norm_text": "하루 날 잡아서 그거라도 볼까 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하루/NNG+날/NNG+잡/VV+아서/EC+그거/NP+라도/VCP+EC+볼까/VX+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

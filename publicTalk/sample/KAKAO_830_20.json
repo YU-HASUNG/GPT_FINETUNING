@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 47425,
+    "name": "KAKAO_830_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172206010349/KAKAO_830_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172206010349/KAKAO_830_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39598,
+      "filename": "KAKAO_830_20.txt",
+      "title": "KAKAO_830_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 433,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 433,
+        "word_size": 143,
+        "text": "1 : 티빙 결제해 놨는데 무슨 영화 보지\n2 : 티빙에는 영화 많이 있어요?\n1 : 넷플릭스보다는 없는데 나름? 있다 키키\n2 : 저는 넷플릭스밖에 없어서\n1 : 넷플에는 영화 옛날 거 너무 많더라 ㅠㅠ\n2 : 맞아요 왓챠에도 볼 거 많다고 하던데 왓챠도 사용해요?\n1 : 왓챠는 무료 이용권 있는데 아직 안 쓴다 키키\n2 : 안 쓰시면 저 주셔도 되는데 하하\n1 : 키키 줄까? 쓸래? 줬는데 미디어 많은 거 아니가 키키\n2 : 키키 저 주세요 넷플에는 재밌다는 건 거의 다 봤어요\n1 : 키키 쿠폰 번호 알려줄게 후기 알려도\n2 : 넹 감사합니다 하하 이제 볼 거 생겼네요\n1 : 키키 많이 봐 놔라 이용권 끝나기 전에\n2 : 한 달 무료 이런 거예요?\n1 : 맞다 키키 기간 지나면 결제하든가 하고\n2 : 키키 네 사용해 보고 알려드릴게요\n1 : 무슨 장르 보려고?\n2 : 코믹 쪽으로 찾아볼려구여",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 티빙 결제해 놨는데 무슨 영화 보지",
+            "norm_text": "티빙 결제해 놨는데 무슨 영화 보지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "티빙/NNP+결제/NNG+해/XSV+EC+놨는데/VX+EP+EC+무슨/MM+영화/NNG+보/VV+지/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 티빙에는 영화 많이 있어요?",
+            "norm_text": "티빙에는 영화 많이 있어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "티빙/NNP+에/JKB+는/JX+영화/NNG+많이/MAG+있/VA+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 넷플릭스보다는 없는데 나름? 있다 키키",
+            "norm_text": "넷플릭스보다는 없는데 나름? 있다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "넷플릭스/NNP+보다/JKB+는/JX+없/VA+는데/EC+나름/NNB+있/VA+다키키/NNP"
+          },
+          {
+            "id": 4,
+            "text": "2 : 저는 넷플릭스밖에 없어서",
+            "norm_text": "저는 넷플릭스밖에 없어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+넷플릭스/NNP+밖에/JX+없/VA+어서/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 넷플에는 영화 옛날 거 너무 많더라 ㅠㅠ",
+            "norm_text": "넷플에는 영화 옛날 거 너무 많더라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넷/NR+플/NNG+에/JKB+는/JX+영화/NNG+옛날/NNG+거/NNB+너무/MAG+많/VA+더라/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아요 왓챠에도 볼 거 많다고 하던데 왓챠도 사용해요?",
+            "norm_text": "맞아요 왓챠에도 볼 거 많다고 하던데 왓챠도 사용해요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아요/EF+왓/NNP+챠/NNP+에/JKB+도/JX+볼/VV+ETM+거/NNB+많/VA+다고/EC+하/VX+던/ETM+데/NNB+왓/VV+EP+챠/NNP+도/JX+사용/NNG+해요/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 왓챠는 무료 이용권 있는데 아직 안 쓴다 키키",
+            "norm_text": "왓챠는 무료 이용권 있는데 아직 안 쓴다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "왓/NNP+챠/NNP+는/JX+무료/NNG+이용/NNG+권/XSN+있/VA+는데/EC+아직/MAG+안/MAG+쓴/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 안 쓰시면 저 주셔도 되는데 하하",
+            "norm_text": "안 쓰시면 저 주셔도 되는데 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+쓰/VV+시/EP+면/EC+저주/NNG+셔도/VV+EP+EC+되/VV+는데/EC+하하/MAG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 줄까? 쓸래? 줬는데 미디어 많은 거 아니가 키키",
+            "norm_text": "키키 줄까? 쓸래? 줬는데 미디어 많은 거 아니가 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+줄까/VV+EF+쓸래/VV+EF+줬/VV+EP+는데/EC+미디어/NNG+많/VA+은/ETM+거/NNB+아니/VCN+가/JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 저 주세요 넷플에는 재밌다는 건 거의 다 봤어요",
+            "norm_text": "키키 저 주세요 넷플에는 재밌다는 건 거의 다 봤어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "키/NNG+키저/NNG+주/VV+세요/EP+EF+넷/NR+플/NNG+에/JKB+는/JX+재밌/VA+다는/ETM+건/NNB+JX+거의/MAG+다/MAG+봤/VV+EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 쿠폰 번호 알려줄게 후기 알려도",
+            "norm_text": "키키 쿠폰 번호 알려줄게 후기 알려도",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/NNG+쿠폰/NNG+번호/NNG+알려/VV+EC+줄/VX+ETM+게/NNB+JKS+후기/NNG+알려도/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 넹 감사합니다 하하 이제 볼 거 생겼네요",
+            "norm_text": "넹 감사합니다 하하 이제 볼 거 생겼네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "넹/NNP+감사/NNG+합니다/XSV+EF+하하/MAG+이제/MAG+볼/VV+ETM+거/NNB+생겼/VV+EP+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 많이 봐 놔라 이용권 끝나기 전에",
+            "norm_text": "키키 많이 봐 놔라 이용권 끝나기 전에",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/NNG+많이/MAG+봐/VV+EC+놔라/VX+EF+이용권/NNP+끝/NNG+나기/NNG+전/NNG+에/JKB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 한 달 무료 이런 거예요?",
+            "norm_text": "한 달 무료 이런 거예요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+달/NNBC+무료/NNG+이런/MM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞다 키키 기간 지나면 결제하든가 하고",
+            "norm_text": "맞다 키키 기간 지나면 결제하든가 하고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/XPN+다키키/NNP+기간/NNG+지나/VV+면/EC+결제/NNG+하/XSV+든가/EC+하/VV+고/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 네 사용해 보고 알려드릴게요",
+            "norm_text": "키키 네 사용해 보고 알려드릴게요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키키/NNP+네/XSN+사용/NNG+해/XSV+EC+보/VX+고/EC+알려/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 무슨 장르 보려고?",
+            "norm_text": "무슨 장르 보려고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+장르/NNG+보/VV+려고/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 코믹 쪽으로 찾아볼려구여",
+            "norm_text": "코믹 쪽으로 찾아볼려구여",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코믹/NNG+쪽/NNB+으로/JKB+찾/VV+아/EC+볼려/VX+EC+구여/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

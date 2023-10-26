@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 45745,
+    "name": "KAKAO_711_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114305038824/KAKAO_711_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114305038824/KAKAO_711_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35625,
+      "filename": "KAKAO_711_06.txt",
+      "title": "KAKAO_711_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 565,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 565,
+        "word_size": 184,
+        "text": "1 : 너 자기 계발 같은 거 하는 거 있어? 키키\n2 : 아니... 요새는 뭐 할 시간이 없어 ㅠㅠ\n1 : 아 ㅜㅜ 배우러 갈 시간이 아예 없는 거야?\n2 : 그렇네...? 요새 왜 이렇게 바쁜지 모르겠어 ㅠㅠ\n1 : ㅜㅜ 아휴... 그럼 뭐 배워보고 싶은 건 있고?\n2 : 나는 요새는 음... 글쎄...?\n2 : 언니는? 뭐 배우러 다녀?\n1 : 아니 나도 딱히 배우러 다니는 건 없는데 키키\n1 : 영어 스터디 해볼까 싶어서\n2 : 오 키키 스터디처럼 하는 영어 학원을 예전에 갔었지\n1 : 키키 응응 언어는 진짜 계속 안 하면 다 까먹더라구\n2 : 키키 맞아... 언어는 진짜 계속 계속 해야 하는 것 같애\n1 : 너 일본어 잘하는 걸로 기억하는데...\n1 : 요즘에도 다 기억나?\n2 : 키키 일상 생활 정도는?\n2 : 근데 그것도... 음... 키키\n1 : 키키 그치... 뭔가 단어들이 잘 기억이 안 나서 버벅거려\n2 : 키키 맞아... 진짜 그래서 계속 써야지 하는데 막상 쓰려면 쓸 때가 없어\n1 : 아 그치 ㅜㅜ 그래서 주변에 외국인 친구가 있는 게 젤 좋은데\n2 : 키키 맞아 근데 내 외국인 친구는 한국어를 넘 잘해 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 자기 계발 같은 거 하는 거 있어? 키키",
+            "norm_text": "너 자기 계발 같은 거 하는 거 있어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+자기/NP+계발/NNG+같/VA+은/ETM+거/NNB+하/VV+는/ETM+거/NNB+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니... 요새는 뭐 할 시간이 없어 ㅠㅠ",
+            "norm_text": "아니... 요새는 뭐 할 시간이 없어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+./SY+요새/NNG+는/JX+뭐/IC+할/VV+ETM+시간/NNG+이/JKS+없/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 ㅜㅜ 배우러 갈 시간이 아예 없는 거야?",
+            "norm_text": "아 ㅜㅜ 배우러 갈 시간이 아예 없는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+ㅜㅜ/UNKNOWN+배우/VV+러/EC+갈/VX+ETM+시간/NNG+이/JKS+아예/MAG+없/VA+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그렇네...? 요새 왜 이렇게 바쁜지 모르겠어 ㅠㅠ",
+            "norm_text": "그렇네...? 요새 왜 이렇게 바쁜지 모르겠어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+네/EF+./SY+./SY+요새/MAG+왜/MAG+이렇게/MAG+바쁜지/VA+EC+모르/VV+겠/EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : ㅜㅜ 아휴... 그럼 뭐 배워보고 싶은 건 있고?",
+            "norm_text": "ㅜㅜ 아휴... 그럼 뭐 배워보고 싶은 건 있고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+아휴/IC+./SY+그럼/MAJ+뭐/IC+배워/VV+EC+보/VX+고/EC+싶/VX+은/ETM+건/NNB+JX+있/VA+고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 요새는 음... 글쎄...?",
+            "norm_text": "나는 요새는 음... 글쎄...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+요새/NNG+는/JX+음/IC+./SY+글쎄/IC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 언니는? 뭐 배우러 다녀?",
+            "norm_text": "언니는? 뭐 배우러 다녀?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+뭐/IC+배우/VV+러/EC+다녀/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아니 나도 딱히 배우러 다니는 건 없는데 키키",
+            "norm_text": "아니 나도 딱히 배우러 다니는 건 없는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+나/NP+도/JX+딱히/MAG+배우/VV+러/EC+다니/VV+는/ETM+건/NNB+JX+없/VA+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 영어 스터디 해볼까 싶어서",
+            "norm_text": "영어 스터디 해볼까 싶어서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영어/NNG+스터디/NNP+해볼까/VV+EC+VX+EC+싶/VX+어서/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 오 키키 스터디처럼 하는 영어 학원을 예전에 갔었지",
+            "norm_text": "오 키키 스터디처럼 하는 영어 학원을 예전에 갔었지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키스터/NNP+디/NNG+처럼/JKB+하/VV+는/ETM+영어/NNG+학원/NNG+을/JKO+예전/NNG+에/JKB+갔었/VV+EP+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 응응 언어는 진짜 계속 안 하면 다 까먹더라구",
+            "norm_text": "키키 응응 언어는 진짜 계속 안 하면 다 까먹더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+응/IC+언어/NNG+는/JX+진짜/MAG+계속/MAG+안/MAG+하/VV+면/EC+다/MAG+까먹/VV+더라구/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 맞아... 언어는 진짜 계속 계속 해야 하는 것 같애",
+            "norm_text": "키키 맞아... 언어는 진짜 계속 계속 해야 하는 것 같애",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EF+./SY+언어/NNG+는/JX+진짜/MAG+계속/MAG+계속/NNG+해야/XSV+EC+하/VV+는/ETM+것/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 너 일본어 잘하는 걸로 기억하는데...",
+            "norm_text": "너 일본어 잘하는 걸로 기억하는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+일본어/NNG+잘/MAG+하/VV+는/ETM+걸로/NNB+JKB+기억/NNG+하/XSV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 요즘에도 다 기억나?",
+            "norm_text": "요즘에도 다 기억나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+에/JKB+도/JX+다/MAG+기억나/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 일상 생활 정도는?",
+            "norm_text": "키키 일상 생활 정도는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+일상/NNG+생활/NNG+정도/NNG+는/JX"
+          },
+          {
+            "id": 16,
+            "text": "2 : 근데 그것도... 음... 키키",
+            "norm_text": "근데 그것도... 음... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그것/NP+도/JX+./SY+./SY+음/IC+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 그치... 뭔가 단어들이 잘 기억이 안 나서 버벅거려",
+            "norm_text": "키키 그치... 뭔가 단어들이 잘 기억이 안 나서 버벅거려",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그치/IC+./SY+뭔가/NP+VCP+EC+단어/NNG+들/XSN+이/JKS+잘/MAG+기억/NNG+이/JKS+안/MAG+나/VV+서/EC+버벅/XR+거려/XSV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 맞아... 진짜 그래서 계속 써야지 하는데 막상 쓰려면 쓸 때가 없어",
+            "norm_text": "키키 맞아... 진짜 그래서 계속 써야지 하는데 막상 쓰려면 쓸 때가 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EF+./SY+진짜/MAG+그래서/MAJ+계속/MAG+써야지/VV+EC+하/VV+는데/EC+막상/MAG+쓰/VV+려면/EC+쓸/VV+ETM+때/NNG+가/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 아 그치 ㅜㅜ 그래서 주변에 외국인 친구가 있는 게 젤 좋은데",
+            "norm_text": "아 그치 ㅜㅜ 그래서 주변에 외국인 친구가 있는 게 젤 좋은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그치/IC+ㅜㅜ/UNKNOWN+그래서/MAJ+주변/NNG+에/JKB+외국인/NNG+친구/NNG+가/JKS+있/VA+는/ETM+게/NNB+JKS+젤/MAG+좋/VA+은데/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 맞아 근데 내 외국인 친구는 한국어를 넘 잘해 하하",
+            "norm_text": "키키 맞아 근데 내 외국인 친구는 한국어를 넘 잘해 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+근데/MAJ+내/MM+외국인/NNG+친구/NNG+는/JX+한국어/NNG+를/JKO+넘/MAG+잘/MAG+해하/NNG+하/XSV"
+          }
+        ]
+      }
+    }
+  ]
+}

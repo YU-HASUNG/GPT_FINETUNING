@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 30420,
+    "name": "KAKAO_692_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113116011472/KAKAO_692_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113116011472/KAKAO_692_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35352,
+      "filename": "KAKAO_692_13.txt",
+      "title": "KAKAO_692_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 672,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 672,
+        "word_size": 217,
+        "text": "1 : 어제 태풍 진짜 심하지 않았어? ㅜㅜ 번개도 계속 치고\n2 : 응 나 그렇게 큰 번개 소리는 처음 들었어...\n1 : 응 어제 난 그 소리 때문에 자다가 깨버려서 잠도 잘 못 잤어... ㅠㅠ\n1 : 부산이랑 울산이 심했다고 하더라\n2 : 그래도 이제 태풍은 지나갔다고 하니까 다행이야\n2 : 올해는 작년보다 장마도 늦게 오고 태풍도 늦게 왔네\n1 : 응 이제 태풍 지나고 나면 날씨 좀 선선해지려나 모르겠네\n2 : 그건 또 아니라더라.\n2 : 또 30도 넘어가는 더위는 계속될 거래\n1 : 요즘 날씨 너무 더워 진짜.\n1 : 여름이 더 더워지는 것 같아\n2 : 응 맞아. 여름이 1년 내내 가는 듯한 느낌이야\n2 : 난 계절 중에 여름을 제일 싫어하는데 ㅠ\n1 : 나도 그래. 특히 우리나라는 여름이 습도도 너무 높잖아\n2 : 맞아 습도! 안 그래도 제습기 사려고 상품 페이지 보고 있었어 키키\n1 : 제습기는 요새 삶의 질 높이는 물건으로 소문이 자자하더라 키키\n1 : 화장실에도 따로 둔대\n2 : 아 진짜? 키키 요새는 제습기도 되게 다양하게 많이 나와서 좋더라\n1 : 난 제습기 쓴 지 좀 오래 됐는데 엄청 만족 중이야.\n1 : 잘 비교해보고 구매하는 걸 추천해 키키\n2 : 그럴게 키키 사고 나면 구경하러 우리 집 놀러 와\n1 : 키키 제습기를 구경하러 가라고? 키키\n2 : 응 제습기 구경하고 커피 얻어 마시러 놀러 와 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 어제 태풍 진짜 심하지 않았어? ㅜㅜ 번개도 계속 치고",
+            "norm_text": "어제 태풍 진짜 심하지 않았어? ㅜㅜ 번개도 계속 치고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어제/MAG+태풍/NNG+진짜/MAG+심하/VA+지/EC+않/VX+았/EP+어/EF+ㅜㅜ/UNKNOWN+번개/NNG+도/JX+계속/MAG+치/VV+고/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 나 그렇게 큰 번개 소리는 처음 들었어...",
+            "norm_text": "응 나 그렇게 큰 번개 소리는 처음 들었어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+그렇게/MAG+큰/VA+ETM+번개/NNG+소리/NNG+는/JX+처음/MAG+들/VV+었/EP+어/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 어제 난 그 소리 때문에 자다가 깨버려서 잠도 잘 못 잤어... ㅠㅠ",
+            "norm_text": "응 어제 난 그 소리 때문에 자다가 깨버려서 잠도 잘 못 잤어... ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+어제/MAG+난/NP+JX+그/MM+소리/NNG+때문/NNB+에/JKB+자/VV+다가/EC+깨/VV+버려서/EC+VX+EC+잠/NNG+도/JX+잘못/MAG+잤/VV+EP+어/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 부산이랑 울산이 심했다고 하더라",
+            "norm_text": "부산이랑 울산이 심했다고 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "부산/NNP+이랑/JC+울산/NNP+이/JKS+심했/VA+EP+다고/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그래도 이제 태풍은 지나갔다고 하니까 다행이야",
+            "norm_text": "그래도 이제 태풍은 지나갔다고 하니까 다행이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+이제/MAG+태풍/NNG+은/JX+지나갔/VV+EP+다고/EC+하/VV+니까/EC+다행/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 올해는 작년보다 장마도 늦게 오고 태풍도 늦게 왔네",
+            "norm_text": "올해는 작년보다 장마도 늦게 오고 태풍도 늦게 왔네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "올해/NNG+는/JX+작년/NNG+보다/JKB+장마/NNG+도/JX+늦/VA+게/EC+오/VV+고/EC+태풍/NNG+도/JX+늦/VA+게/EC+왔/VX+EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 이제 태풍 지나고 나면 날씨 좀 선선해지려나 모르겠네",
+            "norm_text": "응 이제 태풍 지나고 나면 날씨 좀 선선해지려나 모르겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+이제/MAG+태풍/NNG+지나/VV+고/EC+나/VX+면/EC+날씨/NNG+좀/MAG+선선/NNG+해/XSV+EC+지/VX+려나/EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그건 또 아니라더라.",
+            "norm_text": "그건 또 아니라더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+또/MAG+아니/VCN+라더라/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 또 30도 넘어가는 더위는 계속될 거래",
+            "norm_text": "또 30도 넘어가는 더위는 계속될 거래",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "또/MAG+30/SN+도/NNBC+넘어가/VV+는/ETM+더위/NNG+는/JX+계속/NNG+될/XSV+ETM+거래/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 요즘 날씨 너무 더워 진짜.",
+            "norm_text": "요즘 날씨 너무 더워 진짜.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+날씨/NNG+너무/MAG+더워/VA+EC+진짜/MAG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 여름이 더 더워지는 것 같아",
+            "norm_text": "여름이 더 더워지는 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+이/JKS+더/MAG+더워/VA+EC+지/VX+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 맞아. 여름이 1년 내내 가는 듯한 느낌이야",
+            "norm_text": "응 맞아. 여름이 1년 내내 가는 듯한 느낌이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EF+여름/NNG+이/JKS+1/SN+년/NNBC+내내/MAG+가/VV+는/ETM+듯/NNB+한/XSA+ETM+느낌/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 계절 중에 여름을 제일 싫어하는데 ㅠ",
+            "norm_text": "난 계절 중에 여름을 제일 싫어하는데 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+계절/NNG+중/NNB+에/JKB+여름/NNG+을/JKO+제일/MAG+싫/VA+어/EC+하/VV+는/ETM+데ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나도 그래. 특히 우리나라는 여름이 습도도 너무 높잖아",
+            "norm_text": "나도 그래. 특히 우리나라는 여름이 습도도 너무 높잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그래/VA+EF+특히/MAG+우리/NP+나라/NNG+는/JX+여름/NNG+이/JKS+습도/NNG+도/JX+너무/MAG+높/VA+잖아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 맞아 습도! 안 그래도 제습기 사려고 상품 페이지 보고 있었어 키키",
+            "norm_text": "맞아 습도! 안 그래도 제습기 사려고 상품 페이지 보고 있었어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+습도/NNG+안/MAG+그래도/VV+EC+제습기/NNP+사/VV+려고/EC+상품/NNG+페이지/NNG+보/VV+고/EC+있/VX+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 제습기는 요새 삶의 질 높이는 물건으로 소문이 자자하더라 키키",
+            "norm_text": "제습기는 요새 삶의 질 높이는 물건으로 소문이 자자하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제습기/NNP+는/JX+요새/NNG+삶/NNG+의/JKG+질/NNG+높이/VV+는/ETM+물건/NNG+으로/JKB+소문/NNG+이/JKS+자자/XR+하/XSA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 화장실에도 따로 둔대",
+            "norm_text": "화장실에도 따로 둔대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "화장실/NNG+에/JKB+도/JX+따로/MAG+둔대/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아 진짜? 키키 요새는 제습기도 되게 다양하게 많이 나와서 좋더라",
+            "norm_text": "아 진짜? 키키 요새는 제습기도 되게 다양하게 많이 나와서 좋더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/NNG+요새/NNG+는/JX+제습기/NNP+도/JX+되게/MAG+다양/NNG+하/XSV+게/EC+많이/MAG+나와서/VV+EC+좋/VA+더라/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 난 제습기 쓴 지 좀 오래 됐는데 엄청 만족 중이야.",
+            "norm_text": "난 제습기 쓴 지 좀 오래 됐는데 엄청 만족 중이야.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+제습기/NNP+쓴지/VV+EC+좀/MAG+오래/MAG+됐/VV+EP+는데/EC+엄청/MAG+만족/NNG+중/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 잘 비교해보고 구매하는 걸 추천해 키키",
+            "norm_text": "잘 비교해보고 구매하는 걸 추천해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+비교/NNG+해/XSV+EC+보/VX+고/EC+구매/NNG+하/XSV+는/ETM+걸/NNB+JKO+추천/NNG+해/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그럴게 키키 사고 나면 구경하러 우리 집 놀러 와",
+            "norm_text": "그럴게 키키 사고 나면 구경하러 우리 집 놀러 와",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+게/NNB+JKS+키/NNG+키/XSV+ETN+사/VV+고/EC+나/VX+면/EC+구경/NNG+하/XSV+러/EC+우리/NP+집/NNG+놀러와/VV+EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 제습기를 구경하러 가라고? 키키",
+            "norm_text": "키키 제습기를 구경하러 가라고? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+제습기/NNP+를/JKO+구경/NNG+하/XSV+러/EC+가/VX+라고/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 응 제습기 구경하고 커피 얻어 마시러 놀러 와 키키",
+            "norm_text": "응 제습기 구경하고 커피 얻어 마시러 놀러 와 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+제습기/NNP+구경/NNG+하/XSV+고/EC+커피/NNG+얻/VV+어/EC+마시/VV+러/EC+놀러/NNP+와/JC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

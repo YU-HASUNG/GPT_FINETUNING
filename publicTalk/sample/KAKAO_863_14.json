@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 30541,
+    "name": "KAKAO_863_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717016860/KAKAO_863_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173717016860/KAKAO_863_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39872,
+      "filename": "KAKAO_863_14.txt",
+      "title": "KAKAO_863_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 333,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 333,
+        "word_size": 109,
+        "text": "1 : 엄마 주식 봤어?\n2 : 엄마는 주식 안 하니까 안 보지\n1 : 이번에 카카오가 엄청 떨어졌더라고\n2 : 그러니? 카카오가 왜 떨어져?\n1 : 아마 빅테크? 그거 규제 때문에 그런가 봐\n2 : 빅테크가 뭔데?\n1 : IT기업을 말하는 건가 봐\n2 : 국가에서 그런 기업들을 밀어줘야 하는 거 아니야?\n1 : 그러게... 나도 이쪽에 대해서 잘 몰라가지고\n2 : 카카오 주식 넣어 놓은 거 있어?\n1 : 아니 키키 돈 없어서 못 넣었지 다\n2 : 다행이네\n1 : 어차피 그런데 나는 한번 넣으면 안 빼가지고\n2 : 그래? 주식을 그렇게 해?\n1 : 응 짧게 치고 빠지면 잃기 십상이라\n2 : 그렇게도 하는구나 신기하네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 주식 봤어?",
+            "norm_text": "엄마 주식 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+주식/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엄마는 주식 안 하니까 안 보지",
+            "norm_text": "엄마는 주식 안 하니까 안 보지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+는/JX+주식/NNG+안/MAG+하/VV+니까/EC+안/MAG+보/VV+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 이번에 카카오가 엄청 떨어졌더라고",
+            "norm_text": "이번에 카카오가 엄청 떨어졌더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+카카오/NNG+가/JKS+엄청/MAG+떨어졌/VV+EP+더라고/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그러니? 카카오가 왜 떨어져?",
+            "norm_text": "그러니? 카카오가 왜 떨어져?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러/VV+니/EF+카카오/NNG+가/JKS+왜/MAG+떨어져/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아마 빅테크? 그거 규제 때문에 그런가 봐",
+            "norm_text": "아마 빅테크? 그거 규제 때문에 그런가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+빅/NNP+테크/NNP+그거/NP+규제/NNG+때문/NNB+에/JKB+그런가/VA+EC+봐/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 빅테크가 뭔데?",
+            "norm_text": "빅테크가 뭔데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "빅/NNP+테크/NNP+가/JKS+뭔데/NP+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : IT기업을 말하는 건가 봐",
+            "norm_text": "IT기업을 말하는 건가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "IT/SL+기업/NNG+을/JKO+말/NNG+하/XSV+는/ETM+건가/NNB+VCP+EC+봐/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 국가에서 그런 기업들을 밀어줘야 하는 거 아니야?",
+            "norm_text": "국가에서 그런 기업들을 밀어줘야 하는 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "국가/NNG+에서/JKB+그런/MM+기업/NNG+들/XSN+을/JKO+밀/VV+어/EC+줘야/VX+EC+하/VV+는/ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러게... 나도 이쪽에 대해서 잘 몰라가지고",
+            "norm_text": "그러게... 나도 이쪽에 대해서 잘 몰라가지고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+./SY+나/NP+도/JX+이쪽/NP+에/JKB+대해서/VV+EC+잘/MAG+몰라/VV+EC+가지/VX+고/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 카카오 주식 넣어 놓은 거 있어?",
+            "norm_text": "카카오 주식 넣어 놓은 거 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카카오/NNP+주식/NNG+넣/VV+어/EC+놓/VX+은/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아니 키키 돈 없어서 못 넣었지 다",
+            "norm_text": "아니 키키 돈 없어서 못 넣었지 다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니키/NNP+키/NNG+돈/NNG+없/VA+어서/EC+못/MAG+넣/VV+었/EP+지다/EC+VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 다행이네",
+            "norm_text": "다행이네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다행/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어차피 그런데 나는 한번 넣으면 안 빼가지고",
+            "norm_text": "어차피 그런데 나는 한번 넣으면 안 빼가지고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어차피/MAG+그런데/MAJ+나/NP+는/JX+한/MM+번/NNBC+넣/VV+으면/EC+안/MAG+빼/VV+EC+가지/VX+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래? 주식을 그렇게 해?",
+            "norm_text": "그래? 주식을 그렇게 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+주식/NNG+을/JKO+그렇게/MAG+해/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 짧게 치고 빠지면 잃기 십상이라",
+            "norm_text": "응 짧게 치고 빠지면 잃기 십상이라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+짧/VA+게/EC+치/VV+고/EC+빠지/VV+면/EC+잃/VV+기/ETN+십상/NNG+이/VCP+라/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그렇게도 하는구나 신기하네",
+            "norm_text": "그렇게도 하는구나 신기하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇게/MAG+도/JX+하/VV+는구나/EF+신기/XR+하/XSA+네/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

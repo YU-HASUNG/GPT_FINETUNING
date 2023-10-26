@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 28813,
+    "name": "KAKAO_487_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150742067659/KAKAO_487_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150742067659/KAKAO_487_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28439,
+      "filename": "KAKAO_487_09.txt",
+      "title": "KAKAO_487_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 478,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 478,
+        "word_size": 150,
+        "text": "1 : 곤충 채집 해봤나요\n2 : 예전에 했었어요\n2 : 근데 이제는 못 해요.\n1 : 곤충 잠자리 잡으러 다녔는데 날개 떨어지고 불쌍\n2 : 이제 곧 잠자리 날아다닐 텐데 채칩해서 키우세요\n1 : 네 근데 불쌍해서 안 돼여\n1 : 개미집 봤나요\n2 : 개미집에 구멍 있으면 물 넣고 놀았던 기억이 있어요\n1 : 너무 잔인하네요\n1 : 개미들이 얼마나 성실한데요\n2 : 우리 고양이 이야기할까요?\n2 : 저 고양이 좋아하는데요\n1 : 고양이는 항상 귀엽죠 ㅎ\n2 : 고양이 허피스 바이러스 아세요?\n2 : 불쌍해요\n1 : 그거 알아요 범백이라고 하죠\n1 : 어제도 길냥이 치즈냥이 만져줬네요\n2 : 눈에 영향을 주는 바이러스 중 거의 유일하게 각막에 손상을 주거든요...\n1 : 그거 그럼 눈에 진물 나고 눈 머나요\n2 : 길냥이도 보면 항상 눈에 눈곱이 있어요\n1 : 가여운 양이들 불쌍해요\n1 : 안약 챙겨서 다니세여\n2 : 그거 의사한테 물어보니까 각막에 손상이 생겨서 혈관이 다친 거래요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 곤충 채집 해봤나요",
+            "norm_text": "곤충 채집 해봤나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "곤충/NNG+채집/NNG+해/XSV+EC+봤/VX+EP+나요/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 예전에 했었어요",
+            "norm_text": "예전에 했었어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "예전/NNG+에/JKB+했었/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 근데 이제는 못 해요.",
+            "norm_text": "근데 이제는 못 해요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+이제/NNG+는/JX+못/MAG+해요/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 곤충 잠자리 잡으러 다녔는데 날개 떨어지고 불쌍",
+            "norm_text": "곤충 잠자리 잡으러 다녔는데 날개 떨어지고 불쌍",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곤충/NNG+잠자리/NNG+잡/VV+으러/EC+다녔/VV+EP+는데/EC+날개/NNG+떨어지/VV+고/EC+불쌍/XR"
+          },
+          {
+            "id": 5,
+            "text": "2 : 이제 곧 잠자리 날아다닐 텐데 채칩해서 키우세요",
+            "norm_text": "이제 곧 잠자리 날아다닐 텐데 채칩해서 키우세요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이제/MAG+곧/MAG+잠자리/NNG+날아다닐/VV+ETM+텐데/NNB+VCP+EC+채/MAG+칩/NNG+해서/XSV+EC+키우/VV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 네 근데 불쌍해서 안 돼여",
+            "norm_text": "네 근데 불쌍해서 안 돼여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+근데/MAJ+불쌍/XR+해서/XSA+EC+안/MAG+돼/VV+여/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 개미집 봤나요",
+            "norm_text": "개미집 봤나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "개미집/NNG+봤/VV+EP+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 개미집에 구멍 있으면 물 넣고 놀았던 기억이 있어요",
+            "norm_text": "개미집에 구멍 있으면 물 넣고 놀았던 기억이 있어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "개미집/NNG+에/JKB+구/VV+멍/EC+있/VX+으면/EC+물/NNG+넣/VV+고/EC+놀/VV+았/EP+던/ETM+기억/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 너무 잔인하네요",
+            "norm_text": "너무 잔인하네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+잔인/NNG+하/XSV+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 개미들이 얼마나 성실한데요",
+            "norm_text": "개미들이 얼마나 성실한데요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "개미/NNG+들/XSN+이/JKS+얼마나/MAG+성실/NNG+한데요/XSA+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 우리 고양이 이야기할까요?",
+            "norm_text": "우리 고양이 이야기할까요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+고양이/NNG+이야기/NNG+할까요/XSV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 저 고양이 좋아하는데요",
+            "norm_text": "저 고양이 좋아하는데요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/MM+고양이/NNG+좋/VA+아/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 고양이는 항상 귀엽죠 ㅎ",
+            "norm_text": "고양이는 항상 귀엽죠 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고양이/NNG+는/JX+항상/MAG+귀엽/VA+죠/EF+ㅎ/XSA"
+          },
+          {
+            "id": 14,
+            "text": "2 : 고양이 허피스 바이러스 아세요?",
+            "norm_text": "고양이 허피스 바이러스 아세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고양이/NNG+허/IC+피스/NNG+바이러스/NNG+아세요/VV+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 불쌍해요",
+            "norm_text": "불쌍해요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "불쌍/XR+해요/XSA+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그거 알아요 범백이라고 하죠",
+            "norm_text": "그거 알아요 범백이라고 하죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+알/VV+아요/EF+범백/NNG+이/VCP+라고/EC+하/VX+죠/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 어제도 길냥이 치즈냥이 만져줬네요",
+            "norm_text": "어제도 길냥이 치즈냥이 만져줬네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+제도/NNG+길/NNG+냥/NNBC+이/JKS+치즈/NNG+냥/NNBC+이/JKS+만져/VV+EC+줬/VX+EP+네요/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 눈에 영향을 주는 바이러스 중 거의 유일하게 각막에 손상을 주거든요...",
+            "norm_text": "눈에 영향을 주는 바이러스 중 거의 유일하게 각막에 손상을 주거든요...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "눈/NNG+에/JKB+영향/NNG+을/JKO+주/VV+는/ETM+바이러스/NNG+중/NNB+거의/MAG+유일/NNG+하/XSV+게/EC+각막/NNG+에/JKB+손상/NNG+을/JKO+주/VV+거든요/EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그거 그럼 눈에 진물 나고 눈 머나요",
+            "norm_text": "그거 그럼 눈에 진물 나고 눈 머나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+그럼/MAJ+눈/NNG+에/JKB+진물/NNG+나/VV+고/EC+눈/NNG+머/VCP+EC+나/VX+요/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 길냥이도 보면 항상 눈에 눈곱이 있어요",
+            "norm_text": "길냥이도 보면 항상 눈에 눈곱이 있어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "길/NNG+냥/NNBC+이/VCP+도/EC+보/VX+면/EC+항상/MAG+눈/NNG+에/JKB+눈곱/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 가여운 양이들 불쌍해요",
+            "norm_text": "가여운 양이들 불쌍해요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가여운/VA+ETM+양이/NNG+들/XSN+불쌍/XR+해요/XSA+EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 안약 챙겨서 다니세여",
+            "norm_text": "안약 챙겨서 다니세여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "안약/NNG+챙겨서/VV+EC+다니/VV+세여/EP+EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 그거 의사한테 물어보니까 각막에 손상이 생겨서 혈관이 다친 거래요",
+            "norm_text": "그거 의사한테 물어보니까 각막에 손상이 생겨서 혈관이 다친 거래요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+의사/NNG+한테/JKB+물/VV+어/EC+보/VX+니까/EC+각막/NNG+에/JKB+손상/NNG+이/JKS+생겨서/VV+EC+혈관/NNG+이/JKS+다친/VV+ETM+거/NNB+래요/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

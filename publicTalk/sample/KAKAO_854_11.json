@@ -1,0 +1,443 @@
+{
+  "dataset": {
+    "identifier": 48405,
+    "name": "KAKAO_854_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202110011742300421106/KAKAO_854_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202110011742300421106/KAKAO_854_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40109,
+      "filename": "KAKAO_854_11.txt",
+      "title": "KAKAO_854_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 1006,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 1006,
+        "word_size": 327,
+        "text": "1 : 혹시 게임 뭐 하는 거 있엉? 키키\n2 : 아니 키키 없어\n2 : 나 게임은 초등학교 다닐 때 크레이지 아케이드랑 카트라이더 해본 게 다야 키키 추억의 게임...\n1 : 키키 난 사실 크아랑 카트 요새도 가끔 해 키키\n1 : 남자친구랑 하면 꿀잼이던데 너도 한번 시도해봐\n2 : 아 그럴려면 피시방 가야 되는데 나는 피시방 가는 게 진짜 싫더라고 ㅠ 키키\n2 : 아 나름 최근이라면 최근에 폰게임으로 모두의 마블 했었다 키키\n1 : 키키 모바일 버전이 생겼었구나\n1 : 근데. 요새 피시방 되게 깔끔하고 카페 식으로 되어있지 않아?\n2 : 아 그런가 나 피시방에 대한 그냥 편견이 있나 보다 키키\n2 : 최근엔 안 가봐가지고 어떤지 잘 몰라\n2 : 게임만 하러 가는 곳은 아니구나... 키키\n1 : 응 나도 옛날식 피씨방은 진짜 싫은데 요새는 완전 달라졌더라 키키\n1 : 데이트 전용으로 나온 커플 좌석도 있고 그래 키키\n2 : 그렇다면 가서 해볼만 하다 키키\n2 : 내 남자친구는 롤 엄청 하는데 니 남친은 무슨 게임 해?\n1 : 스타크래프트라고 옛날 게임 있자나 키키 벌레 같은 거 나오는 거\n2 : 그거 아직도 해? 키키\n2 : 그거 아직 하는 사람 처음 봐 키키\n2 : 요즘엔 다 롤 하던데 아니면 배그? 오버워치? 이런 거 키키\n1 : 그치 키키 너무 옛날 사람이야 키키\n1 : 그래서 맨날 또 벌레 잡냐고 놀려\n1 : 난 메이플스토리 하고 싶은뎅\n2 : 메이플스토리는 한번도 해본 적 없어 키키\n2 : 그거 우리 삼대장 아니였냐고 키키 크아랑 카트랑 메이플 키키\n2 : 진짜 오랜만에 들어본다\n1 : 그러니까 키키 메이플 나 완전 초고수였어 레벨 80 넘었을 걸 키키\n1 : 크아도 완전 고인물인데 나 키키\n2 : 키키 근데 슬프지만 게임에서도 나이를 알 수가 있네 키키\n2 : 요즘은 모를 거 아냐 저 게임 키키\n2 : 우리 담번에 해야 될 거 또 적립이당\n1 : 너 피씨방 데려가보고 싶긴 하다. 키키\n1 : 우리 할 거 왜 이리 많냥 키키\n2 : 좋아 다음번엔 그럼 피시방에서 크아랑 카트랑 메이플도 하고 음식도 시켜 먹고 하자 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 혹시 게임 뭐 하는 거 있엉? 키키",
+            "norm_text": "혹시 게임 뭐 하는 거 있엉? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+게임/NNG+뭐/IC+하/VV+는/ETM+거/NNB+있/VA+엉/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 키키 없어",
+            "norm_text": "아니 키키 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+키/NNG+키/XSV+ETN+없/VA+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나 게임은 초등학교 다닐 때 크레이지 아케이드랑 카트라이더 해본 게 다야 키키 추억의 게임...",
+            "norm_text": "나 게임은 초등학교 다닐 때 크레이지 아케이드랑 카트라이더 해본 게 다야 키키 추억의 게임...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나게임은초등학교다닐때크레이지아케이드랑카트라이더해본게다야키키추억의게임/UNKNOWN+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 난 사실 크아랑 카트 요새도 가끔 해 키키",
+            "norm_text": "키키 난 사실 크아랑 카트 요새도 가끔 해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/NP+JX+사실/MAG+크/VA+아/EF+랑/JKB+카트/NNG+요새/NNG+도/JX+가끔/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 남자친구랑 하면 꿀잼이던데 너도 한번 시도해봐",
+            "norm_text": "남자친구랑 하면 꿀잼이던데 너도 한번 시도해봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "남자/NNG+친구/NNG+랑/JKB+하/VV+면/EC+꿀/VV+ETM+잼/NNG+이/JKS+던데/VV+EC+너/NP+도/JX+한/MM+번/NNBC+시도/NNG+해/XSV+EC+봐/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 그럴려면 피시방 가야 되는데 나는 피시방 가는 게 진짜 싫더라고 ㅠ 키키",
+            "norm_text": "아 그럴려면 피시방 가야 되는데 나는 피시방 가는 게 진짜 싫더라고 ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그럴려면/VV+EC+피시방/NNG+가/VV+야/EC+되/VV+는데/EC+나/NP+는/JX+피시방/NNG+가/VV+는/ETM+게/NNB+JKS+진짜/MAG+싫/VA+더라고/EF+ㅠ키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 아 나름 최근이라면 최근에 폰게임으로 모두의 마블 했었다 키키",
+            "norm_text": "아 나름 최근이라면 최근에 폰게임으로 모두의 마블 했었다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나름/NNB+최근/NNG+이/VCP+라면/EC+최근/NNG+에/JKB+폰/NNG+게임/NNG+으로/JKB+모두/NNG+의/JKG+마블/NNG+했었/XSV+EP+다키키/NNP"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 모바일 버전이 생겼었구나",
+            "norm_text": "키키 모바일 버전이 생겼었구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키/NNP+모바일/NNP+버전/NNG+이/JKS+생겼었/VV+EP+구나/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 근데. 요새 피시방 되게 깔끔하고 카페 식으로 되어있지 않아?",
+            "norm_text": "근데. 요새 피시방 되게 깔끔하고 카페 식으로 되어있지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+요새/MAG+피시방/NNG+되게/MAG+깔끔/XR+하/XSA+고/EC+카페/NNG+식/NNB+으로/JKB+되/VV+어/EC+있/VX+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 그런가 나 피시방에 대한 그냥 편견이 있나 보다 키키",
+            "norm_text": "아 그런가 나 피시방에 대한 그냥 편견이 있나 보다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그런/MM+가나/NNG+피시방/NNG+에/JKB+대한/VV+ETM+그냥/MAG+편견/NNG+이/JKS+있/VA+나/NP+보다/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 최근엔 안 가봐가지고 어떤지 잘 몰라",
+            "norm_text": "최근엔 안 가봐가지고 어떤지 잘 몰라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "최근/NNG+엔/JKB+JX+안/MAG+가/VV+EC+봐/VX+EC+가지/VX+고/EC+어떤지/VA+EC+잘/MAG+몰라/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 게임만 하러 가는 곳은 아니구나... 키키",
+            "norm_text": "게임만 하러 가는 곳은 아니구나... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "게임/NNG+만/JX+하/VV+러/EC+가/VX+는/ETM+곳/NNG+은/JX+아니/VCN+구나/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 나도 옛날식 피씨방은 진짜 싫은데 요새는 완전 달라졌더라 키키",
+            "norm_text": "응 나도 옛날식 피씨방은 진짜 싫은데 요새는 완전 달라졌더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+도/JX+옛날/NNG+식피/NNG+씨방/NNG+은/JX+진짜/MAG+싫/VA+은데/EC+요새/NNG+는/JX+완전/MAG+달라졌/VV+EP+더라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 데이트 전용으로 나온 커플 좌석도 있고 그래 키키",
+            "norm_text": "데이트 전용으로 나온 커플 좌석도 있고 그래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "데이트/NNG+전용/NNG+으로/JKB+나온/VV+ETM+커플/NNG+좌석/NNG+도/JX+있/VA+고/EC+그래/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그렇다면 가서 해볼만 하다 키키",
+            "norm_text": "그렇다면 가서 해볼만 하다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+다면/EC+가/VX+서/EC+해/VV+EC+볼/VX+만하다/ETM+NNB+XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 내 남자친구는 롤 엄청 하는데 니 남친은 무슨 게임 해?",
+            "norm_text": "내 남자친구는 롤 엄청 하는데 니 남친은 무슨 게임 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내/NP+JKG+남자/NNG+친구/NNG+는/JX+롤/JKB+엄청/MAG+하/VV+는데/EC+니/MM+남친/NNG+은/JX+무슨/MM+게임/NNG+해/XSV+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 스타크래프트라고 옛날 게임 있자나 키키 벌레 같은 거 나오는 거",
+            "norm_text": "스타크래프트라고 옛날 게임 있자나 키키 벌레 같은 거 나오는 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "스타크래프트/NNP+라고/VCP+EC+옛날/NNG+게임/NNG+있/VV+자/EC+나/NP+키/NNG+키/NNG+벌레/NNG+같/VA+은/ETM+거/NNB+나오/VV+는/ETM+거/NNB"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그거 아직도 해? 키키",
+            "norm_text": "그거 아직도 해? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+아직/MAG+도/JX+해/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그거 아직 하는 사람 처음 봐 키키",
+            "norm_text": "그거 아직 하는 사람 처음 봐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+아직/MAG+하/VV+는/ETM+사람/NNG+처음/NNG+봐/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 요즘엔 다 롤 하던데 아니면 배그? 오버워치? 이런 거 키키",
+            "norm_text": "요즘엔 다 롤 하던데 아니면 배그? 오버워치? 이런 거 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+엔/JKB+JX+다롤/NNG+하/XSV+던데/EC+아니/VCN+면/EC+배/NNG+그/IC+오버/NNG+워치/NNP+이런/MM+거/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그치 키키 너무 옛날 사람이야 키키",
+            "norm_text": "그치 키키 너무 옛날 사람이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키/NNG+키/NNG+너무/MAG+옛날/NNG+사람/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 그래서 맨날 또 벌레 잡냐고 놀려",
+            "norm_text": "그래서 맨날 또 벌레 잡냐고 놀려",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+맨날/MAG+또/MAG+벌레/NNG+잡/VV+냐고/EC+놀려/VV+EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 난 메이플스토리 하고 싶은뎅",
+            "norm_text": "난 메이플스토리 하고 싶은뎅",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+메이플/NNP+스토리/NNG+하/XSV+고/EC+싶/VX+은/ETM+뎅/NNP"
+          },
+          {
+            "id": 24,
+            "text": "2 : 메이플스토리는 한번도 해본 적 없어 키키",
+            "norm_text": "메이플스토리는 한번도 해본 적 없어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "메이플/NNP+스토리/NNG+는/JX+한/MM+번/NNBC+도/JX+해/VV+EC+본/VX+ETM+적/NNB+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 그거 우리 삼대장 아니였냐고 키키 크아랑 카트랑 메이플 키키",
+            "norm_text": "그거 우리 삼대장 아니였냐고 키키 크아랑 카트랑 메이플 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+우리/NP+삼/NR+대장/NNG+아니/VCN+였/EP+냐고/EC+키/NNG+키/XSV+ETN+크/VA+아/EF+랑/JKB+카트/NNG+랑/JC+메이플/NNP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 진짜 오랜만에 들어본다",
+            "norm_text": "진짜 오랜만에 들어본다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+오랜만/NNG+에/JKB+들/VV+어/EC+본다/VV+EC"
+          },
+          {
+            "id": 27,
+            "text": "1 : 그러니까 키키 메이플 나 완전 초고수였어 레벨 80 넘었을 걸 키키",
+            "norm_text": "그러니까 키키 메이플 나 완전 초고수였어 레벨 80 넘었을 걸 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까키키메이플나완전초고수였어레벨/UNKNOWN+80/SN+넘/VV+었/EP+을/ETM+걸/NNB+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 크아도 완전 고인물인데 나 키키",
+            "norm_text": "크아도 완전 고인물인데 나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "크/VA+아도/EC+완전/MAG+고인/VV+ETM+물/NNG+인데/VCP+EC+나/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 29,
+            "text": "2 : 키키 근데 슬프지만 게임에서도 나이를 알 수가 있네 키키",
+            "norm_text": "키키 근데 슬프지만 게임에서도 나이를 알 수가 있네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+슬프/VA+지만/EC+게임/NNG+에서/JKB+도/JX+나이/NNG+를/JKO+알/VV+ETM+수/NNB+가/JKS+있/VA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "2 : 요즘은 모를 거 아냐 저 게임 키키",
+            "norm_text": "요즘은 모를 거 아냐 저 게임 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+모를/VV+ETM+거/NNB+아냐/VCN+EF+저/MM+게임/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 31,
+            "text": "2 : 우리 담번에 해야 될 거 또 적립이당",
+            "norm_text": "우리 담번에 해야 될 거 또 적립이당",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+담/NNG+번/NNBC+에/JKB+해야/VV+EC+될/VV+ETM+거/NNB+또/MAG+적립/NNG+이당/NNG"
+          },
+          {
+            "id": 32,
+            "text": "1 : 너 피씨방 데려가보고 싶긴 하다. 키키",
+            "norm_text": "너 피씨방 데려가보고 싶긴 하다. 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+피/NNG+씨방/NNG+데려가/VV+EC+보/VX+고/EC+싶/VX+긴/ETN+JX+하/VX+다/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 33,
+            "text": "1 : 우리 할 거 왜 이리 많냥 키키",
+            "norm_text": "우리 할 거 왜 이리 많냥 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+할/VV+ETM+거/NNB+왜/MAG+이리/MAG+많/VA+냥/NNBC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 34,
+            "text": "2 : 좋아 다음번엔 그럼 피시방에서 크아랑 카트랑 메이플도 하고 음식도 시켜 먹고 하자 키키",
+            "norm_text": "좋아 다음번엔 그럼 피시방에서 크아랑 카트랑 메이플도 하고 음식도 시켜 먹고 하자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좋/VA+아/EC+다음/NNG+번/NNBC+엔/JKB+JX+그럼/MAJ+피시방/NNG+에서/JKB+크/VA+아/EF+랑/JKB+카트/NNG+랑/JC+메이플/NNP+도/JX+하/VV+고/EC+음식/NNG+도/JX+시켜/VV+EC+먹/VV+고/EC+하/VV+자/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

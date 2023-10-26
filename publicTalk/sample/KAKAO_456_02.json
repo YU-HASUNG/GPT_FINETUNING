@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 21233,
+    "name": "KAKAO_456_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818035087/KAKAO_456_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818035087/KAKAO_456_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27752,
+      "filename": "KAKAO_456_02.txt",
+      "title": "KAKAO_456_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 640,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 640,
+        "word_size": 201,
+        "text": "1 : 너 월세야 전세야? 나 이번에 집 보러 가야 하거든\n2 : 앗 저는 부모님 자가입니다...만 자취도 해보긴 했슴...!\n1 : 와 위너네 자취해 너도\n2 : 하고 싶은데 아직 보증금 낼 돈이 없...ㅠㅠ\n2 : 돈 좀 모이면 바로 나갈 생각이여 ㅠㅠ\n1 : 아 그치 ㅠㅠ 보증금 빠싹 모아서 나와\n1 : 나오면 돈 줄줄이 나간다\n2 : 보증금도 얼른 모으고... 얼른 알바 말고 취업해야제...\n2 : 월세 나갈 거 생각하면 벌써 슬픈데 키키\n1 : 청약 넣고 있어? 월세 진짜 아까워 ㅠㅠ\n2 : 여태 모르고 있다가 올해부터 넣기 시작함...!\n1 : 이제라도 해서 다행이다^^\n1 : 여유 되면 청약 10만 원씩 넣어\n2 : 부모님이랑 같이 사니까 30씩 넣고 있기는 한데 기간이 짧아서... 많이 넣으면 확률 좀 올라가나...?\n1 : 와우 최대 10만원이 효력 있는데 30만 원씩 한번에 3달치 넣는겨?\n2 : 엉 한번에 뽝 넣어두면 매달 신경 안 써도 된다 해서 키키\n1 : 마자 이야 부자네 리치가이야\n1 : 아 맞다 나 어제 집 분위기 바꾸려고 구조 바꿈\n2 : 오 구조 바꾸면 새집 느낌 나던데 키키 맘에 들게 잘 바꿨나!\n1 : 기분 전환 키키 인테리어는 돈 드니까 구조라도 바꿈 키키 침대만 싹 돌렸어\n2 : 크 누나 침대도 큰대매 옮기느라 고생했네 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 월세야 전세야? 나 이번에 집 보러 가야 하거든",
+            "norm_text": "너 월세야 전세야? 나 이번에 집 보러 가야 하거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+월세/NNG+야/VCP+EF+전세/NNG+야/VCP+EF+나/NP+이번/NNG+에/JKB+집/NNG+보/VV+러/EC+가/VX+야/EC+하/VV+거든/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 앗 저는 부모님 자가입니다...만 자취도 해보긴 했슴...!",
+            "norm_text": "앗 저는 부모님 자가입니다...만 자취도 해보긴 했슴...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "앗/IC+저/NP+는/JX+부모/NNG+님/XSN+자가/NNG+입니다/VCP+EF+./SY+만자/NNG+취도/NNG+해/XSV+EC+보/VX+긴/ETN+JX+했/VX+EP+슴/ETN+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 와 위너네 자취해 너도",
+            "norm_text": "와 위너네 자취해 너도",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "와위/NNG+너/NP+네/XSN+자취/NNG+해/XSV+EC+너도/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 하고 싶은데 아직 보증금 낼 돈이 없...ㅠㅠ",
+            "norm_text": "하고 싶은데 아직 보증금 낼 돈이 없...ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하/VV+고/EC+싶/VX+은데/EC+아직/MAG+보증금/NNG+낼/VV+ETM+돈/NNG+이/JKS+없/VA+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 돈 좀 모이면 바로 나갈 생각이여 ㅠㅠ",
+            "norm_text": "돈 좀 모이면 바로 나갈 생각이여 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+좀/MAG+모이/VV+면/EC+바로/MAG+나갈/VV+ETM+생각/NNG+이/VCP+여/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 그치 ㅠㅠ 보증금 빠싹 모아서 나와",
+            "norm_text": "아 그치 ㅠㅠ 보증금 빠싹 모아서 나와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그치/IC+ㅠㅠ/UNKNOWN+보증금/NNG+빠싹/MAG+모아서/VV+EC+나와/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나오면 돈 줄줄이 나간다",
+            "norm_text": "나오면 돈 줄줄이 나간다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나오/VV+면/EC+돈/NNG+줄줄이/MAG+나간다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 보증금도 얼른 모으고... 얼른 알바 말고 취업해야제...",
+            "norm_text": "보증금도 얼른 모으고... 얼른 알바 말고 취업해야제...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보증금/NNG+도/JX+얼른/MAG+모으/VV+고/EC+./SY+./SY+얼른/MAG+알/VV+ETM+바/NNB+말/VV+고/EC+취업/NNG+해야/XSV+EC+VX+제/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 월세 나갈 거 생각하면 벌써 슬픈데 키키",
+            "norm_text": "월세 나갈 거 생각하면 벌써 슬픈데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "월세/NNG+나갈/VV+ETM+거/NNB+생각/NNG+하/XSV+면/EC+벌써/MAG+슬픈데/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 청약 넣고 있어? 월세 진짜 아까워 ㅠㅠ",
+            "norm_text": "청약 넣고 있어? 월세 진짜 아까워 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "청약/NNG+넣/VV+고/EC+있/VX+어/EF+월세/NNG+진짜/MAG+아까워/VA+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 여태 모르고 있다가 올해부터 넣기 시작함...!",
+            "norm_text": "여태 모르고 있다가 올해부터 넣기 시작함...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여태/MAG+모르/VV+고/EC+있/VX+다가/EC+올해/NNG+부터/JX+넣/VV+기/ETN+시작/NNG+함/XSV+ETN+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 이제라도 해서 다행이다^^",
+            "norm_text": "이제라도 해서 다행이다^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/NNG+라도/VCP+EC+해서/VV+EC+다행/NNG+이/VCP+다/EC+^/SY+^/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 여유 되면 청약 10만 원씩 넣어",
+            "norm_text": "여유 되면 청약 10만 원씩 넣어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "여유/NNG+되/XSV+면/EC+청약/NNG+10/SN+만/NR+원/NNBC+씩/XSN+넣/VV+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 부모님이랑 같이 사니까 30씩 넣고 있기는 한데 기간이 짧아서... 많이 넣으면 확률 좀 올라가나...?",
+            "norm_text": "부모님이랑 같이 사니까 30씩 넣고 있기는 한데 기간이 짧아서... 많이 넣으면 확률 좀 올라가나...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "부모/NNG+님/XSN+이랑/JKB+같이/MAG+사/VV+니까/EC+30/SN+씩/XSN+넣/VV+고/EC+있/VX+기/ETN+는/JX+한데/VX+EC+기간/NNG+이/JKS+짧/VA+아서/EC+./SY+./SY+많이/MAG+넣/VV+으면/EC+확률/NNG+좀/MAG+올라가/VV+나/EF+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 와우 최대 10만원이 효력 있는데 30만 원씩 한번에 3달치 넣는겨?",
+            "norm_text": "와우 최대 10만원이 효력 있는데 30만 원씩 한번에 3달치 넣는겨?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와우/IC+최대/NNG+10/SN+만/NR+원/NNBC+이/JKS+효력/NNG+있/VV+는데/EC+30/SN+만/NR+원/NNBC+씩/XSN+한/MM+번/NNBC+에/JKB+3/SN+달치/NNG+넣/VV+는겨/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 엉 한번에 뽝 넣어두면 매달 신경 안 써도 된다 해서 키키",
+            "norm_text": "엉 한번에 뽝 넣어두면 매달 신경 안 써도 된다 해서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엉/IC+한/MM+번/NNBC+에/JKB+뽝/UNKNOWN+넣/VV+어/EC+두/VX+면/EC+매달/MAG+신경/NNG+안/MAG+써도/VV+EC+된다/VV+EC+해서/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 마자 이야 부자네 리치가이야",
+            "norm_text": "마자 이야 부자네 리치가이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마자/NNG+이/VCP+야/EC+부자/NNG+네/XSN+리치/NNG+가/JKS+이야/NNP"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아 맞다 나 어제 집 분위기 바꾸려고 구조 바꿈",
+            "norm_text": "아 맞다 나 어제 집 분위기 바꾸려고 구조 바꿈",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+다/EC+나/VX+어/EC+제집/NNG+분위기/NNG+바꾸/VV+려고/EC+구조/NNG+바꿈/VV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 오 구조 바꾸면 새집 느낌 나던데 키키 맘에 들게 잘 바꿨나!",
+            "norm_text": "오 구조 바꾸면 새집 느낌 나던데 키키 맘에 들게 잘 바꿨나!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+구조/NR+바꾸/VV+면/EC+새/MM+집/NNG+느낌/NNG+나/VV+던데/EC+키/NNG+키/NNG+맘/NNG+에/JKB+들/VV+게/EC+잘/MAG+바꿨/VV+EP+나/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 기분 전환 키키 인테리어는 돈 드니까 구조라도 바꿈 키키 침대만 싹 돌렸어",
+            "norm_text": "기분 전환 키키 인테리어는 돈 드니까 구조라도 바꿈 키키 침대만 싹 돌렸어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기분/NNG+전환/NNG+키/NNG+키/NNG+인테리어/NNG+는/JX+돈/NNG+드/VV+니까/EC+구조/NNG+라도/VCP+EC+바꿈/VV+ETN+키/NNG+키/NNG+침대/NNG+만/JX+싹/MAG+돌렸/VV+EP+어/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 크 누나 침대도 큰대매 옮기느라 고생했네 ㅠㅠ",
+            "norm_text": "크 누나 침대도 큰대매 옮기느라 고생했네 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "크/VA+누나/EC+침대/NNG+도/JX+큰/VA+ETM+대매/NNG+옮기/VV+느라/EC+고생/NNG+했/XSV+EP+네/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

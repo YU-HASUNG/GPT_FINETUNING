@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 30535,
+    "name": "KAKAO_836_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165339059782/KAKAO_836_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165339059782/KAKAO_836_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38497,
+      "filename": "KAKAO_836_04.txt",
+      "title": "KAKAO_836_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 501,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 501,
+        "word_size": 155,
+        "text": "1 : 엄마 나 방금 전 회사에서 전화 왔어\n2 : 전 회사에서? 무슨 일로?\n1 : 다시 입사하면 안 되냐고 물어보는데\n2 : 딸 생각은 어떤데?\n1 : 지금 취업하기도 힘든데 다시 날 찾아 주니까 들어가야 하나 생각했어\n2 : 근데 그 회사 다닐 때 엄청 스트레스 받아 했잖아\n1 : 그치... 불면증 올 정도로 스트레스 받았지\n2 : 엄마는 딸이 그렇게 스트레스 받아 가면서까지 취업하는 거 바라지 않아\n1 : 그런데 지금 당장 돈이 없으니까 그렇게라도 취직하고 싶더라구\n2 : 딸이 원하는 대로 해~\n2 : 근데 엄마는 딸이 안 힘들었으면 좋겠어\n1 : ㅠㅠ 어떻게 하지... 근데 내가 공부하겠다고 퇴사했는데...\n2 : 다시 들어가면 후회할 거 같아?\n1 : 응 당장은 돈 버니까 버티겠는데 또 후회할 것 같아\n2 : 그럼 들어가지 말고 공부 열심히 해서 원하는 곳 취업해\n1 : 그치? 또 들어가서 후회하고 퇴사하는 것보단 내가 더 준비해서 원하는 곳 취직하는 게 맞는 거겠지?\n2 : 응응 엄마는 그렇게 생각해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 나 방금 전 회사에서 전화 왔어",
+            "norm_text": "엄마 나 방금 전 회사에서 전화 왔어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+나방/NNG+금전/NNG+회사/NNG+에서/JKB+전화/NNG+왔/VV+EP+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 전 회사에서? 무슨 일로?",
+            "norm_text": "전 회사에서? 무슨 일로?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "전/MM+회사/NNG+에서/JKB+무슨/MM+일/NNG+로/JKB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 다시 입사하면 안 되냐고 물어보는데",
+            "norm_text": "다시 입사하면 안 되냐고 물어보는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다시/MAG+입사/NNG+하/XSV+면/EC+안/MAG+되/VV+냐고/EC+물/VV+어/EC+보/VX+는데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 딸 생각은 어떤데?",
+            "norm_text": "딸 생각은 어떤데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "딸/NNG+생각/NNG+은/JX+어떤데/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 지금 취업하기도 힘든데 다시 날 찾아 주니까 들어가야 하나 생각했어",
+            "norm_text": "지금 취업하기도 힘든데 다시 날 찾아 주니까 들어가야 하나 생각했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+취업/NNG+하/XSV+기/ETN+도/JX+힘든데/VA+EC+다시/MAG+날/NP+JKO+찾/VV+아/EC+주/VX+니까/EC+들어가/VV+야/EF+하나/NR+생각/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 그 회사 다닐 때 엄청 스트레스 받아 했잖아",
+            "norm_text": "근데 그 회사 다닐 때 엄청 스트레스 받아 했잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+그/MM+회사/NNG+다닐/VV+ETM+때/NNG+엄청/MAG+스트레스/NNG+받/VV+아/EC+했잖아/VX+EP+EC+VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그치... 불면증 올 정도로 스트레스 받았지",
+            "norm_text": "그치... 불면증 올 정도로 스트레스 받았지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+./SY+불면증/NNG+올/MM+정도/NNG+로/JKB+스트레스/NNG+받/VV+았/EP+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 엄마는 딸이 그렇게 스트레스 받아 가면서까지 취업하는 거 바라지 않아",
+            "norm_text": "엄마는 딸이 그렇게 스트레스 받아 가면서까지 취업하는 거 바라지 않아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+는/JX+딸/NNG+이/JKS+그렇게/MAG+스트레스/NNG+받/VV+아/EC+가/VX+면서/EC+까지/JX+취업/NNG+하/XSV+는/ETM+거/NNB+바라/VV+지/EC+않/VX+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그런데 지금 당장 돈이 없으니까 그렇게라도 취직하고 싶더라구",
+            "norm_text": "그런데 지금 당장 돈이 없으니까 그렇게라도 취직하고 싶더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런데/MAJ+지금/MAG+당장/NNG+돈/NNG+이/JKS+없/VA+으니까/EC+그렇게/MAG+라도/VCP+EC+취직/NNG+하/XSV+고/EC+싶/VX+더라구/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 딸이 원하는 대로 해~",
+            "norm_text": "딸이 원하는 대로 해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "딸/NNG+이/JKS+원/NNG+하/XSV+는/ETM+대로/NNB+해/VV+EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 근데 엄마는 딸이 안 힘들었으면 좋겠어",
+            "norm_text": "근데 엄마는 딸이 안 힘들었으면 좋겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+엄마/NNG+는/JX+딸/NNG+이/JKS+안/MAG+힘들/VA+었/EP+으면/EC+좋/VA+겠/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : ㅠㅠ 어떻게 하지... 근데 내가 공부하겠다고 퇴사했는데...",
+            "norm_text": "ㅠㅠ 어떻게 하지... 근데 내가 공부하겠다고 퇴사했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+어떻게/MAG+하/VV+지/EF+./SY+근데/MAJ+내/NP+가/JKS+공부/NNG+하/XSV+겠/EP+다고/EC+퇴사/NNG+했/XSV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 다시 들어가면 후회할 거 같아?",
+            "norm_text": "다시 들어가면 후회할 거 같아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다시/MAG+들어가/VV+면/EC+후회/NNG+할/XSV+ETM+거/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응 당장은 돈 버니까 버티겠는데 또 후회할 것 같아",
+            "norm_text": "응 당장은 돈 버니까 버티겠는데 또 후회할 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+당장/NNG+은/JX+돈/NNG+버/VV+니까/EC+버티/VV+겠/EP+는데/EC+또/MAG+후회/NNG+할/XSV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그럼 들어가지 말고 공부 열심히 해서 원하는 곳 취업해",
+            "norm_text": "그럼 들어가지 말고 공부 열심히 해서 원하는 곳 취업해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+들어가/VV+지/EC+말/VX+고/EC+공부/NNG+열심히/MAG+해/VV+EC+서원/NNG+하/XSV+는/ETM+곳/NNG+취업/NNG+해/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그치? 또 들어가서 후회하고 퇴사하는 것보단 내가 더 준비해서 원하는 곳 취직하는 게 맞는 거겠지?",
+            "norm_text": "그치? 또 들어가서 후회하고 퇴사하는 것보단 내가 더 준비해서 원하는 곳 취직하는 게 맞는 거겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+또/MAG+들어가/VV+서/EC+후회/NNG+하/XSV+고/EC+퇴사/NNG+하/XSV+는/ETM+것/NNB+보단/JKB+JX+내/NP+가/JKS+더/MAG+준비/NNG+해/XSV+EC+서원/NNG+하/XSV+는/ETM+곳/NNG+취직/NNG+하/XSV+는/ETM+게/NNB+JKS+맞/VV+는/ETM+거/NNB+겠/VCP+EP+지/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응응 엄마는 그렇게 생각해",
+            "norm_text": "응응 엄마는 그렇게 생각해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+엄마/NNG+는/JX+그렇게/MAG+생각/NNG+해/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

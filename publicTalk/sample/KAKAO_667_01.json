@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 67153,
+    "name": "KAKAO_667_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112312043972/KAKAO_667_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112312043972/KAKAO_667_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35000,
+      "filename": "KAKAO_667_01.txt",
+      "title": "KAKAO_667_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 842,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 842,
+        "word_size": 259,
+        "text": "1 : 간만에 맛있는 식당에서 외식하고 싶네\n2 : 나듀 ㅠㅠ 낸 파스타 오랜만에 묵고 싶어졌다 ㅠ\n2 : **동에 다젠나라고 맛집 있는데 가봤나?\n1 : **동에...? 아니아니 맛집이 있나?\n1 : 나 한 번도 안 가봤더노 ㅜㅜ\n1 : **동 어디쯤에 있는 거야?\n2 : **동 완전 입구쯤인데 거기 다이소 크게 있다이가 거기 조금 옆엔데...\n2 : 나도 엄청 옛날에 가보고 안 가봤는데 거기 매년 리모델링 하더라고\n2 : 진짜 잘 되나 봐 키키\n1 : 어어어 다이소 있지 거기쯤에 파스타가 있구만 키키\n1 : 매년 리모델링 할 정도면 진짜 잘 되는 데네\n2 : 듣기로는 외국인들이 좋아하는 가게라더라\n2 : 코로나 전에 지나가다 보면 야외 테라스에 외국인들 많이 앉아 있더라고 키키\n2 : 사실 낸 그냥저냥이었음 키키\n1 : 헐헐 신기하네 외국인 입맛 겨냥한 파스타집이라니 키키 한 번쯤은 가볼만한가베\n2 : 엉엉 아 인스타에서도 유명한 갑더라 다젠나가 풀네임이 아닐 거야\n2 : 니도 그거 들으면 본 적 있을 것 같은데 키키\n1 : 키키 검색해 봐야긋너 파스타 집이니께 피자 이런 것도 당연히 팔겠지?\n2 : 엉엉 샐러드랑 뭐 다른 음식들도 팔고\n2 : 풀네임이 따리또리아 다젠난가 뭐 그런 이름인데 키키\n1 : 검색해보니까 스테이크도 있는 거 같더노 키키 스테이크 맛나겠다 ㅠㅜ\n2 : 고기는 언제나 옳지 ㅠㅠ 남의 살이 제일 맛있어 키키\n1 : 키키 남의 살 키키 넘나 맞는 말이고 키키\n1 : 고기 얘기 하니까 진짜 고기 묵고 싶너\n2 : 통통한 삼겹살 구워서 양파 절인 거랑 먹고 싶노 키키\n1 : 나는 대패 구워 가지고 여러 개 한꺼번에 잡아가꼬 입에서 우걱우걱 먹고 싶다 ㅜㅜ 키키\n2 : 키키 고기만 한입 가득하게 먹고 싶너 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 간만에 맛있는 식당에서 외식하고 싶네",
+            "norm_text": "간만에 맛있는 식당에서 외식하고 싶네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "간만에/MAG+맛있/VA+는/ETM+식당/NNG+에서/JKB+외식/NNG+하/XSV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나듀 ㅠㅠ 낸 파스타 오랜만에 묵고 싶어졌다 ㅠ",
+            "norm_text": "나듀 ㅠㅠ 낸 파스타 오랜만에 묵고 싶어졌다 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나듀/NNP+ㅠㅠ/UNKNOWN+낸/VV+ETM+파스타/NNG+오랜만/NNG+에/JKB+묵/VV+고/EC+싶/VX+어/EC+졌/VX+EP+다ㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : **동에 다젠나라고 맛집 있는데 가봤나?",
+            "norm_text": "**동에 다젠나라고 맛집 있는데 가봤나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+동/NNG+에다/JKB+젠/NNBC+JX+나/NP+라고/VCP+EC+맛집/NNG+있/VA+는/ETM+데/NNB+가/JKS+봤/VV+EP+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : **동에...? 아니아니 맛집이 있나?",
+            "norm_text": "**동에...? 아니아니 맛집이 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+동/NNG+에/JKB+./SY+./SY+아니/IC+아니/IC+맛집/NNG+이/JKS+있/VA+나/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나 한 번도 안 가봤더노 ㅜㅜ",
+            "norm_text": "나 한 번도 안 가봤더노 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+한/MM+번/NNBC+도/JX+안/MAG+가/VV+EC+봤/VX+EP+더노/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : **동 어디쯤에 있는 거야?",
+            "norm_text": "**동 어디쯤에 있는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+동/NNG+어디/NP+쯤/XSN+에/JKB+있/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : **동 완전 입구쯤인데 거기 다이소 크게 있다이가 거기 조금 옆엔데...",
+            "norm_text": "**동 완전 입구쯤인데 거기 다이소 크게 있다이가 거기 조금 옆엔데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+동/MM+완전/NNG+입구/NNG+쯤/XSN+인데/VCP+EC+거기/NP+다/JX+이소/NNG+크/VA+게/EC+있/VX+다/EF+이/NP+가/JKS+거기/NP+조금/MAG+옆/NNG+엔데/NNP+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나도 엄청 옛날에 가보고 안 가봤는데 거기 매년 리모델링 하더라고",
+            "norm_text": "나도 엄청 옛날에 가보고 안 가봤는데 거기 매년 리모델링 하더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+엄청/MAG+옛날/NNG+에/JKB+가/VV+EC+보/VX+고/EC+안/MAG+가/VV+EC+봤/VX+EP+는데/EC+거기/NP+매년/MAG+리모/NNP+델/NNB+JKO+링/JKO+하/VV+더라고/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 진짜 잘 되나 봐 키키",
+            "norm_text": "진짜 잘 되나 봐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+잘/MAG+되/VV+나/EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 어어어 다이소 있지 거기쯤에 파스타가 있구만 키키",
+            "norm_text": "어어어 다이소 있지 거기쯤에 파스타가 있구만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+어/IC+어/IC+다이소/NNP+있/VV+지/EC+거기/NP+쯤/XSN+에/JKB+파스타/NNG+가/JKS+있/VA+구/EC+만/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 매년 리모델링 할 정도면 진짜 잘 되는 데네",
+            "norm_text": "매년 리모델링 할 정도면 진짜 잘 되는 데네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매년/MAG+리모/NNP+델/NNB+JKO+링/JKO+할/VV+ETM+정도/NNG+면/VCP+EC+진짜/MAG+잘/MAG+되/VV+는데/EC+네/MM"
+          },
+          {
+            "id": 12,
+            "text": "2 : 듣기로는 외국인들이 좋아하는 가게라더라",
+            "norm_text": "듣기로는 외국인들이 좋아하는 가게라더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "듣/VV+기/ETN+로/JKB+는/JX+외국인/NNG+들/XSN+이/JKS+좋/VA+아/EC+하/VV+는/ETM+가게/NNG+라더라/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 코로나 전에 지나가다 보면 야외 테라스에 외국인들 많이 앉아 있더라고 키키",
+            "norm_text": "코로나 전에 지나가다 보면 야외 테라스에 외국인들 많이 앉아 있더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코/NNG+로/JKB+나전/NNG+에/JKB+지나가/VV+다/EC+보/VX+면/EC+야외/NNG+테라스/NNG+에/JKB+외국인/NNG+들/XSN+많이/MAG+앉/VV+아/EC+있/VX+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 사실 낸 그냥저냥이었음 키키",
+            "norm_text": "사실 낸 그냥저냥이었음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사실/MAG+낸/VV+ETM+그냥저냥/MAG+이/VCP+었/EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐헐 신기하네 외국인 입맛 겨냥한 파스타집이라니 키키 한 번쯤은 가볼만한가베",
+            "norm_text": "헐헐 신기하네 외국인 입맛 겨냥한 파스타집이라니 키키 한 번쯤은 가볼만한가베",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐헐/MAG+신기/XR+하/XSA+네/EF+외국인/NNG+입맛/NNG+겨냥/NNG+한/XSA+ETM+파스타/NNG+집/NNG+이/VCP+라니/EC+키/NNG+키/XSV+ETN+한/MM+번/NNBC+쯤/XSN+은/JX+가/JKS+볼/VV+ETM+만/NNB+한가/XSA+EC+베/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 엉엉 아 인스타에서도 유명한 갑더라 다젠나가 풀네임이 아닐 거야",
+            "norm_text": "엉엉 아 인스타에서도 유명한 갑더라 다젠나가 풀네임이 아닐 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉엉/MAG+아인/VCN+ETM+스타/NNG+에서/JKB+도/JX+유명/NNG+한갑/NNG+더/MAG+라다/NNG+젠/NNB+JKB+JX+나/NP+가/JKS+풀/VV+ETM+네임/NNG+이/JKC+아닐/VCN+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 니도 그거 들으면 본 적 있을 것 같은데 키키",
+            "norm_text": "니도 그거 들으면 본 적 있을 것 같은데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+도/JX+그거/NP+들으면/VV+EC+본/VX+ETM+적/NNB+있/VA+을/ETM+것/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 검색해 봐야긋너 파스타 집이니께 피자 이런 것도 당연히 팔겠지?",
+            "norm_text": "키키 검색해 봐야긋너 파스타 집이니께 피자 이런 것도 당연히 팔겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+검색/NNG+해봐야/XSV+EC+VX+EC+VX+긋/EP+너/NP+파스타/NNG+집/NNG+이/VCP+니께/EC+피/VV+자/EC+이런/MM+것/NNB+도/JX+당연히/MAG+팔/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 엉엉 샐러드랑 뭐 다른 음식들도 팔고",
+            "norm_text": "엉엉 샐러드랑 뭐 다른 음식들도 팔고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉엉/MAG+샐러드/NNG+랑/JKB+뭐/IC+다른/MM+음식/NNG+들/XSN+도/JX+팔/VV+고/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 풀네임이 따리또리아 다젠난가 뭐 그런 이름인데 키키",
+            "norm_text": "풀네임이 따리또리아 다젠난가 뭐 그런 이름인데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "풀/NNG+네임/NNG+이/JKS+따리/NNG+또/MAG+리아/NNP+다/VCP+EF+젠/NNBC+JX+난/NP+JX+가/JKS+뭐/IC+그런/MM+이름/NNG+인데/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 검색해보니까 스테이크도 있는 거 같더노 키키 스테이크 맛나겠다 ㅠㅜ",
+            "norm_text": "검색해보니까 스테이크도 있는 거 같더노 키키 스테이크 맛나겠다 ㅠㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "검색/NNG+해/XSV+EC+보/VX+니까/EC+스테이크/NNG+도/JX+있/VX+는/ETM+거/NNB+같/VA+더노/EF+키키/NNP+스테이크/NNG+맛나/VA+겠/EP+다/EF+ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 고기는 언제나 옳지 ㅠㅠ 남의 살이 제일 맛있어 키키",
+            "norm_text": "고기는 언제나 옳지 ㅠㅠ 남의 살이 제일 맛있어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고기/NNG+는/JX+언제나/MAG+옳/VA+지/EC+ㅠㅠ/UNKNOWN+남/NNG+의/JKG+살/NNG+이/JKS+제일/MAG+맛있/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 키키 남의 살 키키 넘나 맞는 말이고 키키",
+            "norm_text": "키키 남의 살 키키 넘나 맞는 말이고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+남/NNG+의/JKG+살키/NNG+키/XSV+ETN+넘/VV+나/EC+맞/VV+는/ETM+말/NNG+이/VCP+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "1 : 고기 얘기 하니까 진짜 고기 묵고 싶너",
+            "norm_text": "고기 얘기 하니까 진짜 고기 묵고 싶너",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고기/NNG+얘기/NNG+하/XSV+니까/EC+진짜/MAG+고기/NNG+묵/VV+고/EC+싶/VX+너/NP"
+          },
+          {
+            "id": 25,
+            "text": "2 : 통통한 삼겹살 구워서 양파 절인 거랑 먹고 싶노 키키",
+            "norm_text": "통통한 삼겹살 구워서 양파 절인 거랑 먹고 싶노 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "통통/XR+한/XSA+ETM+삼겹살/NNG+구워서/VV+EC+양파/NNG+절인/VV+ETM+거/NNB+랑/JKB+먹/VV+고/EC+싶/VX+노/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 나는 대패 구워 가지고 여러 개 한꺼번에 잡아가꼬 입에서 우걱우걱 먹고 싶다 ㅜㅜ 키키",
+            "norm_text": "나는 대패 구워 가지고 여러 개 한꺼번에 잡아가꼬 입에서 우걱우걱 먹고 싶다 ㅜㅜ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+대패/NNG+구워/VV+EC+가지/VX+고/EC+여러/MM+개/NNBC+한꺼번에/MAG+잡아가/VV+꼬/EC+입/NNG+에서/JKB+우걱우걱/MAG+먹/VV+고/EC+싶/VX+다/EF+ㅜㅜ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 키키 고기만 한입 가득하게 먹고 싶너 ㅠㅠ",
+            "norm_text": "키키 고기만 한입 가득하게 먹고 싶너 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+고기/NNG+만/JX+한입/NNG+가득/MAG+하/VV+게/EC+먹/VV+고/EC+싶/VX+너/NP+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

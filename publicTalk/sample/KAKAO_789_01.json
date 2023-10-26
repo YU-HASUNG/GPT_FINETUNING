@@ -1,0 +1,359 @@
+{
+  "dataset": {
+    "identifier": 38597,
+    "name": "KAKAO_789_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150315012880/KAKAO_789_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150315012880/KAKAO_789_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38212,
+      "filename": "KAKAO_789_01.txt",
+      "title": "KAKAO_789_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 564,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 564,
+        "word_size": 180,
+        "text": "1 : 언니는 짜장이 좋아 짬뽕이 좋아?\n2 : 둘 중 하나만 고르기 너무 어려운데...?\n1 : 그건 그래... 엄마가 좋아 아빠가 좋아 수준이야...\n1 : 그래도 골라본다면?!\n2 : ㅜ 음... 그럼... 짬뽕... 아니야... 짜장...!\n1 : 키키 난 짬짜면 ^^\n1 : 그럼 팔보채 좋아해?\n2 : 아오 당했네 키키\n2 : 나 팔보채는 정확히 뭔지 잘 몰라...\n2 : 그 꽃빵에 싸먹는 건가?\n1 : 깔깔 아니 그건 고추잡채 아닐까...\n1 : 팔보채는 약간 콧물 같은 거~!\n2 : 콧물은 좀 그렇다...ㅋ\n2 : 다 좋아해 맛없는 음식은 없다구\n1 : 키키 그런가...\n1 :  아무튼 끈적한 거 음식 안 좋아 하는 거 없구나?!\n2 : 끈적한 거 뭔지 알 거 같아 키키\n2 : 아무튼 다 좋아\n1 : 키키 그럼 맛집도 많이 알아?\n2 : 아니 ㅜ 그거는 또 아니다...?\n1 : 그럼... 그냥 맛없어도 일단 먹고 보는 거야...?\n2 : 극단적이네 키키...\n2 : 보통 누가 데려가거나 맛없다고 하면 안 가지\n1 : 키키 그렇구나~\n1 : 나 중국집 맛집 알아~!\n1 : 나중에 같이 가자~\n2 : 키키 알겠어! 가서 팔보채 먹자",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니는 짜장이 좋아 짬뽕이 좋아?",
+            "norm_text": "언니는 짜장이 좋아 짬뽕이 좋아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+는/JX+짜장/MAG+이/MM+좋/VA+아/EC+짬뽕/NNG+이/JKS+좋/VA+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 둘 중 하나만 고르기 너무 어려운데...?",
+            "norm_text": "둘 중 하나만 고르기 너무 어려운데...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "둘/NR+중/NNB+하나/NR+만/JX+고르/VV+기/ETN+너무/MAG+어려운데/VA+EF+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그건 그래... 엄마가 좋아 아빠가 좋아 수준이야...",
+            "norm_text": "그건 그래... 엄마가 좋아 아빠가 좋아 수준이야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+그래/VA+EF+./SY+엄마/NNG+가/JKS+좋/VA+아/EC+아빠/NNG+가/JKS+좋/VA+아/EC+수준/NNG+이/VCP+야/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그래도 골라본다면?!",
+            "norm_text": "그래도 골라본다면?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+골라/VV+EC+본다면/VX+EC+?/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : ㅜ 음... 그럼... 짬뽕... 아니야... 짜장...!",
+            "norm_text": "ㅜ 음... 그럼... 짬뽕... 아니야... 짜장...!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜ음/UNKNOWN+./SY+그럼/MAJ+./SY+짬뽕/NNG+./SY+./SY+아니야/IC+./SY+짜장/MAG+./SY+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 난 짬짜면 ^^",
+            "norm_text": "키키 난 짬짜면 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키난/NNP+짬짜면/NNP+^/SY+^/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그럼 팔보채 좋아해?",
+            "norm_text": "그럼 팔보채 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+팔보채/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아오 당했네 키키",
+            "norm_text": "아오 당했네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아오/NNG+당했/XSV+EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나 팔보채는 정확히 뭔지 잘 몰라...",
+            "norm_text": "나 팔보채는 정확히 뭔지 잘 몰라...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+팔보채/NNG+는/JX+정확히/MAG+뭔지/NP+VCP+EC+잘/MAG+몰라/VV+EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그 꽃빵에 싸먹는 건가?",
+            "norm_text": "그 꽃빵에 싸먹는 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+꽃/NNG+빵/NNG+에/JKB+싸/VV+EC+먹/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 깔깔 아니 그건 고추잡채 아닐까...",
+            "norm_text": "깔깔 아니 그건 고추잡채 아닐까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "깔깔/MAG+아니/IC+그건/NP+JX+고추잡채/NNG+아닐까/VCN+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 팔보채는 약간 콧물 같은 거~!",
+            "norm_text": "팔보채는 약간 콧물 같은 거~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "팔보채/NNG+는/JX+약간/MAG+콧물/NNG+같/VA+은/ETM+거/NNB+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 콧물은 좀 그렇다...ㅋ",
+            "norm_text": "콧물은 좀 그렇다...ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "콧물/NNG+은/JX+좀/MAG+그렇/VA+다/EF+./SY+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 다 좋아해 맛없는 음식은 없다구",
+            "norm_text": "다 좋아해 맛없는 음식은 없다구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+좋/VA+아/EC+해/VV+EC+맛없/VA+는/ETM+음식/NNG+은/JX+없/VA+다구/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 그런가...",
+            "norm_text": "키키 그런가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그런가/VA+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 :  아무튼 끈적한 거 음식 안 좋아 하는 거 없구나?!",
+            "norm_text": "아무튼 끈적한 거 음식 안 좋아 하는 거 없구나?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아무튼/MAJ+끈적/XR+한/XSA+ETM+거/NNB+음식/NNG+안/MAG+좋아하/VV+는/ETM+거/NNB+없/VA+구나/EF+?/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 끈적한 거 뭔지 알 거 같아 키키",
+            "norm_text": "끈적한 거 뭔지 알 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "끈적/XR+한/XSA+ETM+거/NNB+뭔지/NP+VCP+EC+알/VV+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아무튼 다 좋아",
+            "norm_text": "아무튼 다 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무튼/MAJ+다/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 그럼 맛집도 많이 알아?",
+            "norm_text": "키키 그럼 맛집도 많이 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+맛집/NNG+도/JX+많이/MAG+알/VV+아/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아니 ㅜ 그거는 또 아니다...?",
+            "norm_text": "아니 ㅜ 그거는 또 아니다...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+ㅜ/UNKNOWN+그거/NP+는/JX+또/MAG+아니/VCN+다/EF+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그럼... 그냥 맛없어도 일단 먹고 보는 거야...?",
+            "norm_text": "그럼... 그냥 맛없어도 일단 먹고 보는 거야...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+./SY+그냥/MAG+맛없/VA+어도/EC+일단/MAG+먹/VV+고/EC+보/VX+는/ETM+거/NNB+야/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 극단적이네 키키...",
+            "norm_text": "극단적이네 키키...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "극단/NNG+적/XSN+이/VCP+네/EF+키/NNG+키/XSV+ETN+./SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 보통 누가 데려가거나 맛없다고 하면 안 가지",
+            "norm_text": "보통 누가 데려가거나 맛없다고 하면 안 가지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "보통/MAJ+누가/NP+JKS+데려가/VV+거나/EC+맛없/VA+다고/EC+하/VV+면/EC+안/MAG+가/VV+지/EC"
+          },
+          {
+            "id": 24,
+            "text": "1 : 키키 그렇구나~",
+            "norm_text": "키키 그렇구나~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+구나/EF+~/SY"
+          },
+          {
+            "id": 25,
+            "text": "1 : 나 중국집 맛집 알아~!",
+            "norm_text": "나 중국집 맛집 알아~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나중국집맛집알아/UNKNOWN+~/SY"
+          },
+          {
+            "id": 26,
+            "text": "1 : 나중에 같이 가자~",
+            "norm_text": "나중에 같이 가자~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나중/NNG+에/JKB+같이/MAG+가/VV+자/EC+~/SY"
+          },
+          {
+            "id": 27,
+            "text": "2 : 키키 알겠어! 가서 팔보채 먹자",
+            "norm_text": "키키 알겠어! 가서 팔보채 먹자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/XSV+ETN+알/VV+겠/EP+어/EF+가/VV+서/EC+팔보채/NNG+먹/VV+자/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

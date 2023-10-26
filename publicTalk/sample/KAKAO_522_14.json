@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 21448,
+    "name": "KAKAO_522_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161337058735/KAKAO_522_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161337058735/KAKAO_522_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30185,
+      "filename": "KAKAO_522_14.txt",
+      "title": "KAKAO_522_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 573,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 573,
+        "word_size": 188,
+        "text": "1 : 그거 봤어?\n1 : 코로나 백신이 20대 이하 접종 예방 효과가 92%가 넘는대\n2 : 오 진짜? 역시 젋은이들!\n2 : 예방 효과 확실한 거 봐 키키\n1 : 응응 그래서 빨리 2차를 맞아야 하는데 ㅠㅠ\n2 : 맞아 ㅠㅜ 언니 2차 접종 언제야?\n1 : 나 9월 말이야 ㅠㅠ\n1 : 근데 백신 더 들어온다더라고!\n2 : 오오 드디어?!\n2 : 나도 그쯤이더라고!\n2 : 빨리 다 맞아버리고 싶다ㅠ\n1 : 근데 수급이 늘었는데 1차 2차 맞는 간격을 왜 조정 안 해주나 몰라 ㅠㅠ\n2 : 내 말이 더 빨리 맞게 해줘야 하는 거 아니냐고!\n1 : 그리고 추석 전까지 전국민의 1차 접종이 70%될 것 같다고 일상으로의 복귀가 가능해질 것 같대!\n2 : 오오 드디어ㅠㅜ\n2 : 우리도 진짜 일상으로 돌아가긴 하는 건가\n1 : 다음 달까지 지켜보다가 접종 간격도 줄인대~\n2 : 오우 좋은 소식이군!\n2 : 그럼 진짜 빨리 빨리 다 맞을 수 있겠다\n1 : 근데 그전에 우리가 맞아서 우리랑은 관계 없는 듯해 키키\n2 : 키키 대신 청소년들이 이제 맞지 않나?!\n1 : 웅웅 근데 우리 집에는 청소년이 없어 키키\n2 : 키키 우리 집도 없긴 해...\n2 : 다들 성인",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 그거 봤어?",
+            "norm_text": "그거 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 코로나 백신이 20대 이하 접종 예방 효과가 92%가 넘는대",
+            "norm_text": "코로나 백신이 20대 이하 접종 예방 효과가 92%가 넘는대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코로나/NNG+백신/NNG+이/JKS+20/SN+대/NNBC+이하/NNG+접종/NNG+예방/NNG+효과/NNG+가/JKS+92/SN+%/SY+가/JKS+넘/VV+는대/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 오 진짜? 역시 젋은이들!",
+            "norm_text": "오 진짜? 역시 젋은이들!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+진짜/MAG+역시젋은이들/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 예방 효과 확실한 거 봐 키키",
+            "norm_text": "예방 효과 확실한 거 봐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예방/NNG+효과/NNG+확실/XR+한/XSA+ETM+거/NNB+봐/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응응 그래서 빨리 2차를 맞아야 하는데 ㅠㅠ",
+            "norm_text": "응응 그래서 빨리 2차를 맞아야 하는데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그래서/MAJ+빨리/MAG+2/SN+차/NNBC+를/JKO+맞/VV+아야/EC+하/VV+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 ㅠㅜ 언니 2차 접종 언제야?",
+            "norm_text": "맞아 ㅠㅜ 언니 2차 접종 언제야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞아ㅠㅜ언니/UNKNOWN+2/SN+차/NNBC+접종/NNG+언제/NP+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나 9월 말이야 ㅠㅠ",
+            "norm_text": "나 9월 말이야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+9/SN+월/NNBC+말/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 근데 백신 더 들어온다더라고!",
+            "norm_text": "근데 백신 더 들어온다더라고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+백신/NNG+더/MAG+들어온다/VV+EF+더라고/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 오오 드디어?!",
+            "norm_text": "오오 드디어?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+드디어/MAG+?/SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 그쯤이더라고!",
+            "norm_text": "나도 그쯤이더라고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+그/NP+쯤/XSN+이/VCP+더라고/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 빨리 다 맞아버리고 싶다ㅠ",
+            "norm_text": "빨리 다 맞아버리고 싶다ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빨리/MAG+다/MAG+맞/VV+아/EC+버리/VX+고/EC+싶/VX+다/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 근데 수급이 늘었는데 1차 2차 맞는 간격을 왜 조정 안 해주나 몰라 ㅠㅠ",
+            "norm_text": "근데 수급이 늘었는데 1차 2차 맞는 간격을 왜 조정 안 해주나 몰라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+수급/NNG+이/JKS+늘/VV+었/EP+는데/EC+1/SN+차/NNBC+2/SN+차/NNBC+맞/VV+는/ETM+간격/NNG+을/JKO+왜/MAG+조정/NNG+안/MAG+해/VV+EC+주/VX+나/EC+몰라/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 내 말이 더 빨리 맞게 해줘야 하는 거 아니냐고!",
+            "norm_text": "내 말이 더 빨리 맞게 해줘야 하는 거 아니냐고!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+더/MAG+빨리/MAG+맞/VV+게/EC+해/VV+EC+줘야/VX+EC+하/VV+는/ETM+거/NNB+아니/VCN+냐고/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그리고 추석 전까지 전국민의 1차 접종이 70%될 것 같다고 일상으로의 복귀가 가능해질 것 같대!",
+            "norm_text": "그리고 추석 전까지 전국민의 1차 접종이 70%될 것 같다고 일상으로의 복귀가 가능해질 것 같대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+추석/NNG+전/NNG+까지/JX+전/MM+국민/NNG+의/JKG+1/SN+차/NNBC+접종/NNG+이/JKS+70/SN+%/SY+될/VV+ETM+것/NNB+같/VA+다고/EC+일상/NNG+으로/JKB+의/JKG+복귀/NNG+가/JKS+가능/NNG+해질/XSA+EC+VX+ETM+것/NNB+같/VA+대/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오오 드디어ㅠㅜ",
+            "norm_text": "오오 드디어ㅠㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오드디어ㅠㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 우리도 진짜 일상으로 돌아가긴 하는 건가",
+            "norm_text": "우리도 진짜 일상으로 돌아가긴 하는 건가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+도/JX+진짜/MAG+일상/NNG+으로/JKB+돌아가/VV+긴/ETN+JX+하/VX+는/ETM+건가/NNB+VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 다음 달까지 지켜보다가 접종 간격도 줄인대~",
+            "norm_text": "다음 달까지 지켜보다가 접종 간격도 줄인대~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다음/NNG+달/NNG+까지/JX+지켜보/VV+다가/EC+접종/NNG+간격/NNG+도/JX+줄인대/VV+EF+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 오우 좋은 소식이군!",
+            "norm_text": "오우 좋은 소식이군!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오우/IC+좋/VA+은/ETM+소식/NNG+이/VCP+군/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그럼 진짜 빨리 빨리 다 맞을 수 있겠다",
+            "norm_text": "그럼 진짜 빨리 빨리 다 맞을 수 있겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+진짜/MAG+빨리빨리/MAG+다/MAG+맞/VV+을/ETM+수/NNB+있/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 근데 그전에 우리가 맞아서 우리랑은 관계 없는 듯해 키키",
+            "norm_text": "근데 그전에 우리가 맞아서 우리랑은 관계 없는 듯해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그/MM+전/NNG+에/JKB+우리/NP+가/JKS+맞/VV+아서/EC+우리/NP+랑/JKB+은/JX+관계/NNG+없/VA+는/ETM+듯/NNB+해/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 키키 대신 청소년들이 이제 맞지 않나?!",
+            "norm_text": "키키 대신 청소년들이 이제 맞지 않나?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+대신/NNG+청소년/NNG+들/XSN+이/JKS+이제/MAG+맞/VV+지/EC+않/VX+나/EC+?/SY"
+          },
+          {
+            "id": 22,
+            "text": "1 : 웅웅 근데 우리 집에는 청소년이 없어 키키",
+            "norm_text": "웅웅 근데 우리 집에는 청소년이 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅웅/MAG+근데/MAJ+우리/NP+집/NNG+에/JKB+는/JX+청소년/NNG+이/JKS+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 키키 우리 집도 없긴 해...",
+            "norm_text": "키키 우리 집도 없긴 해...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우리/NP+집/NNG+도/JX+없/VA+긴/ETN+JX+해/VX+EF+./SY"
+          },
+          {
+            "id": 24,
+            "text": "2 : 다들 성인",
+            "norm_text": "다들 성인",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다/MAG+들/XSN+성인/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

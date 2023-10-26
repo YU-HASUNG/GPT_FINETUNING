@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 29089,
+    "name": "KAKAO_508_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302082522/KAKAO_508_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916151302082522/KAKAO_508_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28673,
+      "filename": "KAKAO_508_03.txt",
+      "title": "KAKAO_508_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 407,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 407,
+        "word_size": 129,
+        "text": "1 : 다른 지역 지하철 타 봤나여\n2 : 대구 대전 부산에서 타봤어요 왜요?\n1 : 저도 부산에 있는 지하철 한 번 타봤어요\n2 : 몇 호선 타보셨는데요? 기억하세요?\n1 : 부산 지하철은 호선이 몇 개 없던데요\n2 : 제 기억으로는 3개 맞나? 아마 그럴 거예요\n1 : 3개 있나 저도 기억이 잘 안 나네여\n2 : 대전은 타 보셨어요? 대전은 곧 트램 생긴대요\n1 : 트램이 뭐예요 ?\n2 : 자기 부상 열차? 그렇게 설명하면 될까요?\n1 : 아 글쿤여 오 신기하네여\n2 : SRT는 타보셨어요? 그거랑 KTX랑 무슨 차이예요?\n1 : 저는 그거는 한 번도 안 타 봤어요 그게 경춘선인가...\n2 : 그건 강원도 춘천 쪽으로 가는 열차 아닌가요?\n1 : 맞아여 춘천 쪽으로 가는 열차 있는데 청춘 열차인가\n2 : 집 떠나 열차 타고 입대하는 생각나네요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 다른 지역 지하철 타 봤나여",
+            "norm_text": "다른 지역 지하철 타 봤나여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다른/MM+지역/NNG+지하철/NNG+타/XSV+EC+봤/VX+EP+나/VX+여/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 대구 대전 부산에서 타봤어요 왜요?",
+            "norm_text": "대구 대전 부산에서 타봤어요 왜요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대구/NNP+대전/NNP+부산/NNP+에서/JKB+타/VV+EC+봤/VX+EP+어요/EF+왜/MAG+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 저도 부산에 있는 지하철 한 번 타봤어요",
+            "norm_text": "저도 부산에 있는 지하철 한 번 타봤어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+도/JX+부산/NNP+에/JKB+있/VV+는/ETM+지하철/NNG+한/MM+번/NNBC+타/VV+EC+봤/VX+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 몇 호선 타보셨는데요? 기억하세요?",
+            "norm_text": "몇 호선 타보셨는데요? 기억하세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+호선/NNG+타/XSV+EC+보/VX+셨/EP+EP+는데요/EF+기억/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 부산 지하철은 호선이 몇 개 없던데요",
+            "norm_text": "부산 지하철은 호선이 몇 개 없던데요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "부산/NNP+지하철/NNG+은/JX+호선/NNG+이/JKS+몇/MM+개/NNBC+없/VA+던데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 제 기억으로는 3개 맞나? 아마 그럴 거예요",
+            "norm_text": "제 기억으로는 3개 맞나? 아마 그럴 거예요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제/NP+JKG+기억/NNG+으로/JKB+는/JX+3/SN+개/NNBC+맞/VV+나/EF+아마/MAG+그럴/VA+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 3개 있나 저도 기억이 잘 안 나네여",
+            "norm_text": "3개 있나 저도 기억이 잘 안 나네여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "3/SN+개/NNBC+있/VA+나/EC+저/NP+도/JX+기억/NNG+이/JKS+잘/MAG+안/MAG+나/NP+네/XSN+여/XSN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 대전은 타 보셨어요? 대전은 곧 트램 생긴대요",
+            "norm_text": "대전은 타 보셨어요? 대전은 곧 트램 생긴대요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대전/NNP+은/JX+타/VV+EC+보/VX+셨/EP+EP+어요/EF+대전/NNP+은/JX+곧/MAG+트램/NNP+생긴/VV+ETM+대요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 트램이 뭐예요 ?",
+            "norm_text": "트램이 뭐예요 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "트램/NNP+이/JKS+뭐/NP+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 자기 부상 열차? 그렇게 설명하면 될까요?",
+            "norm_text": "자기 부상 열차? 그렇게 설명하면 될까요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자기부상열차/NNP+그렇게/MAG+설명/NNG+하/XSV+면/EC+될까요/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 글쿤여 오 신기하네여",
+            "norm_text": "아 글쿤여 오 신기하네여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+글/NNG+쿤/NNP+여오/NNG+신기/XR+하/XSA+네여/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : SRT는 타보셨어요? 그거랑 KTX랑 무슨 차이예요?",
+            "norm_text": "SRT는 타보셨어요? 그거랑 KTX랑 무슨 차이예요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "SRT/SL+는/JX+타/VV+EC+보/VX+셨/EP+EP+어요/EF+그거/NP+랑/JC+KTX/SL+랑/JKB+무슨/MM+차이/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 저는 그거는 한 번도 안 타 봤어요 그게 경춘선인가...",
+            "norm_text": "저는 그거는 한 번도 안 타 봤어요 그게 경춘선인가...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+그거/NP+는/JX+한/MM+번/NNBC+도/JX+안/MAG+타/VV+EC+봤/VX+EP+어요/EF+그게/NP+JKS+경춘선/NNG+인가/VCP+EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그건 강원도 춘천 쪽으로 가는 열차 아닌가요?",
+            "norm_text": "그건 강원도 춘천 쪽으로 가는 열차 아닌가요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+강원도/NNP+춘천/NNP+쪽/NNB+으로/JKB+가/VV+는/ETM+열차/NNG+아닌가요/VCN+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아여 춘천 쪽으로 가는 열차 있는데 청춘 열차인가",
+            "norm_text": "맞아여 춘천 쪽으로 가는 열차 있는데 청춘 열차인가",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/NNG+아여/MAG+춘천/NNP+쪽/NNB+으로/JKB+가/VV+는/ETM+열차/NNG+있/VV+는데/EC+청춘/NNG+열/NR+차/NNBC+인가/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 집 떠나 열차 타고 입대하는 생각나네요",
+            "norm_text": "집 떠나 열차 타고 입대하는 생각나네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+떠나/VV+EC+열차/NNG+타/VV+고/EC+입대/NNG+하/XSV+는/ETM+생각/NNG+나/NP+네요/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 24894,
+    "name": "KAKAO_549_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155921003295/KAKAO_549_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155921003295/KAKAO_549_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29975,
+      "filename": "KAKAO_549_04.txt",
+      "title": "KAKAO_549_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 732,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 732,
+        "word_size": 223,
+        "text": "1 : 니 그래도 추석엔 일 안 하제?\n2 : 응 키키 다행히 키키 추석에도 일하면 울걸...? 니는?\n1 : 키키 나는 딱히 정해진 업무가 없잖아 내가 하고 싶을 때 하면 되니까... ㅜㅜ\n2 : 아... 그래... 돈 벌라면 일하긴 해야겠네...?\n1 : 그렇지 업무량을 늘려야지... 회사 급여만큼은 못 벌어도 조금이라도 벌지 하하\n2 : 그치... 와 근데 나 분명 어제 월급 들어왔거든?\n2 : 근데 내 애기들 왜 사라졌지?\n1 : 월급은 그저 통장을 스쳐 갈 뿐... 인연이 아닌 게지... 키키\n2 : ... 그래... ㅋ 내 인연이 아니였던 거제...?\n2 : 일 그렇게 빡세게 하고 남은 건 무엇인가\n1 : 너의 스펙...? 피로감...? 다크써클? 키키 그래도 니는 커리어가 쌓이고 있잖아 ㅜ\n2 : 아 그래... 이렇게 내 한몸 다 바쳐서 일하다가 다른 데 좋은 데 이직해야지 ㅠ\n1 : 그래 담에 이직할 때는 업무 강도 좀 보고 이직해라 ㅜㅜ\n2 : 키키 근데 우리 업계는 다 똑같은 거 같아 키키\n2 : 그냥 일한 만큼 혜택이 있는 회사를 최대한 가야지 ㅠ\n1 : ㅜㅜ 그래 니 일하는 거 보면 너무 안쓰럽다고 ㅜㅜ\n2 : 키키 회사 입사한 지 1주년이 며칠 전에 됐는데 키키 1년이나 다니면서 칼퇴란 걸 한 게 1번? 키키\n1 : 그래도 니가 내 친구 중에 제일 멋있는 거 같다 커리어 우먼이다... 기특해\n2 : 아니다... 나는 그냥 일 노예일 뿐... 멋있는 애들 천지빼까리고 니도 언니도 가 멋있는 사람들이야",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니 그래도 추석엔 일 안 하제?",
+            "norm_text": "니 그래도 추석엔 일 안 하제?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+그래도/VV+EC+추석/NNG+엔/JKB+JX+일/NNG+안/MAG+하/VV+제/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 키키 다행히 키키 추석에도 일하면 울걸...? 니는?",
+            "norm_text": "응 키키 다행히 키키 추석에도 일하면 울걸...? 니는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+다행히/MAG+키/NNG+키/NNG+추석/NNG+에/JKB+도/JX+일/NNG+하/XSV+면/EC+울/VV+걸/EF+./SY+./SY+니/NP+는/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 나는 딱히 정해진 업무가 없잖아 내가 하고 싶을 때 하면 되니까... ㅜㅜ",
+            "norm_text": "키키 나는 딱히 정해진 업무가 없잖아 내가 하고 싶을 때 하면 되니까... ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+딱히/MAG+정해진/VV+EC+VX+ETM+업무/NNG+가/JKS+없/VA+잖아/EF+내/NP+가/JKS+하/VV+고/EC+싶/VX+을/ETM+때/NNG+하/XSV+면/EC+되/VV+니까/EC+./SY+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아... 그래... 돈 벌라면 일하긴 해야겠네...?",
+            "norm_text": "아... 그래... 돈 벌라면 일하긴 해야겠네...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+./SY+그래/IC+./SY+돈/NNG+벌/VV+라면/EC+일/NNG+하/XSV+긴/ETN+JX+해야/VX+EC+VX+겠/EP+네/EF+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그렇지 업무량을 늘려야지... 회사 급여만큼은 못 벌어도 조금이라도 벌지 하하",
+            "norm_text": "그렇지 업무량을 늘려야지... 회사 급여만큼은 못 벌어도 조금이라도 벌지 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EC+업무/NNG+량/NNG+을/JKO+늘려야/VV+EC+지/VX+EP+EF+./SY+회사/NNG+급여/NNG+만큼/JKB+은/JX+못/MAG+벌/VV+어도/EC+조금/NNG+이/VCP+라도/EC+벌/NNG+지하/NNG+하/XSV"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그치... 와 근데 나 분명 어제 월급 들어왔거든?",
+            "norm_text": "그치... 와 근데 나 분명 어제 월급 들어왔거든?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그치/IC+./SY+와/IC+근데/MAJ+나/NP+분명/MAG+어제/MAG+월급/NNG+들어왔/VV+EP+거든/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 근데 내 애기들 왜 사라졌지?",
+            "norm_text": "근데 내 애기들 왜 사라졌지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+내/MM+애기/NNG+들/XSN+왜/MAG+사라졌/VV+EP+지/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 월급은 그저 통장을 스쳐 갈 뿐... 인연이 아닌 게지... 키키",
+            "norm_text": "월급은 그저 통장을 스쳐 갈 뿐... 인연이 아닌 게지... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "월급/NNG+은/JX+그저/MAG+통장/NNG+을/JKO+스쳐갈/VV+EC+VX+ETM+뿐/NNB+./SY+인연/NNG+이/JKC+아닌/VCN+ETM+게/NNB+VCP+지/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : ... 그래... ㅋ 내 인연이 아니였던 거제...?",
+            "norm_text": "... 그래... ㅋ 내 인연이 아니였던 거제...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "./SY+./SY+그래/IC+./SY+ㅋ내/UNKNOWN+인연/NNG+이/JKC+아니/VCN+였/EP+던/ETM+거/NNB+제/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 일 그렇게 빡세게 하고 남은 건 무엇인가",
+            "norm_text": "일 그렇게 빡세게 하고 남은 건 무엇인가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일/NNG+그렇게/MAG+빡세/VA+게/EC+하/VV+고/EC+남/VV+은/ETM+건/NNB+JX+무엇/NP+인가/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너의 스펙...? 피로감...? 다크써클? 키키 그래도 니는 커리어가 쌓이고 있잖아 ㅜ",
+            "norm_text": "너의 스펙...? 피로감...? 다크써클? 키키 그래도 니는 커리어가 쌓이고 있잖아 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+의/JKG+스펙/NNP+./SY+./SY+피로감/NNG+./SY+./SY+다크/NNG+써/VV+EC+클/NNG+?/SY+키/NNG+키/XSV+ETN+그래도/MAJ+니/NP+는/JX+커리어/NNP+가/JKS+쌓이/VV+고/EC+있/VX+잖아/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 그래... 이렇게 내 한몸 다 바쳐서 일하다가 다른 데 좋은 데 이직해야지 ㅠ",
+            "norm_text": "아 그래... 이렇게 내 한몸 다 바쳐서 일하다가 다른 데 좋은 데 이직해야지 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+./SY+이렇게/MAG+내/MM+한/MM+몸/NNG+다/MAG+바쳐서/VV+EC+일/NNG+하/XSV+다가/EC+다른/MM+데/NNB+좋/VA+은데/EC+이직/NNG+해야/XSV+EC+지ㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래 담에 이직할 때는 업무 강도 좀 보고 이직해라 ㅜㅜ",
+            "norm_text": "그래 담에 이직할 때는 업무 강도 좀 보고 이직해라 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+담/NNG+에/JKB+이직/NNG+할/XSV+ETM+때/NNG+는/JX+업무/NNG+강/NNG+도/JX+좀/MAG+보/VV+고/EC+이직/NNG+해라/XSV+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 근데 우리 업계는 다 똑같은 거 같아 키키",
+            "norm_text": "키키 근데 우리 업계는 다 똑같은 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+우리/NP+업계/NNG+는/JX+다/MAG+똑같/VA+은/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그냥 일한 만큼 혜택이 있는 회사를 최대한 가야지 ㅠ",
+            "norm_text": "그냥 일한 만큼 혜택이 있는 회사를 최대한 가야지 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+일/NNG+한/XSA+ETM+만큼/NNB+혜택/NNG+이/JKS+있/VA+는/ETM+회사/NNG+를/JKO+최대한/MAG+가/VV+야/EF+지ㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : ㅜㅜ 그래 니 일하는 거 보면 너무 안쓰럽다고 ㅜㅜ",
+            "norm_text": "ㅜㅜ 그래 니 일하는 거 보면 너무 안쓰럽다고 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그래/VV+니/EC+일/NNG+하/XSV+는/ETM+거/NNB+보/VV+면/EC+너무/MAG+안쓰럽/VA+다고/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 회사 입사한 지 1주년이 며칠 전에 됐는데 키키 1년이나 다니면서 칼퇴란 걸 한 게 1번? 키키",
+            "norm_text": "키키 회사 입사한 지 1주년이 며칠 전에 됐는데 키키 1년이나 다니면서 칼퇴란 걸 한 게 1번? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+회사/NNG+입사/NNG+한지/XSA+EC+1/SN+주년/NNBC+이/VCP+며/EC+칠전/NNG+에/JKB+됐/VV+EP+는데/EC+키/NNG+키/XSV+ETN+1/SN+년/NNBC+이나/JX+다니/VV+면서/EC+칼/NNG+퇴란/NNG+걸/NNB+JKO+한/VV+ETM+게/NNB+JKS+1/SN+번/NNBC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그래도 니가 내 친구 중에 제일 멋있는 거 같다 커리어 우먼이다... 기특해",
+            "norm_text": "그래도 니가 내 친구 중에 제일 멋있는 거 같다 커리어 우먼이다... 기특해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+니/NP+가/JKS+내/NP+JKG+친구/NNG+중/NNB+에/JKB+제일/MAG+멋있/VA+는/ETM+거/NNB+같/VA+다/EC+커리어/NNP+우먼/NNG+이/VCP+다/EF+./SY+기특/XR+해/XSA+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아니다... 나는 그냥 일 노예일 뿐... 멋있는 애들 천지빼까리고 니도 언니도 가 멋있는 사람들이야",
+            "norm_text": "아니다... 나는 그냥 일 노예일 뿐... 멋있는 애들 천지빼까리고 니도 언니도 가 멋있는 사람들이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/VCN+다/EF+./SY+나/NP+는/JX+그냥/MAG+일/NNG+노예/NNG+일/VCP+ETM+뿐/NNB+./SY+멋있/VA+는/ETM+애/NNG+들/XSN+천지/NNG+빼/VV+EC+까리/NNG+고니/NNG+도/JX+언니/NNG+도/JX+가/JKS+멋있/VA+는/ETM+사람/NNG+들/XSN+이야/JX"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 71528,
+    "name": "KAKAO_720_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113021064138/KAKAO_720_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113021064138/KAKAO_720_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36566,
+      "filename": "KAKAO_720_02.txt",
+      "title": "KAKAO_720_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 672,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 672,
+        "word_size": 207,
+        "text": "1 : 너는 서울에서 원래 자취하다 **랑 같이 사는 거야? 키키\n2 : 원래는 고양시에서 자취했다가 서울에 방 알아보는데 **가 같이 살자고 해서 왔지 키키\n1 : 아하 경기도 고양시! 월세로 살았었어 ㅇㅅㅇ?\n2 : 응 항상 월세로 살았지 키키\n2 : 누난 전세로 살아?\n1 : 아니 나도 월세^^; 지금은 반전세야\n1 : 친구랑 같이 살아서... 곧 월세살이 다시 시작 해야 해 8ㅅ8\n2 : 방 계약 언제 끝나는데?\n1 : 12월 4일이니까 11월 중에는 슬슬 방 알아볼까 생각 중!\n2 : 오오 대전은 보통 월세 시세가 어때?\n1 : 음 코로나 전엔 대전이 집값 싸기로 유명했는데...\n1 : 지금은 걍 평범한 원룸이면 300/30~35정도?!\n2 : 와 서울에 비하면 그것도 엄청 싼데 대박이다\n1 : 키키 그렇지 서울이 너무 심하게 비쌀 뿐...\n1 : 서울 사람들이 집값 들으면 놀래더라\n2 : 대전 가서 살아야 하나 키키\n2 : 누나 서울서는 안 살아 봤어?\n1 : 대전 와... 행복한 도시 대전이야...\n1 : 난 죽어도 서울에서 살고 싶지 않아 서울 싫어 ㅠ0ㅠ\n2 : 키키 누나 지금 살고 있는 곳은 투룸이야? 원룸 분리형이야?\n1 : 투룸! 방 2개 거실 하나라서 친구랑 딱 살기 좋지 너네 집이랑 비슷한데 거실은 좀 더 크고...\n1 : 키키 하지만 이제 곧 원룸순이 8ㅅ8\n2 : 오 진짜 살기 좋은 집이네 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 서울에서 원래 자취하다 **랑 같이 사는 거야? 키키",
+            "norm_text": "너는 서울에서 원래 자취하다 **랑 같이 사는 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+서울/NNP+에서/JKB+원래/MAG+자취/NNG+하/XSV+다/EC+*/SY+*/SY+랑/JKB+같이/MAG+사/VV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 원래는 고양시에서 자취했다가 서울에 방 알아보는데 **가 같이 살자고 해서 왔지 키키",
+            "norm_text": "원래는 고양시에서 자취했다가 서울에 방 알아보는데 **가 같이 살자고 해서 왔지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/NNG+는/JX+고양시/NNP+에서/JKB+자취/NNG+했/XSV+EP+다가/EC+서울/NNP+에/JKB+방/NNG+알아보/VV+는데/EC+*/SY+*/SY+가/JKS+같이/MAG+살/VV+자고/EC+해서/VV+EC+왔/VX+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아하 경기도 고양시! 월세로 살았었어 ㅇㅅㅇ?",
+            "norm_text": "아하 경기도 고양시! 월세로 살았었어 ㅇㅅㅇ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하/IC+경기도/NNP+고양시/NNP+!/SY+월세로살았었어ㅇㅅㅇ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 항상 월세로 살았지 키키",
+            "norm_text": "응 항상 월세로 살았지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+항상/MAG+월세/NNG+로/JKB+살/VV+았/EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 누난 전세로 살아?",
+            "norm_text": "누난 전세로 살아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누난/NNG+JX+전세/NNG+로/JKB+살/VV+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아니 나도 월세^^; 지금은 반전세야",
+            "norm_text": "아니 나도 월세^^; 지금은 반전세야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+나/NP+도/JX+월세/NNG+^/SY+^/SY+;/SY+지금/NNG+은/JX+반전/NNG+세/VA+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 친구랑 같이 살아서... 곧 월세살이 다시 시작 해야 해 8ㅅ8",
+            "norm_text": "친구랑 같이 살아서... 곧 월세살이 다시 시작 해야 해 8ㅅ8",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "친구/NNG+랑/JKB+같이/MAG+살/VV+아서/EC+./SY+./SY+곧/MAG+월세/NNG+살/NNG+이/JKS+다시/MAG+시작/NNG+해야/XSV+EC+해/VV+EC+8/SN+ㅅ/NNG+8/SN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 방 계약 언제 끝나는데?",
+            "norm_text": "방 계약 언제 끝나는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "방/NNG+계약/NNG+언제/MAG+끝나/VV+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 12월 4일이니까 11월 중에는 슬슬 방 알아볼까 생각 중!",
+            "norm_text": "12월 4일이니까 11월 중에는 슬슬 방 알아볼까 생각 중!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "12/SN+월/NNBC+4/SN+일/NNBC+이/VCP+니까/EC+11/SN+월/NNBC+중/NNB+에/JKB+는/JX+슬슬/MAG+방/NNG+알아볼까/VV+EC+생각/NNG+중/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 오오 대전은 보통 월세 시세가 어때?",
+            "norm_text": "오오 대전은 보통 월세 시세가 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+오/NR+대전/NNG+은/JX+보통/NNG+월세/NNG+시세/NNG+가/JKS+어때/VA+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 음 코로나 전엔 대전이 집값 싸기로 유명했는데...",
+            "norm_text": "음 코로나 전엔 대전이 집값 싸기로 유명했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음코로나전엔대전이집값싸기로유명했는데/UNKNOWN+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 지금은 걍 평범한 원룸이면 300/30~35정도?!",
+            "norm_text": "지금은 걍 평범한 원룸이면 300/30~35정도?!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금은걍평범한원룸이면/UNKNOWN+300/SN+//SC+30/SN+~/SY+35/SN+정도/NNG+?/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 와 서울에 비하면 그것도 엄청 싼데 대박이다",
+            "norm_text": "와 서울에 비하면 그것도 엄청 싼데 대박이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+서울/NNP+에/JKB+비하/VV+면/EC+그것/NP+도/JX+엄청/MAG+싼/VA+ETM+데/NNB+대박/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그렇지 서울이 너무 심하게 비쌀 뿐...",
+            "norm_text": "키키 그렇지 서울이 너무 심하게 비쌀 뿐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+지/EC+서울/NNP+이/JKS+너무/MAG+심하/VA+게/EC+비쌀/VA+ETM+뿐/NNB+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 서울 사람들이 집값 들으면 놀래더라",
+            "norm_text": "서울 사람들이 집값 들으면 놀래더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "서울/NNP+사람/NNG+들/XSN+이/JKS+집값/NNG+들으면/VV+EC+놀래/VV+더라/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 대전 가서 살아야 하나 키키",
+            "norm_text": "대전 가서 살아야 하나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대전/NNG+가/VV+서/EC+살/VV+아야/EC+하나/NR+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 누나 서울서는 안 살아 봤어?",
+            "norm_text": "누나 서울서는 안 살아 봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "누나/NNG+서울/NNP+서/JKB+는/JX+안/MAG+살/VV+아/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 대전 와... 행복한 도시 대전이야...",
+            "norm_text": "대전 와... 행복한 도시 대전이야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대전/NNP+와/JC+./SY+./SY+행복/NNG+한/XSA+ETM+도시/NNG+대전/NNG+이/VCP+야/EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 난 죽어도 서울에서 살고 싶지 않아 서울 싫어 ㅠ0ㅠ",
+            "norm_text": "난 죽어도 서울에서 살고 싶지 않아 서울 싫어 ㅠ0ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+죽/VV+어도/EC+서울/NNP+에서/JKB+살/VV+고/EC+싶/VX+지/EC+않/VX+아서/EC+울/JKO+싫/VA+어/EC+ㅠ/UNKNOWN+0/SN+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 누나 지금 살고 있는 곳은 투룸이야? 원룸 분리형이야?",
+            "norm_text": "키키 누나 지금 살고 있는 곳은 투룸이야? 원룸 분리형이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+누나/EC+지금/MAG+살/VV+고/EC+있/VX+는/ETM+곳/NNG+은/JX+투/NR+룸/NNG+이/VCP+야/EF+원룸/NNG+분리/NNG+형/XSN+이/VCP+야/EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 투룸! 방 2개 거실 하나라서 친구랑 딱 살기 좋지 너네 집이랑 비슷한데 거실은 좀 더 크고...",
+            "norm_text": "투룸! 방 2개 거실 하나라서 친구랑 딱 살기 좋지 너네 집이랑 비슷한데 거실은 좀 더 크고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "투/NR+룸/NNG+!/SY+방/NNG+2/SN+개거실하나라서친구랑딱살기좋지너네집이랑비슷한데거실은좀더크고/UNKNOWN+./SY"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 하지만 이제 곧 원룸순이 8ㅅ8",
+            "norm_text": "키키 하지만 이제 곧 원룸순이 8ㅅ8",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+하/XSV+지만/EC+이제/MAG+곧/MAG+원룸/NNG+순/NNG+이/JKS+8/SN+ㅅ/NNG+8/SN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 오 진짜 살기 좋은 집이네 키키",
+            "norm_text": "오 진짜 살기 좋은 집이네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+진짜/MAG+살/VV+기/ETN+좋/VA+은/ETM+집/NNG+이/JKS+네/MM+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

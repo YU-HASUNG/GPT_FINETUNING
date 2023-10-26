@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 74318,
+    "name": "KAKAO_703_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113050039345/KAKAO_703_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929113050039345/KAKAO_703_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36605,
+      "filename": "KAKAO_703_01.txt",
+      "title": "KAKAO_703_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 359,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 359,
+        "word_size": 129,
+        "text": "1 : 오늘 저녁 먹었냐\n2 : 방금 먹고 들어옴 키키 족발 먹고 왔음 너는\n1 : 나는 오늘 하루 죙일 자느라고 저녁 한 끼 먹었다 키키\n2 : 키키 자는 것도 좋지 부럽구만\n1 : 족발? 갑자기 족발 얘기 들으니깐 족발 땡기네\n2 : 배달 시켜 ㄱㄱ 키키\n1 : 너네 동네 그 마늘족발 먹었냐\n2 : ㄴㄴ 거긴 보쌈밖에 없어서 다른 데 감\n1 : 키키 저녁은 먹음 걍 밥 키키\n2 : 요즘은 보쌈보다는 족발이 맛있어\n1 : 아 거긴 마늘 보쌈이었나 키키\n2 : 응응 보쌈은 너무 퍽퍽한 거 같음\n1 : 키키 족발 안 먹은 지 좀 된 듯 키키\n2 : 저번에 한 달 전인가 먹었지 아마? 키키\n1 : 키키 족발이 기름도 많고 좋지 키키\n2 : 그 이후로 안 먹음? 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 저녁 먹었냐",
+            "norm_text": "오늘 저녁 먹었냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+저녁/NNG+먹/VV+었/EP+냐/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 방금 먹고 들어옴 키키 족발 먹고 왔음 너는",
+            "norm_text": "방금 먹고 들어옴 키키 족발 먹고 왔음 너는",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "방금/MAG+먹/VV+고/EC+들어옴/VV+ETN+키/NNG+키/NNG+족발/NNG+먹/VV+고/EC+왔음/VV+EP+EC+너/NP+는/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나는 오늘 하루 죙일 자느라고 저녁 한 끼 먹었다 키키",
+            "norm_text": "나는 오늘 하루 죙일 자느라고 저녁 한 끼 먹었다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+오늘/NNG+하/XSV+루죙/UNKNOWN+일자/NNG+느/VV+라고/EC+저녁/NNG+한/XSA+ETM+끼/NNG+먹/VV+었/EP+다키키/NNP"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 자는 것도 좋지 부럽구만",
+            "norm_text": "키키 자는 것도 좋지 부럽구만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+자는/ETM+것/NNB+도/JX+좋/VA+지/EC+부럽/VA+구만/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 족발? 갑자기 족발 얘기 들으니깐 족발 땡기네",
+            "norm_text": "족발? 갑자기 족발 얘기 들으니깐 족발 땡기네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "족발/NNG+?/SY+갑자기족발얘기들으니깐족발땡기네/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 배달 시켜 ㄱㄱ 키키",
+            "norm_text": "배달 시켜 ㄱㄱ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "배달시켜ㄱㄱ키키/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 너네 동네 그 마늘족발 먹었냐",
+            "norm_text": "너네 동네 그 마늘족발 먹었냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+동네/NNG+그/MM+마늘/NNG+족발/NNG+먹/VV+었/EP+냐/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : ㄴㄴ 거긴 보쌈밖에 없어서 다른 데 감",
+            "norm_text": "ㄴㄴ 거긴 보쌈밖에 없어서 다른 데 감",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+거긴/NNB+VCP+ETN+JX+보쌈/NNG+밖에/JX+없/VA+어서/EC+다른/MM+데/NNB+감/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 저녁은 먹음 걍 밥 키키",
+            "norm_text": "키키 저녁은 먹음 걍 밥 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+저녁/NNG+은/JX+먹/VV+음/ETN+걍밥/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 요즘은 보쌈보다는 족발이 맛있어",
+            "norm_text": "요즘은 보쌈보다는 족발이 맛있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+보쌈/NNG+보다/JKB+는/JX+족발/NNG+이/JKS+맛있/VA+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 거긴 마늘 보쌈이었나 키키",
+            "norm_text": "아 거긴 마늘 보쌈이었나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+거긴/NP+JX+마늘/NNG+보쌈/NNG+이/VCP+었/EP+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응응 보쌈은 너무 퍽퍽한 거 같음",
+            "norm_text": "응응 보쌈은 너무 퍽퍽한 거 같음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+보쌈/NNG+은/JX+너무/MAG+퍽퍽/XR+한/XSA+ETM+거/NNB+같/VA+음/ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 족발 안 먹은 지 좀 된 듯 키키",
+            "norm_text": "키키 족발 안 먹은 지 좀 된 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+족발/NNG+안/MAG+먹/VV+은지/EC+좀/MAG+된/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 저번에 한 달 전인가 먹었지 아마? 키키",
+            "norm_text": "저번에 한 달 전인가 먹었지 아마? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저번/NNG+에/JKB+한달전/NNP+인가/VCP+EC+먹/VV+었/EP+지/EF+아마/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 족발이 기름도 많고 좋지 키키",
+            "norm_text": "키키 족발이 기름도 많고 좋지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+족발/NNG+이/JKS+기름/NNG+도/JX+많/VA+고/EC+좋/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그 이후로 안 먹음? 키키",
+            "norm_text": "그 이후로 안 먹음? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+이후/NNG+로/JKB+안/MAG+먹/VV+음/ETN+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

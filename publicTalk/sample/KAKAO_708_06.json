@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 45151,
+    "name": "KAKAO_708_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132349054413/KAKAO_708_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132349054413/KAKAO_708_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36753,
+      "filename": "KAKAO_708_06.txt",
+      "title": "KAKAO_708_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 489,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 489,
+        "word_size": 158,
+        "text": "1 : 너네 학과는 무슨 자격증을 따야 돼?\n2 : 탑싯이랑 토익 그리고 기사자격증 있으면 좋아\n1 : 토익은 얼마나 넘겨야 하는데?\n2 : 기억은 잘 안 나는데 커트가 디게 낮아서 쉬워\n1 : 아하! 탑싯은 무슨 자격증이야?\n2 : 프로그래밍 관련해서 알아야 할 정보를 물어보는 자격증이야\n1 : 어렵겠디 ㅠㅠ 기사는 정보처리기사 이런 거야?\n2 : 어 맞아 정보처리기사는 우리 같은 과 사람들은 기본으로 다 따는 것 같아\n1 : 그 자격증 따려면 보통 얼마나 걸려?\n2 : 보통 한 달 정도 빡시게 잡고 하는 것 같아\n1 : 아하 금방 따는 자격증이네 키키\n2 : 응 맞아 그렇게 고난이도의 시험은 아니래\n2 : 너는 혹시 준비하고 있는 자격증 있어?\n1 : 나는 지금 경영 관리 프로그램에 관한 자격증 키키\n2 : 우와 듣기만 해도 토 나온다 나는 그쪽 계열은 잘 모르겠어\n1 : 맞아 키키 근데 인사 관리 하는 거 재밌어 급여 줄 때 쓰잖아\n2 : 재밌는 거 하는 게 좋은 것 같아 천직이네 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너네 학과는 무슨 자격증을 따야 돼?",
+            "norm_text": "너네 학과는 무슨 자격증을 따야 돼?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+학과/NNG+는/JX+무슨/MM+자격증/NNG+을/JKO+따/VV+야/EC+돼/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 탑싯이랑 토익 그리고 기사자격증 있으면 좋아",
+            "norm_text": "탑싯이랑 토익 그리고 기사자격증 있으면 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "탑/NNP+싯/NNP+이랑/JC+토익/NNG+그리고/MAJ+기사/NNG+자격증/NNG+있/VV+으면/EC+좋/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 토익은 얼마나 넘겨야 하는데?",
+            "norm_text": "토익은 얼마나 넘겨야 하는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "토익/NNG+은/JX+얼마나/MAG+넘겨야/VV+EC+하/VV+는데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 기억은 잘 안 나는데 커트가 디게 낮아서 쉬워",
+            "norm_text": "기억은 잘 안 나는데 커트가 디게 낮아서 쉬워",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기억/NNG+은/JX+잘/MAG+안/MAG+나/VV+는/ETM+데커트/NNP+가/JKS+디게/MAG+낮/VA+아서/EC+쉬워/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아하! 탑싯은 무슨 자격증이야?",
+            "norm_text": "아하! 탑싯은 무슨 자격증이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하/IC+탑/NNG+싯/NNP+은/JX+무슨/MM+자격증/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 프로그래밍 관련해서 알아야 할 정보를 물어보는 자격증이야",
+            "norm_text": "프로그래밍 관련해서 알아야 할 정보를 물어보는 자격증이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "프로그래밍/NNG+관련/NNG+해서/XSV+EC+알/VV+아야/EC+할/VX+ETM+정보/NNG+를/JKO+물/VV+어/EC+보/VX+는/ETM+자격증/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어렵겠디 ㅠㅠ 기사는 정보처리기사 이런 거야?",
+            "norm_text": "어렵겠디 ㅠㅠ 기사는 정보처리기사 이런 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어렵/VA+겠/EP+디/EC+ㅠㅠ/UNKNOWN+기사/NNG+는/JX+정보/NNG+처리/NNG+기사/NNG+이런/MM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어 맞아 정보처리기사는 우리 같은 과 사람들은 기본으로 다 따는 것 같아",
+            "norm_text": "어 맞아 정보처리기사는 우리 같은 과 사람들은 기본으로 다 따는 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞/VV+아/EC+정보/NNG+처리/NNG+기사/NNG+는/JX+우리/NP+같/VA+은/ETM+과/NNG+사람/NNG+들/XSN+은/JX+기본/NNG+으로/JKB+다/MAG+따/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그 자격증 따려면 보통 얼마나 걸려?",
+            "norm_text": "그 자격증 따려면 보통 얼마나 걸려?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+자격증/NNG+따/VV+려면/EC+보통/NNG+얼마나/MAG+걸려/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 보통 한 달 정도 빡시게 잡고 하는 것 같아",
+            "norm_text": "보통 한 달 정도 빡시게 잡고 하는 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보통/NNG+한달/XSV+ETM+정도/NNG+빡시/VA+게/EC+잡/VV+고/EC+하/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아하 금방 따는 자격증이네 키키",
+            "norm_text": "아하 금방 따는 자격증이네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+금방/MAG+따/VV+는/ETM+자격증/NNG+이/JKS+네/MM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응 맞아 그렇게 고난이도의 시험은 아니래",
+            "norm_text": "응 맞아 그렇게 고난이도의 시험은 아니래",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞아/IC+그렇게/MAG+고/XPN+난이도/NNG+의/JKG+시험/NNG+은/JX+아니/VCN+래/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 너는 혹시 준비하고 있는 자격증 있어?",
+            "norm_text": "너는 혹시 준비하고 있는 자격증 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+혹시/MAG+준비/NNG+하/XSV+고/EC+있/VX+는/ETM+자격증/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나는 지금 경영 관리 프로그램에 관한 자격증 키키",
+            "norm_text": "나는 지금 경영 관리 프로그램에 관한 자격증 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+지금/MAG+경영/NNG+관리/NNG+프로그램/NNG+에/JKB+관한/VV+ETM+자격증/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 우와 듣기만 해도 토 나온다 나는 그쪽 계열은 잘 모르겠어",
+            "norm_text": "우와 듣기만 해도 토 나온다 나는 그쪽 계열은 잘 모르겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+듣/VV+기/ETN+만/JX+해도/VV+EC+토/NNG+나온다/VV+EF+나/NP+는/JX+그쪽/NP+계열/NNG+은/JX+잘/MAG+모르/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 맞아 키키 근데 인사 관리 하는 거 재밌어 급여 줄 때 쓰잖아",
+            "norm_text": "맞아 키키 근데 인사 관리 하는 거 재밌어 급여 줄 때 쓰잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+근데/MAJ+인사/NNG+관리/NNG+하/XSV+는/ETM+거/NNB+재밌/VA+어/EC+급여/NNG+줄때/NNG+쓰/VV+잖아/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 재밌는 거 하는 게 좋은 것 같아 천직이네 키키",
+            "norm_text": "재밌는 거 하는 게 좋은 것 같아 천직이네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "재밌/VA+는/ETM+거/NNB+하/VV+는/ETM+게/NNB+JKS+좋/VA+은/ETM+것/NNB+같/VA+아/EC+천직/NNG+이/JKS+네/MM+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

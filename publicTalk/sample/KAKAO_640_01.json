@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 25177,
+    "name": "KAKAO_640_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009070732/KAKAO_640_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009070732/KAKAO_640_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31792,
+      "filename": "KAKAO_640_01.txt",
+      "title": "KAKAO_640_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 702,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 702,
+        "word_size": 225,
+        "text": "1 : 언니 우리 오늘 만나서 뭐 먹으러 갈까?\n2 : 우리 동네 새로운 디저트 집  오픈 했던데 들었어?\n1 : 아니 아니 ! 무슨 디저트 가게? 마카롱 집이야?\n2 : 어! 마카롱이랑 빵을 종류 별로 아침마다 굽는대!\n1 : 와 나는 뚱카롱 좋은데 거기 뚱카롱도 팔라나?\n2 : 어... 안 가봐서 모르겠네.\n2 : 뚱카롱 얘기하니 아아랑 먹고 싶다~ 조만간 한번 고고?\n1 : 너무 너무 좋아 ㅎ 카라멜 마카롱 너무 맛나는데 가자 가자 ㅎ\n1 : 무슨 요일에 가지?\n2 : 나는 수요일 한가해~\n2 : 요새 에이드에 꽂혀서~ 에이드도 시켜 먹자 하하 내가 쏠게!\n1 : 수요일 좋아! 그럼 내가 마카롱을 쏘겠어 ㅎ\n1 : 그날 우리 먹방 하는 거야?\n2 : 아... 다이어트 해야 하는데... 평생의 숙제야  키키 맛난 게 너무 많아~\n2 : 나 연유 바게트도 먹고 싶어\n1 : 아 맛있으면 0칼로리 나는 앙버터빵... 우리 괜찮을까 ㅎ\n2 : 수요일 전까지 다이어트 하자 키키 그날까지 참는 거야!\n2 : 수욜에 고무줄 바지 입고 가자 키키\n1 : 하하 고무줄 바지까지 하하 인증샷 찍을 때는 상반신만 찍고? ㅎ\n2 : 좋아 좋아 키키 거기 카페 인테리어도 예쁘대~\n2 : 애들 유치원 보내 놓고 오랜만에 밀린 수다 좀 풀자 키키 신나 신나\n1 : 아 오랜만에 카페 투어라서 나도 너무 설레염\n2 : 나 이틀 전에 새 폰 뽑았거든.\n2 : 새 카메라로 인생샷 건져 보장 키키 낼 연락할게!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 우리 오늘 만나서 뭐 먹으러 갈까?",
+            "norm_text": "언니 우리 오늘 만나서 뭐 먹으러 갈까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+우리/NP+오늘/MAG+만나/VV+서/EC+뭐/IC+먹/VV+으러/EC+갈까/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리 동네 새로운 디저트 집  오픈 했던데 들었어?",
+            "norm_text": "우리 동네 새로운 디저트 집  오픈 했던데 들었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+동네/NNG+새로운/VA+ETM+디저트/NNG+집/NNG+오픈/NNG+했/XSV+EP+던/ETM+데/NNB+들/VV+었/EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 아니 ! 무슨 디저트 가게? 마카롱 집이야?",
+            "norm_text": "아니 아니 ! 무슨 디저트 가게? 마카롱 집이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+아니/IC+무슨/MM+디저트/NNG+가게/NNG+?/SY+마카롱/NNG+집/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어! 마카롱이랑 빵을 종류 별로 아침마다 굽는대!",
+            "norm_text": "어! 마카롱이랑 빵을 종류 별로 아침마다 굽는대!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+마카롱/NNG+이랑/JKB+빵/NNG+을/JKO+종류/NNG+별/XSN+로/JKB+아침/NNG+마다/JX+굽/VV+는대/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 와 나는 뚱카롱 좋은데 거기 뚱카롱도 팔라나?",
+            "norm_text": "와 나는 뚱카롱 좋은데 거기 뚱카롱도 팔라나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와나/NNP+는/JX+뚱/NNG+카/NNG+롱/NNG+좋/VA+은데/EC+거기/NP+뚱/NNG+카/NNG+롱/NNG+도/JX+팔/VV+라나/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어... 안 가봐서 모르겠네.",
+            "norm_text": "어... 안 가봐서 모르겠네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+./SY+안/MAG+가/VV+봐서/EC+VX+EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 뚱카롱 얘기하니 아아랑 먹고 싶다~ 조만간 한번 고고?",
+            "norm_text": "뚱카롱 얘기하니 아아랑 먹고 싶다~ 조만간 한번 고고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뚱/NNG+카/NNG+롱/NNG+얘기/NNG+하/XSV+니아/EC+아랑/NNG+먹/VV+고/EC+싶/VX+다/EC+~/SY+조만간/MAG+한/MM+번/NNBC+고고/NNG"
+          },
+          {
+            "id": 8,
+            "text": "1 : 너무 너무 좋아 ㅎ 카라멜 마카롱 너무 맛나는데 가자 가자 ㅎ",
+            "norm_text": "너무 너무 좋아 ㅎ 카라멜 마카롱 너무 맛나는데 가자 가자 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무너무/MAG+좋/VA+아/EC+ㅎ/XSA+카라멜/NNP+마카롱/NNG+너무/MAG+맛나/VA+는데/EC+가/VX+자/EC+가자/NNG+ㅎ/XSA"
+          },
+          {
+            "id": 9,
+            "text": "1 : 무슨 요일에 가지?",
+            "norm_text": "무슨 요일에 가지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+요일/NNG+에/JKB+가/VV+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나는 수요일 한가해~",
+            "norm_text": "나는 수요일 한가해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+수요일/NNG+한가/XSA+EC+해/VV+EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 요새 에이드에 꽂혀서~ 에이드도 시켜 먹자 하하 내가 쏠게!",
+            "norm_text": "요새 에이드에 꽂혀서~ 에이드도 시켜 먹자 하하 내가 쏠게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "요새/NNG+에/JKB+이드/NNG+에/JKB+꽂혀서/VV+EC+~/SY+에이드/NNG+도/JX+시켜/VV+EC+먹/VV+자/EC+하하/MAG+내/NP+가/JKS+쏠게/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 수요일 좋아! 그럼 내가 마카롱을 쏘겠어 ㅎ",
+            "norm_text": "수요일 좋아! 그럼 내가 마카롱을 쏘겠어 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "수요일/NNG+좋/VA+아/EF+그럼/MAJ+내/NP+가/JKS+마카롱/NNG+을/JKO+쏘/VV+겠/EP+어/EF+ㅎ/XSA"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그날 우리 먹방 하는 거야?",
+            "norm_text": "그날 우리 먹방 하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그날/NNG+우리/NP+먹방/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아... 다이어트 해야 하는데... 평생의 숙제야  키키 맛난 게 너무 많아~",
+            "norm_text": "아... 다이어트 해야 하는데... 평생의 숙제야  키키 맛난 게 너무 많아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+다이어트/NNG+해야/XSV+EC+하/VV+는데/EC+./SY+./SY+평생/NNG+의/JKG+숙제/NNG+야/VCP+EF+키/NNG+키/XSV+ETN+맛난/VA+ETM+게/NNB+JKS+너무/MAG+많/VA+아/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나 연유 바게트도 먹고 싶어",
+            "norm_text": "나 연유 바게트도 먹고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+연유/NNG+바게트/NNG+도/JX+먹/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 맛있으면 0칼로리 나는 앙버터빵... 우리 괜찮을까 ㅎ",
+            "norm_text": "아 맛있으면 0칼로리 나는 앙버터빵... 우리 괜찮을까 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+맛있/VA+으면/EC+0/SN+칼로리/NNBC+나/NP+는/JX+앙/IC+버터빵/NNP+./SY+./SY+우리/NP+괜찮/VA+을까/EF+ㅎ/XSA"
+          },
+          {
+            "id": 17,
+            "text": "2 : 수요일 전까지 다이어트 하자 키키 그날까지 참는 거야!",
+            "norm_text": "수요일 전까지 다이어트 하자 키키 그날까지 참는 거야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "수요일/NNG+전/NNG+까지/JX+다이어트/NNG+하/XSV+자/EC+키/NNG+키/NNG+그날/NNG+까지/JX+참/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 수욜에 고무줄 바지 입고 가자 키키",
+            "norm_text": "수욜에 고무줄 바지 입고 가자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "수/NNG+욜/NNP+에/JKB+고무줄/NNG+바지/NNG+입고/NNG+가/JKS+자키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 하하 고무줄 바지까지 하하 인증샷 찍을 때는 상반신만 찍고? ㅎ",
+            "norm_text": "하하 고무줄 바지까지 하하 인증샷 찍을 때는 상반신만 찍고? ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+고무줄/NNG+바지/NNG+까지/JX+하하/MAG+인증/NNG+샷/NNG+찍/VV+을/ETM+때/NNG+는/JX+상반신/NNG+만/JX+찍/VV+고/EC+ㅎ/XSA"
+          },
+          {
+            "id": 20,
+            "text": "2 : 좋아 좋아 키키 거기 카페 인테리어도 예쁘대~",
+            "norm_text": "좋아 좋아 키키 거기 카페 인테리어도 예쁘대~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+아/EC+좋/VA+아/EC+키/NNG+키/XSV+ETN+거기/NP+카페/NNG+인테리어/NNG+도/JX+예쁘/VA+대/EF+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 애들 유치원 보내 놓고 오랜만에 밀린 수다 좀 풀자 키키 신나 신나",
+            "norm_text": "애들 유치원 보내 놓고 오랜만에 밀린 수다 좀 풀자 키키 신나 신나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "애/NNG+들/XSN+유치원/NNG+보내/VV+EC+놓/VX+고/EC+오랜만/NNG+에/JKB+밀린/VV+ETM+수다/NNG+좀/MAG+풀/NNG+자키/NNG+키/XSV+ETN+신나/VV+EC+신나/VV+EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 아 오랜만에 카페 투어라서 나도 너무 설레염",
+            "norm_text": "아 오랜만에 카페 투어라서 나도 너무 설레염",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+오랜만/NNG+에/JKB+카페/NNG+투어/NNG+라서/VCP+EC+나/NP+도/JX+너무/MAG+설레/VV+EC+염/NNG"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나 이틀 전에 새 폰 뽑았거든.",
+            "norm_text": "나 이틀 전에 새 폰 뽑았거든.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+이틀/NNG+전/NNG+에/JKB+새/MM+폰/NNG+뽑/VV+았/EP+거든/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 새 카메라로 인생샷 건져 보장 키키 낼 연락할게!",
+            "norm_text": "새 카메라로 인생샷 건져 보장 키키 낼 연락할게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "새/MM+카메라/NNG+로/JKB+인생/NNG+샷/NNG+건져/VV+EC+보장/NNG+키/NNG+키/XSV+ETN+낼/VV+ETM+연락/NNG+할게/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

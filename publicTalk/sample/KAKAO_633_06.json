@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67333,
+    "name": "KAKAO_633_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109271409130043108/KAKAO_633_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109271409130043108/KAKAO_633_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34184,
+      "filename": "KAKAO_633_06.txt",
+      "title": "KAKAO_633_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 415,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 415,
+        "word_size": 141,
+        "text": "1 : 언니 고등학교 때 조리 전공 했다며~\n2 : 응 특성화고 조리과 나왔지~\n1 : 헐 키키 그럼 거기서 호텔에 나오는 음식 배우는 거야?\n2 : 아니 자격증 준비만 주구장창 했어 ㅜ\n1 : 아 그래? 언니는 무슨 자격증 있는데 키키\n2 : 나 한식이랑 제과 자격증 있어!\n1 : 아 정말? 제과 너무 힘들지 않아?\n2 : 응 힘들었어 시험 볼 때 가슴이 두근거렸지!\n1 : 나도 제과제빵 배웠는데 4시간 채워서 수업 하더라\n2 : 맞아 너네도 그렇구나 우리도 그랬어 키키\n1 : 응 나는 조리 보단 조주 자격증 취득했어!\n2 : 헐 너 그러면 바텐더 될 수 있는 거야?\n1 : 응 그렇긴 한데 키키 나는 잠이 많아서 ㅠㅠ\n2 : 나 나중에  코스모 폴리탄 만들어줄 수 있어?\n1 : 헐 나 그거 완전 잘 말지 키키\n2 : 헐 대박이다 니가 해 준 거 꼭 마셔야지!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 고등학교 때 조리 전공 했다며~",
+            "norm_text": "언니 고등학교 때 조리 전공 했다며~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+고등/NNG+학교/NNG+때/NNG+조리/NNG+전공/NNG+했/XSV+EP+다며/EC+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 특성화고 조리과 나왔지~",
+            "norm_text": "응 특성화고 조리과 나왔지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응특성화고조리과나왔지/UNKNOWN+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐 키키 그럼 거기서 호텔에 나오는 음식 배우는 거야?",
+            "norm_text": "헐 키키 그럼 거기서 호텔에 나오는 음식 배우는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+키/NNG+키/XSV+ETN+그럼/MAJ+거기/NP+서/JKB+호텔/NNG+에/JKB+나오/VV+는/ETM+음식/NNG+배우/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 자격증 준비만 주구장창 했어 ㅜ",
+            "norm_text": "아니 자격증 준비만 주구장창 했어 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+자격증/NNG+준비/NNG+만/JX+주/VX+구/EC+장창/NNG+했/XSV+EP+어ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그래? 언니는 무슨 자격증 있는데 키키",
+            "norm_text": "아 그래? 언니는 무슨 자격증 있는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+언니/NNG+는/JX+무슨/MM+자격증/NNG+있/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나 한식이랑 제과 자격증 있어!",
+            "norm_text": "나 한식이랑 제과 자격증 있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+한식/NNG+이랑/JKB+제과/NNG+자격증/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 정말? 제과 너무 힘들지 않아?",
+            "norm_text": "아 정말? 제과 너무 힘들지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+정말/MAG+제과/NNG+너무/MAG+힘들/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 힘들었어 시험 볼 때 가슴이 두근거렸지!",
+            "norm_text": "응 힘들었어 시험 볼 때 가슴이 두근거렸지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+힘들/VA+었/EP+어/EC+시험/NNG+볼/VV+ETM+때/NNG+가슴/NNG+이/JKS+두근거렸/VV+EP+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 제과제빵 배웠는데 4시간 채워서 수업 하더라",
+            "norm_text": "나도 제과제빵 배웠는데 4시간 채워서 수업 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+제/MM+과제/NNG+빵/NNG+배웠/VV+EP+는데/EC+4/SN+시간/NNBC+채워서/VV+EC+수업/NNG+하/XSV+더라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아 너네도 그렇구나 우리도 그랬어 키키",
+            "norm_text": "맞아 너네도 그렇구나 우리도 그랬어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+너/NP+네/XSN+도/JX+그렇/VA+구나/EF+우리/NP+도/JX+그랬/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 나는 조리 보단 조주 자격증 취득했어!",
+            "norm_text": "응 나는 조리 보단 조주 자격증 취득했어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+는/JX+조리/NNG+보단/JKB+JX+조주/NNG+자격증/NNG+취득/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 헐 너 그러면 바텐더 될 수 있는 거야?",
+            "norm_text": "헐 너 그러면 바텐더 될 수 있는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+너/NP+그러/VV+면/EC+바텐더/NNG+될/XSV+ETM+수/NNB+있/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 그렇긴 한데 키키 나는 잠이 많아서 ㅠㅠ",
+            "norm_text": "응 그렇긴 한데 키키 나는 잠이 많아서 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그렇/VA+긴/ETN+JX+한데/VX+EC+키/NNG+키나/XSA+ETN+JX+는/JX+잠/NNG+이/JKS+많/VA+아서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나 나중에  코스모 폴리탄 만들어줄 수 있어?",
+            "norm_text": "나 나중에  코스모 폴리탄 만들어줄 수 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+나중/NNG+에/JKB+코스모/NNP+폴리/NNG+탄/NNG+만들/VV+어/EC+줄/VX+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 헐 나 그거 완전 잘 말지 키키",
+            "norm_text": "헐 나 그거 완전 잘 말지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+나/NP+그거/NP+완전/MAG+잘/MAG+말지/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 헐 대박이다 니가 해 준 거 꼭 마셔야지!",
+            "norm_text": "헐 대박이다 니가 해 준 거 꼭 마셔야지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+대박/NNG+이/VCP+다니/EC+가해/VV+EC+준/VX+ETM+거/NNB+꼭/MAG+마셔야지/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

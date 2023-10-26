@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 41682,
+    "name": "KAKAO_468_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150809007074/KAKAO_468_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150809007074/KAKAO_468_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28473,
+      "filename": "KAKAO_468_03.txt",
+      "title": "KAKAO_468_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 555,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 555,
+        "word_size": 170,
+        "text": "1 : 자동차 사야 하는데 요새 뭐가 좋겠노\n2 : 하나 장만하시나요? 키키 승용차? suv?\n1 : 어제 수띵이가 전기차 이야기하던데? 키키\n2 : 키키 전기차 키키 나랑 얘기 한 건데 키키\n2 : 전기차도 좋지\n1 : 키키 둘이 도대체 무슨 이야기를 한 거야 키키\n2 : 키키 자동차 얘기 하다가 전기차는 탑승 하면 어떤 느낌일까 하면서 키키\n1 : 키키 나도 궁금하긴 함 아직도 지원되는지 봐야겠노\n2 : 키키 맞아 지원되는 게 많다고 하던데 키키\n2 : 수떵이네 집 앞에 충전소도 있다메  키키\n1 : 키키 우리 집이랑도 가까워서 그건 좋은 듯\n2 : 키키 맞아 키키 그리고 전기차가 휘발유보단 장기적으로 봤을 때 돈이 덜 들지 않겠나\n1 : 그럴 듯 요새 기름값도 미쳐 가지고\n2 : 진짜 미쳤음...\n2 : 내 차 마티즈잖아...\n2 : 원래 4마넌이면 풀이었는데 이젠 풀 안됨...\n1 : 헐? 그 정도라고?\n2 : 맞제... 요새 1500원대도 거의 없어\n2 : 1600원대야 대부분\n1 : 헉 아니 진짜 왜 그럼 너무 비싸다\n2 : 맞제... 진짜 얼마 전에 1200원대였는데 어느샌가 1500원대가 넘었어...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자동차 사야 하는데 요새 뭐가 좋겠노",
+            "norm_text": "자동차 사야 하는데 요새 뭐가 좋겠노",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자동차/NNG+사야/NNG+하/XSV+는데/EC+요새/MAG+뭐/NP+가/JKS+좋/VA+겠/EP+노/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 하나 장만하시나요? 키키 승용차? suv?",
+            "norm_text": "하나 장만하시나요? 키키 승용차? suv?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하나/NR+장/NNBC+만/JX+하/VV+시/EP+나요/EF+키/NNG+키/NNG+승용차/NNG+?/SY+suv/SL"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어제 수띵이가 전기차 이야기하던데? 키키",
+            "norm_text": "어제 수띵이가 전기차 이야기하던데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+제수/NNG+띵/MAG+이/NP+가/JKS+전기차/NNP+이야기/NNG+하/XSA+던데/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 전기차 키키 나랑 얘기 한 건데 키키",
+            "norm_text": "키키 전기차 키키 나랑 얘기 한 건데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키키/NNP+전기차/NNP+키/NNG+키나/XSA+ETN+JX+랑/JC+얘기/NNG+한/XSA+ETM+건데/NNB+VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 전기차도 좋지",
+            "norm_text": "전기차도 좋지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전기차/NNP+도/JX+좋/VA+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 둘이 도대체 무슨 이야기를 한 거야 키키",
+            "norm_text": "키키 둘이 도대체 무슨 이야기를 한 거야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+둘/NR+이/JKS+도대체/MAG+무슨/MM+이야기/NNG+를/JKO+한/VV+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 자동차 얘기 하다가 전기차는 탑승 하면 어떤 느낌일까 하면서 키키",
+            "norm_text": "키키 자동차 얘기 하다가 전기차는 탑승 하면 어떤 느낌일까 하면서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+자동차/NNG+얘기/NNG+하/XSV+다가/EC+전기차/NNP+는/JX+탑승/NNG+하/XSV+면/EC+어떤/MM+느낌/NNG+일까/VCP+EC+하/VV+면서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 나도 궁금하긴 함 아직도 지원되는지 봐야겠노",
+            "norm_text": "키키 나도 궁금하긴 함 아직도 지원되는지 봐야겠노",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+궁금/XR+하/XSA+긴/ETN+JX+함/VX+ETN+아직/MAG+도/JX+지원/NNG+되/XSV+는지/EC+봐야/VX+EC+VV+겠/EP+노/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 맞아 지원되는 게 많다고 하던데 키키",
+            "norm_text": "키키 맞아 지원되는 게 많다고 하던데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+지원/NNG+되/XSV+는/ETM+게/NNB+JKS+많/VA+다고/EC+하/VV+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 수떵이네 집 앞에 충전소도 있다메  키키",
+            "norm_text": "수떵이네 집 앞에 충전소도 있다메  키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "수/NNG+떵/NNG+이/JKS+네/MM+집/NNG+앞/NNG+에/JKB+충전/NNG+소/NNG+도/JX+있/VA+다메/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 우리 집이랑도 가까워서 그건 좋은 듯",
+            "norm_text": "키키 우리 집이랑도 가까워서 그건 좋은 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+우리/NP+집/NNG+이랑/JKB+도/JX+가까워서/VA+EC+그건/NP+JX+좋/VA+은/ETM+듯/NNB"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 맞아 키키 그리고 전기차가 휘발유보단 장기적으로 봤을 때 돈이 덜 들지 않겠나",
+            "norm_text": "키키 맞아 키키 그리고 전기차가 휘발유보단 장기적으로 봤을 때 돈이 덜 들지 않겠나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+키/NNG+키/XSV+ETN+그리고/MAJ+전기차/NNP+가/JKS+휘발유/NNG+보단/JKB+JX+장기/NNG+적/XSN+으로/JKB+봤/VV+EP+을/ETM+때/NNG+돈/NNG+이/JKS+덜/MAG+들/VV+지/EC+않/VX+겠/EP+나/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럴 듯 요새 기름값도 미쳐 가지고",
+            "norm_text": "그럴 듯 요새 기름값도 미쳐 가지고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럴듯/VA+ETM+NNB+요새/NNG+기름/NNG+값/NNG+도/JX+미쳐/VV+EC+가지/VX+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 진짜 미쳤음...",
+            "norm_text": "진짜 미쳤음...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+미쳤/VV+EP+음/ETN+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 내 차 마티즈잖아...",
+            "norm_text": "내 차 마티즈잖아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+차/NNG+마티즈/NNP+잖아/VCP+EC+VX+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 원래 4마넌이면 풀이었는데 이젠 풀 안됨...",
+            "norm_text": "원래 4마넌이면 풀이었는데 이젠 풀 안됨...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "원래/MAG+4/SN+마/NNBC+넌/NNB+이/VCP+면/EC+풀/NNG+이/VCP+었/EP+는데/EC+이젠/NNG+JX+풀/NNG+안/MAG+됨/VV+ETN+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 헐? 그 정도라고?",
+            "norm_text": "헐? 그 정도라고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+그/MM+정도/NNG+라고/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 맞제... 요새 1500원대도 거의 없어",
+            "norm_text": "맞제... 요새 1500원대도 거의 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+제/EF+./SY+요새/MAG+1500/SN+원대/NNG+도/JX+거의/MAG+없/VA+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 1600원대야 대부분",
+            "norm_text": "1600원대야 대부분",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "1600/SN+원/NNBC+대야/NNG+대부분/NNG"
+          },
+          {
+            "id": 20,
+            "text": "1 : 헉 아니 진짜 왜 그럼 너무 비싸다",
+            "norm_text": "헉 아니 진짜 왜 그럼 너무 비싸다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "헉/IC+아니/IC+진짜/MAG+왜/MAG+그럼/MAJ+너무/MAG+비싸/VA+다/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 맞제... 진짜 얼마 전에 1200원대였는데 어느샌가 1500원대가 넘었어...",
+            "norm_text": "맞제... 진짜 얼마 전에 1200원대였는데 어느샌가 1500원대가 넘었어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+제/EF+./SY+진짜/MAG+얼마/NNG+전/NNG+에/JKB+1200/SN+원대/NNG+였/VCP+EP+는데/EC+어느/MM+샌가/NNG+VCP+EC+1500/SN+원대/NNG+가/JKS+넘/VV+었/EP+어/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

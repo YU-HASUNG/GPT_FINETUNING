@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32376,
+    "name": "KAKAO_672_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152601075246/KAKAO_672_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152601075246/KAKAO_672_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34854,
+      "filename": "KAKAO_672_16.txt",
+      "title": "KAKAO_672_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 345,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 345,
+        "word_size": 122,
+        "text": "1 : 나 오늘 피부과 다녀왔음\n2 : 너 피부과 안 다니지 않냐?\n1 : 근데 친구 따라갔다가 점 빼고 왔음 키키\n2 : 아 점 뺐어? 키키\n2 : 지금 어떤데?\n1 : 그냥 약 바르고 뭐 붙이고 있어\n2 : 나도 하고 싶은데 안 아파?\n1 : 아프진 않아 그냥 레이져로 찌져\n2 : 타는 냄새 난다고 하던데\n1 : 아 맞아 타는 냄새 나더라 키키\n2 : 내 얼굴에서 타는 냄새라니...\n1 : 근데 금장 끝나서 괜찮아\n2 : 비용은 얼마 정도 들어?\n1 : 나는 이벤트 중이라고 얼굴 전체에 5만 원\n2 : 오 괜찮은 거 같네? 보통 더 비싼 거 같던데\n1 : 나도 평균은 모르겠네 키키 한번 가 봐\n2 : 가서 상담부터 받아 봐야겠다 땡큐~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 오늘 피부과 다녀왔음",
+            "norm_text": "나 오늘 피부과 다녀왔음",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+오늘/MAG+피부과/NNG+다녀왔/VV+EP+음/ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 너 피부과 안 다니지 않냐?",
+            "norm_text": "너 피부과 안 다니지 않냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+피부과/NNG+안/MAG+다니/VV+지/EC+않/VX+냐/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 근데 친구 따라갔다가 점 빼고 왔음 키키",
+            "norm_text": "근데 친구 따라갔다가 점 빼고 왔음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+친구/NNG+따라갔/VV+EP+다가/EC+점/NNG+빼/VV+고/EC+왔음/VV+EP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 점 뺐어? 키키",
+            "norm_text": "아 점 뺐어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아점/NNG+뺐/VV+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 지금 어떤데?",
+            "norm_text": "지금 어떤데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+어떤데/VA+EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그냥 약 바르고 뭐 붙이고 있어",
+            "norm_text": "그냥 약 바르고 뭐 붙이고 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그냥/MAG+약/NNG+바르/VV+고/EC+뭐/IC+붙이/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나도 하고 싶은데 안 아파?",
+            "norm_text": "나도 하고 싶은데 안 아파?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+하/VV+고/EC+싶/VX+은데/EC+안/MAG+아파/VA+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아프진 않아 그냥 레이져로 찌져",
+            "norm_text": "아프진 않아 그냥 레이져로 찌져",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아프/VA+진/EC+JX+않/VX+아/EC+그냥/MAG+레이/NNG+져/NNG+로/JKB+찌/VV+져/EC+VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 타는 냄새 난다고 하던데",
+            "norm_text": "타는 냄새 난다고 하던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "타/VV+는/ETM+냄새/NNG+난다고/VV+EC+하/VV+던데/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 맞아 타는 냄새 나더라 키키",
+            "norm_text": "아 맞아 타는 냄새 나더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+맞/VV+아/EC+타/VV+는/ETM+냄새나/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 내 얼굴에서 타는 냄새라니...",
+            "norm_text": "내 얼굴에서 타는 냄새라니...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+얼굴/NNG+에서/JKB+타/VV+는/ETM+냄새/NNG+라니/VCP+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 근데 금장 끝나서 괜찮아",
+            "norm_text": "근데 금장 끝나서 괜찮아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+금장/NNG+끝/NNG+나/NP+서/JKB+괜찮/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 비용은 얼마 정도 들어?",
+            "norm_text": "비용은 얼마 정도 들어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "비용/NNG+은/JX+얼마/NNG+정도/NNG+들/XSN+어/IC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나는 이벤트 중이라고 얼굴 전체에 5만 원",
+            "norm_text": "나는 이벤트 중이라고 얼굴 전체에 5만 원",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+이벤트/NNG+중/NNB+이/VCP+라고/EC+얼굴/NNG+전체/NNG+에/JKB+5/SN+만/NR+원/NNBC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오 괜찮은 거 같네? 보통 더 비싼 거 같던데",
+            "norm_text": "오 괜찮은 거 같네? 보통 더 비싼 거 같던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+괜찮/VA+은/ETM+거/NNB+같/VA+네/EF+보통/MAJ+더/MAG+비싼/VA+ETM+거/NNB+같/VA+던데/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나도 평균은 모르겠네 키키 한번 가 봐",
+            "norm_text": "나도 평균은 모르겠네 키키 한번 가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나/NP+도/JX+평균/NNG+은/JX+모르/VV+겠/EP+네/EF+키/NNG+키/XSV+ETN+한/MM+번/NNBC+가/JKS+봐/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 가서 상담부터 받아 봐야겠다 땡큐~",
+            "norm_text": "가서 상담부터 받아 봐야겠다 땡큐~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "가/VV+서/EC+상담/NNG+부터/JX+받/VV+아/EC+봐야/VX+EC+VV+겠/EP+다/EF+땡큐/IC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

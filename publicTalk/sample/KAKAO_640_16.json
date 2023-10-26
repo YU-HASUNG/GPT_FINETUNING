@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 31630,
+    "name": "KAKAO_640_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009081467/KAKAO_640_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923161009081467/KAKAO_640_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31807,
+      "filename": "KAKAO_640_16.txt",
+      "title": "KAKAO_640_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 623,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 623,
+        "word_size": 196,
+        "text": "1 : 언니 나는 오늘부터 다이어트 시작하려고 해!\n2 : 나는 다이어트는 포기... 야식을 못 참겠어 ㅠㅠ\n1 : 언니는 운동 꼬박꼬박 가 잖어~\n1 : 나는 먹기만 해 하하\n2 : 아냐... 운동 진짜 맨날 빠지고... 요새 나도 엄청 먹어 ㅠ\n1 : 나도 나도 하하 먹는 거 참는 게 제일 힘든 것 같아\n1 : 어제도 떡볶이 사 먹어 버렸지 뭐야,\n2 : 나는 빵. 과자... 운동가도 내가 제일 뚱뚱해 흑흑\n1 : 그래도 꾸준히 하는 건 너무 대단한 거야\n1 : 나는 하루 안 먹고 이틀 먹고 ㅎ 어떻게 해야 살이 빠지려나...\n2 : 나는 다이어트 약도 알아봤는데... 가격이 부담돼서 고민 중이야\n1 : 다이어트 약도 효과 있는 사람은 효과 많이 본다고 하더라구\n2 : 내 친구 두 달에 10키로 뺐대~ 물론 운동도 병행 했다지만 ㅜ하하\n1 : 아무래도 식단이랑 운동이랑 거기에 약까지 하면 쫙쫙 빠지겠지?\n2 : 간절함과 독기가 필요하다 ㅠㅠ\n2 : 약만 먹어서는 요요 금방 온대\n1 : 맞어 맞어 나도 그 말 들었어 운동은 필수라고 하더라구\n2 : 육아 하며 일하며 운동하기 쉽지 않아... ㅠㅠ\n1 : 육아도 힘든데 왜 육아만으론 살이 빠지지 않는 걸까 ㅠ\n2 : 계속 간식 같은 거 주워 먹어서... 힘드니까 자꾸 먹고 있음 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 나는 오늘부터 다이어트 시작하려고 해!",
+            "norm_text": "언니 나는 오늘부터 다이어트 시작하려고 해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "언니/NNG+나/NP+는/JX+오늘/NNG+부터/JX+다이어트/NNG+시작/NNG+하/XSV+려고/EC+해/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 다이어트는 포기... 야식을 못 참겠어 ㅠㅠ",
+            "norm_text": "나는 다이어트는 포기... 야식을 못 참겠어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+다이어트/NNG+는/JX+포기/NNG+./SY+./SY+야식/NNG+을/JKO+못/MAG+참/VV+겠/EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 언니는 운동 꼬박꼬박 가 잖어~",
+            "norm_text": "언니는 운동 꼬박꼬박 가 잖어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+는/JX+운동/NNG+꼬박꼬박/MAG+가/VV+잖어/EC+VX+EF+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 나는 먹기만 해 하하",
+            "norm_text": "나는 먹기만 해 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+먹/VV+기/ETN+만/JX+해/VV+EC+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아냐... 운동 진짜 맨날 빠지고... 요새 나도 엄청 먹어 ㅠ",
+            "norm_text": "아냐... 운동 진짜 맨날 빠지고... 요새 나도 엄청 먹어 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아냐/IC+./SY+운동/NNG+진짜/MAG+맨날/MAG+빠지/VV+고/EC+./SY+./SY+요새/MAG+나/NP+도/JX+엄청/MAG+먹/VV+어/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나도 나도 하하 먹는 거 참는 게 제일 힘든 것 같아",
+            "norm_text": "나도 나도 하하 먹는 거 참는 게 제일 힘든 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+나/NP+도/JX+하하/MAG+먹/VV+는/ETM+거/NNB+참/VV+는/ETM+게/NNB+JKS+제일/MAG+힘든/VA+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어제도 떡볶이 사 먹어 버렸지 뭐야,",
+            "norm_text": "어제도 떡볶이 사 먹어 버렸지 뭐야,",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+제도/NNG+떡볶이/NNG+사먹/VV+어/EC+버렸/VX+EP+지/EF+뭐/NP+야/VCP+EF+,/SC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나는 빵. 과자... 운동가도 내가 제일 뚱뚱해 흑흑",
+            "norm_text": "나는 빵. 과자... 운동가도 내가 제일 뚱뚱해 흑흑",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+빵/NNG+./SY+과자/NNG+./SY+./SY+운동가/NNG+도/JX+내/NP+가/JKS+제일/MAG+뚱뚱/XR+해/XSA+EC+흑흑/MAG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그래도 꾸준히 하는 건 너무 대단한 거야",
+            "norm_text": "그래도 꾸준히 하는 건 너무 대단한 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+꾸준히/MAG+하/VV+는/ETM+건/NNB+JX+너무/MAG+대단/XR+한/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나는 하루 안 먹고 이틀 먹고 ㅎ 어떻게 해야 살이 빠지려나...",
+            "norm_text": "나는 하루 안 먹고 이틀 먹고 ㅎ 어떻게 해야 살이 빠지려나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+하루/NNG+안/MAG+먹/VV+고/EC+이틀/NNG+먹/VV+고/EC+ㅎ/XSA+어떻/VA+게/EC+해야/VV+EC+살/NNG+이/JKS+빠지/VV+려나/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 다이어트 약도 알아봤는데... 가격이 부담돼서 고민 중이야",
+            "norm_text": "나는 다이어트 약도 알아봤는데... 가격이 부담돼서 고민 중이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+다이어트/NNG+약/NNG+도/JX+알/VV+아/EC+봤/VX+EP+는데/EC+./SY+./SY+가격/NNG+이/JKS+부담/NNG+돼서/XSV+EC+고민/NNG+중/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 다이어트 약도 효과 있는 사람은 효과 많이 본다고 하더라구",
+            "norm_text": "다이어트 약도 효과 있는 사람은 효과 많이 본다고 하더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다이어트/NNG+약도/NNG+효과/NNG+있/VA+는/ETM+사람/NNG+은/JX+효과/NNG+많이/MAG+본다고/VV+EC+하/VV+더라구/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 내 친구 두 달에 10키로 뺐대~ 물론 운동도 병행 했다지만 ㅜ하하",
+            "norm_text": "내 친구 두 달에 10키로 뺐대~ 물론 운동도 병행 했다지만 ㅜ하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+두/JX+달/NNG+에/JKB+10/SN+키/NNG+로/JKB+뺐/VV+EP+대/EF+~/SY+물론/MAG+운동/NNG+도/JX+병행/NNG+했/XSV+EP+다지만/EC+ㅜ하/UNKNOWN+하/XSA"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아무래도 식단이랑 운동이랑 거기에 약까지 하면 쫙쫙 빠지겠지?",
+            "norm_text": "아무래도 식단이랑 운동이랑 거기에 약까지 하면 쫙쫙 빠지겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+식단/NNG+이랑/JKB+운동/NNG+이랑/JC+거기/NP+에/JKB+약/NNG+까지/JX+하/VV+면/EC+쫙쫙/MAG+빠지/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 간절함과 독기가 필요하다 ㅠㅠ",
+            "norm_text": "간절함과 독기가 필요하다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "간절/XR+함/XSA+ETN+과/JC+독기/NNG+가/JKS+필요/NNG+하/XSV+다/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 약만 먹어서는 요요 금방 온대",
+            "norm_text": "약만 먹어서는 요요 금방 온대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "약/NNG+만/JX+먹/VV+어서/EC+는/JX+요요/NNG+금방/MAG+온대/NNG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 맞어 맞어 나도 그 말 들었어 운동은 필수라고 하더라구",
+            "norm_text": "맞어 맞어 나도 그 말 들었어 운동은 필수라고 하더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+어/EC+맞/VV+어/EC+나/NP+도/JX+그/MM+말/NNG+들/VV+었/EP+어/EC+운동/NNG+은/JX+필수/NNG+라고/VCP+EC+하/VV+더라구/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 육아 하며 일하며 운동하기 쉽지 않아... ㅠㅠ",
+            "norm_text": "육아 하며 일하며 운동하기 쉽지 않아... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "육아/NNG+하/XSV+며/EC+일/NNG+하/XSV+며/EC+운동/NNG+하/XSV+기/ETN+쉽/VA+지/EC+않/VX+아/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 육아도 힘든데 왜 육아만으론 살이 빠지지 않는 걸까 ㅠ",
+            "norm_text": "육아도 힘든데 왜 육아만으론 살이 빠지지 않는 걸까 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "육아/NNG+도/JX+힘든데/VA+EC+왜/MAG+육아/NNG+만/JX+으론/JKB+JX+살/NNG+이/JKS+빠지/VV+지/EC+않/VX+는/ETM+걸/NNB+JKO+까ㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 계속 간식 같은 거 주워 먹어서... 힘드니까 자꾸 먹고 있음 키키",
+            "norm_text": "계속 간식 같은 거 주워 먹어서... 힘드니까 자꾸 먹고 있음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "계속/MAG+간식/NNG+같/VA+은/ETM+거/NNB+주워먹/VV+어서/EC+./SY+./SY+힘드/VA+니까/EC+자꾸/MAG+먹/VV+고/EC+있/VX+음/ETN+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

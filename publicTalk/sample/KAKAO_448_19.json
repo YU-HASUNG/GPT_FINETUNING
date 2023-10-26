@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 21060,
+    "name": "KAKAO_448_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916160021017633/KAKAO_448_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916160021017633/KAKAO_448_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28810,
+      "filename": "KAKAO_448_19.txt",
+      "title": "KAKAO_448_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 356,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 356,
+        "word_size": 125,
+        "text": "1 : 그러고 보니 나는 좋아하는 연예인이 없어\n2 : 엥 그래? 눈이 가는 연예인도 없어?\n1 : 응 티비를 안봐서 그런가?\n2 : 아예 안 보는 거야?\n1 : 응 아예 안 봐 너는 보니?\n2 : 나는 가끔 보지 그럼 집에 티비가 없어?\n1 : 아니 키키 있긴한데 분리 시켜 놨어\n2 : 키키 진짜 안 보는구나\n1 : 응 티비는 바보 상자야\n2 : 왜 바보 상자야?\n1 : 아무 생각 없이 멍하니 보게 되잖아\n2 : 그런가 나는 재밌는 건 깔껄 거리면서 볼 수 있어서 좋던데\n1 : 뭐 보고 재미를 느꼈니?\n2 : 그냥 예능 프로그램 그리고 혼자 있을 때 틀어 놓으면 혼자 있는 거 같지 않고 좋아\n1 : 그렇구나 그럼 적적하지는 않겠다\n2 : 응 그런 거 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 그러고 보니 나는 좋아하는 연예인이 없어",
+            "norm_text": "그러고 보니 나는 좋아하는 연예인이 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+고/EC+보/VX+니/EC+나/NP+는/JX+좋/VA+아/EC+하/VV+는/ETM+연예인/NNG+이/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥 그래? 눈이 가는 연예인도 없어?",
+            "norm_text": "엥 그래? 눈이 가는 연예인도 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+그래/IC+눈/NNG+이/JKS+가/VV+는/ETM+연예인/NNG+도/JX+없/VA+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 티비를 안봐서 그런가?",
+            "norm_text": "응 티비를 안봐서 그런가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+티비/NNG+를/JKO+안/MAG+봐서/VV+EC+그런가/VA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아예 안 보는 거야?",
+            "norm_text": "아예 안 보는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아예/MAG+안/MAG+보/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 아예 안 봐 너는 보니?",
+            "norm_text": "응 아예 안 봐 너는 보니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "응/IC+아예/MAG+안/MAG+봐/VV+EC+너/NP+는/JX+보/VX+니/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 가끔 보지 그럼 집에 티비가 없어?",
+            "norm_text": "나는 가끔 보지 그럼 집에 티비가 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+가끔/MAG+보/VV+지/EF+그럼/MAJ+집/NNG+에/JKB+티비/NNG+가/JKS+없/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니 키키 있긴한데 분리 시켜 놨어",
+            "norm_text": "아니 키키 있긴한데 분리 시켜 놨어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+키/NNG+키/XSV+ETN+있/VV+긴/ETN+JX+한데/VX+EC+분리/NNG+시켜/XSV+EC+놨/VX+EP+어/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 진짜 안 보는구나",
+            "norm_text": "키키 진짜 안 보는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+안/MAG+보/VV+는구나/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응 티비는 바보 상자야",
+            "norm_text": "응 티비는 바보 상자야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+티비/NNG+는/JX+바보/NNG+상자/NNG+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 왜 바보 상자야?",
+            "norm_text": "왜 바보 상자야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+바보/NNG+상자/NNG+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아무 생각 없이 멍하니 보게 되잖아",
+            "norm_text": "아무 생각 없이 멍하니 보게 되잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아무/MM+생각/NNG+없이/MAG+멍하니/MAG+보/VV+게/EC+되/VV+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그런가 나는 재밌는 건 깔껄 거리면서 볼 수 있어서 좋던데",
+            "norm_text": "그런가 나는 재밌는 건 깔껄 거리면서 볼 수 있어서 좋던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런가/VA+EC+나/NP+는/JX+재밌/VA+는/ETM+건/NNB+JX+깔/VV+ETM+껄거리/NNG+면서/VCP+EC+볼/VX+ETM+수/NNB+있/VV+어서/EC+좋/VA+던데/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 뭐 보고 재미를 느꼈니?",
+            "norm_text": "뭐 보고 재미를 느꼈니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+보고/JKB+재미/NNG+를/JKO+느꼈/VV+EP+니/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그냥 예능 프로그램 그리고 혼자 있을 때 틀어 놓으면 혼자 있는 거 같지 않고 좋아",
+            "norm_text": "그냥 예능 프로그램 그리고 혼자 있을 때 틀어 놓으면 혼자 있는 거 같지 않고 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+예능/NNG+프로그램/NNG+그리고/MAJ+혼자/MAG+있/VV+을/ETM+때/NNG+틀/VV+어/EC+놓/VX+으면/EC+혼자/MAG+있/VV+는/ETM+거/NNB+같/VA+지/EC+않/VX+고/EC+좋/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그렇구나 그럼 적적하지는 않겠다",
+            "norm_text": "그렇구나 그럼 적적하지는 않겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+그럼/MAJ+적적/XR+하/XSA+지/EC+는/JX+않/VX+겠/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 그런 거 같아",
+            "norm_text": "응 그런 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그런/MM+거/NNB+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

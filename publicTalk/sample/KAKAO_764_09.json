@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 43918,
+    "name": "KAKAO_764_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143611034540/KAKAO_764_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143611034540/KAKAO_764_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37960,
+      "filename": "KAKAO_764_09.txt",
+      "title": "KAKAO_764_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 433,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 433,
+        "word_size": 138,
+        "text": "1 : 너희 집 강아지는 보험 들었어?\n2 : 우리? 보험은 따로 안 들고 적금 모음\n1 : 오 진짜? 그러면 괜찮나?\n2 : 아니 사실 적금이라는 것도 그런 게 강아지 식비로 많이 씀\n1 : 키키 야 그럼 그건 적금이 아니라 계비잖아\n2 : 아 그렇게 말하고 보니 그렇네...\n1 : 나중에 아프면 어쩌려고 그래 따로 모아\n2 : 아 ㅠㅠ 우리 길동쓰 아플지도 모른다고 생각하면 암담하네\n1 : 그르치 완전... 가족이 아픈 거나 다름 없잖아\n2 : 혹시 좋은 보험 아는 거 있어?\n1 : 몰라 메리츠에서 나온 거 있는 것 같던데?\n2 : 안 그래도 내 친구도 들었다고 하더라구...\n1 : 보험비 얼마나 나온대?\n1 : 괜히 궁금하네\n2 : 글쎄... 뭐 몇만 원 나오지 않을까?\n1 : 슬개골 탈구 수술 그런 걸로 많이 받더라구\n2 : 엉 맞아 실내에서 키우는 강아지들한테 많이 생기는 병이지...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너희 집 강아지는 보험 들었어?",
+            "norm_text": "너희 집 강아지는 보험 들었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+집/NNG+강아지/NNG+는/JX+보험/NNG+들/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리? 보험은 따로 안 들고 적금 모음",
+            "norm_text": "우리? 보험은 따로 안 들고 적금 모음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+보험/NNG+은/JX+따로/MAG+안/MAG+들/VV+고/EC+적금/NNG+모음/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 진짜? 그러면 괜찮나?",
+            "norm_text": "오 진짜? 그러면 괜찮나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+진짜/MAG+그러면/MAJ+괜찮/VA+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 사실 적금이라는 것도 그런 게 강아지 식비로 많이 씀",
+            "norm_text": "아니 사실 적금이라는 것도 그런 게 강아지 식비로 많이 씀",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+사실/MAG+적금/NNG+이/VCP+라는/ETM+것/NNB+도/JX+그런/MM+게/NNB+JKS+강아지/NNG+식비/NNG+로/JKB+많이/MAG+씀/VV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 야 그럼 그건 적금이 아니라 계비잖아",
+            "norm_text": "키키 야 그럼 그건 적금이 아니라 계비잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+야/VCP+EF+그럼/MAJ+그건/NP+JX+적금/NNG+이/JKC+아니/VCN+라/EC+계비/NNG+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 그렇게 말하고 보니 그렇네...",
+            "norm_text": "아 그렇게 말하고 보니 그렇네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그렇게/MAG+말/NNG+하/XSV+고/EC+보/VX+니/EC+그렇/VA+네/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나중에 아프면 어쩌려고 그래 따로 모아",
+            "norm_text": "나중에 아프면 어쩌려고 그래 따로 모아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나중/NNG+에/JKB+아프/VA+면/EC+어쩌/VV+려고/EC+그래/IC+따로/MAG+모아/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 ㅠㅠ 우리 길동쓰 아플지도 모른다고 생각하면 암담하네",
+            "norm_text": "아 ㅠㅠ 우리 길동쓰 아플지도 모른다고 생각하면 암담하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+ㅠㅠ/UNKNOWN+우리/NP+길동/NNG+쓰/VV+아/EC+플/VX+ETM+지도/NNG+모른다고/VV+EC+생각/NNG+하/XSV+면/EC+암담/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그르치 완전... 가족이 아픈 거나 다름 없잖아",
+            "norm_text": "그르치 완전... 가족이 아픈 거나 다름 없잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그르치/IC+완전/MAG+./SY+가족/NNG+이/JKS+아픈/VA+ETM+거/NNB+나/JX+다름없/VA+잖아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 혹시 좋은 보험 아는 거 있어?",
+            "norm_text": "혹시 좋은 보험 아는 거 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+좋/VA+은/ETM+보험/NNG+아/VV+는/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 몰라 메리츠에서 나온 거 있는 것 같던데?",
+            "norm_text": "몰라 메리츠에서 나온 거 있는 것 같던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몰/VV+라메/EC+리츠/NNP+에서/JKB+나온/VV+ETM+거/NNB+있/VA+는/ETM+것/NNB+같/VA+던데/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 안 그래도 내 친구도 들었다고 하더라구...",
+            "norm_text": "안 그래도 내 친구도 들었다고 하더라구...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+그래도/VV+EC+내/NP+JKG+친구/NNG+도/JX+들/VV+었/EP+다고/EC+하/VX+더라구/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 보험비 얼마나 나온대?",
+            "norm_text": "보험비 얼마나 나온대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "보험/NNG+비/NNG+얼마나/MAG+나온대/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 괜히 궁금하네",
+            "norm_text": "괜히 궁금하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜히/MAG+궁금/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 글쎄... 뭐 몇만 원 나오지 않을까?",
+            "norm_text": "글쎄... 뭐 몇만 원 나오지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "글쎄/IC+./SY+뭐/IC+몇/MM+만/NR+원/NNBC+나오/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 슬개골 탈구 수술 그런 걸로 많이 받더라구",
+            "norm_text": "슬개골 탈구 수술 그런 걸로 많이 받더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "슬개골/NNG+탈구/NNG+수술/NNG+그런/MM+걸로/NNB+JKB+많이/MAG+받/VV+더라구/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 엉 맞아 실내에서 키우는 강아지들한테 많이 생기는 병이지...",
+            "norm_text": "엉 맞아 실내에서 키우는 강아지들한테 많이 생기는 병이지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+맞/VV+아/EC+실내/NNG+에서/JKB+키우/VV+는/ETM+강아지/NNG+들/XSN+한테/JKB+많이/MAG+생기/VV+는/ETM+병/NNG+이/VCP+지/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

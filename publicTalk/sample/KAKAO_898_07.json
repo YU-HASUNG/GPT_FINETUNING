@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 73006,
+    "name": "KAKAO_898_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750065687/KAKAO_898_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005152750065687/KAKAO_898_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 41264,
+      "filename": "KAKAO_898_07.txt",
+      "title": "KAKAO_898_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 750,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "다자간 대화",
+        "size": 750,
+        "word_size": 180,
+        "text": "1 : 부모님 결혼 기념일이 얼마 뒤인데 뭘 해드려야 할지 고민이에요\n2 : 저희 가족은 경치 좋은 한식 집에 가서 식사 대접해 드렸어요\n3 : 저는 매번 식물 하나랑 케이크 사드렸어요!\n1 : 전 일식을 생각했는데 한식도 좋을 것 같아요. 오오 식물~\n2 : 식물 선물도 좋네요!\n2 : 보통 어떤 식물 선물해 드려요?\n3 : 매번 다르긴 한데 그중에서 로즈마리를 제일 좋아하셨어요\n1 : 로즈마리 좋죠~ 허브향이 참 좋잖아요\n2 : 오 생각해보니 꽃이 아닌 식물도 선물로 괜찮은 것 같네요~\n3 : 하하 다음에 언니들도 식물 하나 선물해드리면 좋아할실 거에요!\n1 : 그럴게요! 저희 가족도 식물 가꾸는 거 좋아해서\n2 : 전 식물에 돈도 조금 꽂아 드려야겠어요! 키키\n3 : 우와! 정말 좋아하시겠는걸요?\n1 : 그쵸 키키 돈 다발이면 정말 좋아하실 것 같아요\n2 : 키키. 근데 전 식물 키우기 참 어렵던데\n3 : 저도요! 근데 아버지가 잘 가꾸셔서 베란다가 식물 천국이에요\n1 : 저희 가족도 식물을 좋아해서 베란다에 선인장 키워요!\n2 : 저희 부모님은 자연을 좋아하셔서 이번에 시골로 내려가세요\n3 : 우와! 시골! 저도 좀 더 크면 한적한 시골로 내려가고 싶어요\n1 : 엇 그럼 혹시 부모님만 괜찮으시면 저희 나중에 놀러 가도 돼요?\n2 : 그럼요! 다만 저희 아버지가 TMI 폭격기에요\n3 : 그런 건 괜찮아요! 꺅 재밌을 것 같아요\n1 : 맞아요. 전혀 문제 없어요. 제가 투머치토커라 키키\n2 : 괜찮다면 다음에 정말 꼭 놀러 오세요!\n3 : 네네! 너무 좋아요!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 부모님 결혼 기념일이 얼마 뒤인데 뭘 해드려야 할지 고민이에요",
+            "norm_text": "부모님 결혼 기념일이 얼마 뒤인데 뭘 해드려야 할지 고민이에요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부모/NNG+님/XSN+결혼기념일/NNG+이/JKS+얼마/NNG+뒤/NNG+인데/VCP+EC+뭘/NP+JKO+해/VV+EC+드려야/VX+EC+할지/VX+EC+고민/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 저희 가족은 경치 좋은 한식 집에 가서 식사 대접해 드렸어요",
+            "norm_text": "저희 가족은 경치 좋은 한식 집에 가서 식사 대접해 드렸어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저희/NP+ /SY+가족/NNG+은/JX+ /SY+경치/NNG+ /SY+좋/VA+은/ETM+ /SY+한식/NNG+ /SY+집/NNG+에/JKB+ /SY+가/VV+서/EC+ /SY+식사/NNG+ /SY+대접/NNG+해/XSV+EC+ /SY+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "3 : 저는 매번 식물 하나랑 케이크 사드렸어요!",
+            "norm_text": "저는 매번 식물 하나랑 케이크 사드렸어요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+는/JX+매번/MAG+식물/NNG+하나/NR+랑/JC+케이크/NNG+사/VV+EC+드렸/VX+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 전 일식을 생각했는데 한식도 좋을 것 같아요. 오오 식물~",
+            "norm_text": "전 일식을 생각했는데 한식도 좋을 것 같아요. 오오 식물~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전일식/NNP+을/JKO+생각/NNG+했/XSV+EP+는데/EC+한식/NNG+도/JX+좋/VA+을/ETM+것/NNB+같/VA+아요/EF+오오/IC+식물/NNG+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 식물 선물도 좋네요!",
+            "norm_text": "식물 선물도 좋네요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "식물/NNG+ /SY+선물/NNG+도/JX+ /SY+좋/VA+네요/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 보통 어떤 식물 선물해 드려요?",
+            "norm_text": "보통 어떤 식물 선물해 드려요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "보통/MAJ+어떤/MM+식물/NNG+선물/NNG+해/XSV+EC+드려요/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "3 : 매번 다르긴 한데 그중에서 로즈마리를 제일 좋아하셨어요",
+            "norm_text": "매번 다르긴 한데 그중에서 로즈마리를 제일 좋아하셨어요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매번/MAG+다르/VA+긴/ETN+JX+한데/VX+EC+그/MM+중/NNB+에서/JKB+로즈마리/NNP+를/JKO+제일/MAG+좋/VA+아/EC+하/VX+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 로즈마리 좋죠~ 허브향이 참 좋잖아요",
+            "norm_text": "로즈마리 좋죠~ 허브향이 참 좋잖아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "로즈마리/NNP+좋/VA+죠/EF+~/SY+허브/NNP+향/NNG+이/JKS+참/MAG+좋/VA+잖아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 오 생각해보니 꽃이 아닌 식물도 선물로 괜찮은 것 같네요~",
+            "norm_text": "오 생각해보니 꽃이 아닌 식물도 선물로 괜찮은 것 같네요~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+ /SY+생각/NNG+해/XSV+EC+보/VX+니/EC+ /SY+꽃/NNG+이/JKS+ /SY+아닌/VCN+ETM+ /SY+식물/NNG+도/JX+ /SY+선물/NNG+로/JKB+ /SY+괜찮/VA+은/ETM+ /SY+것/NNB+ /SY+같/VA+네요/EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "3 : 하하 다음에 언니들도 식물 하나 선물해드리면 좋아할실 거에요!",
+            "norm_text": "하하 다음에 언니들도 식물 하나 선물해드리면 좋아할실 거에요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+다음/NNG+에/JKB+언니/NNG+들/XSN+도/JX+식물/NNG+하나/NR+선물/NNG+해/XSV+EC+드리/VX+면/EC+좋/VA+아/EC+할/VX+실/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그럴게요! 저희 가족도 식물 가꾸는 거 좋아해서",
+            "norm_text": "그럴게요! 저희 가족도 식물 가꾸는 거 좋아해서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그럴게요/VV+EF+저희/NP+가족/NNG+도/JX+식물/NNG+가꾸/VV+는/ETM+거/NNB+좋/VA+아/EC+해서/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 전 식물에 돈도 조금 꽂아 드려야겠어요! 키키",
+            "norm_text": "전 식물에 돈도 조금 꽂아 드려야겠어요! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전/NNG+ /SY+식물/NNG+에/JKB+ /SY+돈/NNG+도/JX+ /SY+조금/NNG+ /SY+꽂/VV+아/EC+드려야/VX+EC+VX+겠/EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "3 : 우와! 정말 좋아하시겠는걸요?",
+            "norm_text": "우와! 정말 좋아하시겠는걸요?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+정말/MAG+좋/VA+아/EC+하/VX+시/EP+겠/EP+는걸요/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그쵸 키키 돈 다발이면 정말 좋아하실 것 같아요",
+            "norm_text": "그쵸 키키 돈 다발이면 정말 좋아하실 것 같아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그쵸/IC+키/NNG+키/NNG+돈다발/NNG+이/VCP+면/EC+정말/MAG+좋/VA+아/EC+하/VX+실/EP+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키. 근데 전 식물 키우기 참 어렵던데",
+            "norm_text": "키키. 근데 전 식물 키우기 참 어렵던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+ /SY+근데/MAJ+ /SY+전/NNG+ /SY+식물/NNG+ /SY+키우/VV+기/ETN+ /SY+참/NNG+ /SY+어렵/VA+던데/EC"
+          },
+          {
+            "id": 16,
+            "text": "3 : 저도요! 근데 아버지가 잘 가꾸셔서 베란다가 식물 천국이에요",
+            "norm_text": "저도요! 근데 아버지가 잘 가꾸셔서 베란다가 식물 천국이에요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저/NP+도/JX+요/JX+근데아버지가잘가꾸셔서베란다가식물천국이에요/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 저희 가족도 식물을 좋아해서 베란다에 선인장 키워요!",
+            "norm_text": "저희 가족도 식물을 좋아해서 베란다에 선인장 키워요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저희/NP+가족/NNG+도/JX+식물/NNG+을/JKO+좋/VA+아/EC+해서/VV+EC+베란다/NNG+에/JKB+선인장/NNG+키워요/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 저희 부모님은 자연을 좋아하셔서 이번에 시골로 내려가세요",
+            "norm_text": "저희 부모님은 자연을 좋아하셔서 이번에 시골로 내려가세요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저희/NP+ /SY+부모/NNG+님/XSN+은/JX+ /SY+자연/NNG+을/JKO+ /SY+좋/VA+아/EC+하/VX+셔서/EP+EC+ /SY+이번/NNG+에/JKB+ /SY+시골/NNG+로/JKB+ /SY+내려가/VV+세요/EP+EF"
+          },
+          {
+            "id": 19,
+            "text": "3 : 우와! 시골! 저도 좀 더 크면 한적한 시골로 내려가고 싶어요",
+            "norm_text": "우와! 시골! 저도 좀 더 크면 한적한 시골로 내려가고 싶어요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+시골/NNG+저/NP+도/JX+좀/MAG+더/MAG+크/VA+면/EC+한적/XR+한/XSA+ETM+시골/NNG+로/JKB+내려가/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 엇 그럼 혹시 부모님만 괜찮으시면 저희 나중에 놀러 가도 돼요?",
+            "norm_text": "엇 그럼 혹시 부모님만 괜찮으시면 저희 나중에 놀러 가도 돼요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엇/IC+그럼/MAJ+혹시/MAG+부모/NNG+님/XSN+만/JX+괜찮/VA+으시/EP+면/EC+저희/NP+나중/NNG+에/JKB+놀/VV+러/EC+가/VX+도/EC+돼요/VV+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그럼요! 다만 저희 아버지가 TMI 폭격기에요",
+            "norm_text": "그럼요! 다만 저희 아버지가 TMI 폭격기에요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+요/JX+ /SY+다만/MAJ+ /SY+저희/NP+ /SY+아버지/NNG+가/JKS+ /SY+TMI/SL+ /SY+폭격기/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 22,
+            "text": "3 : 그런 건 괜찮아요! 꺅 재밌을 것 같아요",
+            "norm_text": "그런 건 괜찮아요! 꺅 재밌을 것 같아요",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+건/NNB+JX+괜찮/VA+아요/EF+꺅/MAG+재밌/VA+을/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 맞아요. 전혀 문제 없어요. 제가 투머치토커라 키키",
+            "norm_text": "맞아요. 전혀 문제 없어요. 제가 투머치토커라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아요/EF+전혀/MAG+문제없/VA+어요/EF+제가투머치토커라키키/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 괜찮다면 다음에 정말 꼭 놀러 오세요!",
+            "norm_text": "괜찮다면 다음에 정말 꼭 놀러 오세요!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "괜찮/VA+다면/EC+ /SY+다음/NNG+에/JKB+ /SY+정말/MAG+ /SY+꼭/MAG+ /SY+놀러오/VV+세요/EP+EF"
+          },
+          {
+            "id": 25,
+            "text": "3 : 네네! 너무 좋아요!",
+            "norm_text": "네네! 너무 좋아요!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "10대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네네/IC+너무/MAG+좋/VA+아요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

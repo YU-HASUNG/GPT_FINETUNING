@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 46146,
+    "name": "KAKAO_810_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172142033288/KAKAO_810_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172142033288/KAKAO_810_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39546,
+      "filename": "KAKAO_810_08.txt",
+      "title": "KAKAO_810_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 805,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 805,
+        "word_size": 243,
+        "text": "1 : 결혼식 마치고, 오랜만이네. 잘 지내고 있어?\n2 : 정말 오랜만이다. 결혼식만 마치고,\n2 : 다시 코로나 단계 올라가서 아무것도 못 하고 있어\n1 : 아무리 생각해도 넌 정말 행운이였던 거 같아...\n2 : 나도 그렇게 생각해... 어쩜 그때만 딱 풀려 가지고 겨우 결혼식만 했다.\n1 : 내가 아는 동생은 다음 주에 결혼식인데... 제한 인원 50명이어서 울고불고 난리다\n2 : 그 기분은 이해는 간다.\n2 : 나도 처음 연기할까? 말까? 어르신들 고민할 때 있었거든\n2 : 근데, 내 나이에 또 미루고 결혼식 준비한다고 또 시간 보내고...\n2 : 두 번은 못 할 듯 해서 그냥 강행하자고 한 거지 하하\n1 : 잘한 거야 그렇게... 밀고 나가니까... 결혼식도 제한 없이 진행할 수 있는 거지\n1 : 결혼식 사진은 잘 나왔어? 그날 엄청 예쁘게 화장이 잘됐던데...\n2 : 몇 개 보내 준 것만 보고 아직 사진을 다 받아 보진 못 했어\n2 : 역시 비싼 돈 들인 화장은 다르더라.\n2 : 저녁에 지우기가 너무 아까웠어 ㅜ_ㅜ\n1 : 그거 그대로 떼었다가 붙이고 싶지? ㅎ 나도 결혼할 때 그랬어\n2 : 맞아, 그 느낌이 정확해 하하\n1 : 그날 예식 진행도 잘됐고, 새로 리모델링 한 곳이라 그런지 깔끔하더라\n2 : 예식장 보지도 않고 선택한 곳이라 걱정했는데 생각보단 좋았어\n1 : 그나저나 친구들 사진이 마스크를 써서 조금 안타깝다 얼굴 다 못 알아볼 거 같고\n2 : 괜찮아... 이런 것도 하나의 추억이지...\n2 : 마스크 쓴 결혼식 사진을 언제 가져 보겠냐? 하하\n1 : 하하 초 긍정적이라 다행이다,\n2 : 어 그런 생각이라도 안 하면 우울해지니깐! ㅋ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 결혼식 마치고, 오랜만이네. 잘 지내고 있어?",
+            "norm_text": "결혼식 마치고, 오랜만이네. 잘 지내고 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "결혼식/NNG+마치/VV+고/EC+,/SC+오랜만/NNG+이/VCP+네/EF+잘/MAG+지내/VV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 정말 오랜만이다. 결혼식만 마치고,",
+            "norm_text": "정말 오랜만이다. 결혼식만 마치고,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+오랜만/NNG+이/VCP+다/EF+결혼식/NNG+만/JX+마치/VV+고/EC+,/SC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 다시 코로나 단계 올라가서 아무것도 못 하고 있어",
+            "norm_text": "다시 코로나 단계 올라가서 아무것도 못 하고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다시/MAG+코로나/NNG+단계/NNG+올라가/VV+서/EC+아무것/NP+도/JX+못하/VX+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아무리 생각해도 넌 정말 행운이였던 거 같아...",
+            "norm_text": "아무리 생각해도 넌 정말 행운이였던 거 같아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무리/MAG+생각/NNG+해도/XSV+EC+넌/NP+JX+정말/MAG+행운/NNG+이/VCP+였/EP+던/ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나도 그렇게 생각해... 어쩜 그때만 딱 풀려 가지고 겨우 결혼식만 했다.",
+            "norm_text": "나도 그렇게 생각해... 어쩜 그때만 딱 풀려 가지고 겨우 결혼식만 했다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그렇/VA+게/EC+생각/NNG+해/XSV+EF+./SY+어쩜/IC+그때/NNG+만/JX+딱/MAG+풀려/VV+EC+가지/VX+고/EC+겨우/MAG+결혼식/NNG+만/JX+했/VV+EP+다/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 내가 아는 동생은 다음 주에 결혼식인데... 제한 인원 50명이어서 울고불고 난리다",
+            "norm_text": "내가 아는 동생은 다음 주에 결혼식인데... 제한 인원 50명이어서 울고불고 난리다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+아/VV+는/ETM+동생/NNG+은/JX+다음/NNG+주/NNG+에/JKB+결혼식/NNG+인데/VCP+EC+./SY+./SY+제한/NNG+인원/NNG+50/SN+명/NNBC+이/VCP+어서/EC+울고불/VV+고/EC+난리/NNG+다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그 기분은 이해는 간다.",
+            "norm_text": "그 기분은 이해는 간다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+기분/NNG+은/JX+이해/NNG+는/JX+간다/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나도 처음 연기할까? 말까? 어르신들 고민할 때 있었거든",
+            "norm_text": "나도 처음 연기할까? 말까? 어르신들 고민할 때 있었거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+처음/NNG+연기/NNG+할까/XSV+EF+말/VV+까/EF+어르신/NNG+들/XSN+고민/NNG+할/XSV+ETM+때/NNG+있/VV+었/EP+거든/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 근데, 내 나이에 또 미루고 결혼식 준비한다고 또 시간 보내고...",
+            "norm_text": "근데, 내 나이에 또 미루고 결혼식 준비한다고 또 시간 보내고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+,/SC+내/NP+JKG+나이/NNG+에/JKB+또/MAG+미루/VV+고/EC+결혼식/NNG+준비/NNG+한다고/XSV+EC+또/MAG+시간/NNG+보내/VV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 두 번은 못 할 듯 해서 그냥 강행하자고 한 거지 하하",
+            "norm_text": "두 번은 못 할 듯 해서 그냥 강행하자고 한 거지 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "두/MM+번/NNBC+은/JX+못/MAG+할/VV+ETM+듯/NNB+해서/XSA+EC+그냥/MAG+강행/NNG+하/XSV+자고/EC+한/VX+ETM+거/NNB+지하/NNG+하/XSV"
+          },
+          {
+            "id": 11,
+            "text": "1 : 잘한 거야 그렇게... 밀고 나가니까... 결혼식도 제한 없이 진행할 수 있는 거지",
+            "norm_text": "잘한 거야 그렇게... 밀고 나가니까... 결혼식도 제한 없이 진행할 수 있는 거지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+한/XSA+ETM+거/NNB+야/VCP+EF+그렇게/MAG+./SY+밀/VV+고/EC+나가/VX+니까/EC+./SY+./SY+결혼식/NNG+도/JX+제한/NNG+없이/MAG+진행/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 결혼식 사진은 잘 나왔어? 그날 엄청 예쁘게 화장이 잘됐던데...",
+            "norm_text": "결혼식 사진은 잘 나왔어? 그날 엄청 예쁘게 화장이 잘됐던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "결혼식/NNG+사진/NNG+은/JX+잘/MAG+나왔/VV+EP+어/EF+그날/NNG+엄청/MAG+예쁘/VA+게/EC+화장/NNG+이/JKS+잘/MAG+됐/VV+EP+던데/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 몇 개 보내 준 것만 보고 아직 사진을 다 받아 보진 못 했어",
+            "norm_text": "몇 개 보내 준 것만 보고 아직 사진을 다 받아 보진 못 했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몇/MM+개/NNBC+보내/VV+EC+준/VX+ETM+것/NNB+만/JX+보/VV+고/EC+아직/MAG+사진/NNG+을/JKO+다/MAG+받/VV+아/EC+보/VX+진못했/EC+JX+VX+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 역시 비싼 돈 들인 화장은 다르더라.",
+            "norm_text": "역시 비싼 돈 들인 화장은 다르더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+비싼/VA+ETM+돈/NNG+들/XSN+인화장/NNG+은/JX+다르/VA+더라/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 저녁에 지우기가 너무 아까웠어 ㅜ_ㅜ",
+            "norm_text": "저녁에 지우기가 너무 아까웠어 ㅜ_ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저녁/NNG+에/JKB+지우/VV+기/ETN+가/JKS+너무/MAG+아까웠/VA+EP+어ㅜ/UNKNOWN+_/SY+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그거 그대로 떼었다가 붙이고 싶지? ㅎ 나도 결혼할 때 그랬어",
+            "norm_text": "그거 그대로 떼었다가 붙이고 싶지? ㅎ 나도 결혼할 때 그랬어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+그대로/MAG+떼/VV+었/EP+다가/EC+붙이/VV+고/EC+싶/VX+지/EF+ㅎ/XSA+나/EC+도/JX+결혼/NNG+할/XSV+ETM+때/NNG+그랬/VV+EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 맞아, 그 느낌이 정확해 하하",
+            "norm_text": "맞아, 그 느낌이 정확해 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+,/SC+그/MM+느낌/NNG+이/JKS+정확/NNG+해/XSV+EC+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그날 예식 진행도 잘됐고, 새로 리모델링 한 곳이라 그런지 깔끔하더라",
+            "norm_text": "그날 예식 진행도 잘됐고, 새로 리모델링 한 곳이라 그런지 깔끔하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그날/NNG+예식/NNG+진행/NNG+도/JX+잘/MAG+됐/VV+EP+고/EC+,/SC+새/MM+로리/NNG+모델링/NNG+한/XSA+ETM+곳/NNG+이/VCP+라/EC+그런지/VA+EC+깔끔/XR+하/XSA+더라/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 예식장 보지도 않고 선택한 곳이라 걱정했는데 생각보단 좋았어",
+            "norm_text": "예식장 보지도 않고 선택한 곳이라 걱정했는데 생각보단 좋았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "예식/NNG+장보지/NNP+도/JX+않/VX+고/EC+선택/NNG+한/XSA+ETM+곳/NNG+이/VCP+라/EC+걱정/NNG+했/XSV+EP+는데/EC+생각/NNG+보단/JKB+JX+좋/VA+았/EP+어/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그나저나 친구들 사진이 마스크를 써서 조금 안타깝다 얼굴 다 못 알아볼 거 같고",
+            "norm_text": "그나저나 친구들 사진이 마스크를 써서 조금 안타깝다 얼굴 다 못 알아볼 거 같고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그나저나/MAG+친구/NNG+들/XSN+사진/NNG+이/JKS+마스크/NNG+를/JKO+써서/VV+EC+조금/MAG+안타깝/VA+다/EC+얼굴/NNG+다/MAG+못/MAG+알아볼/VV+ETM+거/NNB+같/VA+고/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 괜찮아... 이런 것도 하나의 추억이지...",
+            "norm_text": "괜찮아... 이런 것도 하나의 추억이지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜찮/VA+아/EF+./SY+이런/MM+것/NNB+도/JX+하나/NR+의/JKG+추억/NNG+이/VCP+지/EF+./SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 마스크 쓴 결혼식 사진을 언제 가져 보겠냐? 하하",
+            "norm_text": "마스크 쓴 결혼식 사진을 언제 가져 보겠냐? 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마스크/NNG+쓴/VV+ETM+결혼식/NNG+사진/NNG+을/JKO+언제/NP+가/JKS+져/VV+EC+보/VX+겠/EP+냐/EF+하하/MAG"
+          },
+          {
+            "id": 23,
+            "text": "1 : 하하 초 긍정적이라 다행이다,",
+            "norm_text": "하하 초 긍정적이라 다행이다,",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+초/XPN+긍정/NNG+적/XSN+이/VCP+라/EC+다행/NNG+이/VCP+다/EF+,/SC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 어 그런 생각이라도 안 하면 우울해지니깐! ㅋ",
+            "norm_text": "어 그런 생각이라도 안 하면 우울해지니깐! ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+그런/MM+생각/NNG+이라도/JX+안/MAG+하/VV+면/EC+우울/NNG+해/XSV+EC+지/VX+니깐/EC+!/SY+ㅋ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

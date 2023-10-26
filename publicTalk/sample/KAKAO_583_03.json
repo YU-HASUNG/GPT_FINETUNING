@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 23913,
+    "name": "KAKAO_583_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155949099085/KAKAO_583_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155949099085/KAKAO_583_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31574,
+      "filename": "KAKAO_583_03.txt",
+      "title": "KAKAO_583_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 397,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 397,
+        "word_size": 114,
+        "text": "1 : 옛날 포니라고 아시나요 자동차\n2 : 네, 알죠 현대 자동차 아닌가요? 2021년 8월 국산차 브랜드별 판매 실적 1위 아세요?\n1 : 뭔가요 혹시 그랜저?\n2 : 1위는 현대 2위는 기아 3위는 쌍용\n1 : 역시 현기가 제일 많이 팔리겠죠\n2 : 현대차 1위 쏘나타 2위 아반떼\n1 : 3위는 그랜저인가요 그럼 아니면 산타페?\n2 : 그다음이 그렌저 SUV 팰리세이드요\n1 : 음 펠리세이드 많이 팔렸네요 생각보다\n2 : 그다음이 싼타페 투싼 아이오닉이요\n1 : 기아 1위는 뭐예요 케파인가 케팔인가\n2 : 기아차는 스포티지가 1등이네요?\n1 : 오잉 스포티지 어떻게 생겼는지도 모르는데...\n2 : 승용차 판매 1위는 K5, K8이고요.\n1 : 기아는 카니발이 많이 팔릴 거 같네요\n2 : SUV 스포티지 다음이 카니발이네요?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 옛날 포니라고 아시나요 자동차",
+            "norm_text": "옛날 포니라고 아시나요 자동차",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "옛날/NNG+포니/NNG+라고/VCP+EC+아시나/NNP+요/VCP+EC+자동차/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 네, 알죠 현대 자동차 아닌가요? 2021년 8월 국산차 브랜드별 판매 실적 1위 아세요?",
+            "norm_text": "네, 알죠 현대 자동차 아닌가요? 2021년 8월 국산차 브랜드별 판매 실적 1위 아세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+,/SC+알/VV+죠/EF+현대/NNG+자동차/NNG+아닌가요/VCN+EC+?/SY+2021/SN+년/NNBC+8/SN+월/NNBC+국산/NNG+차/NNG+브랜드/NNG+별/XSN+판매/NNG+실적/NNG+1/SN+위/NNBC+아세요/VV+EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 뭔가요 혹시 그랜저?",
+            "norm_text": "뭔가요 혹시 그랜저?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭔가요/NP+VCP+EF+혹시/MAG+그랜저/NNP"
+          },
+          {
+            "id": 4,
+            "text": "2 : 1위는 현대 2위는 기아 3위는 쌍용",
+            "norm_text": "1위는 현대 2위는 기아 3위는 쌍용",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "1/SN+위/NNBC+는/JX+현대/NNG+2/SN+위/NNBC+는/JX+기아/NNP+3/SN+위/NNBC+는/JX+쌍용/NNP"
+          },
+          {
+            "id": 5,
+            "text": "1 : 역시 현기가 제일 많이 팔리겠죠",
+            "norm_text": "역시 현기가 제일 많이 팔리겠죠",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+현기/NNG+가/JKS+제일/MAG+많이/MAG+팔리/VV+겠/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 현대차 1위 쏘나타 2위 아반떼",
+            "norm_text": "현대차 1위 쏘나타 2위 아반떼",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "현대차/NNP+1/SN+위/NNBC+쏘나타/NNP+2/SN+위/NNBC+아반떼/NNP"
+          },
+          {
+            "id": 7,
+            "text": "1 : 3위는 그랜저인가요 그럼 아니면 산타페?",
+            "norm_text": "3위는 그랜저인가요 그럼 아니면 산타페?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "3/SN+위/NNBC+는/JX+그랜저/NNP+인가요/VCP+EC+그럼/MAJ+아니면/MAJ+산타페/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그다음이 그렌저 SUV 팰리세이드요",
+            "norm_text": "그다음이 그렌저 SUV 팰리세이드요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+다음/NNG+이/JKS+그렌/NNP+저/MM+SUV/SL+팰리세이드/NNP+요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 음 펠리세이드 많이 팔렸네요 생각보다",
+            "norm_text": "음 펠리세이드 많이 팔렸네요 생각보다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+펠리/NNP+세이드/NNP+많이/MAG+팔렸/VV+EP+네요/EF+생각/NNG+보다/JKB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그다음이 싼타페 투싼 아이오닉이요",
+            "norm_text": "그다음이 싼타페 투싼 아이오닉이요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+다음/NNG+이/JKS+싼타페/NNP+투싼/NNP+아이오/NNG+닉/NNP+이/VCP+요/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 기아 1위는 뭐예요 케파인가 케팔인가",
+            "norm_text": "기아 1위는 뭐예요 케파인가 케팔인가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기아/NNP+1/SN+위/NNBC+는/JX+뭐/IC+예/IC+요케/NNP+파인/NNG+가/VV+케/EC+팔/NNG+인가/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 기아차는 스포티지가 1등이네요?",
+            "norm_text": "기아차는 스포티지가 1등이네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "기아차/NNP+는/JX+스포티지/NNP+가/JKS+1/SN+등/NNBC+이/VCP+네요/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오잉 스포티지 어떻게 생겼는지도 모르는데...",
+            "norm_text": "오잉 스포티지 어떻게 생겼는지도 모르는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오잉/NNP+스포티지/NNP+어떻게/MAG+생겼/VV+EP+는지/EC+도/JX+모르/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 승용차 판매 1위는 K5, K8이고요.",
+            "norm_text": "승용차 판매 1위는 K5, K8이고요.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "승용차/NNG+판매/NNG+1/SN+위/NNBC+는/JX+K/SL+5/SN+,/SC+K/SL+8/SN+이/VCP+고요/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 기아는 카니발이 많이 팔릴 거 같네요",
+            "norm_text": "기아는 카니발이 많이 팔릴 거 같네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기아/NNP+는/JX+카니발/NNG+이/JKS+많이/MAG+팔릴/VV+ETM+거/NNB+같/VA+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : SUV 스포티지 다음이 카니발이네요?",
+            "norm_text": "SUV 스포티지 다음이 카니발이네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "SUV/SL+스포티지/NNP+다음/NNG+이/JKS+카니발/NNG+이/VCP+네요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

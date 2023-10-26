@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44649,
+    "name": "KAKAO_782_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413025739/KAKAO_782_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413025739/KAKAO_782_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38297,
+      "filename": "KAKAO_782_06.txt",
+      "title": "KAKAO_782_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 416,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 143,
+        "text": "1 : 너 토익 성적 몇 점 나오냐? 키키\n2 : 나 따로 준비해 본 적이 없어\n1 : 그럼 모의 토익도 본 적이 없나?\n2 : 모의 토익은 학교에서 보라고 해서 한 번 봤었어\n1 : 아 그럼 그때 점수가 몇 점 나왔어?\n2 : 550점인가 나왔었는데 더 열심히 해야지\n1 : 기본이네 키키 조금만 더하면 700 넘겠다\n2 : 응 맞아 키키 내 목표가 700점이야\n1 : 그럼 그거 공부는 지금 하고 있어?\n2 : 응 키키 방학 때부터 짬 내서 하고 있어\n1 : 주로 인강 들어? 아님 학원 다녀?\n2 : 놉 키키 그냥 책 사서 하고 있어 혼자\n1 : 독학이 그게 가능한가? 키키 아님 스터디 어때!\n2 : 나는 산만한 거 싫어해서 굳이 여러 명이서 하는 거 안 좋아해\n1 : 아하 혼자 독서실에서 공부하는 거 좋아하구나\n2 : 응 맞아 혼자 있을 때 집중을 잘하는 듯?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 토익 성적 몇 점 나오냐? 키키",
+            "norm_text": "너 토익 성적 몇 점 나오냐? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+토익/NNG+성적/NNG+몇/MM+점/NNBC+나오/VV+냐/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 따로 준비해 본 적이 없어",
+            "norm_text": "나 따로 준비해 본 적이 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+따로/MAG+준비/NNG+해/XSV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그럼 모의 토익도 본 적이 없나?",
+            "norm_text": "그럼 모의 토익도 본 적이 없나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+모/NP+의/JKG+토익/NNG+도/JX+본/VX+ETM+적/NNB+이/JKS+없/VA+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 모의 토익은 학교에서 보라고 해서 한 번 봤었어",
+            "norm_text": "모의 토익은 학교에서 보라고 해서 한 번 봤었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "모/NP+의/JKG+토익/NNG+은/JX+학교/NNG+에서/JKB+보/VV+라고/EC+해서/VV+EC+한/MM+번/NNBC+봤었/VV+EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그럼 그때 점수가 몇 점 나왔어?",
+            "norm_text": "아 그럼 그때 점수가 몇 점 나왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그럼/MAJ+그때/NNG+점수/NNG+가/JKS+몇/MM+점/NNBC+나왔/VV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 550점인가 나왔었는데 더 열심히 해야지",
+            "norm_text": "550점인가 나왔었는데 더 열심히 해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "550/SN+점/NNBC+인가/VCP+EC+나왔었/VV+EP+는데/EC+더/MAG+열심히/MAG+해야지/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 기본이네 키키 조금만 더하면 700 넘겠다",
+            "norm_text": "기본이네 키키 조금만 더하면 700 넘겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기본/NNG+이/JKS+네/MM+키/NNG+키/NNG+조금/NNG+만/JX+더/MAG+하/VV+면/EC+700/SN+넘/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 맞아 키키 내 목표가 700점이야",
+            "norm_text": "응 맞아 키키 내 목표가 700점이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+키/NNG+키/XSV+ETN+내/NP+JKG+목표/NNG+가/JKS+700/SN+점/NNBC+이/VCP+야/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그럼 그거 공부는 지금 하고 있어?",
+            "norm_text": "그럼 그거 공부는 지금 하고 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+그거/NP+공부/NNG+는/JX+지금/NNG+하/XSV+고/EC+있/VX+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 키키 방학 때부터 짬 내서 하고 있어",
+            "norm_text": "응 키키 방학 때부터 짬 내서 하고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+방학/NNG+때/NNG+부터/JX+짬/NNG+내서/NNG+하/XSV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 주로 인강 들어? 아님 학원 다녀?",
+            "norm_text": "주로 인강 들어? 아님 학원 다녀?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주로/MAG+인/+강/+들/VV+어/EF+아님/MAJ+학원/NNG+다녀/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 놉 키키 그냥 책 사서 하고 있어 혼자",
+            "norm_text": "놉 키키 그냥 책 사서 하고 있어 혼자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "놉/NNG+키/NNG+키/NNG+그냥/MAG+책/NNG+사서/NNG+하/XSV+고/EC+있/VX+어/EC+혼자/NNG"
+          },
+          {
+            "id": 13,
+            "text": "1 : 독학이 그게 가능한가? 키키 아님 스터디 어때!",
+            "norm_text": "독학이 그게 가능한가? 키키 아님 스터디 어때!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "독학/NNG+이/JKS+그게/NP+JKS+가능/NNG+한가/XSA+EF+키/NNG+키/XSV+ETN+아님/VCN+EC+스터디/NNP+어때/VA+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나는 산만한 거 싫어해서 굳이 여러 명이서 하는 거 안 좋아해",
+            "norm_text": "나는 산만한 거 싫어해서 굳이 여러 명이서 하는 거 안 좋아해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+산만/XR+한/XSA+ETM+거/NNB+싫/VA+어/EC+해서/VV+EC+굳이/MAG+여러/MM+명/NNBC+이/XSN+서/JKS+하/VV+는/ETM+거/NNB+안/MAG+좋아해/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아하 혼자 독서실에서 공부하는 거 좋아하구나",
+            "norm_text": "아하 혼자 독서실에서 공부하는 거 좋아하구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+혼자/NNG+독서실/NNG+에서/JKB+공부/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+하/VV+구나/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 맞아 혼자 있을 때 집중을 잘하는 듯?",
+            "norm_text": "응 맞아 혼자 있을 때 집중을 잘하는 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+혼자/MAG+있/VV+을/ETM+때/NNG+집중/NNG+을/JKO+잘/MAG+하/VV+는/ETM+듯/NNB"
+          }
+        ]
+      }
+    }
+  ]
+}

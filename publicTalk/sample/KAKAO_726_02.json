@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34437,
+    "name": "KAKAO_726_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135026003975/KAKAO_726_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135026003975/KAKAO_726_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37552,
+      "filename": "KAKAO_726_02.txt",
+      "title": "KAKAO_726_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 358,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 358,
+        "word_size": 123,
+        "text": "1 : 아파트 청약 같은 거 넣고 있나?\n2 : ㄴㄴ 할까 하다가도 귀찮아서 안 했다 ㅜ\n1 : 지금이라도 만드삼 ㅜㅜ 청약 중요하지\n2 : 오 니는 넣고 있음?\n1 : 난 20살 때 만들었음\n2 : 잘돼 가나... 하하 당첨되면 같이 살자 ㅎㅋ\n1 : 내가 니랑 왜 살아 하하\n2 : 하하 나 밥 잘함 하하\n1 : 근데 청약 당첨이 로또보다 어렵다던데 ㅎㅋ\n2 : 아 진짜? 경쟁률이 얼마나 되길래?\n1 : 자세히는 안 봤는데 이시언 청약 된 거 기억남?\n2 : 아 나 혼자 산다에서? 응응 본 거 같음\n1 : 평생에 쓸 운 다 쓴 거라면서 그러더라 키키\n2 : 키키 계속 하다 보면 언젠간 되지 않을까.\n1 : 집값이 너무 비싸 ㅜㅜ\n2 : 전세라도 구해야지...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아파트 청약 같은 거 넣고 있나?",
+            "norm_text": "아파트 청약 같은 거 넣고 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아파트/NNG+청약/NNG+같/VA+은/ETM+거/NNB+넣/VV+고/EC+있/VX+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : ㄴㄴ 할까 하다가도 귀찮아서 안 했다 ㅜ",
+            "norm_text": "ㄴㄴ 할까 하다가도 귀찮아서 안 했다 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+할까/XSV+EC+하/VV+다가/EC+도/JX+귀찮/VA+아서/EC+안/MAG+했/VV+EP+다ㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 지금이라도 만드삼 ㅜㅜ 청약 중요하지",
+            "norm_text": "지금이라도 만드삼 ㅜㅜ 청약 중요하지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "지금/NNG+이/VCP+라도/EC+만드/VV+삼/EF+ㅜㅜ/UNKNOWN+청약/NNG+중요/NNG+하/XSV+지/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오 니는 넣고 있음?",
+            "norm_text": "오 니는 넣고 있음?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오니/NNG+는/JX+넣/VV+고/EC+있/VX+음/ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 난 20살 때 만들었음",
+            "norm_text": "난 20살 때 만들었음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+20/SN+살/NNBC+때/NNG+만들/VV+었/EP+음/ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 잘돼 가나... 하하 당첨되면 같이 살자 ㅎㅋ",
+            "norm_text": "잘돼 가나... 하하 당첨되면 같이 살자 ㅎㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "잘/MAG+돼/VV+EC+가/VX+나/EF+./SY+하하/MAG+당첨/NNG+되/XSV+면/EC+같이/MAG+살/VV+자/EC+ㅎㅋ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 내가 니랑 왜 살아 하하",
+            "norm_text": "내가 니랑 왜 살아 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+니/NP+랑/JKB+왜/MAG+살/VV+아/EC+하하/MAG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 하하 나 밥 잘함 하하",
+            "norm_text": "하하 나 밥 잘함 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하/IC+하나/NR+밥/NNG+잘/MAG+함하/NNG+하/XSV"
+          },
+          {
+            "id": 9,
+            "text": "1 : 근데 청약 당첨이 로또보다 어렵다던데 ㅎㅋ",
+            "norm_text": "근데 청약 당첨이 로또보다 어렵다던데 ㅎㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+청약/NNG+당첨/NNG+이/JKS+로또/NNP+보다/JKB+어렵/VA+다던데/EC+ㅎㅋ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 진짜? 경쟁률이 얼마나 되길래?",
+            "norm_text": "아 진짜? 경쟁률이 얼마나 되길래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+경쟁/NNG+률/XSN+이/JKS+얼마나/MAG+되/VV+길래/ETN+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 자세히는 안 봤는데 이시언 청약 된 거 기억남?",
+            "norm_text": "자세히는 안 봤는데 이시언 청약 된 거 기억남?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자세히/MAG+는/JX+안/MAG+봤/VV+EP+는데/EC+이시언/NNP+청약/NNG+된/XSV+ETM+거/NNB+기억/NNG+남/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 나 혼자 산다에서? 응응 본 거 같음",
+            "norm_text": "아 나 혼자 산다에서? 응응 본 거 같음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+혼자/NNG+산다/NNG+에서/JKB+응응/MAG+본/VV+ETM+거/NNB+같/VA+음/ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 평생에 쓸 운 다 쓴 거라면서 그러더라 키키",
+            "norm_text": "평생에 쓸 운 다 쓴 거라면서 그러더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "평생/NNG+에/JKB+쓸/VV+ETM+운다/VV+EC+쓴/VV+ETM+거/NNB+라면서/VCP+EC+그러/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 계속 하다 보면 언젠간 되지 않을까.",
+            "norm_text": "키키 계속 하다 보면 언젠간 되지 않을까.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+계속/NNG+하/XSV+다/EC+보/VX+면/EC+언젠간/MAG+JX+되/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 집값이 너무 비싸 ㅜㅜ",
+            "norm_text": "집값이 너무 비싸 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집값/NNG+이/JKS+너무/MAG+비싸/VA+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 전세라도 구해야지...",
+            "norm_text": "전세라도 구해야지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전세/NNG+라도/VCP+EC+구해야/VV+EC+VX+지/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

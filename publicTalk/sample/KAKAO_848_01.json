@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40940,
+    "name": "KAKAO_848_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172451010532/KAKAO_848_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172451010532/KAKAO_848_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39819,
+      "filename": "KAKAO_848_01.txt",
+      "title": "KAKAO_848_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 388,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 388,
+        "word_size": 134,
+        "text": "1 : 우리 만나는 날 도대체 뭐 먹어?\n2 : 안 알려 줄 거임~ 시크맀!\n1 : 아니 애들마다 알고 있는 게 다 달라\n2 : 왜 애들은 뭐 먹는다는데?\n1 : 고기에 새우 구이? 우리 아니잖아\n2 : 새우 구이는 누가 바닷가 가서 사 오는 거야?\n1 : 아니 마트에 수입산 아닐까?\n2 : 그러면 각자 먹고 싶은 거 가져오라 해~\n1 : 우리 근데 해 먹는 거야 배달이야?\n2 : 야 제사 음식 하기 바쁜데 나 열 받게 하지 마라!\n1 : 유일하게 제사 음식 하고 오는 게 너네 키키\n2 : 헐 그러면 나 너네 만드는 동안 쉬어도 돼?\n1 : 나도 일하고 오니깐 빼 줄래?\n2 : 그러면 나머지 두 명보고 하라고 하자~\n1 : 1명 부셔 하는 거 좋아하니깐 개가 하면 되겠다\n2 : 오 맞아 거기 스테이크 장인이잖아~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 만나는 날 도대체 뭐 먹어?",
+            "norm_text": "우리 만나는 날 도대체 뭐 먹어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+만나/VV+는/ETM+날/NNG+도대체/MAG+뭐/IC+먹/VV+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 안 알려 줄 거임~ 시크맀!",
+            "norm_text": "안 알려 줄 거임~ 시크맀!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+알려/VV+EC+줄/VX+ETM+거/NNB+임/VCP+ETN+~/SY+시크맀/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 애들마다 알고 있는 게 다 달라",
+            "norm_text": "아니 애들마다 알고 있는 게 다 달라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+애/NNG+들/XSN+마다/JX+알/VV+고/EC+있/VX+는/ETM+게/NNB+JKS+다/MAG+달라/VA+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 왜 애들은 뭐 먹는다는데?",
+            "norm_text": "왜 애들은 뭐 먹는다는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+애/NNG+들/XSN+은/JX+뭐/IC+먹/VV+는다는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 고기에 새우 구이? 우리 아니잖아",
+            "norm_text": "고기에 새우 구이? 우리 아니잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고기/NNG+에/JKB+새우구이/NNG+우리/NP+아니/VCN+잖아/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 새우 구이는 누가 바닷가 가서 사 오는 거야?",
+            "norm_text": "새우 구이는 누가 바닷가 가서 사 오는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "새우구이/NNG+는/JX+누가/NP+JKS+바닷가/NNG+가/JKS+서사/NNG+오/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니 마트에 수입산 아닐까?",
+            "norm_text": "아니 마트에 수입산 아닐까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+마트/NNG+에/JKB+수입/NNG+산/NNG+아닐까/VCN+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그러면 각자 먹고 싶은 거 가져오라 해~",
+            "norm_text": "그러면 각자 먹고 싶은 거 가져오라 해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러면/MAJ+각자/MAG+먹/VV+고/EC+싶/VX+은/ETM+거/NNB+가져오/VV+라/EC+해/VV+EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 우리 근데 해 먹는 거야 배달이야?",
+            "norm_text": "우리 근데 해 먹는 거야 배달이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+근데/MAJ+해/VV+EC+먹/VV+는/ETM+거/NNB+야/VCP+EF+배달/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 야 제사 음식 하기 바쁜데 나 열 받게 하지 마라!",
+            "norm_text": "야 제사 음식 하기 바쁜데 나 열 받게 하지 마라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야/IC+제사/NNG+음식/NNG+하/XSV+기/ETN+바쁜데/VA+EC+나열/NNG+받/VV+게/EC+하/VV+지/EC+마/VX+라/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 유일하게 제사 음식 하고 오는 게 너네 키키",
+            "norm_text": "유일하게 제사 음식 하고 오는 게 너네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "유일/NNG+하/XSV+게/EC+제사/NNG+음식/NNG+하/XSV+고/EC+오/VV+는/ETM+게/NNB+JKS+너/NP+네/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 헐 그러면 나 너네 만드는 동안 쉬어도 돼?",
+            "norm_text": "헐 그러면 나 너네 만드는 동안 쉬어도 돼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+그러면/MAJ+나/NP+너/NP+네/XSN+만드/VV+는/ETM+동안/NNG+쉬/VV+어도/EC+돼/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나도 일하고 오니깐 빼 줄래?",
+            "norm_text": "나도 일하고 오니깐 빼 줄래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "나/NP+도/JX+일/NNG+하/XSV+고/EC+오/VV+니깐/EC+빼/VV+줄래/EC+VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그러면 나머지 두 명보고 하라고 하자~",
+            "norm_text": "그러면 나머지 두 명보고 하라고 하자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러면/MAJ+나머지/NNG+두/MM+명/NNBC+보고/NNG+하/XSV+라고/EC+하/VV+자/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 1명 부셔 하는 거 좋아하니깐 개가 하면 되겠다",
+            "norm_text": "1명 부셔 하는 거 좋아하니깐 개가 하면 되겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "1/SN+명/NNBC+부셔/VA+EC+하/VV+는/ETM+거/NNB+좋/VA+아/EC+하/VV+니깐/EC+개가/NNG+하/XSV+면/EC+되/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오 맞아 거기 스테이크 장인이잖아~",
+            "norm_text": "오 맞아 거기 스테이크 장인이잖아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+맞/VV+아/EC+거기/NP+스테이크/NNG+장인/NNG+이/VCP+잖아/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 35440,
+    "name": "KAKAO_621_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754055325/KAKAO_621_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754055325/KAKAO_621_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34139,
+      "filename": "KAKAO_621_01.txt",
+      "title": "KAKAO_621_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 533,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 533,
+        "word_size": 175,
+        "text": "1 : 우리 야근 하는데 음식 뭐 먹을까?\n2 : 비 오니깐 배달 시켜 먹자.\n1 : 그래 나가기도 귀찮으니깐 배달 주문하자~ 어떤 메뉴 먹을래 ?\n2 : 돈까스 어때? 갓 튀긴 바삭바삭한 돈까스가 생각 난다.\n1 : 어 좋아~ 회사 근처 가까운 곳 에서 돈까스 가게 봤었어.\n2 : 응 그럼 거기에 주문하고 음료는 뭐 따로 뭐 마실래 ?\n1 : 느끼할 수 있으니 밑에 편의점에서 콜라 사오자.\n2 : 아님 배달 시킬 때 콜라 추가로 시킬 수 있는지 봐보자.\n1 : 지금 주문 할려고 보는데 비 와서 기본 1시간 이상 배달시간 소요 된다는데 ?\n2 : 헐 너무 오래 걸린다. 나가서 외식하고 와야 하나? 아님 포장해 와야 하나 ?\n1 : 아니야 비 와서 나가기 싫어서 주문 한다는 건데 좀 기다리자. 많이 배고파 ?\n2 : 응. 뱃가죽이 등가죽에 붙겠어ㅜ\n1 : 그럼 간단하게 요기 할 수 있는 디저트라도 먹고 있을까 ?\n2 : 어떤 거 갖고 있어 ? 난 뭐 갖고 있는 게 없어서\n1 : 나 쿠키 몇 개 있어. 그거라도 먼저 먹고 있자.\n2 : 좋아 쿠키 먹으면서 음식 기다리자~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 야근 하는데 음식 뭐 먹을까?",
+            "norm_text": "우리 야근 하는데 음식 뭐 먹을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우리/NP+야근/NNG+하/XSV+는/ETM+데/NNB+음식/NNG+뭐/IC+먹/VV+을까/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 비 오니깐 배달 시켜 먹자.",
+            "norm_text": "비 오니깐 배달 시켜 먹자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비오/VV+니깐/EC+배달/NNG+시켜/XSV+EC+먹/VV+자/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래 나가기도 귀찮으니깐 배달 주문하자~ 어떤 메뉴 먹을래 ?",
+            "norm_text": "그래 나가기도 귀찮으니깐 배달 주문하자~ 어떤 메뉴 먹을래 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/VA+EC+나가/VX+기/ETN+도/JX+귀찮/VA+으니깐/EC+배달/NNG+주문/NNG+하/XSV+자/EC+~/SY+어떤/MM+메뉴/NNG+먹/VV+을래/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 돈까스 어때? 갓 튀긴 바삭바삭한 돈까스가 생각 난다.",
+            "norm_text": "돈까스 어때? 갓 튀긴 바삭바삭한 돈까스가 생각 난다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "돈/NNG+까스/NNP+어때/VA+EF+갓/MAG+튀/VV+긴/ETN+JX+바삭바삭/MAG+한/MM+돈/NNBC+VCP+ETM+까스/NNP+가/JKS+생각/NNG+난다/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어 좋아~ 회사 근처 가까운 곳 에서 돈까스 가게 봤었어.",
+            "norm_text": "어 좋아~ 회사 근처 가까운 곳 에서 돈까스 가게 봤었어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+좋/VA+아/EC+~/SY+회사/NNG+근처/NNG+가까운/VA+ETM+곳/NNG+에서/JKB+돈/NNG+까스/NNP+가/VV+게/EC+봤었/VX+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 그럼 거기에 주문하고 음료는 뭐 따로 뭐 마실래 ?",
+            "norm_text": "응 그럼 거기에 주문하고 음료는 뭐 따로 뭐 마실래 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+그럼/MAJ+거기/NP+에/JKB+주문/NNG+하/XSV+고/EC+음료/NNG+는/JX+뭐/IC+따로/MAG+뭐/IC+마실래/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 느끼할 수 있으니 밑에 편의점에서 콜라 사오자.",
+            "norm_text": "느끼할 수 있으니 밑에 편의점에서 콜라 사오자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "느끼/NNG+할/XSV+ETM+수/NNB+있/VV+으니/EC+밑/NNG+에/JKB+편의점/NNG+에서/JKB+콜라/NNG+사오/EP+자/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아님 배달 시킬 때 콜라 추가로 시킬 수 있는지 봐보자.",
+            "norm_text": "아님 배달 시킬 때 콜라 추가로 시킬 수 있는지 봐보자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아님/MAJ+배달/NNG+시킬/XSV+ETM+때/NNG+콜라/NNG+추가/NNG+로/JKB+시킬/VV+ETM+수/NNB+있/VV+는지/EC+봐/VX+EC+보/VX+자/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 지금 주문 할려고 보는데 비 와서 기본 1시간 이상 배달시간 소요 된다는데 ?",
+            "norm_text": "지금 주문 할려고 보는데 비 와서 기본 1시간 이상 배달시간 소요 된다는데 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+주문/NNG+할려고/XSV+EC+보/VX+는데/EC+비와/NNG+서/JKB+기본/NNG+1/SN+시간/NNBC+이상/NNG+배달/NNG+시간/NNG+소요/NNG+된다는/XSV+ETM+데/NNB"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐 너무 오래 걸린다. 나가서 외식하고 와야 하나? 아님 포장해 와야 하나 ?",
+            "norm_text": "헐 너무 오래 걸린다. 나가서 외식하고 와야 하나? 아님 포장해 와야 하나 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+너무/MAG+오래/MAG+걸린다/VV+EF+나가/VV+서/EC+외식/NNG+하/XSV+고/EC+와야/VV+EC+하나/NR+아님/MAJ+포장/NNG+해/XSV+EC+와야/VV+EC+하나/NR"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아니야 비 와서 나가기 싫어서 주문 한다는 건데 좀 기다리자. 많이 배고파 ?",
+            "norm_text": "아니야 비 와서 나가기 싫어서 주문 한다는 건데 좀 기다리자. 많이 배고파 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니야/IC+비/NNG+와서/VV+EC+나가/VX+기/ETN+싫/VA+어서/EC+주문/NNG+한다는/XSV+ETM+건데/NNB+VCP+EC+좀/MAG+기다리/VV+자/EF+많이/MAG+배고파/VA+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 응. 뱃가죽이 등가죽에 붙겠어ㅜ",
+            "norm_text": "응. 뱃가죽이 등가죽에 붙겠어ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+뱃가죽/NNG+이/JKS+등가죽/NNG+에/JKB+붙/VV+겠/EP+어ㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 간단하게 요기 할 수 있는 디저트라도 먹고 있을까 ?",
+            "norm_text": "그럼 간단하게 요기 할 수 있는 디저트라도 먹고 있을까 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+간단/XR+하/XSA+게/EC+요기/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+디저트/NNG+라도/VCP+EC+먹/VV+고/EC+있/VX+을까/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 어떤 거 갖고 있어 ? 난 뭐 갖고 있는 게 없어서",
+            "norm_text": "어떤 거 갖고 있어 ? 난 뭐 갖고 있는 게 없어서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+거/NNB+갖/VV+고/EC+있/VX+어/EF+난/NP+JX+뭐/NP+갖/VV+고/EC+있/VX+는/ETM+게/NNB+JKS+없/VA+어서/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나 쿠키 몇 개 있어. 그거라도 먼저 먹고 있자.",
+            "norm_text": "나 쿠키 몇 개 있어. 그거라도 먼저 먹고 있자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+쿠키/NNG+몇/MM+개/NNBC+있/VA+어/EF+그거/NP+라도/VCP+EC+먼저/MAG+먹/VV+고/EC+있/VX+자/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 좋아 쿠키 먹으면서 음식 기다리자~",
+            "norm_text": "좋아 쿠키 먹으면서 음식 기다리자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좋/VA+아/EC+쿠키/NNG+먹/VV+으면서/EC+음식/NNG+기다리/VV+자/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

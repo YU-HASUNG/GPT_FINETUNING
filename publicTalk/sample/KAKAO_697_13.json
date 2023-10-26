@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40223,
+    "name": "KAKAO_697_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114654033444/KAKAO_697_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114654033444/KAKAO_697_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35712,
+      "filename": "KAKAO_697_13.txt",
+      "title": "KAKAO_697_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 480,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 480,
+        "word_size": 161,
+        "text": "1 : 맞아 키키 더 벌면 되지 가을 되니까 갈대 밭도 보러 가고 싶네\n2 : 갈대 밭 좋지 예쁜데 있나 추천 조\n1 : 순천 예쁘지 키키 울산에 갈대 밭 있길래 10월에 한번 갈까 생각 중\n2 : 아 진짜? 가 보고 얘기 좀 해 줘 키키 나도 여자 친구랑 가야지\n1 : 옹 키키 한번 드라이브 싹 하고 온나\n2 : 알겠다 키키 울산이면 부산에서 엄청 가까움\n1 : 그러니까 키키 금방 갔다 오지 키키 부산에 미술관도 가 보고 싶었는데\n2 : 미술관 같은 곳 좋아하나 보네\n1 : 인스타 보니까 너무 예쁘더라고 키키 그런데 이미 예약 다 차서 못 갔으\n2 : 미술관이 예약도 받나?\n1 : 코로나 때문에 입장 제한한다고 예약 받더라 키키\n2 : 아 어딘데? 나도 가 봐야겠다\n1 : 부산 시립 미술관인가? 키키 이름을 까먹었네\n2 : 아아 거기 자주 뭐 하는 것 같긴 하더라\n1 : 오? 아는구만? 키키 매번 뭐 바뀌더라 키키\n2 : 나도 한번 찾아보고 여자 친구한테 가자 해 봐야겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 맞아 키키 더 벌면 되지 가을 되니까 갈대 밭도 보러 가고 싶네",
+            "norm_text": "맞아 키키 더 벌면 되지 가을 되니까 갈대 밭도 보러 가고 싶네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+더/MAG+벌/VV+면/EC+되/VV+지/EC+가을/NNG+되/XSV+니까/EC+갈대밭/NNG+도/JX+보/VV+러/EC+가/VX+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 갈대 밭 좋지 예쁜데 있나 추천 조",
+            "norm_text": "갈대 밭 좋지 예쁜데 있나 추천 조",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "갈대밭/NNG+좋/VA+지/EC+예쁜데/VA+EC+있/VX+나/EC+추천/NNG+조/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 순천 예쁘지 키키 울산에 갈대 밭 있길래 10월에 한번 갈까 생각 중",
+            "norm_text": "순천 예쁘지 키키 울산에 갈대 밭 있길래 10월에 한번 갈까 생각 중",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "순천/NNG+예쁘/VA+지/EC+키키/NNP+울산/NNP+에/JKB+갈대밭/NNG+있/VV+길래/EC+10/SN+월/NNBC+에/JKB+한/MM+번/NNBC+갈까/VV+EC+생각/NNG+중/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아 진짜? 가 보고 얘기 좀 해 줘 키키 나도 여자 친구랑 가야지",
+            "norm_text": "아 진짜? 가 보고 얘기 좀 해 줘 키키 나도 여자 친구랑 가야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아/IC+진짜/MAG+가/JKS+보/VV+고/EC+얘기/NNG+좀/MAG+해/VV+EC+줘/VX+EC+키/NNG+키나/XSA+ETN+JX+도/JX+여자/NNG+친구/NNG+랑/JKB+가야지/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 옹 키키 한번 드라이브 싹 하고 온나",
+            "norm_text": "옹 키키 한번 드라이브 싹 하고 온나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "옹/NNG+키/NNG+키/XSV+ETN+한/MM+번/NNBC+드라이브/NNG+싹/NNG+하/XSV+고/EC+온나/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 알겠다 키키 울산이면 부산에서 엄청 가까움",
+            "norm_text": "알겠다 키키 울산이면 부산에서 엄청 가까움",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+겠/EP+다키키/NNP+울산/NNP+이/VCP+면/EC+부산/NNP+에서/JKB+엄청/MAG+가까움/VA+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러니까 키키 금방 갔다 오지 키키 부산에 미술관도 가 보고 싶었는데",
+            "norm_text": "그러니까 키키 금방 갔다 오지 키키 부산에 미술관도 가 보고 싶었는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/NNG+금방/MAG+갔다오/VV+지/EC+키키/NNP+부산/NNP+에/JKB+미술/NNG+관도/NNG+가/JKS+보/VV+고/EC+싶/VX+었/EP+는데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 미술관 같은 곳 좋아하나 보네",
+            "norm_text": "미술관 같은 곳 좋아하나 보네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미술관/NNG+같/VA+은/ETM+곳/NNB+좋/VA+아/EC+하나/NR+보네/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 인스타 보니까 너무 예쁘더라고 키키 그런데 이미 예약 다 차서 못 갔으",
+            "norm_text": "인스타 보니까 너무 예쁘더라고 키키 그런데 이미 예약 다 차서 못 갔으",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "인스/NNP+타보/NNG+니까/VCP+EC+너무/MAG+예쁘/VA+더라고/EC+키/NNG+키/XSV+ETN+그런데/MAJ+이미/MAG+예약/NNG+다/MAG+차/VV+서/EC+못/MAG+갔/VV+EP+으/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 미술관이 예약도 받나?",
+            "norm_text": "미술관이 예약도 받나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "미술관/NNG+이/JKS+예약/NNG+도/JX+받/VV+나/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 코로나 때문에 입장 제한한다고 예약 받더라 키키",
+            "norm_text": "코로나 때문에 입장 제한한다고 예약 받더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코로나/NNG+때문/NNB+에/JKB+입장/NNG+제한/NNG+한다고/XSV+EC+예약/NNG+받/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 어딘데? 나도 가 봐야겠다",
+            "norm_text": "아 어딘데? 나도 가 봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+어딘데/NP+VCP+EF+나/NP+도/JX+가/VV+봐야/EC+VX+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 부산 시립 미술관인가? 키키 이름을 까먹었네",
+            "norm_text": "부산 시립 미술관인가? 키키 이름을 까먹었네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부산/NNP+시립/NNG+미술관/NNG+인가/VCP+EF+키/NNG+키/NNG+이름/NNG+을/JKO+까먹/VV+었/EP+네/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아아 거기 자주 뭐 하는 것 같긴 하더라",
+            "norm_text": "아아 거기 자주 뭐 하는 것 같긴 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+거기/NP+자주/MAG+뭐/IC+하/VV+는/ETM+것/NNB+같/VA+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오? 아는구만? 키키 매번 뭐 바뀌더라 키키",
+            "norm_text": "오? 아는구만? 키키 매번 뭐 바뀌더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+아/VV+는구만/EF+키/NNG+키/NNG+매번/MAG+뭐/IC+바뀌/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나도 한번 찾아보고 여자 친구한테 가자 해 봐야겠다",
+            "norm_text": "나도 한번 찾아보고 여자 친구한테 가자 해 봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+도/JX+한/MM+번/NNBC+찾아보/VV+고/EC+여자/NNG+친구/NNG+한테/JKB+가자/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

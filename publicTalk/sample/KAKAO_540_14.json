@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 41523,
+    "name": "KAKAO_540_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210924110248010726/KAKAO_540_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210924110248010726/KAKAO_540_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31846,
+      "filename": "KAKAO_540_14.txt",
+      "title": "KAKAO_540_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 596,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 596,
+        "word_size": 200,
+        "text": "1 : 백신 접종 신청하셨어요?\n2 : 우리 가족은 벌써 다 맞고 끝났지\n1 : 아 진짜요? 빠르시네요 키키 전 추석 지나고나 맞을 듯\n2 : 그때가 제일 빠른 거야? 남들은 다 맞고 있던데\n1 : 안 그래도 일정 당겨서 맞을 수 있다고 하던데 저는 그냥 날짜 안 바꿨어요 키키\n2 : 왜? 어차피 맞을 거 빨리 맞고 끝내는 게 낫지\n1 : 키키 그렇긴 한데 회사 일정도 있고 해서요 ㅠㅠ\n2 : 그런 게 또 문제가 되는구나\n1 : 네네 ㅠㅠ 회사 사람들이랑 날짜 맞춰서 맞다 보니까 ㅠㅠ\n2 : 백신 맞고 백신 휴가 같은 건 줘?\n1 : 아마 하루는 그냥 쉴 수 있을 걸요?\n2 : 그런 거라도 있어야 하루 쉬지 안 그럼 몸이 너무 힘들더라\n1 : 안 그래도 그게 걱정이에요 ㅠㅠ 많이 아플까 봐서 ㅠ\n2 : 맞은 날이랑 담날이랑 무리만 하지 않으면 될 거 같아\n1 : 안 그래도 그날이랑 그 다음날은 아무것도 안 하고 집에 있으려규요 키키\n2 : 그래 잘 생각했어 집에서 푹 쉬어야지\n1 : 네네 키키 그 정신에 어디 나다니는 것도 웃기고 키키\n2 : 물도 많이 마시고 약도 챙겨 놓지?\n1 : 키키 백신 맞고 나오는 길에 사서 오려구요\n2 : 그래 맞고 나서 여섯 시간인가 후에 먹으라고 하더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 백신 접종 신청하셨어요?",
+            "norm_text": "백신 접종 신청하셨어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+접종/NNG+신청/NNG+하/XSV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리 가족은 벌써 다 맞고 끝났지",
+            "norm_text": "우리 가족은 벌써 다 맞고 끝났지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+가족/NNG+은/JX+벌써/MAG+다/MAG+맞/VV+고/EC+끝/NNG+났/VV+EP+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 진짜요? 빠르시네요 키키 전 추석 지나고나 맞을 듯",
+            "norm_text": "아 진짜요? 빠르시네요 키키 전 추석 지나고나 맞을 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+요/JX+빠르/VA+시/EP+네요/EF+키키/NNP+전/MM+추석/NNG+지나/VV+고/EC+나/JX+맞/VV+을/ETM+듯/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그때가 제일 빠른 거야? 남들은 다 맞고 있던데",
+            "norm_text": "그때가 제일 빠른 거야? 남들은 다 맞고 있던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그때/NNG+가/JKS+제일/MAG+빠른/VA+ETM+거/NNB+야/VCP+EF+남/NNG+들/XSN+은/JX+다/MAG+맞/VV+고/EC+있/VX+던데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 안 그래도 일정 당겨서 맞을 수 있다고 하던데 저는 그냥 날짜 안 바꿨어요 키키",
+            "norm_text": "안 그래도 일정 당겨서 맞을 수 있다고 하던데 저는 그냥 날짜 안 바꿨어요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+그래도/VV+EC+일정/NNG+당겨서/VV+EC+맞/VV+을/ETM+수/NNB+있/VV+다고/EC+하/VV+던데/EC+저/NP+는/JX+그냥/MAG+날짜/NNG+안/MAG+바꿨/VV+EP+어요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 왜? 어차피 맞을 거 빨리 맞고 끝내는 게 낫지",
+            "norm_text": "왜? 어차피 맞을 거 빨리 맞고 끝내는 게 낫지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+어차피/MAG+맞/VV+을/ETM+거/NNB+빨리/MAG+맞/VV+고/EC+끝내/VV+는/ETM+게/NNB+JKS+낫/VA+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 그렇긴 한데 회사 일정도 있고 해서요 ㅠㅠ",
+            "norm_text": "키키 그렇긴 한데 회사 일정도 있고 해서요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그렇/VA+긴/ETN+JX+한데/VX+EC+회사/NNG+일정/NNG+도/JX+있/VA+고/EC+해서요/VV+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그런 게 또 문제가 되는구나",
+            "norm_text": "그런 게 또 문제가 되는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런/MM+게/NNB+JKS+또/MAG+문제/NNG+가/JKS+되/VV+는구나/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 네네 ㅠㅠ 회사 사람들이랑 날짜 맞춰서 맞다 보니까 ㅠㅠ",
+            "norm_text": "네네 ㅠㅠ 회사 사람들이랑 날짜 맞춰서 맞다 보니까 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/NP+네/XSN+ㅠㅠ/UNKNOWN+회사/NNG+사람/NNG+들/XSN+이랑/JKB+날짜/NNG+맞춰서/VV+EC+맞/VV+다/EC+보/VX+니까/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 백신 맞고 백신 휴가 같은 건 줘?",
+            "norm_text": "백신 맞고 백신 휴가 같은 건 줘?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+맞/VV+고/EC+백신/NNG+휴가/NNG+같/VA+은/ETM+건/NNB+JX+줘/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아마 하루는 그냥 쉴 수 있을 걸요?",
+            "norm_text": "아마 하루는 그냥 쉴 수 있을 걸요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아마/MAG+하루/NNG+는/JX+그냥/MAG+쉴/VV+ETM+수/NNB+있/VV+을걸요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그런 거라도 있어야 하루 쉬지 안 그럼 몸이 너무 힘들더라",
+            "norm_text": "그런 거라도 있어야 하루 쉬지 안 그럼 몸이 너무 힘들더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런/MM+거/NNB+라도/VCP+EC+있/VX+어야/EC+하루/NNG+쉬/VV+지/EC+안/MAG+그럼/VV+EC+몸/NNG+이/JKS+너무/MAG+힘들/VA+더라/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 안 그래도 그게 걱정이에요 ㅠㅠ 많이 아플까 봐서 ㅠ",
+            "norm_text": "안 그래도 그게 걱정이에요 ㅠㅠ 많이 아플까 봐서 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+그게/NP+JKS+걱정/NNG+이/VCP+에요/EF+ㅠㅠ/UNKNOWN+많이/MAG+아플까/VA+EC+봐/VX+EF+서ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 맞은 날이랑 담날이랑 무리만 하지 않으면 될 거 같아",
+            "norm_text": "맞은 날이랑 담날이랑 무리만 하지 않으면 될 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+은/ETM+날/NNG+이랑/JKB+담날/NNG+이랑/JKB+무리/NNG+만/JX+하/VV+지/EC+않/VX+으면/EC+될/VV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 안 그래도 그날이랑 그 다음날은 아무것도 안 하고 집에 있으려규요 키키",
+            "norm_text": "안 그래도 그날이랑 그 다음날은 아무것도 안 하고 집에 있으려규요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+그날/NNG+이랑/JC+그/MM+다음/NNG+날/NNG+은/JX+아무것/NNG+도/JX+안/MAG+하/VV+고/EC+집/NNG+에/JKB+있/VV+으려/EC+규/NNP+요키/NNP+키/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 잘 생각했어 집에서 푹 쉬어야지",
+            "norm_text": "그래 잘 생각했어 집에서 푹 쉬어야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+잘/MAG+생각/NNG+했/XSV+EP+어/EC+집/NNG+에서/JKB+푹/MAG+쉬/VV+어야지/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 네네 키키 그 정신에 어디 나다니는 것도 웃기고 키키",
+            "norm_text": "네네 키키 그 정신에 어디 나다니는 것도 웃기고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네네/IC+키키/NNP+그/MM+정신/NNG+에/JKB+어디/NP+나/JX+다니/VV+는/ETM+것/NNB+도/JX+웃기/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 물도 많이 마시고 약도 챙겨 놓지?",
+            "norm_text": "물도 많이 마시고 약도 챙겨 놓지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "물/NNG+도/JX+많이/MAG+마시/VV+고/EC+약/NNG+도/JX+챙겨/VV+EC+놓/VX+지/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 백신 맞고 나오는 길에 사서 오려구요",
+            "norm_text": "키키 백신 맞고 나오는 길에 사서 오려구요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+백신/NNG+맞/VV+고/EC+나오/VV+는/ETM+길/NNG+에/JKB+사/VV+서/EC+오/VV+려구요/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그래 맞고 나서 여섯 시간인가 후에 먹으라고 하더라",
+            "norm_text": "그래 맞고 나서 여섯 시간인가 후에 먹으라고 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/VA+EC+맞/VV+고/EC+나/VX+서/EC+여섯/NR+시간/NNG+인가/VCP+EC+후/NNG+에/JKB+먹/VV+으라고/EC+하/VV+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

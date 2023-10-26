@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 48227,
+    "name": "KAKAO_846_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174243031645/KAKAO_846_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174243031645/KAKAO_846_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40127,
+      "filename": "KAKAO_846_09.txt",
+      "title": "KAKAO_846_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 767,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 767,
+        "word_size": 230,
+        "text": "1 : 우리 집 근처에 갑자기 까마귀가 자리를 잡았나 봐? 자꾸 까악깍대\n2 : 우리 아파트 단지에는 갑자기 비둘기가 엄청 생겼어\n2 : 그래서 우리 엄마 맨날 발코니 앞에 비둘기 응가 치우잖아 키키\n1 : 키키 거의 반려동물이네 맨날 똥 치우시는 거면\n1 : 나도 맨날 일어나면 배변패드 치우는 게 일인데 똑같네\n2 : 아니 우리 집은 비둘기를 가족으로 받아들인 적이 없는데 남의 집 앞에 응가를 싸질러두고 가냐 이 배은망덕한 조류자식들\n1 : 아 걔네도 화장실 정해놓고 싼다는 얘기를 동물농장에서 본 거 같은데...\n2 : 어머 그런 우리 집 발코니 앞 비둘기 전용 공중화장실 되어버린 거냐...\n1 : 키키 왓더 설마... 아닐 가능성이 더 높겠지\n1 : 근데 비둘기는 극혐인데 요새 유튜브에서 오리나 앵무새나 부엉이 키우는 거 보믄 넘 기여워\n2 : 아 그래? 난 조류는 다 별로야... 무서웡...\n1 : 맞아 무서워 하는 종류가 다 다르잖아\n1 : 난 양서류들 다 싫어 징그러웡 물컹한 거 ㅜㅜ\n2 : 으 나도나도 그리고 반려동물로 파충류 키위는 사람들도 이해 못하겠어 키키 아무리 개인취향이라지만\n1 : 키키 나도 키우는 사람들 보면 막 예쁘다 잘생겼다 하는데 공감 안 되긴 하더라\n2 : 아 키키 파충류가 예쁘고 잘생긴 게 어딨어 키키\n1 : 키키 그리고 키우는 것도 까다로운 게 먹이가 나에게 넘사벽이야\n1 : 막 벌레 애벌레 냉동 새끼쥐...\n2 : 으으... 나도 그거 손으로 못 만져서 굶어 죽이겠다\n1 : 맞아 그리고 시각적 테러 아니냐\n2 : 키키 맞아 자다가도 소름 돋을 거 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 집 근처에 갑자기 까마귀가 자리를 잡았나 봐? 자꾸 까악깍대",
+            "norm_text": "우리 집 근처에 갑자기 까마귀가 자리를 잡았나 봐? 자꾸 까악깍대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+집/NNG+근처/NNG+에/JKB+갑자기/MAG+까마귀/NNG+가/JKS+자리/NNG+를/JKO+잡/VV+았/EP+나/EC+봐/VX+EF+자꾸/MAG+까악/MAG+깍/VV+대/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리 아파트 단지에는 갑자기 비둘기가 엄청 생겼어",
+            "norm_text": "우리 아파트 단지에는 갑자기 비둘기가 엄청 생겼어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+아파트/NNG+단지/NNG+에/JKB+는/JX+갑자기/MAG+비둘기/NNG+가/JKS+엄청/MAG+생겼/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 그래서 우리 엄마 맨날 발코니 앞에 비둘기 응가 치우잖아 키키",
+            "norm_text": "그래서 우리 엄마 맨날 발코니 앞에 비둘기 응가 치우잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+우리/NP+엄마/NNG+맨날/MAG+발코니/NNG+앞/NNG+에/JKB+비둘기/NNG+응가/NNG+치우/VV+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 키키 거의 반려동물이네 맨날 똥 치우시는 거면",
+            "norm_text": "키키 거의 반려동물이네 맨날 똥 치우시는 거면",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+거의/MAG+반려/NNG+동물/NNG+이/JKS+네/IC+맨날/MAG+똥/NNG+치우/VV+시/EP+는/ETM+거/NNB+면/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나도 맨날 일어나면 배변패드 치우는 게 일인데 똑같네",
+            "norm_text": "나도 맨날 일어나면 배변패드 치우는 게 일인데 똑같네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+맨날/MAG+일어나/VV+면/EC+배변/NNG+패드/NNG+치우/VV+는/ETM+게/NNB+JKS+일/NNG+인데/VCP+EC+똑같/VA+네/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아니 우리 집은 비둘기를 가족으로 받아들인 적이 없는데 남의 집 앞에 응가를 싸질러두고 가냐 이 배은망덕한 조류자식들",
+            "norm_text": "아니 우리 집은 비둘기를 가족으로 받아들인 적이 없는데 남의 집 앞에 응가를 싸질러두고 가냐 이 배은망덕한 조류자식들",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+우리/NP+집/NNG+은/JX+비둘기/NNG+를/JKO+가족/NNG+으로/JKB+받아들인/VV+ETM+적/NNB+이/JKS+없/VA+는데/EC+남/NNG+의/JKG+집/NNG+앞/NNG+에/JKB+응가/NNG+를/JKO+싸질러/VV+EC+두/VX+고/EC+가/VX+냐/EF+이/MM+배은망덕/NNG+한/XSA+ETM+조류/NNG+자식/NNG+들/XSN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 걔네도 화장실 정해놓고 싼다는 얘기를 동물농장에서 본 거 같은데...",
+            "norm_text": "아 걔네도 화장실 정해놓고 싼다는 얘기를 동물농장에서 본 거 같은데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+걔/NP+네/XSN+도/JX+화장실/NNG+정해/VV+EC+놓/VX+고/EC+싼다는/VV+ETM+얘기/NNG+를/JKO+동물/NNG+농장/NNG+에서/JKB+본/VV+ETM+거/NNB+같/VA+은데/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어머 그런 우리 집 발코니 앞 비둘기 전용 공중화장실 되어버린 거냐...",
+            "norm_text": "어머 그런 우리 집 발코니 앞 비둘기 전용 공중화장실 되어버린 거냐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어머그런우리집발코니앞비둘기전용공중화장실되어버린거냐/UNKNOWN+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 왓더 설마... 아닐 가능성이 더 높겠지",
+            "norm_text": "키키 왓더 설마... 아닐 가능성이 더 높겠지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+왓/NNG+더/MAG+설마/MAG+./SY+아닐/VCN+ETM+가능/NNG+성/XSN+이/JKS+더/MAG+높/VA+겠/EP+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 근데 비둘기는 극혐인데 요새 유튜브에서 오리나 앵무새나 부엉이 키우는 거 보믄 넘 기여워",
+            "norm_text": "근데 비둘기는 극혐인데 요새 유튜브에서 오리나 앵무새나 부엉이 키우는 거 보믄 넘 기여워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+비둘기/NNG+는/JX+극혐/UNKNOWN+인데/VCP+EC+요새/MAG+유튜브/NNP+에서/JKB+오리/NNG+나/JC+앵무새/NNG+나/JC+부엉이/NNG+키우/VV+는/ETM+거/NNB+보/VV+믄/EC+넘기/VV+여/EC+워/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아 그래? 난 조류는 다 별로야... 무서웡...",
+            "norm_text": "아 그래? 난 조류는 다 별로야... 무서웡...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+난/NP+JX+조류/NNG+는/JX+다/MAG+별로/MAG+야/VCP+EF+./SY+무서/VA+EF+웡/NNP+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞아 무서워 하는 종류가 다 다르잖아",
+            "norm_text": "맞아 무서워 하는 종류가 다 다르잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+무서워하/VV+는/ETM+종류/NNG+가/JKS+다/MAG+다르/VA+잖아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 난 양서류들 다 싫어 징그러웡 물컹한 거 ㅜㅜ",
+            "norm_text": "난 양서류들 다 싫어 징그러웡 물컹한 거 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+양서류/NNG+들/XSN+다/MAG+싫/VA+어/EC+징/MAG+그러/VV+웡/NNP+물컹/XR+한/XSA+ETM+거/NNB+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 으 나도나도 그리고 반려동물로 파충류 키위는 사람들도 이해 못하겠어 키키 아무리 개인취향이라지만",
+            "norm_text": "으 나도나도 그리고 반려동물로 파충류 키위는 사람들도 이해 못하겠어 키키 아무리 개인취향이라지만",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "으/IC+나/NP+도/JX+나/NP+도/JX+그리고/MAJ+반려/NNG+동물/NNG+로/JKB+파충류/NNG+키위/NNG+는/JX+사람/NNG+들/XSN+도/JX+이해/NNG+못/MAG+하/VV+겠/EP+어/EC+키/NNG+키/XSV+ETN+아무리/MAG+개인/NNG+취향/NNG+이/VCP+라지만/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 나도 키우는 사람들 보면 막 예쁘다 잘생겼다 하는데 공감 안 되긴 하더라",
+            "norm_text": "키키 나도 키우는 사람들 보면 막 예쁘다 잘생겼다 하는데 공감 안 되긴 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+키우/VV+는/ETM+사람/NNG+들/XSN+보/VV+면/EC+막/NNG+예쁘/VA+다/EF+잘/MAG+생겼/VV+EP+다/EC+하/VV+는데/EC+공감/NNG+안/MAG+되/VV+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 키키 파충류가 예쁘고 잘생긴 게 어딨어 키키",
+            "norm_text": "아 키키 파충류가 예쁘고 잘생긴 게 어딨어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키파/NNP+충류/NNG+가/JKS+예쁘/VA+고/EC+잘생긴/VA+ETM+게/NNB+JKS+어딨/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 그리고 키우는 것도 까다로운 게 먹이가 나에게 넘사벽이야",
+            "norm_text": "키키 그리고 키우는 것도 까다로운 게 먹이가 나에게 넘사벽이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그리고/MAJ+키우/VV+는/ETM+것/NNB+도/JX+까다로운/VA+ETM+게/NNB+JKS+먹이/NNG+가/JKS+나/NP+에게/JKB+넘사벽/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 막 벌레 애벌레 냉동 새끼쥐...",
+            "norm_text": "막 벌레 애벌레 냉동 새끼쥐...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "막벌레애벌레냉동새끼쥐/UNKNOWN+./SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 으으... 나도 그거 손으로 못 만져서 굶어 죽이겠다",
+            "norm_text": "으으... 나도 그거 손으로 못 만져서 굶어 죽이겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으으/IC+./SY+나/NP+도/JX+그거/NP+손/NNG+으로/JKB+못/MAG+만져서/VV+EC+굶/VV+어/EC+죽이/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 20,
+            "text": "1 : 맞아 그리고 시각적 테러 아니냐",
+            "norm_text": "맞아 그리고 시각적 테러 아니냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아/IC+그리고/MAJ+시각/NNG+적/XSN+테러/NNG+아니/VCN+냐/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 키키 맞아 자다가도 소름 돋을 거 같아",
+            "norm_text": "키키 맞아 자다가도 소름 돋을 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+자/VV+다가/EC+도/JX+소름/NNG+돋/VV+EP+을/ETM+거/NNB+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

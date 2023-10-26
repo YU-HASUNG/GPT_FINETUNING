@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 33985,
+    "name": "KAKAO_847_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402041859/KAKAO_847_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402041859/KAKAO_847_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39753,
+      "filename": "KAKAO_847_15.txt",
+      "title": "KAKAO_847_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 417,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 417,
+        "word_size": 136,
+        "text": "1 : 와 엄마 내가 보낸 링크 뉴스 봐 바\n2 : 이게 뭔데? 이상한 거 아니야?\n1 : 아 이상한 거 아니야 기사 링크야\n2 : 알겠어~ 봐 보고 올게\n1 : 엄마 봤어? 대박이지\n2 : 죽은 아빠 정자로? 뭐 이런 일이 다 있대?\n1 : 그치 대박이지... 어떻게 이런 일이 가능해?\n2 : 와... 그러면 죽은 시신에서도 생명력이 있다는 거잖아\n1 : 사망 후 24시간 이내까지는 정자를 얻을 수 있대\n2 : 진짜 인체는 신비로운 것 같다~ 진짜 세상에 이런 일이네~\n1 : 키키 진짜 세상엔 너무 신기한 일들이 많다\n2 : 엄마는 우리 딸이 엄마 딸이라는 것도 신기해~\n1 : 엥 키키 엄마가 낳아 놓고 그게 뭐가 신기한가?\n2 : 어쩜 이렇게 이쁜 딸이 엄마 뱃속에서 나왔나 몰라~\n1 : 어이구? 갑자기 또 왜 이러십니까\n2 : 엄마 딸로 태어나 줘서 고마워~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 와 엄마 내가 보낸 링크 뉴스 봐 바",
+            "norm_text": "와 엄마 내가 보낸 링크 뉴스 봐 바",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "와/IC+엄마/NNG+내/NP+가/JKS+보낸/VV+ETM+링크/NNG+뉴스/NNG+봐/VV+바/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이게 뭔데? 이상한 거 아니야?",
+            "norm_text": "이게 뭔데? 이상한 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이게/NP+JKS+뭔데/NP+VCP+EF+이상/NNG+한/XSA+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 이상한 거 아니야 기사 링크야",
+            "norm_text": "아 이상한 거 아니야 기사 링크야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+이상/NNG+한/XSA+ETM+거/NNB+아니/VCN+야/EC+기사/NNG+링/JKO+크/VA+야/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 알겠어~ 봐 보고 올게",
+            "norm_text": "알겠어~ 봐 보고 올게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "알/VV+겠/EP+어/EC+~/SY+봐/VV+EC+보/VX+고/EC+올게/VV+ETM+NNB+JKS"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엄마 봤어? 대박이지",
+            "norm_text": "엄마 봤어? 대박이지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+봤/VV+EP+어/EF+대박/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 죽은 아빠 정자로? 뭐 이런 일이 다 있대?",
+            "norm_text": "죽은 아빠 정자로? 뭐 이런 일이 다 있대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "죽/VV+은/ETM+아빠/NNG+정자/NNG+로/JKB+뭐/IC+이런/MM+일/NNG+이/VCP+다/EC+있/VX+대/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그치 대박이지... 어떻게 이런 일이 가능해?",
+            "norm_text": "그치 대박이지... 어떻게 이런 일이 가능해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+대박/NNG+이/VCP+지/EF+./SY+어떻게/MAG+이런/MM+일/NNG+이/JKS+가능/NNG+해/XSV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 와... 그러면 죽은 시신에서도 생명력이 있다는 거잖아",
+            "norm_text": "와... 그러면 죽은 시신에서도 생명력이 있다는 거잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+그러/VV+면/EC+죽/VV+은/ETM+시신/NNG+에서/JKB+도/JX+생명력/NNG+이/JKS+있/VV+다는/ETM+거/NNB+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 사망 후 24시간 이내까지는 정자를 얻을 수 있대",
+            "norm_text": "사망 후 24시간 이내까지는 정자를 얻을 수 있대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사망/NNG+후/NNG+24/SN+시간/NNBC+이내/NNG+까지/JX+는/JX+정자/NNG+를/JKO+얻/VV+을/ETM+수/NNB+있/VV+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 진짜 인체는 신비로운 것 같다~ 진짜 세상에 이런 일이네~",
+            "norm_text": "진짜 인체는 신비로운 것 같다~ 진짜 세상에 이런 일이네~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+인체/NNG+는/JX+신비/NNG+로운/XSA+ETM+것/NNB+같/VA+다/EC+~/SY+진짜/MAG+세상/NNG+에/JKB+이런/MM+일/NNG+이/VCP+네/EF+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 진짜 세상엔 너무 신기한 일들이 많다",
+            "norm_text": "키키 진짜 세상엔 너무 신기한 일들이 많다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+진짜/MAG+세상/NNG+엔/JKB+JX+너무/MAG+신기/XR+한/XSA+ETM+일/NNG+들/XSN+이/JKS+많/VA+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 엄마는 우리 딸이 엄마 딸이라는 것도 신기해~",
+            "norm_text": "엄마는 우리 딸이 엄마 딸이라는 것도 신기해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+는/JX+우리/NP+딸/NNG+이/JKS+엄마/NNG+딸/NNG+이/VCP+라는/ETM+것/NNB+도/JX+신기/XR+해/XSA+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 엥 키키 엄마가 낳아 놓고 그게 뭐가 신기한가?",
+            "norm_text": "엥 키키 엄마가 낳아 놓고 그게 뭐가 신기한가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥키/NNP+키/NNG+엄마/NNG+가/JKS+낳/VV+아/EC+놓/VX+고/EC+그게/NP+JKS+뭐/NP+가/JKS+신기/XR+한가/XSA+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 어쩜 이렇게 이쁜 딸이 엄마 뱃속에서 나왔나 몰라~",
+            "norm_text": "어쩜 이렇게 이쁜 딸이 엄마 뱃속에서 나왔나 몰라~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어쩜/IC+이렇게/MAG+이쁜/VA+ETM+딸/NNG+이/JKS+엄마/NNG+뱃속/NNG+에서/JKB+나왔/VV+EP+나몰라/NNP+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 어이구? 갑자기 또 왜 이러십니까",
+            "norm_text": "어이구? 갑자기 또 왜 이러십니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어이구/IC+갑자기/MAG+또/MAG+왜/MAG+이러/VV+십니까/EP+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 엄마 딸로 태어나 줘서 고마워~",
+            "norm_text": "엄마 딸로 태어나 줘서 고마워~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+딸/NNG+로/JKB+태어나/VV+EC+줘서/VX+EC+고마워/VA+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

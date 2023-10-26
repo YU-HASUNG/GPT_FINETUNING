@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34293,
+    "name": "KAKAO_621_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754057386/KAKAO_621_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140754057386/KAKAO_621_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34141,
+      "filename": "KAKAO_621_03.txt",
+      "title": "KAKAO_621_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 590,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 590,
+        "word_size": 178,
+        "text": "1 : 아버님 전기차 사신다고 알아 보신다며? 다른 자동차 종류는 안 알아 보시고 ?\n2 : 응 전기차가 그나마 유류비 덜 나오니깐 사신다고 알아보고 계시드라구.\n1 : 시골인데 거긴 충전할 곳이 많나?\n2 : 집 앞에 주민 센터 있어서 충전 할 곳 많다고 괜찮다고 하시더라구.\n1 : 그러게 요새 전기차가 대세이긴 해.\n2 : 응 지금 유류비 너무 많이 나와서 노령 연금으로 살기 빠듯하다고 하시니깐 괜찮을 것 같아.\n1 : 기존 타고 다니던 SUV로 알아봐야겠네?\n2 : 그렇지, 아빠는 SUV아니면 안타. 승용차 이런 건 너무 작고 짐 실을 곳도 작다고 싫어하셔.\n1 : 맞아, 아버님 차에 별거 많이 들어 가 있잖아.\n2 : 응 아이스 박스에 음료수 아이스크림부터 커피 포트 , 라면 포트 등등.\n1 : 밖에서 언제든 차박 해도 될 정도로 싸가지고 다니시지...ㅋ\n2 : 그럴려면 SUV가 딱 이긴해.\n1 : 응 아버님 성향엔 그런 차량이 딱 맞는듯.\n2 : 뭐 추천할 자동차 종류 있어? 있음 아빠한테 추천해보게~\n1 : 음 생각 해 볼께.\n1 : 아버님이 디자인 어떤 거 더 원하시는지 물어보고 사양 맞게 생각해 볼께\n2 : 응 그래 난 자동차 종류 잘 몰라서~ 부탁해~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아버님 전기차 사신다고 알아 보신다며? 다른 자동차 종류는 안 알아 보시고 ?",
+            "norm_text": "아버님 전기차 사신다고 알아 보신다며? 다른 자동차 종류는 안 알아 보시고 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아버님/NNG+전기/NNG+차/NNG+사신다고/VV+EP+EC+알아보/VV+신다며/EP+VCP+EC+다른/MM+자동차/NNG+종류/NNG+는/JX+안/MAG+알아보/VV+시/EP+고/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 전기차가 그나마 유류비 덜 나오니깐 사신다고 알아보고 계시드라구.",
+            "norm_text": "응 전기차가 그나마 유류비 덜 나오니깐 사신다고 알아보고 계시드라구.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+전기차/NNP+가/JKS+그나마/MAG+유류/NNG+비/NNG+덜/MAG+나오/VV+니깐/EC+사신다고/VV+EP+EC+알아보/VV+고/EC+계시/VX+드라구/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 시골인데 거긴 충전할 곳이 많나?",
+            "norm_text": "시골인데 거긴 충전할 곳이 많나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "시골/NNG+인데/VCP+EC+거긴/NP+JX+충전/NNG+할/XSV+ETM+곳/NNG+이/JKS+많/VA+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 집 앞에 주민 센터 있어서 충전 할 곳 많다고 괜찮다고 하시더라구.",
+            "norm_text": "집 앞에 주민 센터 있어서 충전 할 곳 많다고 괜찮다고 하시더라구.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집/NNG+앞/NNG+에/JKB+주민/NNG+센터/NNG+VCP+EC+있/VX+어서/EC+충전/NNG+할/XSV+ETM+곳/NNB+많/VA+다고/EC+괜찮/VA+다고/EC+하/VX+시/EP+더라구/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러게 요새 전기차가 대세이긴 해.",
+            "norm_text": "그러게 요새 전기차가 대세이긴 해.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+요새/MAG+전기차/NNP+가/JKS+대세/NNG+이/VCP+긴/ETN+JX+해/VX+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 지금 유류비 너무 많이 나와서 노령 연금으로 살기 빠듯하다고 하시니깐 괜찮을 것 같아.",
+            "norm_text": "응 지금 유류비 너무 많이 나와서 노령 연금으로 살기 빠듯하다고 하시니깐 괜찮을 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+지금/MAG+유류/NNG+비/NNG+너무/MAG+많이/MAG+나와서/VV+EC+노령/NNG+연금/NNG+으로/JKB+살/VV+기/ETN+빠듯/XR+하/XSA+다고/EC+하/VX+시/EP+니깐/EC+괜찮/VA+을/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 기존 타고 다니던 SUV로 알아봐야겠네?",
+            "norm_text": "기존 타고 다니던 SUV로 알아봐야겠네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "기존/NNG+타/VV+고/EC+다니/VV+던/ETM+SUV/SL+로/JKB+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그렇지, 아빠는 SUV아니면 안타. 승용차 이런 건 너무 작고 짐 실을 곳도 작다고 싫어하셔.",
+            "norm_text": "그렇지, 아빠는 SUV아니면 안타. 승용차 이런 건 너무 작고 짐 실을 곳도 작다고 싫어하셔.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EF+,/SC+아빠/NNG+는/JX+SUV/SL+아니/VCN+면/EC+안/MAG+타/VV+EF+승용차/NNG+이런/MM+건/NNB+JX+너무/MAG+작/VA+고/EC+짐/NNG+실/NNG+을/JKO+곳/NNG+도/JX+작/VA+다고/EC+싫/VA+어/EC+하/VX+셔/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞아, 아버님 차에 별거 많이 들어 가 있잖아.",
+            "norm_text": "맞아, 아버님 차에 별거 많이 들어 가 있잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+,/SC+아버님/NNG+차/NNG+에/JKB+별거/NNG+많이/MAG+들어가/VV+EC+있/VX+잖아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 아이스 박스에 음료수 아이스크림부터 커피 포트 , 라면 포트 등등.",
+            "norm_text": "응 아이스 박스에 음료수 아이스크림부터 커피 포트 , 라면 포트 등등.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아이스박스/NNG+에/JKB+음료수/NNG+아이스크림/NNG+부터/JX+커피포트/NNG+,/SC+라면/NNG+포트/NNG+등등/NNB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 밖에서 언제든 차박 해도 될 정도로 싸가지고 다니시지...ㅋ",
+            "norm_text": "밖에서 언제든 차박 해도 될 정도로 싸가지고 다니시지...ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밖/NNG+에서/JKB+언제/NP+든/VCP+EC+차/NNG+박해/NNG+도/JX+될/VV+ETM+정도/NNG+로/JKB+싸/VV+EC+가지/VX+고/EC+다니/VV+시/EP+지/EF+./SY+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그럴려면 SUV가 딱 이긴해.",
+            "norm_text": "그럴려면 SUV가 딱 이긴해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴려면/VA+EC+SUV/SL+가/JKS+딱/MAG+이/VCP+긴/ETN+JX+해/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 아버님 성향엔 그런 차량이 딱 맞는듯.",
+            "norm_text": "응 아버님 성향엔 그런 차량이 딱 맞는듯.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아버님/NNG+성향/NNG+엔/JKB+JX+그런/MM+차량/NNG+이/JKS+딱/MAG+맞/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 14,
+            "text": "2 : 뭐 추천할 자동차 종류 있어? 있음 아빠한테 추천해보게~",
+            "norm_text": "뭐 추천할 자동차 종류 있어? 있음 아빠한테 추천해보게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+추천/NNG+할/XSV+ETM+자동차/NNG+종류/NNG+있/VA+어/EF+있/VV+음/ETN+아빠/NNG+한테/JKB+추천/NNG+해/XSV+EC+보/VX+게/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 음 생각 해 볼께.",
+            "norm_text": "음 생각 해 볼께.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+생각/NNG+해/XSV+EC+볼께/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아버님이 디자인 어떤 거 더 원하시는지 물어보고 사양 맞게 생각해 볼께",
+            "norm_text": "아버님이 디자인 어떤 거 더 원하시는지 물어보고 사양 맞게 생각해 볼께",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아버님/NNG+이/JKS+디자인/NNG+어떤/MM+거/NNB+더/MAG+원/NNG+하/XSV+시/EP+는지/EC+물/VV+어/EC+보/VX+고/EC+사양/NNG+맞/VV+게/EC+생각/NNG+해/XSV+EC+볼께/VX+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 그래 난 자동차 종류 잘 몰라서~ 부탁해~!",
+            "norm_text": "응 그래 난 자동차 종류 잘 몰라서~ 부탁해~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "응/IC+그래/IC+난/NP+JX+자동차/NNG+종류/NNG+잘/MAG+몰라서/VV+EC+~/SY+부탁/NNG+해/XSV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 21234,
+    "name": "KAKAO_456_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818022776/KAKAO_456_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916135818022776/KAKAO_456_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27751,
+      "filename": "KAKAO_456_01.txt",
+      "title": "KAKAO_456_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 650,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 650,
+        "word_size": 207,
+        "text": "1 : 나 불날개 너무 먹고 싶어서 어제 밤에 배달시켜 먹었어\n2 : 워 역시 뻘건 건 야식으로 먹어야 제맛...! 속은 개안나!\n1 : 아니 한번 먹으면 다음날 속 뒤집어져 키키\n1 : 배고프다 아침 먹음?\n2 : ㅎ... 근데 또 매운 건 그 맛에 먹는 거...키키\n2 : 어제 술 먹고 방금 인나서 아침은 생각도 안 남 ㅠㅠ\n1 : 헐 숙취해소제 먹어 키키 깨수깡!\n2 : 사러 나가기 귀찮...ㅠㅠ\n2 : 누나는 아침 뭇나 보통 잘 안 묵자누\n1 : 아침엔 잠이지... 먹을 시간도 아까워 점심에 해장 ㄱ?\n2 : 역시... 키키 해장해야지 ㅠㅠ 짬뽕 드쉴...?\n1 : 헐 개좋아 삼선짬뽕 각이다!\n1 : 탕수육도 시키자\n2 : ...그러다가 해장하러 가서 또 술 먹을 것 같은데 키키 삼선짬뽕엔 술 필수임 ㅠㅠ\n1 : 키키 어제 너 나랑 술 먹고 취했자나\n1 : 짬뽕 맛집 알아?\n2 : 아 맞네 술이 덜 깼나 어제 같이 놀았지...\n2 : 짬뽕은 동네 맛집 아니면 무난하게 이비가 짬뽕 좋드라!\n1 : 이비가 좋지좋지 키키\n1 : 그럼 이따 12시까지 우리 동네로 와\n2 : 엌 키키 시간 촉박한디... 양치만 하고 모자 쓰고 갑니다 키키\n2 : 해장 함 제대로 하입시더,\n1 : 늦으면 너가 계산한다^^\n1 : 먹고 디저트 맛집 뚫어놨어 거기가자ㅔ\n2 : 오 디저트까지 키키 식도락 가자ㅏㅏ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 불날개 너무 먹고 싶어서 어제 밤에 배달시켜 먹었어",
+            "norm_text": "나 불날개 너무 먹고 싶어서 어제 밤에 배달시켜 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나불/NNG+날개/NNG+너무/MAG+먹/VV+고/EC+싶/VX+어서/EC+어제/MAG+밤/NNG+에/JKB+배달/NNG+시켜/XSV+EC+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 워 역시 뻘건 건 야식으로 먹어야 제맛...! 속은 개안나!",
+            "norm_text": "워 역시 뻘건 건 야식으로 먹어야 제맛...! 속은 개안나!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "워/IC+역시/MAJ+뻘건/VA+ETM+건/NNB+JX+야식/NNG+으로/JKB+먹/VV+어야제/EC+맛/NNG+./SY+./SY+속/NNG+은/JX+개/NNG+안/MAG+나/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 한번 먹으면 다음날 속 뒤집어져 키키",
+            "norm_text": "아니 한번 먹으면 다음날 속 뒤집어져 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+한/MM+번/NNBC+먹/VV+으면/EC+다음/NNG+날/NNG+속/NNG+뒤집/VV+어/EC+져/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 배고프다 아침 먹음?",
+            "norm_text": "배고프다 아침 먹음?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "배고프/VA+다/EC+아침/NNG+먹/VV+음/ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : ㅎ... 근데 또 매운 건 그 맛에 먹는 거...키키",
+            "norm_text": "ㅎ... 근데 또 매운 건 그 맛에 먹는 거...키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅎ/XSA+./SY+근데/MAJ+또/MAG+매운/VA+ETM+건/NNB+JX+그/MM+맛/NNG+에/JKB+먹/VV+는/ETM+거/NNB+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어제 술 먹고 방금 인나서 아침은 생각도 안 남 ㅠㅠ",
+            "norm_text": "어제 술 먹고 방금 인나서 아침은 생각도 안 남 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+제술/NNG+먹/VV+고/EC+방금/MAG+인나/VV+서/EC+아침/NNG+은/JX+생각/NNG+도/JX+안/MAG+남/VV+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헐 숙취해소제 먹어 키키 깨수깡!",
+            "norm_text": "헐 숙취해소제 먹어 키키 깨수깡!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "헐숙/NNG+취해/VV+EC+소제/NNG+먹/VV+어/EC+키/NNG+키/XSV+ETN+깨/VV+수/EC+깡/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 사러 나가기 귀찮...ㅠㅠ",
+            "norm_text": "사러 나가기 귀찮...ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사/VV+러/EC+나가/VX+기/ETN+귀찮/VA+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 누나는 아침 뭇나 보통 잘 안 묵자누",
+            "norm_text": "누나는 아침 뭇나 보통 잘 안 묵자누",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누나/NNG+는/JX+아침/NNG+뭇/VV+나/EC+보통/NNG+잘/MAG+안/MAG+묵/VV+자/EC+누/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아침엔 잠이지... 먹을 시간도 아까워 점심에 해장 ㄱ?",
+            "norm_text": "아침엔 잠이지... 먹을 시간도 아까워 점심에 해장 ㄱ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아침/NNG+엔/JKB+JX+잠/NNG+이/VCP+지/EF+./SY+먹/VV+을/ETM+시간/NNG+도/JX+아까워/VA+EC+점심/NNG+에/JKB+해장/NNG+ㄱ/NNG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 역시... 키키 해장해야지 ㅠㅠ 짬뽕 드쉴...?",
+            "norm_text": "역시... 키키 해장해야지 ㅠㅠ 짬뽕 드쉴...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "역시/MAJ+./SY+키/NNG+키/NNG+해장/NNG+해야지/XSV+EC+ㅠㅠ/UNKNOWN+짬뽕/NNG+드/NNG+쉴/VV+ETM+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 헐 개좋아 삼선짬뽕 각이다!",
+            "norm_text": "헐 개좋아 삼선짬뽕 각이다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+개/NNBC+좋/VA+아/EC+삼선/NNG+짬뽕/NNG+각/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 탕수육도 시키자",
+            "norm_text": "탕수육도 시키자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "탕수육/NNG+도/JX+시키/VV+자/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : ...그러다가 해장하러 가서 또 술 먹을 것 같은데 키키 삼선짬뽕엔 술 필수임 ㅠㅠ",
+            "norm_text": "...그러다가 해장하러 가서 또 술 먹을 것 같은데 키키 삼선짬뽕엔 술 필수임 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "./SY+./SY+그러/VV+다가/EC+해장/NNG+하/XSV+러/EC+가/VX+서/EC+또/MAG+술/NNG+먹/VV+을/ETM+것/NNB+같/VA+은데/EC+키/NNG+키/NNG+삼선/NNG+짬뽕/NNG+엔/JKB+JX+술/NNG+필수/NNG+임/VCP+ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 어제 너 나랑 술 먹고 취했자나",
+            "norm_text": "키키 어제 너 나랑 술 먹고 취했자나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+어제/MAG+너/NP+나/NP+랑/JKB+술/NNG+먹/VV+고/EC+취했/VV+EP+자/EC+나/VX"
+          },
+          {
+            "id": 16,
+            "text": "1 : 짬뽕 맛집 알아?",
+            "norm_text": "짬뽕 맛집 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "짬뽕/NNG+맛집/NNG+알/VV+아/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 맞네 술이 덜 깼나 어제 같이 놀았지...",
+            "norm_text": "아 맞네 술이 덜 깼나 어제 같이 놀았지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+네/EF+술/NNG+이/JKS+덜/MAG+깼/VV+EP+나/EF+어제/MAG+같이/MAG+놀/VV+았/EP+지/EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 짬뽕은 동네 맛집 아니면 무난하게 이비가 짬뽕 좋드라!",
+            "norm_text": "짬뽕은 동네 맛집 아니면 무난하게 이비가 짬뽕 좋드라!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짬뽕/NNG+은/JX+동네/NNG+맛집/NNG+아니/VCN+면/EC+무난/XR+하/XSA+게/EC+이비/NNG+가/JKS+짬뽕/NNG+좋/VA+드라/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 이비가 좋지좋지 키키",
+            "norm_text": "이비가 좋지좋지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이비/NNG+가/JKS+좋/VA+지/EC+좋/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그럼 이따 12시까지 우리 동네로 와",
+            "norm_text": "그럼 이따 12시까지 우리 동네로 와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그럼/MAJ+이따/MAG+12/SN+시/NNBC+까지/JX+우리/NP+동네/NNG+로와/XSA+EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 엌 키키 시간 촉박한디... 양치만 하고 모자 쓰고 갑니다 키키",
+            "norm_text": "엌 키키 시간 촉박한디... 양치만 하고 모자 쓰고 갑니다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엌키/UNKNOWN+키/NNG+시간/NNG+촉박/NNG+한디/XSV+EC+./SY+./SY+양치/NNG+만/JX+하/VV+고/EC+모자/NNG+쓰/VV+고/EC+갑/VX+니/EC+다키키/NNP"
+          },
+          {
+            "id": 22,
+            "text": "2 : 해장 함 제대로 하입시더,",
+            "norm_text": "해장 함 제대로 하입시더,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "해장/NNG+함/XSV+ETN+제대로/MAG+하/XSA+입/VV+시더/EF+,/SC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 늦으면 너가 계산한다^^",
+            "norm_text": "늦으면 너가 계산한다^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "늦/VA+으면/EC+너/NP+가/JKS+계산/NNG+한다/XSV+EC+^/SY+^/SY"
+          },
+          {
+            "id": 24,
+            "text": "1 : 먹고 디저트 맛집 뚫어놨어 거기가자ㅔ",
+            "norm_text": "먹고 디저트 맛집 뚫어놨어 거기가자ㅔ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "먹/VV+고/EC+디저트/NNG+맛집/NNG+뚫/VV+어/EC+놨/VX+EP+어/EF+거기/NP+가/JKS+자ㅔ/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 오 디저트까지 키키 식도락 가자ㅏㅏ",
+            "norm_text": "오 디저트까지 키키 식도락 가자ㅏㅏ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+디저트/NNG+까지/JX+키/NNG+키/NNG+식도락가/NNG+자/XSN+ㅏㅏ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 55872,
+    "name": "KAKAO_708_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132349050489/KAKAO_708_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929132349050489/KAKAO_708_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 36749,
+      "filename": "KAKAO_708_02.txt",
+      "title": "KAKAO_708_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 479,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 479,
+        "word_size": 161,
+        "text": "1 : 너는 자취하면서 불편한 점 있어? 키키\n2 : 나는 내 방을 정말 깔끔하게 관리하는 편인데 그래도 초파리가 가끔씩 보여\n1 : 아 시골이라 그런가? 키키 트랩 설치해\n2 : 어 트랩 설치할 정도는 아니고 잘 때 한 두마리가 보여서 잡고 자\n1 : 아하 키키 그 정도는 어느 집이나 다 있을 듯\n2 : 키키 근데 잠잘 때 보이면 죽이기 전까지 잠을 못 자 키키\n1 : 바퀴벌레 안 나오는 게 어디야 키키\n2 : 그거 나오면 나 기절할 것 같아\n1 : 아 정말? 너 생각보다 겁 많구나\n2 : 내가 벌레를 엄청 싫어해서 방을 깨끗하게 관리해\n1 : 정말? 키키 자취 하는 방은 새 집이야?\n2 : 새집은 아니고 전에 사람이 쓰던 침대랑 책상 깔끔해서 쓰고 있어\n1 : 아니 신축이냐 이 말이야 키키 건물이 몇 년 되었냐고\n2 : 아 신축은 아닌데 깔끔해서 외관상 보기 좋아\n1 : 그래? 거긴 밑 지방이라 방세 싸겠다\n2 : 응 맞아 30만 원 내고 살고 있어 다음 학기도 살려고",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 자취하면서 불편한 점 있어? 키키",
+            "norm_text": "너는 자취하면서 불편한 점 있어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+자취/NNG+하/XSV+면서/EC+불편/NNG+한/XSA+ETM+점/NNB+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 내 방을 정말 깔끔하게 관리하는 편인데 그래도 초파리가 가끔씩 보여",
+            "norm_text": "나는 내 방을 정말 깔끔하게 관리하는 편인데 그래도 초파리가 가끔씩 보여",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+내방/NNG+을/JKO+정말/MAG+깔끔/XR+하/XSA+게/EC+관리/NNG+하/XSV+는/ETM+편/NNB+인데/VCP+EC+그래도/VV+EC+초파리/NNG+가/JKS+가끔/MAG+씩/XSN+보여/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 시골이라 그런가? 키키 트랩 설치해",
+            "norm_text": "아 시골이라 그런가? 키키 트랩 설치해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아/IC+시골/NNG+이/VCP+라/EC+그런가/VA+EF+키/NNG+키/NNG+트랩/NNG+설치/NNG+해/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어 트랩 설치할 정도는 아니고 잘 때 한 두마리가 보여서 잡고 자",
+            "norm_text": "어 트랩 설치할 정도는 아니고 잘 때 한 두마리가 보여서 잡고 자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+트랩/NNG+설치/NNG+할/XSV+ETM+정도/NNG+는/JX+아니/VCN+고/EC+잘/MAG+때/NNG+한두/MM+마리/NNBC+가/JKS+보여서/VV+EC+잡/VV+고자/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아하 키키 그 정도는 어느 집이나 다 있을 듯",
+            "norm_text": "아하 키키 그 정도는 어느 집이나 다 있을 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+하키/NNG+키/XSV+ETN+그/MM+정도/NNG+는/JX+어느/MM+집/NNG+이나/JC+다/MAG+있/VA+을/ETM+듯/NNB"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 근데 잠잘 때 보이면 죽이기 전까지 잠을 못 자 키키",
+            "norm_text": "키키 근데 잠잘 때 보이면 죽이기 전까지 잠을 못 자 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키근데잠잘때보이면죽이기전까지잠을못자키키/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 바퀴벌레 안 나오는 게 어디야 키키",
+            "norm_text": "바퀴벌레 안 나오는 게 어디야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "바퀴벌레/NNG+안/MAG+나오/VV+는/ETM+게/NNB+JKS+어디/NP+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그거 나오면 나 기절할 것 같아",
+            "norm_text": "그거 나오면 나 기절할 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+나오/VV+면/EC+나/VX+기/ETN+절/NNG+할/XSV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 정말? 너 생각보다 겁 많구나",
+            "norm_text": "아 정말? 너 생각보다 겁 많구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+너/NP+생각/NNG+보다/JKB+겁/NNG+많/VA+구나/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 내가 벌레를 엄청 싫어해서 방을 깨끗하게 관리해",
+            "norm_text": "내가 벌레를 엄청 싫어해서 방을 깨끗하게 관리해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+벌레/NNG+를/JKO+엄청/MAG+싫/VA+어/EC+해서/VV+EC+방/NNG+을/JKO+깨끗/XR+하/XSA+게/EC+관리/NNG+해/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 정말? 키키 자취 하는 방은 새 집이야?",
+            "norm_text": "정말? 키키 자취 하는 방은 새 집이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "정말/MAG+키/NNG+키/NNG+자취/NNG+하/XSV+는/ETM+방/NNG+은/JX+새집/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 새집은 아니고 전에 사람이 쓰던 침대랑 책상 깔끔해서 쓰고 있어",
+            "norm_text": "새집은 아니고 전에 사람이 쓰던 침대랑 책상 깔끔해서 쓰고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "새/MM+집/NNG+은/JX+아니/VCN+고/EC+전/NNG+에/JKB+사람/NNG+이/JKS+쓰/VV+던/ETM+침대/NNG+랑/JKB+책상/NNG+깔끔/XR+해서/XSA+EC+쓰/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아니 신축이냐 이 말이야 키키 건물이 몇 년 되었냐고",
+            "norm_text": "아니 신축이냐 이 말이야 키키 건물이 몇 년 되었냐고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니신축이냐이말이야키키건물이몇년되었냐고/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아 신축은 아닌데 깔끔해서 외관상 보기 좋아",
+            "norm_text": "아 신축은 아닌데 깔끔해서 외관상 보기 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+신축/NNG+은/JX+아닌데/VCN+EC+깔끔/XR+해서/XSA+EC+외관상/NNG+보/VV+기/ETN+좋/VA+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래? 거긴 밑 지방이라 방세 싸겠다",
+            "norm_text": "그래? 거긴 밑 지방이라 방세 싸겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+거긴밑지방이라방세싸겠다/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 맞아 30만 원 내고 살고 있어 다음 학기도 살려고",
+            "norm_text": "응 맞아 30만 원 내고 살고 있어 다음 학기도 살려고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+맞/VV+아/EC+30/SN+만/NR+원/NNBC+내/VV+고/EC+살/VV+고/EC+있/VX+어/EC+다음/NNG+학기/NNG+도/JX+살/VV+려고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

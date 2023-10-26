@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 23879,
+    "name": "KAKAO_548_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151329025876/KAKAO_548_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151329025876/KAKAO_548_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29663,
+      "filename": "KAKAO_548_12.txt",
+      "title": "KAKAO_548_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 586,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 586,
+        "word_size": 189,
+        "text": "1 : 추천하는 여행지 같은 거 뭐 있냐 키키\n2 : 추천하는 여행지? 난 개인적으로 욕지도 좋더라 ㅠㅠ\n1 : 욕지도? 많이 들어보긴 했는데 어디 있어? 키키\n2 : 그게 통영에 있는데 배 타고 또 들어가야 되거든 경치가...죽여줘\n1 : 아~ 경남 쪽에 있구나 ㅜㅜ 내가 가기는 너무 멀다 ㅜ\n2 : 그래 맞제 ㅠㅠ 근데 진짜로 기회가 된다면 가봐 봐 ㅠㅠ\n2 : 닌 추천 여행지 없나\n1 : 난 속초 갔다 왔는데 엄청 좋더라 키키\n2 : 아 ㅠㅠ 나 강원도 진짜 가보고 싶은데 ㅠㅠ 겨울에 갔다 왔어?\n1 : 음 나는 여름 겨울 다 갔다 와봤는데 키키 언제 가도 좋아 키키\n2 : 속초 안에서도 추천할 만한 명소가 어디야? 키키\n1 : 키키 거기 제일 유명한 시장 있는데 키키 닭강정 유명해\n2 : 아 키키 만정 닭강정? 맞나? 키키 티비에서 자주 나오던데 키키 맛있어?\n1 : 아니... 나는 별로더라 키키 근데 엄청 줄서 있어 키키\n2 : 아마 티비로 소문 엄청 타서 그럴 걸 키키\n2 : 속초 하면 오징어순대 아인교?\n1 : 키키 오징어순대 그거 나름 먹을만 하던데 짜더라\n2 : 아 키키 일단 가보기나 했음 좋겠다...\n2 : 오빠한테 가자 해야지 한 5시간 걸릴라나",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 추천하는 여행지 같은 거 뭐 있냐 키키",
+            "norm_text": "추천하는 여행지 같은 거 뭐 있냐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "추천/NNG+하/XSV+는/ETM+여행지/NNG+같/VA+은/ETM+거/NNB+뭐/IC+있/VA+냐/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 추천하는 여행지? 난 개인적으로 욕지도 좋더라 ㅠㅠ",
+            "norm_text": "추천하는 여행지? 난 개인적으로 욕지도 좋더라 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추천/NNG+하/XSV+는/ETM+여행지/NNG+난/NP+JX+개인/NNG+적/XSN+으로/JKB+욕지/NNP+도/JX+좋/VA+더라/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 욕지도? 많이 들어보긴 했는데 어디 있어? 키키",
+            "norm_text": "욕지도? 많이 들어보긴 했는데 어디 있어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "욕지도/NNP+많이/MAG+들/VV+어/EC+보/VX+긴/ETN+JX+했/VX+EP+는데/EC+어디/NP+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그게 통영에 있는데 배 타고 또 들어가야 되거든 경치가...죽여줘",
+            "norm_text": "그게 통영에 있는데 배 타고 또 들어가야 되거든 경치가...죽여줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그게/NP+JKS+통영/NNG+에/JKB+있/VV+는데/EC+배/NNG+타/VV+고/EC+또/MAG+들어가/VV+야/EC+되/VV+거든/EC+경치/NNG+가/JKS+./SY+죽여줘/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아~ 경남 쪽에 있구나 ㅜㅜ 내가 가기는 너무 멀다 ㅜ",
+            "norm_text": "아~ 경남 쪽에 있구나 ㅜㅜ 내가 가기는 너무 멀다 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+~/SY+경남/NNP+쪽/NNB+에/JKB+있/VV+구나/EF+ㅜㅜ/UNKNOWN+내/NP+가/JKS+가/VV+기/ETN+는/JX+너무/MAG+멀/VA+다/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래 맞제 ㅠㅠ 근데 진짜로 기회가 된다면 가봐 봐 ㅠㅠ",
+            "norm_text": "그래 맞제 ㅠㅠ 근데 진짜로 기회가 된다면 가봐 봐 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+맞/VV+제/EC+ㅠㅠ/UNKNOWN+근데/MAJ+진짜/NNG+로/JKB+기회/NNG+가/JKS+된다면/VV+EC+가/JKS+봐/VV+EC+봐/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 닌 추천 여행지 없나",
+            "norm_text": "닌 추천 여행지 없나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "닌추천여행지없나/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 난 속초 갔다 왔는데 엄청 좋더라 키키",
+            "norm_text": "난 속초 갔다 왔는데 엄청 좋더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+속초/NNG+갔다왔/VV+EP+는데/EC+엄청/MAG+좋/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 ㅠㅠ 나 강원도 진짜 가보고 싶은데 ㅠㅠ 겨울에 갔다 왔어?",
+            "norm_text": "아 ㅠㅠ 나 강원도 진짜 가보고 싶은데 ㅠㅠ 겨울에 갔다 왔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+ㅠㅠ/UNKNOWN+나/NP+강원도/NNP+진짜/NNG+가/JKS+보/VV+고/EC+싶/VX+은데/EC+ㅠㅠ/UNKNOWN+겨울/NNG+에/JKB+갔다왔/VV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 음 나는 여름 겨울 다 갔다 와봤는데 키키 언제 가도 좋아 키키",
+            "norm_text": "음 나는 여름 겨울 다 갔다 와봤는데 키키 언제 가도 좋아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+나/NP+는/JX+여름/NNG+겨울/NNG+다/MAG+갔다와/VV+EC+봤/VX+EP+는데/EC+키/NNG+키/XSV+ETN+언제/NP+가/JKS+도/JX+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 속초 안에서도 추천할 만한 명소가 어디야? 키키",
+            "norm_text": "속초 안에서도 추천할 만한 명소가 어디야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "속/NNG+초안/NNG+에서/JKB+도/JX+추천/NNG+할/XSV+ETM+만/NNB+한/XSA+ETM+명소/NNG+가/JKS+어디/NP+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 거기 제일 유명한 시장 있는데 키키 닭강정 유명해",
+            "norm_text": "키키 거기 제일 유명한 시장 있는데 키키 닭강정 유명해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+거기/NP+제일/MAG+유명/NNG+한/XSA+ETM+시장/NNG+있/VV+는데/EC+키키/NNP+닭강정/NNP+유명/NNG+해/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 키키 만정 닭강정? 맞나? 키키 티비에서 자주 나오던데 키키 맛있어?",
+            "norm_text": "아 키키 만정 닭강정? 맞나? 키키 티비에서 자주 나오던데 키키 맛있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아키키만정닭강정/UNKNOWN+맞/VV+나/EF+키/NNG+키/NNG+티비/NNG+에서/JKB+자주/MAG+나오/VV+던데/EC+키/NNG+키/XSV+ETN+맛있/VA+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아니... 나는 별로더라 키키 근데 엄청 줄서 있어 키키",
+            "norm_text": "아니... 나는 별로더라 키키 근데 엄청 줄서 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+./SY+나/NP+는/JX+별로/MAG+더/MAG+라키/NNP+키/NNG+근데/MAJ+엄청/MAG+줄/VV+서/EC+있/VX+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아마 티비로 소문 엄청 타서 그럴 걸 키키",
+            "norm_text": "아마 티비로 소문 엄청 타서 그럴 걸 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+티비/NNG+로/JKB+소문/NNG+엄청/MAG+타/VV+서/EC+그럴/VV+ETM+걸/NNB+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 속초 하면 오징어순대 아인교?",
+            "norm_text": "속초 하면 오징어순대 아인교?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "속초/NNG+하/XSV+면/EC+오징어순대/NNG+아인교/VCN+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 오징어순대 그거 나름 먹을만 하던데 짜더라",
+            "norm_text": "키키 오징어순대 그거 나름 먹을만 하던데 짜더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+오징어순대/NNG+그거/NP+나름/NNB+먹/VV+을/ETM+만/NNB+하/XSA+던데/EC+짜/VV+더라/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아 키키 일단 가보기나 했음 좋겠다...",
+            "norm_text": "아 키키 일단 가보기나 했음 좋겠다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+일/NR+단가/NNG+VCP+EC+보/VX+기/ETN+나/JX+했/VV+EP+음/ETN+좋/VA+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 오빠한테 가자 해야지 한 5시간 걸릴라나",
+            "norm_text": "오빠한테 가자 해야지 한 5시간 걸릴라나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오빠/NNG+한테/JKB+가/VV+자/EC+해야지/VX+EC+한/VX+ETM+5/SN+시간/NNBC+걸릴라/VV+EC+나/VX"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 31873,
+    "name": "KAKAO_661_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109271454090248105/KAKAO_661_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109271454090248105/KAKAO_661_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34417,
+      "filename": "KAKAO_661_19.txt",
+      "title": "KAKAO_661_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 496,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 496,
+        "word_size": 155,
+        "text": "1 : 아 친구들이랑 이야기하는데 대화에 못 끼겠어\n2 : 또 친구들이 연예인 이야기해?\n1 : 아닝 키키 이번엔 무슨 넷플릭스 드라마 이야기하던데?\n2 : 넷플릭스 드라마? DP~?\n1 : 어 뭐야? 너도 그거 알아?\n2 : 내 친구들도 다들 그거 재밌다고 단톡방에서 그러길래 키키\n1 : 그거 군대 이야기라던데? 맞나?\n2 : 탈영병 잡는 헌병 이야기래 키키\n2 : 재밌을 것 같지 않아?\n1 : 군대 이야기면 옛날에 하얀거탑 있지 않았나?\n2 : 푸른거탑이거든요~\n2 : 그래서 DP 같이 넷플릭스로 볼래?\n1 : 아니 근데 군대 이야기가 뭐가 재밌다고 요즘 그렇게 핫한 거야 ㅠ\n2 : 정해인 나와서 더 재밌지 않을까? 키키\n2 : 여자들 정해인 좋아하잖아\n1 : 정해인은 또 누구람... 요즘 연예인 너무 많다...\n2 : 너가 TV를 진짜 안 보긴 하나 보다 키키\n2 : 어떻게 정해인을 모르냐\n1 : 키키 모를 수도 있지 키키\n1 : 너는 DP 보면 옛 군대 생활 새록새록 기억 나겠다?\n2 : 봐 봐야 알지~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 친구들이랑 이야기하는데 대화에 못 끼겠어",
+            "norm_text": "아 친구들이랑 이야기하는데 대화에 못 끼겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+친구/NNG+들/XSN+이랑/JKB+이야기/NNG+하/XSV+는/ETM+데/NNB+대화/NNG+에/JKB+못/MAG+끼/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 또 친구들이 연예인 이야기해?",
+            "norm_text": "또 친구들이 연예인 이야기해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또/MAG+친구/NNG+들/XSN+이/JKS+연예인/NNG+이야기/NNG+해/XSV+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아닝 키키 이번엔 무슨 넷플릭스 드라마 이야기하던데?",
+            "norm_text": "아닝 키키 이번엔 무슨 넷플릭스 드라마 이야기하던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아닝/NNP+키키/NNP+이번/NNG+엔/JKB+JX+무슨/MM+넷플릭스/NNP+드라마/NNG+이야기/NNG+하/XSA+던데/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 넷플릭스 드라마? DP~?",
+            "norm_text": "넷플릭스 드라마? DP~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넷플릭스/NNP+드라마/NNG+?/SY+DP/SL+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 어 뭐야? 너도 그거 알아?",
+            "norm_text": "어 뭐야? 너도 그거 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+뭐/NP+야/VCP+EF+너/NP+도/JX+그거/NP+알/VV+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 내 친구들도 다들 그거 재밌다고 단톡방에서 그러길래 키키",
+            "norm_text": "내 친구들도 다들 그거 재밌다고 단톡방에서 그러길래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+들/XSN+도/JX+다/MAG+들/XSN+그거/NP+재밌/VA+다고/EC+단/MM+톡/NNG+방/NNG+에서/JKB+그러/VV+길래/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그거 군대 이야기라던데? 맞나?",
+            "norm_text": "그거 군대 이야기라던데? 맞나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+군대/NNG+이야기/NNG+라던데/VCP+EF+맞/VV+나/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 탈영병 잡는 헌병 이야기래 키키",
+            "norm_text": "탈영병 잡는 헌병 이야기래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "탈영병/NNG+잡/VV+는/ETM+헌병/NNG+이야기/NNG+래키/NNP+키/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 재밌을 것 같지 않아?",
+            "norm_text": "재밌을 것 같지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "재밌/VA+을/ETM+것/NNB+같/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 군대 이야기면 옛날에 하얀거탑 있지 않았나?",
+            "norm_text": "군대 이야기면 옛날에 하얀거탑 있지 않았나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "군대/NNG+이야기/NNG+면/VCP+EC+옛날/NNG+에/JKB+하얀/VA+ETM+거탑/NNP+있/VV+지/EC+않/VX+았/EP+나/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 푸른거탑이거든요~",
+            "norm_text": "푸른거탑이거든요~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "푸른거탑/NNP+이/VCP+거든요/EF+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그래서 DP 같이 넷플릭스로 볼래?",
+            "norm_text": "그래서 DP 같이 넷플릭스로 볼래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그래서/MAJ+DP/SL+같이/JKB+넷플릭스/NNP+로/JKB+볼래/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아니 근데 군대 이야기가 뭐가 재밌다고 요즘 그렇게 핫한 거야 ㅠ",
+            "norm_text": "아니 근데 군대 이야기가 뭐가 재밌다고 요즘 그렇게 핫한 거야 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+근데/MAJ+군대/NNG+이야기/NNG+가/JKS+뭐/NP+가/JKS+재밌/VA+다고/EC+요즘/MAG+그렇게/MAG+핫/NNG+한/XSA+ETM+거/NNB+야/VCP+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 정해인 나와서 더 재밌지 않을까? 키키",
+            "norm_text": "정해인 나와서 더 재밌지 않을까? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정해인/NNP+나와서/VV+EC+더/MAG+재밌/VA+지/EC+않/VX+을까/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 여자들 정해인 좋아하잖아",
+            "norm_text": "여자들 정해인 좋아하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여자/NNG+들/XSN+정해/NNG+인/VCP+ETM+좋/VA+아/EC+하/VV+잖아/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 정해인은 또 누구람... 요즘 연예인 너무 많다...",
+            "norm_text": "정해인은 또 누구람... 요즘 연예인 너무 많다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정해인/NNP+은/JX+또/MAG+누구/NP+람/VCP+EF+./SY+요즘/MAG+연예인/NNG+너무/MAG+많/VA+다/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 너가 TV를 진짜 안 보긴 하나 보다 키키",
+            "norm_text": "너가 TV를 진짜 안 보긴 하나 보다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+가/JKS+TV/SL+를/JKO+진짜/MAG+안/MAG+보/VV+긴/ETN+JX+하나/NR+보다/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 어떻게 정해인을 모르냐",
+            "norm_text": "어떻게 정해인을 모르냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떻게/MAG+정해인/NNP+을/JKO+모르/VV+냐/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 키키 모를 수도 있지 키키",
+            "norm_text": "키키 모를 수도 있지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "키/NNG+키/XSV+ETN+모를/VV+ETM+수/NNB+도/JX+있/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 너는 DP 보면 옛 군대 생활 새록새록 기억 나겠다?",
+            "norm_text": "너는 DP 보면 옛 군대 생활 새록새록 기억 나겠다?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+DP/SL+보/VV+면/EC+옛/MM+군대/NNG+생활/NNG+새록새록/MAG+기억나/VV+겠/EP+다/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 봐 봐야 알지~",
+            "norm_text": "봐 봐야 알지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "봐/VV+EC+봐야/VX+EC+알/VV+지/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

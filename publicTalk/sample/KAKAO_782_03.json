@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44639,
+    "name": "KAKAO_782_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413022811/KAKAO_782_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413022811/KAKAO_782_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38294,
+      "filename": "KAKAO_782_03.txt",
+      "title": "KAKAO_782_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 465,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 465,
+        "word_size": 161,
+        "text": "1 : 너 통학할 때 기차는 안 타고 다녀?\n2 : 나는 통학할 때 전철만 타는 것 같아\n1 : 기차도 정기권 끊으면 싸잖아!\n2 : 그렇기는 한데 거리가 그렇게 멀진 않아서 그냥 1호선 타고 다녀\n1 : 아하 하긴 기차는 얼마 정도 하는데?\n2 : 왕복에 2천 원이면 해결할 수 있으니까 그걸 타는 편이야\n1 : 아 지하철이 왕복 2천 원이라고? 키키\n2 : 응 엄청 싼 거 같아 굳이 먼 거리 이동하는 거 아니면 기차는 안 타\n1 : 나는 지하철 안 타서 모르는데 되게 괜찮네\n2 : 어 맞아 디게 싼 거 같아 나중에 늙으면 공짜로 탈 수 있음 키키\n1 : 근데 시외 요금은 몇 원 더 붙지 않아?\n2 : 정확히는 나도 모르겠다 싸서 따로 가격을 본 적은 없어\n1 : 그럼 월에 교통비는 얼마 정도 내는데?\n2 : 전철비만 하면 2만 원도 안 나와\n1 : 아 나는 주로 버스 많이 타는데 한 달에 5만 원 넘게 나와\n2 : 경기도 버스가 많이 비싸긴 하네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 통학할 때 기차는 안 타고 다녀?",
+            "norm_text": "너 통학할 때 기차는 안 타고 다녀?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+통학/NNG+할/XSV+ETM+때기/NNG+차/NNG+는/JX+안/MAG+타/VV+고/EC+다녀/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 통학할 때 전철만 타는 것 같아",
+            "norm_text": "나는 통학할 때 전철만 타는 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+통학/NNG+할/XSV+ETM+때/NNG+전철/NNG+만/JX+타/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 기차도 정기권 끊으면 싸잖아!",
+            "norm_text": "기차도 정기권 끊으면 싸잖아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기차/NNG+도/JX+정기/NNG+권/XSN+끊/VV+으면/EC+싸/VX+잖아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그렇기는 한데 거리가 그렇게 멀진 않아서 그냥 1호선 타고 다녀",
+            "norm_text": "그렇기는 한데 거리가 그렇게 멀진 않아서 그냥 1호선 타고 다녀",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+기/ETN+는/JX+한데/VX+EC+거리/NNG+가/JKS+그렇게/MAG+멀/VA+진/EC+JX+않/VX+아서/EC+그냥/MAG+1/SN+호/NNBC+선/NNG+타/VV+고/EC+다녀/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아하 하긴 기차는 얼마 정도 하는데?",
+            "norm_text": "아하 하긴 기차는 얼마 정도 하는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하하/MAG+긴/VA+ETM+기차/NNG+는/JX+얼마/NNG+정도/NNG+하/XSV+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 왕복에 2천 원이면 해결할 수 있으니까 그걸 타는 편이야",
+            "norm_text": "왕복에 2천 원이면 해결할 수 있으니까 그걸 타는 편이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왕복/NNG+에/JKB+2/SN+천/NR+원/NNBC+이/VCP+면/EC+해결/NNG+할/XSV+ETM+수/NNB+있/VV+으니까/EC+그걸/NP+JKO+타/VV+는/ETM+편/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 지하철이 왕복 2천 원이라고? 키키",
+            "norm_text": "아 지하철이 왕복 2천 원이라고? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+지하철/NNG+이/JKS+왕복/NNG+2/SN+천/NR+원/NNBC+이/VCP+라고/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응 엄청 싼 거 같아 굳이 먼 거리 이동하는 거 아니면 기차는 안 타",
+            "norm_text": "응 엄청 싼 거 같아 굳이 먼 거리 이동하는 거 아니면 기차는 안 타",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+엄청/MAG+싼/VA+ETM+거/NNB+같/VA+아/EC+굳이/MAG+먼/VA+ETM+거리/NNG+이동/NNG+하/XSV+는/ETM+거/NNB+아니/VCN+면/EC+기차/NNG+는/JX+안/MAG+타/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나는 지하철 안 타서 모르는데 되게 괜찮네",
+            "norm_text": "나는 지하철 안 타서 모르는데 되게 괜찮네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+지하철/NNG+안/MAG+타/VV+서/EC+모르/VV+는데/EC+되게/MAG+괜찮/VA+네/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 어 맞아 디게 싼 거 같아 나중에 늙으면 공짜로 탈 수 있음 키키",
+            "norm_text": "어 맞아 디게 싼 거 같아 나중에 늙으면 공짜로 탈 수 있음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+맞/VV+아/EC+디/VX+게/EC+싼/VA+ETM+거/NNB+같/VA+아/EC+나중/NNG+에/JKB+늙/VV+으면/EC+공짜/NNG+로/JKB+탈/VV+ETM+수/NNB+있/VV+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 시외 요금은 몇 원 더 붙지 않아?",
+            "norm_text": "근데 시외 요금은 몇 원 더 붙지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+시외/NNG+요금/NNG+은/JX+몇/MM+원/NNBC+더/MAG+붙/VV+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 정확히는 나도 모르겠다 싸서 따로 가격을 본 적은 없어",
+            "norm_text": "정확히는 나도 모르겠다 싸서 따로 가격을 본 적은 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정확히/MAG+는/JX+나/NP+도/JX+모르/VV+겠/EP+다/EC+싸서/VX+EC+따로/MAG+가격/NNG+을/JKO+본/VV+ETM+적/NNB+은/JX+없/VA+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 월에 교통비는 얼마 정도 내는데?",
+            "norm_text": "그럼 월에 교통비는 얼마 정도 내는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+월/NNG+에/JKB+교통비/NNG+는/JX+얼마/NNG+정도/NNG+내/VV+는데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 전철비만 하면 2만 원도 안 나와",
+            "norm_text": "전철비만 하면 2만 원도 안 나와",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전철/NNG+비만/NNG+하/XSV+면/EC+2/SN+만/NR+원/NNBC+도/JX+안/MAG+나와/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아 나는 주로 버스 많이 타는데 한 달에 5만 원 넘게 나와",
+            "norm_text": "아 나는 주로 버스 많이 타는데 한 달에 5만 원 넘게 나와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+는/JX+주로/MAG+버스/NNG+많이/MAG+타/VV+는데/EC+한/MM+달/NNG+에/JKB+5/SN+만/NR+원/NNBC+넘/VV+게/EC+나와/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 경기도 버스가 많이 비싸긴 하네",
+            "norm_text": "경기도 버스가 많이 비싸긴 하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "경기도/NNP+버스/NNG+가/JKS+많이/MAG+비싸/VA+긴/ETN+JX+하/VX+네/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

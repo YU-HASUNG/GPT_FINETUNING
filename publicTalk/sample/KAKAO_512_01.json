@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 24318,
+    "name": "KAKAO_512_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145429096971/KAKAO_512_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145429096971/KAKAO_512_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29112,
+      "filename": "KAKAO_512_01.txt",
+      "title": "KAKAO_512_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 342,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 342,
+        "word_size": 117,
+        "text": "1 : 솨야 오늘 저녁 뭐 먹었어?\n2 : 오늘은 생선! 비 오는 날은 막걸리인데\n1 : 마자 오늘 거기도 비 왔어?\n2 : 비가 갑자기 쏟아지더라구\n1 : 아기 때문에 그 댁은 식단 신경 좀 쓰겠어 하하\n2 : 맞아 먹고 싶은 게 있어도 다시 생각하게 돼\n1 : 우리 집은 거의 정크푸드 수준이야 키키\n2 : 아기 영향이 엄청나 키키\n1 : 그냥 귀찮아서 배달 엄청 시켜ㅠㅠ\n2 : 나도 아기 없었으면 그렜을거야\n1 : 응 아기 있으면 엄청 신경 쓰일듯 ㄷㄷ\n2 : 아기 덕분에 건강식 먹게 되지 키키\n1 : 내일 식단도 짜뒀어?\n2 : 그럼 머릿속에 식단 쫘르르르륵\n1 : 근데 넌 원래 한식파잖아 키키\n2 : 장도 매주 보는 거 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 솨야 오늘 저녁 뭐 먹었어?",
+            "norm_text": "솨야 오늘 저녁 뭐 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "솨/MAG+야/IC+오늘/MAG+저녁/NNG+뭐/IC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘은 생선! 비 오는 날은 막걸리인데",
+            "norm_text": "오늘은 생선! 비 오는 날은 막걸리인데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/NNG+은/JX+생선/NNG+비오/VV+는/ETM+날/NNG+은/JX+막걸리/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 마자 오늘 거기도 비 왔어?",
+            "norm_text": "마자 오늘 거기도 비 왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "마자/NNG+오늘/MAG+거기/NP+도/JX+비/VV+EC+왔/VX+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 비가 갑자기 쏟아지더라구",
+            "norm_text": "비가 갑자기 쏟아지더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비/NNG+가/JKS+갑자기/MAG+쏟아지/VV+더라구/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아기 때문에 그 댁은 식단 신경 좀 쓰겠어 하하",
+            "norm_text": "아기 때문에 그 댁은 식단 신경 좀 쓰겠어 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아기/NNG+때문/NNB+에/JKB+그/MM+댁/NNG+은/JX+식단/NNG+신경/NNG+좀/MAG+쓰/VV+겠/EP+어/EC+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 먹고 싶은 게 있어도 다시 생각하게 돼",
+            "norm_text": "맞아 먹고 싶은 게 있어도 다시 생각하게 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+먹/VV+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+어도/EC+다시/MAG+생각/NNG+하/XSV+게/EC+돼/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 우리 집은 거의 정크푸드 수준이야 키키",
+            "norm_text": "우리 집은 거의 정크푸드 수준이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+집/NNG+은/JX+거의/MAG+정크푸드/NNP+수준/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아기 영향이 엄청나 키키",
+            "norm_text": "아기 영향이 엄청나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아기/NNG+영향/NNG+이/JKS+엄청나/VA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그냥 귀찮아서 배달 엄청 시켜ㅠㅠ",
+            "norm_text": "그냥 귀찮아서 배달 엄청 시켜ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+귀찮/VA+아서/EC+배달/NNG+엄청/MAG+시켜/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 아기 없었으면 그렜을거야",
+            "norm_text": "나도 아기 없었으면 그렜을거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+아기/NNG+없/VA+었/EP+으면/EC+그렜/VV+EP+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응 아기 있으면 엄청 신경 쓰일듯 ㄷㄷ",
+            "norm_text": "응 아기 있으면 엄청 신경 쓰일듯 ㄷㄷ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+아기/NNG+있/VV+으면/EC+엄청/MAG+신경/NNG+쓰일/VV+ETM+듯/NNB+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아기 덕분에 건강식 먹게 되지 키키",
+            "norm_text": "아기 덕분에 건강식 먹게 되지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아기/NNG+덕분/NNG+에/JKB+건강식/NNG+먹/VV+게/EC+되/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 내일 식단도 짜뒀어?",
+            "norm_text": "내일 식단도 짜뒀어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내일/MAG+식단/NNG+도/JX+짜/VA+EC+뒀/VX+EP+어/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그럼 머릿속에 식단 쫘르르르륵",
+            "norm_text": "그럼 머릿속에 식단 쫘르르르륵",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+머릿속/NNG+에/JKB+식단/NNG+쫘르르/MAG+르/NNG+륵/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 근데 넌 원래 한식파잖아 키키",
+            "norm_text": "근데 넌 원래 한식파잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+넌/NP+JX+원래/NNG+한식/NNG+파/VV+잖아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 장도 매주 보는 거 같아",
+            "norm_text": "장도 매주 보는 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "장/NNG+도/JX+매주/MAG+보/VV+는/ETM+거/NNB+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 31139,
+    "name": "KAKAO_482_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144531098758/KAKAO_482_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144531098758/KAKAO_482_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28196,
+      "filename": "KAKAO_482_06.txt",
+      "title": "KAKAO_482_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 807,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "1:1",
+        "size": 807,
+        "word_size": 254,
+        "text": "1 : 아 나 고등학생 때 같이 알바했던 친구 얼마 전에 선생님 됐더라.\n1 : 너랑 같은 고등학교였던 거로 기억하는데 아냐?\n2 : 엥 누구지? 근데 내 주변에 선생님 시험 준비하는 애들 많더라\n1 : 너도 아는 친구였던 것 같은데 내가 잘못 기억하나 봐\n2 : 학생일 때가 좋았다...\n2 : 입시는 싫었지만 뭔가 다시 돌아가고 싶어 ㅎ\n1 : 키키 맞아 근디 나한테 선생님이라는 이미지가 되게 연세 지긋하시고 인자하신 그런 느낌인데\n1 : 우리 나이에 선생님 된 거 보니까 진짜 대단하고 부럽더라.\n2 : 맞아 그만큼 자격증 열심히 따고 자기 계발도 열심히 한 듯\n1 : 근데 지금 와서 생각해 보면 선생님들 진짜 대단하셔...\n1 : 나 같은 학생들을 몇 명을 만났을까 도대체... 난 못함\n2 : 너 같은 학생은… 최악이지 상상만 해도 끔찍\n1 : 키키 아니 너도 딱히 말 잘 듣고 공부 열심히 하고 선생님 마음에 쏙 드는 학생은 아니었을걸?\n2 : 키키 고등학생 때는 맨날 잠만 자다가 학원 간 거 같긴 함 하하...\n1 : 키키 나는 할 말 없어 그냥!\n1 : 양심은 살아 있는 편이라\n2 : 나는 학교에 급식 먹으러 가는 사람이었다 히히\n1 : 나 고1 때 맨날 자서 담임 선생님이 내 짝꿍한테 나 안자는 시간 체크해 오도록 매번 짝꿍들한테 시킴 키키\n2 : 짝꿍들 무슨 죄… 너 그래도 성적 잘 나오지 않았나?\n1 : 나는 좀 이상한 마인드가 있어서 시험이 뭔데 나를 평가해...? 이래서 시험 보기 싫어했는데...\n1 : 맘 먹고 시험 볼 때면 항상 일등 함 ^^\u0026\n2 : 오 재수없는데~\n2 : 나는 공부 하도 안 해서 친구들이 나 가르쳐 주면서 공부하더라 ^^",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 나 고등학생 때 같이 알바했던 친구 얼마 전에 선생님 됐더라.",
+            "norm_text": "아 나 고등학생 때 같이 알바했던 친구 얼마 전에 선생님 됐더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아나고/NNG+등/NNB+학생/NNG+때/NNG+같이/JKB+알/VV+ETM+바/NNB+했/VV+EP+던/ETM+친구/NNG+얼마/NNG+전/NNG+에/JKB+선생/NNG+님/XSN+됐/VV+EP+더라/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 너랑 같은 고등학교였던 거로 기억하는데 아냐?",
+            "norm_text": "너랑 같은 고등학교였던 거로 기억하는데 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+랑/JKB+같/VA+은/ETM+고등/NNG+학교/NNG+였/VCP+EP+던/ETM+거/NNB+로/JKB+기억/NNG+하/XSV+는/ETM+데/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 엥 누구지? 근데 내 주변에 선생님 시험 준비하는 애들 많더라",
+            "norm_text": "엥 누구지? 근데 내 주변에 선생님 시험 준비하는 애들 많더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+누구/NP+지/VCP+EF+근데/MAJ+내/MM+주변/NNG+에/JKB+선생/NNG+님/XSN+시험/NNG+준비/NNG+하/XSV+는/ETM+애/NNG+들/XSN+많/VA+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 너도 아는 친구였던 것 같은데 내가 잘못 기억하나 봐",
+            "norm_text": "너도 아는 친구였던 것 같은데 내가 잘못 기억하나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+아/VV+는/ETM+친구/NNG+였/VCP+EP+던/ETM+것/NNB+같/VA+은데/EC+내/NP+가/JKS+잘못/MAG+기억/NNG+하/XSV+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 학생일 때가 좋았다...",
+            "norm_text": "학생일 때가 좋았다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "학생/NNG+일/VCP+ETM+때/NNG+가/JKS+좋/VA+았/EP+다/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 입시는 싫었지만 뭔가 다시 돌아가고 싶어 ㅎ",
+            "norm_text": "입시는 싫었지만 뭔가 다시 돌아가고 싶어 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "입시/NNG+는/JX+싫/VA+었/EP+지만/EC+뭔가/NP+VCP+EC+다시/MAG+돌아가/VV+고/EC+싶/VX+어/EF+ㅎ/XSA"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 맞아 근디 나한테 선생님이라는 이미지가 되게 연세 지긋하시고 인자하신 그런 느낌인데",
+            "norm_text": "키키 맞아 근디 나한테 선생님이라는 이미지가 되게 연세 지긋하시고 인자하신 그런 느낌인데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+근디/MAJ+나/NP+한테/JKB+선생/NNG+님/XSN+이/VCP+라는/ETM+이미지/NNG+가/JKS+되게/MAG+연세/NNG+지긋/XR+하/XSA+시/EP+고/EC+인자/NNG+하/XSV+신/EP+ETM+그런/MM+느낌/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 우리 나이에 선생님 된 거 보니까 진짜 대단하고 부럽더라.",
+            "norm_text": "우리 나이에 선생님 된 거 보니까 진짜 대단하고 부럽더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나이/NNG+에/JKB+선생/NNG+님/XSN+된/VV+ETM+거/NNB+보/VV+니까/EC+진짜/MAG+대단/XR+하/XSA+고/EC+부럽/VA+더라/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아 그만큼 자격증 열심히 따고 자기 계발도 열심히 한 듯",
+            "norm_text": "맞아 그만큼 자격증 열심히 따고 자기 계발도 열심히 한 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그만큼/MAG+자격증/NNG+열심히/MAG+따/VV+고/EC+자기/NP+계발/NNG+도/JX+열심히/MAG+한/XSA+ETM+듯/NNB"
+          },
+          {
+            "id": 10,
+            "text": "1 : 근데 지금 와서 생각해 보면 선생님들 진짜 대단하셔...",
+            "norm_text": "근데 지금 와서 생각해 보면 선생님들 진짜 대단하셔...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+지금/MAG+와서/VV+EC+생각/NNG+해/XSV+EC+보/VX+면/EC+선생/NNG+님/XSN+들/XSN+진짜/MAG+대단/XR+하/XSA+셔/EP+EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나 같은 학생들을 몇 명을 만났을까 도대체... 난 못함",
+            "norm_text": "나 같은 학생들을 몇 명을 만났을까 도대체... 난 못함",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+같/VA+은/ETM+학생/NNG+들/XSN+을/JKO+몇/MM+명/NNBC+을/JKO+만났/VV+EP+을까/EF+도대체/MAG+./SY+난/NP+JX+못/MAG+함/VV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 너 같은 학생은… 최악이지 상상만 해도 끔찍",
+            "norm_text": "너 같은 학생은… 최악이지 상상만 해도 끔찍",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+같/VA+은/ETM+학생/NNG+은/JX+…/SE+최악/NNG+이/VCP+지/EC+상상/NNG+만/JX+해도/VV+EC+끔찍/XR"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 아니 너도 딱히 말 잘 듣고 공부 열심히 하고 선생님 마음에 쏙 드는 학생은 아니었을걸?",
+            "norm_text": "키키 아니 너도 딱히 말 잘 듣고 공부 열심히 하고 선생님 마음에 쏙 드는 학생은 아니었을걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+너/NP+도/JX+딱히/MAG+말/NNG+잘/MAG+듣/VV+고/EC+공부/NNG+열심히/MAG+하/VV+고/EC+선생/NNG+님/XSN+마음/NNG+에/JKB+쏙/VV+드/EC+VV+는/ETM+학생/NNG+은/JX+아니/VCN+었/EP+을걸/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 고등학생 때는 맨날 잠만 자다가 학원 간 거 같긴 함 하하...",
+            "norm_text": "키키 고등학생 때는 맨날 잠만 자다가 학원 간 거 같긴 함 하하...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+고등/NNG+학생/NNG+때/NNG+는/JX+맨날/MAG+잠/NNG+만/JX+자/VV+다가/EC+학원/NNG+간/VV+ETM+거/NNB+같/VA+긴/ETN+JX+함하/NNG+하/XSV+./SY+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 나는 할 말 없어 그냥!",
+            "norm_text": "키키 나는 할 말 없어 그냥!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+할/VV+ETM+말/NNG+없/VA+어/EC+그냥/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 양심은 살아 있는 편이라",
+            "norm_text": "양심은 살아 있는 편이라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "양심/NNG+은/JX+살/VV+아/EC+있/VX+는/ETM+편/NNB+이/VCP+라/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나는 학교에 급식 먹으러 가는 사람이었다 히히",
+            "norm_text": "나는 학교에 급식 먹으러 가는 사람이었다 히히",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+학교/NNG+에/JKB+급식/NNG+먹/VV+으러/EC+가/VX+는/ETM+사람/NNG+이/VCP+었/EP+다/EF+히히/MAG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 나 고1 때 맨날 자서 담임 선생님이 내 짝꿍한테 나 안자는 시간 체크해 오도록 매번 짝꿍들한테 시킴 키키",
+            "norm_text": "나 고1 때 맨날 자서 담임 선생님이 내 짝꿍한테 나 안자는 시간 체크해 오도록 매번 짝꿍들한테 시킴 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/VV+고/EC+1/SN+때/NNG+맨날/MAG+자서/NNG+담임/NNG+선생/NNG+님/XSN+이/JKS+내/NP+JKG+짝꿍/NNG+한테/JKB+나/JX+안/MAG+자/VV+는/ETM+시간/NNG+체크/NNG+해/XSV+EC+오/VV+도록/EC+매번/MAG+짝꿍/NNG+들/XSN+한테/JKB+시킴/VV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 짝꿍들 무슨 죄… 너 그래도 성적 잘 나오지 않았나?",
+            "norm_text": "짝꿍들 무슨 죄… 너 그래도 성적 잘 나오지 않았나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "짝꿍/NNG+들/XSN+무슨/MM+죄/NNG+…/SE+너/NP+그래도/VV+EC+성적/NNG+잘/MAG+나오/VV+지/EC+않/VX+았/EP+나/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 나는 좀 이상한 마인드가 있어서 시험이 뭔데 나를 평가해...? 이래서 시험 보기 싫어했는데...",
+            "norm_text": "나는 좀 이상한 마인드가 있어서 시험이 뭔데 나를 평가해...? 이래서 시험 보기 싫어했는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+좀/MAG+이상/NNG+한/XSA+ETM+마인드/NNG+가/JKS+있/VA+어서/EC+시험/NNG+이/JKS+뭔데/NP+VCP+EC+나/NP+를/JKO+평가/NNG+해/XSV+EF+./SY+./SY+이래서/VV+EC+시험/NNG+보/VV+기/ETN+싫/VA+어/EC+했/VX+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 맘 먹고 시험 볼 때면 항상 일등 함 ^^\u0026",
+            "norm_text": "맘 먹고 시험 볼 때면 항상 일등 함 ^^\u0026",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맘/NNG+먹/VV+고/EC+시험/NNG+볼/VV+ETM+때/NNG+면/VCP+EC+항상/MAG+일등/NNG+함/XSV+ETN+^/SY+^/SY+\u0026/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 오 재수없는데~",
+            "norm_text": "오 재수없는데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오재수/NNP+없/VA+는데/EC+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나는 공부 하도 안 해서 친구들이 나 가르쳐 주면서 공부하더라 ^^",
+            "norm_text": "나는 공부 하도 안 해서 친구들이 나 가르쳐 주면서 공부하더라 ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+공부/NNG+하도/MAG+안/MAG+해서/VV+EC+친구/NNG+들/XSN+이나/JX+가르쳐/VV+EC+주/VX+면서/EC+공부/NNG+하/XSV+더라/EC+^/SY+^/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

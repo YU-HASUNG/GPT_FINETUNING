@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44676,
+    "name": "KAKAO_782_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413035261/KAKAO_782_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413035261/KAKAO_782_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38307,
+      "filename": "KAKAO_782_16.txt",
+      "title": "KAKAO_782_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 442,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 442,
+        "word_size": 139,
+        "text": "1 : 너 저번에 가르마펌 예쁘더라 키키\n2 : 가르마펌도 했었지 키키 근데 요즘 손질하기 귀찮아서 이제 펌은 안 해\n1 : 그거는 손질을 자주 해야 하는 머리야?\n2 : 나는 직모라서 머리를 말릴 때마다 드라이기로 모양을 잡아야 해\n1 : 아하 그럼 다운펌도 같이한 거야? 키키\n2 : 그 당시엔 했었는데 지금은 안 해\n1 : 가르마펌을 할 때 앞머리를 어느까지 길러?\n2 : 요즘엔 펌을 안 해서 기억이 잘 안 난다\n1 : 그럼 지금은 헤어스타일 어떤데? 키키\n2 : 지금은 자르기 귀찮아서 그냥 리프컷하고 다녀\n1 : 리프컷은 뭐야 키키 너 원래 투블럭이잖아\n2 : 투블럭처럼 층 주는 거 말고 울프컷마냥 기르는 거야\n1 : 헐 너무 충격인데 안 본 지 오래라서 머리를 길렀구나\n2 : 응 맞아 자르기 귀찮다보니까 그렇게 됐어\n1 : 옛날에 유행한 김병지컷은 아니고? 키키\n2 : 어 그거랑은 조금 다르지 키키.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 저번에 가르마펌 예쁘더라 키키",
+            "norm_text": "너 저번에 가르마펌 예쁘더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+저번/NNG+에/JKB+가르마/NNG+펌/NNG+예쁘/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 가르마펌도 했었지 키키 근데 요즘 손질하기 귀찮아서 이제 펌은 안 해",
+            "norm_text": "가르마펌도 했었지 키키 근데 요즘 손질하기 귀찮아서 이제 펌은 안 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가르마/NNG+펌/NNG+도/JX+했었/VV+EP+지/EC+키/NNG+키/XSV+ETN+근데/MAJ+요즘/MAG+손질/NNG+하/XSV+기/ETN+귀찮/VA+아서/EC+이제/MAG+펌/NNG+은/JX+안/MAG+해/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그거는 손질을 자주 해야 하는 머리야?",
+            "norm_text": "그거는 손질을 자주 해야 하는 머리야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+는/JX+손질/NNG+을/JKO+자주/MAG+해야/VV+EC+하/VV+는/ETM+머리/NNG+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나는 직모라서 머리를 말릴 때마다 드라이기로 모양을 잡아야 해",
+            "norm_text": "나는 직모라서 머리를 말릴 때마다 드라이기로 모양을 잡아야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+직모/NNG+라서/VCP+EC+머리/NNG+를/JKO+말릴/VV+ETM+때/NNG+마다/JX+드라/NNP+이/VCP+기/ETN+로/JKB+모양/NNG+을/JKO+잡/VV+아야/EC+해/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아하 그럼 다운펌도 같이한 거야? 키키",
+            "norm_text": "아하 그럼 다운펌도 같이한 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아하/IC+그럼/MAJ+다운/XSA+ETM+펌/NNG+도/JX+같이/MAG+한/XSA+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그 당시엔 했었는데 지금은 안 해",
+            "norm_text": "그 당시엔 했었는데 지금은 안 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+당시/NNG+엔/JKB+JX+했었/VV+EP+는데/EC+지금/MAG+은/JX+안/MAG+해/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 가르마펌을 할 때 앞머리를 어느까지 길러?",
+            "norm_text": "가르마펌을 할 때 앞머리를 어느까지 길러?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가르마/NNG+펌/NNG+을/JKO+할/VV+ETM+때/NNG+앞머리/NNG+를/JKO+어느/MM+까지/JX+길러/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 요즘엔 펌을 안 해서 기억이 잘 안 난다",
+            "norm_text": "요즘엔 펌을 안 해서 기억이 잘 안 난다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+엔/JKB+JX+펌/NNG+을/JKO+안/MAG+해서/VV+EC+기억/NNG+이/JKS+잘/MAG+안/MAG+난다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그럼 지금은 헤어스타일 어떤데? 키키",
+            "norm_text": "그럼 지금은 헤어스타일 어떤데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+지금/MAG+은/JX+헤어/NNG+스타일/NNG+어떤데/VA+EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 지금은 자르기 귀찮아서 그냥 리프컷하고 다녀",
+            "norm_text": "지금은 자르기 귀찮아서 그냥 리프컷하고 다녀",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+은/JX+자르/VV+기/ETN+귀찮/VA+아서/EC+그냥/MAG+리프/NNG+컷/NNG+하/XSV+고/EC+다녀/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 리프컷은 뭐야 키키 너 원래 투블럭이잖아",
+            "norm_text": "리프컷은 뭐야 키키 너 원래 투블럭이잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "리프/NNG+컷/NNG+은/JX+뭐/NP+야/VCP+EF+키/NNG+키/XSV+ETN+너/NP+원래/MAG+투/MAG+블럭/NNP+이/VCP+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 투블럭처럼 층 주는 거 말고 울프컷마냥 기르는 거야",
+            "norm_text": "투블럭처럼 층 주는 거 말고 울프컷마냥 기르는 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "투/NR+블/NNG+럭/NNG+처럼/JKB+층/NNG+주/VV+는/ETM+거/NNB+말/VV+고/EC+울프/NNP+컷/NNG+마냥/JKB+기르/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 헐 너무 충격인데 안 본 지 오래라서 머리를 길렀구나",
+            "norm_text": "헐 너무 충격인데 안 본 지 오래라서 머리를 길렀구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+너무/MAG+충격/NNG+인데/VCP+EC+안/MAG+본/VV+ETM+지/NNB+오래/VA+라서/EC+머리/NNG+를/JKO+길렀/VV+EP+구나/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 맞아 자르기 귀찮다보니까 그렇게 됐어",
+            "norm_text": "응 맞아 자르기 귀찮다보니까 그렇게 됐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+맞/VV+아/EC+자르/VV+기/ETN+귀찮/VA+다/EC+보/VX+니까/EC+그렇게/MAG+됐/VV+EP+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 옛날에 유행한 김병지컷은 아니고? 키키",
+            "norm_text": "옛날에 유행한 김병지컷은 아니고? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "옛날/NNG+에/JKB+유행/NNG+한/XSA+ETM+김병지/NNP+컷/NNG+은/JX+아니/VCN+고/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 어 그거랑은 조금 다르지 키키.",
+            "norm_text": "어 그거랑은 조금 다르지 키키.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+그거/NP+랑/JKB+은/JX+조금/MAG+다르/VA+지/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

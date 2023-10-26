@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 32040,
+    "name": "KAKAO_652_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423014237/KAKAO_652_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423014237/KAKAO_652_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34422,
+      "filename": "KAKAO_652_04.txt",
+      "title": "KAKAO_652_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 416,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 136,
+        "text": "1 : 회사 회식 안 한 지 오래됐지?\n2 : 작년 코로나 발생한 이후로 회식 안 했다\n1 : 엄마 회식 좋아하잖아 키키 생각난다\n2 : 직장 생활의 낙이 회식인데 못하고 있다\n1 : 회식하면 주로 뭐 먹으러 갔어?\n2 : 회 아니면 삼겹살 먹으러 갔어\n1 : 오 키키 딱 회식 장소의 정석으로 가네\n2 : 그렇지 거기다 소주만 곁들이면 금상첨화\n1 : 크 맛있겠다 키키 자리는 오는 순으로 앉지?\n2 : 아니 좋아하는 사람들이랑 같이 앉지\n1 : 그게 가능했구나 키키\n1 : 우린 오는 순으로 앉았었어\n2 : 우리가 그렇게 만들었지\n2 : 신입들은 오는 순서로 앉고\n1 : 엄마가 거기서 제일 오래됐지?\n2 : 이런 게 오래 근무한 사람들만이 가지는 특권\n1 : 역시 나 때는 오는 순서대로 눈치 보면서 앉았는데 키키\n2 : 그건 지금도 그래\n2 : 점심은 맛있게 드셨는가?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 회사 회식 안 한 지 오래됐지?",
+            "norm_text": "회사 회식 안 한 지 오래됐지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회사/NNG+회식/NNG+안/MAG+한지/VV+EC+오래/MAG+됐/VV+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 작년 코로나 발생한 이후로 회식 안 했다",
+            "norm_text": "작년 코로나 발생한 이후로 회식 안 했다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "작년/NNG+코로나/NNG+발생/NNG+한/XSA+ETM+이후/NNG+로/JKB+회식/NNG+안/MAG+했/VV+EP+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 엄마 회식 좋아하잖아 키키 생각난다",
+            "norm_text": "엄마 회식 좋아하잖아 키키 생각난다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+회식/NNG+좋/VA+아/EC+하/VV+잖아/EC+키/NNG+키/XSV+ETN+생각난다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 직장 생활의 낙이 회식인데 못하고 있다",
+            "norm_text": "직장 생활의 낙이 회식인데 못하고 있다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "직장/NNG+생활/NNG+의/JKG+낙/NNG+이/JKS+회식/NNG+인데/VCP+EC+못하/VX+고/EC+있/VX+다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 회식하면 주로 뭐 먹으러 갔어?",
+            "norm_text": "회식하면 주로 뭐 먹으러 갔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "회식/NNG+하/XSV+면/EC+주로/MAG+뭐/IC+먹/VV+으러/EC+갔/VV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 회 아니면 삼겹살 먹으러 갔어",
+            "norm_text": "회 아니면 삼겹살 먹으러 갔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "회/MAG+아니/VCN+면/EC+삼겹살/NNG+먹/VV+으러/EC+갔/VV+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오 키키 딱 회식 장소의 정석으로 가네",
+            "norm_text": "오 키키 딱 회식 장소의 정석으로 가네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오키/NNP+키/NNG+딱/MAG+회식/NNG+장소/NNG+의/JKG+정석/NNG+으로/JKB+가네/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그렇지 거기다 소주만 곁들이면 금상첨화",
+            "norm_text": "그렇지 거기다 소주만 곁들이면 금상첨화",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+거기/NP+다/JX+소주/NNG+만/JX+곁들이/VV+면/EC+금상첨화/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 크 맛있겠다 키키 자리는 오는 순으로 앉지?",
+            "norm_text": "크 맛있겠다 키키 자리는 오는 순으로 앉지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "크/VA+맛있/VA+겠/EP+다키키/NNP+자리/NNG+는/JX+오/VV+는/ETM+순/NNG+으로/JKB+앉/VV+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니 좋아하는 사람들이랑 같이 앉지",
+            "norm_text": "아니 좋아하는 사람들이랑 같이 앉지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+좋/VA+아/EC+하/VV+는/ETM+사람/NNG+들/XSN+이랑/JKB+같이/MAG+앉/VV+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그게 가능했구나 키키",
+            "norm_text": "그게 가능했구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그게/NP+JKS+가능/NNG+했/XSV+EP+구나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 우린 오는 순으로 앉았었어",
+            "norm_text": "우린 오는 순으로 앉았었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우린/NP+JX+오/VV+는/ETM+순/NNG+으로/JKB+앉/VV+았었/EP+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 우리가 그렇게 만들었지",
+            "norm_text": "우리가 그렇게 만들었지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+가/JKS+그렇게/MAG+만들/VV+었/EP+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 신입들은 오는 순서로 앉고",
+            "norm_text": "신입들은 오는 순서로 앉고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "신입/NNG+들/XSN+은/JX+오/VV+는/ETM+순서/NNG+로/JKB+앉/VV+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 엄마가 거기서 제일 오래됐지?",
+            "norm_text": "엄마가 거기서 제일 오래됐지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+가/JKS+거기/NP+서/JKB+제일/MAG+오래/MAG+됐/VV+EP+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이런 게 오래 근무한 사람들만이 가지는 특권",
+            "norm_text": "이런 게 오래 근무한 사람들만이 가지는 특권",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이런/MM+게/NNB+JKS+오래/MAG+근무/NNG+한/XSA+ETM+사람/NNG+들/XSN+만/JX+이/JKS+가지/VV+는/ETM+특권/NNG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 역시 나 때는 오는 순서대로 눈치 보면서 앉았는데 키키",
+            "norm_text": "역시 나 때는 오는 순서대로 눈치 보면서 앉았는데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "역시/MAJ+나/NP+때/NNG+는/JX+오/VV+는/ETM+순서/NNG+대로/JKB+눈치보/VV+면서/EC+앉/VV+았/EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그건 지금도 그래",
+            "norm_text": "그건 지금도 그래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+지금/NNG+도/JX+그래/VA+EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 점심은 맛있게 드셨는가?",
+            "norm_text": "점심은 맛있게 드셨는가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "점심/NNG+은/JX+맛있/VA+게/EC+드셨/VX+EP+EP+는가/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

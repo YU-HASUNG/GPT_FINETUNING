@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 23884,
+    "name": "KAKAO_565_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160902054031/KAKAO_565_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160902054031/KAKAO_565_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31720,
+      "filename": "KAKAO_565_09.txt",
+      "title": "KAKAO_565_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 595,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 595,
+        "word_size": 200,
+        "text": "1 : 언니네 강아지 난리 난 거는 좀 어때 잠잠해졌어?\n2 : 웅 지금 발정 끝났거든 키키\n2 : 요즘은 분리 불안이 심해졌었어\n1 : 분리 불안이 왜? 어떻게 하는데 출근할 때 난리나?\n2 : 이사해서 그런가 애가 우리 나가려 하면 엄청 짖어 낑낑대고 들어올 때도 낑낑 거리고\n1 : 아 그런가 봐 집이 낯설어서 불안한가 보다\n1 : 태어나서 첫 이사지\n2 : 아니야 두 번째야 하하 그래서 간식 나오는 공 사줬더니 많이 괜찮아졌어\n1 : 아 그래 전집이 어디야 언니 나도 기억 안 나네?\n2 : 신논현역 쪽이었어 그때 데리고 왔지 우리 멍멍이\n1 : 아 그렇구나 나 언니 거기 살 때는 잘 놀러 안 갔다 그래서 라운이 애기 때 모습을 모르네\n2 : 멍멍이도 애기 때 젤 귀엽자나 나도 그리워 너무 금방 지나가서\n1 : 우리 강아지는 나 없을 때 똥 먹었나 입에서 똥 냄새나\n2 : 양치 안 해줘서 똥내 나지\n2 : 우리 멍멍이도 똥내 나 풉\n1 : 응 근데 진짜 똥 먹은 냄새\n1 : 아 비 와서 산책도 못나가 ㅠ\n2 : 아 그러게 멍멍이 산책하는 거 엄청 좋아 하자나 나도 해줘야 하는데\n1 : 우비 쓰고 나가봐 귀엽겠다\n2 : 아아 너무 귀엽지 우리 댕댕이 너가 준 우비 진짜 완전 귀여워",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니네 강아지 난리 난 거는 좀 어때 잠잠해졌어?",
+            "norm_text": "언니네 강아지 난리 난 거는 좀 어때 잠잠해졌어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니네/NNP+강아지/NNG+난리난/VV+ETM+거/NNB+는/JX+좀/MAG+어때/VA+EC+잠잠/XR+해졌/XSA+EC+VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 웅 지금 발정 끝났거든 키키",
+            "norm_text": "웅 지금 발정 끝났거든 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+지금/MAG+발정/NNG+끝/NNG+났거든/VV+EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 요즘은 분리 불안이 심해졌었어",
+            "norm_text": "요즘은 분리 불안이 심해졌었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+분리/NNG+불안/NNG+이/JKS+심해/VA+EC+졌었/VX+EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 분리 불안이 왜? 어떻게 하는데 출근할 때 난리나?",
+            "norm_text": "분리 불안이 왜? 어떻게 하는데 출근할 때 난리나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "분리/NNG+불안/NNG+이/JKS+왜/MAG+어떻게/MAG+하/VV+는데/EC+출근/NNG+할/XSV+ETM+때/NNG+난리/NNG+나/JC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 이사해서 그런가 애가 우리 나가려 하면 엄청 짖어 낑낑대고 들어올 때도 낑낑 거리고",
+            "norm_text": "이사해서 그런가 애가 우리 나가려 하면 엄청 짖어 낑낑대고 들어올 때도 낑낑 거리고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이사/NNG+해서/XSV+EC+그런가/VA+EC+애/NNG+가/JKS+우리/NP+나/JX+가려/VV+EC+하/VV+면/EC+엄청/MAG+짖/VV+어/EC+낑낑대/VV+고/EC+들어올/VV+ETM+때/NNG+도/JX+낑낑거리/VV+고/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 그런가 봐 집이 낯설어서 불안한가 보다",
+            "norm_text": "아 그런가 봐 집이 낯설어서 불안한가 보다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그런가/VA+EC+봐/VX+EF+집/NNG+이/JKS+낯설/VA+어서/EC+불안/NNG+한가/XSA+EC+보/VX+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 태어나서 첫 이사지",
+            "norm_text": "태어나서 첫 이사지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "태어나/VV+서/EC+첫/MM+이사지/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니야 두 번째야 하하 그래서 간식 나오는 공 사줬더니 많이 괜찮아졌어",
+            "norm_text": "아니야 두 번째야 하하 그래서 간식 나오는 공 사줬더니 많이 괜찮아졌어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니야/IC+두/MM+번/NNBC+째/XSN+야/JX+하하/MAG+그래서/MAJ+간식/NNG+나오/VV+는/ETM+공사/NNG+줬/VV+EP+더니/EC+많이/MAG+괜찮/VA+아/EC+졌/VX+EP+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 그래 전집이 어디야 언니 나도 기억 안 나네?",
+            "norm_text": "아 그래 전집이 어디야 언니 나도 기억 안 나네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+전집/NNG+이/JKS+어디/NP+야/VCP+EF+언니/NNG+나/NP+도/JX+기억/NNG+안/MAG+나/VV+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 신논현역 쪽이었어 그때 데리고 왔지 우리 멍멍이",
+            "norm_text": "신논현역 쪽이었어 그때 데리고 왔지 우리 멍멍이",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "신논현역/NNP+쪽/NNB+이/VCP+었/EP+어/EC+그때/NNG+데리/VV+고/EC+왔/VX+EP+지/EF+우리/NP+멍멍이/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 그렇구나 나 언니 거기 살 때는 잘 놀러 안 갔다 그래서 라운이 애기 때 모습을 모르네",
+            "norm_text": "아 그렇구나 나 언니 거기 살 때는 잘 놀러 안 갔다 그래서 라운이 애기 때 모습을 모르네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그렇/VA+구/EC+나/NP+나/JX+언니/NNG+거기/NP+살/VV+ETM+때/NNG+는/JX+잘/MAG+놀/VV+러/EC+안/MAG+갔/VV+EP+다/EF+그래서/MAJ+라운/NNP+이/JKS+애기/NNG+때/NNG+모습/NNG+을/JKO+모르/VV+네/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 멍멍이도 애기 때 젤 귀엽자나 나도 그리워 너무 금방 지나가서",
+            "norm_text": "멍멍이도 애기 때 젤 귀엽자나 나도 그리워 너무 금방 지나가서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "멍멍이/NNG+도/JX+애기/NNG+때/NNG+젤/MAG+귀엽/VA+자/EC+나/NP+나/NP+도/JX+그리워/VA+EC+너무/MAG+금방/MAG+지나가/VV+서/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 우리 강아지는 나 없을 때 똥 먹었나 입에서 똥 냄새나",
+            "norm_text": "우리 강아지는 나 없을 때 똥 먹었나 입에서 똥 냄새나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+강아지/NNG+는/JX+나/NP+없/VA+을/ETM+때/NNG+똥/NNG+먹/VV+었/EP+나입/NNG+에서/JKB+똥/NNG+냄새/NNG+나/JC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 양치 안 해줘서 똥내 나지",
+            "norm_text": "양치 안 해줘서 똥내 나지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "양치/NNG+안/MAG+해/VV+EC+줘서/VX+EC+똥내/NNG+나/VV+지/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 우리 멍멍이도 똥내 나 풉",
+            "norm_text": "우리 멍멍이도 똥내 나 풉",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+멍멍이/NNG+도/JX+똥내/NNG+나풉/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응 근데 진짜 똥 먹은 냄새",
+            "norm_text": "응 근데 진짜 똥 먹은 냄새",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+근데/MAJ+진짜/MAG+똥/NNG+먹/VV+은/ETM+냄새/NNG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 비 와서 산책도 못나가 ㅠ",
+            "norm_text": "아 비 와서 산책도 못나가 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아비/NNG+와/JC+서산/NNP+책/NNG+도/JX+못/MAG+나가/VV+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아 그러게 멍멍이 산책하는 거 엄청 좋아 하자나 나도 해줘야 하는데",
+            "norm_text": "아 그러게 멍멍이 산책하는 거 엄청 좋아 하자나 나도 해줘야 하는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그러게/IC+멍멍이/NNG+산책/NNG+하/XSV+는/ETM+거/NNB+엄청/MAG+좋/VA+아/EC+하/VV+자/EC+나/NP+나/NP+도/JX+해/VV+EC+줘야/VX+EC+하/VV+는데/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 우비 쓰고 나가봐 귀엽겠다",
+            "norm_text": "우비 쓰고 나가봐 귀엽겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우비/NNG+쓰/VV+고/EC+나가/VV+EC+봐/VX+EF+귀엽/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 아아 너무 귀엽지 우리 댕댕이 너가 준 우비 진짜 완전 귀여워",
+            "norm_text": "아아 너무 귀엽지 우리 댕댕이 너가 준 우비 진짜 완전 귀여워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+너무/MAG+귀엽/VA+지/EF+우리/NP+댕댕이/NNG+너/NP+가/JKS+준/VV+ETM+우비/NNG+진짜/MAG+완전/MAG+귀여워/VA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

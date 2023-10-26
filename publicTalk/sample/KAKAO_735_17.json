@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 39282,
+    "name": "KAKAO_735_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941055919/KAKAO_735_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930134941055919/KAKAO_735_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37487,
+      "filename": "KAKAO_735_17.txt",
+      "title": "KAKAO_735_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 520,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 520,
+        "word_size": 167,
+        "text": "1 : 너 코로나 백신 맞았어?\n2 : 응 나 7월인가 예약해서 맞았지.\n1 : 뭘로 맞았어? 언제 그렇게 빨리 신청했어?\n2 : 나 얀센으로 맞았어.\n2 : 국방의 의무 한 사람은 특별 대우로 해 준다고 해서 냉큼 친구들이랑 같이 신청했지\n1 : 안 아팠어? 다들 엄청나게 아프다고 하던데\n2 : 나 하루에 약 2알씩 먹고 잤는데 이틀째에 너무 힘들더라\n1 : 백신 맞고 신체에 이상 반응 생긴 사람 많아서 무섭다\n2 : 맞아 나도 그런 건 좀 걸리드라\n1 : 아무 일 없길 바래야 하는데\n2 : 그거 맞고 이틀까지만 아팠고 그 후부턴 바로 일상생활 복귀 가능했어\n1 : 백신 맞고 건강 이상 생기면 보험 처리해 준다고 보험 가입하라는 거 많더라\n2 : 어 근데 의사들이 그거 보고 그 정도 받을려면 죽어야 가능하다고 하던데\n1 : 사람의 불안함을 그런 식으로 장사를 하네\n2 : 응 그래서 백신 맞고 이상 반응 생겨도 보험 처리 안 된다는 말만 한다고 하더라\n1 : 곧 백신 맞아야 하는데 떨리네\n2 : 그 전날에 고기 든든히 먹고 몸 보신하고 맞고 와~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 코로나 백신 맞았어?",
+            "norm_text": "너 코로나 백신 맞았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+코로나/NNG+백신/NNG+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 나 7월인가 예약해서 맞았지.",
+            "norm_text": "응 나 7월인가 예약해서 맞았지.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+7/SN+월/NNBC+인가/VCP+EC+예약/NNG+해서/XSV+EC+맞/VV+았/EP+지/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 뭘로 맞았어? 언제 그렇게 빨리 신청했어?",
+            "norm_text": "뭘로 맞았어? 언제 그렇게 빨리 신청했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭘로/NP+JKB+맞/VV+았/EP+어/EF+언제/MAG+그렇게/MAG+빨리/MAG+신청/NNG+했/XSV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 얀센으로 맞았어.",
+            "norm_text": "나 얀센으로 맞았어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+얀센/NNG+으로/JKB+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 국방의 의무 한 사람은 특별 대우로 해 준다고 해서 냉큼 친구들이랑 같이 신청했지",
+            "norm_text": "국방의 의무 한 사람은 특별 대우로 해 준다고 해서 냉큼 친구들이랑 같이 신청했지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "국방/NNG+의/JKG+의무/NNG+한/XSA+ETM+사람/NNG+은/JX+특별/NNG+대우/NNG+로/JKB+해/VV+EC+준다고/VX+EC+해서/VV+EC+냉큼/MAG+친구/NNG+들/XSN+이랑/JKB+같이/MAG+신청/NNG+했/XSV+EP+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 안 아팠어? 다들 엄청나게 아프다고 하던데",
+            "norm_text": "안 아팠어? 다들 엄청나게 아프다고 하던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+아팠/VA+EP+어/EF+다/MAG+들/XSN+엄청나/VA+게/EC+아프/VA+다고/EC+하/VV+던데/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나 하루에 약 2알씩 먹고 잤는데 이틀째에 너무 힘들더라",
+            "norm_text": "나 하루에 약 2알씩 먹고 잤는데 이틀째에 너무 힘들더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+하루/NNG+에/JKB+약/MM+2/SN+알/NNBC+씩/XSN+먹/VV+고/EC+잤/VV+EP+는데/EC+이틀/NNG+째/XSN+에/JKB+너무/MAG+힘들/VA+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 백신 맞고 신체에 이상 반응 생긴 사람 많아서 무섭다",
+            "norm_text": "백신 맞고 신체에 이상 반응 생긴 사람 많아서 무섭다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백신/NNG+맞/VV+고/EC+신체/NNG+에/JKB+이상/NNG+반응/NNG+생긴/VV+ETM+사람/NNG+많/VA+아서/EC+무섭/VA+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아 나도 그런 건 좀 걸리드라",
+            "norm_text": "맞아 나도 그런 건 좀 걸리드라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+나/NP+도/JX+그런/MM+건/NNB+JX+좀/MAG+걸리/VV+드라/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아무 일 없길 바래야 하는데",
+            "norm_text": "아무 일 없길 바래야 하는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무/MM+일/NNG+없/VA+길/ETN+JKO+바래/VV+야/EC+하/VV+는데/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그거 맞고 이틀까지만 아팠고 그 후부턴 바로 일상생활 복귀 가능했어",
+            "norm_text": "그거 맞고 이틀까지만 아팠고 그 후부턴 바로 일상생활 복귀 가능했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+맞/VV+고/EC+이틀/NNG+까지/JX+만/JX+아팠/VA+EP+고/EC+그/MM+후/NNG+부턴/JX+JX+바로/MAG+일상/NNG+생활/NNG+복귀/NNG+가능/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 백신 맞고 건강 이상 생기면 보험 처리해 준다고 보험 가입하라는 거 많더라",
+            "norm_text": "백신 맞고 건강 이상 생기면 보험 처리해 준다고 보험 가입하라는 거 많더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "백신/NNG+맞/VV+고/EC+건강/NNG+이상/NNG+생기/VV+면/EC+보험/NNG+처리/NNG+해/XSV+EC+준다고/VX+EC+보험/NNG+가입/NNG+하/XSV+라는/ETM+거/NNB+많/VA+더라/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 어 근데 의사들이 그거 보고 그 정도 받을려면 죽어야 가능하다고 하던데",
+            "norm_text": "어 근데 의사들이 그거 보고 그 정도 받을려면 죽어야 가능하다고 하던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+근데/MAJ+의사/NNG+들/XSN+이/JKS+그거/NP+보고/JKB+그/MM+정도/NNG+받/VV+을려면/EC+죽/VV+어야/EC+가능/NNG+하/XSV+다고/EC+하/VV+던데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 사람의 불안함을 그런 식으로 장사를 하네",
+            "norm_text": "사람의 불안함을 그런 식으로 장사를 하네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사람/NNG+의/JKG+불안/NNG+함/XSV+ETN+을/JKO+그런/MM+식/NNB+으로/JKB+장사/NNG+를/JKO+하/VV+네/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 그래서 백신 맞고 이상 반응 생겨도 보험 처리 안 된다는 말만 한다고 하더라",
+            "norm_text": "응 그래서 백신 맞고 이상 반응 생겨도 보험 처리 안 된다는 말만 한다고 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+그래서/MAJ+백신/NNG+맞/VV+고/EC+이상/NNG+반응/NNG+생겨도/VV+EC+보험/NNG+처리/NNG+안/MAG+된다는/VV+ETM+말/NNG+만/JX+한다고/VV+EC+하/VV+더라/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 곧 백신 맞아야 하는데 떨리네",
+            "norm_text": "곧 백신 맞아야 하는데 떨리네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곧/MAG+백신/NNG+맞/VV+아야/EC+하/VV+는/ETM+데/NNB+떨리/VV+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그 전날에 고기 든든히 먹고 몸 보신하고 맞고 와~",
+            "norm_text": "그 전날에 고기 든든히 먹고 몸 보신하고 맞고 와~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그/MM+전날/NNG+에/JKB+고기/NNG+든든히/MAG+먹/VV+고/EC+몸보신/NNG+하/XSV+고/EC+맞/VV+고/EC+와/VV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

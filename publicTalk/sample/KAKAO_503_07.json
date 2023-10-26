@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 22226,
+    "name": "KAKAO_503_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150449074817/KAKAO_503_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150449074817/KAKAO_503_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29418,
+      "filename": "KAKAO_503_07.txt",
+      "title": "KAKAO_503_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 727,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 727,
+        "word_size": 220,
+        "text": "1 : 너는 언니랑 오빠 중 누가 있었으면 좋겠어?\n2 : 나는 언니! 여자 형제는 나중에 완전 친구라고 하더라고~\n1 : 키키 아무래도 나이 먹을수록 좋지 키키\n2 : 거기다 나는 이미 남동생이 있으니까. 먼가 여자 형제가 궁금해. 너는?\n1 : 키키 나는 맏이만 아니면 언니 오빠 다 상관없음 키키\n2 : 키키 맏이 쫌 힘들기는 하지...\n2 : 맏이 자체가 쫌 힘든 위치인 거 같아...\n1 : 키키 이래저래 키키 책임감을 많이 강요받는 위치이지 키키\n2 : 모든 일을 가장 먼저 하면서 맏이라는 이유로 본보기가 돼야 된대...\n2 : 나도 처음이라고; 어떻게 잘해야 되냐고;\n1 : 그러니까 말이야 키키\n1 : 동생들도 동생들 나름의 고충이 있겠지만은 키키 음오아예\n2 : 키키 완전 공감되는구만... 대학교도 직장도 먼저 시작하고...\n2 : 힘든 자리야...\n1 : 키키 맞아 맞아 키키 뭔가 알아서 헤쳐나가야 하는 키키\n2 : 그래도 부려먹을 수 있는 동생이 있어서 편하기는 하지. 키키\n2 : 동생이 들으면 뒷목 잡는 소리지만... 키키\n1 : 키키 동생 많이 부려먹는가 보군 키키\n2 : 내 인생의 낙이지~ 키키\n2 : 그래도 신기한 게 내가 머라고 하는 건 당연한 건데 다른 사람이 동생한테 머라고 하는 건 짜증나더라... 신기하지~ 키키\n1 : 당연하지 내 새끼 패도 내가 패지 남이 뭘 하는 건 안됨\n2 : 키키 맞어! 동생에 대한 애정이 엄청난 건 아니다만... 키키\n2 : 다른 사람이 머라 하는 건 짜증 나 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 언니랑 오빠 중 누가 있었으면 좋겠어?",
+            "norm_text": "너는 언니랑 오빠 중 누가 있었으면 좋겠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+언니/NNG+랑/JKB+오빠/NNG+중/NNB+누가/NP+JKS+있/VA+었/EP+으면/EC+좋/VA+겠/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 언니! 여자 형제는 나중에 완전 친구라고 하더라고~",
+            "norm_text": "나는 언니! 여자 형제는 나중에 완전 친구라고 하더라고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+언니/NNG+!/SY+여자/NNG+형제/NNG+는/JX+나중/NNG+에/JKB+완전/NNG+친구/NNG+라고/VCP+EC+하/VV+더라고/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 아무래도 나이 먹을수록 좋지 키키",
+            "norm_text": "키키 아무래도 나이 먹을수록 좋지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아무래도/MAG+나이/NNG+먹/VV+을수록/EC+좋/VA+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 거기다 나는 이미 남동생이 있으니까. 먼가 여자 형제가 궁금해. 너는?",
+            "norm_text": "거기다 나는 이미 남동생이 있으니까. 먼가 여자 형제가 궁금해. 너는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+다/JX+나/NP+는/JX+이미/MAG+남동생/NNG+이/JKS+있/VV+으니까/EC+먼가/NP+VCP+EC+여자/NNG+형제/NNG+가/JKS+궁금/XR+해/XSA+EF+너/NP+는/JX"
+          },
+          {
+            "id": 5,
+            "text": "1 : 키키 나는 맏이만 아니면 언니 오빠 다 상관없음 키키",
+            "norm_text": "키키 나는 맏이만 아니면 언니 오빠 다 상관없음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+맏이/NNG+만/JX+아니/VCN+면/EC+언니/NNG+오빠/NNG+다/MAG+상관없/VA+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 맏이 쫌 힘들기는 하지...",
+            "norm_text": "키키 맏이 쫌 힘들기는 하지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+맏이/NNG+쫌/XSN+힘들/VA+기/ETN+는/JX+하/VV+지/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 맏이 자체가 쫌 힘든 위치인 거 같아...",
+            "norm_text": "맏이 자체가 쫌 힘든 위치인 거 같아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맏이/NNG+자체/NNG+가/JKS+쫌/MAG+힘든/VA+ETM+위치/NNG+인/VCP+ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 이래저래 키키 책임감을 많이 강요받는 위치이지 키키",
+            "norm_text": "키키 이래저래 키키 책임감을 많이 강요받는 위치이지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+이래저래/MAG+키/NNG+키/NNG+책임감/NNG+을/JKO+많이/MAG+강요/NNG+받/VV+는/ETM+위치/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 모든 일을 가장 먼저 하면서 맏이라는 이유로 본보기가 돼야 된대...",
+            "norm_text": "모든 일을 가장 먼저 하면서 맏이라는 이유로 본보기가 돼야 된대...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "모든/MM+일/NNG+을/JKO+가장/MAG+먼저/MAG+하/VV+면서/EC+맏이/NNG+라는/VCP+ETM+이유/NNG+로/JKB+본보기/NNG+가/JKS+돼야/VV+EC+된대/VV+EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 나도 처음이라고; 어떻게 잘해야 되냐고;",
+            "norm_text": "나도 처음이라고; 어떻게 잘해야 되냐고;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+처음/NNG+이/VCP+라고/EC+;/SY+어떻게/MAG+잘/MAG+해야/VV+EC+되/VV+냐고/EC+;/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러니까 말이야 키키",
+            "norm_text": "그러니까 말이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+말/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 동생들도 동생들 나름의 고충이 있겠지만은 키키 음오아예",
+            "norm_text": "동생들도 동생들 나름의 고충이 있겠지만은 키키 음오아예",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+들/XSN+도/JX+동생/NNG+들/XSN+나름/NNB+의/JKG+고충/NNG+이/JKS+있/VA+겠/EP+지/EC+만/JX+은/JX+키/NNG+키/XSV+ETN+음/IC+오/IC+아예/MAG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 완전 공감되는구만... 대학교도 직장도 먼저 시작하고...",
+            "norm_text": "키키 완전 공감되는구만... 대학교도 직장도 먼저 시작하고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+완전/NNG+공감/NNG+되/XSV+는/ETM+구만/NNG+./SY+./SY+대학교/NNG+도/JX+직장/NNG+도/JX+먼저/MAG+시작/NNG+하/XSV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 힘든 자리야...",
+            "norm_text": "힘든 자리야...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "힘든/VA+ETM+자리/NNG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 맞아 맞아 키키 뭔가 알아서 헤쳐나가야 하는 키키",
+            "norm_text": "키키 맞아 맞아 키키 뭔가 알아서 헤쳐나가야 하는 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+맞/VV+아/EC+키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+알/VV+아서/EC+헤쳐/VV+EC+나가/VX+야/EC+하/VV+는/ETM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래도 부려먹을 수 있는 동생이 있어서 편하기는 하지. 키키",
+            "norm_text": "그래도 부려먹을 수 있는 동생이 있어서 편하기는 하지. 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+부려/VV+EC+먹/VV+을/ETM+수/NNB+있/VV+는/ETM+동생/NNG+이/JKS+있/VV+어서/EC+편하/VA+기/ETN+는/JX+하/VV+지/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 동생이 들으면 뒷목 잡는 소리지만... 키키",
+            "norm_text": "동생이 들으면 뒷목 잡는 소리지만... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+이/JKS+들으면/VV+EC+뒷목/NNG+잡/VV+는/ETM+소리/NNG+지만/VCP+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 키키 동생 많이 부려먹는가 보군 키키",
+            "norm_text": "키키 동생 많이 부려먹는가 보군 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+동생/NNG+많이/MAG+부려/VV+EC+먹/VV+는가/EC+보군/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 내 인생의 낙이지~ 키키",
+            "norm_text": "내 인생의 낙이지~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내인생의/NP+JKG+NNG+JKG+낙/NNG+이/VCP+지/EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그래도 신기한 게 내가 머라고 하는 건 당연한 건데 다른 사람이 동생한테 머라고 하는 건 짜증나더라... 신기하지~ 키키",
+            "norm_text": "그래도 신기한 게 내가 머라고 하는 건 당연한 건데 다른 사람이 동생한테 머라고 하는 건 짜증나더라... 신기하지~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+신기/XR+한/XSA+ETM+게/NNB+JKS+내/NP+가/JKS+머/NP+라고/VCP+EC+하/VV+는/ETM+건/NNB+JX+당연/XR+한/XSA+ETM+건데/NNB+VCP+EC+다른/MM+사람/NNG+이/JKS+동생/NNG+한테/JKB+머/NP+라고/VCP+EC+하/VV+는/ETM+건/NNB+JX+짜증/NNG+나/NP+더라/VCP+EF+./SY+신기/XR+하/XSA+지/EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 당연하지 내 새끼 패도 내가 패지 남이 뭘 하는 건 안됨",
+            "norm_text": "당연하지 내 새끼 패도 내가 패지 남이 뭘 하는 건 안됨",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+내/NP+JKG+새끼/NNG+패/NNG+도/JX+내/NP+가/JKS+패지/NNG+남/NNG+이/JKS+뭘/NP+JKO+하/VV+는/ETM+건/NNB+JX+안/MAG+됨/VV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 키키 맞어! 동생에 대한 애정이 엄청난 건 아니다만... 키키",
+            "norm_text": "키키 맞어! 동생에 대한 애정이 엄청난 건 아니다만... 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+어/EF+동생/NNG+에/JKB+대한/VV+ETM+애정/NNG+이/JKS+엄청난/VA+ETM+건/NNB+JX+아니/VCN+다만/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 다른 사람이 머라 하는 건 짜증 나 키키",
+            "norm_text": "다른 사람이 머라 하는 건 짜증 나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다른/MM+사람/NNG+이/JKS+머/VV+라/EC+하/VV+는/ETM+건/NNB+JX+짜증/NNG+나/JC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

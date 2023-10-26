@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 39876,
+    "name": "KAKAO_760_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135005003584/KAKAO_760_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930135005003584/KAKAO_760_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37521,
+      "filename": "KAKAO_760_11.txt",
+      "title": "KAKAO_760_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 359,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 359,
+        "word_size": 118,
+        "text": "1 : 요즘도 배그 하나?\n2 : 요즘에는 피곤해서 못 하고 있습니다 ㅠㅠ\n1 : 저번에 내랑 같이했었잖아 키키 쫌 오래되긴 했네\n2 : 다음에 시간 되시면 피시방 가요 행님\n1 : 피씨방 가서 하루 종일 배그 괜찮겠나?\n2 : 당연히 좋습니다 키키 쉬는 날에 같이 가요\n1 : 그래 키키 나도 이제 시간 많아서 할 게 없다\n2 : 시험도 끝나셨는데 푹 쉬셨어요?\n1 : 푹 쉬었지 헬스만 간다 키키\n2 : 놀러는 안 갔다 오셨습니까?\n1 : 이번에는 여름에 일절 놀러 안 갔다 셤 때매 키키\n2 : 이제 놀러 가셔야겠네요?\n1 : 피씨방 휴가도 괜찮은 것 같은데?\n2 : 다른 곳에는 놀러 안 가십니까?\n1 : 아직 계획이 없다...\n2 : 저랑 피시방 가서 생각해요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘도 배그 하나?",
+            "norm_text": "요즘도 배그 하나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/NNG+도/JX+배/NNG+그/IC+하나/NR"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘에는 피곤해서 못 하고 있습니다 ㅠㅠ",
+            "norm_text": "요즘에는 피곤해서 못 하고 있습니다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+에/JKB+는/JX+피곤/NNG+해서/XSV+EC+못하/VX+고/EC+있/VX+습니다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 저번에 내랑 같이했었잖아 키키 쫌 오래되긴 했네",
+            "norm_text": "저번에 내랑 같이했었잖아 키키 쫌 오래되긴 했네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저번/NNG+에/JKB+내/NP+랑/JKB+같이/MAG+했었잖/VV+EP+EC+VX+아/EC+키/NNG+키/NNG+쫌/XSN+오래/MAG+되/VV+긴/ETN+JX+했/VX+EP+네/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 다음에 시간 되시면 피시방 가요 행님",
+            "norm_text": "다음에 시간 되시면 피시방 가요 행님",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "다음/NNG+에/JKB+시간/NNG+되/XSV+시/EP+면/EC+피시/NNG+방가/NNG+요행/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 피씨방 가서 하루 종일 배그 괜찮겠나?",
+            "norm_text": "피씨방 가서 하루 종일 배그 괜찮겠나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "피/XPN+씨방/NNG+가/VV+서/EC+하루/NNG+종일/NNG+배/NNG+그/MM+괜찮/VA+겠/EP+나/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 당연히 좋습니다 키키 쉬는 날에 같이 가요",
+            "norm_text": "당연히 좋습니다 키키 쉬는 날에 같이 가요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "당연히/MAG+좋/VA+습니다/EF+키/NNG+키/XSV+ETN+쉬/VV+는/ETM+날/NNG+에/JKB+같이/MAG+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래 키키 나도 이제 시간 많아서 할 게 없다",
+            "norm_text": "그래 키키 나도 이제 시간 많아서 할 게 없다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+키/NNG+키나/XSA+ETN+JX+도/JX+이제/MAG+시간/NNG+많/VA+아서/EC+할/VX+ETM+게/NNB+JKS+없/VA+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 시험도 끝나셨는데 푹 쉬셨어요?",
+            "norm_text": "시험도 끝나셨는데 푹 쉬셨어요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "시험/NNG+도/JX+끝나/VV+셨/EP+EP+는데/EC+푹/MAG+쉬/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 푹 쉬었지 헬스만 간다 키키",
+            "norm_text": "푹 쉬었지 헬스만 간다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "푹/MAG+쉬/VV+었/EP+지/EC+헬스/NNG+만/JX+간다키/NNP+키/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 놀러는 안 갔다 오셨습니까?",
+            "norm_text": "놀러는 안 갔다 오셨습니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "놀러/NNP+는/JX+안/MAG+갔다오/VV+셨/EP+EP+습니까/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 이번에는 여름에 일절 놀러 안 갔다 셤 때매 키키",
+            "norm_text": "이번에는 여름에 일절 놀러 안 갔다 셤 때매 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+는/JX+여름/NNG+에/JKB+일절/MAG+놀/VV+러/EC+안/MAG+갔/VV+EP+다/EC+셤/NNG+때/NNG+매키/NNP+키/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 이제 놀러 가셔야겠네요?",
+            "norm_text": "이제 놀러 가셔야겠네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이제/MAG+놀/VV+러/EC+가셔야/VV+EC+VX+겠/EP+네요/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 피씨방 휴가도 괜찮은 것 같은데?",
+            "norm_text": "피씨방 휴가도 괜찮은 것 같은데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "피/XPN+씨방/NNG+휴가/NNG+도/JX+괜찮/VA+은/ETM+것/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 다른 곳에는 놀러 안 가십니까?",
+            "norm_text": "다른 곳에는 놀러 안 가십니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다른/MM+곳/NNG+에/JKB+는/JX+놀/VV+러/EC+안/MAG+가/VV+십니까/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아직 계획이 없다...",
+            "norm_text": "아직 계획이 없다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아직/MAG+계획/NNG+이/JKS+없/VA+다/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 저랑 피시방 가서 생각해요",
+            "norm_text": "저랑 피시방 가서 생각해요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "저/NP+랑/JKB+피시방/NNG+가/VV+서/EC+생각/NNG+해요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

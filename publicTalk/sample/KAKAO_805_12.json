@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 33251,
+    "name": "KAKAO_805_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170541050642/KAKAO_805_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170541050642/KAKAO_805_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38785,
+      "filename": "KAKAO_805_12.txt",
+      "title": "KAKAO_805_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 500,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 500,
+        "word_size": 158,
+        "text": "1 : 너 걸어서 세계 속으로 좋아한다고 했지?\n2 : 응 하하 나는 그냥 그거 매일 틀어 놓고 있어\n1 : 우리 엄마랑 똑같네 키키 방구석 여행 좋아 하는 게 키키\n2 : 너희 어머니는 직접 가시는 것도 좋아하시잖아\n1 : 맞아 어떻게 알았어?\n1 : 우리 엄마 코로나 직전에 유럽 여행 다녀왔잖아\n2 : 어머니 진짜 대단하시다 힘드시진 않으셨대?\n1 : 응 키키 언니랑 같이 갔으니까 괜찮았대\n2 : 진짜? 여행 가서 아프면 병원도 못 가고 곤란하잖아\n1 : 응 하하 근데 다행히 아픈 곳 전혀 없이 왔어\n2 : 다행이다 키키 나는 유럽에서 아파서 혼쭐 났었어\n1 : 너도 배낭 여행 몇 번이나 다녀왔었지\n2 : 응 하하 나 이탈리아에서 열이 심하게 나서 해열제 5알 먹고 기절했어\n1 : 헐... 약을 너무 많이 먹어서 기절한 거 아냐?\n2 : 아냐 다음날 괜찮아졌었어.\n2 : 내 친구가 대사관에 연락하려구 했다니까\n1 : 진짜 키키 이탈리아는 말도 안 통하잖아\n2 : 응 생각보다 유럽 사람들이 영어를 잘 못하더라구",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 걸어서 세계 속으로 좋아한다고 했지?",
+            "norm_text": "너 걸어서 세계 속으로 좋아한다고 했지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+걸어서/VV+EC+세계/NNG+속/NNG+으로/JKB+좋/VA+아/EC+한다고/VX+EC+했/VX+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 하하 나는 그냥 그거 매일 틀어 놓고 있어",
+            "norm_text": "응 하하 나는 그냥 그거 매일 틀어 놓고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+하하/MAG+나/NP+는/JX+그냥/MAG+그거/NP+매일/MAG+틀/VV+어/EC+놓/VX+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리 엄마랑 똑같네 키키 방구석 여행 좋아 하는 게 키키",
+            "norm_text": "우리 엄마랑 똑같네 키키 방구석 여행 좋아 하는 게 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+엄마/NNG+랑/JKB+똑같/VA+네/EF+키키/NNP+방구석/NNG+여행/NNG+좋/VA+아/EC+하/VV+는/ETM+게/NNB+JKS+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 너희 어머니는 직접 가시는 것도 좋아하시잖아",
+            "norm_text": "너희 어머니는 직접 가시는 것도 좋아하시잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너희/NP+어머니/NNG+는/JX+직접/MAG+가시/VV+는/ETM+것/NNB+도/JX+좋/VA+아/EC+하/VX+시/EP+잖아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 어떻게 알았어?",
+            "norm_text": "맞아 어떻게 알았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+어떻게/MAG+알/VV+았/EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 우리 엄마 코로나 직전에 유럽 여행 다녀왔잖아",
+            "norm_text": "우리 엄마 코로나 직전에 유럽 여행 다녀왔잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+엄마/NNG+코로나/NNG+직전/NNG+에/JKB+유럽/NNP+여행/NNG+다녀왔/VV+EP+잖아/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 어머니 진짜 대단하시다 힘드시진 않으셨대?",
+            "norm_text": "어머니 진짜 대단하시다 힘드시진 않으셨대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머니/NNG+진짜/MAG+대단/XR+하/XSA+시다/EC+힘드/VA+시/EP+진/EC+JX+않/VX+으셨/EP+EP+대/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응 키키 언니랑 같이 갔으니까 괜찮았대",
+            "norm_text": "응 키키 언니랑 같이 갔으니까 괜찮았대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+언니/NNG+랑/JKB+같이/MAG+갔/VV+EP+으니까/EC+괜찮/VA+았/EP+대/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 진짜? 여행 가서 아프면 병원도 못 가고 곤란하잖아",
+            "norm_text": "진짜? 여행 가서 아프면 병원도 못 가고 곤란하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+여행/NNG+가/VV+서/EC+아프/VA+면/EC+병원/NNG+도/JX+못/MAG+가/VV+고/EC+곤란/NNG+하/XSV+잖아/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 하하 근데 다행히 아픈 곳 전혀 없이 왔어",
+            "norm_text": "응 하하 근데 다행히 아픈 곳 전혀 없이 왔어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+하하/MAG+근데/MAJ+다행히/MAG+아픈/VA+ETM+곳/NNB+전혀/MAG+없이/MAG+왔/VV+EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 다행이다 키키 나는 유럽에서 아파서 혼쭐 났었어",
+            "norm_text": "다행이다 키키 나는 유럽에서 아파서 혼쭐 났었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다행/NNG+이/JKS+다키키/NNP+나/NP+는/JX+유럽/NNP+에서/JKB+아파서/VA+EC+혼쭐났/VV+EP+었/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 너도 배낭 여행 몇 번이나 다녀왔었지",
+            "norm_text": "너도 배낭 여행 몇 번이나 다녀왔었지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+도/JX+배낭/NNG+여행/NNG+몇/MM+번/NNBC+이나/JX+다녀왔/VV+EP+었/EP+지/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 하하 나 이탈리아에서 열이 심하게 나서 해열제 5알 먹고 기절했어",
+            "norm_text": "응 하하 나 이탈리아에서 열이 심하게 나서 해열제 5알 먹고 기절했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+하/IC+하나/NR+이/NR+탈리아/NNG+에서/JKB+열/NNG+이/JKS+심하/VA+게/EC+나/VX+서/EC+해열제/NNG+5/SN+알/NNBC+먹/VV+고/EC+기절/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 헐... 약을 너무 많이 먹어서 기절한 거 아냐?",
+            "norm_text": "헐... 약을 너무 많이 먹어서 기절한 거 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+./SY+약/NNG+을/JKO+너무/MAG+많이/MAG+먹/VV+어서/EC+기절/NNG+한/XSA+ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아냐 다음날 괜찮아졌었어.",
+            "norm_text": "아냐 다음날 괜찮아졌었어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아냐/IC+다음/NNG+날/NNG+괜찮/VA+아/EC+졌었/VX+EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 내 친구가 대사관에 연락하려구 했다니까",
+            "norm_text": "내 친구가 대사관에 연락하려구 했다니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+가/JKS+대사관/NNG+에/JKB+연락/NNG+하/XSV+려구/EC+했/VX+EP+다니까/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 진짜 키키 이탈리아는 말도 안 통하잖아",
+            "norm_text": "진짜 키키 이탈리아는 말도 안 통하잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+키키/NNP+이탈리아/NNP+는/JX+말/NNG+도/JX+안/MAG+통하/VV+잖아/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 응 생각보다 유럽 사람들이 영어를 잘 못하더라구",
+            "norm_text": "응 생각보다 유럽 사람들이 영어를 잘 못하더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+생각/NNG+보다/JKB+유럽/NNP+사람/NNG+들/XSN+이/JKS+영어/NNG+를/JKO+잘못/MAG+하/VV+더라구/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

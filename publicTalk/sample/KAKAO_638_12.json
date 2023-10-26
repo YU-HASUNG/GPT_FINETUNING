@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 30622,
+    "name": "KAKAO_638_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924115900018386/KAKAO_638_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924115900018386/KAKAO_638_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32065,
+      "filename": "KAKAO_638_12.txt",
+      "title": "KAKAO_638_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 594,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 594,
+        "word_size": 207,
+        "text": "1 : 난 진짜 그 돈 모았으면 해외여행 한번은 갔다 왔을 거야\n2 : 나도 해외여행 한번 가봄...\n1 : 어디 갔다 왔냐 너\n2 : 나 중국 칭다오 가서 양꼬치 첨 먹어봄 ㅎ\n1 : 엥 진짜? 언제 다녀옴\n1 : 나 처음 듣는 듯\n2 : 고딩 때 현장 체험 내고 친척들이랑 감 ㅎ\n1 : 아 진짜 ? 키키 나도 고1 올라갈 때 아빠가 중국 가자 해서 여권 만들었는데 오빠랑 감\n2 : 키키 근데 막 지네 꼬치 벌레 꼬치 이런 거 보고 식겁 함...\n1 : 엥 그런 거 진짜 있어?\n1 : 나는 나만 빼고 둘이 가서 삐져가지고 어땠는지 물어보지도 않음\n2 : 아 키키 근데 삐질만 했네...\n2 : 넌 왜 안 델꼬 가심 ㅠ\n1 : 아니 그게 같이 하우스 하는 작목반 사람들끼리 돈 모아서 연말에 가는 건데 엄마가 다리 안 좋아서 나보고 가라 했거든 .\n2 : 아아 근데 넌 못 간겨?\n1 : 그래서 설레서 막 여권 찍고 난리를 쳤는데 나 학교 가라고 오빠랑 둘이 감\n2 : 오... 나라도 삐져서 말 안 함\n1 : 그렇게 나는 여권은 써보지도 않았는데 만료돼서 다시 발급 받아야 하는 사람이 되어버렸지.\n2 : 아 그거 너무 귀찮\n2 : 근데 나 옛날 여권 사진 보고 식겁함\n2 : 얼굴 너무 커",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 난 진짜 그 돈 모았으면 해외여행 한번은 갔다 왔을 거야",
+            "norm_text": "난 진짜 그 돈 모았으면 해외여행 한번은 갔다 왔을 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+진짜/MAG+그/MM+돈/NNG+모았/VV+EP+으면/EC+해외여행/NNG+한/MM+번/NNBC+은/JX+갔다왔/VV+EP+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나도 해외여행 한번 가봄...",
+            "norm_text": "나도 해외여행 한번 가봄...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+해외여행/NNG+한/MM+번/NNBC+가/JKS+봄/NNG+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어디 갔다 왔냐 너",
+            "norm_text": "어디 갔다 왔냐 너",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+갔다왔/VV+EP+냐/EF+너/NP"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 중국 칭다오 가서 양꼬치 첨 먹어봄 ㅎ",
+            "norm_text": "나 중국 칭다오 가서 양꼬치 첨 먹어봄 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+중국/NNP+칭다오/NNP+가/JKS+서양/NNG+꼬치/NNG+첨/MAG+먹/VV+어/EC+봄/NNG+ㅎ/XSA"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엥 진짜? 언제 다녀옴",
+            "norm_text": "엥 진짜? 언제 다녀옴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+진짜/MAG+언제/MAG+다녀옴/VV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나 처음 듣는 듯",
+            "norm_text": "나 처음 듣는 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+처음/MAG+듣/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 7,
+            "text": "2 : 고딩 때 현장 체험 내고 친척들이랑 감 ㅎ",
+            "norm_text": "고딩 때 현장 체험 내고 친척들이랑 감 ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고딩/NNP+때/NNG+현장/NNG+체험/NNG+내/VV+고/EC+친척/NNG+들/XSN+이랑/JKB+감/XR+ㅎ/XSA"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진짜 ? 키키 나도 고1 올라갈 때 아빠가 중국 가자 해서 여권 만들었는데 오빠랑 감",
+            "norm_text": "아 진짜 ? 키키 나도 고1 올라갈 때 아빠가 중국 가자 해서 여권 만들었는데 오빠랑 감",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키나/XSA+ETN+JX+도고/NNG+1/SN+올라갈/VV+ETM+때/NNG+아빠/NNG+가/JKS+중국/NNP+가자/NNG+해서/XSV+EC+여권/NNG+만들/VV+었/EP+는데/EC+오빠/NNG+랑/JKB+감/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 근데 막 지네 꼬치 벌레 꼬치 이런 거 보고 식겁 함...",
+            "norm_text": "키키 근데 막 지네 꼬치 벌레 꼬치 이런 거 보고 식겁 함...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+막지/NNP+네/XSN+꼬치/NNG+벌레/NNG+꼬치/NNG+이런/MM+거/NNB+보고/JKB+식겁/NNG+함/XSV+ETN+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 엥 그런 거 진짜 있어?",
+            "norm_text": "엥 그런 거 진짜 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+그런/MM+거/NNB+진짜/MAG+있/VA+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 나만 빼고 둘이 가서 삐져가지고 어땠는지 물어보지도 않음",
+            "norm_text": "나는 나만 빼고 둘이 가서 삐져가지고 어땠는지 물어보지도 않음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+나/NP+만/JX+빼/VV+고/EC+둘/NR+이/JKS+가/VV+서/EC+삐져/VV+EC+가지/VX+고/EC+어땠/VA+EP+는지/EC+물/VV+어/EC+보/VX+지/EC+도/JX+않/VX+음/ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 키키 근데 삐질만 했네...",
+            "norm_text": "아 키키 근데 삐질만 했네...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아키/NNP+키/NNG+근데/MAJ+삐/MAG+질만/NNG+했/XSV+EP+네/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 넌 왜 안 델꼬 가심 ㅠ",
+            "norm_text": "넌 왜 안 델꼬 가심 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넌왜안델꼬가심ㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아니 그게 같이 하우스 하는 작목반 사람들끼리 돈 모아서 연말에 가는 건데 엄마가 다리 안 좋아서 나보고 가라 했거든 .",
+            "norm_text": "아니 그게 같이 하우스 하는 작목반 사람들끼리 돈 모아서 연말에 가는 건데 엄마가 다리 안 좋아서 나보고 가라 했거든 .",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+그게/NP+JKS+같이/MAG+하/XSA+우스/NNG+하/XSV+는/ETM+작목/NNG+반/NNG+사람/NNG+들/XSN+끼리/XSN+돈/NNG+모아서/VV+EC+연말/NNG+에/JKB+가/VV+는/ETM+건데/NNB+VCP+EC+엄마/NNG+가/JKS+다리/NNG+안/MAG+좋/VA+아서/EC+나/NP+보고/JKB+가라/NNG+했/XSV+EP+거든/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아아 근데 넌 못 간겨?",
+            "norm_text": "아아 근데 넌 못 간겨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아아/IC+근데/MAJ+넌/NP+JX+못/MAG+간/VV+ETM+겨/NNB+VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그래서 설레서 막 여권 찍고 난리를 쳤는데 나 학교 가라고 오빠랑 둘이 감",
+            "norm_text": "그래서 설레서 막 여권 찍고 난리를 쳤는데 나 학교 가라고 오빠랑 둘이 감",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+설레/VV+EC+서막/NNG+여권/NNG+찍/VV+고/EC+난리/NNG+를/JKO+쳤/VV+EP+는데/EC+나/NP+학교/NNG+가/VV+라고/EC+오빠/NNG+랑/JC+둘/NR+이감/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오... 나라도 삐져서 말 안 함",
+            "norm_text": "오... 나라도 삐져서 말 안 함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+나/NP+라도/VCP+EC+삐/VX+져서/EC+VX+EC+말/NNG+안함/NNG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그렇게 나는 여권은 써보지도 않았는데 만료돼서 다시 발급 받아야 하는 사람이 되어버렸지.",
+            "norm_text": "그렇게 나는 여권은 써보지도 않았는데 만료돼서 다시 발급 받아야 하는 사람이 되어버렸지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇게/MAG+나/NP+는/JX+여권/NNG+은/JX+써/VV+EC+보/VX+지/EC+도/JX+않/VX+았/EP+는데/EC+만료/NNG+돼서/XSV+EC+다시/MAG+발급/NNG+받/VV+아야/EC+하/VV+는/ETM+사람/NNG+이/JKS+되/VV+어/EC+버렸/VX+EP+지/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 아 그거 너무 귀찮",
+            "norm_text": "아 그거 너무 귀찮",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그거/NP+너무/MAG+귀찮/VA"
+          },
+          {
+            "id": 20,
+            "text": "2 : 근데 나 옛날 여권 사진 보고 식겁함",
+            "norm_text": "근데 나 옛날 여권 사진 보고 식겁함",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+나/NP+옛날/NNG+여권/NNG+사진/NNG+보고/JKB+식겁/NNG+함/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 얼굴 너무 커",
+            "norm_text": "얼굴 너무 커",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼굴/NNG+너무/MAG+커/VA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

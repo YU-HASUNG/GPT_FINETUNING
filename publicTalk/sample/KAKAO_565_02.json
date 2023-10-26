@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 24080,
+    "name": "KAKAO_565_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160902045127/KAKAO_565_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160902045127/KAKAO_565_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31713,
+      "filename": "KAKAO_565_02.txt",
+      "title": "KAKAO_565_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 625,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 625,
+        "word_size": 205,
+        "text": "1 : 도시는 채식 하려면 돈이 많이 들어\n2 : 그럼 나중에 텃밭 있는 집 사서 농사 하는 거 어때?\n1 : 엄마가 나중에 시골 간다니까 엄마 거 얻어 먹을라고 키키\n2 : 어머니 나중에 시골 가서 사신대?\n1 : 응 근데 또 맨날 말 바꿔 키키\n2 : 농사가 하고 싶어도 정말 힘들긴 하지\n2 : 나도 작은 텃밭 하나 생겨서 바질 키우고 싶다\n1 : 바질은 텃밭도 필요 없어 그냥 화분에 해도 엄청 잘 자라\n2 : 나중에 독립하면 화분에 바질 키워서 너도 나눠줄게\n1 : 이거 지켜 언니 빈말 하지 마라 내가 기억하겠어\n2 : 당연하지 너는 김치 담궈서 나눠주면 돼\n1 : 무슨 김치 우리 집은 김장도 안 하는 집이야\n1 : 종가집 김치 사먹는 집안이야\n2 : 그게 최고다 근데 사 먹는 김치 진짜 맛있어\n2 : 너 신혼 집에 김치 냉장고 샀어?\n1 : 아니 나중에 사려고 과일도 넣고 김치 냉장고에 있으면 너무 냄새나서\n2 : 나중에 점점 집이 좋게 나오면 김치 냉장고도 기본 옵션에 껴있게 될 거 같지 않아?\n1 : 요즘도 아파트 분양하는데 가면 옵션에 있더라\n2 : 김치 냉장고가 옵션에 껴있다는 거니, 정말 좋은 집이다,\n2 : 그거 자리 차지도 장난 아니자나\n1 : 근데 별로 좋지도 않아 그거 빌트인인데 빌트인 제품은 구려서 아무도 안 해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 도시는 채식 하려면 돈이 많이 들어",
+            "norm_text": "도시는 채식 하려면 돈이 많이 들어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "도시/NNG+는/JX+채식/NNG+하/XSV+려면/EC+돈/NNG+이/JKS+많이/MAG+들/VV+어/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그럼 나중에 텃밭 있는 집 사서 농사 하는 거 어때?",
+            "norm_text": "그럼 나중에 텃밭 있는 집 사서 농사 하는 거 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+나중/NNG+에/JKB+텃밭/NNG+있/VA+는/ETM+집사/NNG+서/JKB+농사/NNG+하/XSV+는/ETM+거/NNB+어때/VA+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 엄마가 나중에 시골 간다니까 엄마 거 얻어 먹을라고 키키",
+            "norm_text": "엄마가 나중에 시골 간다니까 엄마 거 얻어 먹을라고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+가/JKS+나중/NNG+에/JKB+시골/NNG+간다니까/VV+EC+엄마/NNG+거/NNB+얻어먹/VV+을라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어머니 나중에 시골 가서 사신대?",
+            "norm_text": "어머니 나중에 시골 가서 사신대?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머니/NNG+나중/NNG+에/JKB+시골/NNG+가/VV+서/EC+사/VV+신대/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 근데 또 맨날 말 바꿔 키키",
+            "norm_text": "응 근데 또 맨날 말 바꿔 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+근데/MAJ+또/MAG+맨날/MAG+말/NNG+바꿔/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 농사가 하고 싶어도 정말 힘들긴 하지",
+            "norm_text": "농사가 하고 싶어도 정말 힘들긴 하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "농사/NNG+가/JKS+하/VV+고/EC+싶/VX+어도/EC+정말/MAG+힘들/VA+긴/ETN+JX+하/VX+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나도 작은 텃밭 하나 생겨서 바질 키우고 싶다",
+            "norm_text": "나도 작은 텃밭 하나 생겨서 바질 키우고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+작/VA+은/ETM+텃밭/NNG+하나/NR+생겨서/VV+EC+바질/NNG+JKO+키우/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 바질은 텃밭도 필요 없어 그냥 화분에 해도 엄청 잘 자라",
+            "norm_text": "바질은 텃밭도 필요 없어 그냥 화분에 해도 엄청 잘 자라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "바질/NNG+은/JX+텃밭/NNG+도/JX+필요/NNG+없/VA+어/EC+그냥/MAG+화분/NNG+에/JKB+해도/VV+EC+엄청/MAG+잘/MAG+자라/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나중에 독립하면 화분에 바질 키워서 너도 나눠줄게",
+            "norm_text": "나중에 독립하면 화분에 바질 키워서 너도 나눠줄게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나중/NNG+에/JKB+독립/NNG+하/XSV+면/EC+화분/NNG+에/JKB+바질/NNG+JKO+키워서/VV+EC+너/NP+도/JX+나눠/VV+EC+줄/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 10,
+            "text": "1 : 이거 지켜 언니 빈말 하지 마라 내가 기억하겠어",
+            "norm_text": "이거 지켜 언니 빈말 하지 마라 내가 기억하겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이거/NP+지켜/VV+EC+언니/NNG+빈말/NNG+하/XSV+지/EC+마/VX+라/EC+내/NP+가/JKS+기억/NNG+하/XSV+겠/EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 당연하지 너는 김치 담궈서 나눠주면 돼",
+            "norm_text": "당연하지 너는 김치 담궈서 나눠주면 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+너/NP+는/JX+김치/NNG+담궈서/VV+EC+나눠/VV+EC+주/VX+면/EC+돼/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 무슨 김치 우리 집은 김장도 안 하는 집이야",
+            "norm_text": "무슨 김치 우리 집은 김장도 안 하는 집이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "무슨/MM+김치/NNG+우리/NP+집/NNG+은/JX+김장/NNG+도/JX+안/MAG+하/VV+는/ETM+집/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 종가집 김치 사먹는 집안이야",
+            "norm_text": "종가집 김치 사먹는 집안이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "종가/NNG+집/NNG+김치/NNG+사먹/VV+는/ETM+집안/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그게 최고다 근데 사 먹는 김치 진짜 맛있어",
+            "norm_text": "그게 최고다 근데 사 먹는 김치 진짜 맛있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+최고/NNG+다/VCP+EF+근데/MAJ+사먹/VV+는/ETM+김치/NNG+진짜/MAG+맛있/VA+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 너 신혼 집에 김치 냉장고 샀어?",
+            "norm_text": "너 신혼 집에 김치 냉장고 샀어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+신혼집/NNG+에/JKB+김치냉장고/NNG+샀/VV+EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아니 나중에 사려고 과일도 넣고 김치 냉장고에 있으면 너무 냄새나서",
+            "norm_text": "아니 나중에 사려고 과일도 넣고 김치 냉장고에 있으면 너무 냄새나서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아니/IC+나중/NNG+에/JKB+사/VV+려고/EC+과일/NNG+도/JX+넣/VV+고/EC+김치냉장고/NNG+에/JKB+있/VV+으면/EC+너무/MAG+냄새나/VV+서/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나중에 점점 집이 좋게 나오면 김치 냉장고도 기본 옵션에 껴있게 될 거 같지 않아?",
+            "norm_text": "나중에 점점 집이 좋게 나오면 김치 냉장고도 기본 옵션에 껴있게 될 거 같지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나중/NNG+에/JKB+점점/MAG+집/NNG+이/JKS+좋/VA+게/EC+나오/VV+면/EC+김치냉장고/NNG+도/JX+기본/NNG+옵션/NNG+에/JKB+껴/VV+EC+있/VX+게/EC+될/VV+ETM+거/NNB+같/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 요즘도 아파트 분양하는데 가면 옵션에 있더라",
+            "norm_text": "요즘도 아파트 분양하는데 가면 옵션에 있더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+도/JX+아파트/NNG+분양/NNG+하/XSV+는/ETM+데/NNB+가/VV+면/EC+옵션/NNG+에/JKB+있/VV+더라/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 김치 냉장고가 옵션에 껴있다는 거니, 정말 좋은 집이다,",
+            "norm_text": "김치 냉장고가 옵션에 껴있다는 거니, 정말 좋은 집이다,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "김치냉장고/NNG+가/JKS+옵션/NNG+에/JKB+껴/VV+EC+있/VX+다는/ETM+거/NNB+니/VCP+EC+,/SC+정말/MAG+좋/VA+은/ETM+집/NNG+이/VCP+다/EF+,/SC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그거 자리 차지도 장난 아니자나",
+            "norm_text": "그거 자리 차지도 장난 아니자나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+자리/NNG+차지/NNG+도/JX+장난/NNG+아니/VCN+자/EC+나/VX"
+          },
+          {
+            "id": 21,
+            "text": "1 : 근데 별로 좋지도 않아 그거 빌트인인데 빌트인 제품은 구려서 아무도 안 해",
+            "norm_text": "근데 별로 좋지도 않아 그거 빌트인인데 빌트인 제품은 구려서 아무도 안 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+별로/MAG+좋/VA+지/EC+도/JX+않/VX+아/EC+그거/NP+빌트인/NNG+인데/VCP+EC+빌트인/NNG+제품/NNG+은/JX+구려/NNG+서/JKB+아무/NP+도/JX+안/MAG+해/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

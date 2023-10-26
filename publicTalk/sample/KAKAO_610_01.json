@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 35392,
+    "name": "KAKAO_610_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120231086187/KAKAO_610_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924120231086187/KAKAO_610_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32114,
+      "filename": "KAKAO_610_01.txt",
+      "title": "KAKAO_610_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 451,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 451,
+        "word_size": 155,
+        "text": "1 : 나 다시 다이어트 시작했는데 야식이 넘 땡겨\n2 : 야식 좋지 야식 얘기하니까 닭발 먹고 싶네\n1 : 아 닭발 ㅠㅠ\n1 : 오늘만 먹을까 ? 배달 ㄱㄱ?\n2 : 키키 가즈아 나는 시켜 먹어야겠음\n1 : 키키 그래 가즈아\n1 : 어디 꺼 시킬 거임?\n2 : 나 **닭발 먹을 거임 주먹밥 필수다\n1 : 키키 당연하지 맛있겟땅\n1 : 나는 닭똥집도 시킬 거임\n2 : 키키 혹시 다이어트 중 맞으세요?\n1 : 요즘 맛있는 거 못 먹어서 기운이 없단 말야\n2 : 키키 그래 맛있는 거 먹는 게 소소한 행복이지\n1 : 아 벌써부터 행복해 배달 시켰음?\n2 : 아직! 너는? 너도 **닭발 시킬 거임?\n1 : 응응 키키 이따가 리뷰 남기자\n1 : 리뷰 남기면 음료 서비스로 준대\n2 : 오키 오키 여기 서비스로 주는 누룽지 탕도 맛있는 듯\n1 : 아 맞네 누룽지 탕 줬었지 키키\n1 : 아 지금 행복함 2배임\n2 : 그래 키키 너가 행복하면 됐다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 다시 다이어트 시작했는데 야식이 넘 땡겨",
+            "norm_text": "나 다시 다이어트 시작했는데 야식이 넘 땡겨",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+다시/MAG+다이어트/NNG+시작/NNG+했/XSV+EP+는데/EC+야식/NNG+이/JKS+넘/MAG+땡겨/VV+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 야식 좋지 야식 얘기하니까 닭발 먹고 싶네",
+            "norm_text": "야식 좋지 야식 얘기하니까 닭발 먹고 싶네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "야식/NNG+좋/VA+지/EC+야식/NNG+얘기/NNG+하/XSV+니까/EC+닭발/NNG+먹/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 닭발 ㅠㅠ",
+            "norm_text": "아 닭발 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "아닭발ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 오늘만 먹을까 ? 배달 ㄱㄱ?",
+            "norm_text": "오늘만 먹을까 ? 배달 ㄱㄱ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/NNG+만/JX+먹/VV+을까/EF+배달/NNG+ㄱ/NNG+ㄱ/NNG"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 가즈아 나는 시켜 먹어야겠음",
+            "norm_text": "키키 가즈아 나는 시켜 먹어야겠음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키가/XSV+ETN+JKS+즈/MM+아/IC+나/NP+는/JX+시켜/VV+EC+먹/VV+어야/EC+겠/EP+음/ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 그래 가즈아",
+            "norm_text": "키키 그래 가즈아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키그래가즈아/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어디 꺼 시킬 거임?",
+            "norm_text": "어디 꺼 시킬 거임?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+꺼/VV+EC+시킬/VV+ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 나 **닭발 먹을 거임 주먹밥 필수다",
+            "norm_text": "나 **닭발 먹을 거임 주먹밥 필수다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+*/SY+*/SY+닭발/NNG+먹/VV+을/ETM+거/NNB+임/VCP+ETN+주먹밥/NNG+필수/NNG+다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 당연하지 맛있겟땅",
+            "norm_text": "키키 당연하지 맛있겟땅",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+당연/XR+하/XSA+지/EC+맛있/VA+겟/EC+땅/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 나는 닭똥집도 시킬 거임",
+            "norm_text": "나는 닭똥집도 시킬 거임",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+닭똥집/NNG+도/JX+시킬/VV+ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 혹시 다이어트 중 맞으세요?",
+            "norm_text": "키키 혹시 다이어트 중 맞으세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+혹시/MAG+다이어트/NNG+중/NNB+맞/VV+으세요/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 요즘 맛있는 거 못 먹어서 기운이 없단 말야",
+            "norm_text": "요즘 맛있는 거 못 먹어서 기운이 없단 말야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+맛있/VA+는/ETM+거/NNB+못/MAG+먹/VV+어서/EC+기운/NNG+이/JKS+없/VA+단/EC+말/VX+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 그래 맛있는 거 먹는 게 소소한 행복이지",
+            "norm_text": "키키 그래 맛있는 거 먹는 게 소소한 행복이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/JX+맛있/VA+는/ETM+거/NNB+먹/VV+는/ETM+게/NNB+JKS+소소/XR+한/XSA+ETM+행복/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 벌써부터 행복해 배달 시켰음?",
+            "norm_text": "아 벌써부터 행복해 배달 시켰음?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+벌써/MAG+부터/JX+행복/NNG+해/XSV+EC+배달/NNG+시켰/XSV+EP+음/ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아직! 너는? 너도 **닭발 시킬 거임?",
+            "norm_text": "아직! 너는? 너도 **닭발 시킬 거임?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아직/MAG+너/NP+는/JX+너/NP+도/JX+*/SY+*/SY+닭발/NNG+시킬/XSV+ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응응 키키 이따가 리뷰 남기자",
+            "norm_text": "응응 키키 이따가 리뷰 남기자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+이따가/MAG+리뷰/NNP+남기/VV+자/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 리뷰 남기면 음료 서비스로 준대",
+            "norm_text": "리뷰 남기면 음료 서비스로 준대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "리뷰/NNP+남기/VV+면/EC+음료/NNG+서비스/NNG+로/JKB+준대/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 오키 오키 여기 서비스로 주는 누룽지 탕도 맛있는 듯",
+            "norm_text": "오키 오키 여기 서비스로 주는 누룽지 탕도 맛있는 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+오키/NNP+여기/NP+서비스/NNG+로/JKB+주/VX+는/ETM+누룽지/NNG+탕/NNG+도/JX+맛있/VA+는/ETM+듯/NNB"
+          },
+          {
+            "id": 19,
+            "text": "1 : 아 맞네 누룽지 탕 줬었지 키키",
+            "norm_text": "아 맞네 누룽지 탕 줬었지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+맞/VV+네/EF+누룽지/NNG+탕/MAG+줬었/VV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 아 지금 행복함 2배임",
+            "norm_text": "아 지금 행복함 2배임",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+지금/MAG+행복/NNG+함/XSV+ETN+2/SN+배임/NNG"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그래 키키 너가 행복하면 됐다",
+            "norm_text": "그래 키키 너가 행복하면 됐다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+키/NNG+키/XSV+ETN+너/NP+가/JKS+행복/NNG+하/XSV+면/EC+됐/VV+EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 23993,
+    "name": "KAKAO_579_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154918069170/KAKAO_579_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923154918069170/KAKAO_579_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31513,
+      "filename": "KAKAO_579_02.txt",
+      "title": "KAKAO_579_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 405,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 405,
+        "word_size": 135,
+        "text": "1 : 너 자취하고 싶다며 할 거야?\n2 : 나 자취하고 싶은데 요즘 집값이 너무 비싸ㅜㅜ\n1 : 그치 우리 동네 월세 가격 봤어?\n2 : 아니 아직 안 봤어 왜 얼만데?\n1 : 4-50은 기본으로 줘야 하고 보증금 500이래\n2 : 와... 너무 비싸다...\n2 : 자취 언제쯤 할 수 있을까\n1 : 그러게 키키 아니면 지방으로 가야 하겠지...\n2 : 지방은 친구도 없고 외롭잖아ㅠㅠ\n1 : 그렇긴 한데 집값도 싸고 신축도 많아\n2 : 아 그런가? 자취하면 좋을 것 같아\n1 : 맞아 엄마 잔소리를 피할 수 있어\n2 : 키키 맞아 그게 제일 큰 메리트인 거 같아\n1 : 그치 키키 자취 로망 하면 친구들 초대해서 집들이~\n2 : 나중에 나 자취 시작하면 집들이 와 키키\n1 : 키키 술 사 가지고 가면 되겠다~\n2 : 술이랑 선물 잔뜩 들고 와 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 자취하고 싶다며 할 거야?",
+            "norm_text": "너 자취하고 싶다며 할 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+자취/NNG+하/XSV+고/EC+싶/VX+다며/EC+할/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 자취하고 싶은데 요즘 집값이 너무 비싸ㅜㅜ",
+            "norm_text": "나 자취하고 싶은데 요즘 집값이 너무 비싸ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+자취/NNG+하/XSV+고/EC+싶/VX+은데/EC+요즘/NNG+집값/NNG+이/JKS+너무/MAG+비싸/VA+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그치 우리 동네 월세 가격 봤어?",
+            "norm_text": "그치 우리 동네 월세 가격 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+우리/NP+동네/NNG+월세/NNG+가격/NNG+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 아직 안 봤어 왜 얼만데?",
+            "norm_text": "아니 아직 안 봤어 왜 얼만데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+아직/MAG+안/MAG+봤/VV+EP+어/EF+왜/MAG+얼만데/NNG+VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 4-50은 기본으로 줘야 하고 보증금 500이래",
+            "norm_text": "4-50은 기본으로 줘야 하고 보증금 500이래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "4/SN+-/SY+50/SN+은/JX+기본/NNG+으로/JKB+줘야/VV+EC+하/VV+고/EC+보증금/NNG+500/SN+이래/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 와... 너무 비싸다...",
+            "norm_text": "와... 너무 비싸다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+너무/MAG+비싸/VA+다/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 자취 언제쯤 할 수 있을까",
+            "norm_text": "자취 언제쯤 할 수 있을까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자취/NNG+언제/NP+쯤/XSN+할/VV+ETM+수/NNB+있/VV+을까/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그러게 키키 아니면 지방으로 가야 하겠지...",
+            "norm_text": "그러게 키키 아니면 지방으로 가야 하겠지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키/XSV+ETN+아니/VCN+면/EC+지방/NNG+으로/JKB+가/VV+야/EC+하/VX+겠/EP+지/EF+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 지방은 친구도 없고 외롭잖아ㅠㅠ",
+            "norm_text": "지방은 친구도 없고 외롭잖아ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지방/NNG+은/JX+친구/NNG+도/JX+없/VA+고/EC+외롭/VA+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그렇긴 한데 집값도 싸고 신축도 많아",
+            "norm_text": "그렇긴 한데 집값도 싸고 신축도 많아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+긴/ETN+JX+한데/VX+EC+집값/NNG+도/JX+싸/VA+고/EC+신축/NNG+도/JX+많/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아 그런가? 자취하면 좋을 것 같아",
+            "norm_text": "아 그런가? 자취하면 좋을 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그런가/VA+EF+자취/NNG+하/XSV+면/EC+좋/VA+을/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 맞아 엄마 잔소리를 피할 수 있어",
+            "norm_text": "맞아 엄마 잔소리를 피할 수 있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+엄마/NNG+잔소리/NNG+를/JKO+피할/VV+ETM+수/NNB+있/VV+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 맞아 그게 제일 큰 메리트인 거 같아",
+            "norm_text": "키키 맞아 그게 제일 큰 메리트인 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+그게/NP+JKS+제일/MAG+큰/VA+ETM+메리트/NNG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그치 키키 자취 로망 하면 친구들 초대해서 집들이~",
+            "norm_text": "그치 키키 자취 로망 하면 친구들 초대해서 집들이~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키/NNG+키/NNG+자취/NNG+로/JKB+망하/VV+면/EC+친구/NNG+들/XSN+초대/NNG+해서/XSV+EC+집들이/NNG+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나중에 나 자취 시작하면 집들이 와 키키",
+            "norm_text": "나중에 나 자취 시작하면 집들이 와 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나중/NNG+에/JKB+나/JX+자취/NNG+시작/NNG+하/XSV+면/EC+집들이/NNG+와/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 술 사 가지고 가면 되겠다~",
+            "norm_text": "키키 술 사 가지고 가면 되겠다~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+술/NNG+사/VV+EC+가지/VX+고/EC+가/VX+면/EC+되/VV+겠/EP+다/EC+~/SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 술이랑 선물 잔뜩 들고 와 키키",
+            "norm_text": "술이랑 선물 잔뜩 들고 와 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "술/NNG+이랑/JKB+선물/NNG+잔뜩/MAG+들/VV+고/EC+와/JC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

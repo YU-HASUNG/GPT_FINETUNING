@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 58267,
+    "name": "KAKAO_688_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710045929/KAKAO_688_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928112710045929/KAKAO_688_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35092,
+      "filename": "KAKAO_688_13.txt",
+      "title": "KAKAO_688_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 581,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 581,
+        "word_size": 165,
+        "text": "1 : 이제는 서울도 대구처럼 여름에 더워\n2 : `아 진짜? 대박... 점점 다들 더워지는구나...\n1 : 응응... 진짜 나 더위 별로 안 타는데... 올해는 덥더라\n2 : 오... 그럼 우리 **인 거의 죽었겠는데...?\n1 : 응... 거의 죽었어... 키키 나는 진짜 땀도 원래 안 나는데, 올해는 나더라?\n2 : 와... 그 정도면 진짜 서울도 무시 못하겠는데...?\n1 : 응응... 내 체질이 바꼈을리는 없는데... 진짜 숨이 막혔다ㅜㅜ\n2 : 맞아... 근데 진짜 갈수록 더 더워지긴 해... 문제야 ㅠㅠ\n1 : ㅜㅜ 그니까... 진짜 지구온난화가 더 심해지는 거 같아\n2 : 맞아... 진짜 이러다가 인류 다 멸망하는 거 아니야...?\n1 : ㅜㅜ 그니까... 100년 뒤에 지구가 없어질까 봐 두렵다\n2 : 맞아... 진짜 이 정도면은 없어질 수도 있어 가능성 없진 않아\n1 : ㅜㅜ 진짜 우리도 4계절 완전 뚜렷했는데 ㅜㅜ\n2 : 그니깐... 요새는 이상해... 갑자기 여름 되고 갑자기 겨울 되고 봄 가을은 거의 없어\n1 : 웅... 지금 이렇게 좋은 날씨도 한 달도 안 가겠지?\n2 : 맞아... 곧 엄청 추워져서 패딩의 계절이 오겠지 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이제는 서울도 대구처럼 여름에 더워",
+            "norm_text": "이제는 서울도 대구처럼 여름에 더워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/NNG+는/JX+서울/NNP+도/JX+대구/NNP+처럼/JKB+여름/NNG+에/JKB+더워/VA+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : `아 진짜? 대박... 점점 다들 더워지는구나...",
+            "norm_text": "`아 진짜? 대박... 점점 다들 더워지는구나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "`/SY+아/IC+진짜/MAG+대박/NNG+./SY+./SY+점점/MAG+다/MAG+들/XSN+더워/VA+EC+지/VX+는구나/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응응... 진짜 나 더위 별로 안 타는데... 올해는 덥더라",
+            "norm_text": "응응... 진짜 나 더위 별로 안 타는데... 올해는 덥더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+./SY+진짜/MAG+나/NP+더위/NNG+별로/MAG+안/MAG+타/VV+는데/EC+./SY+./SY+올해/NNG+는/JX+덥/VA+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오... 그럼 우리 **인 거의 죽었겠는데...?",
+            "norm_text": "오... 그럼 우리 **인 거의 죽었겠는데...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+그럼/MAJ+우리/NP+*/SY+*/SY+인/VCP+ETM+거의/MAG+죽/VV+었/EP+겠/EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응... 거의 죽었어... 키키 나는 진짜 땀도 원래 안 나는데, 올해는 나더라?",
+            "norm_text": "응... 거의 죽었어... 키키 나는 진짜 땀도 원래 안 나는데, 올해는 나더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+거의/MAG+죽/VV+었/EP+어/EF+./SY+키/NNG+키나/XSA+ETN+JX+는/JX+진짜/MAG+땀/NNG+도/JX+원래/MAG+안/MAG+나/VV+는데/EC+,/SC+올해/NNG+는/JX+나/NP+더라/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 와... 그 정도면 진짜 서울도 무시 못하겠는데...?",
+            "norm_text": "와... 그 정도면 진짜 서울도 무시 못하겠는데...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+그/MM+정도/NNG+면/VCP+EC+진짜/MAG+서울/NNP+도/JX+무시/NNG+못/MAG+하/VV+겠/EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응응... 내 체질이 바꼈을리는 없는데... 진짜 숨이 막혔다ㅜㅜ",
+            "norm_text": "응응... 내 체질이 바꼈을리는 없는데... 진짜 숨이 막혔다ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+./SY+내/NP+JKG+체질/NNG+이/JKS+바꼈/VV+EP+을/ETM+리/NNB+는/JX+없/VA+는데/EC+./SY+./SY+진짜/MAG+숨/NNG+이/JKS+막혔/VV+EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아... 근데 진짜 갈수록 더 더워지긴 해... 문제야 ㅠㅠ",
+            "norm_text": "맞아... 근데 진짜 갈수록 더 더워지긴 해... 문제야 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+근데/MAJ+진짜/MAG+갈수록/MAG+더/MAG+더워/VA+EC+지/VX+긴/ETN+JX+해/VX+EF+./SY+문제야ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : ㅜㅜ 그니까... 진짜 지구온난화가 더 심해지는 거 같아",
+            "norm_text": "ㅜㅜ 그니까... 진짜 지구온난화가 더 심해지는 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ그니까/UNKNOWN+./SY+진짜/MAG+지구/NNG+온난화/NNG+가/JKS+더/MAG+심해/VA+EC+지/VX+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맞아... 진짜 이러다가 인류 다 멸망하는 거 아니야...?",
+            "norm_text": "맞아... 진짜 이러다가 인류 다 멸망하는 거 아니야...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EF+./SY+진짜/MAG+이러/VV+다가/EC+인류/NNG+다/MAG+멸망/NNG+하/XSV+는/ETM+거/NNB+아니/VCN+야/EF+./SY+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : ㅜㅜ 그니까... 100년 뒤에 지구가 없어질까 봐 두렵다",
+            "norm_text": "ㅜㅜ 그니까... 100년 뒤에 지구가 없어질까 봐 두렵다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅜㅜ그니까/UNKNOWN+./SY+./SY+100/SN+년/NNBC+뒤/NNG+에/JKB+지구/NNG+가/JKS+없/VA+어/EC+질까봐/VX+EC+VX+EC+두렵/VA+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맞아... 진짜 이 정도면은 없어질 수도 있어 가능성 없진 않아",
+            "norm_text": "맞아... 진짜 이 정도면은 없어질 수도 있어 가능성 없진 않아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+진짜/MAG+이/MM+정도/NNG+면은/VCP+EC+없/VA+어/EC+질/VX+ETM+수/NNB+도/JX+있/VA+어/EC+가능/NNG+성/XSN+없/VA+진/EC+JX+않/VX+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : ㅜㅜ 진짜 우리도 4계절 완전 뚜렷했는데 ㅜㅜ",
+            "norm_text": "ㅜㅜ 진짜 우리도 4계절 완전 뚜렷했는데 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+진짜/MAG+우리/NP+도/JX+4/SN+계절/NNG+완전/NNG+뚜렷/XR+했/XSA+EP+는데/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그니깐... 요새는 이상해... 갑자기 여름 되고 갑자기 겨울 되고 봄 가을은 거의 없어",
+            "norm_text": "그니깐... 요새는 이상해... 갑자기 여름 되고 갑자기 겨울 되고 봄 가을은 거의 없어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+./SY+요새/NNG+는/JX+이상/NNG+해/XSV+EF+./SY+갑자기/MAG+여름/NNG+되/XSV+고/EC+갑자기/MAG+겨울/NNG+되/XSV+고/EC+봄/NNG+가을/NNG+은/JX+거의/MAG+없/VA+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 웅... 지금 이렇게 좋은 날씨도 한 달도 안 가겠지?",
+            "norm_text": "웅... 지금 이렇게 좋은 날씨도 한 달도 안 가겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "웅/IC+./SY+지금/MAG+이렇게/MAG+좋/VA+은/ETM+날씨/NNG+도/JX+한/MM+달/NNG+도/JX+안/MAG+가/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞아... 곧 엄청 추워져서 패딩의 계절이 오겠지 ㅠㅠ",
+            "norm_text": "맞아... 곧 엄청 추워져서 패딩의 계절이 오겠지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+곧/MAG+엄청/MAG+추워져서/VA+EC+VX+EC+패딩/NNG+의/JKG+계절/NNG+이/JKS+오/VV+겠/EP+지/EF+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

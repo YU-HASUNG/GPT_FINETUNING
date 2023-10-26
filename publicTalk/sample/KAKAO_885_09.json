@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 31493,
+    "name": "KAKAO_885_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175124043681/KAKAO_885_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001175124043681/KAKAO_885_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40327,
+      "filename": "KAKAO_885_09.txt",
+      "title": "KAKAO_885_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 413,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 413,
+        "word_size": 144,
+        "text": "1 : 너 혹시 물고기 키워 본 적 있어?\n2 : 물고기?  왜 물고기 키우려고?\n1 : 키키 엄마가 뭐 키우고 싶으면 물고기 키우래\n2 : 왜 하필 물고기야?\n1 : 다른 동물들은 케어하기 너무 어렵다고 생각하시나 봐 ㅜㅜ\n2 : 그것도 맞는 말인데 물고기 키우는 것도 쉽지 않을 텐데?\n1 : 그래? 왜 밥만 잘 챙겨 주면 되는 거 아냐?\n2 : 아니 어항 관리도 잘해 줘야 되고 무튼 손이 꽤 갈걸?\n1 : 아... 그 생각을 못 했넹\n2 : 하하 갑자기 왜\n2 : 뭐라도 키우고 싶은 거야?\n1 : 아니 예전부터 키우고 싶었어 그냥\n2 : 그럼 반려 식물이라도 키워보지!\n1 : 반려 식물?\n1 : 오 그건 진짜 안 돼\n2 : 왜 하하 겁나 단호하네\n1 : 아니 예전에 친구랑 같이 기숙사 살 때 화분 많았는데 다 죽음 키키\n2 : 헐 키키 너가 다 죽인 거야?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 혹시 물고기 키워 본 적 있어?",
+            "norm_text": "너 혹시 물고기 키워 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+혹시/MAG+물고기/NNG+키워본/VV+EC+VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 물고기?  왜 물고기 키우려고?",
+            "norm_text": "물고기?  왜 물고기 키우려고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "물고기/NNG+왜/MAG+물고기/NNG+키우/VV+려고/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 엄마가 뭐 키우고 싶으면 물고기 키우래",
+            "norm_text": "키키 엄마가 뭐 키우고 싶으면 물고기 키우래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+엄마/NNG+가/JKS+뭐/IC+키우/VV+고/EC+싶/VX+으면/EC+물고기/NNG+키우/VV+래/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 왜 하필 물고기야?",
+            "norm_text": "왜 하필 물고기야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+하필/MAG+물고기/NNG+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 다른 동물들은 케어하기 너무 어렵다고 생각하시나 봐 ㅜㅜ",
+            "norm_text": "다른 동물들은 케어하기 너무 어렵다고 생각하시나 봐 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다른/MM+동물/NNG+들/XSN+은/JX+케어/NNG+하/XSV+기/ETN+너무/MAG+어렵/VA+다고/EC+생각/NNG+하/XSV+시/EP+나/EC+봐/VX+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그것도 맞는 말인데 물고기 키우는 것도 쉽지 않을 텐데?",
+            "norm_text": "그것도 맞는 말인데 물고기 키우는 것도 쉽지 않을 텐데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그것/NP+도/JX+맞/VV+는/ETM+말/NNG+인데/VCP+EC+물고기/NNG+키우/VV+는/ETM+것/NNB+도/JX+쉽/VA+지/EC+않/VX+을/ETM+텐데/NNB+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래? 왜 밥만 잘 챙겨 주면 되는 거 아냐?",
+            "norm_text": "그래? 왜 밥만 잘 챙겨 주면 되는 거 아냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+왜/MAG+밥/NNG+만/JX+잘/MAG+챙겨/VV+EC+주/VX+면/EC+되/VV+는/ETM+거/NNB+아냐/VCN+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니 어항 관리도 잘해 줘야 되고 무튼 손이 꽤 갈걸?",
+            "norm_text": "아니 어항 관리도 잘해 줘야 되고 무튼 손이 꽤 갈걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+어항/NNG+관리/NNG+도/JX+잘/MAG+해/VV+EC+줘야/VX+EC+되/VV+고/EC+무튼/NNP+손/NNG+이/JKS+꽤/MAG+갈걸/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아... 그 생각을 못 했넹",
+            "norm_text": "아... 그 생각을 못 했넹",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+그/MM+생각/NNG+을/JKO+못/MAG+했/VV+EP+넹/NNP"
+          },
+          {
+            "id": 10,
+            "text": "2 : 하하 갑자기 왜",
+            "norm_text": "하하 갑자기 왜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+갑자기/MAG+왜/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 뭐라도 키우고 싶은 거야?",
+            "norm_text": "뭐라도 키우고 싶은 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+라도/VCP+EC+키우/VV+고/EC+싶/VX+은/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아니 예전부터 키우고 싶었어 그냥",
+            "norm_text": "아니 예전부터 키우고 싶었어 그냥",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+예전/NNG+부터/JX+키우/VV+고/EC+싶/VX+었/EP+어/EC+그냥/MAG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그럼 반려 식물이라도 키워보지!",
+            "norm_text": "그럼 반려 식물이라도 키워보지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+반려/NNG+식물/NNG+이/VCP+라도/EC+키워/VV+EC+보/VX+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 반려 식물?",
+            "norm_text": "반려 식물?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "반려/NNG+식물/NNG"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오 그건 진짜 안 돼",
+            "norm_text": "오 그건 진짜 안 돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 거절하기",
+            "morpheme": "오/IC+그건/NP+JX+진짜/MAG+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 왜 하하 겁나 단호하네",
+            "norm_text": "왜 하하 겁나 단호하네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+하하/MAG+겁나/VV+EC+단호/XR+하/XSA+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아니 예전에 친구랑 같이 기숙사 살 때 화분 많았는데 다 죽음 키키",
+            "norm_text": "아니 예전에 친구랑 같이 기숙사 살 때 화분 많았는데 다 죽음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+예전/NNG+에/JKB+친구/NNG+랑/JKB+같이/MAG+기숙사/NNG+살/VV+ETM+때/NNG+화/XSN+분/NNB+많/VA+았/EP+는데/EC+다/MAG+죽음/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 헐 키키 너가 다 죽인 거야?",
+            "norm_text": "헐 키키 너가 다 죽인 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+키/NNG+키/XSV+ETN+너/NP+가/JKS+다/MAG+죽인/VV+ETM+거/NNB+야/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

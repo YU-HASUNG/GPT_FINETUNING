@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 43900,
+    "name": "KAKAO_877_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095011001179/KAKAO_877_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095011001179/KAKAO_877_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40560,
+      "filename": "KAKAO_877_01.txt",
+      "title": "KAKAO_877_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 404,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 404,
+        "word_size": 132,
+        "text": "1 : 요즘 디저트 가게 너무 많은 듯 키키\n2 : 네 키키 저도 마카롱이 지금 빠져 있습니다\n1 : 의외네 마카롱 좋아하나? 키키\n2 : 네 맛있더라구요 키키 뚱카롱\n1 : 뚱카롱은 뭔데 키키 뚱뚱한 마카롱이가?\n2 : 네 키키 행님은 단 거 좋아하십니까?\n1 : 단 거 별로 안 좋아한다 키키\n2 : 아 ㅠ 저는 엄청 좋아합니다 마카롱이랑 바닐라 라떼 같이 먹으면 꿀 조합입니다\n1 : 키키 마카롱 맛집 있나?\n2 : 맛집은 너무 멀어서 근처에서 사 먹습니다  ㅠㅠ\n1 : 나는 마카롱 어쩌다가 한번씩 먹는 듯?\n2 : 맛있지 않습니까? 한번씩 먹으면\n1 : 그냥 너무 달다는 생각밖에 안 들더라 키키\n2 : 키키 저는 치즈랑 초코가 제일 맛있습니다\n1 : 딸기는? 난 딸기 맛있는 거 같던데 키키\n2 : 딸기도 맛있긴 한데 좀 덜 달아서요 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 디저트 가게 너무 많은 듯 키키",
+            "norm_text": "요즘 디저트 가게 너무 많은 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+디저트/NNG+가/VV+게/EC+너무/MAG+많/VA+은/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 네 키키 저도 마카롱이 지금 빠져 있습니다",
+            "norm_text": "네 키키 저도 마카롱이 지금 빠져 있습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+키/NNG+키저/NNG+도/JX+마카롱/NNG+이/JKS+지금/MAG+빠져/VV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 의외네 마카롱 좋아하나? 키키",
+            "norm_text": "의외네 마카롱 좋아하나? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "의외/NNG+네/XSN+마카롱/NNG+좋/VA+아/EC+하나/NR+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 네 맛있더라구요 키키 뚱카롱",
+            "norm_text": "네 맛있더라구요 키키 뚱카롱",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "네/IC+맛있/VA+더라구요/EF+키/NNG+키/XSV+ETN+뚱카/UNKNOWN+롱/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뚱카롱은 뭔데 키키 뚱뚱한 마카롱이가?",
+            "norm_text": "뚱카롱은 뭔데 키키 뚱뚱한 마카롱이가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뚱/NNG+카/NNG+롱/NNG+은/JX+뭔데/NP+VCP+EC+키/NNG+키/XSV+ETN+뚱뚱/XR+한/XSA+ETM+마카롱/NNG+이/VCP+가/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 네 키키 행님은 단 거 좋아하십니까?",
+            "norm_text": "네 키키 행님은 단 거 좋아하십니까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네/IC+키/NNG+키/NNG+행/NNG+님/XSN+은/JX+단/VA+ETM+거/NNB+좋/VA+아/EC+하/VX+십니까/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 단 거 별로 안 좋아한다 키키",
+            "norm_text": "단 거 별로 안 좋아한다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "단거/NNG+별로/MAG+안/MAG+좋아한/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 ㅠ 저는 엄청 좋아합니다 마카롱이랑 바닐라 라떼 같이 먹으면 꿀 조합입니다",
+            "norm_text": "아 ㅠ 저는 엄청 좋아합니다 마카롱이랑 바닐라 라떼 같이 먹으면 꿀 조합입니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아ㅠ/UNKNOWN+저/NP+는/JX+엄청/MAG+좋/VA+아/EC+합니다/VX+EF+마카롱/NNG+이랑/JKB+바닐라/NNG+라떼/NNG+같이/JKB+먹/VV+으면/EC+꿀/VV+ETM+조합/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 마카롱 맛집 있나?",
+            "norm_text": "키키 마카롱 맛집 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+마카롱/NNG+맛집/NNG+있/VA+나/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 맛집은 너무 멀어서 근처에서 사 먹습니다  ㅠㅠ",
+            "norm_text": "맛집은 너무 멀어서 근처에서 사 먹습니다  ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맛집/NNG+은/JX+너무/MAG+멀/VA+어서/EC+근처/NNG+에서/JKB+사먹/VV+습니다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 마카롱 어쩌다가 한번씩 먹는 듯?",
+            "norm_text": "나는 마카롱 어쩌다가 한번씩 먹는 듯?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+마카롱/NNG+어쩌다가/MAG+한/MM+번/NNBC+씩/XSN+먹/VV+는/ETM+듯/NNB"
+          },
+          {
+            "id": 12,
+            "text": "2 : 맛있지 않습니까? 한번씩 먹으면",
+            "norm_text": "맛있지 않습니까? 한번씩 먹으면",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맛있/VA+지/EC+않/VX+습니까/EF+한/MM+번/NNBC+씩/XSN+먹/VV+으면/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그냥 너무 달다는 생각밖에 안 들더라 키키",
+            "norm_text": "그냥 너무 달다는 생각밖에 안 들더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "그냥/MAG+너무/MAG+달/VV+다는/ETM+생각/NNG+밖에/JX+안/MAG+들/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 저는 치즈랑 초코가 제일 맛있습니다",
+            "norm_text": "키키 저는 치즈랑 초코가 제일 맛있습니다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키저/NNG+는/JX+치즈/NNG+랑/JC+초코/NNP+가/JKS+제일/MAG+맛있/VA+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 딸기는? 난 딸기 맛있는 거 같던데 키키",
+            "norm_text": "딸기는? 난 딸기 맛있는 거 같던데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "딸기/NNG+는/JX+난/NP+JX+딸기/NNG+맛있/VA+는/ETM+거/NNB+같/VA+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 딸기도 맛있긴 한데 좀 덜 달아서요 ㅠㅠ",
+            "norm_text": "딸기도 맛있긴 한데 좀 덜 달아서요 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "딸기/NNG+도/JX+맛있/VA+긴/ETN+JX+한데/VX+EC+좀/MAG+덜/MAG+달/VV+아서요/EC+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

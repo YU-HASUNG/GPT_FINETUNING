@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 24156,
+    "name": "KAKAO_488_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404015468/KAKAO_488_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917150404015468/KAKAO_488_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29358,
+      "filename": "KAKAO_488_07.txt",
+      "title": "KAKAO_488_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 529,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 529,
+        "word_size": 167,
+        "text": "1 : 오늘 돼지 생일인 거 아시나요오오오오\n2 : 엥? 오늘이 우리 돼지 생일인가~?\n2 : 맛있는 거 먹어야겠네~!\n1 : 하하 모르고 있던 거야 설마...?\n2 : 에이~ 아빠가 알았지...~\n2 : 뭐 먹고 싶어 우리 딸~?\n1 : 키키 거짓말이야 너무해 너무해 용돈도 줘\n2 : 들켰네~~에이 용돈도 줘야지~\n2 : 생일인데 뭐할 거야~?\n1 : 하하 아빠랑 엄마랑 맛집 가자아아아앙\n2 : 아주 좋다~!\n2 : 그러면 생일 축하 겸 고기 먹으러 갈까~?\n1 : 하하 웅웅 좋아졸아 나 소고기\n1 : 고기는 소고기지 하하\n2 : 소고기는 늘 가던 곳 거기가 맛있는데 갈까~?\n2 : 오늘 저녁 시간 돼?\n1 : 우리 어뻐거 소고기를 쏜다는데 없는 시간도 만들어야징 히히\n2 : 저녁에 엄마랑 다같이 가자~\n2 : 엄마한테도 말해~ 오늘 아빠가 쏜다~!\n1 : 쏜다 쏜다~ 아빠 술도 마살 거야~?\n2 : 오늘은 마셔야지~ 우리 딸 생일인데~\n2 : 같이 한 잔 할까 우리딸~!\n1 : 좋아 내가 와인 사갈게요\n2 : 그래~~오늘 딸 생일 파티 하자~\n2 : 우리 딸 생일 축하해~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 돼지 생일인 거 아시나요오오오오",
+            "norm_text": "오늘 돼지 생일인 거 아시나요오오오오",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+돼지/NNG+생일/NNG+인/VCP+ETM+거/NNB+아/VV+시/EP+나요/EF+오/NR+오/NR+오/NR+오/NR"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥? 오늘이 우리 돼지 생일인가~?",
+            "norm_text": "엥? 오늘이 우리 돼지 생일인가~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+오늘/NNG+이/JKS+우리/NP+돼지/NNG+생일/NNG+인가/VCP+EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 맛있는 거 먹어야겠네~!",
+            "norm_text": "맛있는 거 먹어야겠네~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맛있/VA+는/ETM+거/NNB+먹/VV+어야/EC+겠/EP+네/EF+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 하하 모르고 있던 거야 설마...?",
+            "norm_text": "하하 모르고 있던 거야 설마...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+모르/VV+고/EC+있/VX+던/ETM+거/NNB+야/VCP+EF+설마/MAG+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 에이~ 아빠가 알았지...~",
+            "norm_text": "에이~ 아빠가 알았지...~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/NNG+~/SY+아빠/NNG+가/JKS+알/VV+았/EP+지/EF+./SY+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 뭐 먹고 싶어 우리 딸~?",
+            "norm_text": "뭐 먹고 싶어 우리 딸~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+먹/VV+고/EC+싶/VX+어/EC+우리/NP+딸/NNG+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 거짓말이야 너무해 너무해 용돈도 줘",
+            "norm_text": "키키 거짓말이야 너무해 너무해 용돈도 줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+거짓말/NNG+이야/JX+너무/MAG+해/VV+EC+너무/MAG+해용/VV+EC+돈/NNG+도/JX+줘/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 들켰네~~에이 용돈도 줘야지~",
+            "norm_text": "들켰네~~에이 용돈도 줘야지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "들켰/VV+EP+네/EF+~/SY+~/SY+에/JKB+이용/NNG+돈/NNG+도/JX+줘야지/VV+EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 생일인데 뭐할 거야~?",
+            "norm_text": "생일인데 뭐할 거야~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "생일/NNG+인데/VCP+EC+뭐/IC+할/VV+ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 하하 아빠랑 엄마랑 맛집 가자아아아앙",
+            "norm_text": "하하 아빠랑 엄마랑 맛집 가자아아아앙",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "하하/MAG+아빠/NNG+랑/JKB+엄마/NNG+랑/JKB+맛집/NNG+가/VV+자아/EC+아/IC+아앙/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아주 좋다~!",
+            "norm_text": "아주 좋다~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아주/MAG+좋/VA+다/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그러면 생일 축하 겸 고기 먹으러 갈까~?",
+            "norm_text": "그러면 생일 축하 겸 고기 먹으러 갈까~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그러면/MAJ+생일/NNG+축하/NNG+겸/NNB+고기/NNG+먹/VV+으러/EC+갈까/VV+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 하하 웅웅 좋아졸아 나 소고기",
+            "norm_text": "하하 웅웅 좋아졸아 나 소고기",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+웅웅/MAG+좋/VA+아/EC+졸/VV+아나/EC+소고기/NNG"
+          },
+          {
+            "id": 14,
+            "text": "1 : 고기는 소고기지 하하",
+            "norm_text": "고기는 소고기지 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고기/NNG+는/JX+소고기/NNG+지하/NNG+하/XSV"
+          },
+          {
+            "id": 15,
+            "text": "2 : 소고기는 늘 가던 곳 거기가 맛있는데 갈까~?",
+            "norm_text": "소고기는 늘 가던 곳 거기가 맛있는데 갈까~?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "소고기/NNG+는/JX+늘/MAG+가/VV+던/ETM+곳/NNB+거기/NP+가/JKS+맛있/VA+는/ETM+데/NNB+갈까/VV+EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 오늘 저녁 시간 돼?",
+            "norm_text": "오늘 저녁 시간 돼?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+저녁/NNG+시간/NNG+돼/XSV+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 우리 어뻐거 소고기를 쏜다는데 없는 시간도 만들어야징 히히",
+            "norm_text": "우리 어뻐거 소고기를 쏜다는데 없는 시간도 만들어야징 히히",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+어뻐/UNKNOWN+거소/NNG+고기/NNG+를/JKO+쏜다는/VV+ETM+데/NNB+없/VA+는/ETM+시간/NNG+도/JX+만들/VV+어야/EC+징/NNG+히히/MAG"
+          },
+          {
+            "id": 18,
+            "text": "2 : 저녁에 엄마랑 다같이 가자~",
+            "norm_text": "저녁에 엄마랑 다같이 가자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저녁/NNG+에/JKB+엄마/NNG+랑/JKB+다/MAG+같이/MAG+가/VV+자/EC+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 엄마한테도 말해~ 오늘 아빠가 쏜다~!",
+            "norm_text": "엄마한테도 말해~ 오늘 아빠가 쏜다~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+한테/JKB+도/JX+말/NNG+해/XSV+EC+~/SY+오늘/NNG+아빠/NNG+가/JKS+쏜다/VV+EC+~/SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 쏜다 쏜다~ 아빠 술도 마살 거야~?",
+            "norm_text": "쏜다 쏜다~ 아빠 술도 마살 거야~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "쏜다/VV+EC+쏜다/VV+EC+~/SY+아빠/NNG+술/NNG+도마/NNG+살/VV+ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "2 : 오늘은 마셔야지~ 우리 딸 생일인데~",
+            "norm_text": "오늘은 마셔야지~ 우리 딸 생일인데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/NNG+은/JX+마셔야/VV+EC+VX+지/EC+~/SY+우리/NP+딸/VV+ETM+생일/NNG+인데/VCP+EC+~/SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 같이 한 잔 할까 우리딸~!",
+            "norm_text": "같이 한 잔 할까 우리딸~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "같이/MAG+한잔/NNG+할까/XSV+EF+우리/NP+딸/NNG+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 좋아 내가 와인 사갈게요",
+            "norm_text": "좋아 내가 와인 사갈게요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "좋/VA+아/EC+내가/NNP+와/JC+인사/NNG+갈게요/VV+EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그래~~오늘 딸 생일 파티 하자~",
+            "norm_text": "그래~~오늘 딸 생일 파티 하자~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+~/SY+~/SY+오늘/NNG+딸/NNG+생일/NNG+파티/NNG+하/XSV+자/EC+~/SY"
+          },
+          {
+            "id": 25,
+            "text": "2 : 우리 딸 생일 축하해~",
+            "norm_text": "우리 딸 생일 축하해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+딸/VV+ETM+생일/NNG+축하/NNG+해/XSV+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

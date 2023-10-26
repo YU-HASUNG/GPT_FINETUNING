@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 32224,
+    "name": "KAKAO_811_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170457007989/KAKAO_811_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170457007989/KAKAO_811_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38696,
+      "filename": "KAKAO_811_03.txt",
+      "title": "KAKAO_811_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 478,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 478,
+        "word_size": 164,
+        "text": "1 : 거기 위치가 어떻게 된다고 했죠?\n2 : 거기? 무슨 거기? 거기라고만 하면 모르지 키키\n1 : 아 키키 아 죄송해요 ㅠ\n1 : 아 정신이 없었네 ㅠ\n2 : 키키 그래서 거기 어디?\n2 : 내가 알려준 데가 있었나?\n1 : 그 언니가 자주 간다는 카페 있잖아요~\n2 : 아 거기 키키 커피 맛있다고 했던 거기?\n1 : 네 키키 언니 지역 온 김에 거기 가려고 했는데 ㅠ\n2 : 위치를 모르셨던 거지 키키 각 온다 키키\n1 : 네 ㅠ 거기 어디에요?\n1 : 일단 시내까진 왔어요\n2 : 시내야? 그럼 거기 분수대 있는 쪽 찾아봐~\n1 : 분수대는 또 어디야 ㅠ\n1 : 여기 버스 정류장이랑 안경점 보여요 ㅠ\n2 : 분수대는 조금 더 들어가면 보일 거야 ㅋ 딱 시내 중간!\n1 : 아 ㅠ 언니 그냥 주소 주시면 제가 가볼게요\n2 : 주소보단 그냥 분수대 보고 들어가는 게 더 빠를 텐데?\n1 : 아무래도 위치를 알면 검색할 수 있을 거 같아서 ㅠ\n2 : 알겠어 키키 위치 곧 보내줄게~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 거기 위치가 어떻게 된다고 했죠?",
+            "norm_text": "거기 위치가 어떻게 된다고 했죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거기/NP+위치/NNG+가/JKS+어떻게/MAG+된다고/VV+EC+했/VX+EP+죠/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 거기? 무슨 거기? 거기라고만 하면 모르지 키키",
+            "norm_text": "거기? 무슨 거기? 거기라고만 하면 모르지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+무슨/MM+거기/NP+거기/NP+라고/VCP+EC+만/JX+하/VV+면/EC+모르/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 키키 아 죄송해요 ㅠ",
+            "norm_text": "아 키키 아 죄송해요 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 사과하기",
+            "morpheme": "아키/NNP+키아/NNP+죄송/XR+해요/XSA+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아 정신이 없었네 ㅠ",
+            "norm_text": "아 정신이 없었네 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아정신이없었네ㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 그래서 거기 어디?",
+            "norm_text": "키키 그래서 거기 어디?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래서/MAJ+거기/NP+어디/NP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 내가 알려준 데가 있었나?",
+            "norm_text": "내가 알려준 데가 있었나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내/NP+가/JKS+알려/VV+EC+준/VX+ETM+데/NNB+가/JKS+있/VA+었/EP+나/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그 언니가 자주 간다는 카페 있잖아요~",
+            "norm_text": "그 언니가 자주 간다는 카페 있잖아요~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+언니/NNG+가/JKS+자주/MAG+간다는/VV+ETM+카페/NNG+있/VV+잖아요/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 거기 키키 커피 맛있다고 했던 거기?",
+            "norm_text": "아 거기 키키 커피 맛있다고 했던 거기?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+거기/NP+키/NNG+키/NNG+커피/NNG+맛있/VA+다고/EC+했/VX+EP+던/ETM+거기/NP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 네 키키 언니 지역 온 김에 거기 가려고 했는데 ㅠ",
+            "norm_text": "네 키키 언니 지역 온 김에 거기 가려고 했는데 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+키/NNG+키/NNG+언니/NNG+지역/NNG+온/VV+ETM+김/NNB+에/JKB+거기/NP+가/JKS+려고/NNG+했/XSV+EP+는데/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 위치를 모르셨던 거지 키키 각 온다 키키",
+            "norm_text": "위치를 모르셨던 거지 키키 각 온다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "위치/NNG+를/JKO+모르/VV+셨/EP+EP+던/ETM+거/NNB+지/VCP+EF+키키/NNP+각/MM+온/MM+다키키/NNP"
+          },
+          {
+            "id": 11,
+            "text": "1 : 네 ㅠ 거기 어디에요?",
+            "norm_text": "네 ㅠ 거기 어디에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "네ㅠ/UNKNOWN+거기/NP+어디/NP+에/JKB+요/JX"
+          },
+          {
+            "id": 12,
+            "text": "1 : 일단 시내까진 왔어요",
+            "norm_text": "일단 시내까진 왔어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일단/MAG+시내/NNG+까진/JX+JX+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 시내야? 그럼 거기 분수대 있는 쪽 찾아봐~",
+            "norm_text": "시내야? 그럼 거기 분수대 있는 쪽 찾아봐~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시내/NNG+야/VCP+EF+그럼/MAJ+거기/NP+분수대/NNG+있/VA+는/ETM+쪽/NNB+찾아봐/VV+EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 분수대는 또 어디야 ㅠ",
+            "norm_text": "분수대는 또 어디야 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "분수대/NNG+는/JX+또/MAG+어디/NP+야/VCP+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 여기 버스 정류장이랑 안경점 보여요 ㅠ",
+            "norm_text": "여기 버스 정류장이랑 안경점 보여요 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여기/NP+버스/NNG+정류장/NNG+이랑/JKB+안경점/NNG+보여요/VV+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 분수대는 조금 더 들어가면 보일 거야 ㅋ 딱 시내 중간!",
+            "norm_text": "분수대는 조금 더 들어가면 보일 거야 ㅋ 딱 시내 중간!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "분수대/NNG+는/JX+조금/MAG+더/MAG+들어가/VV+면/EC+보일/VV+ETM+거/NNB+야/VCP+EF+ㅋ딱/UNKNOWN+시내/NNG+중간/NNG"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아 ㅠ 언니 그냥 주소 주시면 제가 가볼게요",
+            "norm_text": "아 ㅠ 언니 그냥 주소 주시면 제가 가볼게요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "아ㅠ/UNKNOWN+언니/NNG+그냥/MAG+주소/NNG+주/VV+시/EP+면/EC+제/NP+가/JKS+가/VV+볼게요/EC+VX+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 주소보단 그냥 분수대 보고 들어가는 게 더 빠를 텐데?",
+            "norm_text": "주소보단 그냥 분수대 보고 들어가는 게 더 빠를 텐데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주소/NNG+보단/JKB+JX+그냥/MAG+분수대/NNG+보/VV+고/EC+들어가/VV+는/ETM+게/NNB+JKS+더/MAG+빠를/VA+ETM+텐데/NNB+VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 아무래도 위치를 알면 검색할 수 있을 거 같아서 ㅠ",
+            "norm_text": "아무래도 위치를 알면 검색할 수 있을 거 같아서 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+위치/NNG+를/JKO+알/VV+면/EC+검색/NNG+할/XSV+ETM+수/NNB+있/VV+을/ETM+거/NNB+같/VA+아서/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 알겠어 키키 위치 곧 보내줄게~",
+            "norm_text": "알겠어 키키 위치 곧 보내줄게~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+겠/EP+어/EC+키/NNG+키/NNG+위치/NNG+곧/MAG+보내/VV+EC+줄/VX+ETM+게/NNB+JKS+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

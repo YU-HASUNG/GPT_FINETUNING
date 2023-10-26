@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 71839,
+    "name": "KAKAO_807_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109301721300992109/KAKAO_807_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109301721300992109/KAKAO_807_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39066,
+      "filename": "KAKAO_807_13.txt",
+      "title": "KAKAO_807_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 1004,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 1004,
+        "word_size": 319,
+        "text": "1 : 지금이 가을인가? 근데 가을 옷 안 사도 되겠지?\n2 : 아침 저녁 날씨는 가을 같은데 그렇다고 가을 옷 사면 금방 겨울 와버릴 것 같지 ㅠ\n2 : 가을 옷 좋아하는데 가을이 점점 짧아져서 슬퍼\n1 : 그니까 원래 봄 가을 옷이 젤 이쁘다고 ㅜㅜ\n1 : 청자켓 입을 일이 없어\n2 : 마쟈 청자켓 트렌치코트 이런 거 오래 입고 싶다구 ㅜ\n2 : 사계절 뚜렷하다던 대한민국 어디 갔냐...\n1 : 아 진심 작년에 트렌치코트 입은 사람 거의 못 보고 나도 못 입어봐써\n2 : 내 트렌치코트도 옷장 깊숙한 곳에서 썩고 있는 중 ㅠㅠ\n2 : 여름은 좀 짧아지고 가을은 길어져라 제발 제발 제발\n1 : 키키 맞아 단풍 즐길 시간은 좀 줘라\n1 : 근데 이번 가을 맞이 명절 추석에는 뭐해?\n2 : 난 뭐 별일 없으면 매년 그랬던 것처럼 아침에 할머니 댁 가서 차례 지내고 성묘 갔다가 다시 저녁 먹으러 할머니 집으로 귀가 할 예정일걸?\n2 : 키키 완전 티엠아이 너는?\n1 : 키키 ㄱㄲ 나는 항상 다이나믹 해서 모르겠어 고모들 행보에 달렸달까\n1 : 그리고 고모들 안 주무시면 언니네가 자고 갈 예정인 거 같애\n2 : 아하 다른 사람들한테 내 하루 스케쥴이 달라지는 거 너무 피곤한데\n2 : 그래도 고모들보다는 언니네가 자고 가는 게 훨씬 편하징?\n1 : 흠 형부가 없다면 편하겠지만 오 근데 첫 명절이네 결혼하고\n2 : 오호 그러네 그럼 한복 입고 언니랑 형부 찾아오나?\n2 : 내가 입을 건 아니지만 이번 추석은 많이 안 더워서 한복 입기 괜찮은 날씨이길 키키\n1 : 키키 전혀 아닐걸 결혼식 한복도 그냥 대여였거든\n1 : 차라리 ** 한복 입은 게 귀엽겠다\n2 : 키키 아 **이랑 **이가 한복 입는 거라면 사실 비교도 안 되지\n1 : 아 갑자기 오늘 난 자연드림에서 세츠 상품권 나와서 끝인 줄 알았는데 무슨 양갱 세트 선물이랑 점장님이 주는 뭣도 챙겨가래\n1 : 추석 선물 웬일\n2 : 오왕 추석 선물을 생각보다 두둑하게 챙겨주시넹?\n2 : 근데 명절 전이라서 매장 많이 바쁘지 않았어?\n2 : 일한 만큼 보상 받은 거라 생각혀 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 지금이 가을인가? 근데 가을 옷 안 사도 되겠지?",
+            "norm_text": "지금이 가을인가? 근데 가을 옷 안 사도 되겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+이/MM+가을/NNG+인가/VCP+EF+근데/MAJ+가을/NNG+옷/NNG+안사/NNG+도/JX+되/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아침 저녁 날씨는 가을 같은데 그렇다고 가을 옷 사면 금방 겨울 와버릴 것 같지 ㅠ",
+            "norm_text": "아침 저녁 날씨는 가을 같은데 그렇다고 가을 옷 사면 금방 겨울 와버릴 것 같지 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아침/NNG+저녁/NNG+날씨/NNG+는/JX+가을/NNG+같/VA+은/ETM+데/NNB+그렇/VA+다고/EC+가을/NNG+옷/NNG+사면/NNG+금방/MAG+겨울/NNG+와/JKB+버릴/VV+ETM+것/NNB+같/VA+지/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 가을 옷 좋아하는데 가을이 점점 짧아져서 슬퍼",
+            "norm_text": "가을 옷 좋아하는데 가을이 점점 짧아져서 슬퍼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가을/NNG+옷/NNG+좋/VA+아/EC+하/VV+는데/EC+가을/NNG+이/JKS+점점/MAG+짧아져서/VV+EC+슬퍼/VA+EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그니까 원래 봄 가을 옷이 젤 이쁘다고 ㅜㅜ",
+            "norm_text": "그니까 원래 봄 가을 옷이 젤 이쁘다고 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+원래/MAG+봄/NNG+가을/NNG+옷/NNG+이/JKS+젤/MAG+이쁘/VA+다고/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 청자켓 입을 일이 없어",
+            "norm_text": "청자켓 입을 일이 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "청/NNG+자켓/NNG+입/NNG+을/JKO+일/NNG+이/JKS+없/VA+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 마쟈 청자켓 트렌치코트 이런 거 오래 입고 싶다구 ㅜ",
+            "norm_text": "마쟈 청자켓 트렌치코트 이런 거 오래 입고 싶다구 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마/VV+쟈/EC+청/NNG+자켓/NNG+트렌치코트/NNG+이런/MM+거/NNB+오래/MAG+입/VV+고/EC+싶/VX+다구/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 사계절 뚜렷하다던 대한민국 어디 갔냐...",
+            "norm_text": "사계절 뚜렷하다던 대한민국 어디 갔냐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사계절/NNG+뚜렷/XR+하/XSA+다던/ETM+대한민국/NNP+어디/NP+갔/VV+EP+냐/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진심 작년에 트렌치코트 입은 사람 거의 못 보고 나도 못 입어봐써",
+            "norm_text": "아 진심 작년에 트렌치코트 입은 사람 거의 못 보고 나도 못 입어봐써",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진심/NNG+작년/NNG+에/JKB+트렌치코트/NNG+입/VV+은/ETM+사람/NNG+거의/MAG+못/MAG+보/VV+고/EC+나/NP+도/JX+못/MAG+입/VV+어/EC+봐/VX+EC+써/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 내 트렌치코트도 옷장 깊숙한 곳에서 썩고 있는 중 ㅠㅠ",
+            "norm_text": "내 트렌치코트도 옷장 깊숙한 곳에서 썩고 있는 중 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+트렌치코트/NNG+도/JX+옷장/NNG+깊숙/XR+한/XSA+ETM+곳/NNG+에서/JKB+썩/VV+고/EC+있/VX+는/ETM+중/NNB+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 여름은 좀 짧아지고 가을은 길어져라 제발 제발 제발",
+            "norm_text": "여름은 좀 짧아지고 가을은 길어져라 제발 제발 제발",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여름/NNG+은/JX+좀/MAG+짧/VA+아/EC+지/VX+고/EC+가을/NNG+은/JX+길/VA+어/EC+져라/VX+EC+제발/MAG+제발/MAG+제발/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 맞아 단풍 즐길 시간은 좀 줘라",
+            "norm_text": "키키 맞아 단풍 즐길 시간은 좀 줘라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+아/EC+단풍/NNG+즐길/VV+ETM+시간/NNG+은/JX+좀/MAG+줘라/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 근데 이번 가을 맞이 명절 추석에는 뭐해?",
+            "norm_text": "근데 이번 가을 맞이 명절 추석에는 뭐해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+이번/NNG+가을맞이/NNG+명절/NNG+추석/NNG+에/JKB+는/JX+뭐/IC+해/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 뭐 별일 없으면 매년 그랬던 것처럼 아침에 할머니 댁 가서 차례 지내고 성묘 갔다가 다시 저녁 먹으러 할머니 집으로 귀가 할 예정일걸?",
+            "norm_text": "난 뭐 별일 없으면 매년 그랬던 것처럼 아침에 할머니 댁 가서 차례 지내고 성묘 갔다가 다시 저녁 먹으러 할머니 집으로 귀가 할 예정일걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+뭐/IC+별일/NNG+없/VA+으면/EC+매년/MAG+그랬/VV+EP+던/ETM+것/NNB+처럼/JKB+아침/NNG+에/JKB+할머니/NNG+댁/NNG+가/VV+서/EC+차례/NNG+지내/VV+고/EC+성묘/NNG+갔/VV+EP+다가/EC+다시/MAG+저녁/NNG+먹/VV+으러/EC+할머니/NNG+집/NNG+으로/JKB+귀가/NNG+할/XSV+ETM+예정/NNG+일걸/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 완전 티엠아이 너는?",
+            "norm_text": "키키 완전 티엠아이 너는?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+완전/NNG+티엠/NNG+아이/IC+너/NP+는/JX"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 ㄱㄲ 나는 항상 다이나믹 해서 모르겠어 고모들 행보에 달렸달까",
+            "norm_text": "키키 ㄱㄲ 나는 항상 다이나믹 해서 모르겠어 고모들 행보에 달렸달까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+ㄱㄲ/UNKNOWN+나/NP+는/JX+항상/MAG+다이나/NNP+믹/NNG+해서/XSV+EC+모르/VV+겠/EP+어/EC+고모/NNG+들/XSN+행보/NNG+에/JKB+달렸/VV+EP+달까/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그리고 고모들 안 주무시면 언니네가 자고 갈 예정인 거 같애",
+            "norm_text": "그리고 고모들 안 주무시면 언니네가 자고 갈 예정인 거 같애",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+고모/NNG+들/XSN+안/MAG+주무시/VV+면/EC+언니네/NNP+가/JKS+자/VV+고/EC+갈/VX+ETM+예정/NNG+인/VCP+ETM+거/NNB+같/VA+애/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아하 다른 사람들한테 내 하루 스케쥴이 달라지는 거 너무 피곤한데",
+            "norm_text": "아하 다른 사람들한테 내 하루 스케쥴이 달라지는 거 너무 피곤한데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아하/IC+다른/MM+사람/NNG+들/XSN+한테/JKB+내하/NNG+루스/NNP+케/NNP+쥴/NNP+이/JKS+달라지/VV+는/ETM+거/NNB+너무/MAG+피곤/NNG+한데/XSA+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그래도 고모들보다는 언니네가 자고 가는 게 훨씬 편하징?",
+            "norm_text": "그래도 고모들보다는 언니네가 자고 가는 게 훨씬 편하징?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+고모/NNG+들/XSN+보다/JKB+는/JX+언니네/NNP+가/JKS+자/VV+고/EC+가/VX+는/ETM+게/NNB+JKS+훨씬/MAG+편하/VA+징/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 흠 형부가 없다면 편하겠지만 오 근데 첫 명절이네 결혼하고",
+            "norm_text": "흠 형부가 없다면 편하겠지만 오 근데 첫 명절이네 결혼하고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "흠/IC+형부/NNG+가/JKS+없/VA+다면/EC+편하/VA+겠/EP+지만/EC+오/VX+근데/MAJ+첫/MM+명절/NNG+이/JKS+네/MM+결혼/NNG+하/XSV+고/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 오호 그러네 그럼 한복 입고 언니랑 형부 찾아오나?",
+            "norm_text": "오호 그러네 그럼 한복 입고 언니랑 형부 찾아오나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오호/IC+그러/VV+네/EF+그럼/MAJ+한복/NNG+입/VV+고/EC+언니/NNG+랑/JKB+형부/NNG+찾아오/VV+나/EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 내가 입을 건 아니지만 이번 추석은 많이 안 더워서 한복 입기 괜찮은 날씨이길 키키",
+            "norm_text": "내가 입을 건 아니지만 이번 추석은 많이 안 더워서 한복 입기 괜찮은 날씨이길 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+입/VV+을/ETM+건/NNB+JX+아니/VCN+지만/EC+이번/NNG+추석/NNG+은/JX+많이/MAG+안/MAG+더워서/VA+EC+한복/NNG+입/VV+기/ETN+괜찮/VA+은/ETM+날씨/NNG+이/VCP+길/ETN+JKO+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 전혀 아닐걸 결혼식 한복도 그냥 대여였거든",
+            "norm_text": "키키 전혀 아닐걸 결혼식 한복도 그냥 대여였거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+전혀/MAG+아닐/VCN+ETM+걸/NNB+JKO+결혼식/NNG+한복/NNG+도/JX+그냥/MAG+대여/NNG+였/VCP+EP+거든/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 차라리 ** 한복 입은 게 귀엽겠다",
+            "norm_text": "차라리 ** 한복 입은 게 귀엽겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차라리/MAG+*/SY+*/SY+한복/NNG+입/VV+은/ETM+게/NNB+JKS+귀엽/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 키키 아 **이랑 **이가 한복 입는 거라면 사실 비교도 안 되지",
+            "norm_text": "키키 아 **이랑 **이가 한복 입는 거라면 사실 비교도 안 되지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+*/SY+*/SY+이랑/JC+*/SY+*/SY+이/NP+가/JKS+한복/NNG+입/VV+는/ETM+거/NNB+라면/VCP+EC+사실/MAG+비교/NNG+도/JX+안/MAG+되/VV+지/EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 아 갑자기 오늘 난 자연드림에서 세츠 상품권 나와서 끝인 줄 알았는데 무슨 양갱 세트 선물이랑 점장님이 주는 뭣도 챙겨가래",
+            "norm_text": "아 갑자기 오늘 난 자연드림에서 세츠 상품권 나와서 끝인 줄 알았는데 무슨 양갱 세트 선물이랑 점장님이 주는 뭣도 챙겨가래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+갑자기/MAG+오늘/MAG+난/NP+JX+자연/NNG+드림/NNG+에서/JKB+세츠/NNP+상품권/NNG+나와서/VV+EC+끝/NNG+인/VCP+ETM+줄/NNB+알/VV+았/EP+는데/EC+무슨/MM+양갱/NNG+세트/NNG+선물/NNG+이랑/JKB+점장/NNG+님/XSN+이/JKS+주/VV+는/ETM+뭣/NP+도/JX+챙겨/VV+EC+가래/NNG"
+          },
+          {
+            "id": 26,
+            "text": "1 : 추석 선물 웬일",
+            "norm_text": "추석 선물 웬일",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추석/NNG+선물/NNG+웬일/NNG"
+          },
+          {
+            "id": 27,
+            "text": "2 : 오왕 추석 선물을 생각보다 두둑하게 챙겨주시넹?",
+            "norm_text": "오왕 추석 선물을 생각보다 두둑하게 챙겨주시넹?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+왕/NNG+추석/NNG+선물/NNG+을/JKO+생각/NNG+보다/JKB+두둑/XR+하/XSA+게/EC+챙겨/VV+EC+주/VX+시/EP+넹/NNP"
+          },
+          {
+            "id": 28,
+            "text": "2 : 근데 명절 전이라서 매장 많이 바쁘지 않았어?",
+            "norm_text": "근데 명절 전이라서 매장 많이 바쁘지 않았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+명절/NNG+전이/NNG+라서/VCP+EC+매장/MAG+많이/MAG+바쁘/VA+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 29,
+            "text": "2 : 일한 만큼 보상 받은 거라 생각혀 키키",
+            "norm_text": "일한 만큼 보상 받은 거라 생각혀 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일/NNG+한/XSA+ETM+만큼/NNB+보상/NNG+받/VV+은/ETM+거/NNB+라/VCP+EC+생각/NNG+혀/XSV+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

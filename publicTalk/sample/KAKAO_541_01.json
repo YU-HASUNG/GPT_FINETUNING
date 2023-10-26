@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 23900,
+    "name": "KAKAO_541_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155854008871/KAKAO_541_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155854008871/KAKAO_541_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29932,
+      "filename": "KAKAO_541_01.txt",
+      "title": "KAKAO_541_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 591,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 591,
+        "word_size": 200,
+        "text": "1 : 너는 라떼 먹을 때 우유 속 괜찮음?\n2 : 나는 별 탈 없음 키키 넌?\n1 : 나는 아주 속 아파 죽겄던데 ㅠㅠ\n2 : 그런 사람들 있더라 키키 라떼가 제일 맛있는데 불쌍함\n1 : 뭔 유당 불내증? 불냉증? 그런 거 있던데 우유 소화 못 시키는 거\n2 : 그거는 병인가? 고칠 수는 없는 거여?\n1 : 키키 불쌍 ㅠㅠ 예전엔 그런 거 없었던 거 같은데 어느 순간부터 그렇게 되더라고\n1 : 몰러 나도 키키 우유 잘 먹는 사람들 보면 신기해 키키\n2 : 키키 뭐지 후천적으로 바뀌는 건가 신기하네 키키\n2 : 그 맛있는 우유를 못 먹다니\n1 : 커피랑 우유랑 섞여서 그런가 싶기도 하고 알 수 없음 키키\n1 : 키키 그래서 주구장창 아메리카노만 키키\n2 : 아메리카노도 뭐 많이 먹으면 속 안 좋다더만 키키 ㅌ\n1 : 키키 그래서 위도 난리 났잖아 키키\n1 : 밥 안 먹고 아메리카노만 넣어서 키키\n2 : 키키 위를 왜케 혹사시키냐 잘 좀 해 주지\n1 : 키키 이렇게 약한 놈일 줄이야 몰랐다... 키키\n2 : 키키 맛있는 거도 좀 넣어 주고 해 키키\n1 : 우유만 잘 먹어도 선택지가 많을 텐데 아숩다...\n1 : 키키 이미 늦은 듯\n2 : 하긴 우유 들어가는 게 너무 많긴 해 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 라떼 먹을 때 우유 속 괜찮음?",
+            "norm_text": "너는 라떼 먹을 때 우유 속 괜찮음?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+라떼/NNG+먹/VV+을/ETM+때/NNG+우유/NNG+속/NNG+괜찮/VA+음/ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 별 탈 없음 키키 넌?",
+            "norm_text": "나는 별 탈 없음 키키 넌?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+별/MM+탈/NNG+없/VA+음/ETN+키/NNG+키/XSV+ETN+넌/JX"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나는 아주 속 아파 죽겄던데 ㅠㅠ",
+            "norm_text": "나는 아주 속 아파 죽겄던데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+아주/MAG+속/NNG+아파/VA+EC+죽/VV+겄/EP+던데/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그런 사람들 있더라 키키 라떼가 제일 맛있는데 불쌍함",
+            "norm_text": "그런 사람들 있더라 키키 라떼가 제일 맛있는데 불쌍함",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+사람/NNG+들/XSN+있/VA+더라/EC+키/NNG+키/NNG+라떼/NNG+가/JKS+제일/MAG+맛있/VA+는데/EC+불쌍/XR+함/XSA+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 뭔 유당 불내증? 불냉증? 그런 거 있던데 우유 소화 못 시키는 거",
+            "norm_text": "뭔 유당 불내증? 불냉증? 그런 거 있던데 우유 소화 못 시키는 거",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔/MM+유당/NNG+불/XPN+내증/NNG+?/SY+불/XPN+냉증/NNG+그런/MM+거/NNB+있/VA+던데/EC+우유/NNG+소화/NNG+못/MAG+시키/VV+는/ETM+거/NNB"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그거는 병인가? 고칠 수는 없는 거여?",
+            "norm_text": "그거는 병인가? 고칠 수는 없는 거여?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+는/JX+병/NNG+인가/VCP+EF+고칠/VV+ETM+수/NNB+는/JX+없/VA+는/ETM+거/NNB+여/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 불쌍 ㅠㅠ 예전엔 그런 거 없었던 거 같은데 어느 순간부터 그렇게 되더라고",
+            "norm_text": "키키 불쌍 ㅠㅠ 예전엔 그런 거 없었던 거 같은데 어느 순간부터 그렇게 되더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+불쌍/XR+ㅠㅠ/UNKNOWN+예전/NNG+엔/JKB+JX+그런/MM+거/NNB+없/VA+었/EP+던/ETM+거/NNB+같/VA+은데/EC+어느/MM+순간/NNG+부터/JX+그렇게/MAG+되/VV+더라고/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 몰러 나도 키키 우유 잘 먹는 사람들 보면 신기해 키키",
+            "norm_text": "몰러 나도 키키 우유 잘 먹는 사람들 보면 신기해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "몰러/NNG+나/JC+도키/NNG+키/NNG+우유/NNG+잘/MAG+먹/VV+는/ETM+사람/NNG+들/XSN+보/VV+면/EC+신기/XR+해/XSA+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 뭐지 후천적으로 바뀌는 건가 신기하네 키키",
+            "norm_text": "키키 뭐지 후천적으로 바뀌는 건가 신기하네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/NP+지/VCP+EC+후천/NNG+적/XSN+으로/JKB+바뀌/VV+는/ETM+건가/NNB+VCP+EC+신기/XR+하/XSA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그 맛있는 우유를 못 먹다니",
+            "norm_text": "그 맛있는 우유를 못 먹다니",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+맛있/VA+는/ETM+우유/NNG+를/JKO+못/MAG+먹/VV+다니/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 커피랑 우유랑 섞여서 그런가 싶기도 하고 알 수 없음 키키",
+            "norm_text": "커피랑 우유랑 섞여서 그런가 싶기도 하고 알 수 없음 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "커피/NNG+랑/JKB+우유/NNG+랑/JKB+섞여서/VV+EC+그런가/VA+EC+싶/VX+기/ETN+도/JX+하/VV+고/EC+알/VV+ETM+수/NNB+없/VA+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 그래서 주구장창 아메리카노만 키키",
+            "norm_text": "키키 그래서 주구장창 아메리카노만 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래서/MAJ+주구장창/MAG+아메리카노/NNP+만/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아메리카노도 뭐 많이 먹으면 속 안 좋다더만 키키 ㅌ",
+            "norm_text": "아메리카노도 뭐 많이 먹으면 속 안 좋다더만 키키 ㅌ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아메리카노/NNP+도/JX+뭐/IC+많이/MAG+먹/VV+으면/EC+속/NNG+안/MAG+좋/VA+다더만/EF+키/NNG+키ㅌ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그래서 위도 난리 났잖아 키키",
+            "norm_text": "키키 그래서 위도 난리 났잖아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래서/MAJ+위/NNG+도/JX+난리/NNG+났잖아/VV+EP+EC+VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 밥 안 먹고 아메리카노만 넣어서 키키",
+            "norm_text": "밥 안 먹고 아메리카노만 넣어서 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "밥/NNG+안/MAG+먹/VV+고/EC+아메리카노/NNP+만/JX+넣/VV+어서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 위를 왜케 혹사시키냐 잘 좀 해 주지",
+            "norm_text": "키키 위를 왜케 혹사시키냐 잘 좀 해 주지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키위/NNG+를/JKO+왜/MAG+케/XSA+EC+혹사/NNG+시키/XSV+냐/EC+잘/MAG+좀/MAG+해/VV+EC+주/VX+지/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 이렇게 약한 놈일 줄이야 몰랐다... 키키",
+            "norm_text": "키키 이렇게 약한 놈일 줄이야 몰랐다... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+이렇게/MAG+약한/VA+ETM+놈/NNB+일/VCP+ETM+줄/NNB+이야/JX+몰랐/VV+EP+다/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 맛있는 거도 좀 넣어 주고 해 키키",
+            "norm_text": "키키 맛있는 거도 좀 넣어 주고 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맛있/VA+는/ETM+거/NNB+도/JX+좀/MAG+넣/VV+어/EC+주/VX+고/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 우유만 잘 먹어도 선택지가 많을 텐데 아숩다...",
+            "norm_text": "우유만 잘 먹어도 선택지가 많을 텐데 아숩다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우유/NNG+만/JX+잘/MAG+먹/VV+어도/EC+선택지/NNG+가/JKS+많/VA+을/ETM+텐데/NNB+VCP+EC+VCP+아/EC+숩/NNG+다/VCP+EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 이미 늦은 듯",
+            "norm_text": "키키 이미 늦은 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+이미/MAG+늦/VA+은/ETM+듯/NNB"
+          },
+          {
+            "id": 21,
+            "text": "2 : 하긴 우유 들어가는 게 너무 많긴 해 키키",
+            "norm_text": "하긴 우유 들어가는 게 너무 많긴 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+우유/NNG+들어가/VV+는/ETM+게/NNB+JKS+너무/MAG+많/VA+긴/ETN+JX+해/VX+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

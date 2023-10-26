@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 40342,
+    "name": "KAKAO_671_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152540005483/KAKAO_671_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152540005483/KAKAO_671_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34812,
+      "filename": "KAKAO_671_14.txt",
+      "title": "KAKAO_671_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 454,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 454,
+        "word_size": 143,
+        "text": "1 : 엄마 얀센 백신 알지?\n2 : 알지 얀센 요즘 홍보 많이 하던데\n1 : 단 1회 접종으로 인기 많았잖아\n2 : 지금도 그렇게 홍보하던데\n1 : 근데 얀센 접종자들이 돌파 감염에 취약하다더라\n2 : 그래 라디오에선 시간 없는 사람들 외국인들 상대로 계속 홍보 나오더라고\n1 : 응 지금 미국에서도 얀센만 부스터샷 안 맞고 있어서 기다리고 있대 승인나기를\n2 : 아무래도 한 번 맞았으니까 돌파 감염에 약하겠지\n1 : 최소 8개월 면역 효력 있어서 그런가 봐\n2 : 그래 모더나 화이자도 마찬가지 아니야?\n1 : 대신 나머지 백신 2차는 물론이고 부스터샷 대상이니깐\n2 : 그렇구나 암튼 백신을 맞아도 우리 자신이 철저히 관리 소독해야 해\n1 : 맞아 그게 제일 중요해\n1 : 나 담주에 2차다 ㅠ\n2 : 다들 2차가 많이 아프다는데 ㅠㅠ\n1 : 그래서 좀 많이 떨리네 ㅠㅠ\n2 : 그래도 괜찮을 거야\n2 : 컨디션 조절 잘해서 맞으면 돼",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 얀센 백신 알지?",
+            "norm_text": "엄마 얀센 백신 알지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+얀센/NNG+백신/NNG+알/VV+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 알지 얀센 요즘 홍보 많이 하던데",
+            "norm_text": "알지 얀센 요즘 홍보 많이 하던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+지/EC+얀센/NNG+요즘/NNG+홍보/NNG+많이/MAG+하/VV+던데/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 단 1회 접종으로 인기 많았잖아",
+            "norm_text": "단 1회 접종으로 인기 많았잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "단/MM+1/SN+회/NNBC+접종/NNG+으로/JKB+인기/NNG+많/VA+았/EP+잖아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 지금도 그렇게 홍보하던데",
+            "norm_text": "지금도 그렇게 홍보하던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/NNG+도/JX+그렇/VA+게/EC+홍보/NNG+하/XSV+던데/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 근데 얀센 접종자들이 돌파 감염에 취약하다더라",
+            "norm_text": "근데 얀센 접종자들이 돌파 감염에 취약하다더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+얀센/NNG+접종/NNG+자/XSN+들/XSN+이/JKS+돌파/NNG+감염/NNG+에/JKB+취약/NNG+하/XSV+다더라/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래 라디오에선 시간 없는 사람들 외국인들 상대로 계속 홍보 나오더라고",
+            "norm_text": "그래 라디오에선 시간 없는 사람들 외국인들 상대로 계속 홍보 나오더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+라디오/NNG+에선/JKB+JX+시간/NNG+없/VA+는/ETM+사람/NNG+들/XSN+외국인/NNG+들/XSN+상대/NNG+로/JKB+계속/MAG+홍보/NNG+나오/VV+더라고/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 지금 미국에서도 얀센만 부스터샷 안 맞고 있어서 기다리고 있대 승인나기를",
+            "norm_text": "응 지금 미국에서도 얀센만 부스터샷 안 맞고 있어서 기다리고 있대 승인나기를",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+지금/MAG+미국/NNP+에서/JKB+도/JX+얀센/NNG+만/JX+부스터/NNG+샷/NNG+안/MAG+맞/VV+고/EC+있/VX+어서/EC+기다리/VV+고/EC+있/VX+대/EF+승인/NNG+나기/NNG+를/JKO"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아무래도 한 번 맞았으니까 돌파 감염에 약하겠지",
+            "norm_text": "아무래도 한 번 맞았으니까 돌파 감염에 약하겠지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아무래도/MAG+한/MM+번/NNBC+맞/VV+았/EP+으니까/EC+돌파/NNG+감염/NNG+에/JKB+약하/VA+겠/EP+지/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 최소 8개월 면역 효력 있어서 그런가 봐",
+            "norm_text": "최소 8개월 면역 효력 있어서 그런가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "최소/NNG+8/SN+개월/NNBC+면역/NNG+효력/NNG+있/VV+어서/EC+그런가/VA+EC+봐/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그래 모더나 화이자도 마찬가지 아니야?",
+            "norm_text": "그래 모더나 화이자도 마찬가지 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+모더/NNP+나/JC+화이자/NNP+도/JX+마찬가지/NNG+아니/VCN+야/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 대신 나머지 백신 2차는 물론이고 부스터샷 대상이니깐",
+            "norm_text": "대신 나머지 백신 2차는 물론이고 부스터샷 대상이니깐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대신/NNG+나머지/NNG+백신/NNG+2/SN+차/NNBC+는/JX+물론/NNG+이/VCP+고/EC+부스터/NNG+샷/NNG+대상/NNG+이/VCP+니깐/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그렇구나 암튼 백신을 맞아도 우리 자신이 철저히 관리 소독해야 해",
+            "norm_text": "그렇구나 암튼 백신을 맞아도 우리 자신이 철저히 관리 소독해야 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+암튼/MAJ+백신/NNG+을/JKO+맞/VV+아도/EC+우리/NP+자신/NNG+이/JKS+철저히/MAG+관리/NNG+소독/NNG+해야/XSV+EC+해/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞아 그게 제일 중요해",
+            "norm_text": "맞아 그게 제일 중요해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그게/NP+JKS+제일/MAG+중요/NNG+해/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나 담주에 2차다 ㅠ",
+            "norm_text": "나 담주에 2차다 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나담주/NNP+에/JKB+2/SN+차/NNBC+다ㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 다들 2차가 많이 아프다는데 ㅠㅠ",
+            "norm_text": "다들 2차가 많이 아프다는데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다/MAG+들/XSN+2/SN+차/NNBC+가/JKS+많이/MAG+아프/VA+다는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그래서 좀 많이 떨리네 ㅠㅠ",
+            "norm_text": "그래서 좀 많이 떨리네 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+좀/MAG+많이/MAG+떨리/VV+네/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래도 괜찮을 거야",
+            "norm_text": "그래도 괜찮을 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+괜찮/VA+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 컨디션 조절 잘해서 맞으면 돼",
+            "norm_text": "컨디션 조절 잘해서 맞으면 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "컨디션/NNG+조절/NNG+잘/MAG+해서/VV+EC+맞/VV+으면/EC+돼/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

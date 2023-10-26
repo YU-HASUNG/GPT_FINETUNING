@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 45746,
+    "name": "KAKAO_673_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927018321/KAKAO_673_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151927018321/KAKAO_673_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34792,
+      "filename": "KAKAO_673_14.txt",
+      "title": "KAKAO_673_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 620,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 620,
+        "word_size": 185,
+        "text": "1 : 과연 백신 접종률 높아지면 마스크 안 써도 될까?\n2 : 우리나라도 위드 코로나 한다고 하잖아\n1 : 근데 우리나라는 위드 코로나 안 할 것 같은데;\n2 : 유럽은 지금 마스크 프리로 자유로운데 우리나라도 그러지 않을까?\n1 : 지금도 말로는 백신 접종자 있으면 8인까지 가능한데 정작 음식점이나 카페만 가도 백신 접종자 있어도 4인 이상 안된대\n2 : 아 그래? 지금 행정 명령으로는 백신 접종자 있으면 8인까지 되잖아\n1 : 그래서 내가 음식점 사장님께 말해보니까 밖에서 신고할 수도 있다고 백신 접종자가 있더라도 4인 이상은 안된다고 하더라\n2 : 거기만 그런 건 아니고?\n1 : 응. 보드 게임 카페에서도 절대 안된다 하고 카페에서도 4인 이상 안 된다고 하던데?\n2 : 그럼 무슨 의미가 있는 거지?\n1 : 내 말이 그 말이야. 위드 코로나 한다고 해도 마스크 다 쓰고 다닐 것 같아\n2 : 그런가; 이스라엘에서는 백신 2차 접종률이 거의 100%인데도 확진자가 늘어나고 있대\n1 : 봐봐. 백신 다 맞아도 변이로 코로나 걸리는데 과연 우리나가 위드 코로나를 한다고?\n2 : 너 말 듣고 보니 그렇네.\n1 : 내가 봤을 땐 그냥 마스크 잘 쓰고 댕기는 게 코로나 안 걸리는 것이여\n2 : 맞아~ 마스크 잘 쓰고 다녀야지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 과연 백신 접종률 높아지면 마스크 안 써도 될까?",
+            "norm_text": "과연 백신 접종률 높아지면 마스크 안 써도 될까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "과연/MAG+백신/NNG+접종/NNG+률/XSN+높/VA+아/EC+지/VX+면/EC+마스크/NNG+안/MAG+써도/VV+EC+될까/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우리나라도 위드 코로나 한다고 하잖아",
+            "norm_text": "우리나라도 위드 코로나 한다고 하잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+도/JX+위드/NNP+코로나/NNG+한다고/XSV+EC+하/VV+잖아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 근데 우리나라는 위드 코로나 안 할 것 같은데;",
+            "norm_text": "근데 우리나라는 위드 코로나 안 할 것 같은데;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+우리/NP+나라/NNG+는/JX+위드/NNP+코로나/NNG+안/MAG+할/VV+ETM+것/NNB+같/VA+은데/EC+;/SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 유럽은 지금 마스크 프리로 자유로운데 우리나라도 그러지 않을까?",
+            "norm_text": "유럽은 지금 마스크 프리로 자유로운데 우리나라도 그러지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "유럽/NNP+은/JX+지금/MAG+마스크/IC+프리/NNG+로/JKB+자유/NNG+로운데/XSA+EC+우리/NP+나라/NNG+도/JX+그러/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 지금도 말로는 백신 접종자 있으면 8인까지 가능한데 정작 음식점이나 카페만 가도 백신 접종자 있어도 4인 이상 안된대",
+            "norm_text": "지금도 말로는 백신 접종자 있으면 8인까지 가능한데 정작 음식점이나 카페만 가도 백신 접종자 있어도 4인 이상 안된대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/NNG+도/JX+말/NNG+로/JKB+는/JX+백/NR+신접/NNG+종자/NNG+있/VV+으면/EC+8/SN+인/NNG+까지/JX+가능/NNG+한데/XSA+EC+정작/NNG+음식점/NNG+이나/JC+카페/NNG+만/JX+가/JKS+도백/NNG+신접/NNG+종자/NNG+있/VV+어도/EC+4/SN+인/NNG+이상/NNG+안/MAG+된대/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 그래? 지금 행정 명령으로는 백신 접종자 있으면 8인까지 되잖아",
+            "norm_text": "아 그래? 지금 행정 명령으로는 백신 접종자 있으면 8인까지 되잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+지금/MAG+행정명령/NNP+으로/JKB+는/JX+백/NR+신접/NNG+종자/NNG+있/VV+으면/EC+8/SN+인/NNG+까지/JX+되/VV+잖아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래서 내가 음식점 사장님께 말해보니까 밖에서 신고할 수도 있다고 백신 접종자가 있더라도 4인 이상은 안된다고 하더라",
+            "norm_text": "그래서 내가 음식점 사장님께 말해보니까 밖에서 신고할 수도 있다고 백신 접종자가 있더라도 4인 이상은 안된다고 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+내/NP+가/JKS+음식점/NNG+사장/NNG+님/XSN+께/JKB+말/NNG+해/XSV+EC+보/VX+니까/EC+밖/NNG+에서/JKB+신고/NNG+할/XSV+ETM+수/NNB+도/JX+있/VA+다고/EC+백/NR+신접/NNG+종자/NNG+가/JKS+있/VA+더라도/EC+4/SN+인/NNG+이상/NNG+은/JX+안/MAG+된다고/VV+EC+하/VV+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 거기만 그런 건 아니고?",
+            "norm_text": "거기만 그런 건 아니고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+만/JX+그런/VA+ETM+건/NNB+JX+아니/VCN+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 응. 보드 게임 카페에서도 절대 안된다 하고 카페에서도 4인 이상 안 된다고 하던데?",
+            "norm_text": "응. 보드 게임 카페에서도 절대 안된다 하고 카페에서도 4인 이상 안 된다고 하던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+보드게임/NNG+카페/NNG+에서/JKB+도/JX+절대/MAG+안/MAG+된다/VV+EC+하/VV+고/EC+카페/NNG+에서/JKB+도/JX+4/SN+인/NNG+이상/NNG+안/MAG+된다고/VV+EC+하/VX+던데/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그럼 무슨 의미가 있는 거지?",
+            "norm_text": "그럼 무슨 의미가 있는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+무슨/MM+의미/NNG+가/JKS+있/VA+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 내 말이 그 말이야. 위드 코로나 한다고 해도 마스크 다 쓰고 다닐 것 같아",
+            "norm_text": "내 말이 그 말이야. 위드 코로나 한다고 해도 마스크 다 쓰고 다닐 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+그/MM+말/NNG+이/VCP+야/EF+위드/NNP+코로나/NNG+한다고/XSV+EC+해도/VV+EC+마스크/IC+다/MAG+쓰/VV+고/EC+다닐/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그런가; 이스라엘에서는 백신 2차 접종률이 거의 100%인데도 확진자가 늘어나고 있대",
+            "norm_text": "그런가; 이스라엘에서는 백신 2차 접종률이 거의 100%인데도 확진자가 늘어나고 있대",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런가/VA+EC+;/SY+이스라엘/NNP+에서/JKB+는/JX+백신/NNG+2/SN+차/NNBC+접종/NNG+률/XSN+이/JKS+거의/MAG+100/SN+%/SY+인데/VCP+EC+도/JX+확진/NNG+자/XSN+가/JKS+늘어나/VV+고/EC+있/VX+대/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 봐봐. 백신 다 맞아도 변이로 코로나 걸리는데 과연 우리나가 위드 코로나를 한다고?",
+            "norm_text": "봐봐. 백신 다 맞아도 변이로 코로나 걸리는데 과연 우리나가 위드 코로나를 한다고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "봐/VV+EC+봐/VX+EF+백신/NNG+다/MAG+맞/VV+아도/EC+변이/NNG+로/JKB+코로나/NNG+걸리/VV+는데/EC+과연/MAG+우리/NP+나/NP+가/JKS+위드/NNP+코로나/NNG+를/JKO+한다고/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 너 말 듣고 보니 그렇네.",
+            "norm_text": "너 말 듣고 보니 그렇네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+말/NNG+듣/VV+고/EC+보/VX+니/EC+그렇/VA+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 내가 봤을 땐 그냥 마스크 잘 쓰고 댕기는 게 코로나 안 걸리는 것이여",
+            "norm_text": "내가 봤을 땐 그냥 마스크 잘 쓰고 댕기는 게 코로나 안 걸리는 것이여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+봤/VV+EP+을/ETM+땐/NNG+JX+그냥/MAG+마스크/IC+잘/MAG+쓰/VV+고/EC+댕기/VV+는/ETM+게/NNB+JKS+코로나/NNG+안/MAG+걸리/VV+는/ETM+것/NNB+이/VCP+여/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞아~ 마스크 잘 쓰고 다녀야지",
+            "norm_text": "맞아~ 마스크 잘 쓰고 다녀야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+~/SY+마스크/IC+잘/MAG+쓰/VV+고/EC+다녀야지/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

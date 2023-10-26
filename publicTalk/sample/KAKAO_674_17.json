@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 34179,
+    "name": "KAKAO_674_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152550083857/KAKAO_674_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927152550083857/KAKAO_674_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34835,
+      "filename": "KAKAO_674_17.txt",
+      "title": "KAKAO_674_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 576,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 576,
+        "word_size": 187,
+        "text": "1 : 요즘 여자들은 거의 생리불순 많은 거 같아\n2 : 응 그치? 나 신고 기간 때 엄청 스트레스 받으면 막 바뀌더라 ㅜ\n1 : 맞아 ㅜ 근데 산부인과 가도 소용이 없고...\n2 : 그치 ㅠ 그리고 경구 피임약? 그것도 웬만해서는 먹지 말라 하더라구 ㅠ\n1 : 아 그치 그게 일반 피임약은 다들 복용하는데 그건 아무래도...\n2 : 으으, 참 신경 쓸 게 많은 것 같아 그치?\n1 : 맞아 ㅠ 생리불순은 산부인과 진료비도 너무 비싸고 ㅠ\n2 : 아 진짜? 근데 나는 산부인과 자체를 잘 안 가, 그 건강검진만?\n1 : 난 예전에 가 본 적 있는데 진짜 비쌌던 기억 있어 ㅠㅠ\n2 : 와 진짜? 역시, 쉽지 않은 곳이다\n1 : 맞아... 다 돈이야... ㅠ\n1 : 피임약도 처방 받은 건 더 비싸더라...\n2 : 워, 피임약도 되게 부작용 심하지 않아?\n1 : 음... 딱히 그렇진 않고 피임 용도 아니고도 많이 먹잖아\n2 : 그렇긴 하지 나는 전에 한번 놀러 간다고 먹은 적 있는데 완전 속 안 좋더라\n1 : 아 진짜? 난 괜찮았던 거 같은데...\n1 : 그거 먹고 호르몬 조절되니까 여드름 나은 애들도 있었고\n2 : 오 여드름이 낫다니 그거 진짜 좋겠다 ㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 여자들은 거의 생리불순 많은 거 같아",
+            "norm_text": "요즘 여자들은 거의 생리불순 많은 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+여자/NNG+들/XSN+은/JX+거의/MAG+생리/NNG+불순/NNG+많/VA+은/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 그치? 나 신고 기간 때 엄청 스트레스 받으면 막 바뀌더라 ㅜ",
+            "norm_text": "응 그치? 나 신고 기간 때 엄청 스트레스 받으면 막 바뀌더라 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그치/IC+나/NP+신고/NNG+기간/NNG+때/NNG+엄청/MAG+스트레스/NNG+받/VV+으면/EC+막/NNG+바뀌/VV+더라/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아 ㅜ 근데 산부인과 가도 소용이 없고...",
+            "norm_text": "맞아 ㅜ 근데 산부인과 가도 소용이 없고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+ㅜ/UNKNOWN+근데/MAJ+산부인과/NNG+가/JKS+도소/NNG+용/XSN+이/JKS+없/VA+고/EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그치 ㅠ 그리고 경구 피임약? 그것도 웬만해서는 먹지 말라 하더라구 ㅠ",
+            "norm_text": "그치 ㅠ 그리고 경구 피임약? 그것도 웬만해서는 먹지 말라 하더라구 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그치/IC+ㅠ/UNKNOWN+그리고/MAJ+경구/NNG+피임약/NNG+그것/NP+도/JX+웬만/XR+해서/XSA+EC+는/JX+먹/VV+지/EC+말/VX+라/EC+하/VX+더라구/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그치 그게 일반 피임약은 다들 복용하는데 그건 아무래도...",
+            "norm_text": "아 그치 그게 일반 피임약은 다들 복용하는데 그건 아무래도...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그치/IC+그게/NP+JKS+일반/NNG+피임약/NNG+은/JX+다/MAG+들/XSN+복용/NNG+하/XSV+는데/EC+그건/NP+JX+아무래도/MAG+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 으으, 참 신경 쓸 게 많은 것 같아 그치?",
+            "norm_text": "으으, 참 신경 쓸 게 많은 것 같아 그치?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "으으/IC+,/SC+참/MAG+신경/NNG+쓸/VV+ETM+게/NNB+JKS+많/VA+은/ETM+것/NNB+같/VA+아/EC+그치/IC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아 ㅠ 생리불순은 산부인과 진료비도 너무 비싸고 ㅠ",
+            "norm_text": "맞아 ㅠ 생리불순은 산부인과 진료비도 너무 비싸고 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠ/UNKNOWN+생리/NNG+불순/NNG+은/JX+산부인과/NNG+진료비/NNG+도/JX+너무/MAG+비싸/VA+고/EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 진짜? 근데 나는 산부인과 자체를 잘 안 가, 그 건강검진만?",
+            "norm_text": "아 진짜? 근데 나는 산부인과 자체를 잘 안 가, 그 건강검진만?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+근데/MAJ+나/NP+는/JX+산부인과/NNG+자체/NNG+를/JKO+잘/MAG+안/MAG+가/VV+EC+,/SC+그/MM+건강/NNG+검진/NNG+만/JX"
+          },
+          {
+            "id": 9,
+            "text": "1 : 난 예전에 가 본 적 있는데 진짜 비쌌던 기억 있어 ㅠㅠ",
+            "norm_text": "난 예전에 가 본 적 있는데 진짜 비쌌던 기억 있어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+예전/NNG+에/JKB+가본/NNG+적/XSN+있/VA+는데/EC+진짜/MAG+비쌌/VA+EP+던/ETM+기억/NNG+있/VV+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 와 진짜? 역시, 쉽지 않은 곳이다",
+            "norm_text": "와 진짜? 역시, 쉽지 않은 곳이다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+진짜/MAG+역시/MAJ+,/SC+쉽/VA+지/EC+않/VX+은/ETM+곳/NNG+이/VCP+다/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아... 다 돈이야... ㅠ",
+            "norm_text": "맞아... 다 돈이야... ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+다/MAG+돈/NNG+이/VCP+야/EF+./SY+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 피임약도 처방 받은 건 더 비싸더라...",
+            "norm_text": "피임약도 처방 받은 건 더 비싸더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "피임약/NNG+도/JX+처방/NNG+받/VV+은/ETM+건/NNB+JX+더/MAG+비싸/VA+더라/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 워, 피임약도 되게 부작용 심하지 않아?",
+            "norm_text": "워, 피임약도 되게 부작용 심하지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "워/IC+,/SC+피임약/NNG+도/JX+되게/MAG+부작용/NNG+심하/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 음... 딱히 그렇진 않고 피임 용도 아니고도 많이 먹잖아",
+            "norm_text": "음... 딱히 그렇진 않고 피임 용도 아니고도 많이 먹잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+./SY+딱히/MAG+그렇/VA+진/EC+JX+않/VX+고/EC+피임/NNG+용/XSN+도/JX+아니/VCN+고/EC+도/JX+많이/MAG+먹/VV+잖아/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그렇긴 하지 나는 전에 한번 놀러 간다고 먹은 적 있는데 완전 속 안 좋더라",
+            "norm_text": "그렇긴 하지 나는 전에 한번 놀러 간다고 먹은 적 있는데 완전 속 안 좋더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+긴/ETN+JX+하/VX+지/EF+나/NP+는/JX+전/NNG+에/JKB+한/MM+번/NNBC+놀/VV+러/EC+간다고/VX+EC+먹/VV+은/ETM+적/NNB+있/VA+는데/EC+완전/NNG+속/NNG+안/MAG+좋/VA+더라/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 진짜? 난 괜찮았던 거 같은데...",
+            "norm_text": "아 진짜? 난 괜찮았던 거 같은데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+난/NP+JX+괜찮/VA+았/EP+던/ETM+거/NNB+같/VA+은데/EF+./SY"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그거 먹고 호르몬 조절되니까 여드름 나은 애들도 있었고",
+            "norm_text": "그거 먹고 호르몬 조절되니까 여드름 나은 애들도 있었고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+먹/VV+고/EC+호르몬/NNG+조절/NNG+되/XSV+니까/EC+여드름/NNG+나/VA+은/ETM+애/NNG+들/XSN+도/JX+있/VA+었/EP+고/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 오 여드름이 낫다니 그거 진짜 좋겠다 ㅠ",
+            "norm_text": "오 여드름이 낫다니 그거 진짜 좋겠다 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+여드름/NNG+이/JKS+낫/VV+다니/EC+그거/NP+진짜/MAG+좋/VA+겠/EP+다ㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 34405,
+    "name": "KAKAO_832_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165813040379/KAKAO_832_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165813040379/KAKAO_832_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38556,
+      "filename": "KAKAO_832_03.txt",
+      "title": "KAKAO_832_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 513,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 513,
+        "word_size": 163,
+        "text": "1 : 휴 저는 차 타고 가다 담배 피고 밖에 버리는 사람도 싫어요!\n2 : 맞아 ㅠㅠ 경비아저씨들이ㅜ힘들어하셔... ㅠㅠ 하하\n1 : 언니 아직 퇴근 전 이에요?\n2 : 응 지금 달리는 지옥철 안이야 하하\n1 : 하하 역시 지하철! 그래도 지하철이 빨리 가죠?\n2 : 응응 그래도 정해진 시간에 딱 가니까 그게 좋은 거 같아\n2 : 앉아서 못 가면 슬프지만... ㅠ 키키\n1 : 그쵸 ㅠㅠ 급행 타고 가요?\n2 : 지금 아직 사호선이야~ 금정에서 갈아타는 데 급행 걸릴지 아닐지는 모르겠네 ㅠ 하하\n1 : 사호선 오랜만이다 우리 학교 라인 하하\n2 : 그러게 ^^ 키키 뭔가 코끼리 열차 타는 느낌의 사호선\n1 : 키키 사당행 사당행 이게 사랑행 같아서 귀여워요 키키\n2 : 사당 사당 사당 내 사당이여~ 키키\n1 : 키키 아 퇴근 길이라 넘나 힘들지만 웃긴 것 사당사당\n2 : 키키 파업 안 한다고 하지 않았나...? 지하철이 꽤 느리게 오네\n1 : 협상 타결 됐나 ㅠㅠ 뉴스를 못 봤네요!\n2 : 응 그랬다고 들었는데 ㅠㅠ 늦게 오네… 흐흐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 휴 저는 차 타고 가다 담배 피고 밖에 버리는 사람도 싫어요!",
+            "norm_text": "휴 저는 차 타고 가다 담배 피고 밖에 버리는 사람도 싫어요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴/IC+저/NP+는/JX+차/NNG+타/VV+고/EC+가/VX+다/EC+담배/NNG+피/VV+고/EC+밖/NNG+에/JKB+버리/VV+는/ETM+사람/NNG+도/JX+싫/VA+어요/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞아 ㅠㅠ 경비아저씨들이ㅜ힘들어하셔... ㅠㅠ 하하",
+            "norm_text": "맞아 ㅠㅠ 경비아저씨들이ㅜ힘들어하셔... ㅠㅠ 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+경비/NNG+아저씨/NNG+들/XSN+이/JKS+ㅜ/UNKNOWN+힘들/VA+어/EC+하/VX+셔/EP+EF+./SY+ㅠㅠ하하/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 언니 아직 퇴근 전 이에요?",
+            "norm_text": "언니 아직 퇴근 전 이에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+아직/MAG+퇴근/NNG+전/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 지금 달리는 지옥철 안이야 하하",
+            "norm_text": "응 지금 달리는 지옥철 안이야 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+지금/MAG+달리/VV+는/ETM+지옥/NNG+철안/NNG+이야/JX+하하/MAG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 하하 역시 지하철! 그래도 지하철이 빨리 가죠?",
+            "norm_text": "하하 역시 지하철! 그래도 지하철이 빨리 가죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+역시/MAJ+지하철/NNG+그래도/MAJ+지하철/NNG+이/JKS+빨리/MAG+가/VV+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응응 그래도 정해진 시간에 딱 가니까 그게 좋은 거 같아",
+            "norm_text": "응응 그래도 정해진 시간에 딱 가니까 그게 좋은 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+그래도/VV+EC+정해진/VV+EC+VX+ETM+시간/NNG+에/JKB+딱/MAG+가/VV+니까/EC+그게/NP+JKS+좋/VA+은/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 앉아서 못 가면 슬프지만... ㅠ 키키",
+            "norm_text": "앉아서 못 가면 슬프지만... ㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "앉/VV+아서/EC+못/MAG+가/VV+면/EC+슬프/VA+지만/EC+./SY+./SY+ㅠ키키/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그쵸 ㅠㅠ 급행 타고 가요?",
+            "norm_text": "그쵸 ㅠㅠ 급행 타고 가요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그쵸/IC+ㅠㅠ/UNKNOWN+급행/NNG+타/VV+고/EC+가/VX+요/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 지금 아직 사호선이야~ 금정에서 갈아타는 데 급행 걸릴지 아닐지는 모르겠네 ㅠ 하하",
+            "norm_text": "지금 아직 사호선이야~ 금정에서 갈아타는 데 급행 걸릴지 아닐지는 모르겠네 ㅠ 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+아직/MAG+사호/NNG+선/NNG+이/VCP+야/EC+~/SY+금정/NNP+에서/JKB+갈아타/VV+는데/EC+급행/NNG+걸릴지/VV+EC+아닐지/VCN+EC+는/JX+모르/VV+겠/EP+네/EF+ㅠ하/UNKNOWN+하/XSA"
+          },
+          {
+            "id": 10,
+            "text": "1 : 사호선 오랜만이다 우리 학교 라인 하하",
+            "norm_text": "사호선 오랜만이다 우리 학교 라인 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사호/NNG+선/NNG+오랜만/NNG+이/VCP+다/EF+우리/NP+학교/NNG+라/VCP+EC+인하/NNG+하/XSV"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그러게 ^^ 키키 뭔가 코끼리 열차 타는 느낌의 사호선",
+            "norm_text": "그러게 ^^ 키키 뭔가 코끼리 열차 타는 느낌의 사호선",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+^/SY+^/SY+키/NNG+키/XSV+ETN+뭔가/NP+VCP+EC+코끼리/NNG+열/NR+차/NNBC+타/VV+는/ETM+느낌/NNG+의/JKG+사호/NNG+선/NNG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 사당행 사당행 이게 사랑행 같아서 귀여워요 키키",
+            "norm_text": "키키 사당행 사당행 이게 사랑행 같아서 귀여워요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+사당/NNG+행사/NNG+당/XSN+행/XSN+이게/NP+JKS+사랑/NNG+행/XSN+같/VA+아서/EC+귀여워/VA+EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 사당 사당 사당 내 사당이여~ 키키",
+            "norm_text": "사당 사당 사당 내 사당이여~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "사당/NNG+사당/NNG+사당/NNG+내/NNB+사당/NNG+이/VCP+여/EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 아 퇴근 길이라 넘나 힘들지만 웃긴 것 사당사당",
+            "norm_text": "키키 아 퇴근 길이라 넘나 힘들지만 웃긴 것 사당사당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+퇴근길/NNG+이/VCP+라/EC+넘/VV+나/EC+힘들/VA+지만/EC+웃긴/VV+ETM+것/NNB+사당/NNG+사당/NNG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 파업 안 한다고 하지 않았나...? 지하철이 꽤 느리게 오네",
+            "norm_text": "키키 파업 안 한다고 하지 않았나...? 지하철이 꽤 느리게 오네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+파업/NNG+안/MAG+한다고/VV+EC+하/VV+지/EC+않/VX+았/EP+나/EF+./SY+./SY+지하철/NNG+이/JKS+꽤/MAG+느리/VA+게/EC+오/VV+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 협상 타결 됐나 ㅠㅠ 뉴스를 못 봤네요!",
+            "norm_text": "협상 타결 됐나 ㅠㅠ 뉴스를 못 봤네요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "협상/NNG+타결/NNG+됐/XSV+EP+나/EF+ㅠㅠ/UNKNOWN+뉴스/NNG+를/JKO+못/MAG+봤/VV+EP+네요/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 그랬다고 들었는데 ㅠㅠ 늦게 오네… 흐흐",
+            "norm_text": "응 그랬다고 들었는데 ㅠㅠ 늦게 오네… 흐흐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그랬/VV+EP+다고/EC+들/VX+었/EP+는데/EC+ㅠㅠ/UNKNOWN+늦/VA+게/EC+오/VV+네/EC+…/SE+흐흐/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

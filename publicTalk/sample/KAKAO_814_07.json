@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32800,
+    "name": "KAKAO_814_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165801070848/KAKAO_814_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930165801070848/KAKAO_814_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38540,
+      "filename": "KAKAO_814_07.txt",
+      "title": "KAKAO_814_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 638,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 638,
+        "word_size": 190,
+        "text": "1 : 엄마 생일 선물은 모르겠는데 아빠 생일 선물은 진짜 어렵당\n2 : 아빠들은 현금이 짱이지 않나? 현금이랑 레터링 케이크 추천!\n1 : 우리 가족은 좀 이상해 키키 낭만적이라고 해야 하나? 현금 시러함 키키\n2 : 키키 생일도 있고 어버이날도 있는데 ㅠ 겹치지 않게 선물하는 거 의외로 어려워\n1 : 맞아 레터링 케익도 이미 써먹어서 ㅠㅠ 어버이날에 키키\n2 : 그러면 레터링 케이크 말고 생화 케이크는 어때? 보자기 케이크나?\n1 : 맞아 그런 것도 되게 많더라 키키\n1 : **이네 어머님은 어떤 거 좋아하셔?\n2 : 우리 엄마는 옷이나 악세사리 같은 걸 좋아하셔서 그런 거 사드려. 반지나 스카프, 팔찌 이런 거\n1 : 우리 엄마도! 악세사리 엄청 좋아하심 키키\n2 : 내 친구가 범일동에서 금방하거든 ㅋ 그래서 나는 거기서 자주 사는 편이야\n1 : 아! 나는 엄마한테 귀걸이 같은 거 제이에스티나? 자주 사드리는 편\n2 : 제이에스티나 예쁘지 하하 거기 헤어 핀 같은 것도 고급지고 예쁘더라\n1 : 근데 참 아빠는 뭘 좋아하는지 알기가 어렵네 키키 건강식품이나 영양제도 지겹고\n2 : 아빠는 지갑이나 넥타이?\n1 : 지갑도 좋을 거 같당 아빠 지갑 조금 오래된 듯 하하\n2 : 아빠들은 현금 항상 가지고 다녀서 그런지 카드 지갑 말고 일반 지갑 좋아하시더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 생일 선물은 모르겠는데 아빠 생일 선물은 진짜 어렵당",
+            "norm_text": "엄마 생일 선물은 모르겠는데 아빠 생일 선물은 진짜 어렵당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+생일/NNG+선물/NNG+은/JX+모르/VV+겠/EP+는데/EC+아빠/NNG+생일/NNG+선물/NNG+은/JX+진짜/MAG+어렵/NNG+당/XSN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아빠들은 현금이 짱이지 않나? 현금이랑 레터링 케이크 추천!",
+            "norm_text": "아빠들은 현금이 짱이지 않나? 현금이랑 레터링 케이크 추천!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아빠/NNG+들/XSN+은/JX+현금/NNG+이/JKS+짱/NNG+이/VCP+지/EC+않/VX+나/EF+현금/NNG+이랑/JKB+레터링/NNG+케이크/NNG+추천/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 우리 가족은 좀 이상해 키키 낭만적이라고 해야 하나? 현금 시러함 키키",
+            "norm_text": "우리 가족은 좀 이상해 키키 낭만적이라고 해야 하나? 현금 시러함 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+가족/NNG+은/JX+좀/MAG+이상/NNG+해/XSV+EC+키/NNG+키/NNG+낭만/NNG+적/XSN+이/VCP+라고/EC+해야/VV+EC+하나/NR+현금시러함키키/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 생일도 있고 어버이날도 있는데 ㅠ 겹치지 않게 선물하는 거 의외로 어려워",
+            "norm_text": "키키 생일도 있고 어버이날도 있는데 ㅠ 겹치지 않게 선물하는 거 의외로 어려워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+생일/NNG+도/JX+있/VA+고/EC+어버이날/NNP+도/JX+있/VX+는/ETM+데ㅠ/UNKNOWN+겹치/VV+지/EC+않/VX+게/EC+선물/NNG+하/XSV+는/ETM+거/NNB+의외/NNG+로/JKB+어려워/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 레터링 케익도 이미 써먹어서 ㅠㅠ 어버이날에 키키",
+            "norm_text": "맞아 레터링 케익도 이미 써먹어서 ㅠㅠ 어버이날에 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+레터링/NNG+케익/NNG+도/JX+이미/MAG+써먹/VV+어서/EC+ㅠㅠ/UNKNOWN+어버이날/NNP+에/JKB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그러면 레터링 케이크 말고 생화 케이크는 어때? 보자기 케이크나?",
+            "norm_text": "그러면 레터링 케이크 말고 생화 케이크는 어때? 보자기 케이크나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러면/MAJ+레터링/NNG+케이크/NNG+말/NNG+고생/NNG+화/XSN+케이크/NNG+는/JX+어때/VA+EF+보자기/NNG+케이/XSV+EC+JKS+크/VA+나/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아 그런 것도 되게 많더라 키키",
+            "norm_text": "맞아 그런 것도 되게 많더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그런/MM+것/NNB+도/JX+되게/MAG+많/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : **이네 어머님은 어떤 거 좋아하셔?",
+            "norm_text": "**이네 어머님은 어떤 거 좋아하셔?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+이/NP+네/XSN+어머님/NNG+은/JX+어떤/MM+거/NNB+좋/VA+아/EC+하/VX+셔/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 우리 엄마는 옷이나 악세사리 같은 걸 좋아하셔서 그런 거 사드려. 반지나 스카프, 팔찌 이런 거",
+            "norm_text": "우리 엄마는 옷이나 악세사리 같은 걸 좋아하셔서 그런 거 사드려. 반지나 스카프, 팔찌 이런 거",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+엄마/NNG+는/JX+옷/NNG+이나/JC+악세사리/NNG+같/VA+은/ETM+걸/NNB+JKO+좋/VA+아/EC+하/VX+셔서/EP+EC+그런/MM+거사/NNG+드려/VV+EF+반지나/NNP+스카프/NNP+,/SC+팔찌/NNG+이런/MM+거/NNB"
+          },
+          {
+            "id": 10,
+            "text": "1 : 우리 엄마도! 악세사리 엄청 좋아하심 키키",
+            "norm_text": "우리 엄마도! 악세사리 엄청 좋아하심 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+엄마/NNG+도/JX+!/SY+악세사리/NNG+엄청/MAG+좋/VA+아/EC+하심/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 내 친구가 범일동에서 금방하거든 ㅋ 그래서 나는 거기서 자주 사는 편이야",
+            "norm_text": "내 친구가 범일동에서 금방하거든 ㅋ 그래서 나는 거기서 자주 사는 편이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+친구/NNG+가/JKS+범일동/NNP+에서/JKB+금방/MAG+하/VV+거든/EF+ㅋ/UNKNOWN+그래서/MAJ+나/NP+는/JX+거기/NP+서/JKB+자주/MAG+사/VV+는/ETM+편/NNB+이/VCP+야/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아! 나는 엄마한테 귀걸이 같은 거 제이에스티나? 자주 사드리는 편",
+            "norm_text": "아! 나는 엄마한테 귀걸이 같은 거 제이에스티나? 자주 사드리는 편",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+나/NP+는/JX+엄마/NNG+한테/JKB+귀걸이/NNG+같/VA+은/ETM+거/NNB+제이/NNG+에/JKB+스티나/NNP+자주/MAG+사/VV+EC+드리/VX+는/ETM+편/NNB"
+          },
+          {
+            "id": 13,
+            "text": "2 : 제이에스티나 예쁘지 하하 거기 헤어 핀 같은 것도 고급지고 예쁘더라",
+            "norm_text": "제이에스티나 예쁘지 하하 거기 헤어 핀 같은 것도 고급지고 예쁘더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제이/NNG+에/JKB+스티나/NNP+예쁘/VA+지/EC+하하/MAG+거기/NP+헤어핀/NNG+같/VA+은/ETM+것/NNB+도/JX+고급/NNG+지/VV+고/EC+예쁘/VA+더라/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 근데 참 아빠는 뭘 좋아하는지 알기가 어렵네 키키 건강식품이나 영양제도 지겹고",
+            "norm_text": "근데 참 아빠는 뭘 좋아하는지 알기가 어렵네 키키 건강식품이나 영양제도 지겹고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+참/MAG+아빠/NNG+는/JX+뭘/NP+JKO+좋/VA+아/EC+하/VV+는지/EC+알/VV+기/ETN+가/JKS+어렵/VA+네/EF+키키/NNP+건강/NNG+식품/NNG+이나/JC+영양제/NNG+도/JX+지겹/VA+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아빠는 지갑이나 넥타이?",
+            "norm_text": "아빠는 지갑이나 넥타이?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+는/JX+지갑/NNG+이나/JC+넥타이/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 지갑도 좋을 거 같당 아빠 지갑 조금 오래된 듯 하하",
+            "norm_text": "지갑도 좋을 거 같당 아빠 지갑 조금 오래된 듯 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지갑/NNG+도/JX+좋/VA+을/ETM+거/NNB+같/VA+당/EF+아빠/NNG+지갑/NNG+조금/MAG+오래/MAG+된/VV+ETM+듯/NNB+하/XSA+하/XSA"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아빠들은 현금 항상 가지고 다녀서 그런지 카드 지갑 말고 일반 지갑 좋아하시더라",
+            "norm_text": "아빠들은 현금 항상 가지고 다녀서 그런지 카드 지갑 말고 일반 지갑 좋아하시더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아빠/NNG+들/XSN+은/JX+현금/NNG+항상/MAG+가지/VV+고/EC+다녀서/VV+EC+그런지/VA+EC+카드/NNG+지갑/NNG+말/VV+고/EC+일반/NNG+지갑/NNG+좋/VA+아/EC+하/VX+시/EP+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

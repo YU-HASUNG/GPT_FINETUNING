@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40534,
+    "name": "KAKAO_891_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095715027385/KAKAO_891_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095715027385/KAKAO_891_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40720,
+      "filename": "KAKAO_891_01.txt",
+      "title": "KAKAO_891_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 449,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 449,
+        "word_size": 135,
+        "text": "1 : 우리 저번에 점심 식사했던 전포동에 샤브샤브집 맛있더랑\n2 : 응 나도, 서면에 맛있는 집들이 많아서 좋아\n1 : 맞아 키키 전포동에 맛집이 참 많은 거 같아 키키\n2 : 다른 아는 맛집 있어?\n1 : 저번에 인스타 보니까 무슨 곱창집 맛있겠던데 ㅠㅠ\n2 : 곱창집들은 웨이팅이 많아서 먹기 힘들더라\n1 : 그러게 키키 웨이팅 장난 아닌거 같더라공\n2 : 요즘엔 코로나 때문에 저녁에 늦게 식사를 못하니까\n1 : 그치... 거기말고 곱다라고 소고기 집도 가보고 싶은데\n2 : 곱다 나도 너무 가보고 싶은데 한번도 못 가봤어\n1 : 맞아 거기도 어중간한 시간에 가면 맨날 대기. 입소문이 무서워\n2 : 인스타그램으로 다들 홍보를 잘 하니까 멀리서도 많이 오더라고\n1 : 오늘은 점심 어디 맛집가징 키키\n2 : 오늘 생각해본 곳 있어?\n1 : 모르겠는데 키키 인스타로 맛집 검색해볼까\n2 : 좋아, 대세는 인스타그램에 다 있지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 우리 저번에 점심 식사했던 전포동에 샤브샤브집 맛있더랑",
+            "norm_text": "우리 저번에 점심 식사했던 전포동에 샤브샤브집 맛있더랑",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+저번/NNG+에/JKB+점심/NNG+식사/NNG+했/XSV+EP+던/ETM+전포동/NNP+에/JKB+샤브샤브/NNP+집/NNG+맛있/VA+더/EP+랑/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 나도, 서면에 맛있는 집들이 많아서 좋아",
+            "norm_text": "응 나도, 서면에 맛있는 집들이 많아서 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+도/JX+,/SC+서면/NNG+에/JKB+맛있/VA+는/ETM+집들이/NNG+많/VA+아서/EC+좋/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞아 키키 전포동에 맛집이 참 많은 거 같아 키키",
+            "norm_text": "맞아 키키 전포동에 맛집이 참 많은 거 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키키/NNP+전포동/NNP+에/JKB+맛집/NNG+이/JKS+참/MAG+많/VA+은/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 다른 아는 맛집 있어?",
+            "norm_text": "다른 아는 맛집 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다른/MM+아/VV+는/ETM+맛집/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 저번에 인스타 보니까 무슨 곱창집 맛있겠던데 ㅠㅠ",
+            "norm_text": "저번에 인스타 보니까 무슨 곱창집 맛있겠던데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저번/NNG+에/JKB+인/NNG+스타/NNG+보/VV+니까/EC+무슨/MM+곱창/NNG+집/NNG+맛있/VA+겠/EP+던데/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 곱창집들은 웨이팅이 많아서 먹기 힘들더라",
+            "norm_text": "곱창집들은 웨이팅이 많아서 먹기 힘들더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곱창/NNG+집/NNG+들/XSN+은/JX+웨이팅/NNG+이/JKS+많/VA+아서/EC+먹/VV+기/ETN+힘들/VA+더라/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러게 키키 웨이팅 장난 아닌거 같더라공",
+            "norm_text": "그러게 키키 웨이팅 장난 아닌거 같더라공",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+키/NNG+키/NNG+웨이팅/NNG+장난/NNG+아닌/VCN+ETM+거/NNB+같/VA+더라/EC+공/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 요즘엔 코로나 때문에 저녁에 늦게 식사를 못하니까",
+            "norm_text": "요즘엔 코로나 때문에 저녁에 늦게 식사를 못하니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+엔/JKB+JX+코로나/NNG+때문/NNB+에/JKB+저녁/NNG+에/JKB+늦/VA+게/EC+식사/NNG+를/JKO+못/MAG+하/VV+니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그치... 거기말고 곱다라고 소고기 집도 가보고 싶은데",
+            "norm_text": "그치... 거기말고 곱다라고 소고기 집도 가보고 싶은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+./SY+거기/NP+말/VV+고/EC+곱/VA+다/EF+라고/JKQ+소고기/NNG+집도/NNG+가/JKS+보/VV+고/EC+싶/VX+은데/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 곱다 나도 너무 가보고 싶은데 한번도 못 가봤어",
+            "norm_text": "곱다 나도 너무 가보고 싶은데 한번도 못 가봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "곱/VA+다/EF+나/NP+도/JX+너무/MAG+가/VV+EC+보/VX+고/EC+싶/VX+은데/EC+한/MM+번/NNBC+도/JX+못/MAG+가/VV+EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 거기도 어중간한 시간에 가면 맨날 대기. 입소문이 무서워",
+            "norm_text": "맞아 거기도 어중간한 시간에 가면 맨날 대기. 입소문이 무서워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+거기/NP+도/JX+어중간/XR+한/XSA+ETM+시간/NNG+에/JKB+가/VV+면/EC+맨날/MAG+대기/NNG+./SY+입소문/NNG+이/JKS+무서워/VA+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 인스타그램으로 다들 홍보를 잘 하니까 멀리서도 많이 오더라고",
+            "norm_text": "인스타그램으로 다들 홍보를 잘 하니까 멀리서도 많이 오더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인/NNG+스타/NNG+그램/NNG+으로/JKB+다/MAG+들/XSN+홍보/NNG+를/JKO+잘/MAG+하/VV+니까/EC+멀리/MAG+서/JKB+도/JX+많이/MAG+오더/NNG+라고/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오늘은 점심 어디 맛집가징 키키",
+            "norm_text": "오늘은 점심 어디 맛집가징 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/NNG+은/JX+점심/NNG+어디/NP+맛집/NNG+가징/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오늘 생각해본 곳 있어?",
+            "norm_text": "오늘 생각해본 곳 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+생각/NNG+해/XSV+EC+본곳/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 모르겠는데 키키 인스타로 맛집 검색해볼까",
+            "norm_text": "모르겠는데 키키 인스타로 맛집 검색해볼까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "모르/VV+겠/EP+는데/EC+키/NNG+키/NNG+인/VCP+ETM+스타/NNG+로/JKB+맛집/NNG+검색/NNG+해/XSV+EC+볼까/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 좋아, 대세는 인스타그램에 다 있지",
+            "norm_text": "좋아, 대세는 인스타그램에 다 있지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "좋/VA+아/EC+,/SC+대세/NNG+는/JX+인/VCP+ETM+스타/NNG+그램/NNG+에다/JKB+있/VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

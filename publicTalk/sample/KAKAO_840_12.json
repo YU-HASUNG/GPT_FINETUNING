@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32166,
+    "name": "KAKAO_840_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170046064821/KAKAO_840_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170046064821/KAKAO_840_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38605,
+      "filename": "KAKAO_840_12.txt",
+      "title": "KAKAO_840_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 332,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 332,
+        "word_size": 118,
+        "text": "1 : 넌 강원도 여행 다녀와 봤냐?\n2 : 나 이번에 한 번 갔다 와 봤어!\n1 : 강원도 어디로 다녀와 봤어?\n2 : 나 강릉 갔다 왔지~\n1 : 오 강릉 뭐가 유명하더라?\n2 : 나 거기 가서 감자 옹심이 먹고 싶었는데 못 먹었어 ㅠ\n1 : 맞아 강원도 하면 감자지 키키\n2 : 맞아 대신에 감자빵은 먹고 왔어!\n1 : 감자빵은 무슨 맛이야 감자 맛인가?\n2 : 응 안이 포슬포슬하니 맛있어!\n1 : 가격은 어느 정도 해?\n2 : 한 개에 3천 원이어서 비싼데 맛은 있었어!\n1 : 그거 또 사 먹을 맛이야?\n2 : 응 나 한 박스 사 왔어!\n1 : 왜 근데 그중에 내 건 없지?\n2 : 응 우리 엄마가 다 먹었어~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 넌 강원도 여행 다녀와 봤냐?",
+            "norm_text": "넌 강원도 여행 다녀와 봤냐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+강원도/NNP+여행/NNG+다녀와/VV+EC+봤/VX+EP+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 이번에 한 번 갔다 와 봤어!",
+            "norm_text": "나 이번에 한 번 갔다 와 봤어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+이번/NNG+에/JKB+한/MM+번/NNBC+갔다와/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 강원도 어디로 다녀와 봤어?",
+            "norm_text": "강원도 어디로 다녀와 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "강원도/NNP+어디/NP+로/JKB+다녀와/VV+EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 강릉 갔다 왔지~",
+            "norm_text": "나 강릉 갔다 왔지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나강/NNP+릉/NNG+갔다왔/VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 강릉 뭐가 유명하더라?",
+            "norm_text": "오 강릉 뭐가 유명하더라?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+강릉/NNP+뭐/NP+가/JKS+유명/XR+하/XSA+더라/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나 거기 가서 감자 옹심이 먹고 싶었는데 못 먹었어 ㅠ",
+            "norm_text": "나 거기 가서 감자 옹심이 먹고 싶었는데 못 먹었어 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+거기/NP+가/JKS+서감/NNG+자/XSN+옹심/NNG+이/JKS+먹/VV+고/EC+싶/VX+었/EP+는데/EC+못/MAG+먹/VV+었/EP+어ㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아 강원도 하면 감자지 키키",
+            "norm_text": "맞아 강원도 하면 감자지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+강원도/NNP+하/VV+면/EC+감/VV+자지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아 대신에 감자빵은 먹고 왔어!",
+            "norm_text": "맞아 대신에 감자빵은 먹고 왔어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+대신/NNG+에/JKB+감자/NNG+빵/NNG+은/JX+먹/VV+고/EC+왔/VX+EP+어/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 감자빵은 무슨 맛이야 감자 맛인가?",
+            "norm_text": "감자빵은 무슨 맛이야 감자 맛인가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "감자/NNG+빵/NNG+은/JX+무슨/MM+맛/NNG+이/VCP+야/EC+감자/NNG+맛/NNG+인가/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응 안이 포슬포슬하니 맛있어!",
+            "norm_text": "응 안이 포슬포슬하니 맛있어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+안/NNG+이/JKS+포슬포슬/MAG+하/VV+니/EC+맛있/VA+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 가격은 어느 정도 해?",
+            "norm_text": "가격은 어느 정도 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "가격/NNG+은/JX+어느/MM+정도/NNG+해/XSV+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 한 개에 3천 원이어서 비싼데 맛은 있었어!",
+            "norm_text": "한 개에 3천 원이어서 비싼데 맛은 있었어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "한/MM+개/NNBC+에/JKB+3/SN+천/NR+원/NNBC+이/VCP+어서/EC+비싼데/VA+EC+맛/NNG+은/JX+있/VA+었/EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그거 또 사 먹을 맛이야?",
+            "norm_text": "그거 또 사 먹을 맛이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+또/MAG+사먹/VV+을/ETM+맛/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 나 한 박스 사 왔어!",
+            "norm_text": "응 나 한 박스 사 왔어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+나/NP+한/MM+박스/NNG+사/VV+EC+왔/VX+EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 왜 근데 그중에 내 건 없지?",
+            "norm_text": "왜 근데 그중에 내 건 없지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "왜/MAG+근데/MAJ+그/MM+중/NNB+에/JKB+내건/VV+ETM+없/VA+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 우리 엄마가 다 먹었어~",
+            "norm_text": "응 우리 엄마가 다 먹었어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+우리/NP+엄마/NNG+가/JKS+다/MAG+먹/VV+었/EP+어/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

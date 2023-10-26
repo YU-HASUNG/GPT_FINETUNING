@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 29598,
+    "name": "KAKAO_643_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923172049091784/KAKAO_643_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923172049091784/KAKAO_643_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31815,
+      "filename": "KAKAO_643_04.txt",
+      "title": "KAKAO_643_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 403,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 403,
+        "word_size": 125,
+        "text": "1 : 너 최근까지 직장 생활했었지?\n2 : 응응 계약직으로 6개월 정도 했었지~\n1 : 거긴 급여가 어땠어?\n2 : 음... 나는 최저 시급 받고 다녔어\n1 : 엥 최저시급? 임금 아니고? 회식은 얼마나 자주 했고?\n2 : 최근엔 코로나가 심해서 회식 못 했지~\n1 : 하긴 지금 시국에 회식했다가 코로나라도 걸리면...\n2 : 회사 바로 멈추는 거지~ 안 그래도 바쁜데~\n1 : 그럼 진짜 큰일 나겠네...\n2 : 그치... 우리 회사는 멈추면 큰일 나\n1 : 너는 거기서 어떤 업무했어? 너가 할 게 있긴 했어?\n2 : 나는 운전을 마스터하고 왔지 키키 무시 노노\n1 : 엥 키키 업무는 없고 운전만?\n2 : 응 거의~ 내가 할 일이 별로 없더라구\n1 : 그래서 6개월만 하고 짤렸구나? ㅜㅜ...\n2 : 짤리다니! 계약 끝나서 나온 거거든!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 최근까지 직장 생활했었지?",
+            "norm_text": "너 최근까지 직장 생활했었지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+최근/NNG+까지/JX+직장/NNG+생활/NNG+했었/XSV+EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응응 계약직으로 6개월 정도 했었지~",
+            "norm_text": "응응 계약직으로 6개월 정도 했었지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+계약직/NNG+으로/JKB+6/SN+개월/NNBC+정도/NNG+했었/XSV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 거긴 급여가 어땠어?",
+            "norm_text": "거긴 급여가 어땠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거긴/NP+JX+급여/NNG+가/JKS+어땠어/VA+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 음... 나는 최저 시급 받고 다녔어",
+            "norm_text": "음... 나는 최저 시급 받고 다녔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "음/IC+./SY+나/NP+는/JX+최저/NNG+시급/NNG+받/VV+고/EC+다녔/VV+EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 엥 최저시급? 임금 아니고? 회식은 얼마나 자주 했고?",
+            "norm_text": "엥 최저시급? 임금 아니고? 회식은 얼마나 자주 했고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+최저/NNG+시급/NNG+?/SY+임금/NNG+아니/VCN+고/EC+?/SY+회식/NNG+은/JX+얼마나/MAG+자주/MAG+했/VV+EP+고/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 최근엔 코로나가 심해서 회식 못 했지~",
+            "norm_text": "최근엔 코로나가 심해서 회식 못 했지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "최근/NNG+엔/JKB+JX+코로나/NNG+가/JKS+심해서/VA+EC+회식/NNG+못/MAG+했/VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 하긴 지금 시국에 회식했다가 코로나라도 걸리면...",
+            "norm_text": "하긴 지금 시국에 회식했다가 코로나라도 걸리면...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+지금/MAG+시국/NNG+에/JKB+회식/NNG+했/XSV+EP+다가/EC+코로나/NNG+라도/VCP+EC+걸리/VV+면/EC+./SY+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 회사 바로 멈추는 거지~ 안 그래도 바쁜데~",
+            "norm_text": "회사 바로 멈추는 거지~ 안 그래도 바쁜데~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "회사/NNG+바로/MAG+멈추/VV+는/ETM+거/NNB+지/VCP+EC+~/SY+안/MAG+그래도/VV+EC+바쁜데/VA+EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그럼 진짜 큰일 나겠네...",
+            "norm_text": "그럼 진짜 큰일 나겠네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+진짜/MAG+큰일나/VA+겠/EP+네/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그치... 우리 회사는 멈추면 큰일 나",
+            "norm_text": "그치... 우리 회사는 멈추면 큰일 나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+./SY+우리/NP+회사/NNG+는/JX+멈추/VV+면/EC+큰일나/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 너는 거기서 어떤 업무했어? 너가 할 게 있긴 했어?",
+            "norm_text": "너는 거기서 어떤 업무했어? 너가 할 게 있긴 했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+거기/NP+서/JKB+어떤/MM+업무/NNG+했/XSV+EP+어/EF+너/NP+가/JKS+할/VV+ETM+게/NNB+JKS+있/VA+긴/ETN+JX+했/VX+EP+어/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 나는 운전을 마스터하고 왔지 키키 무시 노노",
+            "norm_text": "나는 운전을 마스터하고 왔지 키키 무시 노노",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+운전/NNG+을/JKO+마스터/NNG+하/XSV+고/EC+왔/VX+EP+지/EC+키/NNG+키/NNG+무시/NNG+노노/NNP"
+          },
+          {
+            "id": 13,
+            "text": "1 : 엥 키키 업무는 없고 운전만?",
+            "norm_text": "엥 키키 업무는 없고 운전만?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥키/NNP+키/NNG+업무/NNG+는/JX+없/VA+고/EC+운전/NNG+만/JX"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 거의~ 내가 할 일이 별로 없더라구",
+            "norm_text": "응 거의~ 내가 할 일이 별로 없더라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응거/NNG+의/JKG+~/SY+내/NP+가/JKS+할/VV+ETM+일/NNG+이/JKS+별로/MAG+없/VA+더라구/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래서 6개월만 하고 짤렸구나? ㅜㅜ...",
+            "norm_text": "그래서 6개월만 하고 짤렸구나? ㅜㅜ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+6/SN+개월/NNBC+만/JX+하/VV+고/EC+짤렸/VV+EP+구나/EF+ㅜㅜ/UNKNOWN+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 짤리다니! 계약 끝나서 나온 거거든!",
+            "norm_text": "짤리다니! 계약 끝나서 나온 거거든!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "짤리/VV+다니/EF+계약/NNG+끝/NNG+나/NP+서/JKB+나온/VV+ETM+거/NNB+거든/VCP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

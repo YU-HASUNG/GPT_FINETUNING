@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 31461,
+    "name": "KAKAO_583_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155949098383/KAKAO_583_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923155949098383/KAKAO_583_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31573,
+      "filename": "KAKAO_583_02.txt",
+      "title": "KAKAO_583_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 402,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 402,
+        "word_size": 120,
+        "text": "1 : 귀농 하고 싶으신가요\n2 : 아뇨 저는 도시에 주택이나 아파트에 살고 싶은데요?\n1 : 아파트 어디서 살고 싶나요\n2 : 저는 인테리어 할 때 제일 고려하는 게 알파룸이에요\n1 : 아파트 롯데 시그니처엘인가\n2 : 거기에 개인 공간 만들어서 휴식 취하려고요\n1 : 알파룸이면 다락방이 짱아닌가요\n2 : 아니면 TV에서 나오는 다이닝 공간 만들려고요\n1 : 다이닝 공간이 그냥 주방이죠?\n2 : 거기에서 친구들 초대해서 파티도 하고 저녁도 먹고\n1 : 파티 하면서 와인 한 잔 하세요\n2 : 일명 홈 파티라고 해서 와인도 마시고 최고죠?\n1 : 와인 바 만들어서 와인 냉장고에서 와인 꺼내 드세요\n2 : 다이닝룸에 테이블은 8~10인용으로 하려고요\n1 : 10인용이면 엄청 크겠네요\n2 : 든데 집에 크지 않으면 안 되니까 작은 것도 좋아요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 귀농 하고 싶으신가요",
+            "norm_text": "귀농 하고 싶으신가요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "귀농/NNG+하/XSV+고/EC+싶/VX+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아뇨 저는 도시에 주택이나 아파트에 살고 싶은데요?",
+            "norm_text": "아뇨 저는 도시에 주택이나 아파트에 살고 싶은데요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아뇨/IC+저/NP+는/JX+도시/NNG+에/JKB+주택/NNG+이나/JC+아파트/NNG+에/JKB+살/VV+고/EC+싶/VX+은데요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아파트 어디서 살고 싶나요",
+            "norm_text": "아파트 어디서 살고 싶나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아파트/NNG+어디/NP+서/JKB+살/VV+고/EC+싶/VX+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 저는 인테리어 할 때 제일 고려하는 게 알파룸이에요",
+            "norm_text": "저는 인테리어 할 때 제일 고려하는 게 알파룸이에요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+인테리어/NNG+할/XSV+ETM+때/NNG+제일/MAG+고려/NNG+하/XSV+는/ETM+게/NNB+JKS+알파/NNG+룸/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아파트 롯데 시그니처엘인가",
+            "norm_text": "아파트 롯데 시그니처엘인가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아파트/NNG+롯데/NNP+시그/NNP+니/VCP+EC+처/NNG+엘/JKB+JKO+인가/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 거기에 개인 공간 만들어서 휴식 취하려고요",
+            "norm_text": "거기에 개인 공간 만들어서 휴식 취하려고요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+에/JKB+개인/NNG+공간/NNG+만들/VV+어서/EC+휴식/MAG+취하/VV+려고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 알파룸이면 다락방이 짱아닌가요",
+            "norm_text": "알파룸이면 다락방이 짱아닌가요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알파/NNG+룸/NNG+이/VCP+면/EC+다락방/NNG+이/JKS+짱/NNG+아닌가요/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아니면 TV에서 나오는 다이닝 공간 만들려고요",
+            "norm_text": "아니면 TV에서 나오는 다이닝 공간 만들려고요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니면/MAJ+TV/SL+에서/JKB+나오/VV+는다/EC+이닝/NNG+공간/NNG+만들/VV+려고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 다이닝 공간이 그냥 주방이죠?",
+            "norm_text": "다이닝 공간이 그냥 주방이죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다/MAG+이닝/NNG+공간/NNG+이/JKS+그냥/MAG+주방/NNG+이/VCP+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 거기에서 친구들 초대해서 파티도 하고 저녁도 먹고",
+            "norm_text": "거기에서 친구들 초대해서 파티도 하고 저녁도 먹고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+에서/JKB+친구/NNG+들/XSN+초대/NNG+해서/XSV+EC+파티/NNG+도/JX+하/VV+고/EC+저녁/NNG+도/JX+먹/VV+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 파티 하면서 와인 한 잔 하세요",
+            "norm_text": "파티 하면서 와인 한 잔 하세요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "파티/NNG+하/XSV+면서/EC+와인/NNG+한잔/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 일명 홈 파티라고 해서 와인도 마시고 최고죠?",
+            "norm_text": "일명 홈 파티라고 해서 와인도 마시고 최고죠?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일/NR+명/NNBC+홈파티/NNP+라고/VCP+EC+해서/VV+EC+와인/NNG+도/JX+마시/VV+고/EC+최고/NNG+죠/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 와인 바 만들어서 와인 냉장고에서 와인 꺼내 드세요",
+            "norm_text": "와인 바 만들어서 와인 냉장고에서 와인 꺼내 드세요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "와인/NNG+바/NNB+만들/VV+어서/EC+와인/NNG+냉장고/NNG+에서/JKB+와인/NNG+꺼내/VV+EC+드세요/VV+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 다이닝룸에 테이블은 8~10인용으로 하려고요",
+            "norm_text": "다이닝룸에 테이블은 8~10인용으로 하려고요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+이닝/NNG+룸/NNG+에/JKB+테이블/NNG+은/JX+8/SN+~/SY+10/SN+인용/NNG+으로/JKB+하/VV+려고요/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 10인용이면 엄청 크겠네요",
+            "norm_text": "10인용이면 엄청 크겠네요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "60대 이상"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "10/SN+인용/NNG+이/VCP+면/EC+엄청/MAG+크/VA+겠/EP+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 든데 집에 크지 않으면 안 되니까 작은 것도 좋아요",
+            "norm_text": "든데 집에 크지 않으면 안 되니까 작은 것도 좋아요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "든/VV+ETM+데/NNB+집/NNG+에/JKB+크/VA+지/EC+않/VX+으면/EC+안/MAG+되/VV+니까/EC+작/VA+은/ETM+것/NNB+도/JX+좋/VA+아요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 33786,
+    "name": "KAKAO_835_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170112026943/KAKAO_835_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930170112026943/KAKAO_835_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38636,
+      "filename": "KAKAO_835_03.txt",
+      "title": "KAKAO_835_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 419,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 419,
+        "word_size": 145,
+        "text": "1 : 엄마~ ** 밥 좀 줘\n2 : 오늘 늦니?\n1 : 아니 많이 늦는 건 아닌데 버스가 좀 안 오네 ㅠㅠ\n2 : 아까 통화했을 때 버스 곧 도착이라고 하지 않았어?\n1 : 전광판에는 곧 도착이라고 분명히 뜨는데 10분 째 안 와 ㅠㅠ\n2 : 어머 사고 난 거 아니야?\n1 : 그런 건 아닌 것 같아... 이상하게 경기도라 그런지 잘 안 맞더라\n2 : 그래? 출퇴근 힘들겠네 안 그래도 먼데\n1 : 그러니까 말이야! 나도 차 있었으면 좋겠다.\n2 : 차 가지고 있으면 돈이 줄줄 새\n1 : 그러니까 못 사고 있잖아 ㅠㅠ\n2 : 면허는 안 딸 거야?\n1 : 미리 따 놓으면 안 좋다고 언니들이 그래서...\n2 : 그래도 딸 수 있을 때 따 놓은 게 좋지 않니?\n1 : 나도 그러고 싶은데 지금 시간이 없어 키키\n2 : 키키 운전면허 따서 엄마 좀 데리고 좋은 데만 놀러 가 봐",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마~ ** 밥 좀 줘",
+            "norm_text": "엄마~ ** 밥 좀 줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "엄마/NNG+~/SY+*/SY+*/SY+밥/NNG+좀/MAG+줘/VV+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘 늦니?",
+            "norm_text": "오늘 늦니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+늦/VA+니/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아니 많이 늦는 건 아닌데 버스가 좀 안 오네 ㅠㅠ",
+            "norm_text": "아니 많이 늦는 건 아닌데 버스가 좀 안 오네 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+많이/MAG+늦/VA+는/ETM+건/NNB+JX+아닌데/VCN+EC+버스/NNG+가/JKS+좀/MAG+안/MAG+오/VV+네/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아까 통화했을 때 버스 곧 도착이라고 하지 않았어?",
+            "norm_text": "아까 통화했을 때 버스 곧 도착이라고 하지 않았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아까/MAG+통화/NNG+했/XSV+EP+을/ETM+때/NNG+버스/NNG+곧/MAG+도착/NNG+이/VCP+라고/EC+하/VV+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 전광판에는 곧 도착이라고 분명히 뜨는데 10분 째 안 와 ㅠㅠ",
+            "norm_text": "전광판에는 곧 도착이라고 분명히 뜨는데 10분 째 안 와 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전광판/NNG+에/JKB+는/JX+곧/MAG+도착/NNG+이/VCP+라고/EC+분명히/MAG+뜨/VV+는/ETM+데/NNB+10/SN+분째안와ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 어머 사고 난 거 아니야?",
+            "norm_text": "어머 사고 난 거 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머/IC+사/VV+고/EC+난/VX+ETM+거/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그런 건 아닌 것 같아... 이상하게 경기도라 그런지 잘 안 맞더라",
+            "norm_text": "그런 건 아닌 것 같아... 이상하게 경기도라 그런지 잘 안 맞더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그런/MM+건/NNB+JX+아닌/VCN+ETM+것/NNB+같/VA+아/EF+./SY+이상/NNG+하/XSV+게/EC+경기도/NNP+라/VCP+EC+그런지/VA+EC+잘/MAG+안/MAG+맞/VV+더라/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그래? 출퇴근 힘들겠네 안 그래도 먼데",
+            "norm_text": "그래? 출퇴근 힘들겠네 안 그래도 먼데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+출퇴근/NNG+힘들/VA+겠/EP+네/EF+안/MAG+그래도/VV+EC+먼데/NP+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러니까 말이야! 나도 차 있었으면 좋겠다.",
+            "norm_text": "그러니까 말이야! 나도 차 있었으면 좋겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+말/NNG+이/VCP+야/EF+나/NP+도/JX+차/VV+EC+있/VX+었/EP+으면/EC+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 차 가지고 있으면 돈이 줄줄 새",
+            "norm_text": "차 가지고 있으면 돈이 줄줄 새",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/VV+EC+가지/VX+고/EC+있/VX+으면/EC+돈/NNG+이/JKS+줄줄/MAG+새/MM"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러니까 못 사고 있잖아 ㅠㅠ",
+            "norm_text": "그러니까 못 사고 있잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+못/MAG+사/VV+고/EC+있/VX+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 면허는 안 딸 거야?",
+            "norm_text": "면허는 안 딸 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "면허/NNG+는/JX+안/MAG+딸/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 미리 따 놓으면 안 좋다고 언니들이 그래서...",
+            "norm_text": "미리 따 놓으면 안 좋다고 언니들이 그래서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "미리/MAG+따놓/VV+으면/EC+안/MAG+좋/VA+다고/EC+언니/NNG+들/XSN+이/JKS+그래서/MAJ+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그래도 딸 수 있을 때 따 놓은 게 좋지 않니?",
+            "norm_text": "그래도 딸 수 있을 때 따 놓은 게 좋지 않니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+딸/VV+ETM+수/NNB+있/VV+을/ETM+때/NNG+따놓/VV+은/ETM+게/NNB+JKS+좋/VA+지/EC+않/VX+니/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 나도 그러고 싶은데 지금 시간이 없어 키키",
+            "norm_text": "나도 그러고 싶은데 지금 시간이 없어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+그러/VV+고/EC+싶/VX+은데/EC+지금/MAG+시간/NNG+이/JKS+없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 운전면허 따서 엄마 좀 데리고 좋은 데만 놀러 가 봐",
+            "norm_text": "키키 운전면허 따서 엄마 좀 데리고 좋은 데만 놀러 가 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "키/NNG+키/NNG+운전/NNG+면허/NNG+따/VV+서/EC+엄마/NNG+좀/MAG+데리/VV+고/EC+좋/VA+은/ETM+데/NNB+만/JX+놀러/NNP+가/JKS+봐/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

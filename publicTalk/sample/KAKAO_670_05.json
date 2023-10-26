@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67065,
+    "name": "KAKAO_670_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109281122530509104/KAKAO_670_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109281122530509104/KAKAO_670_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34964,
+      "filename": "KAKAO_670_05.txt",
+      "title": "KAKAO_670_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 436,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 436,
+        "word_size": 139,
+        "text": "1 : 요즘 군대 16개월이면 전역한대! 키키\n2 : 우와 진짜? 엄청 빠르네!\n1 : 그러니깐 말이야 요즘 코로나 때문에 조기 전역을 하더라고\n2 : 나 때는 2년 꽉 채워서 전역 했었는데...\n1 : 누가 보면 언니가 군대 갔다 온 줄 알겠어 키키 키키\n2 : 키키 그러게 군대 갔다 온 적도 없는데\n1 : 요즘은 눈 깜빡하면 금방 나와 키키 내 동생 12월에 나온대!\n2 : 와 남의 군대 생활은 눈 깜짝할 새네 키키\n1 : 그러게 그래서 군대 인력이 너무 부족하대!\n2 : 그 정도인데 군대 기간이 짧아졌다니!\n1 : 맞아 병영 캠프라고 하더라 키키\n2 : 요즘엔 위험한 훈련도 잘 안 하잖아.\n1 : 응 코로나 때문에 훈련도 많이 축소 되었어\n2 : 코로나가 진짜 세상을 바꾸어 놨네\n1 : 아마 다른 방법을 찾아서 다시 훈련 받지 않을까?\n2 : 그렇겠지? 군인들은 진작에 백신 맞았다고 하더라.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 군대 16개월이면 전역한대! 키키",
+            "norm_text": "요즘 군대 16개월이면 전역한대! 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+군대/NNG+16/SN+개월/NNBC+이/VCP+면/EC+전역/NNG+한대/XSV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 우와 진짜? 엄청 빠르네!",
+            "norm_text": "우와 진짜? 엄청 빠르네!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우와/IC+진짜/MAG+엄청/MAG+빠르/VA+네/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그러니깐 말이야 요즘 코로나 때문에 조기 전역을 하더라고",
+            "norm_text": "그러니깐 말이야 요즘 코로나 때문에 조기 전역을 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니깐/MAJ+말/NNG+이/VCP+야/EF+요즘/MAG+코로나/NNG+때문/NNB+에/JKB+조기/NNG+전역/NNG+을/JKO+하/VV+더라고/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 때는 2년 꽉 채워서 전역 했었는데...",
+            "norm_text": "나 때는 2년 꽉 채워서 전역 했었는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+때/NNG+는/JX+2/SN+년/NNBC+꽉/MAG+채워서/VV+EC+전역/NNG+했었/XSV+EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 누가 보면 언니가 군대 갔다 온 줄 알겠어 키키 키키",
+            "norm_text": "누가 보면 언니가 군대 갔다 온 줄 알겠어 키키 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "누가/NP+JKS+보/VV+면/EC+언니/NNG+가/JKS+군대/NNG+갔다온/VV+ETM+줄/NNB+알/VV+겠/EP+어/EC+키/NNG+키/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 그러게 군대 갔다 온 적도 없는데",
+            "norm_text": "키키 그러게 군대 갔다 온 적도 없는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그러/VV+게/EC+군대/NNG+갔다온/VV+ETM+적/NNB+도/JX+없/VA+는데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 요즘은 눈 깜빡하면 금방 나와 키키 내 동생 12월에 나온대!",
+            "norm_text": "요즘은 눈 깜빡하면 금방 나와 키키 내 동생 12월에 나온대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+눈깜빡하/VV+면/EC+금방/MAG+나와/VV+EC+키/NNG+키/XSV+ETN+내/NP+JKG+동생/NNG+12/SN+월/NNBC+에/JKB+나온대/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 와 남의 군대 생활은 눈 깜짝할 새네 키키",
+            "norm_text": "와 남의 군대 생활은 눈 깜짝할 새네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+남/NNG+의/JKG+군대/NNG+생활/NNG+은/JX+눈/NNG+깜짝/MAG+할새/VV+EC+네/MM+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러게 그래서 군대 인력이 너무 부족하대!",
+            "norm_text": "그러게 그래서 군대 인력이 너무 부족하대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러게/IC+그래서/MAJ+군대/NNG+인력/NNG+이/JKS+너무/MAG+부족/NNG+하/XSA+대/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그 정도인데 군대 기간이 짧아졌다니!",
+            "norm_text": "그 정도인데 군대 기간이 짧아졌다니!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+정도/NNG+인데/VCP+EC+군대/NNG+기간/NNG+이/JKS+짧아졌/VV+EP+다니/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 맞아 병영 캠프라고 하더라 키키",
+            "norm_text": "맞아 병영 캠프라고 하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+병영/NNG+캠프/NNG+라고/VCP+EC+하/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 요즘엔 위험한 훈련도 잘 안 하잖아.",
+            "norm_text": "요즘엔 위험한 훈련도 잘 안 하잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+엔/JKB+JX+위험/NNG+한/XSA+ETM+훈련/NNG+도/JX+잘/MAG+안/MAG+하/VV+잖아/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 코로나 때문에 훈련도 많이 축소 되었어",
+            "norm_text": "응 코로나 때문에 훈련도 많이 축소 되었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+코로나/NNG+때문/NNB+에/JKB+훈련/NNG+도/JX+많이/MAG+축소/NNG+되/XSV+었/EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 코로나가 진짜 세상을 바꾸어 놨네",
+            "norm_text": "코로나가 진짜 세상을 바꾸어 놨네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "코로나/NNG+가/JKS+진짜/MAG+세상/NNG+을/JKO+바꾸/VV+어/EC+놨/VX+EP+네/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 아마 다른 방법을 찾아서 다시 훈련 받지 않을까?",
+            "norm_text": "아마 다른 방법을 찾아서 다시 훈련 받지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아마/MAG+다른/MM+방법/NNG+을/JKO+찾/VV+아서/EC+다시/MAG+훈련/NNG+받/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그렇겠지? 군인들은 진작에 백신 맞았다고 하더라.",
+            "norm_text": "그렇겠지? 군인들은 진작에 백신 맞았다고 하더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+겠/EP+지/EF+군인/NNG+들/XSN+은/JX+진작/NNG+에/JKB+백신/NNG+맞/VV+았/EP+다고/EC+하/VX+더라/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

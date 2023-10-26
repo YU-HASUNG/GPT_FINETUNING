@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 31718,
+    "name": "KAKAO_847_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402045770/KAKAO_847_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001172402045770/KAKAO_847_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39757,
+      "filename": "KAKAO_847_19.txt",
+      "title": "KAKAO_847_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 418,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 418,
+        "word_size": 140,
+        "text": "1 : 엄마 광주에서 장윤정 콘서트 한다\n2 : 정말~? 엄마 장윤정 좋아해~\n1 : 내가 티켓 구매해 줄 테니까 보러 갈 거야?\n2 : 티켓만 구해 주면 무조건 가지~\n1 : 그래? 그럼 내가 티켓팅 한번 해 볼게\n2 : 근데 그런 거 콘서트 티켓은 얼마 정도 해?\n1 : 비싼 좌석은 14만 원정도?\n2 : 14만원? 엄마 안 갈란다\n1 : 왜? 보고 싶다며 내가 사 줄게 보러 가\n2 : 콘서트가 그렇게 비싼 줄 알았으면 본다고 안 했지\n1 : 에이 뭐 1년에 한 번 있는데 그냥 보러 가\n2 : 아니야 엄마는 괜찮아\n1 : 뭐가 괜찮아! 예전에 내가 김건모 콘서트 보여 줬을 때 소녀팬이 따로 없던데\n2 : 그땐 너가 일할 때 꽁짜 표 생겨서 보여준 거였잖아\n1 : 그니까~ 이번에 장윤정도 꽁짜 표 생겼다고 생각하고 보러 가\n2 : 이미 가격을 들었는데 어떻게 그래",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 광주에서 장윤정 콘서트 한다",
+            "norm_text": "엄마 광주에서 장윤정 콘서트 한다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+광주/NNP+에서/JKB+장윤정/NNP+콘서트/NNG+한다/XSV+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 정말~? 엄마 장윤정 좋아해~",
+            "norm_text": "정말~? 엄마 장윤정 좋아해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+~/SY+엄마장윤정좋아해/UNKNOWN+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 내가 티켓 구매해 줄 테니까 보러 갈 거야?",
+            "norm_text": "내가 티켓 구매해 줄 테니까 보러 갈 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내/NP+가/JKS+티켓/NNG+구매/NNG+해줄테/XSV+EC+VX+ETM+NNB+VCP+니까/EC+보/VX+러/EC+갈/VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 티켓만 구해 주면 무조건 가지~",
+            "norm_text": "티켓만 구해 주면 무조건 가지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "티켓/NNG+만/JX+구해/VV+EC+주/VX+면/EC+무조건/MAG+가지/NNG+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래? 그럼 내가 티켓팅 한번 해 볼게",
+            "norm_text": "그래? 그럼 내가 티켓팅 한번 해 볼게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+그럼/MAJ+내/NP+가/JKS+티켓/NNG+팅/IC+한/MM+번/NNBC+해/VV+EC+볼/VX+게/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 그런 거 콘서트 티켓은 얼마 정도 해?",
+            "norm_text": "근데 그런 거 콘서트 티켓은 얼마 정도 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+그런/MM+거/NNB+콘서트/NNG+티켓/NNG+은/JX+얼마/NNG+정도/NNG+해/XSV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 비싼 좌석은 14만 원정도?",
+            "norm_text": "비싼 좌석은 14만 원정도?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비싼/VA+ETM+좌석/NNG+은/JX+14/SN+만/NR+원/NNBC+정도/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 14만원? 엄마 안 갈란다",
+            "norm_text": "14만원? 엄마 안 갈란다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "14/SN+만/NR+원/NNBC+엄마/NNG+안/MAG+갈란다/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 왜? 보고 싶다며 내가 사 줄게 보러 가",
+            "norm_text": "왜? 보고 싶다며 내가 사 줄게 보러 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "왜/MAG+보/VV+고/EC+싶/VX+다며/EC+내/NP+가/JKS+사/VV+줄게/EC+VX+EC+보/VX+러/EC+가/VX"
+          },
+          {
+            "id": 10,
+            "text": "2 : 콘서트가 그렇게 비싼 줄 알았으면 본다고 안 했지",
+            "norm_text": "콘서트가 그렇게 비싼 줄 알았으면 본다고 안 했지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "콘서트/NNG+가/JKS+그렇게/MAG+비싼/VA+ETM+줄/NNB+알/VV+았/EP+으면/EC+본다고/VX+EC+안/MAG+했/VV+EP+지/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 에이 뭐 1년에 한 번 있는데 그냥 보러 가",
+            "norm_text": "에이 뭐 1년에 한 번 있는데 그냥 보러 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "에이/IC+뭐/IC+1/SN+년/NNBC+에/JKB+한/MM+번/NNBC+있/VV+는데/EC+그냥/MAG+보/VV+러/EC+가/VX"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아니야 엄마는 괜찮아",
+            "norm_text": "아니야 엄마는 괜찮아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니야/IC+엄마/NNG+는/JX+괜찮/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 뭐가 괜찮아! 예전에 내가 김건모 콘서트 보여 줬을 때 소녀팬이 따로 없던데",
+            "norm_text": "뭐가 괜찮아! 예전에 내가 김건모 콘서트 보여 줬을 때 소녀팬이 따로 없던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뭐/NP+가/JKS+괜찮/VA+아/EF+예전/NNG+에/JKB+내/NP+가/JKS+김건모/NNP+콘서트/NNG+보여/VV+EC+줬/VX+EP+을/ETM+때/NNG+소녀/NNG+팬/NNG+이/JKS+따로/MAG+없/VA+던데/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그땐 너가 일할 때 꽁짜 표 생겨서 보여준 거였잖아",
+            "norm_text": "그땐 너가 일할 때 꽁짜 표 생겨서 보여준 거였잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그땐/NNG+JX+너/NP+가/JKS+일/NNG+할/XSV+ETM+때/NNG+꽁짜/NNG+표/NNG+생겨서/VV+EC+보여준/VV+EC+VX+ETM+거/NNB+였잖/VCP+EP+EC+VX+아/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그니까~ 이번에 장윤정도 꽁짜 표 생겼다고 생각하고 보러 가",
+            "norm_text": "그니까~ 이번에 장윤정도 꽁짜 표 생겼다고 생각하고 보러 가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "그니까/MAJ+~/SY+이번/NNG+에/JKB+장윤정/NNP+도/JX+꽁짜/NNG+표/NNG+생겼/VV+EP+다고/EC+생각/NNG+하/XSV+고/EC+보/VX+러/EC+가/VX"
+          },
+          {
+            "id": 16,
+            "text": "2 : 이미 가격을 들었는데 어떻게 그래",
+            "norm_text": "이미 가격을 들었는데 어떻게 그래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이미/MAG+가격/NNG+을/JKO+들/VV+었/EP+는데/EC+어떻게/MAG+그래/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 66999,
+    "name": "KAKAO_682_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109281124110929107/KAKAO_682_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109281124110929107/KAKAO_682_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35051,
+      "filename": "KAKAO_682_12.txt",
+      "title": "KAKAO_682_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 536,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 536,
+        "word_size": 166,
+        "text": "1 : 최근에 여행 다녀온 적 있어?\n2 : 얼마 전에 1박 2일로 대구에 다녀왔어\n1 : 나도 얼마 전에 대구 갔다 왔는데!\n1 : 맛있는 거 좀 많지 않아 대구에?\n2 : 맞아. 대구가 은근히 미식의 도시야. 뭐 먹었어?\n1 : 나는 막창이랑 크림 찜닭 먹었어여\n2 : 나는 중화비빔밥 먹었는데 맛있더라.\n1 : 엄청 유명한 집 하나 있잖아?\n1 : 티비에서 본 거 같아\n2 : 유명한 집은 웨이팅이 너무 길어서 그냥 숙소 근처에서 먹었어\n1 : 대구에 강정보 디아크? 라는 곳에 피크닉도 많이들 한다더랑. 전동 바이크도 타고.\n2 : 대구에 무슨 호수 있는데... 이름이 기억이 안 나네.\n2 : 거기서 자전거 많이 타는데\n1 : 수성못인가? 나 이번에 수성못에 갔었거든\n2 : 오 맞아 수성못이야.\n2 : 대구에는 강도 있고 호수도 있고 산도 있고 의외로 갈 데가 많네\n1 : 웅 새로 생긴 호텔에 수영장이 좋대서 가서 수영하고 놀았엉 키키\n2 : 맞아맞아 거기 나도 가보고 싶었어\n1 : 근처에 막창집도 있고 산책하기 좋아서 가보기 괜찮을듯해 하하\n2 : 다음에 대구 가면 가봐야겠다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 최근에 여행 다녀온 적 있어?",
+            "norm_text": "최근에 여행 다녀온 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "최근/NNG+에/JKB+여행/NNG+다녀온/VV+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 얼마 전에 1박 2일로 대구에 다녀왔어",
+            "norm_text": "얼마 전에 1박 2일로 대구에 다녀왔어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "얼마/NNG+전/NNG+에/JKB+1/SN+박/NNBC+2/SN+일/NNBC+로/JKB+대구/NNP+에/JKB+다녀왔/VV+EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나도 얼마 전에 대구 갔다 왔는데!",
+            "norm_text": "나도 얼마 전에 대구 갔다 왔는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+얼마/NNG+전/NNG+에/JKB+대/VV+구/EC+갔다왔/VV+EP+는데/EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 맛있는 거 좀 많지 않아 대구에?",
+            "norm_text": "맛있는 거 좀 많지 않아 대구에?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맛있/VA+는/ETM+거/NNB+좀/MAG+많/VA+지/EC+않/VX+아/EC+대구/NNP+에/JKB"
+          },
+          {
+            "id": 5,
+            "text": "2 : 맞아. 대구가 은근히 미식의 도시야. 뭐 먹었어?",
+            "norm_text": "맞아. 대구가 은근히 미식의 도시야. 뭐 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EF+대구/NP+가/JKS+은근히/MAG+미식/NNG+의/JKG+도시/NNG+야/VCP+EF+뭐/IC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나는 막창이랑 크림 찜닭 먹었어여",
+            "norm_text": "나는 막창이랑 크림 찜닭 먹었어여",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+막창/NNG+이랑/JKB+크림/NNG+찜/NNG+닭/NNG+먹/VV+었/EP+어여/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나는 중화비빔밥 먹었는데 맛있더라.",
+            "norm_text": "나는 중화비빔밥 먹었는데 맛있더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+중화/NNG+비빔밥/NNG+먹/VV+었/EP+는데/EC+맛있/VA+더라/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 엄청 유명한 집 하나 있잖아?",
+            "norm_text": "엄청 유명한 집 하나 있잖아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄청/MAG+유명/NNG+한/XSA+ETM+집/NNG+하/XSV+나/EC+있/VX+잖아/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 티비에서 본 거 같아",
+            "norm_text": "티비에서 본 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "티비/NNG+에서/JKB+본/VV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 유명한 집은 웨이팅이 너무 길어서 그냥 숙소 근처에서 먹었어",
+            "norm_text": "유명한 집은 웨이팅이 너무 길어서 그냥 숙소 근처에서 먹었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "유명/NNG+한/XSA+ETM+집/NNG+은/JX+웨이팅/NNG+이/JKS+너무/MAG+길/VA+어서/EC+그냥/MAG+숙소/NNG+근처/NNG+에서/JKB+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 대구에 강정보 디아크? 라는 곳에 피크닉도 많이들 한다더랑. 전동 바이크도 타고.",
+            "norm_text": "대구에 강정보 디아크? 라는 곳에 피크닉도 많이들 한다더랑. 전동 바이크도 타고.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대구/NNP+에/JKB+강정/NNG+보디/NNG+아크/NNG+?/SY+라는곳에피크닉도많이들한다더랑/UNKNOWN+전동/NNP+바이크/NNP+도/JX+타/VV+고/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 대구에 무슨 호수 있는데... 이름이 기억이 안 나네.",
+            "norm_text": "대구에 무슨 호수 있는데... 이름이 기억이 안 나네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대구/NNP+에/JKB+무슨/MM+호수/NNG+있/VV+는데/EC+./SY+./SY+이름/NNG+이/JKS+기억/NNG+이/JKS+안/MAG+나/VV+네/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 거기서 자전거 많이 타는데",
+            "norm_text": "거기서 자전거 많이 타는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+서/JKB+자전거/NNG+많이/MAG+타/VV+는데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 수성못인가? 나 이번에 수성못에 갔었거든",
+            "norm_text": "수성못인가? 나 이번에 수성못에 갔었거든",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "수성/NNG+못/NNG+인가/VCP+EF+나/NP+이번/NNG+에/JKB+수성/NNG+못/NNG+에/JKB+갔었/VV+EP+거든/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오 맞아 수성못이야.",
+            "norm_text": "오 맞아 수성못이야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오맞아수성못이야/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 대구에는 강도 있고 호수도 있고 산도 있고 의외로 갈 데가 많네",
+            "norm_text": "대구에는 강도 있고 호수도 있고 산도 있고 의외로 갈 데가 많네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대구/NNP+에/JKB+는/JX+강/NNG+도/JX+있/VA+고/EC+호수/NNG+도/JX+있/VA+고/EC+산/NNG+도/JX+있/VA+고/EC+의외/NNG+로/JKB+갈/VV+ETM+데/NNB+가/JKS+많/VA+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 웅 새로 생긴 호텔에 수영장이 좋대서 가서 수영하고 놀았엉 키키",
+            "norm_text": "웅 새로 생긴 호텔에 수영장이 좋대서 가서 수영하고 놀았엉 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+새로/MAG+생긴/VV+ETM+호텔/NNG+에/JKB+수영장/NNG+이/JKS+좋/VA+대서/EC+가/VX+서/EC+수영/NNG+하/XSV+고/EC+놀/VV+았/EP+엉/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 맞아맞아 거기 나도 가보고 싶었어",
+            "norm_text": "맞아맞아 거기 나도 가보고 싶었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아/EC+거기/NP+나/NP+도/JX+가/VV+EC+보/VX+고/EC+싶/VX+었/EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 근처에 막창집도 있고 산책하기 좋아서 가보기 괜찮을듯해 하하",
+            "norm_text": "근처에 막창집도 있고 산책하기 좋아서 가보기 괜찮을듯해 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근처/NNG+에/JKB+막창/NNG+집/NNG+도/JX+있/VA+고/EC+산책/NNG+하/XSV+기/ETN+좋/VA+아서/EC+가/JKS+보/VV+기/ETN+괜찮/VA+을/ETM+듯/NNB+해하/NNG+하/XSV"
+          },
+          {
+            "id": 20,
+            "text": "2 : 다음에 대구 가면 가봐야겠다",
+            "norm_text": "다음에 대구 가면 가봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+에/JKB+대/VV+구/EC+가/VX+면/EC+가/VX+봐야/EC+VX+EC+VX+겠/EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 44937,
+    "name": "KAKAO_787_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930140959026148/KAKAO_787_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930140959026148/KAKAO_787_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37684,
+      "filename": "KAKAO_787_14.txt",
+      "title": "KAKAO_787_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 552,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 552,
+        "word_size": 164,
+        "text": "1 : 이번에 아동 학대 사건 봤어? 너무 화나\n2 : 맞어 아이 키우는 입장에서 도저히 못 봐주겠더라.\n1 : 어떻게 말도 못하는 아이들을 그렇게 때리지?\n2 : 믿고 보내는 어린이집에서 그렇게 하다니 너무 충격적이지 않아?\n1 : 맞아 ㅠㅠ 우리도 어린이집 보내고 있잖아 괜히 불안 하구\n2 : 자기는 그래도 자주 아이에게 물어 보잖아\n1 : 그나마 이제 언어가 돼서 다행이긴 한데 언어가 아직 안 돼는 아이들은 너무 불안할 거 같아\n2 : 응응 좋으신 선생님들도 많으실 텐데 참 분위기가 안 좋아\n1 : 게다가 공립 어린이집이라서 더 충격적인 거 같어\n2 : 국가에서 관리하는 곳에서 그런 일이 일어나다니...\n1 : 어디에 믿고 맡겨야 할지 모르겠어\n2 : 사생활 문제만 아니면 씨씨티비를 수시로 볼 수 있는 시스템이 있음 좋겠다\n1 : 오 너무 좋은 아이디어인데?\n1 : 수시로 본다면 크게 문제가 없을 텐데\n2 : 선생님들의 사생활도 문제긴 하지만 부모 입장에선 좀 이기적여지네\n1 : 그치? 이번에 학대 사건은 제발 강하게 법적 책임이 물어졌음 좋겠어\n2 : 하지만 어린이집은 계속 운영할 수 있다던데?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 이번에 아동 학대 사건 봤어? 너무 화나",
+            "norm_text": "이번에 아동 학대 사건 봤어? 너무 화나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이번/NNG+에/JKB+아동/NNG+학대/NNG+사건/NNG+봤/VV+EP+어/EF+너무/MAG+화나/VV+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 맞어 아이 키우는 입장에서 도저히 못 봐주겠더라.",
+            "norm_text": "맞어 아이 키우는 입장에서 도저히 못 봐주겠더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+아이/NNG+키우/VV+는/ETM+입장/NNG+에서/JKB+도저히/MAG+못/MAG+봐/VV+EC+주/VX+겠/EP+더라/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 어떻게 말도 못하는 아이들을 그렇게 때리지?",
+            "norm_text": "어떻게 말도 못하는 아이들을 그렇게 때리지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떻게/MAG+말/NNG+도/JX+못/MAG+하/VV+는/ETM+아이/NNG+들/XSN+을/JKO+그렇/VA+게/EC+때리/VX+지/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 믿고 보내는 어린이집에서 그렇게 하다니 너무 충격적이지 않아?",
+            "norm_text": "믿고 보내는 어린이집에서 그렇게 하다니 너무 충격적이지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "믿/VV+고/EC+보내/VV+는/ETM+어린이집/NNG+에서/JKB+그렇게/MAG+하/VV+다니/EC+너무/MAG+충격/NNG+적/XSN+이/VCP+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞아 ㅠㅠ 우리도 어린이집 보내고 있잖아 괜히 불안 하구",
+            "norm_text": "맞아 ㅠㅠ 우리도 어린이집 보내고 있잖아 괜히 불안 하구",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+우리/NP+도/JX+어린이집/NNG+보내/VV+고/EC+있/VX+잖아/EC+괜히/MAG+불안/NNG+하/XSV+구/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 자기는 그래도 자주 아이에게 물어 보잖아",
+            "norm_text": "자기는 그래도 자주 아이에게 물어 보잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자기/NP+는/JX+그래도/MAJ+자주/MAG+아이/NNG+에게/JKB+물/VV+어/EC+보/VX+잖아/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그나마 이제 언어가 돼서 다행이긴 한데 언어가 아직 안 돼는 아이들은 너무 불안할 거 같아",
+            "norm_text": "그나마 이제 언어가 돼서 다행이긴 한데 언어가 아직 안 돼는 아이들은 너무 불안할 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그나마/MAG+이제/MAG+언어/NNG+가/JKS+돼서/VV+EC+다행/NNG+이/VCP+긴/ETN+JX+한데/VX+EC+언어/NNG+가/JKS+아직/MAG+안/MAG+돼/VV+는/ETM+아이/NNG+들/XSN+은/JX+너무/MAG+불안/NNG+할/XSV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 좋으신 선생님들도 많으실 텐데 참 분위기가 안 좋아",
+            "norm_text": "응응 좋으신 선생님들도 많으실 텐데 참 분위기가 안 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+좋/VA+으신/EP+ETM+선생/NNG+님/XSN+들/XSN+도/JX+많/VA+으실/EP+ETM+텐데/NNB+VCP+EC+참/MAG+분위기/NNG+가/JKS+안/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 게다가 공립 어린이집이라서 더 충격적인 거 같어",
+            "norm_text": "게다가 공립 어린이집이라서 더 충격적인 거 같어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "게다가/MAG+공립/NNG+어린이집/NNG+이/VCP+라서/EC+더/MAG+충격/NNG+적/XSN+인/VCP+ETM+거/NNB+같/VA+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 국가에서 관리하는 곳에서 그런 일이 일어나다니...",
+            "norm_text": "국가에서 관리하는 곳에서 그런 일이 일어나다니...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "국가/NNG+에서/JKB+관리/NNG+하/XSV+는/ETM+곳/NNG+에서/JKB+그런/MM+일/NNG+이/JKS+일어나/VV+다니/EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 어디에 믿고 맡겨야 할지 모르겠어",
+            "norm_text": "어디에 믿고 맡겨야 할지 모르겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어디/NP+에/JKB+믿/VV+고/EC+맡겨야/VV+EC+할지/VX+EC+모르/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 사생활 문제만 아니면 씨씨티비를 수시로 볼 수 있는 시스템이 있음 좋겠다",
+            "norm_text": "사생활 문제만 아니면 씨씨티비를 수시로 볼 수 있는 시스템이 있음 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사생활/NNG+문제/NNG+만/JX+아니/VCN+면/EC+씨씨/IC+티비/NNG+를/JKO+수시로/MAG+볼/VV+ETM+수/NNB+있/VV+는/ETM+시스템/NNG+이/JKS+있/VV+음/ETN+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 오 너무 좋은 아이디어인데?",
+            "norm_text": "오 너무 좋은 아이디어인데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+너무/MAG+좋/VA+은/ETM+아이디어/NNG+인데/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 수시로 본다면 크게 문제가 없을 텐데",
+            "norm_text": "수시로 본다면 크게 문제가 없을 텐데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수시로/MAG+본다면/VV+EC+크/VA+게/EC+문제/NNG+가/JKS+없/VA+을/ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 선생님들의 사생활도 문제긴 하지만 부모 입장에선 좀 이기적여지네",
+            "norm_text": "선생님들의 사생활도 문제긴 하지만 부모 입장에선 좀 이기적여지네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "선생/NNG+님/XSN+들/XSN+의/JKG+사생활/NNG+도/JX+문제/NNG+긴/VCP+ETN+JX+하/VX+지만/EC+부모/NNG+입장/NNG+에선/JKB+JX+좀/MAG+이기/NP+JKS+적여/NNG+지네/NNG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그치? 이번에 학대 사건은 제발 강하게 법적 책임이 물어졌음 좋겠어",
+            "norm_text": "그치? 이번에 학대 사건은 제발 강하게 법적 책임이 물어졌음 좋겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+이번/NNG+에/JKB+학대/NNG+사건/NNG+은/JX+제발/MAG+강하/VA+게/EC+법/NNG+적/XSN+책임/NNG+이/JKS+물/VV+어/EC+졌/VX+EP+음/ETN+좋/VA+겠/EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 하지만 어린이집은 계속 운영할 수 있다던데?",
+            "norm_text": "하지만 어린이집은 계속 운영할 수 있다던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "하지만/MAJ+어린이집/NNG+은/JX+계속/MAG+운영/NNG+할/XSV+ETM+수/NNB+있/VV+다던데/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

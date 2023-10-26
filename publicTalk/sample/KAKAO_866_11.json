@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 34059,
+    "name": "KAKAO_866_11_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174130038816/KAKAO_866_11_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001174130038816/KAKAO_866_11_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40009,
+      "filename": "KAKAO_866_11.txt",
+      "title": "KAKAO_866_11",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 488,
+      "annotations": {
+        "subject": "게임",
+        "speaker_type": "1:1",
+        "size": 488,
+        "word_size": 178,
+        "text": "1 : 몇 시에 퇴근 하냐 ?\n1 : 끝나고 좀보이드 한판 ?\n2 : 고고 끝나고 집 가서 씻고 밥 먹고 연락할게\n1 : 콜 어제 좀비 한 오백 마리 잡은 듯 키키\n2 : 뭐한다고 그렇게나 잡았어? 키키\n2 : 늦게 잤겠네\n1 : 두 시 넘어서 잤음...\n1 : 오늘 개피곤 하더라 키키\n2 : 그렇게나 할 게 많아 ?\n2 : 난 생존하기 바쁘던데\n1 : 아니 좀비 시체 하나에 지도가 나왔는데 개꿀인 거야\n2 : 지도 잘 나오면 막 총이랑 자동차 위치 있고 키키\n1 : 그래 그거야 키키 구상 무기 자동차 다 나왔음\n2 : 거점 확보가 젤 어렵지 않냐 ?\n1 : 어제 확보 다 하고 잤음\n1 : 2층 집인데 개꿀\n2 : 아 확보 함? 2층 집 좋던데,\n2 : 너 며칠 찬데 ?\n1 : 나 28일차 정도 일걸?\n1 : 안 물리고 살려고 엄청 애썼다 키키\n2 : 헐 엄청 오래 살아 남았네 키키\n2 : 꿀팁 좀\n1 : 없어 그냥 무조건 조심하고 안전하게 해야 돼\n2 : 난 좀비 보면 자꾸 죽일려고 하다가 죽음 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 몇 시에 퇴근 하냐 ?",
+            "norm_text": "몇 시에 퇴근 하냐 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "몇/MM+시/NNBC+에/JKB+퇴근/NNG+하/XSA+냐/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 끝나고 좀보이드 한판 ?",
+            "norm_text": "끝나고 좀보이드 한판 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "끝/NNG+나/VV+고/EC+좀/MAG+보이/VV+드/EC+한판/NNG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 고고 끝나고 집 가서 씻고 밥 먹고 연락할게",
+            "norm_text": "고고 끝나고 집 가서 씻고 밥 먹고 연락할게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고고/NNG+끝/NNG+나/VV+고/EC+집/NNG+가/VV+서/EC+씻/VV+고/EC+밥/NNG+먹/VV+고/EC+연락/NNG+할/XSV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 4,
+            "text": "1 : 콜 어제 좀비 한 오백 마리 잡은 듯 키키",
+            "norm_text": "콜 어제 좀비 한 오백 마리 잡은 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "콜/NNG+어제/MAG+좀/MAG+비한/NNG+오/NR+백/NR+마리/NNBC+잡/VV+은/ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 뭐한다고 그렇게나 잡았어? 키키",
+            "norm_text": "뭐한다고 그렇게나 잡았어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+한다고/VV+EC+그렇게/MAG+나/JX+잡/VV+았/EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 늦게 잤겠네",
+            "norm_text": "늦게 잤겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "늦/VA+게/EC+잤/VV+EP+겠/EP+네/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 두 시 넘어서 잤음...",
+            "norm_text": "두 시 넘어서 잤음...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "두/MM+시/NNBC+넘/VV+어서/EC+잤/VV+EP+음/ETN+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 오늘 개피곤 하더라 키키",
+            "norm_text": "오늘 개피곤 하더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+개/NNG+피곤/NNG+하/XSV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그렇게나 할 게 많아 ?",
+            "norm_text": "그렇게나 할 게 많아 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇게/MAG+나/JX+할/VV+ETM+게/NNB+JKS+많/VA+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 난 생존하기 바쁘던데",
+            "norm_text": "난 생존하기 바쁘던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+생존/NNG+하/XSV+기/ETN+바쁘/VA+던데/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아니 좀비 시체 하나에 지도가 나왔는데 개꿀인 거야",
+            "norm_text": "아니 좀비 시체 하나에 지도가 나왔는데 개꿀인 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+좀/MAG+비/XPN+시체/NNG+하나/NR+에/JKB+지도/NNG+가/JKS+나왔/VV+EP+는데/EC+개꿀/NNG+인/VCP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 지도 잘 나오면 막 총이랑 자동차 위치 있고 키키",
+            "norm_text": "지도 잘 나오면 막 총이랑 자동차 위치 있고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지도/NNG+잘/MAG+나오/VV+면/EC+막/NNG+총/NNG+이랑/JKB+자동차/NNG+위치/NNG+있/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래 그거야 키키 구상 무기 자동차 다 나왔음",
+            "norm_text": "그래 그거야 키키 구상 무기 자동차 다 나왔음",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+그거/NP+야/VCP+EF+키키/NNP+구상/NNG+무기/NNG+자동차/NNG+다/MAG+나왔/VV+EP+음/ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 거점 확보가 젤 어렵지 않냐 ?",
+            "norm_text": "거점 확보가 젤 어렵지 않냐 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "거점/NNG+확보/NNG+가/JKS+젤/MAG+어렵/VA+지/EC+않/VX+냐/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 어제 확보 다 하고 잤음",
+            "norm_text": "어제 확보 다 하고 잤음",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+확/MAG+보다/MAG+하/VV+고/EC+잤/VV+EP+음/ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 2층 집인데 개꿀",
+            "norm_text": "2층 집인데 개꿀",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "2/SN+층집/NNG+인데/VCP+EC+개꿀/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 확보 함? 2층 집 좋던데,",
+            "norm_text": "아 확보 함? 2층 집 좋던데,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+확보/NNG+함/XSV+ETN+?/SY+2/SN+층집/NNG+좋/VA+던데/EF+,/SC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 너 며칠 찬데 ?",
+            "norm_text": "너 며칠 찬데 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+며칠/NNG+찬데/NNG+VCP+EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 나 28일차 정도 일걸?",
+            "norm_text": "나 28일차 정도 일걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+28/SN+일/NNBC+차/NNG+정도/NNG+일걸/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 안 물리고 살려고 엄청 애썼다 키키",
+            "norm_text": "안 물리고 살려고 엄청 애썼다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+물리/VV+고/EC+살/VV+려고/EC+엄청/MAG+애썼/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 21,
+            "text": "2 : 헐 엄청 오래 살아 남았네 키키",
+            "norm_text": "헐 엄청 오래 살아 남았네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+엄청/MAG+오래/MAG+살아남/VV+았/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 꿀팁 좀",
+            "norm_text": "꿀팁 좀",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "꿀/NNG+팁/NNG+좀/MAG"
+          },
+          {
+            "id": 23,
+            "text": "1 : 없어 그냥 무조건 조심하고 안전하게 해야 돼",
+            "norm_text": "없어 그냥 무조건 조심하고 안전하게 해야 돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "없/VA+어/EC+그냥/MAG+무조건/MAG+조심/NNG+하/XSV+고/EC+안전/NNG+하/XSV+게/EC+해야/VV+EC+돼/VV+EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 난 좀비 보면 자꾸 죽일려고 하다가 죽음 키키",
+            "norm_text": "난 좀비 보면 자꾸 죽일려고 하다가 죽음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+좀/MAG+비보/NNG+면/VCP+EC+자꾸/MAG+죽일려고/VV+EC+하/VV+다가/EC+죽음/NNG+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

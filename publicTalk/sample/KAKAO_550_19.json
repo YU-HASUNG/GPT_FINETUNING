@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 30003,
+    "name": "KAKAO_550_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934042993/KAKAO_550_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917155934042993/KAKAO_550_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30010,
+      "filename": "KAKAO_550_19.txt",
+      "title": "KAKAO_550_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 524,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 524,
+        "word_size": 172,
+        "text": "1 : 응답하라 시리즈 다 봤나?\n2 : 아니 키키 난 그 중간 꺼만 봤어 쓰레기\n1 : 나 그거 좋아하는데 넷플에서 이제 곧 내린대 ㅜㅜ\n2 : 오... 왜 내리지? ㅠㅠ 아쉽게\n1 : ㅜㅜ 그래서 정주행 한 번 더 하려고 키키\n2 : 키키 미쳐 그 정도로 재밌어? 슬의생은 안 보나\n1 : 와... 나 그거는 못 봤다... 키키 다들 재밌다 하대\n2 : 키키 난 시즌 1만 봤는데 이번에도 엄청 재밌다더라\n1 : 아 진짜? 난 메디컬 드라마... 별로 안 좋아해서 ㅜㅜ\n2 : 아 진짜? 근데 여긴 애들이 넘 웃기긴 해\n1 : 키키 언니야도 자꾸 옆에서 슬의생 보라고 보라고 하는데 키키 안 봄 키키\n2 : 키키 왜죠? 아니 귀엽던데 키키\n2 : 난 끝나고 몰아서 볼까 싶음\n1 : 난 언니야한테 응답하라 시리즈 보라고 보라고 하는데 언니야도 안 봄 키키\n2 : 오... 둘이 똑같네? 역시... 닮았어 키키\n1 : 키키 취향이 너무나도 다른데? 의견 충돌이 잦은데? 키키\n2 : 키키 원래 그러면 또 충돌이 잦을 수 있지 키키\n2 : 그래도 같이 사는 게 대단해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 응답하라 시리즈 다 봤나?",
+            "norm_text": "응답하라 시리즈 다 봤나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응답/NNG+하/XSV+라/EC+시리즈/NNG+다/VCP+EC+봤/VX+EP+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 키키 난 그 중간 꺼만 봤어 쓰레기",
+            "norm_text": "아니 키키 난 그 중간 꺼만 봤어 쓰레기",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니키/NNP+키난/NNP+그/MM+중간/NNG+꺼/VV+EC+만/JX+봤/VV+EP+어/EC+쓰레기/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 그거 좋아하는데 넷플에서 이제 곧 내린대 ㅜㅜ",
+            "norm_text": "나 그거 좋아하는데 넷플에서 이제 곧 내린대 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+그거/NP+좋/VA+아/EC+하/VV+는데/EC+넷/NR+플/NNG+에서/JKB+이제/MAG+곧/MAG+내린/VV+ETM+대/XPN+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오... 왜 내리지? ㅠㅠ 아쉽게",
+            "norm_text": "오... 왜 내리지? ㅠㅠ 아쉽게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+./SY+왜/MAG+내리/VV+지/EF+ㅠㅠ/UNKNOWN+아쉽/VA+게/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : ㅜㅜ 그래서 정주행 한 번 더 하려고 키키",
+            "norm_text": "ㅜㅜ 그래서 정주행 한 번 더 하려고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅜㅜ/UNKNOWN+그래서/MAJ+정주/NNG+행/XSN+한번/MAG+더/MAG+하/VV+려고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 미쳐 그 정도로 재밌어? 슬의생은 안 보나",
+            "norm_text": "키키 미쳐 그 정도로 재밌어? 슬의생은 안 보나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+미쳐/VV+EC+그/MM+정도/NNG+로/JKB+재밌/VA+어/EF+슬/VV+ETM+의생/NNG+은/JX+안/MAG+보/VV+나/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 와... 나 그거는 못 봤다... 키키 다들 재밌다 하대",
+            "norm_text": "와... 나 그거는 못 봤다... 키키 다들 재밌다 하대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+./SY+나/NP+그거/NP+는/JX+못/MAG+봤/VV+EP+다/EF+./SY+키/NNG+키/VV+다/EC+들/XSN+재밌/VA+다/EC+하대/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 키키 난 시즌 1만 봤는데 이번에도 엄청 재밌다더라",
+            "norm_text": "키키 난 시즌 1만 봤는데 이번에도 엄청 재밌다더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/VV+ETM+시즌/NNG+1/SN+만/NR+봤/VV+EP+는데/EC+이번/NNG+에/JKB+도/JX+엄청/MAG+재밌/VA+다더라/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 진짜? 난 메디컬 드라마... 별로 안 좋아해서 ㅜㅜ",
+            "norm_text": "아 진짜? 난 메디컬 드라마... 별로 안 좋아해서 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아/IC+진짜/MAG+난/NP+JX+메디컬/NNG+드라마/NNG+./SY+./SY+별로/MAG+안/MAG+좋/VA+아/EC+해서/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 진짜? 근데 여긴 애들이 넘 웃기긴 해",
+            "norm_text": "아 진짜? 근데 여긴 애들이 넘 웃기긴 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+근데/MAJ+여긴/NP+JX+애/NNG+들/XSN+이/JKS+넘/MAG+웃기/VV+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 언니야도 자꾸 옆에서 슬의생 보라고 보라고 하는데 키키 안 봄 키키",
+            "norm_text": "키키 언니야도 자꾸 옆에서 슬의생 보라고 보라고 하는데 키키 안 봄 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+언니/NNG+야/JKV+도/JX+자꾸/MAG+옆/NNG+에서/JKB+슬/NNG+의/JKG+생보/NNG+라고/VCP+EC+보/VX+라고/EC+하/VV+는/ETM+데키/NNP+키안/NNP+봄/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 왜죠? 아니 귀엽던데 키키",
+            "norm_text": "키키 왜죠? 아니 귀엽던데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+왜/MAG+죠/VCP+EF+아니/IC+귀엽/VA+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 끝나고 몰아서 볼까 싶음",
+            "norm_text": "난 끝나고 몰아서 볼까 싶음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+끝/NNG+나/VV+고/EC+몰/VV+아서/EC+볼까/VX+EC+싶/VX+음/ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 난 언니야한테 응답하라 시리즈 보라고 보라고 하는데 언니야도 안 봄 키키",
+            "norm_text": "난 언니야한테 응답하라 시리즈 보라고 보라고 하는데 언니야도 안 봄 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난언/NNG+니야/NNG+한테/JKB+응답/NNG+하/XSV+라/EC+시리즈/NNG+보/VV+라고/EC+보/VX+라고/EC+하/VV+는/ETM+데/NNB+언/VV+ETM+니야/NNG+도/JX+안/MAG+봄/VV+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 오... 둘이 똑같네? 역시... 닮았어 키키",
+            "norm_text": "오... 둘이 똑같네? 역시... 닮았어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+둘/NR+이/JKS+똑같/VA+네/EF+역시/MAJ+./SY+닮/VV+았/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 취향이 너무나도 다른데? 의견 충돌이 잦은데? 키키",
+            "norm_text": "키키 취향이 너무나도 다른데? 의견 충돌이 잦은데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+취향/NNG+이/JKS+너무나/MAG+도/JX+다른데/VA+EF+의견/NNG+충돌/NNG+이/JKS+잦/VA+은데/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 원래 그러면 또 충돌이 잦을 수 있지 키키",
+            "norm_text": "키키 원래 그러면 또 충돌이 잦을 수 있지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+원래/MAG+그러/VV+면/EC+또/MAG+충돌/NNG+이/JKS+잦/VA+을/ETM+수/NNB+있/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그래도 같이 사는 게 대단해",
+            "norm_text": "그래도 같이 사는 게 대단해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+같이/MAG+사/VV+는/ETM+게/NNB+JKS+대단/XR+해/XSA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 23880,
+    "name": "KAKAO_548_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151329023991/KAKAO_548_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917151329023991/KAKAO_548_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29660,
+      "filename": "KAKAO_548_09.txt",
+      "title": "KAKAO_548_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 550,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 550,
+        "word_size": 174,
+        "text": "1 : 나 예전에 햄스터 키웠었는데 키워본 적 있나?\n2 : 나 초딩 때 많이 길렀지 키키 교회 가서 받아왔었다 키키\n1 : 응? 키키 교회에서 햄스터를 나눠줬다고? 키키\n2 : 어 키키 친구가 교회 다녔는데 햄스터 준다고 가자고 꼬셔서 갔었지 키키\n2 : 그때 난 성당 다니고 있었는데 키키\n1 : 키키 그 햄스터는 오래오래 잘 컸니? 키키\n2 : 그 햄스터 일주일만에 죽었어... ㅠㅠ\n1 : 응? ㅜㅜ 어디 아팠던 거야? 무슨 일이야 ㅠㅠ\n2 : 피아노 위에서 떨어져 가지고... 파닥파닥 거리더니 죽었어 ㅜㅠ 내 불찰이야\n1 : 헉! 어떠케 ㅜㅜ 그 조그만한 애가 피아노에서 ㅜㅜ\n1 : 왜 거기 올려놨노!\n2 : 논다고 올려 놨는데 ㅜㅜ 그때 진짜 폭풍 오열 했었다\n1 : 아이고 ㅜㅜ 어린 마음에 진짜 슬펐겠네 ㅜㅜ\n2 : 그때 엄마가 내가 죽어도 이렇게 울어줄 거냐고 하더라 키키 하도 우니까\n1 : 키키 도대체 어릴 때 얼마나 운 거야 ㅜㅜ\n2 : 진짜 실신할 정도로 폭풍 오열 했지 키키\n1 : 엄마야... 키키 내 친구 엄청 마음이 따뜻한 아이였네\n2 : 그땐 키키 순수한 영혼 초딩 때잖아 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 예전에 햄스터 키웠었는데 키워본 적 있나?",
+            "norm_text": "나 예전에 햄스터 키웠었는데 키워본 적 있나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+예전/NNG+에/JKB+햄스터/NNG+키웠었/VV+EP+는데/EC+키워본/VV+EC+VX+ETM+적/NNB+있/VA+나/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 초딩 때 많이 길렀지 키키 교회 가서 받아왔었다 키키",
+            "norm_text": "나 초딩 때 많이 길렀지 키키 교회 가서 받아왔었다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+초딩/NNG+때/NNG+많이/MAG+길렀/VV+EP+지/EC+키/NNG+키/NNG+교회/NNG+가/VV+서/EC+받/VV+아/EC+왔었/VX+EP+다키키/NNP"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응? 키키 교회에서 햄스터를 나눠줬다고? 키키",
+            "norm_text": "응? 키키 교회에서 햄스터를 나눠줬다고? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+교회/NNG+에서/JKB+햄스터/NNG+를/JKO+나눠/VV+EC+줬/VX+EP+다고/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어 키키 친구가 교회 다녔는데 햄스터 준다고 가자고 꼬셔서 갔었지 키키",
+            "norm_text": "어 키키 친구가 교회 다녔는데 햄스터 준다고 가자고 꼬셔서 갔었지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+키/NNG+키/NNG+친구/NNG+가/JKS+교회/NNG+다녔/VV+EP+는데/EC+햄스터/NNG+준다고/VV+EC+가/VX+자고/EC+꼬셔서/VV+EC+갔었/VV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그때 난 성당 다니고 있었는데 키키",
+            "norm_text": "그때 난 성당 다니고 있었는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그때/NNG+난/VV+ETM+성당/NNG+다니/VV+고/EC+있/VX+었/EP+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 그 햄스터는 오래오래 잘 컸니? 키키",
+            "norm_text": "키키 그 햄스터는 오래오래 잘 컸니? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키키/NNP+그/MM+햄스터/NNG+는/JX+오래오래/MAG+잘/MAG+컸/VA+EP+니/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그 햄스터 일주일만에 죽었어... ㅠㅠ",
+            "norm_text": "그 햄스터 일주일만에 죽었어... ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+햄스터/NNG+일/NR+주일/NNBC+만/NNB+에/JKB+죽/VV+었/EP+어/EF+./SY+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 응? ㅜㅜ 어디 아팠던 거야? 무슨 일이야 ㅠㅠ",
+            "norm_text": "응? ㅜㅜ 어디 아팠던 거야? 무슨 일이야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+ㅜㅜ/UNKNOWN+어디/NP+아팠/VA+EP+던/ETM+거/NNB+야/VCP+EF+무슨/MM+일/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 피아노 위에서 떨어져 가지고... 파닥파닥 거리더니 죽었어 ㅜㅠ 내 불찰이야",
+            "norm_text": "피아노 위에서 떨어져 가지고... 파닥파닥 거리더니 죽었어 ㅜㅠ 내 불찰이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "피아노/NNG+위/NNG+에서/JKB+떨어져/VV+EC+가지/VX+고/EC+./SY+./SY+파닥파닥/MAG+거리/XSV+더니/EC+죽/VV+었/EP+어/EF+ㅜㅠ/UNKNOWN+내/NP+JKG+불찰/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 헉! 어떠케 ㅜㅜ 그 조그만한 애가 피아노에서 ㅜㅜ",
+            "norm_text": "헉! 어떠케 ㅜㅜ 그 조그만한 애가 피아노에서 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+어떠/XR+케/XSA+EC+ㅜㅜ/UNKNOWN+그/MM+조그만/XR+한/XSA+ETM+애/NNG+가/JKS+피아노/NNG+에서/JKB+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 왜 거기 올려놨노!",
+            "norm_text": "왜 거기 올려놨노!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+거기/NP+올려놨/VV+EP+노/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 논다고 올려 놨는데 ㅜㅜ 그때 진짜 폭풍 오열 했었다",
+            "norm_text": "논다고 올려 놨는데 ㅜㅜ 그때 진짜 폭풍 오열 했었다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "논다고/VV+EC+올려놨/VV+EP+는데/EC+ㅜㅜ/UNKNOWN+그때/NNG+진짜/MAG+폭풍/NNG+오열/NNG+했었/XSV+EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아이고 ㅜㅜ 어린 마음에 진짜 슬펐겠네 ㅜㅜ",
+            "norm_text": "아이고 ㅜㅜ 어린 마음에 진짜 슬펐겠네 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아이/NNG+고/VCP+EC+ㅜㅜ/UNKNOWN+어린/VA+ETM+마음/NNG+에/JKB+진짜/MAG+슬펐/VA+EP+겠/EP+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그때 엄마가 내가 죽어도 이렇게 울어줄 거냐고 하더라 키키 하도 우니까",
+            "norm_text": "그때 엄마가 내가 죽어도 이렇게 울어줄 거냐고 하더라 키키 하도 우니까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그때/NNG+엄마/NNG+가/JKS+내/NP+가/JKS+죽/VV+어도/EC+이렇게/MAG+울/VV+어/EC+줄/VX+ETM+거/NNB+냐고/VCP+EC+하/VV+더라/EC+키/NNG+키/NNG+하/XSV+도우/VV+니까/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 도대체 어릴 때 얼마나 운 거야 ㅜㅜ",
+            "norm_text": "키키 도대체 어릴 때 얼마나 운 거야 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+도대체/MAG+어릴/VA+ETM+때/NNG+얼마나/MAG+운거야/VV+ETM+NNB+VCP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 진짜 실신할 정도로 폭풍 오열 했지 키키",
+            "norm_text": "진짜 실신할 정도로 폭풍 오열 했지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+실신/NNG+할/XSV+ETM+정도/NNG+로/JKB+폭풍/NNG+오열/NNG+했/XSV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 엄마야... 키키 내 친구 엄청 마음이 따뜻한 아이였네",
+            "norm_text": "엄마야... 키키 내 친구 엄청 마음이 따뜻한 아이였네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+야/VCP+EF+./SY+키/NNG+키/XSV+ETN+내/NP+JKG+친구/NNG+엄청/MAG+마음/NNG+이/JKS+따뜻/XR+한/XSA+ETM+아이/NNG+였/VCP+EP+네/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그땐 키키 순수한 영혼 초딩 때잖아 키키",
+            "norm_text": "그땐 키키 순수한 영혼 초딩 때잖아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+땐/NNG+JX+키/NNG+키/NNG+순수/NNG+한/XSA+ETM+영혼/NNG+초딩/NNG+때/NNG+잖아/VCP+EC+VX+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

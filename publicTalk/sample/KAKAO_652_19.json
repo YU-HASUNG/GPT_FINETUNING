@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 35154,
+    "name": "KAKAO_652_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423028762/KAKAO_652_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927145423028762/KAKAO_652_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34437,
+      "filename": "KAKAO_652_19.txt",
+      "title": "KAKAO_652_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 475,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 475,
+        "word_size": 160,
+        "text": "1 : 슬의생 저번 주 퍽치기 사건 익준이였어 키키\n2 : 그러게 나는 석형인 줄 알았거든\n1 : 그렇게 말해도 우기더니 이제 됐나?\n2 : 어 어제 티비 보고 익준이라는 거 알았어\n1 : 정말 키키 이번 주 너무 재밌지 않았어?\n2 : 응 너무 재밌어서 보는 내내 행복했어\n1 : 맞아 이번 주가 특히 더 그랬던 거 같아\n2 : 언제 끝날진 모르겠지만 오랫동안 했으면 좋겠다\n1 : 일주일에 한 번 하는 게 너무 아쉬워 ㅠㅠ\n1 : 그래도 이제 다 이어졌으니깐 곧 끝날 거 같아 ㅠㅠ\n2 : 그래 매주 이 드라마 보는 재미로 살았는데\n1 : 그니깐 ㅠㅠ 많이 허전할 거 같아\n1 : 슬의 시즌 3 가자\n2 : 우리가 원하면 가려나 키키\n2 : 여튼 오래 보고 싶네\n1 : 맞아 엄마는 그 오인방 중에 누가 맘에 들어?\n2 : 익준이와 송화 커플이 재밌어 보는 내내 웃기고 하하\n1 : 나는 석형이랑 민하가 이번에 설렜어\n2 : 그 커플도 서로를 좋아하는 게 느껴져서 나도 설레더라",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 슬의생 저번 주 퍽치기 사건 익준이였어 키키",
+            "norm_text": "슬의생 저번 주 퍽치기 사건 익준이였어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "슬/NNG+의/JKG+생/XPN+저번/NNG+주/NNG+퍽치기/NNG+사건/NNG+익/NNG+준이/NNG+였/VCP+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그러게 나는 석형인 줄 알았거든",
+            "norm_text": "그러게 나는 석형인 줄 알았거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+나/NP+는/JX+석/NNG+형/XSN+인/VCP+ETM+줄/NNB+알/VV+았/EP+거든/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그렇게 말해도 우기더니 이제 됐나?",
+            "norm_text": "그렇게 말해도 우기더니 이제 됐나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그렇게/MAG+말/NNG+해도/XSV+EC+우기/VV+더니/EC+이제/MAG+됐/VV+EP+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 어 어제 티비 보고 익준이라는 거 알았어",
+            "norm_text": "어 어제 티비 보고 익준이라는 거 알았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+제티/NNP+비보/NNP+고익준/NNP+이/VCP+라는/ETM+거/NNB+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 정말 키키 이번 주 너무 재밌지 않았어?",
+            "norm_text": "정말 키키 이번 주 너무 재밌지 않았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "정말/MAG+키/NNG+키/NNG+이번/NNG+주/NNG+너무/MAG+재밌/VA+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 너무 재밌어서 보는 내내 행복했어",
+            "norm_text": "응 너무 재밌어서 보는 내내 행복했어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+너무/MAG+재밌/VA+어서/EC+보/VX+는/ETM+내내/MAG+행복/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 맞아 이번 주가 특히 더 그랬던 거 같아",
+            "norm_text": "맞아 이번 주가 특히 더 그랬던 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+이번/NNG+주/NNG+가/JKS+특히/MAG+더/MAG+그랬/VV+EP+던/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 언제 끝날진 모르겠지만 오랫동안 했으면 좋겠다",
+            "norm_text": "언제 끝날진 모르겠지만 오랫동안 했으면 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언제/MAG+끝/NNG+날진/NNG+모르/VV+겠/EP+지만/EC+오랫동안/NNG+했/XSV+EP+으면/EC+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 일주일에 한 번 하는 게 너무 아쉬워 ㅠㅠ",
+            "norm_text": "일주일에 한 번 하는 게 너무 아쉬워 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일/NR+주일/NNBC+에/JKB+한/MM+번/NNBC+하/VV+는/ETM+게/NNB+JKS+너무/MAG+아쉬워/VA+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그래도 이제 다 이어졌으니깐 곧 끝날 거 같아 ㅠㅠ",
+            "norm_text": "그래도 이제 다 이어졌으니깐 곧 끝날 거 같아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+이제/MAG+다/MAG+이어졌/VV+EP+으니깐/EC+곧/MAG+끝날/VV+ETM+거/NNB+같/VA+아/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그래 매주 이 드라마 보는 재미로 살았는데",
+            "norm_text": "그래 매주 이 드라마 보는 재미로 살았는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+매주/MAG+이/MM+드라마/NNG+보/VV+는/ETM+재미/NNG+로/JKB+살/VV+았/EP+는데/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그니깐 ㅠㅠ 많이 허전할 거 같아",
+            "norm_text": "그니깐 ㅠㅠ 많이 허전할 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+ㅠㅠ/UNKNOWN+많이/MAG+허전/NNG+할/XSV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 슬의 시즌 3 가자",
+            "norm_text": "슬의 시즌 3 가자",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "슬/NNG+의/JKG+시즌/NNG+3/SN+가자/NNG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 우리가 원하면 가려나 키키",
+            "norm_text": "우리가 원하면 가려나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+가/JKS+원/NNG+하/XSV+면/EC+가/VX+려나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 여튼 오래 보고 싶네",
+            "norm_text": "여튼 오래 보고 싶네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여/NP+튼/VV+ETM+오래/MAG+보/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 맞아 엄마는 그 오인방 중에 누가 맘에 들어?",
+            "norm_text": "맞아 엄마는 그 오인방 중에 누가 맘에 들어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+엄마/NNG+는/JX+그/MM+오인/NNG+방중/NNG+에/JKB+누가/NP+JKS+맘/NNG+에/JKB+들/VV+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 익준이와 송화 커플이 재밌어 보는 내내 웃기고 하하",
+            "norm_text": "익준이와 송화 커플이 재밌어 보는 내내 웃기고 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "익/IC+준이/NNG+와/JC+송화/NNG+커플/NNG+이/JKS+재밌/VA+어/EC+보/VX+는/ETM+내내/MAG+웃기/VV+고/EC+하하/MAG"
+          },
+          {
+            "id": 18,
+            "text": "1 : 나는 석형이랑 민하가 이번에 설렜어",
+            "norm_text": "나는 석형이랑 민하가 이번에 설렜어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+석/NNG+형/XSN+이랑/JC+민하/NNP+가/JKS+이번/NNG+에/JKB+설렜/VV+EP+어/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그 커플도 서로를 좋아하는 게 느껴져서 나도 설레더라",
+            "norm_text": "그 커플도 서로를 좋아하는 게 느껴져서 나도 설레더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+커플/NNG+도/JX+서로/NNG+를/JKO+좋아하/VV+는/ETM+게/NNB+JKS+느껴져서/VV+EC+VX+EC+나/NP+도/JX+설레/VV+더라/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

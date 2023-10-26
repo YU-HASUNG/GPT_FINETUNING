@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 40346,
+    "name": "KAKAO_883_05_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095022097198/KAKAO_883_05_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005095022097198/KAKAO_883_05_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40584,
+      "filename": "KAKAO_883_05.txt",
+      "title": "KAKAO_883_05",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 405,
+      "annotations": {
+        "subject": "군대",
+        "speaker_type": "1:1",
+        "size": 405,
+        "word_size": 141,
+        "text": "1 : 군대 안 가 봤지 너!\n2 : 키키 안 가 봤지 나... ^^\n1 : 키키 그럼 면회도 안 갔나?\n2 : 우리 친오빠 군대에 있을 때 한 번? 갔었지\n1 : 오~ 한 번? 친동생 맞네 키키\n2 : 키키 한 번 간 것도 대단한 거 아니냐\n1 : 오빠 군대 가니까 안 심심하더나\n2 : 그건 잠시였다~ 행복했는데? 키키\n1 : 고딩 때 수료식 간다고 학교 안 간 거 니 아님?\n2 : 오 기억하네? 아마 우리 방학식 날이었던 거 같은데\n1 : 오빠 수료식 간다면서 학교 안 온 애 있었는데 니 맞제\n2 : 키키 맞다 나다... 착한 동생 아님?\n1 : 기억력 지렸음 하하 아니 안 착해\n2 : 이런 동생이 어딨냐 하하 오빠 군대에 있다고 학교도 빠지고\n1 : 여동생이 더 많이 가 줬어야지 !\n2 : 그럼 주변에서 소개시켜 달라 그랬을 텐데 그치?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 군대 안 가 봤지 너!",
+            "norm_text": "군대 안 가 봤지 너!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "군대/NNG+안/MAG+가/VV+EC+봤/VX+EP+지/EF+너/NP"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 안 가 봤지 나... ^^",
+            "norm_text": "키키 안 가 봤지 나... ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+안/MAG+가/VV+EC+봤/VX+EP+지나/EC+./SY+./SY+^/SY+^/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 그럼 면회도 안 갔나?",
+            "norm_text": "키키 그럼 면회도 안 갔나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+면회/NNG+도/JX+안/MAG+갔/VV+EP+나/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우리 친오빠 군대에 있을 때 한 번? 갔었지",
+            "norm_text": "우리 친오빠 군대에 있을 때 한 번? 갔었지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+친오빠/NNG+군대/NNG+에/JKB+있/VV+을/ETM+때/NNG+한/MM+번/NNBC+갔었/VV+EP+지/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오~ 한 번? 친동생 맞네 키키",
+            "norm_text": "오~ 한 번? 친동생 맞네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+한/MM+번/NNBC+친동생맞네키키/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 한 번 간 것도 대단한 거 아니냐",
+            "norm_text": "키키 한 번 간 것도 대단한 거 아니냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+한/MM+번/NNBC+간/VV+ETM+것/NNB+도/JX+대단/XR+한/XSA+ETM+거/NNB+아니/VCN+냐/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오빠 군대 가니까 안 심심하더나",
+            "norm_text": "오빠 군대 가니까 안 심심하더나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+군대/NNG+가/VV+니까/EC+안/MAG+심심/XR+하/XSA+더나/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그건 잠시였다~ 행복했는데? 키키",
+            "norm_text": "그건 잠시였다~ 행복했는데? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+잠시/NNG+였/VCP+EP+다/EC+~/SY+행복/NNG+했/XSV+EP+는데/EC+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 고딩 때 수료식 간다고 학교 안 간 거 니 아님?",
+            "norm_text": "고딩 때 수료식 간다고 학교 안 간 거 니 아님?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "고딩/NNP+때/NNG+수료식/NNG+간다고/VV+EC+학교/NNG+안/MAG+간/VV+ETM+거/NNB+니/VCP+EC+아님/VCN+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 오 기억하네? 아마 우리 방학식 날이었던 거 같은데",
+            "norm_text": "오 기억하네? 아마 우리 방학식 날이었던 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+기억/NNG+하/XSA+네/EF+아마/MAG+우리/NP+방학/NNG+식/NNB+날/NNG+이/VCP+었/EP+던/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오빠 수료식 간다면서 학교 안 온 애 있었는데 니 맞제",
+            "norm_text": "오빠 수료식 간다면서 학교 안 온 애 있었는데 니 맞제",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오빠/NNG+수료식/NNG+간다면서/VV+EC+학교/NNG+안/MAG+온/VV+ETM+애/NNG+있/VV+었/EP+는데/EC+니/NP+맞/VV+제/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 키키 맞다 나다... 착한 동생 아님?",
+            "norm_text": "키키 맞다 나다... 착한 동생 아님?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+다/EC+나/VX+다/EF+./SY+착한/VA+ETM+동생/NNG+아님/VCN+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 기억력 지렸음 하하 아니 안 착해",
+            "norm_text": "기억력 지렸음 하하 아니 안 착해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기억력/NNG+지렸/UNKNOWN+음/IC+하하/MAG+아니/IC+안착/NNG+해/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 이런 동생이 어딨냐 하하 오빠 군대에 있다고 학교도 빠지고",
+            "norm_text": "이런 동생이 어딨냐 하하 오빠 군대에 있다고 학교도 빠지고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이런/MM+동생/NNG+이/JKS+어딨/VA+냐/EC+하하/MAG+오빠/NNG+군대/NNG+에/JKB+있/VV+다고/EC+학교/NNG+도/JX+빠지/VV+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 여동생이 더 많이 가 줬어야지 !",
+            "norm_text": "여동생이 더 많이 가 줬어야지 !",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여동생/NNG+이/JKS+더/MAG+많이/MAG+가/VV+EC+줬/VX+EP+어야지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럼 주변에서 소개시켜 달라 그랬을 텐데 그치?",
+            "norm_text": "그럼 주변에서 소개시켜 달라 그랬을 텐데 그치?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+주변/NNG+에서/JKB+소개/NNG+시켜/XSV+EC+달/VX+라/EC+그랬/VV+EP+을/ETM+텐데/NNB+VCP+EC+그치/IC"
+          }
+        ]
+      }
+    }
+  ]
+}

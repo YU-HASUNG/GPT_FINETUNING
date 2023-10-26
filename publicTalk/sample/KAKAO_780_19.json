@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44622,
+    "name": "KAKAO_780_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143900010662/KAKAO_780_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930143900010662/KAKAO_780_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38090,
+      "filename": "KAKAO_780_19.txt",
+      "title": "KAKAO_780_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 518,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 518,
+        "word_size": 172,
+        "text": "1 : 요즘 티비 보는 거 있니...\n2 : 요즘 보는 거 ? 티비는 거의 안보고 대부분 유튭 보지\n1 : 키키 나두 그랭... 오늘 팬하 마지막 회라던데...\n2 : 아니 내가 펜하 2 까지 봤거든 ... ? 3는 엉망이더라 ㅜ\n1 : 나두 나두 3판부터 안 봤는데 마지막 회는 볼까 말까 고민 중 키키\n2 : 난 일단 완결나고 나면 볼 거 없을 때 볼아 보게 키키 후후\n1 : 오늘 드디어 마지막이래 키키 그 작가가 그냥 포기 했드만\n2 : 막장의 끝을 달려서 너무 키키 산으로 가더라 !\n1 : 키키 뭐 거의 다 죽었드라 키키\n2 : 근데 거긴 죽였다가 살렸다가 맨날 마음대로잖아 키키 웃겨\n1 : 그러구 그 헤라팰리스 폭파 됐는데 그 장면을 또 이번 광주 붕괴 사진 써서 난리...\n2 : ? 진짜 개념 없다 ... ?\n1 : 맞제 너무 했음 헤라 팰리스 폭파 됐어 키키\n2 : 소름 아니 근데 작가 진짜 키키 무슨 폭파를 시키냐 하\n1 : 키키 작가 그냥 포기한 듯 싶더라... 키키\n2 : 그래 그냥 어차피 막장이니까 대충 마무리했나부다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 티비 보는 거 있니...",
+            "norm_text": "요즘 티비 보는 거 있니...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+티비/NNG+보/VV+는/ETM+거/NNB+있/VA+니/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘 보는 거 ? 티비는 거의 안보고 대부분 유튭 보지",
+            "norm_text": "요즘 보는 거 ? 티비는 거의 안보고 대부분 유튭 보지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+보/VV+는/ETM+거/NNB+티비/NNG+는/JX+거의/MAG+안/MAG+보/VV+고/EC+대부분/NNG+유튭/UNKNOWN+보/VV+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 나두 그랭... 오늘 팬하 마지막 회라던데...",
+            "norm_text": "키키 나두 그랭... 오늘 팬하 마지막 회라던데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+두/JX+그/MM+랭/NNG+./SY+./SY+오늘/MAG+팬/NNG+하/XSV+마지막/NNG+회/XSN+라던데/VCP+EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아니 내가 펜하 2 까지 봤거든 ... ? 3는 엉망이더라 ㅜ",
+            "norm_text": "아니 내가 펜하 2 까지 봤거든 ... ? 3는 엉망이더라 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+내/NP+가/JKS+펜/NNG+하/XSV+2/SN+까지/JX+봤/VV+EP+거든/EF+./SY+?/SY+3/SN+는엉망이더라ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나두 나두 3판부터 안 봤는데 마지막 회는 볼까 말까 고민 중 키키",
+            "norm_text": "나두 나두 3판부터 안 봤는데 마지막 회는 볼까 말까 고민 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+두/JX+나/NP+두/JX+3/SN+판/NNBC+부터/JX+안/MAG+봤/VV+EP+는데/EC+마지막/NNG+회/XSN+는/JX+볼까/VX+EC+말/VX+까/EC+고민/NNG+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 난 일단 완결나고 나면 볼 거 없을 때 볼아 보게 키키 후후",
+            "norm_text": "난 일단 완결나고 나면 볼 거 없을 때 볼아 보게 키키 후후",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+일단/MAG+완결/NNG+나/VV+고/EC+나/VX+면/EC+볼/VX+ETM+거/NNB+없/VA+을/ETM+때/NNG+볼/VV+아/EC+보/VX+게/EC+키키/NNP+후후/NNP"
+          },
+          {
+            "id": 7,
+            "text": "1 : 오늘 드디어 마지막이래 키키 그 작가가 그냥 포기 했드만",
+            "norm_text": "오늘 드디어 마지막이래 키키 그 작가가 그냥 포기 했드만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/MAG+드디어/MAG+마지막/NNG+이/JKS+래키/NNP+키/NNG+그/MM+작가/NNG+가/JKS+그냥/MAG+포기/NNG+했/XSV+EP+드만/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 막장의 끝을 달려서 너무 키키 산으로 가더라 !",
+            "norm_text": "막장의 끝을 달려서 너무 키키 산으로 가더라 !",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "막장/NNG+의/JKG+끝/NNG+을/JKO+달려서/VV+EC+너무/MAG+키/NNG+키/NNG+산/NNG+으로/JKB+가/VV+더라/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 뭐 거의 다 죽었드라 키키",
+            "norm_text": "키키 뭐 거의 다 죽었드라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/IC+거의/MAG+다/MAG+죽/VV+었/EP+드라/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 거긴 죽였다가 살렸다가 맨날 마음대로잖아 키키 웃겨",
+            "norm_text": "근데 거긴 죽였다가 살렸다가 맨날 마음대로잖아 키키 웃겨",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+거긴/NP+JX+죽였/VV+EP+다가/EC+살렸/VV+EP+다가/EC+맨날/MAG+마음대로/MAG+잖아/VCP+EC+VX+EC+키/NNG+키/XSV+ETN+웃겨/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그러구 그 헤라팰리스 폭파 됐는데 그 장면을 또 이번 광주 붕괴 사진 써서 난리...",
+            "norm_text": "그러구 그 헤라팰리스 폭파 됐는데 그 장면을 또 이번 광주 붕괴 사진 써서 난리...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러구/MAJ+그/MM+헤라/NNG+팰리스/NNG+폭파/NNG+됐/XSV+EP+는데/EC+그/MM+장면/NNG+을/JKO+또/MAG+이번/NNG+광주/NNP+붕괴/NNG+사진/NNG+써서/VV+EC+난리/NNG+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : ? 진짜 개념 없다 ... ?",
+            "norm_text": "? 진짜 개념 없다 ... ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+개념/NNG+없/VA+다/EF+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 맞제 너무 했음 헤라 팰리스 폭파 됐어 키키",
+            "norm_text": "맞제 너무 했음 헤라 팰리스 폭파 됐어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+너무/MAG+했/VV+EP+음/ETN+헤라/NNG+팰리스/NNG+폭파/NNG+됐/XSV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 소름 아니 근데 작가 진짜 키키 무슨 폭파를 시키냐 하",
+            "norm_text": "소름 아니 근데 작가 진짜 키키 무슨 폭파를 시키냐 하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "소름/NNG+아니/IC+근데/MAJ+작가/NNG+진짜/MAG+키/NNG+키/XSV+ETN+무슨/MM+폭파/NNG+를/JKO+시키/VV+냐/EC+하/VX"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 작가 그냥 포기한 듯 싶더라... 키키",
+            "norm_text": "키키 작가 그냥 포기한 듯 싶더라... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+작가/NNG+그냥/MAG+포기/NNG+한듯/VV+EC+싶/VX+더라/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 그냥 어차피 막장이니까 대충 마무리했나부다 키키",
+            "norm_text": "그래 그냥 어차피 막장이니까 대충 마무리했나부다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그냥/MAG+어차피/MAG+막장/NNG+이/VCP+니까/EC+대충/MAG+마무리/NNG+했/XSV+EP+나부/NNP+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 46625,
+    "name": "KAKAO_816_09_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171727075565/KAKAO_816_09_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930171727075565/KAKAO_816_09_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38802,
+      "filename": "KAKAO_816_09.txt",
+      "title": "KAKAO_816_09",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 471,
+      "annotations": {
+        "subject": "반려동물",
+        "speaker_type": "1:1",
+        "size": 471,
+        "word_size": 158,
+        "text": "1 : 오 가정 상담에 개도 좋아하고 성격 진짜 좋을 것 같은데? 키키\n2 : 이이 좋다 키키 소개시켜 준 애한테 감사하고 있지\n1 : 오 진짜 잘해줬다 키키\n1 : 뭐라도 사줘야겠어\n2 : 그건 아직 내가 돈이 없으니... 결혼이라도 하게 되면 거 하게 사주지 뭐... 하하\n1 : 오호 키키 좋지 좋지 진짜 결혼하면\n2 : 그렇지 근데 뭐 일단 내가 일을 해야 하니깐 키키\n1 : 그건 그래 키키 여자친구도 큰 개 좋아함? 키키\n2 : 지난번에 같이 산책도 했다 키키\n1 : 오? 대박 키키 누나들도 다 보여줬나?\n2 : 아니... 그건 좀 위험한 일이지\n1 : 아? 키키 위험하긴 하지 더 사귀고 키키\n2 : **가 아무래도 좀 즐거워할 것 같아서 키키\n1 : 키키 악 진짜 엄청나게 즐거워할 듯 키키\n2 : 이이 그래서 못한다 키키\n2 : **는 별 관심이 없고\n1 : 맞아 **는 별 관심 없지 키키\n2 : 이이 아마 나이도 모를걸?\n2 : 이름도 헷갈려 하고 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오 가정 상담에 개도 좋아하고 성격 진짜 좋을 것 같은데? 키키",
+            "norm_text": "오 가정 상담에 개도 좋아하고 성격 진짜 좋을 것 같은데? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+가정/NNG+상담/NNG+에/JKB+개/NNG+도/JX+좋/VA+아/EC+하/VV+고/EC+성격/NNG+진짜/MAG+좋/VA+을/ETM+것/NNB+같/VA+은데/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 이이 좋다 키키 소개시켜 준 애한테 감사하고 있지",
+            "norm_text": "이이 좋다 키키 소개시켜 준 애한테 감사하고 있지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이이/NP+좋/VA+다키키/NNP+소개/NNG+시켜/XSV+EC+준/VX+ETM+애/NNG+한테/JKB+감사/NNG+하/XSV+고/EC+있/VX+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 오 진짜 잘해줬다 키키",
+            "norm_text": "오 진짜 잘해줬다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+진짜/MAG+잘/MAG+해/VV+EC+줬/VX+EP+다키키/NNP"
+          },
+          {
+            "id": 4,
+            "text": "1 : 뭐라도 사줘야겠어",
+            "norm_text": "뭐라도 사줘야겠어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭐/NP+라도/VCP+EC+사/VV+줘야/EC+VX+EC+VX+겠/EP+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 그건 아직 내가 돈이 없으니... 결혼이라도 하게 되면 거 하게 사주지 뭐... 하하",
+            "norm_text": "그건 아직 내가 돈이 없으니... 결혼이라도 하게 되면 거 하게 사주지 뭐... 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+아직/MAG+내/NP+가/JKS+돈/NNG+이/JKS+없/VA+으니/EF+./SY+결혼/NNG+이/VCP+라도/EC+하/VV+게/EC+되/VV+면/EC+거하/VV+게/EC+사/VV+EC+주/VX+지/EF+뭐/IC+./SY+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 오호 키키 좋지 좋지 진짜 결혼하면",
+            "norm_text": "오호 키키 좋지 좋지 진짜 결혼하면",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오호/IC+키/NNG+키/XSV+ETN+좋/VA+지/EC+좋/VA+지/EF+진짜/MAG+결혼/NNG+하/XSV+면/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그렇지 근데 뭐 일단 내가 일을 해야 하니깐 키키",
+            "norm_text": "그렇지 근데 뭐 일단 내가 일을 해야 하니깐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+근데/MAJ+뭐/IC+일단/MAG+내/NP+가/JKS+일/NNG+을/JKO+해야/VV+EC+하/VV+니깐/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그건 그래 키키 여자친구도 큰 개 좋아함? 키키",
+            "norm_text": "그건 그래 키키 여자친구도 큰 개 좋아함? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그건/NP+JX+그래/VA+EC+키/NNG+키/NNG+여자/NNG+친구/NNG+도/JX+큰/VA+ETM+개/NNBC+좋/VA+아함/IC+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 지난번에 같이 산책도 했다 키키",
+            "norm_text": "지난번에 같이 산책도 했다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지난번/NNG+에/JKB+같이/MAG+산책/NNG+도/JX+했/VV+EP+다키키/NNP"
+          },
+          {
+            "id": 10,
+            "text": "1 : 오? 대박 키키 누나들도 다 보여줬나?",
+            "norm_text": "오? 대박 키키 누나들도 다 보여줬나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/IC+대박/NNG+키/NNG+키/NNG+누나/NNG+들/XSN+도/JX+다/MAG+보여/VV+EC+줬/VX+EP+나/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 아니... 그건 좀 위험한 일이지",
+            "norm_text": "아니... 그건 좀 위험한 일이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+./SY+그건/NP+JX+좀/MAG+위험/NNG+한/XSA+ETM+일/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아? 키키 위험하긴 하지 더 사귀고 키키",
+            "norm_text": "아? 키키 위험하긴 하지 더 사귀고 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+키/NNG+키/NNG+위험/NNG+하/XSV+긴/ETN+JX+하/VX+지/EC+더/MAG+사귀/VV+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : **가 아무래도 좀 즐거워할 것 같아서 키키",
+            "norm_text": "**가 아무래도 좀 즐거워할 것 같아서 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+가/JKS+아무래도/MAG+좀/MAG+즐거워할/VV+ETM+것/NNB+같/VA+아서/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 악 진짜 엄청나게 즐거워할 듯 키키",
+            "norm_text": "키키 악 진짜 엄청나게 즐거워할 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+악/EC+진짜/MAG+엄청나/VA+게/EC+즐거워할/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 이이 그래서 못한다 키키",
+            "norm_text": "이이 그래서 못한다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이이/NP+그래서/VV+EC+못한/VX+ETM+다키키/NNP"
+          },
+          {
+            "id": 16,
+            "text": "2 : **는 별 관심이 없고",
+            "norm_text": "**는 별 관심이 없고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+는/JX+별/MM+관심/NNG+이/JKS+없/VA+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 맞아 **는 별 관심 없지 키키",
+            "norm_text": "맞아 **는 별 관심 없지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+*/SY+*/SY+는별관심없지키키/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 이이 아마 나이도 모를걸?",
+            "norm_text": "이이 아마 나이도 모를걸?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "이이/NP+아마/MAG+나이/NNG+도/JX+모를걸/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 이름도 헷갈려 하고 키키",
+            "norm_text": "이름도 헷갈려 하고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이름/NNG+도/JX+헷갈려/VV+EC+하/VV+고/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

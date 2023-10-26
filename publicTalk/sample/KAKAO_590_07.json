@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 23062,
+    "name": "KAKAO_590_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141523065059/KAKAO_590_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923141523065059/KAKAO_590_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30540,
+      "filename": "KAKAO_590_07.txt",
+      "title": "KAKAO_590_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 569,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 569,
+        "word_size": 196,
+        "text": "1 : 닌 추석 때 가족 모임 하나?\n2 : 음 아직 잘 모르겠어 키키\n2 : 그래도 밥 한 끼 정도는 먹을 듯?\n1 : 그치 ㅜㅜ 이 시국에 많이 모였다가 큰일 날까 봐 ㅜㅜ\n2 : 응응 무섭긴 해 ㅠㅠ\n2 : 그래도 우리 집은 나 빼고 접종 완료했어 키키 시댁은 아니지만 키키\n1 : 아 진짜로? 키키 그래도 하면 가족들은 안전하겠는데?\n2 : 응응 키키  2차까지 다 완료 그래서 밥 한 끼 정도는 먹을 듯\n2 : 넌 이번에 내려오니 가족들 보러 와여지\n1 : 난 엄마 아빠 보고 싶은데 오지 말래 키키\n2 : ㅠㅠ 안 내려온 지 얼마나 됐어? 한참 된 거 같은데\n1 : 도대체 언제 내려가나 키키 그래도 갈까 싶어\n2 : 키키 그래 얼굴도 보고해야지 ㅠㅠ 명절에라도 봐야지 ㅠㅠ\n1 : 나 작년 설날에 가고 안 내려갔지 ㅜㅜ\n2 : 아… 작년 설? 일 년이 넘었네 ㅠㅠ 한참 됐규나\n1 : 할머니도 보고 싶은데... 다들 걱정을 많이 해 ㅜㅜ\n2 : ㅠㅠ 근데 그게 나아…\n2 : 다 괜찮다고 하고 보눈 게 더 답 없긴 해 ㅠㅠ\n1 : 그렇지? ㅜㅜ 진짜 가족들 보기도 힘들어졌네 ㅜㅜ\n2 : 그러니까  이게 뭔 일인지 모르겠네 진짜 ㅠㅠ 에휴",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 닌 추석 때 가족 모임 하나?",
+            "norm_text": "닌 추석 때 가족 모임 하나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "닌/NNP+추석/NNG+때/NNG+가족/NNG+모임/NNG+하나/NR"
+          },
+          {
+            "id": 2,
+            "text": "2 : 음 아직 잘 모르겠어 키키",
+            "norm_text": "음 아직 잘 모르겠어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+아직/MAG+잘/MAG+모르/VV+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 그래도 밥 한 끼 정도는 먹을 듯?",
+            "norm_text": "그래도 밥 한 끼 정도는 먹을 듯?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+밥/NNG+한/XSA+ETM+끼/NNG+정도/NNG+는/JX+먹/VV+을/ETM+듯/NNB"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그치 ㅜㅜ 이 시국에 많이 모였다가 큰일 날까 봐 ㅜㅜ",
+            "norm_text": "그치 ㅜㅜ 이 시국에 많이 모였다가 큰일 날까 봐 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+ㅜㅜ/UNKNOWN+이/MM+시국/NNG+에/JKB+많이/MAG+모였/VV+EP+다가/EC+큰일/NNG+날까/VV+EC+봐/VX+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 응응 무섭긴 해 ㅠㅠ",
+            "norm_text": "응응 무섭긴 해 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응무섭긴해ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래도 우리 집은 나 빼고 접종 완료했어 키키 시댁은 아니지만 키키",
+            "norm_text": "그래도 우리 집은 나 빼고 접종 완료했어 키키 시댁은 아니지만 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+우리/NP+집/NNG+은/JX+나/NP+빼/VV+고/EC+접종/NNG+완료/NNG+했/XSV+EP+어/EC+키/NNG+키/NNG+시댁/NNG+은/JX+아니/VCN+지만/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 진짜로? 키키 그래도 하면 가족들은 안전하겠는데?",
+            "norm_text": "아 진짜로? 키키 그래도 하면 가족들은 안전하겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜로/MAG+키/NNG+키/XSV+ETN+그래도/VV+EC+하/VV+면/EC+가족/NNG+들/XSN+은/JX+안전/NNG+하/XSV+겠/EP+는데/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 키키  2차까지 다 완료 그래서 밥 한 끼 정도는 먹을 듯",
+            "norm_text": "응응 키키  2차까지 다 완료 그래서 밥 한 끼 정도는 먹을 듯",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키/XSV+ETN+2/SN+차/NNBC+까지/JX+다/MAG+완료/NNG+그래서/MAJ+밥/NNG+한/XSA+ETM+끼/NNG+정도/NNG+는/JX+먹/VV+을/ETM+듯/NNB"
+          },
+          {
+            "id": 9,
+            "text": "2 : 넌 이번에 내려오니 가족들 보러 와여지",
+            "norm_text": "넌 이번에 내려오니 가족들 보러 와여지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "넌/NP+JX+이번/NNG+에/JKB+내려오/VV+니/EC+가족/NNG+들/XSN+보러/JKB+와/JC+여지/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 난 엄마 아빠 보고 싶은데 오지 말래 키키",
+            "norm_text": "난 엄마 아빠 보고 싶은데 오지 말래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+엄마/NNG+아빠/NNG+보/VV+고/EC+싶/VX+은데/EC+오/VV+지/EC+말래/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : ㅠㅠ 안 내려온 지 얼마나 됐어? 한참 된 거 같은데",
+            "norm_text": "ㅠㅠ 안 내려온 지 얼마나 됐어? 한참 된 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "ㅠㅠ/UNKNOWN+안/MAG+내려온/VV+ETM+지/NNB+얼마나/MAG+됐/VV+EP+어/EF+한참/NNG+된/XSV+ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 도대체 언제 내려가나 키키 그래도 갈까 싶어",
+            "norm_text": "도대체 언제 내려가나 키키 그래도 갈까 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "도대체/MAG+언제/MAG+내려가/VV+나/EC+키/NNG+키/XSV+ETN+그래도/VV+EC+갈까/VV+EC+싶/VX+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 그래 얼굴도 보고해야지 ㅠㅠ 명절에라도 봐야지 ㅠㅠ",
+            "norm_text": "키키 그래 얼굴도 보고해야지 ㅠㅠ 명절에라도 봐야지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/VA+EC+얼굴/NNG+도/JX+보/VV+고/EC+해야지/VX+EC+ㅠㅠ/UNKNOWN+명절/NNG+에/JKB+라도/VCP+EC+봐야지/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나 작년 설날에 가고 안 내려갔지 ㅜㅜ",
+            "norm_text": "나 작년 설날에 가고 안 내려갔지 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+작년/NNG+설날/NNG+에/JKB+가/VV+고/EC+안/MAG+내려갔/VV+EP+지/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 아… 작년 설? 일 년이 넘었네 ㅠㅠ 한참 됐규나",
+            "norm_text": "아… 작년 설? 일 년이 넘었네 ㅠㅠ 한참 됐규나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+…/SE+작년/NNG+설/XSN+일/NR+년/NNBC+이/JKS+넘/VV+었/EP+네/EF+ㅠㅠ/UNKNOWN+한참/NNG+됐/XSV+EP+규/NNG+나/JC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 할머니도 보고 싶은데... 다들 걱정을 많이 해 ㅜㅜ",
+            "norm_text": "할머니도 보고 싶은데... 다들 걱정을 많이 해 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "할머니/NNG+도/JX+보/VV+고/EC+싶/VX+은데/EF+./SY+다/MAG+들/XSN+걱정/NNG+을/JKO+많이/MAG+해/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : ㅠㅠ 근데 그게 나아…",
+            "norm_text": "ㅠㅠ 근데 그게 나아…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ근데그게나아/UNKNOWN+…/SE"
+          },
+          {
+            "id": 18,
+            "text": "2 : 다 괜찮다고 하고 보눈 게 더 답 없긴 해 ㅠㅠ",
+            "norm_text": "다 괜찮다고 하고 보눈 게 더 답 없긴 해 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+괜찮/VA+다고/EC+하/VV+고/EC+보/VX+눈/EF+게/NNB+JKS+더/MAG+답/NNG+없/VA+긴/ETN+JX+해/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그렇지? ㅜㅜ 진짜 가족들 보기도 힘들어졌네 ㅜㅜ",
+            "norm_text": "그렇지? ㅜㅜ 진짜 가족들 보기도 힘들어졌네 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+지/EF+ㅜㅜ/UNKNOWN+진짜/MAG+가족/NNG+들/XSN+보/VV+기/ETN+도/JX+힘들/VA+어/EC+졌/VX+EP+네/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그러니까  이게 뭔 일인지 모르겠네 진짜 ㅠㅠ 에휴",
+            "norm_text": "그러니까  이게 뭔 일인지 모르겠네 진짜 ㅠㅠ 에휴",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+이게/NP+JKS+뭔일/NP+인지/VCP+EC+모르/VV+겠/EP+네/EF+진짜/MAG+ㅠㅠ/UNKNOWN+에휴/IC"
+          }
+        ]
+      }
+    }
+  ]
+}

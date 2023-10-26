@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44828,
+    "name": "KAKAO_786_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142022087072/KAKAO_786_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930142022087072/KAKAO_786_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37752,
+      "filename": "KAKAO_786_02.txt",
+      "title": "KAKAO_786_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 548,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 548,
+        "word_size": 170,
+        "text": "1 : 하하 맞아요 언니 집은 뒤에 산도 있고 그래서 조카가 오면 좋아하죠?\n2 : 응 아무래도 뛰어 놀고 활동적인 나이다 보니까 되게 좋아했어 키키\n1 : 하하 얼마나 좋겠어요 마음껏 뛰어도 되고 어른들도 좋아하는데!\n2 : 맞아 키키 거기서도 계절 별로 다 다른 공간으로 활용 되는 게 매력인 거 같아\n1 : 하하 거기 오두막 진짜 좋았는데 ㅠㅠ\n2 : 너도 왔었지 참~ 여름에는 오두막 겨울에는 하우스에서 조개 구이 먹기\n1 : 헐 겨울에도 가보고 싶어요 ㅠㅠ\n2 : 이번에 와~ 그럼 아빠가 고구마를 구워줄 거야~ 키키\n1 : 아버지 최고! 하하 좋아요 군고구마 먹으러 갑니다!\n2 : 응응 좋아~ 언제든 환영이야 키키\n1 : 하하 주택 살면 사람들 초대하고 이런 건 좋은 것 같아요!\n2 : 어디에 살든 집이 제일 편한 공간이긴 한데~ 키키 집 값이 왜케 비싼 건지…\n1 : 집을 소유 할 수 있는 것인지도 정말 아이러니해요 ㅜㅜ\n2 : 올라도 너무 오르니까... 휴우...\n1 : 그래두 언니는 예쁜 집 있고 부러워요 ㅠㅠ\n2 : 살다 보면 다 똑같아져... 키키 아 퇴근 시간 ㅠㅠ 지옥철 ㅠㅠ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 하하 맞아요 언니 집은 뒤에 산도 있고 그래서 조카가 오면 좋아하죠?",
+            "norm_text": "하하 맞아요 언니 집은 뒤에 산도 있고 그래서 조카가 오면 좋아하죠?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "하하/MAG+맞/VV+아요/EF+언니/NNG+집/NNG+은/JX+뒤/NNG+에/JKB+산/NNG+도/JX+있/VA+고/EC+그래서/MAJ+조카/NNG+가/JKS+오/VV+면/EC+좋/VA+아/EC+하/VX+죠/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 아무래도 뛰어 놀고 활동적인 나이다 보니까 되게 좋아했어 키키",
+            "norm_text": "응 아무래도 뛰어 놀고 활동적인 나이다 보니까 되게 좋아했어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+아무래도/MAG+뛰어놀/VV+고/EC+활동/NNG+적/XSN+인/VCP+ETM+나이/NNG+다/VCP+EC+보/VX+니까/EC+되게/MAG+좋/VA+아/EC+했/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 하하 얼마나 좋겠어요 마음껏 뛰어도 되고 어른들도 좋아하는데!",
+            "norm_text": "하하 얼마나 좋겠어요 마음껏 뛰어도 되고 어른들도 좋아하는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+얼마나/MAG+좋/VA+겠/EP+어요/EF+마음껏/MAG+뛰/VV+어도/EC+되/VV+고/EC+어른/NNG+들/XSN+도/JX+좋/VA+아/EC+하/VV+는데/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 맞아 키키 거기서도 계절 별로 다 다른 공간으로 활용 되는 게 매력인 거 같아",
+            "norm_text": "맞아 키키 거기서도 계절 별로 다 다른 공간으로 활용 되는 게 매력인 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+거기/NP+서/JKB+도/JX+계절/NNG+별/XSN+로/JKB+다다른/VV+ETM+공간/NNG+으로/JKB+활용/NNG+되/XSV+는/ETM+게/NNB+JKS+매력/NNG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 하하 거기 오두막 진짜 좋았는데 ㅠㅠ",
+            "norm_text": "하하 거기 오두막 진짜 좋았는데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+거기/NP+오두막/NNG+진짜/MAG+좋/VA+았/EP+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너도 왔었지 참~ 여름에는 오두막 겨울에는 하우스에서 조개 구이 먹기",
+            "norm_text": "너도 왔었지 참~ 여름에는 오두막 겨울에는 하우스에서 조개 구이 먹기",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+도/JX+왔었/VV+EP+지/EF+참/IC+~/SY+여름/NNG+에/JKB+는/JX+오두막/NNG+겨울/NNG+에/JKB+는/JX+하우스/NNP+에서/JKB+조개/NNG+구이/NNG+먹/VV+기/ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 헐 겨울에도 가보고 싶어요 ㅠㅠ",
+            "norm_text": "헐 겨울에도 가보고 싶어요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+겨울/NNG+에/JKB+도/JX+가/VV+EC+보/VX+고/EC+싶/VX+어요/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 이번에 와~ 그럼 아빠가 고구마를 구워줄 거야~ 키키",
+            "norm_text": "이번에 와~ 그럼 아빠가 고구마를 구워줄 거야~ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이번/NNG+에/JKB+와/JC+~/SY+그럼/MAJ+아빠/NNG+가/JKS+고구마/NNG+를/JKO+구워/VV+EC+줄/VX+ETM+거/NNB+야/VCP+EF+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아버지 최고! 하하 좋아요 군고구마 먹으러 갑니다!",
+            "norm_text": "아버지 최고! 하하 좋아요 군고구마 먹으러 갑니다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아버지/NNG+최고/NNG+하하/MAG+좋/VA+아요/EF+군고구마/NNG+먹/VV+으러/EC+갑니다/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 응응 좋아~ 언제든 환영이야 키키",
+            "norm_text": "응응 좋아~ 언제든 환영이야 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+좋/VA+아/EC+~/SY+언제/NP+든/VCP+EC+환영/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 하하 주택 살면 사람들 초대하고 이런 건 좋은 것 같아요!",
+            "norm_text": "하하 주택 살면 사람들 초대하고 이런 건 좋은 것 같아요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하하/MAG+주택/NNG+살/VV+면/EC+사람/NNG+들/XSN+초대/NNG+하/XSV+고/EC+이런/MM+건/NNB+JX+좋/VA+은/ETM+것/NNB+같/VA+아요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어디에 살든 집이 제일 편한 공간이긴 한데~ 키키 집 값이 왜케 비싼 건지…",
+            "norm_text": "어디에 살든 집이 제일 편한 공간이긴 한데~ 키키 집 값이 왜케 비싼 건지…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어디/NP+에/JKB+살/VV+든/EC+집/NNG+이/JKS+제일/MAG+편한/VA+ETM+공간/NNG+이/VCP+긴/ETN+JX+한데/VX+EC+~/SY+키/NNG+키/NNG+집값/NNG+이/JKS+왜/MAG+케/XSA+EC+비싼/VA+ETM+건지/NNB+VCP+EC+…/SE"
+          },
+          {
+            "id": 13,
+            "text": "1 : 집을 소유 할 수 있는 것인지도 정말 아이러니해요 ㅜㅜ",
+            "norm_text": "집을 소유 할 수 있는 것인지도 정말 아이러니해요 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+을/JKO+소유/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+것/NNB+인지/VCP+EC+도/JX+정말/MAG+아이러니/NNG+해요/XSV+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 올라도 너무 오르니까... 휴우...",
+            "norm_text": "올라도 너무 오르니까... 휴우...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "올라도/VV+EC+너무/MAG+오르/VV+니까/EC+./SY+./SY+휴우/IC+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래두 언니는 예쁜 집 있고 부러워요 ㅠㅠ",
+            "norm_text": "그래두 언니는 예쁜 집 있고 부러워요 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래두/MAJ+언니/NNG+는/JX+예쁜/VA+ETM+집/NNG+있/VV+고/EC+부러워요/VA+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 살다 보면 다 똑같아져... 키키 아 퇴근 시간 ㅠㅠ 지옥철 ㅠㅠ",
+            "norm_text": "살다 보면 다 똑같아져... 키키 아 퇴근 시간 ㅠㅠ 지옥철 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "살/VV+다/EC+보/VX+면/EC+다/MAG+똑같/VA+아/EC+져/VX+EF+./SY+키/NNG+키/VV+아/EC+퇴근/NNG+시간/NNG+ㅠㅠ/UNKNOWN+지옥/NNG+철/NNG+ㅠㅠ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

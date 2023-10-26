@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 67251,
+    "name": "KAKAO_634_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140927035815/KAKAO_634_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140927035815/KAKAO_634_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34210,
+      "filename": "KAKAO_634_12.txt",
+      "title": "KAKAO_634_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 387,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 123,
+        "text": "1 : 언니가 가봤던 여행지 어디가 제일 좋았어?\n2 : 나는 전주 여행 갔을 때 좋았어~\n1 : 아 그래? 전주 뭐가 좋았는데?\n2 : 전주 한옥마을에서 맛있는 거 먹을 때!\n1 : 한옥마을? 거기 길거리 음식 맛있잖아!\n2 : 맞아 문꼬치라고 있는데 그거 존맛!\n1 : 나는 거기서 모주 사 먹었는데 맛있어~\n2 : 혹시 모주 아이스크림 이라고 아니?\n1 : 어... 들어본 것 같은데 키키 먹어 봤어?\n2 : 웅 나 먹어봤는데 맛없어 키키\n1 : 엥 모주가 맛없다니! 거짓말!\n2 : 모주 자체는 맛있는데 아이스크림은 별로더라,\n1 : 아... 나는 모주 차갑게 마시면 너무 좋아\n2 : 나도 모주 참 좋아하는데 먹고 싶다,\n1 : 그래 그건 전주에만 가서 먹을 수 있잖아\n2 : 맞아 모주 한 사발에 파전 먹자!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니가 가봤던 여행지 어디가 제일 좋았어?",
+            "norm_text": "언니가 가봤던 여행지 어디가 제일 좋았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+가/JKS+가/VV+EC+봤/VX+EP+던/ETM+여행지/NNG+어디/NP+가/JKS+제일/MAG+좋/VA+았/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 전주 여행 갔을 때 좋았어~",
+            "norm_text": "나는 전주 여행 갔을 때 좋았어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+전주/NNG+여행/NNG+갔/VV+EP+을/ETM+때/NNG+좋/VA+았/EP+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래? 전주 뭐가 좋았는데?",
+            "norm_text": "아 그래? 전주 뭐가 좋았는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+전주/NNP+뭐/NP+가/JKS+좋/VA+았/EP+는데/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 전주 한옥마을에서 맛있는 거 먹을 때!",
+            "norm_text": "전주 한옥마을에서 맛있는 거 먹을 때!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전주/NNP+한옥마을/NNP+에서/JKB+맛있/VA+는/ETM+거/NNB+먹/VV+을/ETM+때/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 한옥마을? 거기 길거리 음식 맛있잖아!",
+            "norm_text": "한옥마을? 거기 길거리 음식 맛있잖아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한옥마을/NNP+거기/NP+길거리/NNG+음식/NNG+맛있/VA+잖아/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 문꼬치라고 있는데 그거 존맛!",
+            "norm_text": "맞아 문꼬치라고 있는데 그거 존맛!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/XPN+아문/NNG+꼬치/NNG+라고/VCP+EC+있/VX+는데/EC+그거/NP+존/VA+ETM+맛/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나는 거기서 모주 사 먹었는데 맛있어~",
+            "norm_text": "나는 거기서 모주 사 먹었는데 맛있어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+거기/NP+서/JKB+모/MM+주사/NNG+먹/VV+었/EP+는데/EC+맛있/VA+어/EC+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 혹시 모주 아이스크림 이라고 아니?",
+            "norm_text": "혹시 모주 아이스크림 이라고 아니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+모주/NNG+아이스크림/NNG+이/VCP+라고/EC+아니/IC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 어... 들어본 것 같은데 키키 먹어 봤어?",
+            "norm_text": "어... 들어본 것 같은데 키키 먹어 봤어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+./SY+들/VV+어/EC+본/VX+ETM+것/NNB+같/VA+은데/EC+키/NNG+키/XSV+ETN+먹/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 웅 나 먹어봤는데 맛없어 키키",
+            "norm_text": "웅 나 먹어봤는데 맛없어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅/IC+나/NP+먹/VV+어/EC+봤/VX+EP+는데/EC+맛없/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 엥 모주가 맛없다니! 거짓말!",
+            "norm_text": "엥 모주가 맛없다니! 거짓말!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엥/IC+모주/NNG+가/JKS+맛없/VA+다니/EF+거짓말/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 모주 자체는 맛있는데 아이스크림은 별로더라,",
+            "norm_text": "모주 자체는 맛있는데 아이스크림은 별로더라,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "모주/NNG+자체/NNG+는/JX+맛있/VA+는데/EC+아이스크림/NNG+은/JX+별로/MAG+더라/VCP+EF+,/SC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아... 나는 모주 차갑게 마시면 너무 좋아",
+            "norm_text": "아... 나는 모주 차갑게 마시면 너무 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+나/NP+는/JX+모주/NNG+차갑/VA+게/EC+마시/VV+면/EC+너무/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나도 모주 참 좋아하는데 먹고 싶다,",
+            "norm_text": "나도 모주 참 좋아하는데 먹고 싶다,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+모주/NNG+참/MAG+좋/VA+아/EC+하/VV+는/ETM+데/NNB+먹/VV+고/EC+싶/VX+다/EF+,/SC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래 그건 전주에만 가서 먹을 수 있잖아",
+            "norm_text": "그래 그건 전주에만 가서 먹을 수 있잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그건/NP+JX+전주/NNG+에/JKB+만/JX+가/VV+서/EC+먹/VV+을/ETM+수/NNB+있/VV+잖아/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞아 모주 한 사발에 파전 먹자!",
+            "norm_text": "맞아 모주 한 사발에 파전 먹자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "맞/VV+아/EC+모주/NNG+한/XSA+ETM+사발/NNG+에/JKB+파전/NNG+먹/VV+자/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

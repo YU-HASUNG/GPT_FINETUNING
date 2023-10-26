@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 25314,
+    "name": "KAKAO_512_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145430009452/KAKAO_512_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145430009452/KAKAO_512_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29128,
+      "filename": "KAKAO_512_17.txt",
+      "title": "KAKAO_512_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 437,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 437,
+        "word_size": 138,
+        "text": "1 : 영양제 먹는 거 있냥...\n2 : 나도 얼마 전에 물어봤었잖아 영양제 ㅠㅠ 먹어야 할 거 같아서\n1 : 요즘 넘 피곤행... ㅠ 뭐 좀 추천해봐\n2 : 그러니까 ㅠㅠ 피곤은 간 관련이래\n1 : 떠정이가 프로폴리스? 추천 하던데\n2 : 오 검색해봐야겠어 나는 먹는 거라곤 유산균 뿐...\n1 : 효과가 진짜 엄청나데 그거 우리 사볼래?\n2 : 잘 챙겨 먹어야 해 우리 이제 ㅠㅠ 우리도 사보자\n1 : 나도 유산균만 매일 먹음... 효과 있는거 같냥...?\n2 : 아니 그냥 일상이지 뭐... 효과는 딱히...\n1 : 엉 나이가 나이인지라 하하 기력이 딸리노\n2 : 홍삼 이런 거 먹을까 했어 나는 키키\n1 : 아기도 유산균 챙겨 먹이지?\n2 : 응 맞아 아기도 유산균은 계속 먹여\n1 : 홍삼 나 한의원에서 안 받는 체질이래! 그거 알아봐\n2 : 열이 많은 체질이구나!\n2 : 나는 찬 사람이야 ㅠㅠ 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 영양제 먹는 거 있냥...",
+            "norm_text": "영양제 먹는 거 있냥...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영양제/NNG+먹/VV+는/ETM+거/NNB+있/VA+냥/NNBC+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나도 얼마 전에 물어봤었잖아 영양제 ㅠㅠ 먹어야 할 거 같아서",
+            "norm_text": "나도 얼마 전에 물어봤었잖아 영양제 ㅠㅠ 먹어야 할 거 같아서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+얼마/NNG+전/NNG+에/JKB+물/VV+어/EC+봤/VX+EP+었잖/EC+VX+아/EC+영양제/NNG+ㅠㅠ/UNKNOWN+먹/VV+어야/EC+할/VX+ETM+거/NNB+같/VA+아서/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 요즘 넘 피곤행... ㅠ 뭐 좀 추천해봐",
+            "norm_text": "요즘 넘 피곤행... ㅠ 뭐 좀 추천해봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "요즘넘피곤행/UNKNOWN+./SY+ㅠ뭐좀추천해봐/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그러니까 ㅠㅠ 피곤은 간 관련이래",
+            "norm_text": "그러니까 ㅠㅠ 피곤은 간 관련이래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+ㅠㅠ/UNKNOWN+피곤/NNG+은/JX+간/VV+ETM+관련/NNG+이래/NNB"
+          },
+          {
+            "id": 5,
+            "text": "1 : 떠정이가 프로폴리스? 추천 하던데",
+            "norm_text": "떠정이가 프로폴리스? 추천 하던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "떠/VV+EC+정이/NNG+가/JKS+프로/NNG+폴리스/NNG+?/SY+추천/NNG+하/XSV+던데/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 오 검색해봐야겠어 나는 먹는 거라곤 유산균 뿐...",
+            "norm_text": "오 검색해봐야겠어 나는 먹는 거라곤 유산균 뿐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/NR+검색/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+어/EF+나/NP+는/JX+먹/VV+는/ETM+거/NNB+라곤/VCP+EC+ETM+유산균/NNG+뿐/JX+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 효과가 진짜 엄청나데 그거 우리 사볼래?",
+            "norm_text": "효과가 진짜 엄청나데 그거 우리 사볼래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "효과/NNG+가/JKS+진짜/MAG+엄청나/VA+데/EC+그거/NP+우리/NP+사/VV+볼래/EC+VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 잘 챙겨 먹어야 해 우리 이제 ㅠㅠ 우리도 사보자",
+            "norm_text": "잘 챙겨 먹어야 해 우리 이제 ㅠㅠ 우리도 사보자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잘/MAG+챙겨/VV+EC+먹/VV+어야/EC+해/VV+EC+우리/NP+이제/MAG+ㅠㅠ/UNKNOWN+우리/NP+도/JX+사/VV+EC+보/VX+자/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나도 유산균만 매일 먹음... 효과 있는거 같냥...?",
+            "norm_text": "나도 유산균만 매일 먹음... 효과 있는거 같냥...?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+유산균/NNG+만/JX+매일/MAG+먹/VV+음/ETN+./SY+효과/NNG+있/VA+는/ETM+거/NNB+같/VA+냥/NNBC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니 그냥 일상이지 뭐... 효과는 딱히...",
+            "norm_text": "아니 그냥 일상이지 뭐... 효과는 딱히...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그냥/MAG+일상/NNG+이/VCP+지/EF+뭐/IC+./SY+효과/NNG+는/JX+딱히/MAG+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 엉 나이가 나이인지라 하하 기력이 딸리노",
+            "norm_text": "엉 나이가 나이인지라 하하 기력이 딸리노",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+나이/NNG+가/JKS+나이/NNG+인지라/VCP+EC+하하/MAG+기력/NNG+이/JKS+딸리/VV+노/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 홍삼 이런 거 먹을까 했어 나는 키키",
+            "norm_text": "홍삼 이런 거 먹을까 했어 나는 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "홍삼/NNG+이런/MM+거/NNB+먹/VV+을까/EC+했/VX+EP+어/EF+나/NP+는/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 아기도 유산균 챙겨 먹이지?",
+            "norm_text": "아기도 유산균 챙겨 먹이지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아기/NNG+도/JX+유산균/NNG+챙겨/VV+EC+먹이/VV+지/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 응 맞아 아기도 유산균은 계속 먹여",
+            "norm_text": "응 맞아 아기도 유산균은 계속 먹여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+맞/VV+아/EC+아기/NNG+도/JX+유산균/NNG+은/JX+계속/MAG+먹여/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 홍삼 나 한의원에서 안 받는 체질이래! 그거 알아봐",
+            "norm_text": "홍삼 나 한의원에서 안 받는 체질이래! 그거 알아봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "홍삼/NNG+나한/NNG+의원/NNG+에서/JKB+안/MAG+받/VV+는/ETM+체질/NNG+이/VCP+래/EF+그거/NP+알아봐/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 열이 많은 체질이구나!",
+            "norm_text": "열이 많은 체질이구나!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "열/NNG+이/JKS+많/VA+은/ETM+체질/NNG+이/VCP+구나/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나는 찬 사람이야 ㅠㅠ 키키",
+            "norm_text": "나는 찬 사람이야 ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+찬/VA+ETM+사람/NNG+이/VCP+야/EF+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

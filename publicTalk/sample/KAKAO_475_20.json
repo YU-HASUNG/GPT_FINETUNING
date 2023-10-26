@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 20809,
+    "name": "KAKAO_475_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141347018525/KAKAO_475_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916141347018525/KAKAO_475_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28090,
+      "filename": "KAKAO_475_20.txt",
+      "title": "KAKAO_475_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 412,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "1:1",
+        "size": 412,
+        "word_size": 131,
+        "text": "1 : 영화 아저씨 봤나요\n2 : 그거 저 군대 있을 때 개봉한 건데 재밌게 봤어요\n1 : 아저씨에서 58년 개띠 아세요\n2 : 그 골프장에서 나온 아저씨 오명규?\n1 : 네 그 오명규씨요 키키\n2 : 그 배우가 감초 역할을 너무 잘해줘서 재밌게 봤어요\n1 : 거기서 형제 이름이 만석이파인가…\n2 : 거기에 나오는 사람 전부 각자 맡은 캐릭터 연기를 너무 잘하시던데요?\n1 : 국밥 먹던 알바가 생각나네여\n2 : 그 만석이 밑에 킬러 아세요?\n2 : 진짜로 외국인이에요?\n1 : 그 사람 정체를 모르겠어요 아직도 키키\n2 : 저는 그 오락실 할매가 생각나네요\n1 : 오락실 할매가 인신매매 범 맞나여\n2 : 만화방 할매인가? 아무튼 애기들 관리하는 할매요\n1 : 아 그 할매 만화방 할매요\n2 : 총각 내가 눈이 잘 안 보여서 그러는데 저 차 번호판 좀 봐줘...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 영화 아저씨 봤나요",
+            "norm_text": "영화 아저씨 봤나요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영화/NNG+아저씨/NNG+봤/VV+EP+나요/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 그거 저 군대 있을 때 개봉한 건데 재밌게 봤어요",
+            "norm_text": "그거 저 군대 있을 때 개봉한 건데 재밌게 봤어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+저/MM+군대/NNG+있/VV+을/ETM+때/NNG+개봉/NNG+한/XSA+ETM+건데/NNB+VCP+EC+재밌/VA+게/EC+봤/VX+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아저씨에서 58년 개띠 아세요",
+            "norm_text": "아저씨에서 58년 개띠 아세요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아저씨/NNG+에서/JKB+58/SN+년/NNBC+개띠/NNG+아세요/VV+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 그 골프장에서 나온 아저씨 오명규?",
+            "norm_text": "그 골프장에서 나온 아저씨 오명규?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+골프장/NNG+에서/JKB+나온/VV+ETM+아저씨/NNG+오명규/NNP"
+          },
+          {
+            "id": 5,
+            "text": "1 : 네 그 오명규씨요 키키",
+            "norm_text": "네 그 오명규씨요 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+그/IC+오명규/NNP+씨/NNB+요키/NNP+키/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그 배우가 감초 역할을 너무 잘해줘서 재밌게 봤어요",
+            "norm_text": "그 배우가 감초 역할을 너무 잘해줘서 재밌게 봤어요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+배우/NNG+가/JKS+감초/NNG+역할/NNG+을/JKO+너무/MAG+잘/MAG+해/VV+EC+줘서/VX+EC+재밌/VA+게/EC+봤/VX+EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 거기서 형제 이름이 만석이파인가…",
+            "norm_text": "거기서 형제 이름이 만석이파인가…",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+서/JKB+형제/NNG+이름/NNG+이/JKS+만석/NNG+이/JKS+파/NNG+인가/VCP+EC+…/SE"
+          },
+          {
+            "id": 8,
+            "text": "2 : 거기에 나오는 사람 전부 각자 맡은 캐릭터 연기를 너무 잘하시던데요?",
+            "norm_text": "거기에 나오는 사람 전부 각자 맡은 캐릭터 연기를 너무 잘하시던데요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+에/JKB+나오/VV+는/ETM+사람/NNG+전부/MAG+각자/MAG+맡/VV+은/ETM+캐릭터/NNG+연기/NNG+를/JKO+너무/MAG+잘/MAG+하/VV+시/EP+던데요/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 국밥 먹던 알바가 생각나네여",
+            "norm_text": "국밥 먹던 알바가 생각나네여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "국밥/NNG+먹/VV+던/ETM+알바/NNP+가/JKS+생각/NNG+나/NP+네/XSN+여/XSN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그 만석이 밑에 킬러 아세요?",
+            "norm_text": "그 만석이 밑에 킬러 아세요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+만석/NNG+이/JKS+밑/NNG+에/JKB+킬러/NNG+아세요/VV+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 진짜로 외국인이에요?",
+            "norm_text": "진짜로 외국인이에요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/NNG+로/JKB+외국인/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그 사람 정체를 모르겠어요 아직도 키키",
+            "norm_text": "그 사람 정체를 모르겠어요 아직도 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+사람/NNG+정체/NNG+를/JKO+모르/VV+겠/EP+어요/EF+아직/MAG+도키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 저는 그 오락실 할매가 생각나네요",
+            "norm_text": "저는 그 오락실 할매가 생각나네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+그/MM+오락실/NNG+할매/NNG+가/JKS+생각/NNG+나/NP+네요/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 오락실 할매가 인신매매 범 맞나여",
+            "norm_text": "오락실 할매가 인신매매 범 맞나여",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오락실/NNG+할매/NNG+가/JKS+인신매매/NNG+범/NNG+맞/VV+나/EC+여/NNG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 만화방 할매인가? 아무튼 애기들 관리하는 할매요",
+            "norm_text": "만화방 할매인가? 아무튼 애기들 관리하는 할매요",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "만화방/NNG+할매/NNG+인가/VCP+EF+아무튼/MAJ+애기/NNG+들/XSN+관리/NNG+하/XSV+는/ETM+할매/NNG+요/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 그 할매 만화방 할매요",
+            "norm_text": "아 그 할매 만화방 할매요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그/MM+할매/NNG+만화방/NNG+할/XSV+ETM+매요/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 총각 내가 눈이 잘 안 보여서 그러는데 저 차 번호판 좀 봐줘...",
+            "norm_text": "총각 내가 눈이 잘 안 보여서 그러는데 저 차 번호판 좀 봐줘...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "총각/NNG+내/NP+가/JKS+눈/NNG+이/JKS+잘/MAG+안/MAG+보여서/VV+EC+그러/VV+는데/EC+저차/NNG+번호판/NNG+좀/MAG+봐/VV+EC+줘/VX+EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

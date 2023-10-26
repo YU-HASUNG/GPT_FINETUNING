@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 22321,
+    "name": "KAKAO_603_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113305089617/KAKAO_603_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923113305089617/KAKAO_603_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30372,
+      "filename": "KAKAO_603_17.txt",
+      "title": "KAKAO_603_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 539,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 539,
+        "word_size": 179,
+        "text": "1 : 너 백신 맞았어 ?\n1 : 안 맞았어?\n2 : 나는 진작 맞았지 ~\n1 : 헉 진짜 ? 어디서 맞았어?\n2 : 나는 큰 병원에서 맞았어\n1 : 나 오늘 맞으러 가는데 주의사항 같은 거 있어?\n2 : 음... 며칠 간 강도 높은 운동 하지 말고 저녁에 샤워 하지 말고 또 ...\n1 : 운동 하면 안된대 ?...\n1 : 안 되는디... 근손실 나는데... 키키\n2 : 키키 무슨 근손실이야 ~\n2 : 그래도 맞아야지 백신\n1 : 그렇긴 한데...ㅠ 그래도 백신 무섭잖아 ㅠㅠ\n2 : 백신 부작용으로 잘못 되는 것보단 그냥 코로나 걸리고 완치되는 게 낫지 않을까?\n1 : 나도 그렇게 생각함;\n1 : 젊은 사람은 백신 안 맞아도 그냥 이겨낼 수 있을 것 같아\n2 : 그래도 일단 맞아!\n2 : 백신 부작용 확률이 진짜 적어 ~\n2 : 걱정하지 마 키키\n1 : 기사 보면 건강했던 사람이 백신 맞고 갑자기 죽고 그러잖아 ㅠㅠ\n2 : 근데 그건 진짜 일부분일 뿐이야~\n1 : 그렇겟지ㅠ? 맞아 괜찮을거야...\n1 : 나 이제 내 차례야...\n1 : 맞고 올게 ㅠㅠ\n2 : 웅웅 걱정하지 말구 조심히 다녀와",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 백신 맞았어 ?",
+            "norm_text": "너 백신 맞았어 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+백신/NNG+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 안 맞았어?",
+            "norm_text": "안 맞았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "안/MAG+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나는 진작 맞았지 ~",
+            "norm_text": "나는 진작 맞았지 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+진작/MAG+맞/VV+았/EP+지/EC+~/SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 헉 진짜 ? 어디서 맞았어?",
+            "norm_text": "헉 진짜 ? 어디서 맞았어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+진짜/MAG+어디/NP+서/JKB+맞/VV+았/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나는 큰 병원에서 맞았어",
+            "norm_text": "나는 큰 병원에서 맞았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+큰/VA+ETM+병원/NNG+에서/JKB+맞/VV+았/EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나 오늘 맞으러 가는데 주의사항 같은 거 있어?",
+            "norm_text": "나 오늘 맞으러 가는데 주의사항 같은 거 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+오늘/MAG+맞/VV+으러/EC+가/VX+는데/EC+주/VX+의/JKG+사항/NNG+같/VA+은/ETM+거/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 음... 며칠 간 강도 높은 운동 하지 말고 저녁에 샤워 하지 말고 또 ...",
+            "norm_text": "음... 며칠 간 강도 높은 운동 하지 말고 저녁에 샤워 하지 말고 또 ...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+./SY+며칠/NNG+간/NNB+강/NNG+도/JX+높/VA+은/ETM+운동/NNG+하/XSV+지/EC+말/VX+고/EC+저녁/NNG+에/JKB+샤워/NNG+하/XSV+지/EC+말/VX+고/EC+또/MAG+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 운동 하면 안된대 ?...",
+            "norm_text": "운동 하면 안된대 ?...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "운동/NNG+하/XSV+면/EC+안/MAG+된대/VV+EF+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 안 되는디... 근손실 나는데... 키키",
+            "norm_text": "안 되는디... 근손실 나는데... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+되/VV+는디/EF+./SY+근손실나는데/UNKNOWN+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 무슨 근손실이야 ~",
+            "norm_text": "키키 무슨 근손실이야 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+무슨/MM+근/NNG+손실/NNG+이/VCP+야/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그래도 맞아야지 백신",
+            "norm_text": "그래도 맞아야지 백신",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+맞/VV+아야지/EC+백신/NNG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그렇긴 한데...ㅠ 그래도 백신 무섭잖아 ㅠㅠ",
+            "norm_text": "그렇긴 한데...ㅠ 그래도 백신 무섭잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+ㅠ/UNKNOWN+그래도/VV+EC+백신/NNG+무섭/VA+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 백신 부작용으로 잘못 되는 것보단 그냥 코로나 걸리고 완치되는 게 낫지 않을까?",
+            "norm_text": "백신 부작용으로 잘못 되는 것보단 그냥 코로나 걸리고 완치되는 게 낫지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백/NR+신부/NNG+작용/NNG+으로/JKB+잘못/MAG+되/VV+는/ETM+것/NNB+보단/JKB+JX+그냥/MAG+코로나/NNG+걸리/VV+고/EC+완치/NNG+되/XSV+는/ETM+게/NNB+JKS+낫/VA+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 나도 그렇게 생각함;",
+            "norm_text": "나도 그렇게 생각함;",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그렇/VA+게/EC+생각/NNG+함/XSV+ETN+;/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 젊은 사람은 백신 안 맞아도 그냥 이겨낼 수 있을 것 같아",
+            "norm_text": "젊은 사람은 백신 안 맞아도 그냥 이겨낼 수 있을 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "젊/VA+은/ETM+사람/NNG+은/JX+백신/NNG+안/MAG+맞/VV+아도/EC+그냥/MAG+이겨낼/VV+EC+VX+ETM+수/NNB+있/VV+을/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래도 일단 맞아!",
+            "norm_text": "그래도 일단 맞아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+일단/MAG+맞/VV+아/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 백신 부작용 확률이 진짜 적어 ~",
+            "norm_text": "백신 부작용 확률이 진짜 적어 ~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "백/NR+신부/NNG+작용/NNG+확률/NNG+이/JKS+진짜/MAG+적/VA+어/EC+~/SY"
+          },
+          {
+            "id": 18,
+            "text": "2 : 걱정하지 마 키키",
+            "norm_text": "걱정하지 마 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "걱정하지마/NNP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 기사 보면 건강했던 사람이 백신 맞고 갑자기 죽고 그러잖아 ㅠㅠ",
+            "norm_text": "기사 보면 건강했던 사람이 백신 맞고 갑자기 죽고 그러잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "기사/NNG+보/VV+면/EC+건강/NNG+했/XSV+EP+던/ETM+사람/NNG+이/JKS+백신/NNG+맞/VV+고/EC+갑자기/MAG+죽/VV+고/EC+그러/VV+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 근데 그건 진짜 일부분일 뿐이야~",
+            "norm_text": "근데 그건 진짜 일부분일 뿐이야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그건/NP+JX+진짜/MAG+일부분/NNG+일/VCP+ETM+뿐/NNB+이/VCP+야/EC+~/SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그렇겟지ㅠ? 맞아 괜찮을거야...",
+            "norm_text": "그렇겟지ㅠ? 맞아 괜찮을거야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇겟지ㅠ/UNKNOWN+맞/VV+아/EC+괜찮/VA+을/ETM+거/NNB+야/VCP+EF+./SY"
+          },
+          {
+            "id": 22,
+            "text": "1 : 나 이제 내 차례야...",
+            "norm_text": "나 이제 내 차례야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+이제/MAG+내/NP+JKG+차례/NNG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 23,
+            "text": "1 : 맞고 올게 ㅠㅠ",
+            "norm_text": "맞고 올게 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞고올게ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 웅웅 걱정하지 말구 조심히 다녀와",
+            "norm_text": "웅웅 걱정하지 말구 조심히 다녀와",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "웅웅/MAG+걱정/NNG+하/XSV+지/EC+말/VX+구/EC+조심히/MAG+다녀와/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

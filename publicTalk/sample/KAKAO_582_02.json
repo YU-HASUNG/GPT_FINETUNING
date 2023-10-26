@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 28613,
+    "name": "KAKAO_582_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923151847054034/KAKAO_582_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923151847054034/KAKAO_582_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31313,
+      "filename": "KAKAO_582_02.txt",
+      "title": "KAKAO_582_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 1047,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 1047,
+        "word_size": 304,
+        "text": "1 : 지금 사는 집 아파트야?\n2 : 아파트인데 이름이 아파트? 키키\n2 : 4층까지 있는 아파트인데 빌라라고 해야하나...; 키키\n1 : 아아 키키 나도 5층짜리 아파트...\n2 : 키키 엘리베이터 있어요? 저희집은 없는데 일층이여서 키키 편해요 키키\n1 : 없어 키키 구나마 지금 집은 3층이라서 다행...\n1 : 옛날에 살던 아파트는 5층 중에 5층 키키 대신 월세가 쌌지 ㅜㅜ\n2 : 헉 키키 오층꺼지 언제 올라가능...;\n2 : 여름에 죽어요 키키 그럼 지금은 집 근처 인프라 어때요?\n1 : 여긴 진짜 괜찮아 키키 바로 앞에 큰 시장도 있고 병원 많고키키 초등학교도 있어서 치안도 좋고!\n2 : 오오 진짜 괜찮네요?\n2 : 어디서 들었는데 초등학교 인근이 진짜 좋다고 키키\n2 : 저 시장 구경하는 것도 좋아하는데 키키\n1 : 시장 구경 재밌지! 키키 나도 휴무때 심심하면 뭐 있나 한 번씩 가본당 키키 너희 집 인프라는 어때\n2 : 저희 집도 근처에 마트도 있고 버스 정류장도 있지만, 시골이에요...\n2 : 전에 얘기했듯이 9시면 문 닫긴다고...키키\n2 : 막차가 10시30분이에요 키키\n2 : 제 친구들 집은 뭐라고 해야할까...\n2 : 시내와 접근성이 떨어져서 치킨 시면 한 마리 가지고 배달 안되고 기본 2-3마리는 시켜야지 배달해주는? 요새는 배달비가 있어서 모르겠지만 전에는 그랬어요 ㅠㅠ 키키\n2 : 언니 시골에서 살아 봤어요? 휴 키키\n1 : 헛...키키... 언니... 고향이 시골이긴 했지 키키 어릴때라 ㅠㅠ\n1 : 근데 대구도 버스는 10시반에 끊겨 키키\n2 : 오? 키키 그런건 비슷 하구나 키키\n2 : 유치원 때?  시골집이 푸세식? 화장실이였어 가지고 밤에는 화장실을 못갔돈 기억이ㅠㅠ 키키\n1 : 오 키키 그건 나도! 할머니 댁이 그랬었지...키키\n1 : 하긴 너랑 나랑 나이 차이가 얼마 안 나는구나 키키\n2 : 대박 키키 그러면 이것도 알겠어요 키키 대문이 앖어... 거실 말고 마루 있고 방문 열면 바로 바깥 키키\n1 : 엇? 키키 어떤 건지 알지 키키 아직도 그런 집 있잖아\n2 : 이렇게 얘기하니까 어렸을 때 생각 나네용 키키 아궁이에 고구마도 구워 먹고 그랬는데 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 지금 사는 집 아파트야?",
+            "norm_text": "지금 사는 집 아파트야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/MAG+사/VV+는/ETM+집/NNG+아파트/NNG+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아파트인데 이름이 아파트? 키키",
+            "norm_text": "아파트인데 이름이 아파트? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아파트/NNG+인데/VCP+EC+이름/NNG+이/JKS+아파트/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 4층까지 있는 아파트인데 빌라라고 해야하나...; 키키",
+            "norm_text": "4층까지 있는 아파트인데 빌라라고 해야하나...; 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "4/SN+층/NNG+까지/JX+있/VV+는/ETM+아파트/NNG+인데/VCP+EC+빌라/NNG+라고/VCP+EC+해야/VV+EC+하나/NR+./SY+;/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 아아 키키 나도 5층짜리 아파트...",
+            "norm_text": "아아 키키 나도 5층짜리 아파트...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+키/NNG+키나/XSA+ETN+JX+도/JX+5/SN+층/NNG+짜리/XSN+아파트/NNG+./SY+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 키키 엘리베이터 있어요? 저희집은 없는데 일층이여서 키키 편해요 키키",
+            "norm_text": "키키 엘리베이터 있어요? 저희집은 없는데 일층이여서 키키 편해요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+엘리베이터/NNG+있/VA+어요/EF+저희/NP+집/NNG+은/JX+없/VA+는데/EC+일/NNG+층/XSN+이/VCP+여서/EC+키/NNG+키/XSV+ETN+편해/VA+EC+요키/NNP+키/NNG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 없어 키키 구나마 지금 집은 3층이라서 다행...",
+            "norm_text": "없어 키키 구나마 지금 집은 3층이라서 다행...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "없/VA+어/EC+키/NNG+키/VV+구/EC+나마/JX+지금/MAG+집/NNG+은/JX+3/SN+층/NNG+이/VCP+라서/EC+다행/NNG+./SY+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 옛날에 살던 아파트는 5층 중에 5층 키키 대신 월세가 쌌지 ㅜㅜ",
+            "norm_text": "옛날에 살던 아파트는 5층 중에 5층 키키 대신 월세가 쌌지 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "옛날/NNG+에/JKB+살/VV+던/ETM+아파트/NNG+는/JX+5/SN+층/NNG+중/NNB+에/JKB+5/SN+층/NNG+키/NNG+키/NNG+대신/NNG+월세/NNG+가/JKS+쌌/VV+EP+지/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 헉 키키 오층꺼지 언제 올라가능...;",
+            "norm_text": "헉 키키 오층꺼지 언제 올라가능...;",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+키/NNG+키/XSV+ETN+오/NR+층/NNG+꺼지/JX+언제/MAG+올라/VV+EC+가능/NNG+./SY+./SY+;/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 여름에 죽어요 키키 그럼 지금은 집 근처 인프라 어때요?",
+            "norm_text": "여름에 죽어요 키키 그럼 지금은 집 근처 인프라 어때요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여름/NNG+에/JKB+죽/VV+어요/EF+키/NNG+키/XSV+ETN+그럼/MAJ+지금/MAG+은/JX+집/NNG+근처/NNG+인프라/NNG+어때요/VA+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 여긴 진짜 괜찮아 키키 바로 앞에 큰 시장도 있고 병원 많고키키 초등학교도 있어서 치안도 좋고!",
+            "norm_text": "여긴 진짜 괜찮아 키키 바로 앞에 큰 시장도 있고 병원 많고키키 초등학교도 있어서 치안도 좋고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여긴/NP+JX+진짜/MAG+괜찮/VA+아/EC+키/NNG+키/XSV+ETN+바로/MAG+앞/NNG+에/JKB+큰/VA+ETM+시장/NNG+도/JX+있/VA+고/EC+병원/NNG+많/VA+고/EC+키/NNG+키/NNG+초등/NNG+학교/NNG+도/JX+있/VA+어서/EC+치안/NNG+도/JX+좋/VA+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 오오 진짜 괜찮네요?",
+            "norm_text": "오오 진짜 괜찮네요?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오오/IC+진짜/MAG+괜찮/VA+네요/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 어디서 들었는데 초등학교 인근이 진짜 좋다고 키키",
+            "norm_text": "어디서 들었는데 초등학교 인근이 진짜 좋다고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어디/NP+서/JKB+들/VV+었/EP+는데/EC+초등/NNG+학교/NNG+인근/NNG+이/JKS+진짜/MAG+좋/VA+다고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 저 시장 구경하는 것도 좋아하는데 키키",
+            "norm_text": "저 시장 구경하는 것도 좋아하는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/MM+시장/NNG+구경/NNG+하/XSV+는/ETM+것/NNB+도/JX+좋/VA+아/EC+하/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 시장 구경 재밌지! 키키 나도 휴무때 심심하면 뭐 있나 한 번씩 가본당 키키 너희 집 인프라는 어때",
+            "norm_text": "시장 구경 재밌지! 키키 나도 휴무때 심심하면 뭐 있나 한 번씩 가본당 키키 너희 집 인프라는 어때",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "시장/NNG+구경/NNG+재밌/VA+지/EF+키/NNG+키나/XSA+ETN+JX+도/JX+휴무/NNG+때/NNG+심심/XR+하/XSA+면/EC+뭐/IC+있/VA+나/EC+한/MM+번/NNBC+씩/XSN+가/JKS+본당/NNG+키/NNG+키/XSV+ETN+너희/NP+집/NNG+인프라/NNG+는/JX+어때/VA+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 저희 집도 근처에 마트도 있고 버스 정류장도 있지만, 시골이에요...",
+            "norm_text": "저희 집도 근처에 마트도 있고 버스 정류장도 있지만, 시골이에요...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저희/NP+집/NNG+도/JX+근처/NNG+에/JKB+마트/NNG+도/JX+있/VA+고/EC+버스/NNG+정류장/NNG+도/JX+있/VA+지만/EC+,/SC+시골/NNG+이/VCP+에요/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 전에 얘기했듯이 9시면 문 닫긴다고...키키",
+            "norm_text": "전에 얘기했듯이 9시면 문 닫긴다고...키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전/NNG+에/JKB+얘기/NNG+했/XSV+EP+듯이/EC+9/SN+시/NNBC+면문/NNG+닫/VV+긴/ETN+JX+다고/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 막차가 10시30분이에요 키키",
+            "norm_text": "막차가 10시30분이에요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "막차/NNG+가/JKS+10/SN+시/NNBC+30/SN+분/NNBC+이/VCP+에요/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 제 친구들 집은 뭐라고 해야할까...",
+            "norm_text": "제 친구들 집은 뭐라고 해야할까...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제/NP+JKG+친구/NNG+들/XSN+집/NNG+은/JX+뭐/NP+라고/VCP+EC+해야/VV+EC+할까/VV+EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 시내와 접근성이 떨어져서 치킨 시면 한 마리 가지고 배달 안되고 기본 2-3마리는 시켜야지 배달해주는? 요새는 배달비가 있어서 모르겠지만 전에는 그랬어요 ㅠㅠ 키키",
+            "norm_text": "시내와 접근성이 떨어져서 치킨 시면 한 마리 가지고 배달 안되고 기본 2-3마리는 시켜야지 배달해주는? 요새는 배달비가 있어서 모르겠지만 전에는 그랬어요 ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시내/NNG+와/JC+접근/NNG+성/XSN+이/JKS+떨어져서/VV+EC+치킨/VV+ETM+시/EP+면/EC+한/MM+마리/NNBC+가지/VV+고/EC+배달/NNG+안/MAG+되/VV+고/EC+기본/NNG+2/SN+-/SY+3/SN+마리/NNBC+는/JX+시켜야/VV+EC+지배/NNG+달해/VV+EC+주/VX+는/ETM+?/SY+요새/NNG+는/JX+배/NNG+달비/NNG+가/JKS+있/VA+어서/EC+모르/VV+겠/EP+지만/EC+전/NNG+에/JKB+는/JX+그랬/VV+EP+어요/EF+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 언니 시골에서 살아 봤어요? 휴 키키",
+            "norm_text": "언니 시골에서 살아 봤어요? 휴 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+시골/NNG+에서/JKB+살/VV+아/EC+봤/VX+EP+어요/EF+휴/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 헛...키키... 언니... 고향이 시골이긴 했지 키키 어릴때라 ㅠㅠ",
+            "norm_text": "헛...키키... 언니... 고향이 시골이긴 했지 키키 어릴때라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헛/IC+./SY+키/NNG+키/XSV+ETN+./SY+언니/NNG+./SY+./SY+고향/NNG+이/JKS+시골/NNG+이/VCP+긴/ETN+JX+했/VX+EP+지/EC+키/NNG+키/XSV+ETN+어릴/VA+ETM+때/NNG+라/VCP+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 근데 대구도 버스는 10시반에 끊겨 키키",
+            "norm_text": "근데 대구도 버스는 10시반에 끊겨 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+대구/NNP+도/JX+버스/NNG+는/JX+10/SN+시/NNBC+반/NNG+에/JKB+끊겨/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 오? 키키 그런건 비슷 하구나 키키",
+            "norm_text": "오? 키키 그런건 비슷 하구나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+키/NNG+키/XSV+ETN+그런/VA+ETM+건/NNB+JX+비슷/XR+하/XSA+구나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 유치원 때?  시골집이 푸세식? 화장실이였어 가지고 밤에는 화장실을 못갔돈 기억이ㅠㅠ 키키",
+            "norm_text": "유치원 때?  시골집이 푸세식? 화장실이였어 가지고 밤에는 화장실을 못갔돈 기억이ㅠㅠ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "유치원/NNG+때/NNG+?/SY+시골집이푸세식/UNKNOWN+화장실/NNG+이/VCP+였/EP+어/EC+가지/VX+고/EC+밤/NNG+에/JKB+는/JX+화장실/NNG+을/JKO+못/MAG+갔/VV+EP+돈/NNBC+VCP+ETM+기억/NNG+이/JKS+ㅠㅠ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 오 키키 그건 나도! 할머니 댁이 그랬었지...키키",
+            "norm_text": "오 키키 그건 나도! 할머니 댁이 그랬었지...키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+키/NNG+그건/NP+JX+나/NP+도/JX+!/SY+할머니/NNG+댁/NNG+이/JKS+그랬었/VV+EP+지/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 하긴 너랑 나랑 나이 차이가 얼마 안 나는구나 키키",
+            "norm_text": "하긴 너랑 나랑 나이 차이가 얼마 안 나는구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+너/NP+랑/JC+나/NP+랑/JKB+나이/NNG+차이/NNG+가/JKS+얼마/NNG+안/MAG+나/VV+는구나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 대박 키키 그러면 이것도 알겠어요 키키 대문이 앖어... 거실 말고 마루 있고 방문 열면 바로 바깥 키키",
+            "norm_text": "대박 키키 그러면 이것도 알겠어요 키키 대문이 앖어... 거실 말고 마루 있고 방문 열면 바로 바깥 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대박/NNG+키/NNG+키/XSV+ETN+그러면/MAJ+이것/NP+도/JX+알/VV+겠/EP+어요/EF+키키/NNP+대문/NNG+이/JKS+앖/UNKNOWN+어/IC+./SY+거실/NNG+말/NNG+고마/NNG+루/JKB+있/VV+고/EC+방문/NNG+열/VV+면/EC+바로/MAG+바깥/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 엇? 키키 어떤 건지 알지 키키 아직도 그런 집 있잖아",
+            "norm_text": "엇? 키키 어떤 건지 알지 키키 아직도 그런 집 있잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엇/IC+키키/NNP+어떤/MM+건지/NNB+VCP+EC+알/VV+지/EC+키/NNG+키/NNG+아직/MAG+도/JX+그런/MM+집/NNG+있/VV+잖아/EC"
+          },
+          {
+            "id": 29,
+            "text": "2 : 이렇게 얘기하니까 어렸을 때 생각 나네용 키키 아궁이에 고구마도 구워 먹고 그랬는데 키키",
+            "norm_text": "이렇게 얘기하니까 어렸을 때 생각 나네용 키키 아궁이에 고구마도 구워 먹고 그랬는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이렇게/MAG+얘기/NNG+하/XSV+니까/EC+어렸/VA+EP+을/ETM+때/NNG+생각/NNG+나/NP+네/XSN+용/XSN+키/NNG+키/NNG+아궁이/NNG+에/JKB+고구마/NNG+도/JX+구워/VV+EC+먹/VV+고/EC+그랬/VV+EP+는데/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

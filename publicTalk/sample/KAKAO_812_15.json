@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 46220,
+    "name": "KAKAO_812_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202110011721540108102/KAKAO_812_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202110011721540108102/KAKAO_812_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39573,
+      "filename": "KAKAO_812_15.txt",
+      "title": "KAKAO_812_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 456,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 456,
+        "word_size": 140,
+        "text": "1 : 플랭크로 9시간 30분 너라면 버틸 수 있어?\n2 : 나는 플랭크 3분도 힘들 것 같던데?\n1 : 희귀병 환자가 기네스북을 세웠어 키키\n2 : 대박이다 어디 나라가 그런 걸 한 거야?\n1 : 호주 남성인데 의지가 대박이지 않아?\n2 : 그 남성 환자라고 들었던 것 같은데\n1 : 응 희귀병인데 복합 부위 통증 증후군이래\n2 : 노력이 정말 가상하다. 얼마나 노력했을까\n1 : 12살 때 팔을 다친 이후로 타는 듯한 통증이 수시로 찾아온대\n2 : 타는 고통이 엄청나다고 들었는데 정말 힘들겠다\n1 : 왼팔이 특히 그래서 압박 밴드를 수시로 착용한대\n2 : 그 정도면 일상이 불편할 것 같아 힘들겠다\n1 : 근데 그분은 고통을 견딘 후에 오는 행복이 쾌감이 느껴진대\n2 : 정말 긍정적으로 사는 사람이구나 대단해\n1 : 그래서 이 병도 널리 알리고 싶고 마인드도 공유하고 싶었대!\n2 : 나도 그 마인드를 공유 받아서 긍정적으로 살고 싶다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 플랭크로 9시간 30분 너라면 버틸 수 있어?",
+            "norm_text": "플랭크로 9시간 30분 너라면 버틸 수 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "플랭크/NNP+로/JKB+9/SN+시간/NNG+30/SN+분/NNBC+너/NP+라면/VCP+EC+버틸/VV+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 플랭크 3분도 힘들 것 같던데?",
+            "norm_text": "나는 플랭크 3분도 힘들 것 같던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+플랭크/NNP+3/SN+분/NNBC+도/JX+힘들/VA+ETM+것/NNB+같/VA+던데/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 희귀병 환자가 기네스북을 세웠어 키키",
+            "norm_text": "희귀병 환자가 기네스북을 세웠어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "희/NNG+귀병/NNG+환자/NNG+가/JKS+기네스북/NNP+을/JKO+세웠/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 대박이다 어디 나라가 그런 걸 한 거야?",
+            "norm_text": "대박이다 어디 나라가 그런 걸 한 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대박/NNG+이/VCP+다/EF+어디/NP+나라/NNG+가/JKS+그런/MM+걸/NNB+JKO+한/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 호주 남성인데 의지가 대박이지 않아?",
+            "norm_text": "호주 남성인데 의지가 대박이지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "호주/NNP+남성/NNG+인데/VCP+EC+의지/NNG+가/JKS+대박/NNG+이/VCP+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그 남성 환자라고 들었던 것 같은데",
+            "norm_text": "그 남성 환자라고 들었던 것 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+남성/NNG+환자/NNG+라고/VCP+EC+들/VX+었/EP+던/ETM+것/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 희귀병인데 복합 부위 통증 증후군이래",
+            "norm_text": "응 희귀병인데 복합 부위 통증 증후군이래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+희귀/XR+병/NNG+인데/VCP+EC+복합/NNG+부위/NNG+통증/NNG+증후군/NNG+이래/NNB"
+          },
+          {
+            "id": 8,
+            "text": "2 : 노력이 정말 가상하다. 얼마나 노력했을까",
+            "norm_text": "노력이 정말 가상하다. 얼마나 노력했을까",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "노력/NNG+이/JKS+정말/MAG+가상/XR+하/XSA+다/EF+얼마나/MAG+노력/NNG+했을까/XSV+EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 12살 때 팔을 다친 이후로 타는 듯한 통증이 수시로 찾아온대",
+            "norm_text": "12살 때 팔을 다친 이후로 타는 듯한 통증이 수시로 찾아온대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "12/SN+살/NNBC+때/NNG+팔/NNG+을/JKO+다친/VV+ETM+이후/NNG+로/JKB+타/VV+는/ETM+듯/NNB+한/XSA+ETM+통증/NNG+이/JKS+수시로/MAG+찾/VV+아/EC+온대/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 타는 고통이 엄청나다고 들었는데 정말 힘들겠다",
+            "norm_text": "타는 고통이 엄청나다고 들었는데 정말 힘들겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "타/VV+는/ETM+고통/NNG+이/JKS+엄청나/VA+다고/EC+들/VX+었/EP+는데/EC+정말/MAG+힘들/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 왼팔이 특히 그래서 압박 밴드를 수시로 착용한대",
+            "norm_text": "왼팔이 특히 그래서 압박 밴드를 수시로 착용한대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "왼팔/NNG+이/JKS+특히/MAG+그래서/MAJ+압박/NNG+밴드/NNG+를/JKO+수시로/MAG+착용/NNG+한대/NNG"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그 정도면 일상이 불편할 것 같아 힘들겠다",
+            "norm_text": "그 정도면 일상이 불편할 것 같아 힘들겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+정도/NNG+면/VCP+EC+일상/NNG+이/JKS+불편/NNG+할/XSV+ETM+것/NNB+같/VA+아/EC+힘들/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 근데 그분은 고통을 견딘 후에 오는 행복이 쾌감이 느껴진대",
+            "norm_text": "근데 그분은 고통을 견딘 후에 오는 행복이 쾌감이 느껴진대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+그/MM+분/NNB+은/JX+고통/NNG+을/JKO+견딘/VV+ETM+후/NNG+에/JKB+오/VV+는/ETM+행복/NNG+이/JKS+쾌감/NNG+이/JKS+느껴/VV+EC+진대/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 정말 긍정적으로 사는 사람이구나 대단해",
+            "norm_text": "정말 긍정적으로 사는 사람이구나 대단해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정말/MAG+긍정/NNG+적/XSN+으로/JKB+사/VV+는/ETM+사람/NNG+이/VCP+구나/EF+대단/XR+해/XSA+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그래서 이 병도 널리 알리고 싶고 마인드도 공유하고 싶었대!",
+            "norm_text": "그래서 이 병도 널리 알리고 싶고 마인드도 공유하고 싶었대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+이/MM+병/NNG+도/JX+널리/MAG+알리/VV+고/EC+싶/VX+고/EC+마인드/NNG+도/JX+공유/NNG+하/XSV+고/EC+싶/VX+었/EP+대/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나도 그 마인드를 공유 받아서 긍정적으로 살고 싶다",
+            "norm_text": "나도 그 마인드를 공유 받아서 긍정적으로 살고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+그/MM+마인드/NNG+를/JKO+공유/NNG+받/VV+아서/EC+긍정/NNG+적/XSN+으로/JKB+살/VV+고/EC+싶/VX+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

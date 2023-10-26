@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 27577,
+    "name": "KAKAO_575_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135511011191/KAKAO_575_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923135511011191/KAKAO_575_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30450,
+      "filename": "KAKAO_575_17.txt",
+      "title": "KAKAO_575_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 615,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 615,
+        "word_size": 201,
+        "text": "1 : 사랑니를 빼야 되는데~ 잘 빼는 병원 아는 데 있어?\n2 : 어~ 나도 빼러 가야 돼~ 나는 **동으로 갈 거야~\n1 : 아 엄마 예전부터 다녔던데?\n2 : 응~ 나 저번에 다른 사랑니도 거기서 뺐는데 진짜 금방 쑥 빼더라?\n1 : 오~ 그럼 그리 가야겠구만~ !\n1 : 근데 나 7일날 백신 맞는데 맞고 바로 가도 되나?\n2 : 병원에 한번 번화해서 물어 보께~ 예약도 할 겸~\n1 : 백신 맞고 나면 몸 상태가 안 좋을 테니까 좀 있다 하는 게 나으려나?\n2 : 응 언니 전화해 봤는데 적어도 2주 뒤에 하는 게 좋대\n1 : 그래? 2주나 있어야 된대?\n2 : 응 사랑니 빼기 전에 항생제를 먹어야 되는데 그게 항체 형성에 안 좋아서 2주 뒤에 오랴~\n1 : 나 저번에 충치 치료도 하고 ~ 여기서 더 가면 임플란트 해야 된대~ ㅜㅜ\n1 : 이렇게 자주 갈 꺼면 치과 보험이나 들어 놓을 걸 그랬어~\n2 : 에이 언니는 자주 가는 것도 아니야~ 치과 보험은 내가 들었어야 해~\n1 : 맞아 ...너가 이가 약해서 치과 자주 갔었지?\n2 : 응 왜 하필 이런 걸 닮아 가지고 키키\n1 : 그러니까~ 좋은 걸 닮아야 되는데...  우리 애들도 나 닮아서 시력이 안 좋자나\n2 : 둘째도 눈 안 좋아? 아이구야 어떡하냐...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 사랑니를 빼야 되는데~ 잘 빼는 병원 아는 데 있어?",
+            "norm_text": "사랑니를 빼야 되는데~ 잘 빼는 병원 아는 데 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "사랑니/NNG+를/JKO+빼/VV+야/EC+되/VV+는데/EC+~/SY+잘/MAG+빼/VV+는/ETM+병원/NNG+아/VV+는데/EC+있/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어~ 나도 빼러 가야 돼~ 나는 **동으로 갈 거야~",
+            "norm_text": "어~ 나도 빼러 가야 돼~ 나는 **동으로 갈 거야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+~/SY+나/NP+도/JX+빼/VV+러/EC+가/VX+야/EC+돼/VV+EC+~/SY+나/NP+는/JX+*/SY+*/SY+동/NNG+으로/JKB+갈/VV+ETM+거/NNB+야/VCP+EF+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 엄마 예전부터 다녔던데?",
+            "norm_text": "아 엄마 예전부터 다녔던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+엄마/NNG+예전/NNG+부터/JX+다녔/VV+EP+던데/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응~ 나 저번에 다른 사랑니도 거기서 뺐는데 진짜 금방 쑥 빼더라?",
+            "norm_text": "응~ 나 저번에 다른 사랑니도 거기서 뺐는데 진짜 금방 쑥 빼더라?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+~/SY+나/JX+저번/NNG+에/JKB+다른/MM+사랑니/NNG+도/JX+거기/NP+서/JKB+뺐/VV+EP+는데/EC+진짜/MAG+금방/MAG+쑥/MAG+빼/VV+더라/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오~ 그럼 그리 가야겠구만~ !",
+            "norm_text": "오~ 그럼 그리 가야겠구만~ !",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+~/SY+그럼/MAJ+그리/MAG+가/VV+야/EC+VX+겠/EP+구만/EC+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 근데 나 7일날 백신 맞는데 맞고 바로 가도 되나?",
+            "norm_text": "근데 나 7일날 백신 맞는데 맞고 바로 가도 되나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+나/NP+7/SN+일/NNBC+날/NNG+백신/NNG+맞/VV+는데/EC+맞/VV+고/EC+바로/MAG+가/VV+도/EC+되/VV+나/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 병원에 한번 번화해서 물어 보께~ 예약도 할 겸~",
+            "norm_text": "병원에 한번 번화해서 물어 보께~ 예약도 할 겸~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "병원/NNG+에/JKB+한/MM+번번/NNG+화/XSN+해서/XSV+EC+물/VV+어/EC+보/VX+께/EC+~/SY+예약/NNG+도/JX+할/VV+ETM+겸/NNB+~/SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 백신 맞고 나면 몸 상태가 안 좋을 테니까 좀 있다 하는 게 나으려나?",
+            "norm_text": "백신 맞고 나면 몸 상태가 안 좋을 테니까 좀 있다 하는 게 나으려나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "백신/NNG+맞/VV+고/EC+나/VX+면/EC+몸/NNG+상태/NNG+가/JKS+안/MAG+좋/VA+을/ETM+테/NNB+VCP+니까/EC+좀/MAG+있/VA+다/EC+하/VV+는/ETM+게/NNB+JKS+나/VA+으려나/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응 언니 전화해 봤는데 적어도 2주 뒤에 하는 게 좋대",
+            "norm_text": "응 언니 전화해 봤는데 적어도 2주 뒤에 하는 게 좋대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+언니/NNG+전화/NNG+해/XSV+EC+봤/VX+EP+는데/EC+적어도/MAG+2/SN+주/NNBC+뒤/NNG+에/JKB+하/VV+는/ETM+게/NNB+JKS+좋/VA+대/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 그래? 2주나 있어야 된대?",
+            "norm_text": "그래? 2주나 있어야 된대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/VA+EC+?/SY+2/SN+주/NNBC+나/JX+있/VV+어야/EC+된대/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 사랑니 빼기 전에 항생제를 먹어야 되는데 그게 항체 형성에 안 좋아서 2주 뒤에 오랴~",
+            "norm_text": "응 사랑니 빼기 전에 항생제를 먹어야 되는데 그게 항체 형성에 안 좋아서 2주 뒤에 오랴~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+사랑니/NNG+빼/VV+기/ETN+전/NNG+에/JKB+항생제/NNG+를/JKO+먹/VV+어야/EC+되/VV+는데/EC+그게/NP+JKS+항체/NNG+형성/NNG+에/JKB+안/MAG+좋/VA+아서/EC+2/SN+주/NNBC+뒤/NNG+에/JKB+오/VV+랴/EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 나 저번에 충치 치료도 하고 ~ 여기서 더 가면 임플란트 해야 된대~ ㅜㅜ",
+            "norm_text": "나 저번에 충치 치료도 하고 ~ 여기서 더 가면 임플란트 해야 된대~ ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+저번/NNG+에/JKB+충치/NNG+치료/NNG+도/JX+하/VV+고/EC+~/SY+여기/NP+서/JKB+더/MAG+가/VV+면/EC+임/NNP+플란트/NNP+해야/VV+EC+된대/VV+EF+~/SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 이렇게 자주 갈 꺼면 치과 보험이나 들어 놓을 걸 그랬어~",
+            "norm_text": "이렇게 자주 갈 꺼면 치과 보험이나 들어 놓을 걸 그랬어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이렇게/MAG+자주/MAG+갈/VV+ETM+꺼/NNB+VCP+면/EC+치과/NNG+보험/NNG+이나/JX+들/VV+어/EC+놓/VX+을/ETM+걸/NNB+JKO+그랬/VV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 에이 언니는 자주 가는 것도 아니야~ 치과 보험은 내가 들었어야 해~",
+            "norm_text": "에이 언니는 자주 가는 것도 아니야~ 치과 보험은 내가 들었어야 해~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/NNG+언니/NNG+는/JX+자주/MAG+가/VV+는/ETM+것/NNB+도/JX+아니/VCN+야/EC+~/SY+치과/NNG+보험/NNG+은/JX+내/NP+가/JKS+들/VV+었/EP+어야/EC+해/VV+EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 맞아 ...너가 이가 약해서 치과 자주 갔었지?",
+            "norm_text": "맞아 ...너가 이가 약해서 치과 자주 갔었지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EF+./SY+너/NP+가/JKS+이/NP+가/JKS+약해서/VA+EC+치과/NNG+자주/MAG+갔었/VV+EP+지/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 응 왜 하필 이런 걸 닮아 가지고 키키",
+            "norm_text": "응 왜 하필 이런 걸 닮아 가지고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+왜/MAG+하필/MAG+이런/MM+걸/NNB+JKO+닮/VV+아/EC+가지/VX+고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 그러니까~ 좋은 걸 닮아야 되는데...  우리 애들도 나 닮아서 시력이 안 좋자나",
+            "norm_text": "그러니까~ 좋은 걸 닮아야 되는데...  우리 애들도 나 닮아서 시력이 안 좋자나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+~/SY+좋/VA+은/ETM+걸/NNB+JKO+닮/VV+아야/EC+되/VV+는데/EC+./SY+./SY+우리/NP+애/NNG+들/XSN+도/JX+나/NP+닮/VV+아서/EC+시력/NNG+이/JKS+안/MAG+좋/VA+자/EC+나/VX"
+          },
+          {
+            "id": 18,
+            "text": "2 : 둘째도 눈 안 좋아? 아이구야 어떡하냐...",
+            "norm_text": "둘째도 눈 안 좋아? 아이구야 어떡하냐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "둘째/NR+도/JX+눈/NNG+안/MAG+좋/VA+아/EF+아이구/IC+야/IC+어떡/XR+하/XSA+냐/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

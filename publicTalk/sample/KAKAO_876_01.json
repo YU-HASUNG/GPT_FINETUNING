@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 40921,
+    "name": "KAKAO_876_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211005094932009380/KAKAO_876_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211005094932009380/KAKAO_876_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 40500,
+      "filename": "KAKAO_876_01.txt",
+      "title": "KAKAO_876_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-05",
+      "size": 763,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 763,
+        "word_size": 247,
+        "text": "1 : 아 나 요새 배달 음식 질려서 요새는 그래도 이것저것 만들어서 먹으려고 노력 중 키키\n2 : 오 집에서 뭐 만들어서 먹어?\n1 : 나 약간 찌개를 종류별로 돌아가면서 만드는 중 키키 된찌 김찌 순찌 등등\n2 : 니가 만든 찌개 먹어 보고 싶다 ㅠㅠ\n2 : 나는 찌개 만들 줄 모르는데\n1 : 키키 나도 야매로 하다가 보니까 점점 느는 정도? 배달 음식에 너무 현타가 와서\n2 : 나도 요즘 배달 너무 많이 시켜 먹어서 질려가던 참이었는데 요리 추천 좀 해 줘\n1 : 음 최근에 먹었던 건 스팸 고추장 볶음밥인데 맛있었어 키키\n2 : 맛있었겠다 ㅠ 그건 나도 해 볼 수 있을 거 같아 키키\n1 : 응 키키 진짜 이름대로 스팸하고 고추장이 재료의 전분데 신기하게 맛있어 그거 외에는 라볶이도 쉽고... 키키\n2 : 나 라볶이 진짜 좋아하는데 떡볶이 보다 라볶이를 더 좋아해 키키\n2 : 쉬운 요리가 생각보다 많구나\n1 : 응응 키키 나도 새삼 혼자 살면서 알아 가는 중\n1 : 넌 이건 할 수 있다. 라는 요리 있어?  키키\n2 : 요리라고 하기에도 민망한데 조리에 가깝긴 한데... 나는 라면 말고는 없어... 하하\n1 : 키키 나도 얼마 전까지 그랬는데 유튜브가 날 구제했어\n1 : 요새는 진짜 쉽게 과정 올려 주는 유튜버가 많더라고\n2 : 나는 백종원 아저씨 꺼 보는데 키키\n2 : 근데 하라는 대로 하는데도 왜 내가 하면 맛이 없지...? 키키\n1 : 키키 그 요리를 처음 할 때 말고 같은 걸 두 번 하면 잘하게 되더라 키키\n2 : 다음번에 또 백종원 유튜브 보고 도전 해 봐야지! 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아 나 요새 배달 음식 질려서 요새는 그래도 이것저것 만들어서 먹으려고 노력 중 키키",
+            "norm_text": "아 나 요새 배달 음식 질려서 요새는 그래도 이것저것 만들어서 먹으려고 노력 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+요새/MAG+배달/NNG+음식/NNG+질려서/VV+EC+요새/NNG+는/JX+그래도/MAJ+이것저것/NNG+만들/VV+어서/EC+먹/VV+으려고/EC+노력/NNG+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 집에서 뭐 만들어서 먹어?",
+            "norm_text": "오 집에서 뭐 만들어서 먹어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오집/NNG+에서/JKB+뭐/IC+만들/VV+어서/EC+먹/VV+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 약간 찌개를 종류별로 돌아가면서 만드는 중 키키 된찌 김찌 순찌 등등",
+            "norm_text": "나 약간 찌개를 종류별로 돌아가면서 만드는 중 키키 된찌 김찌 순찌 등등",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+약간/MAG+찌개/NNG+를/JKO+종류/NNG+별/XSN+로/JKB+돌아가/VV+면서/EC+만드/VV+는/ETM+중키/NNG+키/NNG+된/XSV+ETM+찌김/UNKNOWN+찌/MAG+순/MM+찌/NNG+등등/NNB"
+          },
+          {
+            "id": 4,
+            "text": "2 : 니가 만든 찌개 먹어 보고 싶다 ㅠㅠ",
+            "norm_text": "니가 만든 찌개 먹어 보고 싶다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "니/NP+가/JKS+만든/VV+ETM+찌개/NNG+먹/VV+어/EC+보/VX+고/EC+싶/VX+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나는 찌개 만들 줄 모르는데",
+            "norm_text": "나는 찌개 만들 줄 모르는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+찌개/NNG+만들/VV+ETM+줄/NNB+모르/VV+는데/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 나도 야매로 하다가 보니까 점점 느는 정도? 배달 음식에 너무 현타가 와서",
+            "norm_text": "키키 나도 야매로 하다가 보니까 점점 느는 정도? 배달 음식에 너무 현타가 와서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+야매/NNG+로/JKB+하/VV+다가/EC+보/VX+니까/EC+점점/MAG+느/VV+는/ETM+정도/NNG+?/SY+배달/NNG+음식/NNG+에/JKB+너무/MAG+현/NNG+타가/XSV+EC+와서/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나도 요즘 배달 너무 많이 시켜 먹어서 질려가던 참이었는데 요리 추천 좀 해 줘",
+            "norm_text": "나도 요즘 배달 너무 많이 시켜 먹어서 질려가던 참이었는데 요리 추천 좀 해 줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "나/NP+도/JX+요즘/NNG+배달/NNG+너무/MAG+많이/MAG+시켜/VV+EC+먹/VV+어서/EC+질려/VV+EC+가/VX+던/ETM+참/NNB+이/VCP+었/EP+는데/EC+요리/NNG+추천/NNG+좀/MAG+해/VV+EC+줘/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 음 최근에 먹었던 건 스팸 고추장 볶음밥인데 맛있었어 키키",
+            "norm_text": "음 최근에 먹었던 건 스팸 고추장 볶음밥인데 맛있었어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "음/IC+최근/NNG+에/JKB+먹/VV+었/EP+던/ETM+건/NNB+JX+스팸/NNP+고추장/NNG+볶음밥/NNG+인데/VCP+EC+맛있/VA+었/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맛있었겠다 ㅠ 그건 나도 해 볼 수 있을 거 같아 키키",
+            "norm_text": "맛있었겠다 ㅠ 그건 나도 해 볼 수 있을 거 같아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맛있/VA+었/EP+겠/EP+다ㅠ/UNKNOWN+그건/NP+JX+나/NP+도/JX+해/VV+EC+볼/VX+ETM+수/NNB+있/VV+을/ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 응 키키 진짜 이름대로 스팸하고 고추장이 재료의 전분데 신기하게 맛있어 그거 외에는 라볶이도 쉽고... 키키",
+            "norm_text": "응 키키 진짜 이름대로 스팸하고 고추장이 재료의 전분데 신기하게 맛있어 그거 외에는 라볶이도 쉽고... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+진짜/MAG+이름/NNG+대로/JX+스팸/NNP+하고/JC+고추장/NNG+이/JKS+재료/NNG+의/JKG+전분/NNG+데/NNB+신기/XR+하/XSA+게/EC+맛있/VA+어/EC+그거/NP+외/NNB+에/JKB+는/JX+라볶이/NNG+도/JX+쉽/VA+고/EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나 라볶이 진짜 좋아하는데 떡볶이 보다 라볶이를 더 좋아해 키키",
+            "norm_text": "나 라볶이 진짜 좋아하는데 떡볶이 보다 라볶이를 더 좋아해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+라볶이/NNG+진짜/MAG+좋/VA+아/EC+하/VV+는데/EC+떡볶이/NNG+보다/JKB+라볶이/NNG+를/JKO+더/MAG+좋/VA+아/EC+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 쉬운 요리가 생각보다 많구나",
+            "norm_text": "쉬운 요리가 생각보다 많구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쉬운/VA+ETM+요리/NNG+가/JKS+생각/NNG+보다/JKB+많/VA+구나/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응응 키키 나도 새삼 혼자 살면서 알아 가는 중",
+            "norm_text": "응응 키키 나도 새삼 혼자 살면서 알아 가는 중",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+키/NNG+키나/XSA+ETN+JX+도/JX+새삼/MAG+혼자/MAG+살/VV+면서/EC+알/VV+아/EC+가/VX+는/ETM+중/NNB"
+          },
+          {
+            "id": 14,
+            "text": "1 : 넌 이건 할 수 있다. 라는 요리 있어?  키키",
+            "norm_text": "넌 이건 할 수 있다. 라는 요리 있어?  키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+이건/NP+JX+할/VV+ETM+수/NNB+있/VV+다/EF+라는/ETM+요리/NNG+있/VA+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 요리라고 하기에도 민망한데 조리에 가깝긴 한데... 나는 라면 말고는 없어... 하하",
+            "norm_text": "요리라고 하기에도 민망한데 조리에 가깝긴 한데... 나는 라면 말고는 없어... 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요리/NNG+라고/VCP+EC+하/VV+기/ETN+에/JKB+도/JX+민망/XR+한데/XSA+EC+조리/NNG+에/JKB+가깝/VA+긴/ETN+JX+한데/VX+EC+./SY+./SY+나/NP+는/JX+라면/VCP+EC+말/VX+고/EC+는/JX+없/VA+어/EF+./SY+하하/MAG"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 나도 얼마 전까지 그랬는데 유튜브가 날 구제했어",
+            "norm_text": "키키 나도 얼마 전까지 그랬는데 유튜브가 날 구제했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+얼마/NNG+전/NNG+까지/JX+그랬/VV+EP+는데/EC+유튜브/NNP+가/JKS+날/NNG+구제/NNG+했/XSV+EP+어/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 요새는 진짜 쉽게 과정 올려 주는 유튜버가 많더라고",
+            "norm_text": "요새는 진짜 쉽게 과정 올려 주는 유튜버가 많더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요새/NNG+는/JX+진짜/MAG+쉽/VA+게/EC+과정/NNG+올려/VV+EC+주/VX+는/ETM+유/NNP+튜버/NNP+가/JKS+많/VA+더라고/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나는 백종원 아저씨 꺼 보는데 키키",
+            "norm_text": "나는 백종원 아저씨 꺼 보는데 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+백종원/NNP+아저씨/NNG+꺼/VV+EC+보/VX+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 근데 하라는 대로 하는데도 왜 내가 하면 맛이 없지...? 키키",
+            "norm_text": "근데 하라는 대로 하는데도 왜 내가 하면 맛이 없지...? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+하/VV+라는/ETM+대로/NNB+하/VV+는/ETM+데/NNB+도/JX+왜/MAG+내/NP+가/JKS+하/VV+면/EC+맛/NNG+이/JKS+없/VA+지/EF+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 키키 그 요리를 처음 할 때 말고 같은 걸 두 번 하면 잘하게 되더라 키키",
+            "norm_text": "키키 그 요리를 처음 할 때 말고 같은 걸 두 번 하면 잘하게 되더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키/NNP+그/MM+요리/NNG+를/JKO+처음/NNG+할/XSV+ETM+때/NNG+말/VV+고/EC+같/VA+은/ETM+걸/NNB+JKO+두/MM+번/NNBC+하/VV+면/EC+잘/MAG+하/VV+게/EC+되/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "2 : 다음번에 또 백종원 유튜브 보고 도전 해 봐야지! 키키",
+            "norm_text": "다음번에 또 백종원 유튜브 보고 도전 해 봐야지! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+번/NNBC+에/JKB+또/MAG+백종원/NNP+유튜브/NNP+보고/JKB+도/JX+전해/VV+EC+봐야지/VX+EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

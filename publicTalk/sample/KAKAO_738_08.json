@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 31985,
+    "name": "KAKAO_738_08_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135511064631/KAKAO_738_08_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135511064631/KAKAO_738_08_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37316,
+      "filename": "KAKAO_738_08.txt",
+      "title": "KAKAO_738_08",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 539,
+      "annotations": {
+        "subject": "연애/결혼",
+        "speaker_type": "1:1",
+        "size": 539,
+        "word_size": 170,
+        "text": "1 : 번에 사촌 여동생 결혼한다 해서 결혼식 가는데 왜 내가 떨리냐 키키\n2 : 오 사촌 여동생 결혼한대? 벌써? 키키 너가 왜 떨려\n1 : 응 키키 이번 주 주말에 결혼식이여서 가야 함 키키\n2 : 사촌 여동생 나이가 어떻게 되는데 너보다 빨리 가냐 키키\n1 : 20대 초반 인데 벌써 시집간다 키키\n2 : 와... 중반도 아니고 초반인데 벌써 간다고?\n1 : 응 키키 남자 친구랑 5년 사귀었나? 그 사람이랑 결혼 한다고 하더라고\n2 : 와 5년이면 엄청 오래 사귀었네 키키\n1 : 군대까지 기다리고 남자친구 전역하고 바로 취업해서 결혼까지 하는 거래 키키\n2 : 와 사촌 여동생 제대로 고무신에서 꽃신까지 신었네 키키\n1 : 내 사촌 여동생이지만 진짜 대단한 거 같아 키키\n2 : 그만큼 그 남편 되실 분을 진짜 사랑하시나 보네 키키\n1 : 나도 동생한테 가끔 듣긴 했지만 한 번도 싸운 적도 없다네\n2 : 와... 진짜로 5년 동안 안 싸우는 게 가능한 거야? 키키\n1 : 그러니까 키키 진짜 천생연분 만난 거지 키키\n2 : 와... 부럽다 ㅠㅠ 진짜 축하 드린다고 전해 줘라 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 번에 사촌 여동생 결혼한다 해서 결혼식 가는데 왜 내가 떨리냐 키키",
+            "norm_text": "번에 사촌 여동생 결혼한다 해서 결혼식 가는데 왜 내가 떨리냐 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "번/NNG+에/JKB+사촌/NNG+여동생/NNG+결혼/NNG+한다/XSV+EC+해서/VV+EC+결혼식/NNG+가/VV+는데/EC+왜/MAG+내/NP+가/JKS+떨리/VV+냐/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 사촌 여동생 결혼한대? 벌써? 키키 너가 왜 떨려",
+            "norm_text": "오 사촌 여동생 결혼한대? 벌써? 키키 너가 왜 떨려",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+사/NR+촌/NNBC+여동생/NNG+결혼/NNG+한대/XSV+EF+벌써/MAG+키/NNG+키/XSV+ETN+너/NP+가/JKS+왜/MAG+떨려/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 응 키키 이번 주 주말에 결혼식이여서 가야 함 키키",
+            "norm_text": "응 키키 이번 주 주말에 결혼식이여서 가야 함 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+이번/NNG+주주/NNG+말/NNG+에/JKB+결혼식/NNG+이/VCP+여서가/EC+JKC+야/XR+함/XSA+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 사촌 여동생 나이가 어떻게 되는데 너보다 빨리 가냐 키키",
+            "norm_text": "사촌 여동생 나이가 어떻게 되는데 너보다 빨리 가냐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "사촌/NNG+여동생/NNG+나이/NNG+가/JKS+어떻게/MAG+되/VV+는데/EC+너/NP+보다/JKB+빨리/MAG+가/VV+냐/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 20대 초반 인데 벌써 시집간다 키키",
+            "norm_text": "20대 초반 인데 벌써 시집간다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "20/SN+대/NNBC+초반/NNG+인데/VCP+EC+벌써/MAG+시집간/VV+ETM+다키키/NNP"
+          },
+          {
+            "id": 6,
+            "text": "2 : 와... 중반도 아니고 초반인데 벌써 간다고?",
+            "norm_text": "와... 중반도 아니고 초반인데 벌써 간다고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+중반/NNG+도/JX+아니/VCN+고/EC+초반/NNG+인데/VCP+EC+벌써/MAG+간다고/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 응 키키 남자 친구랑 5년 사귀었나? 그 사람이랑 결혼 한다고 하더라고",
+            "norm_text": "응 키키 남자 친구랑 5년 사귀었나? 그 사람이랑 결혼 한다고 하더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+남자/NNG+친구/NNG+랑/JKB+5/SN+년/NNBC+사귀/VV+었/EP+나/EF+그/MM+사람/NNG+이랑/JKB+결혼/NNG+한다고/XSV+EC+하/VV+더라고/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 와 5년이면 엄청 오래 사귀었네 키키",
+            "norm_text": "와 5년이면 엄청 오래 사귀었네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/VV+EC+5/SN+년/NNBC+이/VCP+면/EC+엄청/MAG+오래/MAG+사귀/VV+었/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 군대까지 기다리고 남자친구 전역하고 바로 취업해서 결혼까지 하는 거래 키키",
+            "norm_text": "군대까지 기다리고 남자친구 전역하고 바로 취업해서 결혼까지 하는 거래 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "군대/NNG+까지/JX+기다리/VV+고/EC+남자/NNG+친구/NNG+전역/NNG+하/XSV+고/EC+바로/MAG+취업/NNG+해서/XSV+EC+결혼/NNG+까지/JX+하/VV+는/ETM+거래/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 와 사촌 여동생 제대로 고무신에서 꽃신까지 신었네 키키",
+            "norm_text": "와 사촌 여동생 제대로 고무신에서 꽃신까지 신었네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/IC+사촌/NNG+여동생/NNG+제대로/MAG+고무신/NNG+에서/JKB+꽃신/NNG+까지/JX+신/VV+었/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 내 사촌 여동생이지만 진짜 대단한 거 같아 키키",
+            "norm_text": "내 사촌 여동생이지만 진짜 대단한 거 같아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+사촌/NNG+여동생/NNG+이/VCP+지만/EC+진짜/MAG+대단/XR+한/XSA+ETM+거/NNB+같/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그만큼 그 남편 되실 분을 진짜 사랑하시나 보네 키키",
+            "norm_text": "그만큼 그 남편 되실 분을 진짜 사랑하시나 보네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그만큼/MAG+그/MM+남편/NNG+되/XSV+실/EP+ETM+분/NNB+을/JKO+진짜/MAG+사랑/NNG+하/XSV+시/EP+나/EC+보/VX+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 나도 동생한테 가끔 듣긴 했지만 한 번도 싸운 적도 없다네",
+            "norm_text": "나도 동생한테 가끔 듣긴 했지만 한 번도 싸운 적도 없다네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+동생/NNG+한테/JKB+가끔/MAG+듣/VV+긴/ETN+JX+했/VX+EP+지만/EC+한/MM+번/NNBC+도/JX+싸운/VV+ETM+적/NNB+도/JX+없/VA+다네/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 와... 진짜로 5년 동안 안 싸우는 게 가능한 거야? 키키",
+            "norm_text": "와... 진짜로 5년 동안 안 싸우는 게 가능한 거야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+진짜로/MAG+5/SN+년/NNBC+동안/NNG+안/MAG+싸우/VV+는/ETM+게/NNB+JKS+가능/NNG+한/XSA+ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그러니까 키키 진짜 천생연분 만난 거지 키키",
+            "norm_text": "그러니까 키키 진짜 천생연분 만난 거지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+키/NNG+키/XSV+ETN+진짜/MAG+천생연분/NNG+만난/VV+ETM+거/NNB+지/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 와... 부럽다 ㅠㅠ 진짜 축하 드린다고 전해 줘라 키키",
+            "norm_text": "와... 부럽다 ㅠㅠ 진짜 축하 드린다고 전해 줘라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "와/IC+./SY+부럽/VA+다/EF+ㅠㅠ/UNKNOWN+진짜/MAG+축/NNG+하/XSV+드린다고/EC+VV+EC+전해/VV+EC+줘라/VX+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

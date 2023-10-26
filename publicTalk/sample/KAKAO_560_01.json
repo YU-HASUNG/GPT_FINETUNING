@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 28829,
+    "name": "KAKAO_560_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256012054/KAKAO_560_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161256012054/KAKAO_560_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30112,
+      "filename": "KAKAO_560_01.txt",
+      "title": "KAKAO_560_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 345,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 345,
+        "word_size": 111,
+        "text": "1 : 너는 무슨 커피 좋아해?\n2 : 내가 좋아하는 커피는 아메리카노야\n1 : 아 정말? 너무 쓰지 않아?\n2 : 쓰게는 안 먹고 연하게 먹어.\n1 : 응 나는 연유 라떼가 맛있더라\n2 : 맞아 그것도 맛있지\n2 : 달달 하잖아.\n1 : 아메리카노는 케이크랑 먹으면 짱이야 키키\n2 : 아메리카노는 케이크랑 단짝 친구이지!\n1 : 맞아 키키 아메리카노 마시러 한번 갈래?\n2 : 응 좋아 다음에 한번 가보자.\n1 : 좋아 언제 시간 되는데?\n2 : 이따 커피 마시러 가지 않을래?\n1 : 비가 오는데 괜찮겠어? 키키\n2 : 커피는 비 오는 날 먹어야 제맛이지\n1 : 그건 맞지 키키 추우니깐 뜨아 먹을래\n2 : 나는 얼어도 아이스 아메리카노야!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너는 무슨 커피 좋아해?",
+            "norm_text": "너는 무슨 커피 좋아해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+는/JX+무슨/MM+커피/NNG+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 내가 좋아하는 커피는 아메리카노야",
+            "norm_text": "내가 좋아하는 커피는 아메리카노야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+좋/VA+아/EC+하/VV+는/ETM+커피/NNG+는/JX+아메리카/NNP+노야/NNG"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 정말? 너무 쓰지 않아?",
+            "norm_text": "아 정말? 너무 쓰지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+정말/MAG+너무/MAG+쓰/VV+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 쓰게는 안 먹고 연하게 먹어.",
+            "norm_text": "쓰게는 안 먹고 연하게 먹어.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쓰/VV+게/EC+는/JX+안/MAG+먹/VV+고/EC+연하/VV+게/EC+먹/VV+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 나는 연유 라떼가 맛있더라",
+            "norm_text": "응 나는 연유 라떼가 맛있더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+나/NP+는/JX+연유/NNG+라떼/NNG+가/JKS+맛있/VA+더라/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 맞아 그것도 맛있지",
+            "norm_text": "맞아 그것도 맛있지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+그것/NP+도/JX+맛있/VA+지/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 달달 하잖아.",
+            "norm_text": "달달 하잖아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "달달/MAG+하/VV+잖아/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아메리카노는 케이크랑 먹으면 짱이야 키키",
+            "norm_text": "아메리카노는 케이크랑 먹으면 짱이야 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아메리카노/NNP+는/JX+케이크/NNG+랑/JKB+먹/VV+으면/EC+짱/NNG+이/VCP+야/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아메리카노는 케이크랑 단짝 친구이지!",
+            "norm_text": "아메리카노는 케이크랑 단짝 친구이지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아메리카노/NNP+는/JX+케이크/NNG+랑/JKB+단짝/NNG+친구/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맞아 키키 아메리카노 마시러 한번 갈래?",
+            "norm_text": "맞아 키키 아메리카노 마시러 한번 갈래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "맞/VV+아/EC+키키/NNP+아메리카노/NNP+마시/VV+러/EC+한/MM+번/NNBC+갈래/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 응 좋아 다음에 한번 가보자.",
+            "norm_text": "응 좋아 다음에 한번 가보자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+좋/VA+아/EC+다음/NNG+에/JKB+한/MM+번/NNBC+가/JKS+보/VV+자/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 좋아 언제 시간 되는데?",
+            "norm_text": "좋아 언제 시간 되는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "좋/VA+아/EC+언제/MAG+시간/NNG+되/XSV+는데/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 이따 커피 마시러 가지 않을래?",
+            "norm_text": "이따 커피 마시러 가지 않을래?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "이따/MAG+커피/NNG+마시/VV+러/EC+가/VX+지/EC+않/VX+을래/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 비가 오는데 괜찮겠어? 키키",
+            "norm_text": "비가 오는데 괜찮겠어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비/NNG+가/JKS+오/VV+는/ETM+데/NNB+괜찮/VA+겠/EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 커피는 비 오는 날 먹어야 제맛이지",
+            "norm_text": "커피는 비 오는 날 먹어야 제맛이지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "커피/NNG+는/JX+비오/VV+는/ETM+날/NNG+먹/VV+어야제/EC+맛/NNG+이/VCP+지/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그건 맞지 키키 추우니깐 뜨아 먹을래",
+            "norm_text": "그건 맞지 키키 추우니깐 뜨아 먹을래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그건/NP+JX+맞/VV+지/EC+키/NNG+키/XSV+ETN+추우/VA+니깐/EC+뜨/VV+아/EC+먹/VV+을래/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나는 얼어도 아이스 아메리카노야!",
+            "norm_text": "나는 얼어도 아이스 아메리카노야!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+얼/VV+어도/EC+아이스/NNP+아메리카노/NNP+야/JKV"
+          }
+        ]
+      }
+    }
+  ]
+}

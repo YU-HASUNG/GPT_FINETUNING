@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 31922,
+    "name": "KAKAO_653_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151212015384/KAKAO_653_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927151212015384/KAKAO_653_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34635,
+      "filename": "KAKAO_653_17.txt",
+      "title": "KAKAO_653_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 609,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 609,
+        "word_size": 192,
+        "text": "1 : 장모님 이번 주에 허리 때문에 병원 갔다 온건 어떻게 결과 나왔어 ?\n2 : 응 디스크 땜에 수술하셔야 할 것 같다고 의사가 그러더라.\n1 : 허리 상태 많이 안 좋으신 거야 ?\n2 : 응 지금 세 개 디스크 부분이 너무 안 좋아서 수술 날짜 빨리 잡자고 하드라구\n1 : 3개라니 , 그럼 그 동안 엄청 고생 하셨겠는데?\n2 : 응 맨날 아프다고는 하셨는데, 이 정도로 심각할 준 몰랐어\n1 : 이제라도 알았으니 다행이네.\n1 : 얼른 치료 받고 빨리 완쾌 하셨음 좋겠다.\n2 : 응~ 허리 아프다고 한의원은 많이 갔는데, 거기 선 이런 말 없었거든\n1 : 디스크 수술은 하고도 정말 조심해야 한다고 하더라.\n2 : 맞어. 허리 숙이는 것도 조심해야 하고 , 누울 때도, 앉을 때도 다 조심해야 한데\n1 : 그렇구나. 병원은 멀다고 했으니 수술할 때 우리가 모셔다 드리자.\n2 : 응 고마워~ 수술 끝나고도 치료 받아야 해서 입원 당분간 하셔야 한데.\n1 : 응 간병인은 어떻게 해야 해 ?\n2 : 내가 당분간 연차 쓰고 가 있고, 언니도 연차 써서 당분간 있겠다고 했어. 남동생도 틈틈이 시간 빼서 온다고 했고~\n1 : 응 그럼 번갈아 가면서 있으면 되겠다\n2 : 응 그나마 가족들이 많으니 그런 건 괜찮네.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 장모님 이번 주에 허리 때문에 병원 갔다 온건 어떻게 결과 나왔어 ?",
+            "norm_text": "장모님 이번 주에 허리 때문에 병원 갔다 온건 어떻게 결과 나왔어 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "장모님/NNG+이/JKS+번주/NNG+에/JKB+허리/NNG+때문/NNB+에/JKB+병원/NNG+갔다온/VV+ETM+건/NNB+JX+어떻/VA+게/EC+결과/NNG+나왔/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 디스크 땜에 수술하셔야 할 것 같다고 의사가 그러더라.",
+            "norm_text": "응 디스크 땜에 수술하셔야 할 것 같다고 의사가 그러더라.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+디스크/NNG+땜/NNB+에/JKB+수술/NNG+하/XSV+셔야/EP+EC+할/VX+ETM+것/NNB+같/VA+다고/EC+의사/NNG+가/JKS+그러/VV+더라/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 허리 상태 많이 안 좋으신 거야 ?",
+            "norm_text": "허리 상태 많이 안 좋으신 거야 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "허리/NNG+상태/NNG+많이/MAG+안/MAG+좋/VA+으신/EP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 응 지금 세 개 디스크 부분이 너무 안 좋아서 수술 날짜 빨리 잡자고 하드라구",
+            "norm_text": "응 지금 세 개 디스크 부분이 너무 안 좋아서 수술 날짜 빨리 잡자고 하드라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+지금/MAG+세/MM+개/NNBC+디스크/NNG+부분/NNG+이/JKS+너무/MAG+안/MAG+좋/VA+아서/EC+수술/NNG+날짜/NNG+빨리/MAG+잡/VV+자고/EC+하/VV+드라구/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 3개라니 , 그럼 그 동안 엄청 고생 하셨겠는데?",
+            "norm_text": "3개라니 , 그럼 그 동안 엄청 고생 하셨겠는데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "3/SN+개/NNBC+라니/VCP+EC+,/SC+그럼/MAJ+그/MM+동안/NNG+엄청/MAG+고생/NNG+하/XSV+셨/EP+EP+겠/EP+는데/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 맨날 아프다고는 하셨는데, 이 정도로 심각할 준 몰랐어",
+            "norm_text": "응 맨날 아프다고는 하셨는데, 이 정도로 심각할 준 몰랐어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+맨날/MAG+아프/VA+다고/EC+는/JX+하/VV+셨/EP+EP+는데/EC+,/SC+이/MM+정도/NNG+로/JKB+심각/XR+할/XSA+ETM+준/NNG+몰랐/VV+EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 이제라도 알았으니 다행이네.",
+            "norm_text": "이제라도 알았으니 다행이네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/NNG+라도/VCP+EC+알/VV+았/EP+으니/EC+다행/NNG+이/VCP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 얼른 치료 받고 빨리 완쾌 하셨음 좋겠다.",
+            "norm_text": "얼른 치료 받고 빨리 완쾌 하셨음 좋겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "얼른/MAG+치료/NNG+받/VV+고/EC+빨리/MAG+완쾌/NNG+하/XSV+셨/EP+EP+음/ETN+좋/VA+겠/EP+다/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 응~ 허리 아프다고 한의원은 많이 갔는데, 거기 선 이런 말 없었거든",
+            "norm_text": "응~ 허리 아프다고 한의원은 많이 갔는데, 거기 선 이런 말 없었거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+~/SY+허리/NNG+아프/VA+다고/EC+한/MM+의원/NNG+은/JX+많이/MAG+갔/VV+EP+는데/EC+,/SC+거기/NP+선/JKB+JX+이런/MM+말/NNG+없/VA+었/EP+거든/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 디스크 수술은 하고도 정말 조심해야 한다고 하더라.",
+            "norm_text": "디스크 수술은 하고도 정말 조심해야 한다고 하더라.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "디스크/NNG+수술/NNG+은/JX+하/VV+고/EC+도/JX+정말/MAG+조심/NNG+해야/XSV+EC+한다고/VX+EC+하/VX+더라/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 맞어. 허리 숙이는 것도 조심해야 하고 , 누울 때도, 앉을 때도 다 조심해야 한데",
+            "norm_text": "맞어. 허리 숙이는 것도 조심해야 하고 , 누울 때도, 앉을 때도 다 조심해야 한데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+어/EF+허리/NNG+숙이/VV+는/ETM+것/NNB+도/JX+조심/NNG+해야/XSV+EC+하/VV+고/EC+,/SC+누울/VV+ETM+때/NNG+도/JX+,/SC+앉/VV+을/ETM+때/NNG+도/JX+다/MAG+조심/NNG+해야/XSV+EC+한데/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그렇구나. 병원은 멀다고 했으니 수술할 때 우리가 모셔다 드리자.",
+            "norm_text": "그렇구나. 병원은 멀다고 했으니 수술할 때 우리가 모셔다 드리자.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그렇/VA+구나/EF+병원/NNG+은/JX+멀/VA+다고/EC+했으니/VX+EP+EC+수술/NNG+할/XSV+ETM+때/NNG+우리/NP+가/JKS+모셔다/VV+EC+드리/VX+자/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 고마워~ 수술 끝나고도 치료 받아야 해서 입원 당분간 하셔야 한데.",
+            "norm_text": "응 고마워~ 수술 끝나고도 치료 받아야 해서 입원 당분간 하셔야 한데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+고마워/VA+EC+~/SY+수술/NNG+끝/NNG+나/VV+고/EC+도/JX+치료/NNG+받/VV+아야/EC+해서/VV+EC+입원/NNG+당분간/NNG+하/XSV+셔야/EP+EC+한데/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 응 간병인은 어떻게 해야 해 ?",
+            "norm_text": "응 간병인은 어떻게 해야 해 ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "응/IC+간병인/NNG+은/JX+어떻게/MAG+해야/VV+EC+해/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 내가 당분간 연차 쓰고 가 있고, 언니도 연차 써서 당분간 있겠다고 했어. 남동생도 틈틈이 시간 빼서 온다고 했고~",
+            "norm_text": "내가 당분간 연차 쓰고 가 있고, 언니도 연차 써서 당분간 있겠다고 했어. 남동생도 틈틈이 시간 빼서 온다고 했고~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+당분간/MAG+연차/MAG+쓰/VV+고/EC+가/JX+있/VX+고/EC+,/SC+언니/NNG+도/JX+연차/MAG+써서/VV+EC+당분간/MAG+있/VV+겠/EP+다고/EC+했/VX+EP+어/EF+남동생/NNG+도/JX+틈틈이/MAG+시간/NNG+빼/VV+서/EC+온다고/VV+EC+했/VX+EP+고/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응 그럼 번갈아 가면서 있으면 되겠다",
+            "norm_text": "응 그럼 번갈아 가면서 있으면 되겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+그럼/MAJ+번갈/VV+아/EC+가/VX+면서/EC+있/VX+으면/EC+되/VV+겠/EP+다/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 그나마 가족들이 많으니 그런 건 괜찮네.",
+            "norm_text": "응 그나마 가족들이 많으니 그런 건 괜찮네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그나마/MAG+가족/NNG+들/XSN+이/JKS+많/VA+으니/EC+그런/MM+건/NNB+JX+괜찮/VA+네/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32143,
+    "name": "KAKAO_614_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113006094720/KAKAO_614_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113006094720/KAKAO_614_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31914,
+      "filename": "KAKAO_614_02.txt",
+      "title": "KAKAO_614_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 524,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 524,
+        "word_size": 167,
+        "text": "1 : 너 어디 쪽에 집 알아본 댔지?\n2 : 나? 요새 고양시 쪽에 집 알아보지\n1 : 왜? 거기가 집값이 좀 괜찮아?\n2 : 집값은 뭐 어디나 비싸니까 그래도 좀 생활하기 편한 곳으로 알아보고 있어\n1 : 청약 같은 건 좀 어때?\n2 : 그쪽은 아마 올해 말 쪽에 나온다는 거 같긴 해\n1 : 그럼 일단 청약 기다렸다가 생각해보는 건 어때?\n2 : 근데 청약하더라도 기다리는 동안 전세로 있어야 되잖아 그치?\n1 : 그거야 그렇지 그래도 청약만큼 괜찮은 게 없어\n2 : 그건 그런데 언제 나올지도 모르고 된다는 보장도 없어서 일단 부동산 사이트 좀 둘러보고 있어\n1 : 응응 계속 서칭 하면서 괜찮은 거 나오면 하는 것도 좋지\n2 : 경매도 알아보고 있는데 경매는 좀 그런가?\n1 : 경매도 좋은 곳이면 괜찮은데 잘 봐야 돼\n2 : 근데 내가 보니까 경매도 좀 복도식 아파트가 많더라고\n1 : 복도식 아파트는 좀 불편할 텐데 괜찮겠어?\n2 : 그러니까 말야 나는 두 세대 정도가 한층 쓰는 아파트가 좋던데\n1 : 층간 소음 생각하면 아무래도 두 세대 정도가 낫지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 어디 쪽에 집 알아본 댔지?",
+            "norm_text": "너 어디 쪽에 집 알아본 댔지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+어디/NP+쪽/NNB+에/JKB+집/NNG+알/VV+아/EC+본댔지/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나? 요새 고양시 쪽에 집 알아보지",
+            "norm_text": "나? 요새 고양시 쪽에 집 알아보지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+요새/MAG+고양시/NNP+쪽/NNB+에/JKB+집/NNG+알아보/VV+지/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 왜? 거기가 집값이 좀 괜찮아?",
+            "norm_text": "왜? 거기가 집값이 좀 괜찮아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+거기/NP+가/JKS+집값/NNG+이/JKS+좀/MAG+괜찮/VA+아/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 집값은 뭐 어디나 비싸니까 그래도 좀 생활하기 편한 곳으로 알아보고 있어",
+            "norm_text": "집값은 뭐 어디나 비싸니까 그래도 좀 생활하기 편한 곳으로 알아보고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집값/NNG+은/JX+뭐/IC+어디/NP+나/JX+비싸/VA+니까/EC+그래도/VV+EC+좀/MAG+생활/NNG+하/XSV+기/ETN+편한/VA+ETM+곳/NNG+으로/JKB+알아보/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 청약 같은 건 좀 어때?",
+            "norm_text": "청약 같은 건 좀 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "청약/NNG+같/VA+은/ETM+건/NNB+JX+좀/MAG+어때/VA+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그쪽은 아마 올해 말 쪽에 나온다는 거 같긴 해",
+            "norm_text": "그쪽은 아마 올해 말 쪽에 나온다는 거 같긴 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그쪽/NP+은/JX+아마/MAG+올해/NNG+말/NNG+쪽/NNB+에/JKB+나온다는/VV+ETM+거/NNB+같/VA+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그럼 일단 청약 기다렸다가 생각해보는 건 어때?",
+            "norm_text": "그럼 일단 청약 기다렸다가 생각해보는 건 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럼/MAJ+일단/MAG+청약/NNG+기다렸/VV+EP+다가/EC+생각/NNG+해/XSV+EC+보/VX+는/ETM+건/NNB+JX+어때/VA+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 청약하더라도 기다리는 동안 전세로 있어야 되잖아 그치?",
+            "norm_text": "근데 청약하더라도 기다리는 동안 전세로 있어야 되잖아 그치?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+청약/NNG+하/XSV+더라도/EC+기다리/VV+는/ETM+동안/NNG+전세/NNG+로/JKB+있/VV+어야/EC+되/VV+잖아/EF+그치/IC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그거야 그렇지 그래도 청약만큼 괜찮은 게 없어",
+            "norm_text": "그거야 그렇지 그래도 청약만큼 괜찮은 게 없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+야/JX+그렇/VA+지/EC+그래도/VV+EC+청약/NNG+만큼/JKB+괜찮/VA+은/ETM+게/NNB+JKS+없/VA+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 그건 그런데 언제 나올지도 모르고 된다는 보장도 없어서 일단 부동산 사이트 좀 둘러보고 있어",
+            "norm_text": "그건 그런데 언제 나올지도 모르고 된다는 보장도 없어서 일단 부동산 사이트 좀 둘러보고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그건/NP+JX+그런데/MAJ+언제나/MAG+올지/VV+EC+도/JX+모르/VV+고/EC+된다는/VV+ETM+보장/NNG+도/JX+없/VA+어서/EC+일단/MAG+부동산/NNG+사이트/NNG+좀/MAG+둘러보/VV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 응응 계속 서칭 하면서 괜찮은 거 나오면 하는 것도 좋지",
+            "norm_text": "응응 계속 서칭 하면서 괜찮은 거 나오면 하는 것도 좋지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+계속/MAG+서/VV+EC+칭하/VV+면서/EC+괜찮/VA+은/ETM+거/NNB+나오/VV+면/EC+하/VV+는/ETM+것/NNB+도/JX+좋/VA+지/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 경매도 알아보고 있는데 경매는 좀 그런가?",
+            "norm_text": "경매도 알아보고 있는데 경매는 좀 그런가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "경매/NNG+도/JX+알아보/VV+고/EC+있/VX+는데/EC+경매/NNG+는/JX+좀/MAG+그런가/VA+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 경매도 좋은 곳이면 괜찮은데 잘 봐야 돼",
+            "norm_text": "경매도 좋은 곳이면 괜찮은데 잘 봐야 돼",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "경매/NNG+도/JX+좋/VA+은/ETM+곳/NNG+이/VCP+면/EC+괜찮/VA+은데/EC+잘/MAG+봐야/VV+EC+돼/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 근데 내가 보니까 경매도 좀 복도식 아파트가 많더라고",
+            "norm_text": "근데 내가 보니까 경매도 좀 복도식 아파트가 많더라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+내/NP+가/JKS+보/VV+니까/EC+경매/NNG+도/JX+좀/MAG+복도식/NNG+아파트/NNG+가/JKS+많/VA+더라고/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 복도식 아파트는 좀 불편할 텐데 괜찮겠어?",
+            "norm_text": "복도식 아파트는 좀 불편할 텐데 괜찮겠어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "복도식/NNG+아파트/NNG+는/JX+좀/MAG+불편/NNG+할/XSV+ETM+텐데/NNB+VCP+EC+괜찮/VA+겠/EP+어/EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그러니까 말야 나는 두 세대 정도가 한층 쓰는 아파트가 좋던데",
+            "norm_text": "그러니까 말야 나는 두 세대 정도가 한층 쓰는 아파트가 좋던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+말/NNG+야/VCP+EF+나/NP+는/JX+두/MM+세대/NNG+정도/NNG+가/JKS+한층/MAG+쓰/VV+는/ETM+아파트/NNG+가/JKS+좋/VA+던데/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 층간 소음 생각하면 아무래도 두 세대 정도가 낫지",
+            "norm_text": "층간 소음 생각하면 아무래도 두 세대 정도가 낫지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "층간/NNG+소음/NNG+생각/NNG+하/XSV+면/EC+아무래도/MAG+두/MM+세대/NNG+정도/NNG+가/JKS+낫/VV+지/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

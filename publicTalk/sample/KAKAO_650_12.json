@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 32839,
+    "name": "KAKAO_650_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109271455000641102/KAKAO_650_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109271455000641102/KAKAO_650_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34490,
+      "filename": "KAKAO_650_12.txt",
+      "title": "KAKAO_650_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 486,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 486,
+        "word_size": 156,
+        "text": "1 : 휴양지로 여행을 떠나고 싶은데\n2 : 국내에서는 휴양지 가려면 어딜 가야 할까여 ㅠㅠ\n1 : 국내는 제주도? ** 사진 보낸 거 보니까 가고 싶더라\n2 : 키키 오... 제주도 근데 요새 사람 엄청 많아서 또 엄청 나오는 거 아니에요? 코로나?\n1 : 그러게 그래도 평일이라서 그런가 사람이 많이 없나 봐\n2 : 키키 오 주말이 아니라서 다행이긴 하네요\n1 : 그러게 저녁에는 식당이 문을 닫나 봐\n1 : 다 시켜 먹더라\n2 : 오... 그건 좀 불편하긴 하다 ㅠㅠ\n1 : 거기도 4단계인가? 높은 단계였던 것 같아\n2 : 진짜요? 그니깐 요새 너무 많이 가서 많이 나와 ㅠㅠ\n1 : 그래 비행기 값도 싸고 해외에 못 가니까\n2 : 맞아... 해외 근데 너무 가고 싶다 ㅠㅠ\n1 : **는 코로나 풀리면 어디로 가고 싶어\n2 : 저는 일본이여 키키 친구가 애기를 낳아서 ㅠㅠ\n1 : 오 일본은 가까운데 못 가서 더 아쉽네\n2 : 저는 전공자라서 그런지 유명한 곳은 거의 다 가긴 했어요 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 휴양지로 여행을 떠나고 싶은데",
+            "norm_text": "휴양지로 여행을 떠나고 싶은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "휴양지/NNG+로/JKB+여행/NNG+을/JKO+떠나/VV+고/EC+싶/VX+은데/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 국내에서는 휴양지 가려면 어딜 가야 할까여 ㅠㅠ",
+            "norm_text": "국내에서는 휴양지 가려면 어딜 가야 할까여 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "국내/NNG+에서/JKB+는/JX+휴양지/NNG+가/VV+려면/EC+어딜/NP+JKO+가/VV+야/EC+할까/VV+EC+VCP+여/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 국내는 제주도? ** 사진 보낸 거 보니까 가고 싶더라",
+            "norm_text": "국내는 제주도? ** 사진 보낸 거 보니까 가고 싶더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "국내/NNG+는/JX+제주도/NNP+?/SY+*/SY+*/SY+사진/NNG+보낸/VV+ETM+거/NNB+보/VV+니까/EC+가/VX+고/EC+싶/VX+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 오... 제주도 근데 요새 사람 엄청 많아서 또 엄청 나오는 거 아니에요? 코로나?",
+            "norm_text": "키키 오... 제주도 근데 요새 사람 엄청 많아서 또 엄청 나오는 거 아니에요? 코로나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+오/EF+./SY+./SY+제주도/NNP+근데/MAJ+요새/MAG+사람/NNG+엄청/MAG+많/VA+아서/EC+또/MAG+엄청/MAG+나오/VV+는/ETM+거/NNB+아니/VCN+에요/EF+코로나/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러게 그래도 평일이라서 그런가 사람이 많이 없나 봐",
+            "norm_text": "그러게 그래도 평일이라서 그런가 사람이 많이 없나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러게/IC+그래도/MAJ+평일/NNG+이/VCP+라서/EC+그런가/VA+EC+사람/NNG+이/JKS+많이/MAG+없/VA+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 키키 오 주말이 아니라서 다행이긴 하네요",
+            "norm_text": "키키 오 주말이 아니라서 다행이긴 하네요",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+오/NR+주말/NNG+이/JKC+아니/VCN+라서/EC+다행/NNG+이/VCP+긴/ETN+JX+하/VX+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러게 저녁에는 식당이 문을 닫나 봐",
+            "norm_text": "그러게 저녁에는 식당이 문을 닫나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+저녁/NNG+에/JKB+는/JX+식당/NNG+이/JKS+문/NNG+을/JKO+닫/VV+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 다 시켜 먹더라",
+            "norm_text": "다 시켜 먹더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다시/MAG+켜/VV+EC+먹/VV+더라/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 오... 그건 좀 불편하긴 하다 ㅠㅠ",
+            "norm_text": "오... 그건 좀 불편하긴 하다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+./SY+그건/NP+JX+좀/MAG+불편/NNG+하/XSV+긴/ETN+JX+하/VX+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 거기도 4단계인가? 높은 단계였던 것 같아",
+            "norm_text": "거기도 4단계인가? 높은 단계였던 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+도/JX+4/SN+단계/NNG+인가/VCP+EF+높/VA+은/ETM+단계/NNG+였/VCP+EP+던/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 진짜요? 그니깐 요새 너무 많이 가서 많이 나와 ㅠㅠ",
+            "norm_text": "진짜요? 그니깐 요새 너무 많이 가서 많이 나와 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+요/JX+그니깐/MAJ+요새/MAG+너무/MAG+많이/MAG+가/VV+서/EC+많이/MAG+나와/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래 비행기 값도 싸고 해외에 못 가니까",
+            "norm_text": "그래 비행기 값도 싸고 해외에 못 가니까",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+비행기/NNG+값/NNG+도/JX+싸/VA+고/EC+해외/NNG+에/JKB+못/MAG+가/VV+니까/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 맞아... 해외 근데 너무 가고 싶다 ㅠㅠ",
+            "norm_text": "맞아... 해외 근데 너무 가고 싶다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF+./SY+해외/NNG+근데/MAJ+너무/MAG+가/VV+고/EC+싶/VX+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : **는 코로나 풀리면 어디로 가고 싶어",
+            "norm_text": "**는 코로나 풀리면 어디로 가고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+는/JX+코로나/NNG+풀리/VV+면/EC+어디/NP+로/JKB+가/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 저는 일본이여 키키 친구가 애기를 낳아서 ㅠㅠ",
+            "norm_text": "저는 일본이여 키키 친구가 애기를 낳아서 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+일본/NNP+이여/JKV+키/NNG+키/NNG+친구/NNG+가/JKS+애기/NNG+를/JKO+낳/VV+아서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 오 일본은 가까운데 못 가서 더 아쉽네",
+            "norm_text": "오 일본은 가까운데 못 가서 더 아쉽네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+일본/NNP+은/JX+가까운/VA+ETM+데/NNB+못/MAG+가/VV+서/EC+더/MAG+아쉽/VA+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 저는 전공자라서 그런지 유명한 곳은 거의 다 가긴 했어요 키키",
+            "norm_text": "저는 전공자라서 그런지 유명한 곳은 거의 다 가긴 했어요 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저/NP+는/JX+전공/NNG+자라/VV+서/EC+그런지/VA+EC+유명/XR+한/XSA+ETM+곳/NNG+은/JX+거의/MAG+다/MAG+가/VV+긴/ETN+JX+했/VX+EP+어요/EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

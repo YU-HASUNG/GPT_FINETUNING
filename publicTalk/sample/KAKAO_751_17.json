@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 51950,
+    "name": "KAKAO_751_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt202109291347460952103/KAKAO_751_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt202109291347460952103/KAKAO_751_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37005,
+      "filename": "KAKAO_751_17.txt",
+      "title": "KAKAO_751_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 431,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 431,
+        "word_size": 142,
+        "text": "1 : 엄마 오늘 몇 시에 와?\n2 : 엄마 병원 들렀다 갈 거라 조금 늦어~\n1 : 무슨 병원? 어디 아파?\n2 : 엄마 오늘 산부인과 왔거든 밑에가 조금 가려워서\n1 : 그래? 결과 나왔어?\n2 : 무슨 칸디다질염이라네 변기에 있는 세균 이런 걸로도 옮는대\n1 : 그래? 그런데 그 칸디다질염 여성한테 감기를 오는 거래\n2 : 아 그래? 너도 여성 세정제로 잘 씻어\n1 : 그거 오히려 너무 많이 닦으면 안 좋대 엄마\n2 : 왜? 깨끗하게 하면 좋지 않아?\n1 : 이유는 모르겠는데 그렇다는대?\n1 : 깨끗하게 했으면 많이 닦지 말래\n2 : 너무 많이 닦았나...\n1 : 질염 나도 자주 오는데 넘 귀찮아 병원비도 보험 청구하기 귀찮고\n2 : 그래도 제때 가야 돼 불임 원인이 되기도 한대\n1 : 가야지 ㅠㅠ 엄마 가는 줄 알았으면 나도 같이 가서 검사 받을 걸\n2 : 그러게 말해 줄 걸 그랬네",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 오늘 몇 시에 와?",
+            "norm_text": "엄마 오늘 몇 시에 와?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+오늘/MAG+몇/MM+시/NNBC+에/JKB+와/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엄마 병원 들렀다 갈 거라 조금 늦어~",
+            "norm_text": "엄마 병원 들렀다 갈 거라 조금 늦어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+병원/NNG+들렀/VV+EP+다/EC+갈거라/VV+EC+조금/MAG+늦/VA+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 무슨 병원? 어디 아파?",
+            "norm_text": "무슨 병원? 어디 아파?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "무슨/MM+병원/NNG+어디/NP+아파/VA+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 엄마 오늘 산부인과 왔거든 밑에가 조금 가려워서",
+            "norm_text": "엄마 오늘 산부인과 왔거든 밑에가 조금 가려워서",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+오늘/NNG+산부인과/NNG+왔/VV+EP+거든/EF+밑/NNG+에/JKB+가/JKS+조금/MAG+가려워서/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그래? 결과 나왔어?",
+            "norm_text": "그래? 결과 나왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래/IC+결과/NNG+나왔/VV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 무슨 칸디다질염이라네 변기에 있는 세균 이런 걸로도 옮는대",
+            "norm_text": "무슨 칸디다질염이라네 변기에 있는 세균 이런 걸로도 옮는대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무슨/MM+칸디다/NNG+질염/NNG+이/VCP+라네/EC+변기/NNG+에/JKB+있/VV+는/ETM+세균/NNG+이런/MM+걸로/NNB+JKB+도/JX+옮/VV+는대/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그래? 그런데 그 칸디다질염 여성한테 감기를 오는 거래",
+            "norm_text": "그래? 그런데 그 칸디다질염 여성한테 감기를 오는 거래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그런데/MAJ+그/MM+칸디다/NNG+질염/NNG+여성/NNG+한테/JKB+감기/NNG+를/JKO+오/VV+는/ETM+거래/NNG"
+          },
+          {
+            "id": 8,
+            "text": "2 : 아 그래? 너도 여성 세정제로 잘 씻어",
+            "norm_text": "아 그래? 너도 여성 세정제로 잘 씻어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+너/NP+도/JX+여성/NNG+세정제/NNG+로/JKB+잘/MAG+씻/VV+어/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그거 오히려 너무 많이 닦으면 안 좋대 엄마",
+            "norm_text": "그거 오히려 너무 많이 닦으면 안 좋대 엄마",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+오히려/MAJ+너무/MAG+많이/MAG+닦/VV+으면/EC+안/MAG+좋/VA+대/EF+엄마/NNG"
+          },
+          {
+            "id": 10,
+            "text": "2 : 왜? 깨끗하게 하면 좋지 않아?",
+            "norm_text": "왜? 깨끗하게 하면 좋지 않아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+깨끗/XR+하/XSA+게/EC+하/VV+면/EC+좋/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 이유는 모르겠는데 그렇다는대?",
+            "norm_text": "이유는 모르겠는데 그렇다는대?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이유/NNG+는/JX+모르/VV+겠/EP+는데/EC+그렇/VA+다는/ETM+대/VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 깨끗하게 했으면 많이 닦지 말래",
+            "norm_text": "깨끗하게 했으면 많이 닦지 말래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "깨끗/XR+하/XSA+게/EC+했/VX+EP+으면/EC+많이/MAG+닦/VV+지/EC+말래/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 너무 많이 닦았나...",
+            "norm_text": "너무 많이 닦았나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+많이/MAG+닦/VV+았/EP+나/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 질염 나도 자주 오는데 넘 귀찮아 병원비도 보험 청구하기 귀찮고",
+            "norm_text": "질염 나도 자주 오는데 넘 귀찮아 병원비도 보험 청구하기 귀찮고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "질염/NNG+나/NP+도/JX+자주/MAG+오/VV+는/ETM+데넘/NNP+귀찮/VA+아/EC+병원/NNG+비/NNG+도/JX+보험/NNG+청구/NNG+하/XSV+기/ETN+귀찮/VA+고/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그래도 제때 가야 돼 불임 원인이 되기도 한대",
+            "norm_text": "그래도 제때 가야 돼 불임 원인이 되기도 한대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+제때/NNG+가/JKS+야/NNG+돼/XSV+EC+불임/NNG+원인/NNG+이/JKS+되/VV+기/ETN+도/JX+한대/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 가야지 ㅠㅠ 엄마 가는 줄 알았으면 나도 같이 가서 검사 받을 걸",
+            "norm_text": "가야지 ㅠㅠ 엄마 가는 줄 알았으면 나도 같이 가서 검사 받을 걸",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가/VV+야지/EF+ㅠㅠ/UNKNOWN+엄마/NNG+가/VV+는/ETM+줄/NNB+알/VV+았/EP+으면/EC+나/NP+도/JX+같이/MAG+가/VV+서/EC+검사/NNG+받/VV+을/ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그러게 말해 줄 걸 그랬네",
+            "norm_text": "그러게 말해 줄 걸 그랬네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC+말/NNG+해/XSV+EC+줄/VX+ETM+걸/NNB+JKO+그랬/VV+EP+네/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

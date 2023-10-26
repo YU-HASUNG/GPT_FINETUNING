@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 32332,
+    "name": "KAKAO_628_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113045032036/KAKAO_628_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924113045032036/KAKAO_628_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31995,
+      "filename": "KAKAO_628_03.txt",
+      "title": "KAKAO_628_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 528,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 528,
+        "word_size": 172,
+        "text": "1 : 니는 셀프 세차 하는 거 좋아하나 키키\n2 : 노노 힘들어서 자주 안 함 키키 거의 대부분 자동 세차 키키\n1 : 헐 진짜? 키키 그 매력에 한번 빠지면 나오기 어려운데\n2 : 셀프 세차? 아 진짜로? 키키 안 힘드나 키키\n1 : 난 세차 용품 다 사고 돈 내고 고생 하는 중 키키\n2 : 헐 대박 키키 대단한데 키키 근데 우리 아빠도 셀프만 하더라고 키키\n1 : 거의 2시간 가까이 걸리는데... 키키 뿌듯하긴 하다\n2 : 차를 아끼는 사람들은 셀프 한다고 하더라 그래 키키\n1 : 키키 엉? 아 나는 그렇게 아끼진 않는데 왜 고생하고 있지?\n2 : 키키 웃겨 키키 레이 아껴주라고 키키 소중한 차다 키키 너에게\n1 : 키키 응... 맞아 소중하긴 한데... 키키 여름엔 셀프 못해\n2 : 아 많이 덥지... 그럼 자동 세차해?\n1 : 응 여름엔 기계 넣어버리고 청소기만 하는데도 덥다\n2 : 키키 청소기도 안 한다 난 키키 차 엄청 더럽다\n1 : 키키 은근히 자동차 실내 청소가 진짜 힘들다\n2 : 맞어 귀찮아 키키 가을 되면 셀프 세차하러 함 가봐야겠다 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니는 셀프 세차 하는 거 좋아하나 키키",
+            "norm_text": "니는 셀프 세차 하는 거 좋아하나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+는/JX+셀프/NNG+세차/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+하나/NR+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 노노 힘들어서 자주 안 함 키키 거의 대부분 자동 세차 키키",
+            "norm_text": "노노 힘들어서 자주 안 함 키키 거의 대부분 자동 세차 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "노노/IC+힘들/VA+어서/EC+자주/MAG+안/MAG+함/VV+ETN+키/NNG+키/NNG+거의/MAG+대부분/NNG+자동/NNG+세차/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 헐 진짜? 키키 그 매력에 한번 빠지면 나오기 어려운데",
+            "norm_text": "헐 진짜? 키키 그 매력에 한번 빠지면 나오기 어려운데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+진짜/MAG+키키/NNP+그/MM+매력/NNG+에/JKB+한/MM+번/NNBC+빠지/VV+면/EC+나오/VV+기/ETN+어려운데/VA+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 셀프 세차? 아 진짜로? 키키 안 힘드나 키키",
+            "norm_text": "셀프 세차? 아 진짜로? 키키 안 힘드나 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "셀프/NNG+세차/NNG+아/IC+진짜로/MAG+키키안힘드나키키/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 난 세차 용품 다 사고 돈 내고 고생 하는 중 키키",
+            "norm_text": "난 세차 용품 다 사고 돈 내고 고생 하는 중 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+세차/VA+EC+용품/NNG+다/MAG+사고/NNG+돈/NNG+내/VV+고/EC+고생/NNG+하/XSV+는/ETM+중키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 헐 대박 키키 대단한데 키키 근데 우리 아빠도 셀프만 하더라고 키키",
+            "norm_text": "헐 대박 키키 대단한데 키키 근데 우리 아빠도 셀프만 하더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+대박/NNG+키/NNG+키/XSV+ETN+대단/XR+한데/XSA+EC+키/NNG+키/XSV+ETN+근데/MAJ+우리/NP+아빠/NNG+도/JX+셀프/NNG+만/JX+하/VV+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 거의 2시간 가까이 걸리는데... 키키 뿌듯하긴 하다",
+            "norm_text": "거의 2시간 가까이 걸리는데... 키키 뿌듯하긴 하다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거의/MAG+2/SN+시간/NNBC+가까이/MAG+걸리/VV+는데/EC+./SY+./SY+키/NNG+키/XSV+ETN+뿌듯/XR+하/XSA+긴/ETN+JX+하/VX+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 차를 아끼는 사람들은 셀프 한다고 하더라 그래 키키",
+            "norm_text": "차를 아끼는 사람들은 셀프 한다고 하더라 그래 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+를/JKO+아끼/VV+는/ETM+사람/NNG+들/XSN+은/JX+셀프/NNG+한다고/XSV+EC+하/VX+더라/EF+그래/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 엉? 아 나는 그렇게 아끼진 않는데 왜 고생하고 있지?",
+            "norm_text": "키키 엉? 아 나는 그렇게 아끼진 않는데 왜 고생하고 있지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+엉/EF+아/IC+나/NP+는/JX+그렇게/MAG+아끼/VV+진/EC+JX+않/VX+는데/EC+왜/MAG+고생/NNG+하/XSV+고/EC+있/VX+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 키키 웃겨 키키 레이 아껴주라고 키키 소중한 차다 키키 너에게",
+            "norm_text": "키키 웃겨 키키 레이 아껴주라고 키키 소중한 차다 키키 너에게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+웃겨/VV+EC+키/NNG+키/NNG+레이/NNG+아껴/VV+EC+주/VX+라고/EC+키/NNG+키/XSV+ETN+소중/XR+한/XSA+ETM+차/NNB+다키키/NNP+너/NP+에게/JKB"
+          },
+          {
+            "id": 11,
+            "text": "1 : 키키 응... 맞아 소중하긴 한데... 키키 여름엔 셀프 못해",
+            "norm_text": "키키 응... 맞아 소중하긴 한데... 키키 여름엔 셀프 못해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+맞/VV+아/EC+소중/XR+하/XSA+긴/ETN+JX+한데/VX+EC+./SY+./SY+키/NNG+키/NNG+여름/NNG+엔/JKB+JX+셀프/NNG+못/MAG+해/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아 많이 덥지... 그럼 자동 세차해?",
+            "norm_text": "아 많이 덥지... 그럼 자동 세차해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+많이/MAG+덥/VA+지/EF+./SY+그럼/MAJ+자동/NNG+세차/NNG+해/XSV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 여름엔 기계 넣어버리고 청소기만 하는데도 덥다",
+            "norm_text": "응 여름엔 기계 넣어버리고 청소기만 하는데도 덥다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+여름/NNG+엔/JKB+JX+기계/NNG+넣/VV+어/EC+버리/VX+고/EC+청소기/NNG+만/JX+하/VV+는/ETM+데/NNB+도/JX+덥/VA+다/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 키키 청소기도 안 한다 난 키키 차 엄청 더럽다",
+            "norm_text": "키키 청소기도 안 한다 난 키키 차 엄청 더럽다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+청소기/NNG+도/JX+안/MAG+한다/VV+EC+난키/NNP+키/NNG+차/NNG+엄청/MAG+더럽/VA+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 은근히 자동차 실내 청소가 진짜 힘들다",
+            "norm_text": "키키 은근히 자동차 실내 청소가 진짜 힘들다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+은근히/MAG+자동차/NNG+실내/NNG+청소/NNG+가/JKS+진짜/MAG+힘들/VA+다/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 맞어 귀찮아 키키 가을 되면 셀프 세차하러 함 가봐야겠다 키키",
+            "norm_text": "맞어 귀찮아 키키 가을 되면 셀프 세차하러 함 가봐야겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+어/EC+귀찮/VA+아/EC+키/NNG+키가/XSV+ETN+JKS+을/JKO+되/VV+면/EC+셀프/NNG+세차/NNG+하/XSV+러/EC+함/VX+ETN+가/VV+봐야/EC+VX+EC+VX+겠/EP+다키키/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

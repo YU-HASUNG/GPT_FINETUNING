@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 35662,
+    "name": "KAKAO_784_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930144005000987/KAKAO_784_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930144005000987/KAKAO_784_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38148,
+      "filename": "KAKAO_784_17.txt",
+      "title": "KAKAO_784_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 645,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 645,
+        "word_size": 209,
+        "text": "1 : 니도 나라에서 자궁 검사하라고 날아옴?\n2 : 나는 산부인과 자주 가는 편이라서 키키 대상자라서 하라 하더라\n1 : 아아 키키 나도 내야 되는데... 병 있을까 봐 무섭다 ㅠㅠ\n2 : 키키 없다 걱정 마라 난 질염 잘 생겨서 어쩔 수 없이 자주 다니긴 하지만 니도 정기 검진은 받아라\n1 : 맞제... 휴 건강한 게 최고겠지 ㅠㅠ\n1 : 근데 요즘 코로나 땜에 위생 하나는 끝내주게 좋아서 감기 따위 안 걸릴 듯\n2 : 키키 확실하나 요즘 위생 여전히 안 좋은 곳 많다 니가 개인위생 철저히 잘 지켜서 그렇지\n1 : 아 진짜? 키키 난 화장실에 비누도 찝찝해서 안 쓰고 무조건 그거 소독제 겁나 바름\n2 : 키키 올 짜식 그래 자기 건강 자기가 잘 챙겨야 댄다\n1 : 맞지 맞지 키키 내 백신 2차도 이번 달에 맞음 무적 된다\n2 : 키키 나도 다다음달에 맞는다 떨리노\n1 : 키키 맞고 무적이 되자 닌 병원에사 맞낭?\n2 : 키키 ㄱ 아니 나는 25일에 맞는다 남친이랑 같은 날 같은 시간으로 해둠 같이 힘들라고\n1 : 키키 보통 다르게 하지 않나...\n1 : 키키 근데 1차는 진짜 개안타\n2 : 키키 니라서 그런 거 아닐까 좀 강해야지\n1 : 쫄지마 쫄지마 키키 니도 생각보다 건강한 거 알제 키키\n2 : 나? 키키 세상 연약한데 이제 튼실해질라고  키키 오늘도 등산햇다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 니도 나라에서 자궁 검사하라고 날아옴?",
+            "norm_text": "니도 나라에서 자궁 검사하라고 날아옴?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "니/NP+도/JX+나라/NNG+에서/JKB+자궁/NNG+검사/NNG+하/XSV+라고/EC+날/VV+아/EC+옴/VX+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 산부인과 자주 가는 편이라서 키키 대상자라서 하라 하더라",
+            "norm_text": "나는 산부인과 자주 가는 편이라서 키키 대상자라서 하라 하더라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+산부인과/NNG+자주/MAG+가/VV+는/ETM+편/NNB+이/VCP+라서/EC+키/NNG+키/NNG+대상자/NNG+라서/VCP+EC+하/VV+라/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아아 키키 나도 내야 되는데... 병 있을까 봐 무섭다 ㅠㅠ",
+            "norm_text": "아아 키키 나도 내야 되는데... 병 있을까 봐 무섭다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아아/IC+키/NNG+키나/XSA+ETN+JX+도/JX+내/VX+야/EC+되/VV+는데/EC+./SY+./SY+병/NNG+있/VV+을까/EC+봐/VX+EF+무섭/VA+다/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 없다 걱정 마라 난 질염 잘 생겨서 어쩔 수 없이 자주 다니긴 하지만 니도 정기 검진은 받아라",
+            "norm_text": "키키 없다 걱정 마라 난 질염 잘 생겨서 어쩔 수 없이 자주 다니긴 하지만 니도 정기 검진은 받아라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+없/VA+다/EC+걱정/NNG+마라/VV+EC+난/VX+ETM+질염/NNG+잘/MAG+생겨서/VV+EC+어쩔/VV+ETM+수/NNB+없이/MAG+자주/MAG+다니/VV+긴/ETN+JX+하/VX+지만/EC+니/NP+도/JX+정기/NNG+검진/NNG+은/JX+받/VV+아라/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 맞제... 휴 건강한 게 최고겠지 ㅠㅠ",
+            "norm_text": "맞제... 휴 건강한 게 최고겠지 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EF+./SY+휴/IC+건강/NNG+한/XSA+ETM+게/NNB+JKS+최고/NNG+겠/VCP+EP+지/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 근데 요즘 코로나 땜에 위생 하나는 끝내주게 좋아서 감기 따위 안 걸릴 듯",
+            "norm_text": "근데 요즘 코로나 땜에 위생 하나는 끝내주게 좋아서 감기 따위 안 걸릴 듯",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+요즘/MAG+코로나/NNG+땜/NNB+에/JKB+위생/NNG+하나/NR+는/JX+끝내/VV+EC+주/VX+게/EC+좋/VA+아서/EC+감기/NNG+따위/NNB+안/MAG+걸릴/VV+ETM+듯/NNB"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 확실하나 요즘 위생 여전히 안 좋은 곳 많다 니가 개인위생 철저히 잘 지켜서 그렇지",
+            "norm_text": "키키 확실하나 요즘 위생 여전히 안 좋은 곳 많다 니가 개인위생 철저히 잘 지켜서 그렇지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+확실/XR+하나/NR+요즘/NNG+위생/NNG+여전히/MAG+안/MAG+좋/VA+은/ETM+곳/NNB+많/VA+다/EF+니/NP+가/JKS+개인위생/NNG+철저히/MAG+잘/MAG+지켜서/VV+EC+그렇/VA+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아 진짜? 키키 난 화장실에 비누도 찝찝해서 안 쓰고 무조건 그거 소독제 겁나 바름",
+            "norm_text": "아 진짜? 키키 난 화장실에 비누도 찝찝해서 안 쓰고 무조건 그거 소독제 겁나 바름",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키/XSV+ETN+난/VV+ETM+화장실/NNG+에/JKB+비누/NNG+도/JX+찝찝/XR+해서/XSA+EC+안/MAG+쓰/VV+고/EC+무조건/MAG+그거/NP+소독/NNG+제/XSN+겁나/VV+EC+바름/VV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 올 짜식 그래 자기 건강 자기가 잘 챙겨야 댄다",
+            "norm_text": "키키 올 짜식 그래 자기 건강 자기가 잘 챙겨야 댄다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+올/MM+짜식/IC+그래/IC+자기/NP+건강/NNG+자기/NP+가/JKS+잘/MAG+챙겨야/VV+EC+댄다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맞지 맞지 키키 내 백신 2차도 이번 달에 맞음 무적 된다",
+            "norm_text": "맞지 맞지 키키 내 백신 2차도 이번 달에 맞음 무적 된다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+지/EC+맞/VV+지/EC+키키/NNP+내백/NNP+신/XPN+2/SN+차/NNBC+도/JX+이번/NNG+달/NNG+에/JKB+맞음/NNG+무적/NNG+된다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 나도 다다음달에 맞는다 떨리노",
+            "norm_text": "키키 나도 다다음달에 맞는다 떨리노",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+다/MAG+다음/NNG+달/NNG+에/JKB+맞/VV+는다/EC+떨리/VV+노/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 맞고 무적이 되자 닌 병원에사 맞낭?",
+            "norm_text": "키키 맞고 무적이 되자 닌 병원에사 맞낭?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+맞/VV+고/EC+무적/NNG+이/JKS+되/VV+자/EC+닌/NNP+병원/NNG+에/JKB+사/VV+EC+맞/XPN+낭/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 키키 ㄱ 아니 나는 25일에 맞는다 남친이랑 같은 날 같은 시간으로 해둠 같이 힘들라고",
+            "norm_text": "키키 ㄱ 아니 나는 25일에 맞는다 남친이랑 같은 날 같은 시간으로 해둠 같이 힘들라고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+ㄱ/NNG+아니/IC+나/NP+는/JX+25/SN+일/NNBC+에/JKB+맞/VV+는다/EC+남친/NNG+이랑/JKB+같/VA+은/ETM+날/NNG+같/VA+은/ETM+시간/NNG+으로/JKB+해/VV+EC+둠/VX+ETN+같이/JKB+힘들/VA+라고/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 보통 다르게 하지 않나...",
+            "norm_text": "키키 보통 다르게 하지 않나...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+보통/NNG+다르/VA+게/EC+하/VV+지/EC+않/VX+나/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 근데 1차는 진짜 개안타",
+            "norm_text": "키키 근데 1차는 진짜 개안타",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+1/SN+차/NNBC+는/JX+진짜/MAG+개/NNG+안타/NNG"
+          },
+          {
+            "id": 16,
+            "text": "2 : 키키 니라서 그런 거 아닐까 좀 강해야지",
+            "norm_text": "키키 니라서 그런 거 아닐까 좀 강해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키니/NNP+라서/VCP+EC+그런/MM+거/NNB+아닐까/VCN+EC+좀/MAG+강/XR+해야지/XSA+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 쫄지마 쫄지마 키키 니도 생각보다 건강한 거 알제 키키",
+            "norm_text": "쫄지마 쫄지마 키키 니도 생각보다 건강한 거 알제 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쫄/VV+지/EC+마/VX+EC+쫄/VV+지/EC+마키/NNG+키/VV+니/EC+도/JX+생각/NNG+보다/JKB+건강/NNG+한/XSA+ETM+거/NNB+알제/NNP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나? 키키 세상 연약한데 이제 튼실해질라고  키키 오늘도 등산햇다",
+            "norm_text": "나? 키키 세상 연약한데 이제 튼실해질라고  키키 오늘도 등산햇다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+키/NNG+키/NNG+세상/NNG+연약/XR+한데/XSA+EC+이제/MAG+튼실/XR+해질/XSA+EC+VX+ETM+라고/JKQ+키/NNG+키/NNG+오늘/NNG+도/JX+등산/NNG+햇/XSV+EP+다/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

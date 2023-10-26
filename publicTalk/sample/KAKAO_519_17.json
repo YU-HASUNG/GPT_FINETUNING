@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 22354,
+    "name": "KAKAO_519_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145854023645/KAKAO_519_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917145854023645/KAKAO_519_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29268,
+      "filename": "KAKAO_519_17.txt",
+      "title": "KAKAO_519_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 572,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "1:1",
+        "size": 572,
+        "word_size": 172,
+        "text": "1 : 너 종합 건강 검진 받아 본 적 있어?\n2 : 아니 아직 없는데 안 그래도 받아볼까 생각 중이였어!\n1 : 그래 잘 생각했어 우리 나이에는 받아야 된다더라...\n2 : 으... 어디서 본 건데 내시경은 정말 못하겠던데?\n1 : 으... 나도... 위아래로 다 못할 거 같은데...\n2 : 그니까 키키 해야 될 거 같은데... 도저히 용기가 안 생겨 키키\n1 : 근데 그거 수면 마취 안하고 하는 사람도 있대...\n2 : 맞아 키키 와... 나 그 소리 듣고 진짜 놀랐어 마취 해도 못하겠는데...\n1 : 그러니까... 무슨 생각으로 생으로 하는 건지... 키키\n2 : 근데 그거 수면 마취 하는 게 은근 비싸다더라구 그래서 생으로 하는 거 아닐까?\n1 : 아 진짜? 비싸대? 그거는 보험 안되나?\n2 : 글쎄 나도 해보질 않아서 모르겠네; 되지 않을까?\n1 : 그래도 무조건 수면 마취는 해야지ㅜ 으... 너 언제 하러 갈 꺼야?\n2 : 모르겠어 키키 생각은 있는데 무서워서 예약을 못하겠네 키키\n1 : 너 할 때 나도 같이 가자~! 그래도 혼자보단 같이 가면 조금 든든할 거 같아\n2 : 그렇겠지? 좋아! 같이 가자~ 병원부터 알아봐야겠다!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 종합 건강 검진 받아 본 적 있어?",
+            "norm_text": "너 종합 건강 검진 받아 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+종합/NNG+건강/NNG+검진/NNG+받/VV+아/EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니 아직 없는데 안 그래도 받아볼까 생각 중이였어!",
+            "norm_text": "아니 아직 없는데 안 그래도 받아볼까 생각 중이였어!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+아직/MAG+없/VA+는데/EC+안/MAG+그래도/VV+EC+받/VV+아/EC+볼까/VX+EC+생각/NNG+중/NNB+이/VCP+였/EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그래 잘 생각했어 우리 나이에는 받아야 된다더라...",
+            "norm_text": "그래 잘 생각했어 우리 나이에는 받아야 된다더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+잘/MAG+생각/NNG+했/XSV+EP+어/EF+우리/NP+나이/NNG+에/JKB+는/JX+받/VV+아야/EC+된다더라/VX+EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "2 : 으... 어디서 본 건데 내시경은 정말 못하겠던데?",
+            "norm_text": "으... 어디서 본 건데 내시경은 정말 못하겠던데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "으/IC+./SY+어디/NP+서/JKB+본/VV+ETM+건데/NNB+VCP+EC+내시경/NNG+은/JX+정말/MAG+못/MAG+하/VV+겠/EP+던데/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 으... 나도... 위아래로 다 못할 거 같은데...",
+            "norm_text": "으... 나도... 위아래로 다 못할 거 같은데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "으/IC+./SY+나/NP+도/JX+./SY+./SY+위아래/NNG+로/JKB+다/MAG+못/MAG+할/VV+ETM+거/NNB+같/VA+은데/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그니까 키키 해야 될 거 같은데... 도저히 용기가 안 생겨 키키",
+            "norm_text": "그니까 키키 해야 될 거 같은데... 도저히 용기가 안 생겨 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+키/NNG+키/NNG+해야/XSV+EC+될/VV+ETM+거/NNB+같/VA+은데/EF+./SY+도저히/MAG+용기/NNG+가/JKS+안/MAG+생겨/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 근데 그거 수면 마취 안하고 하는 사람도 있대...",
+            "norm_text": "근데 그거 수면 마취 안하고 하는 사람도 있대...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+그거/NP+수면/NNG+마취/NNG+안/MAG+하/VV+고/EC+하/VV+는/ETM+사람/NNG+도/JX+있/VA+대/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아 키키 와... 나 그 소리 듣고 진짜 놀랐어 마취 해도 못하겠는데...",
+            "norm_text": "맞아 키키 와... 나 그 소리 듣고 진짜 놀랐어 마취 해도 못하겠는데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/XSV+ETN+와/JC+./SY+./SY+나/NP+그/MM+소리/NNG+듣/VV+고/EC+진짜/MAG+놀랐/VV+EP+어/EC+마취/NNG+해도/XSV+EC+못하/VX+겠/EP+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그러니까... 무슨 생각으로 생으로 하는 건지... 키키",
+            "norm_text": "그러니까... 무슨 생각으로 생으로 하는 건지... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러니까/MAJ+./SY+무슨/MM+생각/NNG+으로/JKB+생/NNG+으로/JKB+하/VV+는/ETM+건지/NNB+VCP+EC+./SY+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 그거 수면 마취 하는 게 은근 비싸다더라구 그래서 생으로 하는 거 아닐까?",
+            "norm_text": "근데 그거 수면 마취 하는 게 은근 비싸다더라구 그래서 생으로 하는 거 아닐까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+그거/NP+수면/NNG+마취/NNG+하/XSV+는/ETM+게/NNB+JKS+은근/NNG+비싸/VA+다/EF+더라구/EF+그래서/MAJ+생/NNG+으로/JKB+하/VV+는/ETM+거/NNB+아닐까/VCN+EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 진짜? 비싸대? 그거는 보험 안되나?",
+            "norm_text": "아 진짜? 비싸대? 그거는 보험 안되나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG+비싸/VA+대/EF+그거/NP+는/JX+보험/NNG+안/MAG+되/VV+나/EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 글쎄 나도 해보질 않아서 모르겠네; 되지 않을까?",
+            "norm_text": "글쎄 나도 해보질 않아서 모르겠네; 되지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "글쎄/IC+나/NP+도/JX+해/VV+EC+보/VX+질/EC+JX+않/VX+아서/EC+모르/VV+겠/EP+네/EF+;/SY+되/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그래도 무조건 수면 마취는 해야지ㅜ 으... 너 언제 하러 갈 꺼야?",
+            "norm_text": "그래도 무조건 수면 마취는 해야지ㅜ 으... 너 언제 하러 갈 꺼야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+무조건/MAG+수면/NNG+마취/NNG+는/JX+해야지/VV+EF+ㅜ으/UNKNOWN+./SY+너/NP+언제/MAG+하/VV+러/EC+갈/VX+ETM+꺼/NNB+VCP+야/EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 모르겠어 키키 생각은 있는데 무서워서 예약을 못하겠네 키키",
+            "norm_text": "모르겠어 키키 생각은 있는데 무서워서 예약을 못하겠네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "모르/VV+겠/EP+어/EC+키/NNG+키/NNG+생각/NNG+은/JX+있/VA+는데/EC+무서워서/VA+EC+예약/NNG+을/JKO+못/MAG+하/VV+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 너 할 때 나도 같이 가자~! 그래도 혼자보단 같이 가면 조금 든든할 거 같아",
+            "norm_text": "너 할 때 나도 같이 가자~! 그래도 혼자보단 같이 가면 조금 든든할 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "너/NP+할/VV+ETM+때/NNG+나/NP+도/JX+같이/MAG+가/VV+자/EC+~/SY+그래도/MAJ+혼자/NNG+보단/JKB+JX+같이/MAG+가/VV+면/EC+조금/MAG+든든/XR+할/XSA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그렇겠지? 좋아! 같이 가자~ 병원부터 알아봐야겠다!",
+            "norm_text": "그렇겠지? 좋아! 같이 가자~ 병원부터 알아봐야겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그렇/VA+겠/EP+지/EF+좋/VA+아/EF+같이/MAG+가/VV+자/EC+~/SY+병원/NNG+부터/JX+알아봐야겠다/VV+EC+VX+EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

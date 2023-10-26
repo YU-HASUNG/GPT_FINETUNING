@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 44671,
+    "name": "KAKAO_782_15_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413034349/KAKAO_782_15_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210930150413034349/KAKAO_782_15_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 38306,
+      "filename": "KAKAO_782_15.txt",
+      "title": "KAKAO_782_15",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-30",
+      "size": 467,
+      "annotations": {
+        "subject": "타 국가 이슈",
+        "speaker_type": "1:1",
+        "size": 467,
+        "word_size": 141,
+        "text": "1 : 미국에 9.11 테러 사건 너 알아?\n2 : 어 그게 뭐야? 뉴스를 잘 안 봐서 모르겠어\n1 : 세계 무역 센터가 붕괴하면서 3천 명이 죽었어\n2 : 우와 미국에 그런 사건이 있었다고?\n1 : 2001년에 이슬람이 항공기를 납치해서 테러 한 거야\n2 : 대박이다... 그런 일이 있었는지 몰랐네 ㄷㄷ\n1 : 두 대의 비행기가 들이받아서 빌딩이 처참하게 주저앉았대\n2 : 우와 다친 사람은 없는 건가? 그 정도면 인명피해도 있었을 것 같은데?\n1 : 3천 명이 죽었다니깐! 근데 그게 벌써 20년이야\n2 : 진짜 대참사네... 매우 슬픈 사건이네 안타깝다\n1 : 그래서 항상 이슬람 IS랑 미국이 천적이잖아\n2 : 그런 사건이 있으면 천적이 될 수밖에 없겠다\n1 : 이번에도 아프간에 있는 미군 기지 공습하고 아주 난리야\n2 : 그 뉴스는 나도 본 것 같다\n1 : 수많은 미군이 목숨을 잃어서 마음이 아프더라 ㅠㅠ\n2 : 서로 서로 평화롭게 지냈으면 좋겠어",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 미국에 9.11 테러 사건 너 알아?",
+            "norm_text": "미국에 9.11 테러 사건 너 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "미국/NNP+에/JKB+9/SN+./SY+11/SN+테러/NNG+사건/NNG+너/NP+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어 그게 뭐야? 뉴스를 잘 안 봐서 모르겠어",
+            "norm_text": "어 그게 뭐야? 뉴스를 잘 안 봐서 모르겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어/IC+그게/NP+JKS+뭐/NP+야/VCP+EF+뉴스/NNG+를/JKO+잘/MAG+안/MAG+봐서/VV+EC+모르/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 세계 무역 센터가 붕괴하면서 3천 명이 죽었어",
+            "norm_text": "세계 무역 센터가 붕괴하면서 3천 명이 죽었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "세계무역센터/NNP+가/JKS+붕괴/NNG+하/XSV+면서/EC+3/SN+천/NR+명/NNBC+이/JKS+죽/VV+었/EP+어/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 우와 미국에 그런 사건이 있었다고?",
+            "norm_text": "우와 미국에 그런 사건이 있었다고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+미국/NNP+에/JKB+그런/MM+사건/NNG+이/JKS+있/VA+었/EP+다고/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 2001년에 이슬람이 항공기를 납치해서 테러 한 거야",
+            "norm_text": "2001년에 이슬람이 항공기를 납치해서 테러 한 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "2001/SN+년/NNBC+에/JKB+이슬람/NNP+이/JKS+항공기/NNG+를/JKO+납치/NNG+해서/XSV+EC+테러/NNG+한/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 대박이다... 그런 일이 있었는지 몰랐네 ㄷㄷ",
+            "norm_text": "대박이다... 그런 일이 있었는지 몰랐네 ㄷㄷ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대박/NNG+이/VCP+다/EF+./SY+그런/MM+일/NNG+이/JKS+있/VA+었/EP+는지/EC+몰랐/VV+EP+네/EF+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 두 대의 비행기가 들이받아서 빌딩이 처참하게 주저앉았대",
+            "norm_text": "두 대의 비행기가 들이받아서 빌딩이 처참하게 주저앉았대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "두/MM+대/NNBC+의/JKG+비행기/NNG+가/JKS+들이받/VV+아서/EC+빌딩/NNG+이/JKS+처참/XR+하/XSA+게/EC+주저앉/VV+았/EP+대/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 우와 다친 사람은 없는 건가? 그 정도면 인명피해도 있었을 것 같은데?",
+            "norm_text": "우와 다친 사람은 없는 건가? 그 정도면 인명피해도 있었을 것 같은데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "우와/IC+다친/VV+ETM+사람/NNG+은/JX+없/VA+는/ETM+건가/NNB+VCP+EF+그/MM+정도/NNG+면/VCP+EC+인명/NNG+피/NNG+해도/XSV+EC+있/VX+었/EP+을/ETM+것/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 3천 명이 죽었다니깐! 근데 그게 벌써 20년이야",
+            "norm_text": "3천 명이 죽었다니깐! 근데 그게 벌써 20년이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "3/SN+천/NR+명/NNBC+이/JKS+죽/VV+었/EP+다니깐/EF+근데/MAJ+그게/NP+JKS+벌써/MAG+20/SN+년/NNBC+이/VCP+야/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 진짜 대참사네... 매우 슬픈 사건이네 안타깝다",
+            "norm_text": "진짜 대참사네... 매우 슬픈 사건이네 안타깝다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "진짜/MAG+대참사/NNP+네/VCP+EF+./SY+매우/MAG+슬픈/VA+ETM+사건/NNG+이/JKS+네/IC+안타깝/VA+다/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그래서 항상 이슬람 IS랑 미국이 천적이잖아",
+            "norm_text": "그래서 항상 이슬람 IS랑 미국이 천적이잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+항상/MAG+이슬람/NNP+IS/SL+랑/JC+미국/NNP+이/JKS+천적/NNG+이/VCP+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 그런 사건이 있으면 천적이 될 수밖에 없겠다",
+            "norm_text": "그런 사건이 있으면 천적이 될 수밖에 없겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+사건/NNG+이/JKS+있/VV+으면/EC+천적/NNG+이/JKS+될/VV+ETM+수/NNB+밖에/JX+없/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 이번에도 아프간에 있는 미군 기지 공습하고 아주 난리야",
+            "norm_text": "이번에도 아프간에 있는 미군 기지 공습하고 아주 난리야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이번/NNG+에/JKB+도/JX+아프간/NNG+에/JKB+있/VV+는/ETM+미군/NNG+기지/NNG+공습/NNG+하/XSV+고/EC+아주/MAG+난리/NNG+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그 뉴스는 나도 본 것 같다",
+            "norm_text": "그 뉴스는 나도 본 것 같다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그/MM+뉴스/NNG+는/JX+나/NP+도/JX+본/VX+ETM+것/NNB+같/VA+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 수많은 미군이 목숨을 잃어서 마음이 아프더라 ㅠㅠ",
+            "norm_text": "수많은 미군이 목숨을 잃어서 마음이 아프더라 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "수많/VA+은/ETM+미군/NNG+이/JKS+목숨/NNG+을/JKO+잃/VV+어서/EC+마음/NNG+이/JKS+아프/VA+더라/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 서로 서로 평화롭게 지냈으면 좋겠어",
+            "norm_text": "서로 서로 평화롭게 지냈으면 좋겠어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서로/MAG+서로/MAG+평화/NNG+롭/XSA+게/EC+지냈/VV+EP+으면/EC+좋/VA+겠/EP+어/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

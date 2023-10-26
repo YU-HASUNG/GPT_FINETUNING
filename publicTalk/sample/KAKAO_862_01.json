@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 35069,
+    "name": "KAKAO_862_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173731011386/KAKAO_862_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173731011386/KAKAO_862_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39879,
+      "filename": "KAKAO_862_01.txt",
+      "title": "KAKAO_862_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 509,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 509,
+        "word_size": 180,
+        "text": "1 : 저녁 맛있게 먹었니 친구야\n2 : 나 이제 밥 먹으려고 뭐 먹을지 고민 중\n1 : 엥 저녁 먹고 온다고 하지 않았었어?\n2 : 제가 언제요 학교 끝나고 이제 집 왔어요 ㅜ\n2 : 넌 뭐 먹었어\n1 : 아 진짜? 키키 나도 퇴근하고 바로야 ㅠㅠ\n1 : 저녁 못 먹음\n2 : 헉 그럼 오늘의 저녁메뉴는 뭐니\n1 : 나 이따가 부대찌개 먹으려고!\n2 : 헉 좋겠다 나도 한입 줘, 배고파\n1 : 우리 집으로 건너와 키키\n1 : 이따 남친이랑 같이 먹기루 함\n2 : 헉 그럼 내가 낄끼빠빠 되는 거잖아 ㅜ\n2 : 부럽다 난 혼밥러\n1 : 키키 너 친하잖아 ㅠㅠ\n1 : 그냥 와서 같이 먹어 괜찮아\n2 : 키키 그럼 물어보고 알려줘\n2 : 나 부대찌개 사랑해 그리고 부대찌개는 콜라랑 먹어야지 ㅜ\n2 : 알지? 탄산이 싹 내려주는 거\n1 : 미안한데 나 원래 탄산 안 먹어 ^^\n1 : 진짜 물어볼까 올래?\n2 : 너무 좋지 남친은 탄산 먹을 수도 있잖아 ㅜ\n1 : 걔는 좋아하는 것 같긴 하더라\n2 : 먹을 줄 아는 남자네\n2 : 탄산 안 마시면 답답해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저녁 맛있게 먹었니 친구야",
+            "norm_text": "저녁 맛있게 먹었니 친구야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저녁/NNG+맛있/VA+게/EC+먹/VV+었/EP+니/EC+친구/NNG+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 이제 밥 먹으려고 뭐 먹을지 고민 중",
+            "norm_text": "나 이제 밥 먹으려고 뭐 먹을지 고민 중",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+이제/MAG+밥/NNG+먹/VV+으려고/EC+뭐/IC+먹/VV+을지/EC+고민/NNG+중/NNB"
+          },
+          {
+            "id": 3,
+            "text": "1 : 엥 저녁 먹고 온다고 하지 않았었어?",
+            "norm_text": "엥 저녁 먹고 온다고 하지 않았었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+저녁/NNG+먹/VV+고/EC+온다고/VV+EC+하/VV+지/EC+않/VX+았었/EP+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 제가 언제요 학교 끝나고 이제 집 왔어요 ㅜ",
+            "norm_text": "제가 언제요 학교 끝나고 이제 집 왔어요 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제/NP+가/JKS+언제/MAG+요/MM+학교/NNG+끝/NNG+나/VV+고/EC+이제/MAG+집/NNG+왔/VV+EP+어요/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 넌 뭐 먹었어",
+            "norm_text": "넌 뭐 먹었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+뭐/NP+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아 진짜? 키키 나도 퇴근하고 바로야 ㅠㅠ",
+            "norm_text": "아 진짜? 키키 나도 퇴근하고 바로야 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+진짜/MAG+키/NNG+키나/XSA+ETN+JX+도/JX+퇴근/NNG+하/XSV+고/EC+바로/MAG+야/JX+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 저녁 못 먹음",
+            "norm_text": "저녁 못 먹음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "저녁/NNG+못/MAG+먹/VV+음/ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 헉 그럼 오늘의 저녁메뉴는 뭐니",
+            "norm_text": "헉 그럼 오늘의 저녁메뉴는 뭐니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헉/IC+그럼/MAJ+오늘/NNG+의/JKG+저녁/NNG+메뉴/NNG+는/JX+뭐/NP+니/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 나 이따가 부대찌개 먹으려고!",
+            "norm_text": "나 이따가 부대찌개 먹으려고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+이따가/MAG+부대찌개/NNG+먹/VV+으려고/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헉 좋겠다 나도 한입 줘, 배고파",
+            "norm_text": "헉 좋겠다 나도 한입 줘, 배고파",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+좋/VA+겠/EP+다/EF+나/NP+도/JX+한입/NNG+줘/VV+EF+,/SC+배고파/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 우리 집으로 건너와 키키",
+            "norm_text": "우리 집으로 건너와 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+집/NNG+으로/JKB+건너/NNG+와/JC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 이따 남친이랑 같이 먹기루 함",
+            "norm_text": "이따 남친이랑 같이 먹기루 함",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이따/MAG+남친/NNG+이랑/JKB+같이/MAG+먹/VV+기/ETN+루/JKB+함/VV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 헉 그럼 내가 낄끼빠빠 되는 거잖아 ㅜ",
+            "norm_text": "헉 그럼 내가 낄끼빠빠 되는 거잖아 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/IC+그럼/MAJ+내/NP+가/JKS+낄/VV+ETM+끼/NNG+빠빠/NNP+되/VV+는/ETM+거/NNB+잖아/VCP+EC+VX+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 부럽다 난 혼밥러",
+            "norm_text": "부럽다 난 혼밥러",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "부럽다난혼밥러/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 키키 너 친하잖아 ㅠㅠ",
+            "norm_text": "키키 너 친하잖아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+너/NP+친하/VA+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그냥 와서 같이 먹어 괜찮아",
+            "norm_text": "그냥 와서 같이 먹어 괜찮아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+와서/VV+EC+같이/MAG+먹/VV+어/EC+괜찮/VA+아/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 키키 그럼 물어보고 알려줘",
+            "norm_text": "키키 그럼 물어보고 알려줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그럼/MAJ+물/VV+어/EC+보/VX+고/EC+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 나 부대찌개 사랑해 그리고 부대찌개는 콜라랑 먹어야지 ㅜ",
+            "norm_text": "나 부대찌개 사랑해 그리고 부대찌개는 콜라랑 먹어야지 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+부대찌개/NNG+사랑/NNG+해/XSV+EC+그리고/MAJ+부대찌개/NNG+는/JX+콜라/NNG+랑/JKB+먹/VV+어야/EC+지ㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 알지? 탄산이 싹 내려주는 거",
+            "norm_text": "알지? 탄산이 싹 내려주는 거",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+지/EF+탄산/NNG+이/JKS+싹/MAG+내려/VV+EC+주/VX+는/ETM+거/NNB"
+          },
+          {
+            "id": 20,
+            "text": "1 : 미안한데 나 원래 탄산 안 먹어 ^^",
+            "norm_text": "미안한데 나 원래 탄산 안 먹어 ^^",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "미안/NNG+한/XSA+ETM+데/NNB+나/JX+원래/MAG+탄산/NNG+안/MAG+먹/VV+어/EC+^/SY+^/SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 진짜 물어볼까 올래?",
+            "norm_text": "진짜 물어볼까 올래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "진짜/MAG+물어볼까/VV+EC+올래/VV+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 너무 좋지 남친은 탄산 먹을 수도 있잖아 ㅜ",
+            "norm_text": "너무 좋지 남친은 탄산 먹을 수도 있잖아 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+좋/VA+지/EC+남친/NNG+은/JX+탄산/NNG+먹/VV+을/ETM+수/NNB+도/JX+있/VA+잖아/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 걔는 좋아하는 것 같긴 하더라",
+            "norm_text": "걔는 좋아하는 것 같긴 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "걔/NP+는/JX+좋/VA+아/EC+하/VV+는/ETM+것/NNB+같/VA+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 먹을 줄 아는 남자네",
+            "norm_text": "먹을 줄 아는 남자네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "먹/VV+을/ETM+줄/NNB+아/VV+는/ETM+남자/NNG+네/XSN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 탄산 안 마시면 답답해",
+            "norm_text": "탄산 안 마시면 답답해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "탄산/NNG+안/MAG+마시/VV+면/EC+답답/XR+해/XSA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

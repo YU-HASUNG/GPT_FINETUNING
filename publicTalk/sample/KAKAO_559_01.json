@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 29018,
+    "name": "KAKAO_559_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161241058098/KAKAO_559_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917161241058098/KAKAO_559_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 30092,
+      "filename": "KAKAO_559_01.txt",
+      "title": "KAKAO_559_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 374,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 374,
+        "word_size": 128,
+        "text": "1 : 저녁 뭐 먹었어? 언니~ ?\n2 : 나 배달 음식 시켜 먹었어~\n1 : 아 그래 키키 배달 뭐?\n2 : 나 아보카도 덮밥 먹었어~\n1 : 헐 키키 나도 그거 좋아하는데 ㅠㅠ\n2 : 근데 별로였어 명란이 들어가서 ㅜ\n1 : 왜? 명란도 맛있는데 ㅜㅜ 키키\n2 : 좀 비리더라고 나한테는 그래서 다 버렸어 ㅜㅜ\n1 : 아 헐 명란 말고 연어가 들어가야 하는데 ...\n2 : 근데 연어는 다 품절이라고 해서 ㅜ\n1 : 아 그래? 아쉽겠다 키키\n1 : 그럼 설거지 다했어?\n2 : 응 숟가락만 설거지 하면 돼서 이미 끝났지~\n1 : 키키 그게 바로 배달의 장점 ㅋㅎㅋㅎ\n2 : 그치 근데 배달비가 장난 아니야 ㅜ\n1 : 아 그치 이번에 얼마 정도 나왔어?\n2 : 9천 원 나왔어 배달료 할인 돼서!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저녁 뭐 먹었어? 언니~ ?",
+            "norm_text": "저녁 뭐 먹었어? 언니~ ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저녁/NNG+뭐/IC+먹/VV+었/EP+어/EF+언니/NNG+~/SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 배달 음식 시켜 먹었어~",
+            "norm_text": "나 배달 음식 시켜 먹었어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+배달/NNG+음식/NNG+시켜/XSV+EC+먹/VV+었/EP+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "1 : 아 그래 키키 배달 뭐?",
+            "norm_text": "아 그래 키키 배달 뭐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+키/NNG+키/NNG+배달/NNG+뭐/IC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 아보카도 덮밥 먹었어~",
+            "norm_text": "나 아보카도 덮밥 먹었어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+아보카도/NNG+덮밥/NNG+먹/VV+었/EP+어/EC+~/SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 헐 키키 나도 그거 좋아하는데 ㅠㅠ",
+            "norm_text": "헐 키키 나도 그거 좋아하는데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+키/NNG+키나/XSA+ETN+JX+도/JX+그거/NP+좋/VA+아/EC+하/VV+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 근데 별로였어 명란이 들어가서 ㅜ",
+            "norm_text": "근데 별로였어 명란이 들어가서 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+별로/MAG+였/VCP+EP+어/EC+명란/NNG+이/JKS+들어가/VV+서/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 왜? 명란도 맛있는데 ㅜㅜ 키키",
+            "norm_text": "왜? 명란도 맛있는데 ㅜㅜ 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+명란/NNG+도/JX+맛있/VA+는데/EC+ㅜㅜ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 좀 비리더라고 나한테는 그래서 다 버렸어 ㅜㅜ",
+            "norm_text": "좀 비리더라고 나한테는 그래서 다 버렸어 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "좀/MAG+비리/VA+더라고/EF+나/NP+한테/JKB+는/JX+그래서/MAJ+다/MAG+버렸/VV+EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아 헐 명란 말고 연어가 들어가야 하는데 ...",
+            "norm_text": "아 헐 명란 말고 연어가 들어가야 하는데 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+헐/IC+명란/NNG+말/VV+고/EC+연어/NNG+가/JKS+들어가/VV+야/EC+하/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 근데 연어는 다 품절이라고 해서 ㅜ",
+            "norm_text": "근데 연어는 다 품절이라고 해서 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+연어/NNG+는/JX+다/MAG+품절/NNG+이/VCP+라고/EC+해서/VV+EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아 그래? 아쉽겠다 키키",
+            "norm_text": "아 그래? 아쉽겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그래/IC+아쉽/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그럼 설거지 다했어?",
+            "norm_text": "그럼 설거지 다했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+설거지/NNG+다/VCP+EC+했/VX+EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 숟가락만 설거지 하면 돼서 이미 끝났지~",
+            "norm_text": "응 숟가락만 설거지 하면 돼서 이미 끝났지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+숟가락/NNG+만/JX+설거지/NNG+하/XSV+면/EC+돼서/VV+EC+이미/MAG+끝/NNG+났/VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 키키 그게 바로 배달의 장점 ㅋㅎㅋㅎ",
+            "norm_text": "키키 그게 바로 배달의 장점 ㅋㅎㅋㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그게/NP+JKS+바로/MAG+배달/NNG+의/JKG+장점/NNG+ㅋㅎ/UNKNOWN+ㅋㅎ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그치 근데 배달비가 장난 아니야 ㅜ",
+            "norm_text": "그치 근데 배달비가 장난 아니야 ㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+근데/MAJ+배/NNG+달비/NNG+가/JKS+장난/NNG+아니/VCN+야/EC+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아 그치 이번에 얼마 정도 나왔어?",
+            "norm_text": "아 그치 이번에 얼마 정도 나왔어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그치/IC+이번/NNG+에/JKB+얼마/NNG+정도/NNG+나왔/VV+EP+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 9천 원 나왔어 배달료 할인 돼서!",
+            "norm_text": "9천 원 나왔어 배달료 할인 돼서!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "9/SN+천/NR+원/NNBC+나왔/VV+EP+어/EC+배/NNG+달료/NNG+할인/NNG+돼서/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 24291,
+    "name": "KAKAO_565_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160902058192/KAKAO_565_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210923160902058192/KAKAO_565_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 31725,
+      "filename": "KAKAO_565_14.txt",
+      "title": "KAKAO_565_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-23",
+      "size": 559,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 559,
+        "word_size": 174,
+        "text": "1 : 언니 선릉역 사고 난 거 알아?\n2 : 선릉역에서 사고 났었어?\n2 : 나는 항상 그런 소식 너한테 듣는다\n1 : 내 남친 직장 바로 앞에서 났는데 끔찍해\n2 : 으으 근데 외곽도 아니고 강남 도로에서 어떻게 사고 났길래 죽었을까\n1 : 빨간불 일 때 트럭 앞으로 끼어들기 했는데 트럭이 못 보고 그대로 출발했대\n2 : 어머머머 아니 얼마나 빨리 출발을 했길래 그랬지\n1 : 그게 오토바이가 끼어들면서 신호가 같이 바뀌었나 그래\n1 : 영상 보내줄까?\n2 : 아니 그래도 서있다가 출발 하는데 엄청 엑셀을 밟았다는 거자나\n1 : 아냐 그냥 흘러가듯이 끼어 들어가\n1 : 아 잔인해 오토바이 문제야 ㅠ\n2 : 아 너무 끔찍하다 영상 그냥 안 볼래\n1 : 그래서 오토바이 단속했더니 90대나 걸렸댔나\n2 : 뭐 끼어들기 하는 오토바이들 얘기하는 건가?\n1 : 응 차선 사이로 움직이면 안된다네?\n2 : 오토바이는 안 그러고 타는 사람 더 적을걸? 와리 가리고 하지 키키\n1 : 그래서 지금 오토바이도 단속 심하게 할 거래 워낙 사망 사고 많아서\n2 : 맞아 오토바이 너무 위험한데 우리 언니 지금 면허 따려고 오토바이 학원 다녀",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 선릉역 사고 난 거 알아?",
+            "norm_text": "언니 선릉역 사고 난 거 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+선릉/NNG+역사/NNG+고/VCP+EC+난/VX+ETM+거/NNB+알/VV+아/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 선릉역에서 사고 났었어?",
+            "norm_text": "선릉역에서 사고 났었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "선릉역/NNP+에서/JKB+사/VV+고/EC+났었/VX+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나는 항상 그런 소식 너한테 듣는다",
+            "norm_text": "나는 항상 그런 소식 너한테 듣는다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+항상/MAG+그런/MM+소식/NNG+너/NP+한테/JKB+듣/VV+는다/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 내 남친 직장 바로 앞에서 났는데 끔찍해",
+            "norm_text": "내 남친 직장 바로 앞에서 났는데 끔찍해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+남친/NNG+직장/NNG+바로/MAG+앞/NNG+에서/JKB+났/VV+EP+는데/EC+끔찍/XR+해/XSA+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 으으 근데 외곽도 아니고 강남 도로에서 어떻게 사고 났길래 죽었을까",
+            "norm_text": "으으 근데 외곽도 아니고 강남 도로에서 어떻게 사고 났길래 죽었을까",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "으으/IC+근데/MAJ+외곽/NNG+도/JX+아니/VCN+고/EC+강남/NNP+도로/NNG+에서/JKB+어떻게/MAG+사/VV+고/EC+났/VV+EP+길래/EC+죽/VV+었/EP+을까/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 빨간불 일 때 트럭 앞으로 끼어들기 했는데 트럭이 못 보고 그대로 출발했대",
+            "norm_text": "빨간불 일 때 트럭 앞으로 끼어들기 했는데 트럭이 못 보고 그대로 출발했대",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "빨간/VA+ETM+불/XPN+일/NR+때/NNG+트럭/NNG+앞/NNG+으로/JKB+끼어들기/NNG+했/XSV+EP+는데/EC+트럭/NNG+이/JKS+못/MAG+보/VV+고/EC+그대로/MAG+출발/NNG+했/XSV+EP+대/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 어머머머 아니 얼마나 빨리 출발을 했길래 그랬지",
+            "norm_text": "어머머머 아니 얼마나 빨리 출발을 했길래 그랬지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어머머머/IC+아니/IC+얼마나/MAG+빨리/MAG+출발/NNG+을/JKO+했/VV+EP+길래/EC+그랬/VV+EP+지/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 그게 오토바이가 끼어들면서 신호가 같이 바뀌었나 그래",
+            "norm_text": "그게 오토바이가 끼어들면서 신호가 같이 바뀌었나 그래",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그게/NP+JKS+오토바이/NNG+가/JKS+끼어들/VV+면서/EC+신호/NNG+가/JKS+같이/MAG+바뀌/VV+었/EP+나/EC+그래/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 영상 보내줄까?",
+            "norm_text": "영상 보내줄까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "영상/NNG+보내/VV+EC+줄까/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아니 그래도 서있다가 출발 하는데 엄청 엑셀을 밟았다는 거자나",
+            "norm_text": "아니 그래도 서있다가 출발 하는데 엄청 엑셀을 밟았다는 거자나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+그래도/MAJ+서/EC+있/VX+다가/EC+출발/NNG+하/XSV+는/ETM+데/NNB+엄청/MAG+엑/IC+셀/NNG+을/JKO+밟/VV+았/EP+다는/ETM+거/NNB+자나/NNG"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아냐 그냥 흘러가듯이 끼어 들어가",
+            "norm_text": "아냐 그냥 흘러가듯이 끼어 들어가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아냐/IC+그냥/MAG+흘러가/VV+듯이/EC+끼/VV+어/EC+들어가/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 아 잔인해 오토바이 문제야 ㅠ",
+            "norm_text": "아 잔인해 오토바이 문제야 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+잔인/NNG+해/XSV+EC+오토바이/NNG+문제/NNG+야/VCP+EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 너무 끔찍하다 영상 그냥 안 볼래",
+            "norm_text": "아 너무 끔찍하다 영상 그냥 안 볼래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+너무/MAG+끔찍/XR+하/XSA+다/EC+영상/NNG+그냥/MAG+안/MAG+볼래/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 그래서 오토바이 단속했더니 90대나 걸렸댔나",
+            "norm_text": "그래서 오토바이 단속했더니 90대나 걸렸댔나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+오토바이/NNG+단속/NNG+했/XSV+EP+더니/EC+90/SN+대/NNBC+나/JX+걸렸/VV+EP+댔/EC+VX+EP+나/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 뭐 끼어들기 하는 오토바이들 얘기하는 건가?",
+            "norm_text": "뭐 끼어들기 하는 오토바이들 얘기하는 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+끼어들기/NNG+하/XSV+는/ETM+오토바이/NNG+들/XSN+얘기/NNG+하/XSV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 응 차선 사이로 움직이면 안된다네?",
+            "norm_text": "응 차선 사이로 움직이면 안된다네?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+차선/NNG+사이/NNG+로/JKB+움직이/VV+면/EC+안/MAG+된다네/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 오토바이는 안 그러고 타는 사람 더 적을걸? 와리 가리고 하지 키키",
+            "norm_text": "오토바이는 안 그러고 타는 사람 더 적을걸? 와리 가리고 하지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오토바이/NNG+는/JX+안/MAG+그러/VV+고/EC+타/VV+는/ETM+사람/NNG+더/MAG+적/VA+을걸/EF+와리/NNP+가리/VV+고/EC+하/VV+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그래서 지금 오토바이도 단속 심하게 할 거래 워낙 사망 사고 많아서",
+            "norm_text": "그래서 지금 오토바이도 단속 심하게 할 거래 워낙 사망 사고 많아서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+지금/MAG+오토바이/NNG+도/JX+단속/NNG+심하/VA+게/EC+할/VX+ETM+거/NNB+래/VCP+EF+워낙/MAG+사망/NNG+사고/NNG+많/VA+아서/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 맞아 오토바이 너무 위험한데 우리 언니 지금 면허 따려고 오토바이 학원 다녀",
+            "norm_text": "맞아 오토바이 너무 위험한데 우리 언니 지금 면허 따려고 오토바이 학원 다녀",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+오토바이/NNG+너무/MAG+위험/NNG+한데/XSA+EC+우리/NP+언니/NNG+지금/MAG+면허/NNG+따/VV+려고/EC+오토바이/NNG+학원/NNG+다녀/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 34749,
+    "name": "KAKAO_857_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173807045593/KAKAO_857_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20211001173807045593/KAKAO_857_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 39952,
+      "filename": "KAKAO_857_14.txt",
+      "title": "KAKAO_857_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-01",
+      "size": 380,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 380,
+        "word_size": 122,
+        "text": "1 : 뉴스보니 서울에서 치매걸린 와이프랑 남편이 같이 사망하는 사건이 있더라구\n2 : 왜 독고 노인들이라서 돌아가신 거야?\n1 : 남편이 끝까지 돌보겠다 했는데 극단적인 선택을 한 것 같아\n2 : 마음 아픈 일이네 정말…\n1 : 그러니까 어쩔 수가 없었나 봐\n2 : 여보는 나 치매 걸리면 어떡할 거야.\n1 : 어떡하긴 뭘 어떻게 데리고 살아야지\n2 : 밥 먹여 주고 소변 다 가려줄 거야?\n1 : 당연하지 애기로 태어나서 다시 애기가 되는 건데\n2 : 치매 안 걸리게 내일부터 고스톱 치자.\n1 : ** 동전 들고 와서 칠까? ㅋ\n2 : **한테 말하고 가져와야돼.\n1 : 저번에도 **걸로 쳤잖아 ㅋ\n2 : 말 안 하고 쓰면 ** 화낸다.\n1 : 에이 ㅋ 화내진 않을 거야\n2 : 화내면 여보가 혼나.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 뉴스보니 서울에서 치매걸린 와이프랑 남편이 같이 사망하는 사건이 있더라구",
+            "norm_text": "뉴스보니 서울에서 치매걸린 와이프랑 남편이 같이 사망하는 사건이 있더라구",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "뉴스/NNG+보/VV+니/EC+서울/NNP+에서/JKB+치매/NNG+걸린/VV+ETM+와이프/NNG+랑/JKB+남편/NNG+이/JKS+같이/MAG+사망/NNG+하/XSV+는/ETM+사건/NNG+이/JKS+있/VV+더라구/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 왜 독고 노인들이라서 돌아가신 거야?",
+            "norm_text": "왜 독고 노인들이라서 돌아가신 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+독고/NNG+노인/NNG+들/XSN+이/VCP+라서/EC+돌아가/VV+신/EP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 남편이 끝까지 돌보겠다 했는데 극단적인 선택을 한 것 같아",
+            "norm_text": "남편이 끝까지 돌보겠다 했는데 극단적인 선택을 한 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "남편/NNG+이/JKS+끝/NNG+까지/JX+돌보/VV+겠/EP+다/EC+했/VX+EP+는데/EC+극단/NNG+적/XSN+인/VCP+ETM+선택/NNG+을/JKO+한/VV+ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 마음 아픈 일이네 정말…",
+            "norm_text": "마음 아픈 일이네 정말…",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마음/NNG+아픈/VA+ETM+일/NNG+이/VCP+네/EF+정말/MAG+…/SE"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그러니까 어쩔 수가 없었나 봐",
+            "norm_text": "그러니까 어쩔 수가 없었나 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러니까/MAJ+어쩔/VV+ETM+수/NNB+가/JKS+없/VA+었/EP+나/EC+봐/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 여보는 나 치매 걸리면 어떡할 거야.",
+            "norm_text": "여보는 나 치매 걸리면 어떡할 거야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "여보/NNG+는/JX+나/NP+치매/NNG+걸리/VV+면/EC+어떡/XR+할/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어떡하긴 뭘 어떻게 데리고 살아야지",
+            "norm_text": "어떡하긴 뭘 어떻게 데리고 살아야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떡/XR+하/XSA+긴/ETN+JX+뭘/NP+JKO+어떻게/MAG+데리/VV+고/EC+살/VV+아야지/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 밥 먹여 주고 소변 다 가려줄 거야?",
+            "norm_text": "밥 먹여 주고 소변 다 가려줄 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "밥/NNG+먹여/VV+EC+주/VX+고/EC+소변/NNG+다/MAG+가려줄/VV+EC+VX+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 당연하지 애기로 태어나서 다시 애기가 되는 건데",
+            "norm_text": "당연하지 애기로 태어나서 다시 애기가 되는 건데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EC+애기/NNG+로/JKB+태어나/VV+서/EC+다시/MAG+애기/NNG+가/JKS+되/VV+는/ETM+건데/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 치매 안 걸리게 내일부터 고스톱 치자.",
+            "norm_text": "치매 안 걸리게 내일부터 고스톱 치자.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "치매/NNG+안/MAG+걸리/VV+게/EC+내일/NNG+부터/JX+고스톱/NNG+치/VV+자/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : ** 동전 들고 와서 칠까? ㅋ",
+            "norm_text": "** 동전 들고 와서 칠까? ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+동전/NNG+들/VV+고/EC+와서/VV+EC+칠까/VV+EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : **한테 말하고 가져와야돼.",
+            "norm_text": "**한테 말하고 가져와야돼.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "*/SY+*/SY+한테/JKB+말/NNG+하/XSV+고/EC+가져와야/VV+EC+돼/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 저번에도 **걸로 쳤잖아 ㅋ",
+            "norm_text": "저번에도 **걸로 쳤잖아 ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "저번/NNG+에/JKB+도/JX+*/SY+*/SY+걸로쳤잖아ㅋ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 말 안 하고 쓰면 ** 화낸다.",
+            "norm_text": "말 안 하고 쓰면 ** 화낸다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "말/NNG+안/MAG+하/VV+고/EC+쓰/VV+면/EC+*/SY+*/SY+화/XSN+낸다/VV+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 에이 ㅋ 화내진 않을 거야",
+            "norm_text": "에이 ㅋ 화내진 않을 거야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "에이/NNG+ㅋ화/UNKNOWN+내/VV+진/EC+JX+않/VX+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 화내면 여보가 혼나.",
+            "norm_text": "화내면 여보가 혼나.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "화/IC+내면/NNP+여보/NNG+가/JKS+혼나/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 27501,
+    "name": "KAKAO_483_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144544059518/KAKAO_483_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916144544059518/KAKAO_483_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28212,
+      "filename": "KAKAO_483_02.txt",
+      "title": "KAKAO_483_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 805,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "1:1",
+        "size": 805,
+        "word_size": 263,
+        "text": "1 : 요즘 부동산값 너무 올랐어.\n1 : 난 내 집 언제 살 수 있어?\n2 : 아마 아무 것도 안 먹고 안 쓴다면 100년 이내에 살 수 있을 거란다 동생아\n1 : 진짜 피가 되고 살이 되는 조언이네\n1 : 내 미래가 장미빛인 것 같아서 눈물이 나오려고 해\n2 : 꼬박꼬박 받은 월급을 통장에 다 넣어 두고 있으련\n2 : 절대 다른 곳에 1원 한 푼 사용하면 안 된단다\n1 : 키키 아 화나게 하지 마 ㅠㅠ\n1 : 월세 살이 그만하고 내 집 마련하고 싶은데 그냥 오빠가 로또 일등 당첨돼서 좀만 나눠 주라\n2 : 1등 되면 오빠는 쥐도 새도 모르게 없어져 있을 거란다...\n1 : 가족도 부동산 시장 앞에선 무용지물이구만\n2 : 답은 제테크야\n1 : 키키 개웃기넹 키키\n1 : 난 그냥 돈 많은 남자 만나서 시집 가래 엄마가\n2 : 동생아 니가 아무리 사람답게 생겼다고 치지만 돈 많은 사람이 왜 뭐가 문제라서...\n1 : 나도 그렇게 말하긴 했어. 그 사람도 돈 많은 사람 만나고 싶을 텐데 나를 왜, ...\n2 : 그럴 바엔 지금부터라도 청약 통장을 만들어서 주택 청약을 노려보는 건 어떠니\n2 : 그럼 아파트 좋은 거 당첨될지도 모르잖니\n1 : 청약 통장하고 있어. 코로나 처음 터져서 일자리 없어졌을 때 생활비 없어서 2년 든 거 깨버려서 다시 하는 중이지만...\n2 : 깨버리면 안 돼... 청약 통장은 기간이 중요한 거라\n2 : 다른 사람들은 벌써 몇 십 년 청약 들어 놓고 하는데 넌 기간이 너무 짧으면 점수가 안 나와 ㅜㅜ\n1 : 그러니까. 나도 너무 아쉬워\n1 : 지금 청약은 다시 든 지 한 2년 좀 안 된 거 같은데.\n2 : 그럼 가망이 없어 ㅜㅜ 너무 짧아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 부동산값 너무 올랐어.",
+            "norm_text": "요즘 부동산값 너무 올랐어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+부동산/NNG+값/NNG+너무/MAG+올랐/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 난 내 집 언제 살 수 있어?",
+            "norm_text": "난 내 집 언제 살 수 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "난/NP+JX+내/NP+JKG+집/NNG+언제/MAG+살/VV+ETM+수/NNB+있/VV+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아마 아무 것도 안 먹고 안 쓴다면 100년 이내에 살 수 있을 거란다 동생아",
+            "norm_text": "아마 아무 것도 안 먹고 안 쓴다면 100년 이내에 살 수 있을 거란다 동생아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아마/MAG+아무것/NP+도/JX+안/MAG+먹/VV+고/EC+안/MAG+쓴다면/VV+EC+100/SN+년/NNBC+이내/NNG+에/JKB+살/VV+ETM+수/NNB+있/VV+을/ETM+거/NNB+란다/VCP+EF+동생/NNG+아/JKV"
+          },
+          {
+            "id": 4,
+            "text": "1 : 진짜 피가 되고 살이 되는 조언이네",
+            "norm_text": "진짜 피가 되고 살이 되는 조언이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+피/NNG+가/JKS+되/VV+고/EC+살/NNG+이/JKS+되/VV+는/ETM+조언/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 내 미래가 장미빛인 것 같아서 눈물이 나오려고 해",
+            "norm_text": "내 미래가 장미빛인 것 같아서 눈물이 나오려고 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "내/NP+JKG+미래/NNG+가/JKS+장미/NNG+빛/NNG+인/VCP+ETM+것/NNB+같/VA+아서/EC+눈물/NNG+이/JKS+나오/VV+려고/EC+해/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 꼬박꼬박 받은 월급을 통장에 다 넣어 두고 있으련",
+            "norm_text": "꼬박꼬박 받은 월급을 통장에 다 넣어 두고 있으련",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "꼬박꼬박/MAG+받/VV+은/ETM+월급/NNG+을/JKO+통장/NNG+에다/JKB+넣/VV+어/EC+두/VX+고/EC+있/VX+으련/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 절대 다른 곳에 1원 한 푼 사용하면 안 된단다",
+            "norm_text": "절대 다른 곳에 1원 한 푼 사용하면 안 된단다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "절대/MAG+다른/MM+곳/NNG+에/JKB+1/SN+원/NNBC+한/MM+푼/NNBC+사용/NNG+하/XSV+면/EC+안/MAG+된단다/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 키키 아 화나게 하지 마 ㅠㅠ",
+            "norm_text": "키키 아 화나게 하지 마 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "키/NNG+키/VV+아/EC+화나/VV+게/EC+하/VV+지/EC+마/VX+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 월세 살이 그만하고 내 집 마련하고 싶은데 그냥 오빠가 로또 일등 당첨돼서 좀만 나눠 주라",
+            "norm_text": "월세 살이 그만하고 내 집 마련하고 싶은데 그냥 오빠가 로또 일등 당첨돼서 좀만 나눠 주라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "월세/NNG+살/NNG+이/JKS+그만/MAG+하/VV+고/EC+내/NP+JKG+집/NNG+마련/NNG+하/XSV+고/EC+싶/VX+은데/EC+그냥/MAG+오빠/NNG+가/JKS+로또/NNP+일/NR+등/NNBC+당첨/NNG+돼서/XSV+EC+좀/MAG+만/JX+나눠/VV+EC+주/VX+라/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 1등 되면 오빠는 쥐도 새도 모르게 없어져 있을 거란다...",
+            "norm_text": "1등 되면 오빠는 쥐도 새도 모르게 없어져 있을 거란다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "1/SN+등/NNBC+되/VV+면/EC+오빠/NNG+는/JX+쥐/NNG+도/JX+새/NNG+도/JX+모르/VV+게/EC+없/VA+어/EC+져/VX+EC+있/VX+을/ETM+거/NNB+란다/VCP+EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 가족도 부동산 시장 앞에선 무용지물이구만",
+            "norm_text": "가족도 부동산 시장 앞에선 무용지물이구만",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가족/NNG+도/JX+부동산/NNG+시장/NNG+앞/NNG+에선/JKB+JX+무용지물/NNG+이/VCP+구만/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 답은 제테크야",
+            "norm_text": "답은 제테크야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "답/NNG+은/JX+제/MM+테크/NNP+야/JKV"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 개웃기넹 키키",
+            "norm_text": "키키 개웃기넹 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키키개웃기넹키키/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "1 : 난 그냥 돈 많은 남자 만나서 시집 가래 엄마가",
+            "norm_text": "난 그냥 돈 많은 남자 만나서 시집 가래 엄마가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+그냥/MAG+돈/NNG+많/VA+은/ETM+남자/NNG+만나/VV+서/EC+시집/NNG+가래/NNG+엄마/NNG+가/JKS"
+          },
+          {
+            "id": 15,
+            "text": "2 : 동생아 니가 아무리 사람답게 생겼다고 치지만 돈 많은 사람이 왜 뭐가 문제라서...",
+            "norm_text": "동생아 니가 아무리 사람답게 생겼다고 치지만 돈 많은 사람이 왜 뭐가 문제라서...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "동생/NNG+아니/VCN+가/JKS+아무리/MAG+사람/NNG+답/XSA+게/EC+생겼/VV+EP+다고/EC+치/VV+지만/EC+돈/NNG+많/VA+은/ETM+사람/NNG+이/JKS+왜/MAG+뭐/NP+가/JKS+문제/NNG+라서/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나도 그렇게 말하긴 했어. 그 사람도 돈 많은 사람 만나고 싶을 텐데 나를 왜, ...",
+            "norm_text": "나도 그렇게 말하긴 했어. 그 사람도 돈 많은 사람 만나고 싶을 텐데 나를 왜, ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+그렇/VA+게/EC+말/NNG+하/XSV+긴/ETN+JX+했/VX+EP+어/EF+그/MM+사람/NNG+도/JX+돈/NNG+많/VA+은/ETM+사람/NNG+만나/VV+고/EC+싶/VX+을/ETM+텐데/NNB+VCP+EC+나/NP+를/JKO+왜/MAG+,/SC+./SY+./SY"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그럴 바엔 지금부터라도 청약 통장을 만들어서 주택 청약을 노려보는 건 어떠니",
+            "norm_text": "그럴 바엔 지금부터라도 청약 통장을 만들어서 주택 청약을 노려보는 건 어떠니",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그럴/VA+ETM+바/NNB+엔/JKB+JX+지금/NNG+부터/JX+라도/VCP+EC+청약/NNG+통장/NNG+을/JKO+만들/VV+어서/EC+주택/NNG+청약/NNG+을/JKO+노려보/VV+는/ETM+건/NNB+JX+어떠/VA+니/EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 그럼 아파트 좋은 거 당첨될지도 모르잖니",
+            "norm_text": "그럼 아파트 좋은 거 당첨될지도 모르잖니",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+아파트/NNG+좋/VA+은/ETM+거/NNB+당첨/NNG+될지/XSV+EC+도/JX+모르/VV+잖니/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 청약 통장하고 있어. 코로나 처음 터져서 일자리 없어졌을 때 생활비 없어서 2년 든 거 깨버려서 다시 하는 중이지만...",
+            "norm_text": "청약 통장하고 있어. 코로나 처음 터져서 일자리 없어졌을 때 생활비 없어서 2년 든 거 깨버려서 다시 하는 중이지만...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "청약/NNG+통장/NNG+하/XSV+고/EC+있/VX+어/EF+코로나/NNG+처음/NNG+터져서/VV+EC+일자리/NNG+없/VA+어/EC+졌/VX+EP+을/ETM+때/NNG+생활비/NNG+없/VA+어서/EC+2/SN+년/NNBC+든/VV+ETM+거/NNB+깨/VV+버려서/EC+VX+EC+다시/MAG+하/VV+는/ETM+중/NNB+이/VCP+지만/EC+./SY+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 깨버리면 안 돼... 청약 통장은 기간이 중요한 거라",
+            "norm_text": "깨버리면 안 돼... 청약 통장은 기간이 중요한 거라",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "깨/VV+EC+버리/VX+면/EC+안/MAG+돼/VV+EF+./SY+청약/NNG+통장/NNG+은/JX+기간/NNG+이/JKS+중요/XR+한/XSA+ETM+거/NNB+라/VCP+EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 다른 사람들은 벌써 몇 십 년 청약 들어 놓고 하는데 넌 기간이 너무 짧으면 점수가 안 나와 ㅜㅜ",
+            "norm_text": "다른 사람들은 벌써 몇 십 년 청약 들어 놓고 하는데 넌 기간이 너무 짧으면 점수가 안 나와 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다른/MM+사람/NNG+들/XSN+은/JX+벌써/MAG+몇/MM+십/NR+년/NNBC+청약/NNG+들/VV+어/EC+놓/VX+고/EC+하/VV+는데/EC+넌/NP+JX+기간/NNG+이/JKS+너무/MAG+짧/VA+으면/EC+점수/NNG+가/JKS+안/MAG+나와/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 그러니까. 나도 너무 아쉬워",
+            "norm_text": "그러니까. 나도 너무 아쉬워",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "그러니까/MAJ+나/NP+도/JX+너무/MAG+아쉬워/VA+EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 지금 청약은 다시 든 지 한 2년 좀 안 된 거 같은데.",
+            "norm_text": "지금 청약은 다시 든 지 한 2년 좀 안 된 거 같은데.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+청약/NNG+은/JX+다시/MAG+든지/JX+한/MM+2/SN+년/NNBC+좀/MAG+안/MAG+된/VV+ETM+거/NNB+같/VA+은데/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그럼 가망이 없어 ㅜㅜ 너무 짧아",
+            "norm_text": "그럼 가망이 없어 ㅜㅜ 너무 짧아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+가망/NNG+이/JKS+없/VA+어/EC+ㅜㅜ/UNKNOWN+너무/MAG+짧/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

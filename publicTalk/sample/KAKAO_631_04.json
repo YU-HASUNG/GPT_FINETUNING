@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 67502,
+    "name": "KAKAO_631_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121749050871/KAKAO_631_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210924121749050871/KAKAO_631_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 32337,
+      "filename": "KAKAO_631_04.txt",
+      "title": "KAKAO_631_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-24",
+      "size": 647,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "1:1",
+        "size": 647,
+        "word_size": 192,
+        "text": "1 : 기아 차 취업 사기 벌인 사람 15년 선고 받았단다... ㄷㄷ\n2 : 엥? 그걸로 어떻게 취업 사기를 벌이는 거야?\n1 : 기아 차 공장 취업 미끼로 21억이나 받아 챙겼대!\n2 : 헐... 미쳤다 아니 취업을 하는데 왜 돈을 뜯는 거지?\n1 : 내 말이... 취업을 시켜 준다고 돈을 달라하는데... 의심이 안 되는가?\n2 : 그니깐... 아니 취업을 하는데 대체 왜? 키키\n2 : 이상하다 진짜... 당한 사람도 이상해\n1 : 근데 공범이 교회 목사란다... ㄷㄷ\n1 : 세상 잘 돌아가네...\n2 : 헐 미친다...\n2 : 진짜 교회 사람들 왜 그러는 건데 ㅠㅠ 짜증 나...\n1 : 목사가 교인들 600명 정도한테 생산직 정규직으로 채용 시켜 준다면서 돈 뜯었다네...\n2 : 헐... 키키 아니... 진짜 사이비 아니야?\n1 : 아이고... 그리도 목사는 4년 정도밖에 안 받았네...\n2 : 키키 엥? 왜 목사는 4년이야? 공범은 15년인데?\n1 : 몰라 키키 증거가 없대... 키키\n1 : 알 수가 없다... 참 키키\n2 : 아니... 그런데 왜 4년은 준 거야?\n2 : 말도 안 되는 말이다 진짜\n1 : 우리나라 법이 난 좀... 별로야...\n1 : 피해자들한테 하나도 도움되는 게 없어... 휴\n2 : 그니깐 너무 가해자를 위한 법이라서 그래 개정해야는데 누가 하냐 ㅂㄷ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 기아 차 취업 사기 벌인 사람 15년 선고 받았단다... ㄷㄷ",
+            "norm_text": "기아 차 취업 사기 벌인 사람 15년 선고 받았단다... ㄷㄷ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "기아차취업사기벌인사람/UNKNOWN+15/SN+년/NNBC+선고/NNG+받/VV+았/EP+단다/EF+./SY+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥? 그걸로 어떻게 취업 사기를 벌이는 거야?",
+            "norm_text": "엥? 그걸로 어떻게 취업 사기를 벌이는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+그걸로/NP+JKB+어떻/VA+게/EC+취업/NNG+사기/NNG+를/JKO+벌이/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 기아 차 공장 취업 미끼로 21억이나 받아 챙겼대!",
+            "norm_text": "기아 차 공장 취업 미끼로 21억이나 받아 챙겼대!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "기아차/NNP+공장/NNG+취업/NNG+미끼/NNG+로/JKB+21/SN+억/NR+이나/JX+받/VV+아/EC+챙겼/VV+EP+대/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 헐... 미쳤다 아니 취업을 하는데 왜 돈을 뜯는 거지?",
+            "norm_text": "헐... 미쳤다 아니 취업을 하는데 왜 돈을 뜯는 거지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+./SY+미쳤/VV+EP+다/EF+아니/IC+취업/NNG+을/JKO+하/VV+는데/EC+왜/MAG+돈/NNG+을/JKO+뜯/VV+는/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 내 말이... 취업을 시켜 준다고 돈을 달라하는데... 의심이 안 되는가?",
+            "norm_text": "내 말이... 취업을 시켜 준다고 돈을 달라하는데... 의심이 안 되는가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내말이/NP+JKG+NNG+JKS+./SY+취업/NNG+을/JKO+시켜/VV+EC+준다고/VX+EC+돈/NNG+을/JKO+달/VV+라/EC+하/VV+는데/EC+./SY+./SY+의심/NNG+이/JKS+안/MAG+되/VV+는가/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그니깐... 아니 취업을 하는데 대체 왜? 키키",
+            "norm_text": "그니깐... 아니 취업을 하는데 대체 왜? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+./SY+아니/IC+취업/NNG+을/JKO+하/VV+는데/EC+대체/MAG+왜/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 이상하다 진짜... 당한 사람도 이상해",
+            "norm_text": "이상하다 진짜... 당한 사람도 이상해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이상/NNG+하/XSV+다/EC+진짜/MAG+./SY+당한/VV+ETM+사람/NNG+도/JX+이상/NNG+해/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 근데 공범이 교회 목사란다... ㄷㄷ",
+            "norm_text": "근데 공범이 교회 목사란다... ㄷㄷ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+공범/NNG+이/JKS+교회/NNG+목사/NNG+란다/VCP+EF+./SY+ㄷ/NNG+ㄷ/NNG"
+          },
+          {
+            "id": 9,
+            "text": "1 : 세상 잘 돌아가네...",
+            "norm_text": "세상 잘 돌아가네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "세상/NNG+잘/MAG+돌아가/VV+네/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 헐 미친다...",
+            "norm_text": "헐 미친다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/VV+JKO+미친다/VV+EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 진짜 교회 사람들 왜 그러는 건데 ㅠㅠ 짜증 나...",
+            "norm_text": "진짜 교회 사람들 왜 그러는 건데 ㅠㅠ 짜증 나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜교회사람들왜그러는건데ㅠㅠ짜증나/UNKNOWN+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 목사가 교인들 600명 정도한테 생산직 정규직으로 채용 시켜 준다면서 돈 뜯었다네...",
+            "norm_text": "목사가 교인들 600명 정도한테 생산직 정규직으로 채용 시켜 준다면서 돈 뜯었다네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "목사/NNG+가/JKS+교인/NNG+들/XSN+600/SN+명/NNBC+정도/NNG+한테/JKB+생산직/NNG+정규직/NNG+으로/JKB+채용/NNG+시켜/XSV+EC+준다면서/VX+EC+돈/NNG+뜯/VV+었/EP+다네/EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 헐... 키키 아니... 진짜 사이비 아니야?",
+            "norm_text": "헐... 키키 아니... 진짜 사이비 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐/IC+./SY+키/NNG+키/XSV+ETN+아니/VCN+./SY+./SY+진짜/MAG+사이비/NNG+아니/VCN+야/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아이고... 그리도 목사는 4년 정도밖에 안 받았네...",
+            "norm_text": "아이고... 그리도 목사는 4년 정도밖에 안 받았네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아이고/IC+./SY+그리도/MAG+목사/NNG+는/JX+4/SN+년/NNBC+정도/NNG+밖에/JX+안/MAG+받/VV+았/EP+네/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 키키 엥? 왜 목사는 4년이야? 공범은 15년인데?",
+            "norm_text": "키키 엥? 왜 목사는 4년이야? 공범은 15년인데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+엥/IC+왜/MAG+목사/NNG+는/JX+4/SN+년/NNBC+이/VCP+야/EF+공범/NNG+은/JX+15/SN+년/NNBC+인데/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 몰라 키키 증거가 없대... 키키",
+            "norm_text": "몰라 키키 증거가 없대... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "몰라/NNP+키키/NNP+증거/NNG+가/JKS+없/VA+대/EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 알 수가 없다... 참 키키",
+            "norm_text": "알 수가 없다... 참 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "알/VV+ETM+수/NNB+가/JKS+없/VA+다/EF+./SY+참/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 아니... 그런데 왜 4년은 준 거야?",
+            "norm_text": "아니... 그런데 왜 4년은 준 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아니/IC+./SY+그런데/MAJ+왜/MAG+4/SN+년/NNBC+은/JX+준/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 말도 안 되는 말이다 진짜",
+            "norm_text": "말도 안 되는 말이다 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "말/NNG+도/JX+안/MAG+되/VV+는/ETM+말/NNG+이/JKS+다/MAG+진짜/MAG"
+          },
+          {
+            "id": 20,
+            "text": "1 : 우리나라 법이 난 좀... 별로야...",
+            "norm_text": "우리나라 법이 난 좀... 별로야...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우리/NP+나라/NNG+법/NNG+이/JKS+난/NP+JX+좀/MAG+./SY+별로/MAG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 피해자들한테 하나도 도움되는 게 없어... 휴",
+            "norm_text": "피해자들한테 하나도 도움되는 게 없어... 휴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "피해자/NNG+들/XSN+한테/JKB+하나/NR+도/JX+도움/NNG+되/XSV+는/ETM+게/NNB+JKS+없/VA+어/EF+./SY+휴/IC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그니깐 너무 가해자를 위한 법이라서 그래 개정해야는데 누가 하냐 ㅂㄷ",
+            "norm_text": "그니깐 너무 가해자를 위한 법이라서 그래 개정해야는데 누가 하냐 ㅂㄷ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+너무/MAG+가해자/NNG+를/JKO+위한/VV+ETM+법/NNB+이/VCP+라서/EC+그래/VV+EC+개정/NNG+해야/XSV+EC+VX+는데/EC+누가/NP+JKS+하/VV+냐/EC+ㅂ/NNG+ㄷ/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

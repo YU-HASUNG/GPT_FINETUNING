@@ -1,0 +1,407 @@
+{
+  "dataset": {
+    "identifier": 27541,
+    "name": "KAKAO_486_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150820074775/KAKAO_486_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150820074775/KAKAO_486_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28491,
+      "filename": "KAKAO_486_01.txt",
+      "title": "KAKAO_486_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 493,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 493,
+        "word_size": 178,
+        "text": "1 : 오늘 점심 뭐 먹었어?\n2 : 오늘 너무 더워서 배달 시켜 먹었어 ㅠㅠ\n1 : 맞제 너무 덥더라...\n1 : 뭐 시켜 먹었오\n2 : 시원한 거 땡겨서 빙수 시켜 먹었지롱 하하\n1 : 거짓말... 맛있었겠다\n1 : 설빙? 키키\n2 : 맞아 어떻게 알았냐\n2 : 설빙 먹었는데 인절미 존맛탱\n1 : 인절미 개 맛없어\n1 : 가루 날리잖아\n2 : 헐 너무해\n2 : 그럼 빙수 뭐 좋아하는데!?\n1 : 설빙은 메론 빙수지.\n1 : 연유 추가 국룰\n2 : 아 그건 인정\n2 : 그래도 원래 기본이 제일 맛있는 거라구\n2 : 다음에 같이 가자\n1 : 그래 그러자!\n1 : 그럼 밥은 뭐 먹었어\n2 : 사실 밥은 안 먹었어\n2 : 점심 빙수가 다야 ㅠㅠ\n2 : 넌 뭐 먹었냐?\n1 : 빙수가 밥이냐고 ...\n1 : 난 오늘 함박 먹었는데 느끼해 죽는 줄 ㅜ\n2 : 헐 함박 맛있겠다\n2 : 음식 얘기하니까 야식 땡겨 ㅜㅜ\n1 : 그니까 야식 평소에 뭐 자주 시켜 먹어?\n2 : 난 닭발 이런 거,\n2 : 역시 야식은 매운 거지\n2 : 인정?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 점심 뭐 먹었어?",
+            "norm_text": "오늘 점심 뭐 먹었어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+점심/NNG+뭐/IC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘 너무 더워서 배달 시켜 먹었어 ㅠㅠ",
+            "norm_text": "오늘 너무 더워서 배달 시켜 먹었어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+너무/MAG+더워서/VA+EC+배달/NNG+시켜/XSV+EC+먹/VV+었/EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 맞제 너무 덥더라...",
+            "norm_text": "맞제 너무 덥더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+너무/MAG+덥/VA+더라/EF+./SY"
+          },
+          {
+            "id": 4,
+            "text": "1 : 뭐 시켜 먹었오",
+            "norm_text": "뭐 시켜 먹었오",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+시켜/VV+EC+먹/VV+었/EP+오/EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 시원한 거 땡겨서 빙수 시켜 먹었지롱 하하",
+            "norm_text": "시원한 거 땡겨서 빙수 시켜 먹었지롱 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "시원/XR+한/XSA+ETM+거/NNB+땡겨/VV+EC+서빙/NNG+수/NNG+시켜/XSV+EC+먹/VV+었/EP+지롱/EC+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 거짓말... 맛있었겠다",
+            "norm_text": "거짓말... 맛있었겠다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거짓말/NNG+./SY+./SY+맛있/VA+었/EP+겠/EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 설빙? 키키",
+            "norm_text": "설빙? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "설빙/NNG+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 맞아 어떻게 알았냐",
+            "norm_text": "맞아 어떻게 알았냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+어떻게/MAG+알/VV+았/EP+냐/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 설빙 먹었는데 인절미 존맛탱",
+            "norm_text": "설빙 먹었는데 인절미 존맛탱",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "설빙/NNG+먹/VV+었/EP+는데/EC+인절미/NNG+존/NNP+맛/NNG+탱/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 인절미 개 맛없어",
+            "norm_text": "인절미 개 맛없어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "인절미/NNG+개맛/NNG+없/VA+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 가루 날리잖아",
+            "norm_text": "가루 날리잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가루/MAG+날리/VV+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 헐 너무해",
+            "norm_text": "헐 너무해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+너무/MAG+해/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그럼 빙수 뭐 좋아하는데!?",
+            "norm_text": "그럼 빙수 뭐 좋아하는데!?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+빙수/NNG+뭐/IC+좋/VA+아/EC+하/VV+는데/EC+!/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 설빙은 메론 빙수지.",
+            "norm_text": "설빙은 메론 빙수지.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "설빙/NNG+은/JX+메론/NNP+빙수/NNG+지/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 연유 추가 국룰",
+            "norm_text": "연유 추가 국룰",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "연유추가국룰/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 아 그건 인정",
+            "norm_text": "아 그건 인정",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그건/NP+JX+인정/NNG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래도 원래 기본이 제일 맛있는 거라구",
+            "norm_text": "그래도 원래 기본이 제일 맛있는 거라구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+원래/MAG+기본/NNG+이/JKS+제일/MAG+맛있/VA+는/ETM+거/NNB+라구/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "2 : 다음에 같이 가자",
+            "norm_text": "다음에 같이 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "다음/NNG+에/JKB+같이/MAG+가/VV+자/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그래 그러자!",
+            "norm_text": "그래 그러자!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/VA+EC+그러/VV+자/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 그럼 밥은 뭐 먹었어",
+            "norm_text": "그럼 밥은 뭐 먹었어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+밥/NNG+은/JX+뭐/IC+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 사실 밥은 안 먹었어",
+            "norm_text": "사실 밥은 안 먹었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "사실/MAG+밥/NNG+은/JX+안/MAG+먹/VV+었/EP+어/EC"
+          },
+          {
+            "id": 22,
+            "text": "2 : 점심 빙수가 다야 ㅠㅠ",
+            "norm_text": "점심 빙수가 다야 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "점심/NNG+빙수/NNG+가/JKS+다/MAG+야/VCP+EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 넌 뭐 먹었냐?",
+            "norm_text": "넌 뭐 먹었냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "넌/NP+JX+뭐/NP+먹/VV+었/EP+냐/EF"
+          },
+          {
+            "id": 24,
+            "text": "1 : 빙수가 밥이냐고 ...",
+            "norm_text": "빙수가 밥이냐고 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빙수/NNG+가/JKS+밥/NNG+이/VCP+냐고/EF+./SY"
+          },
+          {
+            "id": 25,
+            "text": "1 : 난 오늘 함박 먹었는데 느끼해 죽는 줄 ㅜ",
+            "norm_text": "난 오늘 함박 먹었는데 느끼해 죽는 줄 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+오늘/MAG+함박/NNG+먹/VV+었/EP+는데/EC+느끼/NNG+해/XSV+EC+죽/VV+는/ETM+줄ㅜ/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 헐 함박 맛있겠다",
+            "norm_text": "헐 함박 맛있겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+함박/NNG+맛있/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 27,
+            "text": "2 : 음식 얘기하니까 야식 땡겨 ㅜㅜ",
+            "norm_text": "음식 얘기하니까 야식 땡겨 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음식/NNG+얘기/NNG+하/XSV+니까/EC+야식/NNG+땡겨/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 그니까 야식 평소에 뭐 자주 시켜 먹어?",
+            "norm_text": "그니까 야식 평소에 뭐 자주 시켜 먹어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그니까/MAJ+야식/NNG+평소/NNG+에/JKB+뭐/IC+자주/MAG+시켜/VV+EC+먹/VV+어/EF"
+          },
+          {
+            "id": 29,
+            "text": "2 : 난 닭발 이런 거,",
+            "norm_text": "난 닭발 이런 거,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+닭발/NNG+이런/MM+거/NNB+,/SC"
+          },
+          {
+            "id": 30,
+            "text": "2 : 역시 야식은 매운 거지",
+            "norm_text": "역시 야식은 매운 거지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역시/MAJ+야식/NNG+은/JX+매운/VA+ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 31,
+            "text": "2 : 인정?",
+            "norm_text": "인정?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "인정/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

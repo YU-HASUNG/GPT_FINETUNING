@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 24857,
+    "name": "KAKAO_492_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144253069923/KAKAO_492_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210917144253069923/KAKAO_492_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 29029,
+      "filename": "KAKAO_492_18.txt",
+      "title": "KAKAO_492_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-17",
+      "size": 461,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "1:1",
+        "size": 461,
+        "word_size": 155,
+        "text": "1 : 너 이번에 명품백 샀다며 어디 가서 샀어?\n2 : 나 인터넷 직구로 샀어 키키 그게 훨씬 싸\n1 : 야 백 만원이 넘는 걸 그렇게 샀어? 짝퉁이면 어떻게 해?\n2 : 아냐 거기 소비자원인가 어디에서 검증 받았대\n1 : 아 그래? 그럼 믿고 사도 되는 거야?\n2 : 응 너도 살 일 있으면 거기서 사 안전하대\n1 : 나는 직구는 안 해봤거든 키키\n1 : 통관 번호? 그런 거 필요하다며\n2 : 어 그건 그 구매자가 알아서 다 해줘\n1 : 아 그래? 그럼 간단하겠네 너 산 곳 나도 알려줘\n2 : 그래그래 여기 유명한 곳이고 안전하니까 걱정 넣어둬\n1 : 그래 알았으니까 링크나 보내줘 골라보게\n2 : 아 근데 배송이 좀 많이 오래 걸릴 수도 있대\n1 : 아 그러면 안되는데 선물해야 되거든...\n2 : 그럼 어쩔 수 없이 편집샵에서 사야 되겠네\n1 : 편집샵도 정품 확실한 거야?\n1 : 너 사는데 있어?\n2 : 어 내가 가는 곳 알려줄게 거기서 사",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 이번에 명품백 샀다며 어디 가서 샀어?",
+            "norm_text": "너 이번에 명품백 샀다며 어디 가서 샀어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+이번/NNG+에/JKB+명품/NNG+백/NR+샀/VV+EP+다며/EC+어디/NP+가/JKS+서/VV+EC+샀/VV+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나 인터넷 직구로 샀어 키키 그게 훨씬 싸",
+            "norm_text": "나 인터넷 직구로 샀어 키키 그게 훨씬 싸",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+인터넷/NNG+직구/NNG+로/JKB+샀/VV+EP+어/EC+키/NNG+키/XSV+ETN+그게/NP+JKS+훨씬/MAG+싸/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 야 백 만원이 넘는 걸 그렇게 샀어? 짝퉁이면 어떻게 해?",
+            "norm_text": "야 백 만원이 넘는 걸 그렇게 샀어? 짝퉁이면 어떻게 해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야/IC+백만/NR+원/NNBC+이/JKS+넘/VV+는/ETM+걸/NNB+JKO+그렇게/MAG+샀/VV+EP+어/EF+짝퉁/NNG+이/VCP+면/EC+어떻게/MAG+해/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아냐 거기 소비자원인가 어디에서 검증 받았대",
+            "norm_text": "아냐 거기 소비자원인가 어디에서 검증 받았대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아냐/IC+거기/NP+소비/NNG+자원/NNG+인가/VCP+EC+어디/NP+에서/JKB+검증/NNG+받/VV+았/EP+대/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아 그래? 그럼 믿고 사도 되는 거야?",
+            "norm_text": "아 그래? 그럼 믿고 사도 되는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그래/IC+그럼/MAJ+믿/VV+고/EC+사도/NNG+되/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 너도 살 일 있으면 거기서 사 안전하대",
+            "norm_text": "응 너도 살 일 있으면 거기서 사 안전하대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+너/NP+도/JX+살/VV+ETM+일/NNG+있/VV+으면/EC+거기/NP+서/JKB+사/NR+안전/NNG+하대/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나는 직구는 안 해봤거든 키키",
+            "norm_text": "나는 직구는 안 해봤거든 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+직구/NNG+는/JX+안/MAG+해/VV+EC+봤/VX+EP+거든/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 통관 번호? 그런 거 필요하다며",
+            "norm_text": "통관 번호? 그런 거 필요하다며",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "통관/NNG+번호/NNG+그런/MM+거/NNB+필요/NNG+하/XSV+다며/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 어 그건 그 구매자가 알아서 다 해줘",
+            "norm_text": "어 그건 그 구매자가 알아서 다 해줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+그건/NP+JX+그/MM+구매자/NNG+가/JKS+알/VV+아서/EC+다/MAG+해/VV+EC+줘/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아 그래? 그럼 간단하겠네 너 산 곳 나도 알려줘",
+            "norm_text": "아 그래? 그럼 간단하겠네 너 산 곳 나도 알려줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "아/IC+그래/IC+그럼/MAJ+간단/XR+하/XSA+겠/EP+네/EF+너/NP+산/VV+ETM+곳/NNB+나/NP+도/JX+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그래그래 여기 유명한 곳이고 안전하니까 걱정 넣어둬",
+            "norm_text": "그래그래 여기 유명한 곳이고 안전하니까 걱정 넣어둬",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래그래/IC+여기/NP+유명/NNG+한/XSA+ETM+곳/NNG+이/VCP+고/EC+안전/NNG+하/XSV+니까/EC+걱정/NNG+넣/VV+어/EC+둬/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래 알았으니까 링크나 보내줘 골라보게",
+            "norm_text": "그래 알았으니까 링크나 보내줘 골라보게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그래/VA+EC+알/VV+았/EP+으니까/EC+링크/NNG+나/JX+보내/VV+줘/EC+VV+EC+골라/VV+EC+보/VX+게/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 아 근데 배송이 좀 많이 오래 걸릴 수도 있대",
+            "norm_text": "아 근데 배송이 좀 많이 오래 걸릴 수도 있대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+근데/MAJ+배송/NNG+이/JKS+좀/MAG+많이/MAG+오래/MAG+걸릴/VV+ETM+수/NNB+도/JX+있/VA+대/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 그러면 안되는데 선물해야 되거든...",
+            "norm_text": "아 그러면 안되는데 선물해야 되거든...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그러면/MAJ+안/MAG+되/VV+는데/EC+선물/NNG+해야/XSV+EC+되/VV+거든/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 그럼 어쩔 수 없이 편집샵에서 사야 되겠네",
+            "norm_text": "그럼 어쩔 수 없이 편집샵에서 사야 되겠네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+어쩔/VV+ETM+수/NNB+없이/MAG+편집/NNG+샵/NNP+에서/JKB+사/VV+야/EC+되/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 편집샵도 정품 확실한 거야?",
+            "norm_text": "편집샵도 정품 확실한 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "편집/NNG+샵/NNP+도/JX+정품/NNG+확실/XR+한/XSA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 너 사는데 있어?",
+            "norm_text": "너 사는데 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+사/VV+는데/EC+있/VX+어/EF"
+          },
+          {
+            "id": 18,
+            "text": "2 : 어 내가 가는 곳 알려줄게 거기서 사",
+            "norm_text": "어 내가 가는 곳 알려줄게 거기서 사",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "어/IC+내/NP+가/JKS+가/VV+는/ETM+곳/NNB+알려/VV+EC+줄/VX+ETM+게/NNB+JKS+거기/NP+서/JKB+사/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

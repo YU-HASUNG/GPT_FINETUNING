@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 55501,
+    "name": "KAKAO_725_14_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135111075263/KAKAO_725_14_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929135111075263/KAKAO_725_14_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37062,
+      "filename": "KAKAO_725_14.txt",
+      "title": "KAKAO_725_14",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 776,
+      "annotations": {
+        "subject": "사회이슈",
+        "speaker_type": "1:1",
+        "size": 776,
+        "word_size": 230,
+        "text": "1 : 언니 뉴스 봤어요?\n1 : 전자발찌 훼손하고 도망간 사람 잡혔대요\n2 : 아주 나쁜... 인간 같지도 않은 인간 이제야 잡혔구나~ 어휴... 정말 다행이네 ㅠ\n1 : 요즘 세상이 너무 무서워요... 밤길 조심해야 돼...\n2 : 구세대 적이지만 통금 시간 정해 놓는 부모님들 마음도 이해가 가지~\n2 : 너도 정말 밤길 조심혀~ ㅠ\n1 : 어릴 때는 몰랐는데 이제는 부모님 마음 좀 알 것 같아요 ㅜ\n1 : 나쁜 놈들이 너무 많아서...\n2 : 어릴 때 모르는 아저씨가 사탕 줘도 따라가지 말라는 건 괜히 하는 말이 아니야~\n1 : 맞아 맞아 요즘도 애들 사탕으로 꼬시는 사람이 있어요?\n2 : 어린 애들은 말을 들어도 그냥 따라가니까~ 맘만 먹으면 꼬셔서 데려갈 수 있겠지...\n2 : 살아있는 내내 위험한 것들이 너무 많아~\n1 : 요즘은 아는 사람도 나쁜 짓 한다면서요. 누굴 믿어...\n2 : 믿을 사람 없어도 믿으면서 살아가는 거지 ㅠ\n2 : 어휴~ 이래서 주위에 사람을 잘 둬야 돼\n1 : 나쁜 놈들은 이마에 나쁜 놈이라고 써 놨으면 좋겠어요 ㅜ\n2 : 나쁜 놈이라고 써 붙이고 다니는 것 대신 전자발찌 같은 게 있는 건데. 그것도 끊어버리고... 어휴.\n1 : 헉 그러네요... 이럴 때 보면 우리나라 처벌이 너무 약한 거 같구...\n2 : 요즘 같은 세상에선 전자발찌도 나름 최선 아니겠니.\n2 : 어째 시대가 갈수록 벌이 더 약해지는 기분이 들어... ^^\n1 : 그래서 그런다 사람들이 점점 극악무도해지는 것 같지 않아요? ㅠ\n2 : 내 자식들도 그렇고 손주들도 살아갈 나라인데... 정말 걱정이다~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 언니 뉴스 봤어요?",
+            "norm_text": "언니 뉴스 봤어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "언니/NNG+뉴스/NNG+봤/VV+EP+어요/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 전자발찌 훼손하고 도망간 사람 잡혔대요",
+            "norm_text": "전자발찌 훼손하고 도망간 사람 잡혔대요",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전자/NNG+발찌/NNG+훼손/NNG+하/XSV+고/EC+도망간/VV+ETM+사람/NNG+잡혔/VV+EP+대요/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 아주 나쁜... 인간 같지도 않은 인간 이제야 잡혔구나~ 어휴... 정말 다행이네 ㅠ",
+            "norm_text": "아주 나쁜... 인간 같지도 않은 인간 이제야 잡혔구나~ 어휴... 정말 다행이네 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아주/MAG+나쁜/VA+ETM+./SY+./SY+인간/NNG+같/VA+지/EC+도/JX+않/VX+은/ETM+인간/NNG+이제야/MAG+잡혔/VV+EP+구나/EF+~/SY+어휴/IC+./SY+정말다행이네ㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 요즘 세상이 너무 무서워요... 밤길 조심해야 돼...",
+            "norm_text": "요즘 세상이 너무 무서워요... 밤길 조심해야 돼...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+세상/NNG+이/JKS+너무/MAG+무서워요/VA+EF+./SY+밤길/NNG+조심/NNG+해야/XSV+EC+돼/VV+EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "2 : 구세대 적이지만 통금 시간 정해 놓는 부모님들 마음도 이해가 가지~",
+            "norm_text": "구세대 적이지만 통금 시간 정해 놓는 부모님들 마음도 이해가 가지~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "구세대/NNG+적/XSN+이/VCP+지만/EC+통금/NNG+시간/NNG+정해/VV+EC+놓/VX+는/ETM+부모/NNG+님/XSN+들/XSN+마음/NNG+도/JX+이해/NNG+가/JKS+가지/NNG+~/SY"
+          },
+          {
+            "id": 6,
+            "text": "2 : 너도 정말 밤길 조심혀~ ㅠ",
+            "norm_text": "너도 정말 밤길 조심혀~ ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+도/JX+정말/MAG+밤길/NNG+조심/NNG+혀/XSV+EC+~/SY+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어릴 때는 몰랐는데 이제는 부모님 마음 좀 알 것 같아요 ㅜ",
+            "norm_text": "어릴 때는 몰랐는데 이제는 부모님 마음 좀 알 것 같아요 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+는/JX+몰랐/VV+EP+는데/EC+이제/NNG+는/JX+부모/NNG+님/XSN+마음/NNG+좀/MAG+알/VV+ETM+것/NNB+같/VA+아요/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나쁜 놈들이 너무 많아서...",
+            "norm_text": "나쁜 놈들이 너무 많아서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나쁜/VA+ETM+놈/NNB+들/XSN+이/JKS+너무/MAG+많/VA+아서/EC+./SY+./SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 어릴 때 모르는 아저씨가 사탕 줘도 따라가지 말라는 건 괜히 하는 말이 아니야~",
+            "norm_text": "어릴 때 모르는 아저씨가 사탕 줘도 따라가지 말라는 건 괜히 하는 말이 아니야~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어릴/VA+ETM+때/NNG+모르/VV+는/ETM+아저씨/NNG+가/JKS+사탕/NNG+줘도/VV+EC+따라가/VV+지/EC+말/VX+라는/ETM+건/NNB+JX+괜히/MAG+하/VV+는/ETM+말/NNG+이/JKC+아니/VCN+야/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맞아 맞아 요즘도 애들 사탕으로 꼬시는 사람이 있어요?",
+            "norm_text": "맞아 맞아 요즘도 애들 사탕으로 꼬시는 사람이 있어요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맞/VV+아/EC+맞/VV+아/EC+요즘/NNG+도/JX+애/NNG+들/XSN+사탕/NNG+으로/JKB+꼬시/VV+는/ETM+사람/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 어린 애들은 말을 들어도 그냥 따라가니까~ 맘만 먹으면 꼬셔서 데려갈 수 있겠지...",
+            "norm_text": "어린 애들은 말을 들어도 그냥 따라가니까~ 맘만 먹으면 꼬셔서 데려갈 수 있겠지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어린애/NNG+들/XSN+은/JX+말/NNG+을/JKO+들어도/VV+EC+그냥/MAG+따라가/VV+니까/EC+~/SY+맘/NNG+만/JX+먹/VV+으면/EC+꼬셔서/VV+EC+데려갈/VV+ETM+수/NNB+있/VV+겠/EP+지/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 살아있는 내내 위험한 것들이 너무 많아~",
+            "norm_text": "살아있는 내내 위험한 것들이 너무 많아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "살/VV+아/EC+있/VX+는/ETM+내내/MAG+위험/NNG+한/XSA+ETM+것/NNB+들/XSN+이/JKS+너무/MAG+많/VA+아/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 요즘은 아는 사람도 나쁜 짓 한다면서요. 누굴 믿어...",
+            "norm_text": "요즘은 아는 사람도 나쁜 짓 한다면서요. 누굴 믿어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+아/VV+는/ETM+사람/NNG+도/JX+나쁜/VA+ETM+짓/NNG+한다면서/XSV+EC+요/JX+누굴/NP+JKO+믿/VV+어/EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 믿을 사람 없어도 믿으면서 살아가는 거지 ㅠ",
+            "norm_text": "믿을 사람 없어도 믿으면서 살아가는 거지 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "믿/VV+을/ETM+사람/NNG+없/VA+어도/EC+믿/VV+으면서/EC+살아가/VV+는/ETM+거/NNB+지ㅠ/UNKNOWN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 어휴~ 이래서 주위에 사람을 잘 둬야 돼",
+            "norm_text": "어휴~ 이래서 주위에 사람을 잘 둬야 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어휴/IC+~/SY+이래서/VV+EC+주위/NNG+에/JKB+사람/NNG+을/JKO+잘/MAG+둬야/VV+EC+돼/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 나쁜 놈들은 이마에 나쁜 놈이라고 써 놨으면 좋겠어요 ㅜ",
+            "norm_text": "나쁜 놈들은 이마에 나쁜 놈이라고 써 놨으면 좋겠어요 ㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나쁜/VA+ETM+놈/NNB+들/XSN+은/JX+이마/NNG+에/JKB+나쁜/VA+ETM+놈/NNB+이/VCP+라고/EC+써/VV+EC+놨으면/VX+EP+EC+좋/VA+겠/EP+어요/EF+ㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나쁜 놈이라고 써 붙이고 다니는 것 대신 전자발찌 같은 게 있는 건데. 그것도 끊어버리고... 어휴.",
+            "norm_text": "나쁜 놈이라고 써 붙이고 다니는 것 대신 전자발찌 같은 게 있는 건데. 그것도 끊어버리고... 어휴.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나쁜/VA+ETM+놈/NNB+이/VCP+라고/EC+써붙이/VV+고/EC+다니/VV+는/ETM+것/NNB+대신/NNG+전자/NNG+발찌/NNG+같/VA+은/ETM+게/NNB+JKS+있/VA+는/ETM+건데/NNB+VCP+EF+그것/NP+도/JX+끊/VV+어/EC+버리/VX+고/EC+./SY+./SY+어휴/IC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 헉 그러네요... 이럴 때 보면 우리나라 처벌이 너무 약한 거 같구...",
+            "norm_text": "헉 그러네요... 이럴 때 보면 우리나라 처벌이 너무 약한 거 같구...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헉/MAG+그러/VV+네요/EF+./SY+이럴/VA+ETM+때/NNG+보/VV+면/EC+우리/NP+나라/NNG+처벌/NNG+이/JKS+너무/MAG+약한/VA+ETM+거/NNB+같/VA+구/EC+./SY+./SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 요즘 같은 세상에선 전자발찌도 나름 최선 아니겠니.",
+            "norm_text": "요즘 같은 세상에선 전자발찌도 나름 최선 아니겠니.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+같/VA+은/ETM+세상/NNG+에선/JKB+JX+전자/NNG+발찌/NNG+도/JX+나름/NNB+최선/NNG+아니/VCN+겠/EP+니/EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 어째 시대가 갈수록 벌이 더 약해지는 기분이 들어... ^^",
+            "norm_text": "어째 시대가 갈수록 벌이 더 약해지는 기분이 들어... ^^",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어째/MAG+XSV+EC+시대/NNG+가/JKS+갈수록/MAG+벌/NNG+이/JKS+더/MAG+약해/VA+EC+지/VX+는/ETM+기분/NNG+이/JKS+들/VV+어/EF+./SY+^/SY+^/SY"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그래서 그런다 사람들이 점점 극악무도해지는 것 같지 않아요? ㅠ",
+            "norm_text": "그래서 그런다 사람들이 점점 극악무도해지는 것 같지 않아요? ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래서/MAJ+그런/MM+다/MAG+사람/NNG+들/XSN+이/JKS+점점/MAG+극악무도/NNG+해/XSV+EC+지/VX+는/ETM+것/NNB+같/VA+지/EC+않/VX+아요/EF+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 내 자식들도 그렇고 손주들도 살아갈 나라인데... 정말 걱정이다~",
+            "norm_text": "내 자식들도 그렇고 손주들도 살아갈 나라인데... 정말 걱정이다~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+자식/NNG+들/XSN+도/JX+그렇/VA+고/EC+손주/NNG+들/XSN+도/JX+살아갈/VV+ETM+나라/NNG+인데/VCP+EC+./SY+./SY+정말/MAG+걱정/NNG+이/VCP+다/EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

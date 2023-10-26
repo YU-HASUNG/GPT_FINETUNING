@@ -1,0 +1,455 @@
+{
+  "dataset": {
+    "identifier": 28831,
+    "name": "KAKAO_474_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150836014977/KAKAO_474_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916150836014977/KAKAO_474_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 28529,
+      "filename": "KAKAO_474_19.txt",
+      "title": "KAKAO_474_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 841,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "1:1",
+        "size": 841,
+        "word_size": 285,
+        "text": "1 : 나이 먹어서 그런가 요즘 방송 재밌는 게 없너 키키\n2 : 진짜 재미있는 프로가 없는 것 같지 않나? ㅠㅠ\n1 : 그쟈... 이광수 있을 땐 그래도 런닝맨은 봤는데 요즘 이광수 나가서 ㅜㅜ\n1 : 런닝맨도 별로고\n2 : 맞제맞제 이광수가 감초 역할을 톡톡히 했는데 ㅠㅠ\n1 : 그니까 그리고 양세찬은 또 별로더라고...\n1 : 마째.. 그리고 몇 명은 또 내 스타일 아니여가꼬...\n1 : 이광수 보는 낙에 본 건데 ㅠㅠ\n2 : 나도 나도 키키\n2 : 이제 못 보니까 아숩다 ㅠㅠ\n2 : 드라마도 요즘 뭐 재밌는 거 없제 ㅠ\n1 : 어어어 아 나 슬의 원래 보는데 요즘 못 보고 있너 ㅠㅠ\n1 : 목욜 운덩 가서 ㅠㅠ\n2 : 슬의 시즌 2도 잼나나?\n2 : 나 시즌 1은 봤었는데 왠지 시즌 2 안 봐지네 키키\n1 : 어엉 시즌 2 완전 잼난다 ㅠㅠ\n1 : 나오는 배우들 다 좋아\n1 : 지들끼리 케미가 장난 없너\n2 : 주연 배우들 캠핑 가가꼬 게임 하는 영상 십오야 유툽에 있는데 봤나? 키키\n2 : 완전 배 째는 겈 키키\n1 : 그거 전부는 안 보고 몇 편만 봤당 키키\n1 : 근데 진짜 다들 케미 좋지 않나 키키\n1 : 조정석은 걍 익준이임 ㅠㅠ\n2 : 완전 익준 자쳌 키키\n2 : 낸 끝까지 다 잼나더랔 키키\n2 : 정경호 진짜 귀엽더라고 키키\n1 : 정경호 졸귀탱이지 키키\n1 : 진짜 대명이고 귀엽고 유연석도 귀엽고 ㅠㅠ\n2 : 그니깤 키키 내 정경호 본 거 얘기했었나?\n2 : 라온마 이후에 봤더라면 그 사인 아직 간직했을 건데 ㅠㅠ\n1 : 헐헐헐 언제 언제 어디서 봤었너?\n1 : 사인 버렸나 ㅠㅠ\n2 : 옛날에 야구장에서 봤었놐 키키\n2 : 염치없게 경기 보는데 가서 사인 요구해서 받아 놓고는 정작 사인 버림 키키\n2 : 의미 없으 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나이 먹어서 그런가 요즘 방송 재밌는 게 없너 키키",
+            "norm_text": "나이 먹어서 그런가 요즘 방송 재밌는 게 없너 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나이/NNG+먹/VV+어서/EC+그런가/VA+EC+요즘/NNG+방송/NNG+재밌/VA+는/ETM+게/NNB+JKS+없/VA+너/NP+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 진짜 재미있는 프로가 없는 것 같지 않나? ㅠㅠ",
+            "norm_text": "진짜 재미있는 프로가 없는 것 같지 않나? ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+재미있/VA+는/ETM+프로/NNG+가/JKS+없/VA+는/ETM+것/NNB+같/VA+지/EC+않/VX+나/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "1 : 그쟈... 이광수 있을 땐 그래도 런닝맨은 봤는데 요즘 이광수 나가서 ㅜㅜ",
+            "norm_text": "그쟈... 이광수 있을 땐 그래도 런닝맨은 봤는데 요즘 이광수 나가서 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/MM+쟈/NNG+./SY+./SY+이광수/NNP+있/VV+을/ETM+땐/NNG+JX+그래도/MAJ+런닝맨/NNP+은/JX+봤/VV+EP+는데/EC+요즘/MAG+이광수/NNP+나가/VV+서/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 런닝맨도 별로고",
+            "norm_text": "런닝맨도 별로고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "런닝맨/NNP+도/JX+별로/MAG+고/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 맞제맞제 이광수가 감초 역할을 톡톡히 했는데 ㅠㅠ",
+            "norm_text": "맞제맞제 이광수가 감초 역할을 톡톡히 했는데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+맞/VV+제/EC+이광수/NNP+가/JKS+감초/NNG+역할/NNG+을/JKO+톡톡히/MAG+했/VV+EP+는데/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그니까 그리고 양세찬은 또 별로더라고...",
+            "norm_text": "그니까 그리고 양세찬은 또 별로더라고...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+그리고/MAJ+양세찬/NNP+은/JX+또/MAG+별로/MAG+더라고/VCP+EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 마째.. 그리고 몇 명은 또 내 스타일 아니여가꼬...",
+            "norm_text": "마째.. 그리고 몇 명은 또 내 스타일 아니여가꼬...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마/NNG+째/XSN+./SY+그리고/MAJ+몇/MM+명/NNBC+은/JX+또/MAG+내/NP+JKG+스타일/NNG+아니/VCN+여/EC+가/VX+꼬/EF+./SY"
+          },
+          {
+            "id": 8,
+            "text": "1 : 이광수 보는 낙에 본 건데 ㅠㅠ",
+            "norm_text": "이광수 보는 낙에 본 건데 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이광수/NNP+보/VV+는/ETM+낙/NNG+에/JKB+본/VV+ETM+건데/NNB+VCP+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 나도 나도 키키",
+            "norm_text": "나도 나도 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+나/NP+도/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 이제 못 보니까 아숩다 ㅠㅠ",
+            "norm_text": "이제 못 보니까 아숩다 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+못/MAG+보/VV+니까/EC+아/IC+숩/NNG+다/JX+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 드라마도 요즘 뭐 재밌는 거 없제 ㅠ",
+            "norm_text": "드라마도 요즘 뭐 재밌는 거 없제 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "드라마/NNG+도/JX+요즘/MAG+뭐/IC+재밌/VA+는/ETM+거/NNB+없/VA+제ㅠ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 어어어 아 나 슬의 원래 보는데 요즘 못 보고 있너 ㅠㅠ",
+            "norm_text": "어어어 아 나 슬의 원래 보는데 요즘 못 보고 있너 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+어/IC+어/IC+아/IC+나/NP+슬/NNG+의/JKG+원래/MAG+보/VV+는데/EC+요즘/MAG+못/MAG+보/VV+고/EC+있/VX+너/NP+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 목욜 운덩 가서 ㅠㅠ",
+            "norm_text": "목욜 운덩 가서 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "목욜운덩가서ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 슬의 시즌 2도 잼나나?",
+            "norm_text": "슬의 시즌 2도 잼나나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "슬/NNG+의/JKG+시즌/NNG+2/SN+도/NNBC+잼/VV+ETN+나/VV+나/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나 시즌 1은 봤었는데 왠지 시즌 2 안 봐지네 키키",
+            "norm_text": "나 시즌 1은 봤었는데 왠지 시즌 2 안 봐지네 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+시즌/NNG+1/SN+은/JX+봤었/VV+EP+는데/EC+왠지/MAG+시즌/NNG+2/SN+안/MAG+봐/VV+EC+지네/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 어엉 시즌 2 완전 잼난다 ㅠㅠ",
+            "norm_text": "어엉 시즌 2 완전 잼난다 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어엉/IC+시즌/NNG+2/SN+완전잼난다ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 나오는 배우들 다 좋아",
+            "norm_text": "나오는 배우들 다 좋아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나오/VV+는/ETM+배우/NNG+들/XSN+다/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 지들끼리 케미가 장난 없너",
+            "norm_text": "지들끼리 케미가 장난 없너",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지/NP+들/XSN+끼리/XSN+케미/NNP+가/JKS+장난/NNG+없/VA+너/NP"
+          },
+          {
+            "id": 19,
+            "text": "2 : 주연 배우들 캠핑 가가꼬 게임 하는 영상 십오야 유툽에 있는데 봤나? 키키",
+            "norm_text": "주연 배우들 캠핑 가가꼬 게임 하는 영상 십오야 유툽에 있는데 봤나? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주연/NNG+배우/NNG+들/XSN+캠핑/NNG+가/VV+가꼬/EC+게임/NNG+하/XSV+는/ETM+영상/NNG+십/NR+오/NR+야유/NNG+툽/NNP+에/JKB+있/VV+는데/EC+봤/VX+EP+나/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "2 : 완전 배 째는 겈 키키",
+            "norm_text": "완전 배 째는 겈 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전배째는겈키키/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 그거 전부는 안 보고 몇 편만 봤당 키키",
+            "norm_text": "그거 전부는 안 보고 몇 편만 봤당 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+전부/NNG+는/JX+안/MAG+보/VV+고/EC+몇/MM+편/NNBC+만/JX+봤/VV+EP+당/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "1 : 근데 진짜 다들 케미 좋지 않나 키키",
+            "norm_text": "근데 진짜 다들 케미 좋지 않나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+진짜/MAG+다/MAG+들/VV+케/EC+미/NNG+좋/VA+지/EC+않/VX+나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 조정석은 걍 익준이임 ㅠㅠ",
+            "norm_text": "조정석은 걍 익준이임 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조정석/NNP+은/JX+걍익/UNKNOWN+준이/NNG+임/VCP+ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 완전 익준 자쳌 키키",
+            "norm_text": "완전 익준 자쳌 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "완전익준자쳌키키/UNKNOWN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 낸 끝까지 다 잼나더랔 키키",
+            "norm_text": "낸 끝까지 다 잼나더랔 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "낸/VV+ETM+끝/NNG+까지/JX+다/MAG+잼/VV+ETN+나/JX+더랔/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 정경호 진짜 귀엽더라고 키키",
+            "norm_text": "정경호 진짜 귀엽더라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정경호/NNP+진짜/MAG+귀엽/VA+더라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "1 : 정경호 졸귀탱이지 키키",
+            "norm_text": "정경호 졸귀탱이지 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "정경호/NNP+졸/NNG+귀/NNG+탱/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 진짜 대명이고 귀엽고 유연석도 귀엽고 ㅠㅠ",
+            "norm_text": "진짜 대명이고 귀엽고 유연석도 귀엽고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+대명/NNG+이/VCP+고/EC+귀엽/VA+고/EC+유연석/NNP+도/JX+귀엽/VA+고/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 29,
+            "text": "2 : 그니깤 키키 내 정경호 본 거 얘기했었나?",
+            "norm_text": "그니깤 키키 내 정경호 본 거 얘기했었나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그/NP+니/VCP+EC+깤키/UNKNOWN+키/NNG+내정/NNP+경호/NNG+본/VV+ETM+거/NNB+얘기/NNG+했었/XSV+EP+나/EF"
+          },
+          {
+            "id": 30,
+            "text": "2 : 라온마 이후에 봤더라면 그 사인 아직 간직했을 건데 ㅠㅠ",
+            "norm_text": "라온마 이후에 봤더라면 그 사인 아직 간직했을 건데 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "라/IC+온마/NNG+이후/NNG+에/JKB+봤/VV+EP+더라면/EC+그/MM+사인/NNG+JX+아직/MAG+간직/NNG+했/XSV+EP+을/ETM+건데/NNB+VCP+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 31,
+            "text": "1 : 헐헐헐 언제 언제 어디서 봤었너?",
+            "norm_text": "헐헐헐 언제 언제 어디서 봤었너?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "헐헐/MAG+헐/VV+JKO+언제/MAG+언제/MAG+어디/NP+서/JKB+봤었/VV+EP+너/NP"
+          },
+          {
+            "id": 32,
+            "text": "1 : 사인 버렸나 ㅠㅠ",
+            "norm_text": "사인 버렸나 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "사인버렸나ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 33,
+            "text": "2 : 옛날에 야구장에서 봤었놐 키키",
+            "norm_text": "옛날에 야구장에서 봤었놐 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "옛날/NNG+에/JKB+야구장/NNG+에서/JKB+봤었/VV+EP+놐키/UNKNOWN+키/NNG"
+          },
+          {
+            "id": 34,
+            "text": "2 : 염치없게 경기 보는데 가서 사인 요구해서 받아 놓고는 정작 사인 버림 키키",
+            "norm_text": "염치없게 경기 보는데 가서 사인 요구해서 받아 놓고는 정작 사인 버림 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "염치없/VA+게/EC+경기/NNG+보/VV+는/ETM+데/NNB+가/JKS+서사/NNG+인/VCP+ETM+요구/NNG+해서/XSV+EC+받/VV+아/EC+놓/VX+고/EC+는/JX+정작/NNG+사인/NNG+JX+버림/VX+ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 35,
+            "text": "2 : 의미 없으 키키",
+            "norm_text": "의미 없으 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "의미/NNG+없/VA+으/EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

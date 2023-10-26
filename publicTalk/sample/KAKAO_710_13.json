@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 56064,
+    "name": "KAKAO_710_13_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256071188/KAKAO_710_13_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928114256071188/KAKAO_710_13_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35612,
+      "filename": "KAKAO_710_13.txt",
+      "title": "KAKAO_710_13",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 560,
+      "annotations": {
+        "subject": "계절/날씨",
+        "speaker_type": "1:1",
+        "size": 560,
+        "word_size": 177,
+        "text": "1 : 오늘 창원 날씨는 어땠어? 키키\n2 : 오늘은 엄청 맑았어~\n2 : 가을 옷 입고 나오니 덥더라고 ㅜㅜ 키키\n1 : 그치? ㅜㅜ 여기 서울도 엄청 덥더라...\n1 : 다시 여름인가?\n2 : 안돼! 여름보다는 가을이 더 좋다구! 키키\n1 : 키키 근데 다음 주까지 거의 매일 30도던데?\n2 : 반팔 다 넣었는데 다시 꺼내야겠다... 속상... ㅜㅜ\n1 : 키키 응... 몇 개라도 꺼내야 할 듯...\n1 : 추석은 지나야 시원해질 거 같아\n2 : 키키 다시 꺼내야겠다 ㅜㅜ\n2 : 근데 이번 추석에는 창원 오는 거야? 키키\n1 : 키키 아니... 표를 구하지를 못했다 ㅜㅜ 엄청난 경쟁력\n2 : 그거 티켓팅 언제 했어? 키키\n1 : 그거 9월 1일 아침 7시에 했는데 실패했어 키키\n2 : 그럼 추석 때는 서울에 있는 거야? 키키\n1 : 응 부모님도 너무 어렵게 내려오진 말라고 하는데... ㅜㅜ 아휴\n2 : 키키 부모님 못 뵌 지 오래지 않아? ㅜㅜ\n1 : 맞아... 작년 설날 이후로 못 봤지 ㅜㅜ\n1 : 날씨도 좋아서 같이 놀러 가면 좋은데\n2 : 와...이러다 1년만이 가겠다...\n2 : 응응 놀러 가면 좋을 거 같은뎅~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 창원 날씨는 어땠어? 키키",
+            "norm_text": "오늘 창원 날씨는 어땠어? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+창원/NNP+날씨/NNG+는/JX+어땠어/VA+EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오늘은 엄청 맑았어~",
+            "norm_text": "오늘은 엄청 맑았어~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/NNG+은/JX+엄청/MAG+맑/VA+았/EP+어/EC+~/SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 가을 옷 입고 나오니 덥더라고 ㅜㅜ 키키",
+            "norm_text": "가을 옷 입고 나오니 덥더라고 ㅜㅜ 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "가을/NNG+옷/NNG+입/VV+고/EC+나오/VV+니/EC+덥/VA+더라고/EF+ㅜㅜ/UNKNOWN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그치? ㅜㅜ 여기 서울도 엄청 덥더라...",
+            "norm_text": "그치? ㅜㅜ 여기 서울도 엄청 덥더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+ㅜㅜ/UNKNOWN+여기/NP+서울/NNP+도/JX+엄청/MAG+덥/VA+더라/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "1 : 다시 여름인가?",
+            "norm_text": "다시 여름인가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다시/MAG+여름/NNG+인가/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 안돼! 여름보다는 가을이 더 좋다구! 키키",
+            "norm_text": "안돼! 여름보다는 가을이 더 좋다구! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+돼/VV+EF+여름/NNG+보다/JKB+는/JX+가을/NNG+이/JKS+더/MAG+좋/VA+다구/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "1 : 키키 근데 다음 주까지 거의 매일 30도던데?",
+            "norm_text": "키키 근데 다음 주까지 거의 매일 30도던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+다음/NNG+주/NNG+까지/JX+거의/MAG+매일/MAG+30/SN+도/NNBC+던데/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 반팔 다 넣었는데 다시 꺼내야겠다... 속상... ㅜㅜ",
+            "norm_text": "반팔 다 넣었는데 다시 꺼내야겠다... 속상... ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "반팔/NNG+다/MAG+넣/VV+었/EP+는데/EC+다시/MAG+꺼내/VV+야겠다/EC+VX+EP+EF+./SY+속상/NNG+./SY+./SY+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 키키 응... 몇 개라도 꺼내야 할 듯...",
+            "norm_text": "키키 응... 몇 개라도 꺼내야 할 듯...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+응/IC+./SY+몇/MM+개/NNBC+라도/VCP+EC+꺼내/VV+야/EC+할/VX+ETM+듯/NNB+./SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 추석은 지나야 시원해질 거 같아",
+            "norm_text": "추석은 지나야 시원해질 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "추석/NNG+은/JX+지나/VV+야/EC+시원/XR+해질/XSA+EC+VX+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 키키 다시 꺼내야겠다 ㅜㅜ",
+            "norm_text": "키키 다시 꺼내야겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "키/NNG+키/NNG+다시/MAG+꺼내/VV+야겠다/EC+VX+EP+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 이번 추석에는 창원 오는 거야? 키키",
+            "norm_text": "근데 이번 추석에는 창원 오는 거야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+이번/NNG+추석/NNG+에/JKB+는/JX+창원/NNP+오/VV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "1 : 키키 아니... 표를 구하지를 못했다 ㅜㅜ 엄청난 경쟁력",
+            "norm_text": "키키 아니... 표를 구하지를 못했다 ㅜㅜ 엄청난 경쟁력",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+./SY+./SY+표/NNG+를/JKO+구하/VV+지/EC+를/JX+못했/VX+EP+다/EF+ㅜㅜ/UNKNOWN+엄청난/VA+ETM+경쟁력/NNG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그거 티켓팅 언제 했어? 키키",
+            "norm_text": "그거 티켓팅 언제 했어? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+티켓/NNG+팅/IC+언제/MAG+했/VV+EP+어/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 그거 9월 1일 아침 7시에 했는데 실패했어 키키",
+            "norm_text": "그거 9월 1일 아침 7시에 했는데 실패했어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+9/SN+월/NNBC+1/SN+일/NNBC+아침/NNG+7/SN+시/NNBC+에/JKB+했/VV+EP+는데/EC+실패/NNG+했/XSV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럼 추석 때는 서울에 있는 거야? 키키",
+            "norm_text": "그럼 추석 때는 서울에 있는 거야? 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+추석/NNG+때/NNG+는/JX+서울/NNP+에/JKB+있/VV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 응 부모님도 너무 어렵게 내려오진 말라고 하는데... ㅜㅜ 아휴",
+            "norm_text": "응 부모님도 너무 어렵게 내려오진 말라고 하는데... ㅜㅜ 아휴",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+부모/NNG+님/XSN+도/JX+너무/MAG+어렵/VA+게/EC+내려오/VV+진/EC+JX+말/VX+라고/EC+하/VV+는데/EC+./SY+./SY+ㅜㅜ아휴/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "2 : 키키 부모님 못 뵌 지 오래지 않아? ㅜㅜ",
+            "norm_text": "키키 부모님 못 뵌 지 오래지 않아? ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+부모/NNG+님/XSN+못/MAG+뵌/VV+ETM+지/NNB+오래/VA+지/EC+않/VX+아/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 맞아... 작년 설날 이후로 못 봤지 ㅜㅜ",
+            "norm_text": "맞아... 작년 설날 이후로 못 봤지 ㅜㅜ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EF+./SY+작년/NNG+설날/NNG+이후/NNG+로/JKB+못/MAG+봤/VV+EP+지/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 날씨도 좋아서 같이 놀러 가면 좋은데",
+            "norm_text": "날씨도 좋아서 같이 놀러 가면 좋은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "날씨/NNG+도/JX+좋/VA+아서/EC+같이/MAG+놀/VV+러/EC+가/VX+면/EC+좋/VA+은데/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 와...이러다 1년만이 가겠다...",
+            "norm_text": "와...이러다 1년만이 가겠다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+./SY+이러/VV+다/EC+1/SN+년/NNBC+만/JX+이/JKS+가/VV+겠/EP+다/EF+./SY"
+          },
+          {
+            "id": 22,
+            "text": "2 : 응응 놀러 가면 좋을 거 같은뎅~!",
+            "norm_text": "응응 놀러 가면 좋을 거 같은뎅~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응응/MAG+놀/VV+러/EC+가/VX+면/EC+좋/VA+을/ETM+거/NNB+같/VA+은/ETM+뎅/NNP+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 21230,
+    "name": "KAKAO_455_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140605066717/KAKAO_455_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/49/txt20210916140605066717/KAKAO_455_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 27871,
+      "filename": "KAKAO_455_01.txt",
+      "title": "KAKAO_455_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-16",
+      "size": 375,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "1:1",
+        "size": 375,
+        "word_size": 128,
+        "text": "1 : 오늘 저녁 메뉴는 뭐냐\n2 : 모르겠다 퇴근하고 생각해봐야겠다\n1 : 키키 밥 시켜 먹을 거임?\n2 : 오늘은 시켜 먹을라고 키키\n2 : 집에 먹을 게 없다\n1 : 키키 아 공부하다가 배고파서 머리 식힐 겸 나왔다\n2 : 동네 한 바퀴 돌라고?\n1 : 아니 밥 먹으러 키키\n2 : 키키 뭐 먹을 건데 혼자 먹으러 가나?\n1 : 어ㅠㅠ 집에 먹는 거 쫌 지겨워서 나옴ㄱㄲ\n2 : 맞제 키키 나도 며칠은 계속 집에서 대충 먹었는데 오늘은 시켜 먹어야겠다 키키\n1 : 키키 난 짬뽕 먹으러 왔다 으 죽겠너\n2 : 지금까지 계속 공부했나?\n1 : 어... 눈알 빠질 것 같음\n2 : 고생이 많노 계속 앉아있어서 허리도 아프겠노\n1 : 이 짓도 이제 진짜 얼마 안 남았으\n2 : 9월 달에 시험 치나?",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 저녁 메뉴는 뭐냐",
+            "norm_text": "오늘 저녁 메뉴는 뭐냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+저녁/NNG+메뉴/NNG+는/JX+뭐/NP+냐/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 모르겠다 퇴근하고 생각해봐야겠다",
+            "norm_text": "모르겠다 퇴근하고 생각해봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "모르/VV+겠/EP+다/EC+퇴근/NNG+하/XSV+고/EC+생각/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+다/EC"
+          },
+          {
+            "id": 3,
+            "text": "1 : 키키 밥 시켜 먹을 거임?",
+            "norm_text": "키키 밥 시켜 먹을 거임?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+밥/NNG+시켜/XSV+EC+먹/VV+을/ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오늘은 시켜 먹을라고 키키",
+            "norm_text": "오늘은 시켜 먹을라고 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오늘/NNG+은/JX+시켜/VV+EC+먹/VV+을라고/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "2 : 집에 먹을 게 없다",
+            "norm_text": "집에 먹을 게 없다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집/NNG+에/JKB+먹/VV+을/ETM+게/NNB+JKS+없/VA+다/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 아 공부하다가 배고파서 머리 식힐 겸 나왔다",
+            "norm_text": "키키 아 공부하다가 배고파서 머리 식힐 겸 나왔다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+아/EC+공부/NNG+하/XSV+다가/EC+배고파서/VA+EC+머리/NNG+식힐/VV+ETM+겸/NNB+나왔/VV+EP+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 동네 한 바퀴 돌라고?",
+            "norm_text": "동네 한 바퀴 돌라고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "동네/NNG+한/MM+바퀴/NNBC+돌/VV+라고/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 아니 밥 먹으러 키키",
+            "norm_text": "아니 밥 먹으러 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+밥/NNG+먹/VV+으러/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 뭐 먹을 건데 혼자 먹으러 가나?",
+            "norm_text": "키키 뭐 먹을 건데 혼자 먹으러 가나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/IC+먹/VV+을/ETM+건데/NNB+VCP+EC+혼자/MAG+먹/VV+으러/EC+가/VX+나/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 어ㅠㅠ 집에 먹는 거 쫌 지겨워서 나옴ㄱㄲ",
+            "norm_text": "어ㅠㅠ 집에 먹는 거 쫌 지겨워서 나옴ㄱㄲ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+ㅠㅠ/UNKNOWN+집/NNG+에/JKB+먹/VV+는/ETM+거/NNB+쫌/MAG+지겨워서/VA+EC+나옴/VV+EC+ㄱㄲ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 맞제 키키 나도 며칠은 계속 집에서 대충 먹었는데 오늘은 시켜 먹어야겠다 키키",
+            "norm_text": "맞제 키키 나도 며칠은 계속 집에서 대충 먹었는데 오늘은 시켜 먹어야겠다 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+제/EC+키/NNG+키나/XSA+ETN+JX+도/JX+며칠/NNG+은/JX+계속/MAG+집/NNG+에서/JKB+대충/MAG+먹/VV+었/EP+는데/EC+오늘/NNG+은/JX+시켜/VV+EC+먹/VV+어야/EC+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 난 짬뽕 먹으러 왔다 으 죽겠너",
+            "norm_text": "키키 난 짬뽕 먹으러 왔다 으 죽겠너",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+난/VV+ETM+짬뽕/NNG+먹/VV+으러/EC+왔/VX+EP+다/EF+으/IC+죽/VV+겠/EP+너/NP"
+          },
+          {
+            "id": 13,
+            "text": "2 : 지금까지 계속 공부했나?",
+            "norm_text": "지금까지 계속 공부했나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지금/NNG+까지/JX+계속/MAG+공부/NNG+했/XSV+EP+나/EF"
+          },
+          {
+            "id": 14,
+            "text": "1 : 어... 눈알 빠질 것 같음",
+            "norm_text": "어... 눈알 빠질 것 같음",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+./SY+눈알/NNG+빠질/VV+ETM+것/NNB+같/VA+음/ETN"
+          },
+          {
+            "id": 15,
+            "text": "2 : 고생이 많노 계속 앉아있어서 허리도 아프겠노",
+            "norm_text": "고생이 많노 계속 앉아있어서 허리도 아프겠노",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "고생/NNG+이/JKS+많/VA+노/EC+계속/MAG+앉/VV+아/EC+있/VX+어서/EC+허리/NNG+도/JX+아프/VA+겠/EP+노/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 이 짓도 이제 진짜 얼마 안 남았으",
+            "norm_text": "이 짓도 이제 진짜 얼마 안 남았으",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/MM+짓/NNB+도/JX+이제/MAG+진짜/MAG+얼마/NNG+안/MAG+남/VV+았/EP+으/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 9월 달에 시험 치나?",
+            "norm_text": "9월 달에 시험 치나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "9/SN+월/NNBC+달/NNG+에/JKB+시험/NNG+치/VV+나/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

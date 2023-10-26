@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 35875,
+    "name": "KAKAO_641_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140625050011/KAKAO_641_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210927140625050011/KAKAO_641_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 34101,
+      "filename": "KAKAO_641_03.txt",
+      "title": "KAKAO_641_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-27",
+      "size": 613,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 613,
+        "word_size": 182,
+        "text": "1 : 너 기차 타서 삶은 계란이랑 사이다 먹어 본 적 있어?\n2 : 키키 삶은 계란이랑 사이다...\n2 : 그럼~ 기차 타면 필수품 아냐?\n1 : 맞아 가위바위보 해서 계란 머리로 깨서 먹고 그랬는데!\n2 : 너는 머리로 자주 깼었겠는걸?!\n1 : 응... 내가 가위바위보를 잘 못해... 키키\n2 : 알아... 키키 나는 기차 여행으로 문경 갔었는데 너는 기차 타고 어디 갔었어?\n1 : 나는 대구 갔었어! 대구에 친척이 살아서 친척 집 갈 때마다 기차 탔었지~\n2 : 대구~ 그랬구나 KTX 탄 거야 무궁화호 탄 거야?\n1 : 맨날 갈 때마다 다르게 탔었어~!\n1 : 근데 확실히 무궁화호가 조금 더 느리긴 하더라\n2 : 근데 확실히 가격 차이도 있으니까~!\n2 : 나는 기차 오래 타는 거 별로 안 좋아해서 무조건 KTX 탔었는데\n1 : 아 그래? 나는 기차 타고 밖에 구경하는 게 좋아서 무궁화호도 자주 탔었어~!\n2 : 서울에서 대구까지 무궁화호 타면 얼마나 걸려?\n1 : 거의 4시간은 잡아야 되더라 키키\n2 : 4시간? 엄청 오래 걸리는구나... 그럼 기차에서 계란이랑 사이다로 안 되겠는데?\n1 : 응... 김밥도 사서 기차에서 가면서 자주 먹었었어~\n2 : 그랬구나~! 나도 나중에 김밥 사서 기차 타야겠다~!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 기차 타서 삶은 계란이랑 사이다 먹어 본 적 있어?",
+            "norm_text": "너 기차 타서 삶은 계란이랑 사이다 먹어 본 적 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+기차/NNG+타/VV+서/EC+삶/VV+은/ETM+계란/NNG+이랑/JKB+사이다/NNG+먹/VV+어/EC+본/VX+ETM+적/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 키키 삶은 계란이랑 사이다...",
+            "norm_text": "키키 삶은 계란이랑 사이다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+삶/VV+은/ETM+계란/NNG+이랑/JKB+사이/NNG+다/VCP+EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "2 : 그럼~ 기차 타면 필수품 아냐?",
+            "norm_text": "그럼~ 기차 타면 필수품 아냐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+~/SY+기차/NNG+타/VV+면/EC+필수품/NNG+아냐/VCN+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 맞아 가위바위보 해서 계란 머리로 깨서 먹고 그랬는데!",
+            "norm_text": "맞아 가위바위보 해서 계란 머리로 깨서 먹고 그랬는데!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+가위바위보/NNG+해서/XSV+EC+계란/NNG+머리/NNG+로/JKB+깨/VV+서/EC+먹/VV+고/EC+그랬/VV+EP+는데/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 너는 머리로 자주 깼었겠는걸?!",
+            "norm_text": "너는 머리로 자주 깼었겠는걸?!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너/NP+는/JX+머리/NNG+로/JKB+자주/MAG+깼/VV+EP+었/EP+겠/EP+는/ETM+걸/NNB+JKO+?/SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 응... 내가 가위바위보를 잘 못해... 키키",
+            "norm_text": "응... 내가 가위바위보를 잘 못해... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+./SY+내/NP+가/JKS+가위바위보/NNG+를/JKO+잘못/MAG+해/VV+EF+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 알아... 키키 나는 기차 여행으로 문경 갔었는데 너는 기차 타고 어디 갔었어?",
+            "norm_text": "알아... 키키 나는 기차 여행으로 문경 갔었는데 너는 기차 타고 어디 갔었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "알/VV+아/EF+./SY+키/NNG+키나/XSA+ETN+JX+는/JX+기차/NNG+여행/NNG+으로/JKB+문경/NNG+갔었/VV+EP+는데/EC+너/NP+는/JX+기차/NNG+타/VV+고/EC+어디/NP+갔었/VV+EP+어/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 나는 대구 갔었어! 대구에 친척이 살아서 친척 집 갈 때마다 기차 탔었지~",
+            "norm_text": "나는 대구 갔었어! 대구에 친척이 살아서 친척 집 갈 때마다 기차 탔었지~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+대/VX+구/EC+갔었/VV+EP+어/EF+대구/NNP+에/JKB+친척/NNG+이/JKS+살/VV+아서/EC+친척/NNG+집/NNG+갈/VV+ETM+때/NNG+마다/JX+기차/NNG+탔었/VV+EP+지/EC+~/SY"
+          },
+          {
+            "id": 9,
+            "text": "2 : 대구~ 그랬구나 KTX 탄 거야 무궁화호 탄 거야?",
+            "norm_text": "대구~ 그랬구나 KTX 탄 거야 무궁화호 탄 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "대구/NNP+~/SY+그랬/VV+EP+구나/EF+KTX/SL+탄/VV+ETM+거/NNB+야/VCP+EF+무궁화호/NNP+탄/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 맨날 갈 때마다 다르게 탔었어~!",
+            "norm_text": "맨날 갈 때마다 다르게 탔었어~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맨날/MAG+갈/VV+ETM+때/NNG+마다/JX+다르/VA+게/EC+탔었/VV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 근데 확실히 무궁화호가 조금 더 느리긴 하더라",
+            "norm_text": "근데 확실히 무궁화호가 조금 더 느리긴 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+확실히/MAG+무궁화호/NNP+가/JKS+조금/MAG+더/MAG+느리/VA+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 근데 확실히 가격 차이도 있으니까~!",
+            "norm_text": "근데 확실히 가격 차이도 있으니까~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+확실히/MAG+가격/NNG+차이/NNG+도/JX+있/VA+으니까/EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 나는 기차 오래 타는 거 별로 안 좋아해서 무조건 KTX 탔었는데",
+            "norm_text": "나는 기차 오래 타는 거 별로 안 좋아해서 무조건 KTX 탔었는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+기차/NNG+오래/MAG+타/VV+는/ETM+거/NNB+별로/MAG+안/MAG+좋/VA+아/EC+해서/VV+EC+무조건/MAG+KTX/SL+탔었/VV+EP+는데/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 아 그래? 나는 기차 타고 밖에 구경하는 게 좋아서 무궁화호도 자주 탔었어~!",
+            "norm_text": "아 그래? 나는 기차 타고 밖에 구경하는 게 좋아서 무궁화호도 자주 탔었어~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+그래/IC+나/NP+는/JX+기차/NNG+타/VV+고/EC+밖/NNG+에/JKB+구경/NNG+하/XSV+는/ETM+게/NNB+JKS+좋/VA+아서/EC+무궁화호/NNP+도/JX+자주/MAG+탔었/VV+EP+어/EC+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 서울에서 대구까지 무궁화호 타면 얼마나 걸려?",
+            "norm_text": "서울에서 대구까지 무궁화호 타면 얼마나 걸려?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "서울/NNP+에서/JKB+대구/NNP+까지/JX+무궁화호/NNP+타/VV+면/EC+얼마나/MAG+걸려/VV+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 거의 4시간은 잡아야 되더라 키키",
+            "norm_text": "거의 4시간은 잡아야 되더라 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거의/MAG+4/SN+시간/NNG+은/JX+잡/VV+아야/EC+되/VV+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 4시간? 엄청 오래 걸리는구나... 그럼 기차에서 계란이랑 사이다로 안 되겠는데?",
+            "norm_text": "4시간? 엄청 오래 걸리는구나... 그럼 기차에서 계란이랑 사이다로 안 되겠는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "4/SN+시간/NNBC+엄청/MAG+오래/MAG+걸리/VV+는구나/EF+./SY+그럼/MAJ+기차/NNG+에서/JKB+계란/NNG+이랑/JKB+사이다/NNG+로/JKB+안/MAG+되/VV+겠/EP+는데/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 응... 김밥도 사서 기차에서 가면서 자주 먹었었어~",
+            "norm_text": "응... 김밥도 사서 기차에서 가면서 자주 먹었었어~",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+./SY+김밥/NNG+도/JX+사/VV+서/EC+기차/NNG+에서/JKB+가/VV+면서/EC+자주/MAG+먹/VV+었었/EP+어/EC+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 그랬구나~! 나도 나중에 김밥 사서 기차 타야겠다~!",
+            "norm_text": "그랬구나~! 나도 나중에 김밥 사서 기차 타야겠다~!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그랬/VV+EP+구나/EF+~/SY+나/NP+도/JX+나중/NNG+에/JKB+김밥/NNG+사/VV+서/EC+기차/NNG+타/VV+야겠다/EC+VX+EP+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

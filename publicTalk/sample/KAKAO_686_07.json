@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 55415,
+    "name": "KAKAO_686_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113612076789/KAKAO_686_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210928113612076789/KAKAO_686_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 35406,
+      "filename": "KAKAO_686_07.txt",
+      "title": "KAKAO_686_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-28",
+      "size": 655,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "1:1",
+        "size": 655,
+        "word_size": 191,
+        "text": "1 : 카톡 사진 봤어? 아버님이 지하에 놀이방을 만드셨던데?\n2 : 응 봤어~ 애들 놀이방을 그렇게 만들 줄이야.\n1 : 대단하셔. 거기에 트램펄린도 있고, 볼풀장도 있고 텐트도 있고 엄청 많이 갖다 놓으셨더라\n2 : 조카들이 너무 좋아 할 것 같아.\n1 : 응 이제 우리 모이면 애들은 거기 가서 놀라고 하자. ㅋ\n2 : 그니깐 , 아빠가 거기에 인터폰도 달아서 애들이 쉽게 전화 할 수 있게도 만들었어\n1 : 인터폰은 정말 생각도 못했다. 거기에 달을 줄은 ㅎ\n2 : 어 아빠 예전부터 손재주가 있어서 우리 어릴 적에도 각 방에 인터폰 달아주셔서 놀았던 기억이 나. ㅎ\n1 : 진짜? 신기하다. ㅋ\n1 : 아버님 어머님 정말 손주들에 대한 사랑이 가득하셔,. 보통은 저렇게 꾸미기 쉽지 않거든.\n2 : 그렇지. 그리고 거기에 간이 침대도 갖다 놨던데... 어른들이 쉴 수 있도록 비치 해 놓으셨다고.\n1 : 여기 꾸밀려고 아버님 어머님 너무 고생하셨겠다.\n2 : 응 엄마 페인트 칠하고 바닥 장판 새로 깔고...\n1 : 다들 손재주들이 엄청 있으셔서 그걸 다 셀프로 하셨네~\n2 : 응 엄마 다 하고나니깐 너무 몸이 쑤신다고 하시네. ㅋ\n1 : 힘들만도 하겠어 그렇게 넓은 곳을 두 분이서만 꾸미셨으니... 우리가 가서라도 도와드렸어야 했는데\n2 : 이번에 가서 리액션 제대로 해주자구... ㅎ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 카톡 사진 봤어? 아버님이 지하에 놀이방을 만드셨던데?",
+            "norm_text": "카톡 사진 봤어? 아버님이 지하에 놀이방을 만드셨던데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "카톡/NNP+사진/NNG+봤/VV+EP+어/EF+아버님/NNG+이/JKS+지하/NNG+에/JKB+놀이방/NNG+을/JKO+만드셨/VV+EP+EP+던데/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 봤어~ 애들 놀이방을 그렇게 만들 줄이야.",
+            "norm_text": "응 봤어~ 애들 놀이방을 그렇게 만들 줄이야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+봤/VV+EP+어/EC+~/SY+애/NNG+들/XSN+놀이방/NNG+을/JKO+그렇게/MAG+만들/VV+ETM+줄/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 대단하셔. 거기에 트램펄린도 있고, 볼풀장도 있고 텐트도 있고 엄청 많이 갖다 놓으셨더라",
+            "norm_text": "대단하셔. 거기에 트램펄린도 있고, 볼풀장도 있고 텐트도 있고 엄청 많이 갖다 놓으셨더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "대단/XR+하/XSA+셔/EP+EF+거기/NP+에/JKB+트램펄린/NNG+도/JX+있/VA+고/EC+,/SC+볼/VV+ETM+풀장/NNG+도/JX+있/VA+고/EC+텐트/NNG+도/JX+있/VA+고/EC+엄청/MAG+많이/MAG+갖/VV+다/EC+놓/VX+으셨/EP+EP+더라/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 조카들이 너무 좋아 할 것 같아.",
+            "norm_text": "조카들이 너무 좋아 할 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조카/NNG+들/XSN+이/JKS+너무/MAG+좋/VA+아/EC+할/VX+ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 응 이제 우리 모이면 애들은 거기 가서 놀라고 하자. ㅋ",
+            "norm_text": "응 이제 우리 모이면 애들은 거기 가서 놀라고 하자. ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "응/IC+이제/MAG+우리/NP+모이/VV+면/EC+애/NNG+들/XSN+은/JX+거기/NP+가/JKS+서/VV+EC+놀라/VV+고/EC+하/VX+자/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그니깐 , 아빠가 거기에 인터폰도 달아서 애들이 쉽게 전화 할 수 있게도 만들었어",
+            "norm_text": "그니깐 , 아빠가 거기에 인터폰도 달아서 애들이 쉽게 전화 할 수 있게도 만들었어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니깐/MAJ+,/SC+아빠/NNG+가/JKS+거기/NP+에/JKB+인터폰/NNG+도/JX+달/VX+아서/EC+애/NNG+들/XSN+이/JKS+쉽/VA+게/EC+전화/NNG+할/XSV+ETM+수/NNB+있/VV+게/EC+도/JX+만들/VV+었/EP+어/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 인터폰은 정말 생각도 못했다. 거기에 달을 줄은 ㅎ",
+            "norm_text": "인터폰은 정말 생각도 못했다. 거기에 달을 줄은 ㅎ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "인터폰/NNG+은/JX+정말/MAG+생각/NNG+도/JX+못/MAG+했/VV+EP+다/EF+거기/NP+에/JKB+달/VV+을/ETM+줄/NNB+은/JX+ㅎ/XSA"
+          },
+          {
+            "id": 8,
+            "text": "2 : 어 아빠 예전부터 손재주가 있어서 우리 어릴 적에도 각 방에 인터폰 달아주셔서 놀았던 기억이 나. ㅎ",
+            "norm_text": "어 아빠 예전부터 손재주가 있어서 우리 어릴 적에도 각 방에 인터폰 달아주셔서 놀았던 기억이 나. ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+아빠/NNG+예전/NNG+부터/JX+손재주/NNG+가/JKS+있/VA+어서/EC+우리/NP+어릴/VA+ETM+적/NNB+에/JKB+도/JX+각방/NNG+에/JKB+인터폰/NNG+달/VV+아/EC+주/VX+셔서/EP+EC+놀/VV+았/EP+던/ETM+기억/NNG+이나/JC+ㅎ/XSA"
+          },
+          {
+            "id": 9,
+            "text": "1 : 진짜? 신기하다. ㅋ",
+            "norm_text": "진짜? 신기하다. ㅋ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+신기/XR+하/XSA+다/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아버님 어머님 정말 손주들에 대한 사랑이 가득하셔,. 보통은 저렇게 꾸미기 쉽지 않거든.",
+            "norm_text": "아버님 어머님 정말 손주들에 대한 사랑이 가득하셔,. 보통은 저렇게 꾸미기 쉽지 않거든.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아버님/NNG+어머님/NNG+정말/MAG+손주/NNG+들/XSN+에/JKB+대한/VV+ETM+사랑/NNG+이/JKS+가득/MAG+하/VV+셔/EP+EF+,/SC+./SY+보통/NNG+은/JX+저렇게/MAG+꾸미/VV+기/ETN+쉽/VA+지/EC+않/VX+거든/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그렇지. 그리고 거기에 간이 침대도 갖다 놨던데... 어른들이 쉴 수 있도록 비치 해 놓으셨다고.",
+            "norm_text": "그렇지. 그리고 거기에 간이 침대도 갖다 놨던데... 어른들이 쉴 수 있도록 비치 해 놓으셨다고.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EF+그리고/MAJ+거기/NP+에/JKB+간이침대/NNG+도/JX+갖/VX+다/EC+놨/VX+EP+던데/EF+./SY+어른/NNG+들/XSN+이/JKS+쉴/VV+ETM+수/NNB+있/VV+도록/EC+비치/NNG+해/XSV+EC+놓/VX+으셨/EP+EP+다고/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 여기 꾸밀려고 아버님 어머님 너무 고생하셨겠다.",
+            "norm_text": "여기 꾸밀려고 아버님 어머님 너무 고생하셨겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+꾸밀/VV+ETM+려고/NNG+아버님/NNG+어머님/NNG+너무/MAG+고생/NNG+하/XSV+셨/EP+EP+겠/EP+다/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 응 엄마 페인트 칠하고 바닥 장판 새로 깔고...",
+            "norm_text": "응 엄마 페인트 칠하고 바닥 장판 새로 깔고...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+엄마/NNG+페인트칠/NNG+하/XSV+고/EC+바닥/NNG+장판/NNG+새로/MAG+깔/VV+고/EC+./SY+./SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 다들 손재주들이 엄청 있으셔서 그걸 다 셀프로 하셨네~",
+            "norm_text": "다들 손재주들이 엄청 있으셔서 그걸 다 셀프로 하셨네~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다/MAG+들손/NNG+재주/NNG+들/XSN+이/JKS+엄청/MAG+있/VA+으셔서/EP+EC+그걸/NP+JKO+다/MAG+셀/VV+ETM+프로/NNG+하/XSV+셨/EP+EP+네/EF+~/SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응 엄마 다 하고나니깐 너무 몸이 쑤신다고 하시네. ㅋ",
+            "norm_text": "응 엄마 다 하고나니깐 너무 몸이 쑤신다고 하시네. ㅋ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+엄/NNG+마다/JX+하/VV+고/EC+나/VX+니깐/EC+너무/MAG+몸/NNG+이/JKS+쑤/VV+신다고/EP+EC+하/VX+시/EP+네/EF+ㅋ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "1 : 힘들만도 하겠어 그렇게 넓은 곳을 두 분이서만 꾸미셨으니... 우리가 가서라도 도와드렸어야 했는데",
+            "norm_text": "힘들만도 하겠어 그렇게 넓은 곳을 두 분이서만 꾸미셨으니... 우리가 가서라도 도와드렸어야 했는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "힘들/VA+ETM+만도/NNG+하/XSV+겠/EP+어/EF+그렇게/MAG+넓/VA+은/ETM+곳/NNG+을/JKO+두/MM+분/NNBC+이/VCP+서/EC+만/JX+꾸미/VV+셨으니/EP+EP+EC+./SY+./SY+우리/NP+가/JKS+가/VV+서라도/EC+JX+도와/VV+EC+드렸/VX+EP+어야/EC+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 이번에 가서 리액션 제대로 해주자구... ㅎ",
+            "norm_text": "이번에 가서 리액션 제대로 해주자구... ㅎ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "이번/NNG+에/JKB+가/VV+서/EC+리액션/NNP+제대로/MAG+해/VV+EC+주/VX+자구/EF+./SY+ㅎ/XSA"
+          }
+        ]
+      }
+    }
+  ]
+}

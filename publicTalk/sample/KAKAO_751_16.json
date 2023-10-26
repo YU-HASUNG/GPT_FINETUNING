@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 51952,
+    "name": "KAKAO_751_16_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134746094323/KAKAO_751_16_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/53/txt20210929134746094323/KAKAO_751_16_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 37004,
+      "filename": "KAKAO_751_16.txt",
+      "title": "KAKAO_751_16",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-29",
+      "size": 375,
+      "annotations": {
+        "subject": "미용",
+        "speaker_type": "1:1",
+        "size": 375,
+        "word_size": 125,
+        "text": "1 : 엄마 나 오늘 병원 갔다 왔잖아\n2 : 어디 아파? 어디 갔다 왔어?\n1 : 나 다리에 뭐가 나가지고 피부과 ㅠㅠ\n2 : 아~ 잘 치료 받았어?\n1 : 아니 요즘 피부과 다 왜 그래?\n2 : 왜? 의사가 별로야?\n1 : 아니 무슨 성형외과 같아 제대로 된 피부과가 없어 ㅠㅠ\n2 : 영등포에 있는 피부과 가지 거기가 잘하는데.\n1 : 안 그래도 거기 가려 했는데 너무 멀어서 ㅠㅠ\n2 : ㅠㅠ 많이 별로였니?\n1 : 의사가 돈 별로 안 되는 손님이어서 그런지 몰라도 되게 대충 해주더라고\n2 : 아이고 약은 받았어?\n1 : 응 스테로이드제 들어간 연고 처방해줬어\n2 : 그거 세니까 많이 바르면 안 될 거야\n1 : 응, 의사가 일주일만 바르라고 하더라\n2 : 그래 그거 오래 바르면 안 좋아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 엄마 나 오늘 병원 갔다 왔잖아",
+            "norm_text": "엄마 나 오늘 병원 갔다 왔잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+나/JC+오늘/NNG+병원/NNG+갔/VV+EP+다/EC+왔잖아/VX+EP+EC+VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 어디 아파? 어디 갔다 왔어?",
+            "norm_text": "어디 아파? 어디 갔다 왔어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+아파/VA+EF+어디/NP+갔다왔/VV+EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 다리에 뭐가 나가지고 피부과 ㅠㅠ",
+            "norm_text": "나 다리에 뭐가 나가지고 피부과 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나다리/NNG+에/JKB+뭐/NP+가/JKS+나가/VV+EC+지/VX+고/EC+피부과/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "2 : 아~ 잘 치료 받았어?",
+            "norm_text": "아~ 잘 치료 받았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+~/SY+잘/MAG+치료/NNG+받/VV+았/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아니 요즘 피부과 다 왜 그래?",
+            "norm_text": "아니 요즘 피부과 다 왜 그래?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+요즘/MAG+피부과/NNG+다/VCP+EF+왜/MAG+그래/VA+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 왜? 의사가 별로야?",
+            "norm_text": "왜? 의사가 별로야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+의사/NNG+가/JKS+별로/MAG+야/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아니 무슨 성형외과 같아 제대로 된 피부과가 없어 ㅠㅠ",
+            "norm_text": "아니 무슨 성형외과 같아 제대로 된 피부과가 없어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+무슨/MM+성형외과/NNG+같/VA+아/EC+제대로/MAG+된/VV+ETM+피부과/NNG+가/JKS+없/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 영등포에 있는 피부과 가지 거기가 잘하는데.",
+            "norm_text": "영등포에 있는 피부과 가지 거기가 잘하는데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "영등포/NNP+에/JKB+있/VV+는/ETM+피부과/NNG+가지/JX+거기/NP+가/JKS+잘/MAG+하/VV+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 안 그래도 거기 가려 했는데 너무 멀어서 ㅠㅠ",
+            "norm_text": "안 그래도 거기 가려 했는데 너무 멀어서 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+그래도/VV+EC+거기/NP+가/JKS+려/NNG+했/XSV+EP+는데/EC+너무/MAG+멀/VA+어서/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 10,
+            "text": "2 : ㅠㅠ 많이 별로였니?",
+            "norm_text": "ㅠㅠ 많이 별로였니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅠㅠ많이별로였니/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 의사가 돈 별로 안 되는 손님이어서 그런지 몰라도 되게 대충 해주더라고",
+            "norm_text": "의사가 돈 별로 안 되는 손님이어서 그런지 몰라도 되게 대충 해주더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "의사/NNG+가/JKS+돈/NNG+별로/MAG+안/MAG+되/VV+는/ETM+손/NNG+님/XSN+이/VCP+어서/EC+그런지/VA+EC+몰라도/VV+EC+되게/MAG+대충/NNG+해/XSV+EC+주/VX+더라고/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 아이고 약은 받았어?",
+            "norm_text": "아이고 약은 받았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아이/IC+고약/NNG+은/JX+받/VV+았/EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 응 스테로이드제 들어간 연고 처방해줬어",
+            "norm_text": "응 스테로이드제 들어간 연고 처방해줬어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+스테로이드제/NNG+들어간/VV+ETM+연고/NNG+처방/NNG+해/XSV+EC+줬/VX+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그거 세니까 많이 바르면 안 될 거야",
+            "norm_text": "그거 세니까 많이 바르면 안 될 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+세/VA+니까/EC+많이/MAG+바르/VA+면/EC+안/MAG+될/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응, 의사가 일주일만 바르라고 하더라",
+            "norm_text": "응, 의사가 일주일만 바르라고 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+,/SC+의사/NNG+가/JKS+일/NR+주일/NNBC+만/JX+바르/VV+라고/EC+하/VV+더라/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그래 그거 오래 바르면 안 좋아",
+            "norm_text": "그래 그거 오래 바르면 안 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "50대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그거/NP+오래/MAG+바르/VV+면/EC+안/MAG+좋/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}
